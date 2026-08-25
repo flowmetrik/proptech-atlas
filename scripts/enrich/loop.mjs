@@ -11,7 +11,7 @@
 //   node scripts/enrich/loop.mjs --no-discover   # sans appel LLM
 import { execFileSync } from 'node:child_process';
 import { join } from 'node:path';
-import { ROOT, secrets, fetchWithTimeout } from './lib.mjs';
+import { ROOT, secrets, fetchWithTimeout, MODELS, budgetLeft, spentThisMonth } from './lib.mjs';
 
 const arg = (n, d) => { const i = process.argv.indexOf(`--${n}`); return i > -1 ? process.argv[i + 1] : d; };
 const ROUNDS = arg('rounds', '2');
@@ -28,20 +28,24 @@ const step = (title, cmd, args) => {
   }
 };
 
-/** Un appel LLM ne sert à rien sans crédits : autant le dire avant de brûler
- *  vingt minutes à collectionner des erreurs. */
+/** Un appel LLM ne sert à rien sans crédits — ni sans budget. Autant le dire
+ *  avant de brûler vingt minutes à collectionner des erreurs. */
 async function llmReady() {
   const key = secrets().OPENROUTER_API_KEY;
   if (!key) return { ok: false, why: 'OPENROUTER_API_KEY absente du coffre' };
+  const left = budgetLeft();
+  if (left <= 0) {
+    return { ok: false, why: `budget mensuel atteint : ${spentThisMonth().toFixed(2)} € dépensés` };
+  }
   try {
     const r = await fetchWithTimeout('https://openrouter.ai/api/v1/credits', {
       ms: 15000, headers: { authorization: `Bearer ${key}` },
     });
     const d = (await r.json())?.data ?? {};
-    const left = (d.total_credits ?? 0) - (d.total_usage ?? 0);
-    return left > 0.5
-      ? { ok: true, left }
-      : { ok: false, why: `crédits OpenRouter épuisés (${left.toFixed(2)} $) — recharger sur openrouter.ai/settings/credits` };
+    const credits = (d.total_credits ?? 0) - (d.total_usage ?? 0);
+    return credits > 0.5
+      ? { ok: true, credits, budget: left }
+      : { ok: false, why: `crédits OpenRouter épuisés (${credits.toFixed(2)} $) — recharger sur openrouter.ai/settings/credits` };
   } catch (e) {
     return { ok: false, why: `OpenRouter injoignable : ${e.message}` };
   }
@@ -51,7 +55,11 @@ const n = (f) => join(ROOT, 'scripts', f);
 
 const llm = NO_DISCOVER ? { ok: false, why: '--no-discover' } : await llmReady();
 if (llm.ok) {
-  console.log(`Crédits OpenRouter : ${llm.left.toFixed(2)} $`);
+  console.log(
+    `Crédits OpenRouter : ${llm.credits.toFixed(2)} $ · ` +
+    `budget du mois : ${llm.budget.toFixed(2)} € restants · ` +
+    `modèles : ${MODELS.default} / ${MODELS.smart}`
+  );
   step('Découverte de produits manquants', 'node', [n('enrich/discover.mjs'), '--rounds', ROUNDS]);
   step('Rédaction des fiches en attente', 'node', [n('enrich/fiche.mjs')]);
 } else {

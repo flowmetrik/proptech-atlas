@@ -78,24 +78,99 @@ export async function pool(items, n, worker) {
 const KEY = () => secrets().OPENROUTER_API_KEY ?? process.env.OPENROUTER_API_KEY;
 
 /**
+ * Politique de modèles : du bon marché par défaut, et rien de cher sans le dire.
+ *
+ * Le 2026-08-25, une ronde de découverte sur `claude-sonnet-5` a vidé le solde
+ * OpenRouter en une passe. Le coupable n'est pas le nombre d'appels mais la
+ * recherche web : elle injecte le contenu des résultats dans le prompt, et
+ * multiplie les jetons d'entrée par dix. Sur un modèle à 2 $/M, ça se paie ;
+ * sur un modèle à 0,08 $/M, non.
+ *
+ * DEFAULT sert à tout — extraire des produits d'une page, remplir un schéma.
+ * SMART ne sert qu'à la rédaction d'une fiche, où la qualité de la prose
+ * compte, et reste cinq fois moins cher que le modèle propriétaire.
+ */
+export const MODELS = {
+  default: process.env.ATLAS_MODEL ?? 'deepseek/deepseek-v4-flash',
+  smart: process.env.ATLAS_MODEL_SMART ?? 'z-ai/glm-4.7',
+};
+
+// Nombre de résultats web injectés par appel. Chacun est facturé et gonfle le
+// prompt : trois suffisent pour repérer des produits sur une page d'annuaire.
+const WEB_RESULTS = parseInt(process.env.ATLAS_WEB_RESULTS ?? '3', 10);
+
+// ── Le garde-fou budgétaire ───────────────────────────────────────────────────
+
+const BUDGET_EUR = parseFloat(process.env.ATLAS_MONTHLY_BUDGET_EUR ?? '20');
+const EUR_PER_USD = parseFloat(process.env.ATLAS_EUR_PER_USD ?? '0.92');
+const SPEND_FILE = () => join(ROOT, 'data', 'spend.json');
+
+const thisMonth = () => new Date().toISOString().slice(0, 7);
+
+function readSpend() {
+  try { return JSON.parse(readFileSync(SPEND_FILE(), 'utf8')); } catch { return {}; }
+}
+
+/** Ce qui a été dépensé ce mois-ci, en euros. */
+export function spentThisMonth() {
+  return (readSpend()[thisMonth()]?.usd ?? 0) * EUR_PER_USD;
+}
+
+export function budgetLeft() {
+  return Math.max(0, BUDGET_EUR - spentThisMonth());
+}
+
+function recordSpend(usd, model) {
+  if (!usd) return;
+  const all = readSpend();
+  const m = thisMonth();
+  const cur = all[m] ?? { usd: 0, calls: 0, by_model: {} };
+  cur.usd = +(cur.usd + usd).toFixed(6);
+  cur.calls += 1;
+  cur.by_model[model] = +((cur.by_model[model] ?? 0) + usd).toFixed(6);
+  all[m] = cur;
+  writeFileSync(SPEND_FILE(), JSON.stringify(all, null, 2) + '\n');
+}
+
+export class BudgetExceeded extends Error {}
+
+/**
  * Un appel OpenRouter renvoyant du JSON validé par un schéma.
  * `web` active la recherche web du routeur — c'est ce qui permet d'aller
  * chercher des annuaires, des blogs et des sites d'association plutôt que de
  * s'en remettre à la mémoire du modèle.
  */
-export async function ask({ model, system, prompt, schema, web = false, maxTokens = 8000, retries = 3 }) {
-  const body = {
-    model: web ? `${model}:online` : model,
+export async function ask({
+  model = MODELS.default, system, prompt, schema, web = false,
+  maxTokens = 8000, retries = 3,
+}) {
+  if (budgetLeft() <= 0) {
+    throw new BudgetExceeded(
+      `Budget mensuel atteint : ${spentThisMonth().toFixed(2)} € sur ${BUDGET_EUR} € ` +
+      `(mois ${thisMonth()}). Relever ATLAS_MONTHLY_BUDGET_EUR, ou attendre le mois prochain.`
+    );
+  }
+
+  const build = (useSchema) => ({
+    model,
     messages: [
       ...(system ? [{ role: 'system', content: system }] : []),
-      { role: 'user', content: prompt },
+      { role: 'user', content: useSchema ? prompt : `${prompt}\n\nRéponds UNIQUEMENT par un objet JSON valide conforme à ce schéma, sans texte autour et sans bloc de code :\n${JSON.stringify(schema)}` },
     ],
     max_tokens: maxTokens,
     temperature: 0.2,
-    ...(schema
+    // La facturation exacte revient dans la réponse : c'est elle qui alimente
+    // le compteur, plutôt qu'une estimation à partir des jetons.
+    usage: { include: true },
+    // Forme explicite plutôt que le suffixe `:online` — elle permet de plafonner
+    // le nombre de résultats, donc le coût.
+    ...(web ? { plugins: [{ id: 'web', max_results: WEB_RESULTS }] } : {}),
+    ...(useSchema && schema
       ? { response_format: { type: 'json_schema', json_schema: { name: 'result', strict: true, schema } } }
       : {}),
-  };
+  });
+
+  let useSchema = !!schema;
   let last;
   for (let a = 0; a < retries; a++) {
     try {
@@ -108,14 +183,33 @@ export async function ask({ model, system, prompt, schema, web = false, maxToken
           'http-referer': 'https://flowmetrik.github.io/proptech-atlas',
           'x-title': 'PropTech Atlas',
         },
-        body: JSON.stringify(body),
+        body: JSON.stringify(build(useSchema)),
       });
       const j = await r.json();
-      if (j.error) throw new Error(j.error.message ?? JSON.stringify(j.error));
-      const txt = j.choices?.[0]?.message?.content ?? '';
+      recordSpend(j?.usage?.cost, model);
+
+      if (j.error) {
+        const msg = j.error.message ?? JSON.stringify(j.error);
+        // Tous les modèles ouverts ne gèrent pas `json_schema` strict. Plutôt
+        // que d'exclure les modèles bon marché, on redemande le JSON en clair.
+        if (useSchema && /response_format|json_schema|structured|not support/i.test(msg)) {
+          useSchema = false;
+          continue;
+        }
+        if (/insufficient credits|quota/i.test(msg)) throw new BudgetExceeded(msg);
+        throw new Error(msg);
+      }
+
+      let txt = j.choices?.[0]?.message?.content ?? '';
       if (!txt) throw new Error('réponse vide');
-      return schema ? JSON.parse(txt) : txt;
+      if (!schema) return txt;
+      // Un modèle sans sortie structurée entoure parfois le JSON d'un bloc de code.
+      txt = txt.trim().replace(/^```(?:json)?\s*/i, '').replace(/```$/, '').trim();
+      const start = txt.search(/[[{]/);
+      if (start > 0) txt = txt.slice(start);
+      return JSON.parse(txt);
     } catch (e) {
+      if (e instanceof BudgetExceeded) throw e;
       last = e;
       await new Promise((r) => setTimeout(r, 2000 * (a + 1)));
     }

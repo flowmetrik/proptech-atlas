@@ -91,19 +91,47 @@ site les affiche séparément, et l'API publie la couverture des deux.
   contenu du site révèle une agence, un asset manager ou un cabinet de conseil
   plutôt qu'un produit.
 
+## Modèles et budget
+
+**Modèles ouverts et bon marché, par décision explicite.**
+
+| Variable | Défaut | Prix | Rôle |
+|---|---|---|---|
+| `ATLAS_MODEL` | `deepseek/deepseek-v4-flash` | 0,08 / 0,17 $ par M | tout le reste |
+| `ATLAS_MODEL_SMART` | `z-ai/glm-4.7` | 0,40 / 1,75 $ par M | rédaction d'une fiche |
+| `ATLAS_MONTHLY_BUDGET_EUR` | `20` | — | plafond mensuel, appliqué dans le code |
+| `ATLAS_WEB_RESULTS` | `3` | facturé au résultat | résultats web injectés par appel |
+
+Le 2026-08-25, une ronde de découverte sur `claude-sonnet-5` a vidé un solde
+OpenRouter entier en une passe. Le coupable n'est pas le nombre d'appels mais la
+recherche web : elle injecte le contenu des résultats dans le prompt et
+multiplie les jetons d'entrée par dix. Sur un modèle à 2 $/M ça se paie, sur un
+modèle à 0,08 $/M non. D'où la règle, et d'où le plafond.
+
+Chaque appel enregistre **son coût réel** — celui que renvoie OpenRouter, pas
+une estimation — dans `data/spend.json` (non versionné : c'est une donnée de
+compte, pas de catalogue). `ask()` refuse de partir dès que le mois est atteint ;
+`loop.mjs` affiche le reste avant de commencer.
+
+Les modèles ouverts ne gèrent pas tous `json_schema` strict. `ask()` le détecte,
+redemande le JSON en clair et le parse : on ne renonce pas à un modèle bon
+marché pour une question de format.
+
 ## Prérequis
 
 Deux clés, lues dans le coffre du cowork (`~/projects/flowmetrik-cowork/.env`),
 jamais dans le dépôt :
 
-- `OPENROUTER_API_KEY` — découverte et rédaction. La recherche web du routeur
-  est facturée en plus des jetons ; une ronde complète sur 24 catégories × 2
-  marchés coûte quelques dollars.
+- `OPENROUTER_API_KEY` — découverte et rédaction.
 - `FIRECRAWL_API` — secours de lecture. Facultative.
 
-`loop.mjs` vérifie le solde OpenRouter **avant** de lancer quoi que ce soit, et
-saute proprement les étapes LLM s'il est vide plutôt que de collectionner des
-erreurs pendant vingt minutes.
+`loop.mjs` vérifie le solde **et le budget du mois** avant de lancer quoi que ce
+soit, et saute proprement les étapes LLM s'il manque l'un ou l'autre plutôt que
+de collectionner des erreurs pendant vingt minutes.
+
+**La voie sans coût :** un agent qui dispose de sa propre recherche web n'a
+besoin d'aucune de ces clés. Voir
+`.claude/skills/proptech-scout/references/agent-workflow.md`.
 
 ## Dépendances système
 

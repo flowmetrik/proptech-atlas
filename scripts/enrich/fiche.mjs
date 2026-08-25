@@ -11,11 +11,12 @@
 //   node scripts/enrich/fiche.mjs --dry
 import { execFileSync } from 'node:child_process';
 import {
+  MODELS,
   ROOT, TOOLS, join, loadTools, loadTaxonomy, ask, scrape, siteText, pool, today,
   readFileSync, writeFileSync, existsSync,
 } from './lib.mjs';
 
-const MODEL = process.env.ATLAS_MODEL ?? 'anthropic/claude-sonnet-5';
+const MODEL = MODELS.smart;
 const QUEUE = join(ROOT, 'data', 'candidates.json');
 const arg = (n, d) => { const i = process.argv.indexOf(`--${n}`); return i > -1 ? process.argv[i + 1] : d; };
 const LIMIT = parseInt(arg('limit', '999'), 10);

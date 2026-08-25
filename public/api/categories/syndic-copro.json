@@ -384,6 +384,11 @@
       "signals": {
         "checked_on": "2026-08-25"
       },
+      "logo": {
+        "file": "logos/ics.png",
+        "source_url": "https://www.ics.fr/favicon.ico",
+        "fetched_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.ics.fr",
@@ -580,6 +585,11 @@
         ],
         "checked_on": "2026-08-25"
       },
+      "logo": {
+        "file": "logos/matera.png",
+        "source_url": "https://cdn.prod.website-files.com/67596f3d132e0db412e8152a/6a82fe718dfbc0f58a2919d4_Icon_Blue_White%404x.jpg",
+        "fetched_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://matera.eu",
@@ -668,6 +678,11 @@
           "fr"
         ],
         "checked_on": "2026-08-25"
+      },
+      "logo": {
+        "file": "logos/powimo.png",
+        "source_url": "https://www.seiitra.com/apple-touch-icon.png",
+        "fetched_on": "2026-08-25"
       },
       "sources": [
         {

@@ -11,11 +11,12 @@
 //   node scripts/enrich/discover.mjs --rounds 4         # quatre rondes
 //   node scripts/enrich/discover.mjs --market FR --category syndic-copro
 import {
+  MODELS,
   ROOT, loadTools, loadTaxonomy, ask, pool, today,
   slugify, hostOf, cleanName, verifyCandidate, loadQueue, saveQueue,
 } from './lib.mjs';
 
-const MODEL = process.env.ATLAS_MODEL ?? 'anthropic/claude-sonnet-5';
+const MODEL = MODELS.default;
 const DRY_ROUNDS = 2;
 
 const arg = (n, d) => {

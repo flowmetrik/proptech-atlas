@@ -9,3 +9,6 @@ dist/
 
 # Cache local du pipeline (police téléchargée pour vectoriser le lettrage).
 .cache/
+
+# Relevé de dépense OpenRouter — donnée de compte, pas de catalogue.
+data/spend.json

@@ -48,6 +48,10 @@ product:
 reviews: []
 signals:
   checked_on: "2026-08-25"
+logo:
+  file: logos/ics.png
+  source_url: https://www.ics.fr/favicon.ico
+  fetched_on: "2026-08-25"
 sources:
   - { url: https://www.ics.fr, note: site éditeur }
   - { url: https://www.ics.fr/syndic.html, note: source de découverte }

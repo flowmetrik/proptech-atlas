@@ -16,12 +16,13 @@
 //   node scripts/enrich/sweep.mjs --market FR --kind marketplace
 import yaml from 'js-yaml';
 import {
+  MODELS,
   ROOT, join, OPTS, loadTools, loadTaxonomy, ask, pool, today,
   readFileSync, writeFileSync, existsSync,
   slugify, hostOf, cleanName, verifyCandidate, loadQueue, saveQueue,
 } from './lib.mjs';
 
-const MODEL = process.env.ATLAS_MODEL ?? 'anthropic/claude-sonnet-5';
+const MODEL = MODELS.default;
 const STATE = join(ROOT, 'data', 'sweeps.json');
 const arg = (n, d) => { const i = process.argv.indexOf(`--${n}`); return i > -1 ? process.argv[i + 1] : d; };
 

@@ -193,9 +193,44 @@ Quand tu traites son résultat :
 | Beaucoup de candidats rejetés d'une même source | La source liste des pages d'annuaire | Ajuster son entrée dans `data/sources.yaml`, ou la retirer. |
 | Une fiche générée échoue au validateur | Champ hors taxonomie | Elle est retirée automatiquement. Regarder si la taxonomie manque une catégorie plutôt que de forcer la fiche. |
 
-## Coût
+## Modèles et budget — la règle est dure
 
-La recherche web du routeur est facturée en plus des jetons. Une passe de 4
-sources coûte de l'ordre de quelques dizaines de centimes ; une ronde complète
-sur 24 catégories × 2 marchés a vidé un solde entier le 2026-08-25. **Préférer
-toujours le balayage par sources à la découverte par catégories.**
+**Modèles bon marché et ouverts, jamais de modèle propriétaire haut de gamme.**
+
+| Rôle | Modèle | Prix |
+|---|---|---|
+| Défaut — extraire des produits, remplir un schéma | `deepseek/deepseek-v4-flash` | 0,08 / 0,17 $ par M |
+| Rédaction d'une fiche, où la prose compte | `z-ai/glm-4.7` | 0,40 / 1,75 $ par M |
+
+Surchargeables par `ATLAS_MODEL` et `ATLAS_MODEL_SMART`. **Ne jamais y mettre
+un Opus, ni un Sonnet propriétaire.**
+
+**Pourquoi c'est écrit noir sur blanc :** le 2026-08-25, une ronde de découverte
+sur `claude-sonnet-5` a vidé le solde OpenRouter de Mehdi en une passe. Le
+coupable n'est pas le nombre d'appels mais la recherche web — elle injecte le
+contenu des résultats dans le prompt et multiplie les jetons d'entrée par dix.
+Sur un modèle à 2 $/M, ça se paie ; sur un modèle à 0,08 $/M, non.
+
+**Le budget est plafonné dans le code.** `ATLAS_MONTHLY_BUDGET_EUR`, 20 € par
+défaut. Chaque appel enregistre son coût réel — celui que renvoie OpenRouter,
+pas une estimation — dans `data/spend.json`, et `ask()` refuse de partir dès que
+le mois est atteint. `loop.mjs` affiche le reste avant de commencer.
+
+```bash
+node -e "import('./scripts/enrich/lib.mjs').then(m=>console.log(m.budgetLeft().toFixed(2),'€ restants ce mois'))"
+```
+
+**Trois réflexes de coût**, dans l'ordre d'efficacité :
+
+1. **Chercher soi-même** quand on a sa propre recherche web —
+   [`references/agent-workflow.md`](references/agent-workflow.md). Coût
+   OpenRouter : zéro.
+2. **Balayer des sources** plutôt que découvrir par catégories : moins d'appels,
+   des prompts plus courts, un meilleur rendement.
+3. **Plafonner les résultats web** — `ATLAS_WEB_RESULTS`, 3 par défaut. Chaque
+   résultat est facturé et gonfle le prompt.
+
+Le plafond du code n'est pas un plafond de compte : pour un vrai garde-fou côté
+OpenRouter, il faut le poser dans le tableau de bord
+(`openrouter.ai/settings/credits`), ce qu'une clé d'inférence ne permet pas de
+faire par API.

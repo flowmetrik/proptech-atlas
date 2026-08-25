@@ -48,6 +48,10 @@ signals:
   privacy: https://www.seiitra.com/politique-de-confidentialite
   site_languages: [fr]
   checked_on: "2026-08-25"
+logo:
+  file: logos/powimo.png
+  source_url: https://www.seiitra.com/apple-touch-icon.png
+  fetched_on: "2026-08-25"
 sources:
   - { url: https://www.seiitra.com, note: site éditeur }
   - { url: https://www.seiitra.com/solutions/logiciel-syndic-de-copropriete/, note: source de découverte }
