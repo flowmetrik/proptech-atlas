@@ -207,6 +207,69 @@ export async function scrapeHtml(url, { ms = 90000 } = {}) {
   }
 }
 
+// ── Le garde-fou de la découverte ─────────────────────────────────────────────
+
+export const slugify = (s) =>
+  s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+
+export const hostOf = (u) => {
+  try { return new URL(u).hostname.replace(/^www\./, ''); } catch { return null; }
+};
+
+/** Un nom commercial, débarrassé des gloses que le modèle ajoute. */
+export const cleanName = (raw) =>
+  String(raw)
+    .replace(/\s*\((?:ex-|formerly |anciennement )[^)]*\)/gi, '')
+    .replace(/\s*\(module[^)]*\)/gi, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+
+const normText = (s) =>
+  s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]/g, '');
+
+/**
+ * Le contrôle exécutable sans lequel la boucle fabriquerait des produits.
+ * Un candidat n'entre dans la file que si son site répond ET que son nom figure
+ * sur sa propre page d'accueil. Une URL de recherche ou de fiche d'annuaire est
+ * refusée : c'est là que le modèle l'a trouvé, pas là que le produit vit.
+ */
+export async function verifyCandidate(c) {
+  if (!/^https?:\/\//.test(c.website ?? '')) return { ok: false, why: 'URL mal formée' };
+  let url;
+  try { url = new URL(c.website); } catch { return { ok: false, why: 'URL illisible' }; }
+  if (url.search) return { ok: false, why: 'URL de recherche, pas un site produit' };
+  if (/\/(recherche|search|blog|annuaire|directory|article|news|category|categories)\//i.test(url.pathname)) {
+    return { ok: false, why: "URL de page d'annuaire, pas un site produit" };
+  }
+  const bare = url.hostname.replace(/^www\./, '');
+  for (const t of [...new Set([c.website, `https://www.${bare}/`, `https://${bare}/`])]) {
+    try {
+      const r = await fetchWithTimeout(t, { ms: 20000 });
+      if (!r.ok) continue;
+      const n = normText((await r.text()).slice(0, 400000));
+      const full = normText(c.name);
+      const first = normText(String(c.name).split(/[\s·—-]/)[0]);
+      if (n.includes(full) || (first.length >= 4 && n.includes(first))) {
+        return { ok: true, website: (r.url || t).replace(/\/$/, '') };
+      }
+      return { ok: false, why: 'le nom du produit ne figure pas sur la page' };
+    } catch { /* variante suivante */ }
+  }
+  return { ok: false, why: 'site injoignable' };
+}
+
+/** La file des candidats — un seul endroit, partagé par découverte et balayage. */
+export function loadQueue(root) {
+  const p = join(root, 'data', 'candidates.json');
+  return existsSync(p) ? JSON.parse(readFileSync(p, 'utf8')) : { generated: today(), candidates: [], rejected: [] };
+}
+
+export function saveQueue(root, q) {
+  q.generated = today();
+  writeFileSync(join(root, 'data', 'candidates.json'), JSON.stringify(q, null, 2) + '\n');
+}
+
 // ── Écriture des fiches ───────────────────────────────────────────────────────
 
 /**

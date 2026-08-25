@@ -20,6 +20,7 @@ const QUEUE = join(ROOT, 'data', 'candidates.json');
 const arg = (n, d) => { const i = process.argv.indexOf(`--${n}`); return i > -1 ? process.argv[i + 1] : d; };
 const LIMIT = parseInt(arg('limit', '999'), 10);
 const DRY = process.argv.includes('--dry');
+const FROM = arg('from', null);
 
 const tax = loadTaxonomy();
 const ids = (k) => tax[k].map((x) => x.id);
@@ -156,6 +157,43 @@ House rules, in order of importance:
 - If the site does not state something — a founding year, a price, an integration — leave it out or set it null. A missing field is a known gap; an invented one is damage.
 - Write in English, plain and specific. No superlatives, no "leading", no "innovative", no em dashes as decoration.
 - If the content shows this is a brokerage, an agency, an asset manager or a consultancy rather than a software product, set positioning to exactly "OUT_OF_SCOPE".`;
+
+// ── Fiches rédigées ailleurs ──────────────────────────────────────────────────
+//
+// `--from fiches.json` prend un tableau d'objets au même schéma que celui que
+// produit le modèle, et les passe par le même rendu et la même validation.
+// C'est la porte d'entrée d'un agent qui a cherché lui-même.
+
+if (FROM) {
+  const incoming = JSON.parse(readFileSync(FROM, 'utf8'));
+  const list = Array.isArray(incoming) ? incoming : [incoming];
+  const done = [];
+  for (const f of list) {
+    if (!f.slug || !f.website) { console.log(`  ✗ fiche sans slug ni website, ignorée`); continue; }
+    const fiche = {
+      ...f,
+      features: (f.features ?? []).slice(0, 6),
+      use_cases: (f.use_cases ?? []).slice(0, 3),
+      founded: f.founded || undefined,
+      hq_country: String(f.hq_country || '').toUpperCase().slice(0, 2),
+      pricing: { ...f.pricing, url: f.pricing?.url || undefined },
+      sources: f.sources?.length ? f.sources : [{ url: f.website, note: 'site éditeur' }],
+    };
+    if (fiche.positioning?.length > 195) {
+      fiche.positioning = fiche.positioning.slice(0, 192).replace(/\s+\S*$/, '') + '…';
+    }
+    writeFileSync(join(TOOLS, `${f.slug}.yaml`), toYaml(fiche));
+    done.push(f.slug);
+  }
+  try {
+    execFileSync('node', [join(ROOT, 'scripts', 'validate.mjs')], { cwd: ROOT, stdio: 'inherit' });
+    console.log(`✓ ${done.length} fiche(s) écrites : ${done.join(', ')}`);
+  } catch {
+    console.error('\n✗ Le validateur refuse. Les fiches restent sur le disque : corriger, puis relancer.');
+    process.exit(1);
+  }
+  process.exit(0);
+}
 
 // ── Traitement ────────────────────────────────────────────────────────────────
 

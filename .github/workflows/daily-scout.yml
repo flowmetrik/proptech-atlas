@@ -1,0 +1,96 @@
+name: Daily scout
+
+# L'entretien quotidien du catalogue.
+#
+# Tout ce qui ne coûte rien tourne toujours : logos manquants, signaux à
+# rafraîchir, API régénérée, validation. La découverte et la rédaction ne
+# tournent que si une clé OpenRouter est configurée — sans elle, l'exécution le
+# dit dans son résumé plutôt que d'échouer.
+#
+# Le résultat est TOUJOURS une pull request. Rien n'atteint `main` sans qu'un
+# humain l'ait lue : une fiche est une affirmation publique sur le produit de
+# quelqu'un.
+
+on:
+  schedule:
+    - cron: '10 6 * * *'
+  workflow_dispatch:
+    inputs:
+      sources:
+        description: 'Sources à balayer (0 pour ne rien découvrir)'
+        default: '4'
+      stale_days:
+        description: 'Re-sonder les signaux plus vieux que N jours'
+        default: '30'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: daily-scout
+  cancel-in-progress: false
+
+jobs:
+  scout:
+    runs-on: ubuntu-latest
+    env:
+      OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+      FIRECRAWL_API: ${{ secrets.FIRECRAWL_API }}
+      SOURCES: ${{ inputs.sources || '4' }}
+      STALE_DAYS: ${{ inputs.stale_days || '30' }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Outils système
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq imagemagick
+          python3 -m pip install --quiet fonttools
+
+      - run: npm ci
+
+      - name: Balayage des sources et rédaction
+        if: ${{ secrets.OPENROUTER_API_KEY != '' }}
+        run: |
+          if [ "$SOURCES" = "0" ]; then
+            echo "Découverte désactivée pour cette exécution." | tee /tmp/sweep.log
+            exit 0
+          fi
+          node scripts/enrich/sweep.mjs --n "$SOURCES" 2>&1 | tee /tmp/sweep.log
+          node scripts/enrich/fiche.mjs --limit 12 2>&1 | tee /tmp/fiche.log
+
+      - name: Découverte sautée
+        if: ${{ secrets.OPENROUTER_API_KEY == '' }}
+        run: |
+          echo "Pas de clé OpenRouter dans les secrets du dépôt — seul l'entretien tourne." \
+            | tee /tmp/sweep.log
+
+      - name: Logos manquants
+        run: node scripts/enrich/logos.mjs 2>&1 | tee /tmp/logos.log
+
+      - name: Signaux — fiches sans relevé, puis relevés périmés
+        run: |
+          node scripts/enrich/signals.mjs 2>&1 | tee /tmp/signals.log
+          STALE="$(node scripts/enrich/stale.mjs "$STALE_DAYS" 40)"
+          if [ -n "$STALE" ]; then
+            echo "Rafraîchissement de $(echo "$STALE" | tr ',' '\n' | wc -l) relevé(s) périmé(s)" \
+              | tee -a /tmp/signals.log
+            node scripts/enrich/signals.mjs --only "$STALE" 2>&1 | tee -a /tmp/signals.log
+          fi
+
+      - name: API, images de partage, validation
+        run: |
+          npm run data:emit
+          python3 scripts/og/build.py
+          npm run data:validate 2>&1 | tee /tmp/validate.log
+
+      - name: Pull request
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: bash scripts/ci/open-pr.sh

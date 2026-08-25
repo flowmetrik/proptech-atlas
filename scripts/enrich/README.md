@@ -12,13 +12,44 @@ node scripts/enrich/loop.mjs --no-discover  # sans appel LLM, donc sans coût
 
 | Étape | Ce qu'elle fait | Coût |
 |---|---|---|
-| `discover.mjs` | Cherche sur le web les produits absents du catalogue, catégorie par catégorie et marché par marché. Écrit une file dans `data/candidates.json`. | LLM + recherche web |
-| `fiche.mjs` | Rédige la fiche complète d'un candidat, **ancrée sur le contenu réel de son site**. | LLM |
+| `sweep.mjs` | Balaie une **source nommée** du registre `data/sources.yaml` — annuaire d'intégrations, liste d'exposants, portefeuille de fonds — et en extrait les produits. Rote les sources par ancienneté et mesure leur rendement. **La voie principale.** | LLM + recherche web |
+| `discover.mjs` | Part d'une **catégorie × marché** et demande au modèle ce qu'il connaît. Voie secondaire, pour les catégories creuses. | LLM + recherche web |
+| `fiche.mjs` | Rédige la fiche complète d'un candidat, **ancrée sur le contenu réel de son site**. `--from <json>` écrit une fiche rédigée ailleurs. | LLM (sauf `--from`) |
+| `verify.mjs` | Le garde-fou en ligne de commande, pour un agent ou un humain qui a cherché lui-même. | gratuit |
 | `logos.mjs` | Récupère le logo depuis le site de l'éditeur, le normalise en PNG 256 px. | gratuit |
 | `signals.mjs` | Va vérifier sur le site ce qu'une machine peut établir seule : tarifs publics, doc d'API, page sécurité, confidentialité, page d'état, langues. | gratuit |
+| `stale.mjs` | Liste les fiches dont le relevé de signaux a dépassé N jours. | gratuit |
 
 `emit.mjs` puis `validate.mjs` closent la passe. Une fiche qui ne passe pas le
 validateur est **retirée**, pas laissée à pourrir.
+
+## Le registre des sources
+
+`data/sources.yaml` — 46 terrains de chasse, chacun avec **ce qu'on y trouve que
+les autres n'ont pas**. Une source qui ne répond pas à cette question n'en est
+pas une.
+
+Neuf natures, par rendement observé : `marketplace` (annuaires d'intégrations —
+le meilleur du lot, un incumbent y liste des dizaines d'outils de niche et
+l'intégration prouve que le produit tourne), `association`, `event` (à balayer
+juste après chaque édition), `press`, `review`, `vc` et `launch` (détectent tôt,
+mais une levée n'est pas un produit en usage), `opensource` et `public` (volume
+faible, unicité maximale).
+
+`sweep.mjs` les rote par ancienneté de balayage et écrit le rendement mesuré
+dans `data/sweeps.json`. Une source à zéro sur trois passes ne mérite plus son
+tour ; une source à cinq mérite d'être décomposée en plusieurs entrées.
+
+## La routine quotidienne
+
+Deux couches. `.github/workflows/daily-scout.yml` fait l'entretien tous les
+jours **sans modèle et sans coût** — logos manquants, signaux périmés, API,
+validation — et n'enchaîne balayage et rédaction que si le secret
+`OPENROUTER_API_KEY` existe dans le dépôt. Une routine Claude fait le jugement :
+choisir où chercher, écarter ce qui n'est pas un produit, écrire le rapport.
+
+Les deux produisent une **pull request**. Rien n'atteint `main` sans relecture :
+une fiche est une affirmation publique sur le produit de quelqu'un.
 
 ## Pourquoi la boucle tourne comme ça
 

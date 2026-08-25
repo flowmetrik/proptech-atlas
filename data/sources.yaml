@@ -1,0 +1,341 @@
+# Le registre des terrains de chasse.
+#
+# Le chercheur ne « cherche pas sur le web » en général : il balaie une source
+# nommée à la fois. C'est ce qui rend la couverture auditable — on sait ce qui a
+# été regardé, quand, et ce que ça a rapporté — et ce qui empêche la boucle de
+# repasser éternellement sur les mêmes trois annuaires.
+#
+# `last_swept` et `yield` sont écrits par scripts/enrich/sweep.mjs. Ne pas les
+# remplir à la main : ce sont des mesures, pas des intentions.
+#
+# Ajouter une source : donner son `id`, son `url`, son marché, sa nature, et une
+# ligne disant CE QU'ON Y TROUVE que les autres n'ont pas. Une source qui ne
+# répond pas à cette dernière question n'en est pas une.
+
+meta:
+  # Une source non balayée depuis ce nombre de jours redevient prioritaire.
+  cooldown_days: 21
+  # Nombre de sources balayées par passe de la routine.
+  per_run: 4
+
+kinds:
+  marketplace: >
+    Annuaire d'intégrations d'un éditeur établi. Le meilleur rendement du lot :
+    un incumbent y liste des dizaines d'outils de niche que personne d'autre ne
+    référence, et le fait que l'intégration existe prouve que le produit tourne.
+  association: >
+    Annuaire de partenaires d'un syndicat professionnel. Rendement moyen mais
+    signal fort : un éditeur listé là est en usage réel chez des adhérents.
+  event: >
+    Liste d'exposants d'un salon. C'est là qu'on trouve les acteurs récents qui
+    n'ont pas encore de référencement, particulièrement en France.
+  press: >
+    Presse spécialisée. Rendement irrégulier, mais c'est la seule source qui
+    signale un produit AVANT qu'il ait un annuaire.
+  vc: >
+    Portefeuille d'un fonds spécialisé. Détecte tôt, mais attention : une levée
+    n'est pas un produit en usage. Vérifier deux fois.
+  review: >
+    Plateforme d'avis. Ses pages catégories sont un bon index, même si le site
+    lui-même renvoie 403 à un accès automatisé.
+  launch: >
+    Plateforme de lancement. Beaucoup de bruit, quelques trouvailles précoces.
+  opensource: >
+    Dépôts et listes open source. Faible volume, mais ces produits sont
+    invisibles ailleurs et cochent une case que personne d'autre ne coche.
+  public: >
+    Données ou marchés publics. Révèle les éditeurs du logement social et des
+    collectivités, absents de tous les annuaires commerciaux.
+
+sources:
+  # ── Annuaires d'intégrations — le meilleur rendement ────────────────────────
+  - id: appfolio-stack
+    label: AppFolio Stack — annuaire d'intégrations
+    url: https://www.appfolio.com/appfolio-stack
+    market: US
+    kind: marketplace
+    finds: Outils de niche du résidentiel américain, validés par une intégration réelle.
+  - id: yardi-marketplace
+    label: Yardi Marketplace
+    url: https://www.yardi.com/products/yardi-marketplace/
+    market: US
+    kind: marketplace
+    finds: Fournisseurs du tertiaire institutionnel, y compris très spécialisés.
+  - id: buildium-marketplace
+    label: Buildium — intégrations et partenaires
+    url: https://www.buildium.com/integrations/
+    market: US
+    kind: marketplace
+    finds: Outils du petit et moyen gestionnaire, souvent absents des annuaires généralistes.
+  - id: procore-marketplace
+    label: Procore App Marketplace
+    url: https://marketplace.procore.com
+    market: US
+    kind: marketplace
+    finds: Tout l'écosystème construction — plusieurs centaines d'applications.
+  - id: entrata-marketplace
+    label: Entrata — partenaires et intégrations
+    url: https://www.entrata.com/partners
+    market: US
+    kind: marketplace
+    finds: Fournisseurs du multifamily, notamment leasing et paiements.
+  - id: mri-partner-connect
+    label: MRI Partner Connect
+    url: https://www.mrisoftware.com/partner-ecosystem/
+    market: US
+    kind: marketplace
+    finds: Écosystème ouvert du tertiaire, transatlantique.
+  - id: septeo-partenaires
+    label: Septeo — écosystème immobilier
+    url: https://www.septeo.com/fr/solutions-immobilier
+    market: FR
+    kind: marketplace
+    finds: Les briques greffées sur les systèmes historiques français de gérance et syndic.
+  - id: laboiteimmo-partenaires
+    label: La Boîte Immo / Hektor — partenaires
+    url: https://www.laboiteimmo.com/partenaires
+    market: FR
+    kind: marketplace
+    finds: Périphérie de l'agence française — pige, signature, visite, diagnostic.
+  - id: zapier-real-estate
+    label: Zapier — applications immobilier
+    url: https://zapier.com/apps/categories/real-estate
+    market: US
+    kind: marketplace
+    finds: Longue traîne d'outils qui exposent une API — donc utilisables dans une chaîne.
+  - id: salesforce-appexchange-re
+    label: Salesforce AppExchange — real estate
+    url: https://appexchange.salesforce.com/mktcollections/curated/real-estate
+    market: US
+    kind: marketplace
+    finds: Verticales immobilières bâties sur Salesforce, invisibles hors de cet annuaire.
+
+  # ── Syndicats et fédérations ────────────────────────────────────────────────
+  - id: fnaim-partenaires
+    label: FNAIM — partenaires et services
+    url: https://www.fnaim.fr
+    market: FR
+    kind: association
+    finds: Les outils réellement en usage dans les agences adhérentes.
+  - id: unis-partenaires
+    label: UNIS — partenaires
+    url: https://www.unis-immo.fr
+    market: FR
+    kind: association
+    finds: Côté syndic et gérance, là où la FNAIM couvre surtout la transaction.
+  - id: snpi-partenaires
+    label: SNPI — partenaires
+    url: https://www.snpi.fr
+    market: FR
+    kind: association
+    finds: Réseau des mandataires indépendants, outils à petit prix.
+  - id: plurience
+    label: Plurience — réseaux et enseignes
+    url: https://www.plurience.com
+    market: FR
+    kind: association
+    finds: Les choix logiciels des grands réseaux français.
+  - id: ush-fournisseurs
+    label: Union sociale pour l'habitat — fournisseurs
+    url: https://www.union-habitat.org
+    market: FR
+    kind: association
+    finds: Éditeurs du logement social français, absents de tout annuaire commercial.
+  - id: fpi-france
+    label: Fédération des promoteurs immobiliers
+    url: https://www.fpifrance.fr
+    market: FR
+    kind: association
+    finds: Outillage de la promotion — montage d'opération, VEFA, commercialisation.
+  - id: nar-partners
+    label: NAR — REALTOR Benefits et partenaires technologiques
+    url: https://www.nar.realtor/realtor-benefits-program
+    market: US
+    kind: association
+    finds: Ce qu'un agent américain obtient par sa carte de membre — donc très diffusé.
+  - id: narpm-affiliates
+    label: NARPM — affiliés
+    url: https://www.narpm.org
+    market: US
+    kind: association
+    finds: Fournisseurs du property management résidentiel indépendant.
+  - id: irem-boma
+    label: IREM et BOMA — partenaires
+    url: https://www.irem.org
+    market: US
+    kind: association
+    finds: Gestion d'immeubles tertiaires et exploitation.
+
+  # ── Salons ─────────────────────────────────────────────────────────────────
+  - id: rent-paris
+    label: RENT — Real Estate & New Technologies, Paris
+    url: https://www.rentevent.immo
+    market: FR
+    kind: event
+    finds: LA liste d'exposants de la proptech française. À balayer après chaque édition.
+  - id: salon-copropriete
+    label: Salon de la Copropriété et de l'Habitat
+    url: https://www.saloncopropriete.com
+    market: FR
+    kind: event
+    finds: Éditeurs syndic et copropriété, y compris les très petits.
+  - id: simi
+    label: SIMI — salon de l'immobilier d'entreprise
+    url: https://www.salonsimi.com
+    market: FR
+    kind: event
+    finds: Tertiaire français — asset management, exploitation, données.
+  - id: mipim-proptech
+    label: MIPIM et MIPIM PropTech
+    url: https://www.mipim.com
+    market: FR
+    kind: event
+    finds: Acteurs internationaux présents sur le marché français.
+  - id: blueprint-cretech
+    label: Blueprint et CREtech — salons US
+    url: https://www.blueprintvegas.com
+    market: US
+    kind: event
+    finds: Le tertiaire américain et ce qui s'y lève.
+  - id: inman-connect
+    label: Inman Connect
+    url: https://www.inman.com/events/
+    market: US
+    kind: event
+    finds: Résidentiel américain — outils d'agent et de brokerage.
+
+  # ── Presse spécialisée ─────────────────────────────────────────────────────
+  - id: journal-agence
+    label: Le Journal de l'Agence
+    url: https://www.journaldelagence.com
+    market: FR
+    kind: press
+    finds: Sorties produits et levées côté agence française, souvent en avant-première.
+  - id: mysweetimmo
+    label: MySweetImmo
+    url: https://www.mysweetimmo.com
+    market: FR
+    kind: press
+    finds: Proptech française au sens large, y compris services et financement.
+  - id: business-immo
+    label: Business Immo
+    url: https://www.businessimmo.com
+    market: FR
+    kind: press
+    finds: Tertiaire et investissement — outils d'asset et de data.
+  - id: french-proptech
+    label: French PropTech
+    url: https://www.frenchproptech.fr
+    market: FR
+    kind: press
+    finds: L'annuaire le plus complet de la proptech française. Source à haut rendement.
+  - id: propmodo
+    label: Propmodo
+    url: https://www.propmodo.com
+    market: US
+    kind: press
+    finds: Analyse du tertiaire américain, avec les produits nommés.
+  - id: inman-news
+    label: Inman
+    url: https://www.inman.com
+    market: US
+    kind: press
+    finds: Résidentiel américain, couverture produit dense.
+  - id: housingwire-tech
+    label: HousingWire — Tech
+    url: https://www.housingwire.com/tech/
+    market: US
+    kind: press
+    finds: Crédit, titre et closing — le segment le moins documenté ailleurs.
+
+  # ── Fonds spécialisés ──────────────────────────────────────────────────────
+  - id: fifth-wall
+    label: Fifth Wall — portefeuille
+    url: https://fifthwall.com/portfolio
+    market: US
+    kind: vc
+    finds: Le plus gros fonds proptech. Détecte tôt, à vérifier deux fois.
+  - id: metaprop
+    label: MetaProp — portefeuille
+    url: https://www.metaprop.com/portfolio
+    market: US
+    kind: vc
+    finds: Amorçage proptech américain.
+  - id: ret-camber
+    label: RET Ventures et Camber Creek
+    url: https://www.ret.vc/portfolio
+    market: US
+    kind: vc
+    finds: Multifamily et exploitation, financés par les opérateurs eux-mêmes.
+  - id: axeleo-proptech
+    label: Axeleo, Newfund et fonds proptech français
+    url: https://www.axeleo.com
+    market: FR
+    kind: vc
+    finds: Amorçage français — souvent le premier signal d'un futur acteur.
+
+  # ── Plateformes d'avis ─────────────────────────────────────────────────────
+  - id: g2-categories
+    label: G2 — catégories immobilier
+    url: https://www.g2.com/categories/real-estate
+    market: US
+    kind: review
+    finds: Index le plus complet du marché américain. Le site bloque un accès direct.
+  - id: capterra-fr
+    label: Capterra France — logiciels immobiliers
+    url: https://www.capterra.fr/directory/30011/real-estate/software
+    market: FR
+    kind: review
+    finds: Un des rares annuaires français structurés par catégorie.
+  - id: appvizer
+    label: Appvizer — immobilier
+    url: https://www.appvizer.fr/immobilier
+    market: FR
+    kind: review
+    finds: Annuaire français à la couverture inégale mais avec des éditeurs uniques.
+  - id: getapp-softwareadvice
+    label: GetApp et Software Advice
+    url: https://www.getapp.com/real-estate-property-software/
+    market: US
+    kind: review
+    finds: Recoupement du même corpus que G2, avec des angles différents.
+
+  # ── Lancements et open source ──────────────────────────────────────────────
+  - id: producthunt-realestate
+    label: Product Hunt — real estate
+    url: https://www.producthunt.com/topics/real-estate
+    market: US
+    kind: launch
+    finds: Lancements récents. Beaucoup de bruit, quelques trouvailles précoces.
+  - id: yc-real-estate
+    label: Y Combinator — annuaire, industrie immobilier
+    url: https://www.ycombinator.com/companies?industry=Real%20Estate%20and%20Construction
+    market: US
+    kind: launch
+    finds: Cohortes récentes, produits jeunes mais réels.
+  - id: station-f-frenchtech
+    label: Station F et annuaire French Tech
+    url: https://annuaire.lafrenchtech.com
+    market: FR
+    kind: launch
+    finds: Jeunes éditeurs français avant tout référencement métier.
+  - id: github-proptech
+    label: GitHub — sujets proptech et real-estate
+    url: https://github.com/topics/proptech
+    market: US
+    kind: opensource
+    finds: Les rares produits open source du secteur. Volume faible, unicité maximale.
+
+  # ── Données et marchés publics ─────────────────────────────────────────────
+  - id: boamp-logiciels
+    label: BOAMP — marchés publics de logiciels immobiliers
+    url: https://www.boamp.fr
+    market: FR
+    kind: public
+    finds: Éditeurs retenus par les bailleurs sociaux et les collectivités.
+  - id: data-gouv-logement
+    label: data.gouv.fr — logement et urbanisme
+    url: https://www.data.gouv.fr/fr/topics/logement-et-urbanisme/
+    market: FR
+    kind: public
+    finds: Jeux de données et outils publics réutilisables — gratuits, donc rarement listés.
