@@ -4,7 +4,7 @@
   "label_fr": "Data de marché & intelligence immobilière",
   "summary_en": "Comparables, ownership, transactions, rents, footfall and the datasets other products are built on.",
   "summary_fr": "Comparables, propriétaires, transactions, loyers, fréquentation et les jeux de données sur lesquels d'autres produits sont bâtis.",
-  "count": 17,
+  "count": 19,
   "tools": [
     {
       "slug": "attom-data",
@@ -916,6 +916,93 @@
       "updated": "2026-08-25"
     },
     {
+      "slug": "listhub",
+      "name": "ListHub",
+      "editor": "Move, Inc.",
+      "website": "https://www.listhub.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "listing-syndication",
+      "also_in": [
+        "market-data"
+      ],
+      "positioning": "Listing syndication and reporting for MLSs, brokers and agents, plus a normalized MLS data feed for the publishers that display those listings.",
+      "description": "ListHub is a syndication platform operated by Move, Inc. that takes listing data out of a multiple listing service and distributes it to a network of more than 170 real estate websites. It serves two sides of the same pipe: on one side MLSs, brokerages and agents who decide where their listings travel and who read back performance reports on each destination; on the other side publishers, who consume MLS content through a customizable API covering sources in all fifty states under a single contract, delivered in RESO-normalized form. A separate Global offering pushes listings to overseas audiences, and a Connector product synchronizes with Realogy's database.\n",
+      "real_estate_use": "A broker of record who has just signed a listing does not want to re-key it into every portal, and does not want it appearing on sites they never agreed to. They connect their MLS feed to ListHub once, then use the dashboard to opt each publisher in or out, and read the per-site reporting to see which destinations actually produced views and leads before renewing anything. On the other side of the same platform, a portal or a regional real estate magazine that needs live inventory subscribes to the publisher API rather than negotiating with hundreds of MLSs one by one.\n",
+      "features": [
+        "Listing syndication to a network of over 170 real estate websites",
+        "Per-publisher opt-in and opt-out control for brokers",
+        "Listing performance reporting across destination sites",
+        "Publisher API delivering RESO-normalized MLS data from all 50 states",
+        "ListHub Global for international listing distribution",
+        "Connector synchronization with Realogy's database"
+      ],
+      "use_cases": [
+        {
+          "persona": "brokerage",
+          "job": "Decide site by site where the office's listings are syndicated, and withdraw from a publisher without touching the MLS entry"
+        },
+        {
+          "persona": "agent-broker",
+          "job": "Check which destination websites generated views on a listing before renewing an advertising commitment"
+        },
+        {
+          "persona": "corporate-re",
+          "job": "Source live, normalized MLS listing data through one API instead of contracting with each MLS separately"
+        }
+      ],
+      "personas": [
+        "brokerage",
+        "agent-broker"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "English"
+        ]
+      },
+      "reviews": [],
+      "signals": {
+        "api_docs": "https://www.listhub.com/api-replication",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
+      "sources": [
+        {
+          "url": "https://www.listhub.com",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://www.listhub.com/agents-brokers-mlss.html",
+          "note": "source de découverte — recherche ciblée sur la catégorie listing-syndication US, vide au catalogue"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
       "slug": "meilleursagents",
       "name": "MeilleursAgents",
       "editor": "Aviv Group (Axel Springer)",
@@ -1113,6 +1200,104 @@
         {
           "url": "https://www.placer.ai",
           "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "preventimmo",
+      "name": "Preventimmo",
+      "editor": "Septeo",
+      "website": "https://www.preventimmo.septeo.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "diagnostics-compliance",
+      "also_in": [
+        "market-data",
+        "title-closing-legal"
+      ],
+      "positioning": "Produit les documents réglementaires d'urbanisme et de risques attachés à une vente — ERP, ENSA, note d'urbanisme, droits de préemption — à partir d'une base tenue à jour.",
+      "description": "Preventimmo, part of the Septeo group, maintains a continuously updated database of French planning and environmental-risk data and turns it into the regulatory documents a property sale requires. Its catalogue covers the état des risques et pollutions, the état des nuisances sonores aériennes, the état des risques et pollutions des sols, a clay-shrinkage risk summary, notes de renseignements d'urbanisme, pre-emption rights, certificates and cadastral concordance. The same data is delivered three ways: the customer produces documents themselves online, delegates production to Preventimmo's own team, or connects directly to the underlying regulatory database for their own use. The vendor states sixteen years of activity, 106 staff and 5,000 active customers.\n",
+      "real_estate_use": "A notary preparing a deed, or an agent taking a mandate, has to attach an état des risques that is both current and defensible — and the underlying planning and risk data changes at the commune level without notice. Rather than querying prefecture and municipal sources by hand, they generate the ERP and the urban planning note from Preventimmo in a few clicks and attach them to the file. A diagnostics firm doing this at volume delegates the production entirely, or plugs its own software into the regulatory database so the documents appear inside the tool its technicians already use. When a sale is later contested on a disclosure point, the documents carry a traceable source and date.\n",
+      "features": [
+        "État des risques et pollutions (ERP) généré en ligne",
+        "État des nuisances sonores aériennes (ENSA) et état des risques des sols (ERPS)",
+        "Notes de renseignements d'urbanisme et droits de préemption",
+        "Synthèse risques argiles et concordance cadastrale",
+        "Production déléguée des documents par les équipes de l'éditeur",
+        "Accès direct à la base réglementaire pour intégration dans un logiciel tiers"
+      ],
+      "use_cases": [
+        {
+          "persona": "legal-notary",
+          "job": "Attacher à un acte des documents d'urbanisme et de risques conformes et datés, sans interroger chaque source publique"
+        },
+        {
+          "persona": "agent-broker",
+          "job": "Produire l'ERP d'un bien au moment de la prise de mandat pour tenir l'obligation d'information de l'acquéreur"
+        },
+        {
+          "persona": "appraiser",
+          "job": "Alimenter son propre logiciel de diagnostic depuis la base réglementaire plutôt que de ressaisir les données"
+        }
+      ],
+      "personas": [
+        "legal-notary",
+        "agent-broker",
+        "appraiser",
+        "developer-builder"
+      ],
+      "segments": [
+        "residential",
+        "office",
+        "retail",
+        "land-development"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "French"
+        ]
+      },
+      "alternatives": [
+        "liciel",
+        "cityscan"
+      ],
+      "reviews": [],
+      "signals": {
+        "privacy": "https://www.preventimmo.septeo.com/legal/mentions-legales",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-25"
+      },
+      "sources": [
+        {
+          "url": "https://www.preventimmo.septeo.com",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://www.septeo.com/fr/solutions-immobilier",
+          "note": "source de découverte — écosystème Septeo"
         }
       ],
       "verification": {

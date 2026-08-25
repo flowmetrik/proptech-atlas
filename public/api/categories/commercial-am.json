@@ -4,7 +4,7 @@
   "label_fr": "Asset & property management tertiaire",
   "summary_en": "Institutional-grade lease, asset and portfolio administration.",
   "summary_fr": "Administration institutionnelle des baux, actifs et portefeuilles.",
-  "count": 6,
+  "count": 7,
   "tools": [
     {
       "slug": "argus-enterprise",
@@ -203,6 +203,113 @@
         {
           "url": "https://www.eudonet.com",
           "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "happyco",
+      "name": "HappyCo",
+      "editor": "HappyCo",
+      "website": "https://happy.co",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "facility-maintenance",
+      "also_in": [
+        "property-management",
+        "commercial-am"
+      ],
+      "positioning": "Maintenance and asset-condition platform for multifamily operators, built around mobile inspections, work orders and unit turns.",
+      "description": "HappyCo is an operations platform for multifamily owners and property managers organized into several suites: maintenance operations (preventive maintenance, work orders, make-readies, inspections and reporting), an after-hours answering and triage service that turns resident calls into work orders, asset management covering capital budgets, renovation projects, vendor compliance and inventory, asset evaluation for due diligence and lease-file audits, and a sourcing module for vendor bidding. Its mobile apps work offline and sync when connectivity returns, and it integrates with the main property management systems as a certified partner. A separate lending suite connects to Freddie Mac's Optigo network for origination inspections.\n",
+      "real_estate_use": "A regional manager responsible for several thousand apartments cannot personally see the condition of any of them. Their onsite technicians run every inspection — move-in, move-out, life safety, make-ready — inside the HappyCo mobile app, which timestamps photos and pushes the result back with no paper. When a unit is vacated, the make-ready workflow assigns the punch list and the manager watches the turn close in a dashboard rather than by phone. At acquisition, the same apps are used for due-diligence walks and lease-file audits so the buyer's condition assessment sits in the system the operator will use afterwards. Overnight resident calls are triaged by the answering service and arrive the next morning as work orders already routed.\n",
+      "features": [
+        "Mobile inspections with timestamped photos and offline sync",
+        "Work orders, preventive maintenance schedules and make-ready turn tracking",
+        "After-hours call triage that generates work orders automatically",
+        "Capital budget, renovation project and vendor compliance tracking",
+        "Due-diligence and lease-file audit workflows for acquisitions",
+        "Benchmarking dashboards across properties, units and staff"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Run move-in, move-out and life-safety inspections on mobile and close a unit turn against a tracked punch list"
+        },
+        {
+          "persona": "facility-manager",
+          "job": "Schedule preventive maintenance and dispatch work orders to onsite technicians across a portfolio"
+        },
+        {
+          "persona": "investor-am",
+          "job": "Carry out due-diligence walks and lease-file audits on an acquisition inside the platform the operator will keep using"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "facility-manager",
+        "investor-am"
+      ],
+      "segments": [
+        "multifamily",
+        "residential"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "per-unit",
+        "public_pricing": false,
+        "url": "https://happy.co/pricing"
+      },
+      "integrations": [
+        "Certified integrations with leading property management systems",
+        "Open API and plugin marketplace",
+        "Freddie Mac Optigo"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "English"
+        ]
+      },
+      "alternatives": [
+        "property-meld",
+        "upkeep",
+        "limble"
+      ],
+      "reviews": [],
+      "signals": {
+        "privacy": "https://happy.co/privacy-policy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
+      "sources": [
+        {
+          "url": "https://happy.co",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://happy.co/pricing",
+          "note": "page tarifs — modèle par lot, aucun montant publié"
+        },
+        {
+          "url": "https://www.appfolio.com/services/stack",
+          "note": "source de découverte — partenaire AppFolio Stack"
         }
       ],
       "verification": {

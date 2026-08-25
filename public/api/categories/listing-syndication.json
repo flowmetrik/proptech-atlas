@@ -4,7 +4,7 @@
   "label_fr": "Publication & diffusion d'annonces",
   "summary_en": "Software that formats and pushes a portfolio of listings out to portals and partner networks.",
   "summary_fr": "Le logiciel qui met en forme et pousse un portefeuille d'annonces vers les portails et les réseaux partenaires.",
-  "count": 4,
+  "count": 6,
   "tools": [
     {
       "slug": "apimo",
@@ -120,6 +120,93 @@
       "updated": "2026-08-25"
     },
     {
+      "slug": "listhub",
+      "name": "ListHub",
+      "editor": "Move, Inc.",
+      "website": "https://www.listhub.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "listing-syndication",
+      "also_in": [
+        "market-data"
+      ],
+      "positioning": "Listing syndication and reporting for MLSs, brokers and agents, plus a normalized MLS data feed for the publishers that display those listings.",
+      "description": "ListHub is a syndication platform operated by Move, Inc. that takes listing data out of a multiple listing service and distributes it to a network of more than 170 real estate websites. It serves two sides of the same pipe: on one side MLSs, brokerages and agents who decide where their listings travel and who read back performance reports on each destination; on the other side publishers, who consume MLS content through a customizable API covering sources in all fifty states under a single contract, delivered in RESO-normalized form. A separate Global offering pushes listings to overseas audiences, and a Connector product synchronizes with Realogy's database.\n",
+      "real_estate_use": "A broker of record who has just signed a listing does not want to re-key it into every portal, and does not want it appearing on sites they never agreed to. They connect their MLS feed to ListHub once, then use the dashboard to opt each publisher in or out, and read the per-site reporting to see which destinations actually produced views and leads before renewing anything. On the other side of the same platform, a portal or a regional real estate magazine that needs live inventory subscribes to the publisher API rather than negotiating with hundreds of MLSs one by one.\n",
+      "features": [
+        "Listing syndication to a network of over 170 real estate websites",
+        "Per-publisher opt-in and opt-out control for brokers",
+        "Listing performance reporting across destination sites",
+        "Publisher API delivering RESO-normalized MLS data from all 50 states",
+        "ListHub Global for international listing distribution",
+        "Connector synchronization with Realogy's database"
+      ],
+      "use_cases": [
+        {
+          "persona": "brokerage",
+          "job": "Decide site by site where the office's listings are syndicated, and withdraw from a publisher without touching the MLS entry"
+        },
+        {
+          "persona": "agent-broker",
+          "job": "Check which destination websites generated views on a listing before renewing an advertising commitment"
+        },
+        {
+          "persona": "corporate-re",
+          "job": "Source live, normalized MLS listing data through one API instead of contracting with each MLS separately"
+        }
+      ],
+      "personas": [
+        "brokerage",
+        "agent-broker"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "English"
+        ]
+      },
+      "reviews": [],
+      "signals": {
+        "api_docs": "https://www.listhub.com/api-replication",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
+      "sources": [
+        {
+          "url": "https://www.listhub.com",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://www.listhub.com/agents-brokers-mlss.html",
+          "note": "source de découverte — recherche ciblée sur la catégorie listing-syndication US, vide au catalogue"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
       "slug": "poliris",
       "name": "Poliris",
       "editor": "Poliris",
@@ -195,6 +282,109 @@
         {
           "url": "https://www.poliris.com",
           "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "previsite",
+      "name": "Previsite",
+      "editor": "Previsite",
+      "website": "https://www.previsite.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "agent-marketing",
+      "also_in": [
+        "visuals-tours",
+        "listing-syndication"
+      ],
+      "positioning": "Suite de production et de diffusion de contenu pour agents immobiliers : photo, vidéo, visite virtuelle, site dédié au mandat et gestion des réseaux sociaux.",
+      "description": "Previsite publishes a set of marketing tools for real estate agents, gathered in an all-in-one mobile application called Smartpix Pro. The application produces the visual content of a listing — optimized photographs, dynamic videos and virtual tours — with the vendor stating a professional-quality result in under five minutes. Around it sit a dedicated single-property website for a mandate, and Social Connect Pro, a turnkey product that manages an agency's social accounts, distributes listings automatically and works on local visibility. Other named products include Mooveo and SpotVideo. The company is French, with offices in Hyères and Paris.\n",
+      "real_estate_use": "An independent agent who has just signed a mandate is expected to be photographer, videographer and community manager on top of the job itself. With Previsite they shoot the property on a phone through Smartpix Pro, which returns edited photos, a video and a virtual tour without a studio pass; the mandate gets its own single-property page to send to the owner as proof of work and to buyers as a landing page. Social Connect Pro then pushes the listing to the agency's social accounts on a schedule the agent does not maintain by hand, which is what keeps a small agency visible locally between listings.\n",
+      "features": [
+        "Application Smartpix Pro regroupant photo, vidéo et visite virtuelle",
+        "Photographies optimisées et vidéos d'annonce assistées par IA",
+        "Visite virtuelle consultable à distance par l'acquéreur",
+        "Site mandat dédié à un bien",
+        "Social Connect Pro — gestion et diffusion automatique sur les réseaux sociaux",
+        "Diffusion des annonces pour la visibilité locale de l'agence"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Produire photos, vidéo et visite virtuelle d'un bien depuis un téléphone, sans prestataire externe"
+        },
+        {
+          "persona": "brokerage",
+          "job": "Tenir la présence de l'agence sur les réseaux sociaux avec une diffusion automatique des annonces"
+        },
+        {
+          "persona": "agent-broker",
+          "job": "Donner à un mandat son propre site pour le montrer au vendeur et le servir aux acquéreurs"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage"
+      ],
+      "segments": [
+        "residential",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "ai": {
+        "capabilities": [
+          "Photo enhancement",
+          "Assisted video generation from listing media"
+        ]
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "French",
+          "English"
+        ]
+      },
+      "alternatives": [
+        "nodalview",
+        "boxbrownie",
+        "check-and-visit"
+      ],
+      "reviews": [],
+      "signals": {
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-25"
+      },
+      "sources": [
+        {
+          "url": "https://www.previsite.com",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://www.frenchproptech.fr/annuaire-startups/",
+          "note": "source de découverte"
         }
       ],
       "verification": {

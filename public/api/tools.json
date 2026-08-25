@@ -6,21 +6,21 @@
   "repository": "https://github.com/flowmetrik/proptech-atlas",
   "generated": "2026-08-25",
   "counts": {
-    "tools": 158,
-    "US": 96,
-    "FR": 91,
+    "tools": 166,
+    "US": 100,
+    "FR": 95,
     "categories": 24,
-    "editors": 143,
+    "editors": 149,
     "verified": 0,
     "reviews": 0,
     "logos": 151,
     "signals": {
-      "probed": 139,
-      "public_pricing": 36,
-      "api_docs": 11,
+      "probed": 147,
+      "public_pricing": 38,
+      "api_docs": 12,
       "security_page": 20,
-      "privacy_page": 102,
-      "status_page": 42
+      "privacy_page": 107,
+      "status_page": 43
     }
   },
   "tools": [
@@ -2581,6 +2581,108 @@
         {
           "url": "https://www.bulldozair.com",
           "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "butterflymx",
+      "name": "ButterflyMX",
+      "editor": "ButterflyMX, Inc.",
+      "website": "https://butterflymx.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "tenant-experience",
+      "positioning": "Cloud-based property access: video intercoms, keypads and smart locks a resident answers from their phone and a manager administers from a browser.",
+      "description": "ButterflyMX sells a connected access-control system for buildings, combining door hardware with a resident smartphone app and a management console. The product line covers video intercoms, a QR-code intercom, keypads, smart locks, elevator controls, vehicle access control, security cameras, package rooms and a front-desk station. Residents see and speak to whoever is at the door or gate, open it remotely and issue temporary access PINs; managers review entry logs, grant or revoke access and connect the system to other cloud tools. The company states the installation requires only three connections — internet, power and an electronic or magnetic lock — which removes the in-unit hardware and building wiring a traditional intercom needs.\n",
+      "real_estate_use": "A property manager running a multifamily building without a doorman needs deliveries, contractors and guests to get in without anyone driving to the site with a key. They install ButterflyMX at the entrance, and from then on a courier calls the unit, the resident answers on their phone wherever they are, and the door opens; the manager issues a dated PIN to the cleaning company and revokes it when the contract ends. When a dispute arises over who entered and when, the entry log settles it. Leasing teams also use the self-guided tour feature so a prospect can visit a vacant unit without an agent present.\n",
+      "features": [
+        "Video intercom answered from a resident smartphone app",
+        "Remote door and gate release, with temporary access PINs",
+        "Building entry logs and per-user access administration",
+        "Keypads, smart locks and elevator controls on the same system",
+        "Package room and front-desk station modules",
+        "Self-guided tour access for prospective renters"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Let couriers and contractors into a staffless building and keep a reviewable log of every entry"
+        },
+        {
+          "persona": "tenant-occupier",
+          "job": "See and admit a visitor at the building entrance from anywhere, without being home"
+        },
+        {
+          "persona": "developer-builder",
+          "job": "Cut intercom wiring and in-unit hardware out of a new building's access-control budget"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "tenant-occupier",
+        "developer-builder"
+      ],
+      "segments": [
+        "multifamily",
+        "residential",
+        "office",
+        "coliving-student"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Property management software integrations listed on the vendor's integrations page"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "English"
+        ]
+      },
+      "alternatives": [
+        "smartrent"
+      ],
+      "reviews": [],
+      "signals": {
+        "pricing": "https://butterflymx.com/cost",
+        "privacy": "https://butterflymx.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
+      "sources": [
+        {
+          "url": "https://butterflymx.com",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://butterflymx.com/features/",
+          "note": "page fonctionnalités"
+        },
+        {
+          "url": "https://www.appfolio.com/services/stack",
+          "note": "source de découverte — partenaire AppFolio Stack"
         }
       ],
       "verification": {
@@ -5582,6 +5684,101 @@
       "updated": "2026-08-25"
     },
     {
+      "slug": "garantme",
+      "name": "Garantme",
+      "editor": "Garantme",
+      "website": "https://garantme.fr/fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "tenant-screening",
+      "positioning": "Certifie le dossier d'un candidat locataire et se porte garant à sa place, avec une console de gestion des dossiers et des garanties pour les agences.",
+      "description": "Garantme is a French rental-guarantee platform aimed at applicants who have no personal guarantor. The tenant uploads their supporting documents, Garantme certifies the file, and the company then stands as guarantor for the landlord for the duration of the lease, renewable each year with it. The guarantee is underwritten by insurance companies. Agencies and landlords get the other half of the product: an application console, called Console Garantme, where they centralize incoming rental files and the insurance products attached to them, plus handling of unpaid-rent procedures. The vendor states it has certified 100,000 tenants across roughly 4,000 partner agencies in 150 French cities.\n",
+      "real_estate_use": "A candidate with a solid income but no French guarantor keeps losing flats to files that have one. They assemble their documents in Garantme before starting their search, get certified, and present a file that already carries a guarantee — which is what puts it at the top of the pile at the viewing. On the other side, a letting agent receiving thirty applications for one flat uses the console to see which files are certified and which insurance product covers each, instead of re-reading payslips; when an incumbent tenant stops paying, the unpaid-rent procedure is run by Garantme rather than by the agency. Payment is only due when the lease is signed, so the applicant carries no cost during the search.\n",
+      "features": [
+        "Certification d'un dossier locatif sous 24 h",
+        "Caution solidaire et indivisible, y compris en colocation",
+        "Console Garantme pour centraliser dossiers et produits d'assurance en agence",
+        "Gestion des procédures d'impayé pour le compte du bailleur",
+        "Calculateur de coût de la garantie en ligne",
+        "Renouvellement annuel de la garantie avec le bail"
+      ],
+      "use_cases": [
+        {
+          "persona": "tenant-occupier",
+          "job": "Obtenir un garant et faire certifier son dossier avant de commencer les visites"
+        },
+        {
+          "persona": "agent-broker",
+          "job": "Trier des candidatures sur des dossiers déjà certifiés plutôt que sur des pièces à vérifier une par une"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "Couvrir le loyer et déléguer la procédure d'impayé sans coût pour le bailleur"
+        }
+      ],
+      "personas": [
+        "tenant-occupier",
+        "agent-broker",
+        "landlord-owner",
+        "property-manager"
+      ],
+      "segments": [
+        "residential",
+        "coliving-student"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://garantme.fr/fr"
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "French",
+          "English",
+          "Chinese"
+        ]
+      },
+      "alternatives": [
+        "zelok",
+        "smartloc"
+      ],
+      "reviews": [],
+      "signals": {
+        "site_languages": [
+          "en",
+          "fr",
+          "zh"
+        ],
+        "checked_on": "2026-08-25"
+      },
+      "sources": [
+        {
+          "url": "https://garantme.fr/fr",
+          "note": "site éditeur — fonctionnement, chiffres et calculateur de tarif"
+        },
+        {
+          "url": "https://www.frenchproptech.fr/annuaire-startups/",
+          "note": "source de découverte"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
       "slug": "genapi",
       "name": "GenApi",
       "editor": "Septeo",
@@ -6067,6 +6264,113 @@
         {
           "url": "https://www.guesty.com",
           "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "happyco",
+      "name": "HappyCo",
+      "editor": "HappyCo",
+      "website": "https://happy.co",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "facility-maintenance",
+      "also_in": [
+        "property-management",
+        "commercial-am"
+      ],
+      "positioning": "Maintenance and asset-condition platform for multifamily operators, built around mobile inspections, work orders and unit turns.",
+      "description": "HappyCo is an operations platform for multifamily owners and property managers organized into several suites: maintenance operations (preventive maintenance, work orders, make-readies, inspections and reporting), an after-hours answering and triage service that turns resident calls into work orders, asset management covering capital budgets, renovation projects, vendor compliance and inventory, asset evaluation for due diligence and lease-file audits, and a sourcing module for vendor bidding. Its mobile apps work offline and sync when connectivity returns, and it integrates with the main property management systems as a certified partner. A separate lending suite connects to Freddie Mac's Optigo network for origination inspections.\n",
+      "real_estate_use": "A regional manager responsible for several thousand apartments cannot personally see the condition of any of them. Their onsite technicians run every inspection — move-in, move-out, life safety, make-ready — inside the HappyCo mobile app, which timestamps photos and pushes the result back with no paper. When a unit is vacated, the make-ready workflow assigns the punch list and the manager watches the turn close in a dashboard rather than by phone. At acquisition, the same apps are used for due-diligence walks and lease-file audits so the buyer's condition assessment sits in the system the operator will use afterwards. Overnight resident calls are triaged by the answering service and arrive the next morning as work orders already routed.\n",
+      "features": [
+        "Mobile inspections with timestamped photos and offline sync",
+        "Work orders, preventive maintenance schedules and make-ready turn tracking",
+        "After-hours call triage that generates work orders automatically",
+        "Capital budget, renovation project and vendor compliance tracking",
+        "Due-diligence and lease-file audit workflows for acquisitions",
+        "Benchmarking dashboards across properties, units and staff"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Run move-in, move-out and life-safety inspections on mobile and close a unit turn against a tracked punch list"
+        },
+        {
+          "persona": "facility-manager",
+          "job": "Schedule preventive maintenance and dispatch work orders to onsite technicians across a portfolio"
+        },
+        {
+          "persona": "investor-am",
+          "job": "Carry out due-diligence walks and lease-file audits on an acquisition inside the platform the operator will keep using"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "facility-manager",
+        "investor-am"
+      ],
+      "segments": [
+        "multifamily",
+        "residential"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "per-unit",
+        "public_pricing": false,
+        "url": "https://happy.co/pricing"
+      },
+      "integrations": [
+        "Certified integrations with leading property management systems",
+        "Open API and plugin marketplace",
+        "Freddie Mac Optigo"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "English"
+        ]
+      },
+      "alternatives": [
+        "property-meld",
+        "upkeep",
+        "limble"
+      ],
+      "reviews": [],
+      "signals": {
+        "privacy": "https://happy.co/privacy-policy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
+      "sources": [
+        {
+          "url": "https://happy.co",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://happy.co/pricing",
+          "note": "page tarifs — modèle par lot, aucun montant publié"
+        },
+        {
+          "url": "https://www.appfolio.com/services/stack",
+          "note": "source de découverte — partenaire AppFolio Stack"
         }
       ],
       "verification": {
@@ -7544,6 +7848,106 @@
       "updated": "2026-08-25"
     },
     {
+      "slug": "knock-crm",
+      "name": "Knock CRM",
+      "editor": "RealPage",
+      "website": "https://www.knockcrm.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "crm-lead",
+      "also_in": [
+        "ai-assistants",
+        "property-management"
+      ],
+      "positioning": "Front-office leasing platform for multifamily: self-scheduled tours, unified prospect messaging, source attribution and team performance oversight.",
+      "description": "Knock CRM is a leasing customer-relationship platform for multifamily owners and operators, now published by RealPage. It groups tour scheduling, marketing attribution, prospect messaging, task management, visitor experience and team oversight into one front-office suite. Knock Now lets a prospective renter self-schedule a tour from any website or app. Messaging brings email, text, voice and chat into a single screen. Source attribution ties each lead back to the marketing channel that produced it and drives automated campaigns. Benchmarking and performance trends give leasing leadership visibility into individual and team activity. The vendor also offers AI solutions, advanced analytics and a data cloud with API access alongside the core CRM.\n",
+      "real_estate_use": "A leasing team at a large apartment community loses prospects between the first inquiry and the tour. With Knock the renter books their own slot straight from the property website, so nobody waits for a callback, and every subsequent exchange — text, email, call, chat — lands in one inbox where any agent on shift can pick it up. The regional marketer looks at source attribution to see which portal or campaign is actually filling the calendar and cuts the ones that are not. The leasing director uses the benchmarking view to compare conversion across communities and to see which agents let follow-ups lapse.\n",
+      "features": [
+        "Self-scheduled tours from any property website or app",
+        "Unified inbox across email, text, voice and chat",
+        "Marketing source attribution and automated campaigns",
+        "Task management for follow-up on open prospects",
+        "Leasing team benchmarking and performance trends",
+        "Data cloud and API access for reporting"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Let prospective renters book their own tours and keep every follow-up in one shared inbox"
+        },
+        {
+          "persona": "brokerage",
+          "job": "Attribute each lead to its marketing channel and stop funding the ones that do not convert"
+        },
+        {
+          "persona": "investor-am",
+          "job": "Compare leasing conversion and team activity across communities in one benchmarking view"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "investor-am",
+        "brokerage"
+      ],
+      "segments": [
+        "multifamily",
+        "residential",
+        "coliving-student"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Partner directory published by the vendor",
+        "KnockNetwork"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "English"
+        ]
+      },
+      "alternatives": [
+        "entrata",
+        "realpage",
+        "eliseai"
+      ],
+      "reviews": [],
+      "signals": {
+        "privacy": "https://www.knockcrm.com/privacy-policy",
+        "status": "https://status.knockcrm.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
+      "sources": [
+        {
+          "url": "https://www.knockcrm.com",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://www.appfolio.com/services/stack",
+          "note": "source de découverte — partenaire AppFolio Stack"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
       "slug": "leboncoin-immobilier",
       "name": "Leboncoin Immobilier",
       "editor": "Leboncoin (Adevinta)",
@@ -7828,6 +8232,93 @@
         {
           "url": "https://limblecmms.com",
           "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "listhub",
+      "name": "ListHub",
+      "editor": "Move, Inc.",
+      "website": "https://www.listhub.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "listing-syndication",
+      "also_in": [
+        "market-data"
+      ],
+      "positioning": "Listing syndication and reporting for MLSs, brokers and agents, plus a normalized MLS data feed for the publishers that display those listings.",
+      "description": "ListHub is a syndication platform operated by Move, Inc. that takes listing data out of a multiple listing service and distributes it to a network of more than 170 real estate websites. It serves two sides of the same pipe: on one side MLSs, brokerages and agents who decide where their listings travel and who read back performance reports on each destination; on the other side publishers, who consume MLS content through a customizable API covering sources in all fifty states under a single contract, delivered in RESO-normalized form. A separate Global offering pushes listings to overseas audiences, and a Connector product synchronizes with Realogy's database.\n",
+      "real_estate_use": "A broker of record who has just signed a listing does not want to re-key it into every portal, and does not want it appearing on sites they never agreed to. They connect their MLS feed to ListHub once, then use the dashboard to opt each publisher in or out, and read the per-site reporting to see which destinations actually produced views and leads before renewing anything. On the other side of the same platform, a portal or a regional real estate magazine that needs live inventory subscribes to the publisher API rather than negotiating with hundreds of MLSs one by one.\n",
+      "features": [
+        "Listing syndication to a network of over 170 real estate websites",
+        "Per-publisher opt-in and opt-out control for brokers",
+        "Listing performance reporting across destination sites",
+        "Publisher API delivering RESO-normalized MLS data from all 50 states",
+        "ListHub Global for international listing distribution",
+        "Connector synchronization with Realogy's database"
+      ],
+      "use_cases": [
+        {
+          "persona": "brokerage",
+          "job": "Decide site by site where the office's listings are syndicated, and withdraw from a publisher without touching the MLS entry"
+        },
+        {
+          "persona": "agent-broker",
+          "job": "Check which destination websites generated views on a listing before renewing an advertising commitment"
+        },
+        {
+          "persona": "corporate-re",
+          "job": "Source live, normalized MLS listing data through one API instead of contracting with each MLS separately"
+        }
+      ],
+      "personas": [
+        "brokerage",
+        "agent-broker"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "English"
+        ]
+      },
+      "reviews": [],
+      "signals": {
+        "api_docs": "https://www.listhub.com/api-replication",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
+      "sources": [
+        {
+          "url": "https://www.listhub.com",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://www.listhub.com/agents-brokers-mlss.html",
+          "note": "source de découverte — recherche ciblée sur la catégorie listing-syndication US, vide au catalogue"
         }
       ],
       "verification": {
@@ -10437,6 +10928,207 @@
         },
         {
           "url": "https://www.seiitra.com/solutions/logiciel-syndic-de-copropriete/",
+          "note": "source de découverte"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "preventimmo",
+      "name": "Preventimmo",
+      "editor": "Septeo",
+      "website": "https://www.preventimmo.septeo.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "diagnostics-compliance",
+      "also_in": [
+        "market-data",
+        "title-closing-legal"
+      ],
+      "positioning": "Produit les documents réglementaires d'urbanisme et de risques attachés à une vente — ERP, ENSA, note d'urbanisme, droits de préemption — à partir d'une base tenue à jour.",
+      "description": "Preventimmo, part of the Septeo group, maintains a continuously updated database of French planning and environmental-risk data and turns it into the regulatory documents a property sale requires. Its catalogue covers the état des risques et pollutions, the état des nuisances sonores aériennes, the état des risques et pollutions des sols, a clay-shrinkage risk summary, notes de renseignements d'urbanisme, pre-emption rights, certificates and cadastral concordance. The same data is delivered three ways: the customer produces documents themselves online, delegates production to Preventimmo's own team, or connects directly to the underlying regulatory database for their own use. The vendor states sixteen years of activity, 106 staff and 5,000 active customers.\n",
+      "real_estate_use": "A notary preparing a deed, or an agent taking a mandate, has to attach an état des risques that is both current and defensible — and the underlying planning and risk data changes at the commune level without notice. Rather than querying prefecture and municipal sources by hand, they generate the ERP and the urban planning note from Preventimmo in a few clicks and attach them to the file. A diagnostics firm doing this at volume delegates the production entirely, or plugs its own software into the regulatory database so the documents appear inside the tool its technicians already use. When a sale is later contested on a disclosure point, the documents carry a traceable source and date.\n",
+      "features": [
+        "État des risques et pollutions (ERP) généré en ligne",
+        "État des nuisances sonores aériennes (ENSA) et état des risques des sols (ERPS)",
+        "Notes de renseignements d'urbanisme et droits de préemption",
+        "Synthèse risques argiles et concordance cadastrale",
+        "Production déléguée des documents par les équipes de l'éditeur",
+        "Accès direct à la base réglementaire pour intégration dans un logiciel tiers"
+      ],
+      "use_cases": [
+        {
+          "persona": "legal-notary",
+          "job": "Attacher à un acte des documents d'urbanisme et de risques conformes et datés, sans interroger chaque source publique"
+        },
+        {
+          "persona": "agent-broker",
+          "job": "Produire l'ERP d'un bien au moment de la prise de mandat pour tenir l'obligation d'information de l'acquéreur"
+        },
+        {
+          "persona": "appraiser",
+          "job": "Alimenter son propre logiciel de diagnostic depuis la base réglementaire plutôt que de ressaisir les données"
+        }
+      ],
+      "personas": [
+        "legal-notary",
+        "agent-broker",
+        "appraiser",
+        "developer-builder"
+      ],
+      "segments": [
+        "residential",
+        "office",
+        "retail",
+        "land-development"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "French"
+        ]
+      },
+      "alternatives": [
+        "liciel",
+        "cityscan"
+      ],
+      "reviews": [],
+      "signals": {
+        "privacy": "https://www.preventimmo.septeo.com/legal/mentions-legales",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-25"
+      },
+      "sources": [
+        {
+          "url": "https://www.preventimmo.septeo.com",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://www.septeo.com/fr/solutions-immobilier",
+          "note": "source de découverte — écosystème Septeo"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "previsite",
+      "name": "Previsite",
+      "editor": "Previsite",
+      "website": "https://www.previsite.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "agent-marketing",
+      "also_in": [
+        "visuals-tours",
+        "listing-syndication"
+      ],
+      "positioning": "Suite de production et de diffusion de contenu pour agents immobiliers : photo, vidéo, visite virtuelle, site dédié au mandat et gestion des réseaux sociaux.",
+      "description": "Previsite publishes a set of marketing tools for real estate agents, gathered in an all-in-one mobile application called Smartpix Pro. The application produces the visual content of a listing — optimized photographs, dynamic videos and virtual tours — with the vendor stating a professional-quality result in under five minutes. Around it sit a dedicated single-property website for a mandate, and Social Connect Pro, a turnkey product that manages an agency's social accounts, distributes listings automatically and works on local visibility. Other named products include Mooveo and SpotVideo. The company is French, with offices in Hyères and Paris.\n",
+      "real_estate_use": "An independent agent who has just signed a mandate is expected to be photographer, videographer and community manager on top of the job itself. With Previsite they shoot the property on a phone through Smartpix Pro, which returns edited photos, a video and a virtual tour without a studio pass; the mandate gets its own single-property page to send to the owner as proof of work and to buyers as a landing page. Social Connect Pro then pushes the listing to the agency's social accounts on a schedule the agent does not maintain by hand, which is what keeps a small agency visible locally between listings.\n",
+      "features": [
+        "Application Smartpix Pro regroupant photo, vidéo et visite virtuelle",
+        "Photographies optimisées et vidéos d'annonce assistées par IA",
+        "Visite virtuelle consultable à distance par l'acquéreur",
+        "Site mandat dédié à un bien",
+        "Social Connect Pro — gestion et diffusion automatique sur les réseaux sociaux",
+        "Diffusion des annonces pour la visibilité locale de l'agence"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Produire photos, vidéo et visite virtuelle d'un bien depuis un téléphone, sans prestataire externe"
+        },
+        {
+          "persona": "brokerage",
+          "job": "Tenir la présence de l'agence sur les réseaux sociaux avec une diffusion automatique des annonces"
+        },
+        {
+          "persona": "agent-broker",
+          "job": "Donner à un mandat son propre site pour le montrer au vendeur et le servir aux acquéreurs"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage"
+      ],
+      "segments": [
+        "residential",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "ai": {
+        "capabilities": [
+          "Photo enhancement",
+          "Assisted video generation from listing media"
+        ]
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "French",
+          "English"
+        ]
+      },
+      "alternatives": [
+        "nodalview",
+        "boxbrownie",
+        "check-and-visit"
+      ],
+      "reviews": [],
+      "signals": {
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-25"
+      },
+      "sources": [
+        {
+          "url": "https://www.previsite.com",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://www.frenchproptech.fr/annuaire-startups/",
           "note": "source de découverte"
         }
       ],
@@ -15776,6 +16468,101 @@
         {
           "url": "https://www.yuman.io",
           "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "zelok",
+      "name": "Zelok",
+      "editor": "Zelok",
+      "website": "https://www.zelok.fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "tenant-screening",
+      "also_in": [
+        "portals-marketplaces"
+      ],
+      "positioning": "Dossier locataire en ligne partagé entre agences, doublé d'une assurance loyers impayés souscrite via le professionnel qui gère le bien.",
+      "description": "Zelok is a French rental platform with two connected halves. Tenants build one online application file, reusable across agencies, and search through an engine that scans listings published by professionals — the vendor cites more than 380,000 listings drawn from over 50 platforms and filtered against the applicant's criteria. Real estate professionals and the landlords they act for get the unpaid-rent side: a Garantie Totale insurance product that pays the rent every month on a fixed date, with compensation from the first euro within 24 hours, and cover for property damage and legal protection. The vendor states more than 37,000 professional partners and one tenant file created every twenty seconds.\n",
+      "real_estate_use": "A letting agent handling a portfolio for private landlords has two recurring problems: incomplete applications and owners who panic at the first missed payment. Zelok solves them in the same place — candidates arrive with a file already assembled and shared, and the agent subscribes the lease to the unpaid-rent guarantee so the owner receives the rent on a fixed date regardless of what the tenant does. For the applicant, the file is built once in a few minutes and reused with every agency contacted, and the search engine surfaces matching listings rather than requiring the applicant to monitor fifty portals. The agent also uses the platform as a way to win management mandates from owners who want the guarantee.\n",
+      "features": [
+        "Dossier locataire en ligne réutilisable, partagé entre plusieurs agences",
+        "Moteur de recherche agrégeant les annonces de professionnels sur plus de 50 plateformes",
+        "Assurance loyers impayés Garantie Totale souscrite via un professionnel",
+        "Indemnisation dès le premier euro, sous 24 heures",
+        "Couverture des dégradations immobilières et protection juridique",
+        "Espace professionnel de suivi des dossiers candidats et des garanties"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Recevoir des candidatures déjà constituées et souscrire la garantie loyers impayés du bail dans le même outil"
+        },
+        {
+          "persona": "tenant-occupier",
+          "job": "Constituer un dossier une seule fois et le présenter à toutes les agences contactées"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "Percevoir le loyer à date fixe malgré un impayé, via le professionnel qui gère le bien"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "tenant-occupier",
+        "landlord-owner",
+        "property-manager"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "French"
+        ]
+      },
+      "alternatives": [
+        "garantme",
+        "dossierfacile",
+        "smartloc"
+      ],
+      "reviews": [],
+      "signals": {
+        "pricing": "https://www.zelok.fr/guide/prix-assurance-loyer-impaye",
+        "privacy": "https://www.zelok.fr/guide/rgpd-cnil-tout-ce-que-doivent-savoir-les-agences-immobilieres",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-25"
+      },
+      "sources": [
+        {
+          "url": "https://www.zelok.fr",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://www.frenchproptech.fr/annuaire-startups/",
+          "note": "source de découverte"
         }
       ],
       "verification": {

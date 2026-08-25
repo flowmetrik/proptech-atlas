@@ -2,7 +2,7 @@
 
 <!-- Généré par `npm run data:emit`. Ne pas éditer à la main : éditer `data/tools/*.yaml`. -->
 
-158 produits · 96 🇺🇸 · 91 🇫🇷 · mis à jour le 2026-08-25
+166 produits · 100 🇺🇸 · 95 🇫🇷 · mis à jour le 2026-08-25
 
 Version navigable : https://flowmetrik.github.io/proptech-atlas/explore
 
@@ -20,6 +20,7 @@ _Capter, qualifier et travailler les leads acquéreurs, vendeurs et locataires._
 | [Follow Up Boss](data/tools/follow-up-boss.yaml) | Zillow Group | 🇺🇸 | Used by agent teams and brokerages to make sure a portal lead is contacted in minutes rather than hours. Leads arrive from Zillow, Realtor.com and the brokerage site, get assigned by… |
 | [Hektor](data/tools/hektor.yaml) | La Boîte Immo | 🇫🇷 | A French agency's daily cycle runs on the mandate. Hektor holds the signed mandate and its legal mentions, matches each new listing against registered buyer criteria and sends the alert… |
 | [Immofacile](data/tools/immofacile.yaml) | Immofacile | 🇫🇷 | Small French agencies rarely practise all three regulated activities, and paying for a full administration suite to run transaction alone is a common source of overspend. Modular pricing… |
+| [Knock CRM](data/tools/knock-crm.yaml) | RealPage | 🇺🇸 | A leasing team at a large apartment community loses prospects between the first inquiry and the tour. With Knock the renter books their own slot straight from the property website, so… |
 | [Lofty](data/tools/lofty.yaml) | Lofty (formerly Chime Technologies) | 🇺🇸 | A team buys traffic through Lofty's ad management, the visitor lands on a Lofty IDX site, their property searches are recorded against their CRM record, and an AI assistant opens the… |
 | [Netty](data/tools/netty.yaml) | Netty | 🇫🇷 | Independent French agencies compete with national networks whose brand carries the online traffic. Netty's positioning answers that: the agency site is built for local search visibility… |
 | [Sierra Interactive](data/tools/sierra-interactive.yaml) | Sierra Interactive | 🇺🇸 | Teams that treat their website as the lead source, not as a brochure, use Sierra to build hundreds of hyperlocal landing pages, capture registrations behind listing detail, and drop the… |
@@ -77,6 +78,7 @@ _Le logiciel qui met en forme et pousse un portefeuille d'annonces vers les port
 
 | Produit | Éditeur | Marchés | Usage en immobilier |
 |---|---|---|---|
+| [ListHub](data/tools/listhub.yaml) | Move, Inc. | 🇺🇸 | A broker of record who has just signed a listing does not want to re-key it into every portal, and does not want it appearing on sites they never agreed to. They connect their MLS feed… |
 | [Poliris](data/tools/poliris.yaml) | Poliris | 🇫🇷 | Its practical value to an agency is the same as Ubiflow's — one catalogue, many destinations — with the software and the site included rather than integrated. Agencies that do not want… |
 | [Ubiflow](data/tools/ubiflow.yaml) | Ubiflow | 🇫🇷 | France has no MLS, so distribution is a job in itself: each portal has its own format, its own media rules and its own contract. Ubiflow absorbs that. An agency or a promoteur maintains… |
 
@@ -88,6 +90,7 @@ _Sites, recherche IDX, marque et campagnes pour agents et agences._
 |---|---|---|---|
 | [AgentFire](data/tools/agentfire.yaml) | AgentFire | 🇺🇸 | Competing for "homes for sale in Austin" is hopeless against the portals; competing for a specific neighbourhood is not. AgentFire's content structures exist for that strategy — an agent… |
 | [Luxury Presence](data/tools/luxury-presence.yaml) | Luxury Presence | 🇺🇸 | At the top of the market, a listing presentation is partly a credibility exercise: a seller with a seven-figure property judges the agent by the quality of their digital presence. Luxury… |
+| [Previsite](data/tools/previsite.yaml) | Previsite | 🇫🇷 | An independent agent who has just signed a mandate is expected to be photographer, videographer and community manager on top of the job itself. With Previsite they shoot the property on… |
 | [Real Geeks](data/tools/realgeeks.yaml) | Real Geeks (Fidelity National Financial) | 🇺🇸 | A solo agent or a two-to-five person team replaces a brochure website with a searchable IDX site, runs a small monthly ad budget through Real Geeks' managed campaigns, and lets the CRM… |
 
 ## Estimation, pige & valorisation · Valuation, pricing & farming
@@ -218,6 +221,7 @@ _Interventions, prestataires, équipements et maintenance préventive._
 |---|---|---|---|
 | [BOB Desk](data/tools/bob-desk.yaml) | BOB Desk | 🇫🇷 | A chain with two hundred outlets carries a compliance calendar per site — fire safety, electrical inspection, extraction, refrigeration — and no realistic way to track it in a… |
 | [Corrigo](data/tools/corrigo.yaml) | JLL Technologies | 🇺🇸 🇫🇷 | Its distinguishing feature in daily use is vendor scoring: response and completion performance is measured per provider, so dispatch can route to the contractor who actually shows up… |
+| [HappyCo](data/tools/happyco.yaml) | HappyCo | 🇺🇸 | A regional manager responsible for several thousand apartments cannot personally see the condition of any of them. Their onsite technicians run every inspection — move-in, move-out, life… |
 | [Limble CMMS](data/tools/limble.yaml) | Limble | 🇺🇸 | Most CMMS failures are adoption failures, not feature gaps. Limble competes on the implementation: QR codes on equipment so a technician scans rather than searches, a request portal that… |
 | [Property Meld](data/tools/property-meld.yaml) | Property Meld | 🇺🇸 | In residential management, maintenance is the largest source of complaints and the biggest drain on staff time — mostly spent as phone tag between a tenant, a vendor and an owner trying… |
 | [ServiceChannel](data/tools/servicechannel.yaml) | Fortive | 🇺🇸 🇫🇷 | A retailer with four hundred stores has four hundred sets of local contractors and no consistent way to know whether a bill is fair. ServiceChannel standardises the workflow: a store… |
@@ -244,6 +248,7 @@ _Applications occupants, accès, réservations, services et IoT du bâtiment._
 
 | Produit | Éditeur | Marchés | Usage en immobilier |
 |---|---|---|---|
+| [ButterflyMX](data/tools/butterflymx.yaml) | ButterflyMX, Inc. | 🇺🇸 | A property manager running a multifamily building without a doorman needs deliveries, contractors and guests to get in without anyone driving to the site with a key. They install… |
 | [Equiem](data/tools/equiem.yaml) | Equiem | 🇺🇸 🇫🇷 | Most tenant apps fail from emptiness: nobody at the landlord has time to post anything, so occupants stop opening it. Equiem sells the editorial capacity alongside the platform, which is… |
 | [HqO](data/tools/hqo.yaml) | HqO | 🇺🇸 🇫🇷 | Since hybrid work, an office landlord's asset value depends on whether tenants renew, and renewal depends on whether employees turn up. HqO gives the landlord a direct channel to… |
 | [SmartRent](data/tools/smartrent.yaml) | SmartRent | 🇺🇸 | Three operational cases drive the purchase. Self-guided tours let a prospect visit a vacant unit without staff. Smart locks remove the key handover and the lock change at turnover. Leak… |
@@ -296,6 +301,7 @@ _Diagnostics obligatoires, informations acquéreur et dossiers réglementaires d
 | [Check & Visit](data/tools/check-and-visit.yaml) | Check & Visit | 🇫🇷 | For a manager with dispersed properties, the constraint on inspections is travel time, not software. Outsourcing the visit to a local operator while keeping the report in the same… |
 | [Immopad](data/tools/immopad.yaml) | Immopad | 🇫🇷 | The état des lieux is the document a deposit dispute turns on, and a paper one written in ballpoint rarely survives it. Capturing room by room with dated photographs and an on-the-spot… |
 | [LICIEL](data/tools/liciel.yaml) | LICIEL Environnement | 🇫🇷 | No French property can be sold or let without its diagnostic file, and the DPE in particular now carries legal consequences — a G-rated dwelling cannot be let. The diagnostician's… |
+| [Preventimmo](data/tools/preventimmo.yaml) | Septeo | 🇫🇷 | A notary preparing a deed, or an agent taking a mandate, has to attach an état des risques that is both current and defensible — and the underlying planning and risk data changes at the… |
 | [Startloc](data/tools/startloc.yaml) | Startloc | 🇫🇷 | The private landlord doing their own inspection is exactly the person most exposed at exit, because their entry document is usually thin. A guided capture forces completeness — every… |
 
 ## Dossier locataire & garanties · Tenant screening & rent guarantee
@@ -305,10 +311,12 @@ _Vérifier un dossier, garantir le loyer, signer le bail._
 | Produit | Éditeur | Marchés | Usage en immobilier |
 |---|---|---|---|
 | [DossierFacile](data/tools/dossierfacile.yaml) | État français — Fabrique numérique du ministère de la Transition écologique | 🇫🇷 | It addresses two failures at once. Candidates submit incomplete files and are rejected without knowing why; landlords receive falsified pay slips and cannot tell. A DossierFacile file… |
+| [Garantme](data/tools/garantme.yaml) | Garantme | 🇫🇷 | A candidate with a solid income but no French guarantor keeps losing flats to files that have one. They assemble their documents in Garantme before starting their search, get certified… |
 | [RentSpree](data/tools/rentspree.yaml) | RentSpree | 🇺🇸 | An agent listing a rental sends one link. The applicant completes the application, pays the screening fee themselves, and authorises the credit, criminal and eviction report — so the… |
 | [Snappt](data/tools/snappt.yaml) | Snappt | 🇺🇸 | Document fraud is the failure mode conventional screening misses: an applicant with thin credit submits an edited pay stub, passes the income test, and defaults in month three.… |
 | [TheGuarantors](data/tools/theguarantors.yaml) | TheGuarantors | 🇺🇸 | The standard US requirement of forty times monthly rent in annual income excludes perfectly solvent applicants — a recent graduate, a foreign national with no US credit, a self-employed… |
 | [TransUnion SmartMove](data/tools/transunion-smartmove.yaml) | TransUnion | 🇺🇸 | Getting bureau data as a small landlord is the friction point — a credit reporting agency will not normally credential someone with three units. SmartMove solves it by having the… |
+| [Zelok](data/tools/zelok.yaml) | Zelok | 🇫🇷 | A letting agent handling a portfolio for private landlords has two recurring problems: incomplete applications and owners who panic at the first missed payment. Zelok solves them in the… |
 
 ## Back-office & comptabilité immobilière · Real estate back office & accounting
 

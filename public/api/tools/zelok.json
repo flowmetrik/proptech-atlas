@@ -1,0 +1,95 @@
+{
+  "slug": "zelok",
+  "name": "Zelok",
+  "editor": "Zelok",
+  "website": "https://www.zelok.fr",
+  "hq_country": "FR",
+  "markets": [
+    "FR"
+  ],
+  "category": "tenant-screening",
+  "also_in": [
+    "portals-marketplaces"
+  ],
+  "positioning": "Dossier locataire en ligne partagé entre agences, doublé d'une assurance loyers impayés souscrite via le professionnel qui gère le bien.",
+  "description": "Zelok is a French rental platform with two connected halves. Tenants build one online application file, reusable across agencies, and search through an engine that scans listings published by professionals — the vendor cites more than 380,000 listings drawn from over 50 platforms and filtered against the applicant's criteria. Real estate professionals and the landlords they act for get the unpaid-rent side: a Garantie Totale insurance product that pays the rent every month on a fixed date, with compensation from the first euro within 24 hours, and cover for property damage and legal protection. The vendor states more than 37,000 professional partners and one tenant file created every twenty seconds.\n",
+  "real_estate_use": "A letting agent handling a portfolio for private landlords has two recurring problems: incomplete applications and owners who panic at the first missed payment. Zelok solves them in the same place — candidates arrive with a file already assembled and shared, and the agent subscribes the lease to the unpaid-rent guarantee so the owner receives the rent on a fixed date regardless of what the tenant does. For the applicant, the file is built once in a few minutes and reused with every agency contacted, and the search engine surfaces matching listings rather than requiring the applicant to monitor fifty portals. The agent also uses the platform as a way to win management mandates from owners who want the guarantee.\n",
+  "features": [
+    "Dossier locataire en ligne réutilisable, partagé entre plusieurs agences",
+    "Moteur de recherche agrégeant les annonces de professionnels sur plus de 50 plateformes",
+    "Assurance loyers impayés Garantie Totale souscrite via un professionnel",
+    "Indemnisation dès le premier euro, sous 24 heures",
+    "Couverture des dégradations immobilières et protection juridique",
+    "Espace professionnel de suivi des dossiers candidats et des garanties"
+  ],
+  "use_cases": [
+    {
+      "persona": "agent-broker",
+      "job": "Recevoir des candidatures déjà constituées et souscrire la garantie loyers impayés du bail dans le même outil"
+    },
+    {
+      "persona": "tenant-occupier",
+      "job": "Constituer un dossier une seule fois et le présenter à toutes les agences contactées"
+    },
+    {
+      "persona": "landlord-owner",
+      "job": "Percevoir le loyer à date fixe malgré un impayé, via le professionnel qui gère le bien"
+    }
+  ],
+  "personas": [
+    "agent-broker",
+    "tenant-occupier",
+    "landlord-owner",
+    "property-manager"
+  ],
+  "segments": [
+    "residential"
+  ],
+  "company_sizes": [
+    "solo",
+    "smb",
+    "midmarket"
+  ],
+  "pricing": {
+    "model": "quote",
+    "public_pricing": false
+  },
+  "product": {
+    "api": false,
+    "open_source": false,
+    "mobile": [],
+    "languages": [
+      "French"
+    ]
+  },
+  "alternatives": [
+    "garantme",
+    "dossierfacile",
+    "smartloc"
+  ],
+  "reviews": [],
+  "signals": {
+    "pricing": "https://www.zelok.fr/guide/prix-assurance-loyer-impaye",
+    "privacy": "https://www.zelok.fr/guide/rgpd-cnil-tout-ce-que-doivent-savoir-les-agences-immobilieres",
+    "site_languages": [
+      "fr"
+    ],
+    "checked_on": "2026-08-25"
+  },
+  "sources": [
+    {
+      "url": "https://www.zelok.fr",
+      "note": "site éditeur"
+    },
+    {
+      "url": "https://www.frenchproptech.fr/annuaire-startups/",
+      "note": "source de découverte"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-25"
+}
