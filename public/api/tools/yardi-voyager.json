@@ -90,6 +90,11 @@
     "yardi-breeze"
   ],
   "reviews": [],
+  "logo": {
+    "file": "logos/yardi-voyager.png",
+    "source_url": "https://icons.duckduckgo.com/ip3/yardi.com.ico",
+    "fetched_on": "2026-08-25"
+  },
   "sources": [
     {
       "url": "https://www.yardi.com",

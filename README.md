@@ -49,6 +49,19 @@ The field that matters most is **`real_estate_use`** — a paragraph on what the
 in the working day of the person who bought it. Feature lists barely distinguish products; that
 paragraph does.
 
+### Two levels of reliability, never mixed
+
+A catalogue that presents everything with the same confidence is lying about the part it guessed.
+
+| | Written | Machine-verified |
+|---|---|---|
+| **What** | Description, positioning, real-estate use, features, use cases | Public pricing page, API docs, security page, privacy page, status page, site languages |
+| **How** | Written from the vendor's public content; `unverified` until a human rechecks | Fetched from the vendor's own site on a dated check, with the URL that establishes it |
+| **Field** | `verification.status` | `signals.checked_on` |
+
+An absent signal means *not found on that date* — never *does not exist*. That distinction ships
+inside the JSON, so a model consuming this can carry it through.
+
 ## Three rules this project will not break
 
 1. **No invented reviews.** A rating nobody gave is a fabrication, however plausible. An empty
@@ -105,6 +118,8 @@ data/
 scripts/
   validate.mjs         the only gatekeeper: off-schema means the build fails
   emit.mjs             YAML → JSON API, llms.txt, CATALOG.md
+  enrich/              the enrichment loop — discovery, fiches, logos, signals
+  og/build.py          share images, with the wordmark vectorised
 src/                   the Astro site (no database, no login, no server)
 CATALOG.md             generated — the whole catalogue, readable on GitHub
 public/api/            generated — the JSON API, also served raw from this repo
@@ -123,6 +138,20 @@ npm run build        # validate → emit → build
 ```
 
 Requires Node 22.
+
+## Enrichment loop
+
+The catalogue grows by a loop rather than by hand: discover missing products by web search,
+verify each candidate resolves to a live product site, write the fiche grounded on that site's
+own content, fetch the logo, probe the verifiable signals, then validate. Anything that fails
+validation is removed rather than left to rot.
+
+```bash
+node scripts/enrich/loop.mjs                # full pass
+node scripts/enrich/loop.mjs --no-discover  # no LLM call, no cost
+```
+
+Details and the reasoning behind each guard: [`scripts/enrich/README.md`](scripts/enrich/README.md).
 
 ## Contributing
 

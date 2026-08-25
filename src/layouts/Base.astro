@@ -7,9 +7,12 @@ interface Props {
   description: string;
   /** Injecté tel quel dans un <script type="application/ld+json"> — schema.org. */
   jsonld?: Record<string, unknown> | Record<string, unknown>[];
+  /** Image de partage propre à la page. Par défaut, celle du site. */
+  ogImage?: string;
   wide?: boolean;
 }
-const { title, description, jsonld } = Astro.props as Props;
+const { title, description, jsonld, ogImage } = Astro.props as Props;
+const ogUrl = new URL(url(ogImage ?? 'og.png'), Astro.site ?? 'https://flowmetrik.github.io').href;
 const full = title === 'PropTech Atlas' ? title : `${title} · PropTech Atlas`;
 const path = Astro.url.pathname;
 const active = (h: string) => (path === h || (h !== url('') && path.startsWith(h)) ? 'page' : undefined);
@@ -26,6 +29,10 @@ const canonical = Astro.site ? new URL(Astro.url.pathname, Astro.site).href : As
     <meta property="og:type" content="website" />
     <meta property="og:title" content={full} />
     <meta property="og:description" content={description} />
+    <meta property="og:image" content={ogUrl} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:image" content={ogUrl} />
     <meta property="og:site_name" content="PropTech Atlas" />
     <meta name="twitter:card" content="summary_large_image" />
     <link rel="icon" href={url('favicon.svg')} type="image/svg+xml" />
@@ -38,7 +45,7 @@ const canonical = Astro.site ? new URL(Astro.url.pathname, Astro.site).href : As
     <a class="skip" href="#main">Skip to content</a>
     <header class="site-header">
       <div class="inner">
-        <a class="brand" href={url('')}><span class="mark"></span>PropTech Atlas</a>
+        <a class="brand" href={url('')}><svg class="mark" viewBox="0 0 48 48" aria-hidden="true" focusable="false"><path d="M24 4.5 43.5 21H4.5z" fill="currentColor"/><rect x="8" y="23.5" width="32" height="9" rx="2.5" fill="currentColor"/><rect x="8" y="35" width="20.5" height="9" rx="2.5" fill="currentColor"/><rect x="31.5" y="35" width="8.5" height="9" rx="2.5" fill="#F2B705"/></svg>PropTech Atlas</a>
         <nav class="nav">
           <a href={url('explore')} aria-current={active(url('explore'))}>Explore</a>
           <a href={url('categories')} aria-current={active(url('categories'))}>Categories</a>
@@ -58,7 +65,7 @@ const canonical = Astro.site ? new URL(Astro.url.pathname, Astro.site).href : As
       <div class="wrap">
         <div class="footer-grid">
           <div>
-            <a class="brand" href={url('')} style="margin-bottom:12px"><span class="mark"></span>PropTech Atlas</a>
+            <a class="brand" href={url('')} style="margin-bottom:12px"><svg class="mark" viewBox="0 0 48 48" aria-hidden="true" focusable="false"><path d="M24 4.5 43.5 21H4.5z" fill="currentColor"/><rect x="8" y="23.5" width="32" height="9" rx="2.5" fill="currentColor"/><rect x="8" y="35" width="20.5" height="9" rx="2.5" fill="currentColor"/><rect x="31.5" y="35" width="8.5" height="9" rx="2.5" fill="#F2B705"/></svg>PropTech Atlas</a>
             <p style="max-width:38ch">
               An open Product Knowledge Graph of real estate software in the United States
               and France. {counts.tools} products, no account, no tracking.
@@ -69,9 +76,10 @@ const canonical = Astro.site ? new URL(Astro.url.pathname, Astro.site).href : As
             <h4>Explore</h4>
             <ul>
               <li><a href={url('explore')}>All tools</a></li>
-              <li><a href={url('explore?market=US')}>United States</a></li>
-              <li><a href={url('explore?market=FR')}>France</a></li>
+              <li><a href={url('markets/US')}>United States</a></li>
+              <li><a href={url('markets/FR')}>France</a></li>
               <li><a href={url('categories')}>Categories</a></li>
+              <li><a href={url('for/property-manager')}>By trade</a></li>
             </ul>
           </div>
           <div>

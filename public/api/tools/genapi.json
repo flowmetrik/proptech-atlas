@@ -64,6 +64,17 @@
     "inot"
   ],
   "reviews": [],
+  "logo": {
+    "file": "logos/genapi.png",
+    "source_url": "https://cdn.prod.website-files.com/666168f272373216c6be04d1/6662bd37ff85b1f79b0513cc_Webclip.png",
+    "fetched_on": "2026-08-25"
+  },
+  "signals": {
+    "site_languages": [
+      "fr"
+    ],
+    "checked_on": "2026-08-25"
+  },
   "sources": [
     {
       "url": "https://www.genapi.fr",

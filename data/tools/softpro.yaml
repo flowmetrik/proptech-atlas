@@ -42,6 +42,14 @@ product:
   languages: [en]
 alternatives: [qualia, resware]
 reviews: []
+logo:
+  file: logos/softpro.png
+  source_url: https://www.google.com/s2/favicons?domain=softprocorp.com&sz=256
+  fetched_on: "2026-08-25"
+signals:
+  status: https://status.softprocorp.com
+  site_languages: [en]
+  checked_on: "2026-08-25"
 sources: [{ url: https://www.softprocorp.com, note: site éditeur }]
 verification: { status: unverified, checked_on: null, checked_by: null }
 updated: "2026-08-25"

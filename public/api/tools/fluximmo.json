@@ -71,6 +71,15 @@
     "dvf"
   ],
   "reviews": [],
+  "logo": {
+    "file": "logos/fluximmo.png",
+    "source_url": "https://www.fluximmo.com/favicon/apple-touch-icon.png",
+    "fetched_on": "2026-08-25"
+  },
+  "signals": {
+    "status": "https://status.fluximmo.com",
+    "checked_on": "2026-08-25"
+  },
   "sources": [
     {
       "url": "https://www.fluximmo.com",

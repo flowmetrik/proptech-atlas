@@ -5,7 +5,9 @@ const { tool } = Astro.props as { tool: Tool };
 ---
 <a class="card tool-card" href={url(`tools/${tool.slug}`)}>
   <div class="top">
-    <span class="tool-logo" aria-hidden="true">{initials(tool.name)}</span>
+    {tool.logo
+      ? <img class="tool-logo" src={url(tool.logo.file)} alt="" width="40" height="40" loading="lazy" decoding="async" />
+      : <span class="tool-logo" aria-hidden="true">{initials(tool.name)}</span>}
     <div style="min-width:0">
       <h3>{tool.name}</h3>
       <div class="editor">{tool.editor}</div>

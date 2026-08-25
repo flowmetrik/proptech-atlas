@@ -41,6 +41,14 @@ product:
   languages: [en]
 alternatives: [apartments-com, zillow, avail]
 reviews: []
+logo:
+  file: logos/zumper.png
+  source_url: https://www.zumper.com/favicon.ico
+  fetched_on: "2026-08-25"
+signals:
+  privacy: https://www.zumper.com/privacy-policy
+  site_languages: [en]
+  checked_on: "2026-08-25"
 sources: [{ url: https://www.zumper.com, note: site éditeur }]
 verification: { status: unverified, checked_on: null, checked_by: null }
 updated: "2026-08-25"

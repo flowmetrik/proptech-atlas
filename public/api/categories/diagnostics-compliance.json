@@ -81,6 +81,18 @@
         "matterport"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/check-and-visit.png",
+        "source_url": "https://checkandvisit.com/hubfs/Website/logo/favicon-check-and-visit-2.svg",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://checkandvisit.com/mentions-legales",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.checkandvisit.com",
@@ -173,6 +185,18 @@
         "check-and-visit"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/immopad.png",
+        "source_url": "https://immopad.com/wp-content/uploads/2024/10/cropped-empreinte-t-compresse-1-180x180.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://immopad.com/politique-de-confidentialite",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.immopad.com",
@@ -259,6 +283,17 @@
         "immopad"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/liciel.png",
+        "source_url": "https://www.liciel.fr/favicon/favicon.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.liciel.fr",
@@ -343,6 +378,17 @@
         "check-and-visit"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/startloc.png",
+        "source_url": "https://www.startloc.fr/favicon.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.startloc.fr",

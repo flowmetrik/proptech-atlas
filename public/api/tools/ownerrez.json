@@ -71,6 +71,19 @@
     "guesty"
   ],
   "reviews": [],
+  "logo": {
+    "file": "logos/ownerrez.png",
+    "source_url": "https://cdn.orez.io/wc/images/pages/teaser-default.png?v=bf2a57b2b0c219df14186e5ebb586b2fb966d97b",
+    "fetched_on": "2026-08-25"
+  },
+  "signals": {
+    "pricing": "https://www.ownerrez.com/pricing",
+    "privacy": "https://www.ownerrez.com/support/articles/privacy-security-privacy-policy",
+    "site_languages": [
+      "en"
+    ],
+    "checked_on": "2026-08-25"
+  },
   "sources": [
     {
       "url": "https://www.ownerrez.com",

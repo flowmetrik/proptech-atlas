@@ -42,6 +42,10 @@ product:
   languages: [fr]
 alternatives: [bob-desk, yuman, corrigo]
 reviews: []
+logo:
+  file: logos/twimm.png
+  source_url: https://icons.duckduckgo.com/ip3/twimm.fr.ico
+  fetched_on: "2026-08-25"
 sources: [{ url: https://www.twimm.fr, note: site éditeur }]
 verification: { status: unverified, checked_on: null, checked_by: null }
 updated: "2026-08-25"

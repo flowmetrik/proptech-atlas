@@ -44,6 +44,14 @@ product:
   languages: [en]
 alternatives: [appfolio, buildium, yardi-breeze, propertyware]
 reviews: []
+logo:
+  file: logos/rentmanager.png
+  source_url: https://www.rentmanager.com/wp-content/uploads/2023/08/cropped-RM_HouseIcon-180x180.png
+  fetched_on: "2026-08-25"
+signals:
+  privacy: https://www.rentmanager.com/privacy-statement
+  site_languages: [en]
+  checked_on: "2026-08-25"
 sources: [{ url: https://www.rentmanager.com, note: site éditeur }]
 verification: { status: unverified, checked_on: null, checked_by: null }
 updated: "2026-08-25"

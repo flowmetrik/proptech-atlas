@@ -72,6 +72,20 @@
     "boldtrail"
   ],
   "reviews": [],
+  "logo": {
+    "file": "logos/realgeeks.png",
+    "source_url": "https://www.realgeeks.com/hubfs/Real%20Geeks%20Favicon.svg",
+    "fetched_on": "2026-08-25"
+  },
+  "signals": {
+    "pricing": "https://www.realgeeks.com/real-geeks-pricing",
+    "privacy": "https://www.realgeeks.com/privacy",
+    "status": "https://status.realgeeks.com",
+    "site_languages": [
+      "en"
+    ],
+    "checked_on": "2026-08-25"
+  },
   "sources": [
     {
       "url": "https://www.realgeeks.com",

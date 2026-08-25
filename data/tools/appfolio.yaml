@@ -49,6 +49,15 @@ product:
   languages: [en]
 alternatives: [buildium, entrata, rentmanager, yardi-breeze]
 reviews: []
+logo:
+  file: logos/appfolio.png
+  source_url: https://www.appfolio.com/_nuxt/icons/icon_512x512.4826b9.png
+  fetched_on: "2026-08-25"
+signals:
+  privacy: https://www.appfolio.com/privacy
+  status: https://status.appfolio.com
+  site_languages: [en]
+  checked_on: "2026-08-25"
 sources: [{ url: https://www.appfolio.com, note: site éditeur }]
 verification: { status: unverified, checked_on: null, checked_by: null }
 updated: "2026-08-25"

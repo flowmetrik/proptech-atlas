@@ -42,6 +42,15 @@ product:
   languages: [fr, en]
 alternatives: [hqo, equiem, ubigreen]
 reviews: []
+logo:
+  file: logos/witco.png
+  source_url: https://cdn.prod.website-files.com/62fcae5d7173a59e9f2063f8/62fcb07481de9f8226b0fa21_witco-fav-256.jpg
+  fetched_on: "2026-08-25"
+signals:
+  security: https://www.witco.io/security
+  privacy: https://www.witco.io/privacy-policy
+  site_languages: [en, fr]
+  checked_on: "2026-08-25"
 sources: [{ url: https://www.witco.io, note: site éditeur }]
 verification: { status: unverified, checked_on: null, checked_by: null }
 updated: "2026-08-25"

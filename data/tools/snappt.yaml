@@ -44,6 +44,16 @@ product:
   languages: [en]
 alternatives: [transunion-smartmove, realpage]
 reviews: []
+logo:
+  file: logos/snappt.png
+  source_url: https://snappt.com/wp-content/themes/snappt-theme/public/images/favorites/apple-touch-icon-152x152.png?20230420
+  fetched_on: "2026-08-25"
+signals:
+  security: https://snappt.com/security
+  privacy: https://snappt.com/privacy-policy
+  status: https://status.snappt.com
+  site_languages: [en]
+  checked_on: "2026-08-25"
 sources: [{ url: https://snappt.com, note: site éditeur }]
 verification: { status: unverified, checked_on: null, checked_by: null }
 updated: "2026-08-25"

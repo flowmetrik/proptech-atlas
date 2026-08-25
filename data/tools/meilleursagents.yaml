@@ -46,6 +46,10 @@ product:
   languages: [fr]
 alternatives: [pricehubble, yanport, dvf]
 reviews: []
+logo:
+  file: logos/meilleursagents.png
+  source_url: https://icons.duckduckgo.com/ip3/meilleursagents.com.ico
+  fetched_on: "2026-08-25"
 sources: [{ url: https://www.meilleursagents.com, note: site éditeur }]
 verification: { status: unverified, checked_on: null, checked_by: null }
 updated: "2026-08-25"

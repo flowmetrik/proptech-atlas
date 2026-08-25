@@ -43,6 +43,14 @@ product:
   languages: [fr]
 alternatives: [poliris, apimo]
 reviews: []
+logo:
+  file: logos/ubiflow.png
+  source_url: https://www.ubiflow.net/hubfs/Charte-graphique-Ubiflow-2026/ubiflow-favicon-rgb.png
+  fetched_on: "2026-08-25"
+signals:
+  privacy: https://www.ubiflow.net/mentions-legales
+  site_languages: [fr]
+  checked_on: "2026-08-25"
 sources: [{ url: https://www.ubiflow.net, note: site éditeur }]
 verification: { status: unverified, checked_on: null, checked_by: null }
 updated: "2026-08-25"

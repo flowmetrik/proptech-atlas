@@ -45,6 +45,14 @@ product:
   languages: [en]
 
 reviews: []
+logo:
+  file: logos/cloudcma.png
+  source_url: https://d1l7ppudhv5a01.cloudfront.net/assets/apple-touch-icon-b364c5cecc8da24d606d39b11467f2bed1d13338c06b49d0cf3253b383ae514a.png
+  fetched_on: "2026-08-25"
+signals:
+  api_docs: https://cloudcma.com/developers
+  site_languages: [en]
+  checked_on: "2026-08-25"
 sources: [{ url: https://cloudcma.com, note: site éditeur }]
 verification: { status: unverified, checked_on: null, checked_by: null }
 updated: "2026-08-25"

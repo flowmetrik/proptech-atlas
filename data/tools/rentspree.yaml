@@ -45,6 +45,16 @@ product:
   languages: [en]
 alternatives: [transunion-smartmove, turbotenant, avail]
 reviews: []
+logo:
+  file: logos/rentspree.png
+  source_url: https://cdn.prod.website-files.com/65c0f8f594d491289ae25e2a/660bfaf5c5eea181eac8599f_rentspree%20webclip.png
+  fetched_on: "2026-08-25"
+signals:
+  pricing: https://www.rentspree.com/pricing
+  privacy: https://www.rentspree.com/rentspree-privacy-policy
+  status: https://status.rentspree.com
+  site_languages: [en]
+  checked_on: "2026-08-25"
 sources: [{ url: https://www.rentspree.com, note: site éditeur }]
 verification: { status: unverified, checked_on: null, checked_by: null }
 updated: "2026-08-25"

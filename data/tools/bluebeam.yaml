@@ -44,6 +44,17 @@ product:
   languages: [en, fr, de, es]
 alternatives: [autodesk-construction-cloud, procore]
 reviews: []
+logo:
+  file: logos/bluebeam.png
+  source_url: https://www.bluebeam.com/wp-content/uploads/2022/07/cropped-favicon-32x32-1-300x300.png
+  fetched_on: "2026-08-25"
+signals:
+  pricing: https://www.bluebeam.com/pricing
+  security: https://www.bluebeam.com/legal/security
+  privacy: https://www.bluebeam.com/legal/privacy-policy
+  status: https://status.bluebeam.com
+  site_languages: [da, de, en, es, fi, fr, it, ja, ko, nl, nn, sv]
+  checked_on: "2026-08-25"
 sources: [{ url: https://www.bluebeam.com, note: site éditeur }]
 verification: { status: unverified, checked_on: null, checked_by: null }
 updated: "2026-08-25"

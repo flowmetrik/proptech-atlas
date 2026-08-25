@@ -82,6 +82,27 @@
         "nexudus"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/cobot.png",
+        "source_url": "https://www-cdn.cobot.me/assets/favicons/apple-touch-icon-e0f2fcff.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "api_docs": "https://www.cobot.me/en",
+        "privacy": "https://www.cobot.me/en",
+        "site_languages": [
+          "de",
+          "en",
+          "es",
+          "fr",
+          "hu",
+          "it",
+          "ja",
+          "nl",
+          "pt"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.cobot.me",
@@ -166,6 +187,18 @@
         "nexudus"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/essensys.png",
+        "source_url": "https://essensys.tech/wp-content/themes/essensys/favicons/apple-touch-icon-152x152.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://essensys.tech/privacy-policy-2",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://essensys.tech",
@@ -257,6 +290,22 @@
         "essensys"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/nexudus.png",
+        "source_url": "https://nexudus.com/wp-content/uploads/2025/04/cropped-Nexudus_Favicon-180x180.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "pricing": "https://nexudus.com/coworking-pricing",
+        "security": "https://nexudus.com/security",
+        "privacy": "https://nexudus.com",
+        "status": "https://status.nexudus.com",
+        "site_languages": [
+          "en",
+          "fr"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.nexudus.com",
@@ -350,6 +399,11 @@
         "essensys"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/officernd.png",
+        "source_url": "https://icons.duckduckgo.com/ip3/officernd.com.ico",
+        "fetched_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.officernd.com",

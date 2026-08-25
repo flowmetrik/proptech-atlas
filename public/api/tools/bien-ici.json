@@ -73,6 +73,17 @@
     "pap"
   ],
   "reviews": [],
+  "logo": {
+    "file": "logos/bien-ici.png",
+    "source_url": "https://res.bienici.com/cacheForever/f19bfd7564e5f67ef0bbaf56b4b42246af75999c/images/favicon/touch-icon.png",
+    "fetched_on": "2026-08-25"
+  },
+  "signals": {
+    "site_languages": [
+      "fr"
+    ],
+    "checked_on": "2026-08-25"
+  },
   "sources": [
     {
       "url": "https://www.bienici.com",

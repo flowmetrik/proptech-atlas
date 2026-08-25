@@ -1,7 +1,9 @@
 #!/usr/bin/env node
 // Le seul gardien du catalogue. Pas de base, pas d'admin : un fichier qui passe
 // ici est publiable, un fichier qui échoue bloque le build et la pull request.
-import { loadTaxonomy, loadTools } from './lib.mjs';
+import { existsSync } from 'node:fs';
+import { join } from 'node:path';
+import { ROOT, loadTaxonomy, loadTools } from './lib.mjs';
 
 const tax = loadTaxonomy();
 const ids = (k) => new Set(tax[k].map((x) => x.id));
@@ -78,6 +80,34 @@ for (const t of tools) {
     at(`verification.status inconnu: ${t.verification.status}`);
   }
 
+  // Un logo déclaré doit pointer sur un fichier réellement présent, et dire
+  // d'où il vient : une image sans provenance est inexploitable juridiquement.
+  if (t.logo) {
+    for (const k of ['file', 'source_url', 'fetched_on']) {
+      if (!t.logo[k]) at(`logo.${k} manquant`);
+    }
+    if (t.logo.file && !existsSync(join(ROOT, 'public', t.logo.file))) {
+      at(`logo.file introuvable : public/${t.logo.file}`);
+    }
+    if (t.logo.fetched_on && !/^\d{4}-\d{2}-\d{2}$/.test(t.logo.fetched_on)) {
+      at('logo.fetched_on doit être YYYY-MM-DD');
+    }
+  }
+
+  // Les signaux sont la partie VÉRIFIÉE de la fiche : chacun est une URL qui
+  // l'établit, plus la date du relevé. Un signal sans sa date ne vaut rien.
+  if (t.signals) {
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(t.signals.checked_on ?? '')) {
+      at('signals.checked_on manquant ou mal formé');
+    }
+    for (const k of ['pricing', 'api_docs', 'security', 'privacy', 'status']) {
+      if (t.signals[k] && !/^https?:\/\//.test(t.signals[k])) at(`signals.${k} doit être une URL`);
+    }
+    if (t.signals.site_languages && !Array.isArray(t.signals.site_languages)) {
+      at('signals.site_languages doit être une liste');
+    }
+  }
+
   // Les avis sont des agrégats externes datés, jamais du texte inventé.
   for (const r of t.reviews ?? []) {
     for (const k of ['source', 'url', 'rating', 'scale', 'count', 'sampled_on']) {
@@ -108,7 +138,9 @@ if (errors.length) {
 }
 
 const byMarket = (m) => tools.filter((t) => t.markets.includes(m)).length;
+const withLogo = tools.filter((t) => t.logo?.file).length;
 console.log(
   `✓ ${tools.length} fiches valides — ${byMarket('US')} US, ${byMarket('FR')} FR, ` +
-  `${new Set(tools.map((t) => t.category)).size}/${CATEGORIES.size} catégories peuplées`
+  `${new Set(tools.map((t) => t.category)).size}/${CATEGORIES.size} catégories peuplées, ` +
+  `${withLogo} logos, ${tools.filter((t) => t.signals?.checked_on).length} relevés de signaux`
 );

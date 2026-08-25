@@ -67,6 +67,18 @@
     "avail"
   ],
   "reviews": [],
+  "logo": {
+    "file": "logos/zumper.png",
+    "source_url": "https://www.zumper.com/favicon.ico",
+    "fetched_on": "2026-08-25"
+  },
+  "signals": {
+    "privacy": "https://www.zumper.com/privacy-policy",
+    "site_languages": [
+      "en"
+    ],
+    "checked_on": "2026-08-25"
+  },
   "sources": [
     {
       "url": "https://www.zumper.com",

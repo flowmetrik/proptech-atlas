@@ -72,6 +72,15 @@
     "doorloop"
   ],
   "reviews": [],
+  "logo": {
+    "file": "logos/hemlane.png",
+    "source_url": "https://www.hemlane.com/favicon.ico",
+    "fetched_on": "2026-08-25"
+  },
+  "signals": {
+    "pricing": "https://www.hemlane.com/pricing",
+    "checked_on": "2026-08-25"
+  },
   "sources": [
     {
       "url": "https://www.hemlane.com",

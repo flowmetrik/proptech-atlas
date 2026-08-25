@@ -62,6 +62,18 @@
     "ownily"
   ],
   "reviews": [],
+  "logo": {
+    "file": "logos/gererseul.png",
+    "source_url": "https://www.gererseul.com/app/uploads/2026/08/cropped-Favicon-gererseul-180x180.png",
+    "fetched_on": "2026-08-25"
+  },
+  "signals": {
+    "privacy": "https://www.gererseul.com/politique-de-confidentialite",
+    "site_languages": [
+      "fr"
+    ],
+    "checked_on": "2026-08-25"
+  },
   "sources": [
     {
       "url": "https://www.gererseul.com",

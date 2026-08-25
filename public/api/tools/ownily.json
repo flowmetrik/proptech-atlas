@@ -63,6 +63,17 @@
     "horiz"
   ],
   "reviews": [],
+  "logo": {
+    "file": "logos/ownily.png",
+    "source_url": "https://cdn.prod.website-files.com/6481d6e65a1b6affccd9a027/649c2fb9aa5e980405323c2a_TouchIcon.png",
+    "fetched_on": "2026-08-25"
+  },
+  "signals": {
+    "site_languages": [
+      "fr"
+    ],
+    "checked_on": "2026-08-25"
+  },
   "sources": [
     {
       "url": "https://www.ownily.fr",

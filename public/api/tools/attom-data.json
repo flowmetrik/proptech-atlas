@@ -69,6 +69,19 @@
     "housecanary"
   ],
   "reviews": [],
+  "logo": {
+    "file": "logos/attom-data.png",
+    "source_url": "https://www.attomdata.com/wp-content/uploads/2021/05/cropped-favicon-1-180x180.png",
+    "fetched_on": "2026-08-25"
+  },
+  "signals": {
+    "api_docs": "https://www.attomdata.com/solutions/delivery/property-data-api",
+    "privacy": "https://www.attomdata.com/privacy",
+    "site_languages": [
+      "en"
+    ],
+    "checked_on": "2026-08-25"
+  },
   "sources": [
     {
       "url": "https://www.attomdata.com",

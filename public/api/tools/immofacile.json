@@ -74,6 +74,17 @@
     "lockimmo"
   ],
   "reviews": [],
+  "logo": {
+    "file": "logos/immofacile.png",
+    "source_url": "https://media.base44.com/images/public/6a34f2529b2e173c33637639/fbd74a592_logo.png/v1/fill/w_1200,h_630/fbd74a592_logo.png",
+    "fetched_on": "2026-08-25"
+  },
+  "signals": {
+    "site_languages": [
+      "fr"
+    ],
+    "checked_on": "2026-08-25"
+  },
   "sources": [
     {
       "url": "https://www.immofacile.fr",

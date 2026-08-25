@@ -46,6 +46,15 @@ product:
   languages: [en]
 alternatives: [eliseai, ylopo, follow-up-boss]
 reviews: []
+logo:
+  file: logos/structurely.png
+  source_url: https://www.google.com/s2/favicons?domain=structurely.com&sz=256
+  fetched_on: "2026-08-25"
+signals:
+  pricing: https://www.structurely.com/pricing
+  privacy: https://www.structurely.com/privacy-policy
+  site_languages: [en]
+  checked_on: "2026-08-25"
 sources: [{ url: https://www.structurely.com, note: site éditeur }]
 verification: { status: unverified, checked_on: null, checked_by: null }
 updated: "2026-08-25"

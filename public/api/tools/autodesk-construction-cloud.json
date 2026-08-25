@@ -87,6 +87,21 @@
     "bluebeam"
   ],
   "reviews": [],
+  "logo": {
+    "file": "logos/autodesk-construction-cloud.png",
+    "source_url": "https://construction.autodesk.com/favicon.ico",
+    "fetched_on": "2026-08-25"
+  },
+  "signals": {
+    "privacy": "https://www.autodesk.com/company/legal-notices-trademarks/privacy-statement",
+    "site_languages": [
+      "de",
+      "en",
+      "fr",
+      "ja"
+    ],
+    "checked_on": "2026-08-25"
+  },
   "sources": [
     {
       "url": "https://construction.autodesk.com",

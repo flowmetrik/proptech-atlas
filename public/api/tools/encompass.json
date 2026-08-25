@@ -75,6 +75,19 @@
     "floify"
   ],
   "reviews": [],
+  "logo": {
+    "file": "logos/encompass.png",
+    "source_url": "https://www.ice.com/publicdocs/mortgage/icemt-og-image.jpg",
+    "fetched_on": "2026-08-25"
+  },
+  "signals": {
+    "privacy": "https://www.ice.com/privacy-security-center",
+    "status": "https://www.ice.com/status",
+    "site_languages": [
+      "en"
+    ],
+    "checked_on": "2026-08-25"
+  },
   "sources": [
     {
       "url": "https://www.icemortgagetechnology.com",

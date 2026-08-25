@@ -75,8 +75,7 @@ a:hover { text-decoration: underline; text-underline-offset: 3px; }
 }
 .brand { display: flex; align-items: center; gap: 9px; font-family: Manrope, sans-serif; font-weight: 800; letter-spacing: -0.03em; font-size: 1.0625rem; }
 .brand:hover { text-decoration: none; }
-.brand .mark { width: 20px; height: 20px; border-radius: 6px; background: var(--ink); position: relative; flex: none; }
-.brand .mark::after { content: ''; position: absolute; inset: 6px 6px auto auto; width: 6px; height: 6px; border-radius: 2px; background: var(--accent); }
+.brand .mark { width: 21px; height: 21px; flex: none; color: var(--ink); }
 .nav { display: flex; gap: 22px; font-size: 0.9375rem; color: var(--ink-3); font-weight: 500; }
 .nav a[aria-current='page'] { color: var(--ink); font-weight: 600; }
 .nav-right { margin-left: auto; display: flex; align-items: center; gap: 14px; }
@@ -139,6 +138,7 @@ a.card:hover { text-decoration: none; border-color: var(--border-strong); transf
   display: grid; place-items: center;
   font-family: Manrope, sans-serif; font-weight: 800; font-size: 1rem; color: var(--ink-3);
 }
+img.tool-logo { object-fit: contain; padding: 5px; background: var(--card); }
 .tool-card h3 { margin: 0; font-size: 1rem; }
 .tool-card .editor { font-size: 0.8125rem; color: var(--muted); }
 .tool-card .pos { font-size: 0.875rem; color: var(--ink-3); margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }

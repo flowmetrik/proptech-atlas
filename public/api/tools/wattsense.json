@@ -76,6 +76,20 @@
     "advizeo"
   ],
   "reviews": [],
+  "logo": {
+    "file": "logos/wattsense.png",
+    "source_url": "https://www.wattsense.com/apple-touch-icon.png",
+    "fetched_on": "2026-08-25"
+  },
+  "signals": {
+    "status": "https://status.wattsense.com",
+    "site_languages": [
+      "de",
+      "en",
+      "fr"
+    ],
+    "checked_on": "2026-08-25"
+  },
   "sources": [
     {
       "url": "https://www.wattsense.com",

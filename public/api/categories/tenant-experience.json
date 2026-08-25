@@ -85,6 +85,17 @@
         "mri-software"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/aareon.png",
+        "source_url": "https://www.aareon.fr/hubfs/Sarah%20-%20please%20do%20not%20use%20without%20consultation/aareon_favicon_round.svg",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.aareon.fr",
@@ -170,6 +181,18 @@
         "hqo"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/equiem.png",
+        "source_url": "https://getequiem.com/hubfs/eqm01/equiem-favicon.svg",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "status": "https://status.getequiem.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://getequiem.com",
@@ -254,6 +277,18 @@
         "nexudus"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/essensys.png",
+        "source_url": "https://essensys.tech/wp-content/themes/essensys/favicons/apple-touch-icon-152x152.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://essensys.tech/privacy-policy-2",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://essensys.tech",
@@ -342,6 +377,19 @@
         "vts"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/hqo.png",
+        "source_url": "https://www.hqo.com/wp-content/uploads/2021/12/favicon-1.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://www.hqo.com/legal/privacy-policy",
+        "site_languages": [
+          "en",
+          "fr"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.hqo.com",
@@ -429,6 +477,19 @@
         "hqo"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/smartrent.png",
+        "source_url": "https://smartrent.com/icons/icon-512x512.png?v=fb22f268ec78d7fa9c4da0aeed27e371",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://smartrent.com/privacy",
+        "status": "https://status.smartrent.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://smartrent.com",
@@ -518,6 +579,20 @@
         "witco"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/spinalcom.png",
+        "source_url": "https://www.spinalcom.com/wp-content/themes/mkd-spinalcom/img/icons/touch.png?v3=1",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://www.spinalcom.com/mentions-legales",
+        "status": "https://www.spinalcom.com",
+        "site_languages": [
+          "en",
+          "fr"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.spinalcom.com",
@@ -606,6 +681,19 @@
         "witco"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/ubigreen.png",
+        "source_url": "https://www.ubigreen.com/wp-content/uploads/2023/01/cropped-MicrosoftTeams-image-2-300x300.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://www.ubigreen.com/mentions-legales",
+        "site_languages": [
+          "en",
+          "fr"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.ubigreen.com",
@@ -706,6 +794,11 @@
         "yardi-voyager"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/vts.png",
+        "source_url": "https://icons.duckduckgo.com/ip3/vts.com.ico",
+        "fetched_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.vts.com",
@@ -797,6 +890,20 @@
         "advizeo"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/wattsense.png",
+        "source_url": "https://www.wattsense.com/apple-touch-icon.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "status": "https://status.wattsense.com",
+        "site_languages": [
+          "de",
+          "en",
+          "fr"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.wattsense.com",
@@ -886,6 +993,20 @@
         "ubigreen"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/witco.png",
+        "source_url": "https://cdn.prod.website-files.com/62fcae5d7173a59e9f2063f8/62fcb07481de9f8226b0fa21_witco-fav-256.jpg",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "security": "https://www.witco.io/security",
+        "privacy": "https://www.witco.io/privacy-policy",
+        "site_languages": [
+          "en",
+          "fr"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.witco.io",

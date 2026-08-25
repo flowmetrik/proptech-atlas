@@ -1,0 +1,126 @@
+{
+  "generated": "2026-08-25",
+  "candidates": [
+    {
+      "name": "Coprolib'",
+      "editor": "Coprolib",
+      "website": "https://www.coprolib.com",
+      "category": "syndic-copro",
+      "markets": [
+        "FR"
+      ],
+      "why": "Solution en ligne dédiée aux syndics bénévoles pour automatiser la comptabilité, les appels de fonds et l'organisation des assemblées générales.",
+      "source_url": "https://www.coprolib.com/logiciel/",
+      "found_in": "syndic-copro/FR",
+      "slug": "coprolib",
+      "verified_on": "2026-08-25"
+    },
+    {
+      "name": "Copromatic",
+      "editor": "Copromatic",
+      "website": "https://www.copromatic.com",
+      "category": "syndic-copro",
+      "markets": [
+        "FR"
+      ],
+      "why": "Logiciel de comptabilité et de gestion administrative pour syndics bénévoles et professionnels afin de suivre budgets, charges et travaux de copropriété.",
+      "source_url": "https://www.copromatic.com/",
+      "found_in": "syndic-copro/FR",
+      "slug": "copromatic",
+      "verified_on": "2026-08-25"
+    },
+    {
+      "name": "Comptacop",
+      "editor": "Comptacop (SAS Cloud Solution)",
+      "website": "https://www.comptacop.fr",
+      "category": "syndic-copro",
+      "markets": [
+        "FR"
+      ],
+      "why": "Logiciel cloud de gestion de copropriété avec extranet copropriétaires, préparation des budgets, appels de fonds et gestion des AG.",
+      "source_url": "https://www.comptacop.fr/",
+      "found_in": "syndic-copro/FR",
+      "slug": "comptacop",
+      "verified_on": "2026-08-25"
+    },
+    {
+      "name": "Copriciel",
+      "editor": "Copriciel",
+      "website": "https://www.copriciel.com",
+      "category": "syndic-copro",
+      "markets": [
+        "FR"
+      ],
+      "why": "Plateforme SaaS française conçue pour les syndics bénévoles afin de gérer comptabilité, appels de fonds et assemblées générales en conformité avec la réglementation copropriété.",
+      "source_url": "https://www.copriciel.com/",
+      "found_in": "syndic-copro/FR",
+      "slug": "copriciel",
+      "verified_on": "2026-08-25"
+    },
+    {
+      "name": "Diacamma",
+      "editor": "Diacamma",
+      "website": "https://www.diacamma.org",
+      "category": "syndic-copro",
+      "markets": [
+        "FR"
+      ],
+      "why": "Logiciel libre et gratuit configurable pour tenir la comptabilité d'une copropriété, générer les appels de fonds et répartir les dépenses par tantièmes.",
+      "source_url": "https://www.diacamma.org/",
+      "found_in": "syndic-copro/FR",
+      "slug": "diacamma",
+      "verified_on": "2026-08-25"
+    },
+    {
+      "name": "LogicielSyndic",
+      "editor": "LogicielSyndic",
+      "website": "https://logicielsyndic.fr",
+      "category": "syndic-copro",
+      "markets": [
+        "FR"
+      ],
+      "why": "Logiciel de gestion de copropriété assisté par IA pour préparer la comptabilité, les appels de fonds, les AG et suivre la conformité réglementaire des syndics bénévoles.",
+      "source_url": "https://logicielsyndic.fr/",
+      "found_in": "syndic-copro/FR",
+      "slug": "logicielsyndic",
+      "verified_on": "2026-08-25"
+    },
+    {
+      "name": "copropriete.app",
+      "editor": "copropriete.app",
+      "website": "https://copropriete.app",
+      "category": "syndic-copro",
+      "markets": [
+        "FR"
+      ],
+      "why": "Application en ligne pour syndics bénévoles permettant de gérer les assemblées générales, les appels de fonds et les documents de la copropriété.",
+      "source_url": "https://copropriete.app/",
+      "found_in": "syndic-copro/FR",
+      "slug": "copropriete-app",
+      "verified_on": "2026-08-25"
+    },
+    {
+      "name": "Mon Syndic Bénévole",
+      "editor": "Mon Syndic Bénévole",
+      "website": "https://www.mon-syndic-benevole.fr",
+      "category": "syndic-copro",
+      "markets": [
+        "FR"
+      ],
+      "why": "Outil en ligne pour syndics bénévoles générant automatiquement les appels de fonds par tantièmes, les convocations d'AG et centralisant les documents de la copropriété.",
+      "source_url": "https://www.mon-syndic-benevole.fr/",
+      "found_in": "syndic-copro/FR",
+      "slug": "mon-syndic-b-n-vole",
+      "verified_on": "2026-08-25"
+    }
+  ],
+  "rejected": [
+    {
+      "slug": "simply-syndic",
+      "name": "Simply Syndic",
+      "website": "https://arc-copro.fr/recherche?query=Simply%20Syndic",
+      "why": "URL de recherche, pas un site produit",
+      "round": 0
+    }
+  ]
+}

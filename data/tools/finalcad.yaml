@@ -42,6 +42,14 @@ product:
   languages: [fr, en, es, de]
 alternatives: [bulldozair, kairnial, procore]
 reviews: []
+logo:
+  file: logos/finalcad.png
+  source_url: https://www.orisha.com/images/6a3a32d39063a8b11dbcd014_webclip.png
+  fetched_on: "2026-08-25"
+signals:
+  privacy: https://www.orisha.com/fr/legal/mentions-legales
+  site_languages: [fr]
+  checked_on: "2026-08-25"
 sources: [{ url: https://www.finalcad.com, note: site éditeur }]
 verification: { status: unverified, checked_on: null, checked_by: null }
 updated: "2026-08-25"

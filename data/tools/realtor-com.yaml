@@ -44,6 +44,10 @@ product:
   languages: [en]
 alternatives: [zillow, homes-com, apartments-com]
 reviews: []
+logo:
+  file: logos/realtor-com.png
+  source_url: https://icons.duckduckgo.com/ip3/realtor.com.ico
+  fetched_on: "2026-08-25"
 sources: [{ url: https://www.realtor.com, note: site éditeur }]
 verification: { status: unverified, checked_on: null, checked_by: null }
 updated: "2026-08-25"

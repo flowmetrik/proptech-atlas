@@ -43,6 +43,14 @@ product:
   languages: [en, fr, es]
 alternatives: [servicechannel, upkeep, limble]
 reviews: []
+logo:
+  file: logos/corrigo.png
+  source_url: https://www.jll.com/content/dam/tech-resources/android-chrome-192x192.png
+  fetched_on: "2026-08-25"
+signals:
+  status: https://status.corrigo.com
+  site_languages: [ar, de, en, es, fr, ja, ko, nl, pl, pt, zh]
+  checked_on: "2026-08-25"
 sources: [{ url: https://corrigo.com, note: site éditeur }]
 verification: { status: unverified, checked_on: null, checked_by: null }
 updated: "2026-08-25"

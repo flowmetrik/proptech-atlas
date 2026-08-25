@@ -42,6 +42,13 @@ product:
   languages: [fr, en, es, it]
 alternatives: [guesty, hostaway, amenitiz]
 reviews: []
+logo:
+  file: logos/smily.png
+  source_url: https://cdn.prod.website-files.com/5c8ca7584e2db8cfcdaee1de/5c9ceaa7e3044d99dd58e2ec_webclip%402x.png
+  fetched_on: "2026-08-25"
+signals:
+  site_languages: [en, fr]
+  checked_on: "2026-08-25"
 sources: [{ url: https://www.smily.com, note: site éditeur }]
 verification: { status: unverified, checked_on: null, checked_by: null }
 updated: "2026-08-25"

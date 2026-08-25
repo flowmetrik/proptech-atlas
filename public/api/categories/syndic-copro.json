@@ -4,7 +4,7 @@
   "label_fr": "Syndic & copropriété",
   "summary_en": "Manage co-owned buildings — budgets, assemblies, calls for funds, works.",
   "summary_fr": "Gérer l'immeuble en copropriété — budgets, AG, appels de fonds, travaux.",
-  "count": 6,
+  "count": 9,
   "tools": [
     {
       "slug": "buildium",
@@ -85,6 +85,20 @@
         "propertyware"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/buildium.png",
+        "source_url": "https://www.buildium.com/wp-content/uploads/2017/06/Buildium-favicon.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "pricing": "https://www.buildium.com/pricing",
+        "privacy": "https://www.buildium.com/privacy-policy",
+        "status": "https://status.buildium.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.buildium.com",
@@ -176,6 +190,19 @@
         "lockimmo"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/crypto-septeo.png",
+        "source_url": "https://cdn.prod.website-files.com/62f0eecf4db2ed8ccaf46cea/63a1bb651daf1432fd167afc_fav256x256.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "site_languages": [
+          "en",
+          "es",
+          "fr"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.septeo.com/fr/solutions-immobilier",
@@ -264,10 +291,107 @@
         "syment"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/gercop.png",
+        "source_url": "https://realestate.orisha.com//app/uploads/2024/02/Diapositive1-1-300x300.jpeg",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://realestate.orisha.com/politique-gestion-donnees-personnelles",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.gercop.com",
           "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "ics",
+      "name": "ICS",
+      "editor": "ICS",
+      "website": "https://www.ics.fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "syndic-copro",
+      "also_in": [
+        "property-management",
+        "transaction-management"
+      ],
+      "founded": 1978,
+      "positioning": "Independent French software suite for property administrators, used daily by more than 18,000 professionals across cloud-based syndic, management, rental and transaction modules.",
+      "description": "ICS is a French software suite built for administrateurs de biens, covering condominium syndic management, property management, rental management and sales transactions. It is delivered as cloud applications accessible from a standard web browser, with servers hosted in a Class IV datacenter.\n",
+      "real_estate_use": "Property management firms and syndics in France use ICS to run their daily back office: co-ownership accounting, fund calls and general assembly administration through the syndic module, rental portfolio tracking through the gestion and location modules, and sales file follow-up through the transaction module. Because it runs in the cloud, staff access the same accounting and extra-accounting environment from any browser without maintaining local servers or a VPN.\n",
+      "features": [
+        "Cloud-based access to accounting and extra-accounting environment via web browser",
+        "Syndic module for condominium accounting and general assembly management",
+        "Gestion module for property management portfolios",
+        "Location module for rental management",
+        "Transaction module for sales transaction tracking",
+        "Hosting in a Class IV datacenter with audited backup strategy"
+      ],
+      "use_cases": [
+        {
+          "persona": "syndic-manager",
+          "job": "Manage condominium accounting, fund calls and general assemblies from a cloud application"
+        },
+        {
+          "persona": "property-manager",
+          "job": "Administer rental and managed property portfolios without on-premise IT infrastructure"
+        },
+        {
+          "persona": "agent-broker",
+          "job": "Track sales transactions within the same software suite used for management and syndic activity"
+        }
+      ],
+      "personas": [
+        "syndic-manager",
+        "property-manager",
+        "agent-broker"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "French"
+        ]
+      },
+      "reviews": [],
+      "signals": {
+        "checked_on": "2026-08-25"
+      },
+      "sources": [
+        {
+          "url": "https://www.ics.fr",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://www.ics.fr/syndic.html",
+          "note": "source de découverte"
         }
       ],
       "verification": {
@@ -357,10 +481,202 @@
         "crypto-septeo"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/lockimmo.png",
+        "source_url": "https://www.lockimmo.com/wp-content/uploads/2022/06/LOCKimmo-FavIcon-300x300.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://www.lockimmo.com/politique-de-confidentialite",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.lockimmo.com",
           "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "matera",
+      "name": "Matera",
+      "editor": "Matera",
+      "website": "https://matera.eu",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "syndic-copro",
+      "also_in": [
+        "property-management"
+      ],
+      "founded": 2017,
+      "positioning": "Digital platform that lets condominium councils run their own cooperative syndic while a team of in-house experts handles the technical, legal and accounting complexity.",
+      "description": "Matera is a SaaS platform for French condominiums choosing the cooperative-syndic model, where the council of co-owners manages the building itself instead of hiring a professional syndic firm. The platform centralizes real-time accounting, budget tracking, service-charge calls, document storage, an online messaging system and general-assembly organization (including video conferencing and online voting), and gives access to Matera's in-house teams of accountants, lawyers and building-works specialists for complex matters. Matera also offers a separate rental-management product for landlords who self-manage tenanted properties.\n",
+      "real_estate_use": "A council of co-owners who wants to drop a traditional syndic firm and take direct control of the building's finances and decisions logs into Matera to track the budget, issue and follow up on service charges, and organize the annual general assembly online. When an incident occurs, such as a water leak, any council member can open a work order, contact a vetted local tradesperson from Matera's network, and follow the repair through to closure on the same platform. When a legal, accounting or technical question goes beyond what the council can resolve alone, they escalate it to Matera's in-house experts rather than hiring outside consultants.\n",
+      "features": [
+        "Real-time per-building accounting dashboard",
+        "Automated service-charge calls and payment reminders",
+        "Online general-assembly organization with video conferencing and voting",
+        "Dedicated messaging space for council and co-owners",
+        "Document repository (minutes, contracts, invoices)",
+        "Work-order tracking for incidents and repairs"
+      ],
+      "use_cases": [
+        {
+          "persona": "syndic-manager",
+          "job": "Manage the condominium's budget, accounting and service-charge billing without a professional syndic firm"
+        },
+        {
+          "persona": "syndic-manager",
+          "job": "Organize and run the general assembly online, including votes and minutes distribution"
+        },
+        {
+          "persona": "syndic-manager",
+          "job": "Track incidents and repair work orders through resolution using a vetted tradesperson network"
+        }
+      ],
+      "personas": [
+        "syndic-manager",
+        "landlord-owner"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false,
+        "url": "https://matera.eu/fr/syndic-copropriete"
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "French"
+        ]
+      },
+      "reviews": [],
+      "signals": {
+        "privacy": "https://matera.eu/fr/documentations-juridiques",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-25"
+      },
+      "sources": [
+        {
+          "url": "https://matera.eu",
+          "note": "site éditeur, non lisible automatiquement"
+        },
+        {
+          "url": "https://matera.eu/fr/syndic-copropriete",
+          "note": "source de découverte"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "powimo",
+      "name": "Powimo",
+      "editor": "Seiitra",
+      "website": "https://www.seiitra.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "syndic-copro",
+      "also_in": [
+        "property-management"
+      ],
+      "positioning": "Full-web property and condominium management software built to raise the productivity of property management firms.",
+      "description": "Powimo is a SaaS software for property administrators (ADB) covering both syndic (condominium) and rental management activities. It is organized into modules covering mandates, accounting, general assemblies, tenant/owner extranet, move-in/move-out inspections, maintenance requests, and letting.\n",
+      "real_estate_use": "A syndic manager uses Powimo to track co-ownership mandates, run accounting per building, prepare and hold dematerialized general assemblies, and issue fund calls to co-owners. A rental manager in the same firm uses it to manage lettings, tenant applications, and inspection reports, while owners and tenants follow their files through a dedicated client portal.\n",
+      "features": [
+        "Syndic mandate tracking and entry",
+        "Per-building accounting and account consultation",
+        "General assembly management (including dematerialized AGs)",
+        "Supplier compliance checks",
+        "Data hub with business indicators",
+        "Document dematerialization and automation"
+      ],
+      "use_cases": [
+        {
+          "persona": "syndic-manager",
+          "job": "Manage co-ownership mandates, budgets, fund calls and general assemblies"
+        },
+        {
+          "persona": "property-manager",
+          "job": "Handle rental management, letting and tenant applications"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "Consult accounting and documents through a dedicated client portal"
+        }
+      ],
+      "personas": [
+        "syndic-manager",
+        "property-manager",
+        "landlord-owner",
+        "tenant-occupier"
+      ],
+      "segments": [
+        "residential",
+        "multifamily"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "reviews": [],
+      "signals": {
+        "privacy": "https://www.seiitra.com/politique-de-confidentialite",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-25"
+      },
+      "sources": [
+        {
+          "url": "https://www.seiitra.com",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://www.seiitra.com/solutions/logiciel-syndic-de-copropriete/",
+          "note": "source de découverte"
         }
       ],
       "verification": {
@@ -440,6 +756,18 @@
         "gercop"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/syment.png",
+        "source_url": "https://www.syment.com/apple-touch-icon.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://www.syment.com/politique-de-confidentialite",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.syment.fr",
@@ -528,6 +856,14 @@
         "lockimmo"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/vilogi.png",
+        "source_url": "https://www.vilogi.com/images/copropriete.ico",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.vilogi.com",

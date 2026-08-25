@@ -69,6 +69,17 @@
     "tenantcloud"
   ],
   "reviews": [],
+  "logo": {
+    "file": "logos/innago.png",
+    "source_url": "https://innago.com/apple-icon.png?1edc080cbd202f47",
+    "fetched_on": "2026-08-25"
+  },
+  "signals": {
+    "site_languages": [
+      "en"
+    ],
+    "checked_on": "2026-08-25"
+  },
   "sources": [
     {
       "url": "https://innago.com",

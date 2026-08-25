@@ -73,6 +73,18 @@
     "brokermint"
   ],
   "reviews": [],
+  "logo": {
+    "file": "logos/skyslope.png",
+    "source_url": "https://www.google.com/s2/favicons?domain=skyslope.com&sz=256",
+    "fetched_on": "2026-08-25"
+  },
+  "signals": {
+    "status": "https://status.skyslope.com",
+    "site_languages": [
+      "en"
+    ],
+    "checked_on": "2026-08-25"
+  },
   "sources": [
     {
       "url": "https://skyslope.com",

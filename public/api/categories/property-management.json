@@ -4,7 +4,7 @@
   "label_fr": "Gestion locative résidentielle",
   "summary_en": "Leases, rent, owners, tenants, maintenance and trust accounting.",
   "summary_fr": "Baux, quittances, propriétaires, locataires, travaux et comptabilité mandant.",
-  "count": 34,
+  "count": 37,
   "tools": [
     {
       "slug": "aareon",
@@ -85,6 +85,17 @@
         "mri-software"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/aareon.png",
+        "source_url": "https://www.aareon.fr/hubfs/Sarah%20-%20please%20do%20not%20use%20without%20consultation/aareon_favicon_round.svg",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.aareon.fr",
@@ -177,6 +188,11 @@
         "rentspree"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/apartments-com.png",
+        "source_url": "https://icons.duckduckgo.com/ip3/apartments.com.ico",
+        "fetched_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.apartments.com",
@@ -280,6 +296,19 @@
         "yardi-breeze"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/appfolio.png",
+        "source_url": "https://www.appfolio.com/_nuxt/icons/icon_512x512.4826b9.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://www.appfolio.com/privacy",
+        "status": "https://status.appfolio.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.appfolio.com",
@@ -365,6 +394,19 @@
         "rentredi"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/avail.png",
+        "source_url": "https://d1lxtpp8g4g4um.cloudfront.net/marketing/og-image-home.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "pricing": "https://www.avail.com/pricing",
+        "privacy": "https://www.avail.com/privacy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.avail.co",
@@ -457,6 +499,20 @@
         "propertyware"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/buildium.png",
+        "source_url": "https://www.buildium.com/wp-content/uploads/2017/06/Buildium-favicon.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "pricing": "https://www.buildium.com/pricing",
+        "privacy": "https://www.buildium.com/privacy-policy",
+        "status": "https://status.buildium.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.buildium.com",
@@ -545,6 +601,18 @@
         "matterport"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/check-and-visit.png",
+        "source_url": "https://checkandvisit.com/hubfs/Website/logo/favicon-check-and-visit-2.svg",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://checkandvisit.com/mentions-legales",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.checkandvisit.com",
@@ -636,6 +704,19 @@
         "lockimmo"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/crypto-septeo.png",
+        "source_url": "https://cdn.prod.website-files.com/62f0eecf4db2ed8ccaf46cea/63a1bb651daf1432fd167afc_fav256x256.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "site_languages": [
+          "en",
+          "es",
+          "fr"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.septeo.com/fr/solutions-immobilier",
@@ -731,6 +812,22 @@
         "innago"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/doorloop.png",
+        "source_url": "https://cdn.prod.website-files.com/5f073e32d304276cc8b4ff30/69ef686efb5ec4c235b3ab95_doorloop_webClip.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "pricing": "https://www.doorloop.com/pricing",
+        "api_docs": "https://www.doorloop.com/partner",
+        "security": "https://www.doorloop.com/security",
+        "privacy": "https://www.doorloop.com/legal/privacy",
+        "status": "https://status.doorloop.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.doorloop.com",
@@ -827,6 +924,17 @@
         "ylopo"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/eliseai.png",
+        "source_url": "https://cdn.prod.website-files.com/63cc1eef179b054a9306598d/6a8466b644f22d500416f5b7_favicon.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.eliseai.com",
@@ -923,6 +1031,19 @@
         "appfolio"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/entrata.png",
+        "source_url": "https://cdn.prod.website-files.com/65eabd7598741e6a15fc75c2/660fd1776a5da038751bf803_favicon-1.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://legal.entrata.com/privacy-policy",
+        "status": "https://status.entrata.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.entrata.com",
@@ -1011,6 +1132,18 @@
         "syment"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/gercop.png",
+        "source_url": "https://realestate.orisha.com//app/uploads/2024/02/Diapositive1-1-300x300.jpeg",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://realestate.orisha.com/politique-gestion-donnees-personnelles",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.gercop.com",
@@ -1088,6 +1221,18 @@
         "ownily"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/gererseul.png",
+        "source_url": "https://www.gererseul.com/app/uploads/2026/08/cropped-Favicon-gererseul-180x180.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://www.gererseul.com/politique-de-confidentialite",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.gererseul.com",
@@ -1175,10 +1320,104 @@
         "doorloop"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/hemlane.png",
+        "source_url": "https://www.hemlane.com/favicon.ico",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "pricing": "https://www.hemlane.com/pricing",
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.hemlane.com",
           "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "ics",
+      "name": "ICS",
+      "editor": "ICS",
+      "website": "https://www.ics.fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "syndic-copro",
+      "also_in": [
+        "property-management",
+        "transaction-management"
+      ],
+      "founded": 1978,
+      "positioning": "Independent French software suite for property administrators, used daily by more than 18,000 professionals across cloud-based syndic, management, rental and transaction modules.",
+      "description": "ICS is a French software suite built for administrateurs de biens, covering condominium syndic management, property management, rental management and sales transactions. It is delivered as cloud applications accessible from a standard web browser, with servers hosted in a Class IV datacenter.\n",
+      "real_estate_use": "Property management firms and syndics in France use ICS to run their daily back office: co-ownership accounting, fund calls and general assembly administration through the syndic module, rental portfolio tracking through the gestion and location modules, and sales file follow-up through the transaction module. Because it runs in the cloud, staff access the same accounting and extra-accounting environment from any browser without maintaining local servers or a VPN.\n",
+      "features": [
+        "Cloud-based access to accounting and extra-accounting environment via web browser",
+        "Syndic module for condominium accounting and general assembly management",
+        "Gestion module for property management portfolios",
+        "Location module for rental management",
+        "Transaction module for sales transaction tracking",
+        "Hosting in a Class IV datacenter with audited backup strategy"
+      ],
+      "use_cases": [
+        {
+          "persona": "syndic-manager",
+          "job": "Manage condominium accounting, fund calls and general assemblies from a cloud application"
+        },
+        {
+          "persona": "property-manager",
+          "job": "Administer rental and managed property portfolios without on-premise IT infrastructure"
+        },
+        {
+          "persona": "agent-broker",
+          "job": "Track sales transactions within the same software suite used for management and syndic activity"
+        }
+      ],
+      "personas": [
+        "syndic-manager",
+        "property-manager",
+        "agent-broker"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "French"
+        ]
+      },
+      "reviews": [],
+      "signals": {
+        "checked_on": "2026-08-25"
+      },
+      "sources": [
+        {
+          "url": "https://www.ics.fr",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://www.ics.fr/syndic.html",
+          "note": "source de découverte"
         }
       ],
       "verification": {
@@ -1264,6 +1503,17 @@
         "lockimmo"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/immofacile.png",
+        "source_url": "https://media.base44.com/images/public/6a34f2529b2e173c33637639/fbd74a592_logo.png/v1/fill/w_1200,h_630/fbd74a592_logo.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.immofacile.fr",
@@ -1356,6 +1606,18 @@
         "check-and-visit"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/immopad.png",
+        "source_url": "https://immopad.com/wp-content/uploads/2024/10/cropped-empreinte-t-compresse-1-180x180.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://immopad.com/politique-de-confidentialite",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.immopad.com",
@@ -1440,6 +1702,17 @@
         "tenantcloud"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/innago.png",
+        "source_url": "https://innago.com/apple-icon.png?1edc080cbd202f47",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://innago.com",
@@ -1533,10 +1806,113 @@
         "crypto-septeo"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/lockimmo.png",
+        "source_url": "https://www.lockimmo.com/wp-content/uploads/2022/06/LOCKimmo-FavIcon-300x300.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://www.lockimmo.com/politique-de-confidentialite",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.lockimmo.com",
           "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "matera",
+      "name": "Matera",
+      "editor": "Matera",
+      "website": "https://matera.eu",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "syndic-copro",
+      "also_in": [
+        "property-management"
+      ],
+      "founded": 2017,
+      "positioning": "Digital platform that lets condominium councils run their own cooperative syndic while a team of in-house experts handles the technical, legal and accounting complexity.",
+      "description": "Matera is a SaaS platform for French condominiums choosing the cooperative-syndic model, where the council of co-owners manages the building itself instead of hiring a professional syndic firm. The platform centralizes real-time accounting, budget tracking, service-charge calls, document storage, an online messaging system and general-assembly organization (including video conferencing and online voting), and gives access to Matera's in-house teams of accountants, lawyers and building-works specialists for complex matters. Matera also offers a separate rental-management product for landlords who self-manage tenanted properties.\n",
+      "real_estate_use": "A council of co-owners who wants to drop a traditional syndic firm and take direct control of the building's finances and decisions logs into Matera to track the budget, issue and follow up on service charges, and organize the annual general assembly online. When an incident occurs, such as a water leak, any council member can open a work order, contact a vetted local tradesperson from Matera's network, and follow the repair through to closure on the same platform. When a legal, accounting or technical question goes beyond what the council can resolve alone, they escalate it to Matera's in-house experts rather than hiring outside consultants.\n",
+      "features": [
+        "Real-time per-building accounting dashboard",
+        "Automated service-charge calls and payment reminders",
+        "Online general-assembly organization with video conferencing and voting",
+        "Dedicated messaging space for council and co-owners",
+        "Document repository (minutes, contracts, invoices)",
+        "Work-order tracking for incidents and repairs"
+      ],
+      "use_cases": [
+        {
+          "persona": "syndic-manager",
+          "job": "Manage the condominium's budget, accounting and service-charge billing without a professional syndic firm"
+        },
+        {
+          "persona": "syndic-manager",
+          "job": "Organize and run the general assembly online, including votes and minutes distribution"
+        },
+        {
+          "persona": "syndic-manager",
+          "job": "Track incidents and repair work orders through resolution using a vetted tradesperson network"
+        }
+      ],
+      "personas": [
+        "syndic-manager",
+        "landlord-owner"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false,
+        "url": "https://matera.eu/fr/syndic-copropriete"
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "French"
+        ]
+      },
+      "reviews": [],
+      "signals": {
+        "privacy": "https://matera.eu/fr/documentations-juridiques",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-25"
+      },
+      "sources": [
+        {
+          "url": "https://matera.eu",
+          "note": "site éditeur, non lisible automatiquement"
+        },
+        {
+          "url": "https://matera.eu/fr/syndic-copropriete",
+          "note": "source de découverte"
         }
       ],
       "verification": {
@@ -1623,6 +1999,18 @@
         "crypto-septeo"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/modelo.png",
+        "source_url": "https://www.modelo.fr/wp-content/uploads/2024/11/cropped-favicon-180x180.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://www.modelo.fr/politique-de-confidentialite",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.modelo.fr",
@@ -1722,10 +2110,113 @@
         "visual-lease"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/mri-software.png",
+        "source_url": "https://cdn-fcdch.nitrocdn.com/cNYQZjhejOqxikuYkZcyUKwXfKCwKOuc/assets/images/optimized/rev-34ff8f8/www.mrisoftware.com/apple-touch-icon.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://www.mrisoftware.com/privacy-policy",
+        "status": "https://status.mrisoftware.com",
+        "site_languages": [
+          "ar",
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.mrisoftware.com",
           "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "powimo",
+      "name": "Powimo",
+      "editor": "Seiitra",
+      "website": "https://www.seiitra.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "syndic-copro",
+      "also_in": [
+        "property-management"
+      ],
+      "positioning": "Full-web property and condominium management software built to raise the productivity of property management firms.",
+      "description": "Powimo is a SaaS software for property administrators (ADB) covering both syndic (condominium) and rental management activities. It is organized into modules covering mandates, accounting, general assemblies, tenant/owner extranet, move-in/move-out inspections, maintenance requests, and letting.\n",
+      "real_estate_use": "A syndic manager uses Powimo to track co-ownership mandates, run accounting per building, prepare and hold dematerialized general assemblies, and issue fund calls to co-owners. A rental manager in the same firm uses it to manage lettings, tenant applications, and inspection reports, while owners and tenants follow their files through a dedicated client portal.\n",
+      "features": [
+        "Syndic mandate tracking and entry",
+        "Per-building accounting and account consultation",
+        "General assembly management (including dematerialized AGs)",
+        "Supplier compliance checks",
+        "Data hub with business indicators",
+        "Document dematerialization and automation"
+      ],
+      "use_cases": [
+        {
+          "persona": "syndic-manager",
+          "job": "Manage co-ownership mandates, budgets, fund calls and general assemblies"
+        },
+        {
+          "persona": "property-manager",
+          "job": "Handle rental management, letting and tenant applications"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "Consult accounting and documents through a dedicated client portal"
+        }
+      ],
+      "personas": [
+        "syndic-manager",
+        "property-manager",
+        "landlord-owner",
+        "tenant-occupier"
+      ],
+      "segments": [
+        "residential",
+        "multifamily"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "reviews": [],
+      "signals": {
+        "privacy": "https://www.seiitra.com/politique-de-confidentialite",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-25"
+      },
+      "sources": [
+        {
+          "url": "https://www.seiitra.com",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://www.seiitra.com/solutions/logiciel-syndic-de-copropriete/",
+          "note": "source de découverte"
         }
       ],
       "verification": {
@@ -1814,6 +2305,20 @@
         "hemlane"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/property-meld.png",
+        "source_url": "https://propertymeld.com/wp-content/uploads/2023/12/PM-Logo-Icon-Full-Color@10x.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "pricing": "https://propertymeld.com/pricing",
+        "privacy": "https://propertymeld.com/privacy-policy",
+        "status": "https://status.propertymeld.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://propertymeld.com",
@@ -1902,6 +2407,20 @@
         "hemlane"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/propertyware.png",
+        "source_url": "https://www.propertyware.com/apple-touch-icon.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "pricing": "https://www.propertyware.com/pricing",
+        "privacy": "https://www.propertyware.com/privacy-policy",
+        "status": "https://status.propertyware.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.propertyware.com",
@@ -1999,6 +2518,18 @@
         "appfolio"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/realpage.png",
+        "source_url": "https://s.realpage.com/apple-touch-icon.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://www.realpage.com/legal/privacy-policy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.realpage.com",
@@ -2079,6 +2610,19 @@
         "ownily"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/rentila.png",
+        "source_url": "https://www.rentila.com/webflow/images/webclip.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "pricing": "https://www.rentila.com/pricing",
+        "privacy": "https://www.rentila.com/privacy",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.rentila.com",
@@ -2174,6 +2718,18 @@
         "propertyware"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/rentmanager.png",
+        "source_url": "https://www.rentmanager.com/wp-content/uploads/2023/08/cropped-RM_HouseIcon-180x180.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://www.rentmanager.com/privacy-statement",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.rentmanager.com",
@@ -2259,6 +2815,19 @@
         "tenantcloud"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/rentredi.png",
+        "source_url": "https://framerusercontent.com/images/6qHx34d9YCK4IhpD6IbsCSZhOyM.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "pricing": "https://rentredi.com/pricing",
+        "privacy": "https://rentredi.com/privacyPolicy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://rentredi.com",
@@ -2349,6 +2918,20 @@
         "avail"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/rentspree.png",
+        "source_url": "https://cdn.prod.website-files.com/65c0f8f594d491289ae25e2a/660bfaf5c5eea181eac8599f_rentspree%20webclip.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "pricing": "https://www.rentspree.com/pricing",
+        "privacy": "https://www.rentspree.com/rentspree-privacy-policy",
+        "status": "https://status.rentspree.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.rentspree.com",
@@ -2430,6 +3013,16 @@
         "ownily"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/smartloc.png",
+        "source_url": "https://www.smartloc.fr/assets/bootstrap/logos/smartloc_carre.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "pricing": "https://www.smartloc.fr/tarifs",
+        "privacy": "https://www.smartloc.fr/confidentialite",
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.smartloc.fr",
@@ -2517,6 +3110,19 @@
         "hqo"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/smartrent.png",
+        "source_url": "https://smartrent.com/icons/icon-512x512.png?v=fb22f268ec78d7fa9c4da0aeed27e371",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://smartrent.com/privacy",
+        "status": "https://status.smartrent.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://smartrent.com",
@@ -2601,6 +3207,17 @@
         "check-and-visit"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/startloc.png",
+        "source_url": "https://www.startloc.fr/favicon.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.startloc.fr",
@@ -2686,6 +3303,19 @@
         "rentredi"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/tenantcloud.png",
+        "source_url": "https://www.tenantcloud.com/wp-content/uploads/2026/03/tenantcloud-favicon.svg",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "pricing": "https://www.tenantcloud.com/pricing",
+        "privacy": "https://www.tenantcloud.com/privacy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.tenantcloud.com",
@@ -2773,6 +3403,19 @@
         "tenantcloud"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/turbotenant.png",
+        "source_url": "https://www.turbotenant.com/nitropack_static/DnewKXQeUpEmvDhTCIHXdznjCdZBTuQP/assets/images/optimized/rev-35361a0/www.turbotenant.com/wp-content/uploads/2023/05/cropped-Favicon-1-180x180.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "security": "https://www.turbotenant.com/security",
+        "privacy": "https://www.turbotenant.com/privacy-policy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.turbotenant.com",
@@ -2861,6 +3504,14 @@
         "lockimmo"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/vilogi.png",
+        "source_url": "https://www.vilogi.com/images/copropriete.ico",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.vilogi.com",
@@ -2953,6 +3604,19 @@
         "yardi-voyager"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/yardi-breeze.png",
+        "source_url": "https://www.yardibreeze.com/wp-content/themes/cmw-standard-theme-child-breeze/images/favicons/apple-touch-icon.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "pricing": "https://www.yardibreeze.com/residential-features",
+        "privacy": "https://resources.yardi.com/legal/privacy-statement",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.yardibreeze.com",
@@ -3058,6 +3722,11 @@
         "yardi-breeze"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/yardi-voyager.png",
+        "source_url": "https://icons.duckduckgo.com/ip3/yardi.com.ico",
+        "fetched_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.yardi.com",

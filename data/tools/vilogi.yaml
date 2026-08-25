@@ -43,6 +43,12 @@ product:
   languages: [fr]
 alternatives: [crypto-septeo, gercop, syment, lockimmo]
 reviews: []
+logo:
+  file: logos/vilogi.png
+  source_url: https://www.vilogi.com/images/copropriete.ico
+  fetched_on: "2026-08-25"
+signals:
+  checked_on: "2026-08-25"
 sources: [{ url: https://www.vilogi.com, note: site éditeur }]
 verification: { status: unverified, checked_on: null, checked_by: null }
 updated: "2026-08-25"

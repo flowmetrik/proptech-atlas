@@ -45,6 +45,16 @@ product:
   languages: [en]
 alternatives: [appfolio, doorloop, rentmanager, propertyware]
 reviews: []
+logo:
+  file: logos/buildium.png
+  source_url: https://www.buildium.com/wp-content/uploads/2017/06/Buildium-favicon.png
+  fetched_on: "2026-08-25"
+signals:
+  pricing: https://www.buildium.com/pricing
+  privacy: https://www.buildium.com/privacy-policy
+  status: https://status.buildium.com
+  site_languages: [en]
+  checked_on: "2026-08-25"
 sources: [{ url: https://www.buildium.com, note: site éditeur }]
 verification: { status: unverified, checked_on: null, checked_by: null }
 updated: "2026-08-25"

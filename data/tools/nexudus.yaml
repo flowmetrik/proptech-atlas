@@ -43,6 +43,17 @@ product:
   languages: [en, fr, es, de]
 alternatives: [officernd, cobot, essensys]
 reviews: []
+logo:
+  file: logos/nexudus.png
+  source_url: https://nexudus.com/wp-content/uploads/2025/04/cropped-Nexudus_Favicon-180x180.png
+  fetched_on: "2026-08-25"
+signals:
+  pricing: https://nexudus.com/coworking-pricing
+  security: https://nexudus.com/security
+  privacy: https://nexudus.com
+  status: https://status.nexudus.com
+  site_languages: [en, fr]
+  checked_on: "2026-08-25"
 sources: [{ url: https://www.nexudus.com, note: site éditeur }]
 verification: { status: unverified, checked_on: null, checked_by: null }
 updated: "2026-08-25"

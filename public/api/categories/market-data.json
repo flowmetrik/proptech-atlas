@@ -77,6 +77,19 @@
         "housecanary"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/attom-data.png",
+        "source_url": "https://www.attomdata.com/wp-content/uploads/2021/05/cropped-favicon-1-180x180.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "api_docs": "https://www.attomdata.com/solutions/delivery/property-data-api",
+        "privacy": "https://www.attomdata.com/privacy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.attomdata.com",
@@ -165,6 +178,20 @@
         "costar"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/cherre.png",
+        "source_url": "https://cherre.com/web-assets/img/favicon.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "security": "https://cherre.com/security",
+        "privacy": "https://cherre.com/policies",
+        "status": "https://status.cherre.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://cherre.com",
@@ -251,6 +278,18 @@
         "placer-ai"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/cityscan.png",
+        "source_url": "https://www.cityscan.fr/wp-content/uploads/2023/11/cropped-favicon-180x180.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://www.cityscan.fr/politique-de-confidentialite",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.cityscan.fr",
@@ -347,6 +386,19 @@
         "yanport"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/costar.png",
+        "source_url": "https://www.costar.com/favicon.ico?favicon.2326xz3rqwp08.ico",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://www.costar.com/about/privacy-notice",
+        "site_languages": [
+          "en",
+          "fr"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.costar.com",
@@ -447,6 +499,11 @@
         "reonomy"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/crexi.png",
+        "source_url": "https://icons.duckduckgo.com/ip3/crexi.com.ico",
+        "fetched_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.crexi.com",
@@ -536,6 +593,14 @@
         "pricehubble"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/dvf.png",
+        "source_url": "https://app.dvf.etalab.gouv.fr/favicon.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://app.dvf.etalab.gouv.fr",
@@ -622,6 +687,15 @@
         "dvf"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/fluximmo.png",
+        "source_url": "https://www.fluximmo.com/favicon/apple-touch-icon.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "status": "https://status.fluximmo.com",
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.fluximmo.com",
@@ -712,6 +786,20 @@
         "pricehubble"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/housecanary.png",
+        "source_url": "https://www.housecanary.com/apple-touch-icon.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "pricing": "https://www.housecanary.com/pricing",
+        "api_docs": "https://www.housecanary.com/resources/developer-tools",
+        "status": "https://status.housecanary.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.housecanary.com",
@@ -799,6 +887,21 @@
         "dvf"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/kelfoncier.png",
+        "source_url": "https://www.kelfoncier.com/wp-content/themes/kelfoncier/assets/images/favicon.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://www.kelfoncier.com/rgpd-cnil",
+        "site_languages": [
+          "de",
+          "en",
+          "fr",
+          "it"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.kelfoncier.com",
@@ -894,6 +997,11 @@
         "dvf"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/meilleursagents.png",
+        "source_url": "https://icons.duckduckgo.com/ip3/meilleursagents.com.ico",
+        "fetched_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.meilleursagents.com",
@@ -988,6 +1096,19 @@
         "cityscan"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/placer-ai.png",
+        "source_url": "https://cdn.prod.website-files.com/62d4feaf5d3ddb3f0f9c5515/62d50072cb5c4044fdaa789a_placer-webclip.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://www.placer.ai/privacy-policy",
+        "status": "https://status.placer.ai",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.placer.ai",
@@ -1085,6 +1206,23 @@
         "yanport"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/pricehubble.png",
+        "source_url": "https://framerusercontent.com/images/ZSlsZghJzi1fnqU9kpIh1z1g.svg",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "status": "https://status.pricehubble.com",
+        "site_languages": [
+          "cs",
+          "de",
+          "en",
+          "fr",
+          "ja",
+          "nl"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.pricehubble.com",
@@ -1182,6 +1320,18 @@
         "appfolio"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/realpage.png",
+        "source_url": "https://s.realpage.com/apple-touch-icon.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://www.realpage.com/legal/privacy-policy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.realpage.com",
@@ -1270,6 +1420,18 @@
         "crexi"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/reonomy.png",
+        "source_url": "https://www.reonomy.com/favicon/reonomy/apple-touch-icon.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "pricing": "https://www.reonomy.com/pricing",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.reonomy.com",
@@ -1358,6 +1520,9 @@
         "cityscan"
       ],
       "reviews": [],
+      "signals": {
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.urbanease.com",
@@ -1458,6 +1623,11 @@
         "yardi-voyager"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/vts.png",
+        "source_url": "https://icons.duckduckgo.com/ip3/vts.com.ico",
+        "fetched_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.vts.com",
@@ -1542,6 +1712,19 @@
         "fluximmo"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/yanport.png",
+        "source_url": "https://www.yanport.com/assets/images/graphics/og-logo.jpg",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://www.yanport.com/legal/privacy",
+        "status": "https://status.yanport.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.yanport.com",

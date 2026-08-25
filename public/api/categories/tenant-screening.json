@@ -85,6 +85,11 @@
         "rentspree"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/apartments-com.png",
+        "source_url": "https://icons.duckduckgo.com/ip3/apartments.com.ico",
+        "fetched_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.apartments.com",
@@ -170,6 +175,19 @@
         "rentredi"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/avail.png",
+        "source_url": "https://d1lxtpp8g4g4um.cloudfront.net/marketing/og-image-home.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "pricing": "https://www.avail.com/pricing",
+        "privacy": "https://www.avail.com/privacy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.avail.co",
@@ -253,6 +271,19 @@
         "rentspree"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/dossierfacile.png",
+        "source_url": "https://www.dossierfacile.logement.gouv.fr/favicon.svg",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://www.dossierfacile.logement.gouv.fr/privacy",
+        "site_languages": [
+          "en",
+          "fr"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.dossierfacile.logement.gouv.fr",
@@ -350,6 +381,18 @@
         "appfolio"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/realpage.png",
+        "source_url": "https://s.realpage.com/apple-touch-icon.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://www.realpage.com/legal/privacy-policy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.realpage.com",
@@ -440,6 +483,20 @@
         "avail"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/rentspree.png",
+        "source_url": "https://cdn.prod.website-files.com/65c0f8f594d491289ae25e2a/660bfaf5c5eea181eac8599f_rentspree%20webclip.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "pricing": "https://www.rentspree.com/pricing",
+        "privacy": "https://www.rentspree.com/rentspree-privacy-policy",
+        "status": "https://status.rentspree.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.rentspree.com",
@@ -521,6 +578,16 @@
         "ownily"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/smartloc.png",
+        "source_url": "https://www.smartloc.fr/assets/bootstrap/logos/smartloc_carre.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "pricing": "https://www.smartloc.fr/tarifs",
+        "privacy": "https://www.smartloc.fr/confidentialite",
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.smartloc.fr",
@@ -608,6 +675,20 @@
         "realpage"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/snappt.png",
+        "source_url": "https://snappt.com/wp-content/themes/snappt-theme/public/images/favorites/apple-touch-icon-152x152.png?20230420",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "security": "https://snappt.com/security",
+        "privacy": "https://snappt.com/privacy-policy",
+        "status": "https://status.snappt.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://snappt.com",
@@ -687,6 +768,19 @@
         "snappt"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/theguarantors.png",
+        "source_url": "https://www.theguarantors.com/favicon.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "api_docs": "https://www.theguarantors.com/api",
+        "privacy": "https://www.theguarantors.com/privacy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.theguarantors.com",
@@ -767,6 +861,18 @@
         "snappt"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/transunion-smartmove.png",
+        "source_url": "https://www.mysmartmove.com/etc.clientlibs/transunion/clientlibs/clientlib-mysmartmove/resources/images/favicons/favicon.ico",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://www.mysmartmove.com/terms-of-use",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.mysmartmove.com",
@@ -854,6 +960,19 @@
         "tenantcloud"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/turbotenant.png",
+        "source_url": "https://www.turbotenant.com/nitropack_static/DnewKXQeUpEmvDhTCIHXdznjCdZBTuQP/assets/images/optimized/rev-35361a0/www.turbotenant.com/wp-content/uploads/2023/05/cropped-Favicon-1-180x180.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "security": "https://www.turbotenant.com/security",
+        "privacy": "https://www.turbotenant.com/privacy-policy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.turbotenant.com",

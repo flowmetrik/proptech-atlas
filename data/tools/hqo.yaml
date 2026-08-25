@@ -42,6 +42,14 @@ product:
   languages: [en, fr, de]
 alternatives: [equiem, vts]
 reviews: []
+logo:
+  file: logos/hqo.png
+  source_url: https://www.hqo.com/wp-content/uploads/2021/12/favicon-1.png
+  fetched_on: "2026-08-25"
+signals:
+  privacy: https://www.hqo.com/legal/privacy-policy
+  site_languages: [en, fr]
+  checked_on: "2026-08-25"
 sources: [{ url: https://www.hqo.com, note: site éditeur }]
 verification: { status: unverified, checked_on: null, checked_by: null }
 updated: "2026-08-25"

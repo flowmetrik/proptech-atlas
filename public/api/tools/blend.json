@@ -66,6 +66,19 @@
     "floify"
   ],
   "reviews": [],
+  "logo": {
+    "file": "logos/blend.png",
+    "source_url": "https://blend.com/wp-content/themes/blend/img/favicon/apple-touch-icon.png",
+    "fetched_on": "2026-08-25"
+  },
+  "signals": {
+    "privacy": "https://blend.com/policies/privacy-policy",
+    "status": "https://status.blend.com",
+    "site_languages": [
+      "en"
+    ],
+    "checked_on": "2026-08-25"
+  },
   "sources": [
     {
       "url": "https://blend.com",

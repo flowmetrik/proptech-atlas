@@ -45,6 +45,16 @@ product:
   languages: [en]
 alternatives: [clear-capital, attom-data, pricehubble]
 reviews: []
+logo:
+  file: logos/housecanary.png
+  source_url: https://www.housecanary.com/apple-touch-icon.png
+  fetched_on: "2026-08-25"
+signals:
+  pricing: https://www.housecanary.com/pricing
+  api_docs: https://www.housecanary.com/resources/developer-tools
+  status: https://status.housecanary.com
+  site_languages: [en]
+  checked_on: "2026-08-25"
 sources: [{ url: https://www.housecanary.com, note: site éditeur }]
 verification: { status: unverified, checked_on: null, checked_by: null }
 updated: "2026-08-25"

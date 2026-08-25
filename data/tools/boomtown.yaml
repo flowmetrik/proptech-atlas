@@ -45,6 +45,15 @@ product:
   languages: [en]
 alternatives: [lofty, boldtrail, follow-up-boss, sierra-interactive]
 reviews: []
+logo:
+  file: logos/boomtown.png
+  source_url: https://boomtownroi.com/wp-content/uploads/2020/02/homepage-hero-Q1-product-group.png
+  fetched_on: "2026-08-25"
+signals:
+  api_docs: https://docs.google.com/forms/d/e/1FAIpQLSdOOGGarFZJUOqg_jcYY1iTCMThPcypKULz2KKQ-1rBBM8UBw/viewform
+  privacy: https://boomtownroi.com/privacy
+  site_languages: [en]
+  checked_on: "2026-08-25"
 sources:
   - url: https://boomtownroi.com
     note: site éditeur

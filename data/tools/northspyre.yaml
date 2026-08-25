@@ -45,6 +45,16 @@ product:
   languages: [en]
 alternatives: [procore, dealpath]
 reviews: []
+logo:
+  file: logos/northspyre.png
+  source_url: https://www.northspyre.com/wp-content/uploads/2024/12/cropped-Northspyresymbol_logo-2-180x180.webp
+  fetched_on: "2026-08-25"
+signals:
+  security: https://www.northspyre.com/soc-2-northspyre-compliance
+  privacy: https://www.northspyre.com/privacypolicy
+  status: https://secure-stats.pingdom.com/xw3pjczb6eht/6818543?_gl=1*d4yp6i*_gcl_au*MjA3ODE4MDQ4MC4xNjk2MjU3MTkw
+  site_languages: [en]
+  checked_on: "2026-08-25"
 sources: [{ url: https://www.northspyre.com, note: site éditeur }]
 verification: { status: unverified, checked_on: null, checked_by: null }
 updated: "2026-08-25"

@@ -43,6 +43,14 @@ product:
   languages: [fr]
 alternatives: [hektor, adapt-immo, vilogi, crypto-septeo]
 reviews: []
+logo:
+  file: logos/lockimmo.png
+  source_url: https://www.lockimmo.com/wp-content/uploads/2022/06/LOCKimmo-FavIcon-300x300.png
+  fetched_on: "2026-08-25"
+signals:
+  privacy: https://www.lockimmo.com/politique-de-confidentialite
+  site_languages: [fr]
+  checked_on: "2026-08-25"
 sources: [{ url: https://www.lockimmo.com, note: site éditeur }]
 verification: { status: unverified, checked_on: null, checked_by: null }
 updated: "2026-08-25"

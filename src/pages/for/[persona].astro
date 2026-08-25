@@ -1,0 +1,68 @@
+---
+import Base from '../../layouts/Base.astro';
+import ToolCard from '../../components/ToolCard.astro';
+import { taxonomy, toolsForPersona, byId, label, url } from '../../lib/catalog';
+
+export function getStaticPaths() {
+  return taxonomy.personas.map((p) => ({ params: { persona: p.id }, props: { persona: p } }));
+}
+const { persona } = Astro.props;
+const list = toolsForPersona(persona.id);
+const us = list.filter((t) => t.markets.includes('US'));
+const fr = list.filter((t) => t.markets.includes('FR'));
+
+// Les catégories où ce métier trouve le plus d'outils : c'est la carte de sa
+// journée de travail, pas un classement.
+const cats = [...new Set(list.map((t) => t.category))]
+  .map((id) => ({ id, n: list.filter((t) => t.category === id).length }))
+  .sort((a, b) => b.n - a.n);
+
+const title = `Software for ${persona.label_en.toLowerCase()}s`;
+const description = `${list.length} real estate software products used by ${persona.label_en.toLowerCase()}s in the United States and France, with what each one is actually used for.`;
+const jsonld = {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: title,
+  numberOfItems: list.length,
+  itemListElement: list.map((t, i) => ({ '@type': 'ListItem', position: i + 1, name: t.name, url: t.website })),
+};
+---
+<Base title={title} description={description} jsonld={jsonld}>
+  <section class="wrap section">
+    <p class="eyebrow">By trade</p>
+    <h1>{title}</h1>
+    <p class="lede">
+      {list.length} products in the catalogue serve {persona.label_en.toLowerCase()}s —
+      {us.length} available in the United States, {fr.length} in France. The French and
+      American answers are rarely the same product, because the work is defined by local law.
+    </p>
+    <p class="mono muted">{persona.label_fr}</p>
+
+    <div style="display:flex;flex-wrap:wrap;gap:8px;margin:22px 0 0">
+      {cats.map((c) => (
+        <a class="badge badge-outline" href={url(`categories/${c.id}`)}>{label('category', c.id)} · {c.n}</a>
+      ))}
+    </div>
+
+    {us.length > 0 && (
+      <>
+        <hr class="rule" />
+        <h2>{byId.market.US.flag} United States</h2>
+        <div class="grid grid-3" style="margin-top:20px">{us.map((t) => <ToolCard tool={t} />)}</div>
+      </>
+    )}
+    {fr.length > 0 && (
+      <>
+        <hr class="rule" />
+        <h2>{byId.market.FR.flag} France</h2>
+        <div class="grid grid-3" style="margin-top:20px">{fr.map((t) => <ToolCard tool={t} />)}</div>
+      </>
+    )}
+
+    <hr class="rule" />
+    <p class="muted">
+      Missing a tool this trade relies on? <a href={url('contribute')}>Add it</a> — one YAML
+      file, one pull request.
+    </p>
+  </section>
+</Base>

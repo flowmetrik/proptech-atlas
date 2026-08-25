@@ -45,6 +45,15 @@ product:
   languages: [en]
 alternatives: [turbotenant, innago, rentredi]
 reviews: []
+logo:
+  file: logos/avail.png
+  source_url: https://d1lxtpp8g4g4um.cloudfront.net/marketing/og-image-home.png
+  fetched_on: "2026-08-25"
+signals:
+  pricing: https://www.avail.com/pricing
+  privacy: https://www.avail.com/privacy
+  site_languages: [en]
+  checked_on: "2026-08-25"
 sources: [{ url: https://www.avail.co, note: site éditeur }]
 verification: { status: unverified, checked_on: null, checked_by: null }
 updated: "2026-08-25"

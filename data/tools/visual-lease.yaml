@@ -44,6 +44,14 @@ product:
   languages: [en, fr]
 alternatives: [mri-software, yardi-voyager]
 reviews: []
+logo:
+  file: logos/visual-lease.png
+  source_url: https://visuallease.com/wp-content/uploads/2019/01/VL-ONLY-onWHT.png
+  fetched_on: "2026-08-25"
+signals:
+  privacy: https://www.costar.com/about/privacy-notice
+  site_languages: [en]
+  checked_on: "2026-08-25"
 sources: [{ url: https://visuallease.com, note: site éditeur }]
 verification: { status: unverified, checked_on: null, checked_by: null }
 updated: "2026-08-25"

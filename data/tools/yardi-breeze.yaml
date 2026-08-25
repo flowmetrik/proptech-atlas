@@ -45,6 +45,15 @@ product:
   languages: [en]
 alternatives: [appfolio, buildium, doorloop, yardi-voyager]
 reviews: []
+logo:
+  file: logos/yardi-breeze.png
+  source_url: https://www.yardibreeze.com/wp-content/themes/cmw-standard-theme-child-breeze/images/favicons/apple-touch-icon.png
+  fetched_on: "2026-08-25"
+signals:
+  pricing: https://www.yardibreeze.com/residential-features
+  privacy: https://resources.yardi.com/legal/privacy-statement
+  site_languages: [en]
+  checked_on: "2026-08-25"
 sources: [{ url: https://www.yardibreeze.com, note: site éditeur }]
 verification: { status: unverified, checked_on: null, checked_by: null }
 updated: "2026-08-25"

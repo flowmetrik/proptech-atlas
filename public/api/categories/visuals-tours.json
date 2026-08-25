@@ -86,6 +86,23 @@
         "cubicasa"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/boxbrownie.png",
+        "source_url": "https://www.boxbrownie.com/img/favicon/apple-touch-icon.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://www.boxbrownie.com/privacy",
+        "site_languages": [
+          "ca",
+          "en",
+          "es",
+          "fr",
+          "ja",
+          "pt"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.boxbrownie.com",
@@ -174,6 +191,18 @@
         "matterport"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/check-and-visit.png",
+        "source_url": "https://checkandvisit.com/hubfs/Website/logo/favicon-check-and-visit-2.svg",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://checkandvisit.com/mentions-legales",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.checkandvisit.com",
@@ -268,6 +297,18 @@
         "boxbrownie"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/cubicasa.png",
+        "source_url": "https://cubicasa-wordpress-uploads.s3.amazonaws.com/uploads/2026/06/cubicasa-share-image.jpg",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://www.cubi.casa/privacy-notice",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.cubi.casa",
@@ -373,6 +414,28 @@
         "boxbrownie"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/matterport.png",
+        "source_url": "https://images.ctfassets.net/icnj41gkyohw/1XJtpPGI0zKF5QBrmaiNLH/523c47127070e2a7423cece0d99e8594/favicon.svg",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "pricing": "https://matterport.com/plans",
+        "api_docs": "https://matterport.com/developers",
+        "security": "https://matterport.com/trust",
+        "privacy": "https://www.costar.com/about/privacy-notice",
+        "status": "https://status.matterport.com",
+        "site_languages": [
+          "de",
+          "en",
+          "es",
+          "fr",
+          "it",
+          "ja",
+          "ko"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://matterport.com",
@@ -468,6 +531,23 @@
         "boxbrownie"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/nodalview.png",
+        "source_url": "https://nodalview.com/apple-touch-icon.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://nodalview.com/privacy-policy",
+        "site_languages": [
+          "en",
+          "es",
+          "fr",
+          "it",
+          "nl",
+          "pt"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.nodalview.com",

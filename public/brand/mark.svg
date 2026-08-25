@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-label="PropTech Atlas">
+  <!-- Un toit posé sur deux lignes de données : le bâtiment est fait de lignes de
+       tableau, et la cellule jaune est l'entrée qu'on est venu chercher. La
+       silhouette tient à 16 px, où le trait fin d'une icône « maison » disparaît. -->
+  <path d="M24 4.5 43.5 21H4.5z" fill="currentColor"/>
+  <rect x="8" y="23.5" width="32" height="9" rx="2.5" fill="currentColor"/>
+  <rect x="8" y="35" width="20.5" height="9" rx="2.5" fill="currentColor"/>
+  <rect x="31.5" y="35" width="8.5" height="9" rx="2.5" fill="#F2B705"/>
+</svg>

@@ -76,6 +76,21 @@
     "measurabl"
   ],
   "reviews": [],
+  "logo": {
+    "file": "logos/advizeo.png",
+    "source_url": "https://www.advizeo.io/wp-content/uploads/2024/05/Fav-icon-advizeo-1-300x300.png",
+    "fetched_on": "2026-08-25"
+  },
+  "signals": {
+    "privacy": "https://www.advizeo.io/politique-de-confidentialite",
+    "site_languages": [
+      "de",
+      "en",
+      "fr",
+      "it"
+    ],
+    "checked_on": "2026-08-25"
+  },
   "sources": [
     {
       "url": "https://www.advizeo.io",

@@ -74,6 +74,19 @@
     "yardi-voyager"
   ],
   "reviews": [],
+  "logo": {
+    "file": "logos/juniper-square.png",
+    "source_url": "https://assets.junipersquare.com/images/_1200x630_crop_center-center_82_none/share.png?v=1779402326",
+    "fetched_on": "2026-08-25"
+  },
+  "signals": {
+    "privacy": "https://www.junipersquare.com/privacy-policy",
+    "status": "https://status.junipersquare.com",
+    "site_languages": [
+      "en"
+    ],
+    "checked_on": "2026-08-25"
+  },
   "sources": [
     {
       "url": "https://www.junipersquare.com",

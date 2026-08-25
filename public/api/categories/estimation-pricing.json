@@ -75,6 +75,19 @@
         "attom-data"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/clear-capital.png",
+        "source_url": "https://www.clearcapital.com/wp-content/uploads/2023/03/favico_100.webp",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "pricing": "https://www.clearcapital.com/pricing-home-first-check-distress-sales",
+        "privacy": "https://www.clearcapital.com/privacy-policy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.clearcapital.com",
@@ -157,6 +170,18 @@
         ]
       },
       "reviews": [],
+      "logo": {
+        "file": "logos/cloudcma.png",
+        "source_url": "https://d1l7ppudhv5a01.cloudfront.net/assets/apple-touch-icon-b364c5cecc8da24d606d39b11467f2bed1d13338c06b49d0cf3253b383ae514a.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "api_docs": "https://cloudcma.com/developers",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://cloudcma.com",
@@ -247,6 +272,20 @@
         "pricehubble"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/housecanary.png",
+        "source_url": "https://www.housecanary.com/apple-touch-icon.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "pricing": "https://www.housecanary.com/pricing",
+        "api_docs": "https://www.housecanary.com/resources/developer-tools",
+        "status": "https://status.housecanary.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.housecanary.com",
@@ -342,6 +381,11 @@
         "dvf"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/meilleursagents.png",
+        "source_url": "https://icons.duckduckgo.com/ip3/meilleursagents.com.ico",
+        "fetched_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.meilleursagents.com",
@@ -427,6 +471,18 @@
         "netty"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/pige-online.png",
+        "source_url": "https://www.pige-online.fr/favicon.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "pricing": "https://www.pige-online.fr/tarifs",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.pige-online.fr",
@@ -524,6 +580,23 @@
         "yanport"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/pricehubble.png",
+        "source_url": "https://framerusercontent.com/images/ZSlsZghJzi1fnqU9kpIh1z1g.svg",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "status": "https://status.pricehubble.com",
+        "site_languages": [
+          "cs",
+          "de",
+          "en",
+          "fr",
+          "ja",
+          "nl"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.pricehubble.com",
@@ -618,6 +691,25 @@
         "hostaway"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/pricelabs.png",
+        "source_url": "https://hello.pricelabs.co/favicon.ico?favicon.0yq22ljih_~gi.ico",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "pricing": "https://www.hello.pricelabs.co/plans",
+        "privacy": "https://www.hello.pricelabs.co/privacy-policy",
+        "site_languages": [
+          "de",
+          "en",
+          "es",
+          "fr",
+          "it",
+          "ja",
+          "pt"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://hello.pricelabs.co",
@@ -716,6 +808,17 @@
         "apartments-com"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/zillow.png",
+        "source_url": "https://www.zillow.com/apple-touch-icon.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.zillow.com",

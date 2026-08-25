@@ -55,6 +55,36 @@ import { url, counts, REPO } from '../lib/catalog';
       means a human opened the sources and dated the check.</p>
     </div>
 
+    <h2>Two levels of reliability, never mixed</h2>
+    <p>
+      A catalogue that presents everything with the same confidence is lying about the part it
+      guessed. This one separates them explicitly, and ships the distinction inside the JSON.
+    </p>
+    <table>
+      <thead><tr><th></th><th>Written</th><th>Machine-verified</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><strong>What</strong></td>
+          <td>Description, positioning, use in real estate, features, use cases</td>
+          <td>Public pricing page, API documentation, security page, privacy page, status page, site languages</td>
+        </tr>
+        <tr>
+          <td><strong>How</strong></td>
+          <td>Written from the vendor's public content, then reviewed by a human — or not yet</td>
+          <td>Fetched from the vendor's own site on a dated check, with the URL that establishes it</td>
+        </tr>
+        <tr>
+          <td><strong>Field</strong></td>
+          <td><span class="mono">verification.status</span></td>
+          <td><span class="mono">signals.checked_on</span></td>
+        </tr>
+      </tbody>
+    </table>
+    <p>
+      An absent signal means <em>not found on that date</em> — never <em>does not exist</em>.
+      The difference matters when a machine reads this.
+    </p>
+
     <h2>How it is built</h2>
     <p>
       One YAML file per product under <span class="mono">data/tools/</span>, a taxonomy in

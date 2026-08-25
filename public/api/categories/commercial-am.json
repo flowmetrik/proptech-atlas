@@ -85,6 +85,20 @@
         "mri-software"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/argus-enterprise.png",
+        "source_url": "https://www.altusgroup.com/favicon/Altus/apple-touch-icon.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "security": "https://www.altusgroup.com/trust-center",
+        "privacy": "https://www.altusgroup.com/legal/privacy-policy",
+        "site_languages": [
+          "en",
+          "fr"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.altusgroup.com/argus",
@@ -176,6 +190,15 @@
         "hektor"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/eudonet-immobilier.png",
+        "source_url": "https://www.eudonet.com/wp-content/uploads/2025/10/Favicon-square-1.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://www.eudonet.com/fr/politique-de-confidentalite",
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.eudonet.com",
@@ -275,6 +298,20 @@
         "visual-lease"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/mri-software.png",
+        "source_url": "https://cdn-fcdch.nitrocdn.com/cNYQZjhejOqxikuYkZcyUKwXfKCwKOuc/assets/images/optimized/rev-34ff8f8/www.mrisoftware.com/apple-touch-icon.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://www.mrisoftware.com/privacy-policy",
+        "status": "https://status.mrisoftware.com",
+        "site_languages": [
+          "ar",
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.mrisoftware.com",
@@ -363,6 +400,18 @@
         "yardi-voyager"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/visual-lease.png",
+        "source_url": "https://visuallease.com/wp-content/uploads/2019/01/VL-ONLY-onWHT.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://www.costar.com/about/privacy-notice",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://visuallease.com",
@@ -463,6 +512,11 @@
         "yardi-voyager"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/vts.png",
+        "source_url": "https://icons.duckduckgo.com/ip3/vts.com.ico",
+        "fetched_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.vts.com",
@@ -568,6 +622,11 @@
         "yardi-breeze"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/yardi-voyager.png",
+        "source_url": "https://icons.duckduckgo.com/ip3/yardi.com.ico",
+        "fetched_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.yardi.com",

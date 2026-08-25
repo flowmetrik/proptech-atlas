@@ -76,6 +76,21 @@
     "limble"
   ],
   "reviews": [],
+  "logo": {
+    "file": "logos/servicechannel.png",
+    "source_url": "https://servicechannel.com/wp-content/uploads/2024/01/favicon.ico",
+    "fetched_on": "2026-08-25"
+  },
+  "signals": {
+    "privacy": "https://servicechannel.com/privacy-policy",
+    "status": "https://status.servicechannel.com",
+    "site_languages": [
+      "en",
+      "fr",
+      "it"
+    ],
+    "checked_on": "2026-08-25"
+  },
   "sources": [
     {
       "url": "https://servicechannel.com",

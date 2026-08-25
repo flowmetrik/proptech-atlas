@@ -42,6 +42,14 @@ product:
   languages: [fr]
 alternatives: [yousign, crypto-septeo]
 reviews: []
+logo:
+  file: logos/modelo.png
+  source_url: https://www.modelo.fr/wp-content/uploads/2024/11/cropped-favicon-180x180.png
+  fetched_on: "2026-08-25"
+signals:
+  privacy: https://www.modelo.fr/politique-de-confidentialite
+  site_languages: [fr]
+  checked_on: "2026-08-25"
 sources: [{ url: https://www.modelo.fr, note: site éditeur }]
 verification: { status: unverified, checked_on: null, checked_by: null }
 updated: "2026-08-25"

@@ -74,6 +74,14 @@
     "pricehubble"
   ],
   "reviews": [],
+  "logo": {
+    "file": "logos/dvf.png",
+    "source_url": "https://app.dvf.etalab.gouv.fr/favicon.png",
+    "fetched_on": "2026-08-25"
+  },
+  "signals": {
+    "checked_on": "2026-08-25"
+  },
   "sources": [
     {
       "url": "https://app.dvf.etalab.gouv.fr",

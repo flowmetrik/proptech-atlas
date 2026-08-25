@@ -85,6 +85,11 @@
     "reonomy"
   ],
   "reviews": [],
+  "logo": {
+    "file": "logos/crexi.png",
+    "source_url": "https://icons.duckduckgo.com/ip3/crexi.com.ico",
+    "fetched_on": "2026-08-25"
+  },
   "sources": [
     {
       "url": "https://www.crexi.com",

@@ -45,6 +45,15 @@ product:
   languages: [en]
 alternatives: [costar, cityscan]
 reviews: []
+logo:
+  file: logos/placer-ai.png
+  source_url: https://cdn.prod.website-files.com/62d4feaf5d3ddb3f0f9c5515/62d50072cb5c4044fdaa789a_placer-webclip.png
+  fetched_on: "2026-08-25"
+signals:
+  privacy: https://www.placer.ai/privacy-policy
+  status: https://status.placer.ai
+  site_languages: [en]
+  checked_on: "2026-08-25"
 sources: [{ url: https://www.placer.ai, note: site éditeur }]
 verification: { status: unverified, checked_on: null, checked_by: null }
 updated: "2026-08-25"

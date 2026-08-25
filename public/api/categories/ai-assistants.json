@@ -96,6 +96,19 @@
         "yardi-breeze"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/appfolio.png",
+        "source_url": "https://www.appfolio.com/_nuxt/icons/icon_512x512.4826b9.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://www.appfolio.com/privacy",
+        "status": "https://status.appfolio.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.appfolio.com",
@@ -192,6 +205,17 @@
         "ylopo"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/eliseai.png",
+        "source_url": "https://cdn.prod.website-files.com/63cc1eef179b054a9306598d/6a8466b644f22d500416f5b7_favicon.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.eliseai.com",
@@ -288,6 +312,19 @@
         "appfolio"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/entrata.png",
+        "source_url": "https://cdn.prod.website-files.com/65eabd7598741e6a15fc75c2/660fd1776a5da038751bf803_favicon-1.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://legal.entrata.com/privacy-policy",
+        "status": "https://status.entrata.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.entrata.com",
@@ -385,6 +422,21 @@
         "boomtown"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/follow-up-boss.png",
+        "source_url": "https://cdn.prod.website-files.com/644fec6f9633da07ea1323cb/660c9d9611500e8ebcccde2d_favicon.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "pricing": "https://www.followupboss.com/pricing",
+        "api_docs": "https://docs.followupboss.com/reference/getting-started",
+        "security": "https://www.followupboss.com/security",
+        "privacy": "https://www.followupboss.com/legal-pages/privacy-notice",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.followupboss.com",
@@ -483,6 +535,19 @@
         "follow-up-boss"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/lofty.png",
+        "source_url": "https://cdn.lofty.com/image/fs/servicetool/2026722/6/original_d0a60f88f59a4b01.jpg",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "pricing": "https://lofty.com/price-packages",
+        "status": "https://status.lofty.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://lofty.com",
@@ -576,6 +641,19 @@
         "follow-up-boss"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/structurely.png",
+        "source_url": "https://www.google.com/s2/favicons?domain=structurely.com&sz=256",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "pricing": "https://www.structurely.com/pricing",
+        "privacy": "https://www.structurely.com/privacy-policy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.structurely.com",
@@ -669,6 +747,19 @@
         "boldtrail"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/ylopo.png",
+        "source_url": "https://www.ylopo.com/apple-icon.png?apple-icon.31myfjsa53t95.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "pricing": "https://www.ylopo.com/pricing",
+        "privacy": "https://www.ylopo.com/privacy-policy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.ylopo.com",

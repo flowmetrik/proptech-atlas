@@ -42,6 +42,15 @@ product:
   languages: [fr, en, es, it, de]
 alternatives: [hektor, netty, sweepbright, adapt-immo]
 reviews: []
+logo:
+  file: logos/apimo.png
+  source_url: https://cdn.prod.website-files.com/6707c573399d40b4c0e69c15/6900c4665db087beab86df8b_IMG_0309%20copie%202.JPG
+  fetched_on: "2026-08-25"
+signals:
+  api_docs: https://apimo.com/api
+  privacy: https://apimo.com/politique-de-confidentialite
+  site_languages: [de, en, fr, it, nl, pt]
+  checked_on: "2026-08-25"
 sources: [{ url: https://www.apimo.net, note: site éditeur }]
 verification: { status: unverified, checked_on: null, checked_by: null }
 updated: "2026-08-25"

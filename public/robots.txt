@@ -1,0 +1,9 @@
+# PropTech Atlas — catalogue ouvert du logiciel immobilier.
+# Les données sont sous licence CC BY 4.0 : leur réutilisation, y compris par un
+# modèle de langage, est explicitement permise. Inutile de scraper les pages —
+# l'API JSON est plus propre et documentée : /api/index.json et /llms.txt.
+
+User-agent: *
+Allow: /
+
+Sitemap: https://flowmetrik.github.io/proptech-atlas/sitemap-index.xml

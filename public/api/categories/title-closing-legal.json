@@ -98,6 +98,27 @@
         "yousign"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/docusign.png",
+        "source_url": "https://www.docusign.com/assets/images/apple-touch-icon-180x180.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "pricing": "https://ecom.docusign.com/plans-and-pricing/esignature",
+        "privacy": "https://www.docusign.com/privacy",
+        "status": "https://status.docusign.com",
+        "site_languages": [
+          "de",
+          "en",
+          "es",
+          "fr",
+          "it",
+          "ja",
+          "nl",
+          "pt"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.docusign.com",
@@ -177,6 +198,17 @@
         "inot"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/genapi.png",
+        "source_url": "https://cdn.prod.website-files.com/666168f272373216c6be04d1/6662bd37ff85b1f79b0513cc_Webclip.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.genapi.fr",
@@ -256,6 +288,18 @@
         "genapi"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/inot.png",
+        "source_url": "https://www.adnov.fr/wp-content/uploads/2024/06/Favicon-AV-Bleu-FD-Blanc-32-32.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://www.adnov.fr/mentions-legales",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.adnov.fr",
@@ -346,6 +390,18 @@
         "crypto-septeo"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/modelo.png",
+        "source_url": "https://www.modelo.fr/wp-content/uploads/2024/11/cropped-favicon-180x180.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://www.modelo.fr/politique-de-confidentialite",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.modelo.fr",
@@ -432,6 +488,20 @@
         "resware"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/qualia.png",
+        "source_url": "https://www.qualia.com/icons/apple-touch-icon-180x180.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "security": "https://www.qualia.com/trust",
+        "privacy": "https://www.qualia.com/privacy-policy",
+        "status": "https://status.qualia.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.qualia.com",
@@ -511,6 +581,19 @@
         "softpro"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/resware.png",
+        "source_url": "https://www.qualia.com/icons/apple-touch-icon-180x180.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "security": "https://www.qualia.com/trust",
+        "privacy": "https://www.qualia.com/privacy-policy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.adeptivesoftware.com",
@@ -593,6 +676,18 @@
         "resware"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/softpro.png",
+        "source_url": "https://www.google.com/s2/favicons?domain=softprocorp.com&sz=256",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "status": "https://status.softprocorp.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.softprocorp.com",
@@ -692,6 +787,23 @@
         "docusign"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/yousign.png",
+        "source_url": "https://youtrust.com/apple-touch-icon.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "security": "https://youtrust.com/security",
+        "privacy": "https://youtrust.com/privacy",
+        "site_languages": [
+          "de",
+          "en",
+          "es",
+          "fr",
+          "it"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://yousign.com",

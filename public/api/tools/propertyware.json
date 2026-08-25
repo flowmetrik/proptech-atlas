@@ -73,6 +73,20 @@
     "hemlane"
   ],
   "reviews": [],
+  "logo": {
+    "file": "logos/propertyware.png",
+    "source_url": "https://www.propertyware.com/apple-touch-icon.png",
+    "fetched_on": "2026-08-25"
+  },
+  "signals": {
+    "pricing": "https://www.propertyware.com/pricing",
+    "privacy": "https://www.propertyware.com/privacy-policy",
+    "status": "https://status.propertyware.com",
+    "site_languages": [
+      "en"
+    ],
+    "checked_on": "2026-08-25"
+  },
   "sources": [
     {
       "url": "https://www.propertyware.com",

@@ -81,6 +81,17 @@
     "ylopo"
   ],
   "reviews": [],
+  "logo": {
+    "file": "logos/eliseai.png",
+    "source_url": "https://cdn.prod.website-files.com/63cc1eef179b054a9306598d/6a8466b644f22d500416f5b7_favicon.png",
+    "fetched_on": "2026-08-25"
+  },
+  "signals": {
+    "site_languages": [
+      "en"
+    ],
+    "checked_on": "2026-08-25"
+  },
   "sources": [
     {
       "url": "https://www.eliseai.com",

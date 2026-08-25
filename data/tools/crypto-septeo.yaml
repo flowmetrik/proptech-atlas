@@ -42,6 +42,13 @@ product:
   languages: [fr]
 alternatives: [gercop, vilogi, lockimmo]
 reviews: []
+logo:
+  file: logos/crypto-septeo.png
+  source_url: https://cdn.prod.website-files.com/62f0eecf4db2ed8ccaf46cea/63a1bb651daf1432fd167afc_fav256x256.png
+  fetched_on: "2026-08-25"
+signals:
+  site_languages: [en, es, fr]
+  checked_on: "2026-08-25"
 sources: [{ url: https://www.septeo.com/fr/solutions-immobilier, note: site éditeur }]
 verification: { status: unverified, checked_on: null, checked_by: null }
 updated: "2026-08-25"

@@ -45,6 +45,15 @@ product:
   languages: [en]
 alternatives: [realgeeks, lofty, boldtrail, follow-up-boss]
 reviews: []
+logo:
+  file: logos/sierra-interactive.png
+  source_url: https://www.sierrainteractive.com/wp-content/themes/kps3-sii/resources/dist/assets/images/favicon/apple-touch-icon.png?ver=1.2.13
+  fetched_on: "2026-08-25"
+signals:
+  privacy: https://www.sierrainteractive.com/privacy-policy
+  status: https://status.sierrainteractive.com
+  site_languages: [en]
+  checked_on: "2026-08-25"
 sources:
   - url: https://www.sierrainteractive.com
     note: site éditeur

@@ -82,6 +82,18 @@
     "appfolio"
   ],
   "reviews": [],
+  "logo": {
+    "file": "logos/realpage.png",
+    "source_url": "https://s.realpage.com/apple-touch-icon.png",
+    "fetched_on": "2026-08-25"
+  },
+  "signals": {
+    "privacy": "https://www.realpage.com/legal/privacy-policy",
+    "site_languages": [
+      "en"
+    ],
+    "checked_on": "2026-08-25"
+  },
   "sources": [
     {
       "url": "https://www.realpage.com",

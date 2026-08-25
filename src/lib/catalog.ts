@@ -24,6 +24,11 @@ export interface Tool {
   integrations?: string[];
   ai?: { capabilities: string[] };
   product?: { api?: boolean; open_source?: boolean; mobile?: string[]; languages?: string[]; hosting?: string[] };
+  logo?: { file: string; source_url: string; fetched_on: string };
+  signals?: {
+    pricing?: string; api_docs?: string; security?: string; privacy?: string; status?: string;
+    site_languages?: string[]; checked_on: string;
+  };
   alternatives?: string[];
   reviews: { source: string; url: string; rating: number; scale: number; count: number; sampled_on: string }[];
   sources: { url: string; note?: string }[];
@@ -73,6 +78,38 @@ export const counts = {
 /** Initiales servant de logo de repli — aucun asset distant, aucune requête tierce. */
 export const initials = (name: string) =>
   name.replace(/[^A-Za-z0-9 ]/g, ' ').trim().split(/\s+/).slice(0, 2).map((w) => w[0]).join('').toUpperCase();
+
+/**
+ * Outils proches, calculés. À distinguer des `alternatives` déclarées dans la
+ * fiche : celles-ci sont un jugement humain, celles-là une proximité mesurée
+ * (même catégorie, mêmes métiers, mêmes classes d'actifs, même marché). Le site
+ * les présente séparément — confondre les deux serait présenter un calcul comme
+ * une opinion.
+ */
+const overlap = (a: string[] = [], b: string[] = []) => a.filter((x) => b.includes(x)).length;
+
+export function related(tool: Tool, limit = 6): Tool[] {
+  const declared = new Set(tool.alternatives ?? []);
+  return tools
+    .filter((t) => t.slug !== tool.slug && !declared.has(t.slug))
+    .map((t) => {
+      let score = 0;
+      if (t.category === tool.category) score += 6;
+      score += overlap(t.also_in, [tool.category, ...(tool.also_in ?? [])]) * 2;
+      score += overlap(t.personas, tool.personas) * 2;
+      score += overlap(t.segments, tool.segments);
+      score += overlap(t.markets, tool.markets) * 2;
+      score += overlap(t.company_sizes, tool.company_sizes);
+      return { t, score };
+    })
+    .filter((x) => x.score >= 10)
+    .sort((a, b) => b.score - a.score || a.t.name.localeCompare(b.t.name))
+    .slice(0, limit)
+    .map((x) => x.t);
+}
+
+export const toolsForPersona = (id: string) => tools.filter((t) => t.personas.includes(id));
+export const toolsInMarket = (id: string) => tools.filter((t) => t.markets.includes(id));
 
 /** Chemin absolu tenant compte du `base` GitHub Pages. */
 export const url = (path = '') => {

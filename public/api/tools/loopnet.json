@@ -72,6 +72,11 @@
     "costar"
   ],
   "reviews": [],
+  "logo": {
+    "file": "logos/loopnet.png",
+    "source_url": "https://www.google.com/s2/favicons?domain=loopnet.com&sz=256",
+    "fetched_on": "2026-08-25"
+  },
   "sources": [
     {
       "url": "https://www.loopnet.com",

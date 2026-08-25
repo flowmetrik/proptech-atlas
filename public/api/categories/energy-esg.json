@@ -84,6 +84,21 @@
         "measurabl"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/advizeo.png",
+        "source_url": "https://www.advizeo.io/wp-content/uploads/2024/05/Fav-icon-advizeo-1-300x300.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://www.advizeo.io/politique-de-confidentialite",
+        "site_languages": [
+          "de",
+          "en",
+          "fr",
+          "it"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.advizeo.io",
@@ -182,6 +197,18 @@
         "ubigreen"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/deepki.png",
+        "source_url": "https://www.deepki.com/ico/deepki-ico-180.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://www.deepki.com/privacy-policy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.deepki.com",
@@ -270,6 +297,17 @@
         "watchwire"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/energystar-portfolio-manager.png",
+        "source_url": "https://www.energystar.gov/themes/gesso/dist/images/favicons/apple-touch-icon.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.energystar.gov/buildings/benchmark",
@@ -362,6 +400,20 @@
         "energystar-portfolio-manager"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/measurabl.png",
+        "source_url": "https://www.measurabl.com/wp-content/uploads/2024/07/cropped-Linkedin-Logo-180x180.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "security": "https://www.measurabl.com/security",
+        "privacy": "https://www.measurabl.com/privacy-policy",
+        "site_languages": [
+          "de",
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.measurabl.com",
@@ -451,6 +503,20 @@
         "witco"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/spinalcom.png",
+        "source_url": "https://www.spinalcom.com/wp-content/themes/mkd-spinalcom/img/icons/touch.png?v3=1",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://www.spinalcom.com/mentions-legales",
+        "status": "https://www.spinalcom.com",
+        "site_languages": [
+          "en",
+          "fr"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.spinalcom.com",
@@ -539,6 +605,19 @@
         "witco"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/ubigreen.png",
+        "source_url": "https://www.ubigreen.com/wp-content/uploads/2023/01/cropped-MicrosoftTeams-image-2-300x300.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://www.ubigreen.com/mentions-legales",
+        "site_languages": [
+          "en",
+          "fr"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.ubigreen.com",
@@ -621,6 +700,18 @@
         "energystar-portfolio-manager"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/watchwire.png",
+        "source_url": "https://tangoanalytics.com/nitropack_static/iNzuwWcbYJCTdrdLeNzXZMXupTezbkbH/assets/images/optimized/rev-2c3dff3/tangoanalytics.com/wp-content/uploads/favicon/apple-touch-icon.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://tangoanalytics.com/privacy-policy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://watchwire.ai",
@@ -712,6 +803,20 @@
         "advizeo"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/wattsense.png",
+        "source_url": "https://www.wattsense.com/apple-touch-icon.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "status": "https://status.wattsense.com",
+        "site_languages": [
+          "de",
+          "en",
+          "fr"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.wattsense.com",

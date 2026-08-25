@@ -70,6 +70,19 @@
     "tenantcloud"
   ],
   "reviews": [],
+  "logo": {
+    "file": "logos/rentredi.png",
+    "source_url": "https://framerusercontent.com/images/6qHx34d9YCK4IhpD6IbsCSZhOyM.png",
+    "fetched_on": "2026-08-25"
+  },
+  "signals": {
+    "pricing": "https://rentredi.com/pricing",
+    "privacy": "https://rentredi.com/privacyPolicy",
+    "site_languages": [
+      "en"
+    ],
+    "checked_on": "2026-08-25"
+  },
   "sources": [
     {
       "url": "https://rentredi.com",

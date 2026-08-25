@@ -68,6 +68,19 @@
     "rentspree"
   ],
   "reviews": [],
+  "logo": {
+    "file": "logos/dossierfacile.png",
+    "source_url": "https://www.dossierfacile.logement.gouv.fr/favicon.svg",
+    "fetched_on": "2026-08-25"
+  },
+  "signals": {
+    "privacy": "https://www.dossierfacile.logement.gouv.fr/privacy",
+    "site_languages": [
+      "en",
+      "fr"
+    ],
+    "checked_on": "2026-08-25"
+  },
   "sources": [
     {
       "url": "https://www.dossierfacile.logement.gouv.fr",

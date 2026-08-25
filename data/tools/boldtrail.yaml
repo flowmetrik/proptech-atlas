@@ -46,6 +46,15 @@ product:
   languages: [en]
 alternatives: [lofty, sierra-interactive, boomtown, follow-up-boss]
 reviews: []
+logo:
+  file: logos/boldtrail.png
+  source_url: https://insiderealestate.com/wp-content/uploads/2025/01/2024-Q3-IRE-Favicon-512x512-1-300x300.png
+  fetched_on: "2026-08-25"
+signals:
+  privacy: https://insiderealestate.com/privacy-policy
+  status: https://status.insiderealestate.com
+  site_languages: [en]
+  checked_on: "2026-08-25"
 sources:
   - url: https://insiderealestate.com
     note: site éditeur

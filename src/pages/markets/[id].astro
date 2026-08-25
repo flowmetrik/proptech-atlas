@@ -1,0 +1,51 @@
+---
+import Base from '../../layouts/Base.astro';
+import ToolCard from '../../components/ToolCard.astro';
+import { taxonomy, toolsInMarket, url, label } from '../../lib/catalog';
+
+export function getStaticPaths() {
+  return taxonomy.markets.map((m) => ({ params: { id: m.id }, props: { market: m } }));
+}
+const { market } = Astro.props;
+const list = toolsInMarket(market.id);
+const other = market.id === 'US' ? 'FR' : 'US';
+const bothCount = list.filter((t) => t.markets.includes(other)).length;
+const localCount = list.length - bothCount;
+
+const cats = taxonomy.categories
+  .map((c) => ({ ...c, tools: list.filter((t) => t.category === c.id || (t.also_in ?? []).includes(c.id)) }))
+  .filter((c) => c.tools.length)
+  .sort((a, b) => b.tools.length - a.tools.length);
+
+const title = `Real estate software in ${market.label_en}`;
+const description = `${list.length} software products, portals and data providers used by real estate professionals in ${market.label_en}, organised by the job they do.`;
+---
+<Base title={title} description={description}>
+  <section class="wrap section">
+    <p class="eyebrow">By market</p>
+    <h1>{market.flag} {title}</h1>
+    <p class="lede">
+      {list.length} products serve {market.label_en}. {localCount} of them are available
+      <strong>only</strong> there — which is the point: real estate software follows local law,
+      and a tool built for the other market usually cannot do the job at all.
+    </p>
+    <div class="stat-row" style="margin-top:26px">
+      <div class="stat"><span class="n">{list.length}</span><span class="l">products</span></div>
+      <div class="stat"><span class="n">{localCount}</span><span class="l">only in {market.label_en}</span></div>
+      <div class="stat"><span class="n">{bothCount}</span><span class="l">also in {label('market', other)}</span></div>
+      <div class="stat"><span class="n">{cats.length}</span><span class="l">categories covered</span></div>
+    </div>
+    <p style="margin-top:24px">
+      <a class="btn btn-ghost btn-sm" href={url(`explore?market=${market.id}`)}>Filter these in the explorer →</a>
+    </p>
+
+    {cats.map((c) => (
+      <>
+        <hr class="rule" />
+        <h2 id={c.id}>{c.label_en}</h2>
+        <p class="muted" style="max-width:62ch">{c.summary_en}</p>
+        <div class="grid grid-3" style="margin-top:18px">{c.tools.map((t) => <ToolCard tool={t} />)}</div>
+      </>
+    ))}
+  </section>
+</Base>

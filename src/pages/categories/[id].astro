@@ -10,6 +10,15 @@ const { cat } = Astro.props;
 const list = toolsInCategory(cat.id);
 const us = list.filter((t) => t.markets.includes('US'));
 const fr = list.filter((t) => t.markets.includes('FR'));
+const origin = (Astro.site?.href ?? 'https://flowmetrik.github.io/').replace(/\/$/, '');
+const crumbs = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Categories', item: `${origin}${url('categories')}` },
+    { '@type': 'ListItem', position: 2, name: cat.label_en, item: `${origin}${url(`categories/${cat.id}`)}` },
+  ],
+};
 const jsonld = {
   '@context': 'https://schema.org',
   '@type': 'ItemList',
@@ -19,7 +28,7 @@ const jsonld = {
   itemListElement: list.map((t, i) => ({ '@type': 'ListItem', position: i + 1, name: t.name, url: t.website })),
 };
 ---
-<Base title={cat.label_en} description={`${cat.summary_en} ${list.length} products documented in the United States and France.`} jsonld={jsonld}>
+<Base title={cat.label_en} description={`${cat.summary_en} ${list.length} products documented in the United States and France.`} jsonld={[jsonld, crumbs]}>
   <section class="wrap section">
     <p class="mono muted"><a href={url('categories')}>Categories</a> › {cat.label_en}</p>
     <h1>{cat.label_en}</h1>

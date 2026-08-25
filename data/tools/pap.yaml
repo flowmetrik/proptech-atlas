@@ -43,6 +43,10 @@ product:
   languages: [fr]
 alternatives: [leboncoin-immobilier, seloger, bien-ici]
 reviews: []
+logo:
+  file: logos/pap.png
+  source_url: https://icons.duckduckgo.com/ip3/pap.fr.ico
+  fetched_on: "2026-08-25"
 sources: [{ url: https://www.pap.fr, note: site éditeur }]
 verification: { status: unverified, checked_on: null, checked_by: null }
 updated: "2026-08-25"

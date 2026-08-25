@@ -68,6 +68,18 @@
     "gercop"
   ],
   "reviews": [],
+  "logo": {
+    "file": "logos/syment.png",
+    "source_url": "https://www.syment.com/apple-touch-icon.png",
+    "fetched_on": "2026-08-25"
+  },
+  "signals": {
+    "privacy": "https://www.syment.com/politique-de-confidentialite",
+    "site_languages": [
+      "fr"
+    ],
+    "checked_on": "2026-08-25"
+  },
   "sources": [
     {
       "url": "https://www.syment.fr",

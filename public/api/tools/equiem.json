@@ -70,6 +70,18 @@
     "hqo"
   ],
   "reviews": [],
+  "logo": {
+    "file": "logos/equiem.png",
+    "source_url": "https://getequiem.com/hubfs/eqm01/equiem-favicon.svg",
+    "fetched_on": "2026-08-25"
+  },
+  "signals": {
+    "status": "https://status.getequiem.com",
+    "site_languages": [
+      "en"
+    ],
+    "checked_on": "2026-08-25"
+  },
   "sources": [
     {
       "url": "https://getequiem.com",

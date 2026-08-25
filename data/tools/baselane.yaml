@@ -43,6 +43,16 @@ product:
   languages: [en]
 alternatives: [stessa]
 reviews: []
+logo:
+  file: logos/baselane.png
+  source_url: https://cdn.prod.website-files.com/682db4934265432d4c302617/69af2d9bfbdb9155bc833cfe_Baselane%20Icon%20-%20256x256%20-%20Dark.svg
+  fetched_on: "2026-08-25"
+signals:
+  pricing: https://www.baselane.com/pricing
+  security: https://www.baselane.com/security
+  privacy: https://www.baselane.com/legal/general-agreements/privacy-policy
+  site_languages: [en]
+  checked_on: "2026-08-25"
 sources: [{ url: https://www.baselane.com, note: site éditeur }]
 verification: { status: unverified, checked_on: null, checked_by: null }
 updated: "2026-08-25"

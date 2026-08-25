@@ -85,6 +85,11 @@
         "rentspree"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/apartments-com.png",
+        "source_url": "https://icons.duckduckgo.com/ip3/apartments.com.ico",
+        "fetched_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.apartments.com",
@@ -173,6 +178,17 @@
         "pap"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/bien-ici.png",
+        "source_url": "https://res.bienici.com/cacheForever/f19bfd7564e5f67ef0bbaf56b4b42246af75999c/images/favicon/touch-icon.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.bienici.com",
@@ -273,6 +289,11 @@
         "reonomy"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/crexi.png",
+        "source_url": "https://icons.duckduckgo.com/ip3/crexi.com.ico",
+        "fetched_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.crexi.com",
@@ -358,6 +379,11 @@
         "costar"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/homes-com.png",
+        "source_url": "https://icons.duckduckgo.com/ip3/homes.com.ico",
+        "fetched_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.homes.com",
@@ -446,6 +472,11 @@
         "pap"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/leboncoin-immobilier.png",
+        "source_url": "https://icons.duckduckgo.com/ip3/leboncoin.fr.ico",
+        "fetched_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.leboncoin.fr/immobilier",
@@ -533,6 +564,11 @@
         "costar"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/loopnet.png",
+        "source_url": "https://www.google.com/s2/favicons?domain=loopnet.com&sz=256",
+        "fetched_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.loopnet.com",
@@ -614,6 +650,11 @@
         "bien-ici"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/pap.png",
+        "source_url": "https://icons.duckduckgo.com/ip3/pap.fr.ico",
+        "fetched_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.pap.fr",
@@ -702,6 +743,11 @@
         "apartments-com"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/realtor-com.png",
+        "source_url": "https://icons.duckduckgo.com/ip3/realtor.com.ico",
+        "fetched_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.realtor.com",
@@ -795,6 +841,11 @@
         "pap"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/seloger.png",
+        "source_url": "https://icons.duckduckgo.com/ip3/seloger.com.ico",
+        "fetched_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.seloger.com",
@@ -893,6 +944,17 @@
         "apartments-com"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/zillow.png",
+        "source_url": "https://www.zillow.com/apple-touch-icon.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.zillow.com",
@@ -975,6 +1037,18 @@
         "avail"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/zumper.png",
+        "source_url": "https://www.zumper.com/favicon.ico",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://www.zumper.com/privacy-policy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.zumper.com",

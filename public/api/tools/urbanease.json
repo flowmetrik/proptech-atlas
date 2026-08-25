@@ -73,6 +73,9 @@
     "cityscan"
   ],
   "reviews": [],
+  "signals": {
+    "checked_on": "2026-08-25"
+  },
   "sources": [
     {
       "url": "https://www.urbanease.com",

@@ -90,6 +90,27 @@
     "yousign"
   ],
   "reviews": [],
+  "logo": {
+    "file": "logos/docusign.png",
+    "source_url": "https://www.docusign.com/assets/images/apple-touch-icon-180x180.png",
+    "fetched_on": "2026-08-25"
+  },
+  "signals": {
+    "pricing": "https://ecom.docusign.com/plans-and-pricing/esignature",
+    "privacy": "https://www.docusign.com/privacy",
+    "status": "https://status.docusign.com",
+    "site_languages": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "it",
+      "ja",
+      "nl",
+      "pt"
+    ],
+    "checked_on": "2026-08-25"
+  },
   "sources": [
     {
       "url": "https://www.docusign.com",

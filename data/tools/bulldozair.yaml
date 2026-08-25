@@ -41,6 +41,14 @@ product:
   languages: [fr, en]
 alternatives: [kairnial, finalcad, immopad]
 reviews: []
+logo:
+  file: logos/bulldozair.png
+  source_url: https://www.bulldozair.com/wp-content/uploads/2024/07/favicon.png
+  fetched_on: "2026-08-25"
+signals:
+  privacy: https://www.bulldozair.com/privacy
+  site_languages: [en, es, fr]
+  checked_on: "2026-08-25"
 sources: [{ url: https://www.bulldozair.com, note: site éditeur }]
 verification: { status: unverified, checked_on: null, checked_by: null }
 updated: "2026-08-25"

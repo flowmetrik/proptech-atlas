@@ -73,6 +73,20 @@
     "costar"
   ],
   "reviews": [],
+  "logo": {
+    "file": "logos/cherre.png",
+    "source_url": "https://cherre.com/web-assets/img/favicon.png",
+    "fetched_on": "2026-08-25"
+  },
+  "signals": {
+    "security": "https://cherre.com/security",
+    "privacy": "https://cherre.com/policies",
+    "status": "https://status.cherre.com",
+    "site_languages": [
+      "en"
+    ],
+    "checked_on": "2026-08-25"
+  },
   "sources": [
     {
       "url": "https://cherre.com",

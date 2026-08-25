@@ -77,6 +77,15 @@
     "netty"
   ],
   "reviews": [],
+  "logo": {
+    "file": "logos/sweepbright.png",
+    "source_url": "https://cdn.prod.website-files.com/641824c7d039698039a4084d/64957175935b7fb6aa7b3866_Website_logo_256.png",
+    "fetched_on": "2026-08-25"
+  },
+  "signals": {
+    "privacy": "https://www.sweepbright.com/politique-de-confidentialite",
+    "checked_on": "2026-08-25"
+  },
   "sources": [
     {
       "url": "https://www.sweepbright.com",

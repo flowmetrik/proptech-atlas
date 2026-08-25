@@ -72,6 +72,15 @@
     "brokermint"
   ],
   "reviews": [],
+  "logo": {
+    "file": "logos/dotloop.png",
+    "source_url": "https://www.dotloop.com/my/static/images/apple-touch-icons/touch-icon-ipad-retina.png",
+    "fetched_on": "2026-08-25"
+  },
+  "signals": {
+    "privacy": "https://zillow-workspace.com/privacy",
+    "checked_on": "2026-08-25"
+  },
   "sources": [
     {
       "url": "https://www.dotloop.com",

@@ -70,6 +70,11 @@
     "corrigo"
   ],
   "reviews": [],
+  "logo": {
+    "file": "logos/twimm.png",
+    "source_url": "https://icons.duckduckgo.com/ip3/twimm.fr.ico",
+    "fetched_on": "2026-08-25"
+  },
   "sources": [
     {
       "url": "https://www.twimm.fr",

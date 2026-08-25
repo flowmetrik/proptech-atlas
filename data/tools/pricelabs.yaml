@@ -46,6 +46,15 @@ product:
   languages: [en]
 alternatives: [guesty, hostaway]
 reviews: []
+logo:
+  file: logos/pricelabs.png
+  source_url: https://hello.pricelabs.co/favicon.ico?favicon.0yq22ljih_~gi.ico
+  fetched_on: "2026-08-25"
+signals:
+  pricing: https://www.hello.pricelabs.co/plans
+  privacy: https://www.hello.pricelabs.co/privacy-policy
+  site_languages: [de, en, es, fr, it, ja, pt]
+  checked_on: "2026-08-25"
 sources: [{ url: https://hello.pricelabs.co, note: site éditeur }]
 verification: { status: unverified, checked_on: null, checked_by: null }
 updated: "2026-08-25"

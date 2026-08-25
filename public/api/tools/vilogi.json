@@ -73,6 +73,14 @@
     "lockimmo"
   ],
   "reviews": [],
+  "logo": {
+    "file": "logos/vilogi.png",
+    "source_url": "https://www.vilogi.com/images/copropriete.ico",
+    "fetched_on": "2026-08-25"
+  },
+  "signals": {
+    "checked_on": "2026-08-25"
+  },
   "sources": [
     {
       "url": "https://www.vilogi.com",

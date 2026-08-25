@@ -70,6 +70,20 @@
     "vertuoza"
   ],
   "reviews": [],
+  "logo": {
+    "file": "logos/batappli.png",
+    "source_url": "https://cdn.prod.website-files.com/66e05560482220115c09066e/67093820c08a883217cd7510_favicon-batappli-rond256.png",
+    "fetched_on": "2026-08-25"
+  },
+  "signals": {
+    "pricing": "https://www.batappli.fr/tarifs",
+    "privacy": "https://www.batappli.fr/rgpd",
+    "status": "https://status.batappli.fr",
+    "site_languages": [
+      "fr"
+    ],
+    "checked_on": "2026-08-25"
+  },
   "sources": [
     {
       "url": "https://www.batappli.fr",

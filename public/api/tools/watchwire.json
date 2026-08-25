@@ -67,6 +67,18 @@
     "energystar-portfolio-manager"
   ],
   "reviews": [],
+  "logo": {
+    "file": "logos/watchwire.png",
+    "source_url": "https://tangoanalytics.com/nitropack_static/iNzuwWcbYJCTdrdLeNzXZMXupTezbkbH/assets/images/optimized/rev-2c3dff3/tangoanalytics.com/wp-content/uploads/favicon/apple-touch-icon.png",
+    "fetched_on": "2026-08-25"
+  },
+  "signals": {
+    "privacy": "https://tangoanalytics.com/privacy-policy",
+    "site_languages": [
+      "en"
+    ],
+    "checked_on": "2026-08-25"
+  },
   "sources": [
     {
       "url": "https://watchwire.ai",

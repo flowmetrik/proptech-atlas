@@ -42,6 +42,15 @@ product:
   languages: [en]
 alternatives: [housecanary, attom-data]
 reviews: []
+logo:
+  file: logos/clear-capital.png
+  source_url: https://www.clearcapital.com/wp-content/uploads/2023/03/favico_100.webp
+  fetched_on: "2026-08-25"
+signals:
+  pricing: https://www.clearcapital.com/pricing-home-first-check-distress-sales
+  privacy: https://www.clearcapital.com/privacy-policy
+  site_languages: [en]
+  checked_on: "2026-08-25"
 sources: [{ url: https://www.clearcapital.com, note: site éditeur }]
 verification: { status: unverified, checked_on: null, checked_by: null }
 updated: "2026-08-25"

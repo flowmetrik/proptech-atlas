@@ -43,6 +43,8 @@ product:
   languages: [fr]
 alternatives: [kelfoncier, cityscan]
 reviews: []
+signals:
+  checked_on: "2026-08-25"
 sources: [{ url: https://www.urbanease.com, note: site éditeur }]
 verification: { status: unverified, checked_on: null, checked_by: null }
 updated: "2026-08-25"

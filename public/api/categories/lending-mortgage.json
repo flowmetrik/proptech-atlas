@@ -74,6 +74,19 @@
         "floify"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/blend.png",
+        "source_url": "https://blend.com/wp-content/themes/blend/img/favicon/apple-touch-icon.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://blend.com/policies/privacy-policy",
+        "status": "https://status.blend.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://blend.com",
@@ -164,6 +177,19 @@
         "floify"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/encompass.png",
+        "source_url": "https://www.ice.com/publicdocs/mortgage/icemt-og-image.jpg",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://www.ice.com/privacy-security-center",
+        "status": "https://www.ice.com/status",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.icemortgagetechnology.com",
@@ -249,6 +275,18 @@
         "encompass"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/floify.png",
+        "source_url": "https://i0.wp.com/floify.com/wp-content/uploads/2021/01/cropped-Floify-logomark-blue-72dpi.png?fit=180%2C180&#038;ssl=1",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "status": "https://status.floify.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://floify.com",

@@ -44,6 +44,15 @@ product:
   languages: [en]
 alternatives: [innago, avail, rentredi, tenantcloud]
 reviews: []
+logo:
+  file: logos/turbotenant.png
+  source_url: https://www.turbotenant.com/nitropack_static/DnewKXQeUpEmvDhTCIHXdznjCdZBTuQP/assets/images/optimized/rev-35361a0/www.turbotenant.com/wp-content/uploads/2023/05/cropped-Favicon-1-180x180.png
+  fetched_on: "2026-08-25"
+signals:
+  security: https://www.turbotenant.com/security
+  privacy: https://www.turbotenant.com/privacy-policy
+  site_languages: [en]
+  checked_on: "2026-08-25"
 sources: [{ url: https://www.turbotenant.com, note: site éditeur }]
 verification: { status: unverified, checked_on: null, checked_by: null }
 updated: "2026-08-25"

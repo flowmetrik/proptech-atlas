@@ -76,6 +76,19 @@
     "corrigo"
   ],
   "reviews": [],
+  "logo": {
+    "file": "logos/limble.png",
+    "source_url": "https://cdn.prod.website-files.com/695d658507ace930b906b9eb/695d65c78316216412d70e58_256x256.png",
+    "fetched_on": "2026-08-25"
+  },
+  "signals": {
+    "privacy": "https://limble.com/privacy",
+    "status": "https://status.limblecmms.com",
+    "site_languages": [
+      "en"
+    ],
+    "checked_on": "2026-08-25"
+  },
   "sources": [
     {
       "url": "https://limblecmms.com",

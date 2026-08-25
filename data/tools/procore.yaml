@@ -46,6 +46,15 @@ product:
   languages: [en, fr, es, de]
 alternatives: [autodesk-construction-cloud, buildertrend, northspyre]
 reviews: []
+logo:
+  file: logos/procore.png
+  source_url: https://www.procore.com/images/apple-touch-icon-180x180.png
+  fetched_on: "2026-08-25"
+signals:
+  security: https://www.procore.com/en/trust-and-security/security
+  status: https://status.procore.com
+  site_languages: [de, en, es, fr]
+  checked_on: "2026-08-25"
 sources: [{ url: https://www.procore.com, note: site éditeur }]
 verification: { status: unverified, checked_on: null, checked_by: null }
 updated: "2026-08-25"

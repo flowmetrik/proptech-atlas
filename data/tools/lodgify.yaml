@@ -44,6 +44,10 @@ product:
   languages: [en, fr, es, de, it]
 alternatives: [smily, amenitiz, hostaway, ownerrez]
 reviews: []
+logo:
+  file: logos/lodgify.png
+  source_url: https://www.google.com/s2/favicons?domain=lodgify.com&sz=256
+  fetched_on: "2026-08-25"
 sources: [{ url: https://www.lodgify.com, note: site éditeur }]
 verification: { status: unverified, checked_on: null, checked_by: null }
 updated: "2026-08-25"

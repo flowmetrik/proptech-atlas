@@ -44,6 +44,10 @@ product:
   languages: [fr]
 alternatives: [netty, apimo, adapt-immo, lockimmo]
 reviews: []
+logo:
+  file: logos/hektor.png
+  source_url: https://icons.duckduckgo.com/ip3/laboiteimmo.com.ico
+  fetched_on: "2026-08-25"
 sources: [{ url: https://www.laboiteimmo.com, note: site éditeur }]
 verification: { status: unverified, checked_on: null, checked_by: null }
 updated: "2026-08-25"

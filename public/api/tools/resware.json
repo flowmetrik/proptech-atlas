@@ -64,6 +64,19 @@
     "softpro"
   ],
   "reviews": [],
+  "logo": {
+    "file": "logos/resware.png",
+    "source_url": "https://www.qualia.com/icons/apple-touch-icon-180x180.png",
+    "fetched_on": "2026-08-25"
+  },
+  "signals": {
+    "security": "https://www.qualia.com/trust",
+    "privacy": "https://www.qualia.com/privacy-policy",
+    "site_languages": [
+      "en"
+    ],
+    "checked_on": "2026-08-25"
+  },
   "sources": [
     {
       "url": "https://www.adeptivesoftware.com",

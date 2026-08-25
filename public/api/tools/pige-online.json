@@ -70,6 +70,18 @@
     "netty"
   ],
   "reviews": [],
+  "logo": {
+    "file": "logos/pige-online.png",
+    "source_url": "https://www.pige-online.fr/favicon.png",
+    "fetched_on": "2026-08-25"
+  },
+  "signals": {
+    "pricing": "https://www.pige-online.fr/tarifs",
+    "site_languages": [
+      "fr"
+    ],
+    "checked_on": "2026-08-25"
+  },
   "sources": [
     {
       "url": "https://www.pige-online.fr",

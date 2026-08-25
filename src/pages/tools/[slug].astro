@@ -1,13 +1,14 @@
 ---
 import Base from '../../layouts/Base.astro';
 import ToolCard from '../../components/ToolCard.astro';
-import { tools, bySlug, byId, label, url, initials, REPO } from '../../lib/catalog';
+import { tools, bySlug, byId, label, url, initials, related, REPO } from '../../lib/catalog';
 
 export function getStaticPaths() {
   return tools.map((tool) => ({ params: { slug: tool.slug }, props: { tool } }));
 }
 const { tool } = Astro.props;
 const alts = (tool.alternatives ?? []).map((s) => bySlug[s]).filter(Boolean);
+const near = [...alts, ...related(tool, 8)];
 const verif = tool.verification?.status ?? 'unverified';
 const verifText: Record<string, string> = {
   unverified: 'Written from public knowledge of the market, not yet re-checked against the vendor’s own sources.',
@@ -16,6 +17,19 @@ const verifText: Record<string, string> = {
   disputed: 'Contested by the vendor or a contributor. Arbitration in progress.',
 };
 
+const origin = (Astro.site?.href ?? 'https://flowmetrik.github.io/').replace(/\/$/, '');
+const abs = (p: string) => `${origin}${url(p)}`;
+// Le fil d'Ariane structuré : ce qui fait qu'un moteur affiche la hiérarchie
+// sous le titre plutôt qu'une URL nue.
+const crumbs = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Explore', item: abs('explore') },
+    { '@type': 'ListItem', position: 2, name: label('category', tool.category), item: abs(`categories/${tool.category}`) },
+    { '@type': 'ListItem', position: 3, name: tool.name, item: abs(`tools/${tool.slug}`) },
+  ],
+};
 const jsonld = {
   '@context': 'https://schema.org',
   '@type': 'SoftwareApplication',
@@ -26,10 +40,11 @@ const jsonld = {
   author: { '@type': 'Organization', name: tool.editor },
   offers: { '@type': 'Offer', category: label('pricing', tool.pricing.model) },
   featureList: tool.features,
+  ...(tool.logo ? { image: new URL(url(tool.logo.file), Astro.site ?? 'https://flowmetrik.github.io').href } : {}),
   ...(tool.founded ? { datePublished: String(tool.founded) } : {}),
 };
 ---
-<Base title={tool.name} description={tool.positioning} jsonld={jsonld}>
+<Base title={tool.name} description={tool.positioning} jsonld={[jsonld, crumbs]} ogImage={`og/${tool.slug}.png`}>
   <article class="wrap" style="padding:40px 24px 0">
     <p class="mono muted" style="margin-bottom:18px">
       <a href={url('explore')}>Explore</a> ›
@@ -38,7 +53,10 @@ const jsonld = {
     </p>
 
     <header style="display:flex;gap:18px;align-items:flex-start;flex-wrap:wrap">
-      <span class="tool-logo" style="width:56px;height:56px;font-size:1.25rem" aria-hidden="true">{initials(tool.name)}</span>
+      {tool.logo
+        ? <img class="tool-logo" style="width:56px;height:56px" src={url(tool.logo.file)}
+               alt={`${tool.name} logo`} width="56" height="56" decoding="async" />
+        : <span class="tool-logo" style="width:56px;height:56px;font-size:1.25rem" aria-hidden="true">{initials(tool.name)}</span>}
       <div style="flex:1;min-width:260px">
         <h1 style="font-size:clamp(1.75rem,4vw,2.5rem);margin-bottom:6px">{tool.name}</h1>
         <p class="muted" style="margin:0">
@@ -121,6 +139,12 @@ const jsonld = {
 
         <h2>Sources</h2>
         <ul>
+          {tool.logo && (
+            <li>
+              <a href={tool.logo.source_url} rel="noopener nofollow">{tool.logo.source_url}</a>
+              <span class="muted"> — logo, relevé le {tool.logo.fetched_on}</span>
+            </li>
+          )}
           {tool.sources.map((s) => (
             <li><a href={s.url} rel="noopener nofollow">{s.url}</a>{s.note && <span class="muted"> — {s.note}</span>}</li>
           ))}
@@ -142,6 +166,39 @@ const jsonld = {
           </dl>
         </div>
 
+        {tool.signals && (
+          <div class="card" style="padding:20px">
+            <h3 style="margin-top:0">Verified signals</h3>
+            <p class="muted" style="font-size:0.8125rem;margin:0 0 12px">
+              Checked directly on the vendor's site on {tool.signals.checked_on}. Unlike the prose
+              above, these are machine-verified. An absent signal means <em>not found on that
+              date</em> — not that it does not exist.
+            </p>
+            <ul style="list-style:none;padding:0;margin:0;display:grid;gap:9px;font-size:0.875rem">
+              {[
+                ['Public pricing', tool.signals.pricing],
+                ['API documentation', tool.signals.api_docs],
+                ['Security page', tool.signals.security],
+                ['Privacy / GDPR', tool.signals.privacy],
+                ['Status page', tool.signals.status],
+              ].map(([k, v]) => (
+                <li style="display:flex;gap:8px;align-items:baseline">
+                  <span aria-hidden="true" style={`color:${v ? 'var(--accent-ink)' : 'var(--muted)'}`}>{v ? '●' : '○'}</span>
+                  <span style="flex:1">{k}</span>
+                  {v ? <a href={v} rel="noopener nofollow">open</a> : <span class="muted">not found</span>}
+                </li>
+              ))}
+              {tool.signals.site_languages?.length && (
+                <li style="display:flex;gap:8px;align-items:baseline;border-top:1px solid var(--border);padding-top:9px;margin-top:2px">
+                  <span aria-hidden="true" style="color:var(--accent-ink)">●</span>
+                  <span style="flex:1">Site languages</span>
+                  <span class="mono">{tool.signals.site_languages.join(' ')}</span>
+                </li>
+              )}
+            </ul>
+          </div>
+        )}
+
         <div class="card" style="padding:20px">
           <h3 style="margin-top:0">Data quality</h3>
           <p style="font-size:0.875rem;margin:0 0 10px">
@@ -162,11 +219,21 @@ const jsonld = {
       </aside>
     </div>
 
-    {alts.length > 0 && (
+    {near.length > 0 && (
       <section style="margin-top:56px">
         <hr class="rule" />
-        <h2>Alternatives</h2>
-        <div class="grid grid-3" style="margin-top:20px">{alts.map((t) => <ToolCard tool={t} />)}</div>
+        <h2>{alts.length ? 'Alternatives and close matches' : 'Close matches'}</h2>
+        <p class="muted" style="max-width:64ch">
+          {alts.length > 0 && <>The first {alts.length} are named in this fiche. </>}
+          The rest are products the catalogue finds close on category, trade, asset class and
+          market — a computed proximity, not a recommendation.
+        </p>
+        <div class="grid grid-3" style="margin-top:20px">{near.slice(0, 6).map((t) => <ToolCard tool={t} />)}</div>
+        <p style="margin-top:20px">
+          <a class="btn btn-ghost btn-sm" href={url(`alternatives/${tool.slug}`)}>
+            All alternatives to {tool.name} →
+          </a>
+        </p>
       </section>
     )}
   </article>

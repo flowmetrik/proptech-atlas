@@ -44,6 +44,15 @@ product:
   languages: [en]
 alternatives: [agentfire, realgeeks, sierra-interactive]
 reviews: []
+logo:
+  file: logos/luxury-presence.png
+  source_url: https://www.luxurypresence.com/wp-content/uploads/fbrfg/apple-touch-icon.png
+  fetched_on: "2026-08-25"
+signals:
+  security: https://www.luxurypresence.com/legal/security-at-luxury-presence
+  privacy: https://www.luxurypresence.com/legal/privacy-policy
+  site_languages: [en]
+  checked_on: "2026-08-25"
 sources: [{ url: https://www.luxurypresence.com, note: site éditeur }]
 verification: { status: unverified, checked_on: null, checked_by: null }
 updated: "2026-08-25"

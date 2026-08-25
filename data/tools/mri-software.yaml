@@ -45,6 +45,15 @@ product:
   languages: [en, fr, de, es, nl]
 alternatives: [yardi-voyager, realpage, visual-lease]
 reviews: []
+logo:
+  file: logos/mri-software.png
+  source_url: https://cdn-fcdch.nitrocdn.com/cNYQZjhejOqxikuYkZcyUKwXfKCwKOuc/assets/images/optimized/rev-34ff8f8/www.mrisoftware.com/apple-touch-icon.png
+  fetched_on: "2026-08-25"
+signals:
+  privacy: https://www.mrisoftware.com/privacy-policy
+  status: https://status.mrisoftware.com
+  site_languages: [ar, en]
+  checked_on: "2026-08-25"
 sources: [{ url: https://www.mrisoftware.com, note: site éditeur }]
 verification: { status: unverified, checked_on: null, checked_by: null }
 updated: "2026-08-25"

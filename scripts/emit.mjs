@@ -31,8 +31,20 @@ const meta = {
     US: tools.filter((t) => t.markets.includes('US')).length,
     FR: tools.filter((t) => t.markets.includes('FR')).length,
     categories: tax.categories.length,
+    editors: new Set(tools.map((t) => t.editor)).size,
     verified: tools.filter((t) => t.verification?.status === 'verified').length,
     reviews: tools.reduce((n, t) => n + (t.reviews?.length ?? 0), 0),
+    logos: tools.filter((t) => t.logo?.file).length,
+    // Les signaux sont la partie machine-vérifiée du catalogue : on publie leur
+    // couverture, pour qu'un consommateur sache sur quoi il peut s'appuyer.
+    signals: {
+      probed: tools.filter((t) => t.signals?.checked_on).length,
+      public_pricing: tools.filter((t) => t.signals?.pricing).length,
+      api_docs: tools.filter((t) => t.signals?.api_docs).length,
+      security_page: tools.filter((t) => t.signals?.security).length,
+      privacy_page: tools.filter((t) => t.signals?.privacy).length,
+      status_page: tools.filter((t) => t.signals?.status).length,
+    },
   },
 };
 
@@ -102,11 +114,25 @@ const llms = [
     return `- [${c.label_en}](${SITE}/categories/${c.id}) — ${c.summary_en} (${n})`;
   }),
   '',
-  '## Fiabilité',
+  '## Deux niveaux de fiabilité, à ne pas confondre',
   '',
-  `- Fiches vérifiées à la source : ${meta.counts.verified} / ${tools.length}.`,
-  `- Avis : ${meta.counts.reviews} agrégat(s) externe(s) daté(s). Aucun avis n'est rédigé par l'éditeur du site.`,
-  '- Une fiche non vérifiée est marquée comme telle. Ne pas la présenter comme un fait établi.',
+  '**La prose est rédigée, non recoupée.** `description`, `real_estate_use`, `features` et',
+  '`use_cases` sont écrits à partir du contenu public de l\'éditeur. Chaque fiche porte',
+  '`verification.status` ; tant qu\'il vaut `unverified`, ne pas présenter son contenu comme un',
+  `fait établi. Actuellement vérifiées : ${meta.counts.verified} / ${tools.length}.`,
+  '',
+  '**Les signaux sont machine-vérifiés.** Le bloc `signals` de chaque fiche a été établi en',
+  'allant lire le site de l\'éditeur à la date `checked_on`, et chaque signal porte l\'URL qui',
+  'l\'établit. Un signal absent signifie « pas trouvé à cette date », jamais « n\'existe pas ».',
+  `Relevés : ${meta.counts.signals.probed} outils · tarifs publics ${meta.counts.signals.public_pricing}` +
+  ` · doc d'API ${meta.counts.signals.api_docs} · page sécurité ${meta.counts.signals.security_page}` +
+  ` · page confidentialité ${meta.counts.signals.privacy_page} · page d'état ${meta.counts.signals.status_page}.`,
+  '',
+  `**Les avis ne sont jamais inventés.** ${meta.counts.reviews} agrégat(s) externe(s) daté(s) au`,
+  'catalogue. Une note sans URL de source et sans date de relevé est refusée par le validateur.',
+  '',
+  `**Les logos** viennent du site de l\'éditeur (${meta.counts.logos} / ${tools.length}), avec leur`,
+  'URL d\'origine et la date du relevé. Marques et logos appartiennent à leurs détenteurs.',
   '',
 ].join('\n');
 writeFileSync(join(ROOT, 'public', 'llms.txt'), llms);

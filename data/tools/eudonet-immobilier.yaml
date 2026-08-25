@@ -43,6 +43,13 @@ product:
   languages: [fr, en]
 alternatives: [apimo, hektor]
 reviews: []
+logo:
+  file: logos/eudonet-immobilier.png
+  source_url: https://www.eudonet.com/wp-content/uploads/2025/10/Favicon-square-1.png
+  fetched_on: "2026-08-25"
+signals:
+  privacy: https://www.eudonet.com/fr/politique-de-confidentalite
+  checked_on: "2026-08-25"
 sources: [{ url: https://www.eudonet.com, note: site éditeur }]
 verification: { status: unverified, checked_on: null, checked_by: null }
 updated: "2026-08-25"

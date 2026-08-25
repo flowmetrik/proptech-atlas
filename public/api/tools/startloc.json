@@ -69,6 +69,17 @@
     "check-and-visit"
   ],
   "reviews": [],
+  "logo": {
+    "file": "logos/startloc.png",
+    "source_url": "https://www.startloc.fr/favicon.png",
+    "fetched_on": "2026-08-25"
+  },
+  "signals": {
+    "site_languages": [
+      "fr"
+    ],
+    "checked_on": "2026-08-25"
+  },
   "sources": [
     {
       "url": "https://www.startloc.fr",

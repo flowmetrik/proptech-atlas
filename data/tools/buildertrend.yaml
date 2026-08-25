@@ -43,6 +43,10 @@ product:
   languages: [en, es]
 alternatives: [procore, autodesk-construction-cloud]
 reviews: []
+logo:
+  file: logos/buildertrend.png
+  source_url: https://icons.duckduckgo.com/ip3/buildertrend.com.ico
+  fetched_on: "2026-08-25"
 sources: [{ url: https://buildertrend.com, note: site éditeur }]
 verification: { status: unverified, checked_on: null, checked_by: null }
 updated: "2026-08-25"

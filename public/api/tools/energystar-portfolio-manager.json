@@ -73,6 +73,17 @@
     "watchwire"
   ],
   "reviews": [],
+  "logo": {
+    "file": "logos/energystar-portfolio-manager.png",
+    "source_url": "https://www.energystar.gov/themes/gesso/dist/images/favicons/apple-touch-icon.png",
+    "fetched_on": "2026-08-25"
+  },
+  "signals": {
+    "site_languages": [
+      "en"
+    ],
+    "checked_on": "2026-08-25"
+  },
   "sources": [
     {
       "url": "https://www.energystar.gov/buildings/benchmark",

@@ -43,6 +43,15 @@ product:
   languages: [en]
 alternatives: [hqo]
 reviews: []
+logo:
+  file: logos/smartrent.png
+  source_url: https://smartrent.com/icons/icon-512x512.png?v=fb22f268ec78d7fa9c4da0aeed27e371
+  fetched_on: "2026-08-25"
+signals:
+  privacy: https://smartrent.com/privacy
+  status: https://status.smartrent.com
+  site_languages: [en]
+  checked_on: "2026-08-25"
 sources: [{ url: https://smartrent.com, note: site éditeur }]
 verification: { status: unverified, checked_on: null, checked_by: null }
 updated: "2026-08-25"

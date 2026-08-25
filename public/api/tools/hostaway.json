@@ -78,6 +78,21 @@
     "guesty"
   ],
   "reviews": [],
+  "logo": {
+    "file": "logos/hostaway.png",
+    "source_url": "https://www.hostaway.com/static/hostaway-hero-a9de69ef584f1c6cf561b076179beb90.jpg",
+    "fetched_on": "2026-08-25"
+  },
+  "signals": {
+    "privacy": "https://www.hostaway.com/privacy-policy",
+    "site_languages": [
+      "en",
+      "es",
+      "fr",
+      "it"
+    ],
+    "checked_on": "2026-08-25"
+  },
   "sources": [
     {
       "url": "https://www.hostaway.com",

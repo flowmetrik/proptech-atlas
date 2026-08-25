@@ -77,6 +77,18 @@
     "juniper-square"
   ],
   "reviews": [],
+  "logo": {
+    "file": "logos/dealpath.png",
+    "source_url": "https://www.dealpath.com/wp-content/uploads/2025/01/cropped-favicon-180x180.png",
+    "fetched_on": "2026-08-25"
+  },
+  "signals": {
+    "privacy": "https://www.dealpath.com/privacy",
+    "site_languages": [
+      "en"
+    ],
+    "checked_on": "2026-08-25"
+  },
   "sources": [
     {
       "url": "https://www.dealpath.com",

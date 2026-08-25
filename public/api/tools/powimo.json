@@ -1,0 +1,89 @@
+{
+  "slug": "powimo",
+  "name": "Powimo",
+  "editor": "Seiitra",
+  "website": "https://www.seiitra.com",
+  "hq_country": "FR",
+  "markets": [
+    "FR"
+  ],
+  "category": "syndic-copro",
+  "also_in": [
+    "property-management"
+  ],
+  "positioning": "Full-web property and condominium management software built to raise the productivity of property management firms.",
+  "description": "Powimo is a SaaS software for property administrators (ADB) covering both syndic (condominium) and rental management activities. It is organized into modules covering mandates, accounting, general assemblies, tenant/owner extranet, move-in/move-out inspections, maintenance requests, and letting.\n",
+  "real_estate_use": "A syndic manager uses Powimo to track co-ownership mandates, run accounting per building, prepare and hold dematerialized general assemblies, and issue fund calls to co-owners. A rental manager in the same firm uses it to manage lettings, tenant applications, and inspection reports, while owners and tenants follow their files through a dedicated client portal.\n",
+  "features": [
+    "Syndic mandate tracking and entry",
+    "Per-building accounting and account consultation",
+    "General assembly management (including dematerialized AGs)",
+    "Supplier compliance checks",
+    "Data hub with business indicators",
+    "Document dematerialization and automation"
+  ],
+  "use_cases": [
+    {
+      "persona": "syndic-manager",
+      "job": "Manage co-ownership mandates, budgets, fund calls and general assemblies"
+    },
+    {
+      "persona": "property-manager",
+      "job": "Handle rental management, letting and tenant applications"
+    },
+    {
+      "persona": "landlord-owner",
+      "job": "Consult accounting and documents through a dedicated client portal"
+    }
+  ],
+  "personas": [
+    "syndic-manager",
+    "property-manager",
+    "landlord-owner",
+    "tenant-occupier"
+  ],
+  "segments": [
+    "residential",
+    "multifamily"
+  ],
+  "company_sizes": [
+    "smb",
+    "midmarket"
+  ],
+  "pricing": {
+    "model": "quote",
+    "public_pricing": false
+  },
+  "product": {
+    "api": false,
+    "open_source": false,
+    "mobile": [],
+    "languages": [
+      "fr"
+    ]
+  },
+  "reviews": [],
+  "signals": {
+    "privacy": "https://www.seiitra.com/politique-de-confidentialite",
+    "site_languages": [
+      "fr"
+    ],
+    "checked_on": "2026-08-25"
+  },
+  "sources": [
+    {
+      "url": "https://www.seiitra.com",
+      "note": "site éditeur"
+    },
+    {
+      "url": "https://www.seiitra.com/solutions/logiciel-syndic-de-copropriete/",
+      "note": "source de découverte"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-25"
+}

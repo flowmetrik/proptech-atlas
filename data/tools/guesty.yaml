@@ -44,6 +44,15 @@ product:
   languages: [en, fr, es]
 alternatives: [hostaway]
 reviews: []
+logo:
+  file: logos/guesty.png
+  source_url: https://www.guesty.com/images/icon.png
+  fetched_on: "2026-08-25"
+signals:
+  pricing: https://www.guesty.com/pricing
+  privacy: https://www.guesty.com/privacy-policy
+  site_languages: [de, en, es, fr, it, pt]
+  checked_on: "2026-08-25"
 sources: [{ url: https://www.guesty.com, note: site éditeur }]
 verification: { status: unverified, checked_on: null, checked_by: null }
 updated: "2026-08-25"

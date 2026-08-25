@@ -66,6 +66,20 @@
     "sierra-interactive"
   ],
   "reviews": [],
+  "logo": {
+    "file": "logos/agentfire.png",
+    "source_url": "https://agentfire.com/wp-content/uploads/2024/05/cropped-AgentFire-Logo-Icon-Color-256-180x180.png",
+    "fetched_on": "2026-08-25"
+  },
+  "signals": {
+    "pricing": "https://agentfire.com/pricing",
+    "privacy": "https://agentfire.com/privacy-policy",
+    "status": "https://agentfire.statuspage.io",
+    "site_languages": [
+      "en"
+    ],
+    "checked_on": "2026-08-25"
+  },
   "sources": [
     {
       "url": "https://agentfire.com",

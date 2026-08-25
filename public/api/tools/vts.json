@@ -85,6 +85,11 @@
     "yardi-voyager"
   ],
   "reviews": [],
+  "logo": {
+    "file": "logos/vts.png",
+    "source_url": "https://icons.duckduckgo.com/ip3/vts.com.ico",
+    "fetched_on": "2026-08-25"
+  },
   "sources": [
     {
       "url": "https://www.vts.com",

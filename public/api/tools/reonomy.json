@@ -73,6 +73,18 @@
     "crexi"
   ],
   "reviews": [],
+  "logo": {
+    "file": "logos/reonomy.png",
+    "source_url": "https://www.reonomy.com/favicon/reonomy/apple-touch-icon.png",
+    "fetched_on": "2026-08-25"
+  },
+  "signals": {
+    "pricing": "https://www.reonomy.com/pricing",
+    "site_languages": [
+      "en"
+    ],
+    "checked_on": "2026-08-25"
+  },
   "sources": [
     {
       "url": "https://www.reonomy.com",

@@ -6,12 +6,22 @@
   "repository": "https://github.com/flowmetrik/proptech-atlas",
   "generated": "2026-08-25",
   "counts": {
-    "tools": 155,
+    "tools": 158,
     "US": 96,
-    "FR": 88,
+    "FR": 91,
     "categories": 24,
+    "editors": 143,
     "verified": 0,
-    "reviews": 0
+    "reviews": 0,
+    "logos": 151,
+    "signals": {
+      "probed": 139,
+      "public_pricing": 36,
+      "api_docs": 11,
+      "security_page": 20,
+      "privacy_page": 102,
+      "status_page": 42
+    }
   },
   "nodes": [
     {
@@ -345,6 +355,11 @@
       "label": "HqO"
     },
     {
+      "id": "tool:ics",
+      "type": "tool",
+      "label": "ICS"
+    },
+    {
       "id": "tool:immofacile",
       "type": "tool",
       "label": "Immofacile"
@@ -430,6 +445,11 @@
       "label": "Luxury Presence"
     },
     {
+      "id": "tool:matera",
+      "type": "tool",
+      "label": "Matera"
+    },
+    {
       "id": "tool:matterport",
       "type": "tool",
       "label": "Matterport"
@@ -513,6 +533,11 @@
       "id": "tool:poliris",
       "type": "tool",
       "label": "Poliris"
+    },
+    {
+      "id": "tool:powimo",
+      "type": "tool",
+      "label": "Powimo"
     },
     {
       "id": "tool:pricehubble",
@@ -1335,6 +1360,11 @@
       "label": "HqO"
     },
     {
+      "id": "editor:ICS",
+      "type": "editor",
+      "label": "ICS"
+    },
+    {
       "id": "editor:Immofacile",
       "type": "editor",
       "label": "Immofacile"
@@ -1403,6 +1433,11 @@
       "id": "editor:Luxury Presence",
       "type": "editor",
       "label": "Luxury Presence"
+    },
+    {
+      "id": "editor:Matera",
+      "type": "editor",
+      "label": "Matera"
     },
     {
       "id": "editor:Matterport (CoStar Group)",
@@ -1483,6 +1518,11 @@
       "id": "editor:Poliris",
       "type": "editor",
       "label": "Poliris"
+    },
+    {
+      "id": "editor:Seiitra",
+      "type": "editor",
+      "label": "Seiitra"
     },
     {
       "id": "editor:PriceHubble",
@@ -5782,6 +5822,51 @@
       "to": "tool:vts"
     },
     {
+      "from": "tool:ics",
+      "rel": "published_by",
+      "to": "editor:ICS"
+    },
+    {
+      "from": "tool:ics",
+      "rel": "belongs_to",
+      "to": "category:syndic-copro"
+    },
+    {
+      "from": "tool:ics",
+      "rel": "also_serves",
+      "to": "category:property-management"
+    },
+    {
+      "from": "tool:ics",
+      "rel": "also_serves",
+      "to": "category:transaction-management"
+    },
+    {
+      "from": "tool:ics",
+      "rel": "serves_persona",
+      "to": "persona:syndic-manager"
+    },
+    {
+      "from": "tool:ics",
+      "rel": "serves_persona",
+      "to": "persona:property-manager"
+    },
+    {
+      "from": "tool:ics",
+      "rel": "serves_persona",
+      "to": "persona:agent-broker"
+    },
+    {
+      "from": "tool:ics",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:ics",
+      "rel": "available_in",
+      "to": "market:FR"
+    },
+    {
       "from": "tool:immofacile",
       "rel": "published_by",
       "to": "editor:Immofacile"
@@ -6830,6 +6915,41 @@
       "from": "tool:luxury-presence",
       "rel": "alternative_to",
       "to": "tool:sierra-interactive"
+    },
+    {
+      "from": "tool:matera",
+      "rel": "published_by",
+      "to": "editor:Matera"
+    },
+    {
+      "from": "tool:matera",
+      "rel": "belongs_to",
+      "to": "category:syndic-copro"
+    },
+    {
+      "from": "tool:matera",
+      "rel": "also_serves",
+      "to": "category:property-management"
+    },
+    {
+      "from": "tool:matera",
+      "rel": "serves_persona",
+      "to": "persona:syndic-manager"
+    },
+    {
+      "from": "tool:matera",
+      "rel": "serves_persona",
+      "to": "persona:landlord-owner"
+    },
+    {
+      "from": "tool:matera",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:matera",
+      "rel": "available_in",
+      "to": "market:FR"
     },
     {
       "from": "tool:matterport",
@@ -7895,6 +8015,56 @@
       "from": "tool:poliris",
       "rel": "alternative_to",
       "to": "tool:hektor"
+    },
+    {
+      "from": "tool:powimo",
+      "rel": "published_by",
+      "to": "editor:Seiitra"
+    },
+    {
+      "from": "tool:powimo",
+      "rel": "belongs_to",
+      "to": "category:syndic-copro"
+    },
+    {
+      "from": "tool:powimo",
+      "rel": "also_serves",
+      "to": "category:property-management"
+    },
+    {
+      "from": "tool:powimo",
+      "rel": "serves_persona",
+      "to": "persona:syndic-manager"
+    },
+    {
+      "from": "tool:powimo",
+      "rel": "serves_persona",
+      "to": "persona:property-manager"
+    },
+    {
+      "from": "tool:powimo",
+      "rel": "serves_persona",
+      "to": "persona:landlord-owner"
+    },
+    {
+      "from": "tool:powimo",
+      "rel": "serves_persona",
+      "to": "persona:tenant-occupier"
+    },
+    {
+      "from": "tool:powimo",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:powimo",
+      "rel": "covers_segment",
+      "to": "segment:multifamily"
+    },
+    {
+      "from": "tool:powimo",
+      "rel": "available_in",
+      "to": "market:FR"
     },
     {
       "from": "tool:pricehubble",

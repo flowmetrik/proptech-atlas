@@ -42,6 +42,14 @@ product:
   languages: [fr]
 alternatives: [crypto-septeo, vilogi, syment]
 reviews: []
+logo:
+  file: logos/gercop.png
+  source_url: https://realestate.orisha.com//app/uploads/2024/02/Diapositive1-1-300x300.jpeg
+  fetched_on: "2026-08-25"
+signals:
+  privacy: https://realestate.orisha.com/politique-gestion-donnees-personnelles
+  site_languages: [fr]
+  checked_on: "2026-08-25"
 sources: [{ url: https://www.gercop.com, note: site éditeur }]
 verification: { status: unverified, checked_on: null, checked_by: null }
 updated: "2026-08-25"

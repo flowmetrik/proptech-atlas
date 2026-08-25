@@ -82,6 +82,23 @@
     "yanport"
   ],
   "reviews": [],
+  "logo": {
+    "file": "logos/pricehubble.png",
+    "source_url": "https://framerusercontent.com/images/ZSlsZghJzi1fnqU9kpIh1z1g.svg",
+    "fetched_on": "2026-08-25"
+  },
+  "signals": {
+    "status": "https://status.pricehubble.com",
+    "site_languages": [
+      "cs",
+      "de",
+      "en",
+      "fr",
+      "ja",
+      "nl"
+    ],
+    "checked_on": "2026-08-25"
+  },
   "sources": [
     {
       "url": "https://www.pricehubble.com",

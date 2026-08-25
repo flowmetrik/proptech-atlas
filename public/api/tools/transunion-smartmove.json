@@ -65,6 +65,18 @@
     "snappt"
   ],
   "reviews": [],
+  "logo": {
+    "file": "logos/transunion-smartmove.png",
+    "source_url": "https://www.mysmartmove.com/etc.clientlibs/transunion/clientlibs/clientlib-mysmartmove/resources/images/favicons/favicon.ico",
+    "fetched_on": "2026-08-25"
+  },
+  "signals": {
+    "privacy": "https://www.mysmartmove.com/terms-of-use",
+    "site_languages": [
+      "en"
+    ],
+    "checked_on": "2026-08-25"
+  },
   "sources": [
     {
       "url": "https://www.mysmartmove.com",

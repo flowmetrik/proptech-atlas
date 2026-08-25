@@ -44,6 +44,15 @@ product:
   languages: [en]
 alternatives: [turbotenant, doorloop, innago, rentredi]
 reviews: []
+logo:
+  file: logos/tenantcloud.png
+  source_url: https://www.tenantcloud.com/wp-content/uploads/2026/03/tenantcloud-favicon.svg
+  fetched_on: "2026-08-25"
+signals:
+  pricing: https://www.tenantcloud.com/pricing
+  privacy: https://www.tenantcloud.com/privacy
+  site_languages: [en]
+  checked_on: "2026-08-25"
 sources: [{ url: https://www.tenantcloud.com, note: site éditeur }]
 verification: { status: unverified, checked_on: null, checked_by: null }
 updated: "2026-08-25"

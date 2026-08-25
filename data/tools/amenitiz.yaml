@@ -43,6 +43,14 @@ product:
   languages: [fr, en, es, it]
 alternatives: [smily, lodgify, guesty]
 reviews: []
+logo:
+  file: logos/amenitiz.png
+  source_url: https://cdn.prod.website-files.com/686b77875b8b392b250a7ce5/6a032f1c8a426d90b28d3a1f_Amenitiz%20fav-ivcons.png
+  fetched_on: "2026-08-25"
+signals:
+  pricing: https://amenitiz.com/en/pricing
+  site_languages: [en, es, fr, it, pt]
+  checked_on: "2026-08-25"
 sources: [{ url: https://www.amenitiz.io, note: site éditeur }]
 verification: { status: unverified, checked_on: null, checked_by: null }
 updated: "2026-08-25"

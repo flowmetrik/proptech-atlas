@@ -83,6 +83,17 @@
     "apartments-com"
   ],
   "reviews": [],
+  "logo": {
+    "file": "logos/zillow.png",
+    "source_url": "https://www.zillow.com/apple-touch-icon.png",
+    "fetched_on": "2026-08-25"
+  },
+  "signals": {
+    "site_languages": [
+      "en"
+    ],
+    "checked_on": "2026-08-25"
+  },
   "sources": [
     {
       "url": "https://www.zillow.com",

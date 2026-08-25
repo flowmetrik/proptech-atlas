@@ -83,6 +83,18 @@
         "lockimmo"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/adapt-immo.png",
+        "source_url": "https://www.adaptimmo.com/wp-content/uploads/2023/03/favicon-ai-alt.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://www.adaptimmo.com/mentions-legales",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.adaptimmo.com",
@@ -178,6 +190,24 @@
         "adapt-immo"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/apimo.png",
+        "source_url": "https://cdn.prod.website-files.com/6707c573399d40b4c0e69c15/6900c4665db087beab86df8b_IMG_0309%20copie%202.JPG",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "api_docs": "https://apimo.com/api",
+        "privacy": "https://apimo.com/politique-de-confidentialite",
+        "site_languages": [
+          "de",
+          "en",
+          "fr",
+          "it",
+          "nl",
+          "pt"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.apimo.net",
@@ -274,6 +304,19 @@
         "follow-up-boss"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/boldtrail.png",
+        "source_url": "https://insiderealestate.com/wp-content/uploads/2025/01/2024-Q3-IRE-Favicon-512x512-1-300x300.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://insiderealestate.com/privacy-policy",
+        "status": "https://status.insiderealestate.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://insiderealestate.com",
@@ -363,6 +406,19 @@
         "sierra-interactive"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/boomtown.png",
+        "source_url": "https://boomtownroi.com/wp-content/uploads/2020/02/homepage-hero-Q1-product-group.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "api_docs": "https://docs.google.com/forms/d/e/1FAIpQLSdOOGGarFZJUOqg_jcYY1iTCMThPcypKULz2KKQ-1rBBM8UBw/viewform",
+        "privacy": "https://boomtownroi.com/privacy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://boomtownroi.com",
@@ -454,6 +510,15 @@
         "hektor"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/eudonet-immobilier.png",
+        "source_url": "https://www.eudonet.com/wp-content/uploads/2025/10/Favicon-square-1.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://www.eudonet.com/fr/politique-de-confidentalite",
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.eudonet.com",
@@ -540,6 +605,15 @@
         "dvf"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/fluximmo.png",
+        "source_url": "https://www.fluximmo.com/favicon/apple-touch-icon.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "status": "https://status.fluximmo.com",
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.fluximmo.com",
@@ -637,6 +711,21 @@
         "boomtown"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/follow-up-boss.png",
+        "source_url": "https://cdn.prod.website-files.com/644fec6f9633da07ea1323cb/660c9d9611500e8ebcccde2d_favicon.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "pricing": "https://www.followupboss.com/pricing",
+        "api_docs": "https://docs.followupboss.com/reference/getting-started",
+        "security": "https://www.followupboss.com/security",
+        "privacy": "https://www.followupboss.com/legal-pages/privacy-notice",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.followupboss.com",
@@ -728,6 +817,11 @@
         "lockimmo"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/hektor.png",
+        "source_url": "https://icons.duckduckgo.com/ip3/laboiteimmo.com.ico",
+        "fetched_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.laboiteimmo.com",
@@ -817,6 +911,17 @@
         "lockimmo"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/immofacile.png",
+        "source_url": "https://media.base44.com/images/public/6a34f2529b2e173c33637639/fbd74a592_logo.png/v1/fill/w_1200,h_630/fbd74a592_logo.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.immofacile.fr",
@@ -910,6 +1015,18 @@
         "crypto-septeo"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/lockimmo.png",
+        "source_url": "https://www.lockimmo.com/wp-content/uploads/2022/06/LOCKimmo-FavIcon-300x300.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://www.lockimmo.com/politique-de-confidentialite",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.lockimmo.com",
@@ -1008,6 +1125,19 @@
         "follow-up-boss"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/lofty.png",
+        "source_url": "https://cdn.lofty.com/image/fs/servicetool/2026722/6/original_d0a60f88f59a4b01.jpg",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "pricing": "https://lofty.com/price-packages",
+        "status": "https://status.lofty.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://lofty.com",
@@ -1103,6 +1233,11 @@
         "dvf"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/meilleursagents.png",
+        "source_url": "https://icons.duckduckgo.com/ip3/meilleursagents.com.ico",
+        "fetched_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.meilleursagents.com",
@@ -1192,6 +1327,18 @@
         "immofacile"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/netty.png",
+        "source_url": "https://www.modelo.fr/wp-content/uploads/2024/11/cropped-favicon-180x180.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://www.modelo.fr/politique-de-confidentialite",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.netty.fr",
@@ -1277,6 +1424,18 @@
         "netty"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/pige-online.png",
+        "source_url": "https://www.pige-online.fr/favicon.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "pricing": "https://www.pige-online.fr/tarifs",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.pige-online.fr",
@@ -1449,6 +1608,20 @@
         "boldtrail"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/realgeeks.png",
+        "source_url": "https://www.realgeeks.com/hubfs/Real%20Geeks%20Favicon.svg",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "pricing": "https://www.realgeeks.com/real-geeks-pricing",
+        "privacy": "https://www.realgeeks.com/privacy",
+        "status": "https://status.realgeeks.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.realgeeks.com",
@@ -1537,6 +1710,11 @@
         "apartments-com"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/realtor-com.png",
+        "source_url": "https://icons.duckduckgo.com/ip3/realtor.com.ico",
+        "fetched_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.realtor.com",
@@ -1625,6 +1803,18 @@
         "crexi"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/reonomy.png",
+        "source_url": "https://www.reonomy.com/favicon/reonomy/apple-touch-icon.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "pricing": "https://www.reonomy.com/pricing",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.reonomy.com",
@@ -1718,6 +1908,11 @@
         "pap"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/seloger.png",
+        "source_url": "https://icons.duckduckgo.com/ip3/seloger.com.ico",
+        "fetched_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.seloger.com",
@@ -1807,6 +2002,19 @@
         "follow-up-boss"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/sierra-interactive.png",
+        "source_url": "https://www.sierrainteractive.com/wp-content/themes/kps3-sii/resources/dist/assets/images/favicon/apple-touch-icon.png?ver=1.2.13",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://www.sierrainteractive.com/privacy-policy",
+        "status": "https://status.sierrainteractive.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.sierrainteractive.com",
@@ -1900,6 +2108,19 @@
         "follow-up-boss"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/structurely.png",
+        "source_url": "https://www.google.com/s2/favicons?domain=structurely.com&sz=256",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "pricing": "https://www.structurely.com/pricing",
+        "privacy": "https://www.structurely.com/privacy-policy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.structurely.com",
@@ -1992,6 +2213,15 @@
         "netty"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/sweepbright.png",
+        "source_url": "https://cdn.prod.website-files.com/641824c7d039698039a4084d/64957175935b7fb6aa7b3866_Website_logo_256.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://www.sweepbright.com/politique-de-confidentialite",
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.sweepbright.com",
@@ -2080,6 +2310,9 @@
         "cityscan"
       ],
       "reviews": [],
+      "signals": {
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.urbanease.com",
@@ -2173,6 +2406,19 @@
         "boldtrail"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/ylopo.png",
+        "source_url": "https://www.ylopo.com/apple-icon.png?apple-icon.31myfjsa53t95.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "pricing": "https://www.ylopo.com/pricing",
+        "privacy": "https://www.ylopo.com/privacy-policy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.ylopo.com",
@@ -2271,6 +2517,17 @@
         "apartments-com"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/zillow.png",
+        "source_url": "https://www.zillow.com/apple-touch-icon.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.zillow.com",

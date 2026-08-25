@@ -73,6 +73,19 @@
     "witco"
   ],
   "reviews": [],
+  "logo": {
+    "file": "logos/ubigreen.png",
+    "source_url": "https://www.ubigreen.com/wp-content/uploads/2023/01/cropped-MicrosoftTeams-image-2-300x300.png",
+    "fetched_on": "2026-08-25"
+  },
+  "signals": {
+    "privacy": "https://www.ubigreen.com/mentions-legales",
+    "site_languages": [
+      "en",
+      "fr"
+    ],
+    "checked_on": "2026-08-25"
+  },
   "sources": [
     {
       "url": "https://www.ubigreen.com",

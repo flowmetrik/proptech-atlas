@@ -77,6 +77,17 @@
     "mri-software"
   ],
   "reviews": [],
+  "logo": {
+    "file": "logos/aareon.png",
+    "source_url": "https://www.aareon.fr/hubfs/Sarah%20-%20please%20do%20not%20use%20without%20consultation/aareon_favicon_round.svg",
+    "fetched_on": "2026-08-25"
+  },
+  "signals": {
+    "site_languages": [
+      "fr"
+    ],
+    "checked_on": "2026-08-25"
+  },
   "sources": [
     {
       "url": "https://www.aareon.fr",

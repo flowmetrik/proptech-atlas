@@ -43,6 +43,13 @@ product:
   languages: [fr]
 alternatives: [ownily, stessa]
 reviews: []
+logo:
+  file: logos/horiz.png
+  source_url: https://horiz.io/favicon.png
+  fetched_on: "2026-08-25"
+signals:
+  site_languages: [fr]
+  checked_on: "2026-08-25"
 sources: [{ url: https://www.horiz.io, note: site éditeur }]
 verification: { status: unverified, checked_on: null, checked_by: null }
 updated: "2026-08-25"

@@ -45,6 +45,15 @@ product:
   languages: [en]
 alternatives: [structurely, lofty, boldtrail]
 reviews: []
+logo:
+  file: logos/ylopo.png
+  source_url: https://www.ylopo.com/apple-icon.png?apple-icon.31myfjsa53t95.png
+  fetched_on: "2026-08-25"
+signals:
+  pricing: https://www.ylopo.com/pricing
+  privacy: https://www.ylopo.com/privacy-policy
+  site_languages: [en]
+  checked_on: "2026-08-25"
 sources: [{ url: https://www.ylopo.com, note: site éditeur }]
 verification: { status: unverified, checked_on: null, checked_by: null }
 updated: "2026-08-25"

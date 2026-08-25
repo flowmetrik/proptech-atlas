@@ -43,6 +43,15 @@ product:
   languages: [en, fr, de, es]
 alternatives: [officernd, nexudus]
 reviews: []
+logo:
+  file: logos/cobot.png
+  source_url: https://www-cdn.cobot.me/assets/favicons/apple-touch-icon-e0f2fcff.png
+  fetched_on: "2026-08-25"
+signals:
+  api_docs: https://www.cobot.me/en
+  privacy: https://www.cobot.me/en
+  site_languages: [de, en, es, fr, hu, it, ja, nl, pt]
+  checked_on: "2026-08-25"
 sources: [{ url: https://www.cobot.me, note: site éditeur }]
 verification: { status: unverified, checked_on: null, checked_by: null }
 updated: "2026-08-25"

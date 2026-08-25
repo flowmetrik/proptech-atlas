@@ -42,6 +42,14 @@ product:
   languages: [fr, en, de]
 alternatives: [bulldozair, finalcad, autodesk-construction-cloud]
 reviews: []
+logo:
+  file: logos/kairnial.png
+  source_url: https://www.thinkproject.com/favicon/apple-touch-icon.png
+  fetched_on: "2026-08-25"
+signals:
+  security: https://www.thinkproject.com/trust-centre
+  site_languages: [fr]
+  checked_on: "2026-08-25"
 sources: [{ url: https://www.kairnial.com, note: site éditeur }]
 verification: { status: unverified, checked_on: null, checked_by: null }
 updated: "2026-08-25"

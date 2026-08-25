@@ -44,6 +44,15 @@ product:
   languages: [fr, en]
 alternatives: [wattsense, witco]
 reviews: []
+logo:
+  file: logos/spinalcom.png
+  source_url: https://www.spinalcom.com/wp-content/themes/mkd-spinalcom/img/icons/touch.png?v3=1
+  fetched_on: "2026-08-25"
+signals:
+  privacy: https://www.spinalcom.com/mentions-legales
+  status: https://www.spinalcom.com
+  site_languages: [en, fr]
+  checked_on: "2026-08-25"
 sources: [{ url: https://www.spinalcom.com, note: site éditeur }]
 verification: { status: unverified, checked_on: null, checked_by: null }
 updated: "2026-08-25"

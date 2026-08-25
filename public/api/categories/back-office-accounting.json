@@ -85,6 +85,17 @@
         "mri-software"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/aareon.png",
+        "source_url": "https://www.aareon.fr/hubfs/Sarah%20-%20please%20do%20not%20use%20without%20consultation/aareon_favicon_round.svg",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.aareon.fr",
@@ -188,6 +199,19 @@
         "yardi-breeze"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/appfolio.png",
+        "source_url": "https://www.appfolio.com/_nuxt/icons/icon_512x512.4826b9.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://www.appfolio.com/privacy",
+        "status": "https://status.appfolio.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.appfolio.com",
@@ -269,6 +293,20 @@
         "stessa"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/baselane.png",
+        "source_url": "https://cdn.prod.website-files.com/682db4934265432d4c302617/69af2d9bfbdb9155bc833cfe_Baselane%20Icon%20-%20256x256%20-%20Dark.svg",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "pricing": "https://www.baselane.com/pricing",
+        "security": "https://www.baselane.com/security",
+        "privacy": "https://www.baselane.com/legal/general-agreements/privacy-policy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.baselane.com",
@@ -354,6 +392,20 @@
         "vertuoza"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/batappli.png",
+        "source_url": "https://cdn.prod.website-files.com/66e05560482220115c09066e/67093820c08a883217cd7510_favicon-batappli-rond256.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "pricing": "https://www.batappli.fr/tarifs",
+        "privacy": "https://www.batappli.fr/rgpd",
+        "status": "https://status.batappli.fr",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.batappli.fr",
@@ -450,6 +502,19 @@
         "follow-up-boss"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/boldtrail.png",
+        "source_url": "https://insiderealestate.com/wp-content/uploads/2025/01/2024-Q3-IRE-Favicon-512x512-1-300x300.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://insiderealestate.com/privacy-policy",
+        "status": "https://status.insiderealestate.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://insiderealestate.com",
@@ -537,6 +602,18 @@
         "boldtrail"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/brokermint.png",
+        "source_url": "https://brokermint.com/wp-content/uploads/2025/02/cropped-2025-Brokermint-Favicon-32x32-1-1-180x180.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://brokermint.com/privacy-policy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.brokermint.com",
@@ -629,6 +706,20 @@
         "propertyware"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/buildium.png",
+        "source_url": "https://www.buildium.com/wp-content/uploads/2017/06/Buildium-favicon.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "pricing": "https://www.buildium.com/pricing",
+        "privacy": "https://www.buildium.com/privacy-policy",
+        "status": "https://status.buildium.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.buildium.com",
@@ -720,6 +811,19 @@
         "lockimmo"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/crypto-septeo.png",
+        "source_url": "https://cdn.prod.website-files.com/62f0eecf4db2ed8ccaf46cea/63a1bb651daf1432fd167afc_fav256x256.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "site_languages": [
+          "en",
+          "es",
+          "fr"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.septeo.com/fr/solutions-immobilier",
@@ -815,6 +919,22 @@
         "innago"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/doorloop.png",
+        "source_url": "https://cdn.prod.website-files.com/5f073e32d304276cc8b4ff30/69ef686efb5ec4c235b3ab95_doorloop_webClip.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "pricing": "https://www.doorloop.com/pricing",
+        "api_docs": "https://www.doorloop.com/partner",
+        "security": "https://www.doorloop.com/security",
+        "privacy": "https://www.doorloop.com/legal/privacy",
+        "status": "https://status.doorloop.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.doorloop.com",
@@ -911,6 +1031,19 @@
         "appfolio"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/entrata.png",
+        "source_url": "https://cdn.prod.website-files.com/65eabd7598741e6a15fc75c2/660fd1776a5da038751bf803_favicon-1.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://legal.entrata.com/privacy-policy",
+        "status": "https://status.entrata.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.entrata.com",
@@ -999,6 +1132,18 @@
         "syment"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/gercop.png",
+        "source_url": "https://realestate.orisha.com//app/uploads/2024/02/Diapositive1-1-300x300.jpeg",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://realestate.orisha.com/politique-gestion-donnees-personnelles",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.gercop.com",
@@ -1087,6 +1232,21 @@
         "batappli"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/graneet.png",
+        "source_url": "https://cdn.prod.website-files.com/65f9731c74e40f6af5b7934f/6634b43b06e725c04c8162cc_Logo%20site.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "pricing": "https://www.graneet.com/fr/tarification",
+        "privacy": "https://www.graneet.com/fr/politique-de-confidentialite",
+        "status": "https://status.graneet.fr",
+        "site_languages": [
+          "es",
+          "fr"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.graneet.fr",
@@ -1168,6 +1328,17 @@
         "stessa"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/horiz.png",
+        "source_url": "https://horiz.io/favicon.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.horiz.io",
@@ -1257,6 +1428,19 @@
         "yardi-voyager"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/juniper-square.png",
+        "source_url": "https://assets.junipersquare.com/images/_1200x630_crop_center-center_82_none/share.png?v=1779402326",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://www.junipersquare.com/privacy-policy",
+        "status": "https://status.junipersquare.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.junipersquare.com",
@@ -1335,6 +1519,18 @@
         "skyslope"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/lone-wolf-back-office.png",
+        "source_url": "https://www.lwolf.com/apple-icon.png?e144461f0765bf42",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://www.lwolf.com/privacy-policy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.lwolf.com",
@@ -1423,6 +1619,18 @@
         "brokermint"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/lone-wolf-transactions.png",
+        "source_url": "https://www.lwolf.com/apple-icon.png?e144461f0765bf42",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://www.lwolf.com/privacy-policy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.lwolf.com",
@@ -1509,6 +1717,17 @@
         "vertuoza"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/obat.png",
+        "source_url": "https://www.obat.fr/www/wp-content/uploads/2025/03/favicon-192x192-1.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.obat.fr",
@@ -1587,6 +1806,17 @@
         "horiz"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/ownily.png",
+        "source_url": "https://cdn.prod.website-files.com/6481d6e65a1b6affccd9a027/649c2fb9aa5e980405323c2a_TouchIcon.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.ownily.fr",
@@ -1675,6 +1905,20 @@
         "hemlane"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/propertyware.png",
+        "source_url": "https://www.propertyware.com/apple-touch-icon.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "pricing": "https://www.propertyware.com/pricing",
+        "privacy": "https://www.propertyware.com/privacy-policy",
+        "status": "https://status.propertyware.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.propertyware.com",
@@ -1770,6 +2014,18 @@
         "propertyware"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/rentmanager.png",
+        "source_url": "https://www.rentmanager.com/wp-content/uploads/2023/08/cropped-RM_HouseIcon-180x180.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://www.rentmanager.com/privacy-statement",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.rentmanager.com",
@@ -1858,6 +2114,18 @@
         "brokermint"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/skyslope.png",
+        "source_url": "https://www.google.com/s2/favicons?domain=skyslope.com&sz=256",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "status": "https://status.skyslope.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://skyslope.com",
@@ -1944,6 +2212,20 @@
         "doorloop"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/stessa.png",
+        "source_url": "https://www.stessa.com/wp-content/themes/twentythirteens/images/favicon.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "pricing": "https://www.stessa.com/pricing",
+        "security": "https://www.stessa.com/security",
+        "privacy": "https://www.stessa.com/privacy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.stessa.com",
@@ -2032,6 +2314,18 @@
         "yardi-voyager"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/visual-lease.png",
+        "source_url": "https://visuallease.com/wp-content/uploads/2019/01/VL-ONLY-onWHT.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://www.costar.com/about/privacy-notice",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://visuallease.com",
@@ -2124,6 +2418,19 @@
         "yardi-voyager"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/yardi-breeze.png",
+        "source_url": "https://www.yardibreeze.com/wp-content/themes/cmw-standard-theme-child-breeze/images/favicons/apple-touch-icon.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "pricing": "https://www.yardibreeze.com/residential-features",
+        "privacy": "https://resources.yardi.com/legal/privacy-statement",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.yardibreeze.com",
@@ -2229,6 +2536,11 @@
         "yardi-breeze"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/yardi-voyager.png",
+        "source_url": "https://icons.duckduckgo.com/ip3/yardi.com.ico",
+        "fetched_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.yardi.com",

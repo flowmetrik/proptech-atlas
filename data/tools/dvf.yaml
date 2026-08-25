@@ -45,6 +45,12 @@ product:
   languages: [fr]
 alternatives: [yanport, meilleursagents, pricehubble]
 reviews: []
+logo:
+  file: logos/dvf.png
+  source_url: https://app.dvf.etalab.gouv.fr/favicon.png
+  fetched_on: "2026-08-25"
+signals:
+  checked_on: "2026-08-25"
 sources: [{ url: https://app.dvf.etalab.gouv.fr, note: site éditeur }]
 verification: { status: unverified, checked_on: null, checked_by: null }
 updated: "2026-08-25"

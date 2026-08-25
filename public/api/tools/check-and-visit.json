@@ -73,6 +73,18 @@
     "matterport"
   ],
   "reviews": [],
+  "logo": {
+    "file": "logos/check-and-visit.png",
+    "source_url": "https://checkandvisit.com/hubfs/Website/logo/favicon-check-and-visit-2.svg",
+    "fetched_on": "2026-08-25"
+  },
+  "signals": {
+    "privacy": "https://checkandvisit.com/mentions-legales",
+    "site_languages": [
+      "fr"
+    ],
+    "checked_on": "2026-08-25"
+  },
   "sources": [
     {
       "url": "https://www.checkandvisit.com",

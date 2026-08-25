@@ -84,6 +84,21 @@
         "measurabl"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/advizeo.png",
+        "source_url": "https://www.advizeo.io/wp-content/uploads/2024/05/Fav-icon-advizeo-1-300x300.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://www.advizeo.io/politique-de-confidentialite",
+        "site_languages": [
+          "de",
+          "en",
+          "fr",
+          "it"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.advizeo.io",
@@ -259,6 +274,28 @@
         "limble"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/corrigo.png",
+        "source_url": "https://www.jll.com/content/dam/tech-resources/android-chrome-192x192.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "status": "https://status.corrigo.com",
+        "site_languages": [
+          "ar",
+          "de",
+          "en",
+          "es",
+          "fr",
+          "ja",
+          "ko",
+          "nl",
+          "pl",
+          "pt",
+          "zh"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://corrigo.com",
@@ -346,6 +383,15 @@
         "doorloop"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/hemlane.png",
+        "source_url": "https://www.hemlane.com/favicon.ico",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "pricing": "https://www.hemlane.com/pricing",
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.hemlane.com",
@@ -437,6 +483,19 @@
         "corrigo"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/limble.png",
+        "source_url": "https://cdn.prod.website-files.com/695d658507ace930b906b9eb/695d65c78316216412d70e58_256x256.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://limble.com/privacy",
+        "status": "https://status.limblecmms.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://limblecmms.com",
@@ -542,6 +601,28 @@
         "boxbrownie"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/matterport.png",
+        "source_url": "https://images.ctfassets.net/icnj41gkyohw/1XJtpPGI0zKF5QBrmaiNLH/523c47127070e2a7423cece0d99e8594/favicon.svg",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "pricing": "https://matterport.com/plans",
+        "api_docs": "https://matterport.com/developers",
+        "security": "https://matterport.com/trust",
+        "privacy": "https://www.costar.com/about/privacy-notice",
+        "status": "https://status.matterport.com",
+        "site_languages": [
+          "de",
+          "en",
+          "es",
+          "fr",
+          "it",
+          "ja",
+          "ko"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://matterport.com",
@@ -641,6 +722,20 @@
         "visual-lease"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/mri-software.png",
+        "source_url": "https://cdn-fcdch.nitrocdn.com/cNYQZjhejOqxikuYkZcyUKwXfKCwKOuc/assets/images/optimized/rev-34ff8f8/www.mrisoftware.com/apple-touch-icon.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://www.mrisoftware.com/privacy-policy",
+        "status": "https://status.mrisoftware.com",
+        "site_languages": [
+          "ar",
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.mrisoftware.com",
@@ -733,6 +828,20 @@
         "hemlane"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/property-meld.png",
+        "source_url": "https://propertymeld.com/wp-content/uploads/2023/12/PM-Logo-Icon-Full-Color@10x.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "pricing": "https://propertymeld.com/pricing",
+        "privacy": "https://propertymeld.com/privacy-policy",
+        "status": "https://status.propertymeld.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://propertymeld.com",
@@ -828,6 +937,18 @@
         "propertyware"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/rentmanager.png",
+        "source_url": "https://www.rentmanager.com/wp-content/uploads/2023/08/cropped-RM_HouseIcon-180x180.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://www.rentmanager.com/privacy-statement",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.rentmanager.com",
@@ -919,6 +1040,21 @@
         "limble"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/servicechannel.png",
+        "source_url": "https://servicechannel.com/wp-content/uploads/2024/01/favicon.ico",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://servicechannel.com/privacy-policy",
+        "status": "https://status.servicechannel.com",
+        "site_languages": [
+          "en",
+          "fr",
+          "it"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://servicechannel.com",
@@ -1008,6 +1144,20 @@
         "witco"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/spinalcom.png",
+        "source_url": "https://www.spinalcom.com/wp-content/themes/mkd-spinalcom/img/icons/touch.png?v3=1",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://www.spinalcom.com/mentions-legales",
+        "status": "https://www.spinalcom.com",
+        "site_languages": [
+          "en",
+          "fr"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.spinalcom.com",
@@ -1093,6 +1243,11 @@
         "corrigo"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/twimm.png",
+        "source_url": "https://icons.duckduckgo.com/ip3/twimm.fr.ico",
+        "fetched_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.twimm.fr",
@@ -1183,6 +1338,21 @@
         "corrigo"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/upkeep.png",
+        "source_url": "https://upkeep.com/icons/icon-512x512.png?v=ca523e9b48d4a77251d82a0bb7d021c9",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "pricing": "https://upkeep.com/pricing",
+        "api_docs": "https://upkeep.com/product/integrations",
+        "privacy": "https://upkeep.com/privacy",
+        "site_languages": [
+          "en",
+          "es"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.upkeep.com",
@@ -1274,6 +1444,20 @@
         "advizeo"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/wattsense.png",
+        "source_url": "https://www.wattsense.com/apple-touch-icon.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "status": "https://status.wattsense.com",
+        "site_languages": [
+          "de",
+          "en",
+          "fr"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.wattsense.com",
@@ -1363,6 +1547,24 @@
         "limble"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/yuman.png",
+        "source_url": "https://www.yuman.io/apple-touch-icon.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "pricing": "https://www.yuman.io/pricing",
+        "site_languages": [
+          "de",
+          "en",
+          "es",
+          "fr",
+          "it",
+          "nl",
+          "pl"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.yuman.io",

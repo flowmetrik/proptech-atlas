@@ -69,6 +69,18 @@
     "nexudus"
   ],
   "reviews": [],
+  "logo": {
+    "file": "logos/essensys.png",
+    "source_url": "https://essensys.tech/wp-content/themes/essensys/favicons/apple-touch-icon-152x152.png",
+    "fetched_on": "2026-08-25"
+  },
+  "signals": {
+    "privacy": "https://essensys.tech/privacy-policy-2",
+    "site_languages": [
+      "en"
+    ],
+    "checked_on": "2026-08-25"
+  },
   "sources": [
     {
       "url": "https://essensys.tech",

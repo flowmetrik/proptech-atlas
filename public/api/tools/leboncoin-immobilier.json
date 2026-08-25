@@ -73,6 +73,11 @@
     "pap"
   ],
   "reviews": [],
+  "logo": {
+    "file": "logos/leboncoin-immobilier.png",
+    "source_url": "https://icons.duckduckgo.com/ip3/leboncoin.fr.ico",
+    "fetched_on": "2026-08-25"
+  },
   "sources": [
     {
       "url": "https://www.leboncoin.fr/immobilier",

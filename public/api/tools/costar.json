@@ -81,6 +81,19 @@
     "yanport"
   ],
   "reviews": [],
+  "logo": {
+    "file": "logos/costar.png",
+    "source_url": "https://www.costar.com/favicon.ico?favicon.2326xz3rqwp08.ico",
+    "fetched_on": "2026-08-25"
+  },
+  "signals": {
+    "privacy": "https://www.costar.com/about/privacy-notice",
+    "site_languages": [
+      "en",
+      "fr"
+    ],
+    "checked_on": "2026-08-25"
+  },
   "sources": [
     {
       "url": "https://www.costar.com",

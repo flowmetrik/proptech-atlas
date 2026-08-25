@@ -6,3 +6,6 @@ dist/
 .env.*
 !.env.example
 # public/api/ est VERSIONNÉ : c’est le produit lisible par une IA (raw.githubusercontent).
+
+# Cache local du pipeline (police téléchargée pour vectoriser le lettrage).
+.cache/

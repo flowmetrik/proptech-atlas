@@ -83,6 +83,22 @@
         "guesty"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/amenitiz.png",
+        "source_url": "https://cdn.prod.website-files.com/686b77875b8b392b250a7ce5/6a032f1c8a426d90b28d3a1f_Amenitiz%20fav-ivcons.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "pricing": "https://amenitiz.com/en/pricing",
+        "site_languages": [
+          "en",
+          "es",
+          "fr",
+          "it",
+          "pt"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.amenitiz.io",
@@ -178,6 +194,24 @@
         "hostaway"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/guesty.png",
+        "source_url": "https://www.guesty.com/images/icon.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "pricing": "https://www.guesty.com/pricing",
+        "privacy": "https://www.guesty.com/privacy-policy",
+        "site_languages": [
+          "de",
+          "en",
+          "es",
+          "fr",
+          "it",
+          "pt"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.guesty.com",
@@ -271,6 +305,21 @@
         "guesty"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/hostaway.png",
+        "source_url": "https://www.hostaway.com/static/hostaway-hero-a9de69ef584f1c6cf561b076179beb90.jpg",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://www.hostaway.com/privacy-policy",
+        "site_languages": [
+          "en",
+          "es",
+          "fr",
+          "it"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.hostaway.com",
@@ -366,6 +415,11 @@
         "ownerrez"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/lodgify.png",
+        "source_url": "https://www.google.com/s2/favicons?domain=lodgify.com&sz=256",
+        "fetched_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.lodgify.com",
@@ -452,6 +506,19 @@
         "guesty"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/ownerrez.png",
+        "source_url": "https://cdn.orez.io/wc/images/pages/teaser-default.png?v=bf2a57b2b0c219df14186e5ebb586b2fb966d97b",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "pricing": "https://www.ownerrez.com/pricing",
+        "privacy": "https://www.ownerrez.com/support/articles/privacy-security-privacy-policy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.ownerrez.com",
@@ -546,6 +613,25 @@
         "hostaway"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/pricelabs.png",
+        "source_url": "https://hello.pricelabs.co/favicon.ico?favicon.0yq22ljih_~gi.ico",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "pricing": "https://www.hello.pricelabs.co/plans",
+        "privacy": "https://www.hello.pricelabs.co/privacy-policy",
+        "site_languages": [
+          "de",
+          "en",
+          "es",
+          "fr",
+          "it",
+          "ja",
+          "pt"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://hello.pricelabs.co",
@@ -637,6 +723,18 @@
         "amenitiz"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/smily.png",
+        "source_url": "https://cdn.prod.website-files.com/5c8ca7584e2db8cfcdaee1de/5c9ceaa7e3044d99dd58e2ec_webclip%402x.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "site_languages": [
+          "en",
+          "fr"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.smily.com",

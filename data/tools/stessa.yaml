@@ -44,6 +44,16 @@ product:
   languages: [en]
 alternatives: [baselane, doorloop]
 reviews: []
+logo:
+  file: logos/stessa.png
+  source_url: https://www.stessa.com/wp-content/themes/twentythirteens/images/favicon.png
+  fetched_on: "2026-08-25"
+signals:
+  pricing: https://www.stessa.com/pricing
+  security: https://www.stessa.com/security
+  privacy: https://www.stessa.com/privacy
+  site_languages: [en]
+  checked_on: "2026-08-25"
 sources: [{ url: https://www.stessa.com, note: site éditeur }]
 verification: { status: unverified, checked_on: null, checked_by: null }
 updated: "2026-08-25"

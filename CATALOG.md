@@ -2,7 +2,7 @@
 
 <!-- Généré par `npm run data:emit`. Ne pas éditer à la main : éditer `data/tools/*.yaml`. -->
 
-155 produits · 96 🇺🇸 · 88 🇫🇷 · mis à jour le 2026-08-25
+158 produits · 96 🇺🇸 · 91 🇫🇷 · mis à jour le 2026-08-25
 
 Version navigable : https://flowmetrik.github.io/proptech-atlas/explore
 
@@ -137,6 +137,9 @@ _Gérer l'immeuble en copropriété — budgets, AG, appels de fonds, travaux._
 |---|---|---|---|
 | [Crypto (Septeo Solutions Immobilier)](data/tools/crypto-septeo.yaml) | Septeo | 🇫🇷 | It is the system of record in many established French administration de biens firms, chosen for accounting depth rather than for interface. Its centre of gravity is the regulated ledger… |
 | [Gercop](data/tools/gercop.yaml) | Septeo | 🇫🇷 | At the scale of tens of thousands of lots across multiple branches, the operational problem moves from bookkeeping to organisation: who manages which building, which assemblies fall in… |
+| [ICS](data/tools/ics.yaml) | ICS | 🇫🇷 | Property management firms and syndics in France use ICS to run their daily back office: co-ownership accounting, fund calls and general assembly administration through the syndic module… |
+| [Matera](data/tools/matera.yaml) | Matera | 🇫🇷 | A council of co-owners who wants to drop a traditional syndic firm and take direct control of the building's finances and decisions logs into Matera to track the budget, issue and follow… |
+| [Powimo](data/tools/powimo.yaml) | Seiitra | 🇫🇷 | A syndic manager uses Powimo to track co-ownership mandates, run accounting per building, prepare and hold dematerialized general assemblies, and issue fund calls to co-owners. A rental… |
 | [Syment](data/tools/syment.yaml) | Syment | 🇫🇷 | A significant share of small French buildings are managed by a syndic bénévole — a co-owner who is not an accountant. That case has particular requirements: the accounting must be… |
 | [Vilogi](data/tools/vilogi.yaml) | Vilogi | 🇫🇷 | A French copropriété is a legal entity with its own accounts, its own budget voted in assembly, and a mandatory extranet for co-owners. Vilogi encodes that cycle: the provisional budget… |
 

@@ -1,0 +1,55 @@
+slug: ics
+name: ICS
+editor: ICS
+website: https://www.ics.fr
+hq_country: FR
+markets: [FR]
+category: syndic-copro
+also_in: [property-management, transaction-management]
+founded: 1978
+positioning: "Independent French software suite for property administrators, used daily by more than 18,000 professionals across cloud-based syndic, management, rental and transaction modules."
+description: >
+  ICS is a French software suite built for administrateurs de biens, covering
+  condominium syndic management, property management, rental management and sales
+  transactions. It is delivered as cloud applications accessible from a standard web
+  browser, with servers hosted in a Class IV datacenter.
+real_estate_use: >
+  Property management firms and syndics in France use ICS to run their daily back
+  office: co-ownership accounting, fund calls and general assembly administration
+  through the syndic module, rental portfolio tracking through the gestion and
+  location modules, and sales file follow-up through the transaction module. Because
+  it runs in the cloud, staff access the same accounting and extra-accounting
+  environment from any browser without maintaining local servers or a VPN.
+features:
+  - Cloud-based access to accounting and extra-accounting environment via web browser
+  - Syndic module for condominium accounting and general assembly management
+  - Gestion module for property management portfolios
+  - Location module for rental management
+  - Transaction module for sales transaction tracking
+  - Hosting in a Class IV datacenter with audited backup strategy
+use_cases:
+  - persona: syndic-manager
+    job: "Manage condominium accounting, fund calls and general assemblies from a cloud application"
+  - persona: property-manager
+    job: Administer rental and managed property portfolios without on-premise IT infrastructure
+  - persona: agent-broker
+    job: Track sales transactions within the same software suite used for management and syndic activity
+personas: [syndic-manager, property-manager, agent-broker]
+segments: [residential]
+company_sizes: [smb, midmarket]
+pricing:
+  model: quote
+  public_pricing: false
+product:
+  api: false
+  open_source: false
+  mobile: []
+  languages: [French]
+reviews: []
+signals:
+  checked_on: "2026-08-25"
+sources:
+  - { url: https://www.ics.fr, note: site éditeur }
+  - { url: https://www.ics.fr/syndic.html, note: source de découverte }
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

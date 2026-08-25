@@ -75,6 +75,18 @@
     "lockimmo"
   ],
   "reviews": [],
+  "logo": {
+    "file": "logos/adapt-immo.png",
+    "source_url": "https://www.adaptimmo.com/wp-content/uploads/2023/03/favicon-ai-alt.png",
+    "fetched_on": "2026-08-25"
+  },
+  "signals": {
+    "privacy": "https://www.adaptimmo.com/mentions-legales",
+    "site_languages": [
+      "fr"
+    ],
+    "checked_on": "2026-08-25"
+  },
   "sources": [
     {
       "url": "https://www.adaptimmo.com",

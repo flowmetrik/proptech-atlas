@@ -65,6 +65,19 @@
     "ownily"
   ],
   "reviews": [],
+  "logo": {
+    "file": "logos/rentila.png",
+    "source_url": "https://www.rentila.com/webflow/images/webclip.png",
+    "fetched_on": "2026-08-25"
+  },
+  "signals": {
+    "pricing": "https://www.rentila.com/pricing",
+    "privacy": "https://www.rentila.com/privacy",
+    "site_languages": [
+      "fr"
+    ],
+    "checked_on": "2026-08-25"
+  },
   "sources": [
     {
       "url": "https://www.rentila.com",

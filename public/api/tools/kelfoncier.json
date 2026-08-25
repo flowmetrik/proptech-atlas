@@ -72,6 +72,21 @@
     "dvf"
   ],
   "reviews": [],
+  "logo": {
+    "file": "logos/kelfoncier.png",
+    "source_url": "https://www.kelfoncier.com/wp-content/themes/kelfoncier/assets/images/favicon.png",
+    "fetched_on": "2026-08-25"
+  },
+  "signals": {
+    "privacy": "https://www.kelfoncier.com/rgpd-cnil",
+    "site_languages": [
+      "de",
+      "en",
+      "fr",
+      "it"
+    ],
+    "checked_on": "2026-08-25"
+  },
   "sources": [
     {
       "url": "https://www.kelfoncier.com",

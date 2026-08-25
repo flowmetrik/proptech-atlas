@@ -80,6 +80,22 @@
     "innago"
   ],
   "reviews": [],
+  "logo": {
+    "file": "logos/doorloop.png",
+    "source_url": "https://cdn.prod.website-files.com/5f073e32d304276cc8b4ff30/69ef686efb5ec4c235b3ab95_doorloop_webClip.png",
+    "fetched_on": "2026-08-25"
+  },
+  "signals": {
+    "pricing": "https://www.doorloop.com/pricing",
+    "api_docs": "https://www.doorloop.com/partner",
+    "security": "https://www.doorloop.com/security",
+    "privacy": "https://www.doorloop.com/legal/privacy",
+    "status": "https://status.doorloop.com",
+    "site_languages": [
+      "en"
+    ],
+    "checked_on": "2026-08-25"
+  },
   "sources": [
     {
       "url": "https://www.doorloop.com",

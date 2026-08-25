@@ -82,6 +82,21 @@
     "boomtown"
   ],
   "reviews": [],
+  "logo": {
+    "file": "logos/follow-up-boss.png",
+    "source_url": "https://cdn.prod.website-files.com/644fec6f9633da07ea1323cb/660c9d9611500e8ebcccde2d_favicon.png",
+    "fetched_on": "2026-08-25"
+  },
+  "signals": {
+    "pricing": "https://www.followupboss.com/pricing",
+    "api_docs": "https://docs.followupboss.com/reference/getting-started",
+    "security": "https://www.followupboss.com/security",
+    "privacy": "https://www.followupboss.com/legal-pages/privacy-notice",
+    "site_languages": [
+      "en"
+    ],
+    "checked_on": "2026-08-25"
+  },
   "sources": [
     {
       "url": "https://www.followupboss.com",

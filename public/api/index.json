@@ -6,12 +6,22 @@
   "repository": "https://github.com/flowmetrik/proptech-atlas",
   "generated": "2026-08-25",
   "counts": {
-    "tools": 155,
+    "tools": 158,
     "US": 96,
-    "FR": 88,
+    "FR": 91,
     "categories": 24,
+    "editors": 143,
     "verified": 0,
-    "reviews": 0
+    "reviews": 0,
+    "logos": 151,
+    "signals": {
+      "probed": 139,
+      "public_pricing": 36,
+      "api_docs": 11,
+      "security_page": 20,
+      "privacy_page": 102,
+      "status_page": 42
+    }
   },
   "endpoints": {
     "tools": "https://flowmetrik.github.io/proptech-atlas/api/tools.json",

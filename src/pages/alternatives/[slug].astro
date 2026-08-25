@@ -1,0 +1,75 @@
+---
+import Base from '../../layouts/Base.astro';
+import ToolCard from '../../components/ToolCard.astro';
+import { tools, bySlug, related, label, byId, url } from '../../lib/catalog';
+
+export function getStaticPaths() {
+  return tools
+    .map((tool) => ({ tool, list: [...(tool.alternatives ?? []).map((s) => bySlug[s]).filter(Boolean), ...related(tool, 8)] }))
+    .filter(({ list }) => list.length >= 3)
+    .map(({ tool, list }) => ({ params: { slug: tool.slug }, props: { tool, list: list.slice(0, 9) } }));
+}
+const { tool, list } = Astro.props;
+const declared = new Set(tool.alternatives ?? []);
+
+/** Ce qui rapproche deux produits, dit en clair plutôt que sous-entendu. */
+function why(t: (typeof list)[number]) {
+  const bits: string[] = [];
+  if (t.category === tool.category) bits.push(`same category — ${label('category', t.category)}`);
+  const p = t.personas.filter((x) => tool.personas.includes(x));
+  if (p.length) bits.push(`serves the same trade${p.length > 1 ? 's' : ''}: ${p.map((x) => label('persona', x)).join(', ')}`);
+  const m = t.markets.filter((x) => tool.markets.includes(x));
+  bits.push(m.length ? `available in ${m.map((x) => label('market', x)).join(' and ')}` : 'different market');
+  return bits.join(' · ');
+}
+
+const title = `Alternatives to ${tool.name}`;
+const description = `${list.length} alternatives and comparable products to ${tool.name} by ${tool.editor}, with what separates them and which markets they serve.`;
+const jsonld = {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: title,
+  numberOfItems: list.length,
+  itemListElement: list.map((t, i) => ({ '@type': 'ListItem', position: i + 1, name: t.name, url: t.website })),
+};
+---
+<Base title={title} description={description} jsonld={jsonld}>
+  <section class="wrap section">
+    <p class="mono muted">
+      <a href={url('explore')}>Explore</a> › <a href={url(`tools/${tool.slug}`)}>{tool.name}</a> › Alternatives
+    </p>
+    <h1>{title}</h1>
+    <p class="lede">
+      {tool.name} is {tool.positioning.charAt(0).toLowerCase() + tool.positioning.slice(1).replace(/\.$/, '')}.
+      Below are {list.length} products that do a comparable job, and what actually separates them.
+    </p>
+    <p class="muted">
+      Two kinds of entry: alternatives <strong>named in the {tool.name} fiche</strong>, and products
+      the catalogue finds close on category, trade, asset class and market. The second kind is a
+      computed proximity, not a recommendation.
+    </p>
+
+    <div class="grid grid-2" style="margin-top:32px">
+      {list.map((t) => (
+        <div class="card" style="padding:20px">
+          <div style="display:flex;align-items:center;gap:10px;margin-bottom:10px">
+            {t.logo
+              ? <img class="tool-logo" src={url(t.logo.file)} alt="" width="36" height="36" loading="lazy" style="width:36px;height:36px" />
+              : null}
+            <div style="flex:1;min-width:0">
+              <h3 style="margin:0"><a href={url(`tools/${t.slug}`)}>{t.name}</a></h3>
+              <div class="muted" style="font-size:0.8125rem">{t.editor}</div>
+            </div>
+            <span class="badge">{declared.has(t.slug) ? 'named alternative' : 'close match'}</span>
+          </div>
+          <p style="font-size:0.9375rem;margin:0 0 10px">{t.positioning}</p>
+          <p class="mono muted" style="font-size:0.75rem;margin:0">{why(t)}</p>
+        </div>
+      ))}
+    </div>
+
+    <hr class="rule" />
+    <h2>Back to {tool.name}</h2>
+    <div class="grid grid-3" style="margin-top:20px"><ToolCard tool={tool} /></div>
+  </section>
+</Base>

@@ -46,6 +46,15 @@ product:
   languages: [en]
 alternatives: [realpage, yardi-voyager, appfolio]
 reviews: []
+logo:
+  file: logos/entrata.png
+  source_url: https://cdn.prod.website-files.com/65eabd7598741e6a15fc75c2/660fd1776a5da038751bf803_favicon-1.png
+  fetched_on: "2026-08-25"
+signals:
+  privacy: https://legal.entrata.com/privacy-policy
+  status: https://status.entrata.com
+  site_languages: [en]
+  checked_on: "2026-08-25"
 sources: [{ url: https://www.entrata.com, note: site éditeur }]
 verification: { status: unverified, checked_on: null, checked_by: null }
 updated: "2026-08-25"

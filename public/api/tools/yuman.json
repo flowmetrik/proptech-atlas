@@ -74,6 +74,24 @@
     "limble"
   ],
   "reviews": [],
+  "logo": {
+    "file": "logos/yuman.png",
+    "source_url": "https://www.yuman.io/apple-touch-icon.png",
+    "fetched_on": "2026-08-25"
+  },
+  "signals": {
+    "pricing": "https://www.yuman.io/pricing",
+    "site_languages": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "it",
+      "nl",
+      "pl"
+    ],
+    "checked_on": "2026-08-25"
+  },
   "sources": [
     {
       "url": "https://www.yuman.io",

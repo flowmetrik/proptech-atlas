@@ -83,6 +83,18 @@
         "lockimmo"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/adapt-immo.png",
+        "source_url": "https://www.adaptimmo.com/wp-content/uploads/2023/03/favicon-ai-alt.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://www.adaptimmo.com/mentions-legales",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.adaptimmo.com",
@@ -164,6 +176,20 @@
         "sierra-interactive"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/agentfire.png",
+        "source_url": "https://agentfire.com/wp-content/uploads/2024/05/cropped-AgentFire-Logo-Icon-Color-256-180x180.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "pricing": "https://agentfire.com/pricing",
+        "privacy": "https://agentfire.com/privacy-policy",
+        "status": "https://agentfire.statuspage.io",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://agentfire.com",
@@ -254,6 +280,22 @@
         "guesty"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/amenitiz.png",
+        "source_url": "https://cdn.prod.website-files.com/686b77875b8b392b250a7ce5/6a032f1c8a426d90b28d3a1f_Amenitiz%20fav-ivcons.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "pricing": "https://amenitiz.com/en/pricing",
+        "site_languages": [
+          "en",
+          "es",
+          "fr",
+          "it",
+          "pt"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.amenitiz.io",
@@ -350,6 +392,19 @@
         "follow-up-boss"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/boldtrail.png",
+        "source_url": "https://insiderealestate.com/wp-content/uploads/2025/01/2024-Q3-IRE-Favicon-512x512-1-300x300.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://insiderealestate.com/privacy-policy",
+        "status": "https://status.insiderealestate.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://insiderealestate.com",
@@ -432,6 +487,18 @@
         ]
       },
       "reviews": [],
+      "logo": {
+        "file": "logos/cloudcma.png",
+        "source_url": "https://d1l7ppudhv5a01.cloudfront.net/assets/apple-touch-icon-b364c5cecc8da24d606d39b11467f2bed1d13338c06b49d0cf3253b383ae514a.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "api_docs": "https://cloudcma.com/developers",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://cloudcma.com",
@@ -523,6 +590,11 @@
         "lockimmo"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/hektor.png",
+        "source_url": "https://icons.duckduckgo.com/ip3/laboiteimmo.com.ico",
+        "fetched_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.laboiteimmo.com",
@@ -618,6 +690,11 @@
         "ownerrez"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/lodgify.png",
+        "source_url": "https://www.google.com/s2/favicons?domain=lodgify.com&sz=256",
+        "fetched_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.lodgify.com",
@@ -716,6 +793,19 @@
         "follow-up-boss"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/lofty.png",
+        "source_url": "https://cdn.lofty.com/image/fs/servicetool/2026722/6/original_d0a60f88f59a4b01.jpg",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "pricing": "https://lofty.com/price-packages",
+        "status": "https://status.lofty.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://lofty.com",
@@ -802,6 +892,19 @@
         "sierra-interactive"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/luxury-presence.png",
+        "source_url": "https://www.luxurypresence.com/wp-content/uploads/fbrfg/apple-touch-icon.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "security": "https://www.luxurypresence.com/legal/security-at-luxury-presence",
+        "privacy": "https://www.luxurypresence.com/legal/privacy-policy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.luxurypresence.com",
@@ -891,6 +994,18 @@
         "immofacile"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/netty.png",
+        "source_url": "https://www.modelo.fr/wp-content/uploads/2024/11/cropped-favicon-180x180.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://www.modelo.fr/politique-de-confidentialite",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.netty.fr",
@@ -1063,6 +1178,20 @@
         "boldtrail"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/realgeeks.png",
+        "source_url": "https://www.realgeeks.com/hubfs/Real%20Geeks%20Favicon.svg",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "pricing": "https://www.realgeeks.com/real-geeks-pricing",
+        "privacy": "https://www.realgeeks.com/privacy",
+        "status": "https://status.realgeeks.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.realgeeks.com",
@@ -1152,6 +1281,19 @@
         "follow-up-boss"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/sierra-interactive.png",
+        "source_url": "https://www.sierrainteractive.com/wp-content/themes/kps3-sii/resources/dist/assets/images/favicon/apple-touch-icon.png?ver=1.2.13",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://www.sierrainteractive.com/privacy-policy",
+        "status": "https://status.sierrainteractive.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.sierrainteractive.com",
@@ -1245,6 +1387,19 @@
         "boldtrail"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/ylopo.png",
+        "source_url": "https://www.ylopo.com/apple-icon.png?apple-icon.31myfjsa53t95.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "pricing": "https://www.ylopo.com/pricing",
+        "privacy": "https://www.ylopo.com/privacy-policy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.ylopo.com",

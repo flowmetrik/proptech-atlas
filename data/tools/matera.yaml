@@ -1,0 +1,65 @@
+slug: matera
+name: Matera
+editor: Matera
+website: https://matera.eu
+hq_country: FR
+markets: [FR]
+category: syndic-copro
+also_in: [property-management]
+founded: 2017
+positioning: "Digital platform that lets condominium councils run their own cooperative syndic while a team of in-house experts handles the technical, legal and accounting complexity."
+description: >
+  Matera is a SaaS platform for French condominiums choosing the cooperative-syndic
+  model, where the council of co-owners manages the building itself instead of hiring
+  a professional syndic firm. The platform centralizes real-time accounting, budget
+  tracking, service-charge calls, document storage, an online messaging system and
+  general-assembly organization (including video conferencing and online voting), and
+  gives access to Matera's in-house teams of accountants, lawyers and building-works
+  specialists for complex matters. Matera also offers a separate rental-management
+  product for landlords who self-manage tenanted properties.
+real_estate_use: >
+  A council of co-owners who wants to drop a traditional syndic firm and take direct
+  control of the building's finances and decisions logs into Matera to track the
+  budget, issue and follow up on service charges, and organize the annual general
+  assembly online. When an incident occurs, such as a water leak, any council member
+  can open a work order, contact a vetted local tradesperson from Matera's network,
+  and follow the repair through to closure on the same platform. When a legal,
+  accounting or technical question goes beyond what the council can resolve alone,
+  they escalate it to Matera's in-house experts rather than hiring outside
+  consultants.
+features:
+  - Real-time per-building accounting dashboard
+  - Automated service-charge calls and payment reminders
+  - Online general-assembly organization with video conferencing and voting
+  - Dedicated messaging space for council and co-owners
+  - "Document repository (minutes, contracts, invoices)"
+  - Work-order tracking for incidents and repairs
+use_cases:
+  - persona: syndic-manager
+    job: "Manage the condominium's budget, accounting and service-charge billing without a professional syndic firm"
+  - persona: syndic-manager
+    job: "Organize and run the general assembly online, including votes and minutes distribution"
+  - persona: syndic-manager
+    job: Track incidents and repair work orders through resolution using a vetted tradesperson network
+personas: [syndic-manager, landlord-owner]
+segments: [residential]
+company_sizes: [smb, midmarket]
+pricing:
+  model: quote
+  public_pricing: false
+  url: https://matera.eu/fr/syndic-copropriete
+product:
+  api: false
+  open_source: false
+  mobile: [ios, android]
+  languages: [French]
+reviews: []
+signals:
+  privacy: https://matera.eu/fr/documentations-juridiques
+  site_languages: [fr]
+  checked_on: "2026-08-25"
+sources:
+  - { url: https://matera.eu, note: "site éditeur, non lisible automatiquement" }
+  - { url: https://matera.eu/fr/syndic-copropriete, note: source de découverte }
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

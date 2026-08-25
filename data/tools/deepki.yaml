@@ -45,6 +45,14 @@ product:
   languages: [fr, en, es, de, it]
 alternatives: [measurabl, advizeo, ubigreen]
 reviews: []
+logo:
+  file: logos/deepki.png
+  source_url: https://www.deepki.com/ico/deepki-ico-180.png
+  fetched_on: "2026-08-25"
+signals:
+  privacy: https://www.deepki.com/privacy-policy
+  site_languages: [en]
+  checked_on: "2026-08-25"
 sources: [{ url: https://www.deepki.com, note: site éditeur }]
 verification: { status: unverified, checked_on: null, checked_by: null }
 updated: "2026-08-25"

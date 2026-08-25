@@ -77,6 +77,20 @@
     "energystar-portfolio-manager"
   ],
   "reviews": [],
+  "logo": {
+    "file": "logos/measurabl.png",
+    "source_url": "https://www.measurabl.com/wp-content/uploads/2024/07/cropped-Linkedin-Logo-180x180.png",
+    "fetched_on": "2026-08-25"
+  },
+  "signals": {
+    "security": "https://www.measurabl.com/security",
+    "privacy": "https://www.measurabl.com/privacy-policy",
+    "site_languages": [
+      "de",
+      "en"
+    ],
+    "checked_on": "2026-08-25"
+  },
   "sources": [
     {
       "url": "https://www.measurabl.com",

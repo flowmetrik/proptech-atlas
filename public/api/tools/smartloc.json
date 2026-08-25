@@ -66,6 +66,16 @@
     "ownily"
   ],
   "reviews": [],
+  "logo": {
+    "file": "logos/smartloc.png",
+    "source_url": "https://www.smartloc.fr/assets/bootstrap/logos/smartloc_carre.png",
+    "fetched_on": "2026-08-25"
+  },
+  "signals": {
+    "pricing": "https://www.smartloc.fr/tarifs",
+    "privacy": "https://www.smartloc.fr/confidentialite",
+    "checked_on": "2026-08-25"
+  },
   "sources": [
     {
       "url": "https://www.smartloc.fr",

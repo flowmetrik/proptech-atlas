@@ -77,6 +77,18 @@
     "check-and-visit"
   ],
   "reviews": [],
+  "logo": {
+    "file": "logos/immopad.png",
+    "source_url": "https://immopad.com/wp-content/uploads/2024/10/cropped-empreinte-t-compresse-1-180x180.png",
+    "fetched_on": "2026-08-25"
+  },
+  "signals": {
+    "privacy": "https://immopad.com/politique-de-confidentialite",
+    "site_languages": [
+      "fr"
+    ],
+    "checked_on": "2026-08-25"
+  },
   "sources": [
     {
       "url": "https://www.immopad.com",

@@ -83,6 +83,19 @@
     "follow-up-boss"
   ],
   "reviews": [],
+  "logo": {
+    "file": "logos/lofty.png",
+    "source_url": "https://cdn.lofty.com/image/fs/servicetool/2026722/6/original_d0a60f88f59a4b01.jpg",
+    "fetched_on": "2026-08-25"
+  },
+  "signals": {
+    "pricing": "https://lofty.com/price-packages",
+    "status": "https://status.lofty.com",
+    "site_languages": [
+      "en"
+    ],
+    "checked_on": "2026-08-25"
+  },
   "sources": [
     {
       "url": "https://lofty.com",

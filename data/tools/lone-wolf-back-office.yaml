@@ -43,6 +43,14 @@ product:
   languages: [en]
 alternatives: [brokermint, skyslope]
 reviews: []
+logo:
+  file: logos/lone-wolf-back-office.png
+  source_url: https://www.lwolf.com/apple-icon.png?e144461f0765bf42
+  fetched_on: "2026-08-25"
+signals:
+  privacy: https://www.lwolf.com/privacy-policy
+  site_languages: [en]
+  checked_on: "2026-08-25"
 sources: [{ url: https://www.lwolf.com, note: site éditeur }]
 verification: { status: unverified, checked_on: null, checked_by: null }
 updated: 2026-08-25

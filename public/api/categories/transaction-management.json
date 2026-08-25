@@ -4,7 +4,7 @@
   "label_fr": "Gestion de transaction & closing",
   "summary_en": "Run a deal from offer to closing — forms, e-signature, compliance, commissions.",
   "summary_fr": "Piloter une vente de l'offre à l'acte — pièces, signature, conformité, commissions.",
-  "count": 15,
+  "count": 16,
   "tools": [
     {
       "slug": "adapt-immo",
@@ -83,6 +83,18 @@
         "lockimmo"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/adapt-immo.png",
+        "source_url": "https://www.adaptimmo.com/wp-content/uploads/2023/03/favicon-ai-alt.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://www.adaptimmo.com/mentions-legales",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.adaptimmo.com",
@@ -178,6 +190,24 @@
         "adapt-immo"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/apimo.png",
+        "source_url": "https://cdn.prod.website-files.com/6707c573399d40b4c0e69c15/6900c4665db087beab86df8b_IMG_0309%20copie%202.JPG",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "api_docs": "https://apimo.com/api",
+        "privacy": "https://apimo.com/politique-de-confidentialite",
+        "site_languages": [
+          "de",
+          "en",
+          "fr",
+          "it",
+          "nl",
+          "pt"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.apimo.net",
@@ -265,6 +295,18 @@
         "boldtrail"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/brokermint.png",
+        "source_url": "https://brokermint.com/wp-content/uploads/2025/02/cropped-2025-Brokermint-Favicon-32x32-1-1-180x180.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://brokermint.com/privacy-policy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.brokermint.com",
@@ -365,6 +407,11 @@
         "reonomy"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/crexi.png",
+        "source_url": "https://icons.duckduckgo.com/ip3/crexi.com.ico",
+        "fetched_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.crexi.com",
@@ -470,6 +517,27 @@
         "yousign"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/docusign.png",
+        "source_url": "https://www.docusign.com/assets/images/apple-touch-icon-180x180.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "pricing": "https://ecom.docusign.com/plans-and-pricing/esignature",
+        "privacy": "https://www.docusign.com/privacy",
+        "status": "https://status.docusign.com",
+        "site_languages": [
+          "de",
+          "en",
+          "es",
+          "fr",
+          "it",
+          "ja",
+          "nl",
+          "pt"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.docusign.com",
@@ -557,6 +625,15 @@
         "brokermint"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/dotloop.png",
+        "source_url": "https://www.dotloop.com/my/static/images/apple-touch-icons/touch-icon-ipad-retina.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://zillow-workspace.com/privacy",
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.dotloop.com",
@@ -648,10 +725,100 @@
         "lockimmo"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/hektor.png",
+        "source_url": "https://icons.duckduckgo.com/ip3/laboiteimmo.com.ico",
+        "fetched_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.laboiteimmo.com",
           "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "ics",
+      "name": "ICS",
+      "editor": "ICS",
+      "website": "https://www.ics.fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "syndic-copro",
+      "also_in": [
+        "property-management",
+        "transaction-management"
+      ],
+      "founded": 1978,
+      "positioning": "Independent French software suite for property administrators, used daily by more than 18,000 professionals across cloud-based syndic, management, rental and transaction modules.",
+      "description": "ICS is a French software suite built for administrateurs de biens, covering condominium syndic management, property management, rental management and sales transactions. It is delivered as cloud applications accessible from a standard web browser, with servers hosted in a Class IV datacenter.\n",
+      "real_estate_use": "Property management firms and syndics in France use ICS to run their daily back office: co-ownership accounting, fund calls and general assembly administration through the syndic module, rental portfolio tracking through the gestion and location modules, and sales file follow-up through the transaction module. Because it runs in the cloud, staff access the same accounting and extra-accounting environment from any browser without maintaining local servers or a VPN.\n",
+      "features": [
+        "Cloud-based access to accounting and extra-accounting environment via web browser",
+        "Syndic module for condominium accounting and general assembly management",
+        "Gestion module for property management portfolios",
+        "Location module for rental management",
+        "Transaction module for sales transaction tracking",
+        "Hosting in a Class IV datacenter with audited backup strategy"
+      ],
+      "use_cases": [
+        {
+          "persona": "syndic-manager",
+          "job": "Manage condominium accounting, fund calls and general assemblies from a cloud application"
+        },
+        {
+          "persona": "property-manager",
+          "job": "Administer rental and managed property portfolios without on-premise IT infrastructure"
+        },
+        {
+          "persona": "agent-broker",
+          "job": "Track sales transactions within the same software suite used for management and syndic activity"
+        }
+      ],
+      "personas": [
+        "syndic-manager",
+        "property-manager",
+        "agent-broker"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "French"
+        ]
+      },
+      "reviews": [],
+      "signals": {
+        "checked_on": "2026-08-25"
+      },
+      "sources": [
+        {
+          "url": "https://www.ics.fr",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://www.ics.fr/syndic.html",
+          "note": "source de découverte"
         }
       ],
       "verification": {
@@ -737,6 +904,17 @@
         "lockimmo"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/immofacile.png",
+        "source_url": "https://media.base44.com/images/public/6a34f2529b2e173c33637639/fbd74a592_logo.png/v1/fill/w_1200,h_630/fbd74a592_logo.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.immofacile.fr",
@@ -825,6 +1003,18 @@
         "brokermint"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/lone-wolf-transactions.png",
+        "source_url": "https://www.lwolf.com/apple-icon.png?e144461f0765bf42",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://www.lwolf.com/privacy-policy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.lwolf.com",
@@ -915,6 +1105,18 @@
         "crypto-septeo"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/modelo.png",
+        "source_url": "https://www.modelo.fr/wp-content/uploads/2024/11/cropped-favicon-180x180.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://www.modelo.fr/politique-de-confidentialite",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.modelo.fr",
@@ -1004,6 +1206,18 @@
         "immofacile"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/netty.png",
+        "source_url": "https://www.modelo.fr/wp-content/uploads/2024/11/cropped-favicon-180x180.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://www.modelo.fr/politique-de-confidentialite",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.netty.fr",
@@ -1090,6 +1304,20 @@
         "resware"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/qualia.png",
+        "source_url": "https://www.qualia.com/icons/apple-touch-icon-180x180.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "security": "https://www.qualia.com/trust",
+        "privacy": "https://www.qualia.com/privacy-policy",
+        "status": "https://status.qualia.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.qualia.com",
@@ -1178,6 +1406,18 @@
         "brokermint"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/skyslope.png",
+        "source_url": "https://www.google.com/s2/favicons?domain=skyslope.com&sz=256",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "status": "https://status.skyslope.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://skyslope.com",
@@ -1270,6 +1510,15 @@
         "netty"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/sweepbright.png",
+        "source_url": "https://cdn.prod.website-files.com/641824c7d039698039a4084d/64957175935b7fb6aa7b3866_Website_logo_256.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://www.sweepbright.com/politique-de-confidentialite",
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.sweepbright.com",
@@ -1369,6 +1618,23 @@
         "docusign"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/yousign.png",
+        "source_url": "https://youtrust.com/apple-touch-icon.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "security": "https://youtrust.com/security",
+        "privacy": "https://youtrust.com/privacy",
+        "site_languages": [
+          "de",
+          "en",
+          "es",
+          "fr",
+          "it"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://yousign.com",

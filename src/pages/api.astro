@@ -63,6 +63,34 @@ alternative_to   tool  → tool`}</code></pre>
     <p>Straight from the repository, no site involved:</p>
     <pre><code>{`curl -s https://raw.githubusercontent.com/flowmetrik/proptech-atlas/main/data/tools/appfolio.yaml`}</code></pre>
 
+    <h2>Verified signals</h2>
+    <p>
+      Every fiche can carry a <span class="mono">signals</span> block. It is the part of the
+      record a machine established on its own, by fetching the vendor's site on a dated check —
+      as opposed to the prose, which is written and marked <span class="mono">unverified</span>
+      until a human recheck.
+    </p>
+    <pre><code>{`"signals": {
+  "pricing":   "https://www.doorloop.com/pricing",     // tarifs publiés, montants visibles
+  "api_docs":  "https://www.doorloop.com/partner",     // documentation d'API
+  "security":  "https://www.doorloop.com/security",    // page sécurité
+  "privacy":   "https://www.doorloop.com/legal/privacy",
+  "status":    "https://status.doorloop.com",          // page d'état de service
+  "site_languages": ["en"],
+  "checked_on": "2026-08-25"
+}`}</code></pre>
+    <div class="callout" style="margin:20px 0">
+      <strong>An absent signal means "not found on that date", never "does not exist".</strong>
+      Please carry that distinction through to whatever you build. A vendor without a
+      <span class="mono">status</span> entry may simply not publish one at a guessable URL.
+    </div>
+    <p>Products whose vendor publishes prices openly, in France:</p>
+    <pre><code>{`curl -s ${abs('api/tools.json')} \
+  | jq '[.tools[]
+      | select(.markets | index("FR"))
+      | select(.signals.pricing)
+      | {name, pricing: .signals.pricing}]'`}</code></pre>
+
     <h2>For AI builders</h2>
     <p>
       Three things this dataset does that a scraped directory cannot. Each fiche separates
@@ -70,7 +98,8 @@ alternative_to   tool  → tool`}</code></pre>
       one carries a <span class="mono">real_estate_use</span> field describing the job on the
       ground, which is the part a model needs to answer "which tool for this situation". And each
       one carries a verification status — so a model can decline to assert what nobody has
-      checked.
+      checked, while still leaning on the <span class="mono">signals</span> block, which is
+      machine-established and dated.
     </p>
     <p>
       Please do not present an <span class="mono">unverified</span> fiche as an established fact.

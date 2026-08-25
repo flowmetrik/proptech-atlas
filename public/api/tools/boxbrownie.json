@@ -78,6 +78,23 @@
     "cubicasa"
   ],
   "reviews": [],
+  "logo": {
+    "file": "logos/boxbrownie.png",
+    "source_url": "https://www.boxbrownie.com/img/favicon/apple-touch-icon.png",
+    "fetched_on": "2026-08-25"
+  },
+  "signals": {
+    "privacy": "https://www.boxbrownie.com/privacy",
+    "site_languages": [
+      "ca",
+      "en",
+      "es",
+      "fr",
+      "ja",
+      "pt"
+    ],
+    "checked_on": "2026-08-25"
+  },
   "sources": [
     {
       "url": "https://www.boxbrownie.com",

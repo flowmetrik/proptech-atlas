@@ -41,6 +41,15 @@ product:
   languages: [en]
 alternatives: [snappt]
 reviews: []
+logo:
+  file: logos/theguarantors.png
+  source_url: https://www.theguarantors.com/favicon.png
+  fetched_on: "2026-08-25"
+signals:
+  api_docs: https://www.theguarantors.com/api
+  privacy: https://www.theguarantors.com/privacy
+  site_languages: [en]
+  checked_on: "2026-08-25"
 sources: [{ url: https://www.theguarantors.com, note: site éditeur }]
 verification: { status: unverified, checked_on: null, checked_by: null }
 updated: "2026-08-25"

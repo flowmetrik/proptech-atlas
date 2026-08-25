@@ -41,6 +41,15 @@ product:
   languages: [fr]
 alternatives: [meilleursagents, pricehubble, dvf, fluximmo]
 reviews: []
+logo:
+  file: logos/yanport.png
+  source_url: https://www.yanport.com/assets/images/graphics/og-logo.jpg
+  fetched_on: "2026-08-25"
+signals:
+  privacy: https://www.yanport.com/legal/privacy
+  status: https://status.yanport.com
+  site_languages: [en]
+  checked_on: "2026-08-25"
 sources: [{ url: https://www.yanport.com, note: site éditeur }]
 verification: { status: unverified, checked_on: null, checked_by: null }
 updated: "2026-08-25"

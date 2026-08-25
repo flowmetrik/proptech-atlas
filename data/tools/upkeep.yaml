@@ -43,6 +43,16 @@ product:
   languages: [en, es]
 alternatives: [limble, servicechannel, corrigo]
 reviews: []
+logo:
+  file: logos/upkeep.png
+  source_url: https://upkeep.com/icons/icon-512x512.png?v=ca523e9b48d4a77251d82a0bb7d021c9
+  fetched_on: "2026-08-25"
+signals:
+  pricing: https://upkeep.com/pricing
+  api_docs: https://upkeep.com/product/integrations
+  privacy: https://upkeep.com/privacy
+  site_languages: [en, es]
+  checked_on: "2026-08-25"
 sources: [{ url: https://www.upkeep.com, note: site éditeur }]
 verification: { status: unverified, checked_on: null, checked_by: null }
 updated: "2026-08-25"

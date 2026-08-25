@@ -79,6 +79,18 @@
     "boxbrownie"
   ],
   "reviews": [],
+  "logo": {
+    "file": "logos/cubicasa.png",
+    "source_url": "https://cubicasa-wordpress-uploads.s3.amazonaws.com/uploads/2026/06/cubicasa-share-image.jpg",
+    "fetched_on": "2026-08-25"
+  },
+  "signals": {
+    "privacy": "https://www.cubi.casa/privacy-notice",
+    "site_languages": [
+      "en"
+    ],
+    "checked_on": "2026-08-25"
+  },
   "sources": [
     {
       "url": "https://www.cubi.casa",

@@ -85,6 +85,20 @@
         "mri-software"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/argus-enterprise.png",
+        "source_url": "https://www.altusgroup.com/favicon/Altus/apple-touch-icon.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "security": "https://www.altusgroup.com/trust-center",
+        "privacy": "https://www.altusgroup.com/legal/privacy-policy",
+        "site_languages": [
+          "en",
+          "fr"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.altusgroup.com/argus",
@@ -173,6 +187,20 @@
         "costar"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/cherre.png",
+        "source_url": "https://cherre.com/web-assets/img/favicon.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "security": "https://cherre.com/security",
+        "privacy": "https://cherre.com/policies",
+        "status": "https://status.cherre.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://cherre.com",
@@ -269,6 +297,19 @@
         "yanport"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/costar.png",
+        "source_url": "https://www.costar.com/favicon.ico?favicon.2326xz3rqwp08.ico",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://www.costar.com/about/privacy-notice",
+        "site_languages": [
+          "en",
+          "fr"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.costar.com",
@@ -361,6 +402,18 @@
         "juniper-square"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/dealpath.png",
+        "source_url": "https://www.dealpath.com/wp-content/uploads/2025/01/cropped-favicon-180x180.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://www.dealpath.com/privacy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.dealpath.com",
@@ -442,6 +495,17 @@
         "stessa"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/horiz.png",
+        "source_url": "https://horiz.io/favicon.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.horiz.io",
@@ -531,6 +595,19 @@
         "yardi-voyager"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/juniper-square.png",
+        "source_url": "https://assets.junipersquare.com/images/_1200x630_crop_center-center_82_none/share.png?v=1779402326",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://www.junipersquare.com/privacy-policy",
+        "status": "https://status.junipersquare.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.junipersquare.com",
@@ -624,6 +701,20 @@
         "dealpath"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/northspyre.png",
+        "source_url": "https://www.northspyre.com/wp-content/uploads/2024/12/cropped-Northspyresymbol_logo-2-180x180.webp",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "security": "https://www.northspyre.com/soc-2-northspyre-compliance",
+        "privacy": "https://www.northspyre.com/privacypolicy",
+        "status": "https://secure-stats.pingdom.com/xw3pjczb6eht/6818543?_gl=1*d4yp6i*_gcl_au*MjA3ODE4MDQ4MC4xNjk2MjU3MTkw",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.northspyre.com",
@@ -718,6 +809,19 @@
         "cityscan"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/placer-ai.png",
+        "source_url": "https://cdn.prod.website-files.com/62d4feaf5d3ddb3f0f9c5515/62d50072cb5c4044fdaa789a_placer-webclip.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "privacy": "https://www.placer.ai/privacy-policy",
+        "status": "https://status.placer.ai",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.placer.ai",
@@ -888,6 +992,20 @@
         "doorloop"
       ],
       "reviews": [],
+      "logo": {
+        "file": "logos/stessa.png",
+        "source_url": "https://www.stessa.com/wp-content/themes/twentythirteens/images/favicon.png",
+        "fetched_on": "2026-08-25"
+      },
+      "signals": {
+        "pricing": "https://www.stessa.com/pricing",
+        "security": "https://www.stessa.com/security",
+        "privacy": "https://www.stessa.com/privacy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
       "sources": [
         {
           "url": "https://www.stessa.com",

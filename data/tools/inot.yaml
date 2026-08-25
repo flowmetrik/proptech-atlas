@@ -41,6 +41,14 @@ product:
   languages: [fr]
 alternatives: [genapi]
 reviews: []
+logo:
+  file: logos/inot.png
+  source_url: https://www.adnov.fr/wp-content/uploads/2024/06/Favicon-AV-Bleu-FD-Blanc-32-32.png
+  fetched_on: "2026-08-25"
+signals:
+  privacy: https://www.adnov.fr/mentions-legales
+  site_languages: [fr]
+  checked_on: "2026-08-25"
 sources: [{ url: https://www.adnov.fr, note: site éditeur }]
 verification: { status: unverified, checked_on: null, checked_by: null }
 updated: "2026-08-25"

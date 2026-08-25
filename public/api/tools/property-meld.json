@@ -77,6 +77,20 @@
     "hemlane"
   ],
   "reviews": [],
+  "logo": {
+    "file": "logos/property-meld.png",
+    "source_url": "https://propertymeld.com/wp-content/uploads/2023/12/PM-Logo-Icon-Full-Color@10x.png",
+    "fetched_on": "2026-08-25"
+  },
+  "signals": {
+    "pricing": "https://propertymeld.com/pricing",
+    "privacy": "https://propertymeld.com/privacy-policy",
+    "status": "https://status.propertymeld.com",
+    "site_languages": [
+      "en"
+    ],
+    "checked_on": "2026-08-25"
+  },
   "sources": [
     {
       "url": "https://propertymeld.com",

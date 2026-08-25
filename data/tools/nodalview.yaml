@@ -45,6 +45,14 @@ product:
   languages: [fr, nl, en, es]
 alternatives: [matterport, cubicasa, boxbrownie]
 reviews: []
+logo:
+  file: logos/nodalview.png
+  source_url: https://nodalview.com/apple-touch-icon.png
+  fetched_on: "2026-08-25"
+signals:
+  privacy: https://nodalview.com/privacy-policy
+  site_languages: [en, es, fr, it, nl, pt]
+  checked_on: "2026-08-25"
 sources: [{ url: https://www.nodalview.com, note: site éditeur }]
 verification: { status: unverified, checked_on: null, checked_by: null }
 updated: "2026-08-25"

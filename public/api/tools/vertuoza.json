@@ -71,6 +71,19 @@
     "batappli"
   ],
   "reviews": [],
+  "logo": {
+    "file": "logos/vertuoza.png",
+    "source_url": "https://cdn.prod.website-files.com/65797288ffb18dfb73d784d3/65797b8b4dfdfcfae7ab5480_webclip.png",
+    "fetched_on": "2026-08-25"
+  },
+  "signals": {
+    "privacy": "https://www.vertuoza.com/fr-be/politique-de-confidentialite",
+    "site_languages": [
+      "fr",
+      "nl"
+    ],
+    "checked_on": "2026-08-25"
+  },
   "sources": [
     {
       "url": "https://www.vertuoza.com",

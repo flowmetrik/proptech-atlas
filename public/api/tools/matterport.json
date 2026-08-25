@@ -90,6 +90,28 @@
     "boxbrownie"
   ],
   "reviews": [],
+  "logo": {
+    "file": "logos/matterport.png",
+    "source_url": "https://images.ctfassets.net/icnj41gkyohw/1XJtpPGI0zKF5QBrmaiNLH/523c47127070e2a7423cece0d99e8594/favicon.svg",
+    "fetched_on": "2026-08-25"
+  },
+  "signals": {
+    "pricing": "https://matterport.com/plans",
+    "api_docs": "https://matterport.com/developers",
+    "security": "https://matterport.com/trust",
+    "privacy": "https://www.costar.com/about/privacy-notice",
+    "status": "https://status.matterport.com",
+    "site_languages": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "it",
+      "ja",
+      "ko"
+    ],
+    "checked_on": "2026-08-25"
+  },
   "sources": [
     {
       "url": "https://matterport.com",

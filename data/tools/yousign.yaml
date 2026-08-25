@@ -45,6 +45,15 @@ product:
   languages: [fr, en, de, es, it]
 alternatives: [docusign]
 reviews: []
+logo:
+  file: logos/yousign.png
+  source_url: https://youtrust.com/apple-touch-icon.png
+  fetched_on: "2026-08-25"
+signals:
+  security: https://youtrust.com/security
+  privacy: https://youtrust.com/privacy
+  site_languages: [de, en, es, fr, it]
+  checked_on: "2026-08-25"
 sources: [{ url: https://yousign.com, note: site éditeur }]
 verification: { status: unverified, checked_on: null, checked_by: null }
 updated: "2026-08-25"
