@@ -179,8 +179,11 @@ a.card:hover { text-decoration: none; border-color: var(--border-strong); transf
 .results-count { font-size: 0.875rem; color: var(--muted); }
 .empty { padding: 60px 24px; text-align: center; color: var(--muted); border: 1px dashed var(--border-strong); border-radius: var(--radius); }
 
-.stat-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1px; background: var(--border); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; }
-.stat { background: var(--card); padding: 20px; }
+/* Les séparateurs viennent d'une ombre portée, pas d'un `gap` sur fond coloré :
+ * quand la rangée passe à la ligne, la place restante reste blanche au lieu de
+ * laisser apparaître le fond gris. `overflow: hidden` rogne les traits du bord. */
+.stat-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; }
+.stat { padding: 20px; box-shadow: 1px 0 0 var(--border), 0 1px 0 var(--border); }
 .stat .n { font-family: Manrope, sans-serif; font-size: 1.75rem; font-weight: 800; letter-spacing: -0.03em; display: block; }
 .stat .l { font-size: 0.8125rem; color: var(--muted); }
 
