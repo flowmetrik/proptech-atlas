@@ -1,0 +1,22 @@
+name: Dispute an entry (vendors)
+description: You are the vendor and consider an entry unfair or inaccurate
+title: "[Dispute] "
+labels: [disputed]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The entry will be marked `disputed` on the site while this is looked at, in public.
+        Corrections of fact are applied quickly. Requests to rewrite a description into
+        marketing copy, to add an unsourced rating, or to remove a competitor are not.
+  - type: input
+    id: slug
+    attributes: { label: Product slug }
+    validations: { required: true }
+  - type: textarea
+    id: dispute
+    attributes: { label: What you dispute, and why }
+    validations: { required: true }
+  - type: textarea
+    id: evidence
+    attributes: { label: Evidence, description: URLs supporting your position }

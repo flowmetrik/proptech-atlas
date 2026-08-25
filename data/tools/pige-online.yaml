@@ -1,0 +1,48 @@
+slug: pige-online
+name: Pige Online
+editor: Pige Online
+website: https://www.pige-online.fr
+hq_country: FR
+markets: [FR]
+category: estimation-pricing
+also_in: [crm-lead]
+positioning: Prospecting software built around the French pige — finding the private seller before the competing agency does.
+description: >
+  Pige Online is a prospecting tool for French agents: it consolidates private-seller
+  listings published across portals, deduplicates them, tracks price changes and time on
+  market, and organises the agent's canvassing follow-up.
+real_estate_use: >
+  In a market without an MLS, agency growth depends on converting private sellers into
+  mandates, and the same property appears on four portals under three different prices.
+  The software's job is deduplication and timing: a listing whose price has just dropped is
+  a seller whose confidence has just fallen, which is the moment an agent calls.
+features:
+  - Consolidation and deduplication of private-seller listings across portals
+  - Price change and time-on-market tracking per property
+  - Canvassing follow-up with call history and reminders
+  - Sector and criteria-based alerts
+  - Owner contact organisation for prospecting rounds
+  - Team assignment and duplicate call prevention
+use_cases:
+  - persona: agent-broker
+    job: Call a private seller the day their asking price drops
+  - persona: brokerage
+    job: Split canvassing sectors across a team without two agents calling the same owner
+personas: [agent-broker, brokerage]
+segments: [residential]
+company_sizes: [solo, smb, midmarket]
+pricing:
+  model: subscription
+  public_pricing: true
+  url: https://www.pige-online.fr/tarifs
+integrations: [Hektor, Netty, Apimo]
+product:
+  api: false
+  open_source: false
+  mobile: [ios, android]
+  languages: [fr]
+alternatives: [hektor, netty]
+reviews: []
+sources: [{ url: https://www.pige-online.fr, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

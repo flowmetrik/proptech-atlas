@@ -1,0 +1,92 @@
+{
+  "slug": "apartments-com",
+  "name": "Apartments.com",
+  "editor": "CoStar Group",
+  "website": "https://www.apartments.com",
+  "hq_country": "US",
+  "markets": [
+    "US"
+  ],
+  "category": "portals-marketplaces",
+  "also_in": [
+    "property-management",
+    "tenant-screening"
+  ],
+  "founded": 1992,
+  "positioning": "The dominant US rental marketplace, bundled with free tooling that pulls small landlords onto the platform.",
+  "description": "CoStar's rental network — Apartments.com and its sister sites — lists apartments and single-family rentals nationally. Alongside paid advertising for professional managers, it offers small landlords free listing, online applications, tenant screening, lease signing and rent collection.\n",
+  "real_estate_use": "A professional manager buys placement and lead volume for a lease-up. An individual landlord uses the free side as their entire operating system: list the unit, receive applications with credit and background checks, sign a state-specific lease and collect rent by ACH. That free tier is why so many small portfolios never buy dedicated property management software.\n",
+  "features": [
+    "National rental listing network with paid placement tiers",
+    "Online rental applications with tenant screening",
+    "State-specific lease templates and e-signature",
+    "Online rent collection and payment tracking",
+    "Renter profiles and application reuse",
+    "Rental market rent comparables for pricing"
+  ],
+  "use_cases": [
+    {
+      "persona": "property-manager",
+      "job": "Fill vacancies in a lease-up with paid placement and measured lead volume"
+    },
+    {
+      "persona": "landlord-owner",
+      "job": "List, screen, lease and collect rent on a handful of units at no software cost"
+    }
+  ],
+  "personas": [
+    "property-manager",
+    "landlord-owner",
+    "tenant-occupier"
+  ],
+  "segments": [
+    "multifamily",
+    "residential"
+  ],
+  "company_sizes": [
+    "solo",
+    "smb",
+    "midmarket",
+    "enterprise"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "public_pricing": false
+  },
+  "integrations": [
+    "Yardi",
+    "RealPage",
+    "Entrata",
+    "AppFolio",
+    "CoStar data"
+  ],
+  "product": {
+    "api": true,
+    "open_source": false,
+    "mobile": [
+      "ios",
+      "android"
+    ],
+    "languages": [
+      "en"
+    ]
+  },
+  "alternatives": [
+    "zillow",
+    "zumper",
+    "rentspree"
+  ],
+  "reviews": [],
+  "sources": [
+    {
+      "url": "https://www.apartments.com",
+      "note": "site éditeur"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-25"
+}

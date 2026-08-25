@@ -1,0 +1,50 @@
+slug: encompass
+name: Encompass
+editor: ICE Mortgage Technology
+website: https://www.icemortgagetechnology.com
+hq_country: US
+markets: [US]
+category: lending-mortgage
+founded: 1997
+positioning: The loan origination system a large share of US mortgages are actually manufactured in.
+description: >
+  Encompass is a loan origination system covering the mortgage lifecycle: application intake,
+  processing, underwriting, closing document generation, compliance testing and delivery to
+  investors, with a configuration and partner ecosystem around it.
+real_estate_use: >
+  A residential mortgage is a regulated manufacturing process — disclosure timing, fee
+  tolerance, appraisal ordering, TRID compliance — where a missed deadline is a legal defect,
+  not an inconvenience. Encompass encodes those rules in the workflow, which is why it sits
+  at the centre of most lender operations and why the whole vendor ecosystem integrates with
+  it.
+features:
+  - End-to-end loan origination workflow from application to funding
+  - Automated compliance testing including TRID and disclosure timing
+  - Closing document generation and e-signature
+  - Product and pricing engine integration
+  - Investor delivery and secondary market handoff
+  - Extensive partner integration marketplace
+use_cases:
+  - persona: lender-broker
+    job: Manufacture a compliant residential loan file from application to funding
+  - persona: lender-broker
+    job: Deliver closed loans to investors without re-keying the file
+personas: [lender-broker]
+segments: [residential, multifamily]
+company_sizes: [smb, midmarket, enterprise]
+pricing:
+  model: quote
+  public_pricing: false
+integrations: [Blend, Qualia, credit bureaus, appraisal management, investor systems]
+ai:
+  capabilities: [Document recognition and data extraction, Automated condition clearing]
+product:
+  api: true
+  open_source: false
+  mobile: [ios, android]
+  languages: [en]
+alternatives: [blend, floify]
+reviews: []
+sources: [{ url: https://www.icemortgagetechnology.com, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

@@ -1,0 +1,48 @@
+slug: rentredi
+name: RentRedi
+editor: RentRedi
+website: https://rentredi.com
+hq_country: US
+markets: [US]
+category: property-management
+founded: 2016
+positioning: Mobile-first landlord software, sold at a flat price regardless of how many doors you own.
+description: >
+  RentRedi covers rent collection, applications and screening, lease signing, maintenance
+  with video submission from tenants, and accounting through a REI Hub integration. Pricing
+  is a flat subscription rather than per unit.
+real_estate_use: >
+  Aimed at the small investor building a portfolio: because pricing does not scale per door,
+  going from five units to twenty costs nothing more. Tenants submit maintenance issues by
+  video from the app, which cuts the diagnostic phone call, and payments can be split across
+  cards, ACH or cash at retail locations.
+features:
+  - Flat-rate pricing independent of unit count
+  - Rent collection by ACH, card and retail cash payment
+  - Video maintenance requests from the tenant app
+  - Applications, screening and lease e-signature
+  - Accounting through REI Hub integration
+  - Listing syndication to rental sites
+use_cases:
+  - persona: landlord-owner
+    job: Grow a rental portfolio without software cost scaling per door
+  - persona: property-manager
+    job: Diagnose a maintenance issue from a tenant video before dispatching a vendor
+personas: [landlord-owner, property-manager]
+segments: [residential]
+company_sizes: [solo, smb]
+pricing:
+  model: subscription
+  public_pricing: true
+  url: https://rentredi.com/pricing
+integrations: [REI Hub, TransUnion screening, Realtor.com, Zillow Rentals]
+product:
+  api: false
+  open_source: false
+  mobile: [ios, android]
+  languages: [en]
+alternatives: [turbotenant, innago, avail, tenantcloud]
+reviews: []
+sources: [{ url: https://rentredi.com, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

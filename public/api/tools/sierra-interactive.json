@@ -1,0 +1,89 @@
+{
+  "slug": "sierra-interactive",
+  "name": "Sierra Interactive",
+  "editor": "Sierra Interactive",
+  "website": "https://www.sierrainteractive.com",
+  "hq_country": "US",
+  "markets": [
+    "US"
+  ],
+  "category": "crm-lead",
+  "also_in": [
+    "agent-marketing"
+  ],
+  "founded": 2005,
+  "positioning": "A search experience fast enough to rank, wired directly into the CRM that works the leads it produces.",
+  "description": "Sierra Interactive sells an IDX website plus CRM aimed at teams that generate their own organic and paid traffic. The product is known for site performance and SEO structure — neighbourhood and market pages built to rank — with lead routing, action plans and a dialer on the CRM side.\n",
+  "real_estate_use": "Teams that treat their website as the lead source, not as a brochure, use Sierra to build hundreds of hyperlocal landing pages, capture registrations behind listing detail, and drop the registrant straight into a routed follow-up plan. The value is measured in organic lead volume and cost per lead against portal pricing.\n",
+  "features": [
+    "High-performance IDX search with map, polygon and school filters",
+    "SEO-oriented market, neighbourhood and community page builder",
+    "CRM with lead routing, action plans and accountability reporting",
+    "Integrated dialer, SMS and email marketing",
+    "Listing and open house landing pages",
+    "PPC and lead-source attribution reporting"
+  ],
+  "use_cases": [
+    {
+      "persona": "agent-broker",
+      "job": "Rank on hyperlocal searches and convert organic traffic into registered leads"
+    },
+    {
+      "persona": "brokerage",
+      "job": "Hold agents accountable to response time on self-generated web leads"
+    }
+  ],
+  "personas": [
+    "agent-broker",
+    "brokerage"
+  ],
+  "segments": [
+    "residential"
+  ],
+  "company_sizes": [
+    "solo",
+    "smb",
+    "midmarket"
+  ],
+  "pricing": {
+    "model": "per-seat",
+    "public_pricing": true,
+    "url": "https://www.sierrainteractive.com/pricing"
+  },
+  "integrations": [
+    "MLS IDX feeds",
+    "Zapier",
+    "Google Analytics",
+    "BombBomb"
+  ],
+  "product": {
+    "api": true,
+    "open_source": false,
+    "mobile": [
+      "ios",
+      "android"
+    ],
+    "languages": [
+      "en"
+    ]
+  },
+  "alternatives": [
+    "realgeeks",
+    "lofty",
+    "boldtrail",
+    "follow-up-boss"
+  ],
+  "reviews": [],
+  "sources": [
+    {
+      "url": "https://www.sierrainteractive.com",
+      "note": "site éditeur"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-25"
+}

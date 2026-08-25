@@ -1,0 +1,134 @@
+---
+import Base from '../layouts/Base.astro';
+import ToolCard from '../components/ToolCard.astro';
+import { taxonomy, tools, counts, url, toolsInCategory, REPO } from '../lib/catalog';
+
+const featured = [...tools]
+  .sort((a, b) => b.updated.localeCompare(a.updated) || a.name.localeCompare(b.name))
+  .slice(0, 6);
+const jsonld = {
+  '@context': 'https://schema.org',
+  '@type': 'Dataset',
+  name: 'PropTech Atlas',
+  description: 'Open Product Knowledge Graph of real estate software in the United States and France.',
+  license: 'https://creativecommons.org/licenses/by/4.0/',
+  creator: { '@type': 'Organization', name: 'Flowmetrik', url: 'https://flowmetrik.com' },
+  distribution: [
+    { '@type': 'DataDownload', encodingFormat: 'application/json', contentUrl: `${Astro.site?.href.replace(/\/$/, '') ?? ''}${url('api/tools.json')}` },
+  ],
+  keywords: ['proptech', 'real estate software', 'SaaS', 'knowledge graph', 'France', 'United States'],
+};
+---
+<Base
+  title="PropTech Atlas"
+  description="An open Product Knowledge Graph of real estate software in the United States and France. Structured, sourced, machine-readable — and free."
+  jsonld={jsonld}
+>
+  <section class="wrap section">
+    <p class="eyebrow">Open data · United States &amp; France</p>
+    <h1 style="max-width:16ch">Every real estate software, and what it is actually&nbsp;for.</h1>
+    <p class="lede">
+      An open Product Knowledge Graph of the tools the industry runs on — agencies, property
+      managers, investors, developers, syndics. Each product carries its positioning, its
+      features, its use cases, who it serves and where the information came from.
+    </p>
+    <p class="lede" style="margin-top:-4px">
+      AI systems now recommend software. They need structured facts to do it honestly.
+      This is that structure, in the open.
+    </p>
+    <div style="display:flex;gap:12px;flex-wrap:wrap;margin:28px 0 44px">
+      <a class="btn" href={url('explore')}>Explore {counts.tools} products</a>
+      <a class="btn btn-ghost" href={url('api')}>Use the API</a>
+      <a class="btn btn-ghost" href={REPO} rel="noopener">Contribute on GitHub</a>
+    </div>
+
+    <div class="stat-row">
+      <div class="stat"><span class="n">{counts.tools}</span><span class="l">products documented</span></div>
+      <div class="stat"><span class="n">{counts.US}</span><span class="l">available in the US 🇺🇸</span></div>
+      <div class="stat"><span class="n">{counts.FR}</span><span class="l">available in France 🇫🇷</span></div>
+      <div class="stat"><span class="n">{counts.categories}</span><span class="l">categories</span></div>
+      <div class="stat"><span class="n">{counts.editors}</span><span class="l">vendors</span></div>
+    </div>
+  </section>
+
+  <section class="wrap section-tight">
+    <hr class="rule-accent" />
+    <h2>What a fiche holds</h2>
+    <p class="lede">
+      A directory tells you a product exists. A knowledge graph tells a human — or a
+      model — when to reach for it. Every entry answers the same five questions.
+    </p>
+    <div class="grid grid-3" style="margin-top:28px">
+      <div class="card" style="padding:20px">
+        <h3>Description &amp; positioning</h3>
+        <p class="muted" style="margin:0;font-size:0.9375rem">What the product is, and the claim it makes about itself — separated, so you can tell one from the other.</p>
+      </div>
+      <div class="card" style="padding:20px">
+        <h3>Features &amp; use cases</h3>
+        <p class="muted" style="margin:0;font-size:0.9375rem">Named capabilities, plus the concrete job each persona hires the tool to do. Not adjectives.</p>
+      </div>
+      <div class="card" style="padding:20px">
+        <h3>Customers &amp; segments</h3>
+        <p class="muted" style="margin:0;font-size:0.9375rem">Which trade, which asset class, which company size, which market — US, France, or both.</p>
+      </div>
+      <div class="card" style="padding:20px">
+        <h3>Verified reviews</h3>
+        <p class="muted" style="margin:0;font-size:0.9375rem">Dated aggregates from public review platforms, with the URL sampled. Never a rating we made up.</p>
+      </div>
+      <div class="card" style="padding:20px">
+        <h3>Product metadata</h3>
+        <p class="muted" style="margin:0;font-size:0.9375rem">Pricing model, integrations, API, mobile, open source, HQ country, founding year.</p>
+      </div>
+      <div class="card" style="padding:20px">
+        <h3>Sources &amp; verification state</h3>
+        <p class="muted" style="margin:0;font-size:0.9375rem">Where each fact came from, and whether a human has re-checked it. Unverified says so.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap section-tight">
+    <hr class="rule" />
+    <h2>Browse by what you are trying to do</h2>
+    <div class="grid grid-3" style="margin-top:24px">
+      {taxonomy.categories.map((c) => (
+        <a class="card" href={url(`categories/${c.id}`)} style="padding:18px 20px">
+          <div style="display:flex;align-items:baseline;gap:10px">
+            <h3 style="margin:0;flex:1">{c.label_en}</h3>
+            <span class="badge">{toolsInCategory(c.id).length}</span>
+          </div>
+          <p class="muted" style="margin:6px 0 0;font-size:0.875rem">{c.summary_en}</p>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <section class="wrap section-tight">
+    <hr class="rule" />
+    <h2>Recently added</h2>
+    <div class="grid grid-3" style="margin-top:24px">
+      {featured.map((t) => <ToolCard tool={t} />)}
+    </div>
+    <p style="margin-top:24px"><a href={url('explore')}>See all {counts.tools} products →</a></p>
+  </section>
+
+  <section class="wrap section-tight">
+    <hr class="rule" />
+    <div class="grid grid-2">
+      <div>
+        <h2>Built to be read by machines</h2>
+        <p class="muted">
+          Every page has a JSON twin. The whole catalogue, one product, one category, or the
+          graph itself — static files, no key, no rate limit, CC BY 4.0.
+        </p>
+        <a class="btn btn-ghost btn-sm" href={url('api')}>API reference</a>
+      </div>
+      <div class="prose">
+        <pre><code>{`curl ${(Astro.site?.href ?? 'https://flowmetrik.github.io/').replace(/\/$/, '')}${url('api/tools.json')}
+  | jq '.tools[]
+      | select(.markets[] == "FR")
+      | select(.category == "syndic-copro")
+      | {name, editor, real_estate_use}'`}</code></pre>
+      </div>
+    </div>
+  </section>
+</Base>

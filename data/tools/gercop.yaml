@@ -1,0 +1,47 @@
+slug: gercop
+name: Gercop
+editor: Septeo
+website: https://www.gercop.com
+hq_country: FR
+markets: [FR]
+category: syndic-copro
+also_in: [property-management, back-office-accounting]
+positioning: Property administration software for larger French firms, where volume and multi-site organisation are the constraint.
+description: >
+  Gercop, also part of Septeo, provides syndic, gérance and transaction management for French
+  administration de biens: accounting, assemblies, calls for funds, lease management,
+  extranets and business reporting, aimed at structures managing large portfolios.
+real_estate_use: >
+  At the scale of tens of thousands of lots across multiple branches, the operational problem
+  moves from bookkeeping to organisation: who manages which building, which assemblies fall
+  in which month, where arrears are concentrating. Gercop is bought for that management
+  layer over the same regulated accounting base.
+features:
+  - Syndic and gérance accounting at portfolio scale
+  - Assembly planning and convocation across many buildings
+  - Calls for funds, arrears tracking and recovery workflows
+  - Lease management with indexation and charge regularisation
+  - Multi-branch organisation and portfolio assignment
+  - Management reporting and dashboards
+use_cases:
+  - persona: syndic-manager
+    job: Plan and run assemblies across hundreds of buildings without losing deadlines
+  - persona: property-manager
+    job: Track arrears concentration across a large managed portfolio
+personas: [syndic-manager, property-manager]
+segments: [residential, office, retail, mixed-use]
+company_sizes: [midmarket, enterprise]
+pricing:
+  model: quote
+  public_pricing: false
+integrations: [banking, Modelo, accounting systems]
+product:
+  api: true
+  open_source: false
+  mobile: [ios, android]
+  languages: [fr]
+alternatives: [crypto-septeo, vilogi, syment]
+reviews: []
+sources: [{ url: https://www.gercop.com, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

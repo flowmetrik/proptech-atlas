@@ -1,0 +1,871 @@
+{
+  "id": "tenant-screening",
+  "label_en": "Tenant screening & rent guarantee",
+  "label_fr": "Dossier locataire & garanties",
+  "summary_en": "Verify an applicant's file, guarantee the rent, sign the lease.",
+  "summary_fr": "Vérifier un dossier, garantir le loyer, signer le bail.",
+  "count": 10,
+  "tools": [
+    {
+      "slug": "apartments-com",
+      "name": "Apartments.com",
+      "editor": "CoStar Group",
+      "website": "https://www.apartments.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "portals-marketplaces",
+      "also_in": [
+        "property-management",
+        "tenant-screening"
+      ],
+      "founded": 1992,
+      "positioning": "The dominant US rental marketplace, bundled with free tooling that pulls small landlords onto the platform.",
+      "description": "CoStar's rental network — Apartments.com and its sister sites — lists apartments and single-family rentals nationally. Alongside paid advertising for professional managers, it offers small landlords free listing, online applications, tenant screening, lease signing and rent collection.\n",
+      "real_estate_use": "A professional manager buys placement and lead volume for a lease-up. An individual landlord uses the free side as their entire operating system: list the unit, receive applications with credit and background checks, sign a state-specific lease and collect rent by ACH. That free tier is why so many small portfolios never buy dedicated property management software.\n",
+      "features": [
+        "National rental listing network with paid placement tiers",
+        "Online rental applications with tenant screening",
+        "State-specific lease templates and e-signature",
+        "Online rent collection and payment tracking",
+        "Renter profiles and application reuse",
+        "Rental market rent comparables for pricing"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Fill vacancies in a lease-up with paid placement and measured lead volume"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "List, screen, lease and collect rent on a handful of units at no software cost"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "landlord-owner",
+        "tenant-occupier"
+      ],
+      "segments": [
+        "multifamily",
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "freemium",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Yardi",
+        "RealPage",
+        "Entrata",
+        "AppFolio",
+        "CoStar data"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "zillow",
+        "zumper",
+        "rentspree"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.apartments.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "avail",
+      "name": "Avail",
+      "editor": "Realtor.com (Move, Inc.)",
+      "website": "https://www.avail.co",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "property-management",
+      "also_in": [
+        "tenant-screening"
+      ],
+      "founded": 2012,
+      "positioning": "DIY landlord tooling with the distribution of a national portal behind it.",
+      "description": "Avail gives independent landlords listing syndication, online applications, credit and background screening, state-specific lease agreements, digital signatures, rent collection with credit reporting for tenants, and maintenance tracking. Owned by Realtor.com.\n",
+      "real_estate_use": "The distribution matters: a unit listed in Avail appears on Realtor.com and partner sites, so a landlord with two properties reaches the same audience as a management company. Rent payments can be reported to credit bureaus, which landlords use as an incentive for on-time payment.\n",
+      "features": [
+        "Listing syndication through the Realtor.com network",
+        "Online applications with credit, criminal and eviction screening",
+        "State-specific lease agreements with digital signing",
+        "Rent collection with optional credit bureau reporting",
+        "Maintenance tracking and vendor coordination",
+        "Rent price analysis for a given address"
+      ],
+      "use_cases": [
+        {
+          "persona": "landlord-owner",
+          "job": "List a unit on a national portal and take applications without an agent"
+        },
+        {
+          "persona": "tenant-occupier",
+          "job": "Build credit history by having on-time rent reported to the bureaus"
+        }
+      ],
+      "personas": [
+        "landlord-owner",
+        "tenant-occupier"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "freemium",
+        "public_pricing": true,
+        "url": "https://www.avail.co/pricing"
+      },
+      "integrations": [
+        "Realtor.com",
+        "TransUnion screening"
+      ],
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "turbotenant",
+        "innago",
+        "rentredi"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.avail.co",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "dossierfacile",
+      "name": "DossierFacile",
+      "editor": "État français — Fabrique numérique du ministère de la Transition écologique",
+      "website": "https://www.dossierfacile.logement.gouv.fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "tenant-screening",
+      "founded": 2019,
+      "positioning": "A public service that produces a certified, watermarked tenant file — free, open source, and designed to make forgery pointless.",
+      "description": "DossierFacile is a French public digital service that helps a rental candidate assemble their application file, checks it against the list of documents a landlord may legally request, and issues a verified PDF whose pages are watermarked and whose authenticity can be confirmed online. The code is published as open source.\n",
+      "real_estate_use": "It addresses two failures at once. Candidates submit incomplete files and are rejected without knowing why; landlords receive falsified pay slips and cannot tell. A DossierFacile file arrives complete, in the legal scope, and verifiable — and because the service is free and public, it is increasingly accepted as the standard format by agencies and guarantee schemes.\n",
+      "features": [
+        "Guided assembly of a complete rental application file",
+        "Verification against the legally permitted document list",
+        "Watermarked, tamper-evident PDF output",
+        "Online authenticity verification for landlords",
+        "Coverage of employee, student, self-employed and guarantor cases",
+        "Open source codebase and public API"
+      ],
+      "use_cases": [
+        {
+          "persona": "tenant-occupier",
+          "job": "Submit a complete, verifiable rental file that agencies will accept"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "Receive an application file whose documents can be checked for tampering"
+        }
+      ],
+      "personas": [
+        "tenant-occupier",
+        "landlord-owner",
+        "property-manager",
+        "agent-broker"
+      ],
+      "segments": [
+        "residential",
+        "coliving-student"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "free",
+        "public_pricing": true,
+        "url": "https://www.dossierfacile.logement.gouv.fr"
+      },
+      "integrations": [
+        "rental platforms",
+        "guarantee schemes",
+        "public API"
+      ],
+      "product": {
+        "api": true,
+        "open_source": true,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "rentspree"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.dossierfacile.logement.gouv.fr",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "realpage",
+      "name": "RealPage",
+      "editor": "RealPage (Thoma Bravo)",
+      "website": "https://www.realpage.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "property-management",
+      "also_in": [
+        "market-data",
+        "tenant-screening"
+      ],
+      "founded": 1998,
+      "positioning": "The broadest multifamily suite in the market — and the one whose revenue management product put algorithmic rent pricing under legal scrutiny.",
+      "description": "RealPage sells a wide portfolio for multifamily and single-family rental operators: property management systems (OneSite, Propertyware, Buildium), leasing and marketing, screening, utility management, asset optimisation and the AI Revenue Management products descended from YieldStar and LRO.\n",
+      "real_estate_use": "Large operators use it for the modules they cannot easily build: screening at scale, utility recovery, and above all revenue management — a model that recommends a rent for every unit every day based on market and portfolio signals. That last product is the subject of US antitrust litigation over algorithmic pricing, which is now part of any serious evaluation of it.\n",
+      "features": [
+        "OneSite property management and accounting",
+        "AI Revenue Management rent pricing recommendations",
+        "Applicant screening and fraud detection",
+        "Utility billing and expense recovery",
+        "Leasing, marketing and contact centre services",
+        "Asset and portfolio performance analytics"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Price thousands of units daily against market and occupancy signals"
+        },
+        {
+          "persona": "investor-am",
+          "job": "Benchmark asset performance against a national multifamily dataset"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "investor-am",
+        "landlord-owner"
+      ],
+      "segments": [
+        "multifamily",
+        "residential",
+        "coliving-student"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Yardi",
+        "Entrata",
+        "accounting systems",
+        "ILS networks"
+      ],
+      "ai": {
+        "capabilities": [
+          "Revenue management pricing models",
+          "Applicant fraud detection",
+          "Leasing chatbots"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "entrata",
+        "yardi-voyager",
+        "appfolio"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.realpage.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "rentspree",
+      "name": "RentSpree",
+      "editor": "RentSpree",
+      "website": "https://www.rentspree.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "tenant-screening",
+      "also_in": [
+        "property-management"
+      ],
+      "founded": 2016,
+      "positioning": "Rental screening distributed through the MLS — the reason so many US agents handle rentals at all.",
+      "description": "RentSpree provides online rental applications, tenant screening reports from TransUnion, e-signature, rent payment and rent reporting. It is distributed through partnerships with MLSs and associations, which makes it the default rental workflow for a large share of US agents.\n",
+      "real_estate_use": "An agent listing a rental sends one link. The applicant completes the application, pays the screening fee themselves, and authorises the credit, criminal and eviction report — so the agent never handles sensitive data or fronts a cost. For agents whose main business is sales, that low friction is why the rental side is worth doing at all.\n",
+      "features": [
+        "Applicant-paid online applications and screening",
+        "TransUnion credit, criminal and eviction reports",
+        "Document collection with income verification",
+        "Lease e-signature and rent payment collection",
+        "MLS and association distribution partnerships",
+        "Agent referral and client management tools"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Screen rental applicants without touching payment or sensitive data"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "Collect a complete, verified application file before deciding"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "landlord-owner",
+        "property-manager"
+      ],
+      "segments": [
+        "residential",
+        "multifamily"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "usage",
+        "public_pricing": true,
+        "url": "https://www.rentspree.com/pricing"
+      },
+      "integrations": [
+        "MLS systems",
+        "TransUnion",
+        "Zillow Rentals",
+        "Realtor.com"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "transunion-smartmove",
+        "turbotenant",
+        "avail"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.rentspree.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "smartloc",
+      "name": "Smartloc",
+      "editor": "Smartloc",
+      "website": "https://www.smartloc.fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "property-management",
+      "also_in": [
+        "tenant-screening"
+      ],
+      "positioning": "Rental management for the private landlord with the applicant file verification built into the same flow.",
+      "description": "Smartloc offers French landlords an online rental management service: candidate application collection with document checking, lease generation and electronic signature, rent calls and receipts, payment tracking, and rent guarantee options.\n",
+      "real_estate_use": "Self-managing landlords make their worst decision at selection, not at management, and the document verification step is where a service earns its fee. Smartloc chains verification, lease signature and rent tracking so the landlord does not stitch together three tools around the moment the tenant is chosen.\n",
+      "features": [
+        "Candidate application collection with document verification",
+        "Lease generation with the applicable French regime",
+        "Electronic signature on lease and annexes",
+        "Rent calls, receipts and payment tracking",
+        "Arrears follow-up and reminder letters",
+        "Rent guarantee options"
+      ],
+      "use_cases": [
+        {
+          "persona": "landlord-owner",
+          "job": "Verify an applicant's documents before signing rather than after a default"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "Run selection, signature and rent tracking without assembling three tools"
+        }
+      ],
+      "personas": [
+        "landlord-owner"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://www.smartloc.fr/tarifs"
+      },
+      "integrations": [
+        "electronic signature",
+        "banking",
+        "DossierFacile"
+      ],
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "rentila",
+        "gererseul",
+        "ownily"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.smartloc.fr",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "snappt",
+      "name": "Snappt",
+      "editor": "Snappt",
+      "website": "https://snappt.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "tenant-screening",
+      "founded": 2017,
+      "positioning": "A credit check does not catch a forged pay stub. This does.",
+      "description": "Snappt analyses documents submitted with rental applications — pay stubs, bank statements — for signs of digital tampering, and cross-checks income against verified sources. It is bought as a layer on top of conventional screening rather than as a replacement for it.\n",
+      "real_estate_use": "Document fraud is the failure mode conventional screening misses: an applicant with thin credit submits an edited pay stub, passes the income test, and defaults in month three. Multifamily operators run every application file through fraud detection before approval, and measure the product on bad-debt reduction rather than on approval speed.\n",
+      "features": [
+        "Digital tampering detection on pay stubs and bank statements",
+        "Income verification against connected financial sources",
+        "Fraud risk scoring per application file",
+        "Integration into existing screening workflows",
+        "Reporting on fraud rates by property and by lead source",
+        "Audit trail supporting a defensible denial"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Catch forged income documents before approving a lease"
+        },
+        {
+          "persona": "investor-am",
+          "job": "Reduce bad debt by measuring fraud rates per property and per lead source"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "landlord-owner",
+        "investor-am"
+      ],
+      "segments": [
+        "multifamily",
+        "residential"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "usage",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Entrata",
+        "Yardi",
+        "RealPage",
+        "AppFolio"
+      ],
+      "ai": {
+        "capabilities": [
+          "Document tampering detection",
+          "Fraud risk scoring"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "transunion-smartmove",
+        "realpage"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://snappt.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "theguarantors",
+      "name": "TheGuarantors",
+      "editor": "TheGuarantors",
+      "website": "https://www.theguarantors.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "tenant-screening",
+      "positioning": "An insurance product that replaces the co-signer, so a good tenant who fails the income multiple can still sign.",
+      "description": "TheGuarantors underwrites lease guarantees and security deposit alternatives for residential and commercial tenants. The landlord receives a backed guarantee of rent; the tenant pays a fee instead of producing a co-signer or a large cash deposit.\n",
+      "real_estate_use": "The standard US requirement of forty times monthly rent in annual income excludes perfectly solvent applicants — a recent graduate, a foreign national with no US credit, a self-employed tenant. Rather than lose the lease or lower the standard, the operator accepts an underwritten guarantee. It converts a screening rejection into a signed lease.\n",
+      "features": [
+        "Lease guarantee underwriting for residential tenants",
+        "Security deposit replacement products",
+        "Commercial lease guarantees and letter-of-credit alternatives",
+        "Renters insurance distribution",
+        "Integration into leasing workflows at approval stage",
+        "Claims handling for unpaid rent"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Approve a solvent applicant who fails the income multiple without lowering standards"
+        },
+        {
+          "persona": "tenant-occupier",
+          "job": "Sign a lease without a US credit history or a large cash deposit"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "landlord-owner",
+        "tenant-occupier"
+      ],
+      "segments": [
+        "multifamily",
+        "residential",
+        "office"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "commission",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Entrata",
+        "Yardi",
+        "RealPage"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "snappt"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.theguarantors.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "transunion-smartmove",
+      "name": "TransUnion SmartMove",
+      "editor": "TransUnion",
+      "website": "https://www.mysmartmove.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "tenant-screening",
+      "founded": 2010,
+      "positioning": "Bureau-grade tenant screening sold directly to landlords, without a business credentialling process.",
+      "description": "SmartMove is TransUnion's screening product for individual landlords: a credit report built for rental decisions, criminal background search, eviction history and an income insights option, delivered without the on-site inspection normally required to access consumer credit data.\n",
+      "real_estate_use": "Getting bureau data as a small landlord is the friction point — a credit reporting agency will not normally credential someone with three units. SmartMove solves it by having the applicant authorise and pay, which also keeps the landlord clear of FCRA obligations around handling and disposing of consumer reports.\n",
+      "features": [
+        "Rental-specific credit report with a resident score",
+        "National criminal background search",
+        "Eviction history search",
+        "Income insights based on credit data",
+        "Applicant-authorised and applicant-paid flow",
+        "No landlord credentialling or site inspection required"
+      ],
+      "use_cases": [
+        {
+          "persona": "landlord-owner",
+          "job": "Obtain a real credit and eviction check without being credentialled by a bureau"
+        },
+        {
+          "persona": "property-manager",
+          "job": "Standardise screening criteria across applicants for fair housing consistency"
+        }
+      ],
+      "personas": [
+        "landlord-owner",
+        "property-manager",
+        "agent-broker"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "usage",
+        "public_pricing": true,
+        "url": "https://www.mysmartmove.com/pricing"
+      },
+      "integrations": [
+        "TurboTenant",
+        "Avail",
+        "several property management platforms"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "rentspree",
+        "snappt"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.mysmartmove.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "turbotenant",
+      "name": "TurboTenant",
+      "editor": "TurboTenant",
+      "website": "https://www.turbotenant.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "property-management",
+      "also_in": [
+        "tenant-screening"
+      ],
+      "founded": 2015,
+      "positioning": "Free for the landlord, paid by the applicant — the model that put full rental tooling in the hands of people with three doors.",
+      "description": "TurboTenant offers listing syndication, online rental applications, tenant screening, state-specific lease agreements, e-signature, rent collection and expense tracking, with a free core tier funded largely by applicant-paid screening fees and premium add-ons.\n",
+      "real_estate_use": "The independent landlord's problem is not scale, it is competence: writing a compliant lease, running a legitimate credit and background check, and documenting rent payment for tax time. TurboTenant packages exactly those steps, which is why a very large number of small US landlords never buy property management software at all.\n",
+      "features": [
+        "Listing syndication to major rental sites",
+        "Online applications with applicant-paid screening",
+        "State-specific lease agreements with e-signature",
+        "Online rent collection with automatic reminders",
+        "Expense and income tracking for tax reporting",
+        "Maintenance request intake from tenants"
+      ],
+      "use_cases": [
+        {
+          "persona": "landlord-owner",
+          "job": "Advertise, screen, lease and collect rent on a handful of units at almost no cost"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "Produce a compliant state-specific lease without a lawyer for each renewal"
+        }
+      ],
+      "personas": [
+        "landlord-owner",
+        "property-manager"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "freemium",
+        "public_pricing": true,
+        "url": "https://www.turbotenant.com/pricing"
+      },
+      "integrations": [
+        "Zillow Rentals",
+        "Apartments.com",
+        "TransUnion screening"
+      ],
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "innago",
+        "avail",
+        "rentredi",
+        "tenantcloud"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.turbotenant.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    }
+  ]
+}

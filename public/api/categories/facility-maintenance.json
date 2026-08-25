@@ -1,0 +1,1380 @@
+{
+  "id": "facility-maintenance",
+  "label_en": "Facility management & maintenance",
+  "label_fr": "Facility management & maintenance",
+  "summary_en": "Work orders, contractors, assets and preventive maintenance.",
+  "summary_fr": "Interventions, prestataires, équipements et maintenance préventive.",
+  "count": 15,
+  "tools": [
+    {
+      "slug": "advizeo",
+      "name": "Advizeo",
+      "editor": "Advizeo by Setec",
+      "website": "https://www.advizeo.io",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "energy-esg",
+      "also_in": [
+        "facility-maintenance"
+      ],
+      "positioning": "Energy management that ends in a works order — engineering-led rather than reporting-led.",
+      "description": "Advizeo, part of the Setec engineering group, provides energy monitoring and management for French buildings: meter and building management system data collection, consumption analysis and alerting, décret tertiaire declaration support, and an action plan followed through to implementation.\n",
+      "real_estate_use": "Its difference from a pure reporting platform is the engineering behind it. Detecting that a building's heating runs at weekends is only useful if someone changes the schedule. Advizeo pairs the monitoring with technical recommendations and follow-up, which suits owners who do not have an in-house energy engineer.\n",
+      "features": [
+        "Meter, submeter and building management system data collection",
+        "Consumption analysis with drift and anomaly alerting",
+        "Décret tertiaire declaration and OPERAT support",
+        "Technical action plans with quantified savings",
+        "Works and measure follow-up over time",
+        "Multi-site portfolio dashboards"
+      ],
+      "use_cases": [
+        {
+          "persona": "facility-manager",
+          "job": "Detect and correct consumption drift instead of only reporting it"
+        },
+        {
+          "persona": "corporate-re",
+          "job": "Meet décret tertiaire obligations with a costed action plan behind the declaration"
+        }
+      ],
+      "personas": [
+        "facility-manager",
+        "corporate-re",
+        "property-manager",
+        "investor-am"
+      ],
+      "segments": [
+        "office",
+        "retail",
+        "industrial",
+        "healthcare-senior",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "building management systems",
+        "energy providers",
+        "OPERAT"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "deepki",
+        "ubigreen",
+        "measurabl"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.advizeo.io",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "bob-desk",
+      "name": "BOB Desk",
+      "editor": "BOB Desk",
+      "website": "https://www.bobdesk.fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "facility-maintenance",
+      "positioning": "Maintenance and compliance tracking for multi-site French operators — retail chains, restaurants, agencies.",
+      "description": "BOB Desk is a French SaaS for maintenance and regulatory compliance management across multiple sites: intervention requests, provider dispatch, preventive planning, quote and invoice control, equipment records and regulatory inspection tracking.\n",
+      "real_estate_use": "A chain with two hundred outlets carries a compliance calendar per site — fire safety, electrical inspection, extraction, refrigeration — and no realistic way to track it in a spreadsheet. BOB Desk holds the obligations per site with their due dates, and routes the corrective work to the contracted provider, keeping the evidence in one place for an inspection.\n",
+      "features": [
+        "Multi-site intervention request and dispatch",
+        "Preventive maintenance and regulatory inspection calendars",
+        "Provider contracts and performance tracking",
+        "Quote and invoice control against agreed rates",
+        "Equipment registry per site",
+        "Compliance evidence storage and reporting"
+      ],
+      "use_cases": [
+        {
+          "persona": "facility-manager",
+          "job": "Track regulatory inspection deadlines across hundreds of sites"
+        },
+        {
+          "persona": "corporate-re",
+          "job": "Control maintenance quotes and invoices against contracted rates"
+        }
+      ],
+      "personas": [
+        "facility-manager",
+        "corporate-re",
+        "property-manager"
+      ],
+      "segments": [
+        "retail",
+        "office",
+        "hospitality",
+        "healthcare-senior"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "integrations": [
+        "accounting software",
+        "provider networks"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr",
+          "en"
+        ]
+      },
+      "alternatives": [
+        "twimm",
+        "yuman",
+        "servicechannel"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.bobdesk.fr",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "corrigo",
+      "name": "Corrigo",
+      "editor": "JLL Technologies",
+      "website": "https://corrigo.com",
+      "hq_country": "US",
+      "markets": [
+        "US",
+        "FR"
+      ],
+      "category": "facility-maintenance",
+      "positioning": "A CMMS shaped by a global services firm running it on its own managed portfolios.",
+      "description": "Corrigo is a facilities and work order management platform: service requests, vendor dispatch and scoring, preventive maintenance, asset lifecycle tracking and spend analytics. It is developed inside JLL and deployed both on JLL-managed accounts and as a standalone product.\n",
+      "real_estate_use": "Its distinguishing feature in daily use is vendor scoring: response and completion performance is measured per provider, so dispatch can route to the contractor who actually shows up rather than the one with the oldest relationship. For an occupier outsourcing facilities management, it also gives visibility into work the service provider is performing on their behalf.\n",
+      "features": [
+        "Service request intake and automated vendor dispatch",
+        "Vendor performance scoring and compliance tracking",
+        "Preventive maintenance scheduling",
+        "Asset registry with repair-versus-replace history",
+        "Invoice and spend controls per work order",
+        "Portfolio dashboards for occupancy cost and service levels"
+      ],
+      "use_cases": [
+        {
+          "persona": "facility-manager",
+          "job": "Route work to the contractors with the best measured completion performance"
+        },
+        {
+          "persona": "corporate-re",
+          "job": "See what an outsourced facilities provider is actually doing across the portfolio"
+        }
+      ],
+      "personas": [
+        "facility-manager",
+        "corporate-re",
+        "property-manager"
+      ],
+      "segments": [
+        "office",
+        "retail",
+        "industrial",
+        "healthcare-senior"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "JLL platforms",
+        "SAP",
+        "Yardi",
+        "building management systems"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en",
+          "fr",
+          "es"
+        ]
+      },
+      "alternatives": [
+        "servicechannel",
+        "upkeep",
+        "limble"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://corrigo.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "hemlane",
+      "name": "Hemlane",
+      "editor": "Hemlane",
+      "website": "https://www.hemlane.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "property-management",
+      "also_in": [
+        "facility-maintenance"
+      ],
+      "founded": 2015,
+      "positioning": "Software plus a local agent and a 24/7 repair desk — for the owner who is not in the same city as the property.",
+      "description": "Hemlane combines rental management software with optional human services: a local leasing agent network for showings, and 24/7 maintenance coordination that triages tenant calls and dispatches vendors. Owners choose how much of the operation to delegate.\n",
+      "real_estate_use": "It targets the remote owner who does not want a full management company taking eight to ten percent. The software handles marketing, screening and rent; the local agent handles the showing that cannot be done remotely; the repair desk answers the two a.m. burst pipe. The economics sit deliberately between self-management and full delegation.\n",
+      "features": [
+        "Listing syndication and applicant screening",
+        "Local leasing agent network for showings",
+        "24/7 maintenance coordination and vendor dispatch",
+        "Rent collection with automated reminders",
+        "Lease tracking with state-specific compliance guidance",
+        "Owner reporting and financial exports"
+      ],
+      "use_cases": [
+        {
+          "persona": "landlord-owner",
+          "job": "Manage an out-of-state rental without paying full management fees"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "Have someone answer the emergency maintenance call at night"
+        }
+      ],
+      "personas": [
+        "landlord-owner",
+        "property-manager"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "per-unit",
+        "public_pricing": true,
+        "url": "https://www.hemlane.com/pricing"
+      },
+      "integrations": [
+        "Zillow Rentals",
+        "Apartments.com",
+        "TransUnion screening",
+        "QuickBooks"
+      ],
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "turbotenant",
+        "propertyware",
+        "doorloop"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.hemlane.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "limble",
+      "name": "Limble CMMS",
+      "editor": "Limble",
+      "website": "https://limblecmms.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "facility-maintenance",
+      "founded": 2015,
+      "positioning": "The CMMS bought because the last CMMS was never adopted.",
+      "description": "Limble is a maintenance management system covering work orders, preventive maintenance, asset management, parts inventory and reporting, sold heavily on ease of configuration and speed of rollout, with published pricing and a self-serve trial.\n",
+      "real_estate_use": "Most CMMS failures are adoption failures, not feature gaps. Limble competes on the implementation: QR codes on equipment so a technician scans rather than searches, a request portal that needs no login for the person reporting a problem, and configuration a facilities lead can do without consultants.\n",
+      "features": [
+        "QR code asset tagging for scan-to-report and scan-to-log",
+        "Work order management with automated assignment",
+        "Preventive maintenance by time, usage or condition",
+        "Parts inventory with automatic reordering",
+        "No-login request portal for occupants",
+        "Custom dashboards and maintenance KPI reporting"
+      ],
+      "use_cases": [
+        {
+          "persona": "facility-manager",
+          "job": "Roll out a maintenance system that technicians actually use within weeks"
+        },
+        {
+          "persona": "tenant-occupier",
+          "job": "Report a building problem by scanning a code without an account"
+        }
+      ],
+      "personas": [
+        "facility-manager",
+        "property-manager",
+        "tenant-occupier"
+      ],
+      "segments": [
+        "office",
+        "industrial",
+        "multifamily",
+        "retail"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "per-seat",
+        "public_pricing": true,
+        "url": "https://limblecmms.com/pricing"
+      },
+      "integrations": [
+        "Zapier",
+        "QuickBooks",
+        "SAP",
+        "REST API"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en",
+          "es",
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "upkeep",
+        "servicechannel",
+        "corrigo"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://limblecmms.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "matterport",
+      "name": "Matterport",
+      "editor": "Matterport (CoStar Group)",
+      "website": "https://matterport.com",
+      "hq_country": "US",
+      "markets": [
+        "US",
+        "FR"
+      ],
+      "category": "visuals-tours",
+      "also_in": [
+        "facility-maintenance"
+      ],
+      "founded": 2011,
+      "positioning": "The 3D capture standard — a walkable digital twin that doubles as a measurable record of the space.",
+      "description": "Matterport captures buildings in 3D using dedicated cameras or a phone, producing walkable virtual tours, automatic floor plans, measurements and structured space data hosted on its cloud platform, embeddable in listings and other systems.\n",
+      "real_estate_use": "In marketing, a scan lets a remote buyer or tenant walk the space before travelling. In operations it does something less obvious and often more valuable: it is a dated, measurable record of condition. Property managers scan at move-in and move-out to settle deposit disputes; facility teams scan plant rooms so a contractor can measure without a site visit.\n",
+      "features": [
+        "3D capture from dedicated cameras or smartphone",
+        "Walkable virtual tours embeddable in listings",
+        "Automatic floor plan and measurement generation",
+        "Dated condition records for inspections and disputes",
+        "Space and asset tagging inside the model",
+        "API and integrations with listing and management platforms"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Let a remote buyer or tenant walk the property before travelling to see it"
+        },
+        {
+          "persona": "property-manager",
+          "job": "Hold a dated, measurable condition record for move-in and move-out disputes"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "property-manager",
+        "facility-manager",
+        "developer-builder"
+      ],
+      "segments": [
+        "residential",
+        "office",
+        "retail",
+        "industrial",
+        "hospitality"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://matterport.com/pricing"
+      },
+      "integrations": [
+        "listing platforms",
+        "Autodesk",
+        "Procore",
+        "REST API"
+      ],
+      "ai": {
+        "capabilities": [
+          "Automatic floor plan extraction",
+          "Object and room recognition",
+          "Defurnishing"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en",
+          "fr",
+          "de",
+          "es"
+        ]
+      },
+      "alternatives": [
+        "cubicasa",
+        "boxbrownie"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://matterport.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "mri-software",
+      "name": "MRI Software",
+      "editor": "MRI Software",
+      "website": "https://www.mrisoftware.com",
+      "hq_country": "US",
+      "markets": [
+        "US",
+        "FR"
+      ],
+      "category": "commercial-am",
+      "also_in": [
+        "property-management",
+        "facility-maintenance"
+      ],
+      "founded": 1971,
+      "positioning": "The open alternative to a single-vendor stack — bring your own best-of-breed and let MRI hold the lease and the ledger.",
+      "description": "MRI Software provides property and lease management, accounting, investment management, facilities and workplace products across commercial and residential real estate worldwide. Its stated strategy is an open platform: published APIs and a partner ecosystem rather than a closed suite.\n",
+      "real_estate_use": "A European or transatlantic owner often cannot standardise on one vendor — local accounting, local leasing practice and existing systems all resist it. MRI is chosen when the lease and financial core must be common while country teams keep their own tools around it. In France it supports local lease and accounting requirements alongside Anglo-Saxon reporting.\n",
+      "features": [
+        "Commercial and residential lease and property management",
+        "Real estate accounting with multi-entity and multi-currency",
+        "Investment management and investor reporting",
+        "Facilities management and workplace modules",
+        "Lease accounting compliance for IFRS 16 and ASC 842",
+        "Open APIs and a partner integration ecosystem"
+      ],
+      "use_cases": [
+        {
+          "persona": "investor-am",
+          "job": "Consolidate a cross-border portfolio while local teams keep their own tools"
+        },
+        {
+          "persona": "corporate-re",
+          "job": "Meet IFRS 16 lease accounting obligations from the lease system itself"
+        }
+      ],
+      "personas": [
+        "investor-am",
+        "corporate-re",
+        "property-manager",
+        "facility-manager"
+      ],
+      "segments": [
+        "office",
+        "retail",
+        "industrial",
+        "multifamily",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "SAP",
+        "Oracle",
+        "Cherre",
+        "Deepki",
+        "partner ecosystem APIs"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en",
+          "fr",
+          "de",
+          "es",
+          "nl"
+        ]
+      },
+      "alternatives": [
+        "yardi-voyager",
+        "realpage",
+        "visual-lease"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.mrisoftware.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "property-meld",
+      "name": "Property Meld",
+      "editor": "Property Meld",
+      "website": "https://propertymeld.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "facility-maintenance",
+      "also_in": [
+        "property-management"
+      ],
+      "founded": 2014,
+      "positioning": "Residential maintenance coordination as its own discipline — because it is where property managers lose their margin and their reputation.",
+      "description": "Property Meld handles the maintenance workflow for residential property management: tenant request intake with triage, vendor scheduling and coordination, communication across all parties, and analytics on speed and cost per repair.\n",
+      "real_estate_use": "In residential management, maintenance is the largest source of complaints and the biggest drain on staff time — mostly spent as phone tag between a tenant, a vendor and an owner trying to agree a time. Property Meld automates the scheduling coordination, and its metrics — median speed to resolution, cost per unit — are the ones managers now report to owners.\n",
+      "features": [
+        "Tenant maintenance request intake with guided triage",
+        "Automated vendor and tenant scheduling coordination",
+        "Owner approval workflows for repairs above a threshold",
+        "Vendor performance and cost analytics",
+        "Communication log across tenant, vendor and owner",
+        "Speed-to-resolution and cost-per-unit reporting"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Eliminate phone tag between tenant, vendor and owner on every repair"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "Approve repairs above a threshold with the evidence in front of you"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "landlord-owner"
+      ],
+      "segments": [
+        "residential",
+        "multifamily"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "per-unit",
+        "public_pricing": false
+      },
+      "integrations": [
+        "AppFolio",
+        "Buildium",
+        "Rent Manager",
+        "Propertyware",
+        "Yardi"
+      ],
+      "ai": {
+        "capabilities": [
+          "Request triage and diagnosis assistance"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "upkeep",
+        "hemlane"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://propertymeld.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "rentmanager",
+      "name": "Rent Manager",
+      "editor": "London Computer Systems",
+      "website": "https://www.rentmanager.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "property-management",
+      "also_in": [
+        "back-office-accounting",
+        "facility-maintenance"
+      ],
+      "founded": 1982,
+      "positioning": "The configurable one — for portfolios whose lease terms do not fit anybody's standard form.",
+      "description": "Rent Manager is a property management and accounting platform known for the depth of its configuration: user-defined fields, custom reports, a built-in contact centre, work order and asset tracking, and support for unusual property types including self-storage, marinas, manufactured housing and mixed portfolios.\n",
+      "real_estate_use": "It wins where the standard product breaks. A portfolio mixing apartments, commercial suites, storage units and ground leases has billing rules no template covers; Rent Manager lets an operator model them without leaving the accounting system. The trade-off is that someone has to own the configuration.\n",
+      "features": [
+        "Configurable accounting with user-defined fields and custom reports",
+        "Support for storage, marina, manufactured housing and mixed portfolios",
+        "Work order, inspection and fixed-asset tracking",
+        "Built-in phone system and contact centre",
+        "Tenant and owner portals with online payments",
+        "Open API and extensive integration marketplace"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Model non-standard billing across a mixed-asset portfolio inside the accounting system"
+        },
+        {
+          "persona": "facility-manager",
+          "job": "Track work orders and equipment against the same property records as the leases"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "facility-manager",
+        "landlord-owner"
+      ],
+      "segments": [
+        "residential",
+        "multifamily",
+        "office",
+        "retail",
+        "industrial",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "per-unit",
+        "public_pricing": false
+      },
+      "integrations": [
+        "REST API",
+        "screening bureaus",
+        "banking",
+        "Zapier"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "appfolio",
+        "buildium",
+        "yardi-breeze",
+        "propertyware"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.rentmanager.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "servicechannel",
+      "name": "ServiceChannel",
+      "editor": "Fortive",
+      "website": "https://servicechannel.com",
+      "hq_country": "US",
+      "markets": [
+        "US",
+        "FR"
+      ],
+      "category": "facility-maintenance",
+      "founded": 1999,
+      "positioning": "Facilities management for multi-site occupiers — one contractor marketplace, one invoice standard, across hundreds of locations.",
+      "description": "ServiceChannel manages facilities maintenance for multi-location businesses: work order dispatch, a contractor network with compliance tracking, invoice validation against agreed rates, asset and warranty tracking, and spend analytics across sites.\n",
+      "real_estate_use": "A retailer with four hundred stores has four hundred sets of local contractors and no consistent way to know whether a bill is fair. ServiceChannel standardises the workflow: a store manager raises an issue, dispatch goes to a compliant contractor at contracted rates, and invoices that exceed the agreed rate are flagged before payment. The saving is in the invoice validation as much as in the dispatch.\n",
+      "features": [
+        "Work order intake, dispatch and tracking across sites",
+        "Contractor network with insurance and compliance verification",
+        "Invoice validation against contracted rates",
+        "Asset and warranty tracking by location",
+        "Planned maintenance scheduling",
+        "Spend analytics by site, trade and provider"
+      ],
+      "use_cases": [
+        {
+          "persona": "facility-manager",
+          "job": "Standardise maintenance dispatch and invoice control across hundreds of sites"
+        },
+        {
+          "persona": "corporate-re",
+          "job": "See maintenance spend by trade and location instead of by supplier invoice"
+        }
+      ],
+      "personas": [
+        "facility-manager",
+        "corporate-re",
+        "property-manager"
+      ],
+      "segments": [
+        "retail",
+        "office",
+        "industrial",
+        "healthcare-senior",
+        "hospitality"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "SAP",
+        "Oracle",
+        "Yardi",
+        "Coupa"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en",
+          "fr",
+          "es"
+        ]
+      },
+      "alternatives": [
+        "corrigo",
+        "upkeep",
+        "limble"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://servicechannel.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "spinalcom",
+      "name": "SpinalCom",
+      "editor": "SpinalCom",
+      "website": "https://www.spinalcom.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "tenant-experience",
+      "also_in": [
+        "facility-maintenance",
+        "energy-esg"
+      ],
+      "positioning": "A building operating system — the layer that makes twenty proprietary building systems queryable as one digital twin.",
+      "description": "SpinalCom publishes a building operating system that aggregates data from heterogeneous building systems — HVAC, lighting, access, metering, BIM models — into a semantic digital twin, exposed through APIs so applications can be built on top rather than integrated one by one.\n",
+      "real_estate_use": "A smart building project usually stalls on the same wall: every subsystem speaks a different protocol and belongs to a different contractor. Placing an operating system between the equipment and the applications means the tenant app, the energy dashboard and the maintenance tool all read the same model of the building, and replacing a supplier does not break everything above it.\n",
+      "features": [
+        "Aggregation of heterogeneous building systems and protocols",
+        "Semantic digital twin linked to the BIM model",
+        "Open APIs for third-party applications",
+        "Real-time supervision and equipment monitoring",
+        "Data historisation for energy and operations analytics",
+        "Vendor-independent architecture"
+      ],
+      "use_cases": [
+        {
+          "persona": "facility-manager",
+          "job": "Read every building subsystem through one model instead of twenty interfaces"
+        },
+        {
+          "persona": "corporate-re",
+          "job": "Build tenant and energy applications on a twin that outlives a supplier change"
+        }
+      ],
+      "personas": [
+        "facility-manager",
+        "corporate-re",
+        "investor-am",
+        "developer-builder"
+      ],
+      "segments": [
+        "office",
+        "healthcare-senior",
+        "mixed-use",
+        "industrial"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "BACnet",
+        "Modbus",
+        "KNX",
+        "BIM models",
+        "IoT platforms"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr",
+          "en"
+        ]
+      },
+      "alternatives": [
+        "wattsense",
+        "witco"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.spinalcom.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "twimm",
+      "name": "Twimm",
+      "editor": "Twimm",
+      "website": "https://www.twimm.fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "facility-maintenance",
+      "positioning": "A French CMMS written for the maintenance company as much as for the building owner.",
+      "description": "Twimm is a French SaaS platform for technical building maintenance: contract and site management, preventive and corrective intervention planning, technician mobile app with on-site reports, spare parts, quotes and invoicing tied to the intervention.\n",
+      "real_estate_use": "In France the maintenance of a building is usually outsourced under a contract with defined preventive obligations. Twimm holds both sides: the contractual preventive plan and the corrective calls, with the technician's signed report as the evidence of execution. That evidence is what a manager needs when a landlord asks whether the contract was actually performed.\n",
+      "features": [
+        "Maintenance contract and site management",
+        "Preventive plan scheduling from contractual obligations",
+        "Corrective intervention dispatch and tracking",
+        "Technician mobile app with on-site signed reports",
+        "Quotes, spare parts and invoicing per intervention",
+        "Regulatory inspection follow-up"
+      ],
+      "use_cases": [
+        {
+          "persona": "facility-manager",
+          "job": "Prove that contractual preventive maintenance was actually carried out"
+        },
+        {
+          "persona": "property-manager",
+          "job": "Track corrective interventions across a portfolio with signed field reports"
+        }
+      ],
+      "personas": [
+        "facility-manager",
+        "property-manager",
+        "syndic-manager"
+      ],
+      "segments": [
+        "office",
+        "retail",
+        "residential",
+        "industrial",
+        "healthcare-senior"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "integrations": [
+        "accounting software",
+        "building management systems"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "bob-desk",
+        "yuman",
+        "corrigo"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.twimm.fr",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "upkeep",
+      "name": "UpKeep",
+      "editor": "UpKeep",
+      "website": "https://www.upkeep.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "facility-maintenance",
+      "founded": 2014,
+      "positioning": "A CMMS designed for the technician's phone first, so work actually gets logged.",
+      "description": "UpKeep is a mobile-first maintenance management platform: work orders, preventive maintenance schedules, asset records, parts inventory and reporting, with the technician experience as the primary design surface rather than the manager's dashboard.\n",
+      "real_estate_use": "Maintenance data quality fails at the point of capture — a technician who has to return to a desktop to close a ticket will close five at once from memory on Friday. Building it for the phone, with photos and offline capture, is what makes the asset history usable a year later when deciding whether to repair or replace a rooftop unit.\n",
+      "features": [
+        "Mobile work order creation, assignment and completion",
+        "Preventive maintenance schedules by asset or meter reading",
+        "Asset registry with full repair history",
+        "Parts and inventory tracking with reorder alerts",
+        "Request portal for occupants and staff",
+        "Downtime, cost and technician performance reporting"
+      ],
+      "use_cases": [
+        {
+          "persona": "facility-manager",
+          "job": "Get technicians to log work at the point of work rather than from memory"
+        },
+        {
+          "persona": "property-manager",
+          "job": "Build an equipment repair history that justifies a capital replacement"
+        }
+      ],
+      "personas": [
+        "facility-manager",
+        "property-manager",
+        "corporate-re"
+      ],
+      "segments": [
+        "office",
+        "industrial",
+        "multifamily",
+        "retail",
+        "healthcare-senior"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "per-seat",
+        "public_pricing": true,
+        "url": "https://www.upkeep.com/pricing"
+      },
+      "integrations": [
+        "Zapier",
+        "QuickBooks",
+        "Slack",
+        "REST API"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en",
+          "es"
+        ]
+      },
+      "alternatives": [
+        "limble",
+        "servicechannel",
+        "corrigo"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.upkeep.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "wattsense",
+      "name": "Wattsense",
+      "editor": "Wattsense",
+      "website": "https://www.wattsense.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR",
+        "US"
+      ],
+      "category": "tenant-experience",
+      "also_in": [
+        "energy-esg",
+        "facility-maintenance"
+      ],
+      "positioning": "Plug-in connectivity for buildings too small to justify a full BMS integration project.",
+      "description": "Wattsense provides a hardware and cloud solution that connects a building's existing equipment — boilers, HVAC, meters, controllers — across multiple protocols and exposes the data and control points through a single cloud API, without a bespoke integration project.\n",
+      "real_estate_use": "Most of a commercial portfolio is not headquarters buildings. Mid-sized assets have some automation, no standardisation, and no budget for a systems integrator per site. Wattsense targets exactly that middle: a box on site, protocols handled, data and control available remotely — which is what makes portfolio-wide energy management feasible below the flagship tier.\n",
+      "features": [
+        "Multi-protocol connectivity to existing building equipment",
+        "Cloud API for data collection and remote control",
+        "Deployment without a bespoke integration project",
+        "Remote monitoring and alerting across sites",
+        "Data normalisation across heterogeneous equipment",
+        "Partner integrations with energy and facility platforms"
+      ],
+      "use_cases": [
+        {
+          "persona": "facility-manager",
+          "job": "Connect mid-sized buildings to remote monitoring without an integration project each"
+        },
+        {
+          "persona": "corporate-re",
+          "job": "Standardise data collection across a portfolio of heterogeneous equipment"
+        }
+      ],
+      "personas": [
+        "facility-manager",
+        "corporate-re",
+        "property-manager"
+      ],
+      "segments": [
+        "office",
+        "retail",
+        "industrial",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "integrations": [
+        "BACnet",
+        "Modbus",
+        "KNX",
+        "LonWorks",
+        "energy platforms",
+        "REST API"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr",
+          "en"
+        ]
+      },
+      "alternatives": [
+        "spinalcom",
+        "advizeo"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.wattsense.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "yuman",
+      "name": "Yuman",
+      "editor": "Yuman",
+      "website": "https://www.yuman.io",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "facility-maintenance",
+      "positioning": "A modern French CMMS built mobile-first for technicians in the field.",
+      "description": "Yuman is a French maintenance management SaaS covering equipment records, preventive maintenance plans, work orders, technician scheduling and route planning, mobile field reporting, spare parts, quotes and invoicing.\n",
+      "real_estate_use": "Its buyers are maintenance companies and technical services teams working across many sites, where the daily constraint is routing technicians efficiently and capturing what they did. The field application works offline in plant rooms and basements — a mundane requirement that decides whether the data exists at all.\n",
+      "features": [
+        "Equipment and site registry with maintenance history",
+        "Preventive maintenance plans and automatic work order generation",
+        "Technician scheduling with route optimisation",
+        "Offline-capable mobile field reporting",
+        "Spare parts and stock management",
+        "Quotes, invoicing and contract profitability tracking"
+      ],
+      "use_cases": [
+        {
+          "persona": "facility-manager",
+          "job": "Schedule and route technicians across many sites and capture work offline"
+        },
+        {
+          "persona": "property-manager",
+          "job": "Keep a per-equipment maintenance history that supports replacement decisions"
+        }
+      ],
+      "personas": [
+        "facility-manager",
+        "property-manager",
+        "corporate-re"
+      ],
+      "segments": [
+        "office",
+        "retail",
+        "industrial",
+        "residential",
+        "healthcare-senior"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "per-seat",
+        "public_pricing": true,
+        "url": "https://www.yuman.io/tarifs"
+      },
+      "integrations": [
+        "accounting software",
+        "REST API",
+        "Zapier"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr",
+          "en",
+          "es"
+        ]
+      },
+      "alternatives": [
+        "twimm",
+        "bob-desk",
+        "limble"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.yuman.io",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    }
+  ]
+}

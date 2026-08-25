@@ -1,0 +1,48 @@
+slug: horiz
+name: Horiz.io
+editor: Horiz.io
+website: https://www.horiz.io
+hq_country: FR
+markets: [FR]
+category: investment-underwriting
+also_in: [back-office-accounting]
+positioning: Rental investment analysis for the French private investor — yield, tax regime and cash flow before the offer is made.
+description: >
+  Horiz.io provides French rental investors with property analysis and simulation: gross and
+  net yield calculation, comparison of tax regimes for furnished and unfurnished letting,
+  financing and cash flow projection, plus portfolio tracking after acquisition.
+real_estate_use: >
+  In France the tax regime often decides whether an investment works — the same apartment can
+  be cash-flow negative unfurnished and positive under a furnished regime with amortisation.
+  Comparing those scenarios by hand is where private investors get it wrong. Horiz models
+  them side by side before the offer, and then tracks the actual result afterwards.
+features:
+  - Gross, net and net-of-tax yield calculation
+  - Comparison of French rental tax regimes side by side
+  - Financing and cash flow projection over the hold period
+  - Renovation and works scenario modelling
+  - Portfolio tracking after acquisition
+  - Report generation for a financing application
+use_cases:
+  - persona: investor-am
+    job: Compare furnished and unfurnished tax regimes on the same property before offering
+  - persona: landlord-owner
+    job: Project cash flow over the hold period including financing and works
+personas: [investor-am, landlord-owner]
+segments: [residential, mixed-use]
+company_sizes: [solo, smb]
+pricing:
+  model: freemium
+  public_pricing: true
+  url: https://www.horiz.io/tarifs
+integrations: [banking feeds, accounting exports]
+product:
+  api: false
+  open_source: false
+  mobile: []
+  languages: [fr]
+alternatives: [ownily, stessa]
+reviews: []
+sources: [{ url: https://www.horiz.io, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

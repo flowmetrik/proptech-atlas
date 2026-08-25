@@ -1,0 +1,82 @@
+{
+  "slug": "zumper",
+  "name": "Zumper",
+  "editor": "Zumper",
+  "website": "https://www.zumper.com",
+  "hq_country": "US",
+  "markets": [
+    "US"
+  ],
+  "category": "portals-marketplaces",
+  "positioning": "A rental marketplace built around applying from the phone, with instant-book style flows.",
+  "description": "Zumper is a rental listing marketplace covering apartments, houses and rooms, with in-platform applications, screening and rent payment. Its consumer positioning is speed: find, apply and be approved without a physical appointment.\n",
+  "real_estate_use": "Landlords and managers list here to reach renters who search on mobile and expect to apply immediately. For smaller landlords the platform doubles as the application and screening workflow, and its published national rent index is a common reference point in pricing discussions.\n",
+  "features": [
+    "Rental marketplace for apartments, houses and rooms",
+    "In-platform applications and screening",
+    "Instant-apply flows and verified listings",
+    "Rent payment collection",
+    "National rent report and market index",
+    "Landlord dashboard for listing performance"
+  ],
+  "use_cases": [
+    {
+      "persona": "landlord-owner",
+      "job": "List a unit and take applications from mobile-first renters"
+    },
+    {
+      "persona": "property-manager",
+      "job": "Reach renters outside the incumbent portal networks"
+    }
+  ],
+  "personas": [
+    "landlord-owner",
+    "property-manager",
+    "tenant-occupier"
+  ],
+  "segments": [
+    "residential",
+    "multifamily"
+  ],
+  "company_sizes": [
+    "solo",
+    "smb",
+    "midmarket"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "public_pricing": false
+  },
+  "integrations": [
+    "property management platform feeds"
+  ],
+  "product": {
+    "api": true,
+    "open_source": false,
+    "mobile": [
+      "ios",
+      "android"
+    ],
+    "languages": [
+      "en"
+    ]
+  },
+  "alternatives": [
+    "apartments-com",
+    "zillow",
+    "avail"
+  ],
+  "reviews": [],
+  "sources": [
+    {
+      "url": "https://www.zumper.com",
+      "note": "site éditeur"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-25"
+}

@@ -1,0 +1,88 @@
+{
+  "slug": "propertyware",
+  "name": "Propertyware",
+  "editor": "RealPage",
+  "website": "https://www.propertyware.com",
+  "hq_country": "US",
+  "markets": [
+    "US"
+  ],
+  "category": "property-management",
+  "also_in": [
+    "back-office-accounting"
+  ],
+  "founded": 2004,
+  "positioning": "Built for scattered single-family rentals, where every door is a different address with a different owner.",
+  "description": "Propertyware is a management platform specialised in single-family and small residential portfolios: owner and tenant portals, a flexible accounting engine, mobile inspections, a maintenance module, and an open API used to wire in external marketing and screening.\n",
+  "real_estate_use": "Managing 800 scattered houses is not managing an 800-unit building. Every property has its own owner with its own management agreement, its own maintenance reserve and its own reporting expectations. Propertyware's accounting is built around that fragmentation, and its inspection app exists because staff spend the day driving between assets.\n",
+  "features": [
+    "Owner-level accounting with per-property agreements and reserves",
+    "Mobile property inspections with photos",
+    "Maintenance workflow with vendor assignment and billing",
+    "Owner and tenant portals with online payments",
+    "Marketing syndication and lead tracking",
+    "Open API and custom field configuration"
+  ],
+  "use_cases": [
+    {
+      "persona": "property-manager",
+      "job": "Report to hundreds of individual owners on scattered single-family homes"
+    },
+    {
+      "persona": "investor-am",
+      "job": "Track maintenance reserves and net owner distributions per property"
+    }
+  ],
+  "personas": [
+    "property-manager",
+    "investor-am",
+    "landlord-owner"
+  ],
+  "segments": [
+    "residential"
+  ],
+  "company_sizes": [
+    "smb",
+    "midmarket"
+  ],
+  "pricing": {
+    "model": "per-unit",
+    "public_pricing": true,
+    "url": "https://www.propertyware.com/pricing"
+  },
+  "integrations": [
+    "REST API",
+    "screening bureaus",
+    "Zillow Rentals"
+  ],
+  "product": {
+    "api": true,
+    "open_source": false,
+    "mobile": [
+      "ios",
+      "android"
+    ],
+    "languages": [
+      "en"
+    ]
+  },
+  "alternatives": [
+    "buildium",
+    "rentmanager",
+    "appfolio",
+    "hemlane"
+  ],
+  "reviews": [],
+  "sources": [
+    {
+      "url": "https://www.propertyware.com",
+      "note": "site éditeur"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-25"
+}

@@ -1,0 +1,49 @@
+slug: spinalcom
+name: SpinalCom
+editor: SpinalCom
+website: https://www.spinalcom.com
+hq_country: FR
+markets: [FR]
+category: tenant-experience
+also_in: [facility-maintenance, energy-esg]
+positioning: A building operating system — the layer that makes twenty proprietary building systems queryable as one digital twin.
+description: >
+  SpinalCom publishes a building operating system that aggregates data from heterogeneous
+  building systems — HVAC, lighting, access, metering, BIM models — into a semantic digital
+  twin, exposed through APIs so applications can be built on top rather than integrated one
+  by one.
+real_estate_use: >
+  A smart building project usually stalls on the same wall: every subsystem speaks a
+  different protocol and belongs to a different contractor. Placing an operating system
+  between the equipment and the applications means the tenant app, the energy dashboard and
+  the maintenance tool all read the same model of the building, and replacing a supplier does
+  not break everything above it.
+features:
+  - Aggregation of heterogeneous building systems and protocols
+  - Semantic digital twin linked to the BIM model
+  - Open APIs for third-party applications
+  - Real-time supervision and equipment monitoring
+  - Data historisation for energy and operations analytics
+  - Vendor-independent architecture
+use_cases:
+  - persona: facility-manager
+    job: Read every building subsystem through one model instead of twenty interfaces
+  - persona: corporate-re
+    job: Build tenant and energy applications on a twin that outlives a supplier change
+personas: [facility-manager, corporate-re, investor-am, developer-builder]
+segments: [office, healthcare-senior, mixed-use, industrial]
+company_sizes: [midmarket, enterprise]
+pricing:
+  model: quote
+  public_pricing: false
+integrations: [BACnet, Modbus, KNX, BIM models, IoT platforms]
+product:
+  api: true
+  open_source: false
+  mobile: []
+  languages: [fr, en]
+alternatives: [wattsense, witco]
+reviews: []
+sources: [{ url: https://www.spinalcom.com, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

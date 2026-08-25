@@ -1,0 +1,47 @@
+slug: smily
+name: Smily
+editor: Smily (formerly BookingSync)
+website: https://www.smily.com
+hq_country: FR
+markets: [FR, US]
+category: short-term-rental
+founded: 2011
+positioning: A European-built vacation rental platform where the direct booking website is treated as the point, not an afterthought.
+description: >
+  Smily, previously BookingSync, provides short-term rental management: channel management
+  across major platforms, a direct booking website, unified inbox and guest messaging,
+  payments, owner reporting and an open API with a developer ecosystem.
+real_estate_use: >
+  European managers face commission rates that make direct booking the difference between a
+  viable business and a marginal one. Smily's emphasis on the owned website and its own
+  booking engine is aimed at that: channels fill the calendar, but the objective is to move
+  repeat guests onto a direct channel where no commission is paid.
+features:
+  - Channel management across major booking platforms
+  - Direct booking website with its own booking engine
+  - Unified guest inbox and automated messaging
+  - Payment processing and rental agreements
+  - Owner reporting and statements
+  - Open API and application ecosystem
+use_cases:
+  - persona: property-manager
+    job: Move repeat guests from commissioned channels onto a direct booking site
+  - persona: landlord-owner
+    job: Manage seasonal rentals with European legal and payment requirements
+personas: [property-manager, landlord-owner, investor-am]
+segments: [hospitality, residential]
+company_sizes: [solo, smb, midmarket]
+pricing:
+  model: subscription
+  public_pricing: false
+integrations: [Airbnb, Booking.com, Vrbo, PriceLabs, Stripe]
+product:
+  api: true
+  open_source: false
+  mobile: [ios, android]
+  languages: [fr, en, es, it]
+alternatives: [guesty, hostaway, amenitiz]
+reviews: []
+sources: [{ url: https://www.smily.com, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

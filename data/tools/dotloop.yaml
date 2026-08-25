@@ -1,0 +1,49 @@
+slug: dotloop
+name: dotloop
+editor: Zillow Group
+website: https://www.dotloop.com
+hq_country: US
+markets: [US]
+category: transaction-management
+founded: 2009
+positioning: The transaction workspace where agent, client, broker and cooperating side edit and sign the same set of documents.
+description: >
+  dotloop organises a deal as a "loop" — one shared workspace holding the contract set,
+  the people, the tasks and the audit trail. Forms are filled with reusable data, signed
+  electronically inside the product, and reviewed by a broker against a compliance
+  checklist before the file is archived.
+real_estate_use: >
+  From accepted offer to closing, everything a state or association form requires lives in
+  the loop. The agent edits a purchase agreement without leaving the browser, the buyer
+  signs on a phone, and the broker's compliance reviewer sees at a glance which documents
+  are missing before commission is released. Its value shows up in audit season.
+features:
+  - Loops holding documents, participants, tasks and messages per transaction
+  - Built-in form editing with association and state form libraries
+  - Legally binding e-signature with full audit trail
+  - Broker compliance review queues and document checklists
+  - Templates per transaction type and per office
+  - Activity log and archived record retention
+use_cases:
+  - persona: agent-broker
+    job: Get a full contract package prepared, signed and stored without printing anything
+  - persona: brokerage
+    job: Review every file against a compliance checklist before releasing commission
+personas: [agent-broker, brokerage]
+segments: [residential]
+company_sizes: [solo, smb, midmarket, enterprise]
+pricing:
+  model: per-seat
+  public_pricing: true
+  url: https://www.dotloop.com/pricing
+integrations: [Follow Up Boss, MLS systems, Google Drive, Dropbox, Zapier]
+product:
+  api: true
+  open_source: false
+  mobile: [ios, android]
+  languages: [en]
+alternatives: [skyslope, lone-wolf-transactions, brokermint]
+reviews: []
+sources: [{ url: https://www.dotloop.com, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: 2026-08-25

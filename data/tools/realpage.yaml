@@ -1,0 +1,52 @@
+slug: realpage
+name: RealPage
+editor: RealPage (Thoma Bravo)
+website: https://www.realpage.com
+hq_country: US
+markets: [US]
+category: property-management
+also_in: [market-data, tenant-screening]
+founded: 1998
+positioning: The broadest multifamily suite in the market — and the one whose revenue management product put algorithmic rent pricing under legal scrutiny.
+description: >
+  RealPage sells a wide portfolio for multifamily and single-family rental operators:
+  property management systems (OneSite, Propertyware, Buildium), leasing and marketing,
+  screening, utility management, asset optimisation and the AI Revenue Management products
+  descended from YieldStar and LRO.
+real_estate_use: >
+  Large operators use it for the modules they cannot easily build: screening at scale,
+  utility recovery, and above all revenue management — a model that recommends a rent for
+  every unit every day based on market and portfolio signals. That last product is the
+  subject of US antitrust litigation over algorithmic pricing, which is now part of any
+  serious evaluation of it.
+features:
+  - OneSite property management and accounting
+  - AI Revenue Management rent pricing recommendations
+  - Applicant screening and fraud detection
+  - Utility billing and expense recovery
+  - Leasing, marketing and contact centre services
+  - Asset and portfolio performance analytics
+use_cases:
+  - persona: property-manager
+    job: Price thousands of units daily against market and occupancy signals
+  - persona: investor-am
+    job: Benchmark asset performance against a national multifamily dataset
+personas: [property-manager, investor-am, landlord-owner]
+segments: [multifamily, residential, coliving-student]
+company_sizes: [midmarket, enterprise]
+pricing:
+  model: quote
+  public_pricing: false
+integrations: [Yardi, Entrata, accounting systems, ILS networks]
+ai:
+  capabilities: [Revenue management pricing models, Applicant fraud detection, Leasing chatbots]
+product:
+  api: true
+  open_source: false
+  mobile: [ios, android]
+  languages: [en]
+alternatives: [entrata, yardi-voyager, appfolio]
+reviews: []
+sources: [{ url: https://www.realpage.com, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

@@ -1,0 +1,49 @@
+slug: snappt
+name: Snappt
+editor: Snappt
+website: https://snappt.com
+hq_country: US
+markets: [US]
+category: tenant-screening
+founded: 2017
+positioning: A credit check does not catch a forged pay stub. This does.
+description: >
+  Snappt analyses documents submitted with rental applications — pay stubs, bank statements
+  — for signs of digital tampering, and cross-checks income against verified sources. It is
+  bought as a layer on top of conventional screening rather than as a replacement for it.
+real_estate_use: >
+  Document fraud is the failure mode conventional screening misses: an applicant with thin
+  credit submits an edited pay stub, passes the income test, and defaults in month three.
+  Multifamily operators run every application file through fraud detection before approval,
+  and measure the product on bad-debt reduction rather than on approval speed.
+features:
+  - Digital tampering detection on pay stubs and bank statements
+  - Income verification against connected financial sources
+  - Fraud risk scoring per application file
+  - Integration into existing screening workflows
+  - Reporting on fraud rates by property and by lead source
+  - Audit trail supporting a defensible denial
+use_cases:
+  - persona: property-manager
+    job: Catch forged income documents before approving a lease
+  - persona: investor-am
+    job: Reduce bad debt by measuring fraud rates per property and per lead source
+personas: [property-manager, landlord-owner, investor-am]
+segments: [multifamily, residential]
+company_sizes: [midmarket, enterprise]
+pricing:
+  model: usage
+  public_pricing: false
+integrations: [Entrata, Yardi, RealPage, AppFolio]
+ai:
+  capabilities: [Document tampering detection, Fraud risk scoring]
+product:
+  api: true
+  open_source: false
+  mobile: []
+  languages: [en]
+alternatives: [transunion-smartmove, realpage]
+reviews: []
+sources: [{ url: https://snappt.com, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

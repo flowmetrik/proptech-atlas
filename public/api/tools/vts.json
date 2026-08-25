@@ -1,0 +1,100 @@
+{
+  "slug": "vts",
+  "name": "VTS",
+  "editor": "VTS",
+  "website": "https://www.vts.com",
+  "hq_country": "US",
+  "markets": [
+    "US",
+    "FR"
+  ],
+  "category": "commercial-am",
+  "also_in": [
+    "tenant-experience",
+    "market-data"
+  ],
+  "founded": 2012,
+  "positioning": "The leasing pipeline for office landlords — every tour, proposal and lease in one view, plus a demand index nobody else has.",
+  "description": "VTS is a leasing and asset management platform for commercial landlords: deal pipeline, space availability, tenant and broker activity, portfolio reporting, and the VTS Market and Activate products covering marketing and tenant experience. Its VTS Office Demand Index derives leading indicators from platform activity.\n",
+  "real_estate_use": "Office leasing runs on a pipeline that traditionally lived in a leasing director's spreadsheet. VTS makes it institutional: every requirement, tour and proposal is tracked, so an asset manager can forecast occupancy and compare a proposed deal against portfolio standards. Because a large share of US office space transacts on the platform, aggregated tour activity becomes a market signal weeks ahead of signed-lease data.\n",
+  "features": [
+    "Leasing deal pipeline with tours, proposals and approvals",
+    "Space availability and stacking plans",
+    "Portfolio occupancy and lease expiry reporting",
+    "VTS Market for online marketing of available space",
+    "VTS Activate tenant experience application",
+    "Office Demand Index from aggregated platform activity"
+  ],
+  "use_cases": [
+    {
+      "persona": "investor-am",
+      "job": "Forecast occupancy from a real leasing pipeline rather than from a spreadsheet"
+    },
+    {
+      "persona": "agent-broker",
+      "job": "Track every requirement and proposal on a landlord's portfolio in one system"
+    }
+  ],
+  "personas": [
+    "investor-am",
+    "agent-broker",
+    "corporate-re",
+    "property-manager"
+  ],
+  "segments": [
+    "office",
+    "retail",
+    "industrial",
+    "mixed-use"
+  ],
+  "company_sizes": [
+    "midmarket",
+    "enterprise"
+  ],
+  "pricing": {
+    "model": "quote",
+    "public_pricing": false
+  },
+  "integrations": [
+    "Yardi",
+    "MRI",
+    "Argus",
+    "Salesforce"
+  ],
+  "ai": {
+    "capabilities": [
+      "Lease abstraction",
+      "Deal and demand analytics"
+    ]
+  },
+  "product": {
+    "api": true,
+    "open_source": false,
+    "mobile": [
+      "ios",
+      "android"
+    ],
+    "languages": [
+      "en",
+      "fr"
+    ]
+  },
+  "alternatives": [
+    "mri-software",
+    "dealpath",
+    "yardi-voyager"
+  ],
+  "reviews": [],
+  "sources": [
+    {
+      "url": "https://www.vts.com",
+      "note": "site éditeur"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-25"
+}

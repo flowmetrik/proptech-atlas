@@ -1,0 +1,87 @@
+---
+import Base from '../layouts/Base.astro';
+import { url, counts, REPO } from '../lib/catalog';
+const origin = (Astro.site?.href ?? 'https://flowmetrik.github.io/').replace(/\/$/, '');
+const abs = (p: string) => `${origin}${url(p)}`;
+---
+<Base title="API" description="A static, keyless JSON API over the whole real estate software catalogue — plus the knowledge graph itself.">
+  <section class="wrap-narrow section prose">
+    <h1>API</h1>
+    <p class="lede">
+      Everything on this site has a JSON twin. Static files, no key, no rate limit, no account.
+      Fetch them from the site or straight from the repository.
+    </p>
+
+    <div class="callout" style="margin:28px 0">
+      <strong>Licence.</strong> Data is CC BY 4.0 — use it, including commercially, and cite
+      <em>PropTech Atlas</em> with a link. The site code is MIT.
+    </div>
+
+    <h2>Endpoints</h2>
+    <table>
+      <thead><tr><th>Endpoint</th><th>What it returns</th></tr></thead>
+      <tbody>
+        <tr><td><a class="mono" href={url('api/index.json')}>/api/index.json</a></td><td>Metadata, counts and the endpoint map</td></tr>
+        <tr><td><a class="mono" href={url('api/tools.json')}>/api/tools.json</a></td><td>The full catalogue — {counts.tools} products</td></tr>
+        <tr><td><span class="mono">/api/tools/&#123;slug&#125;.json</span></td><td>One product</td></tr>
+        <tr><td><span class="mono">/api/categories/&#123;id&#125;.json</span></td><td>One category with its products</td></tr>
+        <tr><td><a class="mono" href={url('api/taxonomy.json')}>/api/taxonomy.json</a></td><td>Categories, personas, segments, sizes, markets, pricing models</td></tr>
+        <tr><td><a class="mono" href={url('api/graph.json')}>/api/graph.json</a></td><td>The knowledge graph — nodes and typed edges</td></tr>
+        <tr><td><a class="mono" href={url('llms.txt')}>/llms.txt</a></td><td>Plain-text index for agents</td></tr>
+      </tbody>
+    </table>
+
+    <h2>The graph</h2>
+    <p>
+      A flat list answers "does this product exist". A graph answers "what should I recommend to
+      a French condominium manager with 400 lots". Nodes are products, vendors, categories,
+      personas, asset classes and markets; edges are typed relations.
+    </p>
+    <pre><code>{`published_by     tool  → editor
+belongs_to       tool  → category
+also_serves      tool  → category
+serves_persona   tool  → persona
+covers_segment   tool  → segment
+available_in     tool  → market
+alternative_to   tool  → tool`}</code></pre>
+
+    <h2>Examples</h2>
+    <p>Every French tool for managing a condominium, with its real-world use:</p>
+    <pre><code>{`curl -s ${abs('api/tools.json')} \\
+  | jq '.tools[]
+      | select(.markets | index("FR"))
+      | select(.category == "syndic-copro")
+      | {name, editor, real_estate_use}'`}</code></pre>
+
+    <p>Everything a property manager can use in both markets:</p>
+    <pre><code>{`curl -s ${abs('api/tools.json')} \\
+  | jq '[.tools[]
+      | select(.personas | index("property-manager"))
+      | select((.markets | index("US")) and (.markets | index("FR")))
+      | .name]'`}</code></pre>
+
+    <p>Straight from the repository, no site involved:</p>
+    <pre><code>{`curl -s https://raw.githubusercontent.com/flowmetrik/proptech-atlas/main/data/tools/appfolio.yaml`}</code></pre>
+
+    <h2>For AI builders</h2>
+    <p>
+      Three things this dataset does that a scraped directory cannot. Each fiche separates
+      <strong>what a product is</strong> from <strong>what it claims about itself</strong>. Each
+      one carries a <span class="mono">real_estate_use</span> field describing the job on the
+      ground, which is the part a model needs to answer "which tool for this situation". And each
+      one carries a verification status — so a model can decline to assert what nobody has
+      checked.
+    </p>
+    <p>
+      Please do not present an <span class="mono">unverified</span> fiche as an established fact.
+      The status is in the payload precisely so you can pass it on.
+    </p>
+
+    <h2>Stability</h2>
+    <ul>
+      <li>Slugs are stable. A renamed product keeps its slug and gains an alias note.</li>
+      <li>Fields are added, not removed. Consumers should ignore unknown keys.</li>
+      <li>Everything is regenerated on every commit to <span class="mono">main</span> — see <a href={`${REPO}/actions`} rel="noopener">the workflow</a>.</li>
+    </ul>
+  </section>
+</Base>

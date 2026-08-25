@@ -1,0 +1,47 @@
+slug: hqo
+name: HqO
+editor: HqO
+website: https://www.hqo.com
+hq_country: US
+markets: [US, FR]
+category: tenant-experience
+founded: 2015
+positioning: The landlord's app for the people who work in the building — and the measurement of whether they come in.
+description: >
+  HqO is a workplace experience platform for office landlords and occupiers: a tenant-facing
+  app for access, amenities, bookings, events and communications, plus an analytics layer
+  measuring how a building is actually used.
+real_estate_use: >
+  Since hybrid work, an office landlord's asset value depends on whether tenants renew, and
+  renewal depends on whether employees turn up. HqO gives the landlord a direct channel to
+  occupants rather than only to the tenant's facilities contact, and produces the utilisation
+  data used in renewal conversations and in amenity investment decisions.
+features:
+  - Tenant experience app with building access and mobile credentials
+  - Amenity, room and service booking
+  - Building communications, events and community features
+  - Workplace utilisation analytics and benchmarking
+  - Tenant satisfaction measurement
+  - Integrations with access control and building systems
+use_cases:
+  - persona: investor-am
+    job: Measure building utilisation to support a renewal or amenity investment case
+  - persona: tenant-occupier
+    job: Access the building, book a room and see what is on today from one app
+personas: [investor-am, property-manager, corporate-re, tenant-occupier]
+segments: [office, mixed-use]
+company_sizes: [midmarket, enterprise]
+pricing:
+  model: quote
+  public_pricing: false
+integrations: [access control systems, Yardi, MRI, Microsoft 365]
+product:
+  api: true
+  open_source: false
+  mobile: [ios, android]
+  languages: [en, fr, de]
+alternatives: [equiem, vts]
+reviews: []
+sources: [{ url: https://www.hqo.com, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

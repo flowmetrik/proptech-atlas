@@ -1,0 +1,88 @@
+{
+  "slug": "energystar-portfolio-manager",
+  "name": "ENERGY STAR Portfolio Manager",
+  "editor": "US Environmental Protection Agency",
+  "website": "https://www.energystar.gov/buildings/benchmark",
+  "hq_country": "US",
+  "markets": [
+    "US"
+  ],
+  "category": "energy-esg",
+  "founded": 1999,
+  "positioning": "The free federal benchmarking tool that most US disclosure ordinances are written around.",
+  "description": "Portfolio Manager is a free online tool from the EPA for tracking energy and water use, waste and emissions in buildings. It produces the 1-to-100 ENERGY STAR score, supports certification applications, and is the submission format required by most US city and state benchmarking laws.\n",
+  "real_estate_use": "When a city ordinance requires annual energy disclosure, it almost always means uploading to Portfolio Manager. Owners therefore use it whether or not they have a commercial energy platform — and the commercial platforms exist in part to feed it automatically. The ENERGY STAR score itself is used as a marketing claim in leasing.\n",
+  "features": [
+    "Free energy, water, waste and emissions tracking",
+    "ENERGY STAR 1-to-100 score and certification application",
+    "Automated data exchange with utilities and service providers",
+    "Compliance reporting for city and state benchmarking laws",
+    "Portfolio-level comparison and target setting",
+    "Public web services API"
+  ],
+  "use_cases": [
+    {
+      "persona": "corporate-re",
+      "job": "Meet a city benchmarking ordinance at no software cost"
+    },
+    {
+      "persona": "investor-am",
+      "job": "Obtain an ENERGY STAR score usable as a leasing and disclosure argument"
+    }
+  ],
+  "personas": [
+    "corporate-re",
+    "investor-am",
+    "facility-manager",
+    "property-manager"
+  ],
+  "segments": [
+    "office",
+    "retail",
+    "industrial",
+    "multifamily",
+    "healthcare-senior"
+  ],
+  "company_sizes": [
+    "solo",
+    "smb",
+    "midmarket",
+    "enterprise"
+  ],
+  "pricing": {
+    "model": "free",
+    "public_pricing": true,
+    "url": "https://www.energystar.gov/buildings/benchmark"
+  },
+  "integrations": [
+    "utility data exchange",
+    "Measurabl",
+    "WatchWire",
+    "Yardi"
+  ],
+  "product": {
+    "api": true,
+    "open_source": false,
+    "mobile": [],
+    "languages": [
+      "en"
+    ]
+  },
+  "alternatives": [
+    "measurabl",
+    "watchwire"
+  ],
+  "reviews": [],
+  "sources": [
+    {
+      "url": "https://www.energystar.gov/buildings/benchmark",
+      "note": "site éditeur"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-25"
+}

@@ -1,0 +1,48 @@
+slug: obat
+name: Obat
+editor: Obat
+website: https://www.obat.fr
+hq_country: FR
+markets: [FR]
+category: construction-development
+also_in: [back-office-accounting]
+positioning: Quotes and invoices for the French artisan, with the regulatory mentions the trade actually needs.
+description: >
+  Obat is French SaaS for building trades: quotes with priced work libraries, invoices and
+  progress billing, purchase and margin tracking, site follow-up, and the mandatory mentions
+  required on construction documents including insurance and VAT rate handling.
+real_estate_use: >
+  A tradesperson's quote is a legal document: reduced VAT rates depend on the works and the
+  age of the property, the décennale insurance reference must appear, and a renovation aid
+  scheme may require specific wording. Obat encodes those rules so the artisan does not
+  discover a defect when a client claims an aid and the paperwork is rejected.
+features:
+  - Quotes with priced work and material libraries
+  - Regulatory mentions including insurance and VAT rates
+  - Invoices, deposits and progress billing
+  - Purchase, supplier and margin tracking
+  - Site and intervention follow-up
+  - Client follow-up and payment reminders
+use_cases:
+  - persona: developer-builder
+    job: Issue quotes with the correct VAT rate and mandatory mentions for renovation work
+  - persona: landlord-owner
+    job: Receive quotes documented well enough to claim a renovation aid scheme
+personas: [developer-builder, landlord-owner]
+segments: [residential, mixed-use]
+company_sizes: [solo, smb]
+pricing:
+  model: subscription
+  public_pricing: true
+  url: https://www.obat.fr/tarifs
+integrations: [accounting software, banking, supplier catalogues]
+product:
+  api: false
+  open_source: false
+  mobile: [ios, android]
+  languages: [fr]
+alternatives: [graneet, batappli, vertuoza]
+reviews: []
+sources: [{ url: https://www.obat.fr, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

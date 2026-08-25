@@ -1,0 +1,48 @@
+slug: rentila
+name: Rentila
+editor: Rentila
+website: https://www.rentila.com
+hq_country: FR
+markets: [FR]
+category: property-management
+positioning: Free rental management for the French private landlord — leases, receipts and the tax return line.
+description: >
+  Rentila is an online rental management service for individual landlords in France: lease
+  generation, rent receipts, payment tracking, charge regularisation, tenant and property
+  records, document storage and reporting, with a free tier and paid options.
+real_estate_use: >
+  A French private landlord has three recurring obligations: a compliant lease, a monthly
+  quittance when the tenant asks for one, and an accurate annual charge regularisation.
+  Rentila automates those three, and produces the figures needed for the revenus fonciers
+  declaration — which is the moment most landlords discover their record-keeping was
+  incomplete.
+features:
+  - Lease generation with French legal clauses
+  - Automatic rent receipts and payment tracking
+  - Charge provision and annual regularisation
+  - Tenant, property and document records
+  - Income and expense reporting for tax declaration
+  - Reminder letters and arrears follow-up
+use_cases:
+  - persona: landlord-owner
+    job: Issue compliant leases and receipts without a management agency
+  - persona: landlord-owner
+    job: Produce the figures needed for the annual revenus fonciers declaration
+personas: [landlord-owner]
+segments: [residential]
+company_sizes: [solo, smb]
+pricing:
+  model: freemium
+  public_pricing: true
+  url: https://www.rentila.com/tarifs
+integrations: [electronic signature, banking imports]
+product:
+  api: false
+  open_source: false
+  mobile: [ios, android]
+  languages: [fr]
+alternatives: [gererseul, smartloc, ownily]
+reviews: []
+sources: [{ url: https://www.rentila.com, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

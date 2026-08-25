@@ -1,0 +1,81 @@
+{
+  "slug": "agentfire",
+  "name": "AgentFire",
+  "editor": "AgentFire",
+  "website": "https://agentfire.com",
+  "hq_country": "US",
+  "markets": [
+    "US"
+  ],
+  "category": "agent-marketing",
+  "founded": 2012,
+  "positioning": "Hyperlocal agent websites — built to rank on the neighbourhood, not on the city.",
+  "description": "AgentFire builds WordPress-based agent and team websites with IDX search, and a large library of add-ons aimed at local authority content: neighbourhood guides, market reports, area pages, lead magnets and semantic SEO structures.\n",
+  "real_estate_use": "Competing for \"homes for sale in Austin\" is hopeless against the portals; competing for a specific neighbourhood is not. AgentFire's content structures exist for that strategy — an agent builds authoritative pages per area, and the site is designed to capture the long-tail searches those pages attract.\n",
+  "features": [
+    "WordPress-based agent and team websites with IDX",
+    "Neighbourhood and area guide page structures",
+    "Market report and lead magnet modules",
+    "Semantic SEO structures for local authority",
+    "Custom design tiers and branding",
+    "CRM integration and lead routing"
+  ],
+  "use_cases": [
+    {
+      "persona": "agent-broker",
+      "job": "Rank on neighbourhood-level searches the portals do not dominate"
+    },
+    {
+      "persona": "brokerage",
+      "job": "Publish area content that keeps producing leads years later"
+    }
+  ],
+  "personas": [
+    "agent-broker",
+    "brokerage"
+  ],
+  "segments": [
+    "residential"
+  ],
+  "company_sizes": [
+    "solo",
+    "smb"
+  ],
+  "pricing": {
+    "model": "subscription",
+    "public_pricing": true,
+    "url": "https://agentfire.com/pricing"
+  },
+  "integrations": [
+    "MLS IDX feeds",
+    "Follow Up Boss",
+    "Zapier",
+    "Google Analytics"
+  ],
+  "product": {
+    "api": false,
+    "open_source": false,
+    "mobile": [],
+    "languages": [
+      "en"
+    ]
+  },
+  "alternatives": [
+    "luxury-presence",
+    "realgeeks",
+    "sierra-interactive"
+  ],
+  "reviews": [],
+  "sources": [
+    {
+      "url": "https://agentfire.com",
+      "note": "site éditeur"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-25"
+}

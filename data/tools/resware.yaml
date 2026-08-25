@@ -1,0 +1,46 @@
+slug: resware
+name: ResWare
+editor: Adeptive Software (Qualia)
+website: https://www.adeptivesoftware.com
+hq_country: US
+markets: [US]
+category: title-closing-legal
+positioning: Title production for high-volume operations, where the workflow engine matters more than the interface.
+description: >
+  ResWare is a title and escrow production platform aimed at large agencies and national
+  operations, built around a configurable workflow and automation engine with extensive
+  partner integrations and API-driven order exchange.
+real_estate_use: >
+  A national title operation processes orders from many lenders, each with its own service
+  level and document requirements. ResWare is chosen for the rules engine that routes and
+  automates those variations at volume, and for API-based order intake that lets a lender
+  place and track orders without a human touching them.
+features:
+  - Configurable workflow and automation rules engine
+  - API-driven order intake and status exchange with lenders
+  - Escrow accounting and disbursement controls
+  - Document generation and policy production
+  - Vendor and partner network integration
+  - Volume reporting and service level tracking
+use_cases:
+  - persona: legal-notary
+    job: Automate title order routing across many lender workflows at volume
+  - persona: lender-broker
+    job: Place and track title orders through an API rather than by email
+personas: [legal-notary, lender-broker]
+segments: [residential, office]
+company_sizes: [midmarket, enterprise]
+pricing:
+  model: quote
+  public_pricing: false
+integrations: [lender systems, underwriters, county recording, REST API]
+product:
+  api: true
+  open_source: false
+  mobile: []
+  languages: [en]
+alternatives: [qualia, softpro]
+reviews: []
+sources: [{ url: https://www.adeptivesoftware.com, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

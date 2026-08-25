@@ -1,0 +1,992 @@
+{
+  "id": "portals-marketplaces",
+  "label_en": "Portals & marketplaces",
+  "label_fr": "Portails & places de marché",
+  "summary_en": "Where supply meets demand in public — consumer portals, listing networks and transactional marketplaces.",
+  "summary_fr": "Là où l'offre rencontre la demande en public — portails grand public, réseaux d'annonces et places de marché transactionnelles.",
+  "count": 11,
+  "tools": [
+    {
+      "slug": "apartments-com",
+      "name": "Apartments.com",
+      "editor": "CoStar Group",
+      "website": "https://www.apartments.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "portals-marketplaces",
+      "also_in": [
+        "property-management",
+        "tenant-screening"
+      ],
+      "founded": 1992,
+      "positioning": "The dominant US rental marketplace, bundled with free tooling that pulls small landlords onto the platform.",
+      "description": "CoStar's rental network — Apartments.com and its sister sites — lists apartments and single-family rentals nationally. Alongside paid advertising for professional managers, it offers small landlords free listing, online applications, tenant screening, lease signing and rent collection.\n",
+      "real_estate_use": "A professional manager buys placement and lead volume for a lease-up. An individual landlord uses the free side as their entire operating system: list the unit, receive applications with credit and background checks, sign a state-specific lease and collect rent by ACH. That free tier is why so many small portfolios never buy dedicated property management software.\n",
+      "features": [
+        "National rental listing network with paid placement tiers",
+        "Online rental applications with tenant screening",
+        "State-specific lease templates and e-signature",
+        "Online rent collection and payment tracking",
+        "Renter profiles and application reuse",
+        "Rental market rent comparables for pricing"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Fill vacancies in a lease-up with paid placement and measured lead volume"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "List, screen, lease and collect rent on a handful of units at no software cost"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "landlord-owner",
+        "tenant-occupier"
+      ],
+      "segments": [
+        "multifamily",
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "freemium",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Yardi",
+        "RealPage",
+        "Entrata",
+        "AppFolio",
+        "CoStar data"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "zillow",
+        "zumper",
+        "rentspree"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.apartments.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "bien-ici",
+      "name": "Bien'ici",
+      "editor": "Bien'ici",
+      "website": "https://www.bienici.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "portals-marketplaces",
+      "founded": 2016,
+      "positioning": "The portal founded by the French networks themselves, built around a 3D map search rather than a list of results.",
+      "description": "Bien'ici is a French property portal created by a consortium of real estate networks and professional groups. Its distinguishing feature is a 3D cartographic search showing a property in its actual urban context, with commute-time filtering and neighbourhood information.\n",
+      "real_estate_use": "It exists because French professionals wanted a portal they partly control, as a counterweight to portal pricing power. For an agency, the practical calculation is the same as anywhere — leads against subscription cost — with the added argument that the map-based search attracts buyers doing serious location research rather than casual browsing.\n",
+      "features": [
+        "3D map-based property search in urban context",
+        "Commute time and point-of-interest filtering",
+        "Professional sale and rental listings",
+        "Neighbourhood and environment information",
+        "New-build programme sections",
+        "Lead delivery to agency software"
+      ],
+      "use_cases": [
+        {
+          "persona": "brokerage",
+          "job": "Advertise on a portal partly governed by the professional networks themselves"
+        },
+        {
+          "persona": "tenant-occupier",
+          "job": "Search by commute time and urban context rather than by postcode"
+        }
+      ],
+      "personas": [
+        "brokerage",
+        "agent-broker",
+        "developer-builder",
+        "tenant-occupier"
+      ],
+      "segments": [
+        "residential",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Hektor",
+        "Netty",
+        "Apimo",
+        "Ubiflow"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "seloger",
+        "leboncoin-immobilier",
+        "pap"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.bienici.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "crexi",
+      "name": "Crexi",
+      "editor": "Commercial Real Estate Exchange, Inc.",
+      "website": "https://www.crexi.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "portals-marketplaces",
+      "also_in": [
+        "market-data",
+        "transaction-management"
+      ],
+      "founded": 2015,
+      "positioning": "A CRE marketplace that also runs the deal — listing, bidding, due diligence room and comps in one place.",
+      "description": "Crexi combines a commercial listing marketplace with transaction tooling: offer management, an auction platform, a virtual deal room, and Crexi Intelligence for sales comparables, ownership records and lease data. It positions itself as the challenger to the incumbent CoStar and LoopNet pairing.\n",
+      "real_estate_use": "A broker lists an asset, receives structured offers or runs a timed auction, and shares due-diligence documents through a permissioned data room instead of a shared drive link. Buyers use Crexi Intelligence to check what comparable assets traded for and who owns the building next door before committing to underwriting.\n",
+      "features": [
+        "Commercial listing marketplace across asset classes",
+        "Structured offer submission and auction platform",
+        "Permissioned virtual due-diligence rooms",
+        "Crexi Intelligence comparables, ownership and lease data",
+        "Broker CRM and buyer activity analytics",
+        "Marketing tools including flyers and email campaigns"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Run a competitive bid process on an asset with a controlled document room"
+        },
+        {
+          "persona": "investor-am",
+          "job": "Check sale comparables and ownership before underwriting an acquisition"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "investor-am",
+        "developer-builder"
+      ],
+      "segments": [
+        "office",
+        "retail",
+        "industrial",
+        "multifamily",
+        "land-development"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://www.crexi.com/pricing"
+      },
+      "integrations": [
+        "Dealpath",
+        "Salesforce",
+        "Zapier"
+      ],
+      "ai": {
+        "capabilities": [
+          "Lease abstraction from uploaded documents",
+          "Property matching and recommendations"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "loopnet",
+        "costar",
+        "reonomy"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.crexi.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "homes-com",
+      "name": "Homes.com",
+      "editor": "CoStar Group",
+      "website": "https://www.homes.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "portals-marketplaces",
+      "founded": 1999,
+      "positioning": "The portal built on the \"your listing, your lead\" promise — the listing agent is the one shown on their own listing.",
+      "description": "Relaunched by CoStar Group with heavy consumer advertising, Homes.com differentiates from the incumbent portals by not selling a competing agent's advertising slot on top of a listing. It is backed by CoStar's data infrastructure and adds neighbourhood-level editorial content.\n",
+      "real_estate_use": "The pitch to listing agents is defensive: winning a listing is easier when the seller knows their own agent will appear on the portal page rather than three buyers' agents who paid for the ZIP code. Membership products give agents branded profiles and listing boosts, and brokerages use it as a counterweight to portal lead pricing.\n",
+      "features": [
+        "Listing pages that display the listing agent rather than paid competitors",
+        "Agent membership profiles and branded listing presentation",
+        "Neighbourhood and school editorial content",
+        "National consumer advertising driving portal traffic",
+        "Rental listing network",
+        "CoStar-sourced property and market data"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Win a listing appointment by promising the seller exclusive agent visibility"
+        },
+        {
+          "persona": "brokerage",
+          "job": "Reduce dependency on portals that resell leads on the brokerage's own inventory"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage"
+      ],
+      "segments": [
+        "residential",
+        "multifamily"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "integrations": [
+        "MLS feeds",
+        "CoStar data",
+        "major CRMs"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "zillow",
+        "realtor-com",
+        "costar"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.homes.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "leboncoin-immobilier",
+      "name": "Leboncoin Immobilier",
+      "editor": "Leboncoin (Adevinta)",
+      "website": "https://www.leboncoin.fr/immobilier",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "portals-marketplaces",
+      "positioning": "The generalist classified site that became France's highest-traffic property channel — private sellers and agencies side by side.",
+      "description": "Leboncoin's real estate section carries both private-seller and professional listings for sale and rental across France, sold to professionals through listing packs and visibility options, and benefiting from the traffic of one of the country's largest websites.\n",
+      "real_estate_use": "Its dual nature defines its role. Agencies advertise here for volume at a lower cost per listing than the professional portals. At the same time it is the main source for the pige — the private-seller listings that agencies canvass for mandates. The same platform is therefore both a marketing channel and a prospecting ground.\n",
+      "features": [
+        "Private and professional sale and rental listings",
+        "Professional listing packs and visibility options",
+        "National generalist audience",
+        "Lead routing to professional accounts",
+        "New-build and programme listings",
+        "Rental application handling for some listing types"
+      ],
+      "use_cases": [
+        {
+          "persona": "brokerage",
+          "job": "Reach the largest French property audience at a lower cost per listing"
+        },
+        {
+          "persona": "agent-broker",
+          "job": "Identify private sellers to canvass for a mandate"
+        }
+      ],
+      "personas": [
+        "brokerage",
+        "agent-broker",
+        "landlord-owner",
+        "tenant-occupier"
+      ],
+      "segments": [
+        "residential",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Hektor",
+        "Netty",
+        "Apimo",
+        "Ubiflow",
+        "Pige Online"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "seloger",
+        "bien-ici",
+        "pap"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.leboncoin.fr/immobilier",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "loopnet",
+      "name": "LoopNet",
+      "editor": "CoStar Group",
+      "website": "https://www.loopnet.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "portals-marketplaces",
+      "founded": 1995,
+      "positioning": "The public shop window for US commercial property — where a CRE listing goes to be found by someone outside your rolodex.",
+      "description": "LoopNet is CoStar's public-facing commercial marketplace, covering office, retail, industrial, multifamily and land for sale and for lease. Paid listing tiers determine search placement and exposure; the underlying property records come from CoStar's research operation.\n",
+      "real_estate_use": "A broker marketing a warehouse or a strip centre buys a listing tier to reach principals and out-of-market buyers that a local network would miss. Investors use it as a screening tool for asking prices and available inventory before paying for CoStar-grade data. It is a marketing channel, not an underwriting source.\n",
+      "features": [
+        "Commercial for-sale and for-lease listings across all asset classes",
+        "Tiered paid placement determining search visibility",
+        "Property and demographic detail from CoStar research",
+        "Lead capture and inquiry routing to the listing broker",
+        "Portfolio and auction marketing options",
+        "Broker and firm profile pages"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Expose a commercial listing beyond the local broker network to national buyers"
+        },
+        {
+          "persona": "investor-am",
+          "job": "Screen available inventory and asking prices in a target market"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "investor-am",
+        "corporate-re"
+      ],
+      "segments": [
+        "office",
+        "retail",
+        "industrial",
+        "multifamily",
+        "land-development"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "integrations": [
+        "CoStar",
+        "Apartments.com network"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "crexi",
+        "costar"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.loopnet.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "pap",
+      "name": "PAP (De Particulier à Particulier)",
+      "editor": "PAP",
+      "website": "https://www.pap.fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "portals-marketplaces",
+      "founded": 1975,
+      "positioning": "The private-to-private marketplace — no agencies, by design, since long before the internet.",
+      "description": "PAP publishes only listings from private individuals, excluding real estate professionals as a matter of editorial policy. It provides sellers and landlords with listing tools, document templates and guidance for handling a transaction or a tenancy without an agency.\n",
+      "real_estate_use": "Two opposite uses. For an owner it is the reference channel for selling or letting without paying agency fees, with the legal templates that decision requires. For an agency it is a pure pige source: every listing on PAP is by definition an owner who has chosen not to use a professional, which makes it the hardest and most valuable canvassing ground in France.\n",
+      "features": [
+        "Private-seller and private-landlord listings only",
+        "Listing publication tools for individuals",
+        "Lease, notice and transaction document templates",
+        "Guidance content on selling and letting without an agency",
+        "Rental application handling between individuals",
+        "Regional editions and search"
+      ],
+      "use_cases": [
+        {
+          "persona": "landlord-owner",
+          "job": "Sell or let a property without agency fees, with the paperwork provided"
+        },
+        {
+          "persona": "agent-broker",
+          "job": "Canvass owners who have explicitly chosen to go without an agency"
+        }
+      ],
+      "personas": [
+        "landlord-owner",
+        "tenant-occupier",
+        "agent-broker"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo"
+      ],
+      "pricing": {
+        "model": "usage",
+        "public_pricing": true,
+        "url": "https://www.pap.fr/annonce/tarifs"
+      },
+      "integrations": [
+        "Pige Online"
+      ],
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "leboncoin-immobilier",
+        "seloger",
+        "bien-ici"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.pap.fr",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "realtor-com",
+      "name": "Realtor.com",
+      "editor": "Move, Inc. (News Corp)",
+      "website": "https://www.realtor.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "portals-marketplaces",
+      "also_in": [
+        "crm-lead"
+      ],
+      "founded": 1996,
+      "positioning": "The portal operated under licence from the National Association of REALTORS, fed directly by MLS data.",
+      "description": "Realtor.com is a consumer portal whose distinguishing claim is data freshness: listings come from MLS feeds under an NAR operating agreement rather than from scraped or syndicated sources. Its professional side sells Connections Plus and Market Reach advertising, and it owns rental products including Avail.\n",
+      "real_estate_use": "Agents buy exclusive or shared buyer leads by ZIP code and use the platform's listing presence as a seller-pitch argument. Because the feed comes from the MLS, status changes propagate faster than on aggregators, which matters when a client is comparing what is actually still available.\n",
+      "features": [
+        "MLS-sourced for-sale and for-rent listings",
+        "Connections Plus buyer lead products by ZIP code",
+        "Market Reach display advertising to a farm area",
+        "RealEstimate valuation range from multiple models",
+        "Agent profiles and review collection",
+        "Rental products including Avail for small landlords"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Acquire buyer leads in a defined ZIP code with MLS-accurate inventory behind them"
+        },
+        {
+          "persona": "agent-broker",
+          "job": "Show a seller the reach their listing gets across the portal network"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage",
+        "landlord-owner"
+      ],
+      "segments": [
+        "residential",
+        "multifamily"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "usage",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Follow Up Boss",
+        "major CRMs",
+        "MLS feeds"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "zillow",
+        "homes-com",
+        "apartments-com"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.realtor.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "seloger",
+      "name": "SeLoger",
+      "editor": "Aviv Group (Axel Springer)",
+      "website": "https://www.seloger.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "portals-marketplaces",
+      "also_in": [
+        "crm-lead"
+      ],
+      "founded": 1992,
+      "positioning": "The historic French professional portal — where agencies pay to be seen, and where most French property searches still begin.",
+      "description": "SeLoger is a French property portal for sale and rental listings, historically restricted to professionals and now part of Aviv Group alongside Logic-Immo and MeilleursAgents. It sells agencies listing packs, visibility options and lead products, with new-build programme sections for developers.\n",
+      "real_estate_use": "For a French agency the SeLoger subscription is usually the largest single marketing line, and its renewal is an annual argument: the agency compares the leads it produced against Leboncoin's cheaper volume and its own website. Because the portal is professional-only, the listings carry mandate information, which is why buyers use it differently from the classified sites.\n",
+      "features": [
+        "Professional sale and rental listings across France",
+        "Agency listing packs and visibility boosting options",
+        "Lead delivery to agency software and CRMs",
+        "New-build programme sections for developers",
+        "Agency profile pages and branding",
+        "Audience and performance reporting per listing"
+      ],
+      "use_cases": [
+        {
+          "persona": "brokerage",
+          "job": "Buy portal visibility for a mandate portfolio and measure the leads it returns"
+        },
+        {
+          "persona": "developer-builder",
+          "job": "Market a new-build programme to French buyers on a dedicated section"
+        }
+      ],
+      "personas": [
+        "brokerage",
+        "agent-broker",
+        "developer-builder",
+        "tenant-occupier"
+      ],
+      "segments": [
+        "residential",
+        "mixed-use",
+        "office"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Hektor",
+        "Netty",
+        "Apimo",
+        "Ubiflow",
+        "Poliris"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "leboncoin-immobilier",
+        "bien-ici",
+        "pap"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.seloger.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "zillow",
+      "name": "Zillow",
+      "editor": "Zillow Group",
+      "website": "https://www.zillow.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "portals-marketplaces",
+      "also_in": [
+        "estimation-pricing",
+        "crm-lead"
+      ],
+      "founded": 2006,
+      "positioning": "The consumer entry point to US residential real estate, and therefore the largest paid lead channel for agents.",
+      "description": "Zillow is a consumer property portal carrying for-sale, for-rent and off-market inventory, the Zestimate automated valuation, and a set of professional products — Premier Agent advertising, Zillow Showcase listing enhancement, rental listing syndication and a mortgage marketplace.\n",
+      "real_estate_use": "For an agent, Zillow is rarely a listing tool and almost always an acquisition channel: buyer leads are sold by ZIP code share of voice through Premier Agent, and a seller conversation frequently starts from a Zestimate the owner has already seen. For a landlord, the rentals network is a primary source of applicants. Its data is also the reference point clients bring to a pricing meeting.\n",
+      "features": [
+        "Consumer for-sale, for-rent and off-market property search",
+        "Zestimate automated valuation on most US homes",
+        "Premier Agent advertising sold by ZIP code",
+        "Zillow Showcase enhanced listing presentation",
+        "Rental listing syndication and application handling",
+        "Agent finder and review profiles"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Buy buyer-side leads in a target ZIP code and measure cost per closing"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "Advertise a rental unit and collect applications from a national audience"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage",
+        "landlord-owner",
+        "tenant-occupier"
+      ],
+      "segments": [
+        "residential",
+        "multifamily"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "usage",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Follow Up Boss",
+        "dotloop",
+        "MLS feeds",
+        "major CRMs"
+      ],
+      "ai": {
+        "capabilities": [
+          "Zestimate valuation model",
+          "Natural language property search"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "realtor-com",
+        "homes-com",
+        "apartments-com"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.zillow.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "zumper",
+      "name": "Zumper",
+      "editor": "Zumper",
+      "website": "https://www.zumper.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "portals-marketplaces",
+      "positioning": "A rental marketplace built around applying from the phone, with instant-book style flows.",
+      "description": "Zumper is a rental listing marketplace covering apartments, houses and rooms, with in-platform applications, screening and rent payment. Its consumer positioning is speed: find, apply and be approved without a physical appointment.\n",
+      "real_estate_use": "Landlords and managers list here to reach renters who search on mobile and expect to apply immediately. For smaller landlords the platform doubles as the application and screening workflow, and its published national rent index is a common reference point in pricing discussions.\n",
+      "features": [
+        "Rental marketplace for apartments, houses and rooms",
+        "In-platform applications and screening",
+        "Instant-apply flows and verified listings",
+        "Rent payment collection",
+        "National rent report and market index",
+        "Landlord dashboard for listing performance"
+      ],
+      "use_cases": [
+        {
+          "persona": "landlord-owner",
+          "job": "List a unit and take applications from mobile-first renters"
+        },
+        {
+          "persona": "property-manager",
+          "job": "Reach renters outside the incumbent portal networks"
+        }
+      ],
+      "personas": [
+        "landlord-owner",
+        "property-manager",
+        "tenant-occupier"
+      ],
+      "segments": [
+        "residential",
+        "multifamily"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "freemium",
+        "public_pricing": false
+      },
+      "integrations": [
+        "property management platform feeds"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "apartments-com",
+        "zillow",
+        "avail"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.zumper.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    }
+  ]
+}

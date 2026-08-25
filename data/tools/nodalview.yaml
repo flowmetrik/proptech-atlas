@@ -1,0 +1,50 @@
+slug: nodalview
+name: Nodalview
+editor: Nodalview
+website: https://www.nodalview.com
+hq_country: BE
+markets: [FR]
+category: visuals-tours
+founded: 2016
+positioning: Professional-looking property photography and virtual visits shot on the agent's own phone.
+description: >
+  Nodalview combines a smartphone capture application with cloud processing to produce
+  property photography, HDR images, 360 virtual visits, videos and floor plans, plus
+  marketing assets generated from the same shoot.
+real_estate_use: >
+  Hiring a photographer for every mandate is neither affordable nor fast enough in the
+  mid-market, and phone photographs taken by an agent are usually poor. Nodalview's guided
+  capture and automatic processing sit between the two, and because the visit and the images
+  come from one appointment, the listing goes live the same day.
+features:
+  - Guided smartphone capture with automatic HDR processing
+  - 360 virtual visits and interactive tours
+  - Video and marketing asset generation from the same shoot
+  - Floor plan capture options
+  - Branded delivery and listing integration
+  - Lead capture on shared virtual visits
+use_cases:
+  - persona: agent-broker
+    job: Produce publishable property images and a virtual visit from one phone appointment
+  - persona: brokerage
+    job: Standardise listing image quality across a team without hiring photographers
+personas: [agent-broker, brokerage]
+segments: [residential, office, retail]
+company_sizes: [solo, smb, midmarket]
+pricing:
+  model: subscription
+  public_pricing: true
+  url: https://www.nodalview.com/pricing
+integrations: [SweepBright, European agency software, portals]
+ai:
+  capabilities: [Automatic image enhancement, Virtual staging]
+product:
+  api: true
+  open_source: false
+  mobile: [ios, android]
+  languages: [fr, nl, en, es]
+alternatives: [matterport, cubicasa, boxbrownie]
+reviews: []
+sources: [{ url: https://www.nodalview.com, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

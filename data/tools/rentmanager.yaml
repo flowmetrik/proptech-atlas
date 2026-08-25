@@ -1,0 +1,49 @@
+slug: rentmanager
+name: Rent Manager
+editor: London Computer Systems
+website: https://www.rentmanager.com
+hq_country: US
+markets: [US]
+category: property-management
+also_in: [back-office-accounting, facility-maintenance]
+founded: 1982
+positioning: The configurable one — for portfolios whose lease terms do not fit anybody's standard form.
+description: >
+  Rent Manager is a property management and accounting platform known for the depth of its
+  configuration: user-defined fields, custom reports, a built-in contact centre, work order
+  and asset tracking, and support for unusual property types including self-storage,
+  marinas, manufactured housing and mixed portfolios.
+real_estate_use: >
+  It wins where the standard product breaks. A portfolio mixing apartments, commercial
+  suites, storage units and ground leases has billing rules no template covers; Rent Manager
+  lets an operator model them without leaving the accounting system. The trade-off is that
+  someone has to own the configuration.
+features:
+  - Configurable accounting with user-defined fields and custom reports
+  - Support for storage, marina, manufactured housing and mixed portfolios
+  - Work order, inspection and fixed-asset tracking
+  - Built-in phone system and contact centre
+  - Tenant and owner portals with online payments
+  - Open API and extensive integration marketplace
+use_cases:
+  - persona: property-manager
+    job: Model non-standard billing across a mixed-asset portfolio inside the accounting system
+  - persona: facility-manager
+    job: Track work orders and equipment against the same property records as the leases
+personas: [property-manager, facility-manager, landlord-owner]
+segments: [residential, multifamily, office, retail, industrial, mixed-use]
+company_sizes: [smb, midmarket, enterprise]
+pricing:
+  model: per-unit
+  public_pricing: false
+integrations: [REST API, screening bureaus, banking, Zapier]
+product:
+  api: true
+  open_source: false
+  mobile: [ios, android]
+  languages: [en]
+alternatives: [appfolio, buildium, yardi-breeze, propertyware]
+reviews: []
+sources: [{ url: https://www.rentmanager.com, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

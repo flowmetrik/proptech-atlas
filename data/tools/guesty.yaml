@@ -1,0 +1,49 @@
+slug: guesty
+name: Guesty
+editor: Guesty
+website: https://www.guesty.com
+hq_country: IL
+markets: [US, FR]
+category: short-term-rental
+founded: 2013
+positioning: The property management system for professional short-term rental operators, built around the channel.
+description: >
+  Guesty is a short-term and vacation rental management platform: channel management across
+  Airbnb, Booking.com, Vrbo and others, unified inbox, automated guest messaging, direct
+  booking websites, payments, cleaning and task automation, and revenue tools.
+real_estate_use: >
+  A manager running two hundred apartments across four booking platforms faces a
+  double-booking risk on every listing and a message volume no team can answer manually.
+  Guesty synchronises availability and rates across channels, automates the guest message
+  sequence from booking to checkout, and triggers the cleaning task the moment a stay ends.
+features:
+  - Multi-channel synchronisation of availability, rates and reservations
+  - Unified guest inbox with automated messaging sequences
+  - Direct booking website and payment processing
+  - Cleaning and maintenance task automation per turnover
+  - Revenue management and dynamic pricing integrations
+  - Owner reporting and statements for managed properties
+use_cases:
+  - persona: property-manager
+    job: Run hundreds of listings across four booking channels without double bookings
+  - persona: landlord-owner
+    job: Receive owner statements on short-term rental income from a manager
+personas: [property-manager, landlord-owner, investor-am]
+segments: [hospitality, residential]
+company_sizes: [smb, midmarket, enterprise]
+pricing:
+  model: commission
+  public_pricing: false
+integrations: [Airbnb, Booking.com, Vrbo, PriceLabs, Stripe, Turno]
+ai:
+  capabilities: [Guest message drafting and auto-response, Review response generation]
+product:
+  api: true
+  open_source: false
+  mobile: [ios, android]
+  languages: [en, fr, es]
+alternatives: [hostaway]
+reviews: []
+sources: [{ url: https://www.guesty.com, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

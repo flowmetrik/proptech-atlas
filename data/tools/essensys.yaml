@@ -1,0 +1,48 @@
+slug: essensys
+name: essensys
+editor: essensys
+website: https://essensys.tech
+hq_country: GB
+markets: [US, FR]
+category: flex-coworking
+also_in: [tenant-experience]
+founded: 2006
+positioning: The infrastructure layer under flex space — network, access and billing for buildings running many operators.
+description: >
+  essensys provides software and on-site technology for flexible workspace: operations and
+  billing platform, plus network infrastructure that segments and provisions connectivity
+  per tenant, and access control across multi-tenant buildings.
+real_estate_use: >
+  A landlord converting floors to flex has a problem no coworking app solves: every occupier
+  needs its own secure network segment, provisioned in hours rather than weeks, and metered.
+  essensys sits at that layer, which is why it is bought by landlords and large operators
+  rather than by single spaces.
+features:
+  - Per-tenant network provisioning and segmentation
+  - Automated billing for space, services and consumption
+  - Access control across multi-tenant buildings
+  - Operations platform for flexible workspace portfolios
+  - Real-time service usage metering
+  - Landlord-grade reporting across operators
+use_cases:
+  - persona: investor-am
+    job: Turn floors into flex space with secure per-occupier networks provisioned in hours
+  - persona: property-manager
+    job: Meter and bill services consumed by multiple operators in one building
+personas: [investor-am, property-manager, corporate-re]
+segments: [office, mixed-use]
+company_sizes: [midmarket, enterprise]
+pricing:
+  model: quote
+  public_pricing: false
+integrations: [access control systems, network hardware, accounting systems]
+product:
+  api: true
+  open_source: false
+  mobile: []
+  languages: [en]
+alternatives: [officernd, nexudus]
+reviews: []
+sources: [{ url: https://essensys.tech, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

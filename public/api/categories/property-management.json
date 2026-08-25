@@ -1,0 +1,3075 @@
+{
+  "id": "property-management",
+  "label_en": "Residential property management",
+  "label_fr": "Gestion locative résidentielle",
+  "summary_en": "Leases, rent, owners, tenants, maintenance and trust accounting.",
+  "summary_fr": "Baux, quittances, propriétaires, locataires, travaux et comptabilité mandant.",
+  "count": 34,
+  "tools": [
+    {
+      "slug": "aareon",
+      "name": "Aareon",
+      "editor": "Aareon",
+      "website": "https://www.aareon.fr",
+      "hq_country": "DE",
+      "markets": [
+        "FR"
+      ],
+      "category": "property-management",
+      "also_in": [
+        "tenant-experience",
+        "back-office-accounting"
+      ],
+      "positioning": "The European ERP of social and institutional housing — where the tenant file, the rent and the works order live together.",
+      "description": "Aareon provides enterprise property management software for social landlords, institutional owners and large managers across Europe, with a French organisation serving bailleurs sociaux: tenant and lease management, rent and charge accounting, allocation processes, maintenance and tenant self-service portals.\n",
+      "real_estate_use": "French social housing operates under rules no commercial system covers: regulated rents, the allocation commission, the surface and resource ceilings, the supplément de loyer. Aareon's French deployments encode those processes, which is why the sector runs on specialised ERPs rather than on general property management platforms.\n",
+      "features": [
+        "Tenant, lease and allocation management for regulated housing",
+        "Rent and charge accounting with regulatory rules",
+        "Maintenance and works order management",
+        "Tenant self-service portal and digital services",
+        "Asset and patrimony management",
+        "Regulatory and management reporting"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Run regulated allocation and rent processes for a social housing portfolio"
+        },
+        {
+          "persona": "corporate-re",
+          "job": "Hold asset, lease and works data for a large institutional patrimony in one ERP"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "corporate-re",
+        "facility-manager"
+      ],
+      "segments": [
+        "residential",
+        "multifamily",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "accounting systems",
+        "banking",
+        "works management",
+        "tenant portals"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr",
+          "de",
+          "en",
+          "nl"
+        ]
+      },
+      "alternatives": [
+        "crypto-septeo",
+        "yardi-voyager",
+        "mri-software"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.aareon.fr",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "apartments-com",
+      "name": "Apartments.com",
+      "editor": "CoStar Group",
+      "website": "https://www.apartments.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "portals-marketplaces",
+      "also_in": [
+        "property-management",
+        "tenant-screening"
+      ],
+      "founded": 1992,
+      "positioning": "The dominant US rental marketplace, bundled with free tooling that pulls small landlords onto the platform.",
+      "description": "CoStar's rental network — Apartments.com and its sister sites — lists apartments and single-family rentals nationally. Alongside paid advertising for professional managers, it offers small landlords free listing, online applications, tenant screening, lease signing and rent collection.\n",
+      "real_estate_use": "A professional manager buys placement and lead volume for a lease-up. An individual landlord uses the free side as their entire operating system: list the unit, receive applications with credit and background checks, sign a state-specific lease and collect rent by ACH. That free tier is why so many small portfolios never buy dedicated property management software.\n",
+      "features": [
+        "National rental listing network with paid placement tiers",
+        "Online rental applications with tenant screening",
+        "State-specific lease templates and e-signature",
+        "Online rent collection and payment tracking",
+        "Renter profiles and application reuse",
+        "Rental market rent comparables for pricing"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Fill vacancies in a lease-up with paid placement and measured lead volume"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "List, screen, lease and collect rent on a handful of units at no software cost"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "landlord-owner",
+        "tenant-occupier"
+      ],
+      "segments": [
+        "multifamily",
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "freemium",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Yardi",
+        "RealPage",
+        "Entrata",
+        "AppFolio",
+        "CoStar data"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "zillow",
+        "zumper",
+        "rentspree"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.apartments.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "appfolio",
+      "name": "AppFolio Property Manager",
+      "editor": "AppFolio",
+      "website": "https://www.appfolio.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "property-management",
+      "also_in": [
+        "back-office-accounting",
+        "ai-assistants"
+      ],
+      "founded": 2006,
+      "positioning": "The mid-market property management system that made cloud-native and mobile-first the default expectation.",
+      "description": "AppFolio is an all-in-one property management platform covering residential, commercial, student and community association portfolios: marketing and leasing, applicant screening, online payments, maintenance, full trust accounting and owner reporting, with AI features branded Realm.\n",
+      "real_estate_use": "A management company running a few thousand units uses it as the system of record for the whole operation. A vacancy is syndicated to the rental portals, an applicant is screened and signs a lease online, rent arrives by ACH, a maintenance request from the tenant app becomes a work order to a vendor, and the owner receives a statement generated from the same ledger. The differentiator in practice is that the accounting is genuinely built in, not bolted on.\n",
+      "features": [
+        "Vacancy marketing with syndication to rental portals",
+        "Online applications, screening and lease e-signature",
+        "Online rent collection and utility billing",
+        "Maintenance work orders with vendor management and a 24/7 call answering option",
+        "Full trust accounting, owner statements and 1099 handling",
+        "Resident and owner portals with mobile apps"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Run leasing, rent, maintenance and owner accounting for thousands of units in one ledger"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "Receive an owner statement generated from the actual accounting rather than a spreadsheet"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "landlord-owner",
+        "syndic-manager"
+      ],
+      "segments": [
+        "residential",
+        "multifamily",
+        "coliving-student",
+        "office",
+        "retail"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "per-unit",
+        "public_pricing": true,
+        "url": "https://www.appfolio.com/pricing"
+      },
+      "integrations": [
+        "Apartments.com",
+        "Zillow Rentals",
+        "HappyCo",
+        "Conservice",
+        "REST API"
+      ],
+      "ai": {
+        "capabilities": [
+          "Leasing assistant answering prospect enquiries",
+          "Maintenance triage",
+          "Automated statement narratives"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "buildium",
+        "entrata",
+        "rentmanager",
+        "yardi-breeze"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.appfolio.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "avail",
+      "name": "Avail",
+      "editor": "Realtor.com (Move, Inc.)",
+      "website": "https://www.avail.co",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "property-management",
+      "also_in": [
+        "tenant-screening"
+      ],
+      "founded": 2012,
+      "positioning": "DIY landlord tooling with the distribution of a national portal behind it.",
+      "description": "Avail gives independent landlords listing syndication, online applications, credit and background screening, state-specific lease agreements, digital signatures, rent collection with credit reporting for tenants, and maintenance tracking. Owned by Realtor.com.\n",
+      "real_estate_use": "The distribution matters: a unit listed in Avail appears on Realtor.com and partner sites, so a landlord with two properties reaches the same audience as a management company. Rent payments can be reported to credit bureaus, which landlords use as an incentive for on-time payment.\n",
+      "features": [
+        "Listing syndication through the Realtor.com network",
+        "Online applications with credit, criminal and eviction screening",
+        "State-specific lease agreements with digital signing",
+        "Rent collection with optional credit bureau reporting",
+        "Maintenance tracking and vendor coordination",
+        "Rent price analysis for a given address"
+      ],
+      "use_cases": [
+        {
+          "persona": "landlord-owner",
+          "job": "List a unit on a national portal and take applications without an agent"
+        },
+        {
+          "persona": "tenant-occupier",
+          "job": "Build credit history by having on-time rent reported to the bureaus"
+        }
+      ],
+      "personas": [
+        "landlord-owner",
+        "tenant-occupier"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "freemium",
+        "public_pricing": true,
+        "url": "https://www.avail.co/pricing"
+      },
+      "integrations": [
+        "Realtor.com",
+        "TransUnion screening"
+      ],
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "turbotenant",
+        "innago",
+        "rentredi"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.avail.co",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "buildium",
+      "name": "Buildium",
+      "editor": "RealPage",
+      "website": "https://www.buildium.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "property-management",
+      "also_in": [
+        "back-office-accounting",
+        "syndic-copro"
+      ],
+      "founded": 2004,
+      "positioning": "The property management system a small management company can actually implement without a project team.",
+      "description": "Buildium covers residential rentals, community associations and affordable housing: listings, applications and screening, leases, rent collection, maintenance, accounting and owner reporting, with published per-unit pricing and self-serve onboarding. Now part of RealPage.\n",
+      "real_estate_use": "It sits at the tier below AppFolio and Entrata: a company managing a few hundred doors, often mixed between rentals and homeowner associations. The HOA module handles association dues, violations and architectural requests, which is why small managers with both books of business consolidate here rather than run two systems.\n",
+      "features": [
+        "Listings, applications and tenant screening",
+        "Lease management with e-signature and renewals",
+        "Online rent and association dues collection",
+        "Maintenance requests, work orders and vendor payments",
+        "Property, owner and association accounting with 1099s",
+        "Resident, owner and board member portals"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Manage a few hundred rental doors without a dedicated systems administrator"
+        },
+        {
+          "persona": "syndic-manager",
+          "job": "Run homeowner association dues, violations and board reporting in the same tool as rentals"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "syndic-manager",
+        "landlord-owner"
+      ],
+      "segments": [
+        "residential",
+        "multifamily"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "per-unit",
+        "public_pricing": true,
+        "url": "https://www.buildium.com/pricing"
+      },
+      "integrations": [
+        "Apartments.com",
+        "Zillow Rentals",
+        "TransUnion screening",
+        "QuickBooks"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "appfolio",
+        "doorloop",
+        "rentmanager",
+        "propertyware"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.buildium.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "check-and-visit",
+      "name": "Check & Visit",
+      "editor": "Check & Visit",
+      "website": "https://www.checkandvisit.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "diagnostics-compliance",
+      "also_in": [
+        "property-management",
+        "visuals-tours"
+      ],
+      "positioning": "Inspection software combined with a field network — the report can be produced by their operator rather than by your staff.",
+      "description": "Check & Visit provides digital état des lieux and property visit software for French professionals, together with a network of field operators who can carry out the inspection on the manager's behalf, and 3D capture options attached to the same record.\n",
+      "real_estate_use": "For a manager with dispersed properties, the constraint on inspections is travel time, not software. Outsourcing the visit to a local operator while keeping the report in the same digital format lets a lettings team scale without hiring inspectors — and the attached 3D capture doubles as a marketing asset for the next letting.\n",
+      "features": [
+        "Digital état des lieux with photographic evidence",
+        "Field operator network performing inspections on request",
+        "3D capture and virtual visit attached to the property record",
+        "Electronic signature and report generation",
+        "Portfolio dashboard for inspection status",
+        "Integration with management software"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Have inspections carried out on dispersed properties without hiring inspectors"
+        },
+        {
+          "persona": "agent-broker",
+          "job": "Capture a 3D visit at the same appointment as the inspection"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "agent-broker",
+        "landlord-owner"
+      ],
+      "segments": [
+        "residential",
+        "office",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "usage",
+        "public_pricing": false
+      },
+      "integrations": [
+        "French management software",
+        "electronic signature"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "immopad",
+        "startloc",
+        "matterport"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.checkandvisit.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "crypto-septeo",
+      "name": "Crypto (Septeo Solutions Immobilier)",
+      "editor": "Septeo",
+      "website": "https://www.septeo.com/fr/solutions-immobilier",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "syndic-copro",
+      "also_in": [
+        "property-management",
+        "back-office-accounting"
+      ],
+      "positioning": "The incumbent French property administration suite — installed across a large share of professional syndic and gérance portfolios.",
+      "description": "Crypto, part of Septeo's real estate division, covers syndic, gérance and transaction for French property administrators: per-building and mandant accounting, calls for funds, assemblies, lease and receipt management, and extranets for co-owners, owners and tenants.\n",
+      "real_estate_use": "It is the system of record in many established French administration de biens firms, chosen for accounting depth rather than for interface. Its centre of gravity is the regulated ledger: separate accounts per copropriété, mandant funds kept distinct from the firm's own money, and the reporting a comptable and an auditor expect.\n",
+      "features": [
+        "Syndic accounting per building with regulatory account structures",
+        "Gérance with mandant accounting and owner reddition de comptes",
+        "Calls for funds, budgets and assembly management",
+        "Lease, receipt and indexation handling",
+        "Co-owner, owner and tenant extranets",
+        "Transaction module and document management"
+      ],
+      "use_cases": [
+        {
+          "persona": "syndic-manager",
+          "job": "Keep regulated per-building accounts that satisfy an auditor"
+        },
+        {
+          "persona": "property-manager",
+          "job": "Produce owner reddition de comptes from mandant accounting rather than a spreadsheet"
+        }
+      ],
+      "personas": [
+        "syndic-manager",
+        "property-manager",
+        "brokerage"
+      ],
+      "segments": [
+        "residential",
+        "office",
+        "retail",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "banking",
+        "Modelo",
+        "accounting systems",
+        "Yousign"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "gercop",
+        "vilogi",
+        "lockimmo"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.septeo.com/fr/solutions-immobilier",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "doorloop",
+      "name": "DoorLoop",
+      "editor": "DoorLoop",
+      "website": "https://www.doorloop.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "property-management",
+      "also_in": [
+        "back-office-accounting"
+      ],
+      "founded": 2019,
+      "positioning": "The recent challenger — the same feature checklist as the incumbents, with an interface people learn in an afternoon.",
+      "description": "DoorLoop is a cloud property management platform covering rentals, associations and commercial portfolios: listings and screening, leases and e-signature, rent collection, maintenance, accounting with QuickBooks sync, and tenant and owner portals. It competes on usability and published pricing.\n",
+      "real_estate_use": "Its typical buyer is a manager leaving spreadsheets, or one leaving an older system whose interface their staff never mastered. The practical argument is onboarding time: a small team can go live in days, and the accounting exports cleanly to QuickBooks, which the bookkeeper already uses.\n",
+      "features": [
+        "Listings, applications and tenant screening",
+        "Lease templates with e-signature and automated renewals",
+        "Online rent collection with automatic late fees",
+        "Maintenance requests, vendor assignment and tracking",
+        "Accounting with QuickBooks two-way sync",
+        "Tenant, owner and vendor portals"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Replace spreadsheets with a full system without a long onboarding"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "Collect rent, track maintenance and report to owners from one place"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "landlord-owner",
+        "syndic-manager"
+      ],
+      "segments": [
+        "residential",
+        "multifamily",
+        "office",
+        "retail"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "per-unit",
+        "public_pricing": true,
+        "url": "https://www.doorloop.com/pricing"
+      },
+      "integrations": [
+        "QuickBooks",
+        "Zillow Rentals",
+        "Apartments.com",
+        "Zapier",
+        "TransUnion"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en",
+          "es"
+        ]
+      },
+      "alternatives": [
+        "buildium",
+        "appfolio",
+        "tenantcloud",
+        "innago"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.doorloop.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "eliseai",
+      "name": "EliseAI",
+      "editor": "EliseAI",
+      "website": "https://www.eliseai.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "ai-assistants",
+      "also_in": [
+        "property-management"
+      ],
+      "founded": 2017,
+      "positioning": "An AI leasing agent that answers, qualifies and books tours around the clock — measured on tours booked, not on messages sent.",
+      "description": "EliseAI provides conversational AI for multifamily and healthcare operators: it answers prospect enquiries by email, SMS, web chat and voice, qualifies against availability and criteria, schedules tours directly into the calendar, and follows up through the application and renewal stages.\n",
+      "real_estate_use": "Leasing enquiries arrive outside office hours and go cold within the hour. EliseAI answers immediately in the channel the prospect used, checks real availability against the property management system, and books the tour without a human. Operators measure it on tour conversion and on the leasing headcount it lets them redeploy.\n",
+      "features": [
+        "Conversational responses across email, SMS, web chat and voice",
+        "Availability-aware qualification against the property management system",
+        "Automatic tour scheduling into leasing calendars",
+        "Application follow-up and document chasing",
+        "Renewal and delinquency outreach campaigns",
+        "Maintenance request intake and triage"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Answer and qualify every after-hours leasing enquiry without adding staff"
+        },
+        {
+          "persona": "property-manager",
+          "job": "Chase renewals and missing application documents automatically"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "landlord-owner",
+        "investor-am"
+      ],
+      "segments": [
+        "multifamily",
+        "residential",
+        "healthcare-senior",
+        "coliving-student"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Yardi",
+        "RealPage",
+        "Entrata",
+        "AppFolio"
+      ],
+      "ai": {
+        "capabilities": [
+          "Conversational leasing across channels",
+          "Tour scheduling",
+          "Renewal outreach",
+          "Maintenance triage"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en",
+          "es"
+        ]
+      },
+      "alternatives": [
+        "structurely",
+        "entrata",
+        "ylopo"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.eliseai.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "entrata",
+      "name": "Entrata",
+      "editor": "Entrata",
+      "website": "https://www.entrata.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "property-management",
+      "also_in": [
+        "back-office-accounting",
+        "ai-assistants"
+      ],
+      "founded": 2003,
+      "positioning": "A single-stack multifamily operating system — the accounting ledger and the leasing website are the same product, not an integration.",
+      "description": "Entrata is a multifamily-focused platform combining property accounting, leasing and marketing websites, resident portals, utility billing, insurance, revenue management and an AI leasing agent. Its architectural claim is one database behind every module rather than a suite assembled by acquisition.\n",
+      "real_estate_use": "Large apartment operators use it to run a lease-up and a stabilised asset on the same ledger. A prospect finds the community site, is answered by the AI leasing agent at midnight, tours, applies and signs — and the rent, concessions and renewal pricing all post to the same accounting without a nightly file transfer between systems.\n",
+      "features": [
+        "Property accounting and general ledger for multifamily",
+        "Marketing websites and ILS syndication per community",
+        "AI leasing agent handling prospect enquiries and tour scheduling",
+        "Resident portal with payments, renewals and service requests",
+        "Revenue management and pricing optimisation",
+        "Utility billing, insurance and ancillary revenue modules"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Operate a large apartment portfolio with leasing, pricing and accounting on one database"
+        },
+        {
+          "persona": "investor-am",
+          "job": "Compare asset performance across a portfolio without reconciling systems"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "investor-am",
+        "landlord-owner"
+      ],
+      "segments": [
+        "multifamily",
+        "coliving-student",
+        "residential"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Apartments.com",
+        "Zillow Rentals",
+        "screening bureaus",
+        "accounting exports"
+      ],
+      "ai": {
+        "capabilities": [
+          "AI leasing agent for enquiries and tours",
+          "Renewal pricing recommendations"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "realpage",
+        "yardi-voyager",
+        "appfolio"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.entrata.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "gercop",
+      "name": "Gercop",
+      "editor": "Septeo",
+      "website": "https://www.gercop.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "syndic-copro",
+      "also_in": [
+        "property-management",
+        "back-office-accounting"
+      ],
+      "positioning": "Property administration software for larger French firms, where volume and multi-site organisation are the constraint.",
+      "description": "Gercop, also part of Septeo, provides syndic, gérance and transaction management for French administration de biens: accounting, assemblies, calls for funds, lease management, extranets and business reporting, aimed at structures managing large portfolios.\n",
+      "real_estate_use": "At the scale of tens of thousands of lots across multiple branches, the operational problem moves from bookkeeping to organisation: who manages which building, which assemblies fall in which month, where arrears are concentrating. Gercop is bought for that management layer over the same regulated accounting base.\n",
+      "features": [
+        "Syndic and gérance accounting at portfolio scale",
+        "Assembly planning and convocation across many buildings",
+        "Calls for funds, arrears tracking and recovery workflows",
+        "Lease management with indexation and charge regularisation",
+        "Multi-branch organisation and portfolio assignment",
+        "Management reporting and dashboards"
+      ],
+      "use_cases": [
+        {
+          "persona": "syndic-manager",
+          "job": "Plan and run assemblies across hundreds of buildings without losing deadlines"
+        },
+        {
+          "persona": "property-manager",
+          "job": "Track arrears concentration across a large managed portfolio"
+        }
+      ],
+      "personas": [
+        "syndic-manager",
+        "property-manager"
+      ],
+      "segments": [
+        "residential",
+        "office",
+        "retail",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "banking",
+        "Modelo",
+        "accounting systems"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "crypto-septeo",
+        "vilogi",
+        "syment"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.gercop.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "gererseul",
+      "name": "Gererseul",
+      "editor": "Gererseul",
+      "website": "https://www.gererseul.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "property-management",
+      "positioning": "Software for the landlord who has decided not to hire an agency — and needs the paperwork to be right anyway.",
+      "description": "Gererseul provides French private landlords with lease creation, rent call and receipt generation, payment and arrears tracking, charge regularisation, indexation, and document templates for the standard events of a tenancy.\n",
+      "real_estate_use": "Self-management fails on the events, not on the routine: the annual IRL indexation letter, the charge regularisation, the notice given in the correct form and delay. Gererseul's value is the template and the calendar around those moments, so a landlord does not discover a procedural defect at the tribunal.\n",
+      "features": [
+        "Lease creation with the applicable French regime",
+        "Rent calls, receipts and payment tracking",
+        "IRL indexation calculation and notification letters",
+        "Charge regularisation from actual expenses",
+        "Arrears reminders and formal notice templates",
+        "Document library for tenancy events"
+      ],
+      "use_cases": [
+        {
+          "persona": "landlord-owner",
+          "job": "Apply the annual IRL indexation correctly and in the right form"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "Regularise charges against actual expenses at the end of the year"
+        }
+      ],
+      "personas": [
+        "landlord-owner"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://www.gererseul.com/tarifs"
+      },
+      "integrations": [
+        "electronic signature",
+        "banking imports"
+      ],
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "rentila",
+        "smartloc",
+        "ownily"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.gererseul.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "hemlane",
+      "name": "Hemlane",
+      "editor": "Hemlane",
+      "website": "https://www.hemlane.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "property-management",
+      "also_in": [
+        "facility-maintenance"
+      ],
+      "founded": 2015,
+      "positioning": "Software plus a local agent and a 24/7 repair desk — for the owner who is not in the same city as the property.",
+      "description": "Hemlane combines rental management software with optional human services: a local leasing agent network for showings, and 24/7 maintenance coordination that triages tenant calls and dispatches vendors. Owners choose how much of the operation to delegate.\n",
+      "real_estate_use": "It targets the remote owner who does not want a full management company taking eight to ten percent. The software handles marketing, screening and rent; the local agent handles the showing that cannot be done remotely; the repair desk answers the two a.m. burst pipe. The economics sit deliberately between self-management and full delegation.\n",
+      "features": [
+        "Listing syndication and applicant screening",
+        "Local leasing agent network for showings",
+        "24/7 maintenance coordination and vendor dispatch",
+        "Rent collection with automated reminders",
+        "Lease tracking with state-specific compliance guidance",
+        "Owner reporting and financial exports"
+      ],
+      "use_cases": [
+        {
+          "persona": "landlord-owner",
+          "job": "Manage an out-of-state rental without paying full management fees"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "Have someone answer the emergency maintenance call at night"
+        }
+      ],
+      "personas": [
+        "landlord-owner",
+        "property-manager"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "per-unit",
+        "public_pricing": true,
+        "url": "https://www.hemlane.com/pricing"
+      },
+      "integrations": [
+        "Zillow Rentals",
+        "Apartments.com",
+        "TransUnion screening",
+        "QuickBooks"
+      ],
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "turbotenant",
+        "propertyware",
+        "doorloop"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.hemlane.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "immofacile",
+      "name": "Immofacile",
+      "editor": "Immofacile",
+      "website": "https://www.immofacile.fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "crm-lead",
+      "also_in": [
+        "transaction-management",
+        "property-management"
+      ],
+      "positioning": "A French agency package sold module by module, so a small agency buys only the trade it practises.",
+      "description": "Immofacile provides French real estate professionals with transaction software, rental management and syndic modules, portal publishing, agency websites and document management, packaged so an agency subscribes only to the activities it holds.\n",
+      "real_estate_use": "Small French agencies rarely practise all three regulated activities, and paying for a full administration suite to run transaction alone is a common source of overspend. Modular pricing is the practical argument here, with the option to add gérance later without migrating the client and property records.\n",
+      "features": [
+        "Modular transaction, rental and syndic activities",
+        "Mandate management and buyer matching",
+        "Portal publishing and agency website",
+        "Owner and tenant document management",
+        "Electronic signature integration",
+        "Accounting for the modules subscribed"
+      ],
+      "use_cases": [
+        {
+          "persona": "brokerage",
+          "job": "Subscribe only to the regulated activities the agency actually practises"
+        },
+        {
+          "persona": "agent-broker",
+          "job": "Add rental management later without migrating existing records"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage",
+        "property-manager"
+      ],
+      "segments": [
+        "residential",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "integrations": [
+        "SeLoger",
+        "Leboncoin",
+        "Bien'ici",
+        "electronic signature"
+      ],
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "hektor",
+        "netty",
+        "adapt-immo",
+        "lockimmo"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.immofacile.fr",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "immopad",
+      "name": "Immopad",
+      "editor": "Immopad",
+      "website": "https://www.immopad.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "diagnostics-compliance",
+      "also_in": [
+        "property-management",
+        "construction-development"
+      ],
+      "founded": 2012,
+      "positioning": "Digital property inspections on tablet — état des lieux, delivery snagging and periodic visits in one app.",
+      "description": "Immopad is a French application for property inspections: entry and exit état des lieux, new-build delivery snagging, periodic visits and works acceptance, captured on tablet or phone with photos, signed on the spot and produced as a report.\n",
+      "real_estate_use": "The état des lieux is the document a deposit dispute turns on, and a paper one written in ballpoint rarely survives it. Capturing room by room with dated photographs and an on-the-spot signature changes the evidentiary position entirely. The same capture engine is used by developers for delivery snagging, where the list of reserves has the same contentious quality.\n",
+      "features": [
+        "Entry and exit état des lieux with photo evidence",
+        "Comparison between entry and exit condition",
+        "New-build delivery snagging and reserve tracking",
+        "On-site signature by both parties",
+        "Periodic and works acceptance visits",
+        "Report generation and archiving"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Produce an état des lieux that survives a deposit dispute"
+        },
+        {
+          "persona": "developer-builder",
+          "job": "Record and track delivery reserves at handover of a new-build unit"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "landlord-owner",
+        "agent-broker",
+        "developer-builder"
+      ],
+      "segments": [
+        "residential",
+        "office",
+        "retail",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "integrations": [
+        "French agency software",
+        "document management"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr",
+          "en"
+        ]
+      },
+      "alternatives": [
+        "startloc",
+        "check-and-visit"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.immopad.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "innago",
+      "name": "Innago",
+      "editor": "Innago",
+      "website": "https://innago.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "property-management",
+      "founded": 2017,
+      "positioning": "Free landlord software aimed squarely at the small and student-rental owner.",
+      "description": "Innago provides rent collection, online leasing and e-signature, applications and screening, maintenance ticketing and basic accounting, free to the landlord with revenue coming from optional paid services and payment processing.\n",
+      "real_estate_use": "It is heavily used for student housing and small multifamily, where a single unit may have four tenants each paying a share of the rent. Splitting a lease across roommates, collecting partial payments and tracking who is short is the specific problem it handles more gracefully than most paid systems.\n",
+      "features": [
+        "Rent collection with roommate payment splitting",
+        "Online applications and tenant screening",
+        "Lease creation with e-signature and templates",
+        "Maintenance ticketing with photo upload",
+        "Expense tracking and basic reporting",
+        "Tenant portal and automated reminders"
+      ],
+      "use_cases": [
+        {
+          "persona": "landlord-owner",
+          "job": "Collect rent from four roommates on one student lease without manual reconciliation"
+        },
+        {
+          "persona": "property-manager",
+          "job": "Run a small portfolio at no software cost"
+        }
+      ],
+      "personas": [
+        "landlord-owner",
+        "property-manager"
+      ],
+      "segments": [
+        "residential",
+        "coliving-student"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "free",
+        "public_pricing": true,
+        "url": "https://innago.com/pricing"
+      },
+      "integrations": [
+        "TransUnion screening",
+        "ACH payment rails"
+      ],
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "turbotenant",
+        "avail",
+        "rentredi",
+        "tenantcloud"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://innago.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "lockimmo",
+      "name": "LockImmo",
+      "editor": "LockImmo",
+      "website": "https://www.lockimmo.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "property-management",
+      "also_in": [
+        "crm-lead",
+        "syndic-copro"
+      ],
+      "positioning": "One French system for the three trades an agency can hold at once — transaction, gérance and syndic.",
+      "description": "LockImmo is a modular French real estate platform covering transaction, rental management and condominium management, with accounting, owner and co-owner portals, electronic signature and portal publishing, sold module by module.\n",
+      "real_estate_use": "A French agency frequently holds all three activities under one roof, and the accounting requirements differ for each: mandant accounting for gérance, separate accounts per copropriété for syndic. LockImmo covers the three in one system, which small and mid-sized agencies choose over running three specialised tools with no shared client record.\n",
+      "features": [
+        "Transaction module with mandates and matching",
+        "Rental management with mandant accounting and owner statements",
+        "Condominium module with per-building accounting and calls for funds",
+        "Owner, tenant and co-owner extranet portals",
+        "Electronic signature and document management",
+        "Portal publishing and agency website"
+      ],
+      "use_cases": [
+        {
+          "persona": "brokerage",
+          "job": "Hold transaction, gérance and syndic in one system with shared client records"
+        },
+        {
+          "persona": "syndic-manager",
+          "job": "Run per-building accounting and calls for funds alongside rental management"
+        }
+      ],
+      "personas": [
+        "brokerage",
+        "property-manager",
+        "syndic-manager",
+        "agent-broker"
+      ],
+      "segments": [
+        "residential",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://www.lockimmo.com/tarifs"
+      },
+      "integrations": [
+        "SeLoger",
+        "Leboncoin",
+        "Bien'ici",
+        "Yousign",
+        "banking"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "hektor",
+        "adapt-immo",
+        "vilogi",
+        "crypto-septeo"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.lockimmo.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "modelo",
+      "name": "Modelo",
+      "editor": "Septeo",
+      "website": "https://www.modelo.fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "title-closing-legal",
+      "also_in": [
+        "transaction-management",
+        "property-management"
+      ],
+      "positioning": "French real estate legal drafting kept current with the law — mandates, leases and offers generated rather than copied from an old file.",
+      "description": "Modelo produces legal documents for French real estate professionals: mandates, purchase offers, compromis, leases and their annexes, generated from a clause library maintained against current legislation, with electronic signature and file management.\n",
+      "real_estate_use": "French real estate law changes often enough that the biggest documentary risk in an agency is the template someone saved in 2019. Modelo's proposition is that the clause library is maintained centrally: when a legal obligation changes, the generated document changes, and the agency does not have to notice.\n",
+      "features": [
+        "Legally maintained clause library for French real estate documents",
+        "Mandate, offer, compromis and lease generation",
+        "Annex assembly including mandatory disclosures",
+        "Electronic signature integration",
+        "Document file management per transaction",
+        "Updates tracking legislative change"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Produce a mandate or compromis that reflects the law as it stands today"
+        },
+        {
+          "persona": "property-manager",
+          "job": "Generate leases and annexes with the current mandatory disclosures attached"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage",
+        "property-manager",
+        "syndic-manager",
+        "legal-notary"
+      ],
+      "segments": [
+        "residential",
+        "office",
+        "retail",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Crypto",
+        "Gercop",
+        "Hektor",
+        "Yousign"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "yousign",
+        "crypto-septeo"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.modelo.fr",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "mri-software",
+      "name": "MRI Software",
+      "editor": "MRI Software",
+      "website": "https://www.mrisoftware.com",
+      "hq_country": "US",
+      "markets": [
+        "US",
+        "FR"
+      ],
+      "category": "commercial-am",
+      "also_in": [
+        "property-management",
+        "facility-maintenance"
+      ],
+      "founded": 1971,
+      "positioning": "The open alternative to a single-vendor stack — bring your own best-of-breed and let MRI hold the lease and the ledger.",
+      "description": "MRI Software provides property and lease management, accounting, investment management, facilities and workplace products across commercial and residential real estate worldwide. Its stated strategy is an open platform: published APIs and a partner ecosystem rather than a closed suite.\n",
+      "real_estate_use": "A European or transatlantic owner often cannot standardise on one vendor — local accounting, local leasing practice and existing systems all resist it. MRI is chosen when the lease and financial core must be common while country teams keep their own tools around it. In France it supports local lease and accounting requirements alongside Anglo-Saxon reporting.\n",
+      "features": [
+        "Commercial and residential lease and property management",
+        "Real estate accounting with multi-entity and multi-currency",
+        "Investment management and investor reporting",
+        "Facilities management and workplace modules",
+        "Lease accounting compliance for IFRS 16 and ASC 842",
+        "Open APIs and a partner integration ecosystem"
+      ],
+      "use_cases": [
+        {
+          "persona": "investor-am",
+          "job": "Consolidate a cross-border portfolio while local teams keep their own tools"
+        },
+        {
+          "persona": "corporate-re",
+          "job": "Meet IFRS 16 lease accounting obligations from the lease system itself"
+        }
+      ],
+      "personas": [
+        "investor-am",
+        "corporate-re",
+        "property-manager",
+        "facility-manager"
+      ],
+      "segments": [
+        "office",
+        "retail",
+        "industrial",
+        "multifamily",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "SAP",
+        "Oracle",
+        "Cherre",
+        "Deepki",
+        "partner ecosystem APIs"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en",
+          "fr",
+          "de",
+          "es",
+          "nl"
+        ]
+      },
+      "alternatives": [
+        "yardi-voyager",
+        "realpage",
+        "visual-lease"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.mrisoftware.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "property-meld",
+      "name": "Property Meld",
+      "editor": "Property Meld",
+      "website": "https://propertymeld.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "facility-maintenance",
+      "also_in": [
+        "property-management"
+      ],
+      "founded": 2014,
+      "positioning": "Residential maintenance coordination as its own discipline — because it is where property managers lose their margin and their reputation.",
+      "description": "Property Meld handles the maintenance workflow for residential property management: tenant request intake with triage, vendor scheduling and coordination, communication across all parties, and analytics on speed and cost per repair.\n",
+      "real_estate_use": "In residential management, maintenance is the largest source of complaints and the biggest drain on staff time — mostly spent as phone tag between a tenant, a vendor and an owner trying to agree a time. Property Meld automates the scheduling coordination, and its metrics — median speed to resolution, cost per unit — are the ones managers now report to owners.\n",
+      "features": [
+        "Tenant maintenance request intake with guided triage",
+        "Automated vendor and tenant scheduling coordination",
+        "Owner approval workflows for repairs above a threshold",
+        "Vendor performance and cost analytics",
+        "Communication log across tenant, vendor and owner",
+        "Speed-to-resolution and cost-per-unit reporting"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Eliminate phone tag between tenant, vendor and owner on every repair"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "Approve repairs above a threshold with the evidence in front of you"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "landlord-owner"
+      ],
+      "segments": [
+        "residential",
+        "multifamily"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "per-unit",
+        "public_pricing": false
+      },
+      "integrations": [
+        "AppFolio",
+        "Buildium",
+        "Rent Manager",
+        "Propertyware",
+        "Yardi"
+      ],
+      "ai": {
+        "capabilities": [
+          "Request triage and diagnosis assistance"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "upkeep",
+        "hemlane"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://propertymeld.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "propertyware",
+      "name": "Propertyware",
+      "editor": "RealPage",
+      "website": "https://www.propertyware.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "property-management",
+      "also_in": [
+        "back-office-accounting"
+      ],
+      "founded": 2004,
+      "positioning": "Built for scattered single-family rentals, where every door is a different address with a different owner.",
+      "description": "Propertyware is a management platform specialised in single-family and small residential portfolios: owner and tenant portals, a flexible accounting engine, mobile inspections, a maintenance module, and an open API used to wire in external marketing and screening.\n",
+      "real_estate_use": "Managing 800 scattered houses is not managing an 800-unit building. Every property has its own owner with its own management agreement, its own maintenance reserve and its own reporting expectations. Propertyware's accounting is built around that fragmentation, and its inspection app exists because staff spend the day driving between assets.\n",
+      "features": [
+        "Owner-level accounting with per-property agreements and reserves",
+        "Mobile property inspections with photos",
+        "Maintenance workflow with vendor assignment and billing",
+        "Owner and tenant portals with online payments",
+        "Marketing syndication and lead tracking",
+        "Open API and custom field configuration"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Report to hundreds of individual owners on scattered single-family homes"
+        },
+        {
+          "persona": "investor-am",
+          "job": "Track maintenance reserves and net owner distributions per property"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "investor-am",
+        "landlord-owner"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "per-unit",
+        "public_pricing": true,
+        "url": "https://www.propertyware.com/pricing"
+      },
+      "integrations": [
+        "REST API",
+        "screening bureaus",
+        "Zillow Rentals"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "buildium",
+        "rentmanager",
+        "appfolio",
+        "hemlane"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.propertyware.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "realpage",
+      "name": "RealPage",
+      "editor": "RealPage (Thoma Bravo)",
+      "website": "https://www.realpage.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "property-management",
+      "also_in": [
+        "market-data",
+        "tenant-screening"
+      ],
+      "founded": 1998,
+      "positioning": "The broadest multifamily suite in the market — and the one whose revenue management product put algorithmic rent pricing under legal scrutiny.",
+      "description": "RealPage sells a wide portfolio for multifamily and single-family rental operators: property management systems (OneSite, Propertyware, Buildium), leasing and marketing, screening, utility management, asset optimisation and the AI Revenue Management products descended from YieldStar and LRO.\n",
+      "real_estate_use": "Large operators use it for the modules they cannot easily build: screening at scale, utility recovery, and above all revenue management — a model that recommends a rent for every unit every day based on market and portfolio signals. That last product is the subject of US antitrust litigation over algorithmic pricing, which is now part of any serious evaluation of it.\n",
+      "features": [
+        "OneSite property management and accounting",
+        "AI Revenue Management rent pricing recommendations",
+        "Applicant screening and fraud detection",
+        "Utility billing and expense recovery",
+        "Leasing, marketing and contact centre services",
+        "Asset and portfolio performance analytics"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Price thousands of units daily against market and occupancy signals"
+        },
+        {
+          "persona": "investor-am",
+          "job": "Benchmark asset performance against a national multifamily dataset"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "investor-am",
+        "landlord-owner"
+      ],
+      "segments": [
+        "multifamily",
+        "residential",
+        "coliving-student"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Yardi",
+        "Entrata",
+        "accounting systems",
+        "ILS networks"
+      ],
+      "ai": {
+        "capabilities": [
+          "Revenue management pricing models",
+          "Applicant fraud detection",
+          "Leasing chatbots"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "entrata",
+        "yardi-voyager",
+        "appfolio"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.realpage.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "rentila",
+      "name": "Rentila",
+      "editor": "Rentila",
+      "website": "https://www.rentila.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "property-management",
+      "positioning": "Free rental management for the French private landlord — leases, receipts and the tax return line.",
+      "description": "Rentila is an online rental management service for individual landlords in France: lease generation, rent receipts, payment tracking, charge regularisation, tenant and property records, document storage and reporting, with a free tier and paid options.\n",
+      "real_estate_use": "A French private landlord has three recurring obligations: a compliant lease, a monthly quittance when the tenant asks for one, and an accurate annual charge regularisation. Rentila automates those three, and produces the figures needed for the revenus fonciers declaration — which is the moment most landlords discover their record-keeping was incomplete.\n",
+      "features": [
+        "Lease generation with French legal clauses",
+        "Automatic rent receipts and payment tracking",
+        "Charge provision and annual regularisation",
+        "Tenant, property and document records",
+        "Income and expense reporting for tax declaration",
+        "Reminder letters and arrears follow-up"
+      ],
+      "use_cases": [
+        {
+          "persona": "landlord-owner",
+          "job": "Issue compliant leases and receipts without a management agency"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "Produce the figures needed for the annual revenus fonciers declaration"
+        }
+      ],
+      "personas": [
+        "landlord-owner"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "freemium",
+        "public_pricing": true,
+        "url": "https://www.rentila.com/tarifs"
+      },
+      "integrations": [
+        "electronic signature",
+        "banking imports"
+      ],
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "gererseul",
+        "smartloc",
+        "ownily"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.rentila.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "rentmanager",
+      "name": "Rent Manager",
+      "editor": "London Computer Systems",
+      "website": "https://www.rentmanager.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "property-management",
+      "also_in": [
+        "back-office-accounting",
+        "facility-maintenance"
+      ],
+      "founded": 1982,
+      "positioning": "The configurable one — for portfolios whose lease terms do not fit anybody's standard form.",
+      "description": "Rent Manager is a property management and accounting platform known for the depth of its configuration: user-defined fields, custom reports, a built-in contact centre, work order and asset tracking, and support for unusual property types including self-storage, marinas, manufactured housing and mixed portfolios.\n",
+      "real_estate_use": "It wins where the standard product breaks. A portfolio mixing apartments, commercial suites, storage units and ground leases has billing rules no template covers; Rent Manager lets an operator model them without leaving the accounting system. The trade-off is that someone has to own the configuration.\n",
+      "features": [
+        "Configurable accounting with user-defined fields and custom reports",
+        "Support for storage, marina, manufactured housing and mixed portfolios",
+        "Work order, inspection and fixed-asset tracking",
+        "Built-in phone system and contact centre",
+        "Tenant and owner portals with online payments",
+        "Open API and extensive integration marketplace"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Model non-standard billing across a mixed-asset portfolio inside the accounting system"
+        },
+        {
+          "persona": "facility-manager",
+          "job": "Track work orders and equipment against the same property records as the leases"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "facility-manager",
+        "landlord-owner"
+      ],
+      "segments": [
+        "residential",
+        "multifamily",
+        "office",
+        "retail",
+        "industrial",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "per-unit",
+        "public_pricing": false
+      },
+      "integrations": [
+        "REST API",
+        "screening bureaus",
+        "banking",
+        "Zapier"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "appfolio",
+        "buildium",
+        "yardi-breeze",
+        "propertyware"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.rentmanager.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "rentredi",
+      "name": "RentRedi",
+      "editor": "RentRedi",
+      "website": "https://rentredi.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "property-management",
+      "founded": 2016,
+      "positioning": "Mobile-first landlord software, sold at a flat price regardless of how many doors you own.",
+      "description": "RentRedi covers rent collection, applications and screening, lease signing, maintenance with video submission from tenants, and accounting through a REI Hub integration. Pricing is a flat subscription rather than per unit.\n",
+      "real_estate_use": "Aimed at the small investor building a portfolio: because pricing does not scale per door, going from five units to twenty costs nothing more. Tenants submit maintenance issues by video from the app, which cuts the diagnostic phone call, and payments can be split across cards, ACH or cash at retail locations.\n",
+      "features": [
+        "Flat-rate pricing independent of unit count",
+        "Rent collection by ACH, card and retail cash payment",
+        "Video maintenance requests from the tenant app",
+        "Applications, screening and lease e-signature",
+        "Accounting through REI Hub integration",
+        "Listing syndication to rental sites"
+      ],
+      "use_cases": [
+        {
+          "persona": "landlord-owner",
+          "job": "Grow a rental portfolio without software cost scaling per door"
+        },
+        {
+          "persona": "property-manager",
+          "job": "Diagnose a maintenance issue from a tenant video before dispatching a vendor"
+        }
+      ],
+      "personas": [
+        "landlord-owner",
+        "property-manager"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://rentredi.com/pricing"
+      },
+      "integrations": [
+        "REI Hub",
+        "TransUnion screening",
+        "Realtor.com",
+        "Zillow Rentals"
+      ],
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "turbotenant",
+        "innago",
+        "avail",
+        "tenantcloud"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://rentredi.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "rentspree",
+      "name": "RentSpree",
+      "editor": "RentSpree",
+      "website": "https://www.rentspree.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "tenant-screening",
+      "also_in": [
+        "property-management"
+      ],
+      "founded": 2016,
+      "positioning": "Rental screening distributed through the MLS — the reason so many US agents handle rentals at all.",
+      "description": "RentSpree provides online rental applications, tenant screening reports from TransUnion, e-signature, rent payment and rent reporting. It is distributed through partnerships with MLSs and associations, which makes it the default rental workflow for a large share of US agents.\n",
+      "real_estate_use": "An agent listing a rental sends one link. The applicant completes the application, pays the screening fee themselves, and authorises the credit, criminal and eviction report — so the agent never handles sensitive data or fronts a cost. For agents whose main business is sales, that low friction is why the rental side is worth doing at all.\n",
+      "features": [
+        "Applicant-paid online applications and screening",
+        "TransUnion credit, criminal and eviction reports",
+        "Document collection with income verification",
+        "Lease e-signature and rent payment collection",
+        "MLS and association distribution partnerships",
+        "Agent referral and client management tools"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Screen rental applicants without touching payment or sensitive data"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "Collect a complete, verified application file before deciding"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "landlord-owner",
+        "property-manager"
+      ],
+      "segments": [
+        "residential",
+        "multifamily"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "usage",
+        "public_pricing": true,
+        "url": "https://www.rentspree.com/pricing"
+      },
+      "integrations": [
+        "MLS systems",
+        "TransUnion",
+        "Zillow Rentals",
+        "Realtor.com"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "transunion-smartmove",
+        "turbotenant",
+        "avail"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.rentspree.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "smartloc",
+      "name": "Smartloc",
+      "editor": "Smartloc",
+      "website": "https://www.smartloc.fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "property-management",
+      "also_in": [
+        "tenant-screening"
+      ],
+      "positioning": "Rental management for the private landlord with the applicant file verification built into the same flow.",
+      "description": "Smartloc offers French landlords an online rental management service: candidate application collection with document checking, lease generation and electronic signature, rent calls and receipts, payment tracking, and rent guarantee options.\n",
+      "real_estate_use": "Self-managing landlords make their worst decision at selection, not at management, and the document verification step is where a service earns its fee. Smartloc chains verification, lease signature and rent tracking so the landlord does not stitch together three tools around the moment the tenant is chosen.\n",
+      "features": [
+        "Candidate application collection with document verification",
+        "Lease generation with the applicable French regime",
+        "Electronic signature on lease and annexes",
+        "Rent calls, receipts and payment tracking",
+        "Arrears follow-up and reminder letters",
+        "Rent guarantee options"
+      ],
+      "use_cases": [
+        {
+          "persona": "landlord-owner",
+          "job": "Verify an applicant's documents before signing rather than after a default"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "Run selection, signature and rent tracking without assembling three tools"
+        }
+      ],
+      "personas": [
+        "landlord-owner"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://www.smartloc.fr/tarifs"
+      },
+      "integrations": [
+        "electronic signature",
+        "banking",
+        "DossierFacile"
+      ],
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "rentila",
+        "gererseul",
+        "ownily"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.smartloc.fr",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "smartrent",
+      "name": "SmartRent",
+      "editor": "SmartRent",
+      "website": "https://smartrent.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "tenant-experience",
+      "also_in": [
+        "property-management"
+      ],
+      "founded": 2017,
+      "positioning": "Smart apartment hardware and software sold to the operator, not to the resident.",
+      "description": "SmartRent provides smart home hardware and a management platform for rental housing: smart locks, thermostats, leak sensors, self-guided tour access, community access control and parking, managed centrally by the operator across a portfolio.\n",
+      "real_estate_use": "Three operational cases drive the purchase. Self-guided tours let a prospect visit a vacant unit without staff. Smart locks remove the key handover and the lock change at turnover. Leak sensors catch water damage — the largest avoidable insurance claim in multifamily — before it reaches the unit below.\n",
+      "features": [
+        "Smart locks with credential management at turnover",
+        "Self-guided tour access for prospective residents",
+        "Thermostat control on vacant units",
+        "Leak detection and water shut-off alerting",
+        "Community access control and parking management",
+        "Portfolio-wide device management and alerts"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Offer self-guided tours of vacant units without on-site staff"
+        },
+        {
+          "persona": "investor-am",
+          "job": "Reduce water damage claims and turnover costs across a portfolio"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "investor-am",
+        "landlord-owner"
+      ],
+      "segments": [
+        "multifamily",
+        "residential",
+        "coliving-student"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Yardi",
+        "RealPage",
+        "Entrata",
+        "AppFolio"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "hqo"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://smartrent.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "startloc",
+      "name": "Startloc",
+      "editor": "Startloc",
+      "website": "https://www.startloc.fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "diagnostics-compliance",
+      "also_in": [
+        "property-management"
+      ],
+      "positioning": "État des lieux software priced for the individual landlord, not just the agency.",
+      "description": "Startloc is a French application for producing entry and exit état des lieux on phone or tablet: guided room-by-room capture, photographs, electronic signature by both parties and PDF report generation, sold at a per-inspection or subscription price accessible to individuals.\n",
+      "real_estate_use": "The private landlord doing their own inspection is exactly the person most exposed at exit, because their entry document is usually thin. A guided capture forces completeness — every room, every element, dated photographs — and the signed PDF is what the deposit deduction will rest on if the tenant contests it.\n",
+      "features": [
+        "Guided room-by-room inspection capture",
+        "Photographic evidence attached to each element",
+        "Electronic signature by landlord and tenant on site",
+        "Entry-to-exit comparison",
+        "PDF report generation and storage",
+        "Meter reading and key handover recording"
+      ],
+      "use_cases": [
+        {
+          "persona": "landlord-owner",
+          "job": "Produce a complete entry inspection that supports a later deposit deduction"
+        },
+        {
+          "persona": "agent-broker",
+          "job": "Run inspections on a phone without buying an agency-grade platform"
+        }
+      ],
+      "personas": [
+        "landlord-owner",
+        "agent-broker",
+        "property-manager"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "usage",
+        "public_pricing": true,
+        "url": "https://www.startloc.fr/tarifs"
+      },
+      "integrations": [
+        "electronic signature",
+        "document storage"
+      ],
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "immopad",
+        "check-and-visit"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.startloc.fr",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "tenantcloud",
+      "name": "TenantCloud",
+      "editor": "TenantCloud",
+      "website": "https://www.tenantcloud.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "property-management",
+      "founded": 2014,
+      "positioning": "One account, three roles — landlord, tenant and service professional all get their own workspace.",
+      "description": "TenantCloud is a cloud platform with distinct portals for landlords, tenants and service professionals. Landlords get listings, applications, screening, leases, rent collection, maintenance and accounting; tenants get payments and requests; vendors get job assignments.\n",
+      "real_estate_use": "The tenant-side and vendor-side accounts are the point of difference: a tenant keeps their rental history and payment record across landlords, and a plumber receives assignments through the same system that generated the work order. For a small landlord it removes the email and text back-and-forth around every repair.\n",
+      "features": [
+        "Separate landlord, tenant and service professional portals",
+        "Listings, applications and screening",
+        "Rent collection with automated invoicing and late fees",
+        "Maintenance requests routed to assigned vendors",
+        "Accounting with reports and tax preparation exports",
+        "Lease templates with e-signature"
+      ],
+      "use_cases": [
+        {
+          "persona": "landlord-owner",
+          "job": "Route a maintenance request to a vendor without leaving the system"
+        },
+        {
+          "persona": "tenant-occupier",
+          "job": "Keep rental payment history that follows you to the next landlord"
+        }
+      ],
+      "personas": [
+        "landlord-owner",
+        "property-manager",
+        "tenant-occupier"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "freemium",
+        "public_pricing": true,
+        "url": "https://www.tenantcloud.com/pricing"
+      },
+      "integrations": [
+        "TransUnion screening",
+        "QuickBooks",
+        "Zillow Rentals"
+      ],
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "turbotenant",
+        "doorloop",
+        "innago",
+        "rentredi"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.tenantcloud.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "turbotenant",
+      "name": "TurboTenant",
+      "editor": "TurboTenant",
+      "website": "https://www.turbotenant.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "property-management",
+      "also_in": [
+        "tenant-screening"
+      ],
+      "founded": 2015,
+      "positioning": "Free for the landlord, paid by the applicant — the model that put full rental tooling in the hands of people with three doors.",
+      "description": "TurboTenant offers listing syndication, online rental applications, tenant screening, state-specific lease agreements, e-signature, rent collection and expense tracking, with a free core tier funded largely by applicant-paid screening fees and premium add-ons.\n",
+      "real_estate_use": "The independent landlord's problem is not scale, it is competence: writing a compliant lease, running a legitimate credit and background check, and documenting rent payment for tax time. TurboTenant packages exactly those steps, which is why a very large number of small US landlords never buy property management software at all.\n",
+      "features": [
+        "Listing syndication to major rental sites",
+        "Online applications with applicant-paid screening",
+        "State-specific lease agreements with e-signature",
+        "Online rent collection with automatic reminders",
+        "Expense and income tracking for tax reporting",
+        "Maintenance request intake from tenants"
+      ],
+      "use_cases": [
+        {
+          "persona": "landlord-owner",
+          "job": "Advertise, screen, lease and collect rent on a handful of units at almost no cost"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "Produce a compliant state-specific lease without a lawyer for each renewal"
+        }
+      ],
+      "personas": [
+        "landlord-owner",
+        "property-manager"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "freemium",
+        "public_pricing": true,
+        "url": "https://www.turbotenant.com/pricing"
+      },
+      "integrations": [
+        "Zillow Rentals",
+        "Apartments.com",
+        "TransUnion screening"
+      ],
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "innago",
+        "avail",
+        "rentredi",
+        "tenantcloud"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.turbotenant.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "vilogi",
+      "name": "Vilogi",
+      "editor": "Vilogi",
+      "website": "https://www.vilogi.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "syndic-copro",
+      "also_in": [
+        "property-management"
+      ],
+      "positioning": "Condominium management software built for the French 1965 law, from the annual assembly to the works fund.",
+      "description": "Vilogi is a SaaS platform for French syndics and rental managers: per-building accounting, budgets and calls for funds, general assembly preparation and electronic voting, works and contract tracking, and extranet portals for co-owners and council members.\n",
+      "real_estate_use": "A French copropriété is a legal entity with its own accounts, its own budget voted in assembly, and a mandatory extranet for co-owners. Vilogi encodes that cycle: the provisional budget is voted, quarterly calls for funds are issued against it, expenses are posted per building, and the annual accounts are presented back to the assembly. The extranet obligation is met by the same system.\n",
+      "features": [
+        "Per-building accounting with tantième-based expense allocation",
+        "Provisional budgets and quarterly calls for funds",
+        "General assembly preparation, convocation and electronic voting",
+        "Mandatory co-owner extranet with document access",
+        "Works, contract and insurance claim tracking",
+        "Rental management module for mixed portfolios"
+      ],
+      "use_cases": [
+        {
+          "persona": "syndic-manager",
+          "job": "Run the full annual cycle from voted budget to accounts presented at assembly"
+        },
+        {
+          "persona": "syndic-manager",
+          "job": "Meet the legal co-owner extranet obligation without a separate portal"
+        }
+      ],
+      "personas": [
+        "syndic-manager",
+        "property-manager",
+        "landlord-owner"
+      ],
+      "segments": [
+        "residential",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "integrations": [
+        "banking",
+        "Yousign",
+        "accounting exports"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "crypto-septeo",
+        "gercop",
+        "syment",
+        "lockimmo"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.vilogi.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "yardi-breeze",
+      "name": "Yardi Breeze",
+      "editor": "Yardi Systems",
+      "website": "https://www.yardibreeze.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "property-management",
+      "also_in": [
+        "back-office-accounting"
+      ],
+      "founded": 2017,
+      "positioning": "Yardi's accounting rigour, stripped of the implementation project that Voyager requires.",
+      "description": "Yardi Breeze and Breeze Premier are the self-service tier of Yardi's platform, aimed at small and mid-sized managers across residential, commercial, affordable and self-storage portfolios. Setup is guided rather than consultant-led, and pricing is published per unit with a monthly minimum.\n",
+      "real_estate_use": "Chosen by managers who want Yardi's accounting model — property-level ledgers, owner draws, CAM reconciliation in the Premier tier — without a six-month Voyager implementation. It is also the natural landing point for firms that expect to grow into Voyager later and want the data model to be familiar.\n",
+      "features": [
+        "Property accounting with owner payments and reporting",
+        "Online applications, leases and rent collection",
+        "Maintenance requests and vendor work orders",
+        "Marketing with RentCafe listing syndication",
+        "Commercial features including CAM reconciliation in Premier",
+        "Resident and owner portals"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Get real property accounting without a consultant-led implementation"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "Manage a mixed residential and small commercial portfolio in one ledger"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "landlord-owner"
+      ],
+      "segments": [
+        "residential",
+        "multifamily",
+        "office",
+        "retail",
+        "industrial"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "per-unit",
+        "public_pricing": true,
+        "url": "https://www.yardibreeze.com/pricing"
+      },
+      "integrations": [
+        "RentCafe",
+        "screening providers",
+        "banking feeds"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "appfolio",
+        "buildium",
+        "doorloop",
+        "yardi-voyager"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.yardibreeze.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "yardi-voyager",
+      "name": "Yardi Voyager",
+      "editor": "Yardi Systems",
+      "website": "https://www.yardi.com",
+      "hq_country": "US",
+      "markets": [
+        "US",
+        "FR"
+      ],
+      "category": "commercial-am",
+      "also_in": [
+        "property-management",
+        "back-office-accounting"
+      ],
+      "founded": 1984,
+      "positioning": "The institutional system of record — where the lease, the ledger and the investor report are the same data.",
+      "description": "Voyager is Yardi's enterprise platform, deployed across commercial, multifamily, affordable, senior and student portfolios worldwide. It combines property accounting, lease administration, budgeting and forecasting, investment management and a large ecosystem of add-on modules, with localisations including France.\n",
+      "real_estate_use": "For an institutional owner, the question is not features but audit chain: the rent invoiced to a tenant, the indexation clause applied, the accrual booked and the figure reported to the fund's investors must all descend from one record. Voyager is bought for that continuity, and implementations run in months because the configuration encodes a firm's entire operating model.\n",
+      "features": [
+        "Commercial and residential lease administration with clause handling",
+        "Property, corporate and investment accounting with multi-currency",
+        "Budgeting, forecasting and valuation workflows",
+        "Investment management and investor reporting",
+        "Maintenance, procurement and energy modules",
+        "Country localisations including French accounting and VAT treatment"
+      ],
+      "use_cases": [
+        {
+          "persona": "investor-am",
+          "job": "Report to fund investors from the same ledger that invoices the tenants"
+        },
+        {
+          "persona": "property-manager",
+          "job": "Administer indexation, recoveries and CAM reconciliation across a commercial portfolio"
+        }
+      ],
+      "personas": [
+        "investor-am",
+        "property-manager",
+        "corporate-re"
+      ],
+      "segments": [
+        "office",
+        "retail",
+        "industrial",
+        "multifamily",
+        "healthcare-senior",
+        "coliving-student"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "RentCafe",
+        "Yardi Elevate",
+        "banking",
+        "ERP systems",
+        "Cherre"
+      ],
+      "ai": {
+        "capabilities": [
+          "Invoice processing automation",
+          "Forecasting assistance"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en",
+          "fr",
+          "de",
+          "es"
+        ]
+      },
+      "alternatives": [
+        "mri-software",
+        "realpage",
+        "entrata",
+        "yardi-breeze"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.yardi.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    }
+  ]
+}

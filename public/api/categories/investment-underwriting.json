@@ -1,0 +1,905 @@
+{
+  "id": "investment-underwriting",
+  "label_en": "Investment analysis & underwriting",
+  "label_fr": "Analyse d'investissement & underwriting",
+  "summary_en": "Model a deal, run scenarios, produce an investment memo.",
+  "summary_fr": "Modéliser une opération, tester des scénarios, produire un mémo d'investissement.",
+  "count": 10,
+  "tools": [
+    {
+      "slug": "argus-enterprise",
+      "name": "ARGUS Enterprise",
+      "editor": "Altus Group",
+      "website": "https://www.altusgroup.com/argus",
+      "hq_country": "CA",
+      "markets": [
+        "US",
+        "FR"
+      ],
+      "category": "investment-underwriting",
+      "also_in": [
+        "commercial-am"
+      ],
+      "founded": 1985,
+      "positioning": "The cash-flow model the industry agreed to standardise on — a valuation is credible partly because it is an ARGUS file.",
+      "description": "ARGUS Enterprise models commercial property cash flows lease by lease: rent steps, recoveries, renewal probabilities, capital expenditure and debt, producing valuations, hold-sell analysis and portfolio consolidation. Its file format is a de facto industry exchange standard.\n",
+      "real_estate_use": "When an asset trades, the seller's broker sends an ARGUS file and the buyer re-underwrites in the same tool. That shared format is most of the value — assumptions are visible and comparable rather than buried in someone's private spreadsheet. Appraisers, lenders and fund managers use it for the same reason.\n",
+      "features": [
+        "Lease-by-lease commercial cash flow modelling",
+        "Recovery structures, rent steps and market leasing assumptions",
+        "Valuation by discounted cash flow and direct capitalisation",
+        "Debt, equity waterfall and hold-sell analysis",
+        "Portfolio consolidation and scenario comparison",
+        "Industry-standard file exchange with counterparties"
+      ],
+      "use_cases": [
+        {
+          "persona": "investor-am",
+          "job": "Underwrite an acquisition from the seller's own cash flow model"
+        },
+        {
+          "persona": "appraiser",
+          "job": "Produce a valuation in the format lenders and auditors expect"
+        }
+      ],
+      "personas": [
+        "investor-am",
+        "appraiser",
+        "lender-broker",
+        "corporate-re"
+      ],
+      "segments": [
+        "office",
+        "retail",
+        "industrial",
+        "mixed-use",
+        "hospitality"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Yardi",
+        "MRI",
+        "VTS",
+        "Excel",
+        "Dealpath"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en",
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "dealpath",
+        "mri-software"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.altusgroup.com/argus",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "cherre",
+      "name": "Cherre",
+      "editor": "Cherre",
+      "website": "https://cherre.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "market-data",
+      "also_in": [
+        "investment-underwriting"
+      ],
+      "founded": 2016,
+      "positioning": "Not another data source — the layer that reconciles the twenty you already pay for onto one property identity.",
+      "description": "Cherre is a real estate data management platform. It ingests a firm's internal systems and its licensed third-party feeds, resolves them to a common property and entity identity, and exposes the result to BI tools and models. The product is the resolution and the connectors, not the underlying data.\n",
+      "real_estate_use": "A large owner-operator typically has the rent roll in Yardi, valuations in ARGUS, market data from a vendor and a dozen spreadsheets — with no shared key between them. Cherre matches them to one property record so that portfolio reporting stops being a quarterly manual reconciliation, and so that a model can be trained on something coherent.\n",
+      "features": [
+        "Entity and address resolution to a single property identity",
+        "Prebuilt connectors to major real estate systems and data vendors",
+        "Managed warehouse with governed access",
+        "Data quality monitoring and lineage",
+        "Delivery to BI tools, notebooks and applications",
+        "Marketplace of third-party datasets"
+      ],
+      "use_cases": [
+        {
+          "persona": "investor-am",
+          "job": "Consolidate portfolio reporting across accounting, valuation and market systems"
+        },
+        {
+          "persona": "corporate-re",
+          "job": "Give analysts one governed dataset instead of eight incompatible exports"
+        }
+      ],
+      "personas": [
+        "investor-am",
+        "corporate-re"
+      ],
+      "segments": [
+        "office",
+        "retail",
+        "industrial",
+        "multifamily"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Yardi",
+        "MRI",
+        "ARGUS",
+        "CoStar",
+        "Snowflake",
+        "Tableau",
+        "Power BI"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "attom-data",
+        "costar"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://cherre.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "costar",
+      "name": "CoStar",
+      "editor": "CoStar Group",
+      "website": "https://www.costar.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "market-data",
+      "also_in": [
+        "investment-underwriting"
+      ],
+      "founded": 1987,
+      "positioning": "The commercial property database the industry underwrites against, built on a research organisation rather than on scraping.",
+      "description": "CoStar maintains a researched inventory of US commercial buildings — physical characteristics, ownership, tenancy, lease comparables, sale comparables, availabilities and submarket analytics — collected and verified by a large in-house research team and sold as a subscription with strict per-seat licensing.\n",
+      "real_estate_use": "It is the reference for the questions that precede a deal: what is the true rentable area, who owns the entity behind the LLC, what did the last three comparable leases sign at, what is the submarket vacancy trend. Brokers pull comparables for a pitch, investors size a market before underwriting, lenders sanity-check a borrower's rent roll.\n",
+      "features": [
+        "Researched property records with ownership and tenancy detail",
+        "Lease and sale comparables with confirmed terms",
+        "Availability and vacancy tracking by submarket",
+        "Market analytics, forecasts and rent trends",
+        "Tenant tracking and expiring-lease intelligence",
+        "Directory of owners, brokers and tenants"
+      ],
+      "use_cases": [
+        {
+          "persona": "investor-am",
+          "job": "Size a submarket and pull comparable leases before underwriting an acquisition"
+        },
+        {
+          "persona": "agent-broker",
+          "job": "Build a pitch on confirmed comparables rather than on asking rents"
+        }
+      ],
+      "personas": [
+        "investor-am",
+        "agent-broker",
+        "corporate-re",
+        "appraiser",
+        "lender-broker"
+      ],
+      "segments": [
+        "office",
+        "retail",
+        "industrial",
+        "multifamily",
+        "hospitality",
+        "land-development"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "integrations": [
+        "LoopNet",
+        "Apartments.com",
+        "ARGUS",
+        "Excel add-ins"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "reonomy",
+        "attom-data",
+        "crexi",
+        "yanport"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.costar.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "dealpath",
+      "name": "Dealpath",
+      "editor": "Dealpath",
+      "website": "https://www.dealpath.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "investment-underwriting",
+      "positioning": "The deal pipeline for an investment team — what we looked at, what we passed on, and why.",
+      "description": "Dealpath is a deal management platform for real estate investment firms: pipeline tracking, underwriting data capture, task and approval workflows, document management and reporting across acquisitions, development and debt.\n",
+      "real_estate_use": "An acquisitions team screens far more deals than it buys, and the institutional memory of the ones it passed on is usually lost. Dealpath keeps every screened deal with its underwriting assumptions and its rejection reason, so a market can be re-approached with history intact and an investment committee can see the funnel rather than the survivors.\n",
+      "features": [
+        "Deal pipeline with stage, status and ownership tracking",
+        "Structured underwriting data capture and comparison",
+        "Task, approval and investment committee workflows",
+        "Document repository per deal",
+        "Pipeline and market reporting for investment committees",
+        "Integrations with modelling and data providers"
+      ],
+      "use_cases": [
+        {
+          "persona": "investor-am",
+          "job": "Keep a defensible record of every deal screened and the reason it was passed"
+        },
+        {
+          "persona": "investor-am",
+          "job": "Give an investment committee a live view of the pipeline instead of a deck"
+        }
+      ],
+      "personas": [
+        "investor-am",
+        "developer-builder",
+        "lender-broker"
+      ],
+      "segments": [
+        "office",
+        "retail",
+        "industrial",
+        "multifamily",
+        "land-development"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "ARGUS",
+        "CoStar",
+        "Crexi",
+        "Excel",
+        "Box"
+      ],
+      "ai": {
+        "capabilities": [
+          "Document data extraction into deal records"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "argus-enterprise",
+        "juniper-square"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.dealpath.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "horiz",
+      "name": "Horiz.io",
+      "editor": "Horiz.io",
+      "website": "https://www.horiz.io",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "investment-underwriting",
+      "also_in": [
+        "back-office-accounting"
+      ],
+      "positioning": "Rental investment analysis for the French private investor — yield, tax regime and cash flow before the offer is made.",
+      "description": "Horiz.io provides French rental investors with property analysis and simulation: gross and net yield calculation, comparison of tax regimes for furnished and unfurnished letting, financing and cash flow projection, plus portfolio tracking after acquisition.\n",
+      "real_estate_use": "In France the tax regime often decides whether an investment works — the same apartment can be cash-flow negative unfurnished and positive under a furnished regime with amortisation. Comparing those scenarios by hand is where private investors get it wrong. Horiz models them side by side before the offer, and then tracks the actual result afterwards.\n",
+      "features": [
+        "Gross, net and net-of-tax yield calculation",
+        "Comparison of French rental tax regimes side by side",
+        "Financing and cash flow projection over the hold period",
+        "Renovation and works scenario modelling",
+        "Portfolio tracking after acquisition",
+        "Report generation for a financing application"
+      ],
+      "use_cases": [
+        {
+          "persona": "investor-am",
+          "job": "Compare furnished and unfurnished tax regimes on the same property before offering"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "Project cash flow over the hold period including financing and works"
+        }
+      ],
+      "personas": [
+        "investor-am",
+        "landlord-owner"
+      ],
+      "segments": [
+        "residential",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "freemium",
+        "public_pricing": true,
+        "url": "https://www.horiz.io/tarifs"
+      },
+      "integrations": [
+        "banking feeds",
+        "accounting exports"
+      ],
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "ownily",
+        "stessa"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.horiz.io",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "juniper-square",
+      "name": "Juniper Square",
+      "editor": "Juniper Square",
+      "website": "https://www.junipersquare.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "investment-underwriting",
+      "also_in": [
+        "back-office-accounting"
+      ],
+      "founded": 2014,
+      "positioning": "Investor relations for private real estate funds — the capital account, the distribution and the portal in one place.",
+      "description": "Juniper Square provides fund administration and investor management for private real estate: subscriptions and onboarding, capital calls and distributions, waterfall calculations, investor reporting and an LP portal, with an administration service option.\n",
+      "real_estate_use": "A sponsor raising from private investors has to track ownership across entities, calculate a promote correctly, and produce K-1 packages and quarterly reports that LPs trust. Getting that wrong is a relationship problem, not a bookkeeping one. Juniper Square replaces the spreadsheet-and-mail-merge approach with an auditable system and a portal LPs log into.\n",
+      "features": [
+        "Investor onboarding with electronic subscription documents",
+        "Capital calls, distributions and capital account tracking",
+        "Waterfall and promote calculation",
+        "LP portal with documents, statements and tax packages",
+        "Fund and deal-level performance reporting",
+        "Optional outsourced fund administration"
+      ],
+      "use_cases": [
+        {
+          "persona": "investor-am",
+          "job": "Run capital calls and distributions across many entities without spreadsheet risk"
+        },
+        {
+          "persona": "developer-builder",
+          "job": "Give private investors a portal with their statements and tax documents"
+        }
+      ],
+      "personas": [
+        "investor-am",
+        "developer-builder"
+      ],
+      "segments": [
+        "office",
+        "retail",
+        "industrial",
+        "multifamily",
+        "land-development"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Yardi",
+        "QuickBooks",
+        "DocuSign",
+        "banking"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "dealpath",
+        "yardi-voyager"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.junipersquare.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "northspyre",
+      "name": "Northspyre",
+      "editor": "Northspyre",
+      "website": "https://www.northspyre.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "construction-development",
+      "also_in": [
+        "investment-underwriting"
+      ],
+      "positioning": "Development cost control for the owner's side of the table, not the contractor's.",
+      "description": "Northspyre is a project cost management platform for real estate developers: budget tracking, invoice and contract processing with automated data extraction, cash flow forecasting, and anticipated cost reporting across a development pipeline.\n",
+      "real_estate_use": "A developer's exposure is the gap between the budget presented to investors and the anticipated final cost. That gap usually surfaces late because invoices and change orders are processed manually. Northspyre extracts the data as documents arrive, so the anticipated cost report updates continuously and a lender draw package is assembled from live data rather than rebuilt each month.\n",
+      "features": [
+        "Automated data extraction from invoices and contracts",
+        "Budget versus anticipated cost tracking per project",
+        "Cash flow forecasting across a development pipeline",
+        "Lender draw package preparation",
+        "Vendor contract and change order tracking",
+        "Portfolio-level development reporting"
+      ],
+      "use_cases": [
+        {
+          "persona": "developer-builder",
+          "job": "Keep anticipated final cost current instead of discovering the overrun late"
+        },
+        {
+          "persona": "investor-am",
+          "job": "Assemble a lender draw package from live project data"
+        }
+      ],
+      "personas": [
+        "developer-builder",
+        "investor-am"
+      ],
+      "segments": [
+        "multifamily",
+        "office",
+        "retail",
+        "industrial",
+        "land-development",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Procore",
+        "Yardi",
+        "MRI",
+        "QuickBooks"
+      ],
+      "ai": {
+        "capabilities": [
+          "Invoice and contract data extraction",
+          "Cost forecasting"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "procore",
+        "dealpath"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.northspyre.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "placer-ai",
+      "name": "Placer.ai",
+      "editor": "Placer Labs",
+      "website": "https://www.placer.ai",
+      "hq_country": "US",
+      "markets": [
+        "US",
+        "FR"
+      ],
+      "category": "market-data",
+      "also_in": [
+        "investment-underwriting"
+      ],
+      "founded": 2016,
+      "positioning": "Foot traffic as a leasing argument — how many people actually walk into this centre, and where else do they go.",
+      "description": "Placer.ai turns anonymised mobile location data into visit metrics for physical venues: visit counts, dwell time, trade-area maps, visitor demographics and cross-shopping between brands. Coverage is strongest in the US, with an expanding international footprint.\n",
+      "real_estate_use": "In retail leasing it replaces the argument from intuition. A landlord shows a prospective tenant that the centre draws a measured number of visits from a trade area matching the brand's customer profile. Investors use the same data to underwrite retail assets and to spot decline before it appears in the rent roll.\n",
+      "features": [
+        "Visit counts and trends per venue and per chain",
+        "Trade-area maps and visitor origin analysis",
+        "Visitor demographics and psychographic segments",
+        "Cross-visitation between brands and centres",
+        "Site selection scoring for new locations",
+        "Void analysis and competitive benchmarking"
+      ],
+      "use_cases": [
+        {
+          "persona": "investor-am",
+          "job": "Underwrite a retail asset on measured footfall rather than on reported sales"
+        },
+        {
+          "persona": "agent-broker",
+          "job": "Prove trade-area quality to a retail tenant during lease negotiation"
+        }
+      ],
+      "personas": [
+        "investor-am",
+        "agent-broker",
+        "corporate-re",
+        "developer-builder"
+      ],
+      "segments": [
+        "retail",
+        "mixed-use",
+        "hospitality"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Excel",
+        "Tableau",
+        "Power BI",
+        "REST API"
+      ],
+      "ai": {
+        "capabilities": [
+          "Visit estimation models from mobile location panels",
+          "Trade-area prediction"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "costar",
+        "cityscan"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.placer.ai",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "salvia-developpement",
+      "name": "Salvia Développement",
+      "editor": "Salvia Software",
+      "website": "https://www.salvia-software.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "construction-development",
+      "also_in": [
+        "investment-underwriting"
+      ],
+      "positioning": "Software for French property development operations — the bilan promoteur, the VEFA sales ledger and the cost control in one system.",
+      "description": "Salvia Software publishes solutions for French property developers and social housing operators covering development operation management: feasibility and operation budget, cost and commitment tracking, VEFA reservation and sale follow-up, calls for funds by construction stage, and operation profitability reporting.\n",
+      "real_estate_use": "A French development operation has a financial structure no generic tool models: the bilan promoteur, VEFA sales where the buyer pays by construction milestone, and a margin that moves with every signed contract and every works order. Salvia is bought to hold that structure — the operation budget and the sales ledger reconciled against one another.\n",
+      "features": [
+        "Operation feasibility and bilan promoteur modelling",
+        "Cost, commitment and works contract tracking",
+        "VEFA reservation and sale follow-up",
+        "Calls for funds by construction milestone",
+        "Operation and portfolio profitability reporting",
+        "Social housing operation specifics"
+      ],
+      "use_cases": [
+        {
+          "persona": "developer-builder",
+          "job": "Keep the operation budget and the VEFA sales ledger reconciled throughout the build"
+        },
+        {
+          "persona": "developer-builder",
+          "job": "Issue calls for funds to buyers as each construction stage is reached"
+        }
+      ],
+      "personas": [
+        "developer-builder",
+        "investor-am"
+      ],
+      "segments": [
+        "residential",
+        "mixed-use",
+        "land-development",
+        "office"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "accounting systems",
+        "banking",
+        "works management"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "northspyre",
+        "kairnial"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.salvia-software.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "stessa",
+      "name": "Stessa",
+      "editor": "Roofstock",
+      "website": "https://www.stessa.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "back-office-accounting",
+      "also_in": [
+        "investment-underwriting"
+      ],
+      "founded": 2016,
+      "positioning": "Accounting written for the rental investor rather than for the accountant — free, and organised by property.",
+      "description": "Stessa tracks rental property income and expenses through linked bank accounts, categorises transactions to a real estate chart of accounts, stores documents, and produces owner-level dashboards and tax-ready reports. The core product is free.\n",
+      "real_estate_use": "The individual investor's real problem is Schedule E: proving, a year later, which transaction belonged to which property. Stessa auto-categorises bank activity by property, keeps receipts attached, and produces the tax package. It is bookkeeping shaped by how a landlord actually thinks — per door, not per account.\n",
+      "features": [
+        "Automatic transaction import and categorisation by property",
+        "Property-level income, expense and cash flow dashboards",
+        "Document storage attached to properties and transactions",
+        "Tax-ready reports including Schedule E preparation",
+        "Rent collection and tenant screening options",
+        "Portfolio valuation tracking"
+      ],
+      "use_cases": [
+        {
+          "persona": "investor-am",
+          "job": "Produce a tax-ready Schedule E package per property without a bookkeeper"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "See real cash flow per door rather than one blended bank balance"
+        }
+      ],
+      "personas": [
+        "investor-am",
+        "landlord-owner"
+      ],
+      "segments": [
+        "residential",
+        "multifamily"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "freemium",
+        "public_pricing": true,
+        "url": "https://www.stessa.com/pricing"
+      },
+      "integrations": [
+        "bank feeds",
+        "TurboTax exports",
+        "Roofstock"
+      ],
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "baselane",
+        "doorloop"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.stessa.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "slug": "bien-ici",
+  "name": "Bien'ici",
+  "editor": "Bien'ici",
+  "website": "https://www.bienici.com",
+  "hq_country": "FR",
+  "markets": [
+    "FR"
+  ],
+  "category": "portals-marketplaces",
+  "founded": 2016,
+  "positioning": "The portal founded by the French networks themselves, built around a 3D map search rather than a list of results.",
+  "description": "Bien'ici is a French property portal created by a consortium of real estate networks and professional groups. Its distinguishing feature is a 3D cartographic search showing a property in its actual urban context, with commute-time filtering and neighbourhood information.\n",
+  "real_estate_use": "It exists because French professionals wanted a portal they partly control, as a counterweight to portal pricing power. For an agency, the practical calculation is the same as anywhere — leads against subscription cost — with the added argument that the map-based search attracts buyers doing serious location research rather than casual browsing.\n",
+  "features": [
+    "3D map-based property search in urban context",
+    "Commute time and point-of-interest filtering",
+    "Professional sale and rental listings",
+    "Neighbourhood and environment information",
+    "New-build programme sections",
+    "Lead delivery to agency software"
+  ],
+  "use_cases": [
+    {
+      "persona": "brokerage",
+      "job": "Advertise on a portal partly governed by the professional networks themselves"
+    },
+    {
+      "persona": "tenant-occupier",
+      "job": "Search by commute time and urban context rather than by postcode"
+    }
+  ],
+  "personas": [
+    "brokerage",
+    "agent-broker",
+    "developer-builder",
+    "tenant-occupier"
+  ],
+  "segments": [
+    "residential",
+    "mixed-use"
+  ],
+  "company_sizes": [
+    "solo",
+    "smb",
+    "midmarket",
+    "enterprise"
+  ],
+  "pricing": {
+    "model": "subscription",
+    "public_pricing": false
+  },
+  "integrations": [
+    "Hektor",
+    "Netty",
+    "Apimo",
+    "Ubiflow"
+  ],
+  "product": {
+    "api": true,
+    "open_source": false,
+    "mobile": [
+      "ios",
+      "android"
+    ],
+    "languages": [
+      "fr"
+    ]
+  },
+  "alternatives": [
+    "seloger",
+    "leboncoin-immobilier",
+    "pap"
+  ],
+  "reviews": [],
+  "sources": [
+    {
+      "url": "https://www.bienici.com",
+      "note": "site éditeur"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-25"
+}

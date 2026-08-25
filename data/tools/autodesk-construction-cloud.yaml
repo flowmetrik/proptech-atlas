@@ -1,0 +1,50 @@
+slug: autodesk-construction-cloud
+name: Autodesk Construction Cloud
+editor: Autodesk
+website: https://construction.autodesk.com
+hq_country: US
+markets: [US, FR]
+category: construction-development
+founded: 2019
+positioning: Construction management anchored to the model — because the drawings came out of Revit in the first place.
+description: >
+  Autodesk Construction Cloud brings together BIM 360, PlanGrid and Assemble into one
+  platform spanning design collaboration, model coordination, field execution, quality,
+  cost management and closeout, tightly coupled to Autodesk's design tools.
+real_estate_use: >
+  On a project designed in Revit, the coordination advantage is structural: clash detection
+  runs on the federated model, the field team opens the same model on a tablet, and issues
+  raised on site are pinned to model elements rather than to a PDF coordinate. For an owner
+  it makes the digital twin at handover a by-product rather than a separate exercise.
+features:
+  - Design collaboration and federated model coordination
+  - Clash detection and issue management pinned to model elements
+  - Field execution with drawings, checklists and punch lists offline
+  - Cost management with budgets, contracts and change orders
+  - Quantity takeoff from models
+  - Handover packages and asset data for operations
+use_cases:
+  - persona: developer-builder
+    job: Coordinate design disciplines and resolve clashes before they reach the site
+  - persona: corporate-re
+    job: Receive structured asset data at handover instead of a box of PDFs
+personas: [developer-builder, corporate-re, facility-manager]
+segments: [office, retail, industrial, multifamily, healthcare-senior, land-development]
+company_sizes: [smb, midmarket, enterprise]
+pricing:
+  model: per-seat
+  public_pricing: true
+  url: https://construction.autodesk.com/pricing
+integrations: [Revit, Navisworks, Procore, Sage, Microsoft 365]
+ai:
+  capabilities: [Construction IQ risk prediction, Automated issue classification]
+product:
+  api: true
+  open_source: false
+  mobile: [ios, android]
+  languages: [en, fr, de, es, ja]
+alternatives: [procore, bluebeam]
+reviews: []
+sources: [{ url: https://construction.autodesk.com, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

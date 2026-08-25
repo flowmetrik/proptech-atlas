@@ -1,0 +1,85 @@
+{
+  "slug": "tenantcloud",
+  "name": "TenantCloud",
+  "editor": "TenantCloud",
+  "website": "https://www.tenantcloud.com",
+  "hq_country": "US",
+  "markets": [
+    "US"
+  ],
+  "category": "property-management",
+  "founded": 2014,
+  "positioning": "One account, three roles — landlord, tenant and service professional all get their own workspace.",
+  "description": "TenantCloud is a cloud platform with distinct portals for landlords, tenants and service professionals. Landlords get listings, applications, screening, leases, rent collection, maintenance and accounting; tenants get payments and requests; vendors get job assignments.\n",
+  "real_estate_use": "The tenant-side and vendor-side accounts are the point of difference: a tenant keeps their rental history and payment record across landlords, and a plumber receives assignments through the same system that generated the work order. For a small landlord it removes the email and text back-and-forth around every repair.\n",
+  "features": [
+    "Separate landlord, tenant and service professional portals",
+    "Listings, applications and screening",
+    "Rent collection with automated invoicing and late fees",
+    "Maintenance requests routed to assigned vendors",
+    "Accounting with reports and tax preparation exports",
+    "Lease templates with e-signature"
+  ],
+  "use_cases": [
+    {
+      "persona": "landlord-owner",
+      "job": "Route a maintenance request to a vendor without leaving the system"
+    },
+    {
+      "persona": "tenant-occupier",
+      "job": "Keep rental payment history that follows you to the next landlord"
+    }
+  ],
+  "personas": [
+    "landlord-owner",
+    "property-manager",
+    "tenant-occupier"
+  ],
+  "segments": [
+    "residential"
+  ],
+  "company_sizes": [
+    "solo",
+    "smb"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "public_pricing": true,
+    "url": "https://www.tenantcloud.com/pricing"
+  },
+  "integrations": [
+    "TransUnion screening",
+    "QuickBooks",
+    "Zillow Rentals"
+  ],
+  "product": {
+    "api": false,
+    "open_source": false,
+    "mobile": [
+      "ios",
+      "android"
+    ],
+    "languages": [
+      "en"
+    ]
+  },
+  "alternatives": [
+    "turbotenant",
+    "doorloop",
+    "innago",
+    "rentredi"
+  ],
+  "reviews": [],
+  "sources": [
+    {
+      "url": "https://www.tenantcloud.com",
+      "note": "site éditeur"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-25"
+}

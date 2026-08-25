@@ -1,0 +1,87 @@
+{
+  "slug": "bulldozair",
+  "name": "BulldozAIR",
+  "editor": "BulldozAIR",
+  "website": "https://www.bulldozair.com",
+  "hq_country": "FR",
+  "markets": [
+    "FR"
+  ],
+  "category": "construction-development",
+  "positioning": "Site observations pinned to the plan, captured on a tablet and turned into a report before leaving the site.",
+  "description": "BulldozAIR is a French field collaboration application for construction: annotate plans, create positioned observations with photos, assign them to a company with a deadline, track their resolution, and generate site reports and reserve lists automatically.\n",
+  "real_estate_use": "A site visit produces dozens of observations that traditionally become an evening of report writing and a week of chasing. Pinning each one to a plan coordinate, assigning it on the spot and generating the report before leaving compresses that cycle to the visit itself — and gives each contractor an unambiguous location rather than a paragraph of description.\n",
+  "features": [
+    "Plan annotation with positioned observations",
+    "Photo capture attached to each observation",
+    "Assignment to companies with deadlines and status",
+    "Automatic site report and reserve list generation",
+    "Offline capture with synchronisation",
+    "Delivery and handover inspection workflows"
+  ],
+  "use_cases": [
+    {
+      "persona": "developer-builder",
+      "job": "Produce a site visit report with positioned reserves before leaving the site"
+    },
+    {
+      "persona": "facility-manager",
+      "job": "Run a delivery inspection with unambiguous locations for each reserve"
+    }
+  ],
+  "personas": [
+    "developer-builder",
+    "facility-manager",
+    "corporate-re"
+  ],
+  "segments": [
+    "office",
+    "retail",
+    "residential",
+    "industrial",
+    "land-development"
+  ],
+  "company_sizes": [
+    "smb",
+    "midmarket",
+    "enterprise"
+  ],
+  "pricing": {
+    "model": "per-seat",
+    "public_pricing": false
+  },
+  "integrations": [
+    "document management systems",
+    "BIM tools"
+  ],
+  "product": {
+    "api": true,
+    "open_source": false,
+    "mobile": [
+      "ios",
+      "android"
+    ],
+    "languages": [
+      "fr",
+      "en"
+    ]
+  },
+  "alternatives": [
+    "kairnial",
+    "finalcad",
+    "immopad"
+  ],
+  "reviews": [],
+  "sources": [
+    {
+      "url": "https://www.bulldozair.com",
+      "note": "site éditeur"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-25"
+}

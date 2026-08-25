@@ -1,0 +1,85 @@
+{
+  "slug": "homes-com",
+  "name": "Homes.com",
+  "editor": "CoStar Group",
+  "website": "https://www.homes.com",
+  "hq_country": "US",
+  "markets": [
+    "US"
+  ],
+  "category": "portals-marketplaces",
+  "founded": 1999,
+  "positioning": "The portal built on the \"your listing, your lead\" promise — the listing agent is the one shown on their own listing.",
+  "description": "Relaunched by CoStar Group with heavy consumer advertising, Homes.com differentiates from the incumbent portals by not selling a competing agent's advertising slot on top of a listing. It is backed by CoStar's data infrastructure and adds neighbourhood-level editorial content.\n",
+  "real_estate_use": "The pitch to listing agents is defensive: winning a listing is easier when the seller knows their own agent will appear on the portal page rather than three buyers' agents who paid for the ZIP code. Membership products give agents branded profiles and listing boosts, and brokerages use it as a counterweight to portal lead pricing.\n",
+  "features": [
+    "Listing pages that display the listing agent rather than paid competitors",
+    "Agent membership profiles and branded listing presentation",
+    "Neighbourhood and school editorial content",
+    "National consumer advertising driving portal traffic",
+    "Rental listing network",
+    "CoStar-sourced property and market data"
+  ],
+  "use_cases": [
+    {
+      "persona": "agent-broker",
+      "job": "Win a listing appointment by promising the seller exclusive agent visibility"
+    },
+    {
+      "persona": "brokerage",
+      "job": "Reduce dependency on portals that resell leads on the brokerage's own inventory"
+    }
+  ],
+  "personas": [
+    "agent-broker",
+    "brokerage"
+  ],
+  "segments": [
+    "residential",
+    "multifamily"
+  ],
+  "company_sizes": [
+    "solo",
+    "smb",
+    "midmarket",
+    "enterprise"
+  ],
+  "pricing": {
+    "model": "subscription",
+    "public_pricing": false
+  },
+  "integrations": [
+    "MLS feeds",
+    "CoStar data",
+    "major CRMs"
+  ],
+  "product": {
+    "api": true,
+    "open_source": false,
+    "mobile": [
+      "ios",
+      "android"
+    ],
+    "languages": [
+      "en"
+    ]
+  },
+  "alternatives": [
+    "zillow",
+    "realtor-com",
+    "costar"
+  ],
+  "reviews": [],
+  "sources": [
+    {
+      "url": "https://www.homes.com",
+      "note": "site éditeur"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-25"
+}

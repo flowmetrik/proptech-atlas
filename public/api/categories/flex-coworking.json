@@ -1,0 +1,367 @@
+{
+  "id": "flex-coworking",
+  "label_en": "Flex space & coworking",
+  "label_fr": "Flex office & coworking",
+  "summary_en": "Memberships, desk booking, billing and community for flexible workspace.",
+  "summary_fr": "Abonnements, réservation de postes, facturation et animation d'espaces flexibles.",
+  "count": 4,
+  "tools": [
+    {
+      "slug": "cobot",
+      "name": "Cobot",
+      "editor": "Cobot",
+      "website": "https://www.cobot.me",
+      "hq_country": "DE",
+      "markets": [
+        "US",
+        "FR"
+      ],
+      "category": "flex-coworking",
+      "founded": 2011,
+      "positioning": "Straightforward coworking management for a single space that does not want an enterprise platform.",
+      "description": "Cobot handles coworking administration: member sign-up and plans, invoicing and payments, meeting room bookings, a member directory, check-in and access integrations, and reporting, aimed at independent spaces rather than multi-site operators.\n",
+      "real_estate_use": "An independent space with sixty members needs billing that runs itself and a booking calendar members can trust, not revenue management. Cobot's appeal is that it can be set up in a day by the person who also makes the coffee, and its open API keeps custom door-access and signage projects possible.\n",
+      "features": [
+        "Member plans, sign-up flows and automated invoicing",
+        "Meeting room booking with member allowances",
+        "Payment processing and dunning",
+        "Member directory and community profiles",
+        "Access control and check-in integrations",
+        "Open API and webhooks"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Run billing and bookings for an independent coworking space single-handed"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "Convert spare floor space into a small membership operation"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "landlord-owner"
+      ],
+      "segments": [
+        "office",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://www.cobot.me/pricing"
+      },
+      "integrations": [
+        "Stripe",
+        "Xero",
+        "Kisi",
+        "Zapier",
+        "REST API"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en",
+          "fr",
+          "de",
+          "es"
+        ]
+      },
+      "alternatives": [
+        "officernd",
+        "nexudus"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.cobot.me",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "essensys",
+      "name": "essensys",
+      "editor": "essensys",
+      "website": "https://essensys.tech",
+      "hq_country": "GB",
+      "markets": [
+        "US",
+        "FR"
+      ],
+      "category": "flex-coworking",
+      "also_in": [
+        "tenant-experience"
+      ],
+      "founded": 2006,
+      "positioning": "The infrastructure layer under flex space — network, access and billing for buildings running many operators.",
+      "description": "essensys provides software and on-site technology for flexible workspace: operations and billing platform, plus network infrastructure that segments and provisions connectivity per tenant, and access control across multi-tenant buildings.\n",
+      "real_estate_use": "A landlord converting floors to flex has a problem no coworking app solves: every occupier needs its own secure network segment, provisioned in hours rather than weeks, and metered. essensys sits at that layer, which is why it is bought by landlords and large operators rather than by single spaces.\n",
+      "features": [
+        "Per-tenant network provisioning and segmentation",
+        "Automated billing for space, services and consumption",
+        "Access control across multi-tenant buildings",
+        "Operations platform for flexible workspace portfolios",
+        "Real-time service usage metering",
+        "Landlord-grade reporting across operators"
+      ],
+      "use_cases": [
+        {
+          "persona": "investor-am",
+          "job": "Turn floors into flex space with secure per-occupier networks provisioned in hours"
+        },
+        {
+          "persona": "property-manager",
+          "job": "Meter and bill services consumed by multiple operators in one building"
+        }
+      ],
+      "personas": [
+        "investor-am",
+        "property-manager",
+        "corporate-re"
+      ],
+      "segments": [
+        "office",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "access control systems",
+        "network hardware",
+        "accounting systems"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "officernd",
+        "nexudus"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://essensys.tech",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "nexudus",
+      "name": "Nexudus",
+      "editor": "Nexudus",
+      "website": "https://www.nexudus.com",
+      "hq_country": "GB",
+      "markets": [
+        "US",
+        "FR"
+      ],
+      "category": "flex-coworking",
+      "founded": 2012,
+      "positioning": "The configurable veteran of coworking software — if your operating model is unusual, this is the one that bends.",
+      "description": "Nexudus covers coworking and flexible workspace management: bookings, billing, CRM, a white-label member portal and app, community features, access and printing integrations, and a large set of configuration options and add-ons.\n",
+      "real_estate_use": "Flex operators rarely run the same model twice — credit systems for room hours, tiered plans, franchise structures, mixed private-office and hot-desk inventory. Nexudus is chosen for the depth of configuration that supports those variations, and for white labelling when the operator's brand must be the only one members see.\n",
+      "features": [
+        "Membership, contract and recurring billing configuration",
+        "White-label member portal and mobile app",
+        "Meeting room booking with credit and allowance systems",
+        "Access control, printing and network integrations",
+        "CRM, marketing and community tools",
+        "Multi-location and franchise structures"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Model an unusual membership and credit structure without leaving the system"
+        },
+        {
+          "persona": "property-manager",
+          "job": "Run a fully white-labelled member experience under the operator's own brand"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "investor-am"
+      ],
+      "segments": [
+        "office",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://www.nexudus.com/pricing"
+      },
+      "integrations": [
+        "Xero",
+        "QuickBooks",
+        "Stripe",
+        "Kisi",
+        "Salto",
+        "Zapier"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en",
+          "fr",
+          "es",
+          "de"
+        ]
+      },
+      "alternatives": [
+        "officernd",
+        "cobot",
+        "essensys"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.nexudus.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "officernd",
+      "name": "OfficeRnD Flex",
+      "editor": "OfficeRnD",
+      "website": "https://www.officernd.com",
+      "hq_country": "GB",
+      "markets": [
+        "US",
+        "FR"
+      ],
+      "category": "flex-coworking",
+      "founded": 2015,
+      "positioning": "The operating system of a coworking business — memberships, bookings, billing and the member app in one product.",
+      "description": "OfficeRnD Flex manages flexible workspace operations: member and company records, space and desk inventory, contracts and automated recurring billing, meeting room bookings, door access integration, and a member-facing app and portal.\n",
+      "real_estate_use": "A flex operator's revenue is a mesh of monthly memberships, day passes, room hours and overage charges — billing that breaks any standard property accounting model. OfficeRnD automates the invoice run and connects it to access control, so a lapsed payment can suspend a badge. Landlords running their own flex floors buy it for the same reason.\n",
+      "features": [
+        "Membership plans, contracts and automated recurring billing",
+        "Desk, office and meeting room inventory and allocation",
+        "Member app and portal for bookings and community",
+        "Door access control integration tied to membership status",
+        "Occupancy, revenue and utilisation analytics",
+        "Multi-location management under one operator"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Bill a mesh of memberships, day passes and room hours without manual invoicing"
+        },
+        {
+          "persona": "investor-am",
+          "job": "Operate flexible workspace floors inside an owned building"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "investor-am",
+        "corporate-re"
+      ],
+      "segments": [
+        "office",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://www.officernd.com/pricing"
+      },
+      "integrations": [
+        "Xero",
+        "QuickBooks",
+        "Stripe",
+        "Kisi",
+        "Slack",
+        "Zapier"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en",
+          "fr",
+          "es",
+          "de"
+        ]
+      },
+      "alternatives": [
+        "nexudus",
+        "cobot",
+        "essensys"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.officernd.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+slug: boxbrownie
+name: BoxBrownie
+editor: BoxBrownie.com
+website: https://www.boxbrownie.com
+hq_country: AU
+markets: [US, FR]
+category: visuals-tours
+founded: 2016
+positioning: Listing images fixed, staged and decluttered overnight, priced per image.
+description: >
+  BoxBrownie provides property image editing services: photo enhancement, day-to-dusk
+  conversion, virtual staging, item removal, virtual renovation, floor plan redraws and 360
+  virtual tours, delivered as a per-image service with overnight turnaround.
+real_estate_use: >
+  An empty apartment photographs badly and a cluttered one photographs worse. Virtual
+  staging costs a fraction of physical staging and can be ordered the evening before a
+  listing goes live. Virtual renovation is used to show a buyer what a tired property could
+  become — with the disclosure obligations that most markets now attach to edited images.
+features:
+  - Photo enhancement and day-to-dusk conversion
+  - Virtual staging of empty rooms
+  - Item removal and virtual decluttering
+  - Virtual renovation visualisations
+  - Floor plan redraw and 3D rendering
+  - 360 virtual tour creation
+use_cases:
+  - persona: agent-broker
+    job: Stage an empty property for photography at a fraction of physical staging cost
+  - persona: agent-broker
+    job: Show a buyer the renovation potential of a tired property
+personas: [agent-broker, brokerage, developer-builder]
+segments: [residential, office, retail]
+company_sizes: [solo, smb, midmarket]
+pricing:
+  model: usage
+  public_pricing: true
+  url: https://www.boxbrownie.com/pricing
+integrations: [listing platforms, agent marketing tools]
+ai:
+  capabilities: [Automated image enhancement, AI virtual staging]
+product:
+  api: true
+  open_source: false
+  mobile: [ios, android]
+  languages: [en, fr]
+alternatives: [matterport, cubicasa]
+reviews: []
+sources: [{ url: https://www.boxbrownie.com, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

@@ -1,0 +1,46 @@
+slug: theguarantors
+name: TheGuarantors
+editor: TheGuarantors
+website: https://www.theguarantors.com
+hq_country: US
+markets: [US]
+category: tenant-screening
+positioning: An insurance product that replaces the co-signer, so a good tenant who fails the income multiple can still sign.
+description: >
+  TheGuarantors underwrites lease guarantees and security deposit alternatives for residential
+  and commercial tenants. The landlord receives a backed guarantee of rent; the tenant pays a
+  fee instead of producing a co-signer or a large cash deposit.
+real_estate_use: >
+  The standard US requirement of forty times monthly rent in annual income excludes perfectly
+  solvent applicants — a recent graduate, a foreign national with no US credit, a
+  self-employed tenant. Rather than lose the lease or lower the standard, the operator accepts
+  an underwritten guarantee. It converts a screening rejection into a signed lease.
+features:
+  - Lease guarantee underwriting for residential tenants
+  - Security deposit replacement products
+  - Commercial lease guarantees and letter-of-credit alternatives
+  - Renters insurance distribution
+  - Integration into leasing workflows at approval stage
+  - Claims handling for unpaid rent
+use_cases:
+  - persona: property-manager
+    job: Approve a solvent applicant who fails the income multiple without lowering standards
+  - persona: tenant-occupier
+    job: Sign a lease without a US credit history or a large cash deposit
+personas: [property-manager, landlord-owner, tenant-occupier]
+segments: [multifamily, residential, office]
+company_sizes: [midmarket, enterprise]
+pricing:
+  model: commission
+  public_pricing: false
+integrations: [Entrata, Yardi, RealPage]
+product:
+  api: true
+  open_source: false
+  mobile: []
+  languages: [en]
+alternatives: [snappt]
+reviews: []
+sources: [{ url: https://www.theguarantors.com, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

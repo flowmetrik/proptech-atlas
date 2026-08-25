@@ -1,0 +1,82 @@
+{
+  "slug": "softpro",
+  "name": "SoftPro",
+  "editor": "SoftPro (Fidelity National Financial)",
+  "website": "https://www.softprocorp.com",
+  "hq_country": "US",
+  "markets": [
+    "US"
+  ],
+  "category": "title-closing-legal",
+  "founded": 1984,
+  "positioning": "The long-established title production system, built around state-by-state form and settlement requirements.",
+  "description": "SoftPro is closing, title and escrow production software: settlement statement preparation including the Closing Disclosure, document and form libraries by jurisdiction, escrow accounting and trust reconciliation, order tracking and title policy production.\n",
+  "real_estate_use": "Settlement is a jurisdictional exercise: forms, recording requirements and disbursement rules differ by state and often by county. SoftPro's depth in that form and rule library is what keeps it installed in title agencies that have used it for decades, alongside escrow trust accounting that survives a state audit.\n",
+  "features": [
+    "Settlement statement and Closing Disclosure preparation",
+    "Jurisdiction-specific document and form libraries",
+    "Escrow trust accounting with reconciliation",
+    "Title policy and commitment production",
+    "Order tracking and workflow automation",
+    "Integrations with underwriters and recording services"
+  ],
+  "use_cases": [
+    {
+      "persona": "legal-notary",
+      "job": "Produce compliant settlement documents for the specific state and county"
+    },
+    {
+      "persona": "legal-notary",
+      "job": "Keep escrow trust accounts reconciled to audit standard"
+    }
+  ],
+  "personas": [
+    "legal-notary",
+    "lender-broker"
+  ],
+  "segments": [
+    "residential",
+    "office",
+    "retail"
+  ],
+  "company_sizes": [
+    "smb",
+    "midmarket",
+    "enterprise"
+  ],
+  "pricing": {
+    "model": "quote",
+    "public_pricing": false
+  },
+  "integrations": [
+    "underwriter systems",
+    "county recording",
+    "banking",
+    "lender systems"
+  ],
+  "product": {
+    "api": true,
+    "open_source": false,
+    "mobile": [],
+    "languages": [
+      "en"
+    ]
+  },
+  "alternatives": [
+    "qualia",
+    "resware"
+  ],
+  "reviews": [],
+  "sources": [
+    {
+      "url": "https://www.softprocorp.com",
+      "note": "site éditeur"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-25"
+}

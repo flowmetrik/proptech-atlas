@@ -1,0 +1,92 @@
+{
+  "slug": "sweepbright",
+  "name": "SweepBright",
+  "editor": "SweepBright",
+  "website": "https://www.sweepbright.com",
+  "hq_country": "BE",
+  "markets": [
+    "FR"
+  ],
+  "category": "crm-lead",
+  "also_in": [
+    "transaction-management",
+    "listing-syndication"
+  ],
+  "founded": 2016,
+  "positioning": "A mobile-first agency CRM for European markets — capture a property on site, publish it before leaving.",
+  "description": "SweepBright is a real estate agency platform used across Belgium, France and other European markets: property and contact management, mobile listing capture with photos, matching, multi-portal publishing, digital signature and an agency website module.\n",
+  "real_estate_use": "The design assumption is that the agent is never at a desk. Capturing the property during the valuation visit — rooms, photos, description — and publishing directly from the phone compresses a two-day cycle into the appointment itself, which matters most in competitive markets where the first published listing gets the enquiries.\n",
+  "features": [
+    "Mobile property capture with photos and details on site",
+    "Contact management and buyer matching",
+    "Multi-portal publishing across European portals",
+    "Agency website module fed by the same catalogue",
+    "Digital signature on mandates and offers",
+    "Team activity and pipeline reporting"
+  ],
+  "use_cases": [
+    {
+      "persona": "agent-broker",
+      "job": "Capture and publish a new listing from the phone during the valuation visit"
+    },
+    {
+      "persona": "brokerage",
+      "job": "Run a multi-country European agency on one catalogue and one portal feed"
+    }
+  ],
+  "personas": [
+    "agent-broker",
+    "brokerage"
+  ],
+  "segments": [
+    "residential",
+    "mixed-use"
+  ],
+  "company_sizes": [
+    "solo",
+    "smb",
+    "midmarket"
+  ],
+  "pricing": {
+    "model": "per-seat",
+    "public_pricing": true,
+    "url": "https://www.sweepbright.com/pricing"
+  },
+  "integrations": [
+    "European portals",
+    "Nodalview",
+    "digital signature providers"
+  ],
+  "product": {
+    "api": true,
+    "open_source": false,
+    "mobile": [
+      "ios",
+      "android"
+    ],
+    "languages": [
+      "fr",
+      "nl",
+      "en",
+      "es"
+    ]
+  },
+  "alternatives": [
+    "apimo",
+    "hektor",
+    "netty"
+  ],
+  "reviews": [],
+  "sources": [
+    {
+      "url": "https://www.sweepbright.com",
+      "note": "site éditeur"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-25"
+}

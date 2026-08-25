@@ -1,0 +1,84 @@
+{
+  "slug": "salvia-developpement",
+  "name": "Salvia Développement",
+  "editor": "Salvia Software",
+  "website": "https://www.salvia-software.com",
+  "hq_country": "FR",
+  "markets": [
+    "FR"
+  ],
+  "category": "construction-development",
+  "also_in": [
+    "investment-underwriting"
+  ],
+  "positioning": "Software for French property development operations — the bilan promoteur, the VEFA sales ledger and the cost control in one system.",
+  "description": "Salvia Software publishes solutions for French property developers and social housing operators covering development operation management: feasibility and operation budget, cost and commitment tracking, VEFA reservation and sale follow-up, calls for funds by construction stage, and operation profitability reporting.\n",
+  "real_estate_use": "A French development operation has a financial structure no generic tool models: the bilan promoteur, VEFA sales where the buyer pays by construction milestone, and a margin that moves with every signed contract and every works order. Salvia is bought to hold that structure — the operation budget and the sales ledger reconciled against one another.\n",
+  "features": [
+    "Operation feasibility and bilan promoteur modelling",
+    "Cost, commitment and works contract tracking",
+    "VEFA reservation and sale follow-up",
+    "Calls for funds by construction milestone",
+    "Operation and portfolio profitability reporting",
+    "Social housing operation specifics"
+  ],
+  "use_cases": [
+    {
+      "persona": "developer-builder",
+      "job": "Keep the operation budget and the VEFA sales ledger reconciled throughout the build"
+    },
+    {
+      "persona": "developer-builder",
+      "job": "Issue calls for funds to buyers as each construction stage is reached"
+    }
+  ],
+  "personas": [
+    "developer-builder",
+    "investor-am"
+  ],
+  "segments": [
+    "residential",
+    "mixed-use",
+    "land-development",
+    "office"
+  ],
+  "company_sizes": [
+    "smb",
+    "midmarket",
+    "enterprise"
+  ],
+  "pricing": {
+    "model": "quote",
+    "public_pricing": false
+  },
+  "integrations": [
+    "accounting systems",
+    "banking",
+    "works management"
+  ],
+  "product": {
+    "api": true,
+    "open_source": false,
+    "mobile": [],
+    "languages": [
+      "fr"
+    ]
+  },
+  "alternatives": [
+    "northspyre",
+    "kairnial"
+  ],
+  "reviews": [],
+  "sources": [
+    {
+      "url": "https://www.salvia-software.com",
+      "note": "site éditeur"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-25"
+}

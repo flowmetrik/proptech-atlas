@@ -1,0 +1,48 @@
+slug: aareon
+name: Aareon
+editor: Aareon
+website: https://www.aareon.fr
+hq_country: DE
+markets: [FR]
+category: property-management
+also_in: [tenant-experience, back-office-accounting]
+positioning: The European ERP of social and institutional housing — where the tenant file, the rent and the works order live together.
+description: >
+  Aareon provides enterprise property management software for social landlords, institutional
+  owners and large managers across Europe, with a French organisation serving bailleurs
+  sociaux: tenant and lease management, rent and charge accounting, allocation processes,
+  maintenance and tenant self-service portals.
+real_estate_use: >
+  French social housing operates under rules no commercial system covers: regulated rents,
+  the allocation commission, the surface and resource ceilings, the supplément de loyer.
+  Aareon's French deployments encode those processes, which is why the sector runs on
+  specialised ERPs rather than on general property management platforms.
+features:
+  - Tenant, lease and allocation management for regulated housing
+  - Rent and charge accounting with regulatory rules
+  - Maintenance and works order management
+  - Tenant self-service portal and digital services
+  - Asset and patrimony management
+  - Regulatory and management reporting
+use_cases:
+  - persona: property-manager
+    job: Run regulated allocation and rent processes for a social housing portfolio
+  - persona: corporate-re
+    job: Hold asset, lease and works data for a large institutional patrimony in one ERP
+personas: [property-manager, corporate-re, facility-manager]
+segments: [residential, multifamily, mixed-use]
+company_sizes: [midmarket, enterprise]
+pricing:
+  model: quote
+  public_pricing: false
+integrations: [accounting systems, banking, works management, tenant portals]
+product:
+  api: true
+  open_source: false
+  mobile: [ios, android]
+  languages: [fr, de, en, nl]
+alternatives: [crypto-septeo, yardi-voyager, mri-software]
+reviews: []
+sources: [{ url: https://www.aareon.fr, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

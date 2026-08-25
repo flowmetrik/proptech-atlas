@@ -1,0 +1,87 @@
+{
+  "slug": "brokermint",
+  "name": "BoldTrail BackOffice (Brokermint)",
+  "editor": "Inside Real Estate",
+  "website": "https://www.brokermint.com",
+  "hq_country": "US",
+  "markets": [
+    "US"
+  ],
+  "category": "back-office-accounting",
+  "also_in": [
+    "transaction-management"
+  ],
+  "founded": 2014,
+  "positioning": "Where a closed transaction becomes a commission calculation, an agent statement and an accounting entry.",
+  "description": "Brokermint — now sold as BoldTrail BackOffice — handles the brokerage side of a deal: commission plans, splits, caps, fees, agent billing, 1099 preparation and accounting export. Transaction management and e-signature sit alongside it so the same file feeds both compliance and money.\n",
+  "real_estate_use": "The problem it solves is that commission structures are individually negotiated. A brokerage encodes each agent's split, cap and fee schedule once, and every closing then produces a disbursement authorisation and an agent statement automatically. Year-end 1099 preparation stops being a spreadsheet exercise.\n",
+  "features": [
+    "Commission plans with splits, caps, tiers and referral fees",
+    "Automatic disbursement authorisations and agent statements",
+    "Agent billing for monthly fees and chargebacks",
+    "Transaction management with document checklists and e-signature",
+    "QuickBooks export and accounting reconciliation",
+    "Production reporting by agent, office and team"
+  ],
+  "use_cases": [
+    {
+      "persona": "brokerage",
+      "job": "Calculate every agent's commission automatically from their negotiated plan"
+    },
+    {
+      "persona": "brokerage",
+      "job": "Produce year-end 1099s and agent statements without rebuilding a spreadsheet"
+    }
+  ],
+  "personas": [
+    "brokerage"
+  ],
+  "segments": [
+    "residential"
+  ],
+  "company_sizes": [
+    "smb",
+    "midmarket"
+  ],
+  "pricing": {
+    "model": "per-seat",
+    "public_pricing": true,
+    "url": "https://www.brokermint.com/pricing"
+  },
+  "integrations": [
+    "QuickBooks",
+    "dotloop",
+    "SkySlope",
+    "BoldTrail",
+    "Zapier"
+  ],
+  "product": {
+    "api": true,
+    "open_source": false,
+    "mobile": [
+      "ios",
+      "android"
+    ],
+    "languages": [
+      "en"
+    ]
+  },
+  "alternatives": [
+    "lone-wolf-back-office",
+    "skyslope",
+    "boldtrail"
+  ],
+  "reviews": [],
+  "sources": [
+    {
+      "url": "https://www.brokermint.com",
+      "note": "site éditeur"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-25"
+}

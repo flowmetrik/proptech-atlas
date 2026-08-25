@@ -1,0 +1,48 @@
+slug: urbanease
+name: Urbanease
+editor: Urbanease
+website: https://www.urbanease.com
+hq_country: FR
+markets: [FR]
+category: market-data
+also_in: [construction-development, crm-lead]
+positioning: Land prospecting with the canvassing workflow attached — from the parcel to the owner letter.
+description: >
+  Urbanease provides French developers, land prospectors and local authorities with a mapping
+  platform combining cadastre, urban planning documents, ownership data and constraints,
+  together with prospecting workflow: parcel qualification, owner contact and canvassing
+  follow-up.
+real_estate_use: >
+  Finding the parcel is half the job; the other half is a disciplined approach to an owner who
+  was not thinking of selling. Urbanease keeps the qualification and the contact history on
+  the parcel itself, so a prospector returning to a commune two years later knows who was
+  already approached, by whom, and what they said.
+features:
+  - Cadastral and urban planning mapping with constraints
+  - Parcel qualification and development potential assessment
+  - Owner identification and contact management
+  - Canvassing history and follow-up per parcel
+  - Territory and team assignment
+  - Export and reporting for prospecting campaigns
+use_cases:
+  - persona: developer-builder
+    job: Run a disciplined land canvassing campaign with history kept on each parcel
+  - persona: corporate-re
+    job: Assess planning constraints and potential on a site before acquisition
+personas: [developer-builder, corporate-re, investor-am, agent-broker]
+segments: [land-development, residential, mixed-use]
+company_sizes: [smb, midmarket, enterprise]
+pricing:
+  model: subscription
+  public_pricing: false
+integrations: [GIS tools, CRM systems]
+product:
+  api: true
+  open_source: false
+  mobile: [ios, android]
+  languages: [fr]
+alternatives: [kelfoncier, cityscan]
+reviews: []
+sources: [{ url: https://www.urbanease.com, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

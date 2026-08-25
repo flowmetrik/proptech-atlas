@@ -1,0 +1,47 @@
+slug: adapt-immo
+name: Adapt Immo
+editor: Adapt Immo
+website: https://www.adaptimmo.com
+hq_country: FR
+markets: [FR]
+category: crm-lead
+also_in: [transaction-management, agent-marketing]
+positioning: A long-established French agency suite covering transaction, rental management and the agency website.
+description: >
+  Adapt Immo provides French agencies with transaction software, rental management, websites
+  and portal publishing, sold as an integrated suite with training and support aimed at
+  independent agencies and small networks.
+real_estate_use: >
+  Many French agencies run transaction and gérance side by side under the same
+  carte professionnelle. Keeping both in one suite avoids the duplicate owner and property
+  records that appear when an agency buys a sales tool and a separate rental tool — a
+  recurring source of error at the point where a managed property goes up for sale.
+features:
+  - Transaction management with mandates and matching
+  - Rental management with leases, receipts and owner accounts
+  - Agency website and portal publishing
+  - Prospecting and pige modules
+  - Electronic signature integration
+  - Document and legal file management
+use_cases:
+  - persona: brokerage
+    job: Run transaction and rental management on shared owner and property records
+  - persona: agent-broker
+    job: Publish mandates to portals and the agency site from one catalogue
+personas: [agent-broker, brokerage, property-manager]
+segments: [residential, mixed-use]
+company_sizes: [solo, smb, midmarket]
+pricing:
+  model: subscription
+  public_pricing: false
+integrations: [SeLoger, Leboncoin, Bien'ici, Yousign]
+product:
+  api: true
+  open_source: false
+  mobile: [ios, android]
+  languages: [fr]
+alternatives: [hektor, netty, apimo, lockimmo]
+reviews: []
+sources: [{ url: https://www.adaptimmo.com, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

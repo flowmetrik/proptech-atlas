@@ -1,0 +1,47 @@
+slug: finalcad
+name: Finalcad
+editor: Finalcad
+website: https://www.finalcad.com
+hq_country: FR
+markets: [FR]
+category: construction-development
+founded: 2011
+positioning: Digital site follow-up designed to be adopted by people who do not want software — foremen and subcontractors.
+description: >
+  Finalcad provides mobile applications for construction site monitoring: observations and
+  snagging on plans, quality and safety checklists, progress tracking, task assignment and
+  automatic reporting, with a deliberately minimal field interface.
+real_estate_use: >
+  Field adoption is the whole battle: a tool a subcontractor's foreman will not open produces
+  no data, whatever it can do. Finalcad's design choice is to strip the field experience down
+  to capture and assignment, keeping the analysis for the office — which is why it appears on
+  sites where previous attempts at digitalisation failed.
+features:
+  - Observation and snagging capture on plans
+  - Quality and safety checklists with photo evidence
+  - Task assignment to companies with deadlines
+  - Progress tracking against the schedule
+  - Automatic report generation
+  - Offline field use with synchronisation
+use_cases:
+  - persona: developer-builder
+    job: Get subcontractor foremen to actually record and close observations
+  - persona: developer-builder
+    job: Track progress and quality across several sites from one dashboard
+personas: [developer-builder, facility-manager]
+segments: [office, retail, residential, industrial, land-development]
+company_sizes: [smb, midmarket, enterprise]
+pricing:
+  model: quote
+  public_pricing: false
+integrations: [document management systems, BIM tools, ERP exports]
+product:
+  api: true
+  open_source: false
+  mobile: [ios, android]
+  languages: [fr, en, es, de]
+alternatives: [bulldozair, kairnial, procore]
+reviews: []
+sources: [{ url: https://www.finalcad.com, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

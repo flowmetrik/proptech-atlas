@@ -1,0 +1,48 @@
+slug: innago
+name: Innago
+editor: Innago
+website: https://innago.com
+hq_country: US
+markets: [US]
+category: property-management
+founded: 2017
+positioning: Free landlord software aimed squarely at the small and student-rental owner.
+description: >
+  Innago provides rent collection, online leasing and e-signature, applications and
+  screening, maintenance ticketing and basic accounting, free to the landlord with revenue
+  coming from optional paid services and payment processing.
+real_estate_use: >
+  It is heavily used for student housing and small multifamily, where a single unit may have
+  four tenants each paying a share of the rent. Splitting a lease across roommates,
+  collecting partial payments and tracking who is short is the specific problem it handles
+  more gracefully than most paid systems.
+features:
+  - Rent collection with roommate payment splitting
+  - Online applications and tenant screening
+  - Lease creation with e-signature and templates
+  - Maintenance ticketing with photo upload
+  - Expense tracking and basic reporting
+  - Tenant portal and automated reminders
+use_cases:
+  - persona: landlord-owner
+    job: Collect rent from four roommates on one student lease without manual reconciliation
+  - persona: property-manager
+    job: Run a small portfolio at no software cost
+personas: [landlord-owner, property-manager]
+segments: [residential, coliving-student]
+company_sizes: [solo, smb]
+pricing:
+  model: free
+  public_pricing: true
+  url: https://innago.com/pricing
+integrations: [TransUnion screening, ACH payment rails]
+product:
+  api: false
+  open_source: false
+  mobile: [ios, android]
+  languages: [en]
+alternatives: [turbotenant, avail, rentredi, tenantcloud]
+reviews: []
+sources: [{ url: https://innago.com, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

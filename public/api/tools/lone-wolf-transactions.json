@@ -1,0 +1,88 @@
+{
+  "slug": "lone-wolf-transactions",
+  "name": "Lone Wolf Transactions",
+  "editor": "Lone Wolf Technologies",
+  "website": "https://www.lwolf.com",
+  "hq_country": "CA",
+  "markets": [
+    "US"
+  ],
+  "category": "transaction-management",
+  "also_in": [
+    "back-office-accounting"
+  ],
+  "founded": 1989,
+  "positioning": "The transaction product distributed by associations — for many US agents it is the forms platform that comes with membership.",
+  "description": "Lone Wolf Transactions, built on the former TransactionDesk and zipForm lineage, is widely provided as a member benefit through state and local REALTOR associations. It covers forms, e-signature (Authentisign), transaction folders and broker review, and connects to Lone Wolf's brokerage accounting products.\n",
+  "real_estate_use": "Because association distribution puts it in front of a very large share of US agents, it is often the default place a purchase agreement is drafted. A brokerage then layers broker review on top and pushes closed-deal data into Lone Wolf Back Office for commission calculation, so the same file drives both compliance and payroll.\n",
+  "features": [
+    "zipForm and TransactionDesk form libraries via association membership",
+    "Authentisign e-signature",
+    "Transaction folders with broker review and compliance status",
+    "Templates and clause libraries per office",
+    "Handoff to Lone Wolf Back Office for commission accounting",
+    "MLS data prefill into forms"
+  ],
+  "use_cases": [
+    {
+      "persona": "agent-broker",
+      "job": "Draft the state-approved contract set that came with association membership"
+    },
+    {
+      "persona": "brokerage",
+      "job": "Move a closed file straight into commission disbursement without re-keying"
+    }
+  ],
+  "personas": [
+    "agent-broker",
+    "brokerage"
+  ],
+  "segments": [
+    "residential"
+  ],
+  "company_sizes": [
+    "solo",
+    "smb",
+    "midmarket",
+    "enterprise"
+  ],
+  "pricing": {
+    "model": "subscription",
+    "public_pricing": false
+  },
+  "integrations": [
+    "MLS systems",
+    "Lone Wolf Back Office",
+    "CloudCMA",
+    "Zapier"
+  ],
+  "product": {
+    "api": true,
+    "open_source": false,
+    "mobile": [
+      "ios",
+      "android"
+    ],
+    "languages": [
+      "en"
+    ]
+  },
+  "alternatives": [
+    "dotloop",
+    "skyslope",
+    "brokermint"
+  ],
+  "reviews": [],
+  "sources": [
+    {
+      "url": "https://www.lwolf.com",
+      "note": "site éditeur"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-25"
+}

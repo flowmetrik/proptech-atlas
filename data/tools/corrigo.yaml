@@ -1,0 +1,48 @@
+slug: corrigo
+name: Corrigo
+editor: JLL Technologies
+website: https://corrigo.com
+hq_country: US
+markets: [US, FR]
+category: facility-maintenance
+positioning: A CMMS shaped by a global services firm running it on its own managed portfolios.
+description: >
+  Corrigo is a facilities and work order management platform: service requests, vendor
+  dispatch and scoring, preventive maintenance, asset lifecycle tracking and spend
+  analytics. It is developed inside JLL and deployed both on JLL-managed accounts and as a
+  standalone product.
+real_estate_use: >
+  Its distinguishing feature in daily use is vendor scoring: response and completion
+  performance is measured per provider, so dispatch can route to the contractor who
+  actually shows up rather than the one with the oldest relationship. For an occupier
+  outsourcing facilities management, it also gives visibility into work the service provider
+  is performing on their behalf.
+features:
+  - Service request intake and automated vendor dispatch
+  - Vendor performance scoring and compliance tracking
+  - Preventive maintenance scheduling
+  - Asset registry with repair-versus-replace history
+  - Invoice and spend controls per work order
+  - Portfolio dashboards for occupancy cost and service levels
+use_cases:
+  - persona: facility-manager
+    job: Route work to the contractors with the best measured completion performance
+  - persona: corporate-re
+    job: See what an outsourced facilities provider is actually doing across the portfolio
+personas: [facility-manager, corporate-re, property-manager]
+segments: [office, retail, industrial, healthcare-senior]
+company_sizes: [midmarket, enterprise]
+pricing:
+  model: quote
+  public_pricing: false
+integrations: [JLL platforms, SAP, Yardi, building management systems]
+product:
+  api: true
+  open_source: false
+  mobile: [ios, android]
+  languages: [en, fr, es]
+alternatives: [servicechannel, upkeep, limble]
+reviews: []
+sources: [{ url: https://corrigo.com, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

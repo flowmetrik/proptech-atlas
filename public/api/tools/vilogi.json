@@ -1,0 +1,88 @@
+{
+  "slug": "vilogi",
+  "name": "Vilogi",
+  "editor": "Vilogi",
+  "website": "https://www.vilogi.com",
+  "hq_country": "FR",
+  "markets": [
+    "FR"
+  ],
+  "category": "syndic-copro",
+  "also_in": [
+    "property-management"
+  ],
+  "positioning": "Condominium management software built for the French 1965 law, from the annual assembly to the works fund.",
+  "description": "Vilogi is a SaaS platform for French syndics and rental managers: per-building accounting, budgets and calls for funds, general assembly preparation and electronic voting, works and contract tracking, and extranet portals for co-owners and council members.\n",
+  "real_estate_use": "A French copropriété is a legal entity with its own accounts, its own budget voted in assembly, and a mandatory extranet for co-owners. Vilogi encodes that cycle: the provisional budget is voted, quarterly calls for funds are issued against it, expenses are posted per building, and the annual accounts are presented back to the assembly. The extranet obligation is met by the same system.\n",
+  "features": [
+    "Per-building accounting with tantième-based expense allocation",
+    "Provisional budgets and quarterly calls for funds",
+    "General assembly preparation, convocation and electronic voting",
+    "Mandatory co-owner extranet with document access",
+    "Works, contract and insurance claim tracking",
+    "Rental management module for mixed portfolios"
+  ],
+  "use_cases": [
+    {
+      "persona": "syndic-manager",
+      "job": "Run the full annual cycle from voted budget to accounts presented at assembly"
+    },
+    {
+      "persona": "syndic-manager",
+      "job": "Meet the legal co-owner extranet obligation without a separate portal"
+    }
+  ],
+  "personas": [
+    "syndic-manager",
+    "property-manager",
+    "landlord-owner"
+  ],
+  "segments": [
+    "residential",
+    "mixed-use"
+  ],
+  "company_sizes": [
+    "solo",
+    "smb",
+    "midmarket"
+  ],
+  "pricing": {
+    "model": "subscription",
+    "public_pricing": false
+  },
+  "integrations": [
+    "banking",
+    "Yousign",
+    "accounting exports"
+  ],
+  "product": {
+    "api": true,
+    "open_source": false,
+    "mobile": [
+      "ios",
+      "android"
+    ],
+    "languages": [
+      "fr"
+    ]
+  },
+  "alternatives": [
+    "crypto-septeo",
+    "gercop",
+    "syment",
+    "lockimmo"
+  ],
+  "reviews": [],
+  "sources": [
+    {
+      "url": "https://www.vilogi.com",
+      "note": "site éditeur"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-25"
+}

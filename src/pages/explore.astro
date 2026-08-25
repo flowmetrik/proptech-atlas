@@ -1,0 +1,201 @@
+---
+import Base from '../layouts/Base.astro';
+import ToolCard from '../components/ToolCard.astro';
+import { taxonomy, tools, counts, url } from '../lib/catalog';
+
+// Le filtrage est fait dans le navigateur sur un DOM déjà rendu : le site reste
+// entièrement statique, indexable et lisible sans JavaScript (tout est affiché).
+const facets = [
+  { key: 'market', title: 'Market', items: taxonomy.markets, count: (id: string) => tools.filter((t) => t.markets.includes(id)).length },
+  { key: 'cat', title: 'Category', items: taxonomy.categories, count: (id: string) => tools.filter((t) => t.category === id || (t.also_in ?? []).includes(id)).length },
+  { key: 'persona', title: 'Who it is for', items: taxonomy.personas, count: (id: string) => tools.filter((t) => t.personas.includes(id)).length },
+  { key: 'segment', title: 'Asset class', items: taxonomy.segments, count: (id: string) => tools.filter((t) => t.segments.includes(id)).length },
+  { key: 'size', title: 'Company size', items: taxonomy.company_sizes, count: (id: string) => tools.filter((t) => t.company_sizes.includes(id)).length },
+  { key: 'pricing', title: 'Pricing model', items: taxonomy.pricing_models, count: (id: string) => tools.filter((t) => t.pricing?.model === id).length },
+];
+
+const blob = (t: (typeof tools)[number]) =>
+  [t.name, t.editor, t.positioning, t.description, t.real_estate_use, ...(t.features ?? []), ...(t.integrations ?? [])]
+    .join(' ')
+    .toLowerCase();
+---
+<Base
+  title="Explore"
+  description={`Filter ${counts.tools} real estate software products by market, category, persona, asset class, company size and pricing model.`}
+>
+  <section class="wrap" style="padding:44px 24px 0">
+    <h1 style="font-size:clamp(1.8rem,4vw,2.5rem)">Explore</h1>
+    <p class="lede">
+      Search real estate software and AI tools, filter by category, market, trade and company
+      size, and read what each one is actually used for on the ground.
+    </p>
+  </section>
+
+  <section class="wrap" style="padding:32px 24px 0">
+    <div class="explore">
+      <aside class="filters" aria-label="Filters">
+        <div class="filter-group">
+          <label class="filter-label" for="q" style="display:block">
+            <h4>Search</h4>
+          </label>
+          <input class="search-input" type="search" id="q" placeholder="Name, vendor, feature…" autocomplete="off" />
+        </div>
+        {facets.map((f) => (
+          <div class="filter-group" data-facet={f.key}>
+            <h4>{f.title}</h4>
+            <div class="filter-list">
+              {f.items.map((it) => (
+                <label class="opt">
+                  <input type="checkbox" data-facet={f.key} value={it.id} />
+                  <span>{it.flag ? `${it.flag} ` : ''}{it.label_en}</span>
+                  <span class="n">{f.count(it.id)}</span>
+                </label>
+              ))}
+            </div>
+          </div>
+        ))}
+        <div class="filter-group">
+          <h4>Attributes</h4>
+          <div class="filter-list">
+            <label class="opt"><input type="checkbox" data-flag="ai" /><span>Has AI features</span><span class="n">{tools.filter((t) => t.ai).length}</span></label>
+            <label class="opt"><input type="checkbox" data-flag="oss" /><span>Open source</span><span class="n">{tools.filter((t) => t.product?.open_source).length}</span></label>
+            <label class="opt"><input type="checkbox" data-flag="api" /><span>Public API</span><span class="n">{tools.filter((t) => t.product?.api).length}</span></label>
+          </div>
+        </div>
+        <button class="btn btn-ghost btn-sm" id="clear" type="button">Clear all filters</button>
+      </aside>
+
+      <div>
+        <div class="results-bar">
+          <span class="results-count" id="count">{counts.tools} products</span>
+          <label style="margin-left:auto;display:flex;align-items:center;gap:8px;font-size:0.875rem" class="muted">
+            Sort
+            <select class="select" id="sort" style="width:auto;height:34px">
+              <option value="name">Name A–Z</option>
+              <option value="editor">Vendor</option>
+              <option value="updated">Recently updated</option>
+            </select>
+          </label>
+        </div>
+        <div class="grid grid-3" id="results">
+          {tools.map((t) => (
+            <div
+              class="cell"
+              data-market={t.markets.join(' ')}
+              data-cat={[t.category, ...(t.also_in ?? [])].join(' ')}
+              data-persona={t.personas.join(' ')}
+              data-segment={t.segments.join(' ')}
+              data-size={t.company_sizes.join(' ')}
+              data-pricing={t.pricing?.model}
+              data-ai={t.ai ? '1' : '0'}
+              data-oss={t.product?.open_source ? '1' : '0'}
+              data-api={t.product?.api ? '1' : '0'}
+              data-name={t.name}
+              data-editor={t.editor}
+              data-updated={t.updated}
+              data-blob={blob(t)}
+              style="display:flex"
+            >
+              <ToolCard tool={t} />
+            </div>
+          ))}
+        </div>
+        <div class="empty" id="empty" hidden>
+          <p><strong>No product matches these filters.</strong></p>
+          <p style="margin:0">Loosen a filter — or <a href={url('contribute')}>add the tool that is missing</a>.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .cell > a { flex: 1; }
+</style>
+
+<script>
+  const cells = [...document.querySelectorAll<HTMLElement>('#results .cell')];
+  const boxes = [...document.querySelectorAll<HTMLInputElement>('input[type=checkbox]')];
+  const q = document.querySelector<HTMLInputElement>('#q')!;
+  const countEl = document.querySelector('#count')!;
+  const emptyEl = document.querySelector<HTMLElement>('#empty')!;
+  const results = document.querySelector<HTMLElement>('#results')!;
+  const sortEl = document.querySelector<HTMLSelectElement>('#sort')!;
+  const FACETS = ['market', 'cat', 'persona', 'segment', 'size', 'pricing'] as const;
+
+  /** L'URL porte l'état des filtres : un lien vers une vue filtrée reste partageable. */
+  function readUrl() {
+    const p = new URLSearchParams(location.search);
+    for (const f of FACETS) {
+      const vals = (p.get(f) ?? '').split(',').filter(Boolean);
+      boxes.filter((b) => b.dataset.facet === f && vals.includes(b.value)).forEach((b) => (b.checked = true));
+    }
+    for (const flag of ['ai', 'oss', 'api']) {
+      if (p.get(flag) === '1') {
+        const b = boxes.find((x) => x.dataset.flag === flag);
+        if (b) b.checked = true;
+      }
+    }
+    if (p.get('q')) q.value = p.get('q')!;
+  }
+
+  function writeUrl(selected: Record<string, string[]>, flags: string[]) {
+    const p = new URLSearchParams();
+    for (const [k, v] of Object.entries(selected)) if (v.length) p.set(k, v.join(','));
+    for (const f of flags) p.set(f, '1');
+    if (q.value.trim()) p.set('q', q.value.trim());
+    const s = p.toString();
+    history.replaceState(null, '', s ? `?${s}` : location.pathname);
+  }
+
+  function apply() {
+    const selected = Object.fromEntries(
+      FACETS.map((f) => [f, boxes.filter((b) => b.dataset.facet === f && b.checked).map((b) => b.value)])
+    ) as Record<string, string[]>;
+    const flags = ['ai', 'oss', 'api'].filter((f) => boxes.find((b) => b.dataset.flag === f)?.checked);
+    const needle = q.value.trim().toLowerCase();
+
+    let shown = 0;
+    for (const cell of cells) {
+      // Entre facettes : ET. À l'intérieur d'une facette : OU. C'est la
+      // convention que tout le monde attend d'un explorateur à cases à cocher.
+      let ok = FACETS.every((f) => {
+        const want = selected[f];
+        if (!want.length) return true;
+        const have = (cell.dataset[f] ?? '').split(' ');
+        return want.some((v) => have.includes(v));
+      });
+      if (ok) ok = flags.every((f) => cell.dataset[f] === '1');
+      if (ok && needle) ok = (cell.dataset.blob ?? '').includes(needle);
+      cell.hidden = !ok;
+      if (ok) shown++;
+    }
+
+    countEl.textContent = `${shown} product${shown === 1 ? '' : 's'}`;
+    emptyEl.hidden = shown !== 0;
+    results.hidden = shown === 0;
+    writeUrl(selected, flags);
+  }
+
+  function sort() {
+    const key = sortEl.value;
+    const val = (c: HTMLElement) =>
+      key === 'updated' ? c.dataset.updated ?? '' : key === 'editor' ? c.dataset.editor ?? '' : c.dataset.name ?? '';
+    const sorted = [...cells].sort((a, b) =>
+      key === 'updated' ? val(b).localeCompare(val(a)) : val(a).localeCompare(val(b), 'en')
+    );
+    sorted.forEach((c) => results.appendChild(c));
+  }
+
+  boxes.forEach((b) => b.addEventListener('change', apply));
+  q.addEventListener('input', apply);
+  sortEl.addEventListener('change', sort);
+  document.querySelector('#clear')!.addEventListener('click', () => {
+    boxes.forEach((b) => (b.checked = false));
+    q.value = '';
+    apply();
+  });
+
+  readUrl();
+  apply();
+</script>

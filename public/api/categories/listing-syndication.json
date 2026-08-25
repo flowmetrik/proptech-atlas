@@ -1,0 +1,367 @@
+{
+  "id": "listing-syndication",
+  "label_en": "Listing publishing & syndication",
+  "label_fr": "Publication & diffusion d'annonces",
+  "summary_en": "Software that formats and pushes a portfolio of listings out to portals and partner networks.",
+  "summary_fr": "Le logiciel qui met en forme et pousse un portefeuille d'annonces vers les portails et les réseaux partenaires.",
+  "count": 4,
+  "tools": [
+    {
+      "slug": "apimo",
+      "name": "Apimo",
+      "editor": "Apimo",
+      "website": "https://www.apimo.net",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "crm-lead",
+      "also_in": [
+        "transaction-management",
+        "listing-syndication"
+      ],
+      "positioning": "The French transaction system built for agencies that sell across borders — multilingual, multi-currency, open API.",
+      "description": "Apimo is a real estate CRM and transaction platform used by French and international agencies: listings and contacts, mandates, matching, multilingual publishing to portals in several countries, websites, and a documented open API.\n",
+      "real_estate_use": "Agencies on the Côte d'Azur, in the Alps or in border regions sell to buyers who do not read French, through portals in several countries. Apimo handles a listing in multiple languages and currencies from one record, which removes the duplicate-catalogue problem that breaks most domestic tools as soon as a second market appears.\n",
+      "features": [
+        "Multilingual and multi-currency listing management",
+        "Publishing to French and international portals",
+        "Mandate management and buyer matching",
+        "Website generation from the catalogue",
+        "Documented open API for integrations",
+        "Rental and seasonal rental modules"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Market one property in several languages and currencies without duplicating the record"
+        },
+        {
+          "persona": "brokerage",
+          "job": "Publish to French and foreign portals from a single catalogue"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage"
+      ],
+      "segments": [
+        "residential",
+        "hospitality",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "integrations": [
+        "SeLoger",
+        "Leboncoin",
+        "Bien'ici",
+        "international portals",
+        "REST API"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr",
+          "en",
+          "es",
+          "it",
+          "de"
+        ]
+      },
+      "alternatives": [
+        "hektor",
+        "netty",
+        "sweepbright",
+        "adapt-immo"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.apimo.net",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "poliris",
+      "name": "Poliris",
+      "editor": "Poliris",
+      "website": "https://www.poliris.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "listing-syndication",
+      "also_in": [
+        "crm-lead",
+        "agent-marketing"
+      ],
+      "positioning": "Software, website and distribution from one French vendor, with a long history in portal feed management.",
+      "description": "Poliris supplies French agencies with transaction software, agency websites and listing distribution to portals, historically as one of the main feed operators in the French market.\n",
+      "real_estate_use": "Its practical value to an agency is the same as Ubiflow's — one catalogue, many destinations — with the software and the site included rather than integrated. Agencies that do not want to assemble a stack from three vendors buy the whole chain here and accept the trade-off of less choice at each layer.\n",
+      "features": [
+        "Multi-portal listing distribution",
+        "Transaction software with listings and contacts",
+        "Agency website generation",
+        "Lead consolidation across channels",
+        "Media and format handling per portal",
+        "Reporting on publication and lead volume"
+      ],
+      "use_cases": [
+        {
+          "persona": "brokerage",
+          "job": "Buy software, website and portal distribution from a single vendor"
+        },
+        {
+          "persona": "agent-broker",
+          "job": "Keep one catalogue as the source for every published channel"
+        }
+      ],
+      "personas": [
+        "brokerage",
+        "agent-broker"
+      ],
+      "segments": [
+        "residential",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "integrations": [
+        "SeLoger",
+        "Leboncoin",
+        "Bien'ici",
+        "agency software feeds"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "ubiflow",
+        "netty",
+        "hektor"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.poliris.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "sweepbright",
+      "name": "SweepBright",
+      "editor": "SweepBright",
+      "website": "https://www.sweepbright.com",
+      "hq_country": "BE",
+      "markets": [
+        "FR"
+      ],
+      "category": "crm-lead",
+      "also_in": [
+        "transaction-management",
+        "listing-syndication"
+      ],
+      "founded": 2016,
+      "positioning": "A mobile-first agency CRM for European markets — capture a property on site, publish it before leaving.",
+      "description": "SweepBright is a real estate agency platform used across Belgium, France and other European markets: property and contact management, mobile listing capture with photos, matching, multi-portal publishing, digital signature and an agency website module.\n",
+      "real_estate_use": "The design assumption is that the agent is never at a desk. Capturing the property during the valuation visit — rooms, photos, description — and publishing directly from the phone compresses a two-day cycle into the appointment itself, which matters most in competitive markets where the first published listing gets the enquiries.\n",
+      "features": [
+        "Mobile property capture with photos and details on site",
+        "Contact management and buyer matching",
+        "Multi-portal publishing across European portals",
+        "Agency website module fed by the same catalogue",
+        "Digital signature on mandates and offers",
+        "Team activity and pipeline reporting"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Capture and publish a new listing from the phone during the valuation visit"
+        },
+        {
+          "persona": "brokerage",
+          "job": "Run a multi-country European agency on one catalogue and one portal feed"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage"
+      ],
+      "segments": [
+        "residential",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "per-seat",
+        "public_pricing": true,
+        "url": "https://www.sweepbright.com/pricing"
+      },
+      "integrations": [
+        "European portals",
+        "Nodalview",
+        "digital signature providers"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr",
+          "nl",
+          "en",
+          "es"
+        ]
+      },
+      "alternatives": [
+        "apimo",
+        "hektor",
+        "netty"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.sweepbright.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "ubiflow",
+      "name": "Ubiflow",
+      "editor": "Ubiflow",
+      "website": "https://www.ubiflow.net",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "listing-syndication",
+      "founded": 2005,
+      "positioning": "The French multi-portal distribution layer — one feed in, every portal out, with the format differences absorbed.",
+      "description": "Ubiflow is a listing distribution platform for French real estate professionals: it takes a catalogue from an agency's software or a developer's system and publishes it to portals, partner sites and marketplaces, normalising formats and reporting on performance per channel.\n",
+      "real_estate_use": "France has no MLS, so distribution is a job in itself: each portal has its own format, its own media rules and its own contract. Ubiflow absorbs that. An agency or a promoteur maintains one catalogue, and gains a per-portal view of leads and cost — which is the data needed to decide which subscriptions to renew.\n",
+      "features": [
+        "Single feed distribution to French portals and partner sites",
+        "Format normalisation and media handling per channel",
+        "Lead consolidation and per-portal performance reporting",
+        "New-build programme distribution for developers",
+        "Publication rules and quota management per contract",
+        "Connectors to French agency software"
+      ],
+      "use_cases": [
+        {
+          "persona": "brokerage",
+          "job": "Publish one catalogue to every portal and see which subscription actually pays"
+        },
+        {
+          "persona": "developer-builder",
+          "job": "Distribute a new-build programme across portals and partner networks"
+        }
+      ],
+      "personas": [
+        "brokerage",
+        "agent-broker",
+        "developer-builder"
+      ],
+      "segments": [
+        "residential",
+        "mixed-use",
+        "land-development"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Hektor",
+        "Netty",
+        "Apimo",
+        "SeLoger",
+        "Leboncoin",
+        "Bien'ici"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "poliris",
+        "apimo"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.ubiflow.net",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    }
+  ]
+}

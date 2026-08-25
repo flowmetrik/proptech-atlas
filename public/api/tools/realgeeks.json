@@ -1,0 +1,87 @@
+{
+  "slug": "realgeeks",
+  "name": "Real Geeks",
+  "editor": "Real Geeks (Fidelity National Financial)",
+  "website": "https://www.realgeeks.com",
+  "hq_country": "US",
+  "markets": [
+    "US"
+  ],
+  "category": "agent-marketing",
+  "also_in": [
+    "crm-lead"
+  ],
+  "founded": 2007,
+  "positioning": "An affordable IDX site and CRM pairing aimed at the individual agent and the small team.",
+  "description": "Real Geeks provides IDX websites, lead capture, a CRM with automated follow-up, and Facebook and Google ad management as a managed service. It sits at a lower price point than the brokerage platforms and is commonly the first real system an agent buys after outgrowing spreadsheets.\n",
+  "real_estate_use": "A solo agent or a two-to-five person team replaces a brochure website with a searchable IDX site, runs a small monthly ad budget through Real Geeks' managed campaigns, and lets the CRM chase the resulting registrations with SMS autoresponders. Property valuation landing pages are the standard seller-lead play.\n",
+  "features": [
+    "IDX website with map search and forced registration options",
+    "CRM with lead assignment, SMS autoresponders and drip campaigns",
+    "Property valuation seller-lead landing pages",
+    "Managed Facebook and Google ad campaigns",
+    "Market report emails triggered by saved searches",
+    "Agent and team accountability dashboard"
+  ],
+  "use_cases": [
+    {
+      "persona": "agent-broker",
+      "job": "Turn a small monthly ad budget into registered buyer and seller leads"
+    },
+    {
+      "persona": "agent-broker",
+      "job": "Capture seller leads through home valuation pages and nurture them for months"
+    }
+  ],
+  "personas": [
+    "agent-broker",
+    "brokerage"
+  ],
+  "segments": [
+    "residential"
+  ],
+  "company_sizes": [
+    "solo",
+    "smb"
+  ],
+  "pricing": {
+    "model": "subscription",
+    "public_pricing": true,
+    "url": "https://www.realgeeks.com/pricing"
+  },
+  "integrations": [
+    "MLS IDX feeds",
+    "Zapier",
+    "Facebook Ads",
+    "Google Ads"
+  ],
+  "product": {
+    "api": true,
+    "open_source": false,
+    "mobile": [
+      "ios",
+      "android"
+    ],
+    "languages": [
+      "en"
+    ]
+  },
+  "alternatives": [
+    "sierra-interactive",
+    "lofty",
+    "boldtrail"
+  ],
+  "reviews": [],
+  "sources": [
+    {
+      "url": "https://www.realgeeks.com",
+      "note": "site éditeur"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-25"
+}

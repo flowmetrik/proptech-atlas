@@ -1,0 +1,50 @@
+slug: skyslope
+name: SkySlope
+editor: SkySlope
+website: https://skyslope.com
+hq_country: US
+markets: [US]
+category: transaction-management
+also_in: [back-office-accounting]
+founded: 2011
+positioning: Built for the broker's compliance problem first, and the agent's paperwork second.
+description: >
+  SkySlope is a transaction and compliance platform for brokerages, with digital forms
+  (SkySlope Forms), e-signature (DigiSign), offer management (Offers) and broker audit
+  workflows. Its centre of gravity is the file review queue rather than the agent
+  experience.
+real_estate_use: >
+  A brokerage with a legal obligation to retain complete files uses SkySlope to enforce
+  what "complete" means. Each transaction type carries a required-document checklist,
+  files route to a reviewer, rejections come back with a reason, and the archive survives a
+  state audit years later. Listing and sale files are separated so a listing that never
+  sells is still auditable.
+features:
+  - Broker file review with per-transaction-type document checklists
+  - SkySlope Forms with state and association form libraries
+  - DigiSign e-signature bound to the transaction file
+  - Offers — structured offer submission and comparison for listing agents
+  - Commission and back-office module
+  - Retention-grade archive with full audit history
+use_cases:
+  - persona: brokerage
+    job: Guarantee that every closed file is audit-complete before it is archived
+  - persona: agent-broker
+    job: Collect and compare multiple offers on a listing in a structured view
+personas: [brokerage, agent-broker]
+segments: [residential]
+company_sizes: [smb, midmarket, enterprise]
+pricing:
+  model: quote
+  public_pricing: false
+integrations: [MLS systems, Follow Up Boss, BoldTrail, QuickBooks, Zapier]
+product:
+  api: true
+  open_source: false
+  mobile: [ios, android]
+  languages: [en]
+alternatives: [dotloop, lone-wolf-transactions, brokermint]
+reviews: []
+sources: [{ url: https://skyslope.com, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: 2026-08-25

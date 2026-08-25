@@ -1,0 +1,585 @@
+{
+  "id": "commercial-am",
+  "label_en": "Commercial asset & property management",
+  "label_fr": "Asset & property management tertiaire",
+  "summary_en": "Institutional-grade lease, asset and portfolio administration.",
+  "summary_fr": "Administration institutionnelle des baux, actifs et portefeuilles.",
+  "count": 6,
+  "tools": [
+    {
+      "slug": "argus-enterprise",
+      "name": "ARGUS Enterprise",
+      "editor": "Altus Group",
+      "website": "https://www.altusgroup.com/argus",
+      "hq_country": "CA",
+      "markets": [
+        "US",
+        "FR"
+      ],
+      "category": "investment-underwriting",
+      "also_in": [
+        "commercial-am"
+      ],
+      "founded": 1985,
+      "positioning": "The cash-flow model the industry agreed to standardise on — a valuation is credible partly because it is an ARGUS file.",
+      "description": "ARGUS Enterprise models commercial property cash flows lease by lease: rent steps, recoveries, renewal probabilities, capital expenditure and debt, producing valuations, hold-sell analysis and portfolio consolidation. Its file format is a de facto industry exchange standard.\n",
+      "real_estate_use": "When an asset trades, the seller's broker sends an ARGUS file and the buyer re-underwrites in the same tool. That shared format is most of the value — assumptions are visible and comparable rather than buried in someone's private spreadsheet. Appraisers, lenders and fund managers use it for the same reason.\n",
+      "features": [
+        "Lease-by-lease commercial cash flow modelling",
+        "Recovery structures, rent steps and market leasing assumptions",
+        "Valuation by discounted cash flow and direct capitalisation",
+        "Debt, equity waterfall and hold-sell analysis",
+        "Portfolio consolidation and scenario comparison",
+        "Industry-standard file exchange with counterparties"
+      ],
+      "use_cases": [
+        {
+          "persona": "investor-am",
+          "job": "Underwrite an acquisition from the seller's own cash flow model"
+        },
+        {
+          "persona": "appraiser",
+          "job": "Produce a valuation in the format lenders and auditors expect"
+        }
+      ],
+      "personas": [
+        "investor-am",
+        "appraiser",
+        "lender-broker",
+        "corporate-re"
+      ],
+      "segments": [
+        "office",
+        "retail",
+        "industrial",
+        "mixed-use",
+        "hospitality"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Yardi",
+        "MRI",
+        "VTS",
+        "Excel",
+        "Dealpath"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en",
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "dealpath",
+        "mri-software"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.altusgroup.com/argus",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "eudonet-immobilier",
+      "name": "Eudonet Immobilier",
+      "editor": "Eudonet (Efficy Group)",
+      "website": "https://www.eudonet.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "crm-lead",
+      "also_in": [
+        "commercial-am"
+      ],
+      "positioning": "A configurable French CRM with a real estate vertical — for organisations whose process does not fit an agency package.",
+      "description": "Eudonet is a French CRM platform sold in vertical editions, including one for real estate professionals: contact and asset relationship management, prospect and mandate pipelines, campaign management, and configurable objects and workflows, hosted in France.\n",
+      "real_estate_use": "It is chosen by organisations that are not classic agencies — institutional owners, developers, public bodies, networks — whose relationship processes do not match a transaction package. The configurability is the point: an object model for buildings, tenants, prospects and operations can be shaped to the organisation rather than the reverse, with French hosting satisfying public procurement requirements.\n",
+      "features": [
+        "Configurable object model for assets, contacts and operations",
+        "Prospect, mandate and opportunity pipelines",
+        "Campaign, email and event management",
+        "Workflow automation and validation circuits",
+        "Reporting and dashboards per business line",
+        "French hosting and public sector compliance"
+      ],
+      "use_cases": [
+        {
+          "persona": "corporate-re",
+          "job": "Model relationships around assets and operations rather than around a sales pipeline"
+        },
+        {
+          "persona": "developer-builder",
+          "job": "Track prospects and reservations on a development programme in a configurable CRM"
+        }
+      ],
+      "personas": [
+        "corporate-re",
+        "developer-builder",
+        "investor-am",
+        "brokerage"
+      ],
+      "segments": [
+        "office",
+        "retail",
+        "residential",
+        "mixed-use",
+        "land-development"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Microsoft 365",
+        "marketing tools",
+        "business systems",
+        "REST API"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr",
+          "en"
+        ]
+      },
+      "alternatives": [
+        "apimo",
+        "hektor"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.eudonet.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "mri-software",
+      "name": "MRI Software",
+      "editor": "MRI Software",
+      "website": "https://www.mrisoftware.com",
+      "hq_country": "US",
+      "markets": [
+        "US",
+        "FR"
+      ],
+      "category": "commercial-am",
+      "also_in": [
+        "property-management",
+        "facility-maintenance"
+      ],
+      "founded": 1971,
+      "positioning": "The open alternative to a single-vendor stack — bring your own best-of-breed and let MRI hold the lease and the ledger.",
+      "description": "MRI Software provides property and lease management, accounting, investment management, facilities and workplace products across commercial and residential real estate worldwide. Its stated strategy is an open platform: published APIs and a partner ecosystem rather than a closed suite.\n",
+      "real_estate_use": "A European or transatlantic owner often cannot standardise on one vendor — local accounting, local leasing practice and existing systems all resist it. MRI is chosen when the lease and financial core must be common while country teams keep their own tools around it. In France it supports local lease and accounting requirements alongside Anglo-Saxon reporting.\n",
+      "features": [
+        "Commercial and residential lease and property management",
+        "Real estate accounting with multi-entity and multi-currency",
+        "Investment management and investor reporting",
+        "Facilities management and workplace modules",
+        "Lease accounting compliance for IFRS 16 and ASC 842",
+        "Open APIs and a partner integration ecosystem"
+      ],
+      "use_cases": [
+        {
+          "persona": "investor-am",
+          "job": "Consolidate a cross-border portfolio while local teams keep their own tools"
+        },
+        {
+          "persona": "corporate-re",
+          "job": "Meet IFRS 16 lease accounting obligations from the lease system itself"
+        }
+      ],
+      "personas": [
+        "investor-am",
+        "corporate-re",
+        "property-manager",
+        "facility-manager"
+      ],
+      "segments": [
+        "office",
+        "retail",
+        "industrial",
+        "multifamily",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "SAP",
+        "Oracle",
+        "Cherre",
+        "Deepki",
+        "partner ecosystem APIs"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en",
+          "fr",
+          "de",
+          "es",
+          "nl"
+        ]
+      },
+      "alternatives": [
+        "yardi-voyager",
+        "realpage",
+        "visual-lease"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.mrisoftware.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "visual-lease",
+      "name": "Visual Lease",
+      "editor": "Visual Lease (CoStar Group)",
+      "website": "https://visuallease.com",
+      "hq_country": "US",
+      "markets": [
+        "US",
+        "FR"
+      ],
+      "category": "commercial-am",
+      "also_in": [
+        "back-office-accounting"
+      ],
+      "founded": 1996,
+      "positioning": "Lease accounting compliance first — for the tenant side, where a lease is a balance sheet liability.",
+      "description": "Visual Lease is a lease administration and lease accounting platform aimed at occupiers and corporate real estate teams. It maintains a lease repository with critical dates and clauses, and produces the journal entries and disclosures required by ASC 842, IFRS 16 and GASB 87.\n",
+      "real_estate_use": "Since IFRS 16 and ASC 842, a company that rents two hundred stores carries those leases on its balance sheet, and the auditor tests the calculation. Visual Lease exists because that computation cannot survive in a spreadsheet: every modification, renewal option and discount rate change has to be re-measured and evidenced.\n",
+      "features": [
+        "Central lease repository with clauses and critical dates",
+        "ASC 842, IFRS 16 and GASB 87 calculation and disclosure reporting",
+        "Journal entry generation and ERP export",
+        "Lease modification and remeasurement handling",
+        "Rent payment scheduling and recovery review",
+        "Portfolio dashboards for occupancy cost"
+      ],
+      "use_cases": [
+        {
+          "persona": "corporate-re",
+          "job": "Produce audit-ready lease accounting entries for a multi-country lease portfolio"
+        },
+        {
+          "persona": "corporate-re",
+          "job": "Never miss a renewal or break option across hundreds of sites"
+        }
+      ],
+      "personas": [
+        "corporate-re",
+        "tenant-occupier",
+        "investor-am"
+      ],
+      "segments": [
+        "office",
+        "retail",
+        "industrial",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "SAP",
+        "Oracle",
+        "NetSuite",
+        "Workday"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en",
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "mri-software",
+        "yardi-voyager"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://visuallease.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "vts",
+      "name": "VTS",
+      "editor": "VTS",
+      "website": "https://www.vts.com",
+      "hq_country": "US",
+      "markets": [
+        "US",
+        "FR"
+      ],
+      "category": "commercial-am",
+      "also_in": [
+        "tenant-experience",
+        "market-data"
+      ],
+      "founded": 2012,
+      "positioning": "The leasing pipeline for office landlords — every tour, proposal and lease in one view, plus a demand index nobody else has.",
+      "description": "VTS is a leasing and asset management platform for commercial landlords: deal pipeline, space availability, tenant and broker activity, portfolio reporting, and the VTS Market and Activate products covering marketing and tenant experience. Its VTS Office Demand Index derives leading indicators from platform activity.\n",
+      "real_estate_use": "Office leasing runs on a pipeline that traditionally lived in a leasing director's spreadsheet. VTS makes it institutional: every requirement, tour and proposal is tracked, so an asset manager can forecast occupancy and compare a proposed deal against portfolio standards. Because a large share of US office space transacts on the platform, aggregated tour activity becomes a market signal weeks ahead of signed-lease data.\n",
+      "features": [
+        "Leasing deal pipeline with tours, proposals and approvals",
+        "Space availability and stacking plans",
+        "Portfolio occupancy and lease expiry reporting",
+        "VTS Market for online marketing of available space",
+        "VTS Activate tenant experience application",
+        "Office Demand Index from aggregated platform activity"
+      ],
+      "use_cases": [
+        {
+          "persona": "investor-am",
+          "job": "Forecast occupancy from a real leasing pipeline rather than from a spreadsheet"
+        },
+        {
+          "persona": "agent-broker",
+          "job": "Track every requirement and proposal on a landlord's portfolio in one system"
+        }
+      ],
+      "personas": [
+        "investor-am",
+        "agent-broker",
+        "corporate-re",
+        "property-manager"
+      ],
+      "segments": [
+        "office",
+        "retail",
+        "industrial",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Yardi",
+        "MRI",
+        "Argus",
+        "Salesforce"
+      ],
+      "ai": {
+        "capabilities": [
+          "Lease abstraction",
+          "Deal and demand analytics"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en",
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "mri-software",
+        "dealpath",
+        "yardi-voyager"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.vts.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "yardi-voyager",
+      "name": "Yardi Voyager",
+      "editor": "Yardi Systems",
+      "website": "https://www.yardi.com",
+      "hq_country": "US",
+      "markets": [
+        "US",
+        "FR"
+      ],
+      "category": "commercial-am",
+      "also_in": [
+        "property-management",
+        "back-office-accounting"
+      ],
+      "founded": 1984,
+      "positioning": "The institutional system of record — where the lease, the ledger and the investor report are the same data.",
+      "description": "Voyager is Yardi's enterprise platform, deployed across commercial, multifamily, affordable, senior and student portfolios worldwide. It combines property accounting, lease administration, budgeting and forecasting, investment management and a large ecosystem of add-on modules, with localisations including France.\n",
+      "real_estate_use": "For an institutional owner, the question is not features but audit chain: the rent invoiced to a tenant, the indexation clause applied, the accrual booked and the figure reported to the fund's investors must all descend from one record. Voyager is bought for that continuity, and implementations run in months because the configuration encodes a firm's entire operating model.\n",
+      "features": [
+        "Commercial and residential lease administration with clause handling",
+        "Property, corporate and investment accounting with multi-currency",
+        "Budgeting, forecasting and valuation workflows",
+        "Investment management and investor reporting",
+        "Maintenance, procurement and energy modules",
+        "Country localisations including French accounting and VAT treatment"
+      ],
+      "use_cases": [
+        {
+          "persona": "investor-am",
+          "job": "Report to fund investors from the same ledger that invoices the tenants"
+        },
+        {
+          "persona": "property-manager",
+          "job": "Administer indexation, recoveries and CAM reconciliation across a commercial portfolio"
+        }
+      ],
+      "personas": [
+        "investor-am",
+        "property-manager",
+        "corporate-re"
+      ],
+      "segments": [
+        "office",
+        "retail",
+        "industrial",
+        "multifamily",
+        "healthcare-senior",
+        "coliving-student"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "RentCafe",
+        "Yardi Elevate",
+        "banking",
+        "ERP systems",
+        "Cherre"
+      ],
+      "ai": {
+        "capabilities": [
+          "Invoice processing automation",
+          "Forecasting assistance"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en",
+          "fr",
+          "de",
+          "es"
+        ]
+      },
+      "alternatives": [
+        "mri-software",
+        "realpage",
+        "entrata",
+        "yardi-breeze"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.yardi.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    }
+  ]
+}

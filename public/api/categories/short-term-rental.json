@@ -1,0 +1,654 @@
+{
+  "id": "short-term-rental",
+  "label_en": "Short-term rental management",
+  "label_fr": "Location courte durée",
+  "summary_en": "Channel management, pricing, guest comms and cleaning for STR portfolios.",
+  "summary_fr": "Channel manager, pricing, relation voyageur et ménage pour la courte durée.",
+  "count": 7,
+  "tools": [
+    {
+      "slug": "amenitiz",
+      "name": "Amenitiz",
+      "editor": "Amenitiz",
+      "website": "https://www.amenitiz.io",
+      "hq_country": "ES",
+      "markets": [
+        "FR"
+      ],
+      "category": "short-term-rental",
+      "also_in": [
+        "agent-marketing"
+      ],
+      "founded": 2017,
+      "positioning": "An all-in-one property management system for independent hospitality — the small hotel, the gîte, the chambre d'hôtes.",
+      "description": "Amenitiz combines a property management system, a website builder with a direct booking engine, a channel manager, payment processing and revenue tools, aimed at independent accommodation providers rather than at professional rental managers.\n",
+      "real_estate_use": "The independent French hospitality operator — a guesthouse, a small hotel, a set of gîtes — typically has no website of its own and depends entirely on commissioned platforms. Amenitiz packages the site, the booking engine and the channel connections in one subscription, which is why it reaches operators who would never buy three separate tools.\n",
+      "features": [
+        "Property management system for small accommodation",
+        "Website builder with direct booking engine",
+        "Channel manager across major booking platforms",
+        "Payment processing and deposit handling",
+        "Rate and availability management",
+        "Guest communication and review handling"
+      ],
+      "use_cases": [
+        {
+          "persona": "landlord-owner",
+          "job": "Get a bookable website and channel connections without assembling a stack"
+        },
+        {
+          "persona": "property-manager",
+          "job": "Manage rates and availability for a small property across every channel"
+        }
+      ],
+      "personas": [
+        "landlord-owner",
+        "property-manager"
+      ],
+      "segments": [
+        "hospitality",
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Booking.com",
+        "Airbnb",
+        "Expedia",
+        "Stripe"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr",
+          "en",
+          "es",
+          "it"
+        ]
+      },
+      "alternatives": [
+        "smily",
+        "lodgify",
+        "guesty"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.amenitiz.io",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "guesty",
+      "name": "Guesty",
+      "editor": "Guesty",
+      "website": "https://www.guesty.com",
+      "hq_country": "IL",
+      "markets": [
+        "US",
+        "FR"
+      ],
+      "category": "short-term-rental",
+      "founded": 2013,
+      "positioning": "The property management system for professional short-term rental operators, built around the channel.",
+      "description": "Guesty is a short-term and vacation rental management platform: channel management across Airbnb, Booking.com, Vrbo and others, unified inbox, automated guest messaging, direct booking websites, payments, cleaning and task automation, and revenue tools.\n",
+      "real_estate_use": "A manager running two hundred apartments across four booking platforms faces a double-booking risk on every listing and a message volume no team can answer manually. Guesty synchronises availability and rates across channels, automates the guest message sequence from booking to checkout, and triggers the cleaning task the moment a stay ends.\n",
+      "features": [
+        "Multi-channel synchronisation of availability, rates and reservations",
+        "Unified guest inbox with automated messaging sequences",
+        "Direct booking website and payment processing",
+        "Cleaning and maintenance task automation per turnover",
+        "Revenue management and dynamic pricing integrations",
+        "Owner reporting and statements for managed properties"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Run hundreds of listings across four booking channels without double bookings"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "Receive owner statements on short-term rental income from a manager"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "landlord-owner",
+        "investor-am"
+      ],
+      "segments": [
+        "hospitality",
+        "residential"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "commission",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Airbnb",
+        "Booking.com",
+        "Vrbo",
+        "PriceLabs",
+        "Stripe",
+        "Turno"
+      ],
+      "ai": {
+        "capabilities": [
+          "Guest message drafting and auto-response",
+          "Review response generation"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en",
+          "fr",
+          "es"
+        ]
+      },
+      "alternatives": [
+        "hostaway"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.guesty.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "hostaway",
+      "name": "Hostaway",
+      "editor": "Hostaway",
+      "website": "https://www.hostaway.com",
+      "hq_country": "CA",
+      "markets": [
+        "US",
+        "FR"
+      ],
+      "category": "short-term-rental",
+      "founded": 2015,
+      "positioning": "Channel management and automation for growing STR portfolios, with an open marketplace rather than a closed suite.",
+      "description": "Hostaway provides short-term rental channel management, a unified inbox, automated messaging and task workflows, direct booking sites, payment processing and reporting, with an integration marketplace covering pricing, locks, cleaning and accounting tools.\n",
+      "real_estate_use": "Its typical buyer is a manager scaling from twenty to two hundred units who wants to keep their existing pricing and cleaning tools. The open integration approach means the operator assembles a stack — Hostaway for channels and automation, PriceLabs for rates, Turno for cleaning — rather than accepting one vendor's version of each.\n",
+      "features": [
+        "Channel management across major booking platforms",
+        "Automation rules for messaging, pricing and tasks",
+        "Unified inbox across channels",
+        "Direct booking website with payment processing",
+        "Owner statements and portfolio reporting",
+        "Open integration marketplace and API"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Scale a short-term rental portfolio while keeping best-of-breed pricing and cleaning tools"
+        },
+        {
+          "persona": "property-manager",
+          "job": "Automate the full guest message sequence across every channel"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "landlord-owner",
+        "investor-am"
+      ],
+      "segments": [
+        "hospitality",
+        "residential"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Airbnb",
+        "Booking.com",
+        "Vrbo",
+        "PriceLabs",
+        "Turno",
+        "QuickBooks"
+      ],
+      "ai": {
+        "capabilities": [
+          "Automated guest response drafting"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en",
+          "fr",
+          "es"
+        ]
+      },
+      "alternatives": [
+        "guesty"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.hostaway.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "lodgify",
+      "name": "Lodgify",
+      "editor": "Lodgify",
+      "website": "https://www.lodgify.com",
+      "hq_country": "ES",
+      "markets": [
+        "US",
+        "FR"
+      ],
+      "category": "short-term-rental",
+      "also_in": [
+        "agent-marketing"
+      ],
+      "founded": 2012,
+      "positioning": "A vacation rental website and booking engine first, with channel management attached.",
+      "description": "Lodgify provides vacation rental owners and small managers with a website builder and direct booking engine, channel manager synchronising with major platforms, reservation and calendar management, payment processing and automated guest messaging.\n",
+      "real_estate_use": "For an owner with two or three holiday properties, the practical question is whether to pay fifteen percent commission forever. Lodgify's proposition is a bookable site they own, with the channels kept as a fill mechanism — a different emphasis from the professional systems, which assume channels are the primary demand source.\n",
+      "features": [
+        "Website builder with direct booking engine",
+        "Channel manager across major booking platforms",
+        "Calendar, rate and reservation management",
+        "Payment processing and damage deposits",
+        "Automated guest messaging and templates",
+        "Owner and property performance reporting"
+      ],
+      "use_cases": [
+        {
+          "persona": "landlord-owner",
+          "job": "Take direct bookings on an owned site instead of paying commission on every stay"
+        },
+        {
+          "persona": "property-manager",
+          "job": "Synchronise calendars across platforms for a small set of properties"
+        }
+      ],
+      "personas": [
+        "landlord-owner",
+        "property-manager"
+      ],
+      "segments": [
+        "hospitality",
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://www.lodgify.com/pricing"
+      },
+      "integrations": [
+        "Airbnb",
+        "Booking.com",
+        "Vrbo",
+        "Stripe",
+        "PriceLabs"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en",
+          "fr",
+          "es",
+          "de",
+          "it"
+        ]
+      },
+      "alternatives": [
+        "smily",
+        "amenitiz",
+        "hostaway",
+        "ownerrez"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.lodgify.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "ownerrez",
+      "name": "OwnerRez",
+      "editor": "OwnerRez",
+      "website": "https://www.ownerrez.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "short-term-rental",
+      "positioning": "The vacation rental system for owners who care about the contract, the insurance and the tax more than the design.",
+      "description": "OwnerRez covers vacation rental management: channel management, bookings and quotes, renter agreements with e-signature, damage protection and insurance options, automated messaging, payment processing, and detailed accounting and tax reporting.\n",
+      "real_estate_use": "Its distinguishing depth is legal and financial rather than marketing. Renter agreements are signed per booking, damage protection is attached, and lodging tax is calculated by jurisdiction — a real problem in the US, where a short-term rental can owe state, county and city tax at different rates on the same stay.\n",
+      "features": [
+        "Channel management with major booking platforms",
+        "Renter agreements with electronic signature per booking",
+        "Damage protection and travel insurance options",
+        "Lodging tax calculation by jurisdiction",
+        "Automated guest messaging and triggers",
+        "Detailed accounting, owner statements and reporting"
+      ],
+      "use_cases": [
+        {
+          "persona": "landlord-owner",
+          "job": "Attach a signed rental agreement and the right lodging taxes to every booking"
+        },
+        {
+          "persona": "property-manager",
+          "job": "Produce owner statements and tax reporting for managed vacation properties"
+        }
+      ],
+      "personas": [
+        "landlord-owner",
+        "property-manager"
+      ],
+      "segments": [
+        "hospitality",
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://www.ownerrez.com/pricing"
+      },
+      "integrations": [
+        "Airbnb",
+        "Vrbo",
+        "Booking.com",
+        "QuickBooks",
+        "PriceLabs",
+        "Stripe"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "lodgify",
+        "hostaway",
+        "guesty"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.ownerrez.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "pricelabs",
+      "name": "PriceLabs",
+      "editor": "PriceLabs",
+      "website": "https://hello.pricelabs.co",
+      "hq_country": "US",
+      "markets": [
+        "US",
+        "FR"
+      ],
+      "category": "short-term-rental",
+      "also_in": [
+        "estimation-pricing"
+      ],
+      "founded": 2014,
+      "positioning": "Dynamic pricing for short-term rentals, with the reasoning visible instead of hidden in a black box.",
+      "description": "PriceLabs sets nightly rates for short-term rental listings using market demand data, seasonality, day-of-week patterns and booking pace, with customisable rules, minimum-stay optimisation and a market dashboard covering comparable listings.\n",
+      "real_estate_use": "Nightly pricing is the single biggest lever on STR revenue and the one humans handle worst — most hosts set a rate and forget it. PriceLabs adjusts every listing daily against local demand, and its market dashboard is widely used before acquisition, to check what comparable properties in a neighbourhood actually earn across a year.\n",
+      "features": [
+        "Dynamic nightly pricing driven by market demand signals",
+        "Customisable rules, floors, ceilings and seasonal overrides",
+        "Minimum-stay and gap-night optimisation",
+        "Market dashboards with comparable listing performance",
+        "Portfolio view across many listings and channels",
+        "Revenue estimator for prospective acquisitions"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Reprice every listing daily against local demand instead of setting and forgetting"
+        },
+        {
+          "persona": "investor-am",
+          "job": "Check what comparable short-term rentals in a neighbourhood actually earn before buying"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "investor-am",
+        "landlord-owner"
+      ],
+      "segments": [
+        "hospitality",
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://hello.pricelabs.co/pricing"
+      },
+      "integrations": [
+        "Airbnb",
+        "Vrbo",
+        "Guesty",
+        "Hostaway",
+        "Lodgify",
+        "Smily"
+      ],
+      "ai": {
+        "capabilities": [
+          "Demand forecasting and dynamic rate setting"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "guesty",
+        "hostaway"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://hello.pricelabs.co",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "smily",
+      "name": "Smily",
+      "editor": "Smily (formerly BookingSync)",
+      "website": "https://www.smily.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR",
+        "US"
+      ],
+      "category": "short-term-rental",
+      "founded": 2011,
+      "positioning": "A European-built vacation rental platform where the direct booking website is treated as the point, not an afterthought.",
+      "description": "Smily, previously BookingSync, provides short-term rental management: channel management across major platforms, a direct booking website, unified inbox and guest messaging, payments, owner reporting and an open API with a developer ecosystem.\n",
+      "real_estate_use": "European managers face commission rates that make direct booking the difference between a viable business and a marginal one. Smily's emphasis on the owned website and its own booking engine is aimed at that: channels fill the calendar, but the objective is to move repeat guests onto a direct channel where no commission is paid.\n",
+      "features": [
+        "Channel management across major booking platforms",
+        "Direct booking website with its own booking engine",
+        "Unified guest inbox and automated messaging",
+        "Payment processing and rental agreements",
+        "Owner reporting and statements",
+        "Open API and application ecosystem"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Move repeat guests from commissioned channels onto a direct booking site"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "Manage seasonal rentals with European legal and payment requirements"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "landlord-owner",
+        "investor-am"
+      ],
+      "segments": [
+        "hospitality",
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Airbnb",
+        "Booking.com",
+        "Vrbo",
+        "PriceLabs",
+        "Stripe"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr",
+          "en",
+          "es",
+          "it"
+        ]
+      },
+      "alternatives": [
+        "guesty",
+        "hostaway",
+        "amenitiz"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.smily.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    }
+  ]
+}

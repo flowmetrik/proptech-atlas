@@ -1,0 +1,1448 @@
+{
+  "id": "construction-development",
+  "label_en": "Construction & development",
+  "label_fr": "Construction & promotion",
+  "summary_en": "Feasibility, project management, site supervision and delivery.",
+  "summary_fr": "Faisabilité, pilotage de projet, suivi de chantier et livraison.",
+  "count": 16,
+  "tools": [
+    {
+      "slug": "autodesk-construction-cloud",
+      "name": "Autodesk Construction Cloud",
+      "editor": "Autodesk",
+      "website": "https://construction.autodesk.com",
+      "hq_country": "US",
+      "markets": [
+        "US",
+        "FR"
+      ],
+      "category": "construction-development",
+      "founded": 2019,
+      "positioning": "Construction management anchored to the model — because the drawings came out of Revit in the first place.",
+      "description": "Autodesk Construction Cloud brings together BIM 360, PlanGrid and Assemble into one platform spanning design collaboration, model coordination, field execution, quality, cost management and closeout, tightly coupled to Autodesk's design tools.\n",
+      "real_estate_use": "On a project designed in Revit, the coordination advantage is structural: clash detection runs on the federated model, the field team opens the same model on a tablet, and issues raised on site are pinned to model elements rather than to a PDF coordinate. For an owner it makes the digital twin at handover a by-product rather than a separate exercise.\n",
+      "features": [
+        "Design collaboration and federated model coordination",
+        "Clash detection and issue management pinned to model elements",
+        "Field execution with drawings, checklists and punch lists offline",
+        "Cost management with budgets, contracts and change orders",
+        "Quantity takeoff from models",
+        "Handover packages and asset data for operations"
+      ],
+      "use_cases": [
+        {
+          "persona": "developer-builder",
+          "job": "Coordinate design disciplines and resolve clashes before they reach the site"
+        },
+        {
+          "persona": "corporate-re",
+          "job": "Receive structured asset data at handover instead of a box of PDFs"
+        }
+      ],
+      "personas": [
+        "developer-builder",
+        "corporate-re",
+        "facility-manager"
+      ],
+      "segments": [
+        "office",
+        "retail",
+        "industrial",
+        "multifamily",
+        "healthcare-senior",
+        "land-development"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "per-seat",
+        "public_pricing": true,
+        "url": "https://construction.autodesk.com/pricing"
+      },
+      "integrations": [
+        "Revit",
+        "Navisworks",
+        "Procore",
+        "Sage",
+        "Microsoft 365"
+      ],
+      "ai": {
+        "capabilities": [
+          "Construction IQ risk prediction",
+          "Automated issue classification"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en",
+          "fr",
+          "de",
+          "es",
+          "ja"
+        ]
+      },
+      "alternatives": [
+        "procore",
+        "bluebeam"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://construction.autodesk.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "batappli",
+      "name": "Batappli",
+      "editor": "Batappli",
+      "website": "https://www.batappli.fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "construction-development",
+      "also_in": [
+        "back-office-accounting"
+      ],
+      "positioning": "A long-standing French building trades package covering quote, invoice and accounting in one product.",
+      "description": "Batappli is management software for French construction and trade businesses: quotes and invoices with work libraries, progress billing, purchase and stock, site follow-up, customer records and integrated accounting, available on desktop and cloud.\n",
+      "real_estate_use": "Its buyer is the established trade business that wants one supplier for commercial documents and books rather than a modern SaaS plus an accountant's package. The integrated accounting is the differentiator: the invoice posts directly, so the year-end handover to the expert-comptable is a file rather than a reconstruction.\n",
+      "features": [
+        "Quotes and invoices with trade work libraries",
+        "Progress billing and deposit management",
+        "Purchase orders, suppliers and stock",
+        "Site follow-up and cost tracking",
+        "Integrated accounting and ledger",
+        "Customer records and payment follow-up"
+      ],
+      "use_cases": [
+        {
+          "persona": "developer-builder",
+          "job": "Keep commercial documents and accounting in one package for the year-end handover"
+        },
+        {
+          "persona": "developer-builder",
+          "job": "Produce trade quotes from a maintained work and price library"
+        }
+      ],
+      "personas": [
+        "developer-builder"
+      ],
+      "segments": [
+        "residential",
+        "office",
+        "retail"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "integrations": [
+        "accounting exports",
+        "banking",
+        "supplier catalogues"
+      ],
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "obat",
+        "graneet",
+        "vertuoza"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.batappli.fr",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "bluebeam",
+      "name": "Bluebeam Revu",
+      "editor": "Bluebeam (Nemetschek Group)",
+      "website": "https://www.bluebeam.com",
+      "hq_country": "US",
+      "markets": [
+        "US",
+        "FR"
+      ],
+      "category": "construction-development",
+      "founded": 2002,
+      "positioning": "The PDF tool construction actually standardised on — markup, measurement and takeoff on drawings, together in one session.",
+      "description": "Bluebeam Revu is a PDF creation, markup and collaboration application built for architecture, engineering and construction: measurement and quantity takeoff tools, customisable markup tool sets, drawing comparison, and Studio sessions where several people annotate the same document live.\n",
+      "real_estate_use": "Drawing review remains a PDF workflow on most projects, whatever the model contains. Bluebeam is where an estimator does takeoff, where a design review is marked up by six people at once in a Studio session, and where two revisions of a plan are overlaid to see exactly what moved. It is a daily-use tool rather than a system of record.\n",
+      "features": [
+        "PDF markup with construction-specific tool sets",
+        "Measurement and quantity takeoff from drawings",
+        "Drawing comparison and revision overlay",
+        "Studio sessions for live multi-party markup",
+        "Batch processing and document sets",
+        "Markup summary export for issue tracking"
+      ],
+      "use_cases": [
+        {
+          "persona": "developer-builder",
+          "job": "Run a live multi-party design review on a drawing set"
+        },
+        {
+          "persona": "developer-builder",
+          "job": "Produce a quantity takeoff directly from PDF drawings"
+        }
+      ],
+      "personas": [
+        "developer-builder",
+        "corporate-re",
+        "facility-manager"
+      ],
+      "segments": [
+        "office",
+        "retail",
+        "industrial",
+        "multifamily",
+        "land-development"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "per-seat",
+        "public_pricing": true,
+        "url": "https://www.bluebeam.com/solutions/pricing"
+      },
+      "integrations": [
+        "Procore",
+        "Autodesk Construction Cloud",
+        "SharePoint",
+        "Box"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios"
+        ],
+        "languages": [
+          "en",
+          "fr",
+          "de",
+          "es"
+        ]
+      },
+      "alternatives": [
+        "autodesk-construction-cloud",
+        "procore"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.bluebeam.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "buildertrend",
+      "name": "Buildertrend",
+      "editor": "Buildertrend",
+      "website": "https://buildertrend.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "construction-development",
+      "founded": 2006,
+      "positioning": "Built for the residential builder and remodeler, where the client is a homeowner who wants to see progress.",
+      "description": "Buildertrend covers estimating and proposals, scheduling, daily logs, change orders, selections, client communication, invoicing and payments for home builders and remodelers, with a customer portal designed for a homeowner rather than a project team.\n",
+      "real_estate_use": "Custom home building and renovation differ from commercial construction in one respect that dominates everything: the client lives with the outcome and changes their mind. The selections module makes each finish choice a documented, priced decision, which is how builders defend a change order six months later without losing the relationship.\n",
+      "features": [
+        "Estimating, proposals and client-facing selections",
+        "Scheduling with subcontractor notifications",
+        "Change orders with client approval and pricing",
+        "Daily logs, photos and progress updates for homeowners",
+        "Invoicing, online payments and lien waiver tracking",
+        "Client portal with a documented decision history"
+      ],
+      "use_cases": [
+        {
+          "persona": "developer-builder",
+          "job": "Document every homeowner finish selection and change with an approved price"
+        },
+        {
+          "persona": "developer-builder",
+          "job": "Keep subcontractor scheduling and client updates in one system"
+        }
+      ],
+      "personas": [
+        "developer-builder",
+        "landlord-owner"
+      ],
+      "segments": [
+        "residential",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://buildertrend.com/pricing"
+      },
+      "integrations": [
+        "QuickBooks",
+        "Xero",
+        "Zapier",
+        "Gusto"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en",
+          "es"
+        ]
+      },
+      "alternatives": [
+        "procore",
+        "autodesk-construction-cloud"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://buildertrend.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "bulldozair",
+      "name": "BulldozAIR",
+      "editor": "BulldozAIR",
+      "website": "https://www.bulldozair.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "construction-development",
+      "positioning": "Site observations pinned to the plan, captured on a tablet and turned into a report before leaving the site.",
+      "description": "BulldozAIR is a French field collaboration application for construction: annotate plans, create positioned observations with photos, assign them to a company with a deadline, track their resolution, and generate site reports and reserve lists automatically.\n",
+      "real_estate_use": "A site visit produces dozens of observations that traditionally become an evening of report writing and a week of chasing. Pinning each one to a plan coordinate, assigning it on the spot and generating the report before leaving compresses that cycle to the visit itself — and gives each contractor an unambiguous location rather than a paragraph of description.\n",
+      "features": [
+        "Plan annotation with positioned observations",
+        "Photo capture attached to each observation",
+        "Assignment to companies with deadlines and status",
+        "Automatic site report and reserve list generation",
+        "Offline capture with synchronisation",
+        "Delivery and handover inspection workflows"
+      ],
+      "use_cases": [
+        {
+          "persona": "developer-builder",
+          "job": "Produce a site visit report with positioned reserves before leaving the site"
+        },
+        {
+          "persona": "facility-manager",
+          "job": "Run a delivery inspection with unambiguous locations for each reserve"
+        }
+      ],
+      "personas": [
+        "developer-builder",
+        "facility-manager",
+        "corporate-re"
+      ],
+      "segments": [
+        "office",
+        "retail",
+        "residential",
+        "industrial",
+        "land-development"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "per-seat",
+        "public_pricing": false
+      },
+      "integrations": [
+        "document management systems",
+        "BIM tools"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr",
+          "en"
+        ]
+      },
+      "alternatives": [
+        "kairnial",
+        "finalcad",
+        "immopad"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.bulldozair.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "finalcad",
+      "name": "Finalcad",
+      "editor": "Finalcad",
+      "website": "https://www.finalcad.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "construction-development",
+      "founded": 2011,
+      "positioning": "Digital site follow-up designed to be adopted by people who do not want software — foremen and subcontractors.",
+      "description": "Finalcad provides mobile applications for construction site monitoring: observations and snagging on plans, quality and safety checklists, progress tracking, task assignment and automatic reporting, with a deliberately minimal field interface.\n",
+      "real_estate_use": "Field adoption is the whole battle: a tool a subcontractor's foreman will not open produces no data, whatever it can do. Finalcad's design choice is to strip the field experience down to capture and assignment, keeping the analysis for the office — which is why it appears on sites where previous attempts at digitalisation failed.\n",
+      "features": [
+        "Observation and snagging capture on plans",
+        "Quality and safety checklists with photo evidence",
+        "Task assignment to companies with deadlines",
+        "Progress tracking against the schedule",
+        "Automatic report generation",
+        "Offline field use with synchronisation"
+      ],
+      "use_cases": [
+        {
+          "persona": "developer-builder",
+          "job": "Get subcontractor foremen to actually record and close observations"
+        },
+        {
+          "persona": "developer-builder",
+          "job": "Track progress and quality across several sites from one dashboard"
+        }
+      ],
+      "personas": [
+        "developer-builder",
+        "facility-manager"
+      ],
+      "segments": [
+        "office",
+        "retail",
+        "residential",
+        "industrial",
+        "land-development"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "document management systems",
+        "BIM tools",
+        "ERP exports"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr",
+          "en",
+          "es",
+          "de"
+        ]
+      },
+      "alternatives": [
+        "bulldozair",
+        "kairnial",
+        "procore"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.finalcad.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "graneet",
+      "name": "Graneet",
+      "editor": "Graneet",
+      "website": "https://www.graneet.fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "construction-development",
+      "also_in": [
+        "back-office-accounting"
+      ],
+      "positioning": "Management software for French construction firms, built around the progress statement rather than the invoice.",
+      "description": "Graneet is a French SaaS for building and public works companies: quotes and bills of quantities, progress-based billing, purchase and subcontract tracking, site cost monitoring, cash flow forecasting and profitability analysis per site.\n",
+      "real_estate_use": "Construction firms in France bill by situation de travaux — a periodic statement of work completed — and their margin is decided by the gap between the estimate and the actual site cost. Graneet keeps both in one place, so a site foreman's committed purchases are visible against the quoted budget before the loss is realised at closing.\n",
+      "features": [
+        "Quotes and bills of quantities with libraries",
+        "Progress-based billing and situations de travaux",
+        "Purchase orders and subcontract tracking",
+        "Site cost monitoring against the quoted budget",
+        "Cash flow forecasting and retention tracking",
+        "Profitability analysis per site and per client"
+      ],
+      "use_cases": [
+        {
+          "persona": "developer-builder",
+          "job": "Bill by progress statement and see committed cost against the quote in real time"
+        },
+        {
+          "persona": "developer-builder",
+          "job": "Forecast cash flow across sites including retentions and payment terms"
+        }
+      ],
+      "personas": [
+        "developer-builder"
+      ],
+      "segments": [
+        "residential",
+        "office",
+        "retail",
+        "industrial",
+        "land-development"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "integrations": [
+        "accounting software",
+        "banking",
+        "Sage",
+        "Pennylane"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "obat",
+        "vertuoza",
+        "batappli"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.graneet.fr",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "immopad",
+      "name": "Immopad",
+      "editor": "Immopad",
+      "website": "https://www.immopad.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "diagnostics-compliance",
+      "also_in": [
+        "property-management",
+        "construction-development"
+      ],
+      "founded": 2012,
+      "positioning": "Digital property inspections on tablet — état des lieux, delivery snagging and periodic visits in one app.",
+      "description": "Immopad is a French application for property inspections: entry and exit état des lieux, new-build delivery snagging, periodic visits and works acceptance, captured on tablet or phone with photos, signed on the spot and produced as a report.\n",
+      "real_estate_use": "The état des lieux is the document a deposit dispute turns on, and a paper one written in ballpoint rarely survives it. Capturing room by room with dated photographs and an on-the-spot signature changes the evidentiary position entirely. The same capture engine is used by developers for delivery snagging, where the list of reserves has the same contentious quality.\n",
+      "features": [
+        "Entry and exit état des lieux with photo evidence",
+        "Comparison between entry and exit condition",
+        "New-build delivery snagging and reserve tracking",
+        "On-site signature by both parties",
+        "Periodic and works acceptance visits",
+        "Report generation and archiving"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Produce an état des lieux that survives a deposit dispute"
+        },
+        {
+          "persona": "developer-builder",
+          "job": "Record and track delivery reserves at handover of a new-build unit"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "landlord-owner",
+        "agent-broker",
+        "developer-builder"
+      ],
+      "segments": [
+        "residential",
+        "office",
+        "retail",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "integrations": [
+        "French agency software",
+        "document management"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr",
+          "en"
+        ]
+      },
+      "alternatives": [
+        "startloc",
+        "check-and-visit"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.immopad.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "kairnial",
+      "name": "Kairnial",
+      "editor": "Thinkproject",
+      "website": "https://www.kairnial.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "construction-development",
+      "positioning": "Construction document control and site quality for large French projects, with the traceability an owner needs at handover.",
+      "description": "Kairnial is a collaborative platform for construction and asset lifecycle: controlled document management with versioning and approval circuits, site quality and snagging, safety and compliance records, BIM model consultation, and structured handover packages.\n",
+      "real_estate_use": "On a large French project the governing risk is documentary: which version of a plan was approved, who validated it, and what evidence exists that a reserve was lifted. Kairnial organises that chain — the visa circuit, the dated observation, the signed lift — so the handover file is defensible and the operator inherits usable data rather than a hard drive.\n",
+      "features": [
+        "Controlled document management with visa and approval circuits",
+        "Site observations, snagging and reserve lifting with evidence",
+        "Safety, compliance and access records",
+        "BIM model consultation linked to documents",
+        "Structured handover and DOE packages",
+        "Asset data continuity into operations"
+      ],
+      "use_cases": [
+        {
+          "persona": "developer-builder",
+          "job": "Keep a defensible approval and reserve-lifting record across a large project"
+        },
+        {
+          "persona": "corporate-re",
+          "job": "Receive a structured handover file that operations can actually use"
+        }
+      ],
+      "personas": [
+        "developer-builder",
+        "corporate-re",
+        "facility-manager"
+      ],
+      "segments": [
+        "office",
+        "retail",
+        "industrial",
+        "healthcare-senior",
+        "land-development",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "BIM tools",
+        "Autodesk",
+        "document management systems"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr",
+          "en",
+          "de"
+        ]
+      },
+      "alternatives": [
+        "bulldozair",
+        "finalcad",
+        "autodesk-construction-cloud"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.kairnial.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "kelfoncier",
+      "name": "Kel Foncier",
+      "editor": "Kel Foncier",
+      "website": "https://www.kelfoncier.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "market-data",
+      "also_in": [
+        "construction-development"
+      ],
+      "positioning": "Land prospecting for French developers — which parcels can be built on, how much, and who owns them.",
+      "description": "Kel Foncier combines cadastral parcels, local urban planning rules, building rights, ownership data, building permits and transactions into a mapping and search tool for property developers and land prospectors.\n",
+      "real_estate_use": "A French development starts with a question the PLU answers slowly: on this parcel, what height, what footprint, what constraints. Kel Foncier makes that searchable in reverse — find every parcel in a commune with unused building rights above a threshold, filter out the protected ones, and get the owner. It compresses weeks of town-hall work into a query.\n",
+      "features": [
+        "Cadastral parcels with local planning rules applied",
+        "Residual building rights calculation per parcel",
+        "Ownership information and owner typology",
+        "Building permit history and pipeline",
+        "Transaction and land price references",
+        "Prospecting lists, alerts and export"
+      ],
+      "use_cases": [
+        {
+          "persona": "developer-builder",
+          "job": "Find parcels with unused building rights in a target commune and identify the owners"
+        },
+        {
+          "persona": "investor-am",
+          "job": "Test the development potential of a site before making an offer"
+        }
+      ],
+      "personas": [
+        "developer-builder",
+        "investor-am",
+        "agent-broker",
+        "corporate-re"
+      ],
+      "segments": [
+        "land-development",
+        "residential",
+        "mixed-use",
+        "office"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "integrations": [
+        "GIS tools",
+        "CRM systems",
+        "export formats"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "urbanease",
+        "cityscan",
+        "dvf"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.kelfoncier.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "northspyre",
+      "name": "Northspyre",
+      "editor": "Northspyre",
+      "website": "https://www.northspyre.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "construction-development",
+      "also_in": [
+        "investment-underwriting"
+      ],
+      "positioning": "Development cost control for the owner's side of the table, not the contractor's.",
+      "description": "Northspyre is a project cost management platform for real estate developers: budget tracking, invoice and contract processing with automated data extraction, cash flow forecasting, and anticipated cost reporting across a development pipeline.\n",
+      "real_estate_use": "A developer's exposure is the gap between the budget presented to investors and the anticipated final cost. That gap usually surfaces late because invoices and change orders are processed manually. Northspyre extracts the data as documents arrive, so the anticipated cost report updates continuously and a lender draw package is assembled from live data rather than rebuilt each month.\n",
+      "features": [
+        "Automated data extraction from invoices and contracts",
+        "Budget versus anticipated cost tracking per project",
+        "Cash flow forecasting across a development pipeline",
+        "Lender draw package preparation",
+        "Vendor contract and change order tracking",
+        "Portfolio-level development reporting"
+      ],
+      "use_cases": [
+        {
+          "persona": "developer-builder",
+          "job": "Keep anticipated final cost current instead of discovering the overrun late"
+        },
+        {
+          "persona": "investor-am",
+          "job": "Assemble a lender draw package from live project data"
+        }
+      ],
+      "personas": [
+        "developer-builder",
+        "investor-am"
+      ],
+      "segments": [
+        "multifamily",
+        "office",
+        "retail",
+        "industrial",
+        "land-development",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Procore",
+        "Yardi",
+        "MRI",
+        "QuickBooks"
+      ],
+      "ai": {
+        "capabilities": [
+          "Invoice and contract data extraction",
+          "Cost forecasting"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "procore",
+        "dealpath"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.northspyre.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "obat",
+      "name": "Obat",
+      "editor": "Obat",
+      "website": "https://www.obat.fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "construction-development",
+      "also_in": [
+        "back-office-accounting"
+      ],
+      "positioning": "Quotes and invoices for the French artisan, with the regulatory mentions the trade actually needs.",
+      "description": "Obat is French SaaS for building trades: quotes with priced work libraries, invoices and progress billing, purchase and margin tracking, site follow-up, and the mandatory mentions required on construction documents including insurance and VAT rate handling.\n",
+      "real_estate_use": "A tradesperson's quote is a legal document: reduced VAT rates depend on the works and the age of the property, the décennale insurance reference must appear, and a renovation aid scheme may require specific wording. Obat encodes those rules so the artisan does not discover a defect when a client claims an aid and the paperwork is rejected.\n",
+      "features": [
+        "Quotes with priced work and material libraries",
+        "Regulatory mentions including insurance and VAT rates",
+        "Invoices, deposits and progress billing",
+        "Purchase, supplier and margin tracking",
+        "Site and intervention follow-up",
+        "Client follow-up and payment reminders"
+      ],
+      "use_cases": [
+        {
+          "persona": "developer-builder",
+          "job": "Issue quotes with the correct VAT rate and mandatory mentions for renovation work"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "Receive quotes documented well enough to claim a renovation aid scheme"
+        }
+      ],
+      "personas": [
+        "developer-builder",
+        "landlord-owner"
+      ],
+      "segments": [
+        "residential",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://www.obat.fr/tarifs"
+      },
+      "integrations": [
+        "accounting software",
+        "banking",
+        "supplier catalogues"
+      ],
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "graneet",
+        "batappli",
+        "vertuoza"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.obat.fr",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "procore",
+      "name": "Procore",
+      "editor": "Procore Technologies",
+      "website": "https://www.procore.com",
+      "hq_country": "US",
+      "markets": [
+        "US",
+        "FR"
+      ],
+      "category": "construction-development",
+      "founded": 2002,
+      "positioning": "The construction record of truth — where the owner, the general contractor and every sub look at the same drawing set.",
+      "description": "Procore is a construction management platform covering preconstruction, project management, quality and safety, design coordination, and financials. Its commercial model charges the owner or contractor by construction volume and gives unlimited free seats to subcontractors and collaborators.\n",
+      "real_estate_use": "On a development, disputes are usually about which version of a document someone was working from. Procore holds the drawings, RFIs, submittals, daily logs, change orders and photos in one place, so the developer's project manager, the architect and the concrete sub all reference the same record. Financial modules then tie change orders to the budget the investor sees.\n",
+      "features": [
+        "Drawing, RFI and submittal management with version control",
+        "Daily logs, photos and site documentation",
+        "Change order, budget and commitment tracking",
+        "Quality and safety inspections with punch lists",
+        "Bid management and preconstruction estimating",
+        "Unlimited free collaborator seats for subcontractors"
+      ],
+      "use_cases": [
+        {
+          "persona": "developer-builder",
+          "job": "Keep a development's document, change order and budget history in one auditable place"
+        },
+        {
+          "persona": "facility-manager",
+          "job": "Receive a complete closeout package with as-builts and warranties at handover"
+        }
+      ],
+      "personas": [
+        "developer-builder",
+        "corporate-re",
+        "investor-am",
+        "facility-manager"
+      ],
+      "segments": [
+        "office",
+        "retail",
+        "industrial",
+        "multifamily",
+        "land-development",
+        "healthcare-senior"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "usage",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Autodesk",
+        "Sage",
+        "Yardi",
+        "DocuSign",
+        "Bluebeam"
+      ],
+      "ai": {
+        "capabilities": [
+          "Document search and summarisation across project records",
+          "Risk flagging on RFIs"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en",
+          "fr",
+          "es",
+          "de"
+        ]
+      },
+      "alternatives": [
+        "autodesk-construction-cloud",
+        "buildertrend",
+        "northspyre"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.procore.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "salvia-developpement",
+      "name": "Salvia Développement",
+      "editor": "Salvia Software",
+      "website": "https://www.salvia-software.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "construction-development",
+      "also_in": [
+        "investment-underwriting"
+      ],
+      "positioning": "Software for French property development operations — the bilan promoteur, the VEFA sales ledger and the cost control in one system.",
+      "description": "Salvia Software publishes solutions for French property developers and social housing operators covering development operation management: feasibility and operation budget, cost and commitment tracking, VEFA reservation and sale follow-up, calls for funds by construction stage, and operation profitability reporting.\n",
+      "real_estate_use": "A French development operation has a financial structure no generic tool models: the bilan promoteur, VEFA sales where the buyer pays by construction milestone, and a margin that moves with every signed contract and every works order. Salvia is bought to hold that structure — the operation budget and the sales ledger reconciled against one another.\n",
+      "features": [
+        "Operation feasibility and bilan promoteur modelling",
+        "Cost, commitment and works contract tracking",
+        "VEFA reservation and sale follow-up",
+        "Calls for funds by construction milestone",
+        "Operation and portfolio profitability reporting",
+        "Social housing operation specifics"
+      ],
+      "use_cases": [
+        {
+          "persona": "developer-builder",
+          "job": "Keep the operation budget and the VEFA sales ledger reconciled throughout the build"
+        },
+        {
+          "persona": "developer-builder",
+          "job": "Issue calls for funds to buyers as each construction stage is reached"
+        }
+      ],
+      "personas": [
+        "developer-builder",
+        "investor-am"
+      ],
+      "segments": [
+        "residential",
+        "mixed-use",
+        "land-development",
+        "office"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "accounting systems",
+        "banking",
+        "works management"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "northspyre",
+        "kairnial"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.salvia-software.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "urbanease",
+      "name": "Urbanease",
+      "editor": "Urbanease",
+      "website": "https://www.urbanease.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "market-data",
+      "also_in": [
+        "construction-development",
+        "crm-lead"
+      ],
+      "positioning": "Land prospecting with the canvassing workflow attached — from the parcel to the owner letter.",
+      "description": "Urbanease provides French developers, land prospectors and local authorities with a mapping platform combining cadastre, urban planning documents, ownership data and constraints, together with prospecting workflow: parcel qualification, owner contact and canvassing follow-up.\n",
+      "real_estate_use": "Finding the parcel is half the job; the other half is a disciplined approach to an owner who was not thinking of selling. Urbanease keeps the qualification and the contact history on the parcel itself, so a prospector returning to a commune two years later knows who was already approached, by whom, and what they said.\n",
+      "features": [
+        "Cadastral and urban planning mapping with constraints",
+        "Parcel qualification and development potential assessment",
+        "Owner identification and contact management",
+        "Canvassing history and follow-up per parcel",
+        "Territory and team assignment",
+        "Export and reporting for prospecting campaigns"
+      ],
+      "use_cases": [
+        {
+          "persona": "developer-builder",
+          "job": "Run a disciplined land canvassing campaign with history kept on each parcel"
+        },
+        {
+          "persona": "corporate-re",
+          "job": "Assess planning constraints and potential on a site before acquisition"
+        }
+      ],
+      "personas": [
+        "developer-builder",
+        "corporate-re",
+        "investor-am",
+        "agent-broker"
+      ],
+      "segments": [
+        "land-development",
+        "residential",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "integrations": [
+        "GIS tools",
+        "CRM systems"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "kelfoncier",
+        "cityscan"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.urbanease.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "vertuoza",
+      "name": "Vertuoza",
+      "editor": "Vertuoza",
+      "website": "https://www.vertuoza.com",
+      "hq_country": "BE",
+      "markets": [
+        "FR"
+      ],
+      "category": "construction-development",
+      "positioning": "End-to-end construction company management — quote, planning, site, hours and invoicing in one chain.",
+      "description": "Vertuoza is a management platform for construction companies in France and Belgium: estimating, planning, site follow-up, worker time tracking, purchase and stock, invoicing and profitability analysis, with a field app for teams on site.\n",
+      "real_estate_use": "The recurring loss in a small construction firm is untracked labour hours. Vertuoza chains the estimate to the planning and the hours actually clocked on site, so the profitability of a job is known while it is running rather than at the year-end accounts — which is the only point at which it can still be corrected.\n",
+      "features": [
+        "Estimating with work and price libraries",
+        "Site planning and team scheduling",
+        "Worker time tracking from the field app",
+        "Purchase, supplier and stock management",
+        "Invoicing including progress billing",
+        "Profitability tracking per site against the estimate"
+      ],
+      "use_cases": [
+        {
+          "persona": "developer-builder",
+          "job": "Know a job's real profitability while it is running, not at year end"
+        },
+        {
+          "persona": "developer-builder",
+          "job": "Schedule teams and track hours from the same system as the estimate"
+        }
+      ],
+      "personas": [
+        "developer-builder"
+      ],
+      "segments": [
+        "residential",
+        "office",
+        "retail",
+        "land-development"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "per-seat",
+        "public_pricing": false
+      },
+      "integrations": [
+        "accounting software",
+        "banking",
+        "supplier catalogues"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr",
+          "nl",
+          "en"
+        ]
+      },
+      "alternatives": [
+        "graneet",
+        "obat",
+        "batappli"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.vertuoza.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    }
+  ]
+}

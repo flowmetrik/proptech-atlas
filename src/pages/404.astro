@@ -1,0 +1,17 @@
+---
+import Base from '../layouts/Base.astro';
+import { url } from '../lib/catalog';
+---
+<Base title="Not found" description="This page does not exist.">
+  <section class="wrap-narrow section" style="text-align:center">
+    <p class="eyebrow">404</p>
+    <h1>Nothing here.</h1>
+    <p class="lede" style="margin:0 auto 28px">
+      The page moved, or the product is not documented yet.
+    </p>
+    <p style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap">
+      <a class="btn" href={url('explore')}>Explore the catalogue</a>
+      <a class="btn btn-ghost" href={url('contribute')}>Add a missing tool</a>
+    </p>
+  </section>
+</Base>

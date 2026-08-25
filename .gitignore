@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.astro/
+.DS_Store
+.env
+.env.*
+!.env.example
+# public/api/ est VERSIONNÉ : c’est le produit lisible par une IA (raw.githubusercontent).

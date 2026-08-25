@@ -1,0 +1,95 @@
+{
+  "slug": "apimo",
+  "name": "Apimo",
+  "editor": "Apimo",
+  "website": "https://www.apimo.net",
+  "hq_country": "FR",
+  "markets": [
+    "FR"
+  ],
+  "category": "crm-lead",
+  "also_in": [
+    "transaction-management",
+    "listing-syndication"
+  ],
+  "positioning": "The French transaction system built for agencies that sell across borders — multilingual, multi-currency, open API.",
+  "description": "Apimo is a real estate CRM and transaction platform used by French and international agencies: listings and contacts, mandates, matching, multilingual publishing to portals in several countries, websites, and a documented open API.\n",
+  "real_estate_use": "Agencies on the Côte d'Azur, in the Alps or in border regions sell to buyers who do not read French, through portals in several countries. Apimo handles a listing in multiple languages and currencies from one record, which removes the duplicate-catalogue problem that breaks most domestic tools as soon as a second market appears.\n",
+  "features": [
+    "Multilingual and multi-currency listing management",
+    "Publishing to French and international portals",
+    "Mandate management and buyer matching",
+    "Website generation from the catalogue",
+    "Documented open API for integrations",
+    "Rental and seasonal rental modules"
+  ],
+  "use_cases": [
+    {
+      "persona": "agent-broker",
+      "job": "Market one property in several languages and currencies without duplicating the record"
+    },
+    {
+      "persona": "brokerage",
+      "job": "Publish to French and foreign portals from a single catalogue"
+    }
+  ],
+  "personas": [
+    "agent-broker",
+    "brokerage"
+  ],
+  "segments": [
+    "residential",
+    "hospitality",
+    "mixed-use"
+  ],
+  "company_sizes": [
+    "solo",
+    "smb",
+    "midmarket"
+  ],
+  "pricing": {
+    "model": "subscription",
+    "public_pricing": false
+  },
+  "integrations": [
+    "SeLoger",
+    "Leboncoin",
+    "Bien'ici",
+    "international portals",
+    "REST API"
+  ],
+  "product": {
+    "api": true,
+    "open_source": false,
+    "mobile": [
+      "ios",
+      "android"
+    ],
+    "languages": [
+      "fr",
+      "en",
+      "es",
+      "it",
+      "de"
+    ]
+  },
+  "alternatives": [
+    "hektor",
+    "netty",
+    "sweepbright",
+    "adapt-immo"
+  ],
+  "reviews": [],
+  "sources": [
+    {
+      "url": "https://www.apimo.net",
+      "note": "site éditeur"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-25"
+}

@@ -1,0 +1,2288 @@
+{
+  "id": "crm-lead",
+  "label_en": "CRM & lead management",
+  "label_fr": "CRM & gestion des leads",
+  "summary_en": "Capture, qualify and nurture buyer, seller and tenant leads.",
+  "summary_fr": "Capter, qualifier et travailler les leads acquéreurs, vendeurs et locataires.",
+  "count": 25,
+  "tools": [
+    {
+      "slug": "adapt-immo",
+      "name": "Adapt Immo",
+      "editor": "Adapt Immo",
+      "website": "https://www.adaptimmo.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "crm-lead",
+      "also_in": [
+        "transaction-management",
+        "agent-marketing"
+      ],
+      "positioning": "A long-established French agency suite covering transaction, rental management and the agency website.",
+      "description": "Adapt Immo provides French agencies with transaction software, rental management, websites and portal publishing, sold as an integrated suite with training and support aimed at independent agencies and small networks.\n",
+      "real_estate_use": "Many French agencies run transaction and gérance side by side under the same carte professionnelle. Keeping both in one suite avoids the duplicate owner and property records that appear when an agency buys a sales tool and a separate rental tool — a recurring source of error at the point where a managed property goes up for sale.\n",
+      "features": [
+        "Transaction management with mandates and matching",
+        "Rental management with leases, receipts and owner accounts",
+        "Agency website and portal publishing",
+        "Prospecting and pige modules",
+        "Electronic signature integration",
+        "Document and legal file management"
+      ],
+      "use_cases": [
+        {
+          "persona": "brokerage",
+          "job": "Run transaction and rental management on shared owner and property records"
+        },
+        {
+          "persona": "agent-broker",
+          "job": "Publish mandates to portals and the agency site from one catalogue"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage",
+        "property-manager"
+      ],
+      "segments": [
+        "residential",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "integrations": [
+        "SeLoger",
+        "Leboncoin",
+        "Bien'ici",
+        "Yousign"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "hektor",
+        "netty",
+        "apimo",
+        "lockimmo"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.adaptimmo.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "apimo",
+      "name": "Apimo",
+      "editor": "Apimo",
+      "website": "https://www.apimo.net",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "crm-lead",
+      "also_in": [
+        "transaction-management",
+        "listing-syndication"
+      ],
+      "positioning": "The French transaction system built for agencies that sell across borders — multilingual, multi-currency, open API.",
+      "description": "Apimo is a real estate CRM and transaction platform used by French and international agencies: listings and contacts, mandates, matching, multilingual publishing to portals in several countries, websites, and a documented open API.\n",
+      "real_estate_use": "Agencies on the Côte d'Azur, in the Alps or in border regions sell to buyers who do not read French, through portals in several countries. Apimo handles a listing in multiple languages and currencies from one record, which removes the duplicate-catalogue problem that breaks most domestic tools as soon as a second market appears.\n",
+      "features": [
+        "Multilingual and multi-currency listing management",
+        "Publishing to French and international portals",
+        "Mandate management and buyer matching",
+        "Website generation from the catalogue",
+        "Documented open API for integrations",
+        "Rental and seasonal rental modules"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Market one property in several languages and currencies without duplicating the record"
+        },
+        {
+          "persona": "brokerage",
+          "job": "Publish to French and foreign portals from a single catalogue"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage"
+      ],
+      "segments": [
+        "residential",
+        "hospitality",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "integrations": [
+        "SeLoger",
+        "Leboncoin",
+        "Bien'ici",
+        "international portals",
+        "REST API"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr",
+          "en",
+          "es",
+          "it",
+          "de"
+        ]
+      },
+      "alternatives": [
+        "hektor",
+        "netty",
+        "sweepbright",
+        "adapt-immo"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.apimo.net",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "boldtrail",
+      "name": "BoldTrail",
+      "editor": "Inside Real Estate",
+      "website": "https://insiderealestate.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "crm-lead",
+      "also_in": [
+        "agent-marketing",
+        "back-office-accounting"
+      ],
+      "founded": 2013,
+      "positioning": "The brokerage-scale platform that grew out of kvCORE — websites, CRM, recruiting and back office under one roof.",
+      "description": "BoldTrail is Inside Real Estate's platform, the successor branding to kvCORE. It is sold at brokerage and enterprise level and spans agent websites, a CRM with automated campaigns, listing marketing, recruiting and retention tooling, and — through BoldTrail BackOffice (the former Brokermint) — commission and transaction accounting.\n",
+      "real_estate_use": "A multi-office brokerage standardises its agents on one system: each agent gets a branded IDX site and CRM seat, the brokerage keeps ownership of the lead database, and leadership sees production, recruiting pipeline and commission splits in the same tool. It is chosen for the consolidation rather than for any single best-in-class module.\n",
+      "features": [
+        "Agent, team and brokerage IDX websites with lead capture",
+        "CRM with behavioural automation and mass texting",
+        "Listing marketing kits and social ad automation",
+        "Recruiting and retention module with agent production data",
+        "BackOffice for commission plans, disbursement and brokerage accounting",
+        "Marketplace of add-ons for ads, video and lead sources"
+      ],
+      "use_cases": [
+        {
+          "persona": "brokerage",
+          "job": "Give 500 agents a website and CRM without losing brokerage ownership of the data"
+        },
+        {
+          "persona": "brokerage",
+          "job": "Track recruiting targets against real production numbers pulled from the MLS"
+        }
+      ],
+      "personas": [
+        "brokerage",
+        "agent-broker"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "MLS IDX feeds",
+        "dotloop",
+        "SkySlope",
+        "Zapier",
+        "QuickBooks"
+      ],
+      "ai": {
+        "capabilities": [
+          "AI content assistant for listing and campaign copy",
+          "Behavioural lead scoring"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "lofty",
+        "sierra-interactive",
+        "boomtown",
+        "follow-up-boss"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://insiderealestate.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "boomtown",
+      "name": "BoomTown",
+      "editor": "MoxiWorks",
+      "website": "https://boomtownroi.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "crm-lead",
+      "founded": 2006,
+      "positioning": "Lead generation sold with the accountability layer that forces a team to actually work the leads.",
+      "description": "BoomTown pairs a consumer search site and paid lead generation with a CRM designed around team management — predictive lead scoring, an opportunity wall and, historically, a human ISA service that qualifies leads before they reach an agent. Now part of MoxiWorks.\n",
+      "real_estate_use": "Chosen by teams that buy leads at volume and struggle to convert them. The system ranks which contacts deserve a call today, escalates when an agent ignores an assignment, and reports on the funnel from lead to appointment to closing so a team leader can act on the gap rather than on anecdote.\n",
+      "features": [
+        "Consumer IDX search site with lead capture",
+        "Predictive lead scoring and prioritised call lists",
+        "Success Assurance ISA service qualifying leads before agent handoff",
+        "Automated drip and text campaigns per lead behaviour",
+        "Team accountability dashboards from lead to appointment",
+        "Paid lead generation management"
+      ],
+      "use_cases": [
+        {
+          "persona": "brokerage",
+          "job": "Convert bought leads at a measurable rate with enforced agent follow-up"
+        },
+        {
+          "persona": "agent-broker",
+          "job": "Start the day with a ranked call list instead of an undifferentiated database"
+        }
+      ],
+      "personas": [
+        "brokerage",
+        "agent-broker"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "MoxiWorks suite",
+        "Zapier",
+        "dotloop",
+        "MLS IDX feeds"
+      ],
+      "ai": {
+        "capabilities": [
+          "Predictive lead scoring"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "lofty",
+        "boldtrail",
+        "follow-up-boss",
+        "sierra-interactive"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://boomtownroi.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "eudonet-immobilier",
+      "name": "Eudonet Immobilier",
+      "editor": "Eudonet (Efficy Group)",
+      "website": "https://www.eudonet.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "crm-lead",
+      "also_in": [
+        "commercial-am"
+      ],
+      "positioning": "A configurable French CRM with a real estate vertical — for organisations whose process does not fit an agency package.",
+      "description": "Eudonet is a French CRM platform sold in vertical editions, including one for real estate professionals: contact and asset relationship management, prospect and mandate pipelines, campaign management, and configurable objects and workflows, hosted in France.\n",
+      "real_estate_use": "It is chosen by organisations that are not classic agencies — institutional owners, developers, public bodies, networks — whose relationship processes do not match a transaction package. The configurability is the point: an object model for buildings, tenants, prospects and operations can be shaped to the organisation rather than the reverse, with French hosting satisfying public procurement requirements.\n",
+      "features": [
+        "Configurable object model for assets, contacts and operations",
+        "Prospect, mandate and opportunity pipelines",
+        "Campaign, email and event management",
+        "Workflow automation and validation circuits",
+        "Reporting and dashboards per business line",
+        "French hosting and public sector compliance"
+      ],
+      "use_cases": [
+        {
+          "persona": "corporate-re",
+          "job": "Model relationships around assets and operations rather than around a sales pipeline"
+        },
+        {
+          "persona": "developer-builder",
+          "job": "Track prospects and reservations on a development programme in a configurable CRM"
+        }
+      ],
+      "personas": [
+        "corporate-re",
+        "developer-builder",
+        "investor-am",
+        "brokerage"
+      ],
+      "segments": [
+        "office",
+        "retail",
+        "residential",
+        "mixed-use",
+        "land-development"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Microsoft 365",
+        "marketing tools",
+        "business systems",
+        "REST API"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr",
+          "en"
+        ]
+      },
+      "alternatives": [
+        "apimo",
+        "hektor"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.eudonet.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "fluximmo",
+      "name": "Fluximmo",
+      "editor": "Fluximmo",
+      "website": "https://www.fluximmo.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "market-data",
+      "also_in": [
+        "crm-lead"
+      ],
+      "positioning": "French property listings as an API — the raw feed behind pige tools and market products.",
+      "description": "Fluximmo collects real estate listings published across French portals and classified sites, deduplicates them, distinguishes private from professional sellers, and delivers the result as a structured API with history and change tracking.\n",
+      "real_estate_use": "It is infrastructure rather than an end-user product: a pige tool, a market study or an internal prospecting system uses the feed instead of scraping portals themselves. The deduplication and private-versus-professional classification are the hard parts, since the same property appears repeatedly under different descriptions and prices.\n",
+      "features": [
+        "Aggregated listing feed across French portals and classified sites",
+        "Deduplication of the same property across sources",
+        "Private versus professional seller classification",
+        "Price change and listing lifecycle history",
+        "Geographic and criteria-based filtering",
+        "REST API delivery with historical access"
+      ],
+      "use_cases": [
+        {
+          "persona": "developer-builder",
+          "job": "Build a prospecting or market product on a listing feed instead of scraping portals"
+        },
+        {
+          "persona": "brokerage",
+          "job": "Feed an internal canvassing system with deduplicated private-seller listings"
+        }
+      ],
+      "personas": [
+        "developer-builder",
+        "brokerage",
+        "investor-am",
+        "appraiser"
+      ],
+      "segments": [
+        "residential",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://www.fluximmo.com/tarifs"
+      },
+      "integrations": [
+        "REST API",
+        "BI tools",
+        "CRM systems"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "yanport",
+        "pige-online",
+        "dvf"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.fluximmo.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "follow-up-boss",
+      "name": "Follow Up Boss",
+      "editor": "Zillow Group",
+      "website": "https://www.followupboss.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "crm-lead",
+      "also_in": [
+        "ai-assistants"
+      ],
+      "founded": 2011,
+      "positioning": "The CRM real estate teams run their day on — every lead source lands in one inbox and the follow-up is enforced by the system.",
+      "description": "A sales-team CRM built specifically for residential brokerages. It ingests leads from portals, websites and ad platforms, routes them by rule to the right agent, and drives activity through action plans, calling queues and a shared team inbox. Acquired by Zillow Group in 2023 and kept as a standalone product.\n",
+      "real_estate_use": "Used by agent teams and brokerages to make sure a portal lead is contacted in minutes rather than hours. Leads arrive from Zillow, Realtor.com and the brokerage site, get assigned by round robin or by geography, and enter an automated call-text-email cadence. Managers watch speed-to-lead, conversation counts and pipeline stage rather than guessing who is actually working their database.\n",
+      "features": [
+        "Lead routing rules with round robin, first-to-claim and geographic assignment",
+        "Action plans — multi-step automated text, email and call task sequences",
+        "Team inbox with shared call, text and email history per contact",
+        "Smart lists that resurface a database contact when they re-engage",
+        "Calling with recording, voicemail drop and dialer queues",
+        "Reporting on speed to lead, agent activity and source ROI"
+      ],
+      "use_cases": [
+        {
+          "persona": "brokerage",
+          "job": "Distribute paid portal leads across a team and prove which source converts"
+        },
+        {
+          "persona": "agent-broker",
+          "job": "Work a past-client and sphere database on an automated cadence instead of ad hoc"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "per-seat",
+        "public_pricing": true,
+        "url": "https://www.followupboss.com/pricing"
+      },
+      "integrations": [
+        "Zillow",
+        "Realtor.com",
+        "dotloop",
+        "BombBomb",
+        "Ylopo",
+        "Zapier"
+      ],
+      "ai": {
+        "capabilities": [
+          "Lead intent scoring",
+          "Automated follow-up cadences"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "lofty",
+        "boldtrail",
+        "sierra-interactive",
+        "boomtown"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.followupboss.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "hektor",
+      "name": "Hektor",
+      "editor": "La Boîte Immo",
+      "website": "https://www.laboiteimmo.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "crm-lead",
+      "also_in": [
+        "transaction-management",
+        "agent-marketing"
+      ],
+      "founded": 2006,
+      "positioning": "One of the reference transaction systems for French agencies — mandate, matching, portal publishing and website in a single subscription.",
+      "description": "Hektor is La Boîte Immo's real estate software for French agencies and networks: property and contact records, mandate management, automated buyer matching, portal publishing, electronic signature, and an agency website generated from the same catalogue.\n",
+      "real_estate_use": "A French agency's daily cycle runs on the mandate. Hektor holds the signed mandate and its legal mentions, matches each new listing against registered buyer criteria and sends the alert, publishes to the portals the agency subscribes to, and feeds the agency site. The reason it is bought as a suite is that in France the website and the portal feed are the same catalogue.\n",
+      "features": [
+        "Property and mandate management with French legal mentions",
+        "Buyer criteria matching with automatic alerts",
+        "Multi-portal publishing from one catalogue",
+        "Agency website generated from the same listings",
+        "Electronic signature on mandates and offers",
+        "Pige and prospecting modules"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Match a new mandate against registered buyers and alert them the same day"
+        },
+        {
+          "persona": "brokerage",
+          "job": "Run listings, portal feeds and the agency website from one catalogue"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage"
+      ],
+      "segments": [
+        "residential",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "integrations": [
+        "SeLoger",
+        "Leboncoin",
+        "Bien'ici",
+        "Yousign",
+        "Ubiflow"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "netty",
+        "apimo",
+        "adapt-immo",
+        "lockimmo"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.laboiteimmo.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "immofacile",
+      "name": "Immofacile",
+      "editor": "Immofacile",
+      "website": "https://www.immofacile.fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "crm-lead",
+      "also_in": [
+        "transaction-management",
+        "property-management"
+      ],
+      "positioning": "A French agency package sold module by module, so a small agency buys only the trade it practises.",
+      "description": "Immofacile provides French real estate professionals with transaction software, rental management and syndic modules, portal publishing, agency websites and document management, packaged so an agency subscribes only to the activities it holds.\n",
+      "real_estate_use": "Small French agencies rarely practise all three regulated activities, and paying for a full administration suite to run transaction alone is a common source of overspend. Modular pricing is the practical argument here, with the option to add gérance later without migrating the client and property records.\n",
+      "features": [
+        "Modular transaction, rental and syndic activities",
+        "Mandate management and buyer matching",
+        "Portal publishing and agency website",
+        "Owner and tenant document management",
+        "Electronic signature integration",
+        "Accounting for the modules subscribed"
+      ],
+      "use_cases": [
+        {
+          "persona": "brokerage",
+          "job": "Subscribe only to the regulated activities the agency actually practises"
+        },
+        {
+          "persona": "agent-broker",
+          "job": "Add rental management later without migrating existing records"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage",
+        "property-manager"
+      ],
+      "segments": [
+        "residential",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "integrations": [
+        "SeLoger",
+        "Leboncoin",
+        "Bien'ici",
+        "electronic signature"
+      ],
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "hektor",
+        "netty",
+        "adapt-immo",
+        "lockimmo"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.immofacile.fr",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "lockimmo",
+      "name": "LockImmo",
+      "editor": "LockImmo",
+      "website": "https://www.lockimmo.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "property-management",
+      "also_in": [
+        "crm-lead",
+        "syndic-copro"
+      ],
+      "positioning": "One French system for the three trades an agency can hold at once — transaction, gérance and syndic.",
+      "description": "LockImmo is a modular French real estate platform covering transaction, rental management and condominium management, with accounting, owner and co-owner portals, electronic signature and portal publishing, sold module by module.\n",
+      "real_estate_use": "A French agency frequently holds all three activities under one roof, and the accounting requirements differ for each: mandant accounting for gérance, separate accounts per copropriété for syndic. LockImmo covers the three in one system, which small and mid-sized agencies choose over running three specialised tools with no shared client record.\n",
+      "features": [
+        "Transaction module with mandates and matching",
+        "Rental management with mandant accounting and owner statements",
+        "Condominium module with per-building accounting and calls for funds",
+        "Owner, tenant and co-owner extranet portals",
+        "Electronic signature and document management",
+        "Portal publishing and agency website"
+      ],
+      "use_cases": [
+        {
+          "persona": "brokerage",
+          "job": "Hold transaction, gérance and syndic in one system with shared client records"
+        },
+        {
+          "persona": "syndic-manager",
+          "job": "Run per-building accounting and calls for funds alongside rental management"
+        }
+      ],
+      "personas": [
+        "brokerage",
+        "property-manager",
+        "syndic-manager",
+        "agent-broker"
+      ],
+      "segments": [
+        "residential",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://www.lockimmo.com/tarifs"
+      },
+      "integrations": [
+        "SeLoger",
+        "Leboncoin",
+        "Bien'ici",
+        "Yousign",
+        "banking"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "hektor",
+        "adapt-immo",
+        "vilogi",
+        "crypto-septeo"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.lockimmo.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "lofty",
+      "name": "Lofty",
+      "editor": "Lofty (formerly Chime Technologies)",
+      "website": "https://lofty.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "crm-lead",
+      "also_in": [
+        "agent-marketing",
+        "ai-assistants"
+      ],
+      "founded": 2016,
+      "positioning": "An all-in-one platform where the IDX website, the ad spend and the CRM are the same product, so a click is tracked to a closing.",
+      "description": "Lofty bundles an IDX website, lead-generation advertising, CRM, dialer, email and SMS marketing, and transaction tracking into one subscription. Renamed from Chime in 2023. Sold mostly to teams and brokerages that want a single vendor rather than a stack.\n",
+      "real_estate_use": "A team buys traffic through Lofty's ad management, the visitor lands on a Lofty IDX site, their property searches are recorded against their CRM record, and an AI assistant opens the conversation by text. The differentiator in daily use is behavioural triggering — the agent is alerted when a contact revisits a listing or saves a search, not on a calendar timer.\n",
+      "features": [
+        "IDX website with agent, team and brokerage templates",
+        "Behavioural lead alerts driven by on-site property search activity",
+        "AI assistant that texts and qualifies inbound leads",
+        "Built-in dialer, SMS and drip email campaigns",
+        "Facebook and Google ad management with lead attribution",
+        "Smart plans and transaction pipeline"
+      ],
+      "use_cases": [
+        {
+          "persona": "brokerage",
+          "job": "Run lead generation, nurture and site under one vendor with one attribution report"
+        },
+        {
+          "persona": "agent-broker",
+          "job": "Get alerted the moment a past lead resumes searching and re-engage the same day"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "per-seat",
+        "public_pricing": false,
+        "url": "https://lofty.com/pricing"
+      },
+      "integrations": [
+        "Zapier",
+        "Google Ads",
+        "Meta Ads",
+        "Zillow",
+        "MLS IDX feeds"
+      ],
+      "ai": {
+        "capabilities": [
+          "Conversational lead qualification by SMS",
+          "Behavioural intent scoring",
+          "Listing description drafting"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "boldtrail",
+        "sierra-interactive",
+        "realgeeks",
+        "follow-up-boss"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://lofty.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "meilleursagents",
+      "name": "MeilleursAgents",
+      "editor": "Aviv Group (Axel Springer)",
+      "website": "https://www.meilleursagents.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "estimation-pricing",
+      "also_in": [
+        "market-data",
+        "crm-lead"
+      ],
+      "founded": 2008,
+      "positioning": "The French price map the public consults — and the seller-lead engine agencies buy on the strength of it.",
+      "description": "MeilleursAgents publishes street-level price estimates across France from notarial and market data, offers owners a free online valuation, and sells agencies visibility and seller leads generated by those valuation requests, alongside agency comparison and review features.\n",
+      "real_estate_use": "It changed the French listing appointment. An owner arrives having already read a neighbourhood price per square metre, so the agent's pricing conversation starts from a public reference rather than from a blank page. On the professional side, an owner who requested a valuation is a seller lead with intent, which is what agencies actually pay for.\n",
+      "features": [
+        "Street and neighbourhood level price indices",
+        "Free online valuation for owners",
+        "Seller lead generation and delivery to agencies",
+        "Agency visibility, profiles and reviews",
+        "Market trend indicators by city and district",
+        "Agency performance comparison for consumers"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Buy seller leads from owners who have just requested a valuation"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "Get a reference price for a property before meeting an agency"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage",
+        "landlord-owner",
+        "investor-am"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Hektor",
+        "Netty",
+        "Apimo",
+        "agency CRMs"
+      ],
+      "ai": {
+        "capabilities": [
+          "Automated valuation from transaction and market data"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "pricehubble",
+        "yanport",
+        "dvf"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.meilleursagents.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "netty",
+      "name": "Netty",
+      "editor": "Netty",
+      "website": "https://www.netty.fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "crm-lead",
+      "also_in": [
+        "transaction-management",
+        "agent-marketing"
+      ],
+      "positioning": "Software and website sold as one product, with the agency site treated as a lead-generation asset rather than a brochure.",
+      "description": "Netty provides French agencies with transaction software — listings, contacts, mandates, matching, portal publishing — combined with a website builder, SEO tooling, electronic signature and rental management modules.\n",
+      "real_estate_use": "Independent French agencies compete with national networks whose brand carries the online traffic. Netty's positioning answers that: the agency site is built for local search visibility, and every enquiry it produces lands in the same system as the mandate and the portal leads, so an independent can measure whether its own site is out-earning its portal subscriptions.\n",
+      "features": [
+        "Transaction management with mandates and matching",
+        "Agency website with SEO structures and lead capture",
+        "Multi-portal publishing and feed management",
+        "Rental management and lease modules",
+        "Electronic signature integration",
+        "Prospecting and pige tooling"
+      ],
+      "use_cases": [
+        {
+          "persona": "brokerage",
+          "job": "Measure whether the agency's own website out-earns its portal subscriptions"
+        },
+        {
+          "persona": "agent-broker",
+          "job": "Publish a new mandate to every portal and the agency site in one action"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage"
+      ],
+      "segments": [
+        "residential",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "integrations": [
+        "SeLoger",
+        "Leboncoin",
+        "Bien'ici",
+        "Yousign"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "hektor",
+        "apimo",
+        "adapt-immo",
+        "immofacile"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.netty.fr",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "pige-online",
+      "name": "Pige Online",
+      "editor": "Pige Online",
+      "website": "https://www.pige-online.fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "estimation-pricing",
+      "also_in": [
+        "crm-lead"
+      ],
+      "positioning": "Prospecting software built around the French pige — finding the private seller before the competing agency does.",
+      "description": "Pige Online is a prospecting tool for French agents: it consolidates private-seller listings published across portals, deduplicates them, tracks price changes and time on market, and organises the agent's canvassing follow-up.\n",
+      "real_estate_use": "In a market without an MLS, agency growth depends on converting private sellers into mandates, and the same property appears on four portals under three different prices. The software's job is deduplication and timing: a listing whose price has just dropped is a seller whose confidence has just fallen, which is the moment an agent calls.\n",
+      "features": [
+        "Consolidation and deduplication of private-seller listings across portals",
+        "Price change and time-on-market tracking per property",
+        "Canvassing follow-up with call history and reminders",
+        "Sector and criteria-based alerts",
+        "Owner contact organisation for prospecting rounds",
+        "Team assignment and duplicate call prevention"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Call a private seller the day their asking price drops"
+        },
+        {
+          "persona": "brokerage",
+          "job": "Split canvassing sectors across a team without two agents calling the same owner"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://www.pige-online.fr/tarifs"
+      },
+      "integrations": [
+        "Hektor",
+        "Netty",
+        "Apimo"
+      ],
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "hektor",
+        "netty"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.pige-online.fr",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "poliris",
+      "name": "Poliris",
+      "editor": "Poliris",
+      "website": "https://www.poliris.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "listing-syndication",
+      "also_in": [
+        "crm-lead",
+        "agent-marketing"
+      ],
+      "positioning": "Software, website and distribution from one French vendor, with a long history in portal feed management.",
+      "description": "Poliris supplies French agencies with transaction software, agency websites and listing distribution to portals, historically as one of the main feed operators in the French market.\n",
+      "real_estate_use": "Its practical value to an agency is the same as Ubiflow's — one catalogue, many destinations — with the software and the site included rather than integrated. Agencies that do not want to assemble a stack from three vendors buy the whole chain here and accept the trade-off of less choice at each layer.\n",
+      "features": [
+        "Multi-portal listing distribution",
+        "Transaction software with listings and contacts",
+        "Agency website generation",
+        "Lead consolidation across channels",
+        "Media and format handling per portal",
+        "Reporting on publication and lead volume"
+      ],
+      "use_cases": [
+        {
+          "persona": "brokerage",
+          "job": "Buy software, website and portal distribution from a single vendor"
+        },
+        {
+          "persona": "agent-broker",
+          "job": "Keep one catalogue as the source for every published channel"
+        }
+      ],
+      "personas": [
+        "brokerage",
+        "agent-broker"
+      ],
+      "segments": [
+        "residential",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "integrations": [
+        "SeLoger",
+        "Leboncoin",
+        "Bien'ici",
+        "agency software feeds"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "ubiflow",
+        "netty",
+        "hektor"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.poliris.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "realgeeks",
+      "name": "Real Geeks",
+      "editor": "Real Geeks (Fidelity National Financial)",
+      "website": "https://www.realgeeks.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "agent-marketing",
+      "also_in": [
+        "crm-lead"
+      ],
+      "founded": 2007,
+      "positioning": "An affordable IDX site and CRM pairing aimed at the individual agent and the small team.",
+      "description": "Real Geeks provides IDX websites, lead capture, a CRM with automated follow-up, and Facebook and Google ad management as a managed service. It sits at a lower price point than the brokerage platforms and is commonly the first real system an agent buys after outgrowing spreadsheets.\n",
+      "real_estate_use": "A solo agent or a two-to-five person team replaces a brochure website with a searchable IDX site, runs a small monthly ad budget through Real Geeks' managed campaigns, and lets the CRM chase the resulting registrations with SMS autoresponders. Property valuation landing pages are the standard seller-lead play.\n",
+      "features": [
+        "IDX website with map search and forced registration options",
+        "CRM with lead assignment, SMS autoresponders and drip campaigns",
+        "Property valuation seller-lead landing pages",
+        "Managed Facebook and Google ad campaigns",
+        "Market report emails triggered by saved searches",
+        "Agent and team accountability dashboard"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Turn a small monthly ad budget into registered buyer and seller leads"
+        },
+        {
+          "persona": "agent-broker",
+          "job": "Capture seller leads through home valuation pages and nurture them for months"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://www.realgeeks.com/pricing"
+      },
+      "integrations": [
+        "MLS IDX feeds",
+        "Zapier",
+        "Facebook Ads",
+        "Google Ads"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "sierra-interactive",
+        "lofty",
+        "boldtrail"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.realgeeks.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "realtor-com",
+      "name": "Realtor.com",
+      "editor": "Move, Inc. (News Corp)",
+      "website": "https://www.realtor.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "portals-marketplaces",
+      "also_in": [
+        "crm-lead"
+      ],
+      "founded": 1996,
+      "positioning": "The portal operated under licence from the National Association of REALTORS, fed directly by MLS data.",
+      "description": "Realtor.com is a consumer portal whose distinguishing claim is data freshness: listings come from MLS feeds under an NAR operating agreement rather than from scraped or syndicated sources. Its professional side sells Connections Plus and Market Reach advertising, and it owns rental products including Avail.\n",
+      "real_estate_use": "Agents buy exclusive or shared buyer leads by ZIP code and use the platform's listing presence as a seller-pitch argument. Because the feed comes from the MLS, status changes propagate faster than on aggregators, which matters when a client is comparing what is actually still available.\n",
+      "features": [
+        "MLS-sourced for-sale and for-rent listings",
+        "Connections Plus buyer lead products by ZIP code",
+        "Market Reach display advertising to a farm area",
+        "RealEstimate valuation range from multiple models",
+        "Agent profiles and review collection",
+        "Rental products including Avail for small landlords"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Acquire buyer leads in a defined ZIP code with MLS-accurate inventory behind them"
+        },
+        {
+          "persona": "agent-broker",
+          "job": "Show a seller the reach their listing gets across the portal network"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage",
+        "landlord-owner"
+      ],
+      "segments": [
+        "residential",
+        "multifamily"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "usage",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Follow Up Boss",
+        "major CRMs",
+        "MLS feeds"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "zillow",
+        "homes-com",
+        "apartments-com"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.realtor.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "reonomy",
+      "name": "Reonomy",
+      "editor": "Altus Group",
+      "website": "https://www.reonomy.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "market-data",
+      "also_in": [
+        "crm-lead"
+      ],
+      "founded": 2013,
+      "positioning": "Off-market prospecting — who owns this building, and how do I reach the human behind the LLC.",
+      "description": "Reonomy assembles public records, mortgage and lien filings, and contact data into a searchable database of US commercial properties, with a resolution layer that links a title-holding entity to the individuals actually behind it. Acquired by Altus Group.\n",
+      "real_estate_use": "Its use is prospecting rather than underwriting. A broker looking for listings filters a county for owners who have held an asset more than ten years with a maturing loan, then pulls a phone number for the principal — a list that would otherwise take weeks of county records work. Debt brokers run the same query against loan maturity dates.\n",
+      "features": [
+        "Ownership resolution from LLC to individual principal",
+        "Contact records including phone and email for owners",
+        "Mortgage, lien and transaction history from public records",
+        "Portfolio view of everything an owner holds nationally",
+        "Saved searches with alerts on ownership or debt changes",
+        "Property-level physical and tax detail"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Build an off-market listing pipeline from long-held assets with maturing debt"
+        },
+        {
+          "persona": "lender-broker",
+          "job": "Target owners whose loans mature in the next eighteen months"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "investor-am",
+        "lender-broker"
+      ],
+      "segments": [
+        "office",
+        "retail",
+        "industrial",
+        "multifamily",
+        "land-development"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Salesforce",
+        "HubSpot",
+        "Excel"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "costar",
+        "attom-data",
+        "crexi"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.reonomy.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "seloger",
+      "name": "SeLoger",
+      "editor": "Aviv Group (Axel Springer)",
+      "website": "https://www.seloger.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "portals-marketplaces",
+      "also_in": [
+        "crm-lead"
+      ],
+      "founded": 1992,
+      "positioning": "The historic French professional portal — where agencies pay to be seen, and where most French property searches still begin.",
+      "description": "SeLoger is a French property portal for sale and rental listings, historically restricted to professionals and now part of Aviv Group alongside Logic-Immo and MeilleursAgents. It sells agencies listing packs, visibility options and lead products, with new-build programme sections for developers.\n",
+      "real_estate_use": "For a French agency the SeLoger subscription is usually the largest single marketing line, and its renewal is an annual argument: the agency compares the leads it produced against Leboncoin's cheaper volume and its own website. Because the portal is professional-only, the listings carry mandate information, which is why buyers use it differently from the classified sites.\n",
+      "features": [
+        "Professional sale and rental listings across France",
+        "Agency listing packs and visibility boosting options",
+        "Lead delivery to agency software and CRMs",
+        "New-build programme sections for developers",
+        "Agency profile pages and branding",
+        "Audience and performance reporting per listing"
+      ],
+      "use_cases": [
+        {
+          "persona": "brokerage",
+          "job": "Buy portal visibility for a mandate portfolio and measure the leads it returns"
+        },
+        {
+          "persona": "developer-builder",
+          "job": "Market a new-build programme to French buyers on a dedicated section"
+        }
+      ],
+      "personas": [
+        "brokerage",
+        "agent-broker",
+        "developer-builder",
+        "tenant-occupier"
+      ],
+      "segments": [
+        "residential",
+        "mixed-use",
+        "office"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Hektor",
+        "Netty",
+        "Apimo",
+        "Ubiflow",
+        "Poliris"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "leboncoin-immobilier",
+        "bien-ici",
+        "pap"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.seloger.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "sierra-interactive",
+      "name": "Sierra Interactive",
+      "editor": "Sierra Interactive",
+      "website": "https://www.sierrainteractive.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "crm-lead",
+      "also_in": [
+        "agent-marketing"
+      ],
+      "founded": 2005,
+      "positioning": "A search experience fast enough to rank, wired directly into the CRM that works the leads it produces.",
+      "description": "Sierra Interactive sells an IDX website plus CRM aimed at teams that generate their own organic and paid traffic. The product is known for site performance and SEO structure — neighbourhood and market pages built to rank — with lead routing, action plans and a dialer on the CRM side.\n",
+      "real_estate_use": "Teams that treat their website as the lead source, not as a brochure, use Sierra to build hundreds of hyperlocal landing pages, capture registrations behind listing detail, and drop the registrant straight into a routed follow-up plan. The value is measured in organic lead volume and cost per lead against portal pricing.\n",
+      "features": [
+        "High-performance IDX search with map, polygon and school filters",
+        "SEO-oriented market, neighbourhood and community page builder",
+        "CRM with lead routing, action plans and accountability reporting",
+        "Integrated dialer, SMS and email marketing",
+        "Listing and open house landing pages",
+        "PPC and lead-source attribution reporting"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Rank on hyperlocal searches and convert organic traffic into registered leads"
+        },
+        {
+          "persona": "brokerage",
+          "job": "Hold agents accountable to response time on self-generated web leads"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "per-seat",
+        "public_pricing": true,
+        "url": "https://www.sierrainteractive.com/pricing"
+      },
+      "integrations": [
+        "MLS IDX feeds",
+        "Zapier",
+        "Google Analytics",
+        "BombBomb"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "realgeeks",
+        "lofty",
+        "boldtrail",
+        "follow-up-boss"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.sierrainteractive.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "structurely",
+      "name": "Structurely",
+      "editor": "Structurely",
+      "website": "https://www.structurely.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "ai-assistants",
+      "also_in": [
+        "crm-lead"
+      ],
+      "founded": 2016,
+      "positioning": "An AI inside sales agent for the leads an agent will never call back — the ones two months old.",
+      "description": "Structurely provides AI-driven text and voice conversation for real estate and mortgage lead follow-up: it engages new and aged leads, holds a qualifying conversation over days or weeks, and hands a warm, qualified contact back to a human agent.\n",
+      "real_estate_use": "A team buying leads accumulates thousands of contacts nobody has time to nurture. The economics of an AI agent are different from a human inside sales agent: it can pursue a two-year-old lead for months at no marginal cost. The product is judged on appointments produced from a database the team had written off.\n",
+      "features": [
+        "AI text and voice conversation for new and aged leads",
+        "Long-horizon nurture campaigns over weeks and months",
+        "Qualification against buying timeline, financing and motivation",
+        "Live handoff to a human agent when a lead is ready",
+        "CRM integration writing conversation history back",
+        "Appointment setting into agent calendars"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Resurrect a database of aged leads nobody has time to call"
+        },
+        {
+          "persona": "brokerage",
+          "job": "Replace or extend a human inside sales team on lead qualification"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage",
+        "lender-broker"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://www.structurely.com/pricing"
+      },
+      "integrations": [
+        "Follow Up Boss",
+        "BoldTrail",
+        "Lofty",
+        "Salesforce",
+        "Zapier"
+      ],
+      "ai": {
+        "capabilities": [
+          "Conversational lead qualification by SMS and voice",
+          "Long-horizon nurture"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "eliseai",
+        "ylopo",
+        "follow-up-boss"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.structurely.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "sweepbright",
+      "name": "SweepBright",
+      "editor": "SweepBright",
+      "website": "https://www.sweepbright.com",
+      "hq_country": "BE",
+      "markets": [
+        "FR"
+      ],
+      "category": "crm-lead",
+      "also_in": [
+        "transaction-management",
+        "listing-syndication"
+      ],
+      "founded": 2016,
+      "positioning": "A mobile-first agency CRM for European markets — capture a property on site, publish it before leaving.",
+      "description": "SweepBright is a real estate agency platform used across Belgium, France and other European markets: property and contact management, mobile listing capture with photos, matching, multi-portal publishing, digital signature and an agency website module.\n",
+      "real_estate_use": "The design assumption is that the agent is never at a desk. Capturing the property during the valuation visit — rooms, photos, description — and publishing directly from the phone compresses a two-day cycle into the appointment itself, which matters most in competitive markets where the first published listing gets the enquiries.\n",
+      "features": [
+        "Mobile property capture with photos and details on site",
+        "Contact management and buyer matching",
+        "Multi-portal publishing across European portals",
+        "Agency website module fed by the same catalogue",
+        "Digital signature on mandates and offers",
+        "Team activity and pipeline reporting"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Capture and publish a new listing from the phone during the valuation visit"
+        },
+        {
+          "persona": "brokerage",
+          "job": "Run a multi-country European agency on one catalogue and one portal feed"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage"
+      ],
+      "segments": [
+        "residential",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "per-seat",
+        "public_pricing": true,
+        "url": "https://www.sweepbright.com/pricing"
+      },
+      "integrations": [
+        "European portals",
+        "Nodalview",
+        "digital signature providers"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr",
+          "nl",
+          "en",
+          "es"
+        ]
+      },
+      "alternatives": [
+        "apimo",
+        "hektor",
+        "netty"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.sweepbright.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "urbanease",
+      "name": "Urbanease",
+      "editor": "Urbanease",
+      "website": "https://www.urbanease.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "market-data",
+      "also_in": [
+        "construction-development",
+        "crm-lead"
+      ],
+      "positioning": "Land prospecting with the canvassing workflow attached — from the parcel to the owner letter.",
+      "description": "Urbanease provides French developers, land prospectors and local authorities with a mapping platform combining cadastre, urban planning documents, ownership data and constraints, together with prospecting workflow: parcel qualification, owner contact and canvassing follow-up.\n",
+      "real_estate_use": "Finding the parcel is half the job; the other half is a disciplined approach to an owner who was not thinking of selling. Urbanease keeps the qualification and the contact history on the parcel itself, so a prospector returning to a commune two years later knows who was already approached, by whom, and what they said.\n",
+      "features": [
+        "Cadastral and urban planning mapping with constraints",
+        "Parcel qualification and development potential assessment",
+        "Owner identification and contact management",
+        "Canvassing history and follow-up per parcel",
+        "Territory and team assignment",
+        "Export and reporting for prospecting campaigns"
+      ],
+      "use_cases": [
+        {
+          "persona": "developer-builder",
+          "job": "Run a disciplined land canvassing campaign with history kept on each parcel"
+        },
+        {
+          "persona": "corporate-re",
+          "job": "Assess planning constraints and potential on a site before acquisition"
+        }
+      ],
+      "personas": [
+        "developer-builder",
+        "corporate-re",
+        "investor-am",
+        "agent-broker"
+      ],
+      "segments": [
+        "land-development",
+        "residential",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "integrations": [
+        "GIS tools",
+        "CRM systems"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "kelfoncier",
+        "cityscan"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.urbanease.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "ylopo",
+      "name": "Ylopo",
+      "editor": "Ylopo",
+      "website": "https://www.ylopo.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "ai-assistants",
+      "also_in": [
+        "agent-marketing",
+        "crm-lead"
+      ],
+      "founded": 2016,
+      "positioning": "Advertising and AI follow-up bolted onto the CRM a team already uses, instead of replacing it.",
+      "description": "Ylopo runs paid lead generation on Google and Meta, provides branded home search sites, and layers AI text and voice follow-up on top of an existing CRM — most commonly Follow Up Boss — rather than asking a team to migrate.\n",
+      "real_estate_use": "Teams that already standardised on a CRM will not move for an ad product. Ylopo's design reflects that: it generates and nurtures, and writes everything back into the CRM of record. Its dynamic listing ads and seller-lead products are the practical draw, with AI voice follow-up handling first contact at scale.\n",
+      "features": [
+        "Managed Google and Meta advertising for buyer and seller leads",
+        "Branded home search sites with behavioural tracking",
+        "AI text and AI voice follow-up on new and aged leads",
+        "Dynamic remarketing ads featuring listings a lead viewed",
+        "Seller lead products with valuation landing pages",
+        "Write-back into an existing CRM rather than replacing it"
+      ],
+      "use_cases": [
+        {
+          "persona": "brokerage",
+          "job": "Add paid acquisition and AI follow-up without migrating off the current CRM"
+        },
+        {
+          "persona": "agent-broker",
+          "job": "Retarget past site visitors with the specific homes they looked at"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Follow Up Boss",
+        "BoldTrail",
+        "Lofty",
+        "Sierra Interactive"
+      ],
+      "ai": {
+        "capabilities": [
+          "AI text and voice lead follow-up",
+          "Behavioural retargeting"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "structurely",
+        "lofty",
+        "boldtrail"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.ylopo.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "zillow",
+      "name": "Zillow",
+      "editor": "Zillow Group",
+      "website": "https://www.zillow.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "portals-marketplaces",
+      "also_in": [
+        "estimation-pricing",
+        "crm-lead"
+      ],
+      "founded": 2006,
+      "positioning": "The consumer entry point to US residential real estate, and therefore the largest paid lead channel for agents.",
+      "description": "Zillow is a consumer property portal carrying for-sale, for-rent and off-market inventory, the Zestimate automated valuation, and a set of professional products — Premier Agent advertising, Zillow Showcase listing enhancement, rental listing syndication and a mortgage marketplace.\n",
+      "real_estate_use": "For an agent, Zillow is rarely a listing tool and almost always an acquisition channel: buyer leads are sold by ZIP code share of voice through Premier Agent, and a seller conversation frequently starts from a Zestimate the owner has already seen. For a landlord, the rentals network is a primary source of applicants. Its data is also the reference point clients bring to a pricing meeting.\n",
+      "features": [
+        "Consumer for-sale, for-rent and off-market property search",
+        "Zestimate automated valuation on most US homes",
+        "Premier Agent advertising sold by ZIP code",
+        "Zillow Showcase enhanced listing presentation",
+        "Rental listing syndication and application handling",
+        "Agent finder and review profiles"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Buy buyer-side leads in a target ZIP code and measure cost per closing"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "Advertise a rental unit and collect applications from a national audience"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage",
+        "landlord-owner",
+        "tenant-occupier"
+      ],
+      "segments": [
+        "residential",
+        "multifamily"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "usage",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Follow Up Boss",
+        "dotloop",
+        "MLS feeds",
+        "major CRMs"
+      ],
+      "ai": {
+        "capabilities": [
+          "Zestimate valuation model",
+          "Natural language property search"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "realtor-com",
+        "homes-com",
+        "apartments-com"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.zillow.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    }
+  ]
+}

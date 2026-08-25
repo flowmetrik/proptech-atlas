@@ -1,0 +1,88 @@
+{
+  "slug": "check-and-visit",
+  "name": "Check & Visit",
+  "editor": "Check & Visit",
+  "website": "https://www.checkandvisit.com",
+  "hq_country": "FR",
+  "markets": [
+    "FR"
+  ],
+  "category": "diagnostics-compliance",
+  "also_in": [
+    "property-management",
+    "visuals-tours"
+  ],
+  "positioning": "Inspection software combined with a field network — the report can be produced by their operator rather than by your staff.",
+  "description": "Check & Visit provides digital état des lieux and property visit software for French professionals, together with a network of field operators who can carry out the inspection on the manager's behalf, and 3D capture options attached to the same record.\n",
+  "real_estate_use": "For a manager with dispersed properties, the constraint on inspections is travel time, not software. Outsourcing the visit to a local operator while keeping the report in the same digital format lets a lettings team scale without hiring inspectors — and the attached 3D capture doubles as a marketing asset for the next letting.\n",
+  "features": [
+    "Digital état des lieux with photographic evidence",
+    "Field operator network performing inspections on request",
+    "3D capture and virtual visit attached to the property record",
+    "Electronic signature and report generation",
+    "Portfolio dashboard for inspection status",
+    "Integration with management software"
+  ],
+  "use_cases": [
+    {
+      "persona": "property-manager",
+      "job": "Have inspections carried out on dispersed properties without hiring inspectors"
+    },
+    {
+      "persona": "agent-broker",
+      "job": "Capture a 3D visit at the same appointment as the inspection"
+    }
+  ],
+  "personas": [
+    "property-manager",
+    "agent-broker",
+    "landlord-owner"
+  ],
+  "segments": [
+    "residential",
+    "office",
+    "mixed-use"
+  ],
+  "company_sizes": [
+    "smb",
+    "midmarket",
+    "enterprise"
+  ],
+  "pricing": {
+    "model": "usage",
+    "public_pricing": false
+  },
+  "integrations": [
+    "French management software",
+    "electronic signature"
+  ],
+  "product": {
+    "api": true,
+    "open_source": false,
+    "mobile": [
+      "ios",
+      "android"
+    ],
+    "languages": [
+      "fr"
+    ]
+  },
+  "alternatives": [
+    "immopad",
+    "startloc",
+    "matterport"
+  ],
+  "reviews": [],
+  "sources": [
+    {
+      "url": "https://www.checkandvisit.com",
+      "note": "site éditeur"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-25"
+}

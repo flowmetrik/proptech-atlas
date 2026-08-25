@@ -1,0 +1,88 @@
+{
+  "slug": "graneet",
+  "name": "Graneet",
+  "editor": "Graneet",
+  "website": "https://www.graneet.fr",
+  "hq_country": "FR",
+  "markets": [
+    "FR"
+  ],
+  "category": "construction-development",
+  "also_in": [
+    "back-office-accounting"
+  ],
+  "positioning": "Management software for French construction firms, built around the progress statement rather than the invoice.",
+  "description": "Graneet is a French SaaS for building and public works companies: quotes and bills of quantities, progress-based billing, purchase and subcontract tracking, site cost monitoring, cash flow forecasting and profitability analysis per site.\n",
+  "real_estate_use": "Construction firms in France bill by situation de travaux — a periodic statement of work completed — and their margin is decided by the gap between the estimate and the actual site cost. Graneet keeps both in one place, so a site foreman's committed purchases are visible against the quoted budget before the loss is realised at closing.\n",
+  "features": [
+    "Quotes and bills of quantities with libraries",
+    "Progress-based billing and situations de travaux",
+    "Purchase orders and subcontract tracking",
+    "Site cost monitoring against the quoted budget",
+    "Cash flow forecasting and retention tracking",
+    "Profitability analysis per site and per client"
+  ],
+  "use_cases": [
+    {
+      "persona": "developer-builder",
+      "job": "Bill by progress statement and see committed cost against the quote in real time"
+    },
+    {
+      "persona": "developer-builder",
+      "job": "Forecast cash flow across sites including retentions and payment terms"
+    }
+  ],
+  "personas": [
+    "developer-builder"
+  ],
+  "segments": [
+    "residential",
+    "office",
+    "retail",
+    "industrial",
+    "land-development"
+  ],
+  "company_sizes": [
+    "smb",
+    "midmarket"
+  ],
+  "pricing": {
+    "model": "subscription",
+    "public_pricing": false
+  },
+  "integrations": [
+    "accounting software",
+    "banking",
+    "Sage",
+    "Pennylane"
+  ],
+  "product": {
+    "api": true,
+    "open_source": false,
+    "mobile": [
+      "ios",
+      "android"
+    ],
+    "languages": [
+      "fr"
+    ]
+  },
+  "alternatives": [
+    "obat",
+    "vertuoza",
+    "batappli"
+  ],
+  "reviews": [],
+  "sources": [
+    {
+      "url": "https://www.graneet.fr",
+      "note": "site éditeur"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-25"
+}

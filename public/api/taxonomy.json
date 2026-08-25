@@ -1,0 +1,370 @@
+{
+  "categories": [
+    {
+      "id": "crm-lead",
+      "label_en": "CRM & lead management",
+      "label_fr": "CRM & gestion des leads",
+      "summary_en": "Capture, qualify and nurture buyer, seller and tenant leads.",
+      "summary_fr": "Capter, qualifier et travailler les leads acquéreurs, vendeurs et locataires."
+    },
+    {
+      "id": "transaction-management",
+      "label_en": "Transaction & closing management",
+      "label_fr": "Gestion de transaction & closing",
+      "summary_en": "Run a deal from offer to closing — forms, e-signature, compliance, commissions.",
+      "summary_fr": "Piloter une vente de l'offre à l'acte — pièces, signature, conformité, commissions."
+    },
+    {
+      "id": "portals-marketplaces",
+      "label_en": "Portals & marketplaces",
+      "label_fr": "Portails & places de marché",
+      "summary_en": "Where supply meets demand in public — consumer portals, listing networks and transactional marketplaces.",
+      "summary_fr": "Là où l'offre rencontre la demande en public — portails grand public, réseaux d'annonces et places de marché transactionnelles."
+    },
+    {
+      "id": "market-data",
+      "label_en": "Market data & property intelligence",
+      "label_fr": "Data de marché & intelligence immobilière",
+      "summary_en": "Comparables, ownership, transactions, rents, footfall and the datasets other products are built on.",
+      "summary_fr": "Comparables, propriétaires, transactions, loyers, fréquentation et les jeux de données sur lesquels d'autres produits sont bâtis."
+    },
+    {
+      "id": "listing-syndication",
+      "label_en": "Listing publishing & syndication",
+      "label_fr": "Publication & diffusion d'annonces",
+      "summary_en": "Software that formats and pushes a portfolio of listings out to portals and partner networks.",
+      "summary_fr": "Le logiciel qui met en forme et pousse un portefeuille d'annonces vers les portails et les réseaux partenaires."
+    },
+    {
+      "id": "agent-marketing",
+      "label_en": "Agent websites & marketing",
+      "label_fr": "Sites d'agence & marketing immobilier",
+      "summary_en": "Websites, IDX search, branding and campaigns for agents and brokerages.",
+      "summary_fr": "Sites, recherche IDX, marque et campagnes pour agents et agences."
+    },
+    {
+      "id": "estimation-pricing",
+      "label_en": "Valuation, pricing & farming",
+      "label_fr": "Estimation, pige & valorisation",
+      "summary_en": "Automated valuation, comparables, owner farming and pricing intelligence.",
+      "summary_fr": "Estimation automatisée, comparables, pige propriétaires et pricing."
+    },
+    {
+      "id": "property-management",
+      "label_en": "Residential property management",
+      "label_fr": "Gestion locative résidentielle",
+      "summary_en": "Leases, rent, owners, tenants, maintenance and trust accounting.",
+      "summary_fr": "Baux, quittances, propriétaires, locataires, travaux et comptabilité mandant."
+    },
+    {
+      "id": "syndic-copro",
+      "label_en": "HOA & condominium management",
+      "label_fr": "Syndic & copropriété",
+      "summary_en": "Manage co-owned buildings — budgets, assemblies, calls for funds, works.",
+      "summary_fr": "Gérer l'immeuble en copropriété — budgets, AG, appels de fonds, travaux."
+    },
+    {
+      "id": "commercial-am",
+      "label_en": "Commercial asset & property management",
+      "label_fr": "Asset & property management tertiaire",
+      "summary_en": "Institutional-grade lease, asset and portfolio administration.",
+      "summary_fr": "Administration institutionnelle des baux, actifs et portefeuilles."
+    },
+    {
+      "id": "investment-underwriting",
+      "label_en": "Investment analysis & underwriting",
+      "label_fr": "Analyse d'investissement & underwriting",
+      "summary_en": "Model a deal, run scenarios, produce an investment memo.",
+      "summary_fr": "Modéliser une opération, tester des scénarios, produire un mémo d'investissement."
+    },
+    {
+      "id": "lending-mortgage",
+      "label_en": "Lending, mortgage & brokerage",
+      "label_fr": "Financement, crédit & courtage",
+      "summary_en": "Originate, price and service real estate debt.",
+      "summary_fr": "Monter, tarifer et gérer le crédit immobilier."
+    },
+    {
+      "id": "title-closing-legal",
+      "label_en": "Title, escrow & legal",
+      "label_fr": "Notariat, titre & juridique",
+      "summary_en": "Title search, escrow, deeds and the legal chain of a transfer.",
+      "summary_fr": "Recherche de titre, séquestre, actes et chaîne juridique de la mutation."
+    },
+    {
+      "id": "construction-development",
+      "label_en": "Construction & development",
+      "label_fr": "Construction & promotion",
+      "summary_en": "Feasibility, project management, site supervision and delivery.",
+      "summary_fr": "Faisabilité, pilotage de projet, suivi de chantier et livraison."
+    },
+    {
+      "id": "facility-maintenance",
+      "label_en": "Facility management & maintenance",
+      "label_fr": "Facility management & maintenance",
+      "summary_en": "Work orders, contractors, assets and preventive maintenance.",
+      "summary_fr": "Interventions, prestataires, équipements et maintenance préventive."
+    },
+    {
+      "id": "energy-esg",
+      "label_en": "Energy, ESG & building performance",
+      "label_fr": "Énergie, ESG & performance du bâtiment",
+      "summary_en": "Meter data, carbon trajectory, regulatory reporting and retrofit planning.",
+      "summary_fr": "Données compteurs, trajectoire carbone, reporting réglementaire et plan de travaux."
+    },
+    {
+      "id": "tenant-experience",
+      "label_en": "Tenant experience & smart building",
+      "label_fr": "Expérience occupant & smart building",
+      "summary_en": "Occupant apps, access, bookings, services and building IoT.",
+      "summary_fr": "Applications occupants, accès, réservations, services et IoT du bâtiment."
+    },
+    {
+      "id": "flex-coworking",
+      "label_en": "Flex space & coworking",
+      "label_fr": "Flex office & coworking",
+      "summary_en": "Memberships, desk booking, billing and community for flexible workspace.",
+      "summary_fr": "Abonnements, réservation de postes, facturation et animation d'espaces flexibles."
+    },
+    {
+      "id": "short-term-rental",
+      "label_en": "Short-term rental management",
+      "label_fr": "Location courte durée",
+      "summary_en": "Channel management, pricing, guest comms and cleaning for STR portfolios.",
+      "summary_fr": "Channel manager, pricing, relation voyageur et ménage pour la courte durée."
+    },
+    {
+      "id": "visuals-tours",
+      "label_en": "Visuals, 3D tours & staging",
+      "label_fr": "Visuels, visite 3D & home staging",
+      "summary_en": "Photography, floor plans, virtual tours and virtual staging.",
+      "summary_fr": "Photo, plans, visites virtuelles et home staging virtuel."
+    },
+    {
+      "id": "diagnostics-compliance",
+      "label_en": "Diagnostics & compliance",
+      "label_fr": "Diagnostics & conformité",
+      "summary_en": "Mandatory surveys, disclosures and regulatory files attached to a property.",
+      "summary_fr": "Diagnostics obligatoires, informations acquéreur et dossiers réglementaires du bien."
+    },
+    {
+      "id": "tenant-screening",
+      "label_en": "Tenant screening & rent guarantee",
+      "label_fr": "Dossier locataire & garanties",
+      "summary_en": "Verify an applicant's file, guarantee the rent, sign the lease.",
+      "summary_fr": "Vérifier un dossier, garantir le loyer, signer le bail."
+    },
+    {
+      "id": "back-office-accounting",
+      "label_en": "Real estate back office & accounting",
+      "label_fr": "Back-office & comptabilité immobilière",
+      "summary_en": "Trust accounting, owner statements, commissions and brokerage back office.",
+      "summary_fr": "Comptabilité mandant, reddition de comptes, commissions et back-office d'agence."
+    },
+    {
+      "id": "ai-assistants",
+      "label_en": "AI agents & automation",
+      "label_fr": "Agents IA & automatisation",
+      "summary_en": "LLM-native assistants that answer, qualify, draft and act on real estate work.",
+      "summary_fr": "Assistants LLM qui répondent, qualifient, rédigent et agissent sur le métier."
+    }
+  ],
+  "personas": [
+    {
+      "id": "agent-broker",
+      "label_en": "Agent & broker",
+      "label_fr": "Agent & mandataire"
+    },
+    {
+      "id": "brokerage",
+      "label_en": "Brokerage & network",
+      "label_fr": "Agence & réseau"
+    },
+    {
+      "id": "property-manager",
+      "label_en": "Property manager",
+      "label_fr": "Gestionnaire locatif"
+    },
+    {
+      "id": "syndic-manager",
+      "label_en": "HOA / condo manager",
+      "label_fr": "Syndic de copropriété"
+    },
+    {
+      "id": "landlord-owner",
+      "label_en": "Landlord & owner",
+      "label_fr": "Bailleur & propriétaire"
+    },
+    {
+      "id": "investor-am",
+      "label_en": "Investor & asset manager",
+      "label_fr": "Investisseur & asset manager"
+    },
+    {
+      "id": "developer-builder",
+      "label_en": "Developer & builder",
+      "label_fr": "Promoteur & constructeur"
+    },
+    {
+      "id": "lender-broker",
+      "label_en": "Lender & mortgage broker",
+      "label_fr": "Prêteur & courtier"
+    },
+    {
+      "id": "corporate-re",
+      "label_en": "Corporate real estate",
+      "label_fr": "Direction immobilière"
+    },
+    {
+      "id": "facility-manager",
+      "label_en": "Facility manager",
+      "label_fr": "Facility manager"
+    },
+    {
+      "id": "appraiser",
+      "label_en": "Appraiser & valuer",
+      "label_fr": "Expert & évaluateur"
+    },
+    {
+      "id": "legal-notary",
+      "label_en": "Legal",
+      "title & notary": null,
+      "label_fr": "Juriste & notaire"
+    },
+    {
+      "id": "tenant-occupier",
+      "label_en": "Tenant & occupier",
+      "label_fr": "Locataire & occupant"
+    }
+  ],
+  "segments": [
+    {
+      "id": "residential",
+      "label_en": "Residential",
+      "label_fr": "Résidentiel"
+    },
+    {
+      "id": "multifamily",
+      "label_en": "Multifamily",
+      "label_fr": "Résidentiel collectif"
+    },
+    {
+      "id": "office",
+      "label_en": "Office",
+      "label_fr": "Bureaux"
+    },
+    {
+      "id": "retail",
+      "label_en": "Retail",
+      "label_fr": "Commerce"
+    },
+    {
+      "id": "industrial",
+      "label_en": "Industrial & logistics",
+      "label_fr": "Industriel & logistique"
+    },
+    {
+      "id": "hospitality",
+      "label_en": "Hospitality & STR",
+      "label_fr": "Hôtellerie & courte durée"
+    },
+    {
+      "id": "land-development",
+      "label_en": "Land & development",
+      "label_fr": "Foncier & promotion"
+    },
+    {
+      "id": "mixed-use",
+      "label_en": "Mixed use",
+      "label_fr": "Mixte"
+    },
+    {
+      "id": "coliving-student",
+      "label_en": "Coliving & student",
+      "label_fr": "Coliving & résidences gérées"
+    },
+    {
+      "id": "healthcare-senior",
+      "label_en": "Healthcare & senior",
+      "label_fr": "Santé & seniors"
+    }
+  ],
+  "company_sizes": [
+    {
+      "id": "solo",
+      "label_en": "Solo & very small",
+      "label_fr": "Solo & très petite structure"
+    },
+    {
+      "id": "smb",
+      "label_en": "SMB",
+      "label_fr": "PME"
+    },
+    {
+      "id": "midmarket",
+      "label_en": "Mid-market",
+      "label_fr": "ETI"
+    },
+    {
+      "id": "enterprise",
+      "label_en": "Enterprise",
+      "label_fr": "Grand compte"
+    }
+  ],
+  "markets": [
+    {
+      "id": "US",
+      "label_en": "United States",
+      "label_fr": "États-Unis",
+      "flag": "🇺🇸"
+    },
+    {
+      "id": "FR",
+      "label_en": "France",
+      "label_fr": "France",
+      "flag": "🇫🇷"
+    }
+  ],
+  "pricing_models": [
+    {
+      "id": "subscription",
+      "label_en": "Subscription",
+      "label_fr": "Abonnement"
+    },
+    {
+      "id": "per-unit",
+      "label_en": "Per unit / per door",
+      "label_fr": "Par lot géré"
+    },
+    {
+      "id": "per-seat",
+      "label_en": "Per seat",
+      "label_fr": "Par utilisateur"
+    },
+    {
+      "id": "usage",
+      "label_en": "Usage based",
+      "label_fr": "À l'usage"
+    },
+    {
+      "id": "commission",
+      "label_en": "Commission / success fee",
+      "label_fr": "Commission au succès"
+    },
+    {
+      "id": "freemium",
+      "label_en": "Freemium",
+      "label_fr": "Freemium"
+    },
+    {
+      "id": "quote",
+      "label_en": "Quote only",
+      "label_fr": "Sur devis"
+    },
+    {
+      "id": "free",
+      "label_en": "Free / public",
+      "label_fr": "Gratuit / public"
+    }
+  ]
+}

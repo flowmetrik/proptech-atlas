@@ -1,0 +1,82 @@
+{
+  "slug": "watchwire",
+  "name": "WatchWire",
+  "editor": "WatchWire",
+  "website": "https://watchwire.ai",
+  "hq_country": "US",
+  "markets": [
+    "US"
+  ],
+  "category": "energy-esg",
+  "positioning": "Energy and sustainability data management for portfolios where the utility bill itself is the problem.",
+  "description": "WatchWire aggregates utility invoices, interval meter data and weather data to produce energy analytics, bill validation, budgeting and forecasting, benchmarking submissions and sustainability reporting for commercial portfolios.\n",
+  "real_estate_use": "Large portfolios lose money to billing errors and to demand charges nobody notices. WatchWire validates invoices against tariffs and consumption, flags anomalies, and produces the benchmarking submissions that US local ordinances now require — the New York and other city disclosure laws being the practical driver for many buyers.\n",
+  "features": [
+    "Utility bill capture, validation and exception flagging",
+    "Interval meter and weather-normalised analytics",
+    "Energy budgeting and forecasting",
+    "Local benchmarking ordinance and ENERGY STAR submissions",
+    "Emissions accounting and sustainability reporting",
+    "Portfolio and asset-level dashboards"
+  ],
+  "use_cases": [
+    {
+      "persona": "facility-manager",
+      "job": "Catch utility billing errors and demand charge anomalies before payment"
+    },
+    {
+      "persona": "corporate-re",
+      "job": "Meet city benchmarking disclosure obligations across a portfolio"
+    }
+  ],
+  "personas": [
+    "facility-manager",
+    "corporate-re",
+    "investor-am"
+  ],
+  "segments": [
+    "office",
+    "retail",
+    "industrial",
+    "multifamily"
+  ],
+  "company_sizes": [
+    "midmarket",
+    "enterprise"
+  ],
+  "pricing": {
+    "model": "quote",
+    "public_pricing": false
+  },
+  "integrations": [
+    "ENERGY STAR Portfolio Manager",
+    "utility providers",
+    "Yardi",
+    "MRI"
+  ],
+  "product": {
+    "api": true,
+    "open_source": false,
+    "mobile": [],
+    "languages": [
+      "en"
+    ]
+  },
+  "alternatives": [
+    "measurabl",
+    "energystar-portfolio-manager"
+  ],
+  "reviews": [],
+  "sources": [
+    {
+      "url": "https://watchwire.ai",
+      "note": "site éditeur"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-25"
+}

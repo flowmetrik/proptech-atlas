@@ -1,0 +1,83 @@
+{
+  "slug": "dossierfacile",
+  "name": "DossierFacile",
+  "editor": "État français — Fabrique numérique du ministère de la Transition écologique",
+  "website": "https://www.dossierfacile.logement.gouv.fr",
+  "hq_country": "FR",
+  "markets": [
+    "FR"
+  ],
+  "category": "tenant-screening",
+  "founded": 2019,
+  "positioning": "A public service that produces a certified, watermarked tenant file — free, open source, and designed to make forgery pointless.",
+  "description": "DossierFacile is a French public digital service that helps a rental candidate assemble their application file, checks it against the list of documents a landlord may legally request, and issues a verified PDF whose pages are watermarked and whose authenticity can be confirmed online. The code is published as open source.\n",
+  "real_estate_use": "It addresses two failures at once. Candidates submit incomplete files and are rejected without knowing why; landlords receive falsified pay slips and cannot tell. A DossierFacile file arrives complete, in the legal scope, and verifiable — and because the service is free and public, it is increasingly accepted as the standard format by agencies and guarantee schemes.\n",
+  "features": [
+    "Guided assembly of a complete rental application file",
+    "Verification against the legally permitted document list",
+    "Watermarked, tamper-evident PDF output",
+    "Online authenticity verification for landlords",
+    "Coverage of employee, student, self-employed and guarantor cases",
+    "Open source codebase and public API"
+  ],
+  "use_cases": [
+    {
+      "persona": "tenant-occupier",
+      "job": "Submit a complete, verifiable rental file that agencies will accept"
+    },
+    {
+      "persona": "landlord-owner",
+      "job": "Receive an application file whose documents can be checked for tampering"
+    }
+  ],
+  "personas": [
+    "tenant-occupier",
+    "landlord-owner",
+    "property-manager",
+    "agent-broker"
+  ],
+  "segments": [
+    "residential",
+    "coliving-student"
+  ],
+  "company_sizes": [
+    "solo",
+    "smb",
+    "midmarket",
+    "enterprise"
+  ],
+  "pricing": {
+    "model": "free",
+    "public_pricing": true,
+    "url": "https://www.dossierfacile.logement.gouv.fr"
+  },
+  "integrations": [
+    "rental platforms",
+    "guarantee schemes",
+    "public API"
+  ],
+  "product": {
+    "api": true,
+    "open_source": true,
+    "mobile": [],
+    "languages": [
+      "fr"
+    ]
+  },
+  "alternatives": [
+    "rentspree"
+  ],
+  "reviews": [],
+  "sources": [
+    {
+      "url": "https://www.dossierfacile.logement.gouv.fr",
+      "note": "site éditeur"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-25"
+}

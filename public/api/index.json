@@ -1,0 +1,23 @@
+{
+  "name": "PropTech Atlas",
+  "description": "Open Product Knowledge Graph of real estate software — United States & France.",
+  "license": "CC-BY-4.0 (data) / MIT (code)",
+  "homepage": "https://flowmetrik.github.io/proptech-atlas",
+  "repository": "https://github.com/flowmetrik/proptech-atlas",
+  "generated": "2026-08-25",
+  "counts": {
+    "tools": 155,
+    "US": 96,
+    "FR": 88,
+    "categories": 24,
+    "verified": 0,
+    "reviews": 0
+  },
+  "endpoints": {
+    "tools": "https://flowmetrik.github.io/proptech-atlas/api/tools.json",
+    "tool": "https://flowmetrik.github.io/proptech-atlas/api/tools/{slug}.json",
+    "category": "https://flowmetrik.github.io/proptech-atlas/api/categories/{id}.json",
+    "taxonomy": "https://flowmetrik.github.io/proptech-atlas/api/taxonomy.json",
+    "graph": "https://flowmetrik.github.io/proptech-atlas/api/graph.json"
+  }
+}

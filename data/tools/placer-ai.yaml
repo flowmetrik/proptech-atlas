@@ -1,0 +1,50 @@
+slug: placer-ai
+name: Placer.ai
+editor: Placer Labs
+website: https://www.placer.ai
+hq_country: US
+markets: [US, FR]
+category: market-data
+also_in: [investment-underwriting]
+founded: 2016
+positioning: Foot traffic as a leasing argument — how many people actually walk into this centre, and where else do they go.
+description: >
+  Placer.ai turns anonymised mobile location data into visit metrics for physical venues:
+  visit counts, dwell time, trade-area maps, visitor demographics and cross-shopping between
+  brands. Coverage is strongest in the US, with an expanding international footprint.
+real_estate_use: >
+  In retail leasing it replaces the argument from intuition. A landlord shows a prospective
+  tenant that the centre draws a measured number of visits from a trade area matching the
+  brand's customer profile. Investors use the same data to underwrite retail assets and to
+  spot decline before it appears in the rent roll.
+features:
+  - Visit counts and trends per venue and per chain
+  - Trade-area maps and visitor origin analysis
+  - Visitor demographics and psychographic segments
+  - Cross-visitation between brands and centres
+  - Site selection scoring for new locations
+  - Void analysis and competitive benchmarking
+use_cases:
+  - persona: investor-am
+    job: Underwrite a retail asset on measured footfall rather than on reported sales
+  - persona: agent-broker
+    job: Prove trade-area quality to a retail tenant during lease negotiation
+personas: [investor-am, agent-broker, corporate-re, developer-builder]
+segments: [retail, mixed-use, hospitality]
+company_sizes: [smb, midmarket, enterprise]
+pricing:
+  model: subscription
+  public_pricing: false
+integrations: [Excel, Tableau, Power BI, REST API]
+ai:
+  capabilities: [Visit estimation models from mobile location panels, Trade-area prediction]
+product:
+  api: true
+  open_source: false
+  mobile: []
+  languages: [en]
+alternatives: [costar, cityscan]
+reviews: []
+sources: [{ url: https://www.placer.ai, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

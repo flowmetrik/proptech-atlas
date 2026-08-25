@@ -1,0 +1,99 @@
+{
+  "slug": "mri-software",
+  "name": "MRI Software",
+  "editor": "MRI Software",
+  "website": "https://www.mrisoftware.com",
+  "hq_country": "US",
+  "markets": [
+    "US",
+    "FR"
+  ],
+  "category": "commercial-am",
+  "also_in": [
+    "property-management",
+    "facility-maintenance"
+  ],
+  "founded": 1971,
+  "positioning": "The open alternative to a single-vendor stack — bring your own best-of-breed and let MRI hold the lease and the ledger.",
+  "description": "MRI Software provides property and lease management, accounting, investment management, facilities and workplace products across commercial and residential real estate worldwide. Its stated strategy is an open platform: published APIs and a partner ecosystem rather than a closed suite.\n",
+  "real_estate_use": "A European or transatlantic owner often cannot standardise on one vendor — local accounting, local leasing practice and existing systems all resist it. MRI is chosen when the lease and financial core must be common while country teams keep their own tools around it. In France it supports local lease and accounting requirements alongside Anglo-Saxon reporting.\n",
+  "features": [
+    "Commercial and residential lease and property management",
+    "Real estate accounting with multi-entity and multi-currency",
+    "Investment management and investor reporting",
+    "Facilities management and workplace modules",
+    "Lease accounting compliance for IFRS 16 and ASC 842",
+    "Open APIs and a partner integration ecosystem"
+  ],
+  "use_cases": [
+    {
+      "persona": "investor-am",
+      "job": "Consolidate a cross-border portfolio while local teams keep their own tools"
+    },
+    {
+      "persona": "corporate-re",
+      "job": "Meet IFRS 16 lease accounting obligations from the lease system itself"
+    }
+  ],
+  "personas": [
+    "investor-am",
+    "corporate-re",
+    "property-manager",
+    "facility-manager"
+  ],
+  "segments": [
+    "office",
+    "retail",
+    "industrial",
+    "multifamily",
+    "mixed-use"
+  ],
+  "company_sizes": [
+    "midmarket",
+    "enterprise"
+  ],
+  "pricing": {
+    "model": "quote",
+    "public_pricing": false
+  },
+  "integrations": [
+    "SAP",
+    "Oracle",
+    "Cherre",
+    "Deepki",
+    "partner ecosystem APIs"
+  ],
+  "product": {
+    "api": true,
+    "open_source": false,
+    "mobile": [
+      "ios",
+      "android"
+    ],
+    "languages": [
+      "en",
+      "fr",
+      "de",
+      "es",
+      "nl"
+    ]
+  },
+  "alternatives": [
+    "yardi-voyager",
+    "realpage",
+    "visual-lease"
+  ],
+  "reviews": [],
+  "sources": [
+    {
+      "url": "https://www.mrisoftware.com",
+      "note": "site éditeur"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-25"
+}

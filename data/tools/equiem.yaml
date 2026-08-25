@@ -1,0 +1,47 @@
+slug: equiem
+name: Equiem
+editor: Equiem
+website: https://getequiem.com
+hq_country: AU
+markets: [US, FR]
+category: tenant-experience
+founded: 2011
+positioning: Tenant experience with an editorial team behind it — the content is the product, not just the app shell.
+description: >
+  Equiem provides a tenant app and portal for office and mixed-use buildings covering
+  communications, bookings, access, retail offers and events, differentiated by managed
+  content services that produce building communications on the landlord's behalf.
+real_estate_use: >
+  Most tenant apps fail from emptiness: nobody at the landlord has time to post anything, so
+  occupants stop opening it. Equiem sells the editorial capacity alongside the platform,
+  which is why it is chosen by landlords who want engagement without hiring a community
+  manager per building.
+features:
+  - Tenant app and web portal for a building or campus
+  - Managed content and communications services
+  - Amenity, room and event booking
+  - Retail and service offers with local vendors
+  - Access control integration and mobile credentials
+  - Engagement and utilisation analytics
+use_cases:
+  - persona: investor-am
+    job: Keep a tenant app genuinely used without hiring a community manager per building
+  - persona: property-manager
+    job: Communicate building notices and events to occupants directly
+personas: [investor-am, property-manager, tenant-occupier, corporate-re]
+segments: [office, mixed-use, retail]
+company_sizes: [midmarket, enterprise]
+pricing:
+  model: quote
+  public_pricing: false
+integrations: [access control systems, building management systems]
+product:
+  api: true
+  open_source: false
+  mobile: [ios, android]
+  languages: [en, fr]
+alternatives: [hqo]
+reviews: []
+sources: [{ url: https://getequiem.com, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

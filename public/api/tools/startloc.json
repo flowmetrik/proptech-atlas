@@ -1,0 +1,84 @@
+{
+  "slug": "startloc",
+  "name": "Startloc",
+  "editor": "Startloc",
+  "website": "https://www.startloc.fr",
+  "hq_country": "FR",
+  "markets": [
+    "FR"
+  ],
+  "category": "diagnostics-compliance",
+  "also_in": [
+    "property-management"
+  ],
+  "positioning": "État des lieux software priced for the individual landlord, not just the agency.",
+  "description": "Startloc is a French application for producing entry and exit état des lieux on phone or tablet: guided room-by-room capture, photographs, electronic signature by both parties and PDF report generation, sold at a per-inspection or subscription price accessible to individuals.\n",
+  "real_estate_use": "The private landlord doing their own inspection is exactly the person most exposed at exit, because their entry document is usually thin. A guided capture forces completeness — every room, every element, dated photographs — and the signed PDF is what the deposit deduction will rest on if the tenant contests it.\n",
+  "features": [
+    "Guided room-by-room inspection capture",
+    "Photographic evidence attached to each element",
+    "Electronic signature by landlord and tenant on site",
+    "Entry-to-exit comparison",
+    "PDF report generation and storage",
+    "Meter reading and key handover recording"
+  ],
+  "use_cases": [
+    {
+      "persona": "landlord-owner",
+      "job": "Produce a complete entry inspection that supports a later deposit deduction"
+    },
+    {
+      "persona": "agent-broker",
+      "job": "Run inspections on a phone without buying an agency-grade platform"
+    }
+  ],
+  "personas": [
+    "landlord-owner",
+    "agent-broker",
+    "property-manager"
+  ],
+  "segments": [
+    "residential"
+  ],
+  "company_sizes": [
+    "solo",
+    "smb"
+  ],
+  "pricing": {
+    "model": "usage",
+    "public_pricing": true,
+    "url": "https://www.startloc.fr/tarifs"
+  },
+  "integrations": [
+    "electronic signature",
+    "document storage"
+  ],
+  "product": {
+    "api": false,
+    "open_source": false,
+    "mobile": [
+      "ios",
+      "android"
+    ],
+    "languages": [
+      "fr"
+    ]
+  },
+  "alternatives": [
+    "immopad",
+    "check-and-visit"
+  ],
+  "reviews": [],
+  "sources": [
+    {
+      "url": "https://www.startloc.fr",
+      "note": "site éditeur"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-25"
+}

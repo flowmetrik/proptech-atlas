@@ -1,0 +1,48 @@
+slug: baselane
+name: Baselane
+editor: Baselane
+website: https://www.baselane.com
+hq_country: US
+markets: [US]
+category: back-office-accounting
+positioning: Banking and bookkeeping in one product — a separate account per property, without opening ten accounts at a bank.
+description: >
+  Baselane provides landlord banking with virtual accounts per property, rent collection,
+  automated bookkeeping against a real estate chart of accounts, and reporting. It combines
+  the deposit account and the accounting layer that would normally be two vendors.
+real_estate_use: >
+  Commingling funds across properties is the classic small-landlord accounting failure, and
+  the usual fix — a bank account per property — is administratively painful. Virtual
+  accounts give the same separation with one relationship, and because the money movement
+  and the bookkeeping share a system, categorisation is automatic rather than reconciled
+  later.
+features:
+  - Landlord banking with virtual accounts per property or unit
+  - Rent collection by ACH and card with automatic matching
+  - Automated bookkeeping to a real estate chart of accounts
+  - Security deposit segregation
+  - Cash flow and tax reporting per property
+  - Rent analysis and landlord loan options
+use_cases:
+  - persona: landlord-owner
+    job: Keep funds separated per property without opening an account for each one
+  - persona: investor-am
+    job: Have rent, expenses and books reconcile automatically instead of monthly
+personas: [landlord-owner, investor-am]
+segments: [residential, multifamily]
+company_sizes: [solo, smb]
+pricing:
+  model: freemium
+  public_pricing: true
+  url: https://www.baselane.com/pricing
+integrations: [bank feeds, TurboTenant, accounting exports]
+product:
+  api: false
+  open_source: false
+  mobile: [ios, android]
+  languages: [en]
+alternatives: [stessa]
+reviews: []
+sources: [{ url: https://www.baselane.com, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

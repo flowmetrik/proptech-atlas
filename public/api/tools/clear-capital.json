@@ -1,0 +1,82 @@
+{
+  "slug": "clear-capital",
+  "name": "Clear Capital",
+  "editor": "Clear Capital",
+  "website": "https://www.clearcapital.com",
+  "hq_country": "US",
+  "markets": [
+    "US"
+  ],
+  "category": "estimation-pricing",
+  "founded": 2001,
+  "positioning": "The full ladder of valuation products, from an instant AVM to a licensed appraiser standing in the property.",
+  "description": "Clear Capital provides residential valuation across the spectrum lenders need: automated valuations, broker price opinions, hybrid and desktop appraisals, property condition inspections captured through a mobile app, and appraisal review.\n",
+  "real_estate_use": "Loan servicing and origination require a valuation whose rigour matches the risk. A home equity line may justify an AVM; a default review needs a broker price opinion; a purchase needs a full appraisal. Clear Capital is bought so one vendor covers the ladder, with consistent data and turn-time reporting across all of them.\n",
+  "features": [
+    "ClearAVM automated valuation",
+    "Broker price opinions and desktop appraisals",
+    "Hybrid appraisal with third-party property inspection",
+    "Mobile property data collection in the field",
+    "Appraisal review and quality control",
+    "Nationwide field appraiser and inspector network"
+  ],
+  "use_cases": [
+    {
+      "persona": "lender-broker",
+      "job": "Match valuation rigour to loan risk without changing vendors each time"
+    },
+    {
+      "persona": "appraiser",
+      "job": "Take assigned inspection and appraisal work through a managed platform"
+    }
+  ],
+  "personas": [
+    "lender-broker",
+    "appraiser",
+    "investor-am"
+  ],
+  "segments": [
+    "residential"
+  ],
+  "company_sizes": [
+    "midmarket",
+    "enterprise"
+  ],
+  "pricing": {
+    "model": "usage",
+    "public_pricing": false
+  },
+  "integrations": [
+    "Encompass",
+    "loan origination systems",
+    "REST API"
+  ],
+  "product": {
+    "api": true,
+    "open_source": false,
+    "mobile": [
+      "ios",
+      "android"
+    ],
+    "languages": [
+      "en"
+    ]
+  },
+  "alternatives": [
+    "housecanary",
+    "attom-data"
+  ],
+  "reviews": [],
+  "sources": [
+    {
+      "url": "https://www.clearcapital.com",
+      "note": "site éditeur"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-25"
+}

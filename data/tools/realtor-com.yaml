@@ -1,0 +1,49 @@
+slug: realtor-com
+name: Realtor.com
+editor: Move, Inc. (News Corp)
+website: https://www.realtor.com
+hq_country: US
+markets: [US]
+category: portals-marketplaces
+also_in: [crm-lead]
+founded: 1996
+positioning: The portal operated under licence from the National Association of REALTORS, fed directly by MLS data.
+description: >
+  Realtor.com is a consumer portal whose distinguishing claim is data freshness: listings
+  come from MLS feeds under an NAR operating agreement rather than from scraped or
+  syndicated sources. Its professional side sells Connections Plus and Market Reach
+  advertising, and it owns rental products including Avail.
+real_estate_use: >
+  Agents buy exclusive or shared buyer leads by ZIP code and use the platform's listing
+  presence as a seller-pitch argument. Because the feed comes from the MLS, status changes
+  propagate faster than on aggregators, which matters when a client is comparing what is
+  actually still available.
+features:
+  - MLS-sourced for-sale and for-rent listings
+  - Connections Plus buyer lead products by ZIP code
+  - Market Reach display advertising to a farm area
+  - RealEstimate valuation range from multiple models
+  - Agent profiles and review collection
+  - Rental products including Avail for small landlords
+use_cases:
+  - persona: agent-broker
+    job: Acquire buyer leads in a defined ZIP code with MLS-accurate inventory behind them
+  - persona: agent-broker
+    job: Show a seller the reach their listing gets across the portal network
+personas: [agent-broker, brokerage, landlord-owner]
+segments: [residential, multifamily]
+company_sizes: [solo, smb, midmarket]
+pricing:
+  model: usage
+  public_pricing: false
+integrations: [Follow Up Boss, major CRMs, MLS feeds]
+product:
+  api: true
+  open_source: false
+  mobile: [ios, android]
+  languages: [en]
+alternatives: [zillow, homes-com, apartments-com]
+reviews: []
+sources: [{ url: https://www.realtor.com, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

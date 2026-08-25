@@ -1,0 +1,46 @@
+slug: leboncoin-immobilier
+name: Leboncoin Immobilier
+editor: Leboncoin (Adevinta)
+website: https://www.leboncoin.fr/immobilier
+hq_country: FR
+markets: [FR]
+category: portals-marketplaces
+positioning: The generalist classified site that became France's highest-traffic property channel — private sellers and agencies side by side.
+description: >
+  Leboncoin's real estate section carries both private-seller and professional listings for
+  sale and rental across France, sold to professionals through listing packs and visibility
+  options, and benefiting from the traffic of one of the country's largest websites.
+real_estate_use: >
+  Its dual nature defines its role. Agencies advertise here for volume at a lower cost per
+  listing than the professional portals. At the same time it is the main source for the
+  pige — the private-seller listings that agencies canvass for mandates. The same platform
+  is therefore both a marketing channel and a prospecting ground.
+features:
+  - Private and professional sale and rental listings
+  - Professional listing packs and visibility options
+  - National generalist audience
+  - Lead routing to professional accounts
+  - New-build and programme listings
+  - Rental application handling for some listing types
+use_cases:
+  - persona: brokerage
+    job: Reach the largest French property audience at a lower cost per listing
+  - persona: agent-broker
+    job: Identify private sellers to canvass for a mandate
+personas: [brokerage, agent-broker, landlord-owner, tenant-occupier]
+segments: [residential, mixed-use]
+company_sizes: [solo, smb, midmarket, enterprise]
+pricing:
+  model: subscription
+  public_pricing: false
+integrations: [Hektor, Netty, Apimo, Ubiflow, Pige Online]
+product:
+  api: true
+  open_source: false
+  mobile: [ios, android]
+  languages: [fr]
+alternatives: [seloger, bien-ici, pap]
+reviews: []
+sources: [{ url: https://www.leboncoin.fr/immobilier, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

@@ -1,0 +1,85 @@
+{
+  "slug": "floify",
+  "name": "Floify",
+  "editor": "Floify (Porch Group)",
+  "website": "https://floify.com",
+  "hq_country": "US",
+  "markets": [
+    "US"
+  ],
+  "category": "lending-mortgage",
+  "founded": 2013,
+  "positioning": "Document collection and borrower communication for the individual loan originator, not the enterprise.",
+  "description": "Floify is a mortgage point-of-sale and document portal: borrower application intake, secure document collection with automated chasing, milestone notifications to all parties, and loan officer pipeline tools, sold at a price an individual originator can carry.\n",
+  "real_estate_use": "Most of a loan officer's day is chasing paperwork and telling agents where the file stands. Floify automates both — it requests missing documents until they arrive, and notifies the borrower and both agents at each milestone. For a small brokerage or an independent originator it replaces the enterprise point-of-sale they cannot buy.\n",
+  "features": [
+    "Borrower document portal with automated follow-up requests",
+    "Loan application intake and 1003 form handling",
+    "Milestone notifications to borrower, agents and partners",
+    "Loan officer pipeline and task management",
+    "E-signature and secure document storage",
+    "Integration with origination systems and credit providers"
+  ],
+  "use_cases": [
+    {
+      "persona": "lender-broker",
+      "job": "Stop chasing borrower documents manually on every file"
+    },
+    {
+      "persona": "agent-broker",
+      "job": "See loan milestone status without calling the loan officer"
+    }
+  ],
+  "personas": [
+    "lender-broker",
+    "agent-broker"
+  ],
+  "segments": [
+    "residential"
+  ],
+  "company_sizes": [
+    "solo",
+    "smb",
+    "midmarket"
+  ],
+  "pricing": {
+    "model": "per-seat",
+    "public_pricing": true,
+    "url": "https://floify.com/pricing"
+  },
+  "integrations": [
+    "Encompass",
+    "credit bureaus",
+    "DocuSign",
+    "Zapier"
+  ],
+  "product": {
+    "api": true,
+    "open_source": false,
+    "mobile": [
+      "ios",
+      "android"
+    ],
+    "languages": [
+      "en",
+      "es"
+    ]
+  },
+  "alternatives": [
+    "blend",
+    "encompass"
+  ],
+  "reviews": [],
+  "sources": [
+    {
+      "url": "https://floify.com",
+      "note": "site éditeur"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-25"
+}

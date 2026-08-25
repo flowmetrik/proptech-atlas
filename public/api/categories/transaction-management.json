@@ -1,0 +1,1386 @@
+{
+  "id": "transaction-management",
+  "label_en": "Transaction & closing management",
+  "label_fr": "Gestion de transaction & closing",
+  "summary_en": "Run a deal from offer to closing — forms, e-signature, compliance, commissions.",
+  "summary_fr": "Piloter une vente de l'offre à l'acte — pièces, signature, conformité, commissions.",
+  "count": 15,
+  "tools": [
+    {
+      "slug": "adapt-immo",
+      "name": "Adapt Immo",
+      "editor": "Adapt Immo",
+      "website": "https://www.adaptimmo.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "crm-lead",
+      "also_in": [
+        "transaction-management",
+        "agent-marketing"
+      ],
+      "positioning": "A long-established French agency suite covering transaction, rental management and the agency website.",
+      "description": "Adapt Immo provides French agencies with transaction software, rental management, websites and portal publishing, sold as an integrated suite with training and support aimed at independent agencies and small networks.\n",
+      "real_estate_use": "Many French agencies run transaction and gérance side by side under the same carte professionnelle. Keeping both in one suite avoids the duplicate owner and property records that appear when an agency buys a sales tool and a separate rental tool — a recurring source of error at the point where a managed property goes up for sale.\n",
+      "features": [
+        "Transaction management with mandates and matching",
+        "Rental management with leases, receipts and owner accounts",
+        "Agency website and portal publishing",
+        "Prospecting and pige modules",
+        "Electronic signature integration",
+        "Document and legal file management"
+      ],
+      "use_cases": [
+        {
+          "persona": "brokerage",
+          "job": "Run transaction and rental management on shared owner and property records"
+        },
+        {
+          "persona": "agent-broker",
+          "job": "Publish mandates to portals and the agency site from one catalogue"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage",
+        "property-manager"
+      ],
+      "segments": [
+        "residential",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "integrations": [
+        "SeLoger",
+        "Leboncoin",
+        "Bien'ici",
+        "Yousign"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "hektor",
+        "netty",
+        "apimo",
+        "lockimmo"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.adaptimmo.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "apimo",
+      "name": "Apimo",
+      "editor": "Apimo",
+      "website": "https://www.apimo.net",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "crm-lead",
+      "also_in": [
+        "transaction-management",
+        "listing-syndication"
+      ],
+      "positioning": "The French transaction system built for agencies that sell across borders — multilingual, multi-currency, open API.",
+      "description": "Apimo is a real estate CRM and transaction platform used by French and international agencies: listings and contacts, mandates, matching, multilingual publishing to portals in several countries, websites, and a documented open API.\n",
+      "real_estate_use": "Agencies on the Côte d'Azur, in the Alps or in border regions sell to buyers who do not read French, through portals in several countries. Apimo handles a listing in multiple languages and currencies from one record, which removes the duplicate-catalogue problem that breaks most domestic tools as soon as a second market appears.\n",
+      "features": [
+        "Multilingual and multi-currency listing management",
+        "Publishing to French and international portals",
+        "Mandate management and buyer matching",
+        "Website generation from the catalogue",
+        "Documented open API for integrations",
+        "Rental and seasonal rental modules"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Market one property in several languages and currencies without duplicating the record"
+        },
+        {
+          "persona": "brokerage",
+          "job": "Publish to French and foreign portals from a single catalogue"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage"
+      ],
+      "segments": [
+        "residential",
+        "hospitality",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "integrations": [
+        "SeLoger",
+        "Leboncoin",
+        "Bien'ici",
+        "international portals",
+        "REST API"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr",
+          "en",
+          "es",
+          "it",
+          "de"
+        ]
+      },
+      "alternatives": [
+        "hektor",
+        "netty",
+        "sweepbright",
+        "adapt-immo"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.apimo.net",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "brokermint",
+      "name": "BoldTrail BackOffice (Brokermint)",
+      "editor": "Inside Real Estate",
+      "website": "https://www.brokermint.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "back-office-accounting",
+      "also_in": [
+        "transaction-management"
+      ],
+      "founded": 2014,
+      "positioning": "Where a closed transaction becomes a commission calculation, an agent statement and an accounting entry.",
+      "description": "Brokermint — now sold as BoldTrail BackOffice — handles the brokerage side of a deal: commission plans, splits, caps, fees, agent billing, 1099 preparation and accounting export. Transaction management and e-signature sit alongside it so the same file feeds both compliance and money.\n",
+      "real_estate_use": "The problem it solves is that commission structures are individually negotiated. A brokerage encodes each agent's split, cap and fee schedule once, and every closing then produces a disbursement authorisation and an agent statement automatically. Year-end 1099 preparation stops being a spreadsheet exercise.\n",
+      "features": [
+        "Commission plans with splits, caps, tiers and referral fees",
+        "Automatic disbursement authorisations and agent statements",
+        "Agent billing for monthly fees and chargebacks",
+        "Transaction management with document checklists and e-signature",
+        "QuickBooks export and accounting reconciliation",
+        "Production reporting by agent, office and team"
+      ],
+      "use_cases": [
+        {
+          "persona": "brokerage",
+          "job": "Calculate every agent's commission automatically from their negotiated plan"
+        },
+        {
+          "persona": "brokerage",
+          "job": "Produce year-end 1099s and agent statements without rebuilding a spreadsheet"
+        }
+      ],
+      "personas": [
+        "brokerage"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "per-seat",
+        "public_pricing": true,
+        "url": "https://www.brokermint.com/pricing"
+      },
+      "integrations": [
+        "QuickBooks",
+        "dotloop",
+        "SkySlope",
+        "BoldTrail",
+        "Zapier"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "lone-wolf-back-office",
+        "skyslope",
+        "boldtrail"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.brokermint.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "crexi",
+      "name": "Crexi",
+      "editor": "Commercial Real Estate Exchange, Inc.",
+      "website": "https://www.crexi.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "portals-marketplaces",
+      "also_in": [
+        "market-data",
+        "transaction-management"
+      ],
+      "founded": 2015,
+      "positioning": "A CRE marketplace that also runs the deal — listing, bidding, due diligence room and comps in one place.",
+      "description": "Crexi combines a commercial listing marketplace with transaction tooling: offer management, an auction platform, a virtual deal room, and Crexi Intelligence for sales comparables, ownership records and lease data. It positions itself as the challenger to the incumbent CoStar and LoopNet pairing.\n",
+      "real_estate_use": "A broker lists an asset, receives structured offers or runs a timed auction, and shares due-diligence documents through a permissioned data room instead of a shared drive link. Buyers use Crexi Intelligence to check what comparable assets traded for and who owns the building next door before committing to underwriting.\n",
+      "features": [
+        "Commercial listing marketplace across asset classes",
+        "Structured offer submission and auction platform",
+        "Permissioned virtual due-diligence rooms",
+        "Crexi Intelligence comparables, ownership and lease data",
+        "Broker CRM and buyer activity analytics",
+        "Marketing tools including flyers and email campaigns"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Run a competitive bid process on an asset with a controlled document room"
+        },
+        {
+          "persona": "investor-am",
+          "job": "Check sale comparables and ownership before underwriting an acquisition"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "investor-am",
+        "developer-builder"
+      ],
+      "segments": [
+        "office",
+        "retail",
+        "industrial",
+        "multifamily",
+        "land-development"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://www.crexi.com/pricing"
+      },
+      "integrations": [
+        "Dealpath",
+        "Salesforce",
+        "Zapier"
+      ],
+      "ai": {
+        "capabilities": [
+          "Lease abstraction from uploaded documents",
+          "Property matching and recommendations"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "loopnet",
+        "costar",
+        "reonomy"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.crexi.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "docusign",
+      "name": "Docusign",
+      "editor": "Docusign",
+      "website": "https://www.docusign.com",
+      "hq_country": "US",
+      "markets": [
+        "US",
+        "FR"
+      ],
+      "category": "title-closing-legal",
+      "also_in": [
+        "transaction-management"
+      ],
+      "founded": 2003,
+      "positioning": "The e-signature the US real estate transaction standardised on, now extended into contract lifecycle management.",
+      "description": "Docusign provides electronic signature, document generation, contract lifecycle management and notarisation. In real estate it is distributed both directly and through association-branded editions bundled with transaction platforms.\n",
+      "real_estate_use": "In the United States, the purchase agreement, addenda and disclosures are almost always signed here, often from inside dotloop, SkySlope or a forms platform rather than from Docusign's own interface. On the commercial side, contract lifecycle management is used for lease negotiation and clause approval across a portfolio.\n",
+      "features": [
+        "Electronic signature with audit trail and authentication options",
+        "Templates and reusable document packages",
+        "Contract lifecycle management with clause libraries",
+        "Remote online notarisation in supported jurisdictions",
+        "Deep integration into real estate transaction platforms",
+        "API and connectors across business software"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Get a purchase agreement and its addenda signed from inside the transaction platform"
+        },
+        {
+          "persona": "corporate-re",
+          "job": "Manage lease negotiation and clause approval across a portfolio"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage",
+        "corporate-re",
+        "legal-notary",
+        "property-manager"
+      ],
+      "segments": [
+        "residential",
+        "office",
+        "retail",
+        "industrial"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "per-seat",
+        "public_pricing": true,
+        "url": "https://www.docusign.com/pricing"
+      },
+      "integrations": [
+        "dotloop",
+        "SkySlope",
+        "Lone Wolf",
+        "Salesforce",
+        "Encompass",
+        "REST API"
+      ],
+      "ai": {
+        "capabilities": [
+          "Contract clause extraction and risk review"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en",
+          "fr",
+          "de",
+          "es",
+          "ja"
+        ]
+      },
+      "alternatives": [
+        "yousign"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.docusign.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "dotloop",
+      "name": "dotloop",
+      "editor": "Zillow Group",
+      "website": "https://www.dotloop.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "transaction-management",
+      "founded": 2009,
+      "positioning": "The transaction workspace where agent, client, broker and cooperating side edit and sign the same set of documents.",
+      "description": "dotloop organises a deal as a \"loop\" — one shared workspace holding the contract set, the people, the tasks and the audit trail. Forms are filled with reusable data, signed electronically inside the product, and reviewed by a broker against a compliance checklist before the file is archived.\n",
+      "real_estate_use": "From accepted offer to closing, everything a state or association form requires lives in the loop. The agent edits a purchase agreement without leaving the browser, the buyer signs on a phone, and the broker's compliance reviewer sees at a glance which documents are missing before commission is released. Its value shows up in audit season.\n",
+      "features": [
+        "Loops holding documents, participants, tasks and messages per transaction",
+        "Built-in form editing with association and state form libraries",
+        "Legally binding e-signature with full audit trail",
+        "Broker compliance review queues and document checklists",
+        "Templates per transaction type and per office",
+        "Activity log and archived record retention"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Get a full contract package prepared, signed and stored without printing anything"
+        },
+        {
+          "persona": "brokerage",
+          "job": "Review every file against a compliance checklist before releasing commission"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "per-seat",
+        "public_pricing": true,
+        "url": "https://www.dotloop.com/pricing"
+      },
+      "integrations": [
+        "Follow Up Boss",
+        "MLS systems",
+        "Google Drive",
+        "Dropbox",
+        "Zapier"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "skyslope",
+        "lone-wolf-transactions",
+        "brokermint"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.dotloop.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "hektor",
+      "name": "Hektor",
+      "editor": "La Boîte Immo",
+      "website": "https://www.laboiteimmo.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "crm-lead",
+      "also_in": [
+        "transaction-management",
+        "agent-marketing"
+      ],
+      "founded": 2006,
+      "positioning": "One of the reference transaction systems for French agencies — mandate, matching, portal publishing and website in a single subscription.",
+      "description": "Hektor is La Boîte Immo's real estate software for French agencies and networks: property and contact records, mandate management, automated buyer matching, portal publishing, electronic signature, and an agency website generated from the same catalogue.\n",
+      "real_estate_use": "A French agency's daily cycle runs on the mandate. Hektor holds the signed mandate and its legal mentions, matches each new listing against registered buyer criteria and sends the alert, publishes to the portals the agency subscribes to, and feeds the agency site. The reason it is bought as a suite is that in France the website and the portal feed are the same catalogue.\n",
+      "features": [
+        "Property and mandate management with French legal mentions",
+        "Buyer criteria matching with automatic alerts",
+        "Multi-portal publishing from one catalogue",
+        "Agency website generated from the same listings",
+        "Electronic signature on mandates and offers",
+        "Pige and prospecting modules"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Match a new mandate against registered buyers and alert them the same day"
+        },
+        {
+          "persona": "brokerage",
+          "job": "Run listings, portal feeds and the agency website from one catalogue"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage"
+      ],
+      "segments": [
+        "residential",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "integrations": [
+        "SeLoger",
+        "Leboncoin",
+        "Bien'ici",
+        "Yousign",
+        "Ubiflow"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "netty",
+        "apimo",
+        "adapt-immo",
+        "lockimmo"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.laboiteimmo.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "immofacile",
+      "name": "Immofacile",
+      "editor": "Immofacile",
+      "website": "https://www.immofacile.fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "crm-lead",
+      "also_in": [
+        "transaction-management",
+        "property-management"
+      ],
+      "positioning": "A French agency package sold module by module, so a small agency buys only the trade it practises.",
+      "description": "Immofacile provides French real estate professionals with transaction software, rental management and syndic modules, portal publishing, agency websites and document management, packaged so an agency subscribes only to the activities it holds.\n",
+      "real_estate_use": "Small French agencies rarely practise all three regulated activities, and paying for a full administration suite to run transaction alone is a common source of overspend. Modular pricing is the practical argument here, with the option to add gérance later without migrating the client and property records.\n",
+      "features": [
+        "Modular transaction, rental and syndic activities",
+        "Mandate management and buyer matching",
+        "Portal publishing and agency website",
+        "Owner and tenant document management",
+        "Electronic signature integration",
+        "Accounting for the modules subscribed"
+      ],
+      "use_cases": [
+        {
+          "persona": "brokerage",
+          "job": "Subscribe only to the regulated activities the agency actually practises"
+        },
+        {
+          "persona": "agent-broker",
+          "job": "Add rental management later without migrating existing records"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage",
+        "property-manager"
+      ],
+      "segments": [
+        "residential",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "integrations": [
+        "SeLoger",
+        "Leboncoin",
+        "Bien'ici",
+        "electronic signature"
+      ],
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "hektor",
+        "netty",
+        "adapt-immo",
+        "lockimmo"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.immofacile.fr",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "lone-wolf-transactions",
+      "name": "Lone Wolf Transactions",
+      "editor": "Lone Wolf Technologies",
+      "website": "https://www.lwolf.com",
+      "hq_country": "CA",
+      "markets": [
+        "US"
+      ],
+      "category": "transaction-management",
+      "also_in": [
+        "back-office-accounting"
+      ],
+      "founded": 1989,
+      "positioning": "The transaction product distributed by associations — for many US agents it is the forms platform that comes with membership.",
+      "description": "Lone Wolf Transactions, built on the former TransactionDesk and zipForm lineage, is widely provided as a member benefit through state and local REALTOR associations. It covers forms, e-signature (Authentisign), transaction folders and broker review, and connects to Lone Wolf's brokerage accounting products.\n",
+      "real_estate_use": "Because association distribution puts it in front of a very large share of US agents, it is often the default place a purchase agreement is drafted. A brokerage then layers broker review on top and pushes closed-deal data into Lone Wolf Back Office for commission calculation, so the same file drives both compliance and payroll.\n",
+      "features": [
+        "zipForm and TransactionDesk form libraries via association membership",
+        "Authentisign e-signature",
+        "Transaction folders with broker review and compliance status",
+        "Templates and clause libraries per office",
+        "Handoff to Lone Wolf Back Office for commission accounting",
+        "MLS data prefill into forms"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Draft the state-approved contract set that came with association membership"
+        },
+        {
+          "persona": "brokerage",
+          "job": "Move a closed file straight into commission disbursement without re-keying"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "integrations": [
+        "MLS systems",
+        "Lone Wolf Back Office",
+        "CloudCMA",
+        "Zapier"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "dotloop",
+        "skyslope",
+        "brokermint"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.lwolf.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "modelo",
+      "name": "Modelo",
+      "editor": "Septeo",
+      "website": "https://www.modelo.fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "title-closing-legal",
+      "also_in": [
+        "transaction-management",
+        "property-management"
+      ],
+      "positioning": "French real estate legal drafting kept current with the law — mandates, leases and offers generated rather than copied from an old file.",
+      "description": "Modelo produces legal documents for French real estate professionals: mandates, purchase offers, compromis, leases and their annexes, generated from a clause library maintained against current legislation, with electronic signature and file management.\n",
+      "real_estate_use": "French real estate law changes often enough that the biggest documentary risk in an agency is the template someone saved in 2019. Modelo's proposition is that the clause library is maintained centrally: when a legal obligation changes, the generated document changes, and the agency does not have to notice.\n",
+      "features": [
+        "Legally maintained clause library for French real estate documents",
+        "Mandate, offer, compromis and lease generation",
+        "Annex assembly including mandatory disclosures",
+        "Electronic signature integration",
+        "Document file management per transaction",
+        "Updates tracking legislative change"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Produce a mandate or compromis that reflects the law as it stands today"
+        },
+        {
+          "persona": "property-manager",
+          "job": "Generate leases and annexes with the current mandatory disclosures attached"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage",
+        "property-manager",
+        "syndic-manager",
+        "legal-notary"
+      ],
+      "segments": [
+        "residential",
+        "office",
+        "retail",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Crypto",
+        "Gercop",
+        "Hektor",
+        "Yousign"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "yousign",
+        "crypto-septeo"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.modelo.fr",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "netty",
+      "name": "Netty",
+      "editor": "Netty",
+      "website": "https://www.netty.fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "crm-lead",
+      "also_in": [
+        "transaction-management",
+        "agent-marketing"
+      ],
+      "positioning": "Software and website sold as one product, with the agency site treated as a lead-generation asset rather than a brochure.",
+      "description": "Netty provides French agencies with transaction software — listings, contacts, mandates, matching, portal publishing — combined with a website builder, SEO tooling, electronic signature and rental management modules.\n",
+      "real_estate_use": "Independent French agencies compete with national networks whose brand carries the online traffic. Netty's positioning answers that: the agency site is built for local search visibility, and every enquiry it produces lands in the same system as the mandate and the portal leads, so an independent can measure whether its own site is out-earning its portal subscriptions.\n",
+      "features": [
+        "Transaction management with mandates and matching",
+        "Agency website with SEO structures and lead capture",
+        "Multi-portal publishing and feed management",
+        "Rental management and lease modules",
+        "Electronic signature integration",
+        "Prospecting and pige tooling"
+      ],
+      "use_cases": [
+        {
+          "persona": "brokerage",
+          "job": "Measure whether the agency's own website out-earns its portal subscriptions"
+        },
+        {
+          "persona": "agent-broker",
+          "job": "Publish a new mandate to every portal and the agency site in one action"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage"
+      ],
+      "segments": [
+        "residential",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "integrations": [
+        "SeLoger",
+        "Leboncoin",
+        "Bien'ici",
+        "Yousign"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "hektor",
+        "apimo",
+        "adapt-immo",
+        "immofacile"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.netty.fr",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "qualia",
+      "name": "Qualia",
+      "editor": "Qualia",
+      "website": "https://www.qualia.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "title-closing-legal",
+      "also_in": [
+        "transaction-management"
+      ],
+      "founded": 2015,
+      "positioning": "Title and escrow production software where the lender, the agent and the buyer work inside the same closing file.",
+      "description": "Qualia is a title, escrow and closing platform: order management and title production, escrow accounting and reconciliation, document generation, a secure portal for all parties, remote online notarisation and digital closings, plus a marketplace of title services.\n",
+      "real_estate_use": "A US closing coordinates a title agent, a lender, two brokerages and a buyer, historically through email and fax. Qualia gives them one file: the buyer uploads identity documents and wiring instructions through a secure portal — which is also the main defence against wire fraud, the industry's most expensive failure — and escrow accounting reconciles inside the same system.\n",
+      "features": [
+        "Title order management and production workflow",
+        "Escrow accounting with three-way reconciliation",
+        "Secure multi-party closing portal with document exchange",
+        "Wire fraud protection and verified wiring instructions",
+        "Remote online notarisation and digital closing",
+        "Marketplace for title search and settlement services"
+      ],
+      "use_cases": [
+        {
+          "persona": "legal-notary",
+          "job": "Run title production and escrow accounting in one auditable system"
+        },
+        {
+          "persona": "agent-broker",
+          "job": "Track a closing file and its outstanding conditions without email chains"
+        }
+      ],
+      "personas": [
+        "legal-notary",
+        "agent-broker",
+        "lender-broker"
+      ],
+      "segments": [
+        "residential",
+        "office",
+        "retail"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Encompass",
+        "lender systems",
+        "county recording",
+        "banking"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "softpro",
+        "resware"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.qualia.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "skyslope",
+      "name": "SkySlope",
+      "editor": "SkySlope",
+      "website": "https://skyslope.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "transaction-management",
+      "also_in": [
+        "back-office-accounting"
+      ],
+      "founded": 2011,
+      "positioning": "Built for the broker's compliance problem first, and the agent's paperwork second.",
+      "description": "SkySlope is a transaction and compliance platform for brokerages, with digital forms (SkySlope Forms), e-signature (DigiSign), offer management (Offers) and broker audit workflows. Its centre of gravity is the file review queue rather than the agent experience.\n",
+      "real_estate_use": "A brokerage with a legal obligation to retain complete files uses SkySlope to enforce what \"complete\" means. Each transaction type carries a required-document checklist, files route to a reviewer, rejections come back with a reason, and the archive survives a state audit years later. Listing and sale files are separated so a listing that never sells is still auditable.\n",
+      "features": [
+        "Broker file review with per-transaction-type document checklists",
+        "SkySlope Forms with state and association form libraries",
+        "DigiSign e-signature bound to the transaction file",
+        "Offers — structured offer submission and comparison for listing agents",
+        "Commission and back-office module",
+        "Retention-grade archive with full audit history"
+      ],
+      "use_cases": [
+        {
+          "persona": "brokerage",
+          "job": "Guarantee that every closed file is audit-complete before it is archived"
+        },
+        {
+          "persona": "agent-broker",
+          "job": "Collect and compare multiple offers on a listing in a structured view"
+        }
+      ],
+      "personas": [
+        "brokerage",
+        "agent-broker"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "MLS systems",
+        "Follow Up Boss",
+        "BoldTrail",
+        "QuickBooks",
+        "Zapier"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "dotloop",
+        "lone-wolf-transactions",
+        "brokermint"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://skyslope.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "sweepbright",
+      "name": "SweepBright",
+      "editor": "SweepBright",
+      "website": "https://www.sweepbright.com",
+      "hq_country": "BE",
+      "markets": [
+        "FR"
+      ],
+      "category": "crm-lead",
+      "also_in": [
+        "transaction-management",
+        "listing-syndication"
+      ],
+      "founded": 2016,
+      "positioning": "A mobile-first agency CRM for European markets — capture a property on site, publish it before leaving.",
+      "description": "SweepBright is a real estate agency platform used across Belgium, France and other European markets: property and contact management, mobile listing capture with photos, matching, multi-portal publishing, digital signature and an agency website module.\n",
+      "real_estate_use": "The design assumption is that the agent is never at a desk. Capturing the property during the valuation visit — rooms, photos, description — and publishing directly from the phone compresses a two-day cycle into the appointment itself, which matters most in competitive markets where the first published listing gets the enquiries.\n",
+      "features": [
+        "Mobile property capture with photos and details on site",
+        "Contact management and buyer matching",
+        "Multi-portal publishing across European portals",
+        "Agency website module fed by the same catalogue",
+        "Digital signature on mandates and offers",
+        "Team activity and pipeline reporting"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Capture and publish a new listing from the phone during the valuation visit"
+        },
+        {
+          "persona": "brokerage",
+          "job": "Run a multi-country European agency on one catalogue and one portal feed"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage"
+      ],
+      "segments": [
+        "residential",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "per-seat",
+        "public_pricing": true,
+        "url": "https://www.sweepbright.com/pricing"
+      },
+      "integrations": [
+        "European portals",
+        "Nodalview",
+        "digital signature providers"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr",
+          "nl",
+          "en",
+          "es"
+        ]
+      },
+      "alternatives": [
+        "apimo",
+        "hektor",
+        "netty"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.sweepbright.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "yousign",
+      "name": "Yousign",
+      "editor": "Yousign",
+      "website": "https://yousign.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "title-closing-legal",
+      "also_in": [
+        "transaction-management"
+      ],
+      "founded": 2013,
+      "positioning": "European electronic signature with eIDAS qualification — the French default where a signature must hold in a French court.",
+      "description": "Yousign is a French electronic signature and contract platform: simple, advanced and qualified signature levels under eIDAS, identity verification, approval workflows, templates, audit trails and an API, with data hosted in the European Union.\n",
+      "real_estate_use": "Mandates, lease agreements, offers and état des lieux are all signed remotely now, and the question that matters is evidentiary weight. eIDAS levels are not decoration: a qualified signature carries a legal presumption a simple one does not. French agency software integrates Yousign for exactly that reason, alongside the EU hosting requirement many professional bodies impose.\n",
+      "features": [
+        "Simple, advanced and qualified eIDAS signature levels",
+        "Signer identity verification",
+        "Reusable document templates and signature workflows",
+        "Legally admissible audit trail per signature",
+        "API and connectors to business software",
+        "European Union data hosting"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Have a mandate or offer signed remotely with a signature that holds legally"
+        },
+        {
+          "persona": "property-manager",
+          "job": "Sign leases and état des lieux with tenants without a physical appointment"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "property-manager",
+        "syndic-manager",
+        "legal-notary",
+        "brokerage"
+      ],
+      "segments": [
+        "residential",
+        "office",
+        "retail",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://yousign.com/fr-fr/tarifs"
+      },
+      "integrations": [
+        "Hektor",
+        "Netty",
+        "Apimo",
+        "LockImmo",
+        "Salesforce",
+        "REST API"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr",
+          "en",
+          "de",
+          "es",
+          "it"
+        ]
+      },
+      "alternatives": [
+        "docusign"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://yousign.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    }
+  ]
+}

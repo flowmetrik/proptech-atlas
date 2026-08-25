@@ -1,0 +1,86 @@
+{
+  "slug": "luxury-presence",
+  "name": "Luxury Presence",
+  "editor": "Luxury Presence",
+  "website": "https://www.luxurypresence.com",
+  "hq_country": "US",
+  "markets": [
+    "US"
+  ],
+  "category": "agent-marketing",
+  "founded": 2016,
+  "positioning": "Design-led websites for agents whose brand is the product — the high end of the agent site market.",
+  "description": "Luxury Presence builds and hosts agent, team and brokerage websites with IDX search, designed as brand properties rather than lead-capture funnels, alongside content, SEO, advertising and CRM tooling.\n",
+  "real_estate_use": "At the top of the market, a listing presentation is partly a credibility exercise: a seller with a seven-figure property judges the agent by the quality of their digital presence. Luxury Presence sells to that argument — design and editorial quality first, lead volume second — which distinguishes it from the IDX-plus-CRM platforms sold on cost per lead.\n",
+  "features": [
+    "Designed agent, team and brokerage websites",
+    "IDX property search integration",
+    "Listing microsites for individual properties",
+    "SEO, content and social media services",
+    "Paid advertising management",
+    "CRM and lead management tooling"
+  ],
+  "use_cases": [
+    {
+      "persona": "agent-broker",
+      "job": "Win high-end listings with a digital presence that matches the property"
+    },
+    {
+      "persona": "brokerage",
+      "job": "Give a team consistent branded sites without an agency per agent"
+    }
+  ],
+  "personas": [
+    "agent-broker",
+    "brokerage"
+  ],
+  "segments": [
+    "residential",
+    "mixed-use"
+  ],
+  "company_sizes": [
+    "solo",
+    "smb",
+    "midmarket"
+  ],
+  "pricing": {
+    "model": "subscription",
+    "public_pricing": false
+  },
+  "integrations": [
+    "MLS IDX feeds",
+    "Follow Up Boss",
+    "Google Analytics"
+  ],
+  "ai": {
+    "capabilities": [
+      "Content and listing copy generation"
+    ]
+  },
+  "product": {
+    "api": false,
+    "open_source": false,
+    "mobile": [],
+    "languages": [
+      "en"
+    ]
+  },
+  "alternatives": [
+    "agentfire",
+    "realgeeks",
+    "sierra-interactive"
+  ],
+  "reviews": [],
+  "sources": [
+    {
+      "url": "https://www.luxurypresence.com",
+      "note": "site éditeur"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-25"
+}

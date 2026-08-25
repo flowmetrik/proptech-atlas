@@ -1,0 +1,103 @@
+---
+import '../styles/global.css';
+import { url, REPO, counts } from '../lib/catalog';
+
+interface Props {
+  title: string;
+  description: string;
+  /** Injecté tel quel dans un <script type="application/ld+json"> — schema.org. */
+  jsonld?: Record<string, unknown> | Record<string, unknown>[];
+  wide?: boolean;
+}
+const { title, description, jsonld } = Astro.props as Props;
+const full = title === 'PropTech Atlas' ? title : `${title} · PropTech Atlas`;
+const path = Astro.url.pathname;
+const active = (h: string) => (path === h || (h !== url('') && path.startsWith(h)) ? 'page' : undefined);
+const canonical = Astro.site ? new URL(Astro.url.pathname, Astro.site).href : Astro.url.href;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{full}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={full} />
+    <meta property="og:description" content={description} />
+    <meta property="og:site_name" content="PropTech Atlas" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" href={url('favicon.svg')} type="image/svg+xml" />
+    <link rel="alternate" type="application/rss+xml" title="PropTech Atlas — blog" href={url('rss.xml')} />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    {jsonld && <script type="application/ld+json" set:html={JSON.stringify(jsonld)} />}
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="inner">
+        <a class="brand" href={url('')}><span class="mark"></span>PropTech Atlas</a>
+        <nav class="nav">
+          <a href={url('explore')} aria-current={active(url('explore'))}>Explore</a>
+          <a href={url('categories')} aria-current={active(url('categories'))}>Categories</a>
+          <a href={url('api')} aria-current={active(url('api'))}>API</a>
+          <a href={url('blog')} aria-current={active(url('blog'))}>Blog</a>
+          <a href={url('about')} aria-current={active(url('about'))}>About</a>
+        </nav>
+        <div class="nav-right">
+          <a class="btn btn-ghost btn-sm" href={REPO} rel="noopener">GitHub</a>
+        </div>
+      </div>
+    </header>
+
+    <main id="main"><slot /></main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <div class="footer-grid">
+          <div>
+            <a class="brand" href={url('')} style="margin-bottom:12px"><span class="mark"></span>PropTech Atlas</a>
+            <p style="max-width:38ch">
+              An open Product Knowledge Graph of real estate software in the United States
+              and France. {counts.tools} products, no account, no tracking.
+            </p>
+            <p class="mono">CC BY 4.0 data · MIT code</p>
+          </div>
+          <div>
+            <h4>Explore</h4>
+            <ul>
+              <li><a href={url('explore')}>All tools</a></li>
+              <li><a href={url('explore?market=US')}>United States</a></li>
+              <li><a href={url('explore?market=FR')}>France</a></li>
+              <li><a href={url('categories')}>Categories</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Build on it</h4>
+            <ul>
+              <li><a href={url('api')}>Static JSON API</a></li>
+              <li><a href={url('api/graph.json')}>Knowledge graph</a></li>
+              <li><a href={url('llms.txt')}>llms.txt</a></li>
+              <li><a href={`${REPO}/blob/main/CATALOG.md`} rel="noopener">Catalogue on GitHub</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Project</h4>
+            <ul>
+              <li><a href={url('about')}>About</a></li>
+              <li><a href={url('contribute')}>Contribute</a></li>
+              <li><a href={url('blog')}>Blog</a></li>
+              <li><a href={REPO} rel="noopener">Source code</a></li>
+            </ul>
+          </div>
+        </div>
+        <p style="margin-top:40px" class="mono">
+          Built by <a href="https://flowmetrik.com" rel="noopener">Flowmetrik</a>. Product names and
+          trademarks belong to their respective owners. Listings are descriptive, not endorsements.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

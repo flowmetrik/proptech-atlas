@@ -1,0 +1,485 @@
+{
+  "id": "visuals-tours",
+  "label_en": "Visuals, 3D tours & staging",
+  "label_fr": "Visuels, visite 3D & home staging",
+  "summary_en": "Photography, floor plans, virtual tours and virtual staging.",
+  "summary_fr": "Photo, plans, visites virtuelles et home staging virtuel.",
+  "count": 5,
+  "tools": [
+    {
+      "slug": "boxbrownie",
+      "name": "BoxBrownie",
+      "editor": "BoxBrownie.com",
+      "website": "https://www.boxbrownie.com",
+      "hq_country": "AU",
+      "markets": [
+        "US",
+        "FR"
+      ],
+      "category": "visuals-tours",
+      "founded": 2016,
+      "positioning": "Listing images fixed, staged and decluttered overnight, priced per image.",
+      "description": "BoxBrownie provides property image editing services: photo enhancement, day-to-dusk conversion, virtual staging, item removal, virtual renovation, floor plan redraws and 360 virtual tours, delivered as a per-image service with overnight turnaround.\n",
+      "real_estate_use": "An empty apartment photographs badly and a cluttered one photographs worse. Virtual staging costs a fraction of physical staging and can be ordered the evening before a listing goes live. Virtual renovation is used to show a buyer what a tired property could become — with the disclosure obligations that most markets now attach to edited images.\n",
+      "features": [
+        "Photo enhancement and day-to-dusk conversion",
+        "Virtual staging of empty rooms",
+        "Item removal and virtual decluttering",
+        "Virtual renovation visualisations",
+        "Floor plan redraw and 3D rendering",
+        "360 virtual tour creation"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Stage an empty property for photography at a fraction of physical staging cost"
+        },
+        {
+          "persona": "agent-broker",
+          "job": "Show a buyer the renovation potential of a tired property"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage",
+        "developer-builder"
+      ],
+      "segments": [
+        "residential",
+        "office",
+        "retail"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "usage",
+        "public_pricing": true,
+        "url": "https://www.boxbrownie.com/pricing"
+      },
+      "integrations": [
+        "listing platforms",
+        "agent marketing tools"
+      ],
+      "ai": {
+        "capabilities": [
+          "Automated image enhancement",
+          "AI virtual staging"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en",
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "matterport",
+        "cubicasa"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.boxbrownie.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "check-and-visit",
+      "name": "Check & Visit",
+      "editor": "Check & Visit",
+      "website": "https://www.checkandvisit.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "diagnostics-compliance",
+      "also_in": [
+        "property-management",
+        "visuals-tours"
+      ],
+      "positioning": "Inspection software combined with a field network — the report can be produced by their operator rather than by your staff.",
+      "description": "Check & Visit provides digital état des lieux and property visit software for French professionals, together with a network of field operators who can carry out the inspection on the manager's behalf, and 3D capture options attached to the same record.\n",
+      "real_estate_use": "For a manager with dispersed properties, the constraint on inspections is travel time, not software. Outsourcing the visit to a local operator while keeping the report in the same digital format lets a lettings team scale without hiring inspectors — and the attached 3D capture doubles as a marketing asset for the next letting.\n",
+      "features": [
+        "Digital état des lieux with photographic evidence",
+        "Field operator network performing inspections on request",
+        "3D capture and virtual visit attached to the property record",
+        "Electronic signature and report generation",
+        "Portfolio dashboard for inspection status",
+        "Integration with management software"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Have inspections carried out on dispersed properties without hiring inspectors"
+        },
+        {
+          "persona": "agent-broker",
+          "job": "Capture a 3D visit at the same appointment as the inspection"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "agent-broker",
+        "landlord-owner"
+      ],
+      "segments": [
+        "residential",
+        "office",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "usage",
+        "public_pricing": false
+      },
+      "integrations": [
+        "French management software",
+        "electronic signature"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "immopad",
+        "startloc",
+        "matterport"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.checkandvisit.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "cubicasa",
+      "name": "CubiCasa",
+      "editor": "CubiCasa",
+      "website": "https://www.cubi.casa",
+      "hq_country": "FI",
+      "markets": [
+        "US",
+        "FR"
+      ],
+      "category": "visuals-tours",
+      "founded": 2014,
+      "positioning": "A floor plan from a phone walkthrough — no camera, no tripod, no measuring.",
+      "description": "CubiCasa produces measured 2D and 3D floor plans from a smartphone video walkthrough: the user records a continuous scan, uploads it, and receives a dimensioned plan with gross living area, typically within hours.\n",
+      "real_estate_use": "Floor plans measurably improve listing engagement but traditionally required a professional visit. Because CubiCasa needs only a phone, an agent produces one during the listing appointment they were attending anyway. Appraisers use the same output for gross living area sketches that meet lender requirements.\n",
+      "features": [
+        "Floor plan generation from smartphone video walkthrough",
+        "Measured 2D and 3D plans with room dimensions",
+        "Gross living area calculation for appraisal use",
+        "White-label ordering and delivery for enterprises",
+        "Export to common plan and imaging formats",
+        "API for high-volume ordering"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Produce a measured floor plan during the listing appointment with only a phone"
+        },
+        {
+          "persona": "appraiser",
+          "job": "Generate a gross living area sketch that meets lender requirements"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "appraiser",
+        "property-manager"
+      ],
+      "segments": [
+        "residential",
+        "office"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "usage",
+        "public_pricing": true,
+        "url": "https://www.cubi.casa/pricing"
+      },
+      "integrations": [
+        "listing platforms",
+        "appraisal systems",
+        "REST API"
+      ],
+      "ai": {
+        "capabilities": [
+          "Floor plan reconstruction from video",
+          "Automatic area calculation"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en",
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "matterport",
+        "boxbrownie"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.cubi.casa",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "matterport",
+      "name": "Matterport",
+      "editor": "Matterport (CoStar Group)",
+      "website": "https://matterport.com",
+      "hq_country": "US",
+      "markets": [
+        "US",
+        "FR"
+      ],
+      "category": "visuals-tours",
+      "also_in": [
+        "facility-maintenance"
+      ],
+      "founded": 2011,
+      "positioning": "The 3D capture standard — a walkable digital twin that doubles as a measurable record of the space.",
+      "description": "Matterport captures buildings in 3D using dedicated cameras or a phone, producing walkable virtual tours, automatic floor plans, measurements and structured space data hosted on its cloud platform, embeddable in listings and other systems.\n",
+      "real_estate_use": "In marketing, a scan lets a remote buyer or tenant walk the space before travelling. In operations it does something less obvious and often more valuable: it is a dated, measurable record of condition. Property managers scan at move-in and move-out to settle deposit disputes; facility teams scan plant rooms so a contractor can measure without a site visit.\n",
+      "features": [
+        "3D capture from dedicated cameras or smartphone",
+        "Walkable virtual tours embeddable in listings",
+        "Automatic floor plan and measurement generation",
+        "Dated condition records for inspections and disputes",
+        "Space and asset tagging inside the model",
+        "API and integrations with listing and management platforms"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Let a remote buyer or tenant walk the property before travelling to see it"
+        },
+        {
+          "persona": "property-manager",
+          "job": "Hold a dated, measurable condition record for move-in and move-out disputes"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "property-manager",
+        "facility-manager",
+        "developer-builder"
+      ],
+      "segments": [
+        "residential",
+        "office",
+        "retail",
+        "industrial",
+        "hospitality"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://matterport.com/pricing"
+      },
+      "integrations": [
+        "listing platforms",
+        "Autodesk",
+        "Procore",
+        "REST API"
+      ],
+      "ai": {
+        "capabilities": [
+          "Automatic floor plan extraction",
+          "Object and room recognition",
+          "Defurnishing"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en",
+          "fr",
+          "de",
+          "es"
+        ]
+      },
+      "alternatives": [
+        "cubicasa",
+        "boxbrownie"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://matterport.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "nodalview",
+      "name": "Nodalview",
+      "editor": "Nodalview",
+      "website": "https://www.nodalview.com",
+      "hq_country": "BE",
+      "markets": [
+        "FR"
+      ],
+      "category": "visuals-tours",
+      "founded": 2016,
+      "positioning": "Professional-looking property photography and virtual visits shot on the agent's own phone.",
+      "description": "Nodalview combines a smartphone capture application with cloud processing to produce property photography, HDR images, 360 virtual visits, videos and floor plans, plus marketing assets generated from the same shoot.\n",
+      "real_estate_use": "Hiring a photographer for every mandate is neither affordable nor fast enough in the mid-market, and phone photographs taken by an agent are usually poor. Nodalview's guided capture and automatic processing sit between the two, and because the visit and the images come from one appointment, the listing goes live the same day.\n",
+      "features": [
+        "Guided smartphone capture with automatic HDR processing",
+        "360 virtual visits and interactive tours",
+        "Video and marketing asset generation from the same shoot",
+        "Floor plan capture options",
+        "Branded delivery and listing integration",
+        "Lead capture on shared virtual visits"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Produce publishable property images and a virtual visit from one phone appointment"
+        },
+        {
+          "persona": "brokerage",
+          "job": "Standardise listing image quality across a team without hiring photographers"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage"
+      ],
+      "segments": [
+        "residential",
+        "office",
+        "retail"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://www.nodalview.com/pricing"
+      },
+      "integrations": [
+        "SweepBright",
+        "European agency software",
+        "portals"
+      ],
+      "ai": {
+        "capabilities": [
+          "Automatic image enhancement",
+          "Virtual staging"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr",
+          "nl",
+          "en",
+          "es"
+        ]
+      },
+      "alternatives": [
+        "matterport",
+        "cubicasa",
+        "boxbrownie"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.nodalview.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    }
+  ]
+}

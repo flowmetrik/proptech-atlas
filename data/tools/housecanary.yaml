@@ -1,0 +1,50 @@
+slug: housecanary
+name: HouseCanary
+editor: HouseCanary
+website: https://www.housecanary.com
+hq_country: US
+markets: [US]
+category: estimation-pricing
+also_in: [market-data]
+founded: 2013
+positioning: Valuation sold with its confidence interval, for people who have to act on the number.
+description: >
+  HouseCanary provides residential automated valuations, forecast values, rental estimates and
+  condition-adjusted appraisals, delivered by API and through analyst-facing products. Its
+  output is designed for institutional use — every value comes with an accuracy band.
+real_estate_use: >
+  An iBuyer or a single-family rental fund cannot send an appraiser to every candidate house.
+  It prices thousands of addresses a week through an AVM, and the confidence interval decides
+  which ones get a human inspection. Lenders use the same feeds for portfolio monitoring and
+  collateral review between full appraisals.
+features:
+  - Residential AVM with confidence scoring
+  - Three-year value and rent forecasts by block and metro
+  - Rental value estimation
+  - Condition-adjusted valuation products
+  - Market analytics down to block group
+  - Delivery by API and bulk file
+use_cases:
+  - persona: investor-am
+    job: Price thousands of candidate homes a week and flag the ones needing a human look
+  - persona: lender-broker
+    job: Monitor collateral value across a loan portfolio between full appraisals
+personas: [investor-am, lender-broker, appraiser]
+segments: [residential]
+company_sizes: [smb, midmarket, enterprise]
+pricing:
+  model: usage
+  public_pricing: false
+integrations: [REST API, Snowflake, Excel]
+ai:
+  capabilities: [Automated valuation models, Value and rent forecasting]
+product:
+  api: true
+  open_source: false
+  mobile: []
+  languages: [en]
+alternatives: [clear-capital, attom-data, pricehubble]
+reviews: []
+sources: [{ url: https://www.housecanary.com, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

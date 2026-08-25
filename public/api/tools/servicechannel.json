@@ -1,0 +1,91 @@
+{
+  "slug": "servicechannel",
+  "name": "ServiceChannel",
+  "editor": "Fortive",
+  "website": "https://servicechannel.com",
+  "hq_country": "US",
+  "markets": [
+    "US",
+    "FR"
+  ],
+  "category": "facility-maintenance",
+  "founded": 1999,
+  "positioning": "Facilities management for multi-site occupiers — one contractor marketplace, one invoice standard, across hundreds of locations.",
+  "description": "ServiceChannel manages facilities maintenance for multi-location businesses: work order dispatch, a contractor network with compliance tracking, invoice validation against agreed rates, asset and warranty tracking, and spend analytics across sites.\n",
+  "real_estate_use": "A retailer with four hundred stores has four hundred sets of local contractors and no consistent way to know whether a bill is fair. ServiceChannel standardises the workflow: a store manager raises an issue, dispatch goes to a compliant contractor at contracted rates, and invoices that exceed the agreed rate are flagged before payment. The saving is in the invoice validation as much as in the dispatch.\n",
+  "features": [
+    "Work order intake, dispatch and tracking across sites",
+    "Contractor network with insurance and compliance verification",
+    "Invoice validation against contracted rates",
+    "Asset and warranty tracking by location",
+    "Planned maintenance scheduling",
+    "Spend analytics by site, trade and provider"
+  ],
+  "use_cases": [
+    {
+      "persona": "facility-manager",
+      "job": "Standardise maintenance dispatch and invoice control across hundreds of sites"
+    },
+    {
+      "persona": "corporate-re",
+      "job": "See maintenance spend by trade and location instead of by supplier invoice"
+    }
+  ],
+  "personas": [
+    "facility-manager",
+    "corporate-re",
+    "property-manager"
+  ],
+  "segments": [
+    "retail",
+    "office",
+    "industrial",
+    "healthcare-senior",
+    "hospitality"
+  ],
+  "company_sizes": [
+    "midmarket",
+    "enterprise"
+  ],
+  "pricing": {
+    "model": "quote",
+    "public_pricing": false
+  },
+  "integrations": [
+    "SAP",
+    "Oracle",
+    "Yardi",
+    "Coupa"
+  ],
+  "product": {
+    "api": true,
+    "open_source": false,
+    "mobile": [
+      "ios",
+      "android"
+    ],
+    "languages": [
+      "en",
+      "fr",
+      "es"
+    ]
+  },
+  "alternatives": [
+    "corrigo",
+    "upkeep",
+    "limble"
+  ],
+  "reviews": [],
+  "sources": [
+    {
+      "url": "https://servicechannel.com",
+      "note": "site éditeur"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-25"
+}

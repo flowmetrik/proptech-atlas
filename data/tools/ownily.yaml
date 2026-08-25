@@ -1,0 +1,48 @@
+slug: ownily
+name: Ownily
+editor: Ownily
+website: https://www.ownily.fr
+hq_country: FR
+markets: [FR]
+category: back-office-accounting
+positioning: Accounting software for the French SCI — the structure most rental investors hold property in, and the one their accountant charges most for.
+description: >
+  Ownily is an online accounting service for French property-holding companies and rental
+  investors: bank feed categorisation, real estate chart of accounts, amortisation, annual
+  accounts and preparation of the tax returns required for SCI at corporation tax and for
+  furnished letting regimes.
+real_estate_use: >
+  An SCI subject to corporation tax must keep double-entry accounts, amortise the building,
+  and file a liasse fiscale — obligations most owners discover after buying. Ownily targets
+  that specific compliance path, which is why it is bought instead of general accounting
+  software that has no concept of a property component or a furnished-letting regime.
+features:
+  - Bank feed import with real estate categorisation
+  - Building and component amortisation schedules
+  - Annual accounts for SCI and rental structures
+  - Tax return preparation for the applicable regime
+  - Partner and share ownership tracking
+  - Rent, charge and works expense tracking
+use_cases:
+  - persona: investor-am
+    job: Keep compliant SCI accounts and produce the annual liasse fiscale
+  - persona: landlord-owner
+    job: Amortise a building correctly under a furnished letting or corporation tax regime
+personas: [investor-am, landlord-owner]
+segments: [residential, mixed-use]
+company_sizes: [solo, smb]
+pricing:
+  model: subscription
+  public_pricing: true
+  url: https://www.ownily.fr/tarifs
+integrations: [banking feeds, tax filing services]
+product:
+  api: false
+  open_source: false
+  mobile: []
+  languages: [fr]
+alternatives: [rentila, horiz]
+reviews: []
+sources: [{ url: https://www.ownily.fr, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

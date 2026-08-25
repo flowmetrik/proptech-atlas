@@ -1,0 +1,51 @@
+slug: procore
+name: Procore
+editor: Procore Technologies
+website: https://www.procore.com
+hq_country: US
+markets: [US, FR]
+category: construction-development
+founded: 2002
+positioning: The construction record of truth — where the owner, the general contractor and every sub look at the same drawing set.
+description: >
+  Procore is a construction management platform covering preconstruction, project
+  management, quality and safety, design coordination, and financials. Its commercial model
+  charges the owner or contractor by construction volume and gives unlimited free seats to
+  subcontractors and collaborators.
+real_estate_use: >
+  On a development, disputes are usually about which version of a document someone was
+  working from. Procore holds the drawings, RFIs, submittals, daily logs, change orders and
+  photos in one place, so the developer's project manager, the architect and the concrete sub
+  all reference the same record. Financial modules then tie change orders to the budget the
+  investor sees.
+features:
+  - Drawing, RFI and submittal management with version control
+  - Daily logs, photos and site documentation
+  - Change order, budget and commitment tracking
+  - Quality and safety inspections with punch lists
+  - Bid management and preconstruction estimating
+  - Unlimited free collaborator seats for subcontractors
+use_cases:
+  - persona: developer-builder
+    job: Keep a development's document, change order and budget history in one auditable place
+  - persona: facility-manager
+    job: Receive a complete closeout package with as-builts and warranties at handover
+personas: [developer-builder, corporate-re, investor-am, facility-manager]
+segments: [office, retail, industrial, multifamily, land-development, healthcare-senior]
+company_sizes: [smb, midmarket, enterprise]
+pricing:
+  model: usage
+  public_pricing: false
+integrations: [Autodesk, Sage, Yardi, DocuSign, Bluebeam]
+ai:
+  capabilities: [Document search and summarisation across project records, Risk flagging on RFIs]
+product:
+  api: true
+  open_source: false
+  mobile: [ios, android]
+  languages: [en, fr, es, de]
+alternatives: [autodesk-construction-cloud, buildertrend, northspyre]
+reviews: []
+sources: [{ url: https://www.procore.com, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

@@ -1,0 +1,50 @@
+slug: ylopo
+name: Ylopo
+editor: Ylopo
+website: https://www.ylopo.com
+hq_country: US
+markets: [US]
+category: ai-assistants
+also_in: [agent-marketing, crm-lead]
+founded: 2016
+positioning: Advertising and AI follow-up bolted onto the CRM a team already uses, instead of replacing it.
+description: >
+  Ylopo runs paid lead generation on Google and Meta, provides branded home search sites,
+  and layers AI text and voice follow-up on top of an existing CRM — most commonly Follow Up
+  Boss — rather than asking a team to migrate.
+real_estate_use: >
+  Teams that already standardised on a CRM will not move for an ad product. Ylopo's design
+  reflects that: it generates and nurtures, and writes everything back into the CRM of record.
+  Its dynamic listing ads and seller-lead products are the practical draw, with AI voice
+  follow-up handling first contact at scale.
+features:
+  - Managed Google and Meta advertising for buyer and seller leads
+  - Branded home search sites with behavioural tracking
+  - AI text and AI voice follow-up on new and aged leads
+  - Dynamic remarketing ads featuring listings a lead viewed
+  - Seller lead products with valuation landing pages
+  - Write-back into an existing CRM rather than replacing it
+use_cases:
+  - persona: brokerage
+    job: Add paid acquisition and AI follow-up without migrating off the current CRM
+  - persona: agent-broker
+    job: Retarget past site visitors with the specific homes they looked at
+personas: [agent-broker, brokerage]
+segments: [residential]
+company_sizes: [smb, midmarket]
+pricing:
+  model: subscription
+  public_pricing: false
+integrations: [Follow Up Boss, BoldTrail, Lofty, Sierra Interactive]
+ai:
+  capabilities: [AI text and voice lead follow-up, Behavioural retargeting]
+product:
+  api: true
+  open_source: false
+  mobile: [ios, android]
+  languages: [en]
+alternatives: [structurely, lofty, boldtrail]
+reviews: []
+sources: [{ url: https://www.ylopo.com, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

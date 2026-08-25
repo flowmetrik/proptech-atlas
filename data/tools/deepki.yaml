@@ -1,0 +1,50 @@
+slug: deepki
+name: Deepki
+editor: Deepki
+website: https://www.deepki.com
+hq_country: FR
+markets: [FR, US]
+category: energy-esg
+founded: 2014
+positioning: ESG for real estate portfolios, from data collection to the CRREM trajectory an investor is judged against.
+description: >
+  Deepki collects and enriches building energy and asset data across a portfolio, benchmarks
+  performance, produces regulatory and investor ESG reporting, and models decarbonisation
+  pathways with the capital expenditure required to reach them.
+real_estate_use: >
+  European regulation makes this operational rather than reputational: the décret tertiaire
+  requires measured consumption reductions on French tertiary buildings, and the EU taxonomy
+  and SFDR shape what a fund must disclose. Deepki assembles the data across countries and
+  landlord-tenant boundaries — the hardest part, since the landlord often does not hold the
+  tenant's meter data — and turns it into the trajectory and the works plan.
+features:
+  - Automated collection of energy, water and asset data across a portfolio
+  - Regulatory reporting including décret tertiaire and EU taxonomy alignment
+  - GRESB and investor ESG reporting
+  - CRREM and decarbonisation pathway modelling
+  - Retrofit scenario and capital expenditure planning
+  - Peer benchmarking across a large asset database
+use_cases:
+  - persona: investor-am
+    job: Produce décret tertiaire and EU taxonomy reporting across a European portfolio
+  - persona: corporate-re
+    job: Build a costed retrofit plan that puts assets on a compliant carbon trajectory
+personas: [investor-am, corporate-re, facility-manager, property-manager]
+segments: [office, retail, industrial, multifamily, mixed-use, healthcare-senior]
+company_sizes: [midmarket, enterprise]
+pricing:
+  model: quote
+  public_pricing: false
+integrations: [energy providers, Yardi, MRI, building management systems]
+ai:
+  capabilities: [Automated data enrichment and gap filling, Consumption anomaly detection]
+product:
+  api: true
+  open_source: false
+  mobile: []
+  languages: [fr, en, es, de, it]
+alternatives: [measurabl, advizeo, ubigreen]
+reviews: []
+sources: [{ url: https://www.deepki.com, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

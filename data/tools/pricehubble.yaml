@@ -1,0 +1,50 @@
+slug: pricehubble
+name: PriceHubble
+editor: PriceHubble
+website: https://www.pricehubble.com
+hq_country: CH
+markets: [FR]
+category: estimation-pricing
+also_in: [market-data]
+founded: 2016
+positioning: Valuation and property analytics sold as an API and white-label modules, embedded in someone else's product.
+description: >
+  PriceHubble provides automated valuation, rental estimation, market analytics and property
+  dashboards across several European countries, delivered as APIs and embeddable modules for
+  banks, agencies, asset managers and proptech products rather than as a consumer site.
+real_estate_use: >
+  A French bank assessing collateral, an agency offering an instant valuation on its own site,
+  or a portfolio holder revaluing quarterly all need the same computation without building it.
+  PriceHubble sells that computation to be embedded, which is why it appears inside products
+  whose users never see the brand.
+features:
+  - Automated valuation for sale and rental values
+  - Property dashboards and market analytics modules
+  - White-label valuation widgets for websites
+  - Portfolio revaluation and monitoring
+  - Building and environment data enrichment
+  - REST API delivery across European markets
+use_cases:
+  - persona: lender-broker
+    job: Value collateral and revalue a loan portfolio without building a model
+  - persona: brokerage
+    job: Offer an instant valuation on the agency's own website to capture seller leads
+personas: [lender-broker, brokerage, investor-am, agent-broker]
+segments: [residential, multifamily, mixed-use]
+company_sizes: [smb, midmarket, enterprise]
+pricing:
+  model: quote
+  public_pricing: false
+integrations: [REST API, banking systems, agency software]
+ai:
+  capabilities: [Automated valuation models, Rental value estimation, Market forecasting]
+product:
+  api: true
+  open_source: false
+  mobile: []
+  languages: [fr, en, de, it]
+alternatives: [meilleursagents, housecanary, yanport]
+reviews: []
+sources: [{ url: https://www.pricehubble.com, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

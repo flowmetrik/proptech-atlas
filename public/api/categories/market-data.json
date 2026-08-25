@@ -1,0 +1,1559 @@
+{
+  "id": "market-data",
+  "label_en": "Market data & property intelligence",
+  "label_fr": "Data de marché & intelligence immobilière",
+  "summary_en": "Comparables, ownership, transactions, rents, footfall and the datasets other products are built on.",
+  "summary_fr": "Comparables, propriétaires, transactions, loyers, fréquentation et les jeux de données sur lesquels d'autres produits sont bâtis.",
+  "count": 17,
+  "tools": [
+    {
+      "slug": "attom-data",
+      "name": "ATTOM Data",
+      "editor": "ATTOM",
+      "website": "https://www.attomdata.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "market-data",
+      "founded": 2016,
+      "positioning": "A national property data warehouse sold as bulk files and APIs — the plumbing under other people's products.",
+      "description": "ATTOM licenses standardised property data covering the large majority of the US population: tax assessor records, deeds and transfers, mortgages, foreclosures, AVM values, neighbourhood and hazard data. It sells to builders of products rather than to end users, through bulk delivery, cloud shares and APIs.\n",
+      "real_estate_use": "When a proptech product shows an owner's name, last sale price and estimated value on a property page, the data underneath is often licensed rather than collected. ATTOM is one of the standard suppliers for that layer, the alternative being to build a county-by-county pipeline yourself. Lenders and insurers use the same feeds for portfolio monitoring.\n",
+      "features": [
+        "Tax assessor and recorder records at national coverage",
+        "Deed, mortgage, foreclosure and pre-foreclosure events",
+        "AVM property valuations and equity estimates",
+        "Neighbourhood, school and natural-hazard data",
+        "Delivery by API, bulk file and cloud data share",
+        "Property-level identifiers for record matching"
+      ],
+      "use_cases": [
+        {
+          "persona": "investor-am",
+          "job": "Screen a national portfolio for equity position and foreclosure risk"
+        },
+        {
+          "persona": "developer-builder",
+          "job": "Power a product's property pages without building a county data pipeline"
+        }
+      ],
+      "personas": [
+        "investor-am",
+        "lender-broker",
+        "appraiser",
+        "developer-builder"
+      ],
+      "segments": [
+        "residential",
+        "multifamily",
+        "land-development"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Snowflake",
+        "AWS Data Exchange",
+        "REST API"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "costar",
+        "cherre",
+        "housecanary"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.attomdata.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "cherre",
+      "name": "Cherre",
+      "editor": "Cherre",
+      "website": "https://cherre.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "market-data",
+      "also_in": [
+        "investment-underwriting"
+      ],
+      "founded": 2016,
+      "positioning": "Not another data source — the layer that reconciles the twenty you already pay for onto one property identity.",
+      "description": "Cherre is a real estate data management platform. It ingests a firm's internal systems and its licensed third-party feeds, resolves them to a common property and entity identity, and exposes the result to BI tools and models. The product is the resolution and the connectors, not the underlying data.\n",
+      "real_estate_use": "A large owner-operator typically has the rent roll in Yardi, valuations in ARGUS, market data from a vendor and a dozen spreadsheets — with no shared key between them. Cherre matches them to one property record so that portfolio reporting stops being a quarterly manual reconciliation, and so that a model can be trained on something coherent.\n",
+      "features": [
+        "Entity and address resolution to a single property identity",
+        "Prebuilt connectors to major real estate systems and data vendors",
+        "Managed warehouse with governed access",
+        "Data quality monitoring and lineage",
+        "Delivery to BI tools, notebooks and applications",
+        "Marketplace of third-party datasets"
+      ],
+      "use_cases": [
+        {
+          "persona": "investor-am",
+          "job": "Consolidate portfolio reporting across accounting, valuation and market systems"
+        },
+        {
+          "persona": "corporate-re",
+          "job": "Give analysts one governed dataset instead of eight incompatible exports"
+        }
+      ],
+      "personas": [
+        "investor-am",
+        "corporate-re"
+      ],
+      "segments": [
+        "office",
+        "retail",
+        "industrial",
+        "multifamily"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Yardi",
+        "MRI",
+        "ARGUS",
+        "CoStar",
+        "Snowflake",
+        "Tableau",
+        "Power BI"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "attom-data",
+        "costar"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://cherre.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "cityscan",
+      "name": "Cityscan",
+      "editor": "Cityscan",
+      "website": "https://www.cityscan.fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "market-data",
+      "positioning": "Everything around an address, scored — noise, pollution, transport, schools, risks, amenities — in one page.",
+      "description": "Cityscan aggregates public and private data about the environment of a French address — transport, education, amenities, noise, air quality, natural and technological risks, planning projects — into scores and reports embeddable into professional products.\n",
+      "real_estate_use": "Location quality is the argument every French listing makes and none evidences. Cityscan turns it into a scored report an agency can attach to a listing or a valuation, and that a developer or an investor can use to compare two sites. It also surfaces what a seller would rather not mention: a planned road, a flood risk, a nearby industrial site.\n",
+      "features": [
+        "Environmental and amenity scoring per address",
+        "Transport, education and services accessibility analysis",
+        "Noise, air quality and pollution indicators",
+        "Natural and technological risk exposure",
+        "Planned urban projects near the address",
+        "Embeddable reports and widgets for professionals"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Evidence the quality of a location instead of asserting it in the listing text"
+        },
+        {
+          "persona": "investor-am",
+          "job": "Compare two candidate sites on environmental and risk criteria"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "investor-am",
+        "developer-builder",
+        "appraiser",
+        "corporate-re"
+      ],
+      "segments": [
+        "residential",
+        "office",
+        "retail",
+        "mixed-use",
+        "land-development"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "integrations": [
+        "agency software",
+        "REST API",
+        "valuation tools"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "kelfoncier",
+        "urbanease",
+        "placer-ai"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.cityscan.fr",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "costar",
+      "name": "CoStar",
+      "editor": "CoStar Group",
+      "website": "https://www.costar.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "market-data",
+      "also_in": [
+        "investment-underwriting"
+      ],
+      "founded": 1987,
+      "positioning": "The commercial property database the industry underwrites against, built on a research organisation rather than on scraping.",
+      "description": "CoStar maintains a researched inventory of US commercial buildings — physical characteristics, ownership, tenancy, lease comparables, sale comparables, availabilities and submarket analytics — collected and verified by a large in-house research team and sold as a subscription with strict per-seat licensing.\n",
+      "real_estate_use": "It is the reference for the questions that precede a deal: what is the true rentable area, who owns the entity behind the LLC, what did the last three comparable leases sign at, what is the submarket vacancy trend. Brokers pull comparables for a pitch, investors size a market before underwriting, lenders sanity-check a borrower's rent roll.\n",
+      "features": [
+        "Researched property records with ownership and tenancy detail",
+        "Lease and sale comparables with confirmed terms",
+        "Availability and vacancy tracking by submarket",
+        "Market analytics, forecasts and rent trends",
+        "Tenant tracking and expiring-lease intelligence",
+        "Directory of owners, brokers and tenants"
+      ],
+      "use_cases": [
+        {
+          "persona": "investor-am",
+          "job": "Size a submarket and pull comparable leases before underwriting an acquisition"
+        },
+        {
+          "persona": "agent-broker",
+          "job": "Build a pitch on confirmed comparables rather than on asking rents"
+        }
+      ],
+      "personas": [
+        "investor-am",
+        "agent-broker",
+        "corporate-re",
+        "appraiser",
+        "lender-broker"
+      ],
+      "segments": [
+        "office",
+        "retail",
+        "industrial",
+        "multifamily",
+        "hospitality",
+        "land-development"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "integrations": [
+        "LoopNet",
+        "Apartments.com",
+        "ARGUS",
+        "Excel add-ins"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "reonomy",
+        "attom-data",
+        "crexi",
+        "yanport"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.costar.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "crexi",
+      "name": "Crexi",
+      "editor": "Commercial Real Estate Exchange, Inc.",
+      "website": "https://www.crexi.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "portals-marketplaces",
+      "also_in": [
+        "market-data",
+        "transaction-management"
+      ],
+      "founded": 2015,
+      "positioning": "A CRE marketplace that also runs the deal — listing, bidding, due diligence room and comps in one place.",
+      "description": "Crexi combines a commercial listing marketplace with transaction tooling: offer management, an auction platform, a virtual deal room, and Crexi Intelligence for sales comparables, ownership records and lease data. It positions itself as the challenger to the incumbent CoStar and LoopNet pairing.\n",
+      "real_estate_use": "A broker lists an asset, receives structured offers or runs a timed auction, and shares due-diligence documents through a permissioned data room instead of a shared drive link. Buyers use Crexi Intelligence to check what comparable assets traded for and who owns the building next door before committing to underwriting.\n",
+      "features": [
+        "Commercial listing marketplace across asset classes",
+        "Structured offer submission and auction platform",
+        "Permissioned virtual due-diligence rooms",
+        "Crexi Intelligence comparables, ownership and lease data",
+        "Broker CRM and buyer activity analytics",
+        "Marketing tools including flyers and email campaigns"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Run a competitive bid process on an asset with a controlled document room"
+        },
+        {
+          "persona": "investor-am",
+          "job": "Check sale comparables and ownership before underwriting an acquisition"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "investor-am",
+        "developer-builder"
+      ],
+      "segments": [
+        "office",
+        "retail",
+        "industrial",
+        "multifamily",
+        "land-development"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://www.crexi.com/pricing"
+      },
+      "integrations": [
+        "Dealpath",
+        "Salesforce",
+        "Zapier"
+      ],
+      "ai": {
+        "capabilities": [
+          "Lease abstraction from uploaded documents",
+          "Property matching and recommendations"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "loopnet",
+        "costar",
+        "reonomy"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.crexi.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "dvf",
+      "name": "DVF — Demandes de valeurs foncières",
+      "editor": "DGFiP / Etalab",
+      "website": "https://app.dvf.etalab.gouv.fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "market-data",
+      "founded": 2019,
+      "positioning": "Every French property transaction of the last five years, published as open data by the tax administration — free, and the base layer under most French valuation products.",
+      "description": "DVF publishes the property transactions registered by the French tax administration: address, date, price, surface, property type and land parcel, covering most of the country and updated twice a year. It is available as bulk open data, through a public API and through a free map application.\n",
+      "real_estate_use": "It is the closest thing France has to public sale comparables. An agent checks what the flat two floors down actually sold for, an investor tests a seller's price claim, an appraiser builds a comparables table with a verifiable public source. Its limits matter as much: Alsace-Moselle and Mayotte are excluded, sales are registered several months late, and the price is the recorded transfer price, not the negotiated market story behind it.\n",
+      "features": [
+        "Registered transaction price, date, surface and property type",
+        "Coverage of most of France over a rolling five-year window",
+        "Free bulk open data download and public API",
+        "Free map application for address-level consultation",
+        "Land parcel references linking to cadastral data",
+        "Open licence permitting commercial reuse"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Check what comparable properties in the building actually sold for"
+        },
+        {
+          "persona": "appraiser",
+          "job": "Build a comparables table on a source the client can verify independently"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "appraiser",
+        "investor-am",
+        "landlord-owner",
+        "developer-builder"
+      ],
+      "segments": [
+        "residential",
+        "mixed-use",
+        "land-development",
+        "office",
+        "retail"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "free",
+        "public_pricing": true,
+        "url": "https://app.dvf.etalab.gouv.fr"
+      },
+      "integrations": [
+        "public API",
+        "open data platforms",
+        "French valuation tools"
+      ],
+      "product": {
+        "api": true,
+        "open_source": true,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "yanport",
+        "meilleursagents",
+        "pricehubble"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://app.dvf.etalab.gouv.fr",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "fluximmo",
+      "name": "Fluximmo",
+      "editor": "Fluximmo",
+      "website": "https://www.fluximmo.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "market-data",
+      "also_in": [
+        "crm-lead"
+      ],
+      "positioning": "French property listings as an API — the raw feed behind pige tools and market products.",
+      "description": "Fluximmo collects real estate listings published across French portals and classified sites, deduplicates them, distinguishes private from professional sellers, and delivers the result as a structured API with history and change tracking.\n",
+      "real_estate_use": "It is infrastructure rather than an end-user product: a pige tool, a market study or an internal prospecting system uses the feed instead of scraping portals themselves. The deduplication and private-versus-professional classification are the hard parts, since the same property appears repeatedly under different descriptions and prices.\n",
+      "features": [
+        "Aggregated listing feed across French portals and classified sites",
+        "Deduplication of the same property across sources",
+        "Private versus professional seller classification",
+        "Price change and listing lifecycle history",
+        "Geographic and criteria-based filtering",
+        "REST API delivery with historical access"
+      ],
+      "use_cases": [
+        {
+          "persona": "developer-builder",
+          "job": "Build a prospecting or market product on a listing feed instead of scraping portals"
+        },
+        {
+          "persona": "brokerage",
+          "job": "Feed an internal canvassing system with deduplicated private-seller listings"
+        }
+      ],
+      "personas": [
+        "developer-builder",
+        "brokerage",
+        "investor-am",
+        "appraiser"
+      ],
+      "segments": [
+        "residential",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://www.fluximmo.com/tarifs"
+      },
+      "integrations": [
+        "REST API",
+        "BI tools",
+        "CRM systems"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "yanport",
+        "pige-online",
+        "dvf"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.fluximmo.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "housecanary",
+      "name": "HouseCanary",
+      "editor": "HouseCanary",
+      "website": "https://www.housecanary.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "estimation-pricing",
+      "also_in": [
+        "market-data"
+      ],
+      "founded": 2013,
+      "positioning": "Valuation sold with its confidence interval, for people who have to act on the number.",
+      "description": "HouseCanary provides residential automated valuations, forecast values, rental estimates and condition-adjusted appraisals, delivered by API and through analyst-facing products. Its output is designed for institutional use — every value comes with an accuracy band.\n",
+      "real_estate_use": "An iBuyer or a single-family rental fund cannot send an appraiser to every candidate house. It prices thousands of addresses a week through an AVM, and the confidence interval decides which ones get a human inspection. Lenders use the same feeds for portfolio monitoring and collateral review between full appraisals.\n",
+      "features": [
+        "Residential AVM with confidence scoring",
+        "Three-year value and rent forecasts by block and metro",
+        "Rental value estimation",
+        "Condition-adjusted valuation products",
+        "Market analytics down to block group",
+        "Delivery by API and bulk file"
+      ],
+      "use_cases": [
+        {
+          "persona": "investor-am",
+          "job": "Price thousands of candidate homes a week and flag the ones needing a human look"
+        },
+        {
+          "persona": "lender-broker",
+          "job": "Monitor collateral value across a loan portfolio between full appraisals"
+        }
+      ],
+      "personas": [
+        "investor-am",
+        "lender-broker",
+        "appraiser"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "usage",
+        "public_pricing": false
+      },
+      "integrations": [
+        "REST API",
+        "Snowflake",
+        "Excel"
+      ],
+      "ai": {
+        "capabilities": [
+          "Automated valuation models",
+          "Value and rent forecasting"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "clear-capital",
+        "attom-data",
+        "pricehubble"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.housecanary.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "kelfoncier",
+      "name": "Kel Foncier",
+      "editor": "Kel Foncier",
+      "website": "https://www.kelfoncier.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "market-data",
+      "also_in": [
+        "construction-development"
+      ],
+      "positioning": "Land prospecting for French developers — which parcels can be built on, how much, and who owns them.",
+      "description": "Kel Foncier combines cadastral parcels, local urban planning rules, building rights, ownership data, building permits and transactions into a mapping and search tool for property developers and land prospectors.\n",
+      "real_estate_use": "A French development starts with a question the PLU answers slowly: on this parcel, what height, what footprint, what constraints. Kel Foncier makes that searchable in reverse — find every parcel in a commune with unused building rights above a threshold, filter out the protected ones, and get the owner. It compresses weeks of town-hall work into a query.\n",
+      "features": [
+        "Cadastral parcels with local planning rules applied",
+        "Residual building rights calculation per parcel",
+        "Ownership information and owner typology",
+        "Building permit history and pipeline",
+        "Transaction and land price references",
+        "Prospecting lists, alerts and export"
+      ],
+      "use_cases": [
+        {
+          "persona": "developer-builder",
+          "job": "Find parcels with unused building rights in a target commune and identify the owners"
+        },
+        {
+          "persona": "investor-am",
+          "job": "Test the development potential of a site before making an offer"
+        }
+      ],
+      "personas": [
+        "developer-builder",
+        "investor-am",
+        "agent-broker",
+        "corporate-re"
+      ],
+      "segments": [
+        "land-development",
+        "residential",
+        "mixed-use",
+        "office"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "integrations": [
+        "GIS tools",
+        "CRM systems",
+        "export formats"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "urbanease",
+        "cityscan",
+        "dvf"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.kelfoncier.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "meilleursagents",
+      "name": "MeilleursAgents",
+      "editor": "Aviv Group (Axel Springer)",
+      "website": "https://www.meilleursagents.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "estimation-pricing",
+      "also_in": [
+        "market-data",
+        "crm-lead"
+      ],
+      "founded": 2008,
+      "positioning": "The French price map the public consults — and the seller-lead engine agencies buy on the strength of it.",
+      "description": "MeilleursAgents publishes street-level price estimates across France from notarial and market data, offers owners a free online valuation, and sells agencies visibility and seller leads generated by those valuation requests, alongside agency comparison and review features.\n",
+      "real_estate_use": "It changed the French listing appointment. An owner arrives having already read a neighbourhood price per square metre, so the agent's pricing conversation starts from a public reference rather than from a blank page. On the professional side, an owner who requested a valuation is a seller lead with intent, which is what agencies actually pay for.\n",
+      "features": [
+        "Street and neighbourhood level price indices",
+        "Free online valuation for owners",
+        "Seller lead generation and delivery to agencies",
+        "Agency visibility, profiles and reviews",
+        "Market trend indicators by city and district",
+        "Agency performance comparison for consumers"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Buy seller leads from owners who have just requested a valuation"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "Get a reference price for a property before meeting an agency"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage",
+        "landlord-owner",
+        "investor-am"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Hektor",
+        "Netty",
+        "Apimo",
+        "agency CRMs"
+      ],
+      "ai": {
+        "capabilities": [
+          "Automated valuation from transaction and market data"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "pricehubble",
+        "yanport",
+        "dvf"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.meilleursagents.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "placer-ai",
+      "name": "Placer.ai",
+      "editor": "Placer Labs",
+      "website": "https://www.placer.ai",
+      "hq_country": "US",
+      "markets": [
+        "US",
+        "FR"
+      ],
+      "category": "market-data",
+      "also_in": [
+        "investment-underwriting"
+      ],
+      "founded": 2016,
+      "positioning": "Foot traffic as a leasing argument — how many people actually walk into this centre, and where else do they go.",
+      "description": "Placer.ai turns anonymised mobile location data into visit metrics for physical venues: visit counts, dwell time, trade-area maps, visitor demographics and cross-shopping between brands. Coverage is strongest in the US, with an expanding international footprint.\n",
+      "real_estate_use": "In retail leasing it replaces the argument from intuition. A landlord shows a prospective tenant that the centre draws a measured number of visits from a trade area matching the brand's customer profile. Investors use the same data to underwrite retail assets and to spot decline before it appears in the rent roll.\n",
+      "features": [
+        "Visit counts and trends per venue and per chain",
+        "Trade-area maps and visitor origin analysis",
+        "Visitor demographics and psychographic segments",
+        "Cross-visitation between brands and centres",
+        "Site selection scoring for new locations",
+        "Void analysis and competitive benchmarking"
+      ],
+      "use_cases": [
+        {
+          "persona": "investor-am",
+          "job": "Underwrite a retail asset on measured footfall rather than on reported sales"
+        },
+        {
+          "persona": "agent-broker",
+          "job": "Prove trade-area quality to a retail tenant during lease negotiation"
+        }
+      ],
+      "personas": [
+        "investor-am",
+        "agent-broker",
+        "corporate-re",
+        "developer-builder"
+      ],
+      "segments": [
+        "retail",
+        "mixed-use",
+        "hospitality"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Excel",
+        "Tableau",
+        "Power BI",
+        "REST API"
+      ],
+      "ai": {
+        "capabilities": [
+          "Visit estimation models from mobile location panels",
+          "Trade-area prediction"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "costar",
+        "cityscan"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.placer.ai",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "pricehubble",
+      "name": "PriceHubble",
+      "editor": "PriceHubble",
+      "website": "https://www.pricehubble.com",
+      "hq_country": "CH",
+      "markets": [
+        "FR"
+      ],
+      "category": "estimation-pricing",
+      "also_in": [
+        "market-data"
+      ],
+      "founded": 2016,
+      "positioning": "Valuation and property analytics sold as an API and white-label modules, embedded in someone else's product.",
+      "description": "PriceHubble provides automated valuation, rental estimation, market analytics and property dashboards across several European countries, delivered as APIs and embeddable modules for banks, agencies, asset managers and proptech products rather than as a consumer site.\n",
+      "real_estate_use": "A French bank assessing collateral, an agency offering an instant valuation on its own site, or a portfolio holder revaluing quarterly all need the same computation without building it. PriceHubble sells that computation to be embedded, which is why it appears inside products whose users never see the brand.\n",
+      "features": [
+        "Automated valuation for sale and rental values",
+        "Property dashboards and market analytics modules",
+        "White-label valuation widgets for websites",
+        "Portfolio revaluation and monitoring",
+        "Building and environment data enrichment",
+        "REST API delivery across European markets"
+      ],
+      "use_cases": [
+        {
+          "persona": "lender-broker",
+          "job": "Value collateral and revalue a loan portfolio without building a model"
+        },
+        {
+          "persona": "brokerage",
+          "job": "Offer an instant valuation on the agency's own website to capture seller leads"
+        }
+      ],
+      "personas": [
+        "lender-broker",
+        "brokerage",
+        "investor-am",
+        "agent-broker"
+      ],
+      "segments": [
+        "residential",
+        "multifamily",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "REST API",
+        "banking systems",
+        "agency software"
+      ],
+      "ai": {
+        "capabilities": [
+          "Automated valuation models",
+          "Rental value estimation",
+          "Market forecasting"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr",
+          "en",
+          "de",
+          "it"
+        ]
+      },
+      "alternatives": [
+        "meilleursagents",
+        "housecanary",
+        "yanport"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.pricehubble.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "realpage",
+      "name": "RealPage",
+      "editor": "RealPage (Thoma Bravo)",
+      "website": "https://www.realpage.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "property-management",
+      "also_in": [
+        "market-data",
+        "tenant-screening"
+      ],
+      "founded": 1998,
+      "positioning": "The broadest multifamily suite in the market — and the one whose revenue management product put algorithmic rent pricing under legal scrutiny.",
+      "description": "RealPage sells a wide portfolio for multifamily and single-family rental operators: property management systems (OneSite, Propertyware, Buildium), leasing and marketing, screening, utility management, asset optimisation and the AI Revenue Management products descended from YieldStar and LRO.\n",
+      "real_estate_use": "Large operators use it for the modules they cannot easily build: screening at scale, utility recovery, and above all revenue management — a model that recommends a rent for every unit every day based on market and portfolio signals. That last product is the subject of US antitrust litigation over algorithmic pricing, which is now part of any serious evaluation of it.\n",
+      "features": [
+        "OneSite property management and accounting",
+        "AI Revenue Management rent pricing recommendations",
+        "Applicant screening and fraud detection",
+        "Utility billing and expense recovery",
+        "Leasing, marketing and contact centre services",
+        "Asset and portfolio performance analytics"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Price thousands of units daily against market and occupancy signals"
+        },
+        {
+          "persona": "investor-am",
+          "job": "Benchmark asset performance against a national multifamily dataset"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "investor-am",
+        "landlord-owner"
+      ],
+      "segments": [
+        "multifamily",
+        "residential",
+        "coliving-student"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Yardi",
+        "Entrata",
+        "accounting systems",
+        "ILS networks"
+      ],
+      "ai": {
+        "capabilities": [
+          "Revenue management pricing models",
+          "Applicant fraud detection",
+          "Leasing chatbots"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "entrata",
+        "yardi-voyager",
+        "appfolio"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.realpage.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "reonomy",
+      "name": "Reonomy",
+      "editor": "Altus Group",
+      "website": "https://www.reonomy.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "market-data",
+      "also_in": [
+        "crm-lead"
+      ],
+      "founded": 2013,
+      "positioning": "Off-market prospecting — who owns this building, and how do I reach the human behind the LLC.",
+      "description": "Reonomy assembles public records, mortgage and lien filings, and contact data into a searchable database of US commercial properties, with a resolution layer that links a title-holding entity to the individuals actually behind it. Acquired by Altus Group.\n",
+      "real_estate_use": "Its use is prospecting rather than underwriting. A broker looking for listings filters a county for owners who have held an asset more than ten years with a maturing loan, then pulls a phone number for the principal — a list that would otherwise take weeks of county records work. Debt brokers run the same query against loan maturity dates.\n",
+      "features": [
+        "Ownership resolution from LLC to individual principal",
+        "Contact records including phone and email for owners",
+        "Mortgage, lien and transaction history from public records",
+        "Portfolio view of everything an owner holds nationally",
+        "Saved searches with alerts on ownership or debt changes",
+        "Property-level physical and tax detail"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Build an off-market listing pipeline from long-held assets with maturing debt"
+        },
+        {
+          "persona": "lender-broker",
+          "job": "Target owners whose loans mature in the next eighteen months"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "investor-am",
+        "lender-broker"
+      ],
+      "segments": [
+        "office",
+        "retail",
+        "industrial",
+        "multifamily",
+        "land-development"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Salesforce",
+        "HubSpot",
+        "Excel"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "costar",
+        "attom-data",
+        "crexi"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.reonomy.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "urbanease",
+      "name": "Urbanease",
+      "editor": "Urbanease",
+      "website": "https://www.urbanease.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "market-data",
+      "also_in": [
+        "construction-development",
+        "crm-lead"
+      ],
+      "positioning": "Land prospecting with the canvassing workflow attached — from the parcel to the owner letter.",
+      "description": "Urbanease provides French developers, land prospectors and local authorities with a mapping platform combining cadastre, urban planning documents, ownership data and constraints, together with prospecting workflow: parcel qualification, owner contact and canvassing follow-up.\n",
+      "real_estate_use": "Finding the parcel is half the job; the other half is a disciplined approach to an owner who was not thinking of selling. Urbanease keeps the qualification and the contact history on the parcel itself, so a prospector returning to a commune two years later knows who was already approached, by whom, and what they said.\n",
+      "features": [
+        "Cadastral and urban planning mapping with constraints",
+        "Parcel qualification and development potential assessment",
+        "Owner identification and contact management",
+        "Canvassing history and follow-up per parcel",
+        "Territory and team assignment",
+        "Export and reporting for prospecting campaigns"
+      ],
+      "use_cases": [
+        {
+          "persona": "developer-builder",
+          "job": "Run a disciplined land canvassing campaign with history kept on each parcel"
+        },
+        {
+          "persona": "corporate-re",
+          "job": "Assess planning constraints and potential on a site before acquisition"
+        }
+      ],
+      "personas": [
+        "developer-builder",
+        "corporate-re",
+        "investor-am",
+        "agent-broker"
+      ],
+      "segments": [
+        "land-development",
+        "residential",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "integrations": [
+        "GIS tools",
+        "CRM systems"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "kelfoncier",
+        "cityscan"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.urbanease.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "vts",
+      "name": "VTS",
+      "editor": "VTS",
+      "website": "https://www.vts.com",
+      "hq_country": "US",
+      "markets": [
+        "US",
+        "FR"
+      ],
+      "category": "commercial-am",
+      "also_in": [
+        "tenant-experience",
+        "market-data"
+      ],
+      "founded": 2012,
+      "positioning": "The leasing pipeline for office landlords — every tour, proposal and lease in one view, plus a demand index nobody else has.",
+      "description": "VTS is a leasing and asset management platform for commercial landlords: deal pipeline, space availability, tenant and broker activity, portfolio reporting, and the VTS Market and Activate products covering marketing and tenant experience. Its VTS Office Demand Index derives leading indicators from platform activity.\n",
+      "real_estate_use": "Office leasing runs on a pipeline that traditionally lived in a leasing director's spreadsheet. VTS makes it institutional: every requirement, tour and proposal is tracked, so an asset manager can forecast occupancy and compare a proposed deal against portfolio standards. Because a large share of US office space transacts on the platform, aggregated tour activity becomes a market signal weeks ahead of signed-lease data.\n",
+      "features": [
+        "Leasing deal pipeline with tours, proposals and approvals",
+        "Space availability and stacking plans",
+        "Portfolio occupancy and lease expiry reporting",
+        "VTS Market for online marketing of available space",
+        "VTS Activate tenant experience application",
+        "Office Demand Index from aggregated platform activity"
+      ],
+      "use_cases": [
+        {
+          "persona": "investor-am",
+          "job": "Forecast occupancy from a real leasing pipeline rather than from a spreadsheet"
+        },
+        {
+          "persona": "agent-broker",
+          "job": "Track every requirement and proposal on a landlord's portfolio in one system"
+        }
+      ],
+      "personas": [
+        "investor-am",
+        "agent-broker",
+        "corporate-re",
+        "property-manager"
+      ],
+      "segments": [
+        "office",
+        "retail",
+        "industrial",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Yardi",
+        "MRI",
+        "Argus",
+        "Salesforce"
+      ],
+      "ai": {
+        "capabilities": [
+          "Lease abstraction",
+          "Deal and demand analytics"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en",
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "mri-software",
+        "dealpath",
+        "yardi-voyager"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.vts.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "yanport",
+      "name": "Yanport",
+      "editor": "Yanport",
+      "website": "https://www.yanport.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "market-data",
+      "positioning": "The French listing and transaction database professionals use when the public price indices are not enough.",
+      "description": "Yanport collects and structures French property listings and transaction data over time — asking prices, price changes, time on market, withdrawal and sale outcomes — and delivers it through analysis tools and APIs to professionals and product builders.\n",
+      "real_estate_use": "France has no MLS, so the history of what was actually asked and what actually sold is fragmented across portals and public records. Yanport reconstructs it: an appraiser or a developer can see how long comparable properties took to sell and how far the asking price moved, which is the evidence a public price index cannot give.\n",
+      "features": [
+        "Historic French listing database with price change tracking",
+        "Time on market and sale outcome analysis",
+        "Transaction data enrichment",
+        "Market analysis tools by sector and property type",
+        "API delivery for integration into products",
+        "Custom studies and portfolio analysis"
+      ],
+      "use_cases": [
+        {
+          "persona": "appraiser",
+          "job": "Show how far comparable asking prices moved before a sale actually closed"
+        },
+        {
+          "persona": "developer-builder",
+          "job": "Assess absorption and pricing in a sector before committing to an operation"
+        }
+      ],
+      "personas": [
+        "appraiser",
+        "developer-builder",
+        "investor-am",
+        "brokerage"
+      ],
+      "segments": [
+        "residential",
+        "mixed-use",
+        "office"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "REST API",
+        "BI tools",
+        "agency software"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "meilleursagents",
+        "pricehubble",
+        "dvf",
+        "fluximmo"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.yanport.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    }
+  ]
+}

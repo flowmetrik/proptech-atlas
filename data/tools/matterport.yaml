@@ -1,0 +1,52 @@
+slug: matterport
+name: Matterport
+editor: Matterport (CoStar Group)
+website: https://matterport.com
+hq_country: US
+markets: [US, FR]
+category: visuals-tours
+also_in: [facility-maintenance]
+founded: 2011
+positioning: The 3D capture standard — a walkable digital twin that doubles as a measurable record of the space.
+description: >
+  Matterport captures buildings in 3D using dedicated cameras or a phone, producing walkable
+  virtual tours, automatic floor plans, measurements and structured space data hosted on its
+  cloud platform, embeddable in listings and other systems.
+real_estate_use: >
+  In marketing, a scan lets a remote buyer or tenant walk the space before travelling. In
+  operations it does something less obvious and often more valuable: it is a dated,
+  measurable record of condition. Property managers scan at move-in and move-out to settle
+  deposit disputes; facility teams scan plant rooms so a contractor can measure without a
+  site visit.
+features:
+  - 3D capture from dedicated cameras or smartphone
+  - Walkable virtual tours embeddable in listings
+  - Automatic floor plan and measurement generation
+  - Dated condition records for inspections and disputes
+  - Space and asset tagging inside the model
+  - API and integrations with listing and management platforms
+use_cases:
+  - persona: agent-broker
+    job: Let a remote buyer or tenant walk the property before travelling to see it
+  - persona: property-manager
+    job: Hold a dated, measurable condition record for move-in and move-out disputes
+personas: [agent-broker, property-manager, facility-manager, developer-builder]
+segments: [residential, office, retail, industrial, hospitality]
+company_sizes: [solo, smb, midmarket, enterprise]
+pricing:
+  model: subscription
+  public_pricing: true
+  url: https://matterport.com/pricing
+integrations: [listing platforms, Autodesk, Procore, REST API]
+ai:
+  capabilities: [Automatic floor plan extraction, Object and room recognition, Defurnishing]
+product:
+  api: true
+  open_source: false
+  mobile: [ios, android]
+  languages: [en, fr, de, es]
+alternatives: [cubicasa, boxbrownie]
+reviews: []
+sources: [{ url: https://matterport.com, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

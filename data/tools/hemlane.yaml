@@ -1,0 +1,49 @@
+slug: hemlane
+name: Hemlane
+editor: Hemlane
+website: https://www.hemlane.com
+hq_country: US
+markets: [US]
+category: property-management
+also_in: [facility-maintenance]
+founded: 2015
+positioning: Software plus a local agent and a 24/7 repair desk — for the owner who is not in the same city as the property.
+description: >
+  Hemlane combines rental management software with optional human services: a local leasing
+  agent network for showings, and 24/7 maintenance coordination that triages tenant calls
+  and dispatches vendors. Owners choose how much of the operation to delegate.
+real_estate_use: >
+  It targets the remote owner who does not want a full management company taking eight to
+  ten percent. The software handles marketing, screening and rent; the local agent handles
+  the showing that cannot be done remotely; the repair desk answers the two a.m. burst pipe.
+  The economics sit deliberately between self-management and full delegation.
+features:
+  - Listing syndication and applicant screening
+  - Local leasing agent network for showings
+  - 24/7 maintenance coordination and vendor dispatch
+  - Rent collection with automated reminders
+  - Lease tracking with state-specific compliance guidance
+  - Owner reporting and financial exports
+use_cases:
+  - persona: landlord-owner
+    job: Manage an out-of-state rental without paying full management fees
+  - persona: landlord-owner
+    job: Have someone answer the emergency maintenance call at night
+personas: [landlord-owner, property-manager]
+segments: [residential]
+company_sizes: [solo, smb]
+pricing:
+  model: per-unit
+  public_pricing: true
+  url: https://www.hemlane.com/pricing
+integrations: [Zillow Rentals, Apartments.com, TransUnion screening, QuickBooks]
+product:
+  api: false
+  open_source: false
+  mobile: [ios, android]
+  languages: [en]
+alternatives: [turbotenant, propertyware, doorloop]
+reviews: []
+sources: [{ url: https://www.hemlane.com, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

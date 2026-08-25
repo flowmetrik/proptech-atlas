@@ -1,0 +1,52 @@
+slug: boomtown
+name: BoomTown
+editor: MoxiWorks
+website: https://boomtownroi.com
+hq_country: US
+markets: [US]
+category: crm-lead
+founded: 2006
+positioning: Lead generation sold with the accountability layer that forces a team to actually work the leads.
+description: >
+  BoomTown pairs a consumer search site and paid lead generation with a CRM designed
+  around team management — predictive lead scoring, an opportunity wall and, historically,
+  a human ISA service that qualifies leads before they reach an agent. Now part of
+  MoxiWorks.
+real_estate_use: >
+  Chosen by teams that buy leads at volume and struggle to convert them. The system ranks
+  which contacts deserve a call today, escalates when an agent ignores an assignment, and
+  reports on the funnel from lead to appointment to closing so a team leader can act on the
+  gap rather than on anecdote.
+features:
+  - Consumer IDX search site with lead capture
+  - Predictive lead scoring and prioritised call lists
+  - Success Assurance ISA service qualifying leads before agent handoff
+  - Automated drip and text campaigns per lead behaviour
+  - Team accountability dashboards from lead to appointment
+  - Paid lead generation management
+use_cases:
+  - persona: brokerage
+    job: Convert bought leads at a measurable rate with enforced agent follow-up
+  - persona: agent-broker
+    job: Start the day with a ranked call list instead of an undifferentiated database
+personas: [brokerage, agent-broker]
+segments: [residential]
+company_sizes: [smb, midmarket]
+pricing:
+  model: quote
+  public_pricing: false
+integrations: [MoxiWorks suite, Zapier, dotloop, MLS IDX feeds]
+ai:
+  capabilities: [Predictive lead scoring]
+product:
+  api: true
+  open_source: false
+  mobile: [ios, android]
+  languages: [en]
+alternatives: [lofty, boldtrail, follow-up-boss, sierra-interactive]
+reviews: []
+sources:
+  - url: https://boomtownroi.com
+    note: site éditeur
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: 2026-08-25

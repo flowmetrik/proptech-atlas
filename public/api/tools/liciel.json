@@ -1,0 +1,86 @@
+{
+  "slug": "liciel",
+  "name": "LICIEL",
+  "editor": "LICIEL Environnement",
+  "website": "https://www.liciel.fr",
+  "hq_country": "FR",
+  "markets": [
+    "FR"
+  ],
+  "category": "diagnostics-compliance",
+  "founded": 1998,
+  "positioning": "The software French property diagnosticians produce their regulated reports in.",
+  "description": "LICIEL publishes software for the French diagnostic immobilier profession: DPE energy performance, asbestos, lead, gas, electricity, termites, surface measurement and the assembled dossier de diagnostic technique, with report generation, on-site capture and transmission to the required registries.\n",
+  "real_estate_use": "No French property can be sold or let without its diagnostic file, and the DPE in particular now carries legal consequences — a G-rated dwelling cannot be let. The diagnostician's software has to produce a report conforming to the current method and transmit it to the ADEME registry; when the method changes, the software is what has to change with it.\n",
+  "features": [
+    "Report production for every regulated French diagnostic",
+    "DPE calculation following the current regulatory method",
+    "On-site capture on tablet with photos and measurements",
+    "Assembly of the dossier de diagnostic technique",
+    "Transmission to official registries",
+    "Client, mission and invoicing management"
+  ],
+  "use_cases": [
+    {
+      "persona": "appraiser",
+      "job": "Produce a regulation-compliant DPE and transmit it to the official registry"
+    },
+    {
+      "persona": "agent-broker",
+      "job": "Obtain a complete diagnostic file before a mandate goes on the market"
+    }
+  ],
+  "personas": [
+    "appraiser",
+    "agent-broker",
+    "property-manager",
+    "syndic-manager"
+  ],
+  "segments": [
+    "residential",
+    "office",
+    "retail",
+    "mixed-use"
+  ],
+  "company_sizes": [
+    "solo",
+    "smb",
+    "midmarket"
+  ],
+  "pricing": {
+    "model": "subscription",
+    "public_pricing": false
+  },
+  "integrations": [
+    "ADEME registry",
+    "agency software",
+    "invoicing tools"
+  ],
+  "product": {
+    "api": true,
+    "open_source": false,
+    "mobile": [
+      "ios",
+      "android"
+    ],
+    "languages": [
+      "fr"
+    ]
+  },
+  "alternatives": [
+    "immopad"
+  ],
+  "reviews": [],
+  "sources": [
+    {
+      "url": "https://www.liciel.fr",
+      "note": "site éditeur"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-25"
+}

@@ -1,0 +1,46 @@
+slug: cityscan
+name: Cityscan
+editor: Cityscan
+website: https://www.cityscan.fr
+hq_country: FR
+markets: [FR]
+category: market-data
+positioning: Everything around an address, scored — noise, pollution, transport, schools, risks, amenities — in one page.
+description: >
+  Cityscan aggregates public and private data about the environment of a French address —
+  transport, education, amenities, noise, air quality, natural and technological risks,
+  planning projects — into scores and reports embeddable into professional products.
+real_estate_use: >
+  Location quality is the argument every French listing makes and none evidences. Cityscan
+  turns it into a scored report an agency can attach to a listing or a valuation, and that a
+  developer or an investor can use to compare two sites. It also surfaces what a seller would
+  rather not mention: a planned road, a flood risk, a nearby industrial site.
+features:
+  - Environmental and amenity scoring per address
+  - Transport, education and services accessibility analysis
+  - Noise, air quality and pollution indicators
+  - Natural and technological risk exposure
+  - Planned urban projects near the address
+  - Embeddable reports and widgets for professionals
+use_cases:
+  - persona: agent-broker
+    job: Evidence the quality of a location instead of asserting it in the listing text
+  - persona: investor-am
+    job: Compare two candidate sites on environmental and risk criteria
+personas: [agent-broker, investor-am, developer-builder, appraiser, corporate-re]
+segments: [residential, office, retail, mixed-use, land-development]
+company_sizes: [smb, midmarket, enterprise]
+pricing:
+  model: subscription
+  public_pricing: false
+integrations: [agency software, REST API, valuation tools]
+product:
+  api: true
+  open_source: false
+  mobile: []
+  languages: [fr]
+alternatives: [kelfoncier, urbanease, placer-ai]
+reviews: []
+sources: [{ url: https://www.cityscan.fr, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

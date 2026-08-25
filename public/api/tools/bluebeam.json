@@ -1,0 +1,93 @@
+{
+  "slug": "bluebeam",
+  "name": "Bluebeam Revu",
+  "editor": "Bluebeam (Nemetschek Group)",
+  "website": "https://www.bluebeam.com",
+  "hq_country": "US",
+  "markets": [
+    "US",
+    "FR"
+  ],
+  "category": "construction-development",
+  "founded": 2002,
+  "positioning": "The PDF tool construction actually standardised on — markup, measurement and takeoff on drawings, together in one session.",
+  "description": "Bluebeam Revu is a PDF creation, markup and collaboration application built for architecture, engineering and construction: measurement and quantity takeoff tools, customisable markup tool sets, drawing comparison, and Studio sessions where several people annotate the same document live.\n",
+  "real_estate_use": "Drawing review remains a PDF workflow on most projects, whatever the model contains. Bluebeam is where an estimator does takeoff, where a design review is marked up by six people at once in a Studio session, and where two revisions of a plan are overlaid to see exactly what moved. It is a daily-use tool rather than a system of record.\n",
+  "features": [
+    "PDF markup with construction-specific tool sets",
+    "Measurement and quantity takeoff from drawings",
+    "Drawing comparison and revision overlay",
+    "Studio sessions for live multi-party markup",
+    "Batch processing and document sets",
+    "Markup summary export for issue tracking"
+  ],
+  "use_cases": [
+    {
+      "persona": "developer-builder",
+      "job": "Run a live multi-party design review on a drawing set"
+    },
+    {
+      "persona": "developer-builder",
+      "job": "Produce a quantity takeoff directly from PDF drawings"
+    }
+  ],
+  "personas": [
+    "developer-builder",
+    "corporate-re",
+    "facility-manager"
+  ],
+  "segments": [
+    "office",
+    "retail",
+    "industrial",
+    "multifamily",
+    "land-development"
+  ],
+  "company_sizes": [
+    "solo",
+    "smb",
+    "midmarket",
+    "enterprise"
+  ],
+  "pricing": {
+    "model": "per-seat",
+    "public_pricing": true,
+    "url": "https://www.bluebeam.com/solutions/pricing"
+  },
+  "integrations": [
+    "Procore",
+    "Autodesk Construction Cloud",
+    "SharePoint",
+    "Box"
+  ],
+  "product": {
+    "api": true,
+    "open_source": false,
+    "mobile": [
+      "ios"
+    ],
+    "languages": [
+      "en",
+      "fr",
+      "de",
+      "es"
+    ]
+  },
+  "alternatives": [
+    "autodesk-construction-cloud",
+    "procore"
+  ],
+  "reviews": [],
+  "sources": [
+    {
+      "url": "https://www.bluebeam.com",
+      "note": "site éditeur"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-25"
+}

@@ -1,0 +1,48 @@
+slug: syment
+name: Syment
+editor: Syment
+website: https://www.syment.fr
+hq_country: FR
+markets: [FR]
+category: syndic-copro
+positioning: Condominium software designed for collaboration with the conseil syndical, including the volunteer syndic case.
+description: >
+  Syment is a French SaaS platform for condominium management covering accounting, budgets,
+  calls for funds, assemblies with electronic voting, works tracking and a co-owner
+  extranet, used both by professional syndics and by buildings managed by a volunteer
+  co-owner.
+real_estate_use: >
+  A significant share of small French buildings are managed by a syndic bénévole — a co-owner
+  who is not an accountant. That case has particular requirements: the accounting must be
+  correct without accounting training, and the council must be able to see everything. Syment
+  targets that gap while remaining usable by professionals on small portfolios.
+features:
+  - Condominium accounting with tantième allocation
+  - Budgets, calls for funds and arrears tracking
+  - General assembly preparation with electronic voting
+  - Co-owner and council extranet with document access
+  - Works, quote and contract tracking
+  - Guided workflows for non-professional syndics
+use_cases:
+  - persona: syndic-manager
+    job: Run a small building's accounts and assembly without accounting training
+  - persona: landlord-owner
+    job: Give the conseil syndical live visibility on the building's accounts
+personas: [syndic-manager, landlord-owner, property-manager]
+segments: [residential, mixed-use]
+company_sizes: [solo, smb]
+pricing:
+  model: subscription
+  public_pricing: true
+  url: https://www.syment.fr/tarifs
+integrations: [banking, electronic signature]
+product:
+  api: false
+  open_source: false
+  mobile: [ios, android]
+  languages: [fr]
+alternatives: [vilogi, crypto-septeo, gercop]
+reviews: []
+sources: [{ url: https://www.syment.fr, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

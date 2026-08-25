@@ -1,0 +1,92 @@
+{
+  "slug": "dealpath",
+  "name": "Dealpath",
+  "editor": "Dealpath",
+  "website": "https://www.dealpath.com",
+  "hq_country": "US",
+  "markets": [
+    "US"
+  ],
+  "category": "investment-underwriting",
+  "positioning": "The deal pipeline for an investment team — what we looked at, what we passed on, and why.",
+  "description": "Dealpath is a deal management platform for real estate investment firms: pipeline tracking, underwriting data capture, task and approval workflows, document management and reporting across acquisitions, development and debt.\n",
+  "real_estate_use": "An acquisitions team screens far more deals than it buys, and the institutional memory of the ones it passed on is usually lost. Dealpath keeps every screened deal with its underwriting assumptions and its rejection reason, so a market can be re-approached with history intact and an investment committee can see the funnel rather than the survivors.\n",
+  "features": [
+    "Deal pipeline with stage, status and ownership tracking",
+    "Structured underwriting data capture and comparison",
+    "Task, approval and investment committee workflows",
+    "Document repository per deal",
+    "Pipeline and market reporting for investment committees",
+    "Integrations with modelling and data providers"
+  ],
+  "use_cases": [
+    {
+      "persona": "investor-am",
+      "job": "Keep a defensible record of every deal screened and the reason it was passed"
+    },
+    {
+      "persona": "investor-am",
+      "job": "Give an investment committee a live view of the pipeline instead of a deck"
+    }
+  ],
+  "personas": [
+    "investor-am",
+    "developer-builder",
+    "lender-broker"
+  ],
+  "segments": [
+    "office",
+    "retail",
+    "industrial",
+    "multifamily",
+    "land-development"
+  ],
+  "company_sizes": [
+    "smb",
+    "midmarket",
+    "enterprise"
+  ],
+  "pricing": {
+    "model": "quote",
+    "public_pricing": false
+  },
+  "integrations": [
+    "ARGUS",
+    "CoStar",
+    "Crexi",
+    "Excel",
+    "Box"
+  ],
+  "ai": {
+    "capabilities": [
+      "Document data extraction into deal records"
+    ]
+  },
+  "product": {
+    "api": true,
+    "open_source": false,
+    "mobile": [
+      "ios"
+    ],
+    "languages": [
+      "en"
+    ]
+  },
+  "alternatives": [
+    "argus-enterprise",
+    "juniper-square"
+  ],
+  "reviews": [],
+  "sources": [
+    {
+      "url": "https://www.dealpath.com",
+      "note": "site éditeur"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-25"
+}

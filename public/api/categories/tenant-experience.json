@@ -1,0 +1,903 @@
+{
+  "id": "tenant-experience",
+  "label_en": "Tenant experience & smart building",
+  "label_fr": "Expérience occupant & smart building",
+  "summary_en": "Occupant apps, access, bookings, services and building IoT.",
+  "summary_fr": "Applications occupants, accès, réservations, services et IoT du bâtiment.",
+  "count": 10,
+  "tools": [
+    {
+      "slug": "aareon",
+      "name": "Aareon",
+      "editor": "Aareon",
+      "website": "https://www.aareon.fr",
+      "hq_country": "DE",
+      "markets": [
+        "FR"
+      ],
+      "category": "property-management",
+      "also_in": [
+        "tenant-experience",
+        "back-office-accounting"
+      ],
+      "positioning": "The European ERP of social and institutional housing — where the tenant file, the rent and the works order live together.",
+      "description": "Aareon provides enterprise property management software for social landlords, institutional owners and large managers across Europe, with a French organisation serving bailleurs sociaux: tenant and lease management, rent and charge accounting, allocation processes, maintenance and tenant self-service portals.\n",
+      "real_estate_use": "French social housing operates under rules no commercial system covers: regulated rents, the allocation commission, the surface and resource ceilings, the supplément de loyer. Aareon's French deployments encode those processes, which is why the sector runs on specialised ERPs rather than on general property management platforms.\n",
+      "features": [
+        "Tenant, lease and allocation management for regulated housing",
+        "Rent and charge accounting with regulatory rules",
+        "Maintenance and works order management",
+        "Tenant self-service portal and digital services",
+        "Asset and patrimony management",
+        "Regulatory and management reporting"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Run regulated allocation and rent processes for a social housing portfolio"
+        },
+        {
+          "persona": "corporate-re",
+          "job": "Hold asset, lease and works data for a large institutional patrimony in one ERP"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "corporate-re",
+        "facility-manager"
+      ],
+      "segments": [
+        "residential",
+        "multifamily",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "accounting systems",
+        "banking",
+        "works management",
+        "tenant portals"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr",
+          "de",
+          "en",
+          "nl"
+        ]
+      },
+      "alternatives": [
+        "crypto-septeo",
+        "yardi-voyager",
+        "mri-software"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.aareon.fr",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "equiem",
+      "name": "Equiem",
+      "editor": "Equiem",
+      "website": "https://getequiem.com",
+      "hq_country": "AU",
+      "markets": [
+        "US",
+        "FR"
+      ],
+      "category": "tenant-experience",
+      "founded": 2011,
+      "positioning": "Tenant experience with an editorial team behind it — the content is the product, not just the app shell.",
+      "description": "Equiem provides a tenant app and portal for office and mixed-use buildings covering communications, bookings, access, retail offers and events, differentiated by managed content services that produce building communications on the landlord's behalf.\n",
+      "real_estate_use": "Most tenant apps fail from emptiness: nobody at the landlord has time to post anything, so occupants stop opening it. Equiem sells the editorial capacity alongside the platform, which is why it is chosen by landlords who want engagement without hiring a community manager per building.\n",
+      "features": [
+        "Tenant app and web portal for a building or campus",
+        "Managed content and communications services",
+        "Amenity, room and event booking",
+        "Retail and service offers with local vendors",
+        "Access control integration and mobile credentials",
+        "Engagement and utilisation analytics"
+      ],
+      "use_cases": [
+        {
+          "persona": "investor-am",
+          "job": "Keep a tenant app genuinely used without hiring a community manager per building"
+        },
+        {
+          "persona": "property-manager",
+          "job": "Communicate building notices and events to occupants directly"
+        }
+      ],
+      "personas": [
+        "investor-am",
+        "property-manager",
+        "tenant-occupier",
+        "corporate-re"
+      ],
+      "segments": [
+        "office",
+        "mixed-use",
+        "retail"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "access control systems",
+        "building management systems"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en",
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "hqo"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://getequiem.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "essensys",
+      "name": "essensys",
+      "editor": "essensys",
+      "website": "https://essensys.tech",
+      "hq_country": "GB",
+      "markets": [
+        "US",
+        "FR"
+      ],
+      "category": "flex-coworking",
+      "also_in": [
+        "tenant-experience"
+      ],
+      "founded": 2006,
+      "positioning": "The infrastructure layer under flex space — network, access and billing for buildings running many operators.",
+      "description": "essensys provides software and on-site technology for flexible workspace: operations and billing platform, plus network infrastructure that segments and provisions connectivity per tenant, and access control across multi-tenant buildings.\n",
+      "real_estate_use": "A landlord converting floors to flex has a problem no coworking app solves: every occupier needs its own secure network segment, provisioned in hours rather than weeks, and metered. essensys sits at that layer, which is why it is bought by landlords and large operators rather than by single spaces.\n",
+      "features": [
+        "Per-tenant network provisioning and segmentation",
+        "Automated billing for space, services and consumption",
+        "Access control across multi-tenant buildings",
+        "Operations platform for flexible workspace portfolios",
+        "Real-time service usage metering",
+        "Landlord-grade reporting across operators"
+      ],
+      "use_cases": [
+        {
+          "persona": "investor-am",
+          "job": "Turn floors into flex space with secure per-occupier networks provisioned in hours"
+        },
+        {
+          "persona": "property-manager",
+          "job": "Meter and bill services consumed by multiple operators in one building"
+        }
+      ],
+      "personas": [
+        "investor-am",
+        "property-manager",
+        "corporate-re"
+      ],
+      "segments": [
+        "office",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "access control systems",
+        "network hardware",
+        "accounting systems"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "officernd",
+        "nexudus"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://essensys.tech",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "hqo",
+      "name": "HqO",
+      "editor": "HqO",
+      "website": "https://www.hqo.com",
+      "hq_country": "US",
+      "markets": [
+        "US",
+        "FR"
+      ],
+      "category": "tenant-experience",
+      "founded": 2015,
+      "positioning": "The landlord's app for the people who work in the building — and the measurement of whether they come in.",
+      "description": "HqO is a workplace experience platform for office landlords and occupiers: a tenant-facing app for access, amenities, bookings, events and communications, plus an analytics layer measuring how a building is actually used.\n",
+      "real_estate_use": "Since hybrid work, an office landlord's asset value depends on whether tenants renew, and renewal depends on whether employees turn up. HqO gives the landlord a direct channel to occupants rather than only to the tenant's facilities contact, and produces the utilisation data used in renewal conversations and in amenity investment decisions.\n",
+      "features": [
+        "Tenant experience app with building access and mobile credentials",
+        "Amenity, room and service booking",
+        "Building communications, events and community features",
+        "Workplace utilisation analytics and benchmarking",
+        "Tenant satisfaction measurement",
+        "Integrations with access control and building systems"
+      ],
+      "use_cases": [
+        {
+          "persona": "investor-am",
+          "job": "Measure building utilisation to support a renewal or amenity investment case"
+        },
+        {
+          "persona": "tenant-occupier",
+          "job": "Access the building, book a room and see what is on today from one app"
+        }
+      ],
+      "personas": [
+        "investor-am",
+        "property-manager",
+        "corporate-re",
+        "tenant-occupier"
+      ],
+      "segments": [
+        "office",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "access control systems",
+        "Yardi",
+        "MRI",
+        "Microsoft 365"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en",
+          "fr",
+          "de"
+        ]
+      },
+      "alternatives": [
+        "equiem",
+        "vts"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.hqo.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "smartrent",
+      "name": "SmartRent",
+      "editor": "SmartRent",
+      "website": "https://smartrent.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "tenant-experience",
+      "also_in": [
+        "property-management"
+      ],
+      "founded": 2017,
+      "positioning": "Smart apartment hardware and software sold to the operator, not to the resident.",
+      "description": "SmartRent provides smart home hardware and a management platform for rental housing: smart locks, thermostats, leak sensors, self-guided tour access, community access control and parking, managed centrally by the operator across a portfolio.\n",
+      "real_estate_use": "Three operational cases drive the purchase. Self-guided tours let a prospect visit a vacant unit without staff. Smart locks remove the key handover and the lock change at turnover. Leak sensors catch water damage — the largest avoidable insurance claim in multifamily — before it reaches the unit below.\n",
+      "features": [
+        "Smart locks with credential management at turnover",
+        "Self-guided tour access for prospective residents",
+        "Thermostat control on vacant units",
+        "Leak detection and water shut-off alerting",
+        "Community access control and parking management",
+        "Portfolio-wide device management and alerts"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Offer self-guided tours of vacant units without on-site staff"
+        },
+        {
+          "persona": "investor-am",
+          "job": "Reduce water damage claims and turnover costs across a portfolio"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "investor-am",
+        "landlord-owner"
+      ],
+      "segments": [
+        "multifamily",
+        "residential",
+        "coliving-student"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Yardi",
+        "RealPage",
+        "Entrata",
+        "AppFolio"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "hqo"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://smartrent.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "spinalcom",
+      "name": "SpinalCom",
+      "editor": "SpinalCom",
+      "website": "https://www.spinalcom.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "tenant-experience",
+      "also_in": [
+        "facility-maintenance",
+        "energy-esg"
+      ],
+      "positioning": "A building operating system — the layer that makes twenty proprietary building systems queryable as one digital twin.",
+      "description": "SpinalCom publishes a building operating system that aggregates data from heterogeneous building systems — HVAC, lighting, access, metering, BIM models — into a semantic digital twin, exposed through APIs so applications can be built on top rather than integrated one by one.\n",
+      "real_estate_use": "A smart building project usually stalls on the same wall: every subsystem speaks a different protocol and belongs to a different contractor. Placing an operating system between the equipment and the applications means the tenant app, the energy dashboard and the maintenance tool all read the same model of the building, and replacing a supplier does not break everything above it.\n",
+      "features": [
+        "Aggregation of heterogeneous building systems and protocols",
+        "Semantic digital twin linked to the BIM model",
+        "Open APIs for third-party applications",
+        "Real-time supervision and equipment monitoring",
+        "Data historisation for energy and operations analytics",
+        "Vendor-independent architecture"
+      ],
+      "use_cases": [
+        {
+          "persona": "facility-manager",
+          "job": "Read every building subsystem through one model instead of twenty interfaces"
+        },
+        {
+          "persona": "corporate-re",
+          "job": "Build tenant and energy applications on a twin that outlives a supplier change"
+        }
+      ],
+      "personas": [
+        "facility-manager",
+        "corporate-re",
+        "investor-am",
+        "developer-builder"
+      ],
+      "segments": [
+        "office",
+        "healthcare-senior",
+        "mixed-use",
+        "industrial"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "BACnet",
+        "Modbus",
+        "KNX",
+        "BIM models",
+        "IoT platforms"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr",
+          "en"
+        ]
+      },
+      "alternatives": [
+        "wattsense",
+        "witco"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.spinalcom.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "ubigreen",
+      "name": "Ubigreen",
+      "editor": "Ubigreen",
+      "website": "https://www.ubigreen.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "energy-esg",
+      "also_in": [
+        "tenant-experience"
+      ],
+      "positioning": "Energy and space usage measured together — because an empty floor that is still heated is both problems at once.",
+      "description": "Ubigreen provides French building operators with energy performance monitoring, regulatory declaration support, and workplace occupancy measurement, combining consumption data with presence and space-use data in one platform.\n",
+      "real_estate_use": "Since hybrid work, the two questions arrived together: how much energy does this building use, and how much of it is actually occupied. Measuring both allows the decision that follows — consolidating occupancy onto fewer floors and shutting down the rest, which moves consumption far more than any equipment upgrade.\n",
+      "features": [
+        "Energy consumption monitoring across multi-site portfolios",
+        "Décret tertiaire and OPERAT declaration support",
+        "Workplace occupancy and space utilisation measurement",
+        "Comfort and indoor environment monitoring",
+        "Alerting on consumption drift and equipment faults",
+        "Reporting for occupants and management"
+      ],
+      "use_cases": [
+        {
+          "persona": "corporate-re",
+          "job": "Consolidate occupancy onto fewer floors and shut down the energy on the rest"
+        },
+        {
+          "persona": "facility-manager",
+          "job": "Declare regulated consumption and track the effect of measures taken"
+        }
+      ],
+      "personas": [
+        "corporate-re",
+        "facility-manager",
+        "property-manager"
+      ],
+      "segments": [
+        "office",
+        "retail",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "building management systems",
+        "occupancy sensors",
+        "OPERAT"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr",
+          "en"
+        ]
+      },
+      "alternatives": [
+        "deepki",
+        "advizeo",
+        "witco"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.ubigreen.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "vts",
+      "name": "VTS",
+      "editor": "VTS",
+      "website": "https://www.vts.com",
+      "hq_country": "US",
+      "markets": [
+        "US",
+        "FR"
+      ],
+      "category": "commercial-am",
+      "also_in": [
+        "tenant-experience",
+        "market-data"
+      ],
+      "founded": 2012,
+      "positioning": "The leasing pipeline for office landlords — every tour, proposal and lease in one view, plus a demand index nobody else has.",
+      "description": "VTS is a leasing and asset management platform for commercial landlords: deal pipeline, space availability, tenant and broker activity, portfolio reporting, and the VTS Market and Activate products covering marketing and tenant experience. Its VTS Office Demand Index derives leading indicators from platform activity.\n",
+      "real_estate_use": "Office leasing runs on a pipeline that traditionally lived in a leasing director's spreadsheet. VTS makes it institutional: every requirement, tour and proposal is tracked, so an asset manager can forecast occupancy and compare a proposed deal against portfolio standards. Because a large share of US office space transacts on the platform, aggregated tour activity becomes a market signal weeks ahead of signed-lease data.\n",
+      "features": [
+        "Leasing deal pipeline with tours, proposals and approvals",
+        "Space availability and stacking plans",
+        "Portfolio occupancy and lease expiry reporting",
+        "VTS Market for online marketing of available space",
+        "VTS Activate tenant experience application",
+        "Office Demand Index from aggregated platform activity"
+      ],
+      "use_cases": [
+        {
+          "persona": "investor-am",
+          "job": "Forecast occupancy from a real leasing pipeline rather than from a spreadsheet"
+        },
+        {
+          "persona": "agent-broker",
+          "job": "Track every requirement and proposal on a landlord's portfolio in one system"
+        }
+      ],
+      "personas": [
+        "investor-am",
+        "agent-broker",
+        "corporate-re",
+        "property-manager"
+      ],
+      "segments": [
+        "office",
+        "retail",
+        "industrial",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Yardi",
+        "MRI",
+        "Argus",
+        "Salesforce"
+      ],
+      "ai": {
+        "capabilities": [
+          "Lease abstraction",
+          "Deal and demand analytics"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en",
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "mri-software",
+        "dealpath",
+        "yardi-voyager"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.vts.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "wattsense",
+      "name": "Wattsense",
+      "editor": "Wattsense",
+      "website": "https://www.wattsense.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR",
+        "US"
+      ],
+      "category": "tenant-experience",
+      "also_in": [
+        "energy-esg",
+        "facility-maintenance"
+      ],
+      "positioning": "Plug-in connectivity for buildings too small to justify a full BMS integration project.",
+      "description": "Wattsense provides a hardware and cloud solution that connects a building's existing equipment — boilers, HVAC, meters, controllers — across multiple protocols and exposes the data and control points through a single cloud API, without a bespoke integration project.\n",
+      "real_estate_use": "Most of a commercial portfolio is not headquarters buildings. Mid-sized assets have some automation, no standardisation, and no budget for a systems integrator per site. Wattsense targets exactly that middle: a box on site, protocols handled, data and control available remotely — which is what makes portfolio-wide energy management feasible below the flagship tier.\n",
+      "features": [
+        "Multi-protocol connectivity to existing building equipment",
+        "Cloud API for data collection and remote control",
+        "Deployment without a bespoke integration project",
+        "Remote monitoring and alerting across sites",
+        "Data normalisation across heterogeneous equipment",
+        "Partner integrations with energy and facility platforms"
+      ],
+      "use_cases": [
+        {
+          "persona": "facility-manager",
+          "job": "Connect mid-sized buildings to remote monitoring without an integration project each"
+        },
+        {
+          "persona": "corporate-re",
+          "job": "Standardise data collection across a portfolio of heterogeneous equipment"
+        }
+      ],
+      "personas": [
+        "facility-manager",
+        "corporate-re",
+        "property-manager"
+      ],
+      "segments": [
+        "office",
+        "retail",
+        "industrial",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "integrations": [
+        "BACnet",
+        "Modbus",
+        "KNX",
+        "LonWorks",
+        "energy platforms",
+        "REST API"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr",
+          "en"
+        ]
+      },
+      "alternatives": [
+        "spinalcom",
+        "advizeo"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.wattsense.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "witco",
+      "name": "Witco",
+      "editor": "Witco",
+      "website": "https://www.witco.io",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "tenant-experience",
+      "founded": 2016,
+      "positioning": "The occupant app for French office buildings — services, bookings, access and building communication in one place.",
+      "description": "Witco provides a white-label mobile application for office buildings and workplaces: room and desk booking, access and badge integration, service requests, on-site retail and concierge services, events, communication and occupant feedback.\n",
+      "real_estate_use": "Landlords and corporate occupiers use it as the single interface between the building and the people inside it. Practically, it consolidates what used to be five channels — an email for building notices, a booking tool, a paper ticket for maintenance, a WhatsApp group for events — into one app whose usage data also indicates how the building is really used.\n",
+      "features": [
+        "White-label occupant mobile app for a building or campus",
+        "Room, desk and parking booking",
+        "Access control and mobile badge integration",
+        "Service requests routed to facilities or providers",
+        "Building communication, news and events",
+        "Occupant satisfaction measurement and usage analytics"
+      ],
+      "use_cases": [
+        {
+          "persona": "corporate-re",
+          "job": "Give employees one app for booking, access, services and building news"
+        },
+        {
+          "persona": "investor-am",
+          "job": "Offer occupants a service layer that supports the rent and the renewal"
+        }
+      ],
+      "personas": [
+        "corporate-re",
+        "investor-am",
+        "property-manager",
+        "tenant-occupier",
+        "facility-manager"
+      ],
+      "segments": [
+        "office",
+        "mixed-use",
+        "coliving-student"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "access control systems",
+        "Microsoft 365",
+        "Google Workspace",
+        "facility platforms"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr",
+          "en"
+        ]
+      },
+      "alternatives": [
+        "hqo",
+        "equiem",
+        "ubigreen"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.witco.io",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    }
+  ]
+}

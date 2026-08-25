@@ -1,0 +1,47 @@
+slug: twimm
+name: Twimm
+editor: Twimm
+website: https://www.twimm.fr
+hq_country: FR
+markets: [FR]
+category: facility-maintenance
+positioning: A French CMMS written for the maintenance company as much as for the building owner.
+description: >
+  Twimm is a French SaaS platform for technical building maintenance: contract and site
+  management, preventive and corrective intervention planning, technician mobile app with
+  on-site reports, spare parts, quotes and invoicing tied to the intervention.
+real_estate_use: >
+  In France the maintenance of a building is usually outsourced under a contract with defined
+  preventive obligations. Twimm holds both sides: the contractual preventive plan and the
+  corrective calls, with the technician's signed report as the evidence of execution. That
+  evidence is what a manager needs when a landlord asks whether the contract was actually
+  performed.
+features:
+  - Maintenance contract and site management
+  - Preventive plan scheduling from contractual obligations
+  - Corrective intervention dispatch and tracking
+  - Technician mobile app with on-site signed reports
+  - Quotes, spare parts and invoicing per intervention
+  - Regulatory inspection follow-up
+use_cases:
+  - persona: facility-manager
+    job: Prove that contractual preventive maintenance was actually carried out
+  - persona: property-manager
+    job: Track corrective interventions across a portfolio with signed field reports
+personas: [facility-manager, property-manager, syndic-manager]
+segments: [office, retail, residential, industrial, healthcare-senior]
+company_sizes: [smb, midmarket]
+pricing:
+  model: subscription
+  public_pricing: false
+integrations: [accounting software, building management systems]
+product:
+  api: true
+  open_source: false
+  mobile: [ios, android]
+  languages: [fr]
+alternatives: [bob-desk, yuman, corrigo]
+reviews: []
+sources: [{ url: https://www.twimm.fr, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

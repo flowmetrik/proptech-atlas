@@ -1,0 +1,78 @@
+{
+  "slug": "lone-wolf-back-office",
+  "name": "Lone Wolf Back Office",
+  "editor": "Lone Wolf Technologies",
+  "website": "https://www.lwolf.com/products/back-office",
+  "hq_country": "CA",
+  "markets": [
+    "US"
+  ],
+  "category": "back-office-accounting",
+  "founded": 1989,
+  "positioning": "Brokerage accounting with trust and escrow handled to the standard a state auditor expects.",
+  "description": "The successor to brokerWOLF, Lone Wolf Back Office is a full brokerage accounting system — general ledger, accounts payable, trust and escrow accounting, commission processing and agent billing — designed around the regulatory particularities of real estate brokerage in the US and Canada.\n",
+  "real_estate_use": "Earnest money held on behalf of a client is not brokerage revenue, and a state regulator will test that distinction. Back Office keeps trust accounts reconciled and segregated, ties every deposit to a transaction, calculates the commission split at closing, and posts the result to a real general ledger instead of an export.\n",
+  "features": [
+    "Real estate general ledger with trust and escrow accounting",
+    "Commission processing with splits, caps and deductions",
+    "Agent billing, chargebacks and 1099 preparation",
+    "Accounts payable and bank reconciliation",
+    "Franchise and multi-office consolidation reporting",
+    "Audit-oriented transaction-to-ledger traceability"
+  ],
+  "use_cases": [
+    {
+      "persona": "brokerage",
+      "job": "Keep trust accounts reconciled and defensible in a state audit"
+    },
+    {
+      "persona": "brokerage",
+      "job": "Consolidate financials across offices and franchise reporting requirements"
+    }
+  ],
+  "personas": [
+    "brokerage"
+  ],
+  "segments": [
+    "residential",
+    "office"
+  ],
+  "company_sizes": [
+    "midmarket",
+    "enterprise"
+  ],
+  "pricing": {
+    "model": "quote",
+    "public_pricing": false
+  },
+  "integrations": [
+    "Lone Wolf Transactions",
+    "MLS systems",
+    "banking feeds"
+  ],
+  "product": {
+    "api": true,
+    "open_source": false,
+    "mobile": [],
+    "languages": [
+      "en"
+    ]
+  },
+  "alternatives": [
+    "brokermint",
+    "skyslope"
+  ],
+  "reviews": [],
+  "sources": [
+    {
+      "url": "https://www.lwolf.com",
+      "note": "site éditeur"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-25"
+}

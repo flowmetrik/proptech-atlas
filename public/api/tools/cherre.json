@@ -1,0 +1,88 @@
+{
+  "slug": "cherre",
+  "name": "Cherre",
+  "editor": "Cherre",
+  "website": "https://cherre.com",
+  "hq_country": "US",
+  "markets": [
+    "US"
+  ],
+  "category": "market-data",
+  "also_in": [
+    "investment-underwriting"
+  ],
+  "founded": 2016,
+  "positioning": "Not another data source — the layer that reconciles the twenty you already pay for onto one property identity.",
+  "description": "Cherre is a real estate data management platform. It ingests a firm's internal systems and its licensed third-party feeds, resolves them to a common property and entity identity, and exposes the result to BI tools and models. The product is the resolution and the connectors, not the underlying data.\n",
+  "real_estate_use": "A large owner-operator typically has the rent roll in Yardi, valuations in ARGUS, market data from a vendor and a dozen spreadsheets — with no shared key between them. Cherre matches them to one property record so that portfolio reporting stops being a quarterly manual reconciliation, and so that a model can be trained on something coherent.\n",
+  "features": [
+    "Entity and address resolution to a single property identity",
+    "Prebuilt connectors to major real estate systems and data vendors",
+    "Managed warehouse with governed access",
+    "Data quality monitoring and lineage",
+    "Delivery to BI tools, notebooks and applications",
+    "Marketplace of third-party datasets"
+  ],
+  "use_cases": [
+    {
+      "persona": "investor-am",
+      "job": "Consolidate portfolio reporting across accounting, valuation and market systems"
+    },
+    {
+      "persona": "corporate-re",
+      "job": "Give analysts one governed dataset instead of eight incompatible exports"
+    }
+  ],
+  "personas": [
+    "investor-am",
+    "corporate-re"
+  ],
+  "segments": [
+    "office",
+    "retail",
+    "industrial",
+    "multifamily"
+  ],
+  "company_sizes": [
+    "midmarket",
+    "enterprise"
+  ],
+  "pricing": {
+    "model": "quote",
+    "public_pricing": false
+  },
+  "integrations": [
+    "Yardi",
+    "MRI",
+    "ARGUS",
+    "CoStar",
+    "Snowflake",
+    "Tableau",
+    "Power BI"
+  ],
+  "product": {
+    "api": true,
+    "open_source": false,
+    "mobile": [],
+    "languages": [
+      "en"
+    ]
+  },
+  "alternatives": [
+    "attom-data",
+    "costar"
+  ],
+  "reviews": [],
+  "sources": [
+    {
+      "url": "https://cherre.com",
+      "note": "site éditeur"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-25"
+}

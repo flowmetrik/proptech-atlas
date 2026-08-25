@@ -1,0 +1,86 @@
+{
+  "slug": "stessa",
+  "name": "Stessa",
+  "editor": "Roofstock",
+  "website": "https://www.stessa.com",
+  "hq_country": "US",
+  "markets": [
+    "US"
+  ],
+  "category": "back-office-accounting",
+  "also_in": [
+    "investment-underwriting"
+  ],
+  "founded": 2016,
+  "positioning": "Accounting written for the rental investor rather than for the accountant — free, and organised by property.",
+  "description": "Stessa tracks rental property income and expenses through linked bank accounts, categorises transactions to a real estate chart of accounts, stores documents, and produces owner-level dashboards and tax-ready reports. The core product is free.\n",
+  "real_estate_use": "The individual investor's real problem is Schedule E: proving, a year later, which transaction belonged to which property. Stessa auto-categorises bank activity by property, keeps receipts attached, and produces the tax package. It is bookkeeping shaped by how a landlord actually thinks — per door, not per account.\n",
+  "features": [
+    "Automatic transaction import and categorisation by property",
+    "Property-level income, expense and cash flow dashboards",
+    "Document storage attached to properties and transactions",
+    "Tax-ready reports including Schedule E preparation",
+    "Rent collection and tenant screening options",
+    "Portfolio valuation tracking"
+  ],
+  "use_cases": [
+    {
+      "persona": "investor-am",
+      "job": "Produce a tax-ready Schedule E package per property without a bookkeeper"
+    },
+    {
+      "persona": "landlord-owner",
+      "job": "See real cash flow per door rather than one blended bank balance"
+    }
+  ],
+  "personas": [
+    "investor-am",
+    "landlord-owner"
+  ],
+  "segments": [
+    "residential",
+    "multifamily"
+  ],
+  "company_sizes": [
+    "solo",
+    "smb"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "public_pricing": true,
+    "url": "https://www.stessa.com/pricing"
+  },
+  "integrations": [
+    "bank feeds",
+    "TurboTax exports",
+    "Roofstock"
+  ],
+  "product": {
+    "api": false,
+    "open_source": false,
+    "mobile": [
+      "ios",
+      "android"
+    ],
+    "languages": [
+      "en"
+    ]
+  },
+  "alternatives": [
+    "baselane",
+    "doorloop"
+  ],
+  "reviews": [],
+  "sources": [
+    {
+      "url": "https://www.stessa.com",
+      "note": "site éditeur"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-25"
+}

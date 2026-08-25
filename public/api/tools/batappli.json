@@ -1,0 +1,85 @@
+{
+  "slug": "batappli",
+  "name": "Batappli",
+  "editor": "Batappli",
+  "website": "https://www.batappli.fr",
+  "hq_country": "FR",
+  "markets": [
+    "FR"
+  ],
+  "category": "construction-development",
+  "also_in": [
+    "back-office-accounting"
+  ],
+  "positioning": "A long-standing French building trades package covering quote, invoice and accounting in one product.",
+  "description": "Batappli is management software for French construction and trade businesses: quotes and invoices with work libraries, progress billing, purchase and stock, site follow-up, customer records and integrated accounting, available on desktop and cloud.\n",
+  "real_estate_use": "Its buyer is the established trade business that wants one supplier for commercial documents and books rather than a modern SaaS plus an accountant's package. The integrated accounting is the differentiator: the invoice posts directly, so the year-end handover to the expert-comptable is a file rather than a reconstruction.\n",
+  "features": [
+    "Quotes and invoices with trade work libraries",
+    "Progress billing and deposit management",
+    "Purchase orders, suppliers and stock",
+    "Site follow-up and cost tracking",
+    "Integrated accounting and ledger",
+    "Customer records and payment follow-up"
+  ],
+  "use_cases": [
+    {
+      "persona": "developer-builder",
+      "job": "Keep commercial documents and accounting in one package for the year-end handover"
+    },
+    {
+      "persona": "developer-builder",
+      "job": "Produce trade quotes from a maintained work and price library"
+    }
+  ],
+  "personas": [
+    "developer-builder"
+  ],
+  "segments": [
+    "residential",
+    "office",
+    "retail"
+  ],
+  "company_sizes": [
+    "solo",
+    "smb"
+  ],
+  "pricing": {
+    "model": "subscription",
+    "public_pricing": false
+  },
+  "integrations": [
+    "accounting exports",
+    "banking",
+    "supplier catalogues"
+  ],
+  "product": {
+    "api": false,
+    "open_source": false,
+    "mobile": [
+      "ios",
+      "android"
+    ],
+    "languages": [
+      "fr"
+    ]
+  },
+  "alternatives": [
+    "obat",
+    "graneet",
+    "vertuoza"
+  ],
+  "reviews": [],
+  "sources": [
+    {
+      "url": "https://www.batappli.fr",
+      "note": "site éditeur"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-25"
+}

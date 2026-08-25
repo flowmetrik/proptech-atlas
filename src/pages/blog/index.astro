@@ -1,0 +1,34 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+import { url } from '../../lib/catalog';
+
+const posts = (await getCollection('blog', ({ data }) => !data.draft)).sort(
+  (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
+);
+const fmt = (d: Date) => d.toISOString().slice(0, 10);
+---
+<Base title="Blog" description="Notes on how real estate software is modelled, what the US and French markets do differently, and how AI systems consume product data.">
+  <section class="wrap section">
+    <h1>Blog</h1>
+    <p class="lede">
+      Notes on modelling this market: why a taxonomy is a product decision, what the French
+      and American software landscapes do differently, and what an AI actually needs to know
+      before it recommends a tool.
+    </p>
+    <div class="grid" style="margin-top:36px;gap:0">
+      {posts.map((p) => (
+        <a href={url(`blog/${p.id}`)} class="card" style="padding:24px;margin-bottom:16px">
+          <div style="display:flex;gap:10px;align-items:center;margin-bottom:8px">
+            <span class="mono muted">{fmt(p.data.date)}</span>
+            <span class="badge badge-outline">{p.data.lang.toUpperCase()}</span>
+            {p.data.tags.map((t: string) => <span class="badge">{t}</span>)}
+          </div>
+          <h2 style="font-size:1.375rem;margin:0 0 8px">{p.data.title}</h2>
+          <p class="muted" style="margin:0">{p.data.description}</p>
+        </a>
+      ))}
+      {posts.length === 0 && <div class="empty">No post published yet.</div>}
+    </div>
+  </section>
+</Base>

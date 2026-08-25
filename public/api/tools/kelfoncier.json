@@ -1,0 +1,87 @@
+{
+  "slug": "kelfoncier",
+  "name": "Kel Foncier",
+  "editor": "Kel Foncier",
+  "website": "https://www.kelfoncier.com",
+  "hq_country": "FR",
+  "markets": [
+    "FR"
+  ],
+  "category": "market-data",
+  "also_in": [
+    "construction-development"
+  ],
+  "positioning": "Land prospecting for French developers — which parcels can be built on, how much, and who owns them.",
+  "description": "Kel Foncier combines cadastral parcels, local urban planning rules, building rights, ownership data, building permits and transactions into a mapping and search tool for property developers and land prospectors.\n",
+  "real_estate_use": "A French development starts with a question the PLU answers slowly: on this parcel, what height, what footprint, what constraints. Kel Foncier makes that searchable in reverse — find every parcel in a commune with unused building rights above a threshold, filter out the protected ones, and get the owner. It compresses weeks of town-hall work into a query.\n",
+  "features": [
+    "Cadastral parcels with local planning rules applied",
+    "Residual building rights calculation per parcel",
+    "Ownership information and owner typology",
+    "Building permit history and pipeline",
+    "Transaction and land price references",
+    "Prospecting lists, alerts and export"
+  ],
+  "use_cases": [
+    {
+      "persona": "developer-builder",
+      "job": "Find parcels with unused building rights in a target commune and identify the owners"
+    },
+    {
+      "persona": "investor-am",
+      "job": "Test the development potential of a site before making an offer"
+    }
+  ],
+  "personas": [
+    "developer-builder",
+    "investor-am",
+    "agent-broker",
+    "corporate-re"
+  ],
+  "segments": [
+    "land-development",
+    "residential",
+    "mixed-use",
+    "office"
+  ],
+  "company_sizes": [
+    "smb",
+    "midmarket",
+    "enterprise"
+  ],
+  "pricing": {
+    "model": "subscription",
+    "public_pricing": false
+  },
+  "integrations": [
+    "GIS tools",
+    "CRM systems",
+    "export formats"
+  ],
+  "product": {
+    "api": true,
+    "open_source": false,
+    "mobile": [],
+    "languages": [
+      "fr"
+    ]
+  },
+  "alternatives": [
+    "urbanease",
+    "cityscan",
+    "dvf"
+  ],
+  "reviews": [],
+  "sources": [
+    {
+      "url": "https://www.kelfoncier.com",
+      "note": "site éditeur"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-25"
+}

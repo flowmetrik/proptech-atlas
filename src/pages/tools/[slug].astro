@@ -1,0 +1,173 @@
+---
+import Base from '../../layouts/Base.astro';
+import ToolCard from '../../components/ToolCard.astro';
+import { tools, bySlug, byId, label, url, initials, REPO } from '../../lib/catalog';
+
+export function getStaticPaths() {
+  return tools.map((tool) => ({ params: { slug: tool.slug }, props: { tool } }));
+}
+const { tool } = Astro.props;
+const alts = (tool.alternatives ?? []).map((s) => bySlug[s]).filter(Boolean);
+const verif = tool.verification?.status ?? 'unverified';
+const verifText: Record<string, string> = {
+  unverified: 'Written from public knowledge of the market, not yet re-checked against the vendor’s own sources.',
+  verified: `Re-checked against its sources on ${tool.verification?.checked_on}.`,
+  stale: 'Last verified more than twelve months ago — treat details as indicative.',
+  disputed: 'Contested by the vendor or a contributor. Arbitration in progress.',
+};
+
+const jsonld = {
+  '@context': 'https://schema.org',
+  '@type': 'SoftwareApplication',
+  name: tool.name,
+  applicationCategory: label('category', tool.category),
+  description: tool.description,
+  url: tool.website,
+  author: { '@type': 'Organization', name: tool.editor },
+  offers: { '@type': 'Offer', category: label('pricing', tool.pricing.model) },
+  featureList: tool.features,
+  ...(tool.founded ? { datePublished: String(tool.founded) } : {}),
+};
+---
+<Base title={tool.name} description={tool.positioning} jsonld={jsonld}>
+  <article class="wrap" style="padding:40px 24px 0">
+    <p class="mono muted" style="margin-bottom:18px">
+      <a href={url('explore')}>Explore</a> ›
+      <a href={url(`categories/${tool.category}`)}>{label('category', tool.category)}</a> ›
+      {tool.name}
+    </p>
+
+    <header style="display:flex;gap:18px;align-items:flex-start;flex-wrap:wrap">
+      <span class="tool-logo" style="width:56px;height:56px;font-size:1.25rem" aria-hidden="true">{initials(tool.name)}</span>
+      <div style="flex:1;min-width:260px">
+        <h1 style="font-size:clamp(1.75rem,4vw,2.5rem);margin-bottom:6px">{tool.name}</h1>
+        <p class="muted" style="margin:0">
+          by {tool.editor}
+          {tool.founded && <> · founded {tool.founded}</>}
+          · HQ {tool.hq_country}
+        </p>
+      </div>
+      <div style="display:flex;gap:10px">
+        <a class="btn" href={tool.website} rel="noopener nofollow">Visit website</a>
+      </div>
+    </header>
+
+    <p class="lede" style="margin-top:22px;font-size:1.25rem;color:var(--ink)">{tool.positioning}</p>
+
+    <div style="display:flex;flex-wrap:wrap;gap:7px;margin:18px 0 8px">
+      <span class="badge badge-accent">{label('category', tool.category)}</span>
+      {(tool.also_in ?? []).map((c) => <span class="badge">{label('category', c)}</span>)}
+      {tool.markets.map((m) => <span class="badge">{byId.market[m]?.flag} {label('market', m)}</span>)}
+      {tool.ai && <span class="badge badge-outline">AI features</span>}
+      {tool.product?.open_source && <span class="badge badge-outline">Open source</span>}
+      {tool.product?.api && <span class="badge badge-outline">Public API</span>}
+    </div>
+
+    <hr class="rule" style="margin:36px 0" />
+
+    <div style="display:grid;grid-template-columns:minmax(0,1.65fr) minmax(260px,1fr);gap:48px;align-items:start">
+      <div class="prose">
+        <h2 style="margin-top:0">What it is</h2>
+        <p>{tool.description}</p>
+
+        <h2>How it is used in real estate</h2>
+        <p>{tool.real_estate_use}</p>
+
+        <h2>Features</h2>
+        <ul>{tool.features.map((f) => <li>{f}</li>)}</ul>
+
+        <h2>Use cases</h2>
+        <table>
+          <thead><tr><th>Who</th><th>Job to be done</th></tr></thead>
+          <tbody>
+            {tool.use_cases.map((u) => (
+              <tr><td style="white-space:nowrap"><strong>{label('persona', u.persona)}</strong></td><td>{u.job}</td></tr>
+            ))}
+          </tbody>
+        </table>
+
+        {tool.ai && (
+          <>
+            <h2>AI capabilities</h2>
+            <ul>{tool.ai.capabilities.map((c) => <li>{c}</li>)}</ul>
+          </>
+        )}
+
+        <h2>Verified reviews</h2>
+        {tool.reviews?.length ? (
+          <table>
+            <thead><tr><th>Source</th><th>Rating</th><th>Reviews</th><th>Sampled</th></tr></thead>
+            <tbody>
+              {tool.reviews.map((r) => (
+                <tr>
+                  <td><a href={r.url} rel="noopener nofollow">{r.source}</a></td>
+                  <td>{r.rating} / {r.scale}</td>
+                  <td>{r.count}</td>
+                  <td class="mono">{r.sampled_on}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        ) : (
+          <div class="callout">
+            <strong>No verified review recorded yet.</strong>
+            <p style="margin:6px 0 0">
+              This project only publishes dated aggregates sampled from public review platforms,
+              with the URL that was read. It never generates a rating, and never averages across
+              incompatible sources. <a href={url('contribute')}>Add one from a source you can cite →</a>
+            </p>
+          </div>
+        )}
+
+        <h2>Sources</h2>
+        <ul>
+          {tool.sources.map((s) => (
+            <li><a href={s.url} rel="noopener nofollow">{s.url}</a>{s.note && <span class="muted"> — {s.note}</span>}</li>
+          ))}
+        </ul>
+      </div>
+
+      <aside style="display:grid;gap:20px;position:sticky;top:88px">
+        <div class="card" style="padding:20px">
+          <h3 style="margin-top:0">Product metadata</h3>
+          <dl class="kv" style="grid-template-columns:1fr;gap:2px 0;font-size:0.875rem">
+            <dt>Pricing model</dt><dd style="margin-bottom:12px">{label('pricing', tool.pricing.model)}{tool.pricing.public_pricing ? ' · public' : ' · on request'}</dd>
+            {tool.pricing.from && (<><dt>From</dt><dd style="margin-bottom:12px">{tool.pricing.from} {tool.pricing.currency} {tool.pricing.unit}</dd></>)}
+            <dt>Company sizes</dt><dd style="margin-bottom:12px">{tool.company_sizes.map((s) => label('size', s)).join(', ')}</dd>
+            <dt>Asset classes</dt><dd style="margin-bottom:12px">{tool.segments.map((s) => label('segment', s)).join(', ')}</dd>
+            <dt>Who it serves</dt><dd style="margin-bottom:12px">{tool.personas.map((p) => label('persona', p)).join(', ')}</dd>
+            {tool.product?.languages?.length && (<><dt>Languages</dt><dd style="margin-bottom:12px">{tool.product.languages.join(', ')}</dd></>)}
+            {tool.product?.mobile?.length ? (<><dt>Mobile</dt><dd style="margin-bottom:12px">{tool.product.mobile.join(', ')}</dd></>) : null}
+            {tool.integrations?.length && (<><dt>Integrations</dt><dd>{tool.integrations.join(', ')}</dd></>)}
+          </dl>
+        </div>
+
+        <div class="card" style="padding:20px">
+          <h3 style="margin-top:0">Data quality</h3>
+          <p style="font-size:0.875rem;margin:0 0 10px">
+            <span class={`badge ${verif === 'verified' ? 'badge-accent' : 'badge-outline'}`}>{verif}</span>
+          </p>
+          <p class="muted" style="font-size:0.875rem;margin:0 0 12px">{verifText[verif]}</p>
+          <p class="mono muted" style="margin:0">Last updated {tool.updated}</p>
+        </div>
+
+        <div class="card" style="padding:20px">
+          <h3 style="margin-top:0">Machine readable</h3>
+          <ul style="list-style:none;padding:0;margin:0;display:grid;gap:8px;font-size:0.875rem">
+            <li><a class="mono" href={url(`api/tools/${tool.slug}.json`)}>api/tools/{tool.slug}.json</a></li>
+            <li><a class="mono" href={`${REPO}/blob/main/data/tools/${tool.slug}.yaml`} rel="noopener">data/tools/{tool.slug}.yaml</a></li>
+            <li><a href={`${REPO}/edit/main/data/tools/${tool.slug}.yaml`} rel="noopener">Suggest an edit →</a></li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+
+    {alts.length > 0 && (
+      <section style="margin-top:56px">
+        <hr class="rule" />
+        <h2>Alternatives</h2>
+        <div class="grid grid-3" style="margin-top:20px">{alts.map((t) => <ToolCard tool={t} />)}</div>
+      </section>
+    )}
+  </article>
+</Base>

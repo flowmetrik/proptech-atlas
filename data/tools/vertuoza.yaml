@@ -1,0 +1,46 @@
+slug: vertuoza
+name: Vertuoza
+editor: Vertuoza
+website: https://www.vertuoza.com
+hq_country: BE
+markets: [FR]
+category: construction-development
+positioning: End-to-end construction company management — quote, planning, site, hours and invoicing in one chain.
+description: >
+  Vertuoza is a management platform for construction companies in France and Belgium:
+  estimating, planning, site follow-up, worker time tracking, purchase and stock, invoicing
+  and profitability analysis, with a field app for teams on site.
+real_estate_use: >
+  The recurring loss in a small construction firm is untracked labour hours. Vertuoza chains
+  the estimate to the planning and the hours actually clocked on site, so the profitability
+  of a job is known while it is running rather than at the year-end accounts — which is the
+  only point at which it can still be corrected.
+features:
+  - Estimating with work and price libraries
+  - Site planning and team scheduling
+  - Worker time tracking from the field app
+  - Purchase, supplier and stock management
+  - Invoicing including progress billing
+  - Profitability tracking per site against the estimate
+use_cases:
+  - persona: developer-builder
+    job: Know a job's real profitability while it is running, not at year end
+  - persona: developer-builder
+    job: Schedule teams and track hours from the same system as the estimate
+personas: [developer-builder]
+segments: [residential, office, retail, land-development]
+company_sizes: [solo, smb, midmarket]
+pricing:
+  model: per-seat
+  public_pricing: false
+integrations: [accounting software, banking, supplier catalogues]
+product:
+  api: true
+  open_source: false
+  mobile: [ios, android]
+  languages: [fr, nl, en]
+alternatives: [graneet, obat, batappli]
+reviews: []
+sources: [{ url: https://www.vertuoza.com, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

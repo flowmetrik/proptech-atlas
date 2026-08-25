@@ -1,0 +1,90 @@
+{
+  "slug": "rentspree",
+  "name": "RentSpree",
+  "editor": "RentSpree",
+  "website": "https://www.rentspree.com",
+  "hq_country": "US",
+  "markets": [
+    "US"
+  ],
+  "category": "tenant-screening",
+  "also_in": [
+    "property-management"
+  ],
+  "founded": 2016,
+  "positioning": "Rental screening distributed through the MLS — the reason so many US agents handle rentals at all.",
+  "description": "RentSpree provides online rental applications, tenant screening reports from TransUnion, e-signature, rent payment and rent reporting. It is distributed through partnerships with MLSs and associations, which makes it the default rental workflow for a large share of US agents.\n",
+  "real_estate_use": "An agent listing a rental sends one link. The applicant completes the application, pays the screening fee themselves, and authorises the credit, criminal and eviction report — so the agent never handles sensitive data or fronts a cost. For agents whose main business is sales, that low friction is why the rental side is worth doing at all.\n",
+  "features": [
+    "Applicant-paid online applications and screening",
+    "TransUnion credit, criminal and eviction reports",
+    "Document collection with income verification",
+    "Lease e-signature and rent payment collection",
+    "MLS and association distribution partnerships",
+    "Agent referral and client management tools"
+  ],
+  "use_cases": [
+    {
+      "persona": "agent-broker",
+      "job": "Screen rental applicants without touching payment or sensitive data"
+    },
+    {
+      "persona": "landlord-owner",
+      "job": "Collect a complete, verified application file before deciding"
+    }
+  ],
+  "personas": [
+    "agent-broker",
+    "landlord-owner",
+    "property-manager"
+  ],
+  "segments": [
+    "residential",
+    "multifamily"
+  ],
+  "company_sizes": [
+    "solo",
+    "smb",
+    "midmarket"
+  ],
+  "pricing": {
+    "model": "usage",
+    "public_pricing": true,
+    "url": "https://www.rentspree.com/pricing"
+  },
+  "integrations": [
+    "MLS systems",
+    "TransUnion",
+    "Zillow Rentals",
+    "Realtor.com"
+  ],
+  "product": {
+    "api": true,
+    "open_source": false,
+    "mobile": [
+      "ios",
+      "android"
+    ],
+    "languages": [
+      "en"
+    ]
+  },
+  "alternatives": [
+    "transunion-smartmove",
+    "turbotenant",
+    "avail"
+  ],
+  "reviews": [],
+  "sources": [
+    {
+      "url": "https://www.rentspree.com",
+      "note": "site éditeur"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-25"
+}

@@ -1,0 +1,47 @@
+slug: poliris
+name: Poliris
+editor: Poliris
+website: https://www.poliris.com
+hq_country: FR
+markets: [FR]
+category: listing-syndication
+also_in: [crm-lead, agent-marketing]
+positioning: Software, website and distribution from one French vendor, with a long history in portal feed management.
+description: >
+  Poliris supplies French agencies with transaction software, agency websites and listing
+  distribution to portals, historically as one of the main feed operators in the French
+  market.
+real_estate_use: >
+  Its practical value to an agency is the same as Ubiflow's — one catalogue, many
+  destinations — with the software and the site included rather than integrated. Agencies
+  that do not want to assemble a stack from three vendors buy the whole chain here and
+  accept the trade-off of less choice at each layer.
+features:
+  - Multi-portal listing distribution
+  - Transaction software with listings and contacts
+  - Agency website generation
+  - Lead consolidation across channels
+  - Media and format handling per portal
+  - Reporting on publication and lead volume
+use_cases:
+  - persona: brokerage
+    job: Buy software, website and portal distribution from a single vendor
+  - persona: agent-broker
+    job: Keep one catalogue as the source for every published channel
+personas: [brokerage, agent-broker]
+segments: [residential, mixed-use]
+company_sizes: [solo, smb, midmarket]
+pricing:
+  model: subscription
+  public_pricing: false
+integrations: [SeLoger, Leboncoin, Bien'ici, agency software feeds]
+product:
+  api: true
+  open_source: false
+  mobile: []
+  languages: [fr]
+alternatives: [ubiflow, netty, hektor]
+reviews: []
+sources: [{ url: https://www.poliris.com, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

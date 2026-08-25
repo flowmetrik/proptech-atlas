@@ -1,0 +1,88 @@
+{
+  "slug": "visual-lease",
+  "name": "Visual Lease",
+  "editor": "Visual Lease (CoStar Group)",
+  "website": "https://visuallease.com",
+  "hq_country": "US",
+  "markets": [
+    "US",
+    "FR"
+  ],
+  "category": "commercial-am",
+  "also_in": [
+    "back-office-accounting"
+  ],
+  "founded": 1996,
+  "positioning": "Lease accounting compliance first — for the tenant side, where a lease is a balance sheet liability.",
+  "description": "Visual Lease is a lease administration and lease accounting platform aimed at occupiers and corporate real estate teams. It maintains a lease repository with critical dates and clauses, and produces the journal entries and disclosures required by ASC 842, IFRS 16 and GASB 87.\n",
+  "real_estate_use": "Since IFRS 16 and ASC 842, a company that rents two hundred stores carries those leases on its balance sheet, and the auditor tests the calculation. Visual Lease exists because that computation cannot survive in a spreadsheet: every modification, renewal option and discount rate change has to be re-measured and evidenced.\n",
+  "features": [
+    "Central lease repository with clauses and critical dates",
+    "ASC 842, IFRS 16 and GASB 87 calculation and disclosure reporting",
+    "Journal entry generation and ERP export",
+    "Lease modification and remeasurement handling",
+    "Rent payment scheduling and recovery review",
+    "Portfolio dashboards for occupancy cost"
+  ],
+  "use_cases": [
+    {
+      "persona": "corporate-re",
+      "job": "Produce audit-ready lease accounting entries for a multi-country lease portfolio"
+    },
+    {
+      "persona": "corporate-re",
+      "job": "Never miss a renewal or break option across hundreds of sites"
+    }
+  ],
+  "personas": [
+    "corporate-re",
+    "tenant-occupier",
+    "investor-am"
+  ],
+  "segments": [
+    "office",
+    "retail",
+    "industrial",
+    "mixed-use"
+  ],
+  "company_sizes": [
+    "midmarket",
+    "enterprise"
+  ],
+  "pricing": {
+    "model": "quote",
+    "public_pricing": false
+  },
+  "integrations": [
+    "SAP",
+    "Oracle",
+    "NetSuite",
+    "Workday"
+  ],
+  "product": {
+    "api": true,
+    "open_source": false,
+    "mobile": [],
+    "languages": [
+      "en",
+      "fr"
+    ]
+  },
+  "alternatives": [
+    "mri-software",
+    "yardi-voyager"
+  ],
+  "reviews": [],
+  "sources": [
+    {
+      "url": "https://visuallease.com",
+      "note": "site éditeur"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-25"
+}

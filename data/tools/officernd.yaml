@@ -1,0 +1,48 @@
+slug: officernd
+name: OfficeRnD Flex
+editor: OfficeRnD
+website: https://www.officernd.com
+hq_country: GB
+markets: [US, FR]
+category: flex-coworking
+founded: 2015
+positioning: The operating system of a coworking business — memberships, bookings, billing and the member app in one product.
+description: >
+  OfficeRnD Flex manages flexible workspace operations: member and company records, space
+  and desk inventory, contracts and automated recurring billing, meeting room bookings,
+  door access integration, and a member-facing app and portal.
+real_estate_use: >
+  A flex operator's revenue is a mesh of monthly memberships, day passes, room hours and
+  overage charges — billing that breaks any standard property accounting model. OfficeRnD
+  automates the invoice run and connects it to access control, so a lapsed payment can
+  suspend a badge. Landlords running their own flex floors buy it for the same reason.
+features:
+  - Membership plans, contracts and automated recurring billing
+  - Desk, office and meeting room inventory and allocation
+  - Member app and portal for bookings and community
+  - Door access control integration tied to membership status
+  - Occupancy, revenue and utilisation analytics
+  - Multi-location management under one operator
+use_cases:
+  - persona: property-manager
+    job: Bill a mesh of memberships, day passes and room hours without manual invoicing
+  - persona: investor-am
+    job: Operate flexible workspace floors inside an owned building
+personas: [property-manager, investor-am, corporate-re]
+segments: [office, mixed-use]
+company_sizes: [smb, midmarket, enterprise]
+pricing:
+  model: subscription
+  public_pricing: true
+  url: https://www.officernd.com/pricing
+integrations: [Xero, QuickBooks, Stripe, Kisi, Slack, Zapier]
+product:
+  api: true
+  open_source: false
+  mobile: [ios, android]
+  languages: [en, fr, es, de]
+alternatives: [nexudus, cobot, essensys]
+reviews: []
+sources: [{ url: https://www.officernd.com, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

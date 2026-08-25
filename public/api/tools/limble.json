@@ -1,0 +1,91 @@
+{
+  "slug": "limble",
+  "name": "Limble CMMS",
+  "editor": "Limble",
+  "website": "https://limblecmms.com",
+  "hq_country": "US",
+  "markets": [
+    "US"
+  ],
+  "category": "facility-maintenance",
+  "founded": 2015,
+  "positioning": "The CMMS bought because the last CMMS was never adopted.",
+  "description": "Limble is a maintenance management system covering work orders, preventive maintenance, asset management, parts inventory and reporting, sold heavily on ease of configuration and speed of rollout, with published pricing and a self-serve trial.\n",
+  "real_estate_use": "Most CMMS failures are adoption failures, not feature gaps. Limble competes on the implementation: QR codes on equipment so a technician scans rather than searches, a request portal that needs no login for the person reporting a problem, and configuration a facilities lead can do without consultants.\n",
+  "features": [
+    "QR code asset tagging for scan-to-report and scan-to-log",
+    "Work order management with automated assignment",
+    "Preventive maintenance by time, usage or condition",
+    "Parts inventory with automatic reordering",
+    "No-login request portal for occupants",
+    "Custom dashboards and maintenance KPI reporting"
+  ],
+  "use_cases": [
+    {
+      "persona": "facility-manager",
+      "job": "Roll out a maintenance system that technicians actually use within weeks"
+    },
+    {
+      "persona": "tenant-occupier",
+      "job": "Report a building problem by scanning a code without an account"
+    }
+  ],
+  "personas": [
+    "facility-manager",
+    "property-manager",
+    "tenant-occupier"
+  ],
+  "segments": [
+    "office",
+    "industrial",
+    "multifamily",
+    "retail"
+  ],
+  "company_sizes": [
+    "smb",
+    "midmarket",
+    "enterprise"
+  ],
+  "pricing": {
+    "model": "per-seat",
+    "public_pricing": true,
+    "url": "https://limblecmms.com/pricing"
+  },
+  "integrations": [
+    "Zapier",
+    "QuickBooks",
+    "SAP",
+    "REST API"
+  ],
+  "product": {
+    "api": true,
+    "open_source": false,
+    "mobile": [
+      "ios",
+      "android"
+    ],
+    "languages": [
+      "en",
+      "es",
+      "fr"
+    ]
+  },
+  "alternatives": [
+    "upkeep",
+    "servicechannel",
+    "corrigo"
+  ],
+  "reviews": [],
+  "sources": [
+    {
+      "url": "https://limblecmms.com",
+      "note": "site éditeur"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-25"
+}

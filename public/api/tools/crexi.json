@@ -1,0 +1,100 @@
+{
+  "slug": "crexi",
+  "name": "Crexi",
+  "editor": "Commercial Real Estate Exchange, Inc.",
+  "website": "https://www.crexi.com",
+  "hq_country": "US",
+  "markets": [
+    "US"
+  ],
+  "category": "portals-marketplaces",
+  "also_in": [
+    "market-data",
+    "transaction-management"
+  ],
+  "founded": 2015,
+  "positioning": "A CRE marketplace that also runs the deal — listing, bidding, due diligence room and comps in one place.",
+  "description": "Crexi combines a commercial listing marketplace with transaction tooling: offer management, an auction platform, a virtual deal room, and Crexi Intelligence for sales comparables, ownership records and lease data. It positions itself as the challenger to the incumbent CoStar and LoopNet pairing.\n",
+  "real_estate_use": "A broker lists an asset, receives structured offers or runs a timed auction, and shares due-diligence documents through a permissioned data room instead of a shared drive link. Buyers use Crexi Intelligence to check what comparable assets traded for and who owns the building next door before committing to underwriting.\n",
+  "features": [
+    "Commercial listing marketplace across asset classes",
+    "Structured offer submission and auction platform",
+    "Permissioned virtual due-diligence rooms",
+    "Crexi Intelligence comparables, ownership and lease data",
+    "Broker CRM and buyer activity analytics",
+    "Marketing tools including flyers and email campaigns"
+  ],
+  "use_cases": [
+    {
+      "persona": "agent-broker",
+      "job": "Run a competitive bid process on an asset with a controlled document room"
+    },
+    {
+      "persona": "investor-am",
+      "job": "Check sale comparables and ownership before underwriting an acquisition"
+    }
+  ],
+  "personas": [
+    "agent-broker",
+    "investor-am",
+    "developer-builder"
+  ],
+  "segments": [
+    "office",
+    "retail",
+    "industrial",
+    "multifamily",
+    "land-development"
+  ],
+  "company_sizes": [
+    "solo",
+    "smb",
+    "midmarket",
+    "enterprise"
+  ],
+  "pricing": {
+    "model": "subscription",
+    "public_pricing": true,
+    "url": "https://www.crexi.com/pricing"
+  },
+  "integrations": [
+    "Dealpath",
+    "Salesforce",
+    "Zapier"
+  ],
+  "ai": {
+    "capabilities": [
+      "Lease abstraction from uploaded documents",
+      "Property matching and recommendations"
+    ]
+  },
+  "product": {
+    "api": true,
+    "open_source": false,
+    "mobile": [
+      "ios",
+      "android"
+    ],
+    "languages": [
+      "en"
+    ]
+  },
+  "alternatives": [
+    "loopnet",
+    "costar",
+    "reonomy"
+  ],
+  "reviews": [],
+  "sources": [
+    {
+      "url": "https://www.crexi.com",
+      "note": "site éditeur"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-25"
+}

@@ -1,0 +1,47 @@
+slug: bob-desk
+name: BOB Desk
+editor: BOB Desk
+website: https://www.bobdesk.fr
+hq_country: FR
+markets: [FR]
+category: facility-maintenance
+positioning: Maintenance and compliance tracking for multi-site French operators — retail chains, restaurants, agencies.
+description: >
+  BOB Desk is a French SaaS for maintenance and regulatory compliance management across
+  multiple sites: intervention requests, provider dispatch, preventive planning, quote and
+  invoice control, equipment records and regulatory inspection tracking.
+real_estate_use: >
+  A chain with two hundred outlets carries a compliance calendar per site — fire safety,
+  electrical inspection, extraction, refrigeration — and no realistic way to track it in a
+  spreadsheet. BOB Desk holds the obligations per site with their due dates, and routes the
+  corrective work to the contracted provider, keeping the evidence in one place for an
+  inspection.
+features:
+  - Multi-site intervention request and dispatch
+  - Preventive maintenance and regulatory inspection calendars
+  - Provider contracts and performance tracking
+  - Quote and invoice control against agreed rates
+  - Equipment registry per site
+  - Compliance evidence storage and reporting
+use_cases:
+  - persona: facility-manager
+    job: Track regulatory inspection deadlines across hundreds of sites
+  - persona: corporate-re
+    job: Control maintenance quotes and invoices against contracted rates
+personas: [facility-manager, corporate-re, property-manager]
+segments: [retail, office, hospitality, healthcare-senior]
+company_sizes: [smb, midmarket, enterprise]
+pricing:
+  model: subscription
+  public_pricing: false
+integrations: [accounting software, provider networks]
+product:
+  api: true
+  open_source: false
+  mobile: [ios, android]
+  languages: [fr, en]
+alternatives: [twimm, yuman, servicechannel]
+reviews: []
+sources: [{ url: https://www.bobdesk.fr, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

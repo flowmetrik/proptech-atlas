@@ -1,0 +1,37 @@
+name: Add a product
+description: Suggest a real estate software product that is missing from the catalogue
+title: "[Add] "
+labels: [new-product]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A pull request with a filled `data/tools/<slug>.yaml` is faster than an issue —
+        start from `data/tools/_template.yaml`. Use this form if you would rather someone
+        else write the fiche.
+  - type: input
+    id: name
+    attributes: { label: Product name }
+    validations: { required: true }
+  - type: input
+    id: website
+    attributes: { label: Official website, placeholder: "https://" }
+    validations: { required: true }
+  - type: dropdown
+    id: markets
+    attributes:
+      label: Markets served
+      multiple: true
+      options: ["United States", "France"]
+    validations: { required: true }
+  - type: textarea
+    id: use
+    attributes:
+      label: What is it actually used for in real estate?
+      description: A concrete situation and workflow, not a feature list. This is the part that matters.
+    validations: { required: true }
+  - type: input
+    id: relationship
+    attributes:
+      label: Your relationship to this product
+      description: "Vendor, customer, none — please say. It is not disqualifying, it is context."

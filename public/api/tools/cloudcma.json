@@ -1,0 +1,82 @@
+{
+  "slug": "cloudcma",
+  "name": "Cloud CMA",
+  "editor": "Lone Wolf Technologies",
+  "website": "https://cloudcma.com",
+  "hq_country": "US",
+  "markets": [
+    "US"
+  ],
+  "category": "estimation-pricing",
+  "also_in": [
+    "agent-marketing"
+  ],
+  "founded": 2010,
+  "positioning": "The listing presentation an agent brings to the kitchen table, generated from the MLS in minutes.",
+  "description": "Cloud CMA builds comparative market analyses, buyer tours, property reports and listing presentations from MLS data. Its Live version turns the CMA into an interactive presentation shown on screen during the appointment, and Homebeat sends the owner an automatic valuation refresh over time.\n",
+  "real_estate_use": "Winning a listing is a persuasion problem, and the CMA is the artefact that does the persuading. The agent pulls comparables from the MLS, adjusts them, and produces a branded document that justifies a price the seller may not want to hear. Homebeat then keeps the relationship alive by mailing an updated valuation every quarter.\n",
+  "features": [
+    "Automated CMA generation from MLS comparables",
+    "Cloud CMA Live interactive listing presentation",
+    "Homebeat recurring valuation emails to past clients",
+    "Buyer tour and property report formats",
+    "Customisable branded templates and pages",
+    "Lead capture from shared reports"
+  ],
+  "use_cases": [
+    {
+      "persona": "agent-broker",
+      "job": "Produce a defensible pricing presentation from MLS comparables in minutes"
+    },
+    {
+      "persona": "agent-broker",
+      "job": "Stay in front of past sellers with an automatic quarterly valuation email"
+    }
+  ],
+  "personas": [
+    "agent-broker",
+    "brokerage"
+  ],
+  "segments": [
+    "residential"
+  ],
+  "company_sizes": [
+    "solo",
+    "smb",
+    "midmarket"
+  ],
+  "pricing": {
+    "model": "subscription",
+    "public_pricing": true,
+    "url": "https://cloudcma.com/pricing"
+  },
+  "integrations": [
+    "MLS systems",
+    "Lone Wolf Transactions",
+    "Follow Up Boss"
+  ],
+  "product": {
+    "api": false,
+    "open_source": false,
+    "mobile": [
+      "ios",
+      "android"
+    ],
+    "languages": [
+      "en"
+    ]
+  },
+  "reviews": [],
+  "sources": [
+    {
+      "url": "https://cloudcma.com",
+      "note": "site éditeur"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-25"
+}

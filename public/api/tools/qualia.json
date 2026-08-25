@@ -1,0 +1,86 @@
+{
+  "slug": "qualia",
+  "name": "Qualia",
+  "editor": "Qualia",
+  "website": "https://www.qualia.com",
+  "hq_country": "US",
+  "markets": [
+    "US"
+  ],
+  "category": "title-closing-legal",
+  "also_in": [
+    "transaction-management"
+  ],
+  "founded": 2015,
+  "positioning": "Title and escrow production software where the lender, the agent and the buyer work inside the same closing file.",
+  "description": "Qualia is a title, escrow and closing platform: order management and title production, escrow accounting and reconciliation, document generation, a secure portal for all parties, remote online notarisation and digital closings, plus a marketplace of title services.\n",
+  "real_estate_use": "A US closing coordinates a title agent, a lender, two brokerages and a buyer, historically through email and fax. Qualia gives them one file: the buyer uploads identity documents and wiring instructions through a secure portal — which is also the main defence against wire fraud, the industry's most expensive failure — and escrow accounting reconciles inside the same system.\n",
+  "features": [
+    "Title order management and production workflow",
+    "Escrow accounting with three-way reconciliation",
+    "Secure multi-party closing portal with document exchange",
+    "Wire fraud protection and verified wiring instructions",
+    "Remote online notarisation and digital closing",
+    "Marketplace for title search and settlement services"
+  ],
+  "use_cases": [
+    {
+      "persona": "legal-notary",
+      "job": "Run title production and escrow accounting in one auditable system"
+    },
+    {
+      "persona": "agent-broker",
+      "job": "Track a closing file and its outstanding conditions without email chains"
+    }
+  ],
+  "personas": [
+    "legal-notary",
+    "agent-broker",
+    "lender-broker"
+  ],
+  "segments": [
+    "residential",
+    "office",
+    "retail"
+  ],
+  "company_sizes": [
+    "smb",
+    "midmarket",
+    "enterprise"
+  ],
+  "pricing": {
+    "model": "quote",
+    "public_pricing": false
+  },
+  "integrations": [
+    "Encompass",
+    "lender systems",
+    "county recording",
+    "banking"
+  ],
+  "product": {
+    "api": true,
+    "open_source": false,
+    "mobile": [],
+    "languages": [
+      "en"
+    ]
+  },
+  "alternatives": [
+    "softpro",
+    "resware"
+  ],
+  "reviews": [],
+  "sources": [
+    {
+      "url": "https://www.qualia.com",
+      "note": "site éditeur"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-25"
+}

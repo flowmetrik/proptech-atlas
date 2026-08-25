@@ -1,0 +1,360 @@
+{
+  "id": "diagnostics-compliance",
+  "label_en": "Diagnostics & compliance",
+  "label_fr": "Diagnostics & conformité",
+  "summary_en": "Mandatory surveys, disclosures and regulatory files attached to a property.",
+  "summary_fr": "Diagnostics obligatoires, informations acquéreur et dossiers réglementaires du bien.",
+  "count": 4,
+  "tools": [
+    {
+      "slug": "check-and-visit",
+      "name": "Check & Visit",
+      "editor": "Check & Visit",
+      "website": "https://www.checkandvisit.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "diagnostics-compliance",
+      "also_in": [
+        "property-management",
+        "visuals-tours"
+      ],
+      "positioning": "Inspection software combined with a field network — the report can be produced by their operator rather than by your staff.",
+      "description": "Check & Visit provides digital état des lieux and property visit software for French professionals, together with a network of field operators who can carry out the inspection on the manager's behalf, and 3D capture options attached to the same record.\n",
+      "real_estate_use": "For a manager with dispersed properties, the constraint on inspections is travel time, not software. Outsourcing the visit to a local operator while keeping the report in the same digital format lets a lettings team scale without hiring inspectors — and the attached 3D capture doubles as a marketing asset for the next letting.\n",
+      "features": [
+        "Digital état des lieux with photographic evidence",
+        "Field operator network performing inspections on request",
+        "3D capture and virtual visit attached to the property record",
+        "Electronic signature and report generation",
+        "Portfolio dashboard for inspection status",
+        "Integration with management software"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Have inspections carried out on dispersed properties without hiring inspectors"
+        },
+        {
+          "persona": "agent-broker",
+          "job": "Capture a 3D visit at the same appointment as the inspection"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "agent-broker",
+        "landlord-owner"
+      ],
+      "segments": [
+        "residential",
+        "office",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "usage",
+        "public_pricing": false
+      },
+      "integrations": [
+        "French management software",
+        "electronic signature"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "immopad",
+        "startloc",
+        "matterport"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.checkandvisit.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "immopad",
+      "name": "Immopad",
+      "editor": "Immopad",
+      "website": "https://www.immopad.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "diagnostics-compliance",
+      "also_in": [
+        "property-management",
+        "construction-development"
+      ],
+      "founded": 2012,
+      "positioning": "Digital property inspections on tablet — état des lieux, delivery snagging and periodic visits in one app.",
+      "description": "Immopad is a French application for property inspections: entry and exit état des lieux, new-build delivery snagging, periodic visits and works acceptance, captured on tablet or phone with photos, signed on the spot and produced as a report.\n",
+      "real_estate_use": "The état des lieux is the document a deposit dispute turns on, and a paper one written in ballpoint rarely survives it. Capturing room by room with dated photographs and an on-the-spot signature changes the evidentiary position entirely. The same capture engine is used by developers for delivery snagging, where the list of reserves has the same contentious quality.\n",
+      "features": [
+        "Entry and exit état des lieux with photo evidence",
+        "Comparison between entry and exit condition",
+        "New-build delivery snagging and reserve tracking",
+        "On-site signature by both parties",
+        "Periodic and works acceptance visits",
+        "Report generation and archiving"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Produce an état des lieux that survives a deposit dispute"
+        },
+        {
+          "persona": "developer-builder",
+          "job": "Record and track delivery reserves at handover of a new-build unit"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "landlord-owner",
+        "agent-broker",
+        "developer-builder"
+      ],
+      "segments": [
+        "residential",
+        "office",
+        "retail",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "integrations": [
+        "French agency software",
+        "document management"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr",
+          "en"
+        ]
+      },
+      "alternatives": [
+        "startloc",
+        "check-and-visit"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.immopad.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "liciel",
+      "name": "LICIEL",
+      "editor": "LICIEL Environnement",
+      "website": "https://www.liciel.fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "diagnostics-compliance",
+      "founded": 1998,
+      "positioning": "The software French property diagnosticians produce their regulated reports in.",
+      "description": "LICIEL publishes software for the French diagnostic immobilier profession: DPE energy performance, asbestos, lead, gas, electricity, termites, surface measurement and the assembled dossier de diagnostic technique, with report generation, on-site capture and transmission to the required registries.\n",
+      "real_estate_use": "No French property can be sold or let without its diagnostic file, and the DPE in particular now carries legal consequences — a G-rated dwelling cannot be let. The diagnostician's software has to produce a report conforming to the current method and transmit it to the ADEME registry; when the method changes, the software is what has to change with it.\n",
+      "features": [
+        "Report production for every regulated French diagnostic",
+        "DPE calculation following the current regulatory method",
+        "On-site capture on tablet with photos and measurements",
+        "Assembly of the dossier de diagnostic technique",
+        "Transmission to official registries",
+        "Client, mission and invoicing management"
+      ],
+      "use_cases": [
+        {
+          "persona": "appraiser",
+          "job": "Produce a regulation-compliant DPE and transmit it to the official registry"
+        },
+        {
+          "persona": "agent-broker",
+          "job": "Obtain a complete diagnostic file before a mandate goes on the market"
+        }
+      ],
+      "personas": [
+        "appraiser",
+        "agent-broker",
+        "property-manager",
+        "syndic-manager"
+      ],
+      "segments": [
+        "residential",
+        "office",
+        "retail",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "integrations": [
+        "ADEME registry",
+        "agency software",
+        "invoicing tools"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "immopad"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.liciel.fr",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "startloc",
+      "name": "Startloc",
+      "editor": "Startloc",
+      "website": "https://www.startloc.fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "diagnostics-compliance",
+      "also_in": [
+        "property-management"
+      ],
+      "positioning": "État des lieux software priced for the individual landlord, not just the agency.",
+      "description": "Startloc is a French application for producing entry and exit état des lieux on phone or tablet: guided room-by-room capture, photographs, electronic signature by both parties and PDF report generation, sold at a per-inspection or subscription price accessible to individuals.\n",
+      "real_estate_use": "The private landlord doing their own inspection is exactly the person most exposed at exit, because their entry document is usually thin. A guided capture forces completeness — every room, every element, dated photographs — and the signed PDF is what the deposit deduction will rest on if the tenant contests it.\n",
+      "features": [
+        "Guided room-by-room inspection capture",
+        "Photographic evidence attached to each element",
+        "Electronic signature by landlord and tenant on site",
+        "Entry-to-exit comparison",
+        "PDF report generation and storage",
+        "Meter reading and key handover recording"
+      ],
+      "use_cases": [
+        {
+          "persona": "landlord-owner",
+          "job": "Produce a complete entry inspection that supports a later deposit deduction"
+        },
+        {
+          "persona": "agent-broker",
+          "job": "Run inspections on a phone without buying an agency-grade platform"
+        }
+      ],
+      "personas": [
+        "landlord-owner",
+        "agent-broker",
+        "property-manager"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "usage",
+        "public_pricing": true,
+        "url": "https://www.startloc.fr/tarifs"
+      },
+      "integrations": [
+        "electronic signature",
+        "document storage"
+      ],
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "immopad",
+        "check-and-visit"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.startloc.fr",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    }
+  ]
+}

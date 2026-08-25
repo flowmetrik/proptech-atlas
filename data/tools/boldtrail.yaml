@@ -1,0 +1,53 @@
+slug: boldtrail
+name: BoldTrail
+editor: Inside Real Estate
+website: https://insiderealestate.com
+hq_country: US
+markets: [US]
+category: crm-lead
+also_in: [agent-marketing, back-office-accounting]
+founded: 2013
+positioning: The brokerage-scale platform that grew out of kvCORE — websites, CRM, recruiting and back office under one roof.
+description: >
+  BoldTrail is Inside Real Estate's platform, the successor branding to kvCORE. It is sold
+  at brokerage and enterprise level and spans agent websites, a CRM with automated
+  campaigns, listing marketing, recruiting and retention tooling, and — through BoldTrail
+  BackOffice (the former Brokermint) — commission and transaction accounting.
+real_estate_use: >
+  A multi-office brokerage standardises its agents on one system: each agent gets a
+  branded IDX site and CRM seat, the brokerage keeps ownership of the lead database, and
+  leadership sees production, recruiting pipeline and commission splits in the same tool.
+  It is chosen for the consolidation rather than for any single best-in-class module.
+features:
+  - Agent, team and brokerage IDX websites with lead capture
+  - CRM with behavioural automation and mass texting
+  - Listing marketing kits and social ad automation
+  - Recruiting and retention module with agent production data
+  - BackOffice for commission plans, disbursement and brokerage accounting
+  - Marketplace of add-ons for ads, video and lead sources
+use_cases:
+  - persona: brokerage
+    job: Give 500 agents a website and CRM without losing brokerage ownership of the data
+  - persona: brokerage
+    job: Track recruiting targets against real production numbers pulled from the MLS
+personas: [brokerage, agent-broker]
+segments: [residential]
+company_sizes: [smb, midmarket, enterprise]
+pricing:
+  model: quote
+  public_pricing: false
+integrations: [MLS IDX feeds, dotloop, SkySlope, Zapier, QuickBooks]
+ai:
+  capabilities: [AI content assistant for listing and campaign copy, Behavioural lead scoring]
+product:
+  api: true
+  open_source: false
+  mobile: [ios, android]
+  languages: [en]
+alternatives: [lofty, sierra-interactive, boomtown, follow-up-boss]
+reviews: []
+sources:
+  - url: https://insiderealestate.com
+    note: site éditeur
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: 2026-08-25

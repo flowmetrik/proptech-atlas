@@ -1,0 +1,49 @@
+slug: juniper-square
+name: Juniper Square
+editor: Juniper Square
+website: https://www.junipersquare.com
+hq_country: US
+markets: [US]
+category: investment-underwriting
+also_in: [back-office-accounting]
+founded: 2014
+positioning: Investor relations for private real estate funds — the capital account, the distribution and the portal in one place.
+description: >
+  Juniper Square provides fund administration and investor management for private real
+  estate: subscriptions and onboarding, capital calls and distributions, waterfall
+  calculations, investor reporting and an LP portal, with an administration service option.
+real_estate_use: >
+  A sponsor raising from private investors has to track ownership across entities, calculate
+  a promote correctly, and produce K-1 packages and quarterly reports that LPs trust.
+  Getting that wrong is a relationship problem, not a bookkeeping one. Juniper Square
+  replaces the spreadsheet-and-mail-merge approach with an auditable system and a portal LPs
+  log into.
+features:
+  - Investor onboarding with electronic subscription documents
+  - Capital calls, distributions and capital account tracking
+  - Waterfall and promote calculation
+  - LP portal with documents, statements and tax packages
+  - Fund and deal-level performance reporting
+  - Optional outsourced fund administration
+use_cases:
+  - persona: investor-am
+    job: Run capital calls and distributions across many entities without spreadsheet risk
+  - persona: developer-builder
+    job: Give private investors a portal with their statements and tax documents
+personas: [investor-am, developer-builder]
+segments: [office, retail, industrial, multifamily, land-development]
+company_sizes: [smb, midmarket, enterprise]
+pricing:
+  model: quote
+  public_pricing: false
+integrations: [Yardi, QuickBooks, DocuSign, banking]
+product:
+  api: true
+  open_source: false
+  mobile: [ios]
+  languages: [en]
+alternatives: [dealpath, yardi-voyager]
+reviews: []
+sources: [{ url: https://www.junipersquare.com, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

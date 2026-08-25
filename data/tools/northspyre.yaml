@@ -1,0 +1,50 @@
+slug: northspyre
+name: Northspyre
+editor: Northspyre
+website: https://www.northspyre.com
+hq_country: US
+markets: [US]
+category: construction-development
+also_in: [investment-underwriting]
+positioning: Development cost control for the owner's side of the table, not the contractor's.
+description: >
+  Northspyre is a project cost management platform for real estate developers: budget
+  tracking, invoice and contract processing with automated data extraction, cash flow
+  forecasting, and anticipated cost reporting across a development pipeline.
+real_estate_use: >
+  A developer's exposure is the gap between the budget presented to investors and the
+  anticipated final cost. That gap usually surfaces late because invoices and change orders
+  are processed manually. Northspyre extracts the data as documents arrive, so the
+  anticipated cost report updates continuously and a lender draw package is assembled from
+  live data rather than rebuilt each month.
+features:
+  - Automated data extraction from invoices and contracts
+  - Budget versus anticipated cost tracking per project
+  - Cash flow forecasting across a development pipeline
+  - Lender draw package preparation
+  - Vendor contract and change order tracking
+  - Portfolio-level development reporting
+use_cases:
+  - persona: developer-builder
+    job: Keep anticipated final cost current instead of discovering the overrun late
+  - persona: investor-am
+    job: Assemble a lender draw package from live project data
+personas: [developer-builder, investor-am]
+segments: [multifamily, office, retail, industrial, land-development, mixed-use]
+company_sizes: [smb, midmarket, enterprise]
+pricing:
+  model: quote
+  public_pricing: false
+integrations: [Procore, Yardi, MRI, QuickBooks]
+ai:
+  capabilities: [Invoice and contract data extraction, Cost forecasting]
+product:
+  api: true
+  open_source: false
+  mobile: []
+  languages: [en]
+alternatives: [procore, dealpath]
+reviews: []
+sources: [{ url: https://www.northspyre.com, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

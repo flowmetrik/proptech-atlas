@@ -1,0 +1,22 @@
+{
+  "name": "proptech-atlas",
+  "version": "0.1.0",
+  "private": false,
+  "license": "MIT",
+  "type": "module",
+  "description": "Open Product Knowledge Graph of real estate software — United States & France.",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "npm run data:validate && npm run data:emit && astro build",
+    "preview": "astro preview",
+    "data:validate": "node scripts/validate.mjs",
+    "data:emit": "node scripts/emit.mjs",
+    "check": "npm run data:validate"
+  },
+  "dependencies": {
+    "@astrojs/rss": "^4.0.19",
+    "@astrojs/sitemap": "^3.2.1",
+    "astro": "^5.1.1",
+    "js-yaml": "^4.1.0"
+  }
+}

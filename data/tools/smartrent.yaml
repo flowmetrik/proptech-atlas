@@ -1,0 +1,48 @@
+slug: smartrent
+name: SmartRent
+editor: SmartRent
+website: https://smartrent.com
+hq_country: US
+markets: [US]
+category: tenant-experience
+also_in: [property-management]
+founded: 2017
+positioning: Smart apartment hardware and software sold to the operator, not to the resident.
+description: >
+  SmartRent provides smart home hardware and a management platform for rental housing: smart
+  locks, thermostats, leak sensors, self-guided tour access, community access control and
+  parking, managed centrally by the operator across a portfolio.
+real_estate_use: >
+  Three operational cases drive the purchase. Self-guided tours let a prospect visit a vacant
+  unit without staff. Smart locks remove the key handover and the lock change at turnover.
+  Leak sensors catch water damage — the largest avoidable insurance claim in multifamily —
+  before it reaches the unit below.
+features:
+  - Smart locks with credential management at turnover
+  - Self-guided tour access for prospective residents
+  - Thermostat control on vacant units
+  - Leak detection and water shut-off alerting
+  - Community access control and parking management
+  - Portfolio-wide device management and alerts
+use_cases:
+  - persona: property-manager
+    job: Offer self-guided tours of vacant units without on-site staff
+  - persona: investor-am
+    job: Reduce water damage claims and turnover costs across a portfolio
+personas: [property-manager, investor-am, landlord-owner]
+segments: [multifamily, residential, coliving-student]
+company_sizes: [midmarket, enterprise]
+pricing:
+  model: quote
+  public_pricing: false
+integrations: [Yardi, RealPage, Entrata, AppFolio]
+product:
+  api: true
+  open_source: false
+  mobile: [ios, android]
+  languages: [en]
+alternatives: [hqo]
+reviews: []
+sources: [{ url: https://smartrent.com, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

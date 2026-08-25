@@ -1,0 +1,47 @@
+slug: kairnial
+name: Kairnial
+editor: Thinkproject
+website: https://www.kairnial.com
+hq_country: FR
+markets: [FR]
+category: construction-development
+positioning: Construction document control and site quality for large French projects, with the traceability an owner needs at handover.
+description: >
+  Kairnial is a collaborative platform for construction and asset lifecycle: controlled
+  document management with versioning and approval circuits, site quality and snagging,
+  safety and compliance records, BIM model consultation, and structured handover packages.
+real_estate_use: >
+  On a large French project the governing risk is documentary: which version of a plan was
+  approved, who validated it, and what evidence exists that a reserve was lifted. Kairnial
+  organises that chain — the visa circuit, the dated observation, the signed lift — so the
+  handover file is defensible and the operator inherits usable data rather than a hard
+  drive.
+features:
+  - Controlled document management with visa and approval circuits
+  - Site observations, snagging and reserve lifting with evidence
+  - Safety, compliance and access records
+  - BIM model consultation linked to documents
+  - Structured handover and DOE packages
+  - Asset data continuity into operations
+use_cases:
+  - persona: developer-builder
+    job: Keep a defensible approval and reserve-lifting record across a large project
+  - persona: corporate-re
+    job: Receive a structured handover file that operations can actually use
+personas: [developer-builder, corporate-re, facility-manager]
+segments: [office, retail, industrial, healthcare-senior, land-development, mixed-use]
+company_sizes: [midmarket, enterprise]
+pricing:
+  model: quote
+  public_pricing: false
+integrations: [BIM tools, Autodesk, document management systems]
+product:
+  api: true
+  open_source: false
+  mobile: [ios, android]
+  languages: [fr, en, de]
+alternatives: [bulldozair, finalcad, autodesk-construction-cloud]
+reviews: []
+sources: [{ url: https://www.kairnial.com, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

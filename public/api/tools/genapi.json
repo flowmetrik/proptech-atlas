@@ -1,0 +1,79 @@
+{
+  "slug": "genapi",
+  "name": "GenApi",
+  "editor": "Septeo",
+  "website": "https://www.genapi.fr",
+  "hq_country": "FR",
+  "markets": [
+    "FR"
+  ],
+  "category": "title-closing-legal",
+  "positioning": "Practice management for French notaries — where the deed, the file and the office accounting are one system.",
+  "description": "GenApi, part of Septeo, publishes software for French notarial offices: file and deed production, clause and act libraries, client and party records, notarial accounting, electronic filing with the profession's infrastructure and secure exchange with administrations.\n",
+  "real_estate_use": "In France the notaire, not a title company, carries the property transfer: drafting the acte authentique, collecting taxes, and registering with the service de publicité foncière. GenApi is one of the systems that production runs in, which makes it a structural dependency of every French property sale even though no agent ever logs into it.\n",
+  "features": [
+    "Notarial file and deed production with maintained act libraries",
+    "Party, property and origin-of-title records",
+    "Notarial accounting including client funds",
+    "Electronic exchange with the profession's platforms and administrations",
+    "Tax calculation and filing for property transfers",
+    "Document archiving to notarial retention requirements"
+  ],
+  "use_cases": [
+    {
+      "persona": "legal-notary",
+      "job": "Draft, execute and register an acte authentique with its accounting and taxes"
+    },
+    {
+      "persona": "legal-notary",
+      "job": "Keep client funds accounting to the standard the profession requires"
+    }
+  ],
+  "personas": [
+    "legal-notary"
+  ],
+  "segments": [
+    "residential",
+    "office",
+    "retail",
+    "land-development"
+  ],
+  "company_sizes": [
+    "solo",
+    "smb",
+    "midmarket"
+  ],
+  "pricing": {
+    "model": "quote",
+    "public_pricing": false
+  },
+  "integrations": [
+    "notarial profession platforms",
+    "administrations",
+    "banking"
+  ],
+  "product": {
+    "api": true,
+    "open_source": false,
+    "mobile": [],
+    "languages": [
+      "fr"
+    ]
+  },
+  "alternatives": [
+    "inot"
+  ],
+  "reviews": [],
+  "sources": [
+    {
+      "url": "https://www.genapi.fr",
+      "note": "site éditeur"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-25"
+}

@@ -1,0 +1,47 @@
+slug: ownerrez
+name: OwnerRez
+editor: OwnerRez
+website: https://www.ownerrez.com
+hq_country: US
+markets: [US]
+category: short-term-rental
+positioning: The vacation rental system for owners who care about the contract, the insurance and the tax more than the design.
+description: >
+  OwnerRez covers vacation rental management: channel management, bookings and quotes,
+  renter agreements with e-signature, damage protection and insurance options, automated
+  messaging, payment processing, and detailed accounting and tax reporting.
+real_estate_use: >
+  Its distinguishing depth is legal and financial rather than marketing. Renter agreements
+  are signed per booking, damage protection is attached, and lodging tax is calculated by
+  jurisdiction — a real problem in the US, where a short-term rental can owe state, county
+  and city tax at different rates on the same stay.
+features:
+  - Channel management with major booking platforms
+  - Renter agreements with electronic signature per booking
+  - Damage protection and travel insurance options
+  - Lodging tax calculation by jurisdiction
+  - Automated guest messaging and triggers
+  - Detailed accounting, owner statements and reporting
+use_cases:
+  - persona: landlord-owner
+    job: Attach a signed rental agreement and the right lodging taxes to every booking
+  - persona: property-manager
+    job: Produce owner statements and tax reporting for managed vacation properties
+personas: [landlord-owner, property-manager]
+segments: [hospitality, residential]
+company_sizes: [solo, smb]
+pricing:
+  model: subscription
+  public_pricing: true
+  url: https://www.ownerrez.com/pricing
+integrations: [Airbnb, Vrbo, Booking.com, QuickBooks, PriceLabs, Stripe]
+product:
+  api: true
+  open_source: false
+  mobile: [ios, android]
+  languages: [en]
+alternatives: [lodgify, hostaway, guesty]
+reviews: []
+sources: [{ url: https://www.ownerrez.com, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

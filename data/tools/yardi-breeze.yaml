@@ -1,0 +1,50 @@
+slug: yardi-breeze
+name: Yardi Breeze
+editor: Yardi Systems
+website: https://www.yardibreeze.com
+hq_country: US
+markets: [US]
+category: property-management
+also_in: [back-office-accounting]
+founded: 2017
+positioning: Yardi's accounting rigour, stripped of the implementation project that Voyager requires.
+description: >
+  Yardi Breeze and Breeze Premier are the self-service tier of Yardi's platform, aimed at
+  small and mid-sized managers across residential, commercial, affordable and self-storage
+  portfolios. Setup is guided rather than consultant-led, and pricing is published per unit
+  with a monthly minimum.
+real_estate_use: >
+  Chosen by managers who want Yardi's accounting model — property-level ledgers, owner
+  draws, CAM reconciliation in the Premier tier — without a six-month Voyager
+  implementation. It is also the natural landing point for firms that expect to grow into
+  Voyager later and want the data model to be familiar.
+features:
+  - Property accounting with owner payments and reporting
+  - Online applications, leases and rent collection
+  - Maintenance requests and vendor work orders
+  - Marketing with RentCafe listing syndication
+  - Commercial features including CAM reconciliation in Premier
+  - Resident and owner portals
+use_cases:
+  - persona: property-manager
+    job: Get real property accounting without a consultant-led implementation
+  - persona: landlord-owner
+    job: Manage a mixed residential and small commercial portfolio in one ledger
+personas: [property-manager, landlord-owner]
+segments: [residential, multifamily, office, retail, industrial]
+company_sizes: [solo, smb, midmarket]
+pricing:
+  model: per-unit
+  public_pricing: true
+  url: https://www.yardibreeze.com/pricing
+integrations: [RentCafe, screening providers, banking feeds]
+product:
+  api: true
+  open_source: false
+  mobile: [ios, android]
+  languages: [en]
+alternatives: [appfolio, buildium, doorloop, yardi-voyager]
+reviews: []
+sources: [{ url: https://www.yardibreeze.com, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

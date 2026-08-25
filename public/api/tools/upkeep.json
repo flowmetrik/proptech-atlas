@@ -1,0 +1,90 @@
+{
+  "slug": "upkeep",
+  "name": "UpKeep",
+  "editor": "UpKeep",
+  "website": "https://www.upkeep.com",
+  "hq_country": "US",
+  "markets": [
+    "US"
+  ],
+  "category": "facility-maintenance",
+  "founded": 2014,
+  "positioning": "A CMMS designed for the technician's phone first, so work actually gets logged.",
+  "description": "UpKeep is a mobile-first maintenance management platform: work orders, preventive maintenance schedules, asset records, parts inventory and reporting, with the technician experience as the primary design surface rather than the manager's dashboard.\n",
+  "real_estate_use": "Maintenance data quality fails at the point of capture — a technician who has to return to a desktop to close a ticket will close five at once from memory on Friday. Building it for the phone, with photos and offline capture, is what makes the asset history usable a year later when deciding whether to repair or replace a rooftop unit.\n",
+  "features": [
+    "Mobile work order creation, assignment and completion",
+    "Preventive maintenance schedules by asset or meter reading",
+    "Asset registry with full repair history",
+    "Parts and inventory tracking with reorder alerts",
+    "Request portal for occupants and staff",
+    "Downtime, cost and technician performance reporting"
+  ],
+  "use_cases": [
+    {
+      "persona": "facility-manager",
+      "job": "Get technicians to log work at the point of work rather than from memory"
+    },
+    {
+      "persona": "property-manager",
+      "job": "Build an equipment repair history that justifies a capital replacement"
+    }
+  ],
+  "personas": [
+    "facility-manager",
+    "property-manager",
+    "corporate-re"
+  ],
+  "segments": [
+    "office",
+    "industrial",
+    "multifamily",
+    "retail",
+    "healthcare-senior"
+  ],
+  "company_sizes": [
+    "smb",
+    "midmarket"
+  ],
+  "pricing": {
+    "model": "per-seat",
+    "public_pricing": true,
+    "url": "https://www.upkeep.com/pricing"
+  },
+  "integrations": [
+    "Zapier",
+    "QuickBooks",
+    "Slack",
+    "REST API"
+  ],
+  "product": {
+    "api": true,
+    "open_source": false,
+    "mobile": [
+      "ios",
+      "android"
+    ],
+    "languages": [
+      "en",
+      "es"
+    ]
+  },
+  "alternatives": [
+    "limble",
+    "servicechannel",
+    "corrigo"
+  ],
+  "reviews": [],
+  "sources": [
+    {
+      "url": "https://www.upkeep.com",
+      "note": "site éditeur"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-25"
+}

@@ -1,0 +1,50 @@
+slug: yousign
+name: Yousign
+editor: Yousign
+website: https://yousign.com
+hq_country: FR
+markets: [FR]
+category: title-closing-legal
+also_in: [transaction-management]
+founded: 2013
+positioning: European electronic signature with eIDAS qualification — the French default where a signature must hold in a French court.
+description: >
+  Yousign is a French electronic signature and contract platform: simple, advanced and
+  qualified signature levels under eIDAS, identity verification, approval workflows,
+  templates, audit trails and an API, with data hosted in the European Union.
+real_estate_use: >
+  Mandates, lease agreements, offers and état des lieux are all signed remotely now, and the
+  question that matters is evidentiary weight. eIDAS levels are not decoration: a qualified
+  signature carries a legal presumption a simple one does not. French agency software
+  integrates Yousign for exactly that reason, alongside the EU hosting requirement many
+  professional bodies impose.
+features:
+  - Simple, advanced and qualified eIDAS signature levels
+  - Signer identity verification
+  - Reusable document templates and signature workflows
+  - Legally admissible audit trail per signature
+  - API and connectors to business software
+  - European Union data hosting
+use_cases:
+  - persona: agent-broker
+    job: Have a mandate or offer signed remotely with a signature that holds legally
+  - persona: property-manager
+    job: Sign leases and état des lieux with tenants without a physical appointment
+personas: [agent-broker, property-manager, syndic-manager, legal-notary, brokerage]
+segments: [residential, office, retail, mixed-use]
+company_sizes: [solo, smb, midmarket, enterprise]
+pricing:
+  model: subscription
+  public_pricing: true
+  url: https://yousign.com/fr-fr/tarifs
+integrations: [Hektor, Netty, Apimo, LockImmo, Salesforce, REST API]
+product:
+  api: true
+  open_source: false
+  mobile: [ios, android]
+  languages: [fr, en, de, es, it]
+alternatives: [docusign]
+reviews: []
+sources: [{ url: https://yousign.com, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

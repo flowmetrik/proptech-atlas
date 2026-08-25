@@ -1,0 +1,48 @@
+slug: ubiflow
+name: Ubiflow
+editor: Ubiflow
+website: https://www.ubiflow.net
+hq_country: FR
+markets: [FR]
+category: listing-syndication
+founded: 2005
+positioning: The French multi-portal distribution layer — one feed in, every portal out, with the format differences absorbed.
+description: >
+  Ubiflow is a listing distribution platform for French real estate professionals: it takes a
+  catalogue from an agency's software or a developer's system and publishes it to portals,
+  partner sites and marketplaces, normalising formats and reporting on performance per
+  channel.
+real_estate_use: >
+  France has no MLS, so distribution is a job in itself: each portal has its own format,
+  its own media rules and its own contract. Ubiflow absorbs that. An agency or a promoteur
+  maintains one catalogue, and gains a per-portal view of leads and cost — which is the
+  data needed to decide which subscriptions to renew.
+features:
+  - Single feed distribution to French portals and partner sites
+  - Format normalisation and media handling per channel
+  - Lead consolidation and per-portal performance reporting
+  - New-build programme distribution for developers
+  - Publication rules and quota management per contract
+  - Connectors to French agency software
+use_cases:
+  - persona: brokerage
+    job: Publish one catalogue to every portal and see which subscription actually pays
+  - persona: developer-builder
+    job: Distribute a new-build programme across portals and partner networks
+personas: [brokerage, agent-broker, developer-builder]
+segments: [residential, mixed-use, land-development]
+company_sizes: [smb, midmarket, enterprise]
+pricing:
+  model: subscription
+  public_pricing: false
+integrations: [Hektor, Netty, Apimo, SeLoger, Leboncoin, Bien'ici]
+product:
+  api: true
+  open_source: false
+  mobile: []
+  languages: [fr]
+alternatives: [poliris, apimo]
+reviews: []
+sources: [{ url: https://www.ubiflow.net, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

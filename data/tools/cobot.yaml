@@ -1,0 +1,48 @@
+slug: cobot
+name: Cobot
+editor: Cobot
+website: https://www.cobot.me
+hq_country: DE
+markets: [US, FR]
+category: flex-coworking
+founded: 2011
+positioning: Straightforward coworking management for a single space that does not want an enterprise platform.
+description: >
+  Cobot handles coworking administration: member sign-up and plans, invoicing and payments,
+  meeting room bookings, a member directory, check-in and access integrations, and reporting,
+  aimed at independent spaces rather than multi-site operators.
+real_estate_use: >
+  An independent space with sixty members needs billing that runs itself and a booking
+  calendar members can trust, not revenue management. Cobot's appeal is that it can be set
+  up in a day by the person who also makes the coffee, and its open API keeps custom
+  door-access and signage projects possible.
+features:
+  - Member plans, sign-up flows and automated invoicing
+  - Meeting room booking with member allowances
+  - Payment processing and dunning
+  - Member directory and community profiles
+  - Access control and check-in integrations
+  - Open API and webhooks
+use_cases:
+  - persona: property-manager
+    job: Run billing and bookings for an independent coworking space single-handed
+  - persona: landlord-owner
+    job: Convert spare floor space into a small membership operation
+personas: [property-manager, landlord-owner]
+segments: [office, mixed-use]
+company_sizes: [solo, smb]
+pricing:
+  model: subscription
+  public_pricing: true
+  url: https://www.cobot.me/pricing
+integrations: [Stripe, Xero, Kisi, Zapier, REST API]
+product:
+  api: true
+  open_source: false
+  mobile: [ios, android]
+  languages: [en, fr, de, es]
+alternatives: [officernd, nexudus]
+reviews: []
+sources: [{ url: https://www.cobot.me, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

@@ -1,0 +1,48 @@
+slug: smartloc
+name: Smartloc
+editor: Smartloc
+website: https://www.smartloc.fr
+hq_country: FR
+markets: [FR]
+category: property-management
+also_in: [tenant-screening]
+positioning: Rental management for the private landlord with the applicant file verification built into the same flow.
+description: >
+  Smartloc offers French landlords an online rental management service: candidate application
+  collection with document checking, lease generation and electronic signature, rent calls
+  and receipts, payment tracking, and rent guarantee options.
+real_estate_use: >
+  Self-managing landlords make their worst decision at selection, not at management, and the
+  document verification step is where a service earns its fee. Smartloc chains verification,
+  lease signature and rent tracking so the landlord does not stitch together three tools
+  around the moment the tenant is chosen.
+features:
+  - Candidate application collection with document verification
+  - Lease generation with the applicable French regime
+  - Electronic signature on lease and annexes
+  - Rent calls, receipts and payment tracking
+  - Arrears follow-up and reminder letters
+  - Rent guarantee options
+use_cases:
+  - persona: landlord-owner
+    job: Verify an applicant's documents before signing rather than after a default
+  - persona: landlord-owner
+    job: Run selection, signature and rent tracking without assembling three tools
+personas: [landlord-owner]
+segments: [residential]
+company_sizes: [solo, smb]
+pricing:
+  model: subscription
+  public_pricing: true
+  url: https://www.smartloc.fr/tarifs
+integrations: [electronic signature, banking, DossierFacile]
+product:
+  api: false
+  open_source: false
+  mobile: []
+  languages: [fr]
+alternatives: [rentila, gererseul, ownily]
+reviews: []
+sources: [{ url: https://www.smartloc.fr, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

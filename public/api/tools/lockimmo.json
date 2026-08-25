@@ -1,0 +1,93 @@
+{
+  "slug": "lockimmo",
+  "name": "LockImmo",
+  "editor": "LockImmo",
+  "website": "https://www.lockimmo.com",
+  "hq_country": "FR",
+  "markets": [
+    "FR"
+  ],
+  "category": "property-management",
+  "also_in": [
+    "crm-lead",
+    "syndic-copro"
+  ],
+  "positioning": "One French system for the three trades an agency can hold at once — transaction, gérance and syndic.",
+  "description": "LockImmo is a modular French real estate platform covering transaction, rental management and condominium management, with accounting, owner and co-owner portals, electronic signature and portal publishing, sold module by module.\n",
+  "real_estate_use": "A French agency frequently holds all three activities under one roof, and the accounting requirements differ for each: mandant accounting for gérance, separate accounts per copropriété for syndic. LockImmo covers the three in one system, which small and mid-sized agencies choose over running three specialised tools with no shared client record.\n",
+  "features": [
+    "Transaction module with mandates and matching",
+    "Rental management with mandant accounting and owner statements",
+    "Condominium module with per-building accounting and calls for funds",
+    "Owner, tenant and co-owner extranet portals",
+    "Electronic signature and document management",
+    "Portal publishing and agency website"
+  ],
+  "use_cases": [
+    {
+      "persona": "brokerage",
+      "job": "Hold transaction, gérance and syndic in one system with shared client records"
+    },
+    {
+      "persona": "syndic-manager",
+      "job": "Run per-building accounting and calls for funds alongside rental management"
+    }
+  ],
+  "personas": [
+    "brokerage",
+    "property-manager",
+    "syndic-manager",
+    "agent-broker"
+  ],
+  "segments": [
+    "residential",
+    "mixed-use"
+  ],
+  "company_sizes": [
+    "solo",
+    "smb",
+    "midmarket"
+  ],
+  "pricing": {
+    "model": "subscription",
+    "public_pricing": true,
+    "url": "https://www.lockimmo.com/tarifs"
+  },
+  "integrations": [
+    "SeLoger",
+    "Leboncoin",
+    "Bien'ici",
+    "Yousign",
+    "banking"
+  ],
+  "product": {
+    "api": true,
+    "open_source": false,
+    "mobile": [
+      "ios",
+      "android"
+    ],
+    "languages": [
+      "fr"
+    ]
+  },
+  "alternatives": [
+    "hektor",
+    "adapt-immo",
+    "vilogi",
+    "crypto-septeo"
+  ],
+  "reviews": [],
+  "sources": [
+    {
+      "url": "https://www.lockimmo.com",
+      "note": "site éditeur"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-25"
+}

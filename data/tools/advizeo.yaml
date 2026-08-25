@@ -1,0 +1,48 @@
+slug: advizeo
+name: Advizeo
+editor: Advizeo by Setec
+website: https://www.advizeo.io
+hq_country: FR
+markets: [FR]
+category: energy-esg
+also_in: [facility-maintenance]
+positioning: Energy management that ends in a works order — engineering-led rather than reporting-led.
+description: >
+  Advizeo, part of the Setec engineering group, provides energy monitoring and management for
+  French buildings: meter and building management system data collection, consumption
+  analysis and alerting, décret tertiaire declaration support, and an action plan followed
+  through to implementation.
+real_estate_use: >
+  Its difference from a pure reporting platform is the engineering behind it. Detecting that
+  a building's heating runs at weekends is only useful if someone changes the schedule.
+  Advizeo pairs the monitoring with technical recommendations and follow-up, which suits
+  owners who do not have an in-house energy engineer.
+features:
+  - Meter, submeter and building management system data collection
+  - Consumption analysis with drift and anomaly alerting
+  - Décret tertiaire declaration and OPERAT support
+  - Technical action plans with quantified savings
+  - Works and measure follow-up over time
+  - Multi-site portfolio dashboards
+use_cases:
+  - persona: facility-manager
+    job: Detect and correct consumption drift instead of only reporting it
+  - persona: corporate-re
+    job: Meet décret tertiaire obligations with a costed action plan behind the declaration
+personas: [facility-manager, corporate-re, property-manager, investor-am]
+segments: [office, retail, industrial, healthcare-senior, mixed-use]
+company_sizes: [smb, midmarket, enterprise]
+pricing:
+  model: quote
+  public_pricing: false
+integrations: [building management systems, energy providers, OPERAT]
+product:
+  api: true
+  open_source: false
+  mobile: [ios, android]
+  languages: [fr]
+alternatives: [deepki, ubigreen, measurabl]
+reviews: []
+sources: [{ url: https://www.advizeo.io, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

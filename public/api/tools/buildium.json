@@ -1,0 +1,92 @@
+{
+  "slug": "buildium",
+  "name": "Buildium",
+  "editor": "RealPage",
+  "website": "https://www.buildium.com",
+  "hq_country": "US",
+  "markets": [
+    "US"
+  ],
+  "category": "property-management",
+  "also_in": [
+    "back-office-accounting",
+    "syndic-copro"
+  ],
+  "founded": 2004,
+  "positioning": "The property management system a small management company can actually implement without a project team.",
+  "description": "Buildium covers residential rentals, community associations and affordable housing: listings, applications and screening, leases, rent collection, maintenance, accounting and owner reporting, with published per-unit pricing and self-serve onboarding. Now part of RealPage.\n",
+  "real_estate_use": "It sits at the tier below AppFolio and Entrata: a company managing a few hundred doors, often mixed between rentals and homeowner associations. The HOA module handles association dues, violations and architectural requests, which is why small managers with both books of business consolidate here rather than run two systems.\n",
+  "features": [
+    "Listings, applications and tenant screening",
+    "Lease management with e-signature and renewals",
+    "Online rent and association dues collection",
+    "Maintenance requests, work orders and vendor payments",
+    "Property, owner and association accounting with 1099s",
+    "Resident, owner and board member portals"
+  ],
+  "use_cases": [
+    {
+      "persona": "property-manager",
+      "job": "Manage a few hundred rental doors without a dedicated systems administrator"
+    },
+    {
+      "persona": "syndic-manager",
+      "job": "Run homeowner association dues, violations and board reporting in the same tool as rentals"
+    }
+  ],
+  "personas": [
+    "property-manager",
+    "syndic-manager",
+    "landlord-owner"
+  ],
+  "segments": [
+    "residential",
+    "multifamily"
+  ],
+  "company_sizes": [
+    "solo",
+    "smb",
+    "midmarket"
+  ],
+  "pricing": {
+    "model": "per-unit",
+    "public_pricing": true,
+    "url": "https://www.buildium.com/pricing"
+  },
+  "integrations": [
+    "Apartments.com",
+    "Zillow Rentals",
+    "TransUnion screening",
+    "QuickBooks"
+  ],
+  "product": {
+    "api": true,
+    "open_source": false,
+    "mobile": [
+      "ios",
+      "android"
+    ],
+    "languages": [
+      "en"
+    ]
+  },
+  "alternatives": [
+    "appfolio",
+    "doorloop",
+    "rentmanager",
+    "propertyware"
+  ],
+  "reviews": [],
+  "sources": [
+    {
+      "url": "https://www.buildium.com",
+      "note": "site éditeur"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-25"
+}

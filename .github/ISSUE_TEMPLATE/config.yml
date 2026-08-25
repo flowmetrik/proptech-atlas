@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Read the schema first
+    url: https://github.com/flowmetrik/proptech-atlas/blob/main/data/SCHEMA.md
+    about: The contract every fiche must satisfy, including the rule on reviews.

@@ -1,0 +1,23 @@
+---
+import { url, initials, byId, label } from '../lib/catalog';
+import type { Tool } from '../lib/catalog';
+const { tool } = Astro.props as { tool: Tool };
+---
+<a class="card tool-card" href={url(`tools/${tool.slug}`)}>
+  <div class="top">
+    <span class="tool-logo" aria-hidden="true">{initials(tool.name)}</span>
+    <div style="min-width:0">
+      <h3>{tool.name}</h3>
+      <div class="editor">{tool.editor}</div>
+    </div>
+    <span style="margin-left:auto;font-size:0.9rem;letter-spacing:1px" aria-hidden="true">
+      {tool.markets.map((m) => byId.market[m]?.flag).join('')}
+    </span>
+  </div>
+  <p class="pos">{tool.positioning}</p>
+  <div class="meta">
+    <span class="badge badge-accent">{label('category', tool.category)}</span>
+    {tool.ai && <span class="badge badge-outline">AI</span>}
+    {tool.product?.open_source && <span class="badge badge-outline">Open source</span>}
+  </div>
+</a>

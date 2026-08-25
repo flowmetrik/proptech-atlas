@@ -1,0 +1,50 @@
+slug: cubicasa
+name: CubiCasa
+editor: CubiCasa
+website: https://www.cubi.casa
+hq_country: FI
+markets: [US, FR]
+category: visuals-tours
+founded: 2014
+positioning: A floor plan from a phone walkthrough — no camera, no tripod, no measuring.
+description: >
+  CubiCasa produces measured 2D and 3D floor plans from a smartphone video walkthrough:
+  the user records a continuous scan, uploads it, and receives a dimensioned plan with gross
+  living area, typically within hours.
+real_estate_use: >
+  Floor plans measurably improve listing engagement but traditionally required a
+  professional visit. Because CubiCasa needs only a phone, an agent produces one during the
+  listing appointment they were attending anyway. Appraisers use the same output for gross
+  living area sketches that meet lender requirements.
+features:
+  - Floor plan generation from smartphone video walkthrough
+  - Measured 2D and 3D plans with room dimensions
+  - Gross living area calculation for appraisal use
+  - White-label ordering and delivery for enterprises
+  - Export to common plan and imaging formats
+  - API for high-volume ordering
+use_cases:
+  - persona: agent-broker
+    job: Produce a measured floor plan during the listing appointment with only a phone
+  - persona: appraiser
+    job: Generate a gross living area sketch that meets lender requirements
+personas: [agent-broker, appraiser, property-manager]
+segments: [residential, office]
+company_sizes: [solo, smb, midmarket, enterprise]
+pricing:
+  model: usage
+  public_pricing: true
+  url: https://www.cubi.casa/pricing
+integrations: [listing platforms, appraisal systems, REST API]
+ai:
+  capabilities: [Floor plan reconstruction from video, Automatic area calculation]
+product:
+  api: true
+  open_source: false
+  mobile: [ios, android]
+  languages: [en, fr]
+alternatives: [matterport, boxbrownie]
+reviews: []
+sources: [{ url: https://www.cubi.casa, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

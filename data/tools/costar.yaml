@@ -1,0 +1,49 @@
+slug: costar
+name: CoStar
+editor: CoStar Group
+website: https://www.costar.com
+hq_country: US
+markets: [US]
+category: market-data
+also_in: [investment-underwriting]
+founded: 1987
+positioning: The commercial property database the industry underwrites against, built on a research organisation rather than on scraping.
+description: >
+  CoStar maintains a researched inventory of US commercial buildings — physical
+  characteristics, ownership, tenancy, lease comparables, sale comparables, availabilities
+  and submarket analytics — collected and verified by a large in-house research team and sold
+  as a subscription with strict per-seat licensing.
+real_estate_use: >
+  It is the reference for the questions that precede a deal: what is the true rentable area,
+  who owns the entity behind the LLC, what did the last three comparable leases sign at, what
+  is the submarket vacancy trend. Brokers pull comparables for a pitch, investors size a
+  market before underwriting, lenders sanity-check a borrower's rent roll.
+features:
+  - Researched property records with ownership and tenancy detail
+  - Lease and sale comparables with confirmed terms
+  - Availability and vacancy tracking by submarket
+  - Market analytics, forecasts and rent trends
+  - Tenant tracking and expiring-lease intelligence
+  - Directory of owners, brokers and tenants
+use_cases:
+  - persona: investor-am
+    job: Size a submarket and pull comparable leases before underwriting an acquisition
+  - persona: agent-broker
+    job: Build a pitch on confirmed comparables rather than on asking rents
+personas: [investor-am, agent-broker, corporate-re, appraiser, lender-broker]
+segments: [office, retail, industrial, multifamily, hospitality, land-development]
+company_sizes: [smb, midmarket, enterprise]
+pricing:
+  model: subscription
+  public_pricing: false
+integrations: [LoopNet, Apartments.com, ARGUS, Excel add-ins]
+product:
+  api: true
+  open_source: false
+  mobile: [ios, android]
+  languages: [en]
+alternatives: [reonomy, attom-data, crexi, yanport]
+reviews: []
+sources: [{ url: https://www.costar.com, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

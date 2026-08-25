@@ -1,0 +1,30 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  validate:
+    name: Validate catalogue and build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Validate every fiche against the schema
+        run: npm run data:validate
+      - name: Regenerate the API and check it is committed
+        run: |
+          npm run data:emit
+          if ! git diff --quiet -- public/api CATALOG.md public/llms.txt; then
+            echo "::error::Les artefacts générés ne sont pas à jour. Lancer 'npm run data:emit' et committer le résultat."
+            git diff --stat -- public/api CATALOG.md public/llms.txt
+            exit 1
+          fi
+      - name: Build the site
+        run: npx astro build

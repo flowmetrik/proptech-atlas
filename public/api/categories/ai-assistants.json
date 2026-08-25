@@ -1,0 +1,686 @@
+{
+  "id": "ai-assistants",
+  "label_en": "AI agents & automation",
+  "label_fr": "Agents IA & automatisation",
+  "summary_en": "LLM-native assistants that answer, qualify, draft and act on real estate work.",
+  "summary_fr": "Assistants LLM qui répondent, qualifient, rédigent et agissent sur le métier.",
+  "count": 7,
+  "tools": [
+    {
+      "slug": "appfolio",
+      "name": "AppFolio Property Manager",
+      "editor": "AppFolio",
+      "website": "https://www.appfolio.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "property-management",
+      "also_in": [
+        "back-office-accounting",
+        "ai-assistants"
+      ],
+      "founded": 2006,
+      "positioning": "The mid-market property management system that made cloud-native and mobile-first the default expectation.",
+      "description": "AppFolio is an all-in-one property management platform covering residential, commercial, student and community association portfolios: marketing and leasing, applicant screening, online payments, maintenance, full trust accounting and owner reporting, with AI features branded Realm.\n",
+      "real_estate_use": "A management company running a few thousand units uses it as the system of record for the whole operation. A vacancy is syndicated to the rental portals, an applicant is screened and signs a lease online, rent arrives by ACH, a maintenance request from the tenant app becomes a work order to a vendor, and the owner receives a statement generated from the same ledger. The differentiator in practice is that the accounting is genuinely built in, not bolted on.\n",
+      "features": [
+        "Vacancy marketing with syndication to rental portals",
+        "Online applications, screening and lease e-signature",
+        "Online rent collection and utility billing",
+        "Maintenance work orders with vendor management and a 24/7 call answering option",
+        "Full trust accounting, owner statements and 1099 handling",
+        "Resident and owner portals with mobile apps"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Run leasing, rent, maintenance and owner accounting for thousands of units in one ledger"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "Receive an owner statement generated from the actual accounting rather than a spreadsheet"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "landlord-owner",
+        "syndic-manager"
+      ],
+      "segments": [
+        "residential",
+        "multifamily",
+        "coliving-student",
+        "office",
+        "retail"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "per-unit",
+        "public_pricing": true,
+        "url": "https://www.appfolio.com/pricing"
+      },
+      "integrations": [
+        "Apartments.com",
+        "Zillow Rentals",
+        "HappyCo",
+        "Conservice",
+        "REST API"
+      ],
+      "ai": {
+        "capabilities": [
+          "Leasing assistant answering prospect enquiries",
+          "Maintenance triage",
+          "Automated statement narratives"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "buildium",
+        "entrata",
+        "rentmanager",
+        "yardi-breeze"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.appfolio.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "eliseai",
+      "name": "EliseAI",
+      "editor": "EliseAI",
+      "website": "https://www.eliseai.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "ai-assistants",
+      "also_in": [
+        "property-management"
+      ],
+      "founded": 2017,
+      "positioning": "An AI leasing agent that answers, qualifies and books tours around the clock — measured on tours booked, not on messages sent.",
+      "description": "EliseAI provides conversational AI for multifamily and healthcare operators: it answers prospect enquiries by email, SMS, web chat and voice, qualifies against availability and criteria, schedules tours directly into the calendar, and follows up through the application and renewal stages.\n",
+      "real_estate_use": "Leasing enquiries arrive outside office hours and go cold within the hour. EliseAI answers immediately in the channel the prospect used, checks real availability against the property management system, and books the tour without a human. Operators measure it on tour conversion and on the leasing headcount it lets them redeploy.\n",
+      "features": [
+        "Conversational responses across email, SMS, web chat and voice",
+        "Availability-aware qualification against the property management system",
+        "Automatic tour scheduling into leasing calendars",
+        "Application follow-up and document chasing",
+        "Renewal and delinquency outreach campaigns",
+        "Maintenance request intake and triage"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Answer and qualify every after-hours leasing enquiry without adding staff"
+        },
+        {
+          "persona": "property-manager",
+          "job": "Chase renewals and missing application documents automatically"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "landlord-owner",
+        "investor-am"
+      ],
+      "segments": [
+        "multifamily",
+        "residential",
+        "healthcare-senior",
+        "coliving-student"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Yardi",
+        "RealPage",
+        "Entrata",
+        "AppFolio"
+      ],
+      "ai": {
+        "capabilities": [
+          "Conversational leasing across channels",
+          "Tour scheduling",
+          "Renewal outreach",
+          "Maintenance triage"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en",
+          "es"
+        ]
+      },
+      "alternatives": [
+        "structurely",
+        "entrata",
+        "ylopo"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.eliseai.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "entrata",
+      "name": "Entrata",
+      "editor": "Entrata",
+      "website": "https://www.entrata.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "property-management",
+      "also_in": [
+        "back-office-accounting",
+        "ai-assistants"
+      ],
+      "founded": 2003,
+      "positioning": "A single-stack multifamily operating system — the accounting ledger and the leasing website are the same product, not an integration.",
+      "description": "Entrata is a multifamily-focused platform combining property accounting, leasing and marketing websites, resident portals, utility billing, insurance, revenue management and an AI leasing agent. Its architectural claim is one database behind every module rather than a suite assembled by acquisition.\n",
+      "real_estate_use": "Large apartment operators use it to run a lease-up and a stabilised asset on the same ledger. A prospect finds the community site, is answered by the AI leasing agent at midnight, tours, applies and signs — and the rent, concessions and renewal pricing all post to the same accounting without a nightly file transfer between systems.\n",
+      "features": [
+        "Property accounting and general ledger for multifamily",
+        "Marketing websites and ILS syndication per community",
+        "AI leasing agent handling prospect enquiries and tour scheduling",
+        "Resident portal with payments, renewals and service requests",
+        "Revenue management and pricing optimisation",
+        "Utility billing, insurance and ancillary revenue modules"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Operate a large apartment portfolio with leasing, pricing and accounting on one database"
+        },
+        {
+          "persona": "investor-am",
+          "job": "Compare asset performance across a portfolio without reconciling systems"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "investor-am",
+        "landlord-owner"
+      ],
+      "segments": [
+        "multifamily",
+        "coliving-student",
+        "residential"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Apartments.com",
+        "Zillow Rentals",
+        "screening bureaus",
+        "accounting exports"
+      ],
+      "ai": {
+        "capabilities": [
+          "AI leasing agent for enquiries and tours",
+          "Renewal pricing recommendations"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "realpage",
+        "yardi-voyager",
+        "appfolio"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.entrata.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "follow-up-boss",
+      "name": "Follow Up Boss",
+      "editor": "Zillow Group",
+      "website": "https://www.followupboss.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "crm-lead",
+      "also_in": [
+        "ai-assistants"
+      ],
+      "founded": 2011,
+      "positioning": "The CRM real estate teams run their day on — every lead source lands in one inbox and the follow-up is enforced by the system.",
+      "description": "A sales-team CRM built specifically for residential brokerages. It ingests leads from portals, websites and ad platforms, routes them by rule to the right agent, and drives activity through action plans, calling queues and a shared team inbox. Acquired by Zillow Group in 2023 and kept as a standalone product.\n",
+      "real_estate_use": "Used by agent teams and brokerages to make sure a portal lead is contacted in minutes rather than hours. Leads arrive from Zillow, Realtor.com and the brokerage site, get assigned by round robin or by geography, and enter an automated call-text-email cadence. Managers watch speed-to-lead, conversation counts and pipeline stage rather than guessing who is actually working their database.\n",
+      "features": [
+        "Lead routing rules with round robin, first-to-claim and geographic assignment",
+        "Action plans — multi-step automated text, email and call task sequences",
+        "Team inbox with shared call, text and email history per contact",
+        "Smart lists that resurface a database contact when they re-engage",
+        "Calling with recording, voicemail drop and dialer queues",
+        "Reporting on speed to lead, agent activity and source ROI"
+      ],
+      "use_cases": [
+        {
+          "persona": "brokerage",
+          "job": "Distribute paid portal leads across a team and prove which source converts"
+        },
+        {
+          "persona": "agent-broker",
+          "job": "Work a past-client and sphere database on an automated cadence instead of ad hoc"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "per-seat",
+        "public_pricing": true,
+        "url": "https://www.followupboss.com/pricing"
+      },
+      "integrations": [
+        "Zillow",
+        "Realtor.com",
+        "dotloop",
+        "BombBomb",
+        "Ylopo",
+        "Zapier"
+      ],
+      "ai": {
+        "capabilities": [
+          "Lead intent scoring",
+          "Automated follow-up cadences"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "lofty",
+        "boldtrail",
+        "sierra-interactive",
+        "boomtown"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.followupboss.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "lofty",
+      "name": "Lofty",
+      "editor": "Lofty (formerly Chime Technologies)",
+      "website": "https://lofty.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "crm-lead",
+      "also_in": [
+        "agent-marketing",
+        "ai-assistants"
+      ],
+      "founded": 2016,
+      "positioning": "An all-in-one platform where the IDX website, the ad spend and the CRM are the same product, so a click is tracked to a closing.",
+      "description": "Lofty bundles an IDX website, lead-generation advertising, CRM, dialer, email and SMS marketing, and transaction tracking into one subscription. Renamed from Chime in 2023. Sold mostly to teams and brokerages that want a single vendor rather than a stack.\n",
+      "real_estate_use": "A team buys traffic through Lofty's ad management, the visitor lands on a Lofty IDX site, their property searches are recorded against their CRM record, and an AI assistant opens the conversation by text. The differentiator in daily use is behavioural triggering — the agent is alerted when a contact revisits a listing or saves a search, not on a calendar timer.\n",
+      "features": [
+        "IDX website with agent, team and brokerage templates",
+        "Behavioural lead alerts driven by on-site property search activity",
+        "AI assistant that texts and qualifies inbound leads",
+        "Built-in dialer, SMS and drip email campaigns",
+        "Facebook and Google ad management with lead attribution",
+        "Smart plans and transaction pipeline"
+      ],
+      "use_cases": [
+        {
+          "persona": "brokerage",
+          "job": "Run lead generation, nurture and site under one vendor with one attribution report"
+        },
+        {
+          "persona": "agent-broker",
+          "job": "Get alerted the moment a past lead resumes searching and re-engage the same day"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "per-seat",
+        "public_pricing": false,
+        "url": "https://lofty.com/pricing"
+      },
+      "integrations": [
+        "Zapier",
+        "Google Ads",
+        "Meta Ads",
+        "Zillow",
+        "MLS IDX feeds"
+      ],
+      "ai": {
+        "capabilities": [
+          "Conversational lead qualification by SMS",
+          "Behavioural intent scoring",
+          "Listing description drafting"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "boldtrail",
+        "sierra-interactive",
+        "realgeeks",
+        "follow-up-boss"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://lofty.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "structurely",
+      "name": "Structurely",
+      "editor": "Structurely",
+      "website": "https://www.structurely.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "ai-assistants",
+      "also_in": [
+        "crm-lead"
+      ],
+      "founded": 2016,
+      "positioning": "An AI inside sales agent for the leads an agent will never call back — the ones two months old.",
+      "description": "Structurely provides AI-driven text and voice conversation for real estate and mortgage lead follow-up: it engages new and aged leads, holds a qualifying conversation over days or weeks, and hands a warm, qualified contact back to a human agent.\n",
+      "real_estate_use": "A team buying leads accumulates thousands of contacts nobody has time to nurture. The economics of an AI agent are different from a human inside sales agent: it can pursue a two-year-old lead for months at no marginal cost. The product is judged on appointments produced from a database the team had written off.\n",
+      "features": [
+        "AI text and voice conversation for new and aged leads",
+        "Long-horizon nurture campaigns over weeks and months",
+        "Qualification against buying timeline, financing and motivation",
+        "Live handoff to a human agent when a lead is ready",
+        "CRM integration writing conversation history back",
+        "Appointment setting into agent calendars"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Resurrect a database of aged leads nobody has time to call"
+        },
+        {
+          "persona": "brokerage",
+          "job": "Replace or extend a human inside sales team on lead qualification"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage",
+        "lender-broker"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://www.structurely.com/pricing"
+      },
+      "integrations": [
+        "Follow Up Boss",
+        "BoldTrail",
+        "Lofty",
+        "Salesforce",
+        "Zapier"
+      ],
+      "ai": {
+        "capabilities": [
+          "Conversational lead qualification by SMS and voice",
+          "Long-horizon nurture"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "eliseai",
+        "ylopo",
+        "follow-up-boss"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.structurely.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "ylopo",
+      "name": "Ylopo",
+      "editor": "Ylopo",
+      "website": "https://www.ylopo.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "ai-assistants",
+      "also_in": [
+        "agent-marketing",
+        "crm-lead"
+      ],
+      "founded": 2016,
+      "positioning": "Advertising and AI follow-up bolted onto the CRM a team already uses, instead of replacing it.",
+      "description": "Ylopo runs paid lead generation on Google and Meta, provides branded home search sites, and layers AI text and voice follow-up on top of an existing CRM — most commonly Follow Up Boss — rather than asking a team to migrate.\n",
+      "real_estate_use": "Teams that already standardised on a CRM will not move for an ad product. Ylopo's design reflects that: it generates and nurtures, and writes everything back into the CRM of record. Its dynamic listing ads and seller-lead products are the practical draw, with AI voice follow-up handling first contact at scale.\n",
+      "features": [
+        "Managed Google and Meta advertising for buyer and seller leads",
+        "Branded home search sites with behavioural tracking",
+        "AI text and AI voice follow-up on new and aged leads",
+        "Dynamic remarketing ads featuring listings a lead viewed",
+        "Seller lead products with valuation landing pages",
+        "Write-back into an existing CRM rather than replacing it"
+      ],
+      "use_cases": [
+        {
+          "persona": "brokerage",
+          "job": "Add paid acquisition and AI follow-up without migrating off the current CRM"
+        },
+        {
+          "persona": "agent-broker",
+          "job": "Retarget past site visitors with the specific homes they looked at"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Follow Up Boss",
+        "BoldTrail",
+        "Lofty",
+        "Sierra Interactive"
+      ],
+      "ai": {
+        "capabilities": [
+          "AI text and voice lead follow-up",
+          "Behavioural retargeting"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "structurely",
+        "lofty",
+        "boldtrail"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.ylopo.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    }
+  ]
+}

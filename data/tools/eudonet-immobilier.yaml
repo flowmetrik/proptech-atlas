@@ -1,0 +1,48 @@
+slug: eudonet-immobilier
+name: Eudonet Immobilier
+editor: Eudonet (Efficy Group)
+website: https://www.eudonet.com
+hq_country: FR
+markets: [FR]
+category: crm-lead
+also_in: [commercial-am]
+positioning: A configurable French CRM with a real estate vertical — for organisations whose process does not fit an agency package.
+description: >
+  Eudonet is a French CRM platform sold in vertical editions, including one for real estate
+  professionals: contact and asset relationship management, prospect and mandate pipelines,
+  campaign management, and configurable objects and workflows, hosted in France.
+real_estate_use: >
+  It is chosen by organisations that are not classic agencies — institutional owners,
+  developers, public bodies, networks — whose relationship processes do not match a
+  transaction package. The configurability is the point: an object model for buildings,
+  tenants, prospects and operations can be shaped to the organisation rather than the
+  reverse, with French hosting satisfying public procurement requirements.
+features:
+  - Configurable object model for assets, contacts and operations
+  - Prospect, mandate and opportunity pipelines
+  - Campaign, email and event management
+  - Workflow automation and validation circuits
+  - Reporting and dashboards per business line
+  - French hosting and public sector compliance
+use_cases:
+  - persona: corporate-re
+    job: Model relationships around assets and operations rather than around a sales pipeline
+  - persona: developer-builder
+    job: Track prospects and reservations on a development programme in a configurable CRM
+personas: [corporate-re, developer-builder, investor-am, brokerage]
+segments: [office, retail, residential, mixed-use, land-development]
+company_sizes: [midmarket, enterprise]
+pricing:
+  model: quote
+  public_pricing: false
+integrations: [Microsoft 365, marketing tools, business systems, REST API]
+product:
+  api: true
+  open_source: false
+  mobile: [ios, android]
+  languages: [fr, en]
+alternatives: [apimo, hektor]
+reviews: []
+sources: [{ url: https://www.eudonet.com, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

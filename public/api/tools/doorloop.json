@@ -1,0 +1,95 @@
+{
+  "slug": "doorloop",
+  "name": "DoorLoop",
+  "editor": "DoorLoop",
+  "website": "https://www.doorloop.com",
+  "hq_country": "US",
+  "markets": [
+    "US"
+  ],
+  "category": "property-management",
+  "also_in": [
+    "back-office-accounting"
+  ],
+  "founded": 2019,
+  "positioning": "The recent challenger — the same feature checklist as the incumbents, with an interface people learn in an afternoon.",
+  "description": "DoorLoop is a cloud property management platform covering rentals, associations and commercial portfolios: listings and screening, leases and e-signature, rent collection, maintenance, accounting with QuickBooks sync, and tenant and owner portals. It competes on usability and published pricing.\n",
+  "real_estate_use": "Its typical buyer is a manager leaving spreadsheets, or one leaving an older system whose interface their staff never mastered. The practical argument is onboarding time: a small team can go live in days, and the accounting exports cleanly to QuickBooks, which the bookkeeper already uses.\n",
+  "features": [
+    "Listings, applications and tenant screening",
+    "Lease templates with e-signature and automated renewals",
+    "Online rent collection with automatic late fees",
+    "Maintenance requests, vendor assignment and tracking",
+    "Accounting with QuickBooks two-way sync",
+    "Tenant, owner and vendor portals"
+  ],
+  "use_cases": [
+    {
+      "persona": "property-manager",
+      "job": "Replace spreadsheets with a full system without a long onboarding"
+    },
+    {
+      "persona": "landlord-owner",
+      "job": "Collect rent, track maintenance and report to owners from one place"
+    }
+  ],
+  "personas": [
+    "property-manager",
+    "landlord-owner",
+    "syndic-manager"
+  ],
+  "segments": [
+    "residential",
+    "multifamily",
+    "office",
+    "retail"
+  ],
+  "company_sizes": [
+    "solo",
+    "smb",
+    "midmarket"
+  ],
+  "pricing": {
+    "model": "per-unit",
+    "public_pricing": true,
+    "url": "https://www.doorloop.com/pricing"
+  },
+  "integrations": [
+    "QuickBooks",
+    "Zillow Rentals",
+    "Apartments.com",
+    "Zapier",
+    "TransUnion"
+  ],
+  "product": {
+    "api": true,
+    "open_source": false,
+    "mobile": [
+      "ios",
+      "android"
+    ],
+    "languages": [
+      "en",
+      "es"
+    ]
+  },
+  "alternatives": [
+    "buildium",
+    "appfolio",
+    "tenantcloud",
+    "innago"
+  ],
+  "reviews": [],
+  "sources": [
+    {
+      "url": "https://www.doorloop.com",
+      "note": "site éditeur"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-25"
+}

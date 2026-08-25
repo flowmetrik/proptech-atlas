@@ -1,0 +1,84 @@
+{
+  "slug": "yanport",
+  "name": "Yanport",
+  "editor": "Yanport",
+  "website": "https://www.yanport.com",
+  "hq_country": "FR",
+  "markets": [
+    "FR"
+  ],
+  "category": "market-data",
+  "positioning": "The French listing and transaction database professionals use when the public price indices are not enough.",
+  "description": "Yanport collects and structures French property listings and transaction data over time — asking prices, price changes, time on market, withdrawal and sale outcomes — and delivers it through analysis tools and APIs to professionals and product builders.\n",
+  "real_estate_use": "France has no MLS, so the history of what was actually asked and what actually sold is fragmented across portals and public records. Yanport reconstructs it: an appraiser or a developer can see how long comparable properties took to sell and how far the asking price moved, which is the evidence a public price index cannot give.\n",
+  "features": [
+    "Historic French listing database with price change tracking",
+    "Time on market and sale outcome analysis",
+    "Transaction data enrichment",
+    "Market analysis tools by sector and property type",
+    "API delivery for integration into products",
+    "Custom studies and portfolio analysis"
+  ],
+  "use_cases": [
+    {
+      "persona": "appraiser",
+      "job": "Show how far comparable asking prices moved before a sale actually closed"
+    },
+    {
+      "persona": "developer-builder",
+      "job": "Assess absorption and pricing in a sector before committing to an operation"
+    }
+  ],
+  "personas": [
+    "appraiser",
+    "developer-builder",
+    "investor-am",
+    "brokerage"
+  ],
+  "segments": [
+    "residential",
+    "mixed-use",
+    "office"
+  ],
+  "company_sizes": [
+    "smb",
+    "midmarket",
+    "enterprise"
+  ],
+  "pricing": {
+    "model": "quote",
+    "public_pricing": false
+  },
+  "integrations": [
+    "REST API",
+    "BI tools",
+    "agency software"
+  ],
+  "product": {
+    "api": true,
+    "open_source": false,
+    "mobile": [],
+    "languages": [
+      "fr"
+    ]
+  },
+  "alternatives": [
+    "meilleursagents",
+    "pricehubble",
+    "dvf",
+    "fluximmo"
+  ],
+  "reviews": [],
+  "sources": [
+    {
+      "url": "https://www.yanport.com",
+      "note": "site éditeur"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-25"
+}

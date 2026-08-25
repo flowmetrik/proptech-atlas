@@ -1,0 +1,52 @@
+slug: yardi-voyager
+name: Yardi Voyager
+editor: Yardi Systems
+website: https://www.yardi.com
+hq_country: US
+markets: [US, FR]
+category: commercial-am
+also_in: [property-management, back-office-accounting]
+founded: 1984
+positioning: The institutional system of record — where the lease, the ledger and the investor report are the same data.
+description: >
+  Voyager is Yardi's enterprise platform, deployed across commercial, multifamily,
+  affordable, senior and student portfolios worldwide. It combines property accounting,
+  lease administration, budgeting and forecasting, investment management and a large
+  ecosystem of add-on modules, with localisations including France.
+real_estate_use: >
+  For an institutional owner, the question is not features but audit chain: the rent
+  invoiced to a tenant, the indexation clause applied, the accrual booked and the figure
+  reported to the fund's investors must all descend from one record. Voyager is bought for
+  that continuity, and implementations run in months because the configuration encodes a
+  firm's entire operating model.
+features:
+  - Commercial and residential lease administration with clause handling
+  - Property, corporate and investment accounting with multi-currency
+  - Budgeting, forecasting and valuation workflows
+  - Investment management and investor reporting
+  - Maintenance, procurement and energy modules
+  - Country localisations including French accounting and VAT treatment
+use_cases:
+  - persona: investor-am
+    job: Report to fund investors from the same ledger that invoices the tenants
+  - persona: property-manager
+    job: Administer indexation, recoveries and CAM reconciliation across a commercial portfolio
+personas: [investor-am, property-manager, corporate-re]
+segments: [office, retail, industrial, multifamily, healthcare-senior, coliving-student]
+company_sizes: [midmarket, enterprise]
+pricing:
+  model: quote
+  public_pricing: false
+integrations: [RentCafe, Yardi Elevate, banking, ERP systems, Cherre]
+ai:
+  capabilities: [Invoice processing automation, Forecasting assistance]
+product:
+  api: true
+  open_source: false
+  mobile: [ios, android]
+  languages: [en, fr, de, es]
+alternatives: [mri-software, realpage, entrata, yardi-breeze]
+reviews: []
+sources: [{ url: https://www.yardi.com, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

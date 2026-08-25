@@ -1,0 +1,48 @@
+slug: buildertrend
+name: Buildertrend
+editor: Buildertrend
+website: https://buildertrend.com
+hq_country: US
+markets: [US]
+category: construction-development
+founded: 2006
+positioning: Built for the residential builder and remodeler, where the client is a homeowner who wants to see progress.
+description: >
+  Buildertrend covers estimating and proposals, scheduling, daily logs, change orders,
+  selections, client communication, invoicing and payments for home builders and
+  remodelers, with a customer portal designed for a homeowner rather than a project team.
+real_estate_use: >
+  Custom home building and renovation differ from commercial construction in one respect
+  that dominates everything: the client lives with the outcome and changes their mind. The
+  selections module makes each finish choice a documented, priced decision, which is how
+  builders defend a change order six months later without losing the relationship.
+features:
+  - Estimating, proposals and client-facing selections
+  - Scheduling with subcontractor notifications
+  - Change orders with client approval and pricing
+  - Daily logs, photos and progress updates for homeowners
+  - Invoicing, online payments and lien waiver tracking
+  - Client portal with a documented decision history
+use_cases:
+  - persona: developer-builder
+    job: Document every homeowner finish selection and change with an approved price
+  - persona: developer-builder
+    job: Keep subcontractor scheduling and client updates in one system
+personas: [developer-builder, landlord-owner]
+segments: [residential, mixed-use]
+company_sizes: [solo, smb, midmarket]
+pricing:
+  model: subscription
+  public_pricing: true
+  url: https://buildertrend.com/pricing
+integrations: [QuickBooks, Xero, Zapier, Gusto]
+product:
+  api: true
+  open_source: false
+  mobile: [ios, android]
+  languages: [en, es]
+alternatives: [procore, autodesk-construction-cloud]
+reviews: []
+sources: [{ url: https://buildertrend.com, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

@@ -1,0 +1,98 @@
+{
+  "slug": "lofty",
+  "name": "Lofty",
+  "editor": "Lofty (formerly Chime Technologies)",
+  "website": "https://lofty.com",
+  "hq_country": "US",
+  "markets": [
+    "US"
+  ],
+  "category": "crm-lead",
+  "also_in": [
+    "agent-marketing",
+    "ai-assistants"
+  ],
+  "founded": 2016,
+  "positioning": "An all-in-one platform where the IDX website, the ad spend and the CRM are the same product, so a click is tracked to a closing.",
+  "description": "Lofty bundles an IDX website, lead-generation advertising, CRM, dialer, email and SMS marketing, and transaction tracking into one subscription. Renamed from Chime in 2023. Sold mostly to teams and brokerages that want a single vendor rather than a stack.\n",
+  "real_estate_use": "A team buys traffic through Lofty's ad management, the visitor lands on a Lofty IDX site, their property searches are recorded against their CRM record, and an AI assistant opens the conversation by text. The differentiator in daily use is behavioural triggering — the agent is alerted when a contact revisits a listing or saves a search, not on a calendar timer.\n",
+  "features": [
+    "IDX website with agent, team and brokerage templates",
+    "Behavioural lead alerts driven by on-site property search activity",
+    "AI assistant that texts and qualifies inbound leads",
+    "Built-in dialer, SMS and drip email campaigns",
+    "Facebook and Google ad management with lead attribution",
+    "Smart plans and transaction pipeline"
+  ],
+  "use_cases": [
+    {
+      "persona": "brokerage",
+      "job": "Run lead generation, nurture and site under one vendor with one attribution report"
+    },
+    {
+      "persona": "agent-broker",
+      "job": "Get alerted the moment a past lead resumes searching and re-engage the same day"
+    }
+  ],
+  "personas": [
+    "agent-broker",
+    "brokerage"
+  ],
+  "segments": [
+    "residential"
+  ],
+  "company_sizes": [
+    "solo",
+    "smb",
+    "midmarket"
+  ],
+  "pricing": {
+    "model": "per-seat",
+    "public_pricing": false,
+    "url": "https://lofty.com/pricing"
+  },
+  "integrations": [
+    "Zapier",
+    "Google Ads",
+    "Meta Ads",
+    "Zillow",
+    "MLS IDX feeds"
+  ],
+  "ai": {
+    "capabilities": [
+      "Conversational lead qualification by SMS",
+      "Behavioural intent scoring",
+      "Listing description drafting"
+    ]
+  },
+  "product": {
+    "api": true,
+    "open_source": false,
+    "mobile": [
+      "ios",
+      "android"
+    ],
+    "languages": [
+      "en"
+    ]
+  },
+  "alternatives": [
+    "boldtrail",
+    "sierra-interactive",
+    "realgeeks",
+    "follow-up-boss"
+  ],
+  "reviews": [],
+  "sources": [
+    {
+      "url": "https://lofty.com",
+      "note": "site éditeur"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-25"
+}

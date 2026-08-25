@@ -1,0 +1,56 @@
+---
+import Base from '../../layouts/Base.astro';
+import ToolCard from '../../components/ToolCard.astro';
+import { taxonomy, toolsInCategory, url, byId } from '../../lib/catalog';
+
+export function getStaticPaths() {
+  return taxonomy.categories.map((c) => ({ params: { id: c.id }, props: { cat: c } }));
+}
+const { cat } = Astro.props;
+const list = toolsInCategory(cat.id);
+const us = list.filter((t) => t.markets.includes('US'));
+const fr = list.filter((t) => t.markets.includes('FR'));
+const jsonld = {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: cat.label_en,
+  description: cat.summary_en,
+  numberOfItems: list.length,
+  itemListElement: list.map((t, i) => ({ '@type': 'ListItem', position: i + 1, name: t.name, url: t.website })),
+};
+---
+<Base title={cat.label_en} description={`${cat.summary_en} ${list.length} products documented in the United States and France.`} jsonld={jsonld}>
+  <section class="wrap section">
+    <p class="mono muted"><a href={url('categories')}>Categories</a> › {cat.label_en}</p>
+    <h1>{cat.label_en}</h1>
+    <p class="lede">{cat.summary_en}</p>
+    <p class="mono muted">{cat.label_fr} — {cat.summary_fr}</p>
+    <div style="display:flex;gap:8px;margin:20px 0 0">
+      <span class="badge">{list.length} products</span>
+      <span class="badge">{byId.market.US.flag} {us.length}</span>
+      <span class="badge">{byId.market.FR.flag} {fr.length}</span>
+      <a class="badge badge-outline" href={url(`explore?cat=${cat.id}`)}>Open in explorer →</a>
+    </div>
+
+    {us.length > 0 && (
+      <>
+        <hr class="rule" />
+        <h2>{byId.market.US.flag} United States</h2>
+        <div class="grid grid-3" style="margin-top:20px">{us.map((t) => <ToolCard tool={t} />)}</div>
+      </>
+    )}
+    {fr.length > 0 && (
+      <>
+        <hr class="rule" />
+        <h2>{byId.market.FR.flag} France</h2>
+        <div class="grid grid-3" style="margin-top:20px">{fr.map((t) => <ToolCard tool={t} />)}</div>
+      </>
+    )}
+    {list.length === 0 && (
+      <div class="empty" style="margin-top:40px">
+        <p><strong>Nothing documented here yet.</strong></p>
+        <p style="margin:0">This category exists in the taxonomy and is waiting for its first entry. <a href={url('contribute')}>Add one →</a></p>
+      </div>
+    )}
+  </section>
+</Base>

@@ -1,0 +1,51 @@
+slug: pricelabs
+name: PriceLabs
+editor: PriceLabs
+website: https://hello.pricelabs.co
+hq_country: US
+markets: [US, FR]
+category: short-term-rental
+also_in: [estimation-pricing]
+founded: 2014
+positioning: Dynamic pricing for short-term rentals, with the reasoning visible instead of hidden in a black box.
+description: >
+  PriceLabs sets nightly rates for short-term rental listings using market demand data,
+  seasonality, day-of-week patterns and booking pace, with customisable rules, minimum-stay
+  optimisation and a market dashboard covering comparable listings.
+real_estate_use: >
+  Nightly pricing is the single biggest lever on STR revenue and the one humans handle worst
+  — most hosts set a rate and forget it. PriceLabs adjusts every listing daily against local
+  demand, and its market dashboard is widely used before acquisition, to check what
+  comparable properties in a neighbourhood actually earn across a year.
+features:
+  - Dynamic nightly pricing driven by market demand signals
+  - Customisable rules, floors, ceilings and seasonal overrides
+  - Minimum-stay and gap-night optimisation
+  - Market dashboards with comparable listing performance
+  - Portfolio view across many listings and channels
+  - Revenue estimator for prospective acquisitions
+use_cases:
+  - persona: property-manager
+    job: Reprice every listing daily against local demand instead of setting and forgetting
+  - persona: investor-am
+    job: Check what comparable short-term rentals in a neighbourhood actually earn before buying
+personas: [property-manager, investor-am, landlord-owner]
+segments: [hospitality, residential]
+company_sizes: [solo, smb, midmarket]
+pricing:
+  model: subscription
+  public_pricing: true
+  url: https://hello.pricelabs.co/pricing
+integrations: [Airbnb, Vrbo, Guesty, Hostaway, Lodgify, Smily]
+ai:
+  capabilities: [Demand forecasting and dynamic rate setting]
+product:
+  api: true
+  open_source: false
+  mobile: []
+  languages: [en]
+alternatives: [guesty, hostaway]
+reviews: []
+sources: [{ url: https://hello.pricelabs.co, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

@@ -1,0 +1,48 @@
+slug: wattsense
+name: Wattsense
+editor: Wattsense
+website: https://www.wattsense.com
+hq_country: FR
+markets: [FR, US]
+category: tenant-experience
+also_in: [energy-esg, facility-maintenance]
+positioning: Plug-in connectivity for buildings too small to justify a full BMS integration project.
+description: >
+  Wattsense provides a hardware and cloud solution that connects a building's existing
+  equipment — boilers, HVAC, meters, controllers — across multiple protocols and exposes the
+  data and control points through a single cloud API, without a bespoke integration project.
+real_estate_use: >
+  Most of a commercial portfolio is not headquarters buildings. Mid-sized assets have some
+  automation, no standardisation, and no budget for a systems integrator per site. Wattsense
+  targets exactly that middle: a box on site, protocols handled, data and control available
+  remotely — which is what makes portfolio-wide energy management feasible below the
+  flagship tier.
+features:
+  - Multi-protocol connectivity to existing building equipment
+  - Cloud API for data collection and remote control
+  - Deployment without a bespoke integration project
+  - Remote monitoring and alerting across sites
+  - Data normalisation across heterogeneous equipment
+  - Partner integrations with energy and facility platforms
+use_cases:
+  - persona: facility-manager
+    job: Connect mid-sized buildings to remote monitoring without an integration project each
+  - persona: corporate-re
+    job: Standardise data collection across a portfolio of heterogeneous equipment
+personas: [facility-manager, corporate-re, property-manager]
+segments: [office, retail, industrial, mixed-use]
+company_sizes: [smb, midmarket, enterprise]
+pricing:
+  model: subscription
+  public_pricing: false
+integrations: [BACnet, Modbus, KNX, LonWorks, energy platforms, REST API]
+product:
+  api: true
+  open_source: false
+  mobile: []
+  languages: [fr, en]
+alternatives: [spinalcom, advizeo]
+reviews: []
+sources: [{ url: https://www.wattsense.com, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

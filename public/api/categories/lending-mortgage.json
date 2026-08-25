@@ -1,0 +1,266 @@
+{
+  "id": "lending-mortgage",
+  "label_en": "Lending, mortgage & brokerage",
+  "label_fr": "Financement, crédit & courtage",
+  "summary_en": "Originate, price and service real estate debt.",
+  "summary_fr": "Monter, tarifer et gérer le crédit immobilier.",
+  "count": 3,
+  "tools": [
+    {
+      "slug": "blend",
+      "name": "Blend",
+      "editor": "Blend Labs",
+      "website": "https://blend.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "lending-mortgage",
+      "founded": 2012,
+      "positioning": "The borrower-facing front end a bank puts in front of its origination system.",
+      "description": "Blend provides digital application experiences for mortgage, home equity and consumer lending: guided borrower application, automated asset, income and employment verification, document collection, status tracking and loan officer tooling, integrated into the lender's origination system.\n",
+      "real_estate_use": "The failure point in mortgage is the borrower experience: a form that asks for two years of bank statements as PDFs loses applicants to a competitor. Blend replaces that with direct connections to payroll and bank data, so verification happens in the application instead of three weeks later, and the loan officer sees a complete file sooner.\n",
+      "features": [
+        "Guided digital mortgage and home equity applications",
+        "Automated asset, income and employment verification",
+        "Document collection with borrower status tracking",
+        "Loan officer workspace and pipeline visibility",
+        "Integration with origination systems and pricing engines",
+        "Configurable workflows per lender product"
+      ],
+      "use_cases": [
+        {
+          "persona": "lender-broker",
+          "job": "Reduce application abandonment with verified data instead of document uploads"
+        },
+        {
+          "persona": "lender-broker",
+          "job": "Give borrowers a live status view instead of a phone call for every update"
+        }
+      ],
+      "personas": [
+        "lender-broker"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Encompass",
+        "core banking systems",
+        "payroll and bank data providers"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en",
+          "es"
+        ]
+      },
+      "alternatives": [
+        "encompass",
+        "floify"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://blend.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "encompass",
+      "name": "Encompass",
+      "editor": "ICE Mortgage Technology",
+      "website": "https://www.icemortgagetechnology.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "lending-mortgage",
+      "founded": 1997,
+      "positioning": "The loan origination system a large share of US mortgages are actually manufactured in.",
+      "description": "Encompass is a loan origination system covering the mortgage lifecycle: application intake, processing, underwriting, closing document generation, compliance testing and delivery to investors, with a configuration and partner ecosystem around it.\n",
+      "real_estate_use": "A residential mortgage is a regulated manufacturing process — disclosure timing, fee tolerance, appraisal ordering, TRID compliance — where a missed deadline is a legal defect, not an inconvenience. Encompass encodes those rules in the workflow, which is why it sits at the centre of most lender operations and why the whole vendor ecosystem integrates with it.\n",
+      "features": [
+        "End-to-end loan origination workflow from application to funding",
+        "Automated compliance testing including TRID and disclosure timing",
+        "Closing document generation and e-signature",
+        "Product and pricing engine integration",
+        "Investor delivery and secondary market handoff",
+        "Extensive partner integration marketplace"
+      ],
+      "use_cases": [
+        {
+          "persona": "lender-broker",
+          "job": "Manufacture a compliant residential loan file from application to funding"
+        },
+        {
+          "persona": "lender-broker",
+          "job": "Deliver closed loans to investors without re-keying the file"
+        }
+      ],
+      "personas": [
+        "lender-broker"
+      ],
+      "segments": [
+        "residential",
+        "multifamily"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Blend",
+        "Qualia",
+        "credit bureaus",
+        "appraisal management",
+        "investor systems"
+      ],
+      "ai": {
+        "capabilities": [
+          "Document recognition and data extraction",
+          "Automated condition clearing"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "blend",
+        "floify"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.icemortgagetechnology.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "floify",
+      "name": "Floify",
+      "editor": "Floify (Porch Group)",
+      "website": "https://floify.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "lending-mortgage",
+      "founded": 2013,
+      "positioning": "Document collection and borrower communication for the individual loan originator, not the enterprise.",
+      "description": "Floify is a mortgage point-of-sale and document portal: borrower application intake, secure document collection with automated chasing, milestone notifications to all parties, and loan officer pipeline tools, sold at a price an individual originator can carry.\n",
+      "real_estate_use": "Most of a loan officer's day is chasing paperwork and telling agents where the file stands. Floify automates both — it requests missing documents until they arrive, and notifies the borrower and both agents at each milestone. For a small brokerage or an independent originator it replaces the enterprise point-of-sale they cannot buy.\n",
+      "features": [
+        "Borrower document portal with automated follow-up requests",
+        "Loan application intake and 1003 form handling",
+        "Milestone notifications to borrower, agents and partners",
+        "Loan officer pipeline and task management",
+        "E-signature and secure document storage",
+        "Integration with origination systems and credit providers"
+      ],
+      "use_cases": [
+        {
+          "persona": "lender-broker",
+          "job": "Stop chasing borrower documents manually on every file"
+        },
+        {
+          "persona": "agent-broker",
+          "job": "See loan milestone status without calling the loan officer"
+        }
+      ],
+      "personas": [
+        "lender-broker",
+        "agent-broker"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "per-seat",
+        "public_pricing": true,
+        "url": "https://floify.com/pricing"
+      },
+      "integrations": [
+        "Encompass",
+        "credit bureaus",
+        "DocuSign",
+        "Zapier"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en",
+          "es"
+        ]
+      },
+      "alternatives": [
+        "blend",
+        "encompass"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://floify.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+slug: nexudus
+name: Nexudus
+editor: Nexudus
+website: https://www.nexudus.com
+hq_country: GB
+markets: [US, FR]
+category: flex-coworking
+founded: 2012
+positioning: The configurable veteran of coworking software — if your operating model is unusual, this is the one that bends.
+description: >
+  Nexudus covers coworking and flexible workspace management: bookings, billing, CRM,
+  a white-label member portal and app, community features, access and printing integrations,
+  and a large set of configuration options and add-ons.
+real_estate_use: >
+  Flex operators rarely run the same model twice — credit systems for room hours, tiered
+  plans, franchise structures, mixed private-office and hot-desk inventory. Nexudus is
+  chosen for the depth of configuration that supports those variations, and for white
+  labelling when the operator's brand must be the only one members see.
+features:
+  - Membership, contract and recurring billing configuration
+  - White-label member portal and mobile app
+  - Meeting room booking with credit and allowance systems
+  - Access control, printing and network integrations
+  - CRM, marketing and community tools
+  - Multi-location and franchise structures
+use_cases:
+  - persona: property-manager
+    job: Model an unusual membership and credit structure without leaving the system
+  - persona: property-manager
+    job: Run a fully white-labelled member experience under the operator's own brand
+personas: [property-manager, investor-am]
+segments: [office, mixed-use]
+company_sizes: [smb, midmarket]
+pricing:
+  model: subscription
+  public_pricing: true
+  url: https://www.nexudus.com/pricing
+integrations: [Xero, QuickBooks, Stripe, Kisi, Salto, Zapier]
+product:
+  api: true
+  open_source: false
+  mobile: [ios, android]
+  languages: [en, fr, es, de]
+alternatives: [officernd, cobot, essensys]
+reviews: []
+sources: [{ url: https://www.nexudus.com, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

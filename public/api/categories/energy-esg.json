@@ -1,0 +1,729 @@
+{
+  "id": "energy-esg",
+  "label_en": "Energy, ESG & building performance",
+  "label_fr": "Énergie, ESG & performance du bâtiment",
+  "summary_en": "Meter data, carbon trajectory, regulatory reporting and retrofit planning.",
+  "summary_fr": "Données compteurs, trajectoire carbone, reporting réglementaire et plan de travaux.",
+  "count": 8,
+  "tools": [
+    {
+      "slug": "advizeo",
+      "name": "Advizeo",
+      "editor": "Advizeo by Setec",
+      "website": "https://www.advizeo.io",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "energy-esg",
+      "also_in": [
+        "facility-maintenance"
+      ],
+      "positioning": "Energy management that ends in a works order — engineering-led rather than reporting-led.",
+      "description": "Advizeo, part of the Setec engineering group, provides energy monitoring and management for French buildings: meter and building management system data collection, consumption analysis and alerting, décret tertiaire declaration support, and an action plan followed through to implementation.\n",
+      "real_estate_use": "Its difference from a pure reporting platform is the engineering behind it. Detecting that a building's heating runs at weekends is only useful if someone changes the schedule. Advizeo pairs the monitoring with technical recommendations and follow-up, which suits owners who do not have an in-house energy engineer.\n",
+      "features": [
+        "Meter, submeter and building management system data collection",
+        "Consumption analysis with drift and anomaly alerting",
+        "Décret tertiaire declaration and OPERAT support",
+        "Technical action plans with quantified savings",
+        "Works and measure follow-up over time",
+        "Multi-site portfolio dashboards"
+      ],
+      "use_cases": [
+        {
+          "persona": "facility-manager",
+          "job": "Detect and correct consumption drift instead of only reporting it"
+        },
+        {
+          "persona": "corporate-re",
+          "job": "Meet décret tertiaire obligations with a costed action plan behind the declaration"
+        }
+      ],
+      "personas": [
+        "facility-manager",
+        "corporate-re",
+        "property-manager",
+        "investor-am"
+      ],
+      "segments": [
+        "office",
+        "retail",
+        "industrial",
+        "healthcare-senior",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "building management systems",
+        "energy providers",
+        "OPERAT"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "deepki",
+        "ubigreen",
+        "measurabl"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.advizeo.io",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "deepki",
+      "name": "Deepki",
+      "editor": "Deepki",
+      "website": "https://www.deepki.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR",
+        "US"
+      ],
+      "category": "energy-esg",
+      "founded": 2014,
+      "positioning": "ESG for real estate portfolios, from data collection to the CRREM trajectory an investor is judged against.",
+      "description": "Deepki collects and enriches building energy and asset data across a portfolio, benchmarks performance, produces regulatory and investor ESG reporting, and models decarbonisation pathways with the capital expenditure required to reach them.\n",
+      "real_estate_use": "European regulation makes this operational rather than reputational: the décret tertiaire requires measured consumption reductions on French tertiary buildings, and the EU taxonomy and SFDR shape what a fund must disclose. Deepki assembles the data across countries and landlord-tenant boundaries — the hardest part, since the landlord often does not hold the tenant's meter data — and turns it into the trajectory and the works plan.\n",
+      "features": [
+        "Automated collection of energy, water and asset data across a portfolio",
+        "Regulatory reporting including décret tertiaire and EU taxonomy alignment",
+        "GRESB and investor ESG reporting",
+        "CRREM and decarbonisation pathway modelling",
+        "Retrofit scenario and capital expenditure planning",
+        "Peer benchmarking across a large asset database"
+      ],
+      "use_cases": [
+        {
+          "persona": "investor-am",
+          "job": "Produce décret tertiaire and EU taxonomy reporting across a European portfolio"
+        },
+        {
+          "persona": "corporate-re",
+          "job": "Build a costed retrofit plan that puts assets on a compliant carbon trajectory"
+        }
+      ],
+      "personas": [
+        "investor-am",
+        "corporate-re",
+        "facility-manager",
+        "property-manager"
+      ],
+      "segments": [
+        "office",
+        "retail",
+        "industrial",
+        "multifamily",
+        "mixed-use",
+        "healthcare-senior"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "energy providers",
+        "Yardi",
+        "MRI",
+        "building management systems"
+      ],
+      "ai": {
+        "capabilities": [
+          "Automated data enrichment and gap filling",
+          "Consumption anomaly detection"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr",
+          "en",
+          "es",
+          "de",
+          "it"
+        ]
+      },
+      "alternatives": [
+        "measurabl",
+        "advizeo",
+        "ubigreen"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.deepki.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "energystar-portfolio-manager",
+      "name": "ENERGY STAR Portfolio Manager",
+      "editor": "US Environmental Protection Agency",
+      "website": "https://www.energystar.gov/buildings/benchmark",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "energy-esg",
+      "founded": 1999,
+      "positioning": "The free federal benchmarking tool that most US disclosure ordinances are written around.",
+      "description": "Portfolio Manager is a free online tool from the EPA for tracking energy and water use, waste and emissions in buildings. It produces the 1-to-100 ENERGY STAR score, supports certification applications, and is the submission format required by most US city and state benchmarking laws.\n",
+      "real_estate_use": "When a city ordinance requires annual energy disclosure, it almost always means uploading to Portfolio Manager. Owners therefore use it whether or not they have a commercial energy platform — and the commercial platforms exist in part to feed it automatically. The ENERGY STAR score itself is used as a marketing claim in leasing.\n",
+      "features": [
+        "Free energy, water, waste and emissions tracking",
+        "ENERGY STAR 1-to-100 score and certification application",
+        "Automated data exchange with utilities and service providers",
+        "Compliance reporting for city and state benchmarking laws",
+        "Portfolio-level comparison and target setting",
+        "Public web services API"
+      ],
+      "use_cases": [
+        {
+          "persona": "corporate-re",
+          "job": "Meet a city benchmarking ordinance at no software cost"
+        },
+        {
+          "persona": "investor-am",
+          "job": "Obtain an ENERGY STAR score usable as a leasing and disclosure argument"
+        }
+      ],
+      "personas": [
+        "corporate-re",
+        "investor-am",
+        "facility-manager",
+        "property-manager"
+      ],
+      "segments": [
+        "office",
+        "retail",
+        "industrial",
+        "multifamily",
+        "healthcare-senior"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "free",
+        "public_pricing": true,
+        "url": "https://www.energystar.gov/buildings/benchmark"
+      },
+      "integrations": [
+        "utility data exchange",
+        "Measurabl",
+        "WatchWire",
+        "Yardi"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "measurabl",
+        "watchwire"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.energystar.gov/buildings/benchmark",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "measurabl",
+      "name": "Measurabl",
+      "editor": "Measurabl",
+      "website": "https://www.measurabl.com",
+      "hq_country": "US",
+      "markets": [
+        "US",
+        "FR"
+      ],
+      "category": "energy-esg",
+      "founded": 2013,
+      "positioning": "ESG data for real estate assets, structured for the investor questionnaire that has to be answered every year.",
+      "description": "Measurabl collects utility and building data, calculates emissions and performance metrics, and produces the disclosures real estate investors are asked for — GRESB, CDP, investor reporting — with physical climate risk scoring and decarbonisation pathway modelling on top.\n",
+      "real_estate_use": "A fund's ESG reporting cycle used to mean chasing utility bills across dozens of assets every spring. Measurabl automates the collection, standardises the metrics across countries and unit systems, and generates the submission. The second use is capital planning: modelling which retrofits move an asset off a stranding trajectory before a regulation or a buyer forces the issue.\n",
+      "features": [
+        "Automated utility data collection and normalisation",
+        "Emissions accounting across scopes with portfolio roll-up",
+        "GRESB, CDP and investor disclosure reporting",
+        "Physical climate risk scoring per asset",
+        "Decarbonisation pathway and stranding risk modelling",
+        "Capital planning for energy retrofits"
+      ],
+      "use_cases": [
+        {
+          "persona": "investor-am",
+          "job": "Produce a GRESB submission without chasing utility bills across the portfolio"
+        },
+        {
+          "persona": "corporate-re",
+          "job": "Identify which assets are on a stranding trajectory and what fixes them"
+        }
+      ],
+      "personas": [
+        "investor-am",
+        "corporate-re",
+        "facility-manager"
+      ],
+      "segments": [
+        "office",
+        "retail",
+        "industrial",
+        "multifamily",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Yardi",
+        "MRI",
+        "utility providers",
+        "GRESB"
+      ],
+      "ai": {
+        "capabilities": [
+          "Utility bill data extraction",
+          "Consumption anomaly detection"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en",
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "watchwire",
+        "energystar-portfolio-manager"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.measurabl.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "spinalcom",
+      "name": "SpinalCom",
+      "editor": "SpinalCom",
+      "website": "https://www.spinalcom.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "tenant-experience",
+      "also_in": [
+        "facility-maintenance",
+        "energy-esg"
+      ],
+      "positioning": "A building operating system — the layer that makes twenty proprietary building systems queryable as one digital twin.",
+      "description": "SpinalCom publishes a building operating system that aggregates data from heterogeneous building systems — HVAC, lighting, access, metering, BIM models — into a semantic digital twin, exposed through APIs so applications can be built on top rather than integrated one by one.\n",
+      "real_estate_use": "A smart building project usually stalls on the same wall: every subsystem speaks a different protocol and belongs to a different contractor. Placing an operating system between the equipment and the applications means the tenant app, the energy dashboard and the maintenance tool all read the same model of the building, and replacing a supplier does not break everything above it.\n",
+      "features": [
+        "Aggregation of heterogeneous building systems and protocols",
+        "Semantic digital twin linked to the BIM model",
+        "Open APIs for third-party applications",
+        "Real-time supervision and equipment monitoring",
+        "Data historisation for energy and operations analytics",
+        "Vendor-independent architecture"
+      ],
+      "use_cases": [
+        {
+          "persona": "facility-manager",
+          "job": "Read every building subsystem through one model instead of twenty interfaces"
+        },
+        {
+          "persona": "corporate-re",
+          "job": "Build tenant and energy applications on a twin that outlives a supplier change"
+        }
+      ],
+      "personas": [
+        "facility-manager",
+        "corporate-re",
+        "investor-am",
+        "developer-builder"
+      ],
+      "segments": [
+        "office",
+        "healthcare-senior",
+        "mixed-use",
+        "industrial"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "BACnet",
+        "Modbus",
+        "KNX",
+        "BIM models",
+        "IoT platforms"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr",
+          "en"
+        ]
+      },
+      "alternatives": [
+        "wattsense",
+        "witco"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.spinalcom.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "ubigreen",
+      "name": "Ubigreen",
+      "editor": "Ubigreen",
+      "website": "https://www.ubigreen.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "energy-esg",
+      "also_in": [
+        "tenant-experience"
+      ],
+      "positioning": "Energy and space usage measured together — because an empty floor that is still heated is both problems at once.",
+      "description": "Ubigreen provides French building operators with energy performance monitoring, regulatory declaration support, and workplace occupancy measurement, combining consumption data with presence and space-use data in one platform.\n",
+      "real_estate_use": "Since hybrid work, the two questions arrived together: how much energy does this building use, and how much of it is actually occupied. Measuring both allows the decision that follows — consolidating occupancy onto fewer floors and shutting down the rest, which moves consumption far more than any equipment upgrade.\n",
+      "features": [
+        "Energy consumption monitoring across multi-site portfolios",
+        "Décret tertiaire and OPERAT declaration support",
+        "Workplace occupancy and space utilisation measurement",
+        "Comfort and indoor environment monitoring",
+        "Alerting on consumption drift and equipment faults",
+        "Reporting for occupants and management"
+      ],
+      "use_cases": [
+        {
+          "persona": "corporate-re",
+          "job": "Consolidate occupancy onto fewer floors and shut down the energy on the rest"
+        },
+        {
+          "persona": "facility-manager",
+          "job": "Declare regulated consumption and track the effect of measures taken"
+        }
+      ],
+      "personas": [
+        "corporate-re",
+        "facility-manager",
+        "property-manager"
+      ],
+      "segments": [
+        "office",
+        "retail",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "building management systems",
+        "occupancy sensors",
+        "OPERAT"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr",
+          "en"
+        ]
+      },
+      "alternatives": [
+        "deepki",
+        "advizeo",
+        "witco"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.ubigreen.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "watchwire",
+      "name": "WatchWire",
+      "editor": "WatchWire",
+      "website": "https://watchwire.ai",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "energy-esg",
+      "positioning": "Energy and sustainability data management for portfolios where the utility bill itself is the problem.",
+      "description": "WatchWire aggregates utility invoices, interval meter data and weather data to produce energy analytics, bill validation, budgeting and forecasting, benchmarking submissions and sustainability reporting for commercial portfolios.\n",
+      "real_estate_use": "Large portfolios lose money to billing errors and to demand charges nobody notices. WatchWire validates invoices against tariffs and consumption, flags anomalies, and produces the benchmarking submissions that US local ordinances now require — the New York and other city disclosure laws being the practical driver for many buyers.\n",
+      "features": [
+        "Utility bill capture, validation and exception flagging",
+        "Interval meter and weather-normalised analytics",
+        "Energy budgeting and forecasting",
+        "Local benchmarking ordinance and ENERGY STAR submissions",
+        "Emissions accounting and sustainability reporting",
+        "Portfolio and asset-level dashboards"
+      ],
+      "use_cases": [
+        {
+          "persona": "facility-manager",
+          "job": "Catch utility billing errors and demand charge anomalies before payment"
+        },
+        {
+          "persona": "corporate-re",
+          "job": "Meet city benchmarking disclosure obligations across a portfolio"
+        }
+      ],
+      "personas": [
+        "facility-manager",
+        "corporate-re",
+        "investor-am"
+      ],
+      "segments": [
+        "office",
+        "retail",
+        "industrial",
+        "multifamily"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "ENERGY STAR Portfolio Manager",
+        "utility providers",
+        "Yardi",
+        "MRI"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "measurabl",
+        "energystar-portfolio-manager"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://watchwire.ai",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "wattsense",
+      "name": "Wattsense",
+      "editor": "Wattsense",
+      "website": "https://www.wattsense.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR",
+        "US"
+      ],
+      "category": "tenant-experience",
+      "also_in": [
+        "energy-esg",
+        "facility-maintenance"
+      ],
+      "positioning": "Plug-in connectivity for buildings too small to justify a full BMS integration project.",
+      "description": "Wattsense provides a hardware and cloud solution that connects a building's existing equipment — boilers, HVAC, meters, controllers — across multiple protocols and exposes the data and control points through a single cloud API, without a bespoke integration project.\n",
+      "real_estate_use": "Most of a commercial portfolio is not headquarters buildings. Mid-sized assets have some automation, no standardisation, and no budget for a systems integrator per site. Wattsense targets exactly that middle: a box on site, protocols handled, data and control available remotely — which is what makes portfolio-wide energy management feasible below the flagship tier.\n",
+      "features": [
+        "Multi-protocol connectivity to existing building equipment",
+        "Cloud API for data collection and remote control",
+        "Deployment without a bespoke integration project",
+        "Remote monitoring and alerting across sites",
+        "Data normalisation across heterogeneous equipment",
+        "Partner integrations with energy and facility platforms"
+      ],
+      "use_cases": [
+        {
+          "persona": "facility-manager",
+          "job": "Connect mid-sized buildings to remote monitoring without an integration project each"
+        },
+        {
+          "persona": "corporate-re",
+          "job": "Standardise data collection across a portfolio of heterogeneous equipment"
+        }
+      ],
+      "personas": [
+        "facility-manager",
+        "corporate-re",
+        "property-manager"
+      ],
+      "segments": [
+        "office",
+        "retail",
+        "industrial",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "integrations": [
+        "BACnet",
+        "Modbus",
+        "KNX",
+        "LonWorks",
+        "energy platforms",
+        "REST API"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr",
+          "en"
+        ]
+      },
+      "alternatives": [
+        "spinalcom",
+        "advizeo"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.wattsense.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    }
+  ]
+}

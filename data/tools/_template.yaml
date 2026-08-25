@@ -1,0 +1,66 @@
+# Gabarit d'une fiche produit. Copier, renommer en <slug>.yaml, remplir.
+# Le schéma complet et ses règles : ../SCHEMA.md
+# Vérifier avant d'ouvrir la pull request : npm run data:validate
+
+slug: my-product                    # kebab-case, doit égaler le nom du fichier
+name: My Product                    # nom commercial exact
+editor: My Company                  # société éditrice
+website: https://example.com        # page produit officielle, en https
+hq_country: FR                      # ISO 3166-1 alpha-2 du siège
+markets: [FR]                       # [US], [FR] ou [US, FR] — marchés réellement servis
+category: property-management       # UNE catégorie principale, voir ../taxonomy.yaml
+also_in: []                         # usages secondaires, facultatif
+founded: 2020                       # facultatif, seulement si certain
+
+positioning: >
+  Une phrase, 200 caractères maximum : ce que le produit revendique.
+
+description: >
+  Ce que le produit EST, factuellement. Pas la promesse marketing — celle-ci vit
+  dans `positioning`. Deux à quatre phrases.
+
+real_estate_use: >
+  LE champ qui justifie ce projet : l'usage métier en immobilier. Une situation
+  concrète, un flux de travail réel, la raison pour laquelle quelqu'un l'achète.
+  Écrire comme si on briefait un collègue, pas comme une plaquette.
+
+features:                           # au moins 3, des noms de fonctionnalités
+  - Une capacité nommée, pas un adjectif
+  - Une deuxième
+  - Une troisième
+
+use_cases:                          # au moins 1
+  - persona: property-manager       # doit exister dans ../taxonomy.yaml
+    job: La tâche réelle pour laquelle on embauche le produit
+
+personas: [property-manager]        # à qui ça s'adresse
+segments: [residential]             # classes d'actifs couvertes
+company_sizes: [smb]                # taille de structure visée
+
+pricing:
+  model: subscription               # voir pricing_models dans ../taxonomy.yaml
+  public_pricing: true              # les tarifs sont-ils publiés ?
+  url: https://example.com/pricing  # facultatif
+  # Ne mettre un montant que s'il est sourcé et daté. Les prix bougent ;
+  # une fiche sans montant vaut mieux qu'une fiche avec un montant faux.
+
+integrations: []                    # facultatif
+ai:                                 # facultatif — seulement si l'IA est réelle
+  capabilities: []
+product:                            # facultatif
+  api: false
+  open_source: false
+  mobile: []
+  languages: [fr]
+
+alternatives: []                    # slugs de concurrents PRÉSENTS au catalogue
+
+reviews: []                         # voir ../SCHEMA.md — jamais d'avis inventé.
+                                    # Uniquement un agrégat public, sourcé et daté.
+
+sources:
+  - url: https://example.com
+    note: site éditeur
+
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-01-01"               # YYYY-MM-DD, entre guillemets

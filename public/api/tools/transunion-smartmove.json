@@ -1,0 +1,80 @@
+{
+  "slug": "transunion-smartmove",
+  "name": "TransUnion SmartMove",
+  "editor": "TransUnion",
+  "website": "https://www.mysmartmove.com",
+  "hq_country": "US",
+  "markets": [
+    "US"
+  ],
+  "category": "tenant-screening",
+  "founded": 2010,
+  "positioning": "Bureau-grade tenant screening sold directly to landlords, without a business credentialling process.",
+  "description": "SmartMove is TransUnion's screening product for individual landlords: a credit report built for rental decisions, criminal background search, eviction history and an income insights option, delivered without the on-site inspection normally required to access consumer credit data.\n",
+  "real_estate_use": "Getting bureau data as a small landlord is the friction point — a credit reporting agency will not normally credential someone with three units. SmartMove solves it by having the applicant authorise and pay, which also keeps the landlord clear of FCRA obligations around handling and disposing of consumer reports.\n",
+  "features": [
+    "Rental-specific credit report with a resident score",
+    "National criminal background search",
+    "Eviction history search",
+    "Income insights based on credit data",
+    "Applicant-authorised and applicant-paid flow",
+    "No landlord credentialling or site inspection required"
+  ],
+  "use_cases": [
+    {
+      "persona": "landlord-owner",
+      "job": "Obtain a real credit and eviction check without being credentialled by a bureau"
+    },
+    {
+      "persona": "property-manager",
+      "job": "Standardise screening criteria across applicants for fair housing consistency"
+    }
+  ],
+  "personas": [
+    "landlord-owner",
+    "property-manager",
+    "agent-broker"
+  ],
+  "segments": [
+    "residential"
+  ],
+  "company_sizes": [
+    "solo",
+    "smb"
+  ],
+  "pricing": {
+    "model": "usage",
+    "public_pricing": true,
+    "url": "https://www.mysmartmove.com/pricing"
+  },
+  "integrations": [
+    "TurboTenant",
+    "Avail",
+    "several property management platforms"
+  ],
+  "product": {
+    "api": true,
+    "open_source": false,
+    "mobile": [],
+    "languages": [
+      "en"
+    ]
+  },
+  "alternatives": [
+    "rentspree",
+    "snappt"
+  ],
+  "reviews": [],
+  "sources": [
+    {
+      "url": "https://www.mysmartmove.com",
+      "note": "site éditeur"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-25"
+}

@@ -1,0 +1,47 @@
+slug: ubigreen
+name: Ubigreen
+editor: Ubigreen
+website: https://www.ubigreen.com
+hq_country: FR
+markets: [FR]
+category: energy-esg
+also_in: [tenant-experience]
+positioning: Energy and space usage measured together — because an empty floor that is still heated is both problems at once.
+description: >
+  Ubigreen provides French building operators with energy performance monitoring, regulatory
+  declaration support, and workplace occupancy measurement, combining consumption data with
+  presence and space-use data in one platform.
+real_estate_use: >
+  Since hybrid work, the two questions arrived together: how much energy does this building
+  use, and how much of it is actually occupied. Measuring both allows the decision that
+  follows — consolidating occupancy onto fewer floors and shutting down the rest, which
+  moves consumption far more than any equipment upgrade.
+features:
+  - Energy consumption monitoring across multi-site portfolios
+  - Décret tertiaire and OPERAT declaration support
+  - Workplace occupancy and space utilisation measurement
+  - Comfort and indoor environment monitoring
+  - Alerting on consumption drift and equipment faults
+  - Reporting for occupants and management
+use_cases:
+  - persona: corporate-re
+    job: Consolidate occupancy onto fewer floors and shut down the energy on the rest
+  - persona: facility-manager
+    job: Declare regulated consumption and track the effect of measures taken
+personas: [corporate-re, facility-manager, property-manager]
+segments: [office, retail, mixed-use]
+company_sizes: [midmarket, enterprise]
+pricing:
+  model: quote
+  public_pricing: false
+integrations: [building management systems, occupancy sensors, OPERAT]
+product:
+  api: true
+  open_source: false
+  mobile: [ios, android]
+  languages: [fr, en]
+alternatives: [deepki, advizeo, witco]
+reviews: []
+sources: [{ url: https://www.ubigreen.com, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

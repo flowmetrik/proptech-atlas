@@ -1,0 +1,93 @@
+{
+  "slug": "seloger",
+  "name": "SeLoger",
+  "editor": "Aviv Group (Axel Springer)",
+  "website": "https://www.seloger.com",
+  "hq_country": "FR",
+  "markets": [
+    "FR"
+  ],
+  "category": "portals-marketplaces",
+  "also_in": [
+    "crm-lead"
+  ],
+  "founded": 1992,
+  "positioning": "The historic French professional portal — where agencies pay to be seen, and where most French property searches still begin.",
+  "description": "SeLoger is a French property portal for sale and rental listings, historically restricted to professionals and now part of Aviv Group alongside Logic-Immo and MeilleursAgents. It sells agencies listing packs, visibility options and lead products, with new-build programme sections for developers.\n",
+  "real_estate_use": "For a French agency the SeLoger subscription is usually the largest single marketing line, and its renewal is an annual argument: the agency compares the leads it produced against Leboncoin's cheaper volume and its own website. Because the portal is professional-only, the listings carry mandate information, which is why buyers use it differently from the classified sites.\n",
+  "features": [
+    "Professional sale and rental listings across France",
+    "Agency listing packs and visibility boosting options",
+    "Lead delivery to agency software and CRMs",
+    "New-build programme sections for developers",
+    "Agency profile pages and branding",
+    "Audience and performance reporting per listing"
+  ],
+  "use_cases": [
+    {
+      "persona": "brokerage",
+      "job": "Buy portal visibility for a mandate portfolio and measure the leads it returns"
+    },
+    {
+      "persona": "developer-builder",
+      "job": "Market a new-build programme to French buyers on a dedicated section"
+    }
+  ],
+  "personas": [
+    "brokerage",
+    "agent-broker",
+    "developer-builder",
+    "tenant-occupier"
+  ],
+  "segments": [
+    "residential",
+    "mixed-use",
+    "office"
+  ],
+  "company_sizes": [
+    "solo",
+    "smb",
+    "midmarket",
+    "enterprise"
+  ],
+  "pricing": {
+    "model": "subscription",
+    "public_pricing": false
+  },
+  "integrations": [
+    "Hektor",
+    "Netty",
+    "Apimo",
+    "Ubiflow",
+    "Poliris"
+  ],
+  "product": {
+    "api": true,
+    "open_source": false,
+    "mobile": [
+      "ios",
+      "android"
+    ],
+    "languages": [
+      "fr"
+    ]
+  },
+  "alternatives": [
+    "leboncoin-immobilier",
+    "bien-ici",
+    "pap"
+  ],
+  "reviews": [],
+  "sources": [
+    {
+      "url": "https://www.seloger.com",
+      "note": "site éditeur"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-25"
+}

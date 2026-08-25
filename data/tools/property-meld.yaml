@@ -1,0 +1,51 @@
+slug: property-meld
+name: Property Meld
+editor: Property Meld
+website: https://propertymeld.com
+hq_country: US
+markets: [US]
+category: facility-maintenance
+also_in: [property-management]
+founded: 2014
+positioning: Residential maintenance coordination as its own discipline — because it is where property managers lose their margin and their reputation.
+description: >
+  Property Meld handles the maintenance workflow for residential property management:
+  tenant request intake with triage, vendor scheduling and coordination, communication
+  across all parties, and analytics on speed and cost per repair.
+real_estate_use: >
+  In residential management, maintenance is the largest source of complaints and the biggest
+  drain on staff time — mostly spent as phone tag between a tenant, a vendor and an owner
+  trying to agree a time. Property Meld automates the scheduling coordination, and its
+  metrics — median speed to resolution, cost per unit — are the ones managers now report to
+  owners.
+features:
+  - Tenant maintenance request intake with guided triage
+  - Automated vendor and tenant scheduling coordination
+  - Owner approval workflows for repairs above a threshold
+  - Vendor performance and cost analytics
+  - Communication log across tenant, vendor and owner
+  - Speed-to-resolution and cost-per-unit reporting
+use_cases:
+  - persona: property-manager
+    job: Eliminate phone tag between tenant, vendor and owner on every repair
+  - persona: landlord-owner
+    job: Approve repairs above a threshold with the evidence in front of you
+personas: [property-manager, landlord-owner]
+segments: [residential, multifamily]
+company_sizes: [smb, midmarket]
+pricing:
+  model: per-unit
+  public_pricing: false
+integrations: [AppFolio, Buildium, Rent Manager, Propertyware, Yardi]
+ai:
+  capabilities: [Request triage and diagnosis assistance]
+product:
+  api: true
+  open_source: false
+  mobile: [ios, android]
+  languages: [en]
+alternatives: [upkeep, hemlane]
+reviews: []
+sources: [{ url: https://propertymeld.com, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

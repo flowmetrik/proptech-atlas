@@ -1,0 +1,47 @@
+slug: immofacile
+name: Immofacile
+editor: Immofacile
+website: https://www.immofacile.fr
+hq_country: FR
+markets: [FR]
+category: crm-lead
+also_in: [transaction-management, property-management]
+positioning: A French agency package sold module by module, so a small agency buys only the trade it practises.
+description: >
+  Immofacile provides French real estate professionals with transaction software, rental
+  management and syndic modules, portal publishing, agency websites and document management,
+  packaged so an agency subscribes only to the activities it holds.
+real_estate_use: >
+  Small French agencies rarely practise all three regulated activities, and paying for a full
+  administration suite to run transaction alone is a common source of overspend. Modular
+  pricing is the practical argument here, with the option to add gérance later without
+  migrating the client and property records.
+features:
+  - Modular transaction, rental and syndic activities
+  - Mandate management and buyer matching
+  - Portal publishing and agency website
+  - Owner and tenant document management
+  - Electronic signature integration
+  - Accounting for the modules subscribed
+use_cases:
+  - persona: brokerage
+    job: Subscribe only to the regulated activities the agency actually practises
+  - persona: agent-broker
+    job: Add rental management later without migrating existing records
+personas: [agent-broker, brokerage, property-manager]
+segments: [residential, mixed-use]
+company_sizes: [solo, smb]
+pricing:
+  model: subscription
+  public_pricing: false
+integrations: [SeLoger, Leboncoin, Bien'ici, electronic signature]
+product:
+  api: false
+  open_source: false
+  mobile: [ios, android]
+  languages: [fr]
+alternatives: [hektor, netty, adapt-immo, lockimmo]
+reviews: []
+sources: [{ url: https://www.immofacile.fr, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

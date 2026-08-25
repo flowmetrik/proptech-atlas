@@ -1,0 +1,46 @@
+slug: inot
+name: iNot
+editor: ADNOV (groupe ADSN)
+website: https://www.adnov.fr
+hq_country: FR
+markets: [FR]
+category: title-closing-legal
+positioning: The notarial software published from inside the profession's own technical body.
+description: >
+  iNot is a suite for French notarial offices published by ADNOV, the technology subsidiary
+  of the notariat's own infrastructure group: deed and file production, office management,
+  accounting, and connection to the profession's shared services and registers.
+real_estate_use: >
+  Its distinguishing characteristic is proximity to the profession's central infrastructure —
+  the registers, the secure exchange network and the electronic authentic deed. For an office,
+  that means the chain from drafting to registration stays within one technical ecosystem
+  rather than crossing vendor boundaries at each step.
+features:
+  - Notarial deed and file production
+  - Office and client management
+  - Notarial accounting and client funds handling
+  - Connection to the profession's shared registers and services
+  - Electronic authentic deed workflows
+  - Secure inter-office exchange
+use_cases:
+  - persona: legal-notary
+    job: Produce and register deeds inside the profession's own technical ecosystem
+  - persona: legal-notary
+    job: Exchange files securely with other offices on a shared transaction
+personas: [legal-notary]
+segments: [residential, office, retail, land-development]
+company_sizes: [solo, smb, midmarket]
+pricing:
+  model: quote
+  public_pricing: false
+integrations: [notarial registers, secure profession network, banking]
+product:
+  api: true
+  open_source: false
+  mobile: []
+  languages: [fr]
+alternatives: [genapi]
+reviews: []
+sources: [{ url: https://www.adnov.fr, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

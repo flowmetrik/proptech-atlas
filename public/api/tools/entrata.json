@@ -1,0 +1,96 @@
+{
+  "slug": "entrata",
+  "name": "Entrata",
+  "editor": "Entrata",
+  "website": "https://www.entrata.com",
+  "hq_country": "US",
+  "markets": [
+    "US"
+  ],
+  "category": "property-management",
+  "also_in": [
+    "back-office-accounting",
+    "ai-assistants"
+  ],
+  "founded": 2003,
+  "positioning": "A single-stack multifamily operating system — the accounting ledger and the leasing website are the same product, not an integration.",
+  "description": "Entrata is a multifamily-focused platform combining property accounting, leasing and marketing websites, resident portals, utility billing, insurance, revenue management and an AI leasing agent. Its architectural claim is one database behind every module rather than a suite assembled by acquisition.\n",
+  "real_estate_use": "Large apartment operators use it to run a lease-up and a stabilised asset on the same ledger. A prospect finds the community site, is answered by the AI leasing agent at midnight, tours, applies and signs — and the rent, concessions and renewal pricing all post to the same accounting without a nightly file transfer between systems.\n",
+  "features": [
+    "Property accounting and general ledger for multifamily",
+    "Marketing websites and ILS syndication per community",
+    "AI leasing agent handling prospect enquiries and tour scheduling",
+    "Resident portal with payments, renewals and service requests",
+    "Revenue management and pricing optimisation",
+    "Utility billing, insurance and ancillary revenue modules"
+  ],
+  "use_cases": [
+    {
+      "persona": "property-manager",
+      "job": "Operate a large apartment portfolio with leasing, pricing and accounting on one database"
+    },
+    {
+      "persona": "investor-am",
+      "job": "Compare asset performance across a portfolio without reconciling systems"
+    }
+  ],
+  "personas": [
+    "property-manager",
+    "investor-am",
+    "landlord-owner"
+  ],
+  "segments": [
+    "multifamily",
+    "coliving-student",
+    "residential"
+  ],
+  "company_sizes": [
+    "midmarket",
+    "enterprise"
+  ],
+  "pricing": {
+    "model": "quote",
+    "public_pricing": false
+  },
+  "integrations": [
+    "Apartments.com",
+    "Zillow Rentals",
+    "screening bureaus",
+    "accounting exports"
+  ],
+  "ai": {
+    "capabilities": [
+      "AI leasing agent for enquiries and tours",
+      "Renewal pricing recommendations"
+    ]
+  },
+  "product": {
+    "api": true,
+    "open_source": false,
+    "mobile": [
+      "ios",
+      "android"
+    ],
+    "languages": [
+      "en"
+    ]
+  },
+  "alternatives": [
+    "realpage",
+    "yardi-voyager",
+    "appfolio"
+  ],
+  "reviews": [],
+  "sources": [
+    {
+      "url": "https://www.entrata.com",
+      "note": "site éditeur"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-25"
+}

@@ -1,0 +1,90 @@
+{
+  "slug": "modelo",
+  "name": "Modelo",
+  "editor": "Septeo",
+  "website": "https://www.modelo.fr",
+  "hq_country": "FR",
+  "markets": [
+    "FR"
+  ],
+  "category": "title-closing-legal",
+  "also_in": [
+    "transaction-management",
+    "property-management"
+  ],
+  "positioning": "French real estate legal drafting kept current with the law — mandates, leases and offers generated rather than copied from an old file.",
+  "description": "Modelo produces legal documents for French real estate professionals: mandates, purchase offers, compromis, leases and their annexes, generated from a clause library maintained against current legislation, with electronic signature and file management.\n",
+  "real_estate_use": "French real estate law changes often enough that the biggest documentary risk in an agency is the template someone saved in 2019. Modelo's proposition is that the clause library is maintained centrally: when a legal obligation changes, the generated document changes, and the agency does not have to notice.\n",
+  "features": [
+    "Legally maintained clause library for French real estate documents",
+    "Mandate, offer, compromis and lease generation",
+    "Annex assembly including mandatory disclosures",
+    "Electronic signature integration",
+    "Document file management per transaction",
+    "Updates tracking legislative change"
+  ],
+  "use_cases": [
+    {
+      "persona": "agent-broker",
+      "job": "Produce a mandate or compromis that reflects the law as it stands today"
+    },
+    {
+      "persona": "property-manager",
+      "job": "Generate leases and annexes with the current mandatory disclosures attached"
+    }
+  ],
+  "personas": [
+    "agent-broker",
+    "brokerage",
+    "property-manager",
+    "syndic-manager",
+    "legal-notary"
+  ],
+  "segments": [
+    "residential",
+    "office",
+    "retail",
+    "mixed-use"
+  ],
+  "company_sizes": [
+    "solo",
+    "smb",
+    "midmarket",
+    "enterprise"
+  ],
+  "pricing": {
+    "model": "subscription",
+    "public_pricing": false
+  },
+  "integrations": [
+    "Crypto",
+    "Gercop",
+    "Hektor",
+    "Yousign"
+  ],
+  "product": {
+    "api": true,
+    "open_source": false,
+    "mobile": [],
+    "languages": [
+      "fr"
+    ]
+  },
+  "alternatives": [
+    "yousign",
+    "crypto-septeo"
+  ],
+  "reviews": [],
+  "sources": [
+    {
+      "url": "https://www.modelo.fr",
+      "note": "site éditeur"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-25"
+}

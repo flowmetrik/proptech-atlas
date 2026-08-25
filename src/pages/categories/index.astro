@@ -1,0 +1,29 @@
+---
+import Base from '../../layouts/Base.astro';
+import { taxonomy, toolsInCategory, url, counts } from '../../lib/catalog';
+---
+<Base title="Categories" description={`The ${counts.categories} categories of real estate software covered by PropTech Atlas, from CRM to ESG reporting.`}>
+  <section class="wrap section">
+    <h1>Categories</h1>
+    <p class="lede">
+      The taxonomy is the opinionated part of this project. It is organised by the job to be
+      done in real estate, not by the vendor's own marketing category — which is why a
+      "platform" appears in one primary category and several secondary ones.
+    </p>
+    <div class="grid grid-2" style="margin-top:32px">
+      {taxonomy.categories.map((c) => {
+        const n = toolsInCategory(c.id);
+        return (
+          <a class="card" href={url(`categories/${c.id}`)} style="padding:22px">
+            <div style="display:flex;align-items:baseline;gap:10px">
+              <h3 style="margin:0;flex:1">{c.label_en}</h3>
+              <span class="badge">{n.length}</span>
+            </div>
+            <p class="muted" style="margin:8px 0 12px;font-size:0.9375rem">{c.summary_en}</p>
+            <p class="mono muted" style="margin:0;font-size:0.75rem">{c.label_fr}</p>
+          </a>
+        );
+      })}
+    </div>
+  </section>
+</Base>

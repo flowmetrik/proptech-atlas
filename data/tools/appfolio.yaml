@@ -1,0 +1,54 @@
+slug: appfolio
+name: AppFolio Property Manager
+editor: AppFolio
+website: https://www.appfolio.com
+hq_country: US
+markets: [US]
+category: property-management
+also_in: [back-office-accounting, ai-assistants]
+founded: 2006
+positioning: The mid-market property management system that made cloud-native and mobile-first the default expectation.
+description: >
+  AppFolio is an all-in-one property management platform covering residential, commercial,
+  student and community association portfolios: marketing and leasing, applicant screening,
+  online payments, maintenance, full trust accounting and owner reporting, with AI features
+  branded Realm.
+real_estate_use: >
+  A management company running a few thousand units uses it as the system of record for the
+  whole operation. A vacancy is syndicated to the rental portals, an applicant is screened
+  and signs a lease online, rent arrives by ACH, a maintenance request from the tenant app
+  becomes a work order to a vendor, and the owner receives a statement generated from the
+  same ledger. The differentiator in practice is that the accounting is genuinely built in,
+  not bolted on.
+features:
+  - Vacancy marketing with syndication to rental portals
+  - Online applications, screening and lease e-signature
+  - Online rent collection and utility billing
+  - Maintenance work orders with vendor management and a 24/7 call answering option
+  - Full trust accounting, owner statements and 1099 handling
+  - Resident and owner portals with mobile apps
+use_cases:
+  - persona: property-manager
+    job: Run leasing, rent, maintenance and owner accounting for thousands of units in one ledger
+  - persona: landlord-owner
+    job: Receive an owner statement generated from the actual accounting rather than a spreadsheet
+personas: [property-manager, landlord-owner, syndic-manager]
+segments: [residential, multifamily, coliving-student, office, retail]
+company_sizes: [smb, midmarket, enterprise]
+pricing:
+  model: per-unit
+  public_pricing: true
+  url: https://www.appfolio.com/pricing
+integrations: [Apartments.com, Zillow Rentals, HappyCo, Conservice, REST API]
+ai:
+  capabilities: [Leasing assistant answering prospect enquiries, Maintenance triage, Automated statement narratives]
+product:
+  api: true
+  open_source: false
+  mobile: [ios, android]
+  languages: [en]
+alternatives: [buildium, entrata, rentmanager, yardi-breeze]
+reviews: []
+sources: [{ url: https://www.appfolio.com, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

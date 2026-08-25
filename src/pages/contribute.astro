@@ -1,0 +1,74 @@
+---
+import Base from '../layouts/Base.astro';
+import { REPO, url } from '../lib/catalog';
+---
+<Base title="Contribute" description="Add a product, correct a fiche, or record a verified review — everything happens through a pull request on GitHub.">
+  <section class="wrap-narrow section prose">
+    <h1>Contribute</h1>
+    <p class="lede">
+      No account to create here, because there is no account system. Everything is a file in a
+      public repository, and every change is a pull request anyone can read.
+    </p>
+
+    <h2>Add a product</h2>
+    <p>
+      Copy <span class="mono">data/tools/_template.yaml</span>, fill it in, name it after the
+      slug, open a pull request. The validator runs on the PR and tells you exactly what is
+      missing.
+    </p>
+    <pre><code>{`git clone https://github.com/flowmetrik/proptech-atlas
+cd proptech-atlas && npm install
+cp data/tools/_template.yaml data/tools/my-product.yaml
+$EDITOR data/tools/my-product.yaml
+npm run data:validate`}</code></pre>
+
+    <h2>Correct a fiche</h2>
+    <p>
+      Every product page links to its own YAML file and to a one-click edit form. If something
+      is wrong — a feature that no longer exists, a vendor that got acquired, a market we got
+      wrong — change the line and explain the change in the PR description.
+    </p>
+
+    <h2>Record a verified review</h2>
+    <p>
+      This is the contribution with the strictest rule. You are not writing a testimonial: you
+      are reporting an aggregate that is publicly visible today, with the URL and the date you
+      read it.
+    </p>
+    <pre><code>{`reviews:
+  - source: G2
+    url: https://www.g2.com/products/example/reviews
+    rating: 4.4
+    scale: 5
+    count: 812
+    sampled_on: 2026-08-25`}</code></pre>
+    <div class="callout">
+      <strong>A pull request that adds a rating without a source URL and a sampling date will be
+      rejected.</strong> Not as a formality — an unsourced number is indistinguishable from an
+      invented one, and the whole point of this dataset is that a machine can trust it.
+    </div>
+
+    <h2>What makes a good fiche</h2>
+    <ul>
+      <li><strong>Write the <span class="mono">real_estate_use</span> field like you are briefing a colleague.</strong> Concrete situation, real workflow. This is the field the project exists for.</li>
+      <li><strong>Features are nouns, not adjectives.</strong> "Trust accounting with per-property ledgers", not "powerful and intuitive".</li>
+      <li><strong>Do not copy the vendor's homepage.</strong> Paraphrase, and say what the product is rather than what it promises.</li>
+      <li><strong>One primary category.</strong> If it genuinely spans more, use <span class="mono">also_in</span>.</li>
+      <li><strong>Leave a field out rather than guessing.</strong> Especially prices, which move.</li>
+    </ul>
+
+    <h2>If you are a vendor</h2>
+    <p>
+      You are welcome to submit and to correct your own entry — say so in the pull request.
+      What you cannot do is remove a competitor, add a rating, or turn the description into
+      marketing copy. If you think an entry is unfair, open an issue: it gets marked
+      <span class="mono">disputed</span> and looked at in public.
+    </p>
+
+    <p style="display:flex;gap:12px;flex-wrap:wrap">
+      <a class="btn" href={`${REPO}/issues/new/choose`} rel="noopener">Open an issue</a>
+      <a class="btn btn-ghost" href={`${REPO}/blob/main/CONTRIBUTING.md`} rel="noopener">Full contributing guide</a>
+      <a class="btn btn-ghost" href={url('api')}>API reference</a>
+    </p>
+  </section>
+</Base>

@@ -1,0 +1,51 @@
+slug: docusign
+name: Docusign
+editor: Docusign
+website: https://www.docusign.com
+hq_country: US
+markets: [US, FR]
+category: title-closing-legal
+also_in: [transaction-management]
+founded: 2003
+positioning: The e-signature the US real estate transaction standardised on, now extended into contract lifecycle management.
+description: >
+  Docusign provides electronic signature, document generation, contract lifecycle management
+  and notarisation. In real estate it is distributed both directly and through
+  association-branded editions bundled with transaction platforms.
+real_estate_use: >
+  In the United States, the purchase agreement, addenda and disclosures are almost always
+  signed here, often from inside dotloop, SkySlope or a forms platform rather than from
+  Docusign's own interface. On the commercial side, contract lifecycle management is used
+  for lease negotiation and clause approval across a portfolio.
+features:
+  - Electronic signature with audit trail and authentication options
+  - Templates and reusable document packages
+  - Contract lifecycle management with clause libraries
+  - Remote online notarisation in supported jurisdictions
+  - Deep integration into real estate transaction platforms
+  - API and connectors across business software
+use_cases:
+  - persona: agent-broker
+    job: Get a purchase agreement and its addenda signed from inside the transaction platform
+  - persona: corporate-re
+    job: Manage lease negotiation and clause approval across a portfolio
+personas: [agent-broker, brokerage, corporate-re, legal-notary, property-manager]
+segments: [residential, office, retail, industrial]
+company_sizes: [solo, smb, midmarket, enterprise]
+pricing:
+  model: per-seat
+  public_pricing: true
+  url: https://www.docusign.com/pricing
+integrations: [dotloop, SkySlope, Lone Wolf, Salesforce, Encompass, REST API]
+ai:
+  capabilities: [Contract clause extraction and risk review]
+product:
+  api: true
+  open_source: false
+  mobile: [ios, android]
+  languages: [en, fr, de, es, ja]
+alternatives: [yousign]
+reviews: []
+sources: [{ url: https://www.docusign.com, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

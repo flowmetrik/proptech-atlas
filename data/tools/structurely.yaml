@@ -1,0 +1,51 @@
+slug: structurely
+name: Structurely
+editor: Structurely
+website: https://www.structurely.com
+hq_country: US
+markets: [US]
+category: ai-assistants
+also_in: [crm-lead]
+founded: 2016
+positioning: An AI inside sales agent for the leads an agent will never call back — the ones two months old.
+description: >
+  Structurely provides AI-driven text and voice conversation for real estate and mortgage
+  lead follow-up: it engages new and aged leads, holds a qualifying conversation over days
+  or weeks, and hands a warm, qualified contact back to a human agent.
+real_estate_use: >
+  A team buying leads accumulates thousands of contacts nobody has time to nurture. The
+  economics of an AI agent are different from a human inside sales agent: it can pursue a
+  two-year-old lead for months at no marginal cost. The product is judged on appointments
+  produced from a database the team had written off.
+features:
+  - AI text and voice conversation for new and aged leads
+  - Long-horizon nurture campaigns over weeks and months
+  - Qualification against buying timeline, financing and motivation
+  - Live handoff to a human agent when a lead is ready
+  - CRM integration writing conversation history back
+  - Appointment setting into agent calendars
+use_cases:
+  - persona: agent-broker
+    job: Resurrect a database of aged leads nobody has time to call
+  - persona: brokerage
+    job: Replace or extend a human inside sales team on lead qualification
+personas: [agent-broker, brokerage, lender-broker]
+segments: [residential]
+company_sizes: [solo, smb, midmarket]
+pricing:
+  model: subscription
+  public_pricing: true
+  url: https://www.structurely.com/pricing
+integrations: [Follow Up Boss, BoldTrail, Lofty, Salesforce, Zapier]
+ai:
+  capabilities: [Conversational lead qualification by SMS and voice, Long-horizon nurture]
+product:
+  api: true
+  open_source: false
+  mobile: []
+  languages: [en]
+alternatives: [eliseai, ylopo, follow-up-boss]
+reviews: []
+sources: [{ url: https://www.structurely.com, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

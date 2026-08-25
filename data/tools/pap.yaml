@@ -1,0 +1,48 @@
+slug: pap
+name: PAP (De Particulier à Particulier)
+editor: PAP
+website: https://www.pap.fr
+hq_country: FR
+markets: [FR]
+category: portals-marketplaces
+founded: 1975
+positioning: The private-to-private marketplace — no agencies, by design, since long before the internet.
+description: >
+  PAP publishes only listings from private individuals, excluding real estate professionals as
+  a matter of editorial policy. It provides sellers and landlords with listing tools, document
+  templates and guidance for handling a transaction or a tenancy without an agency.
+real_estate_use: >
+  Two opposite uses. For an owner it is the reference channel for selling or letting without
+  paying agency fees, with the legal templates that decision requires. For an agency it is a
+  pure pige source: every listing on PAP is by definition an owner who has chosen not to use
+  a professional, which makes it the hardest and most valuable canvassing ground in France.
+features:
+  - Private-seller and private-landlord listings only
+  - Listing publication tools for individuals
+  - Lease, notice and transaction document templates
+  - Guidance content on selling and letting without an agency
+  - Rental application handling between individuals
+  - Regional editions and search
+use_cases:
+  - persona: landlord-owner
+    job: Sell or let a property without agency fees, with the paperwork provided
+  - persona: agent-broker
+    job: Canvass owners who have explicitly chosen to go without an agency
+personas: [landlord-owner, tenant-occupier, agent-broker]
+segments: [residential]
+company_sizes: [solo]
+pricing:
+  model: usage
+  public_pricing: true
+  url: https://www.pap.fr/annonce/tarifs
+integrations: [Pige Online]
+product:
+  api: false
+  open_source: false
+  mobile: [ios, android]
+  languages: [fr]
+alternatives: [leboncoin-immobilier, seloger, bien-ici]
+reviews: []
+sources: [{ url: https://www.pap.fr, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

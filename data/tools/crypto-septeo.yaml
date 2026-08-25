@@ -1,0 +1,47 @@
+slug: crypto-septeo
+name: Crypto (Septeo Solutions Immobilier)
+editor: Septeo
+website: https://www.septeo.com/fr/solutions-immobilier
+hq_country: FR
+markets: [FR]
+category: syndic-copro
+also_in: [property-management, back-office-accounting]
+positioning: The incumbent French property administration suite — installed across a large share of professional syndic and gérance portfolios.
+description: >
+  Crypto, part of Septeo's real estate division, covers syndic, gérance and transaction for
+  French property administrators: per-building and mandant accounting, calls for funds,
+  assemblies, lease and receipt management, and extranets for co-owners, owners and tenants.
+real_estate_use: >
+  It is the system of record in many established French administration de biens firms,
+  chosen for accounting depth rather than for interface. Its centre of gravity is the
+  regulated ledger: separate accounts per copropriété, mandant funds kept distinct from the
+  firm's own money, and the reporting a comptable and an auditor expect.
+features:
+  - Syndic accounting per building with regulatory account structures
+  - Gérance with mandant accounting and owner reddition de comptes
+  - Calls for funds, budgets and assembly management
+  - Lease, receipt and indexation handling
+  - Co-owner, owner and tenant extranets
+  - Transaction module and document management
+use_cases:
+  - persona: syndic-manager
+    job: Keep regulated per-building accounts that satisfy an auditor
+  - persona: property-manager
+    job: Produce owner reddition de comptes from mandant accounting rather than a spreadsheet
+personas: [syndic-manager, property-manager, brokerage]
+segments: [residential, office, retail, mixed-use]
+company_sizes: [smb, midmarket, enterprise]
+pricing:
+  model: quote
+  public_pricing: false
+integrations: [banking, Modelo, accounting systems, Yousign]
+product:
+  api: true
+  open_source: false
+  mobile: [ios, android]
+  languages: [fr]
+alternatives: [gercop, vilogi, lockimmo]
+reviews: []
+sources: [{ url: https://www.septeo.com/fr/solutions-immobilier, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

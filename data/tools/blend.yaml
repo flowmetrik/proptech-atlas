@@ -1,0 +1,48 @@
+slug: blend
+name: Blend
+editor: Blend Labs
+website: https://blend.com
+hq_country: US
+markets: [US]
+category: lending-mortgage
+founded: 2012
+positioning: The borrower-facing front end a bank puts in front of its origination system.
+description: >
+  Blend provides digital application experiences for mortgage, home equity and consumer
+  lending: guided borrower application, automated asset, income and employment verification,
+  document collection, status tracking and loan officer tooling, integrated into the lender's
+  origination system.
+real_estate_use: >
+  The failure point in mortgage is the borrower experience: a form that asks for two years of
+  bank statements as PDFs loses applicants to a competitor. Blend replaces that with direct
+  connections to payroll and bank data, so verification happens in the application instead of
+  three weeks later, and the loan officer sees a complete file sooner.
+features:
+  - Guided digital mortgage and home equity applications
+  - Automated asset, income and employment verification
+  - Document collection with borrower status tracking
+  - Loan officer workspace and pipeline visibility
+  - Integration with origination systems and pricing engines
+  - Configurable workflows per lender product
+use_cases:
+  - persona: lender-broker
+    job: Reduce application abandonment with verified data instead of document uploads
+  - persona: lender-broker
+    job: Give borrowers a live status view instead of a phone call for every update
+personas: [lender-broker]
+segments: [residential]
+company_sizes: [midmarket, enterprise]
+pricing:
+  model: quote
+  public_pricing: false
+integrations: [Encompass, core banking systems, payroll and bank data providers]
+product:
+  api: true
+  open_source: false
+  mobile: [ios, android]
+  languages: [en, es]
+alternatives: [encompass, floify]
+reviews: []
+sources: [{ url: https://blend.com, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

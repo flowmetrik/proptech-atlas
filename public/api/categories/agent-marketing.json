@@ -1,0 +1,1262 @@
+{
+  "id": "agent-marketing",
+  "label_en": "Agent websites & marketing",
+  "label_fr": "Sites d'agence & marketing immobilier",
+  "summary_en": "Websites, IDX search, branding and campaigns for agents and brokerages.",
+  "summary_fr": "Sites, recherche IDX, marque et campagnes pour agents et agences.",
+  "count": 14,
+  "tools": [
+    {
+      "slug": "adapt-immo",
+      "name": "Adapt Immo",
+      "editor": "Adapt Immo",
+      "website": "https://www.adaptimmo.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "crm-lead",
+      "also_in": [
+        "transaction-management",
+        "agent-marketing"
+      ],
+      "positioning": "A long-established French agency suite covering transaction, rental management and the agency website.",
+      "description": "Adapt Immo provides French agencies with transaction software, rental management, websites and portal publishing, sold as an integrated suite with training and support aimed at independent agencies and small networks.\n",
+      "real_estate_use": "Many French agencies run transaction and gérance side by side under the same carte professionnelle. Keeping both in one suite avoids the duplicate owner and property records that appear when an agency buys a sales tool and a separate rental tool — a recurring source of error at the point where a managed property goes up for sale.\n",
+      "features": [
+        "Transaction management with mandates and matching",
+        "Rental management with leases, receipts and owner accounts",
+        "Agency website and portal publishing",
+        "Prospecting and pige modules",
+        "Electronic signature integration",
+        "Document and legal file management"
+      ],
+      "use_cases": [
+        {
+          "persona": "brokerage",
+          "job": "Run transaction and rental management on shared owner and property records"
+        },
+        {
+          "persona": "agent-broker",
+          "job": "Publish mandates to portals and the agency site from one catalogue"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage",
+        "property-manager"
+      ],
+      "segments": [
+        "residential",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "integrations": [
+        "SeLoger",
+        "Leboncoin",
+        "Bien'ici",
+        "Yousign"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "hektor",
+        "netty",
+        "apimo",
+        "lockimmo"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.adaptimmo.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "agentfire",
+      "name": "AgentFire",
+      "editor": "AgentFire",
+      "website": "https://agentfire.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "agent-marketing",
+      "founded": 2012,
+      "positioning": "Hyperlocal agent websites — built to rank on the neighbourhood, not on the city.",
+      "description": "AgentFire builds WordPress-based agent and team websites with IDX search, and a large library of add-ons aimed at local authority content: neighbourhood guides, market reports, area pages, lead magnets and semantic SEO structures.\n",
+      "real_estate_use": "Competing for \"homes for sale in Austin\" is hopeless against the portals; competing for a specific neighbourhood is not. AgentFire's content structures exist for that strategy — an agent builds authoritative pages per area, and the site is designed to capture the long-tail searches those pages attract.\n",
+      "features": [
+        "WordPress-based agent and team websites with IDX",
+        "Neighbourhood and area guide page structures",
+        "Market report and lead magnet modules",
+        "Semantic SEO structures for local authority",
+        "Custom design tiers and branding",
+        "CRM integration and lead routing"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Rank on neighbourhood-level searches the portals do not dominate"
+        },
+        {
+          "persona": "brokerage",
+          "job": "Publish area content that keeps producing leads years later"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://agentfire.com/pricing"
+      },
+      "integrations": [
+        "MLS IDX feeds",
+        "Follow Up Boss",
+        "Zapier",
+        "Google Analytics"
+      ],
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "luxury-presence",
+        "realgeeks",
+        "sierra-interactive"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://agentfire.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "amenitiz",
+      "name": "Amenitiz",
+      "editor": "Amenitiz",
+      "website": "https://www.amenitiz.io",
+      "hq_country": "ES",
+      "markets": [
+        "FR"
+      ],
+      "category": "short-term-rental",
+      "also_in": [
+        "agent-marketing"
+      ],
+      "founded": 2017,
+      "positioning": "An all-in-one property management system for independent hospitality — the small hotel, the gîte, the chambre d'hôtes.",
+      "description": "Amenitiz combines a property management system, a website builder with a direct booking engine, a channel manager, payment processing and revenue tools, aimed at independent accommodation providers rather than at professional rental managers.\n",
+      "real_estate_use": "The independent French hospitality operator — a guesthouse, a small hotel, a set of gîtes — typically has no website of its own and depends entirely on commissioned platforms. Amenitiz packages the site, the booking engine and the channel connections in one subscription, which is why it reaches operators who would never buy three separate tools.\n",
+      "features": [
+        "Property management system for small accommodation",
+        "Website builder with direct booking engine",
+        "Channel manager across major booking platforms",
+        "Payment processing and deposit handling",
+        "Rate and availability management",
+        "Guest communication and review handling"
+      ],
+      "use_cases": [
+        {
+          "persona": "landlord-owner",
+          "job": "Get a bookable website and channel connections without assembling a stack"
+        },
+        {
+          "persona": "property-manager",
+          "job": "Manage rates and availability for a small property across every channel"
+        }
+      ],
+      "personas": [
+        "landlord-owner",
+        "property-manager"
+      ],
+      "segments": [
+        "hospitality",
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Booking.com",
+        "Airbnb",
+        "Expedia",
+        "Stripe"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr",
+          "en",
+          "es",
+          "it"
+        ]
+      },
+      "alternatives": [
+        "smily",
+        "lodgify",
+        "guesty"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.amenitiz.io",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "boldtrail",
+      "name": "BoldTrail",
+      "editor": "Inside Real Estate",
+      "website": "https://insiderealestate.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "crm-lead",
+      "also_in": [
+        "agent-marketing",
+        "back-office-accounting"
+      ],
+      "founded": 2013,
+      "positioning": "The brokerage-scale platform that grew out of kvCORE — websites, CRM, recruiting and back office under one roof.",
+      "description": "BoldTrail is Inside Real Estate's platform, the successor branding to kvCORE. It is sold at brokerage and enterprise level and spans agent websites, a CRM with automated campaigns, listing marketing, recruiting and retention tooling, and — through BoldTrail BackOffice (the former Brokermint) — commission and transaction accounting.\n",
+      "real_estate_use": "A multi-office brokerage standardises its agents on one system: each agent gets a branded IDX site and CRM seat, the brokerage keeps ownership of the lead database, and leadership sees production, recruiting pipeline and commission splits in the same tool. It is chosen for the consolidation rather than for any single best-in-class module.\n",
+      "features": [
+        "Agent, team and brokerage IDX websites with lead capture",
+        "CRM with behavioural automation and mass texting",
+        "Listing marketing kits and social ad automation",
+        "Recruiting and retention module with agent production data",
+        "BackOffice for commission plans, disbursement and brokerage accounting",
+        "Marketplace of add-ons for ads, video and lead sources"
+      ],
+      "use_cases": [
+        {
+          "persona": "brokerage",
+          "job": "Give 500 agents a website and CRM without losing brokerage ownership of the data"
+        },
+        {
+          "persona": "brokerage",
+          "job": "Track recruiting targets against real production numbers pulled from the MLS"
+        }
+      ],
+      "personas": [
+        "brokerage",
+        "agent-broker"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "MLS IDX feeds",
+        "dotloop",
+        "SkySlope",
+        "Zapier",
+        "QuickBooks"
+      ],
+      "ai": {
+        "capabilities": [
+          "AI content assistant for listing and campaign copy",
+          "Behavioural lead scoring"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "lofty",
+        "sierra-interactive",
+        "boomtown",
+        "follow-up-boss"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://insiderealestate.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "cloudcma",
+      "name": "Cloud CMA",
+      "editor": "Lone Wolf Technologies",
+      "website": "https://cloudcma.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "estimation-pricing",
+      "also_in": [
+        "agent-marketing"
+      ],
+      "founded": 2010,
+      "positioning": "The listing presentation an agent brings to the kitchen table, generated from the MLS in minutes.",
+      "description": "Cloud CMA builds comparative market analyses, buyer tours, property reports and listing presentations from MLS data. Its Live version turns the CMA into an interactive presentation shown on screen during the appointment, and Homebeat sends the owner an automatic valuation refresh over time.\n",
+      "real_estate_use": "Winning a listing is a persuasion problem, and the CMA is the artefact that does the persuading. The agent pulls comparables from the MLS, adjusts them, and produces a branded document that justifies a price the seller may not want to hear. Homebeat then keeps the relationship alive by mailing an updated valuation every quarter.\n",
+      "features": [
+        "Automated CMA generation from MLS comparables",
+        "Cloud CMA Live interactive listing presentation",
+        "Homebeat recurring valuation emails to past clients",
+        "Buyer tour and property report formats",
+        "Customisable branded templates and pages",
+        "Lead capture from shared reports"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Produce a defensible pricing presentation from MLS comparables in minutes"
+        },
+        {
+          "persona": "agent-broker",
+          "job": "Stay in front of past sellers with an automatic quarterly valuation email"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://cloudcma.com/pricing"
+      },
+      "integrations": [
+        "MLS systems",
+        "Lone Wolf Transactions",
+        "Follow Up Boss"
+      ],
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://cloudcma.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "hektor",
+      "name": "Hektor",
+      "editor": "La Boîte Immo",
+      "website": "https://www.laboiteimmo.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "crm-lead",
+      "also_in": [
+        "transaction-management",
+        "agent-marketing"
+      ],
+      "founded": 2006,
+      "positioning": "One of the reference transaction systems for French agencies — mandate, matching, portal publishing and website in a single subscription.",
+      "description": "Hektor is La Boîte Immo's real estate software for French agencies and networks: property and contact records, mandate management, automated buyer matching, portal publishing, electronic signature, and an agency website generated from the same catalogue.\n",
+      "real_estate_use": "A French agency's daily cycle runs on the mandate. Hektor holds the signed mandate and its legal mentions, matches each new listing against registered buyer criteria and sends the alert, publishes to the portals the agency subscribes to, and feeds the agency site. The reason it is bought as a suite is that in France the website and the portal feed are the same catalogue.\n",
+      "features": [
+        "Property and mandate management with French legal mentions",
+        "Buyer criteria matching with automatic alerts",
+        "Multi-portal publishing from one catalogue",
+        "Agency website generated from the same listings",
+        "Electronic signature on mandates and offers",
+        "Pige and prospecting modules"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Match a new mandate against registered buyers and alert them the same day"
+        },
+        {
+          "persona": "brokerage",
+          "job": "Run listings, portal feeds and the agency website from one catalogue"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage"
+      ],
+      "segments": [
+        "residential",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "integrations": [
+        "SeLoger",
+        "Leboncoin",
+        "Bien'ici",
+        "Yousign",
+        "Ubiflow"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "netty",
+        "apimo",
+        "adapt-immo",
+        "lockimmo"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.laboiteimmo.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "lodgify",
+      "name": "Lodgify",
+      "editor": "Lodgify",
+      "website": "https://www.lodgify.com",
+      "hq_country": "ES",
+      "markets": [
+        "US",
+        "FR"
+      ],
+      "category": "short-term-rental",
+      "also_in": [
+        "agent-marketing"
+      ],
+      "founded": 2012,
+      "positioning": "A vacation rental website and booking engine first, with channel management attached.",
+      "description": "Lodgify provides vacation rental owners and small managers with a website builder and direct booking engine, channel manager synchronising with major platforms, reservation and calendar management, payment processing and automated guest messaging.\n",
+      "real_estate_use": "For an owner with two or three holiday properties, the practical question is whether to pay fifteen percent commission forever. Lodgify's proposition is a bookable site they own, with the channels kept as a fill mechanism — a different emphasis from the professional systems, which assume channels are the primary demand source.\n",
+      "features": [
+        "Website builder with direct booking engine",
+        "Channel manager across major booking platforms",
+        "Calendar, rate and reservation management",
+        "Payment processing and damage deposits",
+        "Automated guest messaging and templates",
+        "Owner and property performance reporting"
+      ],
+      "use_cases": [
+        {
+          "persona": "landlord-owner",
+          "job": "Take direct bookings on an owned site instead of paying commission on every stay"
+        },
+        {
+          "persona": "property-manager",
+          "job": "Synchronise calendars across platforms for a small set of properties"
+        }
+      ],
+      "personas": [
+        "landlord-owner",
+        "property-manager"
+      ],
+      "segments": [
+        "hospitality",
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://www.lodgify.com/pricing"
+      },
+      "integrations": [
+        "Airbnb",
+        "Booking.com",
+        "Vrbo",
+        "Stripe",
+        "PriceLabs"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en",
+          "fr",
+          "es",
+          "de",
+          "it"
+        ]
+      },
+      "alternatives": [
+        "smily",
+        "amenitiz",
+        "hostaway",
+        "ownerrez"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.lodgify.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "lofty",
+      "name": "Lofty",
+      "editor": "Lofty (formerly Chime Technologies)",
+      "website": "https://lofty.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "crm-lead",
+      "also_in": [
+        "agent-marketing",
+        "ai-assistants"
+      ],
+      "founded": 2016,
+      "positioning": "An all-in-one platform where the IDX website, the ad spend and the CRM are the same product, so a click is tracked to a closing.",
+      "description": "Lofty bundles an IDX website, lead-generation advertising, CRM, dialer, email and SMS marketing, and transaction tracking into one subscription. Renamed from Chime in 2023. Sold mostly to teams and brokerages that want a single vendor rather than a stack.\n",
+      "real_estate_use": "A team buys traffic through Lofty's ad management, the visitor lands on a Lofty IDX site, their property searches are recorded against their CRM record, and an AI assistant opens the conversation by text. The differentiator in daily use is behavioural triggering — the agent is alerted when a contact revisits a listing or saves a search, not on a calendar timer.\n",
+      "features": [
+        "IDX website with agent, team and brokerage templates",
+        "Behavioural lead alerts driven by on-site property search activity",
+        "AI assistant that texts and qualifies inbound leads",
+        "Built-in dialer, SMS and drip email campaigns",
+        "Facebook and Google ad management with lead attribution",
+        "Smart plans and transaction pipeline"
+      ],
+      "use_cases": [
+        {
+          "persona": "brokerage",
+          "job": "Run lead generation, nurture and site under one vendor with one attribution report"
+        },
+        {
+          "persona": "agent-broker",
+          "job": "Get alerted the moment a past lead resumes searching and re-engage the same day"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "per-seat",
+        "public_pricing": false,
+        "url": "https://lofty.com/pricing"
+      },
+      "integrations": [
+        "Zapier",
+        "Google Ads",
+        "Meta Ads",
+        "Zillow",
+        "MLS IDX feeds"
+      ],
+      "ai": {
+        "capabilities": [
+          "Conversational lead qualification by SMS",
+          "Behavioural intent scoring",
+          "Listing description drafting"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "boldtrail",
+        "sierra-interactive",
+        "realgeeks",
+        "follow-up-boss"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://lofty.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "luxury-presence",
+      "name": "Luxury Presence",
+      "editor": "Luxury Presence",
+      "website": "https://www.luxurypresence.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "agent-marketing",
+      "founded": 2016,
+      "positioning": "Design-led websites for agents whose brand is the product — the high end of the agent site market.",
+      "description": "Luxury Presence builds and hosts agent, team and brokerage websites with IDX search, designed as brand properties rather than lead-capture funnels, alongside content, SEO, advertising and CRM tooling.\n",
+      "real_estate_use": "At the top of the market, a listing presentation is partly a credibility exercise: a seller with a seven-figure property judges the agent by the quality of their digital presence. Luxury Presence sells to that argument — design and editorial quality first, lead volume second — which distinguishes it from the IDX-plus-CRM platforms sold on cost per lead.\n",
+      "features": [
+        "Designed agent, team and brokerage websites",
+        "IDX property search integration",
+        "Listing microsites for individual properties",
+        "SEO, content and social media services",
+        "Paid advertising management",
+        "CRM and lead management tooling"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Win high-end listings with a digital presence that matches the property"
+        },
+        {
+          "persona": "brokerage",
+          "job": "Give a team consistent branded sites without an agency per agent"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage"
+      ],
+      "segments": [
+        "residential",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "integrations": [
+        "MLS IDX feeds",
+        "Follow Up Boss",
+        "Google Analytics"
+      ],
+      "ai": {
+        "capabilities": [
+          "Content and listing copy generation"
+        ]
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "agentfire",
+        "realgeeks",
+        "sierra-interactive"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.luxurypresence.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "netty",
+      "name": "Netty",
+      "editor": "Netty",
+      "website": "https://www.netty.fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "crm-lead",
+      "also_in": [
+        "transaction-management",
+        "agent-marketing"
+      ],
+      "positioning": "Software and website sold as one product, with the agency site treated as a lead-generation asset rather than a brochure.",
+      "description": "Netty provides French agencies with transaction software — listings, contacts, mandates, matching, portal publishing — combined with a website builder, SEO tooling, electronic signature and rental management modules.\n",
+      "real_estate_use": "Independent French agencies compete with national networks whose brand carries the online traffic. Netty's positioning answers that: the agency site is built for local search visibility, and every enquiry it produces lands in the same system as the mandate and the portal leads, so an independent can measure whether its own site is out-earning its portal subscriptions.\n",
+      "features": [
+        "Transaction management with mandates and matching",
+        "Agency website with SEO structures and lead capture",
+        "Multi-portal publishing and feed management",
+        "Rental management and lease modules",
+        "Electronic signature integration",
+        "Prospecting and pige tooling"
+      ],
+      "use_cases": [
+        {
+          "persona": "brokerage",
+          "job": "Measure whether the agency's own website out-earns its portal subscriptions"
+        },
+        {
+          "persona": "agent-broker",
+          "job": "Publish a new mandate to every portal and the agency site in one action"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage"
+      ],
+      "segments": [
+        "residential",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "integrations": [
+        "SeLoger",
+        "Leboncoin",
+        "Bien'ici",
+        "Yousign"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "hektor",
+        "apimo",
+        "adapt-immo",
+        "immofacile"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.netty.fr",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "poliris",
+      "name": "Poliris",
+      "editor": "Poliris",
+      "website": "https://www.poliris.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "listing-syndication",
+      "also_in": [
+        "crm-lead",
+        "agent-marketing"
+      ],
+      "positioning": "Software, website and distribution from one French vendor, with a long history in portal feed management.",
+      "description": "Poliris supplies French agencies with transaction software, agency websites and listing distribution to portals, historically as one of the main feed operators in the French market.\n",
+      "real_estate_use": "Its practical value to an agency is the same as Ubiflow's — one catalogue, many destinations — with the software and the site included rather than integrated. Agencies that do not want to assemble a stack from three vendors buy the whole chain here and accept the trade-off of less choice at each layer.\n",
+      "features": [
+        "Multi-portal listing distribution",
+        "Transaction software with listings and contacts",
+        "Agency website generation",
+        "Lead consolidation across channels",
+        "Media and format handling per portal",
+        "Reporting on publication and lead volume"
+      ],
+      "use_cases": [
+        {
+          "persona": "brokerage",
+          "job": "Buy software, website and portal distribution from a single vendor"
+        },
+        {
+          "persona": "agent-broker",
+          "job": "Keep one catalogue as the source for every published channel"
+        }
+      ],
+      "personas": [
+        "brokerage",
+        "agent-broker"
+      ],
+      "segments": [
+        "residential",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "integrations": [
+        "SeLoger",
+        "Leboncoin",
+        "Bien'ici",
+        "agency software feeds"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "ubiflow",
+        "netty",
+        "hektor"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.poliris.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "realgeeks",
+      "name": "Real Geeks",
+      "editor": "Real Geeks (Fidelity National Financial)",
+      "website": "https://www.realgeeks.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "agent-marketing",
+      "also_in": [
+        "crm-lead"
+      ],
+      "founded": 2007,
+      "positioning": "An affordable IDX site and CRM pairing aimed at the individual agent and the small team.",
+      "description": "Real Geeks provides IDX websites, lead capture, a CRM with automated follow-up, and Facebook and Google ad management as a managed service. It sits at a lower price point than the brokerage platforms and is commonly the first real system an agent buys after outgrowing spreadsheets.\n",
+      "real_estate_use": "A solo agent or a two-to-five person team replaces a brochure website with a searchable IDX site, runs a small monthly ad budget through Real Geeks' managed campaigns, and lets the CRM chase the resulting registrations with SMS autoresponders. Property valuation landing pages are the standard seller-lead play.\n",
+      "features": [
+        "IDX website with map search and forced registration options",
+        "CRM with lead assignment, SMS autoresponders and drip campaigns",
+        "Property valuation seller-lead landing pages",
+        "Managed Facebook and Google ad campaigns",
+        "Market report emails triggered by saved searches",
+        "Agent and team accountability dashboard"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Turn a small monthly ad budget into registered buyer and seller leads"
+        },
+        {
+          "persona": "agent-broker",
+          "job": "Capture seller leads through home valuation pages and nurture them for months"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://www.realgeeks.com/pricing"
+      },
+      "integrations": [
+        "MLS IDX feeds",
+        "Zapier",
+        "Facebook Ads",
+        "Google Ads"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "sierra-interactive",
+        "lofty",
+        "boldtrail"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.realgeeks.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "sierra-interactive",
+      "name": "Sierra Interactive",
+      "editor": "Sierra Interactive",
+      "website": "https://www.sierrainteractive.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "crm-lead",
+      "also_in": [
+        "agent-marketing"
+      ],
+      "founded": 2005,
+      "positioning": "A search experience fast enough to rank, wired directly into the CRM that works the leads it produces.",
+      "description": "Sierra Interactive sells an IDX website plus CRM aimed at teams that generate their own organic and paid traffic. The product is known for site performance and SEO structure — neighbourhood and market pages built to rank — with lead routing, action plans and a dialer on the CRM side.\n",
+      "real_estate_use": "Teams that treat their website as the lead source, not as a brochure, use Sierra to build hundreds of hyperlocal landing pages, capture registrations behind listing detail, and drop the registrant straight into a routed follow-up plan. The value is measured in organic lead volume and cost per lead against portal pricing.\n",
+      "features": [
+        "High-performance IDX search with map, polygon and school filters",
+        "SEO-oriented market, neighbourhood and community page builder",
+        "CRM with lead routing, action plans and accountability reporting",
+        "Integrated dialer, SMS and email marketing",
+        "Listing and open house landing pages",
+        "PPC and lead-source attribution reporting"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Rank on hyperlocal searches and convert organic traffic into registered leads"
+        },
+        {
+          "persona": "brokerage",
+          "job": "Hold agents accountable to response time on self-generated web leads"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "per-seat",
+        "public_pricing": true,
+        "url": "https://www.sierrainteractive.com/pricing"
+      },
+      "integrations": [
+        "MLS IDX feeds",
+        "Zapier",
+        "Google Analytics",
+        "BombBomb"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "realgeeks",
+        "lofty",
+        "boldtrail",
+        "follow-up-boss"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.sierrainteractive.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "ylopo",
+      "name": "Ylopo",
+      "editor": "Ylopo",
+      "website": "https://www.ylopo.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "ai-assistants",
+      "also_in": [
+        "agent-marketing",
+        "crm-lead"
+      ],
+      "founded": 2016,
+      "positioning": "Advertising and AI follow-up bolted onto the CRM a team already uses, instead of replacing it.",
+      "description": "Ylopo runs paid lead generation on Google and Meta, provides branded home search sites, and layers AI text and voice follow-up on top of an existing CRM — most commonly Follow Up Boss — rather than asking a team to migrate.\n",
+      "real_estate_use": "Teams that already standardised on a CRM will not move for an ad product. Ylopo's design reflects that: it generates and nurtures, and writes everything back into the CRM of record. Its dynamic listing ads and seller-lead products are the practical draw, with AI voice follow-up handling first contact at scale.\n",
+      "features": [
+        "Managed Google and Meta advertising for buyer and seller leads",
+        "Branded home search sites with behavioural tracking",
+        "AI text and AI voice follow-up on new and aged leads",
+        "Dynamic remarketing ads featuring listings a lead viewed",
+        "Seller lead products with valuation landing pages",
+        "Write-back into an existing CRM rather than replacing it"
+      ],
+      "use_cases": [
+        {
+          "persona": "brokerage",
+          "job": "Add paid acquisition and AI follow-up without migrating off the current CRM"
+        },
+        {
+          "persona": "agent-broker",
+          "job": "Retarget past site visitors with the specific homes they looked at"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Follow Up Boss",
+        "BoldTrail",
+        "Lofty",
+        "Sierra Interactive"
+      ],
+      "ai": {
+        "capabilities": [
+          "AI text and voice lead follow-up",
+          "Behavioural retargeting"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "structurely",
+        "lofty",
+        "boldtrail"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.ylopo.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    }
+  ]
+}

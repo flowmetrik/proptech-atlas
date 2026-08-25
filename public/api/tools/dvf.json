@@ -1,0 +1,89 @@
+{
+  "slug": "dvf",
+  "name": "DVF — Demandes de valeurs foncières",
+  "editor": "DGFiP / Etalab",
+  "website": "https://app.dvf.etalab.gouv.fr",
+  "hq_country": "FR",
+  "markets": [
+    "FR"
+  ],
+  "category": "market-data",
+  "founded": 2019,
+  "positioning": "Every French property transaction of the last five years, published as open data by the tax administration — free, and the base layer under most French valuation products.",
+  "description": "DVF publishes the property transactions registered by the French tax administration: address, date, price, surface, property type and land parcel, covering most of the country and updated twice a year. It is available as bulk open data, through a public API and through a free map application.\n",
+  "real_estate_use": "It is the closest thing France has to public sale comparables. An agent checks what the flat two floors down actually sold for, an investor tests a seller's price claim, an appraiser builds a comparables table with a verifiable public source. Its limits matter as much: Alsace-Moselle and Mayotte are excluded, sales are registered several months late, and the price is the recorded transfer price, not the negotiated market story behind it.\n",
+  "features": [
+    "Registered transaction price, date, surface and property type",
+    "Coverage of most of France over a rolling five-year window",
+    "Free bulk open data download and public API",
+    "Free map application for address-level consultation",
+    "Land parcel references linking to cadastral data",
+    "Open licence permitting commercial reuse"
+  ],
+  "use_cases": [
+    {
+      "persona": "agent-broker",
+      "job": "Check what comparable properties in the building actually sold for"
+    },
+    {
+      "persona": "appraiser",
+      "job": "Build a comparables table on a source the client can verify independently"
+    }
+  ],
+  "personas": [
+    "agent-broker",
+    "appraiser",
+    "investor-am",
+    "landlord-owner",
+    "developer-builder"
+  ],
+  "segments": [
+    "residential",
+    "mixed-use",
+    "land-development",
+    "office",
+    "retail"
+  ],
+  "company_sizes": [
+    "solo",
+    "smb",
+    "midmarket",
+    "enterprise"
+  ],
+  "pricing": {
+    "model": "free",
+    "public_pricing": true,
+    "url": "https://app.dvf.etalab.gouv.fr"
+  },
+  "integrations": [
+    "public API",
+    "open data platforms",
+    "French valuation tools"
+  ],
+  "product": {
+    "api": true,
+    "open_source": true,
+    "mobile": [],
+    "languages": [
+      "fr"
+    ]
+  },
+  "alternatives": [
+    "yanport",
+    "meilleursagents",
+    "pricehubble"
+  ],
+  "reviews": [],
+  "sources": [
+    {
+      "url": "https://app.dvf.etalab.gouv.fr",
+      "note": "site éditeur"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-25"
+}

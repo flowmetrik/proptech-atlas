@@ -1,0 +1,90 @@
+{
+  "slug": "amenitiz",
+  "name": "Amenitiz",
+  "editor": "Amenitiz",
+  "website": "https://www.amenitiz.io",
+  "hq_country": "ES",
+  "markets": [
+    "FR"
+  ],
+  "category": "short-term-rental",
+  "also_in": [
+    "agent-marketing"
+  ],
+  "founded": 2017,
+  "positioning": "An all-in-one property management system for independent hospitality — the small hotel, the gîte, the chambre d'hôtes.",
+  "description": "Amenitiz combines a property management system, a website builder with a direct booking engine, a channel manager, payment processing and revenue tools, aimed at independent accommodation providers rather than at professional rental managers.\n",
+  "real_estate_use": "The independent French hospitality operator — a guesthouse, a small hotel, a set of gîtes — typically has no website of its own and depends entirely on commissioned platforms. Amenitiz packages the site, the booking engine and the channel connections in one subscription, which is why it reaches operators who would never buy three separate tools.\n",
+  "features": [
+    "Property management system for small accommodation",
+    "Website builder with direct booking engine",
+    "Channel manager across major booking platforms",
+    "Payment processing and deposit handling",
+    "Rate and availability management",
+    "Guest communication and review handling"
+  ],
+  "use_cases": [
+    {
+      "persona": "landlord-owner",
+      "job": "Get a bookable website and channel connections without assembling a stack"
+    },
+    {
+      "persona": "property-manager",
+      "job": "Manage rates and availability for a small property across every channel"
+    }
+  ],
+  "personas": [
+    "landlord-owner",
+    "property-manager"
+  ],
+  "segments": [
+    "hospitality",
+    "residential"
+  ],
+  "company_sizes": [
+    "solo",
+    "smb"
+  ],
+  "pricing": {
+    "model": "subscription",
+    "public_pricing": false
+  },
+  "integrations": [
+    "Booking.com",
+    "Airbnb",
+    "Expedia",
+    "Stripe"
+  ],
+  "product": {
+    "api": true,
+    "open_source": false,
+    "mobile": [
+      "ios",
+      "android"
+    ],
+    "languages": [
+      "fr",
+      "en",
+      "es",
+      "it"
+    ]
+  },
+  "alternatives": [
+    "smily",
+    "lodgify",
+    "guesty"
+  ],
+  "reviews": [],
+  "sources": [
+    {
+      "url": "https://www.amenitiz.io",
+      "note": "site éditeur"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-25"
+}

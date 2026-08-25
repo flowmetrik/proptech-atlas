@@ -1,0 +1,88 @@
+{
+  "slug": "reonomy",
+  "name": "Reonomy",
+  "editor": "Altus Group",
+  "website": "https://www.reonomy.com",
+  "hq_country": "US",
+  "markets": [
+    "US"
+  ],
+  "category": "market-data",
+  "also_in": [
+    "crm-lead"
+  ],
+  "founded": 2013,
+  "positioning": "Off-market prospecting — who owns this building, and how do I reach the human behind the LLC.",
+  "description": "Reonomy assembles public records, mortgage and lien filings, and contact data into a searchable database of US commercial properties, with a resolution layer that links a title-holding entity to the individuals actually behind it. Acquired by Altus Group.\n",
+  "real_estate_use": "Its use is prospecting rather than underwriting. A broker looking for listings filters a county for owners who have held an asset more than ten years with a maturing loan, then pulls a phone number for the principal — a list that would otherwise take weeks of county records work. Debt brokers run the same query against loan maturity dates.\n",
+  "features": [
+    "Ownership resolution from LLC to individual principal",
+    "Contact records including phone and email for owners",
+    "Mortgage, lien and transaction history from public records",
+    "Portfolio view of everything an owner holds nationally",
+    "Saved searches with alerts on ownership or debt changes",
+    "Property-level physical and tax detail"
+  ],
+  "use_cases": [
+    {
+      "persona": "agent-broker",
+      "job": "Build an off-market listing pipeline from long-held assets with maturing debt"
+    },
+    {
+      "persona": "lender-broker",
+      "job": "Target owners whose loans mature in the next eighteen months"
+    }
+  ],
+  "personas": [
+    "agent-broker",
+    "investor-am",
+    "lender-broker"
+  ],
+  "segments": [
+    "office",
+    "retail",
+    "industrial",
+    "multifamily",
+    "land-development"
+  ],
+  "company_sizes": [
+    "solo",
+    "smb",
+    "midmarket"
+  ],
+  "pricing": {
+    "model": "subscription",
+    "public_pricing": false
+  },
+  "integrations": [
+    "Salesforce",
+    "HubSpot",
+    "Excel"
+  ],
+  "product": {
+    "api": true,
+    "open_source": false,
+    "mobile": [],
+    "languages": [
+      "en"
+    ]
+  },
+  "alternatives": [
+    "costar",
+    "attom-data",
+    "crexi"
+  ],
+  "reviews": [],
+  "sources": [
+    {
+      "url": "https://www.reonomy.com",
+      "note": "site éditeur"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-25"
+}

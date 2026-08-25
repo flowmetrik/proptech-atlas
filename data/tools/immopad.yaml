@@ -1,0 +1,49 @@
+slug: immopad
+name: Immopad
+editor: Immopad
+website: https://www.immopad.com
+hq_country: FR
+markets: [FR]
+category: diagnostics-compliance
+also_in: [property-management, construction-development]
+founded: 2012
+positioning: Digital property inspections on tablet — état des lieux, delivery snagging and periodic visits in one app.
+description: >
+  Immopad is a French application for property inspections: entry and exit état des lieux,
+  new-build delivery snagging, periodic visits and works acceptance, captured on tablet or
+  phone with photos, signed on the spot and produced as a report.
+real_estate_use: >
+  The état des lieux is the document a deposit dispute turns on, and a paper one written in
+  ballpoint rarely survives it. Capturing room by room with dated photographs and an
+  on-the-spot signature changes the evidentiary position entirely. The same capture engine is
+  used by developers for delivery snagging, where the list of reserves has the same
+  contentious quality.
+features:
+  - Entry and exit état des lieux with photo evidence
+  - Comparison between entry and exit condition
+  - New-build delivery snagging and reserve tracking
+  - On-site signature by both parties
+  - Periodic and works acceptance visits
+  - Report generation and archiving
+use_cases:
+  - persona: property-manager
+    job: Produce an état des lieux that survives a deposit dispute
+  - persona: developer-builder
+    job: Record and track delivery reserves at handover of a new-build unit
+personas: [property-manager, landlord-owner, agent-broker, developer-builder]
+segments: [residential, office, retail, mixed-use]
+company_sizes: [solo, smb, midmarket, enterprise]
+pricing:
+  model: subscription
+  public_pricing: false
+integrations: [French agency software, document management]
+product:
+  api: true
+  open_source: false
+  mobile: [ios, android]
+  languages: [fr, en]
+alternatives: [startloc, check-and-visit]
+reviews: []
+sources: [{ url: https://www.immopad.com, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

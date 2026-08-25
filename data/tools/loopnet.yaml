@@ -1,0 +1,48 @@
+slug: loopnet
+name: LoopNet
+editor: CoStar Group
+website: https://www.loopnet.com
+hq_country: US
+markets: [US]
+category: portals-marketplaces
+founded: 1995
+positioning: The public shop window for US commercial property — where a CRE listing goes to be found by someone outside your rolodex.
+description: >
+  LoopNet is CoStar's public-facing commercial marketplace, covering office, retail,
+  industrial, multifamily and land for sale and for lease. Paid listing tiers determine
+  search placement and exposure; the underlying property records come from CoStar's research
+  operation.
+real_estate_use: >
+  A broker marketing a warehouse or a strip centre buys a listing tier to reach principals and
+  out-of-market buyers that a local network would miss. Investors use it as a screening tool
+  for asking prices and available inventory before paying for CoStar-grade data. It is a
+  marketing channel, not an underwriting source.
+features:
+  - Commercial for-sale and for-lease listings across all asset classes
+  - Tiered paid placement determining search visibility
+  - Property and demographic detail from CoStar research
+  - Lead capture and inquiry routing to the listing broker
+  - Portfolio and auction marketing options
+  - Broker and firm profile pages
+use_cases:
+  - persona: agent-broker
+    job: Expose a commercial listing beyond the local broker network to national buyers
+  - persona: investor-am
+    job: Screen available inventory and asking prices in a target market
+personas: [agent-broker, investor-am, corporate-re]
+segments: [office, retail, industrial, multifamily, land-development]
+company_sizes: [solo, smb, midmarket, enterprise]
+pricing:
+  model: subscription
+  public_pricing: false
+integrations: [CoStar, Apartments.com network]
+product:
+  api: true
+  open_source: false
+  mobile: [ios, android]
+  languages: [en]
+alternatives: [crexi, costar]
+reviews: []
+sources: [{ url: https://www.loopnet.com, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

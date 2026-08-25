@@ -1,0 +1,89 @@
+{
+  "slug": "yuman",
+  "name": "Yuman",
+  "editor": "Yuman",
+  "website": "https://www.yuman.io",
+  "hq_country": "FR",
+  "markets": [
+    "FR"
+  ],
+  "category": "facility-maintenance",
+  "positioning": "A modern French CMMS built mobile-first for technicians in the field.",
+  "description": "Yuman is a French maintenance management SaaS covering equipment records, preventive maintenance plans, work orders, technician scheduling and route planning, mobile field reporting, spare parts, quotes and invoicing.\n",
+  "real_estate_use": "Its buyers are maintenance companies and technical services teams working across many sites, where the daily constraint is routing technicians efficiently and capturing what they did. The field application works offline in plant rooms and basements — a mundane requirement that decides whether the data exists at all.\n",
+  "features": [
+    "Equipment and site registry with maintenance history",
+    "Preventive maintenance plans and automatic work order generation",
+    "Technician scheduling with route optimisation",
+    "Offline-capable mobile field reporting",
+    "Spare parts and stock management",
+    "Quotes, invoicing and contract profitability tracking"
+  ],
+  "use_cases": [
+    {
+      "persona": "facility-manager",
+      "job": "Schedule and route technicians across many sites and capture work offline"
+    },
+    {
+      "persona": "property-manager",
+      "job": "Keep a per-equipment maintenance history that supports replacement decisions"
+    }
+  ],
+  "personas": [
+    "facility-manager",
+    "property-manager",
+    "corporate-re"
+  ],
+  "segments": [
+    "office",
+    "retail",
+    "industrial",
+    "residential",
+    "healthcare-senior"
+  ],
+  "company_sizes": [
+    "smb",
+    "midmarket"
+  ],
+  "pricing": {
+    "model": "per-seat",
+    "public_pricing": true,
+    "url": "https://www.yuman.io/tarifs"
+  },
+  "integrations": [
+    "accounting software",
+    "REST API",
+    "Zapier"
+  ],
+  "product": {
+    "api": true,
+    "open_source": false,
+    "mobile": [
+      "ios",
+      "android"
+    ],
+    "languages": [
+      "fr",
+      "en",
+      "es"
+    ]
+  },
+  "alternatives": [
+    "twimm",
+    "bob-desk",
+    "limble"
+  ],
+  "reviews": [],
+  "sources": [
+    {
+      "url": "https://www.yuman.io",
+      "note": "site éditeur"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-25"
+}

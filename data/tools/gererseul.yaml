@@ -1,0 +1,47 @@
+slug: gererseul
+name: Gererseul
+editor: Gererseul
+website: https://www.gererseul.com
+hq_country: FR
+markets: [FR]
+category: property-management
+positioning: Software for the landlord who has decided not to hire an agency — and needs the paperwork to be right anyway.
+description: >
+  Gererseul provides French private landlords with lease creation, rent call and receipt
+  generation, payment and arrears tracking, charge regularisation, indexation, and document
+  templates for the standard events of a tenancy.
+real_estate_use: >
+  Self-management fails on the events, not on the routine: the annual IRL indexation letter,
+  the charge regularisation, the notice given in the correct form and delay. Gererseul's
+  value is the template and the calendar around those moments, so a landlord does not
+  discover a procedural defect at the tribunal.
+features:
+  - Lease creation with the applicable French regime
+  - Rent calls, receipts and payment tracking
+  - IRL indexation calculation and notification letters
+  - Charge regularisation from actual expenses
+  - Arrears reminders and formal notice templates
+  - Document library for tenancy events
+use_cases:
+  - persona: landlord-owner
+    job: Apply the annual IRL indexation correctly and in the right form
+  - persona: landlord-owner
+    job: Regularise charges against actual expenses at the end of the year
+personas: [landlord-owner]
+segments: [residential]
+company_sizes: [solo, smb]
+pricing:
+  model: subscription
+  public_pricing: true
+  url: https://www.gererseul.com/tarifs
+integrations: [electronic signature, banking imports]
+product:
+  api: false
+  open_source: false
+  mobile: []
+  languages: [fr]
+alternatives: [rentila, smartloc, ownily]
+reviews: []
+sources: [{ url: https://www.gererseul.com, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

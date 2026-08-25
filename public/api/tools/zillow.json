@@ -1,0 +1,98 @@
+{
+  "slug": "zillow",
+  "name": "Zillow",
+  "editor": "Zillow Group",
+  "website": "https://www.zillow.com",
+  "hq_country": "US",
+  "markets": [
+    "US"
+  ],
+  "category": "portals-marketplaces",
+  "also_in": [
+    "estimation-pricing",
+    "crm-lead"
+  ],
+  "founded": 2006,
+  "positioning": "The consumer entry point to US residential real estate, and therefore the largest paid lead channel for agents.",
+  "description": "Zillow is a consumer property portal carrying for-sale, for-rent and off-market inventory, the Zestimate automated valuation, and a set of professional products — Premier Agent advertising, Zillow Showcase listing enhancement, rental listing syndication and a mortgage marketplace.\n",
+  "real_estate_use": "For an agent, Zillow is rarely a listing tool and almost always an acquisition channel: buyer leads are sold by ZIP code share of voice through Premier Agent, and a seller conversation frequently starts from a Zestimate the owner has already seen. For a landlord, the rentals network is a primary source of applicants. Its data is also the reference point clients bring to a pricing meeting.\n",
+  "features": [
+    "Consumer for-sale, for-rent and off-market property search",
+    "Zestimate automated valuation on most US homes",
+    "Premier Agent advertising sold by ZIP code",
+    "Zillow Showcase enhanced listing presentation",
+    "Rental listing syndication and application handling",
+    "Agent finder and review profiles"
+  ],
+  "use_cases": [
+    {
+      "persona": "agent-broker",
+      "job": "Buy buyer-side leads in a target ZIP code and measure cost per closing"
+    },
+    {
+      "persona": "landlord-owner",
+      "job": "Advertise a rental unit and collect applications from a national audience"
+    }
+  ],
+  "personas": [
+    "agent-broker",
+    "brokerage",
+    "landlord-owner",
+    "tenant-occupier"
+  ],
+  "segments": [
+    "residential",
+    "multifamily"
+  ],
+  "company_sizes": [
+    "solo",
+    "smb",
+    "midmarket",
+    "enterprise"
+  ],
+  "pricing": {
+    "model": "usage",
+    "public_pricing": false
+  },
+  "integrations": [
+    "Follow Up Boss",
+    "dotloop",
+    "MLS feeds",
+    "major CRMs"
+  ],
+  "ai": {
+    "capabilities": [
+      "Zestimate valuation model",
+      "Natural language property search"
+    ]
+  },
+  "product": {
+    "api": true,
+    "open_source": false,
+    "mobile": [
+      "ios",
+      "android"
+    ],
+    "languages": [
+      "en"
+    ]
+  },
+  "alternatives": [
+    "realtor-com",
+    "homes-com",
+    "apartments-com"
+  ],
+  "reviews": [],
+  "sources": [
+    {
+      "url": "https://www.zillow.com",
+      "note": "site éditeur"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-25"
+}

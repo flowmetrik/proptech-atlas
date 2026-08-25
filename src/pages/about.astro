@@ -1,0 +1,87 @@
+---
+import Base from '../layouts/Base.astro';
+import { url, counts, REPO } from '../lib/catalog';
+---
+<Base title="About" description="Why an open Product Knowledge Graph for real estate software, how it is built, and what it refuses to do.">
+  <section class="wrap-narrow section prose">
+    <h1>About</h1>
+    <p class="lede">
+      PropTech Atlas is an open catalogue of the software the real estate industry runs on, in
+      the United States and in France. {counts.tools} products, {counts.categories} categories,
+      one YAML file each, in public.
+    </p>
+
+    <h2>Why</h2>
+    <p>
+      Choosing software in real estate is unusually hard. The market is fragmented by country,
+      by trade and by asset class: a tool that is the obvious answer for a US multifamily
+      operator is irrelevant to a French <em>syndic de copropriété</em>, and neither shows up in
+      the other's search results. The vendors' own comparison pages are marketing. The review
+      sites optimise for lead generation.
+    </p>
+    <p>
+      There is now a second reason. AI assistants recommend software, and they do it from
+      whatever text they can find. Unstructured marketing copy produces confident, wrong
+      answers — a product placed in the wrong country, a feature attributed to the wrong tier,
+      a category invented on the spot. Structured, sourced, openly licensed facts are the fix.
+    </p>
+
+    <h2>What a Product Knowledge Graph means here</h2>
+    <p>
+      Not a directory. Every product is described along the same axes, and those axes are
+      linked: product → vendor, product → category, product → persona, product → asset class,
+      product → market, product → alternative. That is what makes a question like
+      <em>"what does a 400-lot French condominium manager use for calls for funds"</em>
+      answerable by a machine rather than by a search engine.
+    </p>
+    <ul>
+      <li><strong>Description and positioning</strong> — kept apart on purpose.</li>
+      <li><strong>Features and use cases</strong> — named capabilities, and the job each persona hires the product to do.</li>
+      <li><strong>Customers and segments</strong> — trade, asset class, company size, market.</li>
+      <li><strong>Verified reviews</strong> — dated aggregates from public platforms, with the URL sampled.</li>
+      <li><strong>Product metadata</strong> — pricing model, integrations, API, mobile, open source, HQ, founding year.</li>
+    </ul>
+
+    <h2>What this project refuses to do</h2>
+    <div class="callout">
+      <p style="margin:0 0 10px"><strong>No invented reviews, ever.</strong> A rating that nobody
+      gave is a fabrication, however plausible it looks. Empty is honest; a made-up 4.5 is not.
+      Reviews are only ever a report of a public aggregate, with its source and the date it was
+      read.</p>
+      <p style="margin:0 0 10px"><strong>No hidden ranking.</strong> There is no paid placement
+      and no "top 10". Order is alphabetical or by an explicit sort you chose.</p>
+      <p style="margin:0"><strong>No pretending to certainty.</strong> Entries seeded at launch
+      are marked <span class="mono">unverified</span> and say so on their own page. Verification
+      means a human opened the sources and dated the check.</p>
+    </div>
+
+    <h2>How it is built</h2>
+    <p>
+      One YAML file per product under <span class="mono">data/tools/</span>, a taxonomy in
+      <span class="mono">data/taxonomy.yaml</span>, and a validator that refuses anything
+      off-schema. From those files the build generates this site, a static JSON API, the
+      knowledge graph, an <span class="mono">llms.txt</span> and a Markdown catalogue readable
+      straight on GitHub. There is no database, no admin panel and no login — the repository
+      <em>is</em> the product.
+    </p>
+
+    <h2>Who is behind it</h2>
+    <p>
+      Published by <a href="https://flowmetrik.com" rel="noopener">Flowmetrik</a>, an AI agency
+      operating through sector subsidiaries — FlowImmo covers real estate data and services.
+      This is a side project, released as open data because a catalogue that only one company
+      can read is worth less than one everybody can correct.
+    </p>
+
+    <h2>Licence and trademarks</h2>
+    <p>
+      Data is <a href="https://creativecommons.org/licenses/by/4.0/" rel="noopener">CC BY 4.0</a>,
+      code is MIT. Product names, logos and trademarks belong to their respective owners.
+      Entries are descriptive, not endorsements, and no vendor pays to appear here.
+      A vendor who disagrees with an entry can <a href={`${REPO}/issues/new/choose`} rel="noopener">open an issue</a>
+      — it will be marked <span class="mono">disputed</span> while it is looked at.
+    </p>
+
+    <p><a class="btn" href={url('contribute')}>How to contribute</a></p>
+  </section>
+</Base>

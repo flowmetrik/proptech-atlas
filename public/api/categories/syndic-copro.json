@@ -1,0 +1,545 @@
+{
+  "id": "syndic-copro",
+  "label_en": "HOA & condominium management",
+  "label_fr": "Syndic & copropriété",
+  "summary_en": "Manage co-owned buildings — budgets, assemblies, calls for funds, works.",
+  "summary_fr": "Gérer l'immeuble en copropriété — budgets, AG, appels de fonds, travaux.",
+  "count": 6,
+  "tools": [
+    {
+      "slug": "buildium",
+      "name": "Buildium",
+      "editor": "RealPage",
+      "website": "https://www.buildium.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "property-management",
+      "also_in": [
+        "back-office-accounting",
+        "syndic-copro"
+      ],
+      "founded": 2004,
+      "positioning": "The property management system a small management company can actually implement without a project team.",
+      "description": "Buildium covers residential rentals, community associations and affordable housing: listings, applications and screening, leases, rent collection, maintenance, accounting and owner reporting, with published per-unit pricing and self-serve onboarding. Now part of RealPage.\n",
+      "real_estate_use": "It sits at the tier below AppFolio and Entrata: a company managing a few hundred doors, often mixed between rentals and homeowner associations. The HOA module handles association dues, violations and architectural requests, which is why small managers with both books of business consolidate here rather than run two systems.\n",
+      "features": [
+        "Listings, applications and tenant screening",
+        "Lease management with e-signature and renewals",
+        "Online rent and association dues collection",
+        "Maintenance requests, work orders and vendor payments",
+        "Property, owner and association accounting with 1099s",
+        "Resident, owner and board member portals"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Manage a few hundred rental doors without a dedicated systems administrator"
+        },
+        {
+          "persona": "syndic-manager",
+          "job": "Run homeowner association dues, violations and board reporting in the same tool as rentals"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "syndic-manager",
+        "landlord-owner"
+      ],
+      "segments": [
+        "residential",
+        "multifamily"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "per-unit",
+        "public_pricing": true,
+        "url": "https://www.buildium.com/pricing"
+      },
+      "integrations": [
+        "Apartments.com",
+        "Zillow Rentals",
+        "TransUnion screening",
+        "QuickBooks"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "appfolio",
+        "doorloop",
+        "rentmanager",
+        "propertyware"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.buildium.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "crypto-septeo",
+      "name": "Crypto (Septeo Solutions Immobilier)",
+      "editor": "Septeo",
+      "website": "https://www.septeo.com/fr/solutions-immobilier",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "syndic-copro",
+      "also_in": [
+        "property-management",
+        "back-office-accounting"
+      ],
+      "positioning": "The incumbent French property administration suite — installed across a large share of professional syndic and gérance portfolios.",
+      "description": "Crypto, part of Septeo's real estate division, covers syndic, gérance and transaction for French property administrators: per-building and mandant accounting, calls for funds, assemblies, lease and receipt management, and extranets for co-owners, owners and tenants.\n",
+      "real_estate_use": "It is the system of record in many established French administration de biens firms, chosen for accounting depth rather than for interface. Its centre of gravity is the regulated ledger: separate accounts per copropriété, mandant funds kept distinct from the firm's own money, and the reporting a comptable and an auditor expect.\n",
+      "features": [
+        "Syndic accounting per building with regulatory account structures",
+        "Gérance with mandant accounting and owner reddition de comptes",
+        "Calls for funds, budgets and assembly management",
+        "Lease, receipt and indexation handling",
+        "Co-owner, owner and tenant extranets",
+        "Transaction module and document management"
+      ],
+      "use_cases": [
+        {
+          "persona": "syndic-manager",
+          "job": "Keep regulated per-building accounts that satisfy an auditor"
+        },
+        {
+          "persona": "property-manager",
+          "job": "Produce owner reddition de comptes from mandant accounting rather than a spreadsheet"
+        }
+      ],
+      "personas": [
+        "syndic-manager",
+        "property-manager",
+        "brokerage"
+      ],
+      "segments": [
+        "residential",
+        "office",
+        "retail",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "banking",
+        "Modelo",
+        "accounting systems",
+        "Yousign"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "gercop",
+        "vilogi",
+        "lockimmo"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.septeo.com/fr/solutions-immobilier",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "gercop",
+      "name": "Gercop",
+      "editor": "Septeo",
+      "website": "https://www.gercop.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "syndic-copro",
+      "also_in": [
+        "property-management",
+        "back-office-accounting"
+      ],
+      "positioning": "Property administration software for larger French firms, where volume and multi-site organisation are the constraint.",
+      "description": "Gercop, also part of Septeo, provides syndic, gérance and transaction management for French administration de biens: accounting, assemblies, calls for funds, lease management, extranets and business reporting, aimed at structures managing large portfolios.\n",
+      "real_estate_use": "At the scale of tens of thousands of lots across multiple branches, the operational problem moves from bookkeeping to organisation: who manages which building, which assemblies fall in which month, where arrears are concentrating. Gercop is bought for that management layer over the same regulated accounting base.\n",
+      "features": [
+        "Syndic and gérance accounting at portfolio scale",
+        "Assembly planning and convocation across many buildings",
+        "Calls for funds, arrears tracking and recovery workflows",
+        "Lease management with indexation and charge regularisation",
+        "Multi-branch organisation and portfolio assignment",
+        "Management reporting and dashboards"
+      ],
+      "use_cases": [
+        {
+          "persona": "syndic-manager",
+          "job": "Plan and run assemblies across hundreds of buildings without losing deadlines"
+        },
+        {
+          "persona": "property-manager",
+          "job": "Track arrears concentration across a large managed portfolio"
+        }
+      ],
+      "personas": [
+        "syndic-manager",
+        "property-manager"
+      ],
+      "segments": [
+        "residential",
+        "office",
+        "retail",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "banking",
+        "Modelo",
+        "accounting systems"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "crypto-septeo",
+        "vilogi",
+        "syment"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.gercop.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "lockimmo",
+      "name": "LockImmo",
+      "editor": "LockImmo",
+      "website": "https://www.lockimmo.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "property-management",
+      "also_in": [
+        "crm-lead",
+        "syndic-copro"
+      ],
+      "positioning": "One French system for the three trades an agency can hold at once — transaction, gérance and syndic.",
+      "description": "LockImmo is a modular French real estate platform covering transaction, rental management and condominium management, with accounting, owner and co-owner portals, electronic signature and portal publishing, sold module by module.\n",
+      "real_estate_use": "A French agency frequently holds all three activities under one roof, and the accounting requirements differ for each: mandant accounting for gérance, separate accounts per copropriété for syndic. LockImmo covers the three in one system, which small and mid-sized agencies choose over running three specialised tools with no shared client record.\n",
+      "features": [
+        "Transaction module with mandates and matching",
+        "Rental management with mandant accounting and owner statements",
+        "Condominium module with per-building accounting and calls for funds",
+        "Owner, tenant and co-owner extranet portals",
+        "Electronic signature and document management",
+        "Portal publishing and agency website"
+      ],
+      "use_cases": [
+        {
+          "persona": "brokerage",
+          "job": "Hold transaction, gérance and syndic in one system with shared client records"
+        },
+        {
+          "persona": "syndic-manager",
+          "job": "Run per-building accounting and calls for funds alongside rental management"
+        }
+      ],
+      "personas": [
+        "brokerage",
+        "property-manager",
+        "syndic-manager",
+        "agent-broker"
+      ],
+      "segments": [
+        "residential",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://www.lockimmo.com/tarifs"
+      },
+      "integrations": [
+        "SeLoger",
+        "Leboncoin",
+        "Bien'ici",
+        "Yousign",
+        "banking"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "hektor",
+        "adapt-immo",
+        "vilogi",
+        "crypto-septeo"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.lockimmo.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "syment",
+      "name": "Syment",
+      "editor": "Syment",
+      "website": "https://www.syment.fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "syndic-copro",
+      "positioning": "Condominium software designed for collaboration with the conseil syndical, including the volunteer syndic case.",
+      "description": "Syment is a French SaaS platform for condominium management covering accounting, budgets, calls for funds, assemblies with electronic voting, works tracking and a co-owner extranet, used both by professional syndics and by buildings managed by a volunteer co-owner.\n",
+      "real_estate_use": "A significant share of small French buildings are managed by a syndic bénévole — a co-owner who is not an accountant. That case has particular requirements: the accounting must be correct without accounting training, and the council must be able to see everything. Syment targets that gap while remaining usable by professionals on small portfolios.\n",
+      "features": [
+        "Condominium accounting with tantième allocation",
+        "Budgets, calls for funds and arrears tracking",
+        "General assembly preparation with electronic voting",
+        "Co-owner and council extranet with document access",
+        "Works, quote and contract tracking",
+        "Guided workflows for non-professional syndics"
+      ],
+      "use_cases": [
+        {
+          "persona": "syndic-manager",
+          "job": "Run a small building's accounts and assembly without accounting training"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "Give the conseil syndical live visibility on the building's accounts"
+        }
+      ],
+      "personas": [
+        "syndic-manager",
+        "landlord-owner",
+        "property-manager"
+      ],
+      "segments": [
+        "residential",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://www.syment.fr/tarifs"
+      },
+      "integrations": [
+        "banking",
+        "electronic signature"
+      ],
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "vilogi",
+        "crypto-septeo",
+        "gercop"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.syment.fr",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "vilogi",
+      "name": "Vilogi",
+      "editor": "Vilogi",
+      "website": "https://www.vilogi.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "syndic-copro",
+      "also_in": [
+        "property-management"
+      ],
+      "positioning": "Condominium management software built for the French 1965 law, from the annual assembly to the works fund.",
+      "description": "Vilogi is a SaaS platform for French syndics and rental managers: per-building accounting, budgets and calls for funds, general assembly preparation and electronic voting, works and contract tracking, and extranet portals for co-owners and council members.\n",
+      "real_estate_use": "A French copropriété is a legal entity with its own accounts, its own budget voted in assembly, and a mandatory extranet for co-owners. Vilogi encodes that cycle: the provisional budget is voted, quarterly calls for funds are issued against it, expenses are posted per building, and the annual accounts are presented back to the assembly. The extranet obligation is met by the same system.\n",
+      "features": [
+        "Per-building accounting with tantième-based expense allocation",
+        "Provisional budgets and quarterly calls for funds",
+        "General assembly preparation, convocation and electronic voting",
+        "Mandatory co-owner extranet with document access",
+        "Works, contract and insurance claim tracking",
+        "Rental management module for mixed portfolios"
+      ],
+      "use_cases": [
+        {
+          "persona": "syndic-manager",
+          "job": "Run the full annual cycle from voted budget to accounts presented at assembly"
+        },
+        {
+          "persona": "syndic-manager",
+          "job": "Meet the legal co-owner extranet obligation without a separate portal"
+        }
+      ],
+      "personas": [
+        "syndic-manager",
+        "property-manager",
+        "landlord-owner"
+      ],
+      "segments": [
+        "residential",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "integrations": [
+        "banking",
+        "Yousign",
+        "accounting exports"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "crypto-septeo",
+        "gercop",
+        "syment",
+        "lockimmo"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.vilogi.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    }
+  ]
+}

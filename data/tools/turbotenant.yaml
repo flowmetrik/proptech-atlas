@@ -1,0 +1,49 @@
+slug: turbotenant
+name: TurboTenant
+editor: TurboTenant
+website: https://www.turbotenant.com
+hq_country: US
+markets: [US]
+category: property-management
+also_in: [tenant-screening]
+founded: 2015
+positioning: Free for the landlord, paid by the applicant — the model that put full rental tooling in the hands of people with three doors.
+description: >
+  TurboTenant offers listing syndication, online rental applications, tenant screening,
+  state-specific lease agreements, e-signature, rent collection and expense tracking, with
+  a free core tier funded largely by applicant-paid screening fees and premium add-ons.
+real_estate_use: >
+  The independent landlord's problem is not scale, it is competence: writing a compliant
+  lease, running a legitimate credit and background check, and documenting rent payment for
+  tax time. TurboTenant packages exactly those steps, which is why a very large number of
+  small US landlords never buy property management software at all.
+features:
+  - Listing syndication to major rental sites
+  - Online applications with applicant-paid screening
+  - State-specific lease agreements with e-signature
+  - Online rent collection with automatic reminders
+  - Expense and income tracking for tax reporting
+  - Maintenance request intake from tenants
+use_cases:
+  - persona: landlord-owner
+    job: Advertise, screen, lease and collect rent on a handful of units at almost no cost
+  - persona: landlord-owner
+    job: Produce a compliant state-specific lease without a lawyer for each renewal
+personas: [landlord-owner, property-manager]
+segments: [residential]
+company_sizes: [solo, smb]
+pricing:
+  model: freemium
+  public_pricing: true
+  url: https://www.turbotenant.com/pricing
+integrations: [Zillow Rentals, Apartments.com, TransUnion screening]
+product:
+  api: false
+  open_source: false
+  mobile: [ios, android]
+  languages: [en]
+alternatives: [innago, avail, rentredi, tenantcloud]
+reviews: []
+sources: [{ url: https://www.turbotenant.com, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

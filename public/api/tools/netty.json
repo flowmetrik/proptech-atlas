@@ -1,0 +1,89 @@
+{
+  "slug": "netty",
+  "name": "Netty",
+  "editor": "Netty",
+  "website": "https://www.netty.fr",
+  "hq_country": "FR",
+  "markets": [
+    "FR"
+  ],
+  "category": "crm-lead",
+  "also_in": [
+    "transaction-management",
+    "agent-marketing"
+  ],
+  "positioning": "Software and website sold as one product, with the agency site treated as a lead-generation asset rather than a brochure.",
+  "description": "Netty provides French agencies with transaction software — listings, contacts, mandates, matching, portal publishing — combined with a website builder, SEO tooling, electronic signature and rental management modules.\n",
+  "real_estate_use": "Independent French agencies compete with national networks whose brand carries the online traffic. Netty's positioning answers that: the agency site is built for local search visibility, and every enquiry it produces lands in the same system as the mandate and the portal leads, so an independent can measure whether its own site is out-earning its portal subscriptions.\n",
+  "features": [
+    "Transaction management with mandates and matching",
+    "Agency website with SEO structures and lead capture",
+    "Multi-portal publishing and feed management",
+    "Rental management and lease modules",
+    "Electronic signature integration",
+    "Prospecting and pige tooling"
+  ],
+  "use_cases": [
+    {
+      "persona": "brokerage",
+      "job": "Measure whether the agency's own website out-earns its portal subscriptions"
+    },
+    {
+      "persona": "agent-broker",
+      "job": "Publish a new mandate to every portal and the agency site in one action"
+    }
+  ],
+  "personas": [
+    "agent-broker",
+    "brokerage"
+  ],
+  "segments": [
+    "residential",
+    "mixed-use"
+  ],
+  "company_sizes": [
+    "solo",
+    "smb",
+    "midmarket"
+  ],
+  "pricing": {
+    "model": "subscription",
+    "public_pricing": false
+  },
+  "integrations": [
+    "SeLoger",
+    "Leboncoin",
+    "Bien'ici",
+    "Yousign"
+  ],
+  "product": {
+    "api": true,
+    "open_source": false,
+    "mobile": [
+      "ios",
+      "android"
+    ],
+    "languages": [
+      "fr"
+    ]
+  },
+  "alternatives": [
+    "hektor",
+    "apimo",
+    "adapt-immo",
+    "immofacile"
+  ],
+  "reviews": [],
+  "sources": [
+    {
+      "url": "https://www.netty.fr",
+      "note": "site éditeur"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-25"
+}

@@ -1,0 +1,48 @@
+# PropTech Atlas
+
+> Open Product Knowledge Graph of real estate software — United States & France. 155 produits documentés, 96 disponibles aux États-Unis, 88 en France.
+
+Les données sont statiques, versionnées et publiques. Aucun compte, aucune clé.
+Chaque fiche décrit un produit ET son usage métier en immobilier, avec ses sources.
+
+## API
+
+- [Index et compteurs](https://flowmetrik.github.io/proptech-atlas/api/index.json)
+- [Catalogue complet](https://flowmetrik.github.io/proptech-atlas/api/tools.json)
+- [Une fiche](https://flowmetrik.github.io/proptech-atlas/api/tools/{slug}.json)
+- [Une catégorie](https://flowmetrik.github.io/proptech-atlas/api/categories/{id}.json)
+- [Taxonomie](https://flowmetrik.github.io/proptech-atlas/api/taxonomy.json)
+- [Graphe de connaissance](https://flowmetrik.github.io/proptech-atlas/api/graph.json)
+
+## Catégories
+
+- [CRM & lead management](https://flowmetrik.github.io/proptech-atlas/categories/crm-lead) — Capture, qualify and nurture buyer, seller and tenant leads. (12)
+- [Transaction & closing management](https://flowmetrik.github.io/proptech-atlas/categories/transaction-management) — Run a deal from offer to closing — forms, e-signature, compliance, commissions. (3)
+- [Portals & marketplaces](https://flowmetrik.github.io/proptech-atlas/categories/portals-marketplaces) — Where supply meets demand in public — consumer portals, listing networks and transactional marketplaces. (11)
+- [Market data & property intelligence](https://flowmetrik.github.io/proptech-atlas/categories/market-data) — Comparables, ownership, transactions, rents, footfall and the datasets other products are built on. (11)
+- [Listing publishing & syndication](https://flowmetrik.github.io/proptech-atlas/categories/listing-syndication) — Software that formats and pushes a portfolio of listings out to portals and partner networks. (2)
+- [Agent websites & marketing](https://flowmetrik.github.io/proptech-atlas/categories/agent-marketing) — Websites, IDX search, branding and campaigns for agents and brokerages. (3)
+- [Valuation, pricing & farming](https://flowmetrik.github.io/proptech-atlas/categories/estimation-pricing) — Automated valuation, comparables, owner farming and pricing intelligence. (6)
+- [Residential property management](https://flowmetrik.github.io/proptech-atlas/categories/property-management) — Leases, rent, owners, tenants, maintenance and trust accounting. (19)
+- [HOA & condominium management](https://flowmetrik.github.io/proptech-atlas/categories/syndic-copro) — Manage co-owned buildings — budgets, assemblies, calls for funds, works. (4)
+- [Commercial asset & property management](https://flowmetrik.github.io/proptech-atlas/categories/commercial-am) — Institutional-grade lease, asset and portfolio administration. (4)
+- [Investment analysis & underwriting](https://flowmetrik.github.io/proptech-atlas/categories/investment-underwriting) — Model a deal, run scenarios, produce an investment memo. (4)
+- [Lending, mortgage & brokerage](https://flowmetrik.github.io/proptech-atlas/categories/lending-mortgage) — Originate, price and service real estate debt. (3)
+- [Title, escrow & legal](https://flowmetrik.github.io/proptech-atlas/categories/title-closing-legal) — Title search, escrow, deeds and the legal chain of a transfer. (8)
+- [Construction & development](https://flowmetrik.github.io/proptech-atlas/categories/construction-development) — Feasibility, project management, site supervision and delivery. (13)
+- [Facility management & maintenance](https://flowmetrik.github.io/proptech-atlas/categories/facility-maintenance) — Work orders, contractors, assets and preventive maintenance. (8)
+- [Energy, ESG & building performance](https://flowmetrik.github.io/proptech-atlas/categories/energy-esg) — Meter data, carbon trajectory, regulatory reporting and retrofit planning. (6)
+- [Tenant experience & smart building](https://flowmetrik.github.io/proptech-atlas/categories/tenant-experience) — Occupant apps, access, bookings, services and building IoT. (6)
+- [Flex space & coworking](https://flowmetrik.github.io/proptech-atlas/categories/flex-coworking) — Memberships, desk booking, billing and community for flexible workspace. (4)
+- [Short-term rental management](https://flowmetrik.github.io/proptech-atlas/categories/short-term-rental) — Channel management, pricing, guest comms and cleaning for STR portfolios. (7)
+- [Visuals, 3D tours & staging](https://flowmetrik.github.io/proptech-atlas/categories/visuals-tours) — Photography, floor plans, virtual tours and virtual staging. (4)
+- [Diagnostics & compliance](https://flowmetrik.github.io/proptech-atlas/categories/diagnostics-compliance) — Mandatory surveys, disclosures and regulatory files attached to a property. (4)
+- [Tenant screening & rent guarantee](https://flowmetrik.github.io/proptech-atlas/categories/tenant-screening) — Verify an applicant's file, guarantee the rent, sign the lease. (5)
+- [Real estate back office & accounting](https://flowmetrik.github.io/proptech-atlas/categories/back-office-accounting) — Trust accounting, owner statements, commissions and brokerage back office. (5)
+- [AI agents & automation](https://flowmetrik.github.io/proptech-atlas/categories/ai-assistants) — LLM-native assistants that answer, qualify, draft and act on real estate work. (3)
+
+## Fiabilité
+
+- Fiches vérifiées à la source : 0 / 155.
+- Avis : 0 agrégat(s) externe(s) daté(s). Aucun avis n'est rédigé par l'éditeur du site.
+- Une fiche non vérifiée est marquée comme telle. Ne pas la présenter comme un fait établi.

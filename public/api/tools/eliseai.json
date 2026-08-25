@@ -1,0 +1,96 @@
+{
+  "slug": "eliseai",
+  "name": "EliseAI",
+  "editor": "EliseAI",
+  "website": "https://www.eliseai.com",
+  "hq_country": "US",
+  "markets": [
+    "US"
+  ],
+  "category": "ai-assistants",
+  "also_in": [
+    "property-management"
+  ],
+  "founded": 2017,
+  "positioning": "An AI leasing agent that answers, qualifies and books tours around the clock — measured on tours booked, not on messages sent.",
+  "description": "EliseAI provides conversational AI for multifamily and healthcare operators: it answers prospect enquiries by email, SMS, web chat and voice, qualifies against availability and criteria, schedules tours directly into the calendar, and follows up through the application and renewal stages.\n",
+  "real_estate_use": "Leasing enquiries arrive outside office hours and go cold within the hour. EliseAI answers immediately in the channel the prospect used, checks real availability against the property management system, and books the tour without a human. Operators measure it on tour conversion and on the leasing headcount it lets them redeploy.\n",
+  "features": [
+    "Conversational responses across email, SMS, web chat and voice",
+    "Availability-aware qualification against the property management system",
+    "Automatic tour scheduling into leasing calendars",
+    "Application follow-up and document chasing",
+    "Renewal and delinquency outreach campaigns",
+    "Maintenance request intake and triage"
+  ],
+  "use_cases": [
+    {
+      "persona": "property-manager",
+      "job": "Answer and qualify every after-hours leasing enquiry without adding staff"
+    },
+    {
+      "persona": "property-manager",
+      "job": "Chase renewals and missing application documents automatically"
+    }
+  ],
+  "personas": [
+    "property-manager",
+    "landlord-owner",
+    "investor-am"
+  ],
+  "segments": [
+    "multifamily",
+    "residential",
+    "healthcare-senior",
+    "coliving-student"
+  ],
+  "company_sizes": [
+    "midmarket",
+    "enterprise"
+  ],
+  "pricing": {
+    "model": "quote",
+    "public_pricing": false
+  },
+  "integrations": [
+    "Yardi",
+    "RealPage",
+    "Entrata",
+    "AppFolio"
+  ],
+  "ai": {
+    "capabilities": [
+      "Conversational leasing across channels",
+      "Tour scheduling",
+      "Renewal outreach",
+      "Maintenance triage"
+    ]
+  },
+  "product": {
+    "api": true,
+    "open_source": false,
+    "mobile": [],
+    "languages": [
+      "en",
+      "es"
+    ]
+  },
+  "alternatives": [
+    "structurely",
+    "entrata",
+    "ylopo"
+  ],
+  "reviews": [],
+  "sources": [
+    {
+      "url": "https://www.eliseai.com",
+      "note": "site éditeur"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-25"
+}

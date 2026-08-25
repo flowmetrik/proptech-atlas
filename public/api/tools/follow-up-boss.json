@@ -1,0 +1,97 @@
+{
+  "slug": "follow-up-boss",
+  "name": "Follow Up Boss",
+  "editor": "Zillow Group",
+  "website": "https://www.followupboss.com",
+  "hq_country": "US",
+  "markets": [
+    "US"
+  ],
+  "category": "crm-lead",
+  "also_in": [
+    "ai-assistants"
+  ],
+  "founded": 2011,
+  "positioning": "The CRM real estate teams run their day on — every lead source lands in one inbox and the follow-up is enforced by the system.",
+  "description": "A sales-team CRM built specifically for residential brokerages. It ingests leads from portals, websites and ad platforms, routes them by rule to the right agent, and drives activity through action plans, calling queues and a shared team inbox. Acquired by Zillow Group in 2023 and kept as a standalone product.\n",
+  "real_estate_use": "Used by agent teams and brokerages to make sure a portal lead is contacted in minutes rather than hours. Leads arrive from Zillow, Realtor.com and the brokerage site, get assigned by round robin or by geography, and enter an automated call-text-email cadence. Managers watch speed-to-lead, conversation counts and pipeline stage rather than guessing who is actually working their database.\n",
+  "features": [
+    "Lead routing rules with round robin, first-to-claim and geographic assignment",
+    "Action plans — multi-step automated text, email and call task sequences",
+    "Team inbox with shared call, text and email history per contact",
+    "Smart lists that resurface a database contact when they re-engage",
+    "Calling with recording, voicemail drop and dialer queues",
+    "Reporting on speed to lead, agent activity and source ROI"
+  ],
+  "use_cases": [
+    {
+      "persona": "brokerage",
+      "job": "Distribute paid portal leads across a team and prove which source converts"
+    },
+    {
+      "persona": "agent-broker",
+      "job": "Work a past-client and sphere database on an automated cadence instead of ad hoc"
+    }
+  ],
+  "personas": [
+    "agent-broker",
+    "brokerage"
+  ],
+  "segments": [
+    "residential"
+  ],
+  "company_sizes": [
+    "solo",
+    "smb",
+    "midmarket"
+  ],
+  "pricing": {
+    "model": "per-seat",
+    "public_pricing": true,
+    "url": "https://www.followupboss.com/pricing"
+  },
+  "integrations": [
+    "Zillow",
+    "Realtor.com",
+    "dotloop",
+    "BombBomb",
+    "Ylopo",
+    "Zapier"
+  ],
+  "ai": {
+    "capabilities": [
+      "Lead intent scoring",
+      "Automated follow-up cadences"
+    ]
+  },
+  "product": {
+    "api": true,
+    "open_source": false,
+    "mobile": [
+      "ios",
+      "android"
+    ],
+    "languages": [
+      "en"
+    ]
+  },
+  "alternatives": [
+    "lofty",
+    "boldtrail",
+    "sierra-interactive",
+    "boomtown"
+  ],
+  "reviews": [],
+  "sources": [
+    {
+      "url": "https://www.followupboss.com",
+      "note": "site éditeur"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-25"
+}

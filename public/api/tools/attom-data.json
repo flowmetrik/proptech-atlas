@@ -1,0 +1,84 @@
+{
+  "slug": "attom-data",
+  "name": "ATTOM Data",
+  "editor": "ATTOM",
+  "website": "https://www.attomdata.com",
+  "hq_country": "US",
+  "markets": [
+    "US"
+  ],
+  "category": "market-data",
+  "founded": 2016,
+  "positioning": "A national property data warehouse sold as bulk files and APIs — the plumbing under other people's products.",
+  "description": "ATTOM licenses standardised property data covering the large majority of the US population: tax assessor records, deeds and transfers, mortgages, foreclosures, AVM values, neighbourhood and hazard data. It sells to builders of products rather than to end users, through bulk delivery, cloud shares and APIs.\n",
+  "real_estate_use": "When a proptech product shows an owner's name, last sale price and estimated value on a property page, the data underneath is often licensed rather than collected. ATTOM is one of the standard suppliers for that layer, the alternative being to build a county-by-county pipeline yourself. Lenders and insurers use the same feeds for portfolio monitoring.\n",
+  "features": [
+    "Tax assessor and recorder records at national coverage",
+    "Deed, mortgage, foreclosure and pre-foreclosure events",
+    "AVM property valuations and equity estimates",
+    "Neighbourhood, school and natural-hazard data",
+    "Delivery by API, bulk file and cloud data share",
+    "Property-level identifiers for record matching"
+  ],
+  "use_cases": [
+    {
+      "persona": "investor-am",
+      "job": "Screen a national portfolio for equity position and foreclosure risk"
+    },
+    {
+      "persona": "developer-builder",
+      "job": "Power a product's property pages without building a county data pipeline"
+    }
+  ],
+  "personas": [
+    "investor-am",
+    "lender-broker",
+    "appraiser",
+    "developer-builder"
+  ],
+  "segments": [
+    "residential",
+    "multifamily",
+    "land-development"
+  ],
+  "company_sizes": [
+    "smb",
+    "midmarket",
+    "enterprise"
+  ],
+  "pricing": {
+    "model": "subscription",
+    "public_pricing": false
+  },
+  "integrations": [
+    "Snowflake",
+    "AWS Data Exchange",
+    "REST API"
+  ],
+  "product": {
+    "api": true,
+    "open_source": false,
+    "mobile": [],
+    "languages": [
+      "en"
+    ]
+  },
+  "alternatives": [
+    "costar",
+    "cherre",
+    "housecanary"
+  ],
+  "reviews": [],
+  "sources": [
+    {
+      "url": "https://www.attomdata.com",
+      "note": "site éditeur"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-25"
+}

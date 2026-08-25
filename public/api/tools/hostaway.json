@@ -1,0 +1,93 @@
+{
+  "slug": "hostaway",
+  "name": "Hostaway",
+  "editor": "Hostaway",
+  "website": "https://www.hostaway.com",
+  "hq_country": "CA",
+  "markets": [
+    "US",
+    "FR"
+  ],
+  "category": "short-term-rental",
+  "founded": 2015,
+  "positioning": "Channel management and automation for growing STR portfolios, with an open marketplace rather than a closed suite.",
+  "description": "Hostaway provides short-term rental channel management, a unified inbox, automated messaging and task workflows, direct booking sites, payment processing and reporting, with an integration marketplace covering pricing, locks, cleaning and accounting tools.\n",
+  "real_estate_use": "Its typical buyer is a manager scaling from twenty to two hundred units who wants to keep their existing pricing and cleaning tools. The open integration approach means the operator assembles a stack — Hostaway for channels and automation, PriceLabs for rates, Turno for cleaning — rather than accepting one vendor's version of each.\n",
+  "features": [
+    "Channel management across major booking platforms",
+    "Automation rules for messaging, pricing and tasks",
+    "Unified inbox across channels",
+    "Direct booking website with payment processing",
+    "Owner statements and portfolio reporting",
+    "Open integration marketplace and API"
+  ],
+  "use_cases": [
+    {
+      "persona": "property-manager",
+      "job": "Scale a short-term rental portfolio while keeping best-of-breed pricing and cleaning tools"
+    },
+    {
+      "persona": "property-manager",
+      "job": "Automate the full guest message sequence across every channel"
+    }
+  ],
+  "personas": [
+    "property-manager",
+    "landlord-owner",
+    "investor-am"
+  ],
+  "segments": [
+    "hospitality",
+    "residential"
+  ],
+  "company_sizes": [
+    "smb",
+    "midmarket"
+  ],
+  "pricing": {
+    "model": "subscription",
+    "public_pricing": false
+  },
+  "integrations": [
+    "Airbnb",
+    "Booking.com",
+    "Vrbo",
+    "PriceLabs",
+    "Turno",
+    "QuickBooks"
+  ],
+  "ai": {
+    "capabilities": [
+      "Automated guest response drafting"
+    ]
+  },
+  "product": {
+    "api": true,
+    "open_source": false,
+    "mobile": [
+      "ios",
+      "android"
+    ],
+    "languages": [
+      "en",
+      "fr",
+      "es"
+    ]
+  },
+  "alternatives": [
+    "guesty"
+  ],
+  "reviews": [],
+  "sources": [
+    {
+      "url": "https://www.hostaway.com",
+      "note": "site éditeur"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-25"
+}

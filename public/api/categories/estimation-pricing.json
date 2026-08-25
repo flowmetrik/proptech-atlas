@@ -1,0 +1,733 @@
+{
+  "id": "estimation-pricing",
+  "label_en": "Valuation, pricing & farming",
+  "label_fr": "Estimation, pige & valorisation",
+  "summary_en": "Automated valuation, comparables, owner farming and pricing intelligence.",
+  "summary_fr": "Estimation automatisée, comparables, pige propriétaires et pricing.",
+  "count": 8,
+  "tools": [
+    {
+      "slug": "clear-capital",
+      "name": "Clear Capital",
+      "editor": "Clear Capital",
+      "website": "https://www.clearcapital.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "estimation-pricing",
+      "founded": 2001,
+      "positioning": "The full ladder of valuation products, from an instant AVM to a licensed appraiser standing in the property.",
+      "description": "Clear Capital provides residential valuation across the spectrum lenders need: automated valuations, broker price opinions, hybrid and desktop appraisals, property condition inspections captured through a mobile app, and appraisal review.\n",
+      "real_estate_use": "Loan servicing and origination require a valuation whose rigour matches the risk. A home equity line may justify an AVM; a default review needs a broker price opinion; a purchase needs a full appraisal. Clear Capital is bought so one vendor covers the ladder, with consistent data and turn-time reporting across all of them.\n",
+      "features": [
+        "ClearAVM automated valuation",
+        "Broker price opinions and desktop appraisals",
+        "Hybrid appraisal with third-party property inspection",
+        "Mobile property data collection in the field",
+        "Appraisal review and quality control",
+        "Nationwide field appraiser and inspector network"
+      ],
+      "use_cases": [
+        {
+          "persona": "lender-broker",
+          "job": "Match valuation rigour to loan risk without changing vendors each time"
+        },
+        {
+          "persona": "appraiser",
+          "job": "Take assigned inspection and appraisal work through a managed platform"
+        }
+      ],
+      "personas": [
+        "lender-broker",
+        "appraiser",
+        "investor-am"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "usage",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Encompass",
+        "loan origination systems",
+        "REST API"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "housecanary",
+        "attom-data"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.clearcapital.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "cloudcma",
+      "name": "Cloud CMA",
+      "editor": "Lone Wolf Technologies",
+      "website": "https://cloudcma.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "estimation-pricing",
+      "also_in": [
+        "agent-marketing"
+      ],
+      "founded": 2010,
+      "positioning": "The listing presentation an agent brings to the kitchen table, generated from the MLS in minutes.",
+      "description": "Cloud CMA builds comparative market analyses, buyer tours, property reports and listing presentations from MLS data. Its Live version turns the CMA into an interactive presentation shown on screen during the appointment, and Homebeat sends the owner an automatic valuation refresh over time.\n",
+      "real_estate_use": "Winning a listing is a persuasion problem, and the CMA is the artefact that does the persuading. The agent pulls comparables from the MLS, adjusts them, and produces a branded document that justifies a price the seller may not want to hear. Homebeat then keeps the relationship alive by mailing an updated valuation every quarter.\n",
+      "features": [
+        "Automated CMA generation from MLS comparables",
+        "Cloud CMA Live interactive listing presentation",
+        "Homebeat recurring valuation emails to past clients",
+        "Buyer tour and property report formats",
+        "Customisable branded templates and pages",
+        "Lead capture from shared reports"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Produce a defensible pricing presentation from MLS comparables in minutes"
+        },
+        {
+          "persona": "agent-broker",
+          "job": "Stay in front of past sellers with an automatic quarterly valuation email"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://cloudcma.com/pricing"
+      },
+      "integrations": [
+        "MLS systems",
+        "Lone Wolf Transactions",
+        "Follow Up Boss"
+      ],
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://cloudcma.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "housecanary",
+      "name": "HouseCanary",
+      "editor": "HouseCanary",
+      "website": "https://www.housecanary.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "estimation-pricing",
+      "also_in": [
+        "market-data"
+      ],
+      "founded": 2013,
+      "positioning": "Valuation sold with its confidence interval, for people who have to act on the number.",
+      "description": "HouseCanary provides residential automated valuations, forecast values, rental estimates and condition-adjusted appraisals, delivered by API and through analyst-facing products. Its output is designed for institutional use — every value comes with an accuracy band.\n",
+      "real_estate_use": "An iBuyer or a single-family rental fund cannot send an appraiser to every candidate house. It prices thousands of addresses a week through an AVM, and the confidence interval decides which ones get a human inspection. Lenders use the same feeds for portfolio monitoring and collateral review between full appraisals.\n",
+      "features": [
+        "Residential AVM with confidence scoring",
+        "Three-year value and rent forecasts by block and metro",
+        "Rental value estimation",
+        "Condition-adjusted valuation products",
+        "Market analytics down to block group",
+        "Delivery by API and bulk file"
+      ],
+      "use_cases": [
+        {
+          "persona": "investor-am",
+          "job": "Price thousands of candidate homes a week and flag the ones needing a human look"
+        },
+        {
+          "persona": "lender-broker",
+          "job": "Monitor collateral value across a loan portfolio between full appraisals"
+        }
+      ],
+      "personas": [
+        "investor-am",
+        "lender-broker",
+        "appraiser"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "usage",
+        "public_pricing": false
+      },
+      "integrations": [
+        "REST API",
+        "Snowflake",
+        "Excel"
+      ],
+      "ai": {
+        "capabilities": [
+          "Automated valuation models",
+          "Value and rent forecasting"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "clear-capital",
+        "attom-data",
+        "pricehubble"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.housecanary.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "meilleursagents",
+      "name": "MeilleursAgents",
+      "editor": "Aviv Group (Axel Springer)",
+      "website": "https://www.meilleursagents.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "estimation-pricing",
+      "also_in": [
+        "market-data",
+        "crm-lead"
+      ],
+      "founded": 2008,
+      "positioning": "The French price map the public consults — and the seller-lead engine agencies buy on the strength of it.",
+      "description": "MeilleursAgents publishes street-level price estimates across France from notarial and market data, offers owners a free online valuation, and sells agencies visibility and seller leads generated by those valuation requests, alongside agency comparison and review features.\n",
+      "real_estate_use": "It changed the French listing appointment. An owner arrives having already read a neighbourhood price per square metre, so the agent's pricing conversation starts from a public reference rather than from a blank page. On the professional side, an owner who requested a valuation is a seller lead with intent, which is what agencies actually pay for.\n",
+      "features": [
+        "Street and neighbourhood level price indices",
+        "Free online valuation for owners",
+        "Seller lead generation and delivery to agencies",
+        "Agency visibility, profiles and reviews",
+        "Market trend indicators by city and district",
+        "Agency performance comparison for consumers"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Buy seller leads from owners who have just requested a valuation"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "Get a reference price for a property before meeting an agency"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage",
+        "landlord-owner",
+        "investor-am"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Hektor",
+        "Netty",
+        "Apimo",
+        "agency CRMs"
+      ],
+      "ai": {
+        "capabilities": [
+          "Automated valuation from transaction and market data"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "pricehubble",
+        "yanport",
+        "dvf"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.meilleursagents.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "pige-online",
+      "name": "Pige Online",
+      "editor": "Pige Online",
+      "website": "https://www.pige-online.fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "estimation-pricing",
+      "also_in": [
+        "crm-lead"
+      ],
+      "positioning": "Prospecting software built around the French pige — finding the private seller before the competing agency does.",
+      "description": "Pige Online is a prospecting tool for French agents: it consolidates private-seller listings published across portals, deduplicates them, tracks price changes and time on market, and organises the agent's canvassing follow-up.\n",
+      "real_estate_use": "In a market without an MLS, agency growth depends on converting private sellers into mandates, and the same property appears on four portals under three different prices. The software's job is deduplication and timing: a listing whose price has just dropped is a seller whose confidence has just fallen, which is the moment an agent calls.\n",
+      "features": [
+        "Consolidation and deduplication of private-seller listings across portals",
+        "Price change and time-on-market tracking per property",
+        "Canvassing follow-up with call history and reminders",
+        "Sector and criteria-based alerts",
+        "Owner contact organisation for prospecting rounds",
+        "Team assignment and duplicate call prevention"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Call a private seller the day their asking price drops"
+        },
+        {
+          "persona": "brokerage",
+          "job": "Split canvassing sectors across a team without two agents calling the same owner"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://www.pige-online.fr/tarifs"
+      },
+      "integrations": [
+        "Hektor",
+        "Netty",
+        "Apimo"
+      ],
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "hektor",
+        "netty"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.pige-online.fr",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "pricehubble",
+      "name": "PriceHubble",
+      "editor": "PriceHubble",
+      "website": "https://www.pricehubble.com",
+      "hq_country": "CH",
+      "markets": [
+        "FR"
+      ],
+      "category": "estimation-pricing",
+      "also_in": [
+        "market-data"
+      ],
+      "founded": 2016,
+      "positioning": "Valuation and property analytics sold as an API and white-label modules, embedded in someone else's product.",
+      "description": "PriceHubble provides automated valuation, rental estimation, market analytics and property dashboards across several European countries, delivered as APIs and embeddable modules for banks, agencies, asset managers and proptech products rather than as a consumer site.\n",
+      "real_estate_use": "A French bank assessing collateral, an agency offering an instant valuation on its own site, or a portfolio holder revaluing quarterly all need the same computation without building it. PriceHubble sells that computation to be embedded, which is why it appears inside products whose users never see the brand.\n",
+      "features": [
+        "Automated valuation for sale and rental values",
+        "Property dashboards and market analytics modules",
+        "White-label valuation widgets for websites",
+        "Portfolio revaluation and monitoring",
+        "Building and environment data enrichment",
+        "REST API delivery across European markets"
+      ],
+      "use_cases": [
+        {
+          "persona": "lender-broker",
+          "job": "Value collateral and revalue a loan portfolio without building a model"
+        },
+        {
+          "persona": "brokerage",
+          "job": "Offer an instant valuation on the agency's own website to capture seller leads"
+        }
+      ],
+      "personas": [
+        "lender-broker",
+        "brokerage",
+        "investor-am",
+        "agent-broker"
+      ],
+      "segments": [
+        "residential",
+        "multifamily",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "REST API",
+        "banking systems",
+        "agency software"
+      ],
+      "ai": {
+        "capabilities": [
+          "Automated valuation models",
+          "Rental value estimation",
+          "Market forecasting"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr",
+          "en",
+          "de",
+          "it"
+        ]
+      },
+      "alternatives": [
+        "meilleursagents",
+        "housecanary",
+        "yanport"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.pricehubble.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "pricelabs",
+      "name": "PriceLabs",
+      "editor": "PriceLabs",
+      "website": "https://hello.pricelabs.co",
+      "hq_country": "US",
+      "markets": [
+        "US",
+        "FR"
+      ],
+      "category": "short-term-rental",
+      "also_in": [
+        "estimation-pricing"
+      ],
+      "founded": 2014,
+      "positioning": "Dynamic pricing for short-term rentals, with the reasoning visible instead of hidden in a black box.",
+      "description": "PriceLabs sets nightly rates for short-term rental listings using market demand data, seasonality, day-of-week patterns and booking pace, with customisable rules, minimum-stay optimisation and a market dashboard covering comparable listings.\n",
+      "real_estate_use": "Nightly pricing is the single biggest lever on STR revenue and the one humans handle worst — most hosts set a rate and forget it. PriceLabs adjusts every listing daily against local demand, and its market dashboard is widely used before acquisition, to check what comparable properties in a neighbourhood actually earn across a year.\n",
+      "features": [
+        "Dynamic nightly pricing driven by market demand signals",
+        "Customisable rules, floors, ceilings and seasonal overrides",
+        "Minimum-stay and gap-night optimisation",
+        "Market dashboards with comparable listing performance",
+        "Portfolio view across many listings and channels",
+        "Revenue estimator for prospective acquisitions"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Reprice every listing daily against local demand instead of setting and forgetting"
+        },
+        {
+          "persona": "investor-am",
+          "job": "Check what comparable short-term rentals in a neighbourhood actually earn before buying"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "investor-am",
+        "landlord-owner"
+      ],
+      "segments": [
+        "hospitality",
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://hello.pricelabs.co/pricing"
+      },
+      "integrations": [
+        "Airbnb",
+        "Vrbo",
+        "Guesty",
+        "Hostaway",
+        "Lodgify",
+        "Smily"
+      ],
+      "ai": {
+        "capabilities": [
+          "Demand forecasting and dynamic rate setting"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "guesty",
+        "hostaway"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://hello.pricelabs.co",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "zillow",
+      "name": "Zillow",
+      "editor": "Zillow Group",
+      "website": "https://www.zillow.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "portals-marketplaces",
+      "also_in": [
+        "estimation-pricing",
+        "crm-lead"
+      ],
+      "founded": 2006,
+      "positioning": "The consumer entry point to US residential real estate, and therefore the largest paid lead channel for agents.",
+      "description": "Zillow is a consumer property portal carrying for-sale, for-rent and off-market inventory, the Zestimate automated valuation, and a set of professional products — Premier Agent advertising, Zillow Showcase listing enhancement, rental listing syndication and a mortgage marketplace.\n",
+      "real_estate_use": "For an agent, Zillow is rarely a listing tool and almost always an acquisition channel: buyer leads are sold by ZIP code share of voice through Premier Agent, and a seller conversation frequently starts from a Zestimate the owner has already seen. For a landlord, the rentals network is a primary source of applicants. Its data is also the reference point clients bring to a pricing meeting.\n",
+      "features": [
+        "Consumer for-sale, for-rent and off-market property search",
+        "Zestimate automated valuation on most US homes",
+        "Premier Agent advertising sold by ZIP code",
+        "Zillow Showcase enhanced listing presentation",
+        "Rental listing syndication and application handling",
+        "Agent finder and review profiles"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Buy buyer-side leads in a target ZIP code and measure cost per closing"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "Advertise a rental unit and collect applications from a national audience"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage",
+        "landlord-owner",
+        "tenant-occupier"
+      ],
+      "segments": [
+        "residential",
+        "multifamily"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "usage",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Follow Up Boss",
+        "dotloop",
+        "MLS feeds",
+        "major CRMs"
+      ],
+      "ai": {
+        "capabilities": [
+          "Zestimate valuation model",
+          "Natural language property search"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "realtor-com",
+        "homes-com",
+        "apartments-com"
+      ],
+      "reviews": [],
+      "sources": [
+        {
+          "url": "https://www.zillow.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    }
+  ]
+}

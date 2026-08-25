@@ -1,0 +1,51 @@
+slug: measurabl
+name: Measurabl
+editor: Measurabl
+website: https://www.measurabl.com
+hq_country: US
+markets: [US, FR]
+category: energy-esg
+founded: 2013
+positioning: ESG data for real estate assets, structured for the investor questionnaire that has to be answered every year.
+description: >
+  Measurabl collects utility and building data, calculates emissions and performance
+  metrics, and produces the disclosures real estate investors are asked for — GRESB, CDP,
+  investor reporting — with physical climate risk scoring and decarbonisation pathway
+  modelling on top.
+real_estate_use: >
+  A fund's ESG reporting cycle used to mean chasing utility bills across dozens of assets
+  every spring. Measurabl automates the collection, standardises the metrics across
+  countries and unit systems, and generates the submission. The second use is capital
+  planning: modelling which retrofits move an asset off a stranding trajectory before a
+  regulation or a buyer forces the issue.
+features:
+  - Automated utility data collection and normalisation
+  - Emissions accounting across scopes with portfolio roll-up
+  - GRESB, CDP and investor disclosure reporting
+  - Physical climate risk scoring per asset
+  - Decarbonisation pathway and stranding risk modelling
+  - Capital planning for energy retrofits
+use_cases:
+  - persona: investor-am
+    job: Produce a GRESB submission without chasing utility bills across the portfolio
+  - persona: corporate-re
+    job: Identify which assets are on a stranding trajectory and what fixes them
+personas: [investor-am, corporate-re, facility-manager]
+segments: [office, retail, industrial, multifamily, mixed-use]
+company_sizes: [midmarket, enterprise]
+pricing:
+  model: quote
+  public_pricing: false
+integrations: [Yardi, MRI, utility providers, GRESB]
+ai:
+  capabilities: [Utility bill data extraction, Consumption anomaly detection]
+product:
+  api: true
+  open_source: false
+  mobile: []
+  languages: [en, fr]
+alternatives: [watchwire, energystar-portfolio-manager]
+reviews: []
+sources: [{ url: https://www.measurabl.com, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

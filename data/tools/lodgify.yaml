@@ -1,0 +1,49 @@
+slug: lodgify
+name: Lodgify
+editor: Lodgify
+website: https://www.lodgify.com
+hq_country: ES
+markets: [US, FR]
+category: short-term-rental
+also_in: [agent-marketing]
+founded: 2012
+positioning: A vacation rental website and booking engine first, with channel management attached.
+description: >
+  Lodgify provides vacation rental owners and small managers with a website builder and
+  direct booking engine, channel manager synchronising with major platforms, reservation and
+  calendar management, payment processing and automated guest messaging.
+real_estate_use: >
+  For an owner with two or three holiday properties, the practical question is whether to pay
+  fifteen percent commission forever. Lodgify's proposition is a bookable site they own,
+  with the channels kept as a fill mechanism — a different emphasis from the professional
+  systems, which assume channels are the primary demand source.
+features:
+  - Website builder with direct booking engine
+  - Channel manager across major booking platforms
+  - Calendar, rate and reservation management
+  - Payment processing and damage deposits
+  - Automated guest messaging and templates
+  - Owner and property performance reporting
+use_cases:
+  - persona: landlord-owner
+    job: Take direct bookings on an owned site instead of paying commission on every stay
+  - persona: property-manager
+    job: Synchronise calendars across platforms for a small set of properties
+personas: [landlord-owner, property-manager]
+segments: [hospitality, residential]
+company_sizes: [solo, smb]
+pricing:
+  model: subscription
+  public_pricing: true
+  url: https://www.lodgify.com/pricing
+integrations: [Airbnb, Booking.com, Vrbo, Stripe, PriceLabs]
+product:
+  api: true
+  open_source: false
+  mobile: [ios, android]
+  languages: [en, fr, es, de, it]
+alternatives: [smily, amenitiz, hostaway, ownerrez]
+reviews: []
+sources: [{ url: https://www.lodgify.com, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

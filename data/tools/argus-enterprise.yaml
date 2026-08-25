@@ -1,0 +1,49 @@
+slug: argus-enterprise
+name: ARGUS Enterprise
+editor: Altus Group
+website: https://www.altusgroup.com/argus
+hq_country: CA
+markets: [US, FR]
+category: investment-underwriting
+also_in: [commercial-am]
+founded: 1985
+positioning: The cash-flow model the industry agreed to standardise on — a valuation is credible partly because it is an ARGUS file.
+description: >
+  ARGUS Enterprise models commercial property cash flows lease by lease: rent steps,
+  recoveries, renewal probabilities, capital expenditure and debt, producing valuations,
+  hold-sell analysis and portfolio consolidation. Its file format is a de facto industry
+  exchange standard.
+real_estate_use: >
+  When an asset trades, the seller's broker sends an ARGUS file and the buyer re-underwrites
+  in the same tool. That shared format is most of the value — assumptions are visible and
+  comparable rather than buried in someone's private spreadsheet. Appraisers, lenders and
+  fund managers use it for the same reason.
+features:
+  - Lease-by-lease commercial cash flow modelling
+  - Recovery structures, rent steps and market leasing assumptions
+  - Valuation by discounted cash flow and direct capitalisation
+  - Debt, equity waterfall and hold-sell analysis
+  - Portfolio consolidation and scenario comparison
+  - Industry-standard file exchange with counterparties
+use_cases:
+  - persona: investor-am
+    job: Underwrite an acquisition from the seller's own cash flow model
+  - persona: appraiser
+    job: Produce a valuation in the format lenders and auditors expect
+personas: [investor-am, appraiser, lender-broker, corporate-re]
+segments: [office, retail, industrial, mixed-use, hospitality]
+company_sizes: [smb, midmarket, enterprise]
+pricing:
+  model: subscription
+  public_pricing: false
+integrations: [Yardi, MRI, VTS, Excel, Dealpath]
+product:
+  api: true
+  open_source: false
+  mobile: []
+  languages: [en, fr]
+alternatives: [dealpath, mri-software]
+reviews: []
+sources: [{ url: https://www.altusgroup.com/argus, note: site éditeur }]
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-25"

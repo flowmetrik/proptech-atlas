@@ -1,0 +1,85 @@
+{
+  "slug": "avail",
+  "name": "Avail",
+  "editor": "Realtor.com (Move, Inc.)",
+  "website": "https://www.avail.co",
+  "hq_country": "US",
+  "markets": [
+    "US"
+  ],
+  "category": "property-management",
+  "also_in": [
+    "tenant-screening"
+  ],
+  "founded": 2012,
+  "positioning": "DIY landlord tooling with the distribution of a national portal behind it.",
+  "description": "Avail gives independent landlords listing syndication, online applications, credit and background screening, state-specific lease agreements, digital signatures, rent collection with credit reporting for tenants, and maintenance tracking. Owned by Realtor.com.\n",
+  "real_estate_use": "The distribution matters: a unit listed in Avail appears on Realtor.com and partner sites, so a landlord with two properties reaches the same audience as a management company. Rent payments can be reported to credit bureaus, which landlords use as an incentive for on-time payment.\n",
+  "features": [
+    "Listing syndication through the Realtor.com network",
+    "Online applications with credit, criminal and eviction screening",
+    "State-specific lease agreements with digital signing",
+    "Rent collection with optional credit bureau reporting",
+    "Maintenance tracking and vendor coordination",
+    "Rent price analysis for a given address"
+  ],
+  "use_cases": [
+    {
+      "persona": "landlord-owner",
+      "job": "List a unit on a national portal and take applications without an agent"
+    },
+    {
+      "persona": "tenant-occupier",
+      "job": "Build credit history by having on-time rent reported to the bureaus"
+    }
+  ],
+  "personas": [
+    "landlord-owner",
+    "tenant-occupier"
+  ],
+  "segments": [
+    "residential"
+  ],
+  "company_sizes": [
+    "solo",
+    "smb"
+  ],
+  "pricing": {
+    "model": "freemium",
+    "public_pricing": true,
+    "url": "https://www.avail.co/pricing"
+  },
+  "integrations": [
+    "Realtor.com",
+    "TransUnion screening"
+  ],
+  "product": {
+    "api": false,
+    "open_source": false,
+    "mobile": [
+      "ios",
+      "android"
+    ],
+    "languages": [
+      "en"
+    ]
+  },
+  "alternatives": [
+    "turbotenant",
+    "innago",
+    "rentredi"
+  ],
+  "reviews": [],
+  "sources": [
+    {
+      "url": "https://www.avail.co",
+      "note": "site éditeur"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-25"
+}

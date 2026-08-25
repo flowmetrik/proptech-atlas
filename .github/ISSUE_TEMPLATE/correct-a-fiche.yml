@@ -1,0 +1,22 @@
+name: Correct a fiche
+description: Something in an existing entry is wrong or out of date
+title: "[Fix] "
+labels: [correction]
+body:
+  - type: input
+    id: slug
+    attributes: { label: Product slug, placeholder: "appfolio" }
+    validations: { required: true }
+  - type: textarea
+    id: wrong
+    attributes: { label: What is wrong }
+    validations: { required: true }
+  - type: textarea
+    id: correct
+    attributes: { label: What it should say }
+    validations: { required: true }
+  - type: input
+    id: source
+    attributes:
+      label: Source
+      description: A URL supporting the correction. Required for anything factual.

@@ -1,0 +1,89 @@
+{
+  "slug": "witco",
+  "name": "Witco",
+  "editor": "Witco",
+  "website": "https://www.witco.io",
+  "hq_country": "FR",
+  "markets": [
+    "FR"
+  ],
+  "category": "tenant-experience",
+  "founded": 2016,
+  "positioning": "The occupant app for French office buildings — services, bookings, access and building communication in one place.",
+  "description": "Witco provides a white-label mobile application for office buildings and workplaces: room and desk booking, access and badge integration, service requests, on-site retail and concierge services, events, communication and occupant feedback.\n",
+  "real_estate_use": "Landlords and corporate occupiers use it as the single interface between the building and the people inside it. Practically, it consolidates what used to be five channels — an email for building notices, a booking tool, a paper ticket for maintenance, a WhatsApp group for events — into one app whose usage data also indicates how the building is really used.\n",
+  "features": [
+    "White-label occupant mobile app for a building or campus",
+    "Room, desk and parking booking",
+    "Access control and mobile badge integration",
+    "Service requests routed to facilities or providers",
+    "Building communication, news and events",
+    "Occupant satisfaction measurement and usage analytics"
+  ],
+  "use_cases": [
+    {
+      "persona": "corporate-re",
+      "job": "Give employees one app for booking, access, services and building news"
+    },
+    {
+      "persona": "investor-am",
+      "job": "Offer occupants a service layer that supports the rent and the renewal"
+    }
+  ],
+  "personas": [
+    "corporate-re",
+    "investor-am",
+    "property-manager",
+    "tenant-occupier",
+    "facility-manager"
+  ],
+  "segments": [
+    "office",
+    "mixed-use",
+    "coliving-student"
+  ],
+  "company_sizes": [
+    "midmarket",
+    "enterprise"
+  ],
+  "pricing": {
+    "model": "quote",
+    "public_pricing": false
+  },
+  "integrations": [
+    "access control systems",
+    "Microsoft 365",
+    "Google Workspace",
+    "facility platforms"
+  ],
+  "product": {
+    "api": true,
+    "open_source": false,
+    "mobile": [
+      "ios",
+      "android"
+    ],
+    "languages": [
+      "fr",
+      "en"
+    ]
+  },
+  "alternatives": [
+    "hqo",
+    "equiem",
+    "ubigreen"
+  ],
+  "reviews": [],
+  "sources": [
+    {
+      "url": "https://www.witco.io",
+      "note": "site éditeur"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-25"
+}
