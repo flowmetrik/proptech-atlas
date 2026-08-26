@@ -1,0 +1,64 @@
+slug: bailfacile
+name: BailFacile
+editor: BailFacile
+website: https://www.bailfacile.fr
+hq_country: FR
+markets: [FR]
+category: property-management
+also_in: [back-office-accounting]
+positioning: "Rental management for French landlords who manage their own lots: compliant documents, automated rent receipts and indexation, e-signature, income and expense tracking."
+description: >
+  BailFacile is a French web application for private landlords managing their own
+  rentals. It generates more than fifty pre-filled legal documents covering tenant
+  arrival, tenancy, works, disputes and departure, and keeps them current with French
+  rental law. It automates recurring obligations such as rent receipts and annual rent
+  indexation, provides unlimited electronic signature and a smartphone condition
+  report, sends registered letters from the account, and tracks one-off and recurring
+  income and expenses to prepare the tax return. A tenant portal carries documents and
+  exchanges. The editor states more than 100,000 landlords use it.
+real_estate_use: >
+  A French landlord who refuses a management mandate inherits the mandate's
+  obligations anyway: a lease that satisfies the ALUR law, an entry and exit condition
+  report that will hold up if the deposit is contested, a rent receipt every month, an
+  indexation that has to be claimed within a year or is lost. BailFacile is what
+  replaces the spreadsheet and the downloaded Word template for that person. The value
+  sits in the calendar as much as the documents — the tool knows which action is due
+  and issues it. Small letting agencies and SCI owners use it the same way, and the
+  income and expense ledger is aimed squarely at the moment the landlord fills in the
+  rental income section of their return.
+features:
+  - Over fifty pre-filled legal documents kept current with French rental law
+  - Automated rent receipts and annual rent indexation
+  - Unlimited electronic signature and smartphone condition reports
+  - Registered letters sent from the account
+  - One-off and recurring income and expense tracking for the tax return
+  - Tenant portal with unlimited document storage
+use_cases:
+  - persona: landlord-owner
+    job: Sign a compliant lease with a new tenant and put the monthly receipts and yearly indexation on autopilot
+  - persona: landlord-owner
+    job: "Record rent, loan, insurance and works flows through the year to prepare the rental income declaration"
+personas: [landlord-owner, property-manager]
+segments: [residential, coliving-student]
+company_sizes: [solo, smb]
+pricing:
+  model: subscription
+  public_pricing: true
+  url: https://www.bailfacile.fr/tarifs
+product:
+  api: false
+  open_source: false
+  mobile: []
+  languages: [fr]
+alternatives: [rentila, smartloc, gererseul, ownily]
+reviews: []
+signals:
+  security: https://www.bailfacile.fr/fonctionnalites/securite
+  privacy: https://www.bailfacile.fr/mentions-legales
+  site_languages: [fr]
+  checked_on: "2026-08-26"
+sources:
+  - { url: https://www.bailfacile.fr, note: site éditeur }
+  - { url: https://www.bailfacile.fr/tarifs, note: "site éditeur, tarifs publics" }
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-26"

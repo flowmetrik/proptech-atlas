@@ -1,0 +1,64 @@
+slug: qalimo
+name: Qalimo
+editor: Qalimo
+website: https://www.qalimo.fr
+hq_country: FR
+markets: [FR]
+category: property-management
+also_in: [back-office-accounting, tenant-screening]
+positioning: "French rental management for landlords, with bank reconciliation built in and accounting, insurance and legal services sold alongside the software."
+description: >
+  Qalimo is a French rental management application for private landlords, SCI and
+  furnished-rental owners, also sold to letting agencies, property companies and local
+  authorities. The software covers lease drafting, digital condition reports with
+  photographs, automatic generation and dispatch of rent receipts, tenant application
+  screening and bank synchronisation that reconciles incoming rent automatically.
+  Around it the editor sells accounting services for furnished rental, SCI and
+  unfurnished rental income including filed tax returns, plus non-occupying owner
+  insurance, rent guarantee and legal protection. Lease templates cover furnished,
+  unfurnished, student, mobility, shared, commercial, professional and parking
+  tenancies.
+real_estate_use: >
+  The hard part of self-managed rental in France is not writing the lease, it is
+  knowing whether the rent actually arrived and what the tax position looks like at
+  year end. Qalimo bolts bank synchronisation onto rental management so unpaid rent
+  surfaces without the landlord reading a bank statement, and then sells the
+  accounting work that follows — a furnished landlord under the real regime owes a
+  balance sheet and a filed tax package, and most do not want to produce it. Lease
+  coverage extends past the residential lot to commercial, professional and parking
+  tenancies, which is what brings small property companies and municipalities to it
+  rather than a pure landlord tool.
+features:
+  - "Lease templates for furnished, unfurnished, student, mobility, shared, commercial, professional and parking tenancies"
+  - Digital condition reports with photographs
+  - Automatic generation and dispatch of rent receipts
+  - Bank synchronisation with automatic rent reconciliation
+  - Tenant application collection and comparison
+  - "Accounting services for furnished rental, SCI and rental income, with filed tax returns"
+use_cases:
+  - persona: landlord-owner
+    job: See unpaid rent the day it is late through bank reconciliation instead of checking statements by hand
+  - persona: investor-am
+    job: Run a small portfolio held in SCI or under the furnished regime and get the year-end tax package filed from the same tool
+personas: [landlord-owner, investor-am, property-manager]
+segments: [residential, retail, coliving-student]
+company_sizes: [solo, smb]
+pricing:
+  model: subscription
+  public_pricing: true
+  url: https://www.qalimo.fr/tarifs
+product:
+  api: false
+  open_source: false
+  mobile: []
+  languages: [fr]
+alternatives: [bailfacile, rentila, ownily, smartloc]
+reviews: []
+signals:
+  privacy: https://www.qalimo.fr/politique-de-confidentialite
+  site_languages: [fr]
+  checked_on: "2026-08-26"
+sources:
+  - { url: https://www.qalimo.fr, note: site éditeur }
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-26"

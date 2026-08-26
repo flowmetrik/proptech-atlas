@@ -1,0 +1,106 @@
+{
+  "slug": "tenant-turner",
+  "name": "Tenant Turner",
+  "editor": "Tenant Turner, Inc.",
+  "website": "https://www.tenantturner.com",
+  "hq_country": "US",
+  "markets": [
+    "US"
+  ],
+  "category": "property-management",
+  "also_in": [
+    "listing-syndication",
+    "crm-lead"
+  ],
+  "positioning": "Leasing automation for US property managers: syndicate the listing, pre-qualify the lead, let the prospect book a showing and open the door themselves.",
+  "description": "Tenant Turner automates the leasing cycle between a vacant unit and a signed lease. It imports listings from the property management system and pushes them to more than twenty listing sites, applies the manager's own pre-qualification criteria before a prospect can book, and offers either in-person showings or self-showings through electronic lockboxes and smart locks. Prospects self-schedule around the clock; reminders, cancellation of unconfirmed appointments, post-showing feedback collection and application dispatch run automatically. The Ultra plan adds a live answering service for leasing calls. Reporting covers lead flow, showing activity, lockbox use and owner-facing performance.\n",
+  "real_estate_use": "Vacancy costs a US property manager more than almost anything else in the operating budget, and the bottleneck is rarely demand — it is the coordination. Someone has to answer the phone, decide whether the caller meets the income and pet rules, agree a time, and physically be at the property. Tenant Turner removes all four steps: the pre-qualification questions gate the calendar, the prospect books at any hour, and a lockbox or smart lock grants access without a staff member driving across town. The manager sees which listings produce leads and which produce no-shows, and hands the owner a report that explains a slow lease-up with numbers. It sits alongside the property management system rather than replacing it, which is why it shows up in the integration directories of the major platforms.\n",
+  "features": [
+    "Listing import from the property management system and syndication to 20+ listing sites",
+    "Customisable lead pre-qualification gating access to the showing calendar",
+    "Self-showings via electronic lockboxes and smart locks, or in-person showings",
+    "24/7 prospect self-scheduling with reminders and automatic cancellation of unconfirmed appointments",
+    "Post-showing feedback collection and automatic application dispatch",
+    "Leasing analytics and owner reports covering leads, showings and lockbox use"
+  ],
+  "use_cases": [
+    {
+      "persona": "property-manager",
+      "job": "Fill a vacant single-family unit without a staff member attending every showing"
+    },
+    {
+      "persona": "landlord-owner",
+      "job": "Screen out unqualified enquiries before they reach the calendar and see why a listing is not converting"
+    }
+  ],
+  "personas": [
+    "property-manager",
+    "landlord-owner",
+    "investor-am"
+  ],
+  "segments": [
+    "residential",
+    "multifamily"
+  ],
+  "company_sizes": [
+    "smb",
+    "midmarket",
+    "enterprise"
+  ],
+  "pricing": {
+    "model": "per-unit",
+    "public_pricing": true,
+    "url": "https://www.tenantturner.com/pricing"
+  },
+  "integrations": [
+    "Zapier"
+  ],
+  "ai": {
+    "capabilities": [
+      "AI virtual leasing agent marketed for handling prospect enquiries"
+    ]
+  },
+  "product": {
+    "api": false,
+    "open_source": false,
+    "mobile": [],
+    "languages": [
+      "en"
+    ]
+  },
+  "alternatives": [
+    "rentredi",
+    "hemlane",
+    "knock-crm"
+  ],
+  "reviews": [],
+  "signals": {
+    "pricing": "https://tenantturner.com/plans-pricing",
+    "privacy": "https://tenantturner.com/privacy-policy",
+    "status": "https://status.tenantturner.com",
+    "site_languages": [
+      "en"
+    ],
+    "checked_on": "2026-08-26"
+  },
+  "sources": [
+    {
+      "url": "https://www.tenantturner.com",
+      "note": "site éditeur"
+    },
+    {
+      "url": "https://www.tenantturner.com/pricing",
+      "note": "site éditeur, tarifs publics"
+    },
+    {
+      "url": "https://www.buildium.com/integrations/",
+      "note": "source de découverte"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-26"
+}

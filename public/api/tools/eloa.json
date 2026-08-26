@@ -1,0 +1,91 @@
+{
+  "slug": "eloa",
+  "name": "Eloa",
+  "editor": "Eloa",
+  "website": "https://www.eloa.io",
+  "hq_country": "FR",
+  "markets": [
+    "FR"
+  ],
+  "category": "lending-mortgage",
+  "also_in": [
+    "crm-lead"
+  ],
+  "positioning": "French origination platform for credit intermediaries: simulate a mortgage, assemble the borrower file, apply each bank convention, invoice the commission.",
+  "description": "Eloa publishes eCredits, a configurable platform for regulated credit intermediaries in France, alongside eImmo for rental and renovation financing and eMobilite for vehicle dealers. eCredits covers mortgage, consumer, professional and debt consolidation lending. Its calculation engine produces amortising, zero-interest, interest-only, bridge, stepped and smoothed loan scenarios, and applies the rate grids and document requirements the broker has configured for each partner bank. It also handles commission, invoicing and activity reporting, and offers a broker website module. The editor states more than 20,000 professionals use it.\n",
+  "real_estate_use": "A French mortgage broker is an IOBSP: the file it assembles has to satisfy both the borrower and a bank whose rate grid, document list and commission terms differ from every other bank's. Eloa is where that file lives from the first simulation to the accepted offer. The broker qualifies affordability with the simulators, which create the case and carry the data forward instead of being re-keyed, then compares scenarios across the banks configured in its own conventions. Because commissioning and invoicing sit in the same tool, a network can see per-branch and per-broker production without exporting anything. Agencies and developers meet it from the other side, as the financing partner's system that tells them whether a buyer is financeable.\n",
+  "features": [
+    "Mortgage simulators covering amortising, zero-interest, interest-only, bridge, stepped and smoothed loans",
+    "Bank conventions configured per network or branch: rate grids, required documents, invoicing, commission",
+    "Automatic pre-qualification that opens the case file from the simulation without re-keying",
+    "Commission, invoicing and payment tracking for brokers and IOBSP agents",
+    "Configurable case stages, user rights and document completeness rules",
+    "Broker website module and embeddable calculators"
+  ],
+  "use_cases": [
+    {
+      "persona": "lender-broker",
+      "job": "Compare financing scenarios across partner banks for one borrower and produce the funding plan the client signs"
+    },
+    {
+      "persona": "brokerage",
+      "job": "Track production and commission per branch and per broker without leaving the origination tool"
+    }
+  ],
+  "personas": [
+    "lender-broker",
+    "agent-broker",
+    "brokerage"
+  ],
+  "segments": [
+    "residential",
+    "mixed-use"
+  ],
+  "company_sizes": [
+    "solo",
+    "smb",
+    "midmarket",
+    "enterprise"
+  ],
+  "pricing": {
+    "model": "subscription",
+    "public_pricing": false
+  },
+  "ai": {
+    "capabilities": [
+      "Assistant marketed as IA Courtier for speeding up loan file processing"
+    ]
+  },
+  "product": {
+    "api": true,
+    "open_source": false,
+    "mobile": [],
+    "languages": [
+      "fr"
+    ]
+  },
+  "reviews": [],
+  "signals": {
+    "privacy": "https://www.eloa.io/mentions-legales",
+    "site_languages": [
+      "fr"
+    ],
+    "checked_on": "2026-08-26"
+  },
+  "sources": [
+    {
+      "url": "https://www.eloa.io",
+      "note": "site éditeur"
+    },
+    {
+      "url": "https://www.eloa.io/ecredits-immobilier",
+      "note": "site éditeur, page produit crédit immobilier"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-26"
+}

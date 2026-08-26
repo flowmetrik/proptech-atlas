@@ -4,7 +4,7 @@
   "label_fr": "CRM & gestion des leads",
   "summary_en": "Capture, qualify and nurture buyer, seller and tenant leads.",
   "summary_fr": "Capter, qualifier et travailler les leads acquéreurs, vendeurs et locataires.",
-  "count": 26,
+  "count": 28,
   "tools": [
     {
       "slug": "adapt-immo",
@@ -431,6 +431,97 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "eloa",
+      "name": "Eloa",
+      "editor": "Eloa",
+      "website": "https://www.eloa.io",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "lending-mortgage",
+      "also_in": [
+        "crm-lead"
+      ],
+      "positioning": "French origination platform for credit intermediaries: simulate a mortgage, assemble the borrower file, apply each bank convention, invoice the commission.",
+      "description": "Eloa publishes eCredits, a configurable platform for regulated credit intermediaries in France, alongside eImmo for rental and renovation financing and eMobilite for vehicle dealers. eCredits covers mortgage, consumer, professional and debt consolidation lending. Its calculation engine produces amortising, zero-interest, interest-only, bridge, stepped and smoothed loan scenarios, and applies the rate grids and document requirements the broker has configured for each partner bank. It also handles commission, invoicing and activity reporting, and offers a broker website module. The editor states more than 20,000 professionals use it.\n",
+      "real_estate_use": "A French mortgage broker is an IOBSP: the file it assembles has to satisfy both the borrower and a bank whose rate grid, document list and commission terms differ from every other bank's. Eloa is where that file lives from the first simulation to the accepted offer. The broker qualifies affordability with the simulators, which create the case and carry the data forward instead of being re-keyed, then compares scenarios across the banks configured in its own conventions. Because commissioning and invoicing sit in the same tool, a network can see per-branch and per-broker production without exporting anything. Agencies and developers meet it from the other side, as the financing partner's system that tells them whether a buyer is financeable.\n",
+      "features": [
+        "Mortgage simulators covering amortising, zero-interest, interest-only, bridge, stepped and smoothed loans",
+        "Bank conventions configured per network or branch: rate grids, required documents, invoicing, commission",
+        "Automatic pre-qualification that opens the case file from the simulation without re-keying",
+        "Commission, invoicing and payment tracking for brokers and IOBSP agents",
+        "Configurable case stages, user rights and document completeness rules",
+        "Broker website module and embeddable calculators"
+      ],
+      "use_cases": [
+        {
+          "persona": "lender-broker",
+          "job": "Compare financing scenarios across partner banks for one borrower and produce the funding plan the client signs"
+        },
+        {
+          "persona": "brokerage",
+          "job": "Track production and commission per branch and per broker without leaving the origination tool"
+        }
+      ],
+      "personas": [
+        "lender-broker",
+        "agent-broker",
+        "brokerage"
+      ],
+      "segments": [
+        "residential",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "ai": {
+        "capabilities": [
+          "Assistant marketed as IA Courtier for speeding up loan file processing"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "reviews": [],
+      "signals": {
+        "privacy": "https://www.eloa.io/mentions-legales",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-26"
+      },
+      "sources": [
+        {
+          "url": "https://www.eloa.io",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://www.eloa.io/ecredits-immobilier",
+          "note": "site éditeur, page produit crédit immobilier"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-26"
     },
     {
       "slug": "eudonet-immobilier",
@@ -2334,6 +2425,112 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "tenant-turner",
+      "name": "Tenant Turner",
+      "editor": "Tenant Turner, Inc.",
+      "website": "https://www.tenantturner.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "property-management",
+      "also_in": [
+        "listing-syndication",
+        "crm-lead"
+      ],
+      "positioning": "Leasing automation for US property managers: syndicate the listing, pre-qualify the lead, let the prospect book a showing and open the door themselves.",
+      "description": "Tenant Turner automates the leasing cycle between a vacant unit and a signed lease. It imports listings from the property management system and pushes them to more than twenty listing sites, applies the manager's own pre-qualification criteria before a prospect can book, and offers either in-person showings or self-showings through electronic lockboxes and smart locks. Prospects self-schedule around the clock; reminders, cancellation of unconfirmed appointments, post-showing feedback collection and application dispatch run automatically. The Ultra plan adds a live answering service for leasing calls. Reporting covers lead flow, showing activity, lockbox use and owner-facing performance.\n",
+      "real_estate_use": "Vacancy costs a US property manager more than almost anything else in the operating budget, and the bottleneck is rarely demand — it is the coordination. Someone has to answer the phone, decide whether the caller meets the income and pet rules, agree a time, and physically be at the property. Tenant Turner removes all four steps: the pre-qualification questions gate the calendar, the prospect books at any hour, and a lockbox or smart lock grants access without a staff member driving across town. The manager sees which listings produce leads and which produce no-shows, and hands the owner a report that explains a slow lease-up with numbers. It sits alongside the property management system rather than replacing it, which is why it shows up in the integration directories of the major platforms.\n",
+      "features": [
+        "Listing import from the property management system and syndication to 20+ listing sites",
+        "Customisable lead pre-qualification gating access to the showing calendar",
+        "Self-showings via electronic lockboxes and smart locks, or in-person showings",
+        "24/7 prospect self-scheduling with reminders and automatic cancellation of unconfirmed appointments",
+        "Post-showing feedback collection and automatic application dispatch",
+        "Leasing analytics and owner reports covering leads, showings and lockbox use"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Fill a vacant single-family unit without a staff member attending every showing"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "Screen out unqualified enquiries before they reach the calendar and see why a listing is not converting"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "landlord-owner",
+        "investor-am"
+      ],
+      "segments": [
+        "residential",
+        "multifamily"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "per-unit",
+        "public_pricing": true,
+        "url": "https://www.tenantturner.com/pricing"
+      },
+      "integrations": [
+        "Zapier"
+      ],
+      "ai": {
+        "capabilities": [
+          "AI virtual leasing agent marketed for handling prospect enquiries"
+        ]
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "rentredi",
+        "hemlane",
+        "knock-crm"
+      ],
+      "reviews": [],
+      "signals": {
+        "pricing": "https://tenantturner.com/plans-pricing",
+        "privacy": "https://tenantturner.com/privacy-policy",
+        "status": "https://status.tenantturner.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-26"
+      },
+      "sources": [
+        {
+          "url": "https://www.tenantturner.com",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://www.tenantturner.com/pricing",
+          "note": "site éditeur, tarifs publics"
+        },
+        {
+          "url": "https://www.buildium.com/integrations/",
+          "note": "source de découverte"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-26"
     },
     {
       "slug": "urbanease",

@@ -33,5 +33,33 @@
     "found": 0,
     "kept": 0,
     "last_error": "URL du registre morte (certificat expiré sur laboiteimmo.com, /partenaires en 404 sur la-boite-immo.com) — URL corrigée, aucun annuaire de partenaires publié"
+  },
+  "buildium-marketplace": {
+    "last_swept": "2026-08-26",
+    "runs": 1,
+    "found": 17,
+    "kept": 1,
+    "last_error": null
+  },
+  "unis-partenaires": {
+    "last_swept": "2026-08-26",
+    "runs": 1,
+    "found": 3,
+    "kept": 1,
+    "last_error": "Le site ne publie pas d annuaire de partenaires : seuls trois liens sortants exploitables sur toute la navigation (amanda.immo, clameur.fr, bienici.com). Faible rendement structurel, pas une erreur de balayage."
+  },
+  "appvizer": {
+    "last_swept": "2026-08-26",
+    "runs": 1,
+    "found": 6,
+    "kept": 2,
+    "last_error": null
+  },
+  "fnaim-partenaires": {
+    "last_swept": "2026-08-26",
+    "runs": 1,
+    "found": 1,
+    "kept": 0,
+    "last_error": "Aucun annuaire de partenaires publie : /partenaires et /1050-nos-partenaires.htm en 404, et le seul lien sortant du site est une ecole de formation (groupe-esi.fr), hors perimetre. Source a requalifier ou a retirer."
   }
 }

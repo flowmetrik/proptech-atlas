@@ -1,0 +1,64 @@
+slug: clameur
+name: CLAMEUR
+editor: Association Clameur
+website: https://clameur.fr
+hq_country: FR
+markets: [FR]
+category: market-data
+also_in: [estimation-pricing]
+positioning: "French private-rental rent observatory built from signed leases collected at source, with a mapping application for members and free published trends."
+description: >
+  CLAMEUR is an association that produces an observatory of rents in the French
+  private rental sector. It collects signed leases through partnerships with
+  professional unions, federations, networks and managers rather than from
+  advertisements, and states it holds more than a million references per year. Free
+  national, regional, departmental and metropolitan trend pages publish rents
+  excluding charges and their four-year evolution by property type. Members and
+  contributors additionally get a web application with mapped navigation, indicators,
+  charts, an advanced geolocated search and access to the underlying lease references
+  down to municipality and IRIS zone level. Bespoke studies can be commissioned.
+real_estate_use: >
+  Rent evidence in France is scarce outside the regulated observatories, and portal
+  asking prices are not the same thing as signed rents. CLAMEUR is the
+  counter-evidence: it is built from executed leases handed over by managers, so a
+  letting agent pricing a lot, a landlord arguing an indexation, or an investor
+  testing a yield assumption can cite an actual market rent for the commune rather
+  than an advertised one. The granularity down to IRIS zone is what makes it usable in
+  cities where two neighbourhoods a kilometre apart do not rent alike. Local
+  authorities and rent-control policy work use it for the same reason — it is one of
+  the few sources covering medium-sized towns and rural areas.
+features:
+  - Rent observatory built from signed leases collected through professional partners
+  - "Free national, regional, departmental and metropolitan trend pages with four-year evolution"
+  - Member web application with mapped navigation and charted indicators
+  - Granularity down to municipality and IRIS zone
+  - Advanced geolocated search over lease references
+  - Commissioned bespoke studies
+use_cases:
+  - persona: property-manager
+    job: Price a rental lot against signed rents in the same commune rather than against portal asking prices
+  - persona: investor-am
+    job: Test a rental yield assumption on a medium-sized town that commercial datasets barely cover
+personas: [property-manager, investor-am, appraiser, landlord-owner]
+segments: [residential, multifamily]
+company_sizes: [smb, midmarket, enterprise]
+pricing:
+  model: quote
+  public_pricing: false
+product:
+  api: false
+  open_source: false
+  mobile: []
+  languages: [fr]
+alternatives: [yanport, meilleursagents, pricehubble]
+reviews: []
+signals:
+  privacy: https://clameur.fr/mentions-legales
+  site_languages: [fr]
+  checked_on: "2026-08-26"
+sources:
+  - { url: https://clameur.fr, note: site éditeur }
+  - { url: https://clameur.fr/qui-sommes-nous/, note: "site éditeur, présentation de l'observatoire" }
+  - { url: https://www.unis-immo.fr, note: source de découverte }
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-26"

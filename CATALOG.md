@@ -2,7 +2,7 @@
 
 <!-- Généré par `npm run data:emit`. Ne pas éditer à la main : éditer `data/tools/*.yaml`. -->
 
-166 produits · 100 🇺🇸 · 95 🇫🇷 · mis à jour le 2026-08-25
+174 produits · 101 🇺🇸 · 102 🇫🇷 · mis à jour le 2026-08-26
 
 Version navigable : https://flowmetrik.github.io/proptech-atlas/explore
 
@@ -34,6 +34,7 @@ _Piloter une vente de l'offre à l'acte — pièces, signature, conformité, com
 |---|---|---|---|
 | [dotloop](data/tools/dotloop.yaml) | Zillow Group | 🇺🇸 | From accepted offer to closing, everything a state or association form requires lives in the loop. The agent edits a purchase agreement without leaving the browser, the buyer signs on a… |
 | [Lone Wolf Transactions](data/tools/lone-wolf-transactions.yaml) | Lone Wolf Technologies | 🇺🇸 | Because association distribution puts it in front of a very large share of US agents, it is often the default place a purchase agreement is drafted. A brokerage then layers broker review… |
+| [Sinimo](data/tools/sinimo.yaml) | Groupe REALTY | 🇫🇷 | A French agency cannot sell or let anything without a signed mandate, and the paperwork around it is codified: the Hoguet law imposes a numbered mandate register, the SRU law imposes a… |
 | [SkySlope](data/tools/skyslope.yaml) | SkySlope | 🇺🇸 | A brokerage with a legal obligation to retain complete files uses SkySlope to enforce what "complete" means. Each transaction type carries a required-document checklist, files route to a… |
 
 ## Portails & places de marché · Portals & marketplaces
@@ -63,6 +64,7 @@ _Comparables, propriétaires, transactions, loyers, fréquentation et les jeux d
 | [ATTOM Data](data/tools/attom-data.yaml) | ATTOM | 🇺🇸 | When a proptech product shows an owner's name, last sale price and estimated value on a property page, the data underneath is often licensed rather than collected. ATTOM is one of the… |
 | [Cherre](data/tools/cherre.yaml) | Cherre | 🇺🇸 | A large owner-operator typically has the rent roll in Yardi, valuations in ARGUS, market data from a vendor and a dozen spreadsheets — with no shared key between them. Cherre matches… |
 | [Cityscan](data/tools/cityscan.yaml) | Cityscan | 🇫🇷 | Location quality is the argument every French listing makes and none evidences. Cityscan turns it into a scored report an agency can attach to a listing or a valuation, and that a… |
+| [CLAMEUR](data/tools/clameur.yaml) | Association Clameur | 🇫🇷 | Rent evidence in France is scarce outside the regulated observatories, and portal asking prices are not the same thing as signed rents. CLAMEUR is the counter-evidence: it is built from… |
 | [CoStar](data/tools/costar.yaml) | CoStar Group | 🇺🇸 | It is the reference for the questions that precede a deal: what is the true rentable area, who owns the entity behind the LLC, what did the last three comparable leases sign at, what is… |
 | [DVF — Demandes de valeurs foncières](data/tools/dvf.yaml) | DGFiP / Etalab | 🇫🇷 | It is the closest thing France has to public sale comparables. An agent checks what the flat two floors down actually sold for, an investor tests a seller's price claim, an appraiser… |
 | [Fluximmo](data/tools/fluximmo.yaml) | Fluximmo | 🇫🇷 | It is infrastructure rather than an end-user product: a pige tool, a market study or an internal prospecting system uses the feed instead of scraping portals themselves. The… |
@@ -115,6 +117,7 @@ _Baux, quittances, propriétaires, locataires, travaux et comptabilité mandant.
 | [Aareon](data/tools/aareon.yaml) | Aareon | 🇫🇷 | French social housing operates under rules no commercial system covers: regulated rents, the allocation commission, the surface and resource ceilings, the supplément de loyer. Aareon's… |
 | [AppFolio Property Manager](data/tools/appfolio.yaml) | AppFolio | 🇺🇸 | A management company running a few thousand units uses it as the system of record for the whole operation. A vacancy is syndicated to the rental portals, an applicant is screened and… |
 | [Avail](data/tools/avail.yaml) | Realtor.com (Move, Inc.) | 🇺🇸 | The distribution matters: a unit listed in Avail appears on Realtor.com and partner sites, so a landlord with two properties reaches the same audience as a management company. Rent… |
+| [BailFacile](data/tools/bailfacile.yaml) | BailFacile | 🇫🇷 | A French landlord who refuses a management mandate inherits the mandate's obligations anyway: a lease that satisfies the ALUR law, an entry and exit condition report that will hold up if… |
 | [Buildium](data/tools/buildium.yaml) | RealPage | 🇺🇸 | It sits at the tier below AppFolio and Entrata: a company managing a few hundred doors, often mixed between rentals and homeowner associations. The HOA module handles association dues… |
 | [DoorLoop](data/tools/doorloop.yaml) | DoorLoop | 🇺🇸 | Its typical buyer is a manager leaving spreadsheets, or one leaving an older system whose interface their staff never mastered. The practical argument is onboarding time: a small team… |
 | [Entrata](data/tools/entrata.yaml) | Entrata | 🇺🇸 | Large apartment operators use it to run a lease-up and a stabilised asset on the same ledger. A prospect finds the community site, is answered by the AI leasing agent at midnight, tours… |
@@ -123,11 +126,13 @@ _Baux, quittances, propriétaires, locataires, travaux et comptabilité mandant.
 | [Innago](data/tools/innago.yaml) | Innago | 🇺🇸 | It is heavily used for student housing and small multifamily, where a single unit may have four tenants each paying a share of the rent. Splitting a lease across roommates, collecting… |
 | [LockImmo](data/tools/lockimmo.yaml) | LockImmo | 🇫🇷 | A French agency frequently holds all three activities under one roof, and the accounting requirements differ for each: mandant accounting for gérance, separate accounts per copropriété… |
 | [Propertyware](data/tools/propertyware.yaml) | RealPage | 🇺🇸 | Managing 800 scattered houses is not managing an 800-unit building. Every property has its own owner with its own management agreement, its own maintenance reserve and its own reporting… |
+| [Qalimo](data/tools/qalimo.yaml) | Qalimo | 🇫🇷 | The hard part of self-managed rental in France is not writing the lease, it is knowing whether the rent actually arrived and what the tax position looks like at year end. Qalimo bolts… |
 | [RealPage](data/tools/realpage.yaml) | RealPage (Thoma Bravo) | 🇺🇸 | Large operators use it for the modules they cannot easily build: screening at scale, utility recovery, and above all revenue management — a model that recommends a rent for every unit… |
 | [Rent Manager](data/tools/rentmanager.yaml) | London Computer Systems | 🇺🇸 | It wins where the standard product breaks. A portfolio mixing apartments, commercial suites, storage units and ground leases has billing rules no template covers; Rent Manager lets an… |
 | [Rentila](data/tools/rentila.yaml) | Rentila | 🇫🇷 | A French private landlord has three recurring obligations: a compliant lease, a monthly quittance when the tenant asks for one, and an accurate annual charge regularisation. Rentila… |
 | [RentRedi](data/tools/rentredi.yaml) | RentRedi | 🇺🇸 | Aimed at the small investor building a portfolio: because pricing does not scale per door, going from five units to twenty costs nothing more. Tenants submit maintenance issues by video… |
 | [Smartloc](data/tools/smartloc.yaml) | Smartloc | 🇫🇷 | Self-managing landlords make their worst decision at selection, not at management, and the document verification step is where a service earns its fee. Smartloc chains verification… |
+| [Tenant Turner](data/tools/tenant-turner.yaml) | Tenant Turner, Inc. | 🇺🇸 | Vacancy costs a US property manager more than almost anything else in the operating budget, and the bottleneck is rarely demand — it is the coordination. Someone has to answer the phone… |
 | [TenantCloud](data/tools/tenantcloud.yaml) | TenantCloud | 🇺🇸 | The tenant-side and vendor-side accounts are the point of difference: a tenant keeps their rental history and payment record across landlords, and a plumber receives assignments through… |
 | [TurboTenant](data/tools/turbotenant.yaml) | TurboTenant | 🇺🇸 | The independent landlord's problem is not scale, it is competence: writing a compliant lease, running a legitimate credit and background check, and documenting rent payment for tax time.… |
 | [Yardi Breeze](data/tools/yardi-breeze.yaml) | Yardi Systems | 🇺🇸 | Chosen by managers who want Yardi's accounting model — property-level ledgers, owner draws, CAM reconciliation in the Premier tier — without a six-month Voyager implementation. It is… |
@@ -142,6 +147,7 @@ _Gérer l'immeuble en copropriété — budgets, AG, appels de fonds, travaux._
 | [Gercop](data/tools/gercop.yaml) | Septeo | 🇫🇷 | At the scale of tens of thousands of lots across multiple branches, the operational problem moves from bookkeeping to organisation: who manages which building, which assemblies fall in… |
 | [ICS](data/tools/ics.yaml) | ICS | 🇫🇷 | Property management firms and syndics in France use ICS to run their daily back office: co-ownership accounting, fund calls and general assembly administration through the syndic module… |
 | [Matera](data/tools/matera.yaml) | Matera | 🇫🇷 | A council of co-owners who wants to drop a traditional syndic firm and take direct control of the building's finances and decisions logs into Matera to track the budget, issue and follow… |
+| [Partnerimmo](data/tools/partnerimmo.yaml) | Partnerimmo | 🇫🇷 | A French cabinet d'administration de biens runs two regulated books at once — the landlord's account in gérance and the co-ownership's account in syndic — and both are audited.… |
 | [Powimo](data/tools/powimo.yaml) | Seiitra | 🇫🇷 | A syndic manager uses Powimo to track co-ownership mandates, run accounting per building, prepare and hold dematerialized general assemblies, and issue fund calls to co-owners. A rental… |
 | [Syment](data/tools/syment.yaml) | Syment | 🇫🇷 | A significant share of small French buildings are managed by a syndic bénévole — a co-owner who is not an accountant. That case has particular requirements: the accounting must be… |
 | [Vilogi](data/tools/vilogi.yaml) | Vilogi | 🇫🇷 | A French copropriété is a legal entity with its own accounts, its own budget voted in assembly, and a mandatory extranet for co-owners. Vilogi encodes that cycle: the provisional budget… |
@@ -175,6 +181,8 @@ _Monter, tarifer et gérer le crédit immobilier._
 | Produit | Éditeur | Marchés | Usage en immobilier |
 |---|---|---|---|
 | [Blend](data/tools/blend.yaml) | Blend Labs | 🇺🇸 | The failure point in mortgage is the borrower experience: a form that asks for two years of bank statements as PDFs loses applicants to a competitor. Blend replaces that with direct… |
+| [Créditéo](data/tools/crediteo.yaml) | Créditéo | 🇫🇷 | A broker's day is a queue of half-complete files, each waiting on a document or a lender's answer. Créditéo is the desk where that queue is ordered: configurable stages say where each… |
+| [Eloa](data/tools/eloa.yaml) | Eloa | 🇫🇷 | A French mortgage broker is an IOBSP: the file it assembles has to satisfy both the borrower and a bank whose rate grid, document list and commission terms differ from every other… |
 | [Encompass](data/tools/encompass.yaml) | ICE Mortgage Technology | 🇺🇸 | A residential mortgage is a regulated manufacturing process — disclosure timing, fee tolerance, appraisal ordering, TRID compliance — where a missed deadline is a legal defect, not an… |
 | [Floify](data/tools/floify.yaml) | Floify (Porch Group) | 🇺🇸 | Most of a loan officer's day is chasing paperwork and telling agents where the file stands. Floify automates both — it requests missing documents until they arrive, and notifies the… |
 

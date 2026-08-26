@@ -4,7 +4,7 @@
   "label_fr": "Gestion locative résidentielle",
   "summary_en": "Leases, rent, owners, tenants, maintenance and trust accounting.",
   "summary_fr": "Baux, quittances, propriétaires, locataires, travaux et comptabilité mandant.",
-  "count": 39,
+  "count": 43,
   "tools": [
     {
       "slug": "aareon",
@@ -419,6 +419,97 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "bailfacile",
+      "name": "BailFacile",
+      "editor": "BailFacile",
+      "website": "https://www.bailfacile.fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "property-management",
+      "also_in": [
+        "back-office-accounting"
+      ],
+      "positioning": "Rental management for French landlords who manage their own lots: compliant documents, automated rent receipts and indexation, e-signature, income and expense tracking.",
+      "description": "BailFacile is a French web application for private landlords managing their own rentals. It generates more than fifty pre-filled legal documents covering tenant arrival, tenancy, works, disputes and departure, and keeps them current with French rental law. It automates recurring obligations such as rent receipts and annual rent indexation, provides unlimited electronic signature and a smartphone condition report, sends registered letters from the account, and tracks one-off and recurring income and expenses to prepare the tax return. A tenant portal carries documents and exchanges. The editor states more than 100,000 landlords use it.\n",
+      "real_estate_use": "A French landlord who refuses a management mandate inherits the mandate's obligations anyway: a lease that satisfies the ALUR law, an entry and exit condition report that will hold up if the deposit is contested, a rent receipt every month, an indexation that has to be claimed within a year or is lost. BailFacile is what replaces the spreadsheet and the downloaded Word template for that person. The value sits in the calendar as much as the documents — the tool knows which action is due and issues it. Small letting agencies and SCI owners use it the same way, and the income and expense ledger is aimed squarely at the moment the landlord fills in the rental income section of their return.\n",
+      "features": [
+        "Over fifty pre-filled legal documents kept current with French rental law",
+        "Automated rent receipts and annual rent indexation",
+        "Unlimited electronic signature and smartphone condition reports",
+        "Registered letters sent from the account",
+        "One-off and recurring income and expense tracking for the tax return",
+        "Tenant portal with unlimited document storage"
+      ],
+      "use_cases": [
+        {
+          "persona": "landlord-owner",
+          "job": "Sign a compliant lease with a new tenant and put the monthly receipts and yearly indexation on autopilot"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "Record rent, loan, insurance and works flows through the year to prepare the rental income declaration"
+        }
+      ],
+      "personas": [
+        "landlord-owner",
+        "property-manager"
+      ],
+      "segments": [
+        "residential",
+        "coliving-student"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://www.bailfacile.fr/tarifs"
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "rentila",
+        "smartloc",
+        "gererseul",
+        "ownily"
+      ],
+      "reviews": [],
+      "signals": {
+        "security": "https://www.bailfacile.fr/fonctionnalites/securite",
+        "privacy": "https://www.bailfacile.fr/mentions-legales",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-26"
+      },
+      "sources": [
+        {
+          "url": "https://www.bailfacile.fr",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://www.bailfacile.fr/tarifs",
+          "note": "site éditeur, tarifs publics"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-26"
     },
     {
       "slug": "buildium",
@@ -2345,6 +2436,101 @@
       "updated": "2026-08-25"
     },
     {
+      "slug": "partnerimmo",
+      "name": "Partnerimmo",
+      "editor": "Partnerimmo",
+      "website": "https://www.partnerimmo.fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "syndic-copro",
+      "also_in": [
+        "property-management",
+        "back-office-accounting"
+      ],
+      "founded": 2006,
+      "positioning": "Full-web French software for property administrators, sold as two modules: rental management and condominium management, sharing one accounting core.",
+      "description": "Partnerimmo is a hosted French application for property administrators, condominium managers and letting agents, in business since 2006. The rental module covers lots, rent calls, receipts, dunning, automated accounting and accounting-entry export, plus digital condition reports with embedded signature. The condominium module covers budgets, calls for funds, bank reconciliation, general meetings with votes and minutes, works and incident tracking. Both expose an extranet to landlords, tenants, co-owners and the condominium council. The editor states 195,000 tenants and 395,000 co-owners are managed on it in 2026, and publishes a starting price.\n",
+      "real_estate_use": "A French cabinet d'administration de biens runs two regulated books at once — the landlord's account in gérance and the co-ownership's account in syndic — and both are audited. Partnerimmo is the system of record for that work: it produces the quarterly rent call and the owner statement on one side, the budget, the calls for funds and the general meeting file on the other, and exports entries to the accountant rather than pretending to replace them. The extranet is what removes the phone calls: a co-owner checks their balance and the meeting minutes themselves. The editor migrates the incumbent database as part of onboarding, which is the real decision point — a cabinet changes gérance software once a decade because the accounting history has to survive the move.\n",
+      "features": [
+        "Rent calls, receipts, dunning and automated rental accounting with entry export",
+        "Condominium budgets, calls for funds and bank reconciliation",
+        "General meetings: convening, votes and minutes",
+        "Digital condition reports with embedded signature, usable on site",
+        "Extranet for landlords, tenants, co-owners and the condominium council",
+        "Works and incident tracking with quotes"
+      ],
+      "use_cases": [
+        {
+          "persona": "syndic-manager",
+          "job": "Run a building's financial year end to end — budget, calls for funds, general meeting, minutes — without leaving one file"
+        },
+        {
+          "persona": "property-manager",
+          "job": "Issue the quarterly rent call and owner statement for a managed portfolio and hand clean entries to the accountant"
+        }
+      ],
+      "personas": [
+        "syndic-manager",
+        "property-manager",
+        "brokerage"
+      ],
+      "segments": [
+        "residential",
+        "multifamily"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://www.partnerimmo.fr"
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "vilogi",
+        "gercop",
+        "matera",
+        "powimo"
+      ],
+      "reviews": [],
+      "signals": {
+        "pricing": "https://www.partnerimmo.fr",
+        "status": "https://www.partnerimmo.fr",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-26"
+      },
+      "sources": [
+        {
+          "url": "https://www.partnerimmo.fr",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://www.partnerimmo.fr/un-logiciel-de-copropriete-pour-la-comptabilite",
+          "note": "site éditeur, module copropriété"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-26"
+    },
+    {
       "slug": "powimo",
       "name": "Powimo",
       "editor": "Seiitra",
@@ -2640,6 +2826,95 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "qalimo",
+      "name": "Qalimo",
+      "editor": "Qalimo",
+      "website": "https://www.qalimo.fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "property-management",
+      "also_in": [
+        "back-office-accounting",
+        "tenant-screening"
+      ],
+      "positioning": "French rental management for landlords, with bank reconciliation built in and accounting, insurance and legal services sold alongside the software.",
+      "description": "Qalimo is a French rental management application for private landlords, SCI and furnished-rental owners, also sold to letting agencies, property companies and local authorities. The software covers lease drafting, digital condition reports with photographs, automatic generation and dispatch of rent receipts, tenant application screening and bank synchronisation that reconciles incoming rent automatically. Around it the editor sells accounting services for furnished rental, SCI and unfurnished rental income including filed tax returns, plus non-occupying owner insurance, rent guarantee and legal protection. Lease templates cover furnished, unfurnished, student, mobility, shared, commercial, professional and parking tenancies.\n",
+      "real_estate_use": "The hard part of self-managed rental in France is not writing the lease, it is knowing whether the rent actually arrived and what the tax position looks like at year end. Qalimo bolts bank synchronisation onto rental management so unpaid rent surfaces without the landlord reading a bank statement, and then sells the accounting work that follows — a furnished landlord under the real regime owes a balance sheet and a filed tax package, and most do not want to produce it. Lease coverage extends past the residential lot to commercial, professional and parking tenancies, which is what brings small property companies and municipalities to it rather than a pure landlord tool.\n",
+      "features": [
+        "Lease templates for furnished, unfurnished, student, mobility, shared, commercial, professional and parking tenancies",
+        "Digital condition reports with photographs",
+        "Automatic generation and dispatch of rent receipts",
+        "Bank synchronisation with automatic rent reconciliation",
+        "Tenant application collection and comparison",
+        "Accounting services for furnished rental, SCI and rental income, with filed tax returns"
+      ],
+      "use_cases": [
+        {
+          "persona": "landlord-owner",
+          "job": "See unpaid rent the day it is late through bank reconciliation instead of checking statements by hand"
+        },
+        {
+          "persona": "investor-am",
+          "job": "Run a small portfolio held in SCI or under the furnished regime and get the year-end tax package filed from the same tool"
+        }
+      ],
+      "personas": [
+        "landlord-owner",
+        "investor-am",
+        "property-manager"
+      ],
+      "segments": [
+        "residential",
+        "retail",
+        "coliving-student"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://www.qalimo.fr/tarifs"
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "bailfacile",
+        "rentila",
+        "ownily",
+        "smartloc"
+      ],
+      "reviews": [],
+      "signals": {
+        "privacy": "https://www.qalimo.fr/politique-de-confidentialite",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-26"
+      },
+      "sources": [
+        {
+          "url": "https://www.qalimo.fr",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-26"
     },
     {
       "slug": "realpage",
@@ -3437,6 +3712,112 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "tenant-turner",
+      "name": "Tenant Turner",
+      "editor": "Tenant Turner, Inc.",
+      "website": "https://www.tenantturner.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "property-management",
+      "also_in": [
+        "listing-syndication",
+        "crm-lead"
+      ],
+      "positioning": "Leasing automation for US property managers: syndicate the listing, pre-qualify the lead, let the prospect book a showing and open the door themselves.",
+      "description": "Tenant Turner automates the leasing cycle between a vacant unit and a signed lease. It imports listings from the property management system and pushes them to more than twenty listing sites, applies the manager's own pre-qualification criteria before a prospect can book, and offers either in-person showings or self-showings through electronic lockboxes and smart locks. Prospects self-schedule around the clock; reminders, cancellation of unconfirmed appointments, post-showing feedback collection and application dispatch run automatically. The Ultra plan adds a live answering service for leasing calls. Reporting covers lead flow, showing activity, lockbox use and owner-facing performance.\n",
+      "real_estate_use": "Vacancy costs a US property manager more than almost anything else in the operating budget, and the bottleneck is rarely demand — it is the coordination. Someone has to answer the phone, decide whether the caller meets the income and pet rules, agree a time, and physically be at the property. Tenant Turner removes all four steps: the pre-qualification questions gate the calendar, the prospect books at any hour, and a lockbox or smart lock grants access without a staff member driving across town. The manager sees which listings produce leads and which produce no-shows, and hands the owner a report that explains a slow lease-up with numbers. It sits alongside the property management system rather than replacing it, which is why it shows up in the integration directories of the major platforms.\n",
+      "features": [
+        "Listing import from the property management system and syndication to 20+ listing sites",
+        "Customisable lead pre-qualification gating access to the showing calendar",
+        "Self-showings via electronic lockboxes and smart locks, or in-person showings",
+        "24/7 prospect self-scheduling with reminders and automatic cancellation of unconfirmed appointments",
+        "Post-showing feedback collection and automatic application dispatch",
+        "Leasing analytics and owner reports covering leads, showings and lockbox use"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Fill a vacant single-family unit without a staff member attending every showing"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "Screen out unqualified enquiries before they reach the calendar and see why a listing is not converting"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "landlord-owner",
+        "investor-am"
+      ],
+      "segments": [
+        "residential",
+        "multifamily"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "per-unit",
+        "public_pricing": true,
+        "url": "https://www.tenantturner.com/pricing"
+      },
+      "integrations": [
+        "Zapier"
+      ],
+      "ai": {
+        "capabilities": [
+          "AI virtual leasing agent marketed for handling prospect enquiries"
+        ]
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "rentredi",
+        "hemlane",
+        "knock-crm"
+      ],
+      "reviews": [],
+      "signals": {
+        "pricing": "https://tenantturner.com/plans-pricing",
+        "privacy": "https://tenantturner.com/privacy-policy",
+        "status": "https://status.tenantturner.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-26"
+      },
+      "sources": [
+        {
+          "url": "https://www.tenantturner.com",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://www.tenantturner.com/pricing",
+          "note": "site éditeur, tarifs publics"
+        },
+        {
+          "url": "https://www.buildium.com/integrations/",
+          "note": "source de découverte"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-26"
     },
     {
       "slug": "tenantcloud",

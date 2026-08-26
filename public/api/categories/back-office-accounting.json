@@ -4,7 +4,7 @@
   "label_fr": "Back-office & comptabilité immobilière",
   "summary_en": "Trust accounting, owner statements, commissions and brokerage back office.",
   "summary_fr": "Comptabilité mandant, reddition de comptes, commissions et back-office d'agence.",
-  "count": 25,
+  "count": 29,
   "tools": [
     {
       "slug": "aareon",
@@ -224,6 +224,97 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "bailfacile",
+      "name": "BailFacile",
+      "editor": "BailFacile",
+      "website": "https://www.bailfacile.fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "property-management",
+      "also_in": [
+        "back-office-accounting"
+      ],
+      "positioning": "Rental management for French landlords who manage their own lots: compliant documents, automated rent receipts and indexation, e-signature, income and expense tracking.",
+      "description": "BailFacile is a French web application for private landlords managing their own rentals. It generates more than fifty pre-filled legal documents covering tenant arrival, tenancy, works, disputes and departure, and keeps them current with French rental law. It automates recurring obligations such as rent receipts and annual rent indexation, provides unlimited electronic signature and a smartphone condition report, sends registered letters from the account, and tracks one-off and recurring income and expenses to prepare the tax return. A tenant portal carries documents and exchanges. The editor states more than 100,000 landlords use it.\n",
+      "real_estate_use": "A French landlord who refuses a management mandate inherits the mandate's obligations anyway: a lease that satisfies the ALUR law, an entry and exit condition report that will hold up if the deposit is contested, a rent receipt every month, an indexation that has to be claimed within a year or is lost. BailFacile is what replaces the spreadsheet and the downloaded Word template for that person. The value sits in the calendar as much as the documents — the tool knows which action is due and issues it. Small letting agencies and SCI owners use it the same way, and the income and expense ledger is aimed squarely at the moment the landlord fills in the rental income section of their return.\n",
+      "features": [
+        "Over fifty pre-filled legal documents kept current with French rental law",
+        "Automated rent receipts and annual rent indexation",
+        "Unlimited electronic signature and smartphone condition reports",
+        "Registered letters sent from the account",
+        "One-off and recurring income and expense tracking for the tax return",
+        "Tenant portal with unlimited document storage"
+      ],
+      "use_cases": [
+        {
+          "persona": "landlord-owner",
+          "job": "Sign a compliant lease with a new tenant and put the monthly receipts and yearly indexation on autopilot"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "Record rent, loan, insurance and works flows through the year to prepare the rental income declaration"
+        }
+      ],
+      "personas": [
+        "landlord-owner",
+        "property-manager"
+      ],
+      "segments": [
+        "residential",
+        "coliving-student"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://www.bailfacile.fr/tarifs"
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "rentila",
+        "smartloc",
+        "gererseul",
+        "ownily"
+      ],
+      "reviews": [],
+      "signals": {
+        "security": "https://www.bailfacile.fr/fonctionnalites/securite",
+        "privacy": "https://www.bailfacile.fr/mentions-legales",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-26"
+      },
+      "sources": [
+        {
+          "url": "https://www.bailfacile.fr",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://www.bailfacile.fr/tarifs",
+          "note": "site éditeur, tarifs publics"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-26"
     },
     {
       "slug": "baselane",
@@ -1831,6 +1922,101 @@
       "updated": "2026-08-25"
     },
     {
+      "slug": "partnerimmo",
+      "name": "Partnerimmo",
+      "editor": "Partnerimmo",
+      "website": "https://www.partnerimmo.fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "syndic-copro",
+      "also_in": [
+        "property-management",
+        "back-office-accounting"
+      ],
+      "founded": 2006,
+      "positioning": "Full-web French software for property administrators, sold as two modules: rental management and condominium management, sharing one accounting core.",
+      "description": "Partnerimmo is a hosted French application for property administrators, condominium managers and letting agents, in business since 2006. The rental module covers lots, rent calls, receipts, dunning, automated accounting and accounting-entry export, plus digital condition reports with embedded signature. The condominium module covers budgets, calls for funds, bank reconciliation, general meetings with votes and minutes, works and incident tracking. Both expose an extranet to landlords, tenants, co-owners and the condominium council. The editor states 195,000 tenants and 395,000 co-owners are managed on it in 2026, and publishes a starting price.\n",
+      "real_estate_use": "A French cabinet d'administration de biens runs two regulated books at once — the landlord's account in gérance and the co-ownership's account in syndic — and both are audited. Partnerimmo is the system of record for that work: it produces the quarterly rent call and the owner statement on one side, the budget, the calls for funds and the general meeting file on the other, and exports entries to the accountant rather than pretending to replace them. The extranet is what removes the phone calls: a co-owner checks their balance and the meeting minutes themselves. The editor migrates the incumbent database as part of onboarding, which is the real decision point — a cabinet changes gérance software once a decade because the accounting history has to survive the move.\n",
+      "features": [
+        "Rent calls, receipts, dunning and automated rental accounting with entry export",
+        "Condominium budgets, calls for funds and bank reconciliation",
+        "General meetings: convening, votes and minutes",
+        "Digital condition reports with embedded signature, usable on site",
+        "Extranet for landlords, tenants, co-owners and the condominium council",
+        "Works and incident tracking with quotes"
+      ],
+      "use_cases": [
+        {
+          "persona": "syndic-manager",
+          "job": "Run a building's financial year end to end — budget, calls for funds, general meeting, minutes — without leaving one file"
+        },
+        {
+          "persona": "property-manager",
+          "job": "Issue the quarterly rent call and owner statement for a managed portfolio and hand clean entries to the accountant"
+        }
+      ],
+      "personas": [
+        "syndic-manager",
+        "property-manager",
+        "brokerage"
+      ],
+      "segments": [
+        "residential",
+        "multifamily"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://www.partnerimmo.fr"
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "vilogi",
+        "gercop",
+        "matera",
+        "powimo"
+      ],
+      "reviews": [],
+      "signals": {
+        "pricing": "https://www.partnerimmo.fr",
+        "status": "https://www.partnerimmo.fr",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-26"
+      },
+      "sources": [
+        {
+          "url": "https://www.partnerimmo.fr",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://www.partnerimmo.fr/un-logiciel-de-copropriete-pour-la-comptabilite",
+          "note": "site éditeur, module copropriété"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-26"
+    },
+    {
       "slug": "propertyware",
       "name": "Propertyware",
       "editor": "RealPage",
@@ -1931,6 +2117,95 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "qalimo",
+      "name": "Qalimo",
+      "editor": "Qalimo",
+      "website": "https://www.qalimo.fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "property-management",
+      "also_in": [
+        "back-office-accounting",
+        "tenant-screening"
+      ],
+      "positioning": "French rental management for landlords, with bank reconciliation built in and accounting, insurance and legal services sold alongside the software.",
+      "description": "Qalimo is a French rental management application for private landlords, SCI and furnished-rental owners, also sold to letting agencies, property companies and local authorities. The software covers lease drafting, digital condition reports with photographs, automatic generation and dispatch of rent receipts, tenant application screening and bank synchronisation that reconciles incoming rent automatically. Around it the editor sells accounting services for furnished rental, SCI and unfurnished rental income including filed tax returns, plus non-occupying owner insurance, rent guarantee and legal protection. Lease templates cover furnished, unfurnished, student, mobility, shared, commercial, professional and parking tenancies.\n",
+      "real_estate_use": "The hard part of self-managed rental in France is not writing the lease, it is knowing whether the rent actually arrived and what the tax position looks like at year end. Qalimo bolts bank synchronisation onto rental management so unpaid rent surfaces without the landlord reading a bank statement, and then sells the accounting work that follows — a furnished landlord under the real regime owes a balance sheet and a filed tax package, and most do not want to produce it. Lease coverage extends past the residential lot to commercial, professional and parking tenancies, which is what brings small property companies and municipalities to it rather than a pure landlord tool.\n",
+      "features": [
+        "Lease templates for furnished, unfurnished, student, mobility, shared, commercial, professional and parking tenancies",
+        "Digital condition reports with photographs",
+        "Automatic generation and dispatch of rent receipts",
+        "Bank synchronisation with automatic rent reconciliation",
+        "Tenant application collection and comparison",
+        "Accounting services for furnished rental, SCI and rental income, with filed tax returns"
+      ],
+      "use_cases": [
+        {
+          "persona": "landlord-owner",
+          "job": "See unpaid rent the day it is late through bank reconciliation instead of checking statements by hand"
+        },
+        {
+          "persona": "investor-am",
+          "job": "Run a small portfolio held in SCI or under the furnished regime and get the year-end tax package filed from the same tool"
+        }
+      ],
+      "personas": [
+        "landlord-owner",
+        "investor-am",
+        "property-manager"
+      ],
+      "segments": [
+        "residential",
+        "retail",
+        "coliving-student"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://www.qalimo.fr/tarifs"
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "bailfacile",
+        "rentila",
+        "ownily",
+        "smartloc"
+      ],
+      "reviews": [],
+      "signals": {
+        "privacy": "https://www.qalimo.fr/politique-de-confidentialite",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-26"
+      },
+      "sources": [
+        {
+          "url": "https://www.qalimo.fr",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-26"
     },
     {
       "slug": "rentmanager",
@@ -2038,6 +2313,105 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "sinimo",
+      "name": "Sinimo",
+      "editor": "Groupe REALTY",
+      "website": "https://www.sinimo.fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "transaction-management",
+      "also_in": [
+        "back-office-accounting"
+      ],
+      "positioning": "Generates the paperwork a French agency signs — mandates, offers, preliminary sale contracts, leases — and gets it signed electronically from web or mobile.",
+      "description": "Sinimo is a French web and mobile application that produces the contractual documents a real estate agency needs and carries them through to signature. It ships more than fifty document templates covering sale and rental mandates, purchase offers, preliminary sale agreements, residential, furnished, seasonal, professional and commercial leases, amendments, visit slips and SRU notification letters. It bundles advanced electronic signature, a document scanner in the mobile app, and the statutory mandate and transaction registers. The editor states 2,500 agencies use it.\n",
+      "real_estate_use": "A French agency cannot sell or let anything without a signed mandate, and the paperwork around it is codified: the Hoguet law imposes a numbered mandate register, the SRU law imposes a notification with a retraction period, and a badly drafted lease is unenforceable. Sinimo is what the negotiator opens on the kitchen table to produce the right document in a couple of minutes, pre-filled from the client and property record, and have it signed on the spot or remotely. The phone camera replaces the scanner for the annexes that must travel with the contract — diagnostics, co-ownership rules, floor plans, property tax notice. Agencies buy it as a contract layer next to whatever CRM they already run rather than as a replacement for it.\n",
+      "features": [
+        "Over fifty French real estate contract templates, pre-filled from the client and property record",
+        "Advanced electronic signature, in person or remote, sold as signature credits",
+        "Statutory mandate, transaction and rental management registers",
+        "Document scanning from the mobile app, annexed automatically to the generated contract",
+        "Property and contact records with e-mail dispatch of documents",
+        "Web, iOS and Android applications sharing the same file"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Draw up an exclusive sale mandate and its SRU notification during the seller appointment, and have both signed before leaving"
+        },
+        {
+          "persona": "brokerage",
+          "job": "Keep a compliant mandate register across every negotiator without maintaining a paper book at the agency"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage",
+        "property-manager"
+      ],
+      "segments": [
+        "residential",
+        "retail",
+        "office"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://www.sinimo.fr/tarifs"
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "pige-online",
+        "startloc",
+        "yousign"
+      ],
+      "reviews": [],
+      "signals": {
+        "pricing": "https://www.sinimo.fr/tarifs",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-26"
+      },
+      "sources": [
+        {
+          "url": "https://www.sinimo.fr/logiciel-immobilier",
+          "note": "site éditeur, page produit"
+        },
+        {
+          "url": "https://www.sinimo.fr/tarifs",
+          "note": "site éditeur, tarifs publics"
+        },
+        {
+          "url": "https://www.appvizer.fr/immobilier",
+          "note": "source de découverte"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-26"
     },
     {
       "slug": "skyslope",
