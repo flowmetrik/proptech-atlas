@@ -82,8 +82,15 @@ async function normalise(buf, slug, ext) {
       '-resize', '256x256>', '-gravity', 'center', '-extent', '256x256',
       '-strip', `PNG32:${out}`,
     ]);
-    const { stdout } = await run('magick', ['identify', '-format', '%[fx:w]x%[fx:h] %[opaque]', out]);
-    return { out, dims: stdout.trim() };
+    // ImageMagick 7 expose `magick identify` ; une IM6 ne connait que le binaire
+    // `identify`. Sans ce repli, la conversion reussit, l'inspection echoue, et
+    // le logo est ecrit sur le disque sans jamais etre declare dans la fiche.
+    let dims = '';
+    for (const cmd of [['magick', ['identify', '-format', '%[fx:w]x%[fx:h] %[opaque]', out]],
+                       ['identify', ['-format', '%[fx:w]x%[fx:h] %[opaque]', out]]]) {
+      try { dims = (await run(cmd[0], cmd[1])).stdout.trim(); break; } catch { /* variante suivante */ }
+    }
+    return { out, dims };
   } finally {
     try { unlinkSync(tmp); } catch {}
   }

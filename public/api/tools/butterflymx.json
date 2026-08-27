@@ -1,0 +1,104 @@
+{
+  "slug": "butterflymx",
+  "name": "ButterflyMX",
+  "editor": "ButterflyMX",
+  "website": "https://butterflymx.com",
+  "hq_country": "US",
+  "markets": [
+    "US"
+  ],
+  "category": "tenant-experience",
+  "also_in": [
+    "property-management"
+  ],
+  "positioning": "Video intercom and access control platform for multifamily, commercial and gated properties, hardware plus management software.",
+  "description": "ButterflyMX sells building entry hardware — video intercom panels, keypads, smart locks, elevator and vehicle access controls, package rooms, security cameras — driven by one cloud platform that property staff and residents use from a phone. The software side covers resident directories, remote door release, visitor and delivery access, self-guided tour access and access logs. The vendor states the platform is used across more than 20,000 multifamily, commercial, student housing and gated communities.\n",
+  "real_estate_use": "Whoever manages a multi-tenant building spends an unreasonable share of the week on entry: reissuing fobs, letting in a contractor, arguing about a delivery left outside, or driving over to open a door for a prospect. ButterflyMX replaces the physical key chain with credentials the manager grants and revokes remotely, and a resident answers the door from their phone whether they are home or not. For a leasing team, the same access grant is what makes an unaccompanied self-guided tour possible; for an owner, the access log is the record when something goes missing.\n",
+  "features": [
+    "Video intercom answered from a smartphone",
+    "Cloud access control with remotely granted and revoked credentials",
+    "Delivery and visitor access, including package room control",
+    "Elevator and vehicle access control",
+    "Self-guided tour access for prospects",
+    "Access logs and security camera integration"
+  ],
+  "use_cases": [
+    {
+      "persona": "property-manager",
+      "job": "Grant and revoke building access without reissuing physical keys or fobs"
+    },
+    {
+      "persona": "brokerage",
+      "job": "Let a prospect tour a vacant unit unaccompanied with a time-limited credential"
+    }
+  ],
+  "personas": [
+    "property-manager",
+    "syndic-manager",
+    "corporate-re",
+    "tenant-occupier"
+  ],
+  "segments": [
+    "multifamily",
+    "residential",
+    "office",
+    "coliving-student",
+    "healthcare-senior"
+  ],
+  "company_sizes": [
+    "smb",
+    "midmarket",
+    "enterprise"
+  ],
+  "pricing": {
+    "model": "quote",
+    "public_pricing": false
+  },
+  "integrations": [
+    "Residential property management systems"
+  ],
+  "product": {
+    "api": true,
+    "open_source": false,
+    "mobile": [
+      "ios",
+      "android"
+    ],
+    "languages": [
+      "en"
+    ]
+  },
+  "alternatives": [
+    "smartrent"
+  ],
+  "reviews": [],
+  "signals": {
+    "pricing": "https://butterflymx.com/cost",
+    "privacy": "https://butterflymx.com",
+    "site_languages": [
+      "en"
+    ],
+    "checked_on": "2026-08-27"
+  },
+  "logo": {
+    "file": "logos/butterflymx.png",
+    "source_url": "https://butterflymx.com/wp-content/uploads/2021/11/cropped-favicon-butterflymx-180x180.png",
+    "fetched_on": "2026-08-27"
+  },
+  "sources": [
+    {
+      "url": "https://butterflymx.com/",
+      "note": "site éditeur — accueil et liste des produits"
+    },
+    {
+      "url": "https://www.appfolio.com/stack/marketplace",
+      "note": "source de découverte — AppFolio Stack"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-27"
+}

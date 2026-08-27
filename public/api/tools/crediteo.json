@@ -1,0 +1,88 @@
+{
+  "slug": "crediteo",
+  "name": "Créditéo",
+  "editor": "Créditéo",
+  "website": "https://www.crediteo.co",
+  "hq_country": "FR",
+  "markets": [
+    "FR"
+  ],
+  "category": "lending-mortgage",
+  "also_in": [
+    "crm-lead"
+  ],
+  "positioning": "Web applications for French IOBSP credit brokers: prospect files, financing simulation and shared access for bankers and introducers.",
+  "description": "Créditéo is a French publisher of web applications for IOBSP credit brokers. The product is organised in modules: prospects and clients, a financing simulator with amortisation tables, a participants module to share a file with introducers, borrowers and bankers, a statistics workspace and a configuration workspace. It is browser-based with no installation, and exposes an API to create a prospect file from the broker's own website.\n",
+  "real_estate_use": "A brokerage that generates leads through its own website wires the form to the Créditéo API so an enquiry lands as a file rather than as an email. From there the broker builds the financing simulation, including the loan smoothing cases that make a multi-loan plan hard to compute by hand, and shares the file with the introducer who brought the client and with the bank contact. The borrower gets an account showing which documents are still missing and where the file stands. The vendor states it equips both national networks of several hundred mandataires and small independent firms.\n",
+  "features": [
+    "Prospect and client file management",
+    "Financing simulator with amortisation tables and loan smoothing, including insurance on outstanding capital",
+    "Shared file access for introducers, colleagues, borrowers and bankers",
+    "Borrower account for document upload and file tracking",
+    "Activity statistics workspace",
+    "API to create a prospect file from the broker's website"
+  ],
+  "use_cases": [
+    {
+      "persona": "lender-broker",
+      "job": "Turn a website enquiry into a financing file and produce the loan simulation with the client"
+    },
+    {
+      "persona": "brokerage",
+      "job": "Give a network of mandataires a shared file workspace with per-firm configuration"
+    }
+  ],
+  "personas": [
+    "lender-broker",
+    "brokerage"
+  ],
+  "segments": [
+    "residential"
+  ],
+  "company_sizes": [
+    "solo",
+    "smb",
+    "midmarket"
+  ],
+  "pricing": {
+    "model": "quote",
+    "public_pricing": false
+  },
+  "product": {
+    "api": true,
+    "open_source": false,
+    "mobile": [],
+    "languages": [
+      "fr"
+    ]
+  },
+  "alternatives": [
+    "actelo",
+    "eloa"
+  ],
+  "reviews": [],
+  "signals": {
+    "privacy": "https://www.crediteo.co/mentions-legales",
+    "site_languages": [
+      "fr"
+    ],
+    "checked_on": "2026-08-27"
+  },
+  "logo": {
+    "file": "logos/crediteo.png",
+    "source_url": "https://www.crediteo.co/wp-content/uploads/2020/05/favicon.png",
+    "fetched_on": "2026-08-27"
+  },
+  "sources": [
+    {
+      "url": "https://www.crediteo.co/",
+      "note": "site éditeur — accueil, présentation et modules"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-27"
+}

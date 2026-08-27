@@ -4,23 +4,23 @@
   "license": "CC-BY-4.0 (data) / MIT (code)",
   "homepage": "https://flowmetrik.github.io/proptech-atlas",
   "repository": "https://github.com/flowmetrik/proptech-atlas",
-  "generated": "2026-08-25",
+  "generated": "2026-08-27",
   "counts": {
-    "tools": 158,
-    "US": 96,
-    "FR": 91,
+    "tools": 166,
+    "US": 101,
+    "FR": 95,
     "categories": 24,
-    "editors": 143,
+    "editors": 151,
     "verified": 0,
     "reviews": 0,
-    "logos": 154,
+    "logos": 162,
     "signals": {
-      "probed": 139,
-      "public_pricing": 36,
+      "probed": 147,
+      "public_pricing": 40,
       "api_docs": 11,
-      "security_page": 20,
-      "privacy_page": 102,
-      "status_page": 42
+      "security_page": 21,
+      "privacy_page": 110,
+      "status_page": 44
     }
   },
   "nodes": [
@@ -28,6 +28,11 @@
       "id": "tool:aareon",
       "type": "tool",
       "label": "Aareon"
+    },
+    {
+      "id": "tool:actelo",
+      "type": "tool",
+      "label": "Actelo"
     },
     {
       "id": "tool:adapt-immo",
@@ -130,6 +135,11 @@
       "label": "BoxBrownie"
     },
     {
+      "id": "tool:breezeway",
+      "type": "tool",
+      "label": "Breezeway"
+    },
+    {
       "id": "tool:brokermint",
       "type": "tool",
       "label": "BoldTrail BackOffice (Brokermint)"
@@ -148,6 +158,11 @@
       "id": "tool:bulldozair",
       "type": "tool",
       "label": "BulldozAIR"
+    },
+    {
+      "id": "tool:butterflymx",
+      "type": "tool",
+      "label": "ButterflyMX"
     },
     {
       "id": "tool:check-and-visit",
@@ -188,6 +203,11 @@
       "id": "tool:costar",
       "type": "tool",
       "label": "CoStar"
+    },
+    {
+      "id": "tool:crediteo",
+      "type": "tool",
+      "label": "Créditéo"
     },
     {
       "id": "tool:crexi",
@@ -243,6 +263,11 @@
       "id": "tool:eliseai",
       "type": "tool",
       "label": "EliseAI"
+    },
+    {
+      "id": "tool:eloa",
+      "type": "tool",
+      "label": "Eloa"
     },
     {
       "id": "tool:encompass",
@@ -395,6 +420,11 @@
       "label": "Kel Foncier"
     },
     {
+      "id": "tool:leadsimple",
+      "type": "tool",
+      "label": "LeadSimple"
+    },
+    {
       "id": "tool:leboncoin-immobilier",
       "type": "tool",
       "label": "Leboncoin Immobilier"
@@ -520,6 +550,11 @@
       "label": "PAP (De Particulier à Particulier)"
     },
     {
+      "id": "tool:petscreening",
+      "type": "tool",
+      "label": "PetScreening"
+    },
+    {
       "id": "tool:pige-online",
       "type": "tool",
       "label": "Pige Online"
@@ -583,6 +618,11 @@
       "id": "tool:realtor-com",
       "type": "tool",
       "label": "Realtor.com"
+    },
+    {
+      "id": "tool:rentcheck",
+      "type": "tool",
+      "label": "RentCheck"
     },
     {
       "id": "tool:rentila",
@@ -1065,6 +1105,11 @@
       "label": "Aareon"
     },
     {
+      "id": "editor:Actelo",
+      "type": "editor",
+      "label": "Actelo"
+    },
+    {
       "id": "editor:Adapt Immo",
       "type": "editor",
       "label": "Adapt Immo"
@@ -1165,6 +1210,11 @@
       "label": "BoxBrownie.com"
     },
     {
+      "id": "editor:Breezeway",
+      "type": "editor",
+      "label": "Breezeway"
+    },
+    {
       "id": "editor:Buildertrend",
       "type": "editor",
       "label": "Buildertrend"
@@ -1178,6 +1228,11 @@
       "id": "editor:BulldozAIR",
       "type": "editor",
       "label": "BulldozAIR"
+    },
+    {
+      "id": "editor:ButterflyMX",
+      "type": "editor",
+      "label": "ButterflyMX"
     },
     {
       "id": "editor:Check & Visit",
@@ -1213,6 +1268,11 @@
       "id": "editor:JLL Technologies",
       "type": "editor",
       "label": "JLL Technologies"
+    },
+    {
+      "id": "editor:Créditéo",
+      "type": "editor",
+      "label": "Créditéo"
     },
     {
       "id": "editor:Commercial Real Estate Exchange, Inc.",
@@ -1268,6 +1328,11 @@
       "id": "editor:EliseAI",
       "type": "editor",
       "label": "EliseAI"
+    },
+    {
+      "id": "editor:Eloa",
+      "type": "editor",
+      "label": "Eloa"
     },
     {
       "id": "editor:ICE Mortgage Technology",
@@ -1400,6 +1465,11 @@
       "label": "Kel Foncier"
     },
     {
+      "id": "editor:LeadSimple",
+      "type": "editor",
+      "label": "LeadSimple"
+    },
+    {
       "id": "editor:Leboncoin (Adevinta)",
       "type": "editor",
       "label": "Leboncoin (Adevinta)"
@@ -1505,6 +1575,11 @@
       "label": "PAP"
     },
     {
+      "id": "editor:Pet Screening Inc.",
+      "type": "editor",
+      "label": "Pet Screening Inc."
+    },
+    {
       "id": "editor:Pige Online",
       "type": "editor",
       "label": "Pige Online"
@@ -1563,6 +1638,11 @@
       "id": "editor:Move, Inc. (News Corp)",
       "type": "editor",
       "label": "Move, Inc. (News Corp)"
+    },
+    {
+      "id": "editor:RentCheck",
+      "type": "editor",
+      "label": "RentCheck"
     },
     {
       "id": "editor:Rentila",
@@ -1845,6 +1925,51 @@
       "from": "tool:aareon",
       "rel": "alternative_to",
       "to": "tool:mri-software"
+    },
+    {
+      "from": "tool:actelo",
+      "rel": "published_by",
+      "to": "editor:Actelo"
+    },
+    {
+      "from": "tool:actelo",
+      "rel": "belongs_to",
+      "to": "category:lending-mortgage"
+    },
+    {
+      "from": "tool:actelo",
+      "rel": "also_serves",
+      "to": "category:crm-lead"
+    },
+    {
+      "from": "tool:actelo",
+      "rel": "serves_persona",
+      "to": "persona:lender-broker"
+    },
+    {
+      "from": "tool:actelo",
+      "rel": "serves_persona",
+      "to": "persona:brokerage"
+    },
+    {
+      "from": "tool:actelo",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:actelo",
+      "rel": "available_in",
+      "to": "market:FR"
+    },
+    {
+      "from": "tool:actelo",
+      "rel": "alternative_to",
+      "to": "tool:eloa"
+    },
+    {
+      "from": "tool:actelo",
+      "rel": "alternative_to",
+      "to": "tool:crediteo"
     },
     {
       "from": "tool:adapt-immo",
@@ -3082,6 +3207,71 @@
       "to": "tool:cubicasa"
     },
     {
+      "from": "tool:breezeway",
+      "rel": "published_by",
+      "to": "editor:Breezeway"
+    },
+    {
+      "from": "tool:breezeway",
+      "rel": "belongs_to",
+      "to": "category:short-term-rental"
+    },
+    {
+      "from": "tool:breezeway",
+      "rel": "also_serves",
+      "to": "category:facility-maintenance"
+    },
+    {
+      "from": "tool:breezeway",
+      "rel": "serves_persona",
+      "to": "persona:property-manager"
+    },
+    {
+      "from": "tool:breezeway",
+      "rel": "serves_persona",
+      "to": "persona:facility-manager"
+    },
+    {
+      "from": "tool:breezeway",
+      "rel": "serves_persona",
+      "to": "persona:landlord-owner"
+    },
+    {
+      "from": "tool:breezeway",
+      "rel": "covers_segment",
+      "to": "segment:hospitality"
+    },
+    {
+      "from": "tool:breezeway",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:breezeway",
+      "rel": "covers_segment",
+      "to": "segment:coliving-student"
+    },
+    {
+      "from": "tool:breezeway",
+      "rel": "available_in",
+      "to": "market:US"
+    },
+    {
+      "from": "tool:breezeway",
+      "rel": "available_in",
+      "to": "market:FR"
+    },
+    {
+      "from": "tool:breezeway",
+      "rel": "alternative_to",
+      "to": "tool:guesty"
+    },
+    {
+      "from": "tool:breezeway",
+      "rel": "alternative_to",
+      "to": "tool:hostaway"
+    },
+    {
       "from": "tool:brokermint",
       "rel": "published_by",
       "to": "editor:Inside Real Estate"
@@ -3310,6 +3500,76 @@
       "from": "tool:bulldozair",
       "rel": "alternative_to",
       "to": "tool:immopad"
+    },
+    {
+      "from": "tool:butterflymx",
+      "rel": "published_by",
+      "to": "editor:ButterflyMX"
+    },
+    {
+      "from": "tool:butterflymx",
+      "rel": "belongs_to",
+      "to": "category:tenant-experience"
+    },
+    {
+      "from": "tool:butterflymx",
+      "rel": "also_serves",
+      "to": "category:property-management"
+    },
+    {
+      "from": "tool:butterflymx",
+      "rel": "serves_persona",
+      "to": "persona:property-manager"
+    },
+    {
+      "from": "tool:butterflymx",
+      "rel": "serves_persona",
+      "to": "persona:syndic-manager"
+    },
+    {
+      "from": "tool:butterflymx",
+      "rel": "serves_persona",
+      "to": "persona:corporate-re"
+    },
+    {
+      "from": "tool:butterflymx",
+      "rel": "serves_persona",
+      "to": "persona:tenant-occupier"
+    },
+    {
+      "from": "tool:butterflymx",
+      "rel": "covers_segment",
+      "to": "segment:multifamily"
+    },
+    {
+      "from": "tool:butterflymx",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:butterflymx",
+      "rel": "covers_segment",
+      "to": "segment:office"
+    },
+    {
+      "from": "tool:butterflymx",
+      "rel": "covers_segment",
+      "to": "segment:coliving-student"
+    },
+    {
+      "from": "tool:butterflymx",
+      "rel": "covers_segment",
+      "to": "segment:healthcare-senior"
+    },
+    {
+      "from": "tool:butterflymx",
+      "rel": "available_in",
+      "to": "market:US"
+    },
+    {
+      "from": "tool:butterflymx",
+      "rel": "alternative_to",
+      "to": "tool:smartrent"
     },
     {
       "from": "tool:check-and-visit",
@@ -3815,6 +4075,51 @@
       "from": "tool:costar",
       "rel": "alternative_to",
       "to": "tool:yanport"
+    },
+    {
+      "from": "tool:crediteo",
+      "rel": "published_by",
+      "to": "editor:Créditéo"
+    },
+    {
+      "from": "tool:crediteo",
+      "rel": "belongs_to",
+      "to": "category:lending-mortgage"
+    },
+    {
+      "from": "tool:crediteo",
+      "rel": "also_serves",
+      "to": "category:crm-lead"
+    },
+    {
+      "from": "tool:crediteo",
+      "rel": "serves_persona",
+      "to": "persona:lender-broker"
+    },
+    {
+      "from": "tool:crediteo",
+      "rel": "serves_persona",
+      "to": "persona:brokerage"
+    },
+    {
+      "from": "tool:crediteo",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:crediteo",
+      "rel": "available_in",
+      "to": "market:FR"
+    },
+    {
+      "from": "tool:crediteo",
+      "rel": "alternative_to",
+      "to": "tool:actelo"
+    },
+    {
+      "from": "tool:crediteo",
+      "rel": "alternative_to",
+      "to": "tool:eloa"
     },
     {
       "from": "tool:crexi",
@@ -4570,6 +4875,61 @@
       "from": "tool:eliseai",
       "rel": "alternative_to",
       "to": "tool:ylopo"
+    },
+    {
+      "from": "tool:eloa",
+      "rel": "published_by",
+      "to": "editor:Eloa"
+    },
+    {
+      "from": "tool:eloa",
+      "rel": "belongs_to",
+      "to": "category:lending-mortgage"
+    },
+    {
+      "from": "tool:eloa",
+      "rel": "also_serves",
+      "to": "category:crm-lead"
+    },
+    {
+      "from": "tool:eloa",
+      "rel": "serves_persona",
+      "to": "persona:lender-broker"
+    },
+    {
+      "from": "tool:eloa",
+      "rel": "serves_persona",
+      "to": "persona:brokerage"
+    },
+    {
+      "from": "tool:eloa",
+      "rel": "serves_persona",
+      "to": "persona:syndic-manager"
+    },
+    {
+      "from": "tool:eloa",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:eloa",
+      "rel": "covers_segment",
+      "to": "segment:multifamily"
+    },
+    {
+      "from": "tool:eloa",
+      "rel": "available_in",
+      "to": "market:FR"
+    },
+    {
+      "from": "tool:eloa",
+      "rel": "alternative_to",
+      "to": "tool:actelo"
+    },
+    {
+      "from": "tool:eloa",
+      "rel": "alternative_to",
+      "to": "tool:crediteo"
     },
     {
       "from": "tool:encompass",
@@ -6327,6 +6687,61 @@
       "to": "tool:dvf"
     },
     {
+      "from": "tool:leadsimple",
+      "rel": "published_by",
+      "to": "editor:LeadSimple"
+    },
+    {
+      "from": "tool:leadsimple",
+      "rel": "belongs_to",
+      "to": "category:property-management"
+    },
+    {
+      "from": "tool:leadsimple",
+      "rel": "also_serves",
+      "to": "category:crm-lead"
+    },
+    {
+      "from": "tool:leadsimple",
+      "rel": "serves_persona",
+      "to": "persona:property-manager"
+    },
+    {
+      "from": "tool:leadsimple",
+      "rel": "serves_persona",
+      "to": "persona:brokerage"
+    },
+    {
+      "from": "tool:leadsimple",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:leadsimple",
+      "rel": "covers_segment",
+      "to": "segment:multifamily"
+    },
+    {
+      "from": "tool:leadsimple",
+      "rel": "available_in",
+      "to": "market:US"
+    },
+    {
+      "from": "tool:leadsimple",
+      "rel": "alternative_to",
+      "to": "tool:appfolio"
+    },
+    {
+      "from": "tool:leadsimple",
+      "rel": "alternative_to",
+      "to": "tool:buildium"
+    },
+    {
+      "from": "tool:leadsimple",
+      "rel": "alternative_to",
+      "to": "tool:rentmanager"
+    },
+    {
       "from": "tool:leboncoin-immobilier",
       "rel": "published_by",
       "to": "editor:Leboncoin (Adevinta)"
@@ -7842,6 +8257,61 @@
       "to": "tool:bien-ici"
     },
     {
+      "from": "tool:petscreening",
+      "rel": "published_by",
+      "to": "editor:Pet Screening Inc."
+    },
+    {
+      "from": "tool:petscreening",
+      "rel": "belongs_to",
+      "to": "category:tenant-screening"
+    },
+    {
+      "from": "tool:petscreening",
+      "rel": "also_serves",
+      "to": "category:property-management"
+    },
+    {
+      "from": "tool:petscreening",
+      "rel": "serves_persona",
+      "to": "persona:property-manager"
+    },
+    {
+      "from": "tool:petscreening",
+      "rel": "serves_persona",
+      "to": "persona:syndic-manager"
+    },
+    {
+      "from": "tool:petscreening",
+      "rel": "serves_persona",
+      "to": "persona:landlord-owner"
+    },
+    {
+      "from": "tool:petscreening",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:petscreening",
+      "rel": "covers_segment",
+      "to": "segment:multifamily"
+    },
+    {
+      "from": "tool:petscreening",
+      "rel": "covers_segment",
+      "to": "segment:coliving-student"
+    },
+    {
+      "from": "tool:petscreening",
+      "rel": "covers_segment",
+      "to": "segment:hospitality"
+    },
+    {
+      "from": "tool:petscreening",
+      "rel": "available_in",
+      "to": "market:US"
+    },
+    {
       "from": "tool:pige-online",
       "rel": "published_by",
       "to": "editor:Pige Online"
@@ -8630,6 +9100,56 @@
       "from": "tool:realtor-com",
       "rel": "alternative_to",
       "to": "tool:apartments-com"
+    },
+    {
+      "from": "tool:rentcheck",
+      "rel": "published_by",
+      "to": "editor:RentCheck"
+    },
+    {
+      "from": "tool:rentcheck",
+      "rel": "belongs_to",
+      "to": "category:facility-maintenance"
+    },
+    {
+      "from": "tool:rentcheck",
+      "rel": "also_serves",
+      "to": "category:property-management"
+    },
+    {
+      "from": "tool:rentcheck",
+      "rel": "serves_persona",
+      "to": "persona:property-manager"
+    },
+    {
+      "from": "tool:rentcheck",
+      "rel": "serves_persona",
+      "to": "persona:landlord-owner"
+    },
+    {
+      "from": "tool:rentcheck",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:rentcheck",
+      "rel": "covers_segment",
+      "to": "segment:multifamily"
+    },
+    {
+      "from": "tool:rentcheck",
+      "rel": "available_in",
+      "to": "market:US"
+    },
+    {
+      "from": "tool:rentcheck",
+      "rel": "alternative_to",
+      "to": "tool:immopad"
+    },
+    {
+      "from": "tool:rentcheck",
+      "rel": "alternative_to",
+      "to": "tool:property-meld"
     },
     {
       "from": "tool:rentila",

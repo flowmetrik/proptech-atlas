@@ -2,7 +2,7 @@
 
 <!-- Généré par `npm run data:emit`. Ne pas éditer à la main : éditer `data/tools/*.yaml`. -->
 
-158 produits · 96 🇺🇸 · 91 🇫🇷 · mis à jour le 2026-08-25
+166 produits · 101 🇺🇸 · 95 🇫🇷 · mis à jour le 2026-08-27
 
 Version navigable : https://flowmetrik.github.io/proptech-atlas/explore
 
@@ -118,6 +118,7 @@ _Baux, quittances, propriétaires, locataires, travaux et comptabilité mandant.
 | [Gererseul](data/tools/gererseul.yaml) | Gererseul | 🇫🇷 | Self-management fails on the events, not on the routine: the annual IRL indexation letter, the charge regularisation, the notice given in the correct form and delay. Gererseul's value is… |
 | [Hemlane](data/tools/hemlane.yaml) | Hemlane | 🇺🇸 | It targets the remote owner who does not want a full management company taking eight to ten percent. The software handles marketing, screening and rent; the local agent handles the… |
 | [Innago](data/tools/innago.yaml) | Innago | 🇺🇸 | It is heavily used for student housing and small multifamily, where a single unit may have four tenants each paying a share of the rent. Splitting a lease across roommates, collecting… |
+| [LeadSimple](data/tools/leadsimple.yaml) | LeadSimple | 🇺🇸 | A property management company growing past a few hundred doors finds that the accounting system holds the ledgers but nothing holds the conversation: a tenant voicemail about a water… |
 | [LockImmo](data/tools/lockimmo.yaml) | LockImmo | 🇫🇷 | A French agency frequently holds all three activities under one roof, and the accounting requirements differ for each: mandant accounting for gérance, separate accounts per copropriété… |
 | [Propertyware](data/tools/propertyware.yaml) | RealPage | 🇺🇸 | Managing 800 scattered houses is not managing an 800-unit building. Every property has its own owner with its own management agreement, its own maintenance reserve and its own reporting… |
 | [RealPage](data/tools/realpage.yaml) | RealPage (Thoma Bravo) | 🇺🇸 | Large operators use it for the modules they cannot easily build: screening at scale, utility recovery, and above all revenue management — a model that recommends a rent for every unit… |
@@ -171,7 +172,10 @@ _Monter, tarifer et gérer le crédit immobilier._
 
 | Produit | Éditeur | Marchés | Usage en immobilier |
 |---|---|---|---|
+| [Actelo](data/tools/actelo.yaml) | Actelo | 🇫🇷 | A mortgage broker takes in a buyer whose offer has just been accepted and has to turn a project into a bankable file within days. Actelo runs the calculation side: it works out which… |
 | [Blend](data/tools/blend.yaml) | Blend Labs | 🇺🇸 | The failure point in mortgage is the borrower experience: a form that asks for two years of bank statements as PDFs loses applicants to a competitor. Blend replaces that with direct… |
+| [Créditéo](data/tools/crediteo.yaml) | Créditéo | 🇫🇷 | A brokerage that generates leads through its own website wires the form to the Créditéo API so an enquiry lands as a file rather than as an email. From there the broker builds the… |
+| [Eloa](data/tools/eloa.yaml) | Eloa | 🇫🇷 | A credit broker configures Eloa with the bank agreements they actually hold: rate schedules, required documents, commission terms, branch coverage. From there a borrower profile produces… |
 | [Encompass](data/tools/encompass.yaml) | ICE Mortgage Technology | 🇺🇸 | A residential mortgage is a regulated manufacturing process — disclosure timing, fee tolerance, appraisal ordering, TRID compliance — where a missed deadline is a legal defect, not an… |
 | [Floify](data/tools/floify.yaml) | Floify (Porch Group) | 🇺🇸 | Most of a loan officer's day is chasing paperwork and telling agents where the file stands. Floify automates both — it requests missing documents until they arrive, and notifies the… |
 
@@ -220,6 +224,7 @@ _Interventions, prestataires, équipements et maintenance préventive._
 | [Corrigo](data/tools/corrigo.yaml) | JLL Technologies | 🇺🇸 🇫🇷 | Its distinguishing feature in daily use is vendor scoring: response and completion performance is measured per provider, so dispatch can route to the contractor who actually shows up… |
 | [Limble CMMS](data/tools/limble.yaml) | Limble | 🇺🇸 | Most CMMS failures are adoption failures, not feature gaps. Limble competes on the implementation: QR codes on equipment so a technician scans rather than searches, a request portal that… |
 | [Property Meld](data/tools/property-meld.yaml) | Property Meld | 🇺🇸 | In residential management, maintenance is the largest source of complaints and the biggest drain on staff time — mostly spent as phone tag between a tenant, a vendor and an owner trying… |
+| [RentCheck](data/tools/rentcheck.yaml) | RentCheck | 🇺🇸 | A property management company adding doors hits a wall on inspections: scheduling visits, chasing tenants for access and driving between properties does not scale, so routine inspections… |
 | [ServiceChannel](data/tools/servicechannel.yaml) | Fortive | 🇺🇸 🇫🇷 | A retailer with four hundred stores has four hundred sets of local contractors and no consistent way to know whether a bill is fair. ServiceChannel standardises the workflow: a store… |
 | [Twimm](data/tools/twimm.yaml) | Twimm | 🇫🇷 | In France the maintenance of a building is usually outsourced under a contract with defined preventive obligations. Twimm holds both sides: the contractual preventive plan and the… |
 | [UpKeep](data/tools/upkeep.yaml) | UpKeep | 🇺🇸 | Maintenance data quality fails at the point of capture — a technician who has to return to a desktop to close a ticket will close five at once from memory on Friday. Building it for the… |
@@ -244,6 +249,7 @@ _Applications occupants, accès, réservations, services et IoT du bâtiment._
 
 | Produit | Éditeur | Marchés | Usage en immobilier |
 |---|---|---|---|
+| [ButterflyMX](data/tools/butterflymx.yaml) | ButterflyMX | 🇺🇸 | Whoever manages a multi-tenant building spends an unreasonable share of the week on entry: reissuing fobs, letting in a contractor, arguing about a delivery left outside, or driving over… |
 | [Equiem](data/tools/equiem.yaml) | Equiem | 🇺🇸 🇫🇷 | Most tenant apps fail from emptiness: nobody at the landlord has time to post anything, so occupants stop opening it. Equiem sells the editorial capacity alongside the platform, which is… |
 | [HqO](data/tools/hqo.yaml) | HqO | 🇺🇸 🇫🇷 | Since hybrid work, an office landlord's asset value depends on whether tenants renew, and renewal depends on whether employees turn up. HqO gives the landlord a direct channel to… |
 | [SmartRent](data/tools/smartrent.yaml) | SmartRent | 🇺🇸 | Three operational cases drive the purchase. Self-guided tours let a prospect visit a vacant unit without staff. Smart locks remove the key handover and the lock change at turnover. Leak… |
@@ -269,6 +275,7 @@ _Channel manager, pricing, relation voyageur et ménage pour la courte durée._
 | Produit | Éditeur | Marchés | Usage en immobilier |
 |---|---|---|---|
 | [Amenitiz](data/tools/amenitiz.yaml) | Amenitiz | 🇫🇷 | The independent French hospitality operator — a guesthouse, a small hotel, a set of gîtes — typically has no website of its own and depends entirely on commissioned platforms. Amenitiz… |
+| [Breezeway](data/tools/breezeway.yaml) | Breezeway | 🇺🇸 🇫🇷 | A vacation rental manager with a scattered portfolio and a mix of employed and subcontracted cleaners has the same problem every turnover day: knowing that each property was actually… |
 | [Guesty](data/tools/guesty.yaml) | Guesty | 🇺🇸 🇫🇷 | A manager running two hundred apartments across four booking platforms faces a double-booking risk on every listing and a message volume no team can answer manually. Guesty synchronises… |
 | [Hostaway](data/tools/hostaway.yaml) | Hostaway | 🇺🇸 🇫🇷 | Its typical buyer is a manager scaling from twenty to two hundred units who wants to keep their existing pricing and cleaning tools. The open integration approach means the operator… |
 | [Lodgify](data/tools/lodgify.yaml) | Lodgify | 🇺🇸 🇫🇷 | For an owner with two or three holiday properties, the practical question is whether to pay fifteen percent commission forever. Lodgify's proposition is a bookable site they own, with… |
@@ -305,6 +312,7 @@ _Vérifier un dossier, garantir le loyer, signer le bail._
 | Produit | Éditeur | Marchés | Usage en immobilier |
 |---|---|---|---|
 | [DossierFacile](data/tools/dossierfacile.yaml) | État français — Fabrique numérique du ministère de la Transition écologique | 🇫🇷 | It addresses two failures at once. Candidates submit incomplete files and are rejected without knowing why; landlords receive falsified pay slips and cannot tell. A DossierFacile file… |
+| [PetScreening](data/tools/petscreening.yaml) | Pet Screening Inc. | 🇺🇸 | An on-site leasing team is asked to grant an assistance animal accommodation and cannot legally ask most of the questions that would let them judge it — the wrong question is itself a… |
 | [RentSpree](data/tools/rentspree.yaml) | RentSpree | 🇺🇸 | An agent listing a rental sends one link. The applicant completes the application, pays the screening fee themselves, and authorises the credit, criminal and eviction report — so the… |
 | [Snappt](data/tools/snappt.yaml) | Snappt | 🇺🇸 | Document fraud is the failure mode conventional screening misses: an applicant with thin credit submits an edited pay stub, passes the income test, and defaults in month three.… |
 | [TheGuarantors](data/tools/theguarantors.yaml) | TheGuarantors | 🇺🇸 | The standard US requirement of forty times monthly rent in annual income excludes perfectly solvent applicants — a recent graduate, a foreign national with no US credit, a self-employed… |

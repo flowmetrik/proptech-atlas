@@ -1,0 +1,66 @@
+slug: eloa
+name: Eloa
+editor: Eloa
+website: https://www.eloa.io
+hq_country: FR
+markets: [FR]
+category: lending-mortgage
+also_in: [crm-lead]
+positioning: "SaaS platform for French credit intermediaries, whose eCredits module runs a mortgage file against the broker's own bank agreements."
+description: >
+  Eloa publishes a family of SaaS products for French credit intermediaries. Its real
+  estate module, eCredits, handles a mortgage file from simulation to funding:
+  pre-qualification simulators covering amortising, in fine, relay, staged and PTZ
+  loans, bank convention and rate-schedule configuration, document collection,
+  commission and invoicing rules, and activity ratios. A separate eImmo line covers
+  rental, renovation and condominium financing. The company also sells unrelated
+  modules for used-vehicle dealers.
+real_estate_use: >
+  A credit broker configures Eloa with the bank agreements they actually hold: rate
+  schedules, required documents, commission terms, branch coverage. From there a
+  borrower profile produces personalised simulations against those specific banks
+  rather than against generic rates, which is the comparison work that is the broker's
+  job. Rights management and document completeness rules are set per firm, so a
+  national network of mandataires and a one-person brokerage can run on the same
+  product with different process rules. The vendor also markets a condominium loan
+  module used by syndics financing building works.
+features:
+  - "Loan simulators covering amortising, in fine, relay, staged and PTZ structures"
+  - "Configuration of bank conventions, rate schedules and required documents"
+  - "Automatic file creation from the simulation, avoiding double entry"
+  - Configurable invoicing and commission rules
+  - Rights management and per-firm process configuration
+  - Condominium works loan module
+use_cases:
+  - persona: lender-broker
+    job: Compare personalised loan plans against the broker's own bank agreements instead of published market rates
+  - persona: syndic-manager
+    job: Arrange a collective loan to finance works voted by a condominium
+personas: [lender-broker, brokerage, syndic-manager]
+segments: [residential, multifamily]
+company_sizes: [solo, smb, midmarket, enterprise]
+pricing:
+  model: quote
+  public_pricing: false
+ai:
+  capabilities: [assisted preparation and processing of loan files]
+product:
+  api: true
+  open_source: false
+  mobile: []
+  languages: [fr]
+alternatives: [actelo, crediteo]
+reviews: []
+signals:
+  privacy: https://www.eloa.io/mentions-legales
+  site_languages: [fr]
+  checked_on: "2026-08-27"
+logo:
+  file: logos/eloa.png
+  source_url: https://www.google.com/s2/favicons?domain=eloa.io&sz=256
+  fetched_on: "2026-08-27"
+sources:
+  - { url: https://www.eloa.io/, note: site éditeur — accueil }
+  - { url: https://www.eloa.io/ecredits-immobilier, note: site éditeur — page produit eCrédits immobilier }
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-27"

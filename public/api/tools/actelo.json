@@ -1,0 +1,94 @@
+{
+  "slug": "actelo",
+  "name": "Actelo",
+  "editor": "Actelo",
+  "website": "https://www.actelo.fr",
+  "hq_country": "FR",
+  "markets": [
+    "FR"
+  ],
+  "category": "lending-mortgage",
+  "also_in": [
+    "crm-lead"
+  ],
+  "positioning": "Financing software for French IOBSP credit brokers, covering the calculation, document and invoicing side of a mortgage file.",
+  "description": "Actelo is a French SaaS platform for IOBSP credit brokers. It covers the financing side of a mortgage file end to end: eligibility and amortisation calculations, borrower insurance quoting, generation of the regulatory financing documents, a document management space, a borrower portal, invoicing of the parties involved and activity statistics. It is sold per user with a published monthly price and no commitment.\n",
+  "real_estate_use": "A mortgage broker takes in a buyer whose offer has just been accepted and has to turn a project into a bankable file within days. Actelo runs the calculation side: it works out which loan structures the project is eligible for, prices the borrower insurance, lists the supporting documents to collect, and produces the financing proposal and the regulatory paperwork. The borrower drops the documents in their own space instead of emailing them, and the broker follows the file stage by stage until the invoicing of the commission. Independent brokers and franchise networks use it as their whole back office rather than as an add-on to a CRM.\n",
+  "features": [
+    "Automated financing calculations and loan structuring",
+    "Borrower insurance pricing and one-click quote",
+    "Configurable financing documents and electronic signature",
+    "Document management and borrower self-service portal",
+    "Stage-by-stage file tracking",
+    "Invoicing of brokers, mandataires and partners, with activity statistics"
+  ],
+  "use_cases": [
+    {
+      "persona": "lender-broker",
+      "job": "Produce a financing proposal and its supporting file for a buyer whose offer has been accepted"
+    },
+    {
+      "persona": "brokerage",
+      "job": "Run a network of mandataires on one workspace with per-user billing and shared reporting"
+    }
+  ],
+  "personas": [
+    "lender-broker",
+    "brokerage"
+  ],
+  "segments": [
+    "residential"
+  ],
+  "company_sizes": [
+    "solo",
+    "smb",
+    "midmarket"
+  ],
+  "pricing": {
+    "model": "per-seat",
+    "public_pricing": true,
+    "url": "https://www.actelo.fr/tarifs"
+  },
+  "product": {
+    "api": false,
+    "open_source": false,
+    "mobile": [],
+    "languages": [
+      "fr"
+    ]
+  },
+  "alternatives": [
+    "eloa",
+    "crediteo"
+  ],
+  "reviews": [],
+  "signals": {
+    "security": "https://www.actelo.fr/securite",
+    "privacy": "https://www.actelo.fr/rgpd",
+    "site_languages": [
+      "fr"
+    ],
+    "checked_on": "2026-08-27"
+  },
+  "logo": {
+    "file": "logos/actelo.png",
+    "source_url": "https://www.actelo.fr/wp-content/uploads/2021/10/cropped-Actelo_Logo_Simple-512-180x180.png",
+    "fetched_on": "2026-08-27"
+  },
+  "sources": [
+    {
+      "url": "https://www.actelo.fr/",
+      "note": "site éditeur — accueil et fonctionnalités"
+    },
+    {
+      "url": "https://www.actelo.fr/tarifs",
+      "note": "site éditeur — page tarifs"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-27"
+}

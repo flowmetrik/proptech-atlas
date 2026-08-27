@@ -1,0 +1,66 @@
+slug: petscreening
+name: PetScreening
+editor: Pet Screening Inc.
+website: https://www.petscreening.com
+hq_country: US
+markets: [US]
+category: tenant-screening
+also_in: [property-management]
+positioning: "Pet policy management and assistance animal accommodation review for rental housing, HOAs and vacation rentals."
+description: >
+  PetScreening collects a pet or animal profile from every applicant and resident,
+  including households declaring no pet, and centralises it alongside the tenancy
+  file. Its distinct piece is the assistance animal review: an in-house team examines
+  each reasonable accommodation request against HUD and Fair Housing Act guidance and
+  returns a documented recommendation to both the requester and the manager. The
+  vendor also publishes a tool for benchmarking pet-related revenue. It covers
+  long-term, mid-term, vacation, manufactured and student housing.
+real_estate_use: >
+  An on-site leasing team is asked to grant an assistance animal accommodation and
+  cannot legally ask most of the questions that would let them judge it — the wrong
+  question is itself a discrimination exposure. PetScreening moves that review off the
+  on-site team to a reviewer working to HUD and FHAct guidance, and returns a written
+  recommendation that documents the decision. The everyday effect is more mundane: pet
+  photos, vaccination records and policy acknowledgements stop being chased by email
+  and arrive with the application, which is where the reported time saving per
+  application comes from.
+features:
+  - "Pet and animal profile collected from every applicant, including no-pet declarations"
+  - Assistance animal accommodation review against HUD and FHAct guidance
+  - Documented recommendation shared with requester and manager
+  - "Centralised vaccination records, photos and policy acknowledgements"
+  - Pet revenue benchmarking tool
+  - Integrations with residential property management systems
+use_cases:
+  - persona: property-manager
+    job: Handle an assistance animal accommodation request without exposing the on-site team to a discrimination claim
+  - persona: syndic-manager
+    job: Apply one documented pet policy across an HOA's residents
+personas: [property-manager, syndic-manager, landlord-owner]
+segments: [residential, multifamily, coliving-student, hospitality]
+company_sizes: [smb, midmarket, enterprise]
+pricing:
+  model: quote
+  public_pricing: false
+integrations: [Residential property management systems]
+product:
+  api: false
+  open_source: false
+  mobile: []
+  languages: [en]
+reviews: []
+signals:
+  privacy: https://www.petscreening.com/privacy-policy
+  status: https://status.petscreening.com
+  site_languages: [en]
+  checked_on: "2026-08-27"
+logo:
+  file: logos/petscreening.png
+  source_url: https://cdn.prod.website-files.com/627bb6cb0c9f03203e49b1b9/627c32f2535a832b1bc44ab8_ps-webclip.png
+  fetched_on: "2026-08-27"
+sources:
+  - { url: https://www.petscreening.com/, note: site éditeur — accueil }
+  - { url: https://www.petscreening.com/assistance-animals, note: site éditeur — processus de revue des animaux d'assistance }
+  - { url: https://www.appfolio.com/stack/marketplace, note: source de découverte — AppFolio Stack }
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-27"

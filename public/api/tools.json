@@ -4,23 +4,23 @@
   "license": "CC-BY-4.0 (data) / MIT (code)",
   "homepage": "https://flowmetrik.github.io/proptech-atlas",
   "repository": "https://github.com/flowmetrik/proptech-atlas",
-  "generated": "2026-08-25",
+  "generated": "2026-08-27",
   "counts": {
-    "tools": 158,
-    "US": 96,
-    "FR": 91,
+    "tools": 166,
+    "US": 101,
+    "FR": 95,
     "categories": 24,
-    "editors": 143,
+    "editors": 151,
     "verified": 0,
     "reviews": 0,
-    "logos": 154,
+    "logos": 162,
     "signals": {
-      "probed": 139,
-      "public_pricing": 36,
+      "probed": 147,
+      "public_pricing": 40,
       "api_docs": 11,
-      "security_page": 20,
-      "privacy_page": 102,
-      "status_page": 42
+      "security_page": 21,
+      "privacy_page": 110,
+      "status_page": 44
     }
   },
   "tools": [
@@ -126,6 +126,100 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "actelo",
+      "name": "Actelo",
+      "editor": "Actelo",
+      "website": "https://www.actelo.fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "lending-mortgage",
+      "also_in": [
+        "crm-lead"
+      ],
+      "positioning": "Financing software for French IOBSP credit brokers, covering the calculation, document and invoicing side of a mortgage file.",
+      "description": "Actelo is a French SaaS platform for IOBSP credit brokers. It covers the financing side of a mortgage file end to end: eligibility and amortisation calculations, borrower insurance quoting, generation of the regulatory financing documents, a document management space, a borrower portal, invoicing of the parties involved and activity statistics. It is sold per user with a published monthly price and no commitment.\n",
+      "real_estate_use": "A mortgage broker takes in a buyer whose offer has just been accepted and has to turn a project into a bankable file within days. Actelo runs the calculation side: it works out which loan structures the project is eligible for, prices the borrower insurance, lists the supporting documents to collect, and produces the financing proposal and the regulatory paperwork. The borrower drops the documents in their own space instead of emailing them, and the broker follows the file stage by stage until the invoicing of the commission. Independent brokers and franchise networks use it as their whole back office rather than as an add-on to a CRM.\n",
+      "features": [
+        "Automated financing calculations and loan structuring",
+        "Borrower insurance pricing and one-click quote",
+        "Configurable financing documents and electronic signature",
+        "Document management and borrower self-service portal",
+        "Stage-by-stage file tracking",
+        "Invoicing of brokers, mandataires and partners, with activity statistics"
+      ],
+      "use_cases": [
+        {
+          "persona": "lender-broker",
+          "job": "Produce a financing proposal and its supporting file for a buyer whose offer has been accepted"
+        },
+        {
+          "persona": "brokerage",
+          "job": "Run a network of mandataires on one workspace with per-user billing and shared reporting"
+        }
+      ],
+      "personas": [
+        "lender-broker",
+        "brokerage"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "per-seat",
+        "public_pricing": true,
+        "url": "https://www.actelo.fr/tarifs"
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "eloa",
+        "crediteo"
+      ],
+      "reviews": [],
+      "signals": {
+        "security": "https://www.actelo.fr/securite",
+        "privacy": "https://www.actelo.fr/rgpd",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-27"
+      },
+      "logo": {
+        "file": "logos/actelo.png",
+        "source_url": "https://www.actelo.fr/wp-content/uploads/2021/10/cropped-Actelo_Logo_Simple-512-180x180.png",
+        "fetched_on": "2026-08-27"
+      },
+      "sources": [
+        {
+          "url": "https://www.actelo.fr/",
+          "note": "site éditeur — accueil et fonctionnalités"
+        },
+        {
+          "url": "https://www.actelo.fr/tarifs",
+          "note": "site éditeur — page tarifs"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-27"
     },
     {
       "slug": "adapt-immo",
@@ -2194,6 +2288,128 @@
       "updated": "2026-08-25"
     },
     {
+      "slug": "breezeway",
+      "name": "Breezeway",
+      "editor": "Breezeway",
+      "website": "https://www.breezeway.io",
+      "hq_country": "US",
+      "markets": [
+        "US",
+        "FR"
+      ],
+      "category": "short-term-rental",
+      "also_in": [
+        "facility-maintenance"
+      ],
+      "positioning": "Property operations and guest experience platform for the teams cleaning, inspecting and servicing short-term rentals.",
+      "description": "Breezeway coordinates the field work behind a short-term rental portfolio rather than the booking side. It schedules cleaning and maintenance tasks, dispatches them to cleaners and vendors through a mobile app with photo checklists, tracks inventory and supplies, pays cleaners, and reports on what was done. A second product line handles guest communication: messaging, digital welcome books, an AI assistant answering guest questions, and paid upsells. A freemium tier covers a single property.\n",
+      "real_estate_use": "A vacation rental manager with a scattered portfolio and a mix of employed and subcontracted cleaners has the same problem every turnover day: knowing that each property was actually cleaned, inspected and restocked before the next guest arrives. Breezeway turns each departure into a scheduled task with a photo checklist the cleaner completes on their phone, so the manager sees evidence rather than a claim, and damage or a missing item surfaces as a work order before the guest does. Pricing is per property, which is why managers of five homes and of five hundred both use it, and residential and corporate housing operators use the same operations layer.\n",
+      "features": [
+        "Task scheduling and work coordination across field teams",
+        "Mobile checklists with photo capture, available in several languages",
+        "Work order and preventive maintenance management",
+        "Inventory and supply tracking",
+        "Cleaner and vendor payments",
+        "Guest messaging with digital guidebooks, AI answering and paid upsells"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Prove every turnover was cleaned and inspected before the next check-in"
+        },
+        {
+          "persona": "facility-manager",
+          "job": "Turn a defect spotted during a clean into a dispatched work order"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "facility-manager",
+        "landlord-owner"
+      ],
+      "segments": [
+        "hospitality",
+        "residential",
+        "coliving-student"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "freemium",
+        "public_pricing": true,
+        "url": "https://www.breezeway.io/breezeway-pricing"
+      },
+      "integrations": [
+        "Smart lock providers",
+        "Short-term rental property management systems"
+      ],
+      "ai": {
+        "capabilities": [
+          "automated answering of guest questions",
+          "assisted scheduling of field tasks"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en",
+          "fr",
+          "es",
+          "it"
+        ]
+      },
+      "alternatives": [
+        "guesty",
+        "hostaway"
+      ],
+      "reviews": [],
+      "signals": {
+        "pricing": "https://www.breezeway.io/breezeway-pricing",
+        "privacy": "https://www.breezeway.io/privacy",
+        "site_languages": [
+          "en",
+          "es",
+          "fr",
+          "it"
+        ],
+        "checked_on": "2026-08-27"
+      },
+      "logo": {
+        "file": "logos/breezeway.png",
+        "source_url": "https://www.breezeway.io/hubfs/Transparent%20Logo%20(HubSpot%20Flavicon)-1.png",
+        "fetched_on": "2026-08-27"
+      },
+      "sources": [
+        {
+          "url": "https://www.breezeway.io/",
+          "note": "site éditeur — accueil et carte des produits"
+        },
+        {
+          "url": "https://www.breezeway.io/breezeway-pricing",
+          "note": "site éditeur — page tarifs"
+        },
+        {
+          "url": "https://www.appfolio.com/stack/marketplace",
+          "note": "source de découverte — AppFolio Stack"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-27"
+    },
+    {
       "slug": "brokermint",
       "name": "BoldTrail BackOffice (Brokermint)",
       "editor": "Inside Real Estate",
@@ -2589,6 +2805,110 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "butterflymx",
+      "name": "ButterflyMX",
+      "editor": "ButterflyMX",
+      "website": "https://butterflymx.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "tenant-experience",
+      "also_in": [
+        "property-management"
+      ],
+      "positioning": "Video intercom and access control platform for multifamily, commercial and gated properties, hardware plus management software.",
+      "description": "ButterflyMX sells building entry hardware — video intercom panels, keypads, smart locks, elevator and vehicle access controls, package rooms, security cameras — driven by one cloud platform that property staff and residents use from a phone. The software side covers resident directories, remote door release, visitor and delivery access, self-guided tour access and access logs. The vendor states the platform is used across more than 20,000 multifamily, commercial, student housing and gated communities.\n",
+      "real_estate_use": "Whoever manages a multi-tenant building spends an unreasonable share of the week on entry: reissuing fobs, letting in a contractor, arguing about a delivery left outside, or driving over to open a door for a prospect. ButterflyMX replaces the physical key chain with credentials the manager grants and revokes remotely, and a resident answers the door from their phone whether they are home or not. For a leasing team, the same access grant is what makes an unaccompanied self-guided tour possible; for an owner, the access log is the record when something goes missing.\n",
+      "features": [
+        "Video intercom answered from a smartphone",
+        "Cloud access control with remotely granted and revoked credentials",
+        "Delivery and visitor access, including package room control",
+        "Elevator and vehicle access control",
+        "Self-guided tour access for prospects",
+        "Access logs and security camera integration"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Grant and revoke building access without reissuing physical keys or fobs"
+        },
+        {
+          "persona": "brokerage",
+          "job": "Let a prospect tour a vacant unit unaccompanied with a time-limited credential"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "syndic-manager",
+        "corporate-re",
+        "tenant-occupier"
+      ],
+      "segments": [
+        "multifamily",
+        "residential",
+        "office",
+        "coliving-student",
+        "healthcare-senior"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Residential property management systems"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "smartrent"
+      ],
+      "reviews": [],
+      "signals": {
+        "pricing": "https://butterflymx.com/cost",
+        "privacy": "https://butterflymx.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-27"
+      },
+      "logo": {
+        "file": "logos/butterflymx.png",
+        "source_url": "https://butterflymx.com/wp-content/uploads/2021/11/cropped-favicon-butterflymx-180x180.png",
+        "fetched_on": "2026-08-27"
+      },
+      "sources": [
+        {
+          "url": "https://butterflymx.com/",
+          "note": "site éditeur — accueil et liste des produits"
+        },
+        {
+          "url": "https://www.appfolio.com/stack/marketplace",
+          "note": "source de découverte — AppFolio Stack"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-27"
     },
     {
       "slug": "check-and-visit",
@@ -3408,6 +3728,94 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "crediteo",
+      "name": "Créditéo",
+      "editor": "Créditéo",
+      "website": "https://www.crediteo.co",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "lending-mortgage",
+      "also_in": [
+        "crm-lead"
+      ],
+      "positioning": "Web applications for French IOBSP credit brokers: prospect files, financing simulation and shared access for bankers and introducers.",
+      "description": "Créditéo is a French publisher of web applications for IOBSP credit brokers. The product is organised in modules: prospects and clients, a financing simulator with amortisation tables, a participants module to share a file with introducers, borrowers and bankers, a statistics workspace and a configuration workspace. It is browser-based with no installation, and exposes an API to create a prospect file from the broker's own website.\n",
+      "real_estate_use": "A brokerage that generates leads through its own website wires the form to the Créditéo API so an enquiry lands as a file rather than as an email. From there the broker builds the financing simulation, including the loan smoothing cases that make a multi-loan plan hard to compute by hand, and shares the file with the introducer who brought the client and with the bank contact. The borrower gets an account showing which documents are still missing and where the file stands. The vendor states it equips both national networks of several hundred mandataires and small independent firms.\n",
+      "features": [
+        "Prospect and client file management",
+        "Financing simulator with amortisation tables and loan smoothing, including insurance on outstanding capital",
+        "Shared file access for introducers, colleagues, borrowers and bankers",
+        "Borrower account for document upload and file tracking",
+        "Activity statistics workspace",
+        "API to create a prospect file from the broker's website"
+      ],
+      "use_cases": [
+        {
+          "persona": "lender-broker",
+          "job": "Turn a website enquiry into a financing file and produce the loan simulation with the client"
+        },
+        {
+          "persona": "brokerage",
+          "job": "Give a network of mandataires a shared file workspace with per-firm configuration"
+        }
+      ],
+      "personas": [
+        "lender-broker",
+        "brokerage"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "actelo",
+        "eloa"
+      ],
+      "reviews": [],
+      "signals": {
+        "privacy": "https://www.crediteo.co/mentions-legales",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-27"
+      },
+      "logo": {
+        "file": "logos/crediteo.png",
+        "source_url": "https://www.crediteo.co/wp-content/uploads/2020/05/favicon.png",
+        "fetched_on": "2026-08-27"
+      },
+      "sources": [
+        {
+          "url": "https://www.crediteo.co/",
+          "note": "site éditeur — accueil, présentation et modules"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-27"
     },
     {
       "slug": "crexi",
@@ -4570,6 +4978,106 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "eloa",
+      "name": "Eloa",
+      "editor": "Eloa",
+      "website": "https://www.eloa.io",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "lending-mortgage",
+      "also_in": [
+        "crm-lead"
+      ],
+      "positioning": "SaaS platform for French credit intermediaries, whose eCredits module runs a mortgage file against the broker's own bank agreements.",
+      "description": "Eloa publishes a family of SaaS products for French credit intermediaries. Its real estate module, eCredits, handles a mortgage file from simulation to funding: pre-qualification simulators covering amortising, in fine, relay, staged and PTZ loans, bank convention and rate-schedule configuration, document collection, commission and invoicing rules, and activity ratios. A separate eImmo line covers rental, renovation and condominium financing. The company also sells unrelated modules for used-vehicle dealers.\n",
+      "real_estate_use": "A credit broker configures Eloa with the bank agreements they actually hold: rate schedules, required documents, commission terms, branch coverage. From there a borrower profile produces personalised simulations against those specific banks rather than against generic rates, which is the comparison work that is the broker's job. Rights management and document completeness rules are set per firm, so a national network of mandataires and a one-person brokerage can run on the same product with different process rules. The vendor also markets a condominium loan module used by syndics financing building works.\n",
+      "features": [
+        "Loan simulators covering amortising, in fine, relay, staged and PTZ structures",
+        "Configuration of bank conventions, rate schedules and required documents",
+        "Automatic file creation from the simulation, avoiding double entry",
+        "Configurable invoicing and commission rules",
+        "Rights management and per-firm process configuration",
+        "Condominium works loan module"
+      ],
+      "use_cases": [
+        {
+          "persona": "lender-broker",
+          "job": "Compare personalised loan plans against the broker's own bank agreements instead of published market rates"
+        },
+        {
+          "persona": "syndic-manager",
+          "job": "Arrange a collective loan to finance works voted by a condominium"
+        }
+      ],
+      "personas": [
+        "lender-broker",
+        "brokerage",
+        "syndic-manager"
+      ],
+      "segments": [
+        "residential",
+        "multifamily"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "ai": {
+        "capabilities": [
+          "assisted preparation and processing of loan files"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "actelo",
+        "crediteo"
+      ],
+      "reviews": [],
+      "signals": {
+        "privacy": "https://www.eloa.io/mentions-legales",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-27"
+      },
+      "logo": {
+        "file": "logos/eloa.png",
+        "source_url": "https://www.google.com/s2/favicons?domain=eloa.io&sz=256",
+        "fetched_on": "2026-08-27"
+      },
+      "sources": [
+        {
+          "url": "https://www.eloa.io/",
+          "note": "site éditeur — accueil"
+        },
+        {
+          "url": "https://www.eloa.io/ecredits-immobilier",
+          "note": "site éditeur — page produit eCrédits immobilier"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-27"
     },
     {
       "slug": "encompass",
@@ -7549,6 +8057,123 @@
       "updated": "2026-08-25"
     },
     {
+      "slug": "leadsimple",
+      "name": "LeadSimple",
+      "editor": "LeadSimple",
+      "website": "https://www.leadsimple.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "property-management",
+      "also_in": [
+        "crm-lead"
+      ],
+      "positioning": "CRM, shared inbox, phone system and process automation that sit on top of a property management system.",
+      "description": "LeadSimple is a communication and workflow layer for residential property management companies. It combines an owner and tenant CRM, a shared inbox unifying calls, texts and email on one timeline, a phone system with ring groups and an AI voice agent, recurring process workflows with branching logic and escalation, and maintenance work orders. It does not replace the PMS: it connects to AppFolio, Buildium, Rentvine, Propertyware and Rent Manager. Pricing is published, per seat for the inbox and CRM products and per door for workflows.\n",
+      "real_estate_use": "A property management company growing past a few hundred doors finds that the accounting system holds the ledgers but nothing holds the conversation: a tenant voicemail about a water heater, an owner question about a statement, a Zillow enquiry all live in different inboxes and in one person's head. LeadSimple gives every call, text and email an owner and a next step on one timeline, and turns the repeatable sequences — move-in, renewal, inspection, owner onboarding, make-ready — into timed workflows with escalation when a step slips. It is bought by companies that already have a PMS and are losing leads and owner trust in the handoffs around it.\n",
+      "features": [
+        "Shared inbox unifying calls, texts and email per contact",
+        "Phone system with IVR, ring groups, hours-based routing and call recording",
+        "AI voice agent answering when nobody picks up",
+        "Owner and tenant lead pipelines with speed-to-lead routing and SLA escalation",
+        "Recurring process workflows with branching logic and PMS-triggered starts",
+        "Maintenance work order intake and tracking"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Stop tenant calls and owner emails from living in one person's inbox"
+        },
+        {
+          "persona": "brokerage",
+          "job": "Run move-in, renewal and owner onboarding as timed workflows with escalation"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "brokerage"
+      ],
+      "segments": [
+        "residential",
+        "multifamily"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "per-unit",
+        "public_pricing": true,
+        "url": "https://www.leadsimple.com/pricing"
+      },
+      "integrations": [
+        "AppFolio",
+        "Buildium",
+        "Rentvine",
+        "Propertyware",
+        "Rent Manager"
+      ],
+      "ai": {
+        "capabilities": [
+          "voice agent answering inbound calls",
+          "call summarisation",
+          "drafted reply suggestions"
+        ]
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "appfolio",
+        "buildium",
+        "rentmanager"
+      ],
+      "reviews": [],
+      "signals": {
+        "pricing": "https://www.leadsimple.com/pricing",
+        "privacy": "https://www.leadsimple.com/legal/privacy",
+        "status": "https://status.leadsimple.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-27"
+      },
+      "logo": {
+        "file": "logos/leadsimple.png",
+        "source_url": "https://www.leadsimple.com/apple-touch-icon.png",
+        "fetched_on": "2026-08-27"
+      },
+      "sources": [
+        {
+          "url": "https://www.leadsimple.com/",
+          "note": "site éditeur — accueil"
+        },
+        {
+          "url": "https://www.leadsimple.com/pricing",
+          "note": "site éditeur — page tarifs"
+        },
+        {
+          "url": "https://www.appfolio.com/stack/marketplace",
+          "note": "source de découverte — AppFolio Stack"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-27"
+    },
+    {
       "slug": "leboncoin-immobilier",
       "name": "Leboncoin Immobilier",
       "editor": "Leboncoin (Adevinta)",
@@ -10080,6 +10705,106 @@
       "updated": "2026-08-25"
     },
     {
+      "slug": "petscreening",
+      "name": "PetScreening",
+      "editor": "Pet Screening Inc.",
+      "website": "https://www.petscreening.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "tenant-screening",
+      "also_in": [
+        "property-management"
+      ],
+      "positioning": "Pet policy management and assistance animal accommodation review for rental housing, HOAs and vacation rentals.",
+      "description": "PetScreening collects a pet or animal profile from every applicant and resident, including households declaring no pet, and centralises it alongside the tenancy file. Its distinct piece is the assistance animal review: an in-house team examines each reasonable accommodation request against HUD and Fair Housing Act guidance and returns a documented recommendation to both the requester and the manager. The vendor also publishes a tool for benchmarking pet-related revenue. It covers long-term, mid-term, vacation, manufactured and student housing.\n",
+      "real_estate_use": "An on-site leasing team is asked to grant an assistance animal accommodation and cannot legally ask most of the questions that would let them judge it — the wrong question is itself a discrimination exposure. PetScreening moves that review off the on-site team to a reviewer working to HUD and FHAct guidance, and returns a written recommendation that documents the decision. The everyday effect is more mundane: pet photos, vaccination records and policy acknowledgements stop being chased by email and arrive with the application, which is where the reported time saving per application comes from.\n",
+      "features": [
+        "Pet and animal profile collected from every applicant, including no-pet declarations",
+        "Assistance animal accommodation review against HUD and FHAct guidance",
+        "Documented recommendation shared with requester and manager",
+        "Centralised vaccination records, photos and policy acknowledgements",
+        "Pet revenue benchmarking tool",
+        "Integrations with residential property management systems"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Handle an assistance animal accommodation request without exposing the on-site team to a discrimination claim"
+        },
+        {
+          "persona": "syndic-manager",
+          "job": "Apply one documented pet policy across an HOA's residents"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "syndic-manager",
+        "landlord-owner"
+      ],
+      "segments": [
+        "residential",
+        "multifamily",
+        "coliving-student",
+        "hospitality"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Residential property management systems"
+      ],
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "reviews": [],
+      "signals": {
+        "privacy": "https://www.petscreening.com/privacy-policy",
+        "status": "https://status.petscreening.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-27"
+      },
+      "logo": {
+        "file": "logos/petscreening.png",
+        "source_url": "https://cdn.prod.website-files.com/627bb6cb0c9f03203e49b1b9/627c32f2535a832b1bc44ab8_ps-webclip.png",
+        "fetched_on": "2026-08-27"
+      },
+      "sources": [
+        {
+          "url": "https://www.petscreening.com/",
+          "note": "site éditeur — accueil"
+        },
+        {
+          "url": "https://www.petscreening.com/assistance-animals",
+          "note": "site éditeur — processus de revue des animaux d'assistance"
+        },
+        {
+          "url": "https://www.appfolio.com/stack/marketplace",
+          "note": "source de découverte — AppFolio Stack"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-27"
+    },
+    {
       "slug": "pige-online",
       "name": "Pige Online",
       "editor": "Pige Online",
@@ -11417,6 +12142,109 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "rentcheck",
+      "name": "RentCheck",
+      "editor": "RentCheck",
+      "website": "https://www.getrentcheck.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "facility-maintenance",
+      "also_in": [
+        "property-management"
+      ],
+      "positioning": "Tenant-guided property inspections: the resident completes the inspection from their phone, the manager gets the report.",
+      "description": "RentCheck is an inspection application for residential property managers built around inspections carried out by the tenant rather than by staff. The manager sends a guided inspection; the resident completes it step by step on their phone with time-stamped photos, and a report is produced without a site visit. It ships with templates for move-in, move-out and routine inspections, automated reminders and scheduling, comparison against previous inspections, work order tracking, an API and integrations with the main property management systems. Pricing is published per unit per month.\n",
+      "real_estate_use": "A property management company adding doors hits a wall on inspections: scheduling visits, chasing tenants for access and driving between properties does not scale, so routine inspections quietly get skipped for the tenants presumed to be fine. RentCheck inverts the model — the tenant does the walkthrough on their phone with a guided checklist and timestamped photos — so the team handles only the exceptions. The photographic record with dates is also what settles a security deposit dispute at move-out, since move-in and move-out inspections can be compared side by side.\n",
+      "features": [
+        "Tenant-guided inspections with time-stamped in-app photo capture",
+        "Templates for move-in, move-out, routine and pre-move-out inspections",
+        "Automated inspection reminders and scheduling",
+        "Comparison against previous inspections",
+        "360-degree photo and video capture, and asset capture",
+        "Work order tracking, PMS integration and a public API"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Complete routine inspections across a growing portfolio without sending anyone on site"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "Hold a dated photographic record of condition at move-in to settle the deposit at move-out"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "landlord-owner"
+      ],
+      "segments": [
+        "residential",
+        "multifamily"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "per-unit",
+        "public_pricing": true,
+        "url": "https://www.getrentcheck.com/plan-pricing"
+      },
+      "integrations": [
+        "AppFolio",
+        "Rent Manager",
+        "Buildium"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "immopad",
+        "property-meld"
+      ],
+      "reviews": [],
+      "signals": {
+        "pricing": "https://www.getrentcheck.com/plan-pricing",
+        "privacy": "https://www.getrentcheck.com/legal/privacy-policy",
+        "checked_on": "2026-08-27"
+      },
+      "logo": {
+        "file": "logos/rentcheck.png",
+        "source_url": "https://cdn.prod.website-files.com/64c252917dda086383e12e96/65a022b48ebfec64a71b2edd_RentCheck%20Webclip.png",
+        "fetched_on": "2026-08-27"
+      },
+      "sources": [
+        {
+          "url": "https://www.getrentcheck.com/",
+          "note": "site éditeur — accueil"
+        },
+        {
+          "url": "https://www.getrentcheck.com/plan-pricing",
+          "note": "site éditeur — page tarifs"
+        },
+        {
+          "url": "https://www.appfolio.com/stack/marketplace",
+          "note": "source de découverte — AppFolio Stack"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-27"
     },
     {
       "slug": "rentila",
