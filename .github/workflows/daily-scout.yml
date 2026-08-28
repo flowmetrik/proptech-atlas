@@ -37,8 +37,8 @@ jobs:
     env:
       OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
       FIRECRAWL_API: ${{ secrets.FIRECRAWL_API }}
-      SOURCES: ${{ inputs.sources || '4' }}
-      STALE_DAYS: ${{ inputs.stale_days || '30' }}
+      SOURCES: ${{ github.event.inputs.sources || '4' }}
+      STALE_DAYS: ${{ github.event.inputs.stale_days || '30' }}
     steps:
       - uses: actions/checkout@v4
 
@@ -56,7 +56,7 @@ jobs:
       - run: npm ci
 
       - name: Balayage des sources et rédaction
-        if: ${{ secrets.OPENROUTER_API_KEY != '' }}
+        if: env.OPENROUTER_API_KEY != ''
         run: |
           if [ "$SOURCES" = "0" ]; then
             echo "Découverte désactivée pour cette exécution." | tee /tmp/sweep.log
@@ -66,7 +66,7 @@ jobs:
           node scripts/enrich/fiche.mjs --limit 12 2>&1 | tee /tmp/fiche.log
 
       - name: Découverte sautée
-        if: ${{ secrets.OPENROUTER_API_KEY == '' }}
+        if: env.OPENROUTER_API_KEY == ''
         run: |
           echo "Pas de clé OpenRouter dans les secrets du dépôt — seul l'entretien tourne." \
             | tee /tmp/sweep.log
