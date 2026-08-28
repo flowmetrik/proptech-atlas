@@ -1,0 +1,98 @@
+name: Daily health check
+
+# Le contrôle de santé quotidien du catalogue.
+#
+# CE QU'IL NE FAIT PAS, ET POURQUOI. Il n'écrit rien dans le dépôt : ni commit,
+# ni branche, ni pull request. L'organisation `flowmetrik` refuse le droit
+# d'écriture aux workflows (`default_workflow_permissions: read`), et GitHub
+# Actions ne peut pas ouvrir de pull request tant que le réglage
+# « Allow GitHub Actions to create and approve pull requests » est désactivé.
+# Un workflow qui tenterait quand même échouerait tous les jours en silence —
+# c'est exactement ce qui s'est passé les 27 et 28 août.
+#
+# Pour lui rendre l'écriture : Organisation → Settings → Actions → General →
+# Workflow permissions → « Read and write » + « Allow GitHub Actions to create
+# and approve pull requests ». Ensuite seulement, on pourra lui remettre les
+# étapes d'enrichissement et la pull request.
+#
+# CE QU'IL FAIT. Il vérifie, et il DIT. Le catalogue passe-t-il son validateur,
+# le site construit-il, les artefacts générés sont-ils à jour, le site publié
+# répond-il, et combien de relevés de signaux ont vieilli. Le résultat est dans
+# le résumé du job, et un échec se voit dans l'onglet Actions.
+#
+# L'écriture, elle, est le métier de la routine Claude, qui tourne sur la VM
+# cowork avec de vraies identités. Voir
+# `.claude/skills/proptech-scout/references/routine.md`.
+
+on:
+  schedule:
+    - cron: '10 6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: daily-health
+  cancel-in-progress: false
+
+jobs:
+  health:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+
+      - name: Le catalogue passe-t-il son validateur
+        run: npm run data:validate 2>&1 | tee -a "$GITHUB_STEP_SUMMARY"
+
+      - name: Les artefacts générés sont-ils à jour
+        run: |
+          npm run data:emit > /dev/null
+          if git diff --quiet -- public/api CATALOG.md public/llms.txt; then
+            echo "✓ API, CATALOG.md et llms.txt à jour" >> "$GITHUB_STEP_SUMMARY"
+          else
+            {
+              echo "✗ Artefacts générés périmés — le site publié ment sur l'API qu'il sert."
+              echo '```'
+              git diff --stat -- public/api CATALOG.md public/llms.txt
+              echo '```'
+              echo "Correction : \`npm run data:emit\` puis committer."
+            } >> "$GITHUB_STEP_SUMMARY"
+            exit 1
+          fi
+
+      - name: Le site construit-il
+        run: |
+          npx astro build > /tmp/build.log 2>&1 || { tail -30 /tmp/build.log; exit 1; }
+          echo "✓ $(find dist -name '*.html' | wc -l | tr -d ' ') pages construites" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Le site publié répond-il
+        run: |
+          URL="${{ vars.CUSTOM_DOMAIN && format('https://{0}', vars.CUSTOM_DOMAIN) || 'https://flowmetrik.github.io/proptech-atlas' }}"
+          CODE="$(curl -sL -o /dev/null -w '%{http_code}' --max-time 25 "$URL/" || echo 000)"
+          API="$(curl -sL -o /dev/null -w '%{http_code}' --max-time 25 "$URL/api/index.json" || echo 000)"
+          echo "Site publié : $URL — page $CODE, API $API" >> "$GITHUB_STEP_SUMMARY"
+          # Un build vert qui déploie une page blanche ne se voit pas autrement.
+          [ "$CODE" = "200" ] && [ "$API" = "200" ]
+
+      - name: Ce qui a vieilli
+        run: |
+          STALE="$(node scripts/enrich/stale.mjs 30 999)"
+          N=0
+          [ -n "$STALE" ] && N=$(echo "$STALE" | tr ',' '\n' | wc -l | tr -d ' ')
+          {
+            echo ""
+            echo "### À rafraîchir"
+            echo "- Relevés de signaux de plus de 30 jours : **$N**"
+            echo "- Fiches sans logo : **$(node -e "
+                import('./scripts/enrich/lib.mjs').then(m =>
+                  console.log(m.loadTools().filter(t => !t.logo?.file).length))
+              " --input-type=module)**"
+            echo ""
+            echo "Ces deux points sont le travail de la routine Claude, qui a le droit d'écrire."
+          } >> "$GITHUB_STEP_SUMMARY"

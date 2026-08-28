@@ -3,23 +3,29 @@
 Deux couches, volontairement séparées : ce qui tourne toujours, et ce qui
 demande du jugement.
 
-## Couche 1 — l'entretien, tous les jours, sans modèle
+## Couche 1 — le contrôle de santé, tous les jours, sans écrire
 
-`.github/workflows/daily-scout.yml`, 06:10 UTC.
+`.github/workflows/daily-health.yml`, 06:10 UTC.
 
-Ne coûte rien et ne dépend d'aucune clé : logos manquants, relevé des signaux
-pour les fiches qui n'en ont pas ou dont le relevé date de plus de 30 jours,
-régénération de l'API et des images de partage, validation. S'il y a une
-différence, elle ouvre une **pull request** — jamais un push sur `main`.
+**Il ne modifie rien.** L'organisation `flowmetrik` refuse le droit d'écriture
+aux workflows, et GitHub Actions ne peut pas ouvrir de pull request tant que le
+réglage correspondant est désactivé. Un workflow qui essaierait quand même
+échouerait tous les jours en silence — c'est très exactement ce qui s'est passé
+les 27 et 28 août.
 
-Si le secret `OPENROUTER_API_KEY` est présent dans le dépôt, la même exécution
-enchaîne le balayage de 4 sources et la rédaction des fiches en file. Sinon elle
-saute proprement ces deux étapes et le dit dans son résumé.
+Il vérifie, et il **dit**, dans le résumé du job : le catalogue passe-t-il son
+validateur, les artefacts générés sont-ils à jour, le site construit-il, le site
+publié répond-il (page **et** API), combien de relevés ont plus de trente jours,
+combien de fiches n'ont pas de logo.
 
-C'est le filet : même si personne ne regarde le projet pendant trois mois, les
-logos se complètent, les signaux se rafraîchissent et l'API reste juste.
+C'est le canari. Il ne répare rien, mais rien ne casse en silence.
 
-## Couche 2 — le chercheur, une fois par jour, avec jugement
+Pour lui rendre l'écriture : Organisation → Settings → Actions → General →
+Workflow permissions → « Read and write », plus « Allow GitHub Actions to create
+and approve pull requests ». Alors seulement on pourra lui remettre
+l'enrichissement et la pull request.
+
+## Couche 2 — le chercheur, une fois par jour, avec jugement et droit d'écrire
 
 Routine Claude planifiée. Elle fait ce qu'un workflow ne sait pas faire :
 

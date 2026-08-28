@@ -9,7 +9,7 @@ rendu est identique en local et en CI.
     python3 scripts/og/build.py --site     # seulement l'image du site
 """
 from __future__ import annotations
-import argparse, json, shutil, subprocess, sys, urllib.request
+import argparse, hashlib, json, shutil, subprocess, sys, urllib.request
 from pathlib import Path
 
 from fontTools.ttLib import TTFont
@@ -143,6 +143,7 @@ def render(svg: str, out: Path) -> None:
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--site", action="store_true", help="seulement l'image du site")
+    ap.add_argument("--all", action="store_true", help="tout regénérer, même l'inchangé")
     a = ap.parse_args()
 
     api = json.loads((ROOT / "public" / "api" / "tools.json").read_text())
@@ -151,30 +152,57 @@ def main() -> int:
     cat = {c["id"]: c["label_en"] for c in tax["categories"]}
     mkt = {m["id"]: m["label_en"] for m in tax["markets"]}
 
-    render(card(
-        "Every real estate software, and what it is actually for.",
-        "PROPTECH ATLAS",
-        "",
-        f'{counts["tools"]} products · {counts["US"]} United States · {counts["FR"]} France · open data',
-    ), ROOT / "public" / "og.png")
-    print("✓ og.png")
+    # Un PNG n'est pas reproductible d'une version d'ImageMagick à l'autre :
+    # regénérer aveuglément réécrit les 158 fichiers à chaque passe, soit un
+    # diff de 1,6 Mo par jour pour aucun changement réel. On ne refait donc une
+    # image que si CE QUI Y FIGURE a bougé.
+    manifest_path = ROOT / "public" / "og" / ".manifest.json"
+    try:
+        manifest = json.loads(manifest_path.read_text())
+    except Exception:
+        manifest = {}
+    fresh: dict[str, str] = {}
+
+    def up_to_date(key: str, fingerprint: str, out: Path) -> bool:
+        fresh[key] = fingerprint
+        return not a.all and manifest.get(key) == fingerprint and out.exists()
+
+    site_out = ROOT / "public" / "og.png"
+    site_title = "Every real estate software, and what it is actually for."
+    site_footer = f'{counts["tools"]} products · {counts["US"]} United States · {counts["FR"]} France · open data'
+    site_fp = hashlib.sha1(f"{site_title}|{site_footer}".encode()).hexdigest()[:16]
+    if up_to_date("__site__", site_fp, site_out):
+        print("· og.png inchangée")
+    else:
+        render(card(site_title, "PROPTECH ATLAS", "", site_footer), site_out)
+        print("✓ og.png")
+
     if a.site:
+        manifest.update(fresh)
+        manifest_path.write_text(json.dumps(manifest, indent=0, sort_keys=True) + "\n")
         return 0
 
+    made = skipped = 0
     for i, t in enumerate(tools, 1):
-        render(card(
-            t["name"],
-            "PROPTECH ATLAS",
-            # Répéter « DoorLoop / DoorLoop » n'apprend rien : quand l'éditeur
-            # porte le nom du produit, la ligne cède la place au positionnement.
-            t["editor"] if t["editor"].lower() != t["name"].lower()
-            else t["positioning"][:110],
-            f'{cat.get(t["category"], t["category"])} · {" · ".join(mkt.get(m, m) for m in t["markets"])}',
-            title_size=72,
-        ), ROOT / "public" / "og" / f'{t["slug"]}.png')
-        if i % 25 == 0:
-            print(f"  … {i}/{len(tools)}")
-    print(f"✓ {len(tools)} images par outil")
+        # Répéter « DoorLoop / DoorLoop » n'apprend rien : quand l'éditeur porte
+        # le nom du produit, la ligne cède la place au positionnement.
+        subtitle = (t["editor"] if t["editor"].lower() != t["name"].lower()
+                    else t["positioning"][:110])
+        footer = f'{cat.get(t["category"], t["category"])} · {" · ".join(mkt.get(m, m) for m in t["markets"])}'
+        out = ROOT / "public" / "og" / f'{t["slug"]}.png'
+        fp = hashlib.sha1(f'{t["name"]}|{subtitle}|{footer}'.encode()).hexdigest()[:16]
+        if up_to_date(t["slug"], fp, out):
+            skipped += 1
+            continue
+        render(card(t["name"], "PROPTECH ATLAS", subtitle, footer, title_size=72), out)
+        made += 1
+        if made and made % 25 == 0:
+            print(f"  … {made} regénérées ({i}/{len(tools)} examinées)")
+
+    # Les slugs disparus quittent le manifeste, mais on ne supprime aucun
+    # fichier : une image orpheline ne casse rien, une suppression automatique si.
+    manifest_path.write_text(json.dumps(fresh, indent=0, sort_keys=True) + "\n")
+    print(f"✓ {made} image(s) regénérée(s), {skipped} inchangée(s)")
     return 0
 
 

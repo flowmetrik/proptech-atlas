@@ -58,6 +58,11 @@ qu'une chose a été tentée vaut mieux que de la retenter.
   le faire par API.
 - **Le domaine propre.** `CUSTOM_DOMAIN` est câblé dans le déploiement ; il
   manque l'enregistrement DNS.
+- **Droit d'écriture des workflows.** Tant que l'organisation le refuse, le
+  workflow quotidien ne peut que constater. Le rendre capable d'entretenir le
+  catalogue lui-même demande deux réglages d'organisation.
+- **Identifiant GA4.** La mesure est câblée et attend la variable de dépôt
+  `GA4_MEASUREMENT_ID`. Sans elle, aucune ligne de script tiers n'est émise.
 
 ---
 
@@ -76,6 +81,14 @@ qu'une chose a été tentée vaut mieux que de la retenter.
   fichier entier et produit un run en échec sans job. Le symptôme qui le
   trahit : GitHub affiche le CHEMIN du fichier au lieu du nom du workflow.
   `yaml.safe_load` validait pourtant — un lint YAML ne valide pas un workflow.
+- **2026-08-28** — Les 158 images de partage étaient réécrites à chaque passe :
+  un PNG n'est pas reproductible d'une version d'ImageMagick à l'autre, donc le
+  dépôt prenait 1,6 Mo de diff par jour pour aucun changement réel. Une empreinte
+  de ce qui figure sur la carte décide maintenant de la régénération.
+- **2026-08-28** — Le workflow quotidien devient un contrôle de santé en lecture
+  seule : l'organisation refuse le droit d'écriture aux workflows, et Actions ne
+  peut pas ouvrir de pull request. Écrire est le métier de la routine Claude, qui
+  tourne sur la VM avec de vraies identités.
 - **2026-08-28** — `magick` n'existe pas sur les runners Ubuntu, qui installent
   ImageMagick 6 (`convert` et `identify`). La chaîne marchait en local et
   échouait en CI : la panne la plus coûteuse à diagnostiquer. Le binaire est
