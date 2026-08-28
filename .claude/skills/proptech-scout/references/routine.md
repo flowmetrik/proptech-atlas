@@ -26,12 +26,20 @@ Routine Claude planifiée. Elle fait ce qu'un workflow ne sait pas faire :
 - **choisir** où chercher — quelles sources sont mûres, quelles catégories sont
   creuses, quel salon vient d'avoir lieu ;
 - **lire** ce que le pipeline a produit et écarter ce qui n'est pas un produit ;
+- **améliorer le projet** — une entrée de `docs/ameliorations.md` par passe, et
+  ce qui est cassé avant tout le reste ;
 - **écrire** le résumé qui dit ce qui a été trouvé, ce qui a été rejeté et
   pourquoi ;
 - **remonter** ce qui bloque — crédits épuisés, source qui ne rend plus rien,
   catégorie que la taxonomie ne couvre pas.
 
-Elle produit elle aussi une pull request. Rien n'atteint `main` sans relecture.
+**Elle fusionne et déploie**, si et seulement si `scripts/ci/merge-guard.sh`
+l'autorise. Le garde regarde le diff : pas de fiche supprimée, pas de note
+d'avis ajoutée, validateur vert, artefacts à jour. S'il refuse, la pull request
+reste ouverte pour relecture humaine — c'est un résultat, pas un échec.
+
+Ce droit lui a été donné le 2026-08-28, après que trois pull requests aient
+dormi trois jours : une routine qui produit sans jamais publier ne sert à rien.
 
 ## Lire son rapport
 
@@ -51,7 +59,9 @@ Dans l'ordre d'importance :
 
 ## Ce qu'elle ne doit jamais faire
 
-- Pousser sur `main`. Toujours une pull request.
+- Fusionner sans que le garde l'ait autorisée, ou le contourner.
+- Pousser directement sur `main` sans passer par une branche et une PR — même
+  quand elle a le droit de fusionner, la trace de la pull request reste.
 - Ajouter une note d'avis. Aucune source accessible ne permet de la dater
   honnêtement.
 - Élargir le périmètre aux sociétés de service parce qu'une source les listait.

@@ -139,6 +139,10 @@ Cette distinction voyage dans le JSON : c'est la promesse du projet.
   fige pas.
 - **Aucun classement.** Pas de placement payant, pas de « top 10 », pas de
   recommandation. L'ordre est alphabétique ou explicitement trié par le lecteur.
+  **L'audience ne réordonne rien** : savoir qu'une fiche est très lue dit où
+  travailler, jamais ce que le lecteur doit voir en premier. Le jour où la
+  popularité décide de l'affichage, ce catalogue devient un annuaire
+  publicitaire comme les autres.
 - **Aucune certitude simulée.** Si le site ne dit pas une année de création, une
   intégration ou une langue, on laisse le champ vide. Un champ manquant est une
   lacune connue ; un champ faux est un dégât.
@@ -167,11 +171,55 @@ Ce qui fait la différence entre une bonne et une mauvaise fiche :
 - Pas de superlatif, pas de « leading », pas de « innovative », pas de tiret
   cadratin décoratif.
 
+## Deux métiers, pas un
+
+Le chercheur ne fait pas qu'ajouter des fiches. **Chaque passe comporte aussi un
+temps d'amélioration du projet** : corriger ce qui est cassé, combler un manque
+du site, mettre à jour une documentation qui a dérivé.
+
+Le carnet est [`docs/ameliorations.md`](../../../docs/ameliorations.md). On y
+pioche **une** entrée par passe — la plus utile pour son coût — et on y ajoute ce
+qu'on rencontre en chemin. On n'efface pas une entrée faite : savoir qu'une chose
+a été tentée vaut mieux que de la retenter.
+
+Ordre de priorité quand les deux sont possibles : **ce qui est cassé d'abord**,
+puis les fiches, puis l'amélioration. Un site qui ne construit plus rend le
+catalogue invisible ; huit fiches de plus n'y changent rien.
+
+## Fusionner et déployer
+
+**La routine fusionne son propre travail** quand le garde l'autorise, et le
+déploiement suit tout seul — le workflow Pages part à chaque poussée sur `main`.
+
+```bash
+bash scripts/ci/merge-guard.sh     # avant toute fusion, sans exception
+```
+
+Le garde regarde le **diff**, pas les intentions. Il refuse quatre choses :
+
+1. la suppression d'une fiche existante — on corrige, ou on marque `disputed` ;
+2. l'ajout d'une note d'avis — aucune source accessible ne permet de la dater ;
+3. un catalogue qui échoue au validateur ;
+4. des artefacts générés périmés — sinon le site publié mentirait sur l'API
+   qu'il sert.
+
+S'il refuse, **on ne contourne pas** : on corrige, ou on laisse la pull request
+à la relecture humaine. C'est un cas de succès, pas un échec.
+
+Après fusion, vérifier que le déploiement est passé et que le site répond :
+
+```bash
+gh run list --repo flowmetrik/proptech-atlas --limit 3
+curl -sL -o /dev/null -w '%{http_code}\n' https://flowmetrik.github.io/proptech-atlas/
+```
+
+Ce contrôle n'est pas une politesse : un build vert qui déploie une page blanche
+est déjà arrivé ailleurs, et personne ne s'en aperçoit avant des jours.
+
 ## La routine quotidienne
 
-Elle tourne tous les jours et produit une **pull request**, jamais un push sur
-`main`. Voir [`references/routine.md`](references/routine.md) pour ce qu'elle
-fait exactement, et ce qu'il faut regarder dans son rapport.
+Voir [`references/routine.md`](references/routine.md) pour ce qu'elle fait
+exactement, et ce qu'il faut regarder dans son rapport.
 
 Quand tu traites son résultat :
 
