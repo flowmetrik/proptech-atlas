@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import Analytics from '../components/Analytics.astro';
 import { url, REPO, counts } from '../lib/catalog';
 
 interface Props {
@@ -61,6 +62,8 @@ const canonical = Astro.site ? new URL(Astro.url.pathname, Astro.site).href : As
 
     <main id="main"><slot /></main>
 
+    <Analytics privacyHref={url('privacy')} />
+
     <footer class="site-footer">
       <div class="wrap">
         <div class="footer-grid">
@@ -68,7 +71,7 @@ const canonical = Astro.site ? new URL(Astro.url.pathname, Astro.site).href : As
             <a class="brand" href={url('')} style="margin-bottom:12px"><svg class="mark" viewBox="0 0 48 48" aria-hidden="true" focusable="false"><path d="M24 4.5 43.5 21H4.5z" fill="currentColor"/><rect x="8" y="23.5" width="32" height="9" rx="2.5" fill="currentColor"/><rect x="8" y="35" width="20.5" height="9" rx="2.5" fill="currentColor"/><rect x="31.5" y="35" width="8.5" height="9" rx="2.5" fill="#F2B705"/></svg>PropTech Atlas</a>
             <p style="max-width:38ch">
               An open Product Knowledge Graph of real estate software in the United States
-              and France. {counts.tools} products, no account, no tracking.
+              and France. {counts.tools} products, no account, no paid placement.
             </p>
             <p class="mono">CC BY 4.0 data · MIT code</p>
           </div>
@@ -97,6 +100,7 @@ const canonical = Astro.site ? new URL(Astro.url.pathname, Astro.site).href : As
               <li><a href={url('about')}>About</a></li>
               <li><a href={url('contribute')}>Contribute</a></li>
               <li><a href={url('blog')}>Blog</a></li>
+              <li><a href={url('privacy')}>Privacy</a></li>
               <li><a href={REPO} rel="noopener">Source code</a></li>
             </ul>
           </div>

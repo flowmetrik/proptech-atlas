@@ -1,0 +1,89 @@
+---
+import Base from '../layouts/Base.astro';
+import { url, REPO } from '../lib/catalog';
+const GA4 = import.meta.env.PUBLIC_GA4_ID;
+---
+<Base title="Privacy" description="What this site measures, what it does not, and how to refuse.">
+  <section class="wrap-narrow section prose">
+    <h1>Privacy</h1>
+    <p class="lede">
+      Short version: no account, no advertising, no profile. One thing is measured — how many
+      people read which page — and only after you agree to it.
+    </p>
+
+    <h2>What is measured</h2>
+    {GA4 ? (
+      <>
+        <p>
+          Page views, through <strong>Google Analytics 4</strong> (measurement ID
+          <span class="mono"> {GA4}</span>, visible in the page source like everything else here).
+          It answers one question we cannot answer otherwise: which parts of the catalogue are
+          actually used, and therefore where the next work should go.
+        </p>
+        <ul>
+          <li>The page you are on, when, and the page that sent you here.</li>
+          <li>Approximate country and city, derived from a truncated IP address.</li>
+          <li>Device type, browser and language.</li>
+        </ul>
+        <p>
+          Nothing is measured before you accept. Google Consent Mode starts with every category
+          set to <span class="mono">denied</span>, so no measurement cookie is written until you
+          click Accept — and if you click Refuse, none ever is.
+        </p>
+      </>
+    ) : (
+      <p>
+        Nothing. No analytics is configured on this deployment: the site is static files served
+        from GitHub Pages, and the page source contains no measurement script at all.
+      </p>
+    )}
+
+    <h2>What is never done</h2>
+    <ul>
+      <li><strong>No advertising.</strong> The advertising categories of Consent Mode are hard-coded to <span class="mono">denied</span> and are never asked about.</li>
+      <li><strong>No account, no login, no form.</strong> There is nothing to sign up for.</li>
+      <li><strong>No third-party embeds.</strong> No social widgets, no comment system, no chat.</li>
+      <li><strong>No data sold, shared or enriched.</strong> There is no CRM behind this site.</li>
+    </ul>
+    <p>
+      Vendor logos are served from this domain, not hot-linked from vendors' sites — so browsing
+      the catalogue does not tell any of them that you looked.
+    </p>
+
+    <h2>Changing your mind</h2>
+    <p>
+      Your choice is stored in your browser's local storage under the key
+      <span class="mono">pa-consent</span>, on this domain only. Clearing your site data resets
+      it and the banner comes back. Browser-level Do Not Track and privacy modes are respected by
+      the same mechanism, since a blocked script measures nothing.
+    </p>
+
+    <h2>A note for French readers</h2>
+    <div class="callout">
+      The CNIL grants a consent exemption to strictly necessary audience measurement, but Google
+      Analytics does not qualify for it. That is precisely why this site asks rather than assumes,
+      and why the default is <span class="mono">denied</span>. A cookieless alternative such as
+      Plausible or a self-hosted Matomo configured to CNIL's exemption criteria would remove the
+      banner entirely — it is <a href={`${REPO}/issues`} rel="noopener">an open question</a> on
+      this project, not a settled one.
+    </div>
+
+    <h2>The data in the catalogue</h2>
+    <p>
+      Entries describe software products and the companies that publish them — business
+      information, not personal data. Where a person is named, it is in a public professional
+      capacity. If you are named here and would rather not be,
+      <a href={`${REPO}/issues/new/choose`} rel="noopener">open an issue</a> and it will be
+      removed.
+    </p>
+
+    <h2>Where this page lives</h2>
+    <p>
+      In the same public repository as everything else:
+      <a href={`${REPO}/blob/main/src/pages/privacy.astro`} rel="noopener">
+        <span class="mono">src/pages/privacy.astro</span></a>. If it disagrees with what the site
+      actually does, that is a bug — the measurement code is in
+      <span class="mono">src/components/Analytics.astro</span> and it is twenty lines long.
+    </p>
+  </section>
+</Base>

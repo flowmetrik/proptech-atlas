@@ -1,0 +1,73 @@
+# Améliorations — le carnet ouvert
+
+Ce que le projet sait de ses propres manques. La routine quotidienne y pioche,
+et y ajoute ce qu'elle rencontre. Un fichier, pas un outil de suivi : la dette
+d'un dépôt de 400 fichiers tient dans une page.
+
+**Convention.** Chaque entrée porte un état — `ouvert`, `en cours`, `fait
+<date>`, `abandonné <date> : raison`. On n'efface pas une entrée faite : savoir
+qu'une chose a été tentée vaut mieux que de la retenter.
+
+---
+
+## Ouvert — qualité de la donnée
+
+- **Passer des fiches en `verified`.** 158 fiches, **zéro vérifiée**. C'est le
+  manque le plus important du projet : tout le catalogue est en « rédigé, non
+  recoupé ». Vérifier veut dire ouvrir les sources, corriger ce qui a bougé,
+  dater le contrôle. Commencer par les fiches les plus consultées une fois la
+  mesure d'audience en place.
+- **Quatre outils sans logo** — `bob-desk`, `poliris`, `salvia-developpement`,
+  `urbanease`. Leur site résiste aux trois voies de récupération.
+- **19 sites injoignables au sondage des signaux.** Voir s'ils bloquent tout
+  accès automatisé, ou si l'URL enregistrée est morte — le second cas est une
+  fiche à corriger.
+- **Les avis restent à zéro.** G2, Capterra et Trustpilot renvoient `403`. Deux
+  issues possibles : une clé d'API payante chez l'un d'eux, ou des contributions
+  humaines sourcées. Ne jamais résoudre ce point en inventant.
+
+## Ouvert — couverture
+
+- **Catégories creuses**, à traiter par une source ciblée plutôt que par une
+  ronde généraliste : `listing-syndication` (2 FR, 0 US), `agent-marketing`
+  (0 FR), `lending-mortgage` (0 FR au départ), `transaction-management` (0 FR).
+- **Le marché français reste le gisement.** Les éditeurs français ne se
+  référencent pas en anglais : c'est là que ce catalogue est seul.
+- **Sources jamais balayées** — voir `data/sweeps.json`. Une source sans entrée
+  n'a jamais été vue.
+
+## Ouvert — site et données
+
+- **Comparaison deux à deux.** Une page « X vs Y » pour les paires réellement
+  concurrentes. Fort en référencement, mais **risque de contenu creux** : à ne
+  faire que si la page dit ce qui sépare vraiment les deux produits.
+- **Filtre sur les signaux dans l'explorateur** — « seulement ceux qui publient
+  leurs tarifs », « seulement ceux qui ont une API documentée ». La donnée
+  existe déjà, elle n'est pas encore filtrable.
+- **Un flux des nouveautés.** `/api/changes.json` : ce qui a été ajouté ou
+  modifié depuis N jours, pour qu'un consommateur de l'API n'ait pas à tout
+  retélécharger.
+- **Descriptions françaises.** Le schéma accepte `description_fr` ; rien ne le
+  remplit. Une moitié du catalogue est française et se lit en anglais.
+
+## Ouvert — exploitation
+
+- **Plafond de dépense côté compte OpenRouter.** Le plafond du code
+  (`ATLAS_MONTHLY_BUDGET_EUR`) protège ce dépôt ; il ne protège pas le compte.
+  À poser dans le tableau de bord OpenRouter — une clé d'inférence ne peut pas
+  le faire par API.
+- **Le domaine propre.** `CUSTOM_DOMAIN` est câblé dans le déploiement ; il
+  manque l'enregistrement DNS.
+
+---
+
+## Fait
+
+- **2026-08-25** — Marque, logos des éditeurs (154/158), signaux vérifiés
+  (139 outils), surface SEO portée de 189 à 363 pages, pipeline d'enrichissement
+  en boucle, skill `proptech-scout`, routine quotidienne.
+- **2026-08-25** — Modèles ouverts et bon marché par défaut, plafond mensuel
+  appliqué dans le code, recherche web plafonnée à trois résultats. Après qu'une
+  ronde sur un modèle propriétaire a vidé un solde entier en une passe.
+- **2026-08-28** — Mesure d'audience GA4 sous consentement, page `/privacy`,
+  garde de fusion, domaine et mesure pilotés par variables de dépôt.

@@ -12,3 +12,6 @@ dist/
 
 # Relevé de dépense OpenRouter — donnée de compte, pas de catalogue.
 data/spend.json
+
+# Écrit par le workflow de déploiement depuis la variable CUSTOM_DOMAIN.
+public/CNAME

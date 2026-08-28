@@ -1,0 +1,77 @@
+---
+// Mesure d'audience — Google Analytics 4, sous consentement.
+//
+// Trois choix, tous délibérés :
+//
+// 1. L'identifiant vient de l'environnement (`PUBLIC_GA4_ID`). Sans lui, ce
+//    composant ne rend RIEN : un dépôt cloné par quelqu'un d'autre, ou un build
+//    local, ne mesure personne.
+// 2. Le mode consentement v2 démarre en `denied` pour TOUT. Aucun cookie n'est
+//    posé tant que le visiteur n'a pas accepté. La moitié de l'audience de ce
+//    site est française ; poser un cookie de mesure avant l'accord serait une
+//    faute, et le catalogue perdrait le droit de se dire honnête.
+// 3. Le refus est aussi accessible que l'accord, et il est mémorisé. Un bandeau
+//    qui revient à chaque page est une façon de forcer la main.
+const GA4 = import.meta.env.PUBLIC_GA4_ID;
+const { privacyHref } = Astro.props as { privacyHref: string };
+---
+{GA4 && (
+  <>
+    <script is:inline define:vars={{ GA4 }}>
+      // Le mode consentement doit être posé AVANT le chargement de gtag, sinon
+      // la première mesure part avant que le refus soit connu.
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      window.gtag = gtag;
+
+      let stored = null;
+      try { stored = localStorage.getItem('pa-consent'); } catch (e) { /* navigation privée */ }
+
+      gtag('consent', 'default', {
+        ad_storage: 'denied',
+        ad_user_data: 'denied',
+        ad_personalization: 'denied',
+        analytics_storage: stored === 'granted' ? 'granted' : 'denied',
+        wait_for_update: 500,
+      });
+
+      gtag('js', new Date());
+      // `anonymize_ip` est le défaut de GA4 ; on le redit pour que la lecture du
+      // source suffise à savoir ce qui est envoyé.
+      gtag('config', GA4, { anonymize_ip: true });
+
+      window.__paConsent = function (choice) {
+        try { localStorage.setItem('pa-consent', choice); } catch (e) { /* ignore */ }
+        gtag('consent', 'update', { analytics_storage: choice });
+        const el = document.getElementById('consent');
+        if (el) el.hidden = true;
+      };
+    </script>
+    <script is:inline async src={`https://www.googletagmanager.com/gtag/js?id=${GA4}`}></script>
+
+    <div class="consent" id="consent" hidden role="region" aria-label="Measurement consent">
+      <p>
+        This site measures page views with Google Analytics, to know which parts of the
+        catalogue are actually used. Nothing is measured until you agree, and no advertising
+        cookie is ever set. <a href={privacyHref}>What is collected</a>.
+      </p>
+      <div class="consent-actions">
+        <button type="button" class="btn btn-sm" onclick="__paConsent('granted')">Accept</button>
+        <button type="button" class="btn btn-ghost btn-sm" onclick="__paConsent('denied')">Refuse</button>
+      </div>
+    </div>
+    <script is:inline>
+      // Le bandeau n'apparaît que si aucun choix n'a été fait — et il est rendu
+      // côté client pour qu'une page en cache ne le montre pas à quelqu'un qui
+      // a déjà répondu.
+      (function () {
+        let stored = null;
+        try { stored = localStorage.getItem('pa-consent'); } catch (e) { /* ignore */ }
+        if (!stored) {
+          const el = document.getElementById('consent');
+          if (el) el.hidden = false;
+        }
+      })();
+    </script>
+  </>
+)}

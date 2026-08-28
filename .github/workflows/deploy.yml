@@ -1,5 +1,19 @@
 name: Deploy to GitHub Pages
 
+# Le site est statique et se déploie à chaque poussée sur `main`.
+#
+# Trois variables de dépôt (Settings → Secrets and variables → Actions →
+# Variables) pilotent le déploiement sans toucher au code :
+#
+#   CUSTOM_DOMAIN        atlas.flowmetrik.com  — sert le site sous ce domaine
+#   GA4_MEASUREMENT_ID   G-XXXXXXXXXX          — active la mesure d'audience
+#   (aucune)                                   — flowmetrik.github.io/proptech-atlas, sans mesure
+#
+# L'identifiant GA4 est une VARIABLE et non un secret : il est visible dans le
+# source de chaque page, le cacher n'aurait aucun sens. Le mettre en secret le
+# rendrait au contraire invisible dans les logs de build, donc plus difficile à
+# vérifier.
+
 on:
   push:
     branches: [main]
@@ -24,12 +38,47 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
+
+      - name: Résoudre l'adresse publique
+        id: addr
+        env:
+          CUSTOM_DOMAIN: ${{ vars.CUSTOM_DOMAIN }}
+        run: |
+          if [ -n "$CUSTOM_DOMAIN" ]; then
+            # Un domaine propre sert à la racine : le `base` disparaît, et le
+            # fichier CNAME dit à Pages quel domaine il doit servir.
+            echo "site=https://$CUSTOM_DOMAIN" >> "$GITHUB_OUTPUT"
+            echo "base=/"                      >> "$GITHUB_OUTPUT"
+            echo "public=https://$CUSTOM_DOMAIN" >> "$GITHUB_OUTPUT"
+            printf '%s\n' "$CUSTOM_DOMAIN" > public/CNAME
+            echo "Domaine : $CUSTOM_DOMAIN" >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "site=https://flowmetrik.github.io"                  >> "$GITHUB_OUTPUT"
+            echo "base=/proptech-atlas"                               >> "$GITHUB_OUTPUT"
+            echo "public=https://flowmetrik.github.io/proptech-atlas" >> "$GITHUB_OUTPUT"
+            echo "Domaine : flowmetrik.github.io/proptech-atlas" >> "$GITHUB_STEP_SUMMARY"
+          fi
+
       - name: Build
         env:
-          SITE: https://flowmetrik.github.io
-          BASE: /proptech-atlas
-          PUBLIC_SITE_URL: https://flowmetrik.github.io/proptech-atlas
+          SITE: ${{ steps.addr.outputs.site }}
+          BASE: ${{ steps.addr.outputs.base }}
+          PUBLIC_SITE_URL: ${{ steps.addr.outputs.public }}
+          PUBLIC_GA4_ID: ${{ vars.GA4_MEASUREMENT_ID }}
         run: npm run build
+
+      - name: Dire ce qui a été construit
+        env:
+          GA4: ${{ vars.GA4_MEASUREMENT_ID }}
+        run: |
+          PAGES=$(find dist -name '*.html' | wc -l | tr -d ' ')
+          echo "Pages : $PAGES" >> "$GITHUB_STEP_SUMMARY"
+          if [ -n "$GA4" ]; then
+            echo "Mesure : GA4 $GA4, consentement refusé par défaut" >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "Mesure : aucune (variable GA4_MEASUREMENT_ID absente)" >> "$GITHUB_STEP_SUMMARY"
+          fi
+
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

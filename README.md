@@ -4,7 +4,7 @@
 
 **An open Product Knowledge Graph of real estate software — United States &amp; France.**
 
-155 products · 24 categories · one YAML file each · no account, no tracking, no paid placement
+158 products · 24 categories · one YAML file each · no account, no paid placement
 
 [Browse the site](https://flowmetrik.github.io/proptech-atlas) ·
 [Catalogue on GitHub](CATALOG.md) ·
@@ -161,6 +161,19 @@ Read [CONTRIBUTING.md](CONTRIBUTING.md); start from
 
 Vendors are welcome to submit and correct their own entry — say so in the pull request. What
 you cannot do is remove a competitor, add a rating, or turn the description into marketing copy.
+
+## Audience
+
+The site measures one thing — which pages are read — through Google Analytics 4, and only
+after the visitor agrees. Consent Mode starts every category at `denied`; the advertising
+categories stay denied and are never asked about. Without the `GA4_MEASUREMENT_ID` repository
+variable, no measurement code is emitted at all.
+
+Full reasoning, how to switch it on or off, and why a French audience makes the default matter:
+[`docs/mesure-audience.md`](docs/mesure-audience.md). What a visitor sees: [`/privacy`](https://flowmetrik.github.io/proptech-atlas/privacy).
+
+Measurement decides **where to work next**, never what a reader sees. Popularity does not
+reorder anything here.
 
 ## Licence
 

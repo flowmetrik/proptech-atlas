@@ -2,7 +2,7 @@
 
 <!-- Généré par `npm run data:emit`. Ne pas éditer à la main : éditer `data/tools/*.yaml`. -->
 
-158 produits · 96 🇺🇸 · 91 🇫🇷 · mis à jour le 2026-08-25
+158 produits · 96 🇺🇸 · 91 🇫🇷 · mis à jour le 2026-08-28
 
 Version navigable : https://flowmetrik.github.io/proptech-atlas/explore
 
