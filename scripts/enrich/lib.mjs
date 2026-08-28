@@ -2,6 +2,7 @@
 // Firecrawl, et lecture-écriture des fiches YAML sans passer par un parseur
 // qui reformaterait tout le fichier.
 import { readFileSync, writeFileSync, readdirSync, existsSync, mkdirSync } from 'node:fs';
+import { execFileSync } from 'node:child_process';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import yaml from 'js-yaml';
@@ -14,6 +15,21 @@ export const UA =
   '(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36';
 
 export const today = () => new Date().toISOString().slice(0, 10);
+
+/**
+ * ImageMagick 7 fournit `magick` ; ImageMagick 6 — celui des runners Ubuntu et
+ * de beaucoup de distributions — fournit `convert` et `identify`. Supposer
+ * `magick` fait échouer la chaîne en CI alors qu'elle marche en local, ce qui
+ * est la pire des pannes : invisible sur la machine où on développe.
+ */
+export function imagemagick() {
+  const has = (b) => {
+    try { execFileSync('which', [b], { stdio: 'pipe' }); return true; } catch { return false; }
+  };
+  if (has('magick')) return { convert: ['magick'], identify: ['magick', 'identify'] };
+  if (has('convert')) return { convert: ['convert'], identify: ['identify'] };
+  return null;
+}
 
 export function loadTools() {
   return readdirSync(TOOLS)

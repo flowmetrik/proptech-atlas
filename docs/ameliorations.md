@@ -71,3 +71,13 @@ qu'une chose a été tentée vaut mieux que de la retenter.
   ronde sur un modèle propriétaire a vidé un solde entier en une passe.
 - **2026-08-28** — Mesure d'audience GA4 sous consentement, page `/privacy`,
   garde de fusion, domaine et mesure pilotés par variables de dépôt.
+- **2026-08-28** — Le workflow quotidien ne parsait pas depuis le 27/08 :
+  GitHub refuse le contexte `secrets` dans un `if` de step, ce qui invalide le
+  fichier entier et produit un run en échec sans job. Le symptôme qui le
+  trahit : GitHub affiche le CHEMIN du fichier au lieu du nom du workflow.
+  `yaml.safe_load` validait pourtant — un lint YAML ne valide pas un workflow.
+- **2026-08-28** — `magick` n'existe pas sur les runners Ubuntu, qui installent
+  ImageMagick 6 (`convert` et `identify`). La chaîne marchait en local et
+  échouait en CI : la panne la plus coûteuse à diagnostiquer. Le binaire est
+  maintenant résolu à l'exécution, et l'échec des images de partage ne fait
+  plus tomber la passe entière.

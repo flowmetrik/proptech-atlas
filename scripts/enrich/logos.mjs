@@ -10,11 +10,20 @@ import { execFile } from 'node:child_process';
 import { promisify } from 'node:util';
 import { statSync, unlinkSync } from 'node:fs';
 import {
-  ROOT, join, loadTools, pool, fetchWithTimeout, ensureDir, today,
+  ROOT, join, loadTools, pool, fetchWithTimeout, ensureDir, today, imagemagick,
   readFileSync, writeFileSync, existsSync, upsertBlock, scrapeHtml,
 } from './lib.mjs';
 
 const run = promisify(execFile);
+const IM = imagemagick();
+if (!IM) {
+  console.error("ImageMagick est absent : ni `magick` ni `convert` sur le PATH.");
+  console.error('  macOS  : brew install imagemagick');
+  console.error('  Ubuntu : sudo apt-get install -y imagemagick');
+  process.exit(1);
+}
+/** Lance ImageMagick, quelle que soit la génération installée. */
+const im = (kind, args) => run(IM[kind][0], [...IM[kind].slice(1), ...args]);
 const OUT = ensureDir(join(ROOT, 'public', 'logos'));
 const args = process.argv.slice(2);
 const ALL = args.includes('--all');
@@ -76,13 +85,13 @@ async function normalise(buf, slug, ext) {
   const out = join(OUT, `${slug}.png`);
   writeFileSync(tmp, buf);
   try {
-    await run('magick', [
+    await im('convert', [
       `${ext === '.ico' ? 'ico:' : ''}${tmp}${ext === '.ico' ? '[0]' : ''}`,
       '-background', 'none', '-alpha', 'on',
       '-resize', '256x256>', '-gravity', 'center', '-extent', '256x256',
       '-strip', `PNG32:${out}`,
     ]);
-    const { stdout } = await run('magick', ['identify', '-format', '%[fx:w]x%[fx:h] %[opaque]', out]);
+    const { stdout } = await im('identify', ['-format', '%[fx:w]x%[fx:h] %[opaque]', out]);
     return { out, dims: stdout.trim() };
   } finally {
     try { unlinkSync(tmp); } catch {}

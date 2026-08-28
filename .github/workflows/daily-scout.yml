@@ -87,8 +87,11 @@ jobs:
       - name: API, images de partage, validation
         run: |
           npm run data:emit
-          python3 scripts/og/build.py
-          npm run data:validate 2>&1 | tee /tmp/validate.log
+          # Les images de partage sont cosmétiques : leur échec ne doit pas
+          # emporter toute la passe, qui a par ailleurs enrichi le catalogue.
+          python3 scripts/og/build.py || echo "⚠ images de partage non régénérées" | tee -a /tmp/validate.log
+          # La validation, elle, reste bloquante : c'est le juge.
+          npm run data:validate 2>&1 | tee -a /tmp/validate.log
 
       - name: Pull request
         env:

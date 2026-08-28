@@ -9,7 +9,7 @@ rendu est identique en local et en CI.
     python3 scripts/og/build.py --site     # seulement l'image du site
 """
 from __future__ import annotations
-import argparse, json, subprocess, sys, urllib.request
+import argparse, json, shutil, subprocess, sys, urllib.request
 from pathlib import Path
 
 from fontTools.ttLib import TTFont
@@ -120,10 +120,22 @@ def card(title: str, kicker: str, subtitle: str, footer: str, title_size: float 
     return f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">{"".join(body)}</svg>'
 
 
+# ImageMagick 7 fournit `magick`, ImageMagick 6 — celui des runners Ubuntu —
+# fournit `convert`. Supposer `magick` fait échouer la CI alors que tout marche
+# en local, ce qui est la panne la plus coûteuse à diagnostiquer.
+IMAGEMAGICK = shutil.which("magick") or shutil.which("convert")
+
+
 def render(svg: str, out: Path) -> None:
+    if not IMAGEMAGICK:
+        raise SystemExit(
+            "ImageMagick est absent : ni `magick` ni `convert` sur le PATH.\n"
+            "  macOS  : brew install imagemagick\n"
+            "  Ubuntu : sudo apt-get install -y imagemagick"
+        )
     out.parent.mkdir(parents=True, exist_ok=True)
-    # `magick` rasterise sans avoir besoin d'une police : tout est déjà en courbes.
-    subprocess.run(["magick", "-background", "none", "svg:-", "-flatten",
+    # Le rendu ne demande aucune police : tout le lettrage est déjà en courbes.
+    subprocess.run([IMAGEMAGICK, "-background", "none", "svg:-", "-flatten",
                     "-colors", "64", "PNG8:" + str(out)],
                    input=svg.encode(), check=True)
 
