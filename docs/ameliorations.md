@@ -17,8 +17,9 @@ qu'une chose a été tentée vaut mieux que de la retenter.
   recoupé ». Vérifier veut dire ouvrir les sources, corriger ce qui a bougé,
   dater le contrôle. Commencer par les fiches les plus consultées une fois la
   mesure d'audience en place.
-- **Quatre outils sans logo** — `bob-desk`, `poliris`, `salvia-developpement`,
-  `urbanease`. Leur site résiste aux trois voies de récupération.
+- **Cinq outils sans logo** — `bob-desk`, `listhub`, `poliris`,
+  `salvia-developpement`, `urbanease`. Leur site résiste aux trois voies de
+  récupération.
 - **19 sites injoignables au sondage des signaux.** Voir s'ils bloquent tout
   accès automatisé, ou si l'URL enregistrée est morte — le second cas est une
   fiche à corriger.
@@ -34,7 +35,11 @@ qu'une chose a été tentée vaut mieux que de la retenter.
 - **Le marché français reste le gisement.** Les éditeurs français ne se
   référencent pas en anglais : c'est là que ce catalogue est seul.
 - **Sources jamais balayées** — voir `data/sweeps.json`. Une source sans entrée
-  n'a jamais été vue.
+  n'a jamais été vue. Neuf sources sur 46 ont été vues au moins une fois.
+- **`syndic-copro` n'a aucune fiche américaine** alors que la gestion de
+  copropriété est un segment entier aux États-Unis, sous le nom HOA. La
+  catégorie existe et la taxonomie convient : c'est le trou le plus large du
+  catalogue. Même remarque, en plus petit, pour `ai-assistants` côté français.
 
 ## Ouvert — site et données
 
@@ -68,6 +73,25 @@ qu'une chose a été tentée vaut mieux que de la retenter.
 
 ## Fait
 
+- **2026-08-29** — Trois passes du chercheur dormaient dans des pull requests
+  empilées, chacune servant de base à la suivante : la première non fusionnée
+  bloquait les deux autres, et `main` avançant par ailleurs, aucune ne pouvait
+  plus se rebaser sans conflit sur des artefacts générés. Les 21 fiches sont
+  reprises en une seule branche assise sur `main`. Trois fiches en double
+  (ButterflyMX, Créditéo, Eloa) : la version la plus ancienne est retenue.
+  À retenir : ouvrir la passe N+1 sur `main`, jamais sur la branche N.
+- **2026-08-29** — `imagemagick()` déclarait ImageMagick 7 dès qu'un binaire
+  nommé `magick` existait sur le PATH. Un shim `magick` renvoyant sur le
+  `convert` d'ImageMagick 6 — celui qu'on pose pour dépanner — passe ce
+  contrôle et fait échouer chaque `magick identify`. Comme `logos.mjs` avale
+  les erreurs candidat par candidat, la panne se lisait « aucun logo
+  exploitable » sur les 20 outils examinés, sans qu'aucune trace ne parle
+  d'ImageMagick. La résolution interroge maintenant la version qui répond.
+- **2026-08-29** — Un PNG présent dans `public/logos/` dont la fiche ne portait
+  pas de bloc `logo` était sauté à chaque passe (« déjà là ») et n'était donc
+  jamais adopté : le fichier existait, le site ne l'affichait pas, et rien ne le
+  signalait. 15 logos étaient dans ce cas. Ils sont repris ; 174 fiches sur 179
+  ont maintenant un logo, contre 154.
 - **2026-08-25** — Marque, logos des éditeurs (154/158), signaux vérifiés
   (139 outils), surface SEO portée de 189 à 363 pages, pipeline d'enrichissement
   en boucle, skill `proptech-scout`, routine quotidienne.

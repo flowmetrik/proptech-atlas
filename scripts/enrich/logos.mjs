@@ -110,7 +110,14 @@ function proxies(website) {
 
 async function grab(tool) {
   const dest = join(OUT, `${tool.slug}.png`);
-  if (!ALL && existsSync(dest) && statSync(dest).size > 400) return { slug: tool.slug, status: 'déjà là' };
+  // Un PNG présent dont la fiche ne dit rien est un orphelin : le fichier a été
+  // récupéré lors d'une passe dont l'écriture du bloc `logo` ne s'est pas faite.
+  // Le site ne l'affichera jamais, et sans provenance on ne peut pas l'adopter —
+  // le validateur exige `source_url`. Il faut donc le reprendre, pas le sauter.
+  const orphan = existsSync(dest) && !tool.logo?.file;
+  if (!ALL && !orphan && existsSync(dest) && statSync(dest).size > 400) {
+    return { slug: tool.slug, status: 'déjà là' };
+  }
 
   let page = await html(tool.website);
   let list = page ? candidates(page.text, page.base) : [];
@@ -137,7 +144,9 @@ async function grab(tool) {
       return { slug: tool.slug, status: 'récupéré', source: c.url, file: out };
     } catch { /* candidat suivant */ }
   }
-  return { slug: tool.slug, status: 'aucun logo exploitable' };
+  // Reprise impossible : le fichier reste sur le disque mais n'a pas de
+  // provenance, donc pas de fiche. On le dit, plutôt que de le laisser dormir.
+  return { slug: tool.slug, status: orphan ? 'orphelin sans provenance' : 'aucun logo exploitable' };
 }
 
 const tools = loadTools().filter((t) => !ONLY.length || ONLY.includes(t.slug));

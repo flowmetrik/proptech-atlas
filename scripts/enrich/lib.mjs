@@ -23,11 +23,22 @@ export const today = () => new Date().toISOString().slice(0, 10);
  * est la pire des pannes : invisible sur la machine où on développe.
  */
 export function imagemagick() {
-  const has = (b) => {
-    try { execFileSync('which', [b], { stdio: 'pipe' }); return true; } catch { return false; }
+  // On ne demande pas « ce nom existe-t-il sur le PATH » mais « quelle version
+  // répond ». La différence n'est pas théorique : un shim `magick` qui renvoie
+  // sur `convert` d'ImageMagick 6 traîne sur des machines où l'on a voulu
+  // dépanner un script. Il répond à `magick -version`, donc `which` le déclare
+  // bon, puis chaque `magick identify` échoue — et logos.mjs, qui avale les
+  // erreurs candidat par candidat, rapporte « aucun logo exploitable » pour
+  // tout le catalogue sans qu'aucune trace ne parle d'ImageMagick.
+  const major = (b) => {
+    try {
+      const out = execFileSync(b, ['-version'], { stdio: ['ignore', 'pipe', 'ignore'] }).toString();
+      return Number(out.match(/ImageMagick\s+(\d+)/)?.[1] ?? 0);
+    } catch { return 0; }
   };
-  if (has('magick')) return { convert: ['magick'], identify: ['magick', 'identify'] };
-  if (has('convert')) return { convert: ['convert'], identify: ['identify'] };
+  if (major('magick') >= 7) return { convert: ['magick'], identify: ['magick', 'identify'] };
+  if (major('convert') >= 6) return { convert: ['convert'], identify: ['identify'] };
+  if (major('magick') >= 6) return { convert: ['magick'], identify: ['identify'] };
   return null;
 }
 
