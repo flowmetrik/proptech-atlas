@@ -41,6 +41,13 @@
     "kept": 0,
     "last_error": "URL du registre morte (certificat expiré sur laboiteimmo.com, /partenaires en 404 sur la-boite-immo.com) — URL corrigée, aucun annuaire de partenaires publié"
   },
+  "narpm-affiliates": {
+    "last_swept": "2026-08-29",
+    "runs": 1,
+    "found": 0,
+    "kept": 0,
+    "last_error": "L'annuaire des affiliés ne publie aucun lien sortant : il est derrière community.narpm.org, réservé aux membres."
+  },
   "salon-copropriete": {
     "last_swept": "2026-08-25",
     "runs": 1,

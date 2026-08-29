@@ -1,0 +1,103 @@
+{
+  "slug": "cinc-systems",
+  "name": "CINC Systems",
+  "editor": "CINC Systems",
+  "website": "https://cincsystems.com",
+  "hq_country": "US",
+  "markets": [
+    "US"
+  ],
+  "category": "syndic-copro",
+  "also_in": [
+    "back-office-accounting"
+  ],
+  "founded": 2005,
+  "positioning": "One platform for community association management and accounting, with direct bank integrations behind the payables and receivables work.",
+  "description": "CINC Systems publishes software for community association management companies, in business since 2005. Its Management and Accounting product runs accounting, operations, communication, compliance and community administration in one place: shared inboxes tied to resident and account history, work orders and service requests, violations and compliance history, architectural request workflows, vendor records, invoice capture with coding and routing suggestions, approval workflows carrying source documents and audit history, and electronic vendor payment. A separate CINC Connect layer gives boards and residents a branded web and mobile experience with payments and self-service. The vendor states 38 direct bank integrations and more than 1,000 management companies.\n",
+  "real_estate_use": "Association management is an accounting business wearing an operations coat: the manager who answers a homeowner about a fine also has to know whether that homeowner's account is current, and the accountant closing the month depends on what the manager did in the field. CINC exists so those two do not work from separate systems and re-key each other's facts. The direct bank connections are the point that distinguishes it in practice, because association funds sit in a large number of small accounts and reconciling them by statement download is where the month gets lost. A firm reaches for it when its portfolio is large enough that banking, payables and compliance history have to live behind the same record.\n",
+  "features": [
+    "Shared inboxes connected to resident, owner, property and account records",
+    "Work order and service request management",
+    "Violation and compliance history per community",
+    "Architectural request and review workflows",
+    "Invoice capture with coding and routing suggestions, approval workflows and audit history",
+    "Electronic vendor payment"
+  ],
+  "use_cases": [
+    {
+      "persona": "syndic-manager",
+      "job": "Keep a resident's communication, payment and compliance history behind one record"
+    },
+    {
+      "persona": "property-manager",
+      "job": "Reconcile association bank accounts without exporting statements"
+    }
+  ],
+  "personas": [
+    "syndic-manager",
+    "property-manager"
+  ],
+  "segments": [
+    "residential",
+    "multifamily"
+  ],
+  "company_sizes": [
+    "midmarket",
+    "enterprise"
+  ],
+  "pricing": {
+    "model": "quote",
+    "public_pricing": false
+  },
+  "ai": {
+    "capabilities": [
+      "Invoice coding and routing recommendations"
+    ]
+  },
+  "product": {
+    "api": false,
+    "open_source": false,
+    "mobile": [
+      "ios",
+      "android"
+    ],
+    "languages": [
+      "en"
+    ]
+  },
+  "alternatives": [
+    "vantaca",
+    "frontsteps",
+    "condo-control"
+  ],
+  "reviews": [],
+  "logo": {
+    "file": "logos/cinc-systems.png",
+    "source_url": "https://cincsystems.com/hubfs/cinc-icon-green-2.png",
+    "fetched_on": "2026-08-29"
+  },
+  "signals": {
+    "privacy": "https://cincsystems.com/privacy-policy",
+    "status": "https://status.cincsystems.com",
+    "site_languages": [
+      "en"
+    ],
+    "checked_on": "2026-08-29"
+  },
+  "sources": [
+    {
+      "url": "https://cincsystems.com/",
+      "note": "site éditeur, accueil"
+    },
+    {
+      "url": "https://cincsystems.com/management-accounting",
+      "note": "page produit — modules et intégrations bancaires"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-29"
+}

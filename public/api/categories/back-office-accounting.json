@@ -4,7 +4,7 @@
   "label_fr": "Back-office & comptabilité immobilière",
   "summary_en": "Trust accounting, owner statements, commissions and brokerage back office.",
   "summary_fr": "Comptabilité mandant, reddition de comptes, commissions et back-office d'agence.",
-  "count": 29,
+  "count": 33,
   "tools": [
     {
       "slug": "aareon",
@@ -830,6 +830,109 @@
       "updated": "2026-08-25"
     },
     {
+      "slug": "cinc-systems",
+      "name": "CINC Systems",
+      "editor": "CINC Systems",
+      "website": "https://cincsystems.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "syndic-copro",
+      "also_in": [
+        "back-office-accounting"
+      ],
+      "founded": 2005,
+      "positioning": "One platform for community association management and accounting, with direct bank integrations behind the payables and receivables work.",
+      "description": "CINC Systems publishes software for community association management companies, in business since 2005. Its Management and Accounting product runs accounting, operations, communication, compliance and community administration in one place: shared inboxes tied to resident and account history, work orders and service requests, violations and compliance history, architectural request workflows, vendor records, invoice capture with coding and routing suggestions, approval workflows carrying source documents and audit history, and electronic vendor payment. A separate CINC Connect layer gives boards and residents a branded web and mobile experience with payments and self-service. The vendor states 38 direct bank integrations and more than 1,000 management companies.\n",
+      "real_estate_use": "Association management is an accounting business wearing an operations coat: the manager who answers a homeowner about a fine also has to know whether that homeowner's account is current, and the accountant closing the month depends on what the manager did in the field. CINC exists so those two do not work from separate systems and re-key each other's facts. The direct bank connections are the point that distinguishes it in practice, because association funds sit in a large number of small accounts and reconciling them by statement download is where the month gets lost. A firm reaches for it when its portfolio is large enough that banking, payables and compliance history have to live behind the same record.\n",
+      "features": [
+        "Shared inboxes connected to resident, owner, property and account records",
+        "Work order and service request management",
+        "Violation and compliance history per community",
+        "Architectural request and review workflows",
+        "Invoice capture with coding and routing suggestions, approval workflows and audit history",
+        "Electronic vendor payment"
+      ],
+      "use_cases": [
+        {
+          "persona": "syndic-manager",
+          "job": "Keep a resident's communication, payment and compliance history behind one record"
+        },
+        {
+          "persona": "property-manager",
+          "job": "Reconcile association bank accounts without exporting statements"
+        }
+      ],
+      "personas": [
+        "syndic-manager",
+        "property-manager"
+      ],
+      "segments": [
+        "residential",
+        "multifamily"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "ai": {
+        "capabilities": [
+          "Invoice coding and routing recommendations"
+        ]
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "vantaca",
+        "frontsteps",
+        "condo-control"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/cinc-systems.png",
+        "source_url": "https://cincsystems.com/hubfs/cinc-icon-green-2.png",
+        "fetched_on": "2026-08-29"
+      },
+      "signals": {
+        "privacy": "https://cincsystems.com/privacy-policy",
+        "status": "https://status.cincsystems.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-29"
+      },
+      "sources": [
+        {
+          "url": "https://cincsystems.com/",
+          "note": "site éditeur, accueil"
+        },
+        {
+          "url": "https://cincsystems.com/management-accounting",
+          "note": "page produit — modules et intégrations bancaires"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-29"
+    },
+    {
       "slug": "crypto-septeo",
       "name": "Crypto (Septeo Solutions Immobilier)",
       "editor": "Septeo",
@@ -1152,6 +1255,106 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "frontsteps",
+      "name": "FRONTSTEPS",
+      "editor": "FRONTSTEPS",
+      "website": "https://frontsteps.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "syndic-copro",
+      "also_in": [
+        "tenant-experience",
+        "back-office-accounting"
+      ],
+      "positioning": "A set of connected HOA products covering back-office accounting, resident engagement, payments and community access control under one ecosystem.",
+      "description": "FRONTSTEPS sells a family of products for homeowner association operations rather than a single application. Caliber handles community budgets and daily financial tasks with automated workflows, reporting and document organisation. Community provides mobile applications for managers, boards and residents with a resident engagement programme. Payments lets homeowners pay assessments online through a PCI DSS compliant processor. Manager is the web-based back office for community association managers working in the field. A safety and security line covers visitor access control and community monitoring inside the same application.\n",
+      "real_estate_use": "A community association manager's day splits between a desk and a gate: assessments to post, a board packet to prepare, and then a visitor list, an amenity, a patrol log. FRONTSTEPS is assembled for firms that want those two halves under one vendor, with Caliber as the accounting spine and the resident and access products hanging off it. It suits a management company whose communities are gated or amenity-heavy, where access control is not an add-on but part of what the board is paying for. Because the offer is a set of products rather than one, the practical question at purchase is which pieces a firm actually takes.\n",
+      "features": [
+        "Caliber community accounting with automated financial workflows and reporting",
+        "Resident and board mobile applications with an engagement programme",
+        "Online assessment payments through a PCI DSS compliant processor",
+        "Web-based manager back office usable in the field",
+        "Visitor access control and community security monitoring",
+        "Document organisation and customisable financial rules"
+      ],
+      "use_cases": [
+        {
+          "persona": "syndic-manager",
+          "job": "Run association accounting and gate access from the same vendor"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "Pay an assessment online instead of mailing a cheque"
+        }
+      ],
+      "personas": [
+        "syndic-manager",
+        "property-manager",
+        "tenant-occupier"
+      ],
+      "segments": [
+        "residential",
+        "multifamily"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "ai": {
+        "capabilities": [
+          "Reporting and financial insight generation"
+        ]
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "vantaca",
+        "cinc-systems",
+        "condo-control",
+        "payhoa"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/frontsteps.png",
+        "source_url": "https://frontsteps.com/wp-content/uploads/2025/07/cropped-Icon_Green-180x180.png",
+        "fetched_on": "2026-08-29"
+      },
+      "signals": {
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-29"
+      },
+      "sources": [
+        {
+          "url": "https://frontsteps.com/",
+          "note": "site éditeur, accueil — écosystème produit"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-29"
     },
     {
       "slug": "gercop",
@@ -2027,6 +2230,109 @@
       "updated": "2026-08-26"
     },
     {
+      "slug": "payhoa",
+      "name": "PayHOA",
+      "editor": "PayHOA",
+      "website": "https://www.payhoa.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "syndic-copro",
+      "also_in": [
+        "back-office-accounting",
+        "tenant-experience"
+      ],
+      "positioning": "Online HOA management for self-managed associations, sold at a published price per community with a free trial and no sales call.",
+      "description": "PayHOA is a US web application for managing a homeowners association online. Its financial side covers general ledger accounting, budgets and board reports, bank integrations that remove manual transaction entry, payables and vendor approvals, and an optional bookkeeping service. Its communication side covers mass text, email and phone messaging, one-click USPS mailings through a mailroom feature, private message boards and a website builder. Its management side covers CC&R violation tracking, request forms, document storage, online voting and surveys, owner portals and resale documents. The vendor states it is used by more than 6,000 communities.\n",
+      "real_estate_use": "Most American associations have no management company at all: a volunteer treasurer collects dues, keeps the books in a spreadsheet and mails paper notices. PayHOA is built for that person. It is the rare product in this category that publishes its price per community size and opens with a free trial rather than a demo, which is what makes it reachable for a board with no budget line for software. The mailroom feature matters more than it sounds, because an association is often legally obliged to send notices by post and doing that by hand is the treasurer's worst evening of the year. Management companies use it too, but its centre of gravity is the self-managed board.\n",
+      "features": [
+        "General ledger accounting with budgets and board reports",
+        "Bank integrations removing manual transaction entry",
+        "Payables and vendor approval workflow",
+        "Mass communication by text, email and phone",
+        "Mailroom for one-click USPS postal mailings",
+        "CC&R violation tracking and resident request forms"
+      ],
+      "use_cases": [
+        {
+          "persona": "landlord-owner",
+          "job": "Collect dues online and produce board financials without a management company"
+        },
+        {
+          "persona": "syndic-manager",
+          "job": "Send a legally required notice by post without handling envelopes"
+        }
+      ],
+      "personas": [
+        "landlord-owner",
+        "syndic-manager",
+        "property-manager"
+      ],
+      "segments": [
+        "residential",
+        "multifamily"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "per-unit",
+        "public_pricing": true,
+        "url": "https://www.payhoa.com/pricing"
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "condo-control",
+        "vantaca",
+        "cinc-systems",
+        "frontsteps"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/payhoa.png",
+        "source_url": "https://www.payhoa.com/wp-content/uploads/2020/11/favicon-32x32-1.png",
+        "fetched_on": "2026-08-29"
+      },
+      "signals": {
+        "pricing": "https://www.payhoa.com/pricing",
+        "privacy": "https://www.payhoa.com/privacy-policy",
+        "status": "https://status.payhoa.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-29"
+      },
+      "sources": [
+        {
+          "url": "https://www.payhoa.com/",
+          "note": "site éditeur, accueil"
+        },
+        {
+          "url": "https://www.payhoa.com/features",
+          "note": "page fonctionnalités"
+        },
+        {
+          "url": "https://www.payhoa.com/pricing",
+          "note": "page tarifs — grille par nombre de lots"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-29"
+    },
+    {
       "slug": "propertyware",
       "name": "Propertyware",
       "editor": "RealPage",
@@ -2632,6 +2938,116 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "vantaca",
+      "name": "Vantaca",
+      "editor": "Vantaca",
+      "website": "https://www.vantaca.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "syndic-copro",
+      "also_in": [
+        "back-office-accounting",
+        "ai-assistants"
+      ],
+      "positioning": "Community association management platform organised around coordinated workflows, with AI agents that carry out routine back-office work.",
+      "description": "Vantaca is a US platform for companies that manage homeowner and community associations. It combines a full accounting suite covering receivables, payables, budgeting and financial reporting with integrated banking and transaction matching, a business intelligence layer called Vantaca IQ for portfolio dashboards and benchmarking, and a revenue capture module for billing the services a management company performs. A set of AI agents branded HOAi runs inside the platform on resident support by email, chat, form and phone, on receivables, payables and financial reporting, and on community management work such as board packets, budgets, architectural review and violations.\n",
+      "real_estate_use": "A management company holding a portfolio of associations spends most of its day on work no one bills for: answering the same homeowner questions, chasing an invoice approval, assembling a board packet the week before a meeting. Vantaca is the system where that work is defined as a workflow rather than a habit, so a manager taking on ten more communities does not need ten more people. Its accounting side matters as much as its operations side, because association money is held per community and a discrepancy between the bank and the ledger has to surface before a board meeting, not after it. Firms come to it when their portfolio has outgrown a general property management tool that treats an association like a landlord.\n",
+      "features": [
+        "Accounting suite covering receivables, payables, budgeting and financial reporting",
+        "Integrated banking with transaction matching against the ledger",
+        "Configurable workflows per management company process",
+        "Vantaca IQ portfolio dashboards, performance tracking and industry benchmarking",
+        "Revenue Manager for billing the management company's own services",
+        "HOAi agents for resident support, accounting and community management tasks"
+      ],
+      "use_cases": [
+        {
+          "persona": "syndic-manager",
+          "job": "Run a portfolio of associations on one set of defined workflows instead of per-manager habits"
+        },
+        {
+          "persona": "property-manager",
+          "job": "Close the month on association books that reconcile against the bank"
+        }
+      ],
+      "personas": [
+        "syndic-manager",
+        "property-manager",
+        "landlord-owner"
+      ],
+      "segments": [
+        "residential",
+        "multifamily",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "ai": {
+        "capabilities": [
+          "Resident support agents answering email, chat, forms and phone",
+          "Automation of receivables, payables and financial reporting",
+          "Board packet, budget and violation preparation"
+        ]
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "cinc-systems",
+        "frontsteps",
+        "condo-control",
+        "payhoa"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/vantaca.png",
+        "source_url": "https://www.vantaca.com/hubfs/VantacaLogo-New-Final_Mark.png",
+        "fetched_on": "2026-08-29"
+      },
+      "signals": {
+        "security": "https://www.vantaca.com/security",
+        "privacy": "https://www.vantaca.com/privacy-policy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-29"
+      },
+      "sources": [
+        {
+          "url": "https://www.vantaca.com/",
+          "note": "site éditeur, accueil"
+        },
+        {
+          "url": "https://www.vantaca.com/product",
+          "note": "page produit — modules et capacités"
+        },
+        {
+          "url": "https://www.vantaca.com/hoai",
+          "note": "page HOAi — agents IA"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-29"
     },
     {
       "slug": "visual-lease",

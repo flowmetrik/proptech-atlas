@@ -1,0 +1,70 @@
+slug: payhoa
+name: PayHOA
+editor: PayHOA
+website: https://www.payhoa.com
+hq_country: US
+markets: [US]
+category: syndic-copro
+also_in: [back-office-accounting, tenant-experience]
+positioning: "Online HOA management for self-managed associations, sold at a published price per community with a free trial and no sales call."
+description: >
+  PayHOA is a US web application for managing a homeowners association online. Its
+  financial side covers general ledger accounting, budgets and board reports, bank
+  integrations that remove manual transaction entry, payables and vendor approvals,
+  and an optional bookkeeping service. Its communication side covers mass text, email
+  and phone messaging, one-click USPS mailings through a mailroom feature, private
+  message boards and a website builder. Its management side covers CC&R violation
+  tracking, request forms, document storage, online voting and surveys, owner portals
+  and resale documents. The vendor states it is used by more than 6,000 communities.
+real_estate_use: >
+  Most American associations have no management company at all: a volunteer treasurer
+  collects dues, keeps the books in a spreadsheet and mails paper notices. PayHOA is
+  built for that person. It is the rare product in this category that publishes its
+  price per community size and opens with a free trial rather than a demo, which is
+  what makes it reachable for a board with no budget line for software. The mailroom
+  feature matters more than it sounds, because an association is often legally obliged
+  to send notices by post and doing that by hand is the treasurer's worst evening of
+  the year. Management companies use it too, but its centre of gravity is the
+  self-managed board.
+features:
+  - General ledger accounting with budgets and board reports
+  - Bank integrations removing manual transaction entry
+  - Payables and vendor approval workflow
+  - "Mass communication by text, email and phone"
+  - Mailroom for one-click USPS postal mailings
+  - CC&R violation tracking and resident request forms
+use_cases:
+  - persona: landlord-owner
+    job: Collect dues online and produce board financials without a management company
+  - persona: syndic-manager
+    job: Send a legally required notice by post without handling envelopes
+personas: [landlord-owner, syndic-manager, property-manager]
+segments: [residential, multifamily]
+company_sizes: [solo, smb]
+pricing:
+  model: per-unit
+  public_pricing: true
+  url: https://www.payhoa.com/pricing
+product:
+  api: false
+  open_source: false
+  mobile: []
+  languages: [en]
+alternatives: [condo-control, vantaca, cinc-systems, frontsteps]
+reviews: []
+logo:
+  file: logos/payhoa.png
+  source_url: https://www.payhoa.com/wp-content/uploads/2020/11/favicon-32x32-1.png
+  fetched_on: "2026-08-29"
+signals:
+  pricing: https://www.payhoa.com/pricing
+  privacy: https://www.payhoa.com/privacy-policy
+  status: https://status.payhoa.com
+  site_languages: [en]
+  checked_on: "2026-08-29"
+sources:
+  - { url: https://www.payhoa.com/, note: "site éditeur, accueil" }
+  - { url: https://www.payhoa.com/features, note: page fonctionnalités }
+  - { url: https://www.payhoa.com/pricing, note: page tarifs — grille par nombre de lots }
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-29"

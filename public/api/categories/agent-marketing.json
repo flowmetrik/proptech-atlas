@@ -4,7 +4,7 @@
   "label_fr": "Sites d'agence & marketing immobilier",
   "summary_en": "Websites, IDX search, branding and campaigns for agents and brokerages.",
   "summary_fr": "Sites, recherche IDX, marque et campagnes pour agents et agences.",
-  "count": 15,
+  "count": 16,
   "tools": [
     {
       "slug": "adapt-immo",
@@ -1211,6 +1211,114 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "prospeneo",
+      "name": "Prospeneo",
+      "editor": "Facilogi",
+      "website": "https://www.prospeneo.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "crm-lead",
+      "also_in": [
+        "agent-marketing",
+        "transaction-management"
+      ],
+      "positioning": "All-in-one French real estate CRM for agencies and mandataire networks, sold as separate applications for prospecting, sale and rental, marketing and websites.",
+      "description": "Prospeneo is a French real estate CRM published by Facilogi and sold to independent agencies and to networks of mandataires. It is organised as applications rather than one monolith: prospecting, sales and rentals, callback scenarios, automations, email marketing, landing pages, forms, teams and privileges, and analytics. The sale and rental application covers listing creation with AI-assisted copywriting, a media manager, contact records and buyer-to-listing matching with a detailed matching view. A separate website line called Vitrinellis provides agency sites built for lead capture, with search, high-definition photos, video and virtual tours, social sharing, geolocation, moderated customer reviews, a gateway to the transaction software, and embeddable popups, forms, pages and newsletters. Website pricing is published from €69 per month for the Starter subscription and €89 for Essentiel, with a setup fee.\n",
+      "real_estate_use": "A mandataire network has a structural problem an agency does not: several hundred independent agents, each with their own listings and contacts, who must be equipped identically and supervised without being employees. Prospeneo answers it with team and privilege management and per-agent analytics sitting on top of the same CRM, and by selling the pieces separately so a solo mandataire and a network head office do not pay for the same thing. In daily use the centre of gravity is matching: a new listing arrives, the software proposes which registered buyers fit it, and the callback scenarios make sure none of them is forgotten for three weeks. The website line matters because for a mandataire the site is the shopfront, there being no physical one.\n",
+      "features": [
+        "Sale and rental listing management with AI-assisted listing copywriting",
+        "Buyer-to-listing matching with a detailed matching view",
+        "Contact records and prospecting pipeline",
+        "Callback scenarios and marketing automations",
+        "Email marketing, landing pages and forms",
+        "Team and privilege management with per-agent analytics"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Match a new listing against registered buyers and be reminded to call them"
+        },
+        {
+          "persona": "brokerage",
+          "job": "Equip a network of mandataires with one CRM and see each agent's activity"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://www.prospeneo.com/tarif-an"
+      },
+      "ai": {
+        "capabilities": [
+          "Listing copywriting"
+        ]
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "hektor",
+        "apimo",
+        "netty",
+        "adapt-immo"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/prospeneo.png",
+        "source_url": "https://prospeneo-public.s3.eu-west-3.amazonaws.com/group/131/public_medias/20231221180152-Prospeneo%20icon.png",
+        "fetched_on": "2026-08-29"
+      },
+      "signals": {
+        "privacy": "https://www.prospeneo.com/privacy-policy",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-29"
+      },
+      "sources": [
+        {
+          "url": "https://www.prospeneo.com/",
+          "note": "site éditeur, accueil — liste des applications"
+        },
+        {
+          "url": "https://www.prospeneo.com/logiciel-transaction-vente-location",
+          "note": "application ventes et locations"
+        },
+        {
+          "url": "https://www.prospeneo.com/tarif-an",
+          "note": "page tarifs — abonnement site internet"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-29"
     },
     {
       "slug": "realgeeks",

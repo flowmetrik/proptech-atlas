@@ -4,7 +4,7 @@
   "label_fr": "Estimation, pige & valorisation",
   "summary_en": "Automated valuation, comparables, owner farming and pricing intelligence.",
   "summary_fr": "Estimation automatisée, comparables, pige propriétaires et pricing.",
-  "count": 9,
+  "count": 10,
   "tools": [
     {
       "slug": "clameur",
@@ -822,6 +822,114 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "terralyse",
+      "name": "Terralyse",
+      "editor": "Terralyse",
+      "website": "https://terralyse.fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "market-data",
+      "also_in": [
+        "estimation-pricing"
+      ],
+      "positioning": "Everything public about a French address in one lookup: real sale prices from DVF, cadastre, planning, risks and neighbourhood.",
+      "description": "Terralyse is a French web service that assembles the public land and property record of an address into a single report: real transaction prices from the DVF file published by the DGFiP, cadastral data, planning, risks and neighbourhood context. Prices per square metre are computed from twelve years of official transactions and published freely for more than 5,000 communes, with an interactive map that reads a price at the level of a building rather than a municipal average. Around the core the site publishes free tools: notary fee and borrowing calculators, official Banque de France credit rates, rental yield by city, and a purchasing-power index. The vendor names promoters, property traders, estate agents, insurers, REITs, architects and chartered surveyors as its audiences, and lists an MCP interface for use from AI assistants.\n",
+      "real_estate_use": "The French state publishes almost everything about a plot of land, and publishes it in six different places with six different keys: DVF for prices, the cadastre for parcels, the PLU for what may be built, Géorisques for what may go wrong. Terralyse is the lookup that spares a professional the assembly, in the moment before an offer or an estimate when the question is not what the market says but what this address actually is. An estate agent uses it to argue a price against a seller with real transactions rather than a portal average; a property trader uses it to sort plots before spending a day on any of them. The MCP interface is a real differentiator in this category: the data is designed to be read by an AI assistant, not only by a person.\n",
+      "features": [
+        "Address report combining sale prices, cadastre, planning, risks and neighbourhood",
+        "Real transaction prices from the DVF file over twelve years",
+        "Price per square metre by commune for more than 5,000 communes",
+        "Interactive map reading price at building level rather than municipal average",
+        "Rental yield by city and purchasing-power index",
+        "Notary fee and borrowing calculators, official Banque de France credit rates"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Argue an asking price against a seller with the actual transactions on the street"
+        },
+        {
+          "persona": "investor-am",
+          "job": "Sort plots or buildings on public land data before committing time to any of them"
+        },
+        {
+          "persona": "developer-builder",
+          "job": "Read what planning and risk say about an address before an offer"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "investor-am",
+        "developer-builder",
+        "appraiser"
+      ],
+      "segments": [
+        "residential",
+        "land-development",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "freemium",
+        "public_pricing": false
+      },
+      "ai": {
+        "capabilities": [
+          "MCP server exposing the land data to AI assistants"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "dvf",
+        "kelfoncier",
+        "cityscan",
+        "yanport"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/terralyse.png",
+        "source_url": "https://terralyse.fr/apple-touch-icon.png",
+        "fetched_on": "2026-08-29"
+      },
+      "signals": {
+        "pricing": "https://terralyse.fr/tarifs",
+        "privacy": "https://terralyse.fr/mentions-legales",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-29"
+      },
+      "sources": [
+        {
+          "url": "https://terralyse.fr/",
+          "note": "site éditeur, accueil — modules et métiers"
+        },
+        {
+          "url": "https://terralyse.fr/prix-immobilier",
+          "note": "prix par commune — méthode DVF sur 12 ans"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-29"
     },
     {
       "slug": "zillow",

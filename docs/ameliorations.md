@@ -35,7 +35,16 @@ qu'une chose a été tentée vaut mieux que de la retenter.
 - **Le marché français reste le gisement.** Les éditeurs français ne se
   référencent pas en anglais : c'est là que ce catalogue est seul.
 - **Sources jamais balayées** — voir `data/sweeps.json`. Une source sans entrée
-  n'a jamais été vue. Neuf sources sur 46 ont été vues au moins une fois.
+  n'a jamais été vue. Dix sources sur 46 ont été vues au moins une fois.
+- **Les sources `association` ne rendent plus rien, des deux côtés de
+  l'Atlantique.** `unis-partenaires`, `fnaim-partenaires` et
+  `laboiteimmo-partenaires` étaient muettes ou en 404 le 26/08 ; le 29/08,
+  l'annuaire des affiliés de la NARPM s'est révélé sans aucun lien sortant, son
+  contenu vivant derrière `community.narpm.org`, réservé aux membres. Ce n'est
+  pas un faible rendement, c'est un mécanisme : les fédérations ont déplacé leur
+  annuaire fournisseurs derrière une adhésion. Il faut soit retirer ces entrées,
+  soit leur trouver une URL publique qui existe encore. Six autres sources
+  `association` ne sont pas encore vérifiées.
 - **`syndic-copro` n'a aucune fiche américaine** alors que la gestion de
   copropriété est un segment entier aux États-Unis, sous le nom HOA. La
   catégorie existe et la taxonomie convient : c'est le trou le plus large du

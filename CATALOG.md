@@ -2,7 +2,7 @@
 
 <!-- Généré par `npm run data:emit`. Ne pas éditer à la main : éditer `data/tools/*.yaml`. -->
 
-179 produits · 105 🇺🇸 · 104 🇫🇷 · mis à jour le 2026-08-29
+188 produits · 110 🇺🇸 · 108 🇫🇷 · mis à jour le 2026-08-29
 
 Version navigable : https://flowmetrik.github.io/proptech-atlas/explore
 
@@ -22,7 +22,9 @@ _Capter, qualifier et travailler les leads acquéreurs, vendeurs et locataires._
 | [Immofacile](data/tools/immofacile.yaml) | Immofacile | 🇫🇷 | Small French agencies rarely practise all three regulated activities, and paying for a full administration suite to run transaction alone is a common source of overspend. Modular pricing… |
 | [Knock CRM](data/tools/knock-crm.yaml) | RealPage | 🇺🇸 | A leasing team at a large apartment community loses prospects between the first inquiry and the tour. With Knock the renter books their own slot straight from the property website, so… |
 | [Lofty](data/tools/lofty.yaml) | Lofty (formerly Chime Technologies) | 🇺🇸 | A team buys traffic through Lofty's ad management, the visitor lands on a Lofty IDX site, their property searches are recorded against their CRM record, and an AI assistant opens the… |
+| [Maline](data/tools/maline.yaml) | Maline Immobilier | 🇫🇷 | French agencies have prospected for decades by pige, that is by working the for-sale-by-owner ads, and the vendor positions itself squarely against the disappearance of that practice.… |
 | [Netty](data/tools/netty.yaml) | Netty | 🇫🇷 | Independent French agencies compete with national networks whose brand carries the online traffic. Netty's positioning answers that: the agency site is built for local search visibility… |
+| [Prospeneo](data/tools/prospeneo.yaml) | Facilogi | 🇫🇷 | A mandataire network has a structural problem an agency does not: several hundred independent agents, each with their own listings and contacts, who must be equipped identically and… |
 | [Sierra Interactive](data/tools/sierra-interactive.yaml) | Sierra Interactive | 🇺🇸 | Teams that treat their website as the lead source, not as a brochure, use Sierra to build hundreds of hyperlocal landing pages, capture registrations behind listing detail, and drop the… |
 | [SweepBright](data/tools/sweepbright.yaml) | SweepBright | 🇫🇷 | The design assumption is that the agent is never at a desk. Capturing the property during the valuation visit — rooms, photos, description — and publishing directly from the phone… |
 
@@ -71,6 +73,7 @@ _Comparables, propriétaires, transactions, loyers, fréquentation et les jeux d
 | [Kel Foncier](data/tools/kelfoncier.yaml) | Kel Foncier | 🇫🇷 | A French development starts with a question the PLU answers slowly: on this parcel, what height, what footprint, what constraints. Kel Foncier makes that searchable in reverse — find… |
 | [Placer.ai](data/tools/placer-ai.yaml) | Placer Labs | 🇺🇸 🇫🇷 | In retail leasing it replaces the argument from intuition. A landlord shows a prospective tenant that the centre draws a measured number of visits from a trade area matching the brand's… |
 | [Reonomy](data/tools/reonomy.yaml) | Altus Group | 🇺🇸 | Its use is prospecting rather than underwriting. A broker looking for listings filters a county for owners who have held an asset more than ten years with a maturing loan, then pulls a… |
+| [Terralyse](data/tools/terralyse.yaml) | Terralyse | 🇫🇷 | The French state publishes almost everything about a plot of land, and publishes it in six different places with six different keys: DVF for prices, the cadastre for parcels, the PLU for… |
 | [Urbanease](data/tools/urbanease.yaml) | Urbanease | 🇫🇷 | Finding the parcel is half the job; the other half is a disciplined approach to an owner who was not thinking of selling. Urbanease keeps the qualification and the contact history on the… |
 | [Yanport](data/tools/yanport.yaml) | Yanport | 🇫🇷 | France has no MLS, so the history of what was actually asked and what actually sold is fragmented across portals and public records. Yanport reconstructs it: an appraiser or a developer… |
 
@@ -144,13 +147,18 @@ _Gérer l'immeuble en copropriété — budgets, AG, appels de fonds, travaux._
 
 | Produit | Éditeur | Marchés | Usage en immobilier |
 |---|---|---|---|
+| [CINC Systems](data/tools/cinc-systems.yaml) | CINC Systems | 🇺🇸 | Association management is an accounting business wearing an operations coat: the manager who answers a homeowner about a fine also has to know whether that homeowner's account is… |
+| [Condo Control](data/tools/condo-control.yaml) | Condo Control | 🇺🇸 | A condominium tower runs on things a rental building never has to think about: a front desk logging visitors, a party room booked three weeks ahead, a package wall that overflows every… |
 | [Crypto (Septeo Solutions Immobilier)](data/tools/crypto-septeo.yaml) | Septeo | 🇫🇷 | It is the system of record in many established French administration de biens firms, chosen for accounting depth rather than for interface. Its centre of gravity is the regulated ledger… |
+| [FRONTSTEPS](data/tools/frontsteps.yaml) | FRONTSTEPS | 🇺🇸 | A community association manager's day splits between a desk and a gate: assessments to post, a board packet to prepare, and then a visitor list, an amenity, a patrol log. FRONTSTEPS is… |
 | [Gercop](data/tools/gercop.yaml) | Septeo | 🇫🇷 | At the scale of tens of thousands of lots across multiple branches, the operational problem moves from bookkeeping to organisation: who manages which building, which assemblies fall in… |
 | [ICS](data/tools/ics.yaml) | ICS | 🇫🇷 | Property management firms and syndics in France use ICS to run their daily back office: co-ownership accounting, fund calls and general assembly administration through the syndic module… |
 | [Matera](data/tools/matera.yaml) | Matera | 🇫🇷 | A council of co-owners who wants to drop a traditional syndic firm and take direct control of the building's finances and decisions logs into Matera to track the budget, issue and follow… |
 | [Partnerimmo](data/tools/partnerimmo.yaml) | Partnerimmo | 🇫🇷 | A French cabinet d'administration de biens runs two regulated books at once — the landlord's account in gérance and the co-ownership's account in syndic — and both are audited.… |
+| [PayHOA](data/tools/payhoa.yaml) | PayHOA | 🇺🇸 | Most American associations have no management company at all: a volunteer treasurer collects dues, keeps the books in a spreadsheet and mails paper notices. PayHOA is built for that… |
 | [Powimo](data/tools/powimo.yaml) | Seiitra | 🇫🇷 | A syndic manager uses Powimo to track co-ownership mandates, run accounting per building, prepare and hold dematerialized general assemblies, and issue fund calls to co-owners. A rental… |
 | [Syment](data/tools/syment.yaml) | Syment | 🇫🇷 | A significant share of small French buildings are managed by a syndic bénévole — a co-owner who is not an accountant. That case has particular requirements: the accounting must be… |
+| [Vantaca](data/tools/vantaca.yaml) | Vantaca | 🇺🇸 | A management company holding a portfolio of associations spends most of its day on work no one bills for: answering the same homeowner questions, chasing an invoice approval, assembling… |
 | [Vilogi](data/tools/vilogi.yaml) | Vilogi | 🇫🇷 | A French copropriété is a legal entity with its own accounts, its own budget voted in assembly, and a mandatory extranet for co-owners. Vilogi encodes that cycle: the provisional budget… |
 
 ## Asset & property management tertiaire · Commercial asset & property management
@@ -350,5 +358,6 @@ _Assistants LLM qui répondent, qualifient, rédigent et agissent sur le métier
 | Produit | Éditeur | Marchés | Usage en immobilier |
 |---|---|---|---|
 | [EliseAI](data/tools/eliseai.yaml) | EliseAI | 🇺🇸 | Leasing enquiries arrive outside office hours and go cold within the hour. EliseAI answers immediately in the channel the prospect used, checks real availability against the property… |
+| [Keyzia](data/tools/keyzia.yaml) | Keyzia | 🇫🇷 | The AI problem inside a French agency or syndic is not that nobody uses it, it is that everyone uses it separately, in a personal account, with client data. Keyzia is positioned against… |
 | [Structurely](data/tools/structurely.yaml) | Structurely | 🇺🇸 | A team buying leads accumulates thousands of contacts nobody has time to nurture. The economics of an AI agent are different from a human inside sales agent: it can pursue a two-year-old… |
 | [Ylopo](data/tools/ylopo.yaml) | Ylopo | 🇺🇸 | Teams that already standardised on a CRM will not move for an ad product. Ylopo's design reflects that: it generates and nurtures, and writes everything back into the CRM of record. Its… |

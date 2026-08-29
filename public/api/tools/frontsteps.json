@@ -1,0 +1,100 @@
+{
+  "slug": "frontsteps",
+  "name": "FRONTSTEPS",
+  "editor": "FRONTSTEPS",
+  "website": "https://frontsteps.com",
+  "hq_country": "US",
+  "markets": [
+    "US"
+  ],
+  "category": "syndic-copro",
+  "also_in": [
+    "tenant-experience",
+    "back-office-accounting"
+  ],
+  "positioning": "A set of connected HOA products covering back-office accounting, resident engagement, payments and community access control under one ecosystem.",
+  "description": "FRONTSTEPS sells a family of products for homeowner association operations rather than a single application. Caliber handles community budgets and daily financial tasks with automated workflows, reporting and document organisation. Community provides mobile applications for managers, boards and residents with a resident engagement programme. Payments lets homeowners pay assessments online through a PCI DSS compliant processor. Manager is the web-based back office for community association managers working in the field. A safety and security line covers visitor access control and community monitoring inside the same application.\n",
+  "real_estate_use": "A community association manager's day splits between a desk and a gate: assessments to post, a board packet to prepare, and then a visitor list, an amenity, a patrol log. FRONTSTEPS is assembled for firms that want those two halves under one vendor, with Caliber as the accounting spine and the resident and access products hanging off it. It suits a management company whose communities are gated or amenity-heavy, where access control is not an add-on but part of what the board is paying for. Because the offer is a set of products rather than one, the practical question at purchase is which pieces a firm actually takes.\n",
+  "features": [
+    "Caliber community accounting with automated financial workflows and reporting",
+    "Resident and board mobile applications with an engagement programme",
+    "Online assessment payments through a PCI DSS compliant processor",
+    "Web-based manager back office usable in the field",
+    "Visitor access control and community security monitoring",
+    "Document organisation and customisable financial rules"
+  ],
+  "use_cases": [
+    {
+      "persona": "syndic-manager",
+      "job": "Run association accounting and gate access from the same vendor"
+    },
+    {
+      "persona": "landlord-owner",
+      "job": "Pay an assessment online instead of mailing a cheque"
+    }
+  ],
+  "personas": [
+    "syndic-manager",
+    "property-manager",
+    "tenant-occupier"
+  ],
+  "segments": [
+    "residential",
+    "multifamily"
+  ],
+  "company_sizes": [
+    "smb",
+    "midmarket",
+    "enterprise"
+  ],
+  "pricing": {
+    "model": "quote",
+    "public_pricing": false
+  },
+  "ai": {
+    "capabilities": [
+      "Reporting and financial insight generation"
+    ]
+  },
+  "product": {
+    "api": false,
+    "open_source": false,
+    "mobile": [
+      "ios",
+      "android"
+    ],
+    "languages": [
+      "en"
+    ]
+  },
+  "alternatives": [
+    "vantaca",
+    "cinc-systems",
+    "condo-control",
+    "payhoa"
+  ],
+  "reviews": [],
+  "logo": {
+    "file": "logos/frontsteps.png",
+    "source_url": "https://frontsteps.com/wp-content/uploads/2025/07/cropped-Icon_Green-180x180.png",
+    "fetched_on": "2026-08-29"
+  },
+  "signals": {
+    "site_languages": [
+      "en"
+    ],
+    "checked_on": "2026-08-29"
+  },
+  "sources": [
+    {
+      "url": "https://frontsteps.com/",
+      "note": "site éditeur, accueil — écosystème produit"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-29"
+}

@@ -4,7 +4,7 @@
   "label_fr": "Data de marché & intelligence immobilière",
   "summary_en": "Comparables, ownership, transactions, rents, footfall and the datasets other products are built on.",
   "summary_fr": "Comparables, propriétaires, transactions, loyers, fréquentation et les jeux de données sur lesquels d'autres produits sont bâtis.",
-  "count": 20,
+  "count": 23,
   "tools": [
     {
       "slug": "attom-data",
@@ -1016,6 +1016,115 @@
       "updated": "2026-08-25"
     },
     {
+      "slug": "keyzia",
+      "name": "Keyzia",
+      "editor": "Keyzia",
+      "website": "https://keyzia.fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "ai-assistants",
+      "also_in": [
+        "market-data",
+        "energy-esg"
+      ],
+      "positioning": "A French platform for deploying AI use cases across a real estate or construction company, with European hosting and a per-address data layer.",
+      "description": "Keyzia is a French application that lets a real estate or construction company test, deploy and centralise its AI use cases in one place rather than leaving them scattered across individual accounts. It is sold to estate agents, property administrators and syndics, tradespeople and renovators, banks and insurers, and energy actors, each with its own set of prepared uses: preparing a full listing mandate, analysing quotes and invoices, energy diagnosis, risk and green-value assessment. A module called KeyPark holds a portfolio of addresses with the history attached to each property, covering past transactions, works and diagnostics, with notifications when something changes. An interactive map layer adds address-level data for spotting projects on a territory. The vendor states data is hosted in Europe.\n",
+      "real_estate_use": "The AI problem inside a French agency or syndic is not that nobody uses it, it is that everyone uses it separately, in a personal account, with client data. Keyzia is positioned against exactly that: it puts the prepared use cases in one company tool, integrated where the teams already work, so the practice becomes shared rather than hidden. For an agent, the working moment is preparing a mandate: the property's transaction history, its diagnostics, its past works and its surroundings pulled together in minutes instead of an afternoon of portal-hopping. For a property administrator, it is watching a stock of buildings and anticipating which ones will need renovation work. European hosting is a purchase criterion in this market, not a detail.\n",
+      "features": [
+        "Centralised catalogue of AI use cases deployable across a company",
+        "Integration into the business tools the teams already use",
+        "KeyPark address portfolio with per-property history of transactions, works and diagnostics",
+        "Change notifications on tracked properties",
+        "Interactive territory map enriched with address-level data",
+        "Quote and invoice document analysis"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Assemble a complete listing mandate from a property's history and surroundings in minutes"
+        },
+        {
+          "persona": "syndic-manager",
+          "job": "Watch a stock of buildings and anticipate which need renovation work"
+        },
+        {
+          "persona": "lender-broker",
+          "job": "Assess a property's risk and energy value without ordering a study"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "syndic-manager",
+        "developer-builder",
+        "lender-broker"
+      ],
+      "segments": [
+        "residential",
+        "multifamily",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "ai": {
+        "capabilities": [
+          "Prepared business use cases for real estate and construction",
+          "Quote and invoice analysis",
+          "Energy diagnosis and green-value scoring",
+          "Address-level data enrichment"
+        ]
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "cityscan",
+        "kelfoncier",
+        "yanport"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/keyzia.png",
+        "source_url": "https://keyzia.fr/wp-content/uploads/2025/02/cropped-favicon-180x180.png",
+        "fetched_on": "2026-08-29"
+      },
+      "signals": {
+        "privacy": "https://keyzia.fr/mentions-legales",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-29"
+      },
+      "sources": [
+        {
+          "url": "https://keyzia.fr/",
+          "note": "site éditeur, accueil — métiers et arguments"
+        },
+        {
+          "url": "https://keyzia.fr/keypark/",
+          "note": "page KeyPark — suivi de parc immobilier"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-29"
+    },
+    {
       "slug": "listhub",
       "name": "ListHub",
       "editor": "Move, Inc.",
@@ -1101,6 +1210,98 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "maline",
+      "name": "Maline",
+      "editor": "Maline Immobilier",
+      "website": "https://maline.io/fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "crm-lead",
+      "also_in": [
+        "market-data"
+      ],
+      "positioning": "Predictive seller prospecting for French agencies: owners likely to sell are identified from life events and delivered on an exclusive territory.",
+      "description": "Maline Immobilier is a French service that identifies owners likely to put a property up for sale several months ahead, and delivers them to an agency as qualified seller leads. Its stated method is the analysis of life events — divorce, marriage, birth, retirement, professional relocation, inheritance — which the vendor says account for the great majority of sales, combined with dozens of qualification criteria. Prospecting zones are sold as exclusive territories: once an agency reserves an area, no other Maline subscriber prospects it, and the number of leads follows the number of dwellings in the zone. The vendor states first contacts arrive around fifteen days after a territory is activated.\n",
+      "real_estate_use": "French agencies have prospected for decades by pige, that is by working the for-sale-by-owner ads, and the vendor positions itself squarely against the disappearance of that practice. The alternative it proposes is to arrive before the ad exists: to knock on the door of an owner whose circumstances suggest a sale within a year, when there is still a mandate to win rather than a price war to lose. The exclusive territory is what an agency is really buying, since a predictive lead shared with three competitors is worth nothing. It is a fit for an agency with the discipline to work a farm patiently over months, and a poor fit for one that needs listings this quarter.\n",
+      "features": [
+        "Detection of likely sellers from life events several months before listing",
+        "Qualification of owners against dozens of criteria",
+        "Exclusive prospecting territory per subscriber",
+        "Lead volume scaled to the number of dwellings in the zone",
+        "Automatic delivery of qualified seller contacts"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Win a mandate by reaching an owner before the property is advertised"
+        },
+        {
+          "persona": "brokerage",
+          "job": "Give each branch a prospecting patch no competing subscriber can work"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "ai": {
+        "capabilities": [
+          "Predictive scoring of owners likely to sell"
+        ]
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "fluximmo",
+        "pige-online",
+        "meilleursagents"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/maline.png",
+        "source_url": "https://maline.io/fr/assets/img/landing/64f646bbe8c62303845e0da3_Group%201000003719.png",
+        "fetched_on": "2026-08-29"
+      },
+      "signals": {
+        "site_languages": [
+          "es",
+          "fr"
+        ],
+        "checked_on": "2026-08-29"
+      },
+      "sources": [
+        {
+          "url": "https://maline.io/fr",
+          "note": "site éditeur — méthode, territoires exclusifs, FAQ"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-29"
     },
     {
       "slug": "meilleursagents",
@@ -1734,6 +1935,114 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "terralyse",
+      "name": "Terralyse",
+      "editor": "Terralyse",
+      "website": "https://terralyse.fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "market-data",
+      "also_in": [
+        "estimation-pricing"
+      ],
+      "positioning": "Everything public about a French address in one lookup: real sale prices from DVF, cadastre, planning, risks and neighbourhood.",
+      "description": "Terralyse is a French web service that assembles the public land and property record of an address into a single report: real transaction prices from the DVF file published by the DGFiP, cadastral data, planning, risks and neighbourhood context. Prices per square metre are computed from twelve years of official transactions and published freely for more than 5,000 communes, with an interactive map that reads a price at the level of a building rather than a municipal average. Around the core the site publishes free tools: notary fee and borrowing calculators, official Banque de France credit rates, rental yield by city, and a purchasing-power index. The vendor names promoters, property traders, estate agents, insurers, REITs, architects and chartered surveyors as its audiences, and lists an MCP interface for use from AI assistants.\n",
+      "real_estate_use": "The French state publishes almost everything about a plot of land, and publishes it in six different places with six different keys: DVF for prices, the cadastre for parcels, the PLU for what may be built, Géorisques for what may go wrong. Terralyse is the lookup that spares a professional the assembly, in the moment before an offer or an estimate when the question is not what the market says but what this address actually is. An estate agent uses it to argue a price against a seller with real transactions rather than a portal average; a property trader uses it to sort plots before spending a day on any of them. The MCP interface is a real differentiator in this category: the data is designed to be read by an AI assistant, not only by a person.\n",
+      "features": [
+        "Address report combining sale prices, cadastre, planning, risks and neighbourhood",
+        "Real transaction prices from the DVF file over twelve years",
+        "Price per square metre by commune for more than 5,000 communes",
+        "Interactive map reading price at building level rather than municipal average",
+        "Rental yield by city and purchasing-power index",
+        "Notary fee and borrowing calculators, official Banque de France credit rates"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Argue an asking price against a seller with the actual transactions on the street"
+        },
+        {
+          "persona": "investor-am",
+          "job": "Sort plots or buildings on public land data before committing time to any of them"
+        },
+        {
+          "persona": "developer-builder",
+          "job": "Read what planning and risk say about an address before an offer"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "investor-am",
+        "developer-builder",
+        "appraiser"
+      ],
+      "segments": [
+        "residential",
+        "land-development",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "freemium",
+        "public_pricing": false
+      },
+      "ai": {
+        "capabilities": [
+          "MCP server exposing the land data to AI assistants"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "dvf",
+        "kelfoncier",
+        "cityscan",
+        "yanport"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/terralyse.png",
+        "source_url": "https://terralyse.fr/apple-touch-icon.png",
+        "fetched_on": "2026-08-29"
+      },
+      "signals": {
+        "pricing": "https://terralyse.fr/tarifs",
+        "privacy": "https://terralyse.fr/mentions-legales",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-29"
+      },
+      "sources": [
+        {
+          "url": "https://terralyse.fr/",
+          "note": "site éditeur, accueil — modules et métiers"
+        },
+        {
+          "url": "https://terralyse.fr/prix-immobilier",
+          "note": "prix par commune — méthode DVF sur 12 ans"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-29"
     },
     {
       "slug": "urbanease",
