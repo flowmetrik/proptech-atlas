@@ -59,6 +59,10 @@ signals:
   privacy: https://butterflymx.com
   site_languages: [en]
   checked_on: "2026-08-25"
+logo:
+  file: logos/butterflymx.png
+  source_url: https://butterflymx.com/wp-content/uploads/2021/11/cropped-favicon-butterflymx-180x180.png
+  fetched_on: "2026-08-29"
 sources:
   - { url: https://butterflymx.com, note: site éditeur }
   - { url: https://butterflymx.com/features/, note: page fonctionnalités }

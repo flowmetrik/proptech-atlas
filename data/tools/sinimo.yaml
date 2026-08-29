@@ -57,6 +57,10 @@ signals:
   pricing: https://www.sinimo.fr/tarifs
   site_languages: [fr]
   checked_on: "2026-08-26"
+logo:
+  file: logos/sinimo.png
+  source_url: https://www.sinimo.fr/favicon.png
+  fetched_on: "2026-08-29"
 sources:
   - { url: https://www.sinimo.fr/logiciel-immobilier, note: "site éditeur, page produit" }
   - { url: https://www.sinimo.fr/tarifs, note: "site éditeur, tarifs publics" }

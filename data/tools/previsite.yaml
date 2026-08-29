@@ -6,7 +6,7 @@ hq_country: FR
 markets: [FR]
 category: agent-marketing
 also_in: [visuals-tours, listing-syndication]
-positioning: "Suite de production et de diffusion de contenu pour agents immobiliers : photo, vidéo, visite virtuelle, site dédié au mandat et gestion des réseaux sociaux."
+positioning: "Content production and distribution suite for real estate agents: photo, video, virtual tour, a dedicated site per listing and social media publishing."
 description: >
   Previsite publishes a set of marketing tools for real estate agents, gathered in an
   all-in-one mobile application called Smartpix Pro. The application produces the
@@ -57,6 +57,10 @@ reviews: []
 signals:
   site_languages: [fr]
   checked_on: "2026-08-25"
+logo:
+  file: logos/previsite.png
+  source_url: https://www.previsite.com/webp/previsite_icon.svg
+  fetched_on: "2026-08-29"
 sources:
   - { url: https://www.previsite.com, note: site éditeur }
   - { url: https://www.frenchproptech.fr/annuaire-startups/, note: source de découverte }

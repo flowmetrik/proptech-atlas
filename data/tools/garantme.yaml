@@ -57,6 +57,10 @@ reviews: []
 signals:
   site_languages: [en, fr, zh]
   checked_on: "2026-08-25"
+logo:
+  file: logos/garantme.png
+  source_url: https://garantme.fr/hubfs/Favicon_whiteBG.png
+  fetched_on: "2026-08-29"
 sources:
   - { url: https://garantme.fr/fr, note: "site éditeur — fonctionnement, chiffres et calculateur de tarif" }
   - { url: https://www.frenchproptech.fr/annuaire-startups/, note: source de découverte }

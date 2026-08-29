@@ -59,6 +59,10 @@ signals:
   privacy: https://www.zelok.fr/guide/rgpd-cnil-tout-ce-que-doivent-savoir-les-agences-immobilieres
   site_languages: [fr]
   checked_on: "2026-08-25"
+logo:
+  file: logos/zelok.png
+  source_url: https://www.zelok.fr/content/themes/metheme/public/favicon/apple-touch-icon.png
+  fetched_on: "2026-08-29"
 sources:
   - { url: https://www.zelok.fr, note: site éditeur }
   - { url: https://www.frenchproptech.fr/annuaire-startups/, note: source de découverte }

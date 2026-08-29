@@ -63,6 +63,10 @@ signals:
   status: https://status.tenantturner.com
   site_languages: [en]
   checked_on: "2026-08-26"
+logo:
+  file: logos/tenant-turner.png
+  source_url: https://tenantturner.com/wp-content/uploads/2026/05/favicon-300x300.png
+  fetched_on: "2026-08-29"
 sources:
   - { url: https://www.tenantturner.com, note: site éditeur }
   - { url: https://www.tenantturner.com/pricing, note: "site éditeur, tarifs publics" }

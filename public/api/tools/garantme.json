@@ -1,0 +1,100 @@
+{
+  "slug": "garantme",
+  "name": "Garantme",
+  "editor": "Garantme",
+  "website": "https://garantme.fr/fr",
+  "hq_country": "FR",
+  "markets": [
+    "FR"
+  ],
+  "category": "tenant-screening",
+  "positioning": "Certifie le dossier d'un candidat locataire et se porte garant à sa place, avec une console de gestion des dossiers et des garanties pour les agences.",
+  "description": "Garantme is a French rental-guarantee platform aimed at applicants who have no personal guarantor. The tenant uploads their supporting documents, Garantme certifies the file, and the company then stands as guarantor for the landlord for the duration of the lease, renewable each year with it. The guarantee is underwritten by insurance companies. Agencies and landlords get the other half of the product: an application console, called Console Garantme, where they centralize incoming rental files and the insurance products attached to them, plus handling of unpaid-rent procedures. The vendor states it has certified 100,000 tenants across roughly 4,000 partner agencies in 150 French cities.\n",
+  "real_estate_use": "A candidate with a solid income but no French guarantor keeps losing flats to files that have one. They assemble their documents in Garantme before starting their search, get certified, and present a file that already carries a guarantee — which is what puts it at the top of the pile at the viewing. On the other side, a letting agent receiving thirty applications for one flat uses the console to see which files are certified and which insurance product covers each, instead of re-reading payslips; when an incumbent tenant stops paying, the unpaid-rent procedure is run by Garantme rather than by the agency. Payment is only due when the lease is signed, so the applicant carries no cost during the search.\n",
+  "features": [
+    "Certification d'un dossier locatif sous 24 h",
+    "Caution solidaire et indivisible, y compris en colocation",
+    "Console Garantme pour centraliser dossiers et produits d'assurance en agence",
+    "Gestion des procédures d'impayé pour le compte du bailleur",
+    "Calculateur de coût de la garantie en ligne",
+    "Renouvellement annuel de la garantie avec le bail"
+  ],
+  "use_cases": [
+    {
+      "persona": "tenant-occupier",
+      "job": "Obtenir un garant et faire certifier son dossier avant de commencer les visites"
+    },
+    {
+      "persona": "agent-broker",
+      "job": "Trier des candidatures sur des dossiers déjà certifiés plutôt que sur des pièces à vérifier une par une"
+    },
+    {
+      "persona": "landlord-owner",
+      "job": "Couvrir le loyer et déléguer la procédure d'impayé sans coût pour le bailleur"
+    }
+  ],
+  "personas": [
+    "tenant-occupier",
+    "agent-broker",
+    "landlord-owner",
+    "property-manager"
+  ],
+  "segments": [
+    "residential",
+    "coliving-student"
+  ],
+  "company_sizes": [
+    "solo",
+    "smb",
+    "midmarket"
+  ],
+  "pricing": {
+    "model": "subscription",
+    "public_pricing": true,
+    "url": "https://garantme.fr/fr"
+  },
+  "product": {
+    "api": false,
+    "open_source": false,
+    "mobile": [],
+    "languages": [
+      "French",
+      "English",
+      "Chinese"
+    ]
+  },
+  "alternatives": [
+    "zelok",
+    "smartloc"
+  ],
+  "reviews": [],
+  "signals": {
+    "site_languages": [
+      "en",
+      "fr",
+      "zh"
+    ],
+    "checked_on": "2026-08-25"
+  },
+  "logo": {
+    "file": "logos/garantme.png",
+    "source_url": "https://garantme.fr/hubfs/Favicon_whiteBG.png",
+    "fetched_on": "2026-08-29"
+  },
+  "sources": [
+    {
+      "url": "https://garantme.fr/fr",
+      "note": "site éditeur — fonctionnement, chiffres et calculateur de tarif"
+    },
+    {
+      "url": "https://www.frenchproptech.fr/annuaire-startups/",
+      "note": "source de découverte"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-25"
+}

@@ -58,6 +58,10 @@ signals:
   privacy: https://www.qalimo.fr/politique-de-confidentialite
   site_languages: [fr]
   checked_on: "2026-08-26"
+logo:
+  file: logos/qalimo.png
+  source_url: https://www.qalimo.fr/wp-content/uploads/2024/05/cropped-Autres-type-de-local-parking-garage-stockage-etc.-Le-Bien-Finance-et-fiscalite-Equipement-Etat-des-lieux-Description-detaillee-du-bien-figurant-dans-le-bail-Description-Date-dachat-du-bien-J-3-300x300.png
+  fetched_on: "2026-08-29"
 sources:
   - { url: https://www.qalimo.fr, note: site éditeur }
 verification: { status: unverified, checked_on: null, checked_by: null }

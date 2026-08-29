@@ -4,8 +4,102 @@
   "label_fr": "CRM & gestion des leads",
   "summary_en": "Capture, qualify and nurture buyer, seller and tenant leads.",
   "summary_fr": "Capter, qualifier et travailler les leads acquéreurs, vendeurs et locataires.",
-  "count": 25,
+  "count": 30,
   "tools": [
+    {
+      "slug": "actelo",
+      "name": "Actelo",
+      "editor": "Actelo",
+      "website": "https://www.actelo.fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "lending-mortgage",
+      "also_in": [
+        "crm-lead"
+      ],
+      "positioning": "Financing software for French IOBSP credit brokers, covering the calculation, document and invoicing side of a mortgage file.",
+      "description": "Actelo is a French SaaS platform for IOBSP credit brokers. It covers the financing side of a mortgage file end to end: eligibility and amortisation calculations, borrower insurance quoting, generation of the regulatory financing documents, a document management space, a borrower portal, invoicing of the parties involved and activity statistics. It is sold per user with a published monthly price and no commitment.\n",
+      "real_estate_use": "A mortgage broker takes in a buyer whose offer has just been accepted and has to turn a project into a bankable file within days. Actelo runs the calculation side: it works out which loan structures the project is eligible for, prices the borrower insurance, lists the supporting documents to collect, and produces the financing proposal and the regulatory paperwork. The borrower drops the documents in their own space instead of emailing them, and the broker follows the file stage by stage until the invoicing of the commission. Independent brokers and franchise networks use it as their whole back office rather than as an add-on to a CRM.\n",
+      "features": [
+        "Automated financing calculations and loan structuring",
+        "Borrower insurance pricing and one-click quote",
+        "Configurable financing documents and electronic signature",
+        "Document management and borrower self-service portal",
+        "Stage-by-stage file tracking",
+        "Invoicing of brokers, mandataires and partners, with activity statistics"
+      ],
+      "use_cases": [
+        {
+          "persona": "lender-broker",
+          "job": "Produce a financing proposal and its supporting file for a buyer whose offer has been accepted"
+        },
+        {
+          "persona": "brokerage",
+          "job": "Run a network of mandataires on one workspace with per-user billing and shared reporting"
+        }
+      ],
+      "personas": [
+        "lender-broker",
+        "brokerage"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "per-seat",
+        "public_pricing": true,
+        "url": "https://www.actelo.fr/tarifs"
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "eloa",
+        "crediteo"
+      ],
+      "reviews": [],
+      "signals": {
+        "security": "https://www.actelo.fr/securite",
+        "privacy": "https://www.actelo.fr/rgpd",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-27"
+      },
+      "logo": {
+        "file": "logos/actelo.png",
+        "source_url": "https://www.actelo.fr/wp-content/uploads/2021/10/cropped-Actelo_Logo_Simple-512-180x180.png",
+        "fetched_on": "2026-08-27"
+      },
+      "sources": [
+        {
+          "url": "https://www.actelo.fr/",
+          "note": "site éditeur — accueil et fonctionnalités"
+        },
+        {
+          "url": "https://www.actelo.fr/tarifs",
+          "note": "site éditeur — page tarifs"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-27"
+    },
     {
       "slug": "adapt-immo",
       "name": "Adapt Immo",
@@ -431,6 +525,102 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "eloa",
+      "name": "Eloa",
+      "editor": "Eloa",
+      "website": "https://www.eloa.io",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "lending-mortgage",
+      "also_in": [
+        "crm-lead"
+      ],
+      "positioning": "French origination platform for credit intermediaries: simulate a mortgage, assemble the borrower file, apply each bank convention, invoice the commission.",
+      "description": "Eloa publishes eCredits, a configurable platform for regulated credit intermediaries in France, alongside eImmo for rental and renovation financing and eMobilite for vehicle dealers. eCredits covers mortgage, consumer, professional and debt consolidation lending. Its calculation engine produces amortising, zero-interest, interest-only, bridge, stepped and smoothed loan scenarios, and applies the rate grids and document requirements the broker has configured for each partner bank. It also handles commission, invoicing and activity reporting, and offers a broker website module. The editor states more than 20,000 professionals use it.\n",
+      "real_estate_use": "A French mortgage broker is an IOBSP: the file it assembles has to satisfy both the borrower and a bank whose rate grid, document list and commission terms differ from every other bank's. Eloa is where that file lives from the first simulation to the accepted offer. The broker qualifies affordability with the simulators, which create the case and carry the data forward instead of being re-keyed, then compares scenarios across the banks configured in its own conventions. Because commissioning and invoicing sit in the same tool, a network can see per-branch and per-broker production without exporting anything. Agencies and developers meet it from the other side, as the financing partner's system that tells them whether a buyer is financeable.\n",
+      "features": [
+        "Mortgage simulators covering amortising, zero-interest, interest-only, bridge, stepped and smoothed loans",
+        "Bank conventions configured per network or branch: rate grids, required documents, invoicing, commission",
+        "Automatic pre-qualification that opens the case file from the simulation without re-keying",
+        "Commission, invoicing and payment tracking for brokers and IOBSP agents",
+        "Configurable case stages, user rights and document completeness rules",
+        "Broker website module and embeddable calculators"
+      ],
+      "use_cases": [
+        {
+          "persona": "lender-broker",
+          "job": "Compare financing scenarios across partner banks for one borrower and produce the funding plan the client signs"
+        },
+        {
+          "persona": "brokerage",
+          "job": "Track production and commission per branch and per broker without leaving the origination tool"
+        }
+      ],
+      "personas": [
+        "lender-broker",
+        "agent-broker",
+        "brokerage"
+      ],
+      "segments": [
+        "residential",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "ai": {
+        "capabilities": [
+          "Assistant marketed as IA Courtier for speeding up loan file processing"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "reviews": [],
+      "signals": {
+        "privacy": "https://www.eloa.io/mentions-legales",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-26"
+      },
+      "logo": {
+        "file": "logos/eloa.png",
+        "source_url": "https://www.google.com/s2/favicons?domain=eloa.io&sz=256",
+        "fetched_on": "2026-08-29"
+      },
+      "sources": [
+        {
+          "url": "https://www.eloa.io",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://www.eloa.io/ecredits-immobilier",
+          "note": "site éditeur, page produit crédit immobilier"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-26"
     },
     {
       "slug": "eudonet-immobilier",
@@ -934,6 +1124,228 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "knock-crm",
+      "name": "Knock CRM",
+      "editor": "RealPage",
+      "website": "https://www.knockcrm.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "crm-lead",
+      "also_in": [
+        "ai-assistants",
+        "property-management"
+      ],
+      "positioning": "Front-office leasing platform for multifamily: self-scheduled tours, unified prospect messaging, source attribution and team performance oversight.",
+      "description": "Knock CRM is a leasing customer-relationship platform for multifamily owners and operators, now published by RealPage. It groups tour scheduling, marketing attribution, prospect messaging, task management, visitor experience and team oversight into one front-office suite. Knock Now lets a prospective renter self-schedule a tour from any website or app. Messaging brings email, text, voice and chat into a single screen. Source attribution ties each lead back to the marketing channel that produced it and drives automated campaigns. Benchmarking and performance trends give leasing leadership visibility into individual and team activity. The vendor also offers AI solutions, advanced analytics and a data cloud with API access alongside the core CRM.\n",
+      "real_estate_use": "A leasing team at a large apartment community loses prospects between the first inquiry and the tour. With Knock the renter books their own slot straight from the property website, so nobody waits for a callback, and every subsequent exchange — text, email, call, chat — lands in one inbox where any agent on shift can pick it up. The regional marketer looks at source attribution to see which portal or campaign is actually filling the calendar and cuts the ones that are not. The leasing director uses the benchmarking view to compare conversion across communities and to see which agents let follow-ups lapse.\n",
+      "features": [
+        "Self-scheduled tours from any property website or app",
+        "Unified inbox across email, text, voice and chat",
+        "Marketing source attribution and automated campaigns",
+        "Task management for follow-up on open prospects",
+        "Leasing team benchmarking and performance trends",
+        "Data cloud and API access for reporting"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Let prospective renters book their own tours and keep every follow-up in one shared inbox"
+        },
+        {
+          "persona": "brokerage",
+          "job": "Attribute each lead to its marketing channel and stop funding the ones that do not convert"
+        },
+        {
+          "persona": "investor-am",
+          "job": "Compare leasing conversion and team activity across communities in one benchmarking view"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "investor-am",
+        "brokerage"
+      ],
+      "segments": [
+        "multifamily",
+        "residential",
+        "coliving-student"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Partner directory published by the vendor",
+        "KnockNetwork"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "English"
+        ]
+      },
+      "alternatives": [
+        "entrata",
+        "realpage",
+        "eliseai"
+      ],
+      "reviews": [],
+      "signals": {
+        "privacy": "https://www.knockcrm.com/privacy-policy",
+        "status": "https://status.knockcrm.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
+      "logo": {
+        "file": "logos/knock-crm.png",
+        "source_url": "https://s.knockcrm.com/assets/Knock-favicon-2.png",
+        "fetched_on": "2026-08-29"
+      },
+      "sources": [
+        {
+          "url": "https://www.knockcrm.com",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://www.appfolio.com/services/stack",
+          "note": "source de découverte — partenaire AppFolio Stack"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "leadsimple",
+      "name": "LeadSimple",
+      "editor": "LeadSimple",
+      "website": "https://www.leadsimple.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "property-management",
+      "also_in": [
+        "crm-lead"
+      ],
+      "positioning": "CRM, shared inbox, phone system and process automation that sit on top of a property management system.",
+      "description": "LeadSimple is a communication and workflow layer for residential property management companies. It combines an owner and tenant CRM, a shared inbox unifying calls, texts and email on one timeline, a phone system with ring groups and an AI voice agent, recurring process workflows with branching logic and escalation, and maintenance work orders. It does not replace the PMS: it connects to AppFolio, Buildium, Rentvine, Propertyware and Rent Manager. Pricing is published, per seat for the inbox and CRM products and per door for workflows.\n",
+      "real_estate_use": "A property management company growing past a few hundred doors finds that the accounting system holds the ledgers but nothing holds the conversation: a tenant voicemail about a water heater, an owner question about a statement, a Zillow enquiry all live in different inboxes and in one person's head. LeadSimple gives every call, text and email an owner and a next step on one timeline, and turns the repeatable sequences — move-in, renewal, inspection, owner onboarding, make-ready — into timed workflows with escalation when a step slips. It is bought by companies that already have a PMS and are losing leads and owner trust in the handoffs around it.\n",
+      "features": [
+        "Shared inbox unifying calls, texts and email per contact",
+        "Phone system with IVR, ring groups, hours-based routing and call recording",
+        "AI voice agent answering when nobody picks up",
+        "Owner and tenant lead pipelines with speed-to-lead routing and SLA escalation",
+        "Recurring process workflows with branching logic and PMS-triggered starts",
+        "Maintenance work order intake and tracking"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Stop tenant calls and owner emails from living in one person's inbox"
+        },
+        {
+          "persona": "brokerage",
+          "job": "Run move-in, renewal and owner onboarding as timed workflows with escalation"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "brokerage"
+      ],
+      "segments": [
+        "residential",
+        "multifamily"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "per-unit",
+        "public_pricing": true,
+        "url": "https://www.leadsimple.com/pricing"
+      },
+      "integrations": [
+        "AppFolio",
+        "Buildium",
+        "Rentvine",
+        "Propertyware",
+        "Rent Manager"
+      ],
+      "ai": {
+        "capabilities": [
+          "voice agent answering inbound calls",
+          "call summarisation",
+          "drafted reply suggestions"
+        ]
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "appfolio",
+        "buildium",
+        "rentmanager"
+      ],
+      "reviews": [],
+      "signals": {
+        "pricing": "https://www.leadsimple.com/pricing",
+        "privacy": "https://www.leadsimple.com/legal/privacy",
+        "status": "https://status.leadsimple.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-27"
+      },
+      "logo": {
+        "file": "logos/leadsimple.png",
+        "source_url": "https://www.leadsimple.com/apple-touch-icon.png",
+        "fetched_on": "2026-08-27"
+      },
+      "sources": [
+        {
+          "url": "https://www.leadsimple.com/",
+          "note": "site éditeur — accueil"
+        },
+        {
+          "url": "https://www.leadsimple.com/pricing",
+          "note": "site éditeur — page tarifs"
+        },
+        {
+          "url": "https://www.appfolio.com/stack/marketplace",
+          "note": "source de découverte — AppFolio Stack"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-27"
     },
     {
       "slug": "lockimmo",
@@ -2234,6 +2646,117 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "tenant-turner",
+      "name": "Tenant Turner",
+      "editor": "Tenant Turner, Inc.",
+      "website": "https://www.tenantturner.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "property-management",
+      "also_in": [
+        "listing-syndication",
+        "crm-lead"
+      ],
+      "positioning": "Leasing automation for US property managers: syndicate the listing, pre-qualify the lead, let the prospect book a showing and open the door themselves.",
+      "description": "Tenant Turner automates the leasing cycle between a vacant unit and a signed lease. It imports listings from the property management system and pushes them to more than twenty listing sites, applies the manager's own pre-qualification criteria before a prospect can book, and offers either in-person showings or self-showings through electronic lockboxes and smart locks. Prospects self-schedule around the clock; reminders, cancellation of unconfirmed appointments, post-showing feedback collection and application dispatch run automatically. The Ultra plan adds a live answering service for leasing calls. Reporting covers lead flow, showing activity, lockbox use and owner-facing performance.\n",
+      "real_estate_use": "Vacancy costs a US property manager more than almost anything else in the operating budget, and the bottleneck is rarely demand — it is the coordination. Someone has to answer the phone, decide whether the caller meets the income and pet rules, agree a time, and physically be at the property. Tenant Turner removes all four steps: the pre-qualification questions gate the calendar, the prospect books at any hour, and a lockbox or smart lock grants access without a staff member driving across town. The manager sees which listings produce leads and which produce no-shows, and hands the owner a report that explains a slow lease-up with numbers. It sits alongside the property management system rather than replacing it, which is why it shows up in the integration directories of the major platforms.\n",
+      "features": [
+        "Listing import from the property management system and syndication to 20+ listing sites",
+        "Customisable lead pre-qualification gating access to the showing calendar",
+        "Self-showings via electronic lockboxes and smart locks, or in-person showings",
+        "24/7 prospect self-scheduling with reminders and automatic cancellation of unconfirmed appointments",
+        "Post-showing feedback collection and automatic application dispatch",
+        "Leasing analytics and owner reports covering leads, showings and lockbox use"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Fill a vacant single-family unit without a staff member attending every showing"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "Screen out unqualified enquiries before they reach the calendar and see why a listing is not converting"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "landlord-owner",
+        "investor-am"
+      ],
+      "segments": [
+        "residential",
+        "multifamily"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "per-unit",
+        "public_pricing": true,
+        "url": "https://www.tenantturner.com/pricing"
+      },
+      "integrations": [
+        "Zapier"
+      ],
+      "ai": {
+        "capabilities": [
+          "AI virtual leasing agent marketed for handling prospect enquiries"
+        ]
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "rentredi",
+        "hemlane",
+        "knock-crm"
+      ],
+      "reviews": [],
+      "signals": {
+        "pricing": "https://tenantturner.com/plans-pricing",
+        "privacy": "https://tenantturner.com/privacy-policy",
+        "status": "https://status.tenantturner.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-26"
+      },
+      "logo": {
+        "file": "logos/tenant-turner.png",
+        "source_url": "https://tenantturner.com/wp-content/uploads/2026/05/favicon-300x300.png",
+        "fetched_on": "2026-08-29"
+      },
+      "sources": [
+        {
+          "url": "https://www.tenantturner.com",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://www.tenantturner.com/pricing",
+          "note": "site éditeur, tarifs publics"
+        },
+        {
+          "url": "https://www.buildium.com/integrations/",
+          "note": "source de découverte"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-26"
     },
     {
       "slug": "urbanease",

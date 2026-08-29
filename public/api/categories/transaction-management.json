@@ -4,7 +4,7 @@
   "label_fr": "Gestion de transaction & closing",
   "summary_en": "Run a deal from offer to closing — forms, e-signature, compliance, commissions.",
   "summary_fr": "Piloter une vente de l'offre à l'acte — pièces, signature, conformité, commissions.",
-  "count": 16,
+  "count": 17,
   "tools": [
     {
       "slug": "adapt-immo",
@@ -1335,6 +1335,110 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "sinimo",
+      "name": "Sinimo",
+      "editor": "Groupe REALTY",
+      "website": "https://www.sinimo.fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "transaction-management",
+      "also_in": [
+        "back-office-accounting"
+      ],
+      "positioning": "Generates the paperwork a French agency signs — mandates, offers, preliminary sale contracts, leases — and gets it signed electronically from web or mobile.",
+      "description": "Sinimo is a French web and mobile application that produces the contractual documents a real estate agency needs and carries them through to signature. It ships more than fifty document templates covering sale and rental mandates, purchase offers, preliminary sale agreements, residential, furnished, seasonal, professional and commercial leases, amendments, visit slips and SRU notification letters. It bundles advanced electronic signature, a document scanner in the mobile app, and the statutory mandate and transaction registers. The editor states 2,500 agencies use it.\n",
+      "real_estate_use": "A French agency cannot sell or let anything without a signed mandate, and the paperwork around it is codified: the Hoguet law imposes a numbered mandate register, the SRU law imposes a notification with a retraction period, and a badly drafted lease is unenforceable. Sinimo is what the negotiator opens on the kitchen table to produce the right document in a couple of minutes, pre-filled from the client and property record, and have it signed on the spot or remotely. The phone camera replaces the scanner for the annexes that must travel with the contract — diagnostics, co-ownership rules, floor plans, property tax notice. Agencies buy it as a contract layer next to whatever CRM they already run rather than as a replacement for it.\n",
+      "features": [
+        "Over fifty French real estate contract templates, pre-filled from the client and property record",
+        "Advanced electronic signature, in person or remote, sold as signature credits",
+        "Statutory mandate, transaction and rental management registers",
+        "Document scanning from the mobile app, annexed automatically to the generated contract",
+        "Property and contact records with e-mail dispatch of documents",
+        "Web, iOS and Android applications sharing the same file"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Draw up an exclusive sale mandate and its SRU notification during the seller appointment, and have both signed before leaving"
+        },
+        {
+          "persona": "brokerage",
+          "job": "Keep a compliant mandate register across every negotiator without maintaining a paper book at the agency"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage",
+        "property-manager"
+      ],
+      "segments": [
+        "residential",
+        "retail",
+        "office"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://www.sinimo.fr/tarifs"
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "pige-online",
+        "startloc",
+        "yousign"
+      ],
+      "reviews": [],
+      "signals": {
+        "pricing": "https://www.sinimo.fr/tarifs",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-26"
+      },
+      "logo": {
+        "file": "logos/sinimo.png",
+        "source_url": "https://www.sinimo.fr/favicon.png",
+        "fetched_on": "2026-08-29"
+      },
+      "sources": [
+        {
+          "url": "https://www.sinimo.fr/logiciel-immobilier",
+          "note": "site éditeur, page produit"
+        },
+        {
+          "url": "https://www.sinimo.fr/tarifs",
+          "note": "site éditeur, tarifs publics"
+        },
+        {
+          "url": "https://www.appvizer.fr/immobilier",
+          "note": "source de découverte"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-26"
     },
     {
       "slug": "skyslope",

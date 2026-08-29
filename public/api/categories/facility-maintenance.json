@@ -4,7 +4,7 @@
   "label_fr": "Facility management & maintenance",
   "summary_en": "Work orders, contractors, assets and preventive maintenance.",
   "summary_fr": "Interventions, prestataires, équipements et maintenance préventive.",
-  "count": 15,
+  "count": 18,
   "tools": [
     {
       "slug": "advizeo",
@@ -199,6 +199,128 @@
       "updated": "2026-08-25"
     },
     {
+      "slug": "breezeway",
+      "name": "Breezeway",
+      "editor": "Breezeway",
+      "website": "https://www.breezeway.io",
+      "hq_country": "US",
+      "markets": [
+        "US",
+        "FR"
+      ],
+      "category": "short-term-rental",
+      "also_in": [
+        "facility-maintenance"
+      ],
+      "positioning": "Property operations and guest experience platform for the teams cleaning, inspecting and servicing short-term rentals.",
+      "description": "Breezeway coordinates the field work behind a short-term rental portfolio rather than the booking side. It schedules cleaning and maintenance tasks, dispatches them to cleaners and vendors through a mobile app with photo checklists, tracks inventory and supplies, pays cleaners, and reports on what was done. A second product line handles guest communication: messaging, digital welcome books, an AI assistant answering guest questions, and paid upsells. A freemium tier covers a single property.\n",
+      "real_estate_use": "A vacation rental manager with a scattered portfolio and a mix of employed and subcontracted cleaners has the same problem every turnover day: knowing that each property was actually cleaned, inspected and restocked before the next guest arrives. Breezeway turns each departure into a scheduled task with a photo checklist the cleaner completes on their phone, so the manager sees evidence rather than a claim, and damage or a missing item surfaces as a work order before the guest does. Pricing is per property, which is why managers of five homes and of five hundred both use it, and residential and corporate housing operators use the same operations layer.\n",
+      "features": [
+        "Task scheduling and work coordination across field teams",
+        "Mobile checklists with photo capture, available in several languages",
+        "Work order and preventive maintenance management",
+        "Inventory and supply tracking",
+        "Cleaner and vendor payments",
+        "Guest messaging with digital guidebooks, AI answering and paid upsells"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Prove every turnover was cleaned and inspected before the next check-in"
+        },
+        {
+          "persona": "facility-manager",
+          "job": "Turn a defect spotted during a clean into a dispatched work order"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "facility-manager",
+        "landlord-owner"
+      ],
+      "segments": [
+        "hospitality",
+        "residential",
+        "coliving-student"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "freemium",
+        "public_pricing": true,
+        "url": "https://www.breezeway.io/breezeway-pricing"
+      },
+      "integrations": [
+        "Smart lock providers",
+        "Short-term rental property management systems"
+      ],
+      "ai": {
+        "capabilities": [
+          "automated answering of guest questions",
+          "assisted scheduling of field tasks"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en",
+          "fr",
+          "es",
+          "it"
+        ]
+      },
+      "alternatives": [
+        "guesty",
+        "hostaway"
+      ],
+      "reviews": [],
+      "signals": {
+        "pricing": "https://www.breezeway.io/breezeway-pricing",
+        "privacy": "https://www.breezeway.io/privacy",
+        "site_languages": [
+          "en",
+          "es",
+          "fr",
+          "it"
+        ],
+        "checked_on": "2026-08-27"
+      },
+      "logo": {
+        "file": "logos/breezeway.png",
+        "source_url": "https://www.breezeway.io/hubfs/Transparent%20Logo%20(HubSpot%20Flavicon)-1.png",
+        "fetched_on": "2026-08-27"
+      },
+      "sources": [
+        {
+          "url": "https://www.breezeway.io/",
+          "note": "site éditeur — accueil et carte des produits"
+        },
+        {
+          "url": "https://www.breezeway.io/breezeway-pricing",
+          "note": "site éditeur — page tarifs"
+        },
+        {
+          "url": "https://www.appfolio.com/stack/marketplace",
+          "note": "source de découverte — AppFolio Stack"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-27"
+    },
+    {
       "slug": "corrigo",
       "name": "Corrigo",
       "editor": "JLL Technologies",
@@ -300,6 +422,118 @@
         {
           "url": "https://corrigo.com",
           "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "happyco",
+      "name": "HappyCo",
+      "editor": "HappyCo",
+      "website": "https://happy.co",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "facility-maintenance",
+      "also_in": [
+        "property-management",
+        "commercial-am"
+      ],
+      "positioning": "Maintenance and asset-condition platform for multifamily operators, built around mobile inspections, work orders and unit turns.",
+      "description": "HappyCo is an operations platform for multifamily owners and property managers organized into several suites: maintenance operations (preventive maintenance, work orders, make-readies, inspections and reporting), an after-hours answering and triage service that turns resident calls into work orders, asset management covering capital budgets, renovation projects, vendor compliance and inventory, asset evaluation for due diligence and lease-file audits, and a sourcing module for vendor bidding. Its mobile apps work offline and sync when connectivity returns, and it integrates with the main property management systems as a certified partner. A separate lending suite connects to Freddie Mac's Optigo network for origination inspections.\n",
+      "real_estate_use": "A regional manager responsible for several thousand apartments cannot personally see the condition of any of them. Their onsite technicians run every inspection — move-in, move-out, life safety, make-ready — inside the HappyCo mobile app, which timestamps photos and pushes the result back with no paper. When a unit is vacated, the make-ready workflow assigns the punch list and the manager watches the turn close in a dashboard rather than by phone. At acquisition, the same apps are used for due-diligence walks and lease-file audits so the buyer's condition assessment sits in the system the operator will use afterwards. Overnight resident calls are triaged by the answering service and arrive the next morning as work orders already routed.\n",
+      "features": [
+        "Mobile inspections with timestamped photos and offline sync",
+        "Work orders, preventive maintenance schedules and make-ready turn tracking",
+        "After-hours call triage that generates work orders automatically",
+        "Capital budget, renovation project and vendor compliance tracking",
+        "Due-diligence and lease-file audit workflows for acquisitions",
+        "Benchmarking dashboards across properties, units and staff"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Run move-in, move-out and life-safety inspections on mobile and close a unit turn against a tracked punch list"
+        },
+        {
+          "persona": "facility-manager",
+          "job": "Schedule preventive maintenance and dispatch work orders to onsite technicians across a portfolio"
+        },
+        {
+          "persona": "investor-am",
+          "job": "Carry out due-diligence walks and lease-file audits on an acquisition inside the platform the operator will keep using"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "facility-manager",
+        "investor-am"
+      ],
+      "segments": [
+        "multifamily",
+        "residential"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "per-unit",
+        "public_pricing": false,
+        "url": "https://happy.co/pricing"
+      },
+      "integrations": [
+        "Certified integrations with leading property management systems",
+        "Open API and plugin marketplace",
+        "Freddie Mac Optigo"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "English"
+        ]
+      },
+      "alternatives": [
+        "property-meld",
+        "upkeep",
+        "limble"
+      ],
+      "reviews": [],
+      "signals": {
+        "privacy": "https://happy.co/privacy-policy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
+      "logo": {
+        "file": "logos/happyco.png",
+        "source_url": "https://cdn.prod.website-files.com/6414ce4dcbfbc386d105ceb9/6414ce4dcbfbc3355505cefa_256-webclip-clear-happy.png",
+        "fetched_on": "2026-08-29"
+      },
+      "sources": [
+        {
+          "url": "https://happy.co",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://happy.co/pricing",
+          "note": "page tarifs — modèle par lot, aucun montant publié"
+        },
+        {
+          "url": "https://www.appfolio.com/services/stack",
+          "note": "source de découverte — partenaire AppFolio Stack"
         }
       ],
       "verification": {
@@ -854,6 +1088,109 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "rentcheck",
+      "name": "RentCheck",
+      "editor": "RentCheck",
+      "website": "https://www.getrentcheck.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "facility-maintenance",
+      "also_in": [
+        "property-management"
+      ],
+      "positioning": "Tenant-guided property inspections: the resident completes the inspection from their phone, the manager gets the report.",
+      "description": "RentCheck is an inspection application for residential property managers built around inspections carried out by the tenant rather than by staff. The manager sends a guided inspection; the resident completes it step by step on their phone with time-stamped photos, and a report is produced without a site visit. It ships with templates for move-in, move-out and routine inspections, automated reminders and scheduling, comparison against previous inspections, work order tracking, an API and integrations with the main property management systems. Pricing is published per unit per month.\n",
+      "real_estate_use": "A property management company adding doors hits a wall on inspections: scheduling visits, chasing tenants for access and driving between properties does not scale, so routine inspections quietly get skipped for the tenants presumed to be fine. RentCheck inverts the model — the tenant does the walkthrough on their phone with a guided checklist and timestamped photos — so the team handles only the exceptions. The photographic record with dates is also what settles a security deposit dispute at move-out, since move-in and move-out inspections can be compared side by side.\n",
+      "features": [
+        "Tenant-guided inspections with time-stamped in-app photo capture",
+        "Templates for move-in, move-out, routine and pre-move-out inspections",
+        "Automated inspection reminders and scheduling",
+        "Comparison against previous inspections",
+        "360-degree photo and video capture, and asset capture",
+        "Work order tracking, PMS integration and a public API"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Complete routine inspections across a growing portfolio without sending anyone on site"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "Hold a dated photographic record of condition at move-in to settle the deposit at move-out"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "landlord-owner"
+      ],
+      "segments": [
+        "residential",
+        "multifamily"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "per-unit",
+        "public_pricing": true,
+        "url": "https://www.getrentcheck.com/plan-pricing"
+      },
+      "integrations": [
+        "AppFolio",
+        "Rent Manager",
+        "Buildium"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "immopad",
+        "property-meld"
+      ],
+      "reviews": [],
+      "signals": {
+        "pricing": "https://www.getrentcheck.com/plan-pricing",
+        "privacy": "https://www.getrentcheck.com/legal/privacy-policy",
+        "checked_on": "2026-08-27"
+      },
+      "logo": {
+        "file": "logos/rentcheck.png",
+        "source_url": "https://cdn.prod.website-files.com/64c252917dda086383e12e96/65a022b48ebfec64a71b2edd_RentCheck%20Webclip.png",
+        "fetched_on": "2026-08-27"
+      },
+      "sources": [
+        {
+          "url": "https://www.getrentcheck.com/",
+          "note": "site éditeur — accueil"
+        },
+        {
+          "url": "https://www.getrentcheck.com/plan-pricing",
+          "note": "site éditeur — page tarifs"
+        },
+        {
+          "url": "https://www.appfolio.com/stack/marketplace",
+          "note": "source de découverte — AppFolio Stack"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-27"
     },
     {
       "slug": "rentmanager",

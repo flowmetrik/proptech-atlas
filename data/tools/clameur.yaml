@@ -56,6 +56,10 @@ signals:
   privacy: https://clameur.fr/mentions-legales
   site_languages: [fr]
   checked_on: "2026-08-26"
+logo:
+  file: logos/clameur.png
+  source_url: https://clameur.fr/wp-content/uploads/2021/03/cropped-icone-1-180x180.jpg
+  fetched_on: "2026-08-29"
 sources:
   - { url: https://clameur.fr, note: site éditeur }
   - { url: https://clameur.fr/qui-sommes-nous/, note: "site éditeur, présentation de l'observatoire" }

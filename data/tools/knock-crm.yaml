@@ -60,6 +60,10 @@ signals:
   status: https://status.knockcrm.com
   site_languages: [en]
   checked_on: "2026-08-25"
+logo:
+  file: logos/knock-crm.png
+  source_url: https://s.knockcrm.com/assets/Knock-favicon-2.png
+  fetched_on: "2026-08-29"
 sources:
   - { url: https://www.knockcrm.com, note: site éditeur }
   - { url: https://www.appfolio.com/services/stack, note: source de découverte — partenaire AppFolio Stack }

@@ -57,6 +57,10 @@ signals:
   privacy: https://www.bailfacile.fr/mentions-legales
   site_languages: [fr]
   checked_on: "2026-08-26"
+logo:
+  file: logos/bailfacile.png
+  source_url: https://www.bailfacile.fr/icons/apple-icon-180.png
+  fetched_on: "2026-08-29"
 sources:
   - { url: https://www.bailfacile.fr, note: site éditeur }
   - { url: https://www.bailfacile.fr/tarifs, note: "site éditeur, tarifs publics" }

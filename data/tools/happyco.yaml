@@ -62,6 +62,10 @@ signals:
   privacy: https://happy.co/privacy-policy
   site_languages: [en]
   checked_on: "2026-08-25"
+logo:
+  file: logos/happyco.png
+  source_url: https://cdn.prod.website-files.com/6414ce4dcbfbc386d105ceb9/6414ce4dcbfbc3355505cefa_256-webclip-clear-happy.png
+  fetched_on: "2026-08-29"
 sources:
   - { url: https://happy.co, note: site éditeur }
   - { url: https://happy.co/pricing, note: "page tarifs — modèle par lot, aucun montant publié" }

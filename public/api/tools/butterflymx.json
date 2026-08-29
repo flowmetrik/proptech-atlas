@@ -1,0 +1,107 @@
+{
+  "slug": "butterflymx",
+  "name": "ButterflyMX",
+  "editor": "ButterflyMX, Inc.",
+  "website": "https://butterflymx.com",
+  "hq_country": "US",
+  "markets": [
+    "US"
+  ],
+  "category": "tenant-experience",
+  "positioning": "Cloud-based property access: video intercoms, keypads and smart locks a resident answers from their phone and a manager administers from a browser.",
+  "description": "ButterflyMX sells a connected access-control system for buildings, combining door hardware with a resident smartphone app and a management console. The product line covers video intercoms, a QR-code intercom, keypads, smart locks, elevator controls, vehicle access control, security cameras, package rooms and a front-desk station. Residents see and speak to whoever is at the door or gate, open it remotely and issue temporary access PINs; managers review entry logs, grant or revoke access and connect the system to other cloud tools. The company states the installation requires only three connections — internet, power and an electronic or magnetic lock — which removes the in-unit hardware and building wiring a traditional intercom needs.\n",
+  "real_estate_use": "A property manager running a multifamily building without a doorman needs deliveries, contractors and guests to get in without anyone driving to the site with a key. They install ButterflyMX at the entrance, and from then on a courier calls the unit, the resident answers on their phone wherever they are, and the door opens; the manager issues a dated PIN to the cleaning company and revokes it when the contract ends. When a dispute arises over who entered and when, the entry log settles it. Leasing teams also use the self-guided tour feature so a prospect can visit a vacant unit without an agent present.\n",
+  "features": [
+    "Video intercom answered from a resident smartphone app",
+    "Remote door and gate release, with temporary access PINs",
+    "Building entry logs and per-user access administration",
+    "Keypads, smart locks and elevator controls on the same system",
+    "Package room and front-desk station modules",
+    "Self-guided tour access for prospective renters"
+  ],
+  "use_cases": [
+    {
+      "persona": "property-manager",
+      "job": "Let couriers and contractors into a staffless building and keep a reviewable log of every entry"
+    },
+    {
+      "persona": "tenant-occupier",
+      "job": "See and admit a visitor at the building entrance from anywhere, without being home"
+    },
+    {
+      "persona": "developer-builder",
+      "job": "Cut intercom wiring and in-unit hardware out of a new building's access-control budget"
+    }
+  ],
+  "personas": [
+    "property-manager",
+    "tenant-occupier",
+    "developer-builder"
+  ],
+  "segments": [
+    "multifamily",
+    "residential",
+    "office",
+    "coliving-student"
+  ],
+  "company_sizes": [
+    "smb",
+    "midmarket",
+    "enterprise"
+  ],
+  "pricing": {
+    "model": "quote",
+    "public_pricing": false
+  },
+  "integrations": [
+    "Property management software integrations listed on the vendor's integrations page"
+  ],
+  "product": {
+    "api": true,
+    "open_source": false,
+    "mobile": [
+      "ios",
+      "android"
+    ],
+    "languages": [
+      "English"
+    ]
+  },
+  "alternatives": [
+    "smartrent"
+  ],
+  "reviews": [],
+  "signals": {
+    "pricing": "https://butterflymx.com/cost",
+    "privacy": "https://butterflymx.com",
+    "site_languages": [
+      "en"
+    ],
+    "checked_on": "2026-08-25"
+  },
+  "logo": {
+    "file": "logos/butterflymx.png",
+    "source_url": "https://butterflymx.com/wp-content/uploads/2021/11/cropped-favicon-butterflymx-180x180.png",
+    "fetched_on": "2026-08-29"
+  },
+  "sources": [
+    {
+      "url": "https://butterflymx.com",
+      "note": "site éditeur"
+    },
+    {
+      "url": "https://butterflymx.com/features/",
+      "note": "page fonctionnalités"
+    },
+    {
+      "url": "https://www.appfolio.com/services/stack",
+      "note": "source de découverte — partenaire AppFolio Stack"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-25"
+}

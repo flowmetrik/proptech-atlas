@@ -57,6 +57,10 @@ signals:
   privacy: https://www.eloa.io/mentions-legales
   site_languages: [fr]
   checked_on: "2026-08-26"
+logo:
+  file: logos/eloa.png
+  source_url: https://www.google.com/s2/favicons?domain=eloa.io&sz=256
+  fetched_on: "2026-08-29"
 sources:
   - { url: https://www.eloa.io, note: site éditeur }
   - { url: https://www.eloa.io/ecredits-immobilier, note: "site éditeur, page produit crédit immobilier" }
