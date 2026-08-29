@@ -1,0 +1,92 @@
+{
+  "slug": "maline",
+  "name": "Maline",
+  "editor": "Maline Immobilier",
+  "website": "https://maline.io/fr",
+  "hq_country": "FR",
+  "markets": [
+    "FR"
+  ],
+  "category": "crm-lead",
+  "also_in": [
+    "market-data"
+  ],
+  "positioning": "Predictive seller prospecting for French agencies: owners likely to sell are identified from life events and delivered on an exclusive territory.",
+  "description": "Maline Immobilier is a French service that identifies owners likely to put a property up for sale several months ahead, and delivers them to an agency as qualified seller leads. Its stated method is the analysis of life events — divorce, marriage, birth, retirement, professional relocation, inheritance — which the vendor says account for the great majority of sales, combined with dozens of qualification criteria. Prospecting zones are sold as exclusive territories: once an agency reserves an area, no other Maline subscriber prospects it, and the number of leads follows the number of dwellings in the zone. The vendor states first contacts arrive around fifteen days after a territory is activated.\n",
+  "real_estate_use": "French agencies have prospected for decades by pige, that is by working the for-sale-by-owner ads, and the vendor positions itself squarely against the disappearance of that practice. The alternative it proposes is to arrive before the ad exists: to knock on the door of an owner whose circumstances suggest a sale within a year, when there is still a mandate to win rather than a price war to lose. The exclusive territory is what an agency is really buying, since a predictive lead shared with three competitors is worth nothing. It is a fit for an agency with the discipline to work a farm patiently over months, and a poor fit for one that needs listings this quarter.\n",
+  "features": [
+    "Detection of likely sellers from life events several months before listing",
+    "Qualification of owners against dozens of criteria",
+    "Exclusive prospecting territory per subscriber",
+    "Lead volume scaled to the number of dwellings in the zone",
+    "Automatic delivery of qualified seller contacts"
+  ],
+  "use_cases": [
+    {
+      "persona": "agent-broker",
+      "job": "Win a mandate by reaching an owner before the property is advertised"
+    },
+    {
+      "persona": "brokerage",
+      "job": "Give each branch a prospecting patch no competing subscriber can work"
+    }
+  ],
+  "personas": [
+    "agent-broker",
+    "brokerage"
+  ],
+  "segments": [
+    "residential"
+  ],
+  "company_sizes": [
+    "solo",
+    "smb"
+  ],
+  "pricing": {
+    "model": "subscription",
+    "public_pricing": false
+  },
+  "ai": {
+    "capabilities": [
+      "Predictive scoring of owners likely to sell"
+    ]
+  },
+  "product": {
+    "api": false,
+    "open_source": false,
+    "mobile": [],
+    "languages": [
+      "fr"
+    ]
+  },
+  "alternatives": [
+    "fluximmo",
+    "pige-online",
+    "meilleursagents"
+  ],
+  "reviews": [],
+  "logo": {
+    "file": "logos/maline.png",
+    "source_url": "https://maline.io/fr/assets/img/landing/64f646bbe8c62303845e0da3_Group%201000003719.png",
+    "fetched_on": "2026-08-29"
+  },
+  "signals": {
+    "site_languages": [
+      "es",
+      "fr"
+    ],
+    "checked_on": "2026-08-29"
+  },
+  "sources": [
+    {
+      "url": "https://maline.io/fr",
+      "note": "site éditeur — méthode, territoires exclusifs, FAQ"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-29"
+}

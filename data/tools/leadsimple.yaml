@@ -1,0 +1,72 @@
+slug: leadsimple
+name: LeadSimple
+editor: LeadSimple
+website: https://www.leadsimple.com
+hq_country: US
+markets: [US]
+category: property-management
+also_in: [crm-lead]
+positioning: "CRM, shared inbox, phone system and process automation that sit on top of a property management system."
+description: >
+  LeadSimple is a communication and workflow layer for residential property management
+  companies. It combines an owner and tenant CRM, a shared inbox unifying calls, texts
+  and email on one timeline, a phone system with ring groups and an AI voice agent,
+  recurring process workflows with branching logic and escalation, and maintenance
+  work orders. It does not replace the PMS: it connects to AppFolio, Buildium,
+  Rentvine, Propertyware and Rent Manager. Pricing is published, per seat for the
+  inbox and CRM products and per door for workflows.
+real_estate_use: >
+  A property management company growing past a few hundred doors finds that the
+  accounting system holds the ledgers but nothing holds the conversation: a tenant
+  voicemail about a water heater, an owner question about a statement, a Zillow
+  enquiry all live in different inboxes and in one person's head. LeadSimple gives
+  every call, text and email an owner and a next step on one timeline, and turns the
+  repeatable sequences — move-in, renewal, inspection, owner onboarding, make-ready —
+  into timed workflows with escalation when a step slips. It is bought by companies
+  that already have a PMS and are losing leads and owner trust in the handoffs around
+  it.
+features:
+  - "Shared inbox unifying calls, texts and email per contact"
+  - "Phone system with IVR, ring groups, hours-based routing and call recording"
+  - AI voice agent answering when nobody picks up
+  - Owner and tenant lead pipelines with speed-to-lead routing and SLA escalation
+  - Recurring process workflows with branching logic and PMS-triggered starts
+  - Maintenance work order intake and tracking
+use_cases:
+  - persona: property-manager
+    job: Stop tenant calls and owner emails from living in one person's inbox
+  - persona: brokerage
+    job: "Run move-in, renewal and owner onboarding as timed workflows with escalation"
+personas: [property-manager, brokerage]
+segments: [residential, multifamily]
+company_sizes: [smb, midmarket]
+pricing:
+  model: per-unit
+  public_pricing: true
+  url: https://www.leadsimple.com/pricing
+integrations: [AppFolio, Buildium, Rentvine, Propertyware, Rent Manager]
+ai:
+  capabilities: [voice agent answering inbound calls, call summarisation, drafted reply suggestions]
+product:
+  api: false
+  open_source: false
+  mobile: [ios, android]
+  languages: [en]
+alternatives: [appfolio, buildium, rentmanager]
+reviews: []
+signals:
+  pricing: https://www.leadsimple.com/pricing
+  privacy: https://www.leadsimple.com/legal/privacy
+  status: https://status.leadsimple.com
+  site_languages: [en]
+  checked_on: "2026-08-27"
+logo:
+  file: logos/leadsimple.png
+  source_url: https://www.leadsimple.com/apple-touch-icon.png
+  fetched_on: "2026-08-27"
+sources:
+  - { url: https://www.leadsimple.com/, note: site éditeur — accueil }
+  - { url: https://www.leadsimple.com/pricing, note: site éditeur — page tarifs }
+  - { url: https://www.appfolio.com/stack/marketplace, note: source de découverte — AppFolio Stack }
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-27"

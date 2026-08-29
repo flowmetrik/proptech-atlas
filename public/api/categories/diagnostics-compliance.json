@@ -4,7 +4,7 @@
   "label_fr": "Diagnostics & conformité",
   "summary_en": "Mandatory surveys, disclosures and regulatory files attached to a property.",
   "summary_fr": "Diagnostics obligatoires, informations acquéreur et dossiers réglementaires du bien.",
-  "count": 4,
+  "count": 5,
   "tools": [
     {
       "slug": "check-and-visit",
@@ -298,6 +298,109 @@
         {
           "url": "https://www.liciel.fr",
           "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "preventimmo",
+      "name": "Preventimmo",
+      "editor": "Septeo",
+      "website": "https://www.preventimmo.septeo.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "diagnostics-compliance",
+      "also_in": [
+        "market-data",
+        "title-closing-legal"
+      ],
+      "positioning": "Produit les documents réglementaires d'urbanisme et de risques attachés à une vente — ERP, ENSA, note d'urbanisme, droits de préemption — à partir d'une base tenue à jour.",
+      "description": "Preventimmo, part of the Septeo group, maintains a continuously updated database of French planning and environmental-risk data and turns it into the regulatory documents a property sale requires. Its catalogue covers the état des risques et pollutions, the état des nuisances sonores aériennes, the état des risques et pollutions des sols, a clay-shrinkage risk summary, notes de renseignements d'urbanisme, pre-emption rights, certificates and cadastral concordance. The same data is delivered three ways: the customer produces documents themselves online, delegates production to Preventimmo's own team, or connects directly to the underlying regulatory database for their own use. The vendor states sixteen years of activity, 106 staff and 5,000 active customers.\n",
+      "real_estate_use": "A notary preparing a deed, or an agent taking a mandate, has to attach an état des risques that is both current and defensible — and the underlying planning and risk data changes at the commune level without notice. Rather than querying prefecture and municipal sources by hand, they generate the ERP and the urban planning note from Preventimmo in a few clicks and attach them to the file. A diagnostics firm doing this at volume delegates the production entirely, or plugs its own software into the regulatory database so the documents appear inside the tool its technicians already use. When a sale is later contested on a disclosure point, the documents carry a traceable source and date.\n",
+      "features": [
+        "État des risques et pollutions (ERP) généré en ligne",
+        "État des nuisances sonores aériennes (ENSA) et état des risques des sols (ERPS)",
+        "Notes de renseignements d'urbanisme et droits de préemption",
+        "Synthèse risques argiles et concordance cadastrale",
+        "Production déléguée des documents par les équipes de l'éditeur",
+        "Accès direct à la base réglementaire pour intégration dans un logiciel tiers"
+      ],
+      "use_cases": [
+        {
+          "persona": "legal-notary",
+          "job": "Attacher à un acte des documents d'urbanisme et de risques conformes et datés, sans interroger chaque source publique"
+        },
+        {
+          "persona": "agent-broker",
+          "job": "Produire l'ERP d'un bien au moment de la prise de mandat pour tenir l'obligation d'information de l'acquéreur"
+        },
+        {
+          "persona": "appraiser",
+          "job": "Alimenter son propre logiciel de diagnostic depuis la base réglementaire plutôt que de ressaisir les données"
+        }
+      ],
+      "personas": [
+        "legal-notary",
+        "agent-broker",
+        "appraiser",
+        "developer-builder"
+      ],
+      "segments": [
+        "residential",
+        "office",
+        "retail",
+        "land-development"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "French"
+        ]
+      },
+      "alternatives": [
+        "liciel",
+        "cityscan"
+      ],
+      "reviews": [],
+      "signals": {
+        "privacy": "https://www.preventimmo.septeo.com/legal/mentions-legales",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-25"
+      },
+      "logo": {
+        "file": "logos/preventimmo.png",
+        "source_url": "https://cdn.prod.website-files.com/666168f272373216c6be04d1/6662bd37ff85b1f79b0513cc_Webclip.png",
+        "fetched_on": "2026-08-29"
+      },
+      "sources": [
+        {
+          "url": "https://www.preventimmo.septeo.com",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://www.septeo.com/fr/solutions-immobilier",
+          "note": "source de découverte — écosystème Septeo"
         }
       ],
       "verification": {

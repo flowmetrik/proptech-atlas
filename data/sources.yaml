@@ -51,7 +51,7 @@ sources:
   # ── Annuaires d'intégrations — le meilleur rendement ────────────────────────
   - id: appfolio-stack
     label: AppFolio Stack — annuaire d'intégrations
-    url: https://www.appfolio.com/appfolio-stack
+    url: https://www.appfolio.com/stack/marketplace
     market: US
     kind: marketplace
     finds: Outils de niche du résidentiel américain, validés par une intégration réelle.
@@ -87,13 +87,13 @@ sources:
     finds: Écosystème ouvert du tertiaire, transatlantique.
   - id: septeo-partenaires
     label: Septeo — écosystème immobilier
-    url: https://www.septeo.com/fr/solutions-immobilier
+    url: https://www.septeo.com/fr
     market: FR
     kind: marketplace
     finds: Les briques greffées sur les systèmes historiques français de gérance et syndic.
   - id: laboiteimmo-partenaires
     label: La Boîte Immo / Hektor — partenaires
-    url: https://www.laboiteimmo.com/partenaires
+    url: https://www.la-boite-immo.com/logiciel-immobilier
     market: FR
     kind: marketplace
     finds: Périphérie de l'agence française — pige, signature, visite, diagnostic.

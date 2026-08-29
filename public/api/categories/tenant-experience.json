@@ -4,7 +4,7 @@
   "label_fr": "Expérience occupant & smart building",
   "summary_en": "Occupant apps, access, bookings, services and building IoT.",
   "summary_fr": "Applications occupants, accès, réservations, services et IoT du bâtiment.",
-  "count": 10,
+  "count": 14,
   "tools": [
     {
       "slug": "aareon",
@@ -108,6 +108,230 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "butterflymx",
+      "name": "ButterflyMX",
+      "editor": "ButterflyMX, Inc.",
+      "website": "https://butterflymx.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "tenant-experience",
+      "positioning": "Cloud-based property access: video intercoms, keypads and smart locks a resident answers from their phone and a manager administers from a browser.",
+      "description": "ButterflyMX sells a connected access-control system for buildings, combining door hardware with a resident smartphone app and a management console. The product line covers video intercoms, a QR-code intercom, keypads, smart locks, elevator controls, vehicle access control, security cameras, package rooms and a front-desk station. Residents see and speak to whoever is at the door or gate, open it remotely and issue temporary access PINs; managers review entry logs, grant or revoke access and connect the system to other cloud tools. The company states the installation requires only three connections — internet, power and an electronic or magnetic lock — which removes the in-unit hardware and building wiring a traditional intercom needs.\n",
+      "real_estate_use": "A property manager running a multifamily building without a doorman needs deliveries, contractors and guests to get in without anyone driving to the site with a key. They install ButterflyMX at the entrance, and from then on a courier calls the unit, the resident answers on their phone wherever they are, and the door opens; the manager issues a dated PIN to the cleaning company and revokes it when the contract ends. When a dispute arises over who entered and when, the entry log settles it. Leasing teams also use the self-guided tour feature so a prospect can visit a vacant unit without an agent present.\n",
+      "features": [
+        "Video intercom answered from a resident smartphone app",
+        "Remote door and gate release, with temporary access PINs",
+        "Building entry logs and per-user access administration",
+        "Keypads, smart locks and elevator controls on the same system",
+        "Package room and front-desk station modules",
+        "Self-guided tour access for prospective renters"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Let couriers and contractors into a staffless building and keep a reviewable log of every entry"
+        },
+        {
+          "persona": "tenant-occupier",
+          "job": "See and admit a visitor at the building entrance from anywhere, without being home"
+        },
+        {
+          "persona": "developer-builder",
+          "job": "Cut intercom wiring and in-unit hardware out of a new building's access-control budget"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "tenant-occupier",
+        "developer-builder"
+      ],
+      "segments": [
+        "multifamily",
+        "residential",
+        "office",
+        "coliving-student"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Property management software integrations listed on the vendor's integrations page"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "English"
+        ]
+      },
+      "alternatives": [
+        "smartrent"
+      ],
+      "reviews": [],
+      "signals": {
+        "pricing": "https://butterflymx.com/cost",
+        "privacy": "https://butterflymx.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
+      "logo": {
+        "file": "logos/butterflymx.png",
+        "source_url": "https://butterflymx.com/wp-content/uploads/2021/11/cropped-favicon-butterflymx-180x180.png",
+        "fetched_on": "2026-08-29"
+      },
+      "sources": [
+        {
+          "url": "https://butterflymx.com",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://butterflymx.com/features/",
+          "note": "page fonctionnalités"
+        },
+        {
+          "url": "https://www.appfolio.com/services/stack",
+          "note": "source de découverte — partenaire AppFolio Stack"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "condo-control",
+      "name": "Condo Control",
+      "editor": "Condo Control",
+      "website": "https://www.condocontrol.com",
+      "hq_country": "CA",
+      "markets": [
+        "US"
+      ],
+      "category": "syndic-copro",
+      "also_in": [
+        "tenant-experience",
+        "facility-maintenance"
+      ],
+      "positioning": "Condo and HOA management software organised around the building's daily life: communication, amenities, security desk and maintenance, with accounting alongside.",
+      "description": "Condo Control is software for condominium and homeowner association management, sold to management companies, self-managed communities and security companies. Its modules cover communication (announcements, discussion forum, association websites, virtual meetings and an AI manager assistant), financial work (accounting, billing and collections, portfolio accounting, reports and budgeting, online payments, vendor management), maintenance (requests, architectural change, preventive maintenance, community assets), record keeping (resident database, file library, violation tracking, proxy and fractional voting, electronic consent), security (authorised entry, incident reports, key tracking, security logs and patrol, package management) and the resident side (guest passes, event calendar, amenity booking, package tracking, visitor parking). The vendor also sells managed accounting and moderated meeting services alongside the software.\n",
+      "real_estate_use": "A condominium tower runs on things a rental building never has to think about: a front desk logging visitors, a party room booked three weeks ahead, a package wall that overflows every December, a proxy count that has to hold up at the annual general meeting. Condo Control is the product that treats those as first-class, which is why concierge and security staff use it as much as the property manager. A manager reaches for it when the building's problem is coordination rather than accounting, and when the board wants residents to self-serve on bookings, documents and payments instead of calling the office. Its pricing is quoted per unit band with distinct plans for self-managed communities and for management companies.\n",
+      "features": [
+        "Amenity booking, guest passes and visitor parking",
+        "Package tracking and package room management",
+        "Front desk security logs, patrol, incident reports and key tracking",
+        "Violation tracking and rule enforcement",
+        "Proxy and fractional voting with electronic consent",
+        "Maintenance requests, preventive maintenance and architectural change requests"
+      ],
+      "use_cases": [
+        {
+          "persona": "syndic-manager",
+          "job": "Run an AGM with a proxy count that holds up, without paper"
+        },
+        {
+          "persona": "tenant-occupier",
+          "job": "Book the party room and see whether a package has arrived without calling the desk"
+        },
+        {
+          "persona": "facility-manager",
+          "job": "Track a maintenance request from a resident report to a vendor visit"
+        }
+      ],
+      "personas": [
+        "syndic-manager",
+        "property-manager",
+        "tenant-occupier",
+        "facility-manager"
+      ],
+      "segments": [
+        "residential",
+        "multifamily",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false,
+        "url": "https://www.condocontrol.com/pricing/"
+      },
+      "ai": {
+        "capabilities": [
+          "Manager assistant on community communication"
+        ]
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "payhoa",
+        "vantaca",
+        "frontsteps",
+        "cinc-systems"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/condo-control.png",
+        "source_url": "https://www.condocontrol.com/wp-content/uploads/2024/09/Favicon_180x180_RoundCorner.png",
+        "fetched_on": "2026-08-29"
+      },
+      "signals": {
+        "security": "https://www.condocontrol.com/trust",
+        "privacy": "https://www.condocontrol.com/trust",
+        "status": "https://status.propertycontrol.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-29"
+      },
+      "sources": [
+        {
+          "url": "https://www.condocontrol.com/",
+          "note": "site éditeur, accueil"
+        },
+        {
+          "url": "https://www.condocontrol.com/product/",
+          "note": "vue d'ensemble produit — liste des modules"
+        },
+        {
+          "url": "https://www.condocontrol.com/pricing/",
+          "note": "page tarifs — plans par tranche de lots, devis"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-29"
     },
     {
       "slug": "equiem",
@@ -303,6 +527,106 @@
       "updated": "2026-08-25"
     },
     {
+      "slug": "frontsteps",
+      "name": "FRONTSTEPS",
+      "editor": "FRONTSTEPS",
+      "website": "https://frontsteps.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "syndic-copro",
+      "also_in": [
+        "tenant-experience",
+        "back-office-accounting"
+      ],
+      "positioning": "A set of connected HOA products covering back-office accounting, resident engagement, payments and community access control under one ecosystem.",
+      "description": "FRONTSTEPS sells a family of products for homeowner association operations rather than a single application. Caliber handles community budgets and daily financial tasks with automated workflows, reporting and document organisation. Community provides mobile applications for managers, boards and residents with a resident engagement programme. Payments lets homeowners pay assessments online through a PCI DSS compliant processor. Manager is the web-based back office for community association managers working in the field. A safety and security line covers visitor access control and community monitoring inside the same application.\n",
+      "real_estate_use": "A community association manager's day splits between a desk and a gate: assessments to post, a board packet to prepare, and then a visitor list, an amenity, a patrol log. FRONTSTEPS is assembled for firms that want those two halves under one vendor, with Caliber as the accounting spine and the resident and access products hanging off it. It suits a management company whose communities are gated or amenity-heavy, where access control is not an add-on but part of what the board is paying for. Because the offer is a set of products rather than one, the practical question at purchase is which pieces a firm actually takes.\n",
+      "features": [
+        "Caliber community accounting with automated financial workflows and reporting",
+        "Resident and board mobile applications with an engagement programme",
+        "Online assessment payments through a PCI DSS compliant processor",
+        "Web-based manager back office usable in the field",
+        "Visitor access control and community security monitoring",
+        "Document organisation and customisable financial rules"
+      ],
+      "use_cases": [
+        {
+          "persona": "syndic-manager",
+          "job": "Run association accounting and gate access from the same vendor"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "Pay an assessment online instead of mailing a cheque"
+        }
+      ],
+      "personas": [
+        "syndic-manager",
+        "property-manager",
+        "tenant-occupier"
+      ],
+      "segments": [
+        "residential",
+        "multifamily"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "ai": {
+        "capabilities": [
+          "Reporting and financial insight generation"
+        ]
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "vantaca",
+        "cinc-systems",
+        "condo-control",
+        "payhoa"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/frontsteps.png",
+        "source_url": "https://frontsteps.com/wp-content/uploads/2025/07/cropped-Icon_Green-180x180.png",
+        "fetched_on": "2026-08-29"
+      },
+      "signals": {
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-29"
+      },
+      "sources": [
+        {
+          "url": "https://frontsteps.com/",
+          "note": "site éditeur, accueil — écosystème produit"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-29"
+    },
+    {
       "slug": "hqo",
       "name": "HqO",
       "editor": "HqO",
@@ -402,6 +726,109 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "payhoa",
+      "name": "PayHOA",
+      "editor": "PayHOA",
+      "website": "https://www.payhoa.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "syndic-copro",
+      "also_in": [
+        "back-office-accounting",
+        "tenant-experience"
+      ],
+      "positioning": "Online HOA management for self-managed associations, sold at a published price per community with a free trial and no sales call.",
+      "description": "PayHOA is a US web application for managing a homeowners association online. Its financial side covers general ledger accounting, budgets and board reports, bank integrations that remove manual transaction entry, payables and vendor approvals, and an optional bookkeeping service. Its communication side covers mass text, email and phone messaging, one-click USPS mailings through a mailroom feature, private message boards and a website builder. Its management side covers CC&R violation tracking, request forms, document storage, online voting and surveys, owner portals and resale documents. The vendor states it is used by more than 6,000 communities.\n",
+      "real_estate_use": "Most American associations have no management company at all: a volunteer treasurer collects dues, keeps the books in a spreadsheet and mails paper notices. PayHOA is built for that person. It is the rare product in this category that publishes its price per community size and opens with a free trial rather than a demo, which is what makes it reachable for a board with no budget line for software. The mailroom feature matters more than it sounds, because an association is often legally obliged to send notices by post and doing that by hand is the treasurer's worst evening of the year. Management companies use it too, but its centre of gravity is the self-managed board.\n",
+      "features": [
+        "General ledger accounting with budgets and board reports",
+        "Bank integrations removing manual transaction entry",
+        "Payables and vendor approval workflow",
+        "Mass communication by text, email and phone",
+        "Mailroom for one-click USPS postal mailings",
+        "CC&R violation tracking and resident request forms"
+      ],
+      "use_cases": [
+        {
+          "persona": "landlord-owner",
+          "job": "Collect dues online and produce board financials without a management company"
+        },
+        {
+          "persona": "syndic-manager",
+          "job": "Send a legally required notice by post without handling envelopes"
+        }
+      ],
+      "personas": [
+        "landlord-owner",
+        "syndic-manager",
+        "property-manager"
+      ],
+      "segments": [
+        "residential",
+        "multifamily"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "per-unit",
+        "public_pricing": true,
+        "url": "https://www.payhoa.com/pricing"
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "condo-control",
+        "vantaca",
+        "cinc-systems",
+        "frontsteps"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/payhoa.png",
+        "source_url": "https://www.payhoa.com/wp-content/uploads/2020/11/favicon-32x32-1.png",
+        "fetched_on": "2026-08-29"
+      },
+      "signals": {
+        "pricing": "https://www.payhoa.com/pricing",
+        "privacy": "https://www.payhoa.com/privacy-policy",
+        "status": "https://status.payhoa.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-29"
+      },
+      "sources": [
+        {
+          "url": "https://www.payhoa.com/",
+          "note": "site éditeur, accueil"
+        },
+        {
+          "url": "https://www.payhoa.com/features",
+          "note": "page fonctionnalités"
+        },
+        {
+          "url": "https://www.payhoa.com/pricing",
+          "note": "page tarifs — grille par nombre de lots"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-29"
     },
     {
       "slug": "smartrent",

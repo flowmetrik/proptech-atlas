@@ -1,0 +1,78 @@
+slug: condo-control
+name: Condo Control
+editor: Condo Control
+website: https://www.condocontrol.com
+hq_country: CA
+markets: [US]
+category: syndic-copro
+also_in: [tenant-experience, facility-maintenance]
+positioning: "Condo and HOA management software organised around the building's daily life: communication, amenities, security desk and maintenance, with accounting alongside."
+description: >
+  Condo Control is software for condominium and homeowner association management, sold
+  to management companies, self-managed communities and security companies. Its
+  modules cover communication (announcements, discussion forum, association websites,
+  virtual meetings and an AI manager assistant), financial work (accounting, billing
+  and collections, portfolio accounting, reports and budgeting, online payments,
+  vendor management), maintenance (requests, architectural change, preventive
+  maintenance, community assets), record keeping (resident database, file library,
+  violation tracking, proxy and fractional voting, electronic consent), security
+  (authorised entry, incident reports, key tracking, security logs and patrol, package
+  management) and the resident side (guest passes, event calendar, amenity booking,
+  package tracking, visitor parking). The vendor also sells managed accounting and
+  moderated meeting services alongside the software.
+real_estate_use: >
+  A condominium tower runs on things a rental building never has to think about: a
+  front desk logging visitors, a party room booked three weeks ahead, a package wall
+  that overflows every December, a proxy count that has to hold up at the annual
+  general meeting. Condo Control is the product that treats those as first-class,
+  which is why concierge and security staff use it as much as the property manager. A
+  manager reaches for it when the building's problem is coordination rather than
+  accounting, and when the board wants residents to self-serve on bookings, documents
+  and payments instead of calling the office. Its pricing is quoted per unit band with
+  distinct plans for self-managed communities and for management companies.
+features:
+  - "Amenity booking, guest passes and visitor parking"
+  - Package tracking and package room management
+  - "Front desk security logs, patrol, incident reports and key tracking"
+  - Violation tracking and rule enforcement
+  - Proxy and fractional voting with electronic consent
+  - "Maintenance requests, preventive maintenance and architectural change requests"
+use_cases:
+  - persona: syndic-manager
+    job: "Run an AGM with a proxy count that holds up, without paper"
+  - persona: tenant-occupier
+    job: Book the party room and see whether a package has arrived without calling the desk
+  - persona: facility-manager
+    job: Track a maintenance request from a resident report to a vendor visit
+personas: [syndic-manager, property-manager, tenant-occupier, facility-manager]
+segments: [residential, multifamily, mixed-use]
+company_sizes: [smb, midmarket]
+pricing:
+  model: quote
+  public_pricing: false
+  url: https://www.condocontrol.com/pricing/
+ai:
+  capabilities: [Manager assistant on community communication]
+product:
+  api: false
+  open_source: false
+  mobile: [ios, android]
+  languages: [en]
+alternatives: [payhoa, vantaca, frontsteps, cinc-systems]
+reviews: []
+logo:
+  file: logos/condo-control.png
+  source_url: https://www.condocontrol.com/wp-content/uploads/2024/09/Favicon_180x180_RoundCorner.png
+  fetched_on: "2026-08-29"
+signals:
+  security: https://www.condocontrol.com/trust
+  privacy: https://www.condocontrol.com/trust
+  status: https://status.propertycontrol.com
+  site_languages: [en]
+  checked_on: "2026-08-29"
+sources:
+  - { url: https://www.condocontrol.com/, note: "site éditeur, accueil" }
+  - { url: https://www.condocontrol.com/product/, note: vue d'ensemble produit — liste des modules }
+  - { url: https://www.condocontrol.com/pricing/, note: "page tarifs — plans par tranche de lots, devis" }
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-29"

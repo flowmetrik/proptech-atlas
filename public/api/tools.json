@@ -4,23 +4,23 @@
   "license": "CC-BY-4.0 (data) / MIT (code)",
   "homepage": "https://flowmetrik.github.io/proptech-atlas",
   "repository": "https://github.com/flowmetrik/proptech-atlas",
-  "generated": "2026-08-28",
+  "generated": "2026-08-29",
   "counts": {
-    "tools": 158,
-    "US": 96,
-    "FR": 91,
+    "tools": 188,
+    "US": 110,
+    "FR": 108,
     "categories": 24,
-    "editors": 143,
+    "editors": 171,
     "verified": 0,
     "reviews": 0,
-    "logos": 154,
+    "logos": 183,
     "signals": {
-      "probed": 139,
-      "public_pricing": 36,
-      "api_docs": 11,
-      "security_page": 20,
-      "privacy_page": 102,
-      "status_page": 42
+      "probed": 169,
+      "public_pricing": 46,
+      "api_docs": 12,
+      "security_page": 24,
+      "privacy_page": 125,
+      "status_page": 50
     }
   },
   "tools": [
@@ -126,6 +126,100 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "actelo",
+      "name": "Actelo",
+      "editor": "Actelo",
+      "website": "https://www.actelo.fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "lending-mortgage",
+      "also_in": [
+        "crm-lead"
+      ],
+      "positioning": "Financing software for French IOBSP credit brokers, covering the calculation, document and invoicing side of a mortgage file.",
+      "description": "Actelo is a French SaaS platform for IOBSP credit brokers. It covers the financing side of a mortgage file end to end: eligibility and amortisation calculations, borrower insurance quoting, generation of the regulatory financing documents, a document management space, a borrower portal, invoicing of the parties involved and activity statistics. It is sold per user with a published monthly price and no commitment.\n",
+      "real_estate_use": "A mortgage broker takes in a buyer whose offer has just been accepted and has to turn a project into a bankable file within days. Actelo runs the calculation side: it works out which loan structures the project is eligible for, prices the borrower insurance, lists the supporting documents to collect, and produces the financing proposal and the regulatory paperwork. The borrower drops the documents in their own space instead of emailing them, and the broker follows the file stage by stage until the invoicing of the commission. Independent brokers and franchise networks use it as their whole back office rather than as an add-on to a CRM.\n",
+      "features": [
+        "Automated financing calculations and loan structuring",
+        "Borrower insurance pricing and one-click quote",
+        "Configurable financing documents and electronic signature",
+        "Document management and borrower self-service portal",
+        "Stage-by-stage file tracking",
+        "Invoicing of brokers, mandataires and partners, with activity statistics"
+      ],
+      "use_cases": [
+        {
+          "persona": "lender-broker",
+          "job": "Produce a financing proposal and its supporting file for a buyer whose offer has been accepted"
+        },
+        {
+          "persona": "brokerage",
+          "job": "Run a network of mandataires on one workspace with per-user billing and shared reporting"
+        }
+      ],
+      "personas": [
+        "lender-broker",
+        "brokerage"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "per-seat",
+        "public_pricing": true,
+        "url": "https://www.actelo.fr/tarifs"
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "eloa",
+        "crediteo"
+      ],
+      "reviews": [],
+      "signals": {
+        "security": "https://www.actelo.fr/securite",
+        "privacy": "https://www.actelo.fr/rgpd",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-27"
+      },
+      "logo": {
+        "file": "logos/actelo.png",
+        "source_url": "https://www.actelo.fr/wp-content/uploads/2021/10/cropped-Actelo_Logo_Simple-512-180x180.png",
+        "fetched_on": "2026-08-27"
+      },
+      "sources": [
+        {
+          "url": "https://www.actelo.fr/",
+          "note": "site éditeur — accueil et fonctionnalités"
+        },
+        {
+          "url": "https://www.actelo.fr/tarifs",
+          "note": "site éditeur — page tarifs"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-27"
     },
     {
       "slug": "adapt-immo",
@@ -1281,6 +1375,102 @@
       "updated": "2026-08-25"
     },
     {
+      "slug": "bailfacile",
+      "name": "BailFacile",
+      "editor": "BailFacile",
+      "website": "https://www.bailfacile.fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "property-management",
+      "also_in": [
+        "back-office-accounting"
+      ],
+      "positioning": "Rental management for French landlords who manage their own lots: compliant documents, automated rent receipts and indexation, e-signature, income and expense tracking.",
+      "description": "BailFacile is a French web application for private landlords managing their own rentals. It generates more than fifty pre-filled legal documents covering tenant arrival, tenancy, works, disputes and departure, and keeps them current with French rental law. It automates recurring obligations such as rent receipts and annual rent indexation, provides unlimited electronic signature and a smartphone condition report, sends registered letters from the account, and tracks one-off and recurring income and expenses to prepare the tax return. A tenant portal carries documents and exchanges. The editor states more than 100,000 landlords use it.\n",
+      "real_estate_use": "A French landlord who refuses a management mandate inherits the mandate's obligations anyway: a lease that satisfies the ALUR law, an entry and exit condition report that will hold up if the deposit is contested, a rent receipt every month, an indexation that has to be claimed within a year or is lost. BailFacile is what replaces the spreadsheet and the downloaded Word template for that person. The value sits in the calendar as much as the documents — the tool knows which action is due and issues it. Small letting agencies and SCI owners use it the same way, and the income and expense ledger is aimed squarely at the moment the landlord fills in the rental income section of their return.\n",
+      "features": [
+        "Over fifty pre-filled legal documents kept current with French rental law",
+        "Automated rent receipts and annual rent indexation",
+        "Unlimited electronic signature and smartphone condition reports",
+        "Registered letters sent from the account",
+        "One-off and recurring income and expense tracking for the tax return",
+        "Tenant portal with unlimited document storage"
+      ],
+      "use_cases": [
+        {
+          "persona": "landlord-owner",
+          "job": "Sign a compliant lease with a new tenant and put the monthly receipts and yearly indexation on autopilot"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "Record rent, loan, insurance and works flows through the year to prepare the rental income declaration"
+        }
+      ],
+      "personas": [
+        "landlord-owner",
+        "property-manager"
+      ],
+      "segments": [
+        "residential",
+        "coliving-student"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://www.bailfacile.fr/tarifs"
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "rentila",
+        "smartloc",
+        "gererseul",
+        "ownily"
+      ],
+      "reviews": [],
+      "signals": {
+        "security": "https://www.bailfacile.fr/fonctionnalites/securite",
+        "privacy": "https://www.bailfacile.fr/mentions-legales",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-26"
+      },
+      "logo": {
+        "file": "logos/bailfacile.png",
+        "source_url": "https://www.bailfacile.fr/icons/apple-icon-180.png",
+        "fetched_on": "2026-08-29"
+      },
+      "sources": [
+        {
+          "url": "https://www.bailfacile.fr",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://www.bailfacile.fr/tarifs",
+          "note": "site éditeur, tarifs publics"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-26"
+    },
+    {
       "slug": "baselane",
       "name": "Baselane",
       "editor": "Baselane",
@@ -2194,6 +2384,128 @@
       "updated": "2026-08-25"
     },
     {
+      "slug": "breezeway",
+      "name": "Breezeway",
+      "editor": "Breezeway",
+      "website": "https://www.breezeway.io",
+      "hq_country": "US",
+      "markets": [
+        "US",
+        "FR"
+      ],
+      "category": "short-term-rental",
+      "also_in": [
+        "facility-maintenance"
+      ],
+      "positioning": "Property operations and guest experience platform for the teams cleaning, inspecting and servicing short-term rentals.",
+      "description": "Breezeway coordinates the field work behind a short-term rental portfolio rather than the booking side. It schedules cleaning and maintenance tasks, dispatches them to cleaners and vendors through a mobile app with photo checklists, tracks inventory and supplies, pays cleaners, and reports on what was done. A second product line handles guest communication: messaging, digital welcome books, an AI assistant answering guest questions, and paid upsells. A freemium tier covers a single property.\n",
+      "real_estate_use": "A vacation rental manager with a scattered portfolio and a mix of employed and subcontracted cleaners has the same problem every turnover day: knowing that each property was actually cleaned, inspected and restocked before the next guest arrives. Breezeway turns each departure into a scheduled task with a photo checklist the cleaner completes on their phone, so the manager sees evidence rather than a claim, and damage or a missing item surfaces as a work order before the guest does. Pricing is per property, which is why managers of five homes and of five hundred both use it, and residential and corporate housing operators use the same operations layer.\n",
+      "features": [
+        "Task scheduling and work coordination across field teams",
+        "Mobile checklists with photo capture, available in several languages",
+        "Work order and preventive maintenance management",
+        "Inventory and supply tracking",
+        "Cleaner and vendor payments",
+        "Guest messaging with digital guidebooks, AI answering and paid upsells"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Prove every turnover was cleaned and inspected before the next check-in"
+        },
+        {
+          "persona": "facility-manager",
+          "job": "Turn a defect spotted during a clean into a dispatched work order"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "facility-manager",
+        "landlord-owner"
+      ],
+      "segments": [
+        "hospitality",
+        "residential",
+        "coliving-student"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "freemium",
+        "public_pricing": true,
+        "url": "https://www.breezeway.io/breezeway-pricing"
+      },
+      "integrations": [
+        "Smart lock providers",
+        "Short-term rental property management systems"
+      ],
+      "ai": {
+        "capabilities": [
+          "automated answering of guest questions",
+          "assisted scheduling of field tasks"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en",
+          "fr",
+          "es",
+          "it"
+        ]
+      },
+      "alternatives": [
+        "guesty",
+        "hostaway"
+      ],
+      "reviews": [],
+      "signals": {
+        "pricing": "https://www.breezeway.io/breezeway-pricing",
+        "privacy": "https://www.breezeway.io/privacy",
+        "site_languages": [
+          "en",
+          "es",
+          "fr",
+          "it"
+        ],
+        "checked_on": "2026-08-27"
+      },
+      "logo": {
+        "file": "logos/breezeway.png",
+        "source_url": "https://www.breezeway.io/hubfs/Transparent%20Logo%20(HubSpot%20Flavicon)-1.png",
+        "fetched_on": "2026-08-27"
+      },
+      "sources": [
+        {
+          "url": "https://www.breezeway.io/",
+          "note": "site éditeur — accueil et carte des produits"
+        },
+        {
+          "url": "https://www.breezeway.io/breezeway-pricing",
+          "note": "site éditeur — page tarifs"
+        },
+        {
+          "url": "https://www.appfolio.com/stack/marketplace",
+          "note": "source de découverte — AppFolio Stack"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-27"
+    },
+    {
       "slug": "brokermint",
       "name": "BoldTrail BackOffice (Brokermint)",
       "editor": "Inside Real Estate",
@@ -2591,6 +2903,113 @@
       "updated": "2026-08-25"
     },
     {
+      "slug": "butterflymx",
+      "name": "ButterflyMX",
+      "editor": "ButterflyMX, Inc.",
+      "website": "https://butterflymx.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "tenant-experience",
+      "positioning": "Cloud-based property access: video intercoms, keypads and smart locks a resident answers from their phone and a manager administers from a browser.",
+      "description": "ButterflyMX sells a connected access-control system for buildings, combining door hardware with a resident smartphone app and a management console. The product line covers video intercoms, a QR-code intercom, keypads, smart locks, elevator controls, vehicle access control, security cameras, package rooms and a front-desk station. Residents see and speak to whoever is at the door or gate, open it remotely and issue temporary access PINs; managers review entry logs, grant or revoke access and connect the system to other cloud tools. The company states the installation requires only three connections — internet, power and an electronic or magnetic lock — which removes the in-unit hardware and building wiring a traditional intercom needs.\n",
+      "real_estate_use": "A property manager running a multifamily building without a doorman needs deliveries, contractors and guests to get in without anyone driving to the site with a key. They install ButterflyMX at the entrance, and from then on a courier calls the unit, the resident answers on their phone wherever they are, and the door opens; the manager issues a dated PIN to the cleaning company and revokes it when the contract ends. When a dispute arises over who entered and when, the entry log settles it. Leasing teams also use the self-guided tour feature so a prospect can visit a vacant unit without an agent present.\n",
+      "features": [
+        "Video intercom answered from a resident smartphone app",
+        "Remote door and gate release, with temporary access PINs",
+        "Building entry logs and per-user access administration",
+        "Keypads, smart locks and elevator controls on the same system",
+        "Package room and front-desk station modules",
+        "Self-guided tour access for prospective renters"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Let couriers and contractors into a staffless building and keep a reviewable log of every entry"
+        },
+        {
+          "persona": "tenant-occupier",
+          "job": "See and admit a visitor at the building entrance from anywhere, without being home"
+        },
+        {
+          "persona": "developer-builder",
+          "job": "Cut intercom wiring and in-unit hardware out of a new building's access-control budget"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "tenant-occupier",
+        "developer-builder"
+      ],
+      "segments": [
+        "multifamily",
+        "residential",
+        "office",
+        "coliving-student"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Property management software integrations listed on the vendor's integrations page"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "English"
+        ]
+      },
+      "alternatives": [
+        "smartrent"
+      ],
+      "reviews": [],
+      "signals": {
+        "pricing": "https://butterflymx.com/cost",
+        "privacy": "https://butterflymx.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
+      "logo": {
+        "file": "logos/butterflymx.png",
+        "source_url": "https://butterflymx.com/wp-content/uploads/2021/11/cropped-favicon-butterflymx-180x180.png",
+        "fetched_on": "2026-08-29"
+      },
+      "sources": [
+        {
+          "url": "https://butterflymx.com",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://butterflymx.com/features/",
+          "note": "page fonctionnalités"
+        },
+        {
+          "url": "https://www.appfolio.com/services/stack",
+          "note": "source de découverte — partenaire AppFolio Stack"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
       "slug": "check-and-visit",
       "name": "Check & Visit",
       "editor": "Check & Visit",
@@ -2793,6 +3212,109 @@
       "updated": "2026-08-25"
     },
     {
+      "slug": "cinc-systems",
+      "name": "CINC Systems",
+      "editor": "CINC Systems",
+      "website": "https://cincsystems.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "syndic-copro",
+      "also_in": [
+        "back-office-accounting"
+      ],
+      "founded": 2005,
+      "positioning": "One platform for community association management and accounting, with direct bank integrations behind the payables and receivables work.",
+      "description": "CINC Systems publishes software for community association management companies, in business since 2005. Its Management and Accounting product runs accounting, operations, communication, compliance and community administration in one place: shared inboxes tied to resident and account history, work orders and service requests, violations and compliance history, architectural request workflows, vendor records, invoice capture with coding and routing suggestions, approval workflows carrying source documents and audit history, and electronic vendor payment. A separate CINC Connect layer gives boards and residents a branded web and mobile experience with payments and self-service. The vendor states 38 direct bank integrations and more than 1,000 management companies.\n",
+      "real_estate_use": "Association management is an accounting business wearing an operations coat: the manager who answers a homeowner about a fine also has to know whether that homeowner's account is current, and the accountant closing the month depends on what the manager did in the field. CINC exists so those two do not work from separate systems and re-key each other's facts. The direct bank connections are the point that distinguishes it in practice, because association funds sit in a large number of small accounts and reconciling them by statement download is where the month gets lost. A firm reaches for it when its portfolio is large enough that banking, payables and compliance history have to live behind the same record.\n",
+      "features": [
+        "Shared inboxes connected to resident, owner, property and account records",
+        "Work order and service request management",
+        "Violation and compliance history per community",
+        "Architectural request and review workflows",
+        "Invoice capture with coding and routing suggestions, approval workflows and audit history",
+        "Electronic vendor payment"
+      ],
+      "use_cases": [
+        {
+          "persona": "syndic-manager",
+          "job": "Keep a resident's communication, payment and compliance history behind one record"
+        },
+        {
+          "persona": "property-manager",
+          "job": "Reconcile association bank accounts without exporting statements"
+        }
+      ],
+      "personas": [
+        "syndic-manager",
+        "property-manager"
+      ],
+      "segments": [
+        "residential",
+        "multifamily"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "ai": {
+        "capabilities": [
+          "Invoice coding and routing recommendations"
+        ]
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "vantaca",
+        "frontsteps",
+        "condo-control"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/cinc-systems.png",
+        "source_url": "https://cincsystems.com/hubfs/cinc-icon-green-2.png",
+        "fetched_on": "2026-08-29"
+      },
+      "signals": {
+        "privacy": "https://cincsystems.com/privacy-policy",
+        "status": "https://status.cincsystems.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-29"
+      },
+      "sources": [
+        {
+          "url": "https://cincsystems.com/",
+          "note": "site éditeur, accueil"
+        },
+        {
+          "url": "https://cincsystems.com/management-accounting",
+          "note": "page produit — modules et intégrations bancaires"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-29"
+    },
+    {
       "slug": "cityscan",
       "name": "Cityscan",
       "editor": "Cityscan",
@@ -2889,6 +3411,106 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "clameur",
+      "name": "CLAMEUR",
+      "editor": "Association Clameur",
+      "website": "https://clameur.fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "market-data",
+      "also_in": [
+        "estimation-pricing"
+      ],
+      "positioning": "French private-rental rent observatory built from signed leases collected at source, with a mapping application for members and free published trends.",
+      "description": "CLAMEUR is an association that produces an observatory of rents in the French private rental sector. It collects signed leases through partnerships with professional unions, federations, networks and managers rather than from advertisements, and states it holds more than a million references per year. Free national, regional, departmental and metropolitan trend pages publish rents excluding charges and their four-year evolution by property type. Members and contributors additionally get a web application with mapped navigation, indicators, charts, an advanced geolocated search and access to the underlying lease references down to municipality and IRIS zone level. Bespoke studies can be commissioned.\n",
+      "real_estate_use": "Rent evidence in France is scarce outside the regulated observatories, and portal asking prices are not the same thing as signed rents. CLAMEUR is the counter-evidence: it is built from executed leases handed over by managers, so a letting agent pricing a lot, a landlord arguing an indexation, or an investor testing a yield assumption can cite an actual market rent for the commune rather than an advertised one. The granularity down to IRIS zone is what makes it usable in cities where two neighbourhoods a kilometre apart do not rent alike. Local authorities and rent-control policy work use it for the same reason — it is one of the few sources covering medium-sized towns and rural areas.\n",
+      "features": [
+        "Rent observatory built from signed leases collected through professional partners",
+        "Free national, regional, departmental and metropolitan trend pages with four-year evolution",
+        "Member web application with mapped navigation and charted indicators",
+        "Granularity down to municipality and IRIS zone",
+        "Advanced geolocated search over lease references",
+        "Commissioned bespoke studies"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Price a rental lot against signed rents in the same commune rather than against portal asking prices"
+        },
+        {
+          "persona": "investor-am",
+          "job": "Test a rental yield assumption on a medium-sized town that commercial datasets barely cover"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "investor-am",
+        "appraiser",
+        "landlord-owner"
+      ],
+      "segments": [
+        "residential",
+        "multifamily"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "yanport",
+        "meilleursagents",
+        "pricehubble"
+      ],
+      "reviews": [],
+      "signals": {
+        "privacy": "https://clameur.fr/mentions-legales",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-26"
+      },
+      "logo": {
+        "file": "logos/clameur.png",
+        "source_url": "https://clameur.fr/wp-content/uploads/2021/03/cropped-icone-1-180x180.jpg",
+        "fetched_on": "2026-08-29"
+      },
+      "sources": [
+        {
+          "url": "https://clameur.fr",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://clameur.fr/qui-sommes-nous/",
+          "note": "site éditeur, présentation de l'observatoire"
+        },
+        {
+          "url": "https://www.unis-immo.fr",
+          "note": "source de découverte"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-26"
     },
     {
       "slug": "clear-capital",
@@ -3190,6 +3812,123 @@
       "updated": "2026-08-25"
     },
     {
+      "slug": "condo-control",
+      "name": "Condo Control",
+      "editor": "Condo Control",
+      "website": "https://www.condocontrol.com",
+      "hq_country": "CA",
+      "markets": [
+        "US"
+      ],
+      "category": "syndic-copro",
+      "also_in": [
+        "tenant-experience",
+        "facility-maintenance"
+      ],
+      "positioning": "Condo and HOA management software organised around the building's daily life: communication, amenities, security desk and maintenance, with accounting alongside.",
+      "description": "Condo Control is software for condominium and homeowner association management, sold to management companies, self-managed communities and security companies. Its modules cover communication (announcements, discussion forum, association websites, virtual meetings and an AI manager assistant), financial work (accounting, billing and collections, portfolio accounting, reports and budgeting, online payments, vendor management), maintenance (requests, architectural change, preventive maintenance, community assets), record keeping (resident database, file library, violation tracking, proxy and fractional voting, electronic consent), security (authorised entry, incident reports, key tracking, security logs and patrol, package management) and the resident side (guest passes, event calendar, amenity booking, package tracking, visitor parking). The vendor also sells managed accounting and moderated meeting services alongside the software.\n",
+      "real_estate_use": "A condominium tower runs on things a rental building never has to think about: a front desk logging visitors, a party room booked three weeks ahead, a package wall that overflows every December, a proxy count that has to hold up at the annual general meeting. Condo Control is the product that treats those as first-class, which is why concierge and security staff use it as much as the property manager. A manager reaches for it when the building's problem is coordination rather than accounting, and when the board wants residents to self-serve on bookings, documents and payments instead of calling the office. Its pricing is quoted per unit band with distinct plans for self-managed communities and for management companies.\n",
+      "features": [
+        "Amenity booking, guest passes and visitor parking",
+        "Package tracking and package room management",
+        "Front desk security logs, patrol, incident reports and key tracking",
+        "Violation tracking and rule enforcement",
+        "Proxy and fractional voting with electronic consent",
+        "Maintenance requests, preventive maintenance and architectural change requests"
+      ],
+      "use_cases": [
+        {
+          "persona": "syndic-manager",
+          "job": "Run an AGM with a proxy count that holds up, without paper"
+        },
+        {
+          "persona": "tenant-occupier",
+          "job": "Book the party room and see whether a package has arrived without calling the desk"
+        },
+        {
+          "persona": "facility-manager",
+          "job": "Track a maintenance request from a resident report to a vendor visit"
+        }
+      ],
+      "personas": [
+        "syndic-manager",
+        "property-manager",
+        "tenant-occupier",
+        "facility-manager"
+      ],
+      "segments": [
+        "residential",
+        "multifamily",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false,
+        "url": "https://www.condocontrol.com/pricing/"
+      },
+      "ai": {
+        "capabilities": [
+          "Manager assistant on community communication"
+        ]
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "payhoa",
+        "vantaca",
+        "frontsteps",
+        "cinc-systems"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/condo-control.png",
+        "source_url": "https://www.condocontrol.com/wp-content/uploads/2024/09/Favicon_180x180_RoundCorner.png",
+        "fetched_on": "2026-08-29"
+      },
+      "signals": {
+        "security": "https://www.condocontrol.com/trust",
+        "privacy": "https://www.condocontrol.com/trust",
+        "status": "https://status.propertycontrol.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-29"
+      },
+      "sources": [
+        {
+          "url": "https://www.condocontrol.com/",
+          "note": "site éditeur, accueil"
+        },
+        {
+          "url": "https://www.condocontrol.com/product/",
+          "note": "vue d'ensemble produit — liste des modules"
+        },
+        {
+          "url": "https://www.condocontrol.com/pricing/",
+          "note": "page tarifs — plans par tranche de lots, devis"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-29"
+    },
+    {
       "slug": "corrigo",
       "name": "Corrigo",
       "editor": "JLL Technologies",
@@ -3408,6 +4147,95 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "crediteo",
+      "name": "Créditéo",
+      "editor": "Créditéo",
+      "website": "https://www.crediteo.co",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "lending-mortgage",
+      "positioning": "Cloud software for French credit intermediaries: build a mortgage file and its simulations, follow the lenders, invoice the fee.",
+      "description": "Créditéo is a French publisher of web applications for regulated credit intermediaries, real estate agents and notaries. Its platform centralises prospect and client files, runs configurable financing simulations, and tracks the lenders and parties attached to each case in a single dashboard. It issues fee invoices, bank commission invoices and off-case invoices in line with the French billing rules that took effect in January 2018, and reports production by branch, broker, partner, stage and period. Rights management and configurable case stages let a network reproduce its own process. The editor states more than 20,000 users.\n",
+      "real_estate_use": "A broker's day is a queue of half-complete files, each waiting on a document or a lender's answer. Créditéo is the desk where that queue is ordered: configurable stages say where each case stands, task lists and notifications say who owes what, and the simulator turns an affordability question into a fully-formed loan application in a single sitting. Its invoicing module matters more than it sounds — French intermediary fees can only be billed once the funds are released, so a broker needs the tool to know the difference between a fee earned and a commission owed by the bank. Web calculators and pre-filling contact forms embed on the broker's own site, so an enquiry arrives as a started file instead of an e-mail.\n",
+      "features": [
+        "Centralised prospect and client files with configurable case stages and task lists",
+        "Financing simulator that assembles the loan application from the simulation",
+        "Lender and party dashboard per case",
+        "Fee, bank commission and off-case invoicing with payment tracking",
+        "Production statistics by branch, broker, partner, stage and period",
+        "Embeddable web calculators and pre-filling contact forms for the broker's site"
+      ],
+      "use_cases": [
+        {
+          "persona": "lender-broker",
+          "job": "Assemble a complete mortgage application and its simulations in one sitting, then follow it to release of funds"
+        },
+        {
+          "persona": "brokerage",
+          "job": "Invoice fees and bank commissions from the case file and reconcile what has actually been paid"
+        }
+      ],
+      "personas": [
+        "lender-broker",
+        "agent-broker",
+        "legal-notary"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "eloa"
+      ],
+      "reviews": [],
+      "signals": {
+        "privacy": "https://www.crediteo.co/mentions-legales",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-26"
+      },
+      "logo": {
+        "file": "logos/crediteo.png",
+        "source_url": "https://www.crediteo.co/wp-content/uploads/2020/05/favicon.png",
+        "fetched_on": "2026-08-29"
+      },
+      "sources": [
+        {
+          "url": "https://www.crediteo.co",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://www.crediteo.co/produit/",
+          "note": "site éditeur, page fonctionnalités"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-26"
     },
     {
       "slug": "crexi",
@@ -4572,6 +5400,102 @@
       "updated": "2026-08-25"
     },
     {
+      "slug": "eloa",
+      "name": "Eloa",
+      "editor": "Eloa",
+      "website": "https://www.eloa.io",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "lending-mortgage",
+      "also_in": [
+        "crm-lead"
+      ],
+      "positioning": "French origination platform for credit intermediaries: simulate a mortgage, assemble the borrower file, apply each bank convention, invoice the commission.",
+      "description": "Eloa publishes eCredits, a configurable platform for regulated credit intermediaries in France, alongside eImmo for rental and renovation financing and eMobilite for vehicle dealers. eCredits covers mortgage, consumer, professional and debt consolidation lending. Its calculation engine produces amortising, zero-interest, interest-only, bridge, stepped and smoothed loan scenarios, and applies the rate grids and document requirements the broker has configured for each partner bank. It also handles commission, invoicing and activity reporting, and offers a broker website module. The editor states more than 20,000 professionals use it.\n",
+      "real_estate_use": "A French mortgage broker is an IOBSP: the file it assembles has to satisfy both the borrower and a bank whose rate grid, document list and commission terms differ from every other bank's. Eloa is where that file lives from the first simulation to the accepted offer. The broker qualifies affordability with the simulators, which create the case and carry the data forward instead of being re-keyed, then compares scenarios across the banks configured in its own conventions. Because commissioning and invoicing sit in the same tool, a network can see per-branch and per-broker production without exporting anything. Agencies and developers meet it from the other side, as the financing partner's system that tells them whether a buyer is financeable.\n",
+      "features": [
+        "Mortgage simulators covering amortising, zero-interest, interest-only, bridge, stepped and smoothed loans",
+        "Bank conventions configured per network or branch: rate grids, required documents, invoicing, commission",
+        "Automatic pre-qualification that opens the case file from the simulation without re-keying",
+        "Commission, invoicing and payment tracking for brokers and IOBSP agents",
+        "Configurable case stages, user rights and document completeness rules",
+        "Broker website module and embeddable calculators"
+      ],
+      "use_cases": [
+        {
+          "persona": "lender-broker",
+          "job": "Compare financing scenarios across partner banks for one borrower and produce the funding plan the client signs"
+        },
+        {
+          "persona": "brokerage",
+          "job": "Track production and commission per branch and per broker without leaving the origination tool"
+        }
+      ],
+      "personas": [
+        "lender-broker",
+        "agent-broker",
+        "brokerage"
+      ],
+      "segments": [
+        "residential",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "ai": {
+        "capabilities": [
+          "Assistant marketed as IA Courtier for speeding up loan file processing"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "reviews": [],
+      "signals": {
+        "privacy": "https://www.eloa.io/mentions-legales",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-26"
+      },
+      "logo": {
+        "file": "logos/eloa.png",
+        "source_url": "https://www.google.com/s2/favicons?domain=eloa.io&sz=256",
+        "fetched_on": "2026-08-29"
+      },
+      "sources": [
+        {
+          "url": "https://www.eloa.io",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://www.eloa.io/ecredits-immobilier",
+          "note": "site éditeur, page produit crédit immobilier"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-26"
+    },
+    {
       "slug": "encompass",
       "name": "Encompass",
       "editor": "ICE Mortgage Technology",
@@ -5582,6 +6506,206 @@
       "updated": "2026-08-25"
     },
     {
+      "slug": "frontsteps",
+      "name": "FRONTSTEPS",
+      "editor": "FRONTSTEPS",
+      "website": "https://frontsteps.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "syndic-copro",
+      "also_in": [
+        "tenant-experience",
+        "back-office-accounting"
+      ],
+      "positioning": "A set of connected HOA products covering back-office accounting, resident engagement, payments and community access control under one ecosystem.",
+      "description": "FRONTSTEPS sells a family of products for homeowner association operations rather than a single application. Caliber handles community budgets and daily financial tasks with automated workflows, reporting and document organisation. Community provides mobile applications for managers, boards and residents with a resident engagement programme. Payments lets homeowners pay assessments online through a PCI DSS compliant processor. Manager is the web-based back office for community association managers working in the field. A safety and security line covers visitor access control and community monitoring inside the same application.\n",
+      "real_estate_use": "A community association manager's day splits between a desk and a gate: assessments to post, a board packet to prepare, and then a visitor list, an amenity, a patrol log. FRONTSTEPS is assembled for firms that want those two halves under one vendor, with Caliber as the accounting spine and the resident and access products hanging off it. It suits a management company whose communities are gated or amenity-heavy, where access control is not an add-on but part of what the board is paying for. Because the offer is a set of products rather than one, the practical question at purchase is which pieces a firm actually takes.\n",
+      "features": [
+        "Caliber community accounting with automated financial workflows and reporting",
+        "Resident and board mobile applications with an engagement programme",
+        "Online assessment payments through a PCI DSS compliant processor",
+        "Web-based manager back office usable in the field",
+        "Visitor access control and community security monitoring",
+        "Document organisation and customisable financial rules"
+      ],
+      "use_cases": [
+        {
+          "persona": "syndic-manager",
+          "job": "Run association accounting and gate access from the same vendor"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "Pay an assessment online instead of mailing a cheque"
+        }
+      ],
+      "personas": [
+        "syndic-manager",
+        "property-manager",
+        "tenant-occupier"
+      ],
+      "segments": [
+        "residential",
+        "multifamily"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "ai": {
+        "capabilities": [
+          "Reporting and financial insight generation"
+        ]
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "vantaca",
+        "cinc-systems",
+        "condo-control",
+        "payhoa"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/frontsteps.png",
+        "source_url": "https://frontsteps.com/wp-content/uploads/2025/07/cropped-Icon_Green-180x180.png",
+        "fetched_on": "2026-08-29"
+      },
+      "signals": {
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-29"
+      },
+      "sources": [
+        {
+          "url": "https://frontsteps.com/",
+          "note": "site éditeur, accueil — écosystème produit"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-29"
+    },
+    {
+      "slug": "garantme",
+      "name": "Garantme",
+      "editor": "Garantme",
+      "website": "https://garantme.fr/fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "tenant-screening",
+      "positioning": "Certifie le dossier d'un candidat locataire et se porte garant à sa place, avec une console de gestion des dossiers et des garanties pour les agences.",
+      "description": "Garantme is a French rental-guarantee platform aimed at applicants who have no personal guarantor. The tenant uploads their supporting documents, Garantme certifies the file, and the company then stands as guarantor for the landlord for the duration of the lease, renewable each year with it. The guarantee is underwritten by insurance companies. Agencies and landlords get the other half of the product: an application console, called Console Garantme, where they centralize incoming rental files and the insurance products attached to them, plus handling of unpaid-rent procedures. The vendor states it has certified 100,000 tenants across roughly 4,000 partner agencies in 150 French cities.\n",
+      "real_estate_use": "A candidate with a solid income but no French guarantor keeps losing flats to files that have one. They assemble their documents in Garantme before starting their search, get certified, and present a file that already carries a guarantee — which is what puts it at the top of the pile at the viewing. On the other side, a letting agent receiving thirty applications for one flat uses the console to see which files are certified and which insurance product covers each, instead of re-reading payslips; when an incumbent tenant stops paying, the unpaid-rent procedure is run by Garantme rather than by the agency. Payment is only due when the lease is signed, so the applicant carries no cost during the search.\n",
+      "features": [
+        "Certification d'un dossier locatif sous 24 h",
+        "Caution solidaire et indivisible, y compris en colocation",
+        "Console Garantme pour centraliser dossiers et produits d'assurance en agence",
+        "Gestion des procédures d'impayé pour le compte du bailleur",
+        "Calculateur de coût de la garantie en ligne",
+        "Renouvellement annuel de la garantie avec le bail"
+      ],
+      "use_cases": [
+        {
+          "persona": "tenant-occupier",
+          "job": "Obtenir un garant et faire certifier son dossier avant de commencer les visites"
+        },
+        {
+          "persona": "agent-broker",
+          "job": "Trier des candidatures sur des dossiers déjà certifiés plutôt que sur des pièces à vérifier une par une"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "Couvrir le loyer et déléguer la procédure d'impayé sans coût pour le bailleur"
+        }
+      ],
+      "personas": [
+        "tenant-occupier",
+        "agent-broker",
+        "landlord-owner",
+        "property-manager"
+      ],
+      "segments": [
+        "residential",
+        "coliving-student"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://garantme.fr/fr"
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "French",
+          "English",
+          "Chinese"
+        ]
+      },
+      "alternatives": [
+        "zelok",
+        "smartloc"
+      ],
+      "reviews": [],
+      "signals": {
+        "site_languages": [
+          "en",
+          "fr",
+          "zh"
+        ],
+        "checked_on": "2026-08-25"
+      },
+      "logo": {
+        "file": "logos/garantme.png",
+        "source_url": "https://garantme.fr/hubfs/Favicon_whiteBG.png",
+        "fetched_on": "2026-08-29"
+      },
+      "sources": [
+        {
+          "url": "https://garantme.fr/fr",
+          "note": "site éditeur — fonctionnement, chiffres et calculateur de tarif"
+        },
+        {
+          "url": "https://www.frenchproptech.fr/annuaire-startups/",
+          "note": "source de découverte"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
       "slug": "genapi",
       "name": "GenApi",
       "editor": "Septeo",
@@ -6067,6 +7191,118 @@
         {
           "url": "https://www.guesty.com",
           "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "happyco",
+      "name": "HappyCo",
+      "editor": "HappyCo",
+      "website": "https://happy.co",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "facility-maintenance",
+      "also_in": [
+        "property-management",
+        "commercial-am"
+      ],
+      "positioning": "Maintenance and asset-condition platform for multifamily operators, built around mobile inspections, work orders and unit turns.",
+      "description": "HappyCo is an operations platform for multifamily owners and property managers organized into several suites: maintenance operations (preventive maintenance, work orders, make-readies, inspections and reporting), an after-hours answering and triage service that turns resident calls into work orders, asset management covering capital budgets, renovation projects, vendor compliance and inventory, asset evaluation for due diligence and lease-file audits, and a sourcing module for vendor bidding. Its mobile apps work offline and sync when connectivity returns, and it integrates with the main property management systems as a certified partner. A separate lending suite connects to Freddie Mac's Optigo network for origination inspections.\n",
+      "real_estate_use": "A regional manager responsible for several thousand apartments cannot personally see the condition of any of them. Their onsite technicians run every inspection — move-in, move-out, life safety, make-ready — inside the HappyCo mobile app, which timestamps photos and pushes the result back with no paper. When a unit is vacated, the make-ready workflow assigns the punch list and the manager watches the turn close in a dashboard rather than by phone. At acquisition, the same apps are used for due-diligence walks and lease-file audits so the buyer's condition assessment sits in the system the operator will use afterwards. Overnight resident calls are triaged by the answering service and arrive the next morning as work orders already routed.\n",
+      "features": [
+        "Mobile inspections with timestamped photos and offline sync",
+        "Work orders, preventive maintenance schedules and make-ready turn tracking",
+        "After-hours call triage that generates work orders automatically",
+        "Capital budget, renovation project and vendor compliance tracking",
+        "Due-diligence and lease-file audit workflows for acquisitions",
+        "Benchmarking dashboards across properties, units and staff"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Run move-in, move-out and life-safety inspections on mobile and close a unit turn against a tracked punch list"
+        },
+        {
+          "persona": "facility-manager",
+          "job": "Schedule preventive maintenance and dispatch work orders to onsite technicians across a portfolio"
+        },
+        {
+          "persona": "investor-am",
+          "job": "Carry out due-diligence walks and lease-file audits on an acquisition inside the platform the operator will keep using"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "facility-manager",
+        "investor-am"
+      ],
+      "segments": [
+        "multifamily",
+        "residential"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "per-unit",
+        "public_pricing": false,
+        "url": "https://happy.co/pricing"
+      },
+      "integrations": [
+        "Certified integrations with leading property management systems",
+        "Open API and plugin marketplace",
+        "Freddie Mac Optigo"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "English"
+        ]
+      },
+      "alternatives": [
+        "property-meld",
+        "upkeep",
+        "limble"
+      ],
+      "reviews": [],
+      "signals": {
+        "privacy": "https://happy.co/privacy-policy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
+      "logo": {
+        "file": "logos/happyco.png",
+        "source_url": "https://cdn.prod.website-files.com/6414ce4dcbfbc386d105ceb9/6414ce4dcbfbc3355505cefa_256-webclip-clear-happy.png",
+        "fetched_on": "2026-08-29"
+      },
+      "sources": [
+        {
+          "url": "https://happy.co",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://happy.co/pricing",
+          "note": "page tarifs — modèle par lot, aucun montant publié"
+        },
+        {
+          "url": "https://www.appfolio.com/services/stack",
+          "note": "source de découverte — partenaire AppFolio Stack"
         }
       ],
       "verification": {
@@ -7549,6 +8785,337 @@
       "updated": "2026-08-25"
     },
     {
+      "slug": "keyzia",
+      "name": "Keyzia",
+      "editor": "Keyzia",
+      "website": "https://keyzia.fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "ai-assistants",
+      "also_in": [
+        "market-data",
+        "energy-esg"
+      ],
+      "positioning": "A French platform for deploying AI use cases across a real estate or construction company, with European hosting and a per-address data layer.",
+      "description": "Keyzia is a French application that lets a real estate or construction company test, deploy and centralise its AI use cases in one place rather than leaving them scattered across individual accounts. It is sold to estate agents, property administrators and syndics, tradespeople and renovators, banks and insurers, and energy actors, each with its own set of prepared uses: preparing a full listing mandate, analysing quotes and invoices, energy diagnosis, risk and green-value assessment. A module called KeyPark holds a portfolio of addresses with the history attached to each property, covering past transactions, works and diagnostics, with notifications when something changes. An interactive map layer adds address-level data for spotting projects on a territory. The vendor states data is hosted in Europe.\n",
+      "real_estate_use": "The AI problem inside a French agency or syndic is not that nobody uses it, it is that everyone uses it separately, in a personal account, with client data. Keyzia is positioned against exactly that: it puts the prepared use cases in one company tool, integrated where the teams already work, so the practice becomes shared rather than hidden. For an agent, the working moment is preparing a mandate: the property's transaction history, its diagnostics, its past works and its surroundings pulled together in minutes instead of an afternoon of portal-hopping. For a property administrator, it is watching a stock of buildings and anticipating which ones will need renovation work. European hosting is a purchase criterion in this market, not a detail.\n",
+      "features": [
+        "Centralised catalogue of AI use cases deployable across a company",
+        "Integration into the business tools the teams already use",
+        "KeyPark address portfolio with per-property history of transactions, works and diagnostics",
+        "Change notifications on tracked properties",
+        "Interactive territory map enriched with address-level data",
+        "Quote and invoice document analysis"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Assemble a complete listing mandate from a property's history and surroundings in minutes"
+        },
+        {
+          "persona": "syndic-manager",
+          "job": "Watch a stock of buildings and anticipate which need renovation work"
+        },
+        {
+          "persona": "lender-broker",
+          "job": "Assess a property's risk and energy value without ordering a study"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "syndic-manager",
+        "developer-builder",
+        "lender-broker"
+      ],
+      "segments": [
+        "residential",
+        "multifamily",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "ai": {
+        "capabilities": [
+          "Prepared business use cases for real estate and construction",
+          "Quote and invoice analysis",
+          "Energy diagnosis and green-value scoring",
+          "Address-level data enrichment"
+        ]
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "cityscan",
+        "kelfoncier",
+        "yanport"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/keyzia.png",
+        "source_url": "https://keyzia.fr/wp-content/uploads/2025/02/cropped-favicon-180x180.png",
+        "fetched_on": "2026-08-29"
+      },
+      "signals": {
+        "privacy": "https://keyzia.fr/mentions-legales",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-29"
+      },
+      "sources": [
+        {
+          "url": "https://keyzia.fr/",
+          "note": "site éditeur, accueil — métiers et arguments"
+        },
+        {
+          "url": "https://keyzia.fr/keypark/",
+          "note": "page KeyPark — suivi de parc immobilier"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-29"
+    },
+    {
+      "slug": "knock-crm",
+      "name": "Knock CRM",
+      "editor": "RealPage",
+      "website": "https://www.knockcrm.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "crm-lead",
+      "also_in": [
+        "ai-assistants",
+        "property-management"
+      ],
+      "positioning": "Front-office leasing platform for multifamily: self-scheduled tours, unified prospect messaging, source attribution and team performance oversight.",
+      "description": "Knock CRM is a leasing customer-relationship platform for multifamily owners and operators, now published by RealPage. It groups tour scheduling, marketing attribution, prospect messaging, task management, visitor experience and team oversight into one front-office suite. Knock Now lets a prospective renter self-schedule a tour from any website or app. Messaging brings email, text, voice and chat into a single screen. Source attribution ties each lead back to the marketing channel that produced it and drives automated campaigns. Benchmarking and performance trends give leasing leadership visibility into individual and team activity. The vendor also offers AI solutions, advanced analytics and a data cloud with API access alongside the core CRM.\n",
+      "real_estate_use": "A leasing team at a large apartment community loses prospects between the first inquiry and the tour. With Knock the renter books their own slot straight from the property website, so nobody waits for a callback, and every subsequent exchange — text, email, call, chat — lands in one inbox where any agent on shift can pick it up. The regional marketer looks at source attribution to see which portal or campaign is actually filling the calendar and cuts the ones that are not. The leasing director uses the benchmarking view to compare conversion across communities and to see which agents let follow-ups lapse.\n",
+      "features": [
+        "Self-scheduled tours from any property website or app",
+        "Unified inbox across email, text, voice and chat",
+        "Marketing source attribution and automated campaigns",
+        "Task management for follow-up on open prospects",
+        "Leasing team benchmarking and performance trends",
+        "Data cloud and API access for reporting"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Let prospective renters book their own tours and keep every follow-up in one shared inbox"
+        },
+        {
+          "persona": "brokerage",
+          "job": "Attribute each lead to its marketing channel and stop funding the ones that do not convert"
+        },
+        {
+          "persona": "investor-am",
+          "job": "Compare leasing conversion and team activity across communities in one benchmarking view"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "investor-am",
+        "brokerage"
+      ],
+      "segments": [
+        "multifamily",
+        "residential",
+        "coliving-student"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Partner directory published by the vendor",
+        "KnockNetwork"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "English"
+        ]
+      },
+      "alternatives": [
+        "entrata",
+        "realpage",
+        "eliseai"
+      ],
+      "reviews": [],
+      "signals": {
+        "privacy": "https://www.knockcrm.com/privacy-policy",
+        "status": "https://status.knockcrm.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
+      "logo": {
+        "file": "logos/knock-crm.png",
+        "source_url": "https://s.knockcrm.com/assets/Knock-favicon-2.png",
+        "fetched_on": "2026-08-29"
+      },
+      "sources": [
+        {
+          "url": "https://www.knockcrm.com",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://www.appfolio.com/services/stack",
+          "note": "source de découverte — partenaire AppFolio Stack"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "leadsimple",
+      "name": "LeadSimple",
+      "editor": "LeadSimple",
+      "website": "https://www.leadsimple.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "property-management",
+      "also_in": [
+        "crm-lead"
+      ],
+      "positioning": "CRM, shared inbox, phone system and process automation that sit on top of a property management system.",
+      "description": "LeadSimple is a communication and workflow layer for residential property management companies. It combines an owner and tenant CRM, a shared inbox unifying calls, texts and email on one timeline, a phone system with ring groups and an AI voice agent, recurring process workflows with branching logic and escalation, and maintenance work orders. It does not replace the PMS: it connects to AppFolio, Buildium, Rentvine, Propertyware and Rent Manager. Pricing is published, per seat for the inbox and CRM products and per door for workflows.\n",
+      "real_estate_use": "A property management company growing past a few hundred doors finds that the accounting system holds the ledgers but nothing holds the conversation: a tenant voicemail about a water heater, an owner question about a statement, a Zillow enquiry all live in different inboxes and in one person's head. LeadSimple gives every call, text and email an owner and a next step on one timeline, and turns the repeatable sequences — move-in, renewal, inspection, owner onboarding, make-ready — into timed workflows with escalation when a step slips. It is bought by companies that already have a PMS and are losing leads and owner trust in the handoffs around it.\n",
+      "features": [
+        "Shared inbox unifying calls, texts and email per contact",
+        "Phone system with IVR, ring groups, hours-based routing and call recording",
+        "AI voice agent answering when nobody picks up",
+        "Owner and tenant lead pipelines with speed-to-lead routing and SLA escalation",
+        "Recurring process workflows with branching logic and PMS-triggered starts",
+        "Maintenance work order intake and tracking"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Stop tenant calls and owner emails from living in one person's inbox"
+        },
+        {
+          "persona": "brokerage",
+          "job": "Run move-in, renewal and owner onboarding as timed workflows with escalation"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "brokerage"
+      ],
+      "segments": [
+        "residential",
+        "multifamily"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "per-unit",
+        "public_pricing": true,
+        "url": "https://www.leadsimple.com/pricing"
+      },
+      "integrations": [
+        "AppFolio",
+        "Buildium",
+        "Rentvine",
+        "Propertyware",
+        "Rent Manager"
+      ],
+      "ai": {
+        "capabilities": [
+          "voice agent answering inbound calls",
+          "call summarisation",
+          "drafted reply suggestions"
+        ]
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "appfolio",
+        "buildium",
+        "rentmanager"
+      ],
+      "reviews": [],
+      "signals": {
+        "pricing": "https://www.leadsimple.com/pricing",
+        "privacy": "https://www.leadsimple.com/legal/privacy",
+        "status": "https://status.leadsimple.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-27"
+      },
+      "logo": {
+        "file": "logos/leadsimple.png",
+        "source_url": "https://www.leadsimple.com/apple-touch-icon.png",
+        "fetched_on": "2026-08-27"
+      },
+      "sources": [
+        {
+          "url": "https://www.leadsimple.com/",
+          "note": "site éditeur — accueil"
+        },
+        {
+          "url": "https://www.leadsimple.com/pricing",
+          "note": "site éditeur — page tarifs"
+        },
+        {
+          "url": "https://www.appfolio.com/stack/marketplace",
+          "note": "source de découverte — AppFolio Stack"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-27"
+    },
+    {
       "slug": "leboncoin-immobilier",
       "name": "Leboncoin Immobilier",
       "editor": "Leboncoin (Adevinta)",
@@ -7833,6 +9400,93 @@
         {
           "url": "https://limblecmms.com",
           "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "listhub",
+      "name": "ListHub",
+      "editor": "Move, Inc.",
+      "website": "https://www.listhub.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "listing-syndication",
+      "also_in": [
+        "market-data"
+      ],
+      "positioning": "Listing syndication and reporting for MLSs, brokers and agents, plus a normalized MLS data feed for the publishers that display those listings.",
+      "description": "ListHub is a syndication platform operated by Move, Inc. that takes listing data out of a multiple listing service and distributes it to a network of more than 170 real estate websites. It serves two sides of the same pipe: on one side MLSs, brokerages and agents who decide where their listings travel and who read back performance reports on each destination; on the other side publishers, who consume MLS content through a customizable API covering sources in all fifty states under a single contract, delivered in RESO-normalized form. A separate Global offering pushes listings to overseas audiences, and a Connector product synchronizes with Realogy's database.\n",
+      "real_estate_use": "A broker of record who has just signed a listing does not want to re-key it into every portal, and does not want it appearing on sites they never agreed to. They connect their MLS feed to ListHub once, then use the dashboard to opt each publisher in or out, and read the per-site reporting to see which destinations actually produced views and leads before renewing anything. On the other side of the same platform, a portal or a regional real estate magazine that needs live inventory subscribes to the publisher API rather than negotiating with hundreds of MLSs one by one.\n",
+      "features": [
+        "Listing syndication to a network of over 170 real estate websites",
+        "Per-publisher opt-in and opt-out control for brokers",
+        "Listing performance reporting across destination sites",
+        "Publisher API delivering RESO-normalized MLS data from all 50 states",
+        "ListHub Global for international listing distribution",
+        "Connector synchronization with Realogy's database"
+      ],
+      "use_cases": [
+        {
+          "persona": "brokerage",
+          "job": "Decide site by site where the office's listings are syndicated, and withdraw from a publisher without touching the MLS entry"
+        },
+        {
+          "persona": "agent-broker",
+          "job": "Check which destination websites generated views on a listing before renewing an advertising commitment"
+        },
+        {
+          "persona": "corporate-re",
+          "job": "Source live, normalized MLS listing data through one API instead of contracting with each MLS separately"
+        }
+      ],
+      "personas": [
+        "brokerage",
+        "agent-broker"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "English"
+        ]
+      },
+      "reviews": [],
+      "signals": {
+        "api_docs": "https://www.listhub.com/api-replication",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
+      "sources": [
+        {
+          "url": "https://www.listhub.com",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://www.listhub.com/agents-brokers-mlss.html",
+          "note": "source de découverte — recherche ciblée sur la catégorie listing-syndication US, vide au catalogue"
         }
       ],
       "verification": {
@@ -8538,6 +10192,98 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "maline",
+      "name": "Maline",
+      "editor": "Maline Immobilier",
+      "website": "https://maline.io/fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "crm-lead",
+      "also_in": [
+        "market-data"
+      ],
+      "positioning": "Predictive seller prospecting for French agencies: owners likely to sell are identified from life events and delivered on an exclusive territory.",
+      "description": "Maline Immobilier is a French service that identifies owners likely to put a property up for sale several months ahead, and delivers them to an agency as qualified seller leads. Its stated method is the analysis of life events — divorce, marriage, birth, retirement, professional relocation, inheritance — which the vendor says account for the great majority of sales, combined with dozens of qualification criteria. Prospecting zones are sold as exclusive territories: once an agency reserves an area, no other Maline subscriber prospects it, and the number of leads follows the number of dwellings in the zone. The vendor states first contacts arrive around fifteen days after a territory is activated.\n",
+      "real_estate_use": "French agencies have prospected for decades by pige, that is by working the for-sale-by-owner ads, and the vendor positions itself squarely against the disappearance of that practice. The alternative it proposes is to arrive before the ad exists: to knock on the door of an owner whose circumstances suggest a sale within a year, when there is still a mandate to win rather than a price war to lose. The exclusive territory is what an agency is really buying, since a predictive lead shared with three competitors is worth nothing. It is a fit for an agency with the discipline to work a farm patiently over months, and a poor fit for one that needs listings this quarter.\n",
+      "features": [
+        "Detection of likely sellers from life events several months before listing",
+        "Qualification of owners against dozens of criteria",
+        "Exclusive prospecting territory per subscriber",
+        "Lead volume scaled to the number of dwellings in the zone",
+        "Automatic delivery of qualified seller contacts"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Win a mandate by reaching an owner before the property is advertised"
+        },
+        {
+          "persona": "brokerage",
+          "job": "Give each branch a prospecting patch no competing subscriber can work"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "ai": {
+        "capabilities": [
+          "Predictive scoring of owners likely to sell"
+        ]
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "fluximmo",
+        "pige-online",
+        "meilleursagents"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/maline.png",
+        "source_url": "https://maline.io/fr/assets/img/landing/64f646bbe8c62303845e0da3_Group%201000003719.png",
+        "fetched_on": "2026-08-29"
+      },
+      "signals": {
+        "site_languages": [
+          "es",
+          "fr"
+        ],
+        "checked_on": "2026-08-29"
+      },
+      "sources": [
+        {
+          "url": "https://maline.io/fr",
+          "note": "site éditeur — méthode, territoires exclusifs, FAQ"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-29"
     },
     {
       "slug": "matera",
@@ -10080,6 +11826,309 @@
       "updated": "2026-08-25"
     },
     {
+      "slug": "partnerimmo",
+      "name": "Partnerimmo",
+      "editor": "Partnerimmo",
+      "website": "https://www.partnerimmo.fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "syndic-copro",
+      "also_in": [
+        "property-management",
+        "back-office-accounting"
+      ],
+      "founded": 2006,
+      "positioning": "Full-web French software for property administrators, sold as two modules: rental management and condominium management, sharing one accounting core.",
+      "description": "Partnerimmo is a hosted French application for property administrators, condominium managers and letting agents, in business since 2006. The rental module covers lots, rent calls, receipts, dunning, automated accounting and accounting-entry export, plus digital condition reports with embedded signature. The condominium module covers budgets, calls for funds, bank reconciliation, general meetings with votes and minutes, works and incident tracking. Both expose an extranet to landlords, tenants, co-owners and the condominium council. The editor states 195,000 tenants and 395,000 co-owners are managed on it in 2026, and publishes a starting price.\n",
+      "real_estate_use": "A French cabinet d'administration de biens runs two regulated books at once — the landlord's account in gérance and the co-ownership's account in syndic — and both are audited. Partnerimmo is the system of record for that work: it produces the quarterly rent call and the owner statement on one side, the budget, the calls for funds and the general meeting file on the other, and exports entries to the accountant rather than pretending to replace them. The extranet is what removes the phone calls: a co-owner checks their balance and the meeting minutes themselves. The editor migrates the incumbent database as part of onboarding, which is the real decision point — a cabinet changes gérance software once a decade because the accounting history has to survive the move.\n",
+      "features": [
+        "Rent calls, receipts, dunning and automated rental accounting with entry export",
+        "Condominium budgets, calls for funds and bank reconciliation",
+        "General meetings: convening, votes and minutes",
+        "Digital condition reports with embedded signature, usable on site",
+        "Extranet for landlords, tenants, co-owners and the condominium council",
+        "Works and incident tracking with quotes"
+      ],
+      "use_cases": [
+        {
+          "persona": "syndic-manager",
+          "job": "Run a building's financial year end to end — budget, calls for funds, general meeting, minutes — without leaving one file"
+        },
+        {
+          "persona": "property-manager",
+          "job": "Issue the quarterly rent call and owner statement for a managed portfolio and hand clean entries to the accountant"
+        }
+      ],
+      "personas": [
+        "syndic-manager",
+        "property-manager",
+        "brokerage"
+      ],
+      "segments": [
+        "residential",
+        "multifamily"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://www.partnerimmo.fr"
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "vilogi",
+        "gercop",
+        "matera",
+        "powimo"
+      ],
+      "reviews": [],
+      "signals": {
+        "pricing": "https://www.partnerimmo.fr",
+        "status": "https://www.partnerimmo.fr",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-26"
+      },
+      "logo": {
+        "file": "logos/partnerimmo.png",
+        "source_url": "https://www.partnerimmo.fr/_img/gWs1tDEwQgz9qJF-gzhMr9W-dr0=/fit-in/180_x_180/filters:upscale():fill(transparent):format(png):strip_exif()/reboot/media/753d5f52-ce9e-11f0-a8f3-e6fe014dd4c8/d44f8dc4-ceb9-11f0-8379-e6fe014dd4c8/0-0-nouveau-projet-1.svg",
+        "fetched_on": "2026-08-29"
+      },
+      "sources": [
+        {
+          "url": "https://www.partnerimmo.fr",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://www.partnerimmo.fr/un-logiciel-de-copropriete-pour-la-comptabilite",
+          "note": "site éditeur, module copropriété"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-26"
+    },
+    {
+      "slug": "payhoa",
+      "name": "PayHOA",
+      "editor": "PayHOA",
+      "website": "https://www.payhoa.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "syndic-copro",
+      "also_in": [
+        "back-office-accounting",
+        "tenant-experience"
+      ],
+      "positioning": "Online HOA management for self-managed associations, sold at a published price per community with a free trial and no sales call.",
+      "description": "PayHOA is a US web application for managing a homeowners association online. Its financial side covers general ledger accounting, budgets and board reports, bank integrations that remove manual transaction entry, payables and vendor approvals, and an optional bookkeeping service. Its communication side covers mass text, email and phone messaging, one-click USPS mailings through a mailroom feature, private message boards and a website builder. Its management side covers CC&R violation tracking, request forms, document storage, online voting and surveys, owner portals and resale documents. The vendor states it is used by more than 6,000 communities.\n",
+      "real_estate_use": "Most American associations have no management company at all: a volunteer treasurer collects dues, keeps the books in a spreadsheet and mails paper notices. PayHOA is built for that person. It is the rare product in this category that publishes its price per community size and opens with a free trial rather than a demo, which is what makes it reachable for a board with no budget line for software. The mailroom feature matters more than it sounds, because an association is often legally obliged to send notices by post and doing that by hand is the treasurer's worst evening of the year. Management companies use it too, but its centre of gravity is the self-managed board.\n",
+      "features": [
+        "General ledger accounting with budgets and board reports",
+        "Bank integrations removing manual transaction entry",
+        "Payables and vendor approval workflow",
+        "Mass communication by text, email and phone",
+        "Mailroom for one-click USPS postal mailings",
+        "CC&R violation tracking and resident request forms"
+      ],
+      "use_cases": [
+        {
+          "persona": "landlord-owner",
+          "job": "Collect dues online and produce board financials without a management company"
+        },
+        {
+          "persona": "syndic-manager",
+          "job": "Send a legally required notice by post without handling envelopes"
+        }
+      ],
+      "personas": [
+        "landlord-owner",
+        "syndic-manager",
+        "property-manager"
+      ],
+      "segments": [
+        "residential",
+        "multifamily"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "per-unit",
+        "public_pricing": true,
+        "url": "https://www.payhoa.com/pricing"
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "condo-control",
+        "vantaca",
+        "cinc-systems",
+        "frontsteps"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/payhoa.png",
+        "source_url": "https://www.payhoa.com/wp-content/uploads/2020/11/favicon-32x32-1.png",
+        "fetched_on": "2026-08-29"
+      },
+      "signals": {
+        "pricing": "https://www.payhoa.com/pricing",
+        "privacy": "https://www.payhoa.com/privacy-policy",
+        "status": "https://status.payhoa.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-29"
+      },
+      "sources": [
+        {
+          "url": "https://www.payhoa.com/",
+          "note": "site éditeur, accueil"
+        },
+        {
+          "url": "https://www.payhoa.com/features",
+          "note": "page fonctionnalités"
+        },
+        {
+          "url": "https://www.payhoa.com/pricing",
+          "note": "page tarifs — grille par nombre de lots"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-29"
+    },
+    {
+      "slug": "petscreening",
+      "name": "PetScreening",
+      "editor": "Pet Screening Inc.",
+      "website": "https://www.petscreening.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "tenant-screening",
+      "also_in": [
+        "property-management"
+      ],
+      "positioning": "Pet policy management and assistance animal accommodation review for rental housing, HOAs and vacation rentals.",
+      "description": "PetScreening collects a pet or animal profile from every applicant and resident, including households declaring no pet, and centralises it alongside the tenancy file. Its distinct piece is the assistance animal review: an in-house team examines each reasonable accommodation request against HUD and Fair Housing Act guidance and returns a documented recommendation to both the requester and the manager. The vendor also publishes a tool for benchmarking pet-related revenue. It covers long-term, mid-term, vacation, manufactured and student housing.\n",
+      "real_estate_use": "An on-site leasing team is asked to grant an assistance animal accommodation and cannot legally ask most of the questions that would let them judge it — the wrong question is itself a discrimination exposure. PetScreening moves that review off the on-site team to a reviewer working to HUD and FHAct guidance, and returns a written recommendation that documents the decision. The everyday effect is more mundane: pet photos, vaccination records and policy acknowledgements stop being chased by email and arrive with the application, which is where the reported time saving per application comes from.\n",
+      "features": [
+        "Pet and animal profile collected from every applicant, including no-pet declarations",
+        "Assistance animal accommodation review against HUD and FHAct guidance",
+        "Documented recommendation shared with requester and manager",
+        "Centralised vaccination records, photos and policy acknowledgements",
+        "Pet revenue benchmarking tool",
+        "Integrations with residential property management systems"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Handle an assistance animal accommodation request without exposing the on-site team to a discrimination claim"
+        },
+        {
+          "persona": "syndic-manager",
+          "job": "Apply one documented pet policy across an HOA's residents"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "syndic-manager",
+        "landlord-owner"
+      ],
+      "segments": [
+        "residential",
+        "multifamily",
+        "coliving-student",
+        "hospitality"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Residential property management systems"
+      ],
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "reviews": [],
+      "signals": {
+        "privacy": "https://www.petscreening.com/privacy-policy",
+        "status": "https://status.petscreening.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-27"
+      },
+      "logo": {
+        "file": "logos/petscreening.png",
+        "source_url": "https://cdn.prod.website-files.com/627bb6cb0c9f03203e49b1b9/627c32f2535a832b1bc44ab8_ps-webclip.png",
+        "fetched_on": "2026-08-27"
+      },
+      "sources": [
+        {
+          "url": "https://www.petscreening.com/",
+          "note": "site éditeur — accueil"
+        },
+        {
+          "url": "https://www.petscreening.com/assistance-animals",
+          "note": "site éditeur — processus de revue des animaux d'assistance"
+        },
+        {
+          "url": "https://www.appfolio.com/stack/marketplace",
+          "note": "source de découverte — AppFolio Stack"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-27"
+    },
+    {
       "slug": "pige-online",
       "name": "Pige Online",
       "editor": "Pige Online",
@@ -10452,6 +12501,217 @@
         },
         {
           "url": "https://www.seiitra.com/solutions/logiciel-syndic-de-copropriete/",
+          "note": "source de découverte"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "preventimmo",
+      "name": "Preventimmo",
+      "editor": "Septeo",
+      "website": "https://www.preventimmo.septeo.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "diagnostics-compliance",
+      "also_in": [
+        "market-data",
+        "title-closing-legal"
+      ],
+      "positioning": "Produit les documents réglementaires d'urbanisme et de risques attachés à une vente — ERP, ENSA, note d'urbanisme, droits de préemption — à partir d'une base tenue à jour.",
+      "description": "Preventimmo, part of the Septeo group, maintains a continuously updated database of French planning and environmental-risk data and turns it into the regulatory documents a property sale requires. Its catalogue covers the état des risques et pollutions, the état des nuisances sonores aériennes, the état des risques et pollutions des sols, a clay-shrinkage risk summary, notes de renseignements d'urbanisme, pre-emption rights, certificates and cadastral concordance. The same data is delivered three ways: the customer produces documents themselves online, delegates production to Preventimmo's own team, or connects directly to the underlying regulatory database for their own use. The vendor states sixteen years of activity, 106 staff and 5,000 active customers.\n",
+      "real_estate_use": "A notary preparing a deed, or an agent taking a mandate, has to attach an état des risques that is both current and defensible — and the underlying planning and risk data changes at the commune level without notice. Rather than querying prefecture and municipal sources by hand, they generate the ERP and the urban planning note from Preventimmo in a few clicks and attach them to the file. A diagnostics firm doing this at volume delegates the production entirely, or plugs its own software into the regulatory database so the documents appear inside the tool its technicians already use. When a sale is later contested on a disclosure point, the documents carry a traceable source and date.\n",
+      "features": [
+        "État des risques et pollutions (ERP) généré en ligne",
+        "État des nuisances sonores aériennes (ENSA) et état des risques des sols (ERPS)",
+        "Notes de renseignements d'urbanisme et droits de préemption",
+        "Synthèse risques argiles et concordance cadastrale",
+        "Production déléguée des documents par les équipes de l'éditeur",
+        "Accès direct à la base réglementaire pour intégration dans un logiciel tiers"
+      ],
+      "use_cases": [
+        {
+          "persona": "legal-notary",
+          "job": "Attacher à un acte des documents d'urbanisme et de risques conformes et datés, sans interroger chaque source publique"
+        },
+        {
+          "persona": "agent-broker",
+          "job": "Produire l'ERP d'un bien au moment de la prise de mandat pour tenir l'obligation d'information de l'acquéreur"
+        },
+        {
+          "persona": "appraiser",
+          "job": "Alimenter son propre logiciel de diagnostic depuis la base réglementaire plutôt que de ressaisir les données"
+        }
+      ],
+      "personas": [
+        "legal-notary",
+        "agent-broker",
+        "appraiser",
+        "developer-builder"
+      ],
+      "segments": [
+        "residential",
+        "office",
+        "retail",
+        "land-development"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "French"
+        ]
+      },
+      "alternatives": [
+        "liciel",
+        "cityscan"
+      ],
+      "reviews": [],
+      "signals": {
+        "privacy": "https://www.preventimmo.septeo.com/legal/mentions-legales",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-25"
+      },
+      "logo": {
+        "file": "logos/preventimmo.png",
+        "source_url": "https://cdn.prod.website-files.com/666168f272373216c6be04d1/6662bd37ff85b1f79b0513cc_Webclip.png",
+        "fetched_on": "2026-08-29"
+      },
+      "sources": [
+        {
+          "url": "https://www.preventimmo.septeo.com",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://www.septeo.com/fr/solutions-immobilier",
+          "note": "source de découverte — écosystème Septeo"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "previsite",
+      "name": "Previsite",
+      "editor": "Previsite",
+      "website": "https://www.previsite.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "agent-marketing",
+      "also_in": [
+        "visuals-tours",
+        "listing-syndication"
+      ],
+      "positioning": "Content production and distribution suite for real estate agents: photo, video, virtual tour, a dedicated site per listing and social media publishing.",
+      "description": "Previsite publishes a set of marketing tools for real estate agents, gathered in an all-in-one mobile application called Smartpix Pro. The application produces the visual content of a listing — optimized photographs, dynamic videos and virtual tours — with the vendor stating a professional-quality result in under five minutes. Around it sit a dedicated single-property website for a mandate, and Social Connect Pro, a turnkey product that manages an agency's social accounts, distributes listings automatically and works on local visibility. Other named products include Mooveo and SpotVideo. The company is French, with offices in Hyères and Paris.\n",
+      "real_estate_use": "An independent agent who has just signed a mandate is expected to be photographer, videographer and community manager on top of the job itself. With Previsite they shoot the property on a phone through Smartpix Pro, which returns edited photos, a video and a virtual tour without a studio pass; the mandate gets its own single-property page to send to the owner as proof of work and to buyers as a landing page. Social Connect Pro then pushes the listing to the agency's social accounts on a schedule the agent does not maintain by hand, which is what keeps a small agency visible locally between listings.\n",
+      "features": [
+        "Application Smartpix Pro regroupant photo, vidéo et visite virtuelle",
+        "Photographies optimisées et vidéos d'annonce assistées par IA",
+        "Visite virtuelle consultable à distance par l'acquéreur",
+        "Site mandat dédié à un bien",
+        "Social Connect Pro — gestion et diffusion automatique sur les réseaux sociaux",
+        "Diffusion des annonces pour la visibilité locale de l'agence"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Produire photos, vidéo et visite virtuelle d'un bien depuis un téléphone, sans prestataire externe"
+        },
+        {
+          "persona": "brokerage",
+          "job": "Tenir la présence de l'agence sur les réseaux sociaux avec une diffusion automatique des annonces"
+        },
+        {
+          "persona": "agent-broker",
+          "job": "Donner à un mandat son propre site pour le montrer au vendeur et le servir aux acquéreurs"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage"
+      ],
+      "segments": [
+        "residential",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "ai": {
+        "capabilities": [
+          "Photo enhancement",
+          "Assisted video generation from listing media"
+        ]
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "French",
+          "English"
+        ]
+      },
+      "alternatives": [
+        "nodalview",
+        "boxbrownie",
+        "check-and-visit"
+      ],
+      "reviews": [],
+      "signals": {
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-25"
+      },
+      "logo": {
+        "file": "logos/previsite.png",
+        "source_url": "https://www.previsite.com/webp/previsite_icon.svg",
+        "fetched_on": "2026-08-29"
+      },
+      "sources": [
+        {
+          "url": "https://www.previsite.com",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://www.frenchproptech.fr/annuaire-startups/",
           "note": "source de découverte"
         }
       ],
@@ -11016,6 +13276,208 @@
       "updated": "2026-08-25"
     },
     {
+      "slug": "prospeneo",
+      "name": "Prospeneo",
+      "editor": "Facilogi",
+      "website": "https://www.prospeneo.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "crm-lead",
+      "also_in": [
+        "agent-marketing",
+        "transaction-management"
+      ],
+      "positioning": "All-in-one French real estate CRM for agencies and mandataire networks, sold as separate applications for prospecting, sale and rental, marketing and websites.",
+      "description": "Prospeneo is a French real estate CRM published by Facilogi and sold to independent agencies and to networks of mandataires. It is organised as applications rather than one monolith: prospecting, sales and rentals, callback scenarios, automations, email marketing, landing pages, forms, teams and privileges, and analytics. The sale and rental application covers listing creation with AI-assisted copywriting, a media manager, contact records and buyer-to-listing matching with a detailed matching view. A separate website line called Vitrinellis provides agency sites built for lead capture, with search, high-definition photos, video and virtual tours, social sharing, geolocation, moderated customer reviews, a gateway to the transaction software, and embeddable popups, forms, pages and newsletters. Website pricing is published from €69 per month for the Starter subscription and €89 for Essentiel, with a setup fee.\n",
+      "real_estate_use": "A mandataire network has a structural problem an agency does not: several hundred independent agents, each with their own listings and contacts, who must be equipped identically and supervised without being employees. Prospeneo answers it with team and privilege management and per-agent analytics sitting on top of the same CRM, and by selling the pieces separately so a solo mandataire and a network head office do not pay for the same thing. In daily use the centre of gravity is matching: a new listing arrives, the software proposes which registered buyers fit it, and the callback scenarios make sure none of them is forgotten for three weeks. The website line matters because for a mandataire the site is the shopfront, there being no physical one.\n",
+      "features": [
+        "Sale and rental listing management with AI-assisted listing copywriting",
+        "Buyer-to-listing matching with a detailed matching view",
+        "Contact records and prospecting pipeline",
+        "Callback scenarios and marketing automations",
+        "Email marketing, landing pages and forms",
+        "Team and privilege management with per-agent analytics"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Match a new listing against registered buyers and be reminded to call them"
+        },
+        {
+          "persona": "brokerage",
+          "job": "Equip a network of mandataires with one CRM and see each agent's activity"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://www.prospeneo.com/tarif-an"
+      },
+      "ai": {
+        "capabilities": [
+          "Listing copywriting"
+        ]
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "hektor",
+        "apimo",
+        "netty",
+        "adapt-immo"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/prospeneo.png",
+        "source_url": "https://prospeneo-public.s3.eu-west-3.amazonaws.com/group/131/public_medias/20231221180152-Prospeneo%20icon.png",
+        "fetched_on": "2026-08-29"
+      },
+      "signals": {
+        "privacy": "https://www.prospeneo.com/privacy-policy",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-29"
+      },
+      "sources": [
+        {
+          "url": "https://www.prospeneo.com/",
+          "note": "site éditeur, accueil — liste des applications"
+        },
+        {
+          "url": "https://www.prospeneo.com/logiciel-transaction-vente-location",
+          "note": "application ventes et locations"
+        },
+        {
+          "url": "https://www.prospeneo.com/tarif-an",
+          "note": "page tarifs — abonnement site internet"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-29"
+    },
+    {
+      "slug": "qalimo",
+      "name": "Qalimo",
+      "editor": "Qalimo",
+      "website": "https://www.qalimo.fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "property-management",
+      "also_in": [
+        "back-office-accounting",
+        "tenant-screening"
+      ],
+      "positioning": "French rental management for landlords, with bank reconciliation built in and accounting, insurance and legal services sold alongside the software.",
+      "description": "Qalimo is a French rental management application for private landlords, SCI and furnished-rental owners, also sold to letting agencies, property companies and local authorities. The software covers lease drafting, digital condition reports with photographs, automatic generation and dispatch of rent receipts, tenant application screening and bank synchronisation that reconciles incoming rent automatically. Around it the editor sells accounting services for furnished rental, SCI and unfurnished rental income including filed tax returns, plus non-occupying owner insurance, rent guarantee and legal protection. Lease templates cover furnished, unfurnished, student, mobility, shared, commercial, professional and parking tenancies.\n",
+      "real_estate_use": "The hard part of self-managed rental in France is not writing the lease, it is knowing whether the rent actually arrived and what the tax position looks like at year end. Qalimo bolts bank synchronisation onto rental management so unpaid rent surfaces without the landlord reading a bank statement, and then sells the accounting work that follows — a furnished landlord under the real regime owes a balance sheet and a filed tax package, and most do not want to produce it. Lease coverage extends past the residential lot to commercial, professional and parking tenancies, which is what brings small property companies and municipalities to it rather than a pure landlord tool.\n",
+      "features": [
+        "Lease templates for furnished, unfurnished, student, mobility, shared, commercial, professional and parking tenancies",
+        "Digital condition reports with photographs",
+        "Automatic generation and dispatch of rent receipts",
+        "Bank synchronisation with automatic rent reconciliation",
+        "Tenant application collection and comparison",
+        "Accounting services for furnished rental, SCI and rental income, with filed tax returns"
+      ],
+      "use_cases": [
+        {
+          "persona": "landlord-owner",
+          "job": "See unpaid rent the day it is late through bank reconciliation instead of checking statements by hand"
+        },
+        {
+          "persona": "investor-am",
+          "job": "Run a small portfolio held in SCI or under the furnished regime and get the year-end tax package filed from the same tool"
+        }
+      ],
+      "personas": [
+        "landlord-owner",
+        "investor-am",
+        "property-manager"
+      ],
+      "segments": [
+        "residential",
+        "retail",
+        "coliving-student"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://www.qalimo.fr/tarifs"
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "bailfacile",
+        "rentila",
+        "ownily",
+        "smartloc"
+      ],
+      "reviews": [],
+      "signals": {
+        "privacy": "https://www.qalimo.fr/politique-de-confidentialite",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-26"
+      },
+      "logo": {
+        "file": "logos/qalimo.png",
+        "source_url": "https://www.qalimo.fr/wp-content/uploads/2024/05/cropped-Autres-type-de-local-parking-garage-stockage-etc.-Le-Bien-Finance-et-fiscalite-Equipement-Etat-des-lieux-Description-detaillee-du-bien-figurant-dans-le-bail-Description-Date-dachat-du-bien-J-3-300x300.png",
+        "fetched_on": "2026-08-29"
+      },
+      "sources": [
+        {
+          "url": "https://www.qalimo.fr",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-26"
+    },
+    {
       "slug": "qualia",
       "name": "Qualia",
       "editor": "Qualia",
@@ -11417,6 +13879,109 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "rentcheck",
+      "name": "RentCheck",
+      "editor": "RentCheck",
+      "website": "https://www.getrentcheck.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "facility-maintenance",
+      "also_in": [
+        "property-management"
+      ],
+      "positioning": "Tenant-guided property inspections: the resident completes the inspection from their phone, the manager gets the report.",
+      "description": "RentCheck is an inspection application for residential property managers built around inspections carried out by the tenant rather than by staff. The manager sends a guided inspection; the resident completes it step by step on their phone with time-stamped photos, and a report is produced without a site visit. It ships with templates for move-in, move-out and routine inspections, automated reminders and scheduling, comparison against previous inspections, work order tracking, an API and integrations with the main property management systems. Pricing is published per unit per month.\n",
+      "real_estate_use": "A property management company adding doors hits a wall on inspections: scheduling visits, chasing tenants for access and driving between properties does not scale, so routine inspections quietly get skipped for the tenants presumed to be fine. RentCheck inverts the model — the tenant does the walkthrough on their phone with a guided checklist and timestamped photos — so the team handles only the exceptions. The photographic record with dates is also what settles a security deposit dispute at move-out, since move-in and move-out inspections can be compared side by side.\n",
+      "features": [
+        "Tenant-guided inspections with time-stamped in-app photo capture",
+        "Templates for move-in, move-out, routine and pre-move-out inspections",
+        "Automated inspection reminders and scheduling",
+        "Comparison against previous inspections",
+        "360-degree photo and video capture, and asset capture",
+        "Work order tracking, PMS integration and a public API"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Complete routine inspections across a growing portfolio without sending anyone on site"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "Hold a dated photographic record of condition at move-in to settle the deposit at move-out"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "landlord-owner"
+      ],
+      "segments": [
+        "residential",
+        "multifamily"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "per-unit",
+        "public_pricing": true,
+        "url": "https://www.getrentcheck.com/plan-pricing"
+      },
+      "integrations": [
+        "AppFolio",
+        "Rent Manager",
+        "Buildium"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "immopad",
+        "property-meld"
+      ],
+      "reviews": [],
+      "signals": {
+        "pricing": "https://www.getrentcheck.com/plan-pricing",
+        "privacy": "https://www.getrentcheck.com/legal/privacy-policy",
+        "checked_on": "2026-08-27"
+      },
+      "logo": {
+        "file": "logos/rentcheck.png",
+        "source_url": "https://cdn.prod.website-files.com/64c252917dda086383e12e96/65a022b48ebfec64a71b2edd_RentCheck%20Webclip.png",
+        "fetched_on": "2026-08-27"
+      },
+      "sources": [
+        {
+          "url": "https://www.getrentcheck.com/",
+          "note": "site éditeur — accueil"
+        },
+        {
+          "url": "https://www.getrentcheck.com/plan-pricing",
+          "note": "site éditeur — page tarifs"
+        },
+        {
+          "url": "https://www.appfolio.com/stack/marketplace",
+          "note": "source de découverte — AppFolio Stack"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-27"
     },
     {
       "slug": "rentila",
@@ -12401,6 +14966,110 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "sinimo",
+      "name": "Sinimo",
+      "editor": "Groupe REALTY",
+      "website": "https://www.sinimo.fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "transaction-management",
+      "also_in": [
+        "back-office-accounting"
+      ],
+      "positioning": "Generates the paperwork a French agency signs — mandates, offers, preliminary sale contracts, leases — and gets it signed electronically from web or mobile.",
+      "description": "Sinimo is a French web and mobile application that produces the contractual documents a real estate agency needs and carries them through to signature. It ships more than fifty document templates covering sale and rental mandates, purchase offers, preliminary sale agreements, residential, furnished, seasonal, professional and commercial leases, amendments, visit slips and SRU notification letters. It bundles advanced electronic signature, a document scanner in the mobile app, and the statutory mandate and transaction registers. The editor states 2,500 agencies use it.\n",
+      "real_estate_use": "A French agency cannot sell or let anything without a signed mandate, and the paperwork around it is codified: the Hoguet law imposes a numbered mandate register, the SRU law imposes a notification with a retraction period, and a badly drafted lease is unenforceable. Sinimo is what the negotiator opens on the kitchen table to produce the right document in a couple of minutes, pre-filled from the client and property record, and have it signed on the spot or remotely. The phone camera replaces the scanner for the annexes that must travel with the contract — diagnostics, co-ownership rules, floor plans, property tax notice. Agencies buy it as a contract layer next to whatever CRM they already run rather than as a replacement for it.\n",
+      "features": [
+        "Over fifty French real estate contract templates, pre-filled from the client and property record",
+        "Advanced electronic signature, in person or remote, sold as signature credits",
+        "Statutory mandate, transaction and rental management registers",
+        "Document scanning from the mobile app, annexed automatically to the generated contract",
+        "Property and contact records with e-mail dispatch of documents",
+        "Web, iOS and Android applications sharing the same file"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Draw up an exclusive sale mandate and its SRU notification during the seller appointment, and have both signed before leaving"
+        },
+        {
+          "persona": "brokerage",
+          "job": "Keep a compliant mandate register across every negotiator without maintaining a paper book at the agency"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage",
+        "property-manager"
+      ],
+      "segments": [
+        "residential",
+        "retail",
+        "office"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://www.sinimo.fr/tarifs"
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "pige-online",
+        "startloc",
+        "yousign"
+      ],
+      "reviews": [],
+      "signals": {
+        "pricing": "https://www.sinimo.fr/tarifs",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-26"
+      },
+      "logo": {
+        "file": "logos/sinimo.png",
+        "source_url": "https://www.sinimo.fr/favicon.png",
+        "fetched_on": "2026-08-29"
+      },
+      "sources": [
+        {
+          "url": "https://www.sinimo.fr/logiciel-immobilier",
+          "note": "site éditeur, page produit"
+        },
+        {
+          "url": "https://www.sinimo.fr/tarifs",
+          "note": "site éditeur, tarifs publics"
+        },
+        {
+          "url": "https://www.appvizer.fr/immobilier",
+          "note": "source de découverte"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-26"
     },
     {
       "slug": "skyslope",
@@ -13592,6 +16261,117 @@
       "updated": "2026-08-25"
     },
     {
+      "slug": "tenant-turner",
+      "name": "Tenant Turner",
+      "editor": "Tenant Turner, Inc.",
+      "website": "https://www.tenantturner.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "property-management",
+      "also_in": [
+        "listing-syndication",
+        "crm-lead"
+      ],
+      "positioning": "Leasing automation for US property managers: syndicate the listing, pre-qualify the lead, let the prospect book a showing and open the door themselves.",
+      "description": "Tenant Turner automates the leasing cycle between a vacant unit and a signed lease. It imports listings from the property management system and pushes them to more than twenty listing sites, applies the manager's own pre-qualification criteria before a prospect can book, and offers either in-person showings or self-showings through electronic lockboxes and smart locks. Prospects self-schedule around the clock; reminders, cancellation of unconfirmed appointments, post-showing feedback collection and application dispatch run automatically. The Ultra plan adds a live answering service for leasing calls. Reporting covers lead flow, showing activity, lockbox use and owner-facing performance.\n",
+      "real_estate_use": "Vacancy costs a US property manager more than almost anything else in the operating budget, and the bottleneck is rarely demand — it is the coordination. Someone has to answer the phone, decide whether the caller meets the income and pet rules, agree a time, and physically be at the property. Tenant Turner removes all four steps: the pre-qualification questions gate the calendar, the prospect books at any hour, and a lockbox or smart lock grants access without a staff member driving across town. The manager sees which listings produce leads and which produce no-shows, and hands the owner a report that explains a slow lease-up with numbers. It sits alongside the property management system rather than replacing it, which is why it shows up in the integration directories of the major platforms.\n",
+      "features": [
+        "Listing import from the property management system and syndication to 20+ listing sites",
+        "Customisable lead pre-qualification gating access to the showing calendar",
+        "Self-showings via electronic lockboxes and smart locks, or in-person showings",
+        "24/7 prospect self-scheduling with reminders and automatic cancellation of unconfirmed appointments",
+        "Post-showing feedback collection and automatic application dispatch",
+        "Leasing analytics and owner reports covering leads, showings and lockbox use"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Fill a vacant single-family unit without a staff member attending every showing"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "Screen out unqualified enquiries before they reach the calendar and see why a listing is not converting"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "landlord-owner",
+        "investor-am"
+      ],
+      "segments": [
+        "residential",
+        "multifamily"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "per-unit",
+        "public_pricing": true,
+        "url": "https://www.tenantturner.com/pricing"
+      },
+      "integrations": [
+        "Zapier"
+      ],
+      "ai": {
+        "capabilities": [
+          "AI virtual leasing agent marketed for handling prospect enquiries"
+        ]
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "rentredi",
+        "hemlane",
+        "knock-crm"
+      ],
+      "reviews": [],
+      "signals": {
+        "pricing": "https://tenantturner.com/plans-pricing",
+        "privacy": "https://tenantturner.com/privacy-policy",
+        "status": "https://status.tenantturner.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-26"
+      },
+      "logo": {
+        "file": "logos/tenant-turner.png",
+        "source_url": "https://tenantturner.com/wp-content/uploads/2026/05/favicon-300x300.png",
+        "fetched_on": "2026-08-29"
+      },
+      "sources": [
+        {
+          "url": "https://www.tenantturner.com",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://www.tenantturner.com/pricing",
+          "note": "site éditeur, tarifs publics"
+        },
+        {
+          "url": "https://www.buildium.com/integrations/",
+          "note": "source de découverte"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-26"
+    },
+    {
       "slug": "tenantcloud",
       "name": "TenantCloud",
       "editor": "TenantCloud",
@@ -13688,6 +16468,114 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "terralyse",
+      "name": "Terralyse",
+      "editor": "Terralyse",
+      "website": "https://terralyse.fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "market-data",
+      "also_in": [
+        "estimation-pricing"
+      ],
+      "positioning": "Everything public about a French address in one lookup: real sale prices from DVF, cadastre, planning, risks and neighbourhood.",
+      "description": "Terralyse is a French web service that assembles the public land and property record of an address into a single report: real transaction prices from the DVF file published by the DGFiP, cadastral data, planning, risks and neighbourhood context. Prices per square metre are computed from twelve years of official transactions and published freely for more than 5,000 communes, with an interactive map that reads a price at the level of a building rather than a municipal average. Around the core the site publishes free tools: notary fee and borrowing calculators, official Banque de France credit rates, rental yield by city, and a purchasing-power index. The vendor names promoters, property traders, estate agents, insurers, REITs, architects and chartered surveyors as its audiences, and lists an MCP interface for use from AI assistants.\n",
+      "real_estate_use": "The French state publishes almost everything about a plot of land, and publishes it in six different places with six different keys: DVF for prices, the cadastre for parcels, the PLU for what may be built, Géorisques for what may go wrong. Terralyse is the lookup that spares a professional the assembly, in the moment before an offer or an estimate when the question is not what the market says but what this address actually is. An estate agent uses it to argue a price against a seller with real transactions rather than a portal average; a property trader uses it to sort plots before spending a day on any of them. The MCP interface is a real differentiator in this category: the data is designed to be read by an AI assistant, not only by a person.\n",
+      "features": [
+        "Address report combining sale prices, cadastre, planning, risks and neighbourhood",
+        "Real transaction prices from the DVF file over twelve years",
+        "Price per square metre by commune for more than 5,000 communes",
+        "Interactive map reading price at building level rather than municipal average",
+        "Rental yield by city and purchasing-power index",
+        "Notary fee and borrowing calculators, official Banque de France credit rates"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Argue an asking price against a seller with the actual transactions on the street"
+        },
+        {
+          "persona": "investor-am",
+          "job": "Sort plots or buildings on public land data before committing time to any of them"
+        },
+        {
+          "persona": "developer-builder",
+          "job": "Read what planning and risk say about an address before an offer"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "investor-am",
+        "developer-builder",
+        "appraiser"
+      ],
+      "segments": [
+        "residential",
+        "land-development",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "freemium",
+        "public_pricing": false
+      },
+      "ai": {
+        "capabilities": [
+          "MCP server exposing the land data to AI assistants"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "dvf",
+        "kelfoncier",
+        "cityscan",
+        "yanport"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/terralyse.png",
+        "source_url": "https://terralyse.fr/apple-touch-icon.png",
+        "fetched_on": "2026-08-29"
+      },
+      "signals": {
+        "pricing": "https://terralyse.fr/tarifs",
+        "privacy": "https://terralyse.fr/mentions-legales",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-29"
+      },
+      "sources": [
+        {
+          "url": "https://terralyse.fr/",
+          "note": "site éditeur, accueil — modules et métiers"
+        },
+        {
+          "url": "https://terralyse.fr/prix-immobilier",
+          "note": "prix par commune — méthode DVF sur 12 ans"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-29"
     },
     {
       "slug": "theguarantors",
@@ -14456,6 +17344,116 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "vantaca",
+      "name": "Vantaca",
+      "editor": "Vantaca",
+      "website": "https://www.vantaca.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "syndic-copro",
+      "also_in": [
+        "back-office-accounting",
+        "ai-assistants"
+      ],
+      "positioning": "Community association management platform organised around coordinated workflows, with AI agents that carry out routine back-office work.",
+      "description": "Vantaca is a US platform for companies that manage homeowner and community associations. It combines a full accounting suite covering receivables, payables, budgeting and financial reporting with integrated banking and transaction matching, a business intelligence layer called Vantaca IQ for portfolio dashboards and benchmarking, and a revenue capture module for billing the services a management company performs. A set of AI agents branded HOAi runs inside the platform on resident support by email, chat, form and phone, on receivables, payables and financial reporting, and on community management work such as board packets, budgets, architectural review and violations.\n",
+      "real_estate_use": "A management company holding a portfolio of associations spends most of its day on work no one bills for: answering the same homeowner questions, chasing an invoice approval, assembling a board packet the week before a meeting. Vantaca is the system where that work is defined as a workflow rather than a habit, so a manager taking on ten more communities does not need ten more people. Its accounting side matters as much as its operations side, because association money is held per community and a discrepancy between the bank and the ledger has to surface before a board meeting, not after it. Firms come to it when their portfolio has outgrown a general property management tool that treats an association like a landlord.\n",
+      "features": [
+        "Accounting suite covering receivables, payables, budgeting and financial reporting",
+        "Integrated banking with transaction matching against the ledger",
+        "Configurable workflows per management company process",
+        "Vantaca IQ portfolio dashboards, performance tracking and industry benchmarking",
+        "Revenue Manager for billing the management company's own services",
+        "HOAi agents for resident support, accounting and community management tasks"
+      ],
+      "use_cases": [
+        {
+          "persona": "syndic-manager",
+          "job": "Run a portfolio of associations on one set of defined workflows instead of per-manager habits"
+        },
+        {
+          "persona": "property-manager",
+          "job": "Close the month on association books that reconcile against the bank"
+        }
+      ],
+      "personas": [
+        "syndic-manager",
+        "property-manager",
+        "landlord-owner"
+      ],
+      "segments": [
+        "residential",
+        "multifamily",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "ai": {
+        "capabilities": [
+          "Resident support agents answering email, chat, forms and phone",
+          "Automation of receivables, payables and financial reporting",
+          "Board packet, budget and violation preparation"
+        ]
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "cinc-systems",
+        "frontsteps",
+        "condo-control",
+        "payhoa"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/vantaca.png",
+        "source_url": "https://www.vantaca.com/hubfs/VantacaLogo-New-Final_Mark.png",
+        "fetched_on": "2026-08-29"
+      },
+      "signals": {
+        "security": "https://www.vantaca.com/security",
+        "privacy": "https://www.vantaca.com/privacy-policy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-29"
+      },
+      "sources": [
+        {
+          "url": "https://www.vantaca.com/",
+          "note": "site éditeur, accueil"
+        },
+        {
+          "url": "https://www.vantaca.com/product",
+          "note": "page produit — modules et capacités"
+        },
+        {
+          "url": "https://www.vantaca.com/hoai",
+          "note": "page HOAi — agents IA"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-29"
     },
     {
       "slug": "vertuoza",
@@ -15791,6 +18789,106 @@
         {
           "url": "https://www.yuman.io",
           "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "zelok",
+      "name": "Zelok",
+      "editor": "Zelok",
+      "website": "https://www.zelok.fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "tenant-screening",
+      "also_in": [
+        "portals-marketplaces"
+      ],
+      "positioning": "Dossier locataire en ligne partagé entre agences, doublé d'une assurance loyers impayés souscrite via le professionnel qui gère le bien.",
+      "description": "Zelok is a French rental platform with two connected halves. Tenants build one online application file, reusable across agencies, and search through an engine that scans listings published by professionals — the vendor cites more than 380,000 listings drawn from over 50 platforms and filtered against the applicant's criteria. Real estate professionals and the landlords they act for get the unpaid-rent side: a Garantie Totale insurance product that pays the rent every month on a fixed date, with compensation from the first euro within 24 hours, and cover for property damage and legal protection. The vendor states more than 37,000 professional partners and one tenant file created every twenty seconds.\n",
+      "real_estate_use": "A letting agent handling a portfolio for private landlords has two recurring problems: incomplete applications and owners who panic at the first missed payment. Zelok solves them in the same place — candidates arrive with a file already assembled and shared, and the agent subscribes the lease to the unpaid-rent guarantee so the owner receives the rent on a fixed date regardless of what the tenant does. For the applicant, the file is built once in a few minutes and reused with every agency contacted, and the search engine surfaces matching listings rather than requiring the applicant to monitor fifty portals. The agent also uses the platform as a way to win management mandates from owners who want the guarantee.\n",
+      "features": [
+        "Dossier locataire en ligne réutilisable, partagé entre plusieurs agences",
+        "Moteur de recherche agrégeant les annonces de professionnels sur plus de 50 plateformes",
+        "Assurance loyers impayés Garantie Totale souscrite via un professionnel",
+        "Indemnisation dès le premier euro, sous 24 heures",
+        "Couverture des dégradations immobilières et protection juridique",
+        "Espace professionnel de suivi des dossiers candidats et des garanties"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Recevoir des candidatures déjà constituées et souscrire la garantie loyers impayés du bail dans le même outil"
+        },
+        {
+          "persona": "tenant-occupier",
+          "job": "Constituer un dossier une seule fois et le présenter à toutes les agences contactées"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "Percevoir le loyer à date fixe malgré un impayé, via le professionnel qui gère le bien"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "tenant-occupier",
+        "landlord-owner",
+        "property-manager"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "French"
+        ]
+      },
+      "alternatives": [
+        "garantme",
+        "dossierfacile",
+        "smartloc"
+      ],
+      "reviews": [],
+      "signals": {
+        "pricing": "https://www.zelok.fr/guide/prix-assurance-loyer-impaye",
+        "privacy": "https://www.zelok.fr/guide/rgpd-cnil-tout-ce-que-doivent-savoir-les-agences-immobilieres",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-25"
+      },
+      "logo": {
+        "file": "logos/zelok.png",
+        "source_url": "https://www.zelok.fr/content/themes/metheme/public/favicon/apple-touch-icon.png",
+        "fetched_on": "2026-08-29"
+      },
+      "sources": [
+        {
+          "url": "https://www.zelok.fr",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://www.frenchproptech.fr/annuaire-startups/",
+          "note": "source de découverte"
         }
       ],
       "verification": {

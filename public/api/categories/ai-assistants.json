@@ -4,7 +4,7 @@
   "label_fr": "Agents IA & automatisation",
   "summary_en": "LLM-native assistants that answer, qualify, draft and act on real estate work.",
   "summary_fr": "Assistants LLM qui répondent, qualifient, rédigent et agissent sur le métier.",
-  "count": 7,
+  "count": 10,
   "tools": [
     {
       "slug": "appfolio",
@@ -451,6 +451,220 @@
       "updated": "2026-08-25"
     },
     {
+      "slug": "keyzia",
+      "name": "Keyzia",
+      "editor": "Keyzia",
+      "website": "https://keyzia.fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "ai-assistants",
+      "also_in": [
+        "market-data",
+        "energy-esg"
+      ],
+      "positioning": "A French platform for deploying AI use cases across a real estate or construction company, with European hosting and a per-address data layer.",
+      "description": "Keyzia is a French application that lets a real estate or construction company test, deploy and centralise its AI use cases in one place rather than leaving them scattered across individual accounts. It is sold to estate agents, property administrators and syndics, tradespeople and renovators, banks and insurers, and energy actors, each with its own set of prepared uses: preparing a full listing mandate, analysing quotes and invoices, energy diagnosis, risk and green-value assessment. A module called KeyPark holds a portfolio of addresses with the history attached to each property, covering past transactions, works and diagnostics, with notifications when something changes. An interactive map layer adds address-level data for spotting projects on a territory. The vendor states data is hosted in Europe.\n",
+      "real_estate_use": "The AI problem inside a French agency or syndic is not that nobody uses it, it is that everyone uses it separately, in a personal account, with client data. Keyzia is positioned against exactly that: it puts the prepared use cases in one company tool, integrated where the teams already work, so the practice becomes shared rather than hidden. For an agent, the working moment is preparing a mandate: the property's transaction history, its diagnostics, its past works and its surroundings pulled together in minutes instead of an afternoon of portal-hopping. For a property administrator, it is watching a stock of buildings and anticipating which ones will need renovation work. European hosting is a purchase criterion in this market, not a detail.\n",
+      "features": [
+        "Centralised catalogue of AI use cases deployable across a company",
+        "Integration into the business tools the teams already use",
+        "KeyPark address portfolio with per-property history of transactions, works and diagnostics",
+        "Change notifications on tracked properties",
+        "Interactive territory map enriched with address-level data",
+        "Quote and invoice document analysis"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Assemble a complete listing mandate from a property's history and surroundings in minutes"
+        },
+        {
+          "persona": "syndic-manager",
+          "job": "Watch a stock of buildings and anticipate which need renovation work"
+        },
+        {
+          "persona": "lender-broker",
+          "job": "Assess a property's risk and energy value without ordering a study"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "syndic-manager",
+        "developer-builder",
+        "lender-broker"
+      ],
+      "segments": [
+        "residential",
+        "multifamily",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "ai": {
+        "capabilities": [
+          "Prepared business use cases for real estate and construction",
+          "Quote and invoice analysis",
+          "Energy diagnosis and green-value scoring",
+          "Address-level data enrichment"
+        ]
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "cityscan",
+        "kelfoncier",
+        "yanport"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/keyzia.png",
+        "source_url": "https://keyzia.fr/wp-content/uploads/2025/02/cropped-favicon-180x180.png",
+        "fetched_on": "2026-08-29"
+      },
+      "signals": {
+        "privacy": "https://keyzia.fr/mentions-legales",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-29"
+      },
+      "sources": [
+        {
+          "url": "https://keyzia.fr/",
+          "note": "site éditeur, accueil — métiers et arguments"
+        },
+        {
+          "url": "https://keyzia.fr/keypark/",
+          "note": "page KeyPark — suivi de parc immobilier"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-29"
+    },
+    {
+      "slug": "knock-crm",
+      "name": "Knock CRM",
+      "editor": "RealPage",
+      "website": "https://www.knockcrm.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "crm-lead",
+      "also_in": [
+        "ai-assistants",
+        "property-management"
+      ],
+      "positioning": "Front-office leasing platform for multifamily: self-scheduled tours, unified prospect messaging, source attribution and team performance oversight.",
+      "description": "Knock CRM is a leasing customer-relationship platform for multifamily owners and operators, now published by RealPage. It groups tour scheduling, marketing attribution, prospect messaging, task management, visitor experience and team oversight into one front-office suite. Knock Now lets a prospective renter self-schedule a tour from any website or app. Messaging brings email, text, voice and chat into a single screen. Source attribution ties each lead back to the marketing channel that produced it and drives automated campaigns. Benchmarking and performance trends give leasing leadership visibility into individual and team activity. The vendor also offers AI solutions, advanced analytics and a data cloud with API access alongside the core CRM.\n",
+      "real_estate_use": "A leasing team at a large apartment community loses prospects between the first inquiry and the tour. With Knock the renter books their own slot straight from the property website, so nobody waits for a callback, and every subsequent exchange — text, email, call, chat — lands in one inbox where any agent on shift can pick it up. The regional marketer looks at source attribution to see which portal or campaign is actually filling the calendar and cuts the ones that are not. The leasing director uses the benchmarking view to compare conversion across communities and to see which agents let follow-ups lapse.\n",
+      "features": [
+        "Self-scheduled tours from any property website or app",
+        "Unified inbox across email, text, voice and chat",
+        "Marketing source attribution and automated campaigns",
+        "Task management for follow-up on open prospects",
+        "Leasing team benchmarking and performance trends",
+        "Data cloud and API access for reporting"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Let prospective renters book their own tours and keep every follow-up in one shared inbox"
+        },
+        {
+          "persona": "brokerage",
+          "job": "Attribute each lead to its marketing channel and stop funding the ones that do not convert"
+        },
+        {
+          "persona": "investor-am",
+          "job": "Compare leasing conversion and team activity across communities in one benchmarking view"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "investor-am",
+        "brokerage"
+      ],
+      "segments": [
+        "multifamily",
+        "residential",
+        "coliving-student"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Partner directory published by the vendor",
+        "KnockNetwork"
+      ],
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "English"
+        ]
+      },
+      "alternatives": [
+        "entrata",
+        "realpage",
+        "eliseai"
+      ],
+      "reviews": [],
+      "signals": {
+        "privacy": "https://www.knockcrm.com/privacy-policy",
+        "status": "https://status.knockcrm.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-25"
+      },
+      "logo": {
+        "file": "logos/knock-crm.png",
+        "source_url": "https://s.knockcrm.com/assets/Knock-favicon-2.png",
+        "fetched_on": "2026-08-29"
+      },
+      "sources": [
+        {
+          "url": "https://www.knockcrm.com",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://www.appfolio.com/services/stack",
+          "note": "source de découverte — partenaire AppFolio Stack"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
       "slug": "lofty",
       "name": "Lofty",
       "editor": "Lofty (formerly Chime Technologies)",
@@ -666,6 +880,116 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "vantaca",
+      "name": "Vantaca",
+      "editor": "Vantaca",
+      "website": "https://www.vantaca.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "syndic-copro",
+      "also_in": [
+        "back-office-accounting",
+        "ai-assistants"
+      ],
+      "positioning": "Community association management platform organised around coordinated workflows, with AI agents that carry out routine back-office work.",
+      "description": "Vantaca is a US platform for companies that manage homeowner and community associations. It combines a full accounting suite covering receivables, payables, budgeting and financial reporting with integrated banking and transaction matching, a business intelligence layer called Vantaca IQ for portfolio dashboards and benchmarking, and a revenue capture module for billing the services a management company performs. A set of AI agents branded HOAi runs inside the platform on resident support by email, chat, form and phone, on receivables, payables and financial reporting, and on community management work such as board packets, budgets, architectural review and violations.\n",
+      "real_estate_use": "A management company holding a portfolio of associations spends most of its day on work no one bills for: answering the same homeowner questions, chasing an invoice approval, assembling a board packet the week before a meeting. Vantaca is the system where that work is defined as a workflow rather than a habit, so a manager taking on ten more communities does not need ten more people. Its accounting side matters as much as its operations side, because association money is held per community and a discrepancy between the bank and the ledger has to surface before a board meeting, not after it. Firms come to it when their portfolio has outgrown a general property management tool that treats an association like a landlord.\n",
+      "features": [
+        "Accounting suite covering receivables, payables, budgeting and financial reporting",
+        "Integrated banking with transaction matching against the ledger",
+        "Configurable workflows per management company process",
+        "Vantaca IQ portfolio dashboards, performance tracking and industry benchmarking",
+        "Revenue Manager for billing the management company's own services",
+        "HOAi agents for resident support, accounting and community management tasks"
+      ],
+      "use_cases": [
+        {
+          "persona": "syndic-manager",
+          "job": "Run a portfolio of associations on one set of defined workflows instead of per-manager habits"
+        },
+        {
+          "persona": "property-manager",
+          "job": "Close the month on association books that reconcile against the bank"
+        }
+      ],
+      "personas": [
+        "syndic-manager",
+        "property-manager",
+        "landlord-owner"
+      ],
+      "segments": [
+        "residential",
+        "multifamily",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "ai": {
+        "capabilities": [
+          "Resident support agents answering email, chat, forms and phone",
+          "Automation of receivables, payables and financial reporting",
+          "Board packet, budget and violation preparation"
+        ]
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "cinc-systems",
+        "frontsteps",
+        "condo-control",
+        "payhoa"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/vantaca.png",
+        "source_url": "https://www.vantaca.com/hubfs/VantacaLogo-New-Final_Mark.png",
+        "fetched_on": "2026-08-29"
+      },
+      "signals": {
+        "security": "https://www.vantaca.com/security",
+        "privacy": "https://www.vantaca.com/privacy-policy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-29"
+      },
+      "sources": [
+        {
+          "url": "https://www.vantaca.com/",
+          "note": "site éditeur, accueil"
+        },
+        {
+          "url": "https://www.vantaca.com/product",
+          "note": "page produit — modules et capacités"
+        },
+        {
+          "url": "https://www.vantaca.com/hoai",
+          "note": "page HOAi — agents IA"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-29"
     },
     {
       "slug": "ylopo",

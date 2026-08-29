@@ -1,0 +1,70 @@
+slug: partnerimmo
+name: Partnerimmo
+editor: Partnerimmo
+website: https://www.partnerimmo.fr
+hq_country: FR
+markets: [FR]
+category: syndic-copro
+also_in: [property-management, back-office-accounting]
+founded: 2006
+positioning: "Full-web French software for property administrators, sold as two modules: rental management and condominium management, sharing one accounting core."
+description: >
+  Partnerimmo is a hosted French application for property administrators, condominium
+  managers and letting agents, in business since 2006. The rental module covers lots,
+  rent calls, receipts, dunning, automated accounting and accounting-entry export,
+  plus digital condition reports with embedded signature. The condominium module
+  covers budgets, calls for funds, bank reconciliation, general meetings with votes
+  and minutes, works and incident tracking. Both expose an extranet to landlords,
+  tenants, co-owners and the condominium council. The editor states 195,000 tenants
+  and 395,000 co-owners are managed on it in 2026, and publishes a starting price.
+real_estate_use: >
+  A French cabinet d'administration de biens runs two regulated books at once — the
+  landlord's account in gérance and the co-ownership's account in syndic — and both
+  are audited. Partnerimmo is the system of record for that work: it produces the
+  quarterly rent call and the owner statement on one side, the budget, the calls for
+  funds and the general meeting file on the other, and exports entries to the
+  accountant rather than pretending to replace them. The extranet is what removes the
+  phone calls: a co-owner checks their balance and the meeting minutes themselves. The
+  editor migrates the incumbent database as part of onboarding, which is the real
+  decision point — a cabinet changes gérance software once a decade because the
+  accounting history has to survive the move.
+features:
+  - "Rent calls, receipts, dunning and automated rental accounting with entry export"
+  - "Condominium budgets, calls for funds and bank reconciliation"
+  - "General meetings: convening, votes and minutes"
+  - "Digital condition reports with embedded signature, usable on site"
+  - "Extranet for landlords, tenants, co-owners and the condominium council"
+  - Works and incident tracking with quotes
+use_cases:
+  - persona: syndic-manager
+    job: "Run a building's financial year end to end — budget, calls for funds, general meeting, minutes — without leaving one file"
+  - persona: property-manager
+    job: Issue the quarterly rent call and owner statement for a managed portfolio and hand clean entries to the accountant
+personas: [syndic-manager, property-manager, brokerage]
+segments: [residential, multifamily]
+company_sizes: [solo, smb, midmarket]
+pricing:
+  model: subscription
+  public_pricing: true
+  url: https://www.partnerimmo.fr
+product:
+  api: false
+  open_source: false
+  mobile: []
+  languages: [fr]
+alternatives: [vilogi, gercop, matera, powimo]
+reviews: []
+signals:
+  pricing: https://www.partnerimmo.fr
+  status: https://www.partnerimmo.fr
+  site_languages: [fr]
+  checked_on: "2026-08-26"
+logo:
+  file: logos/partnerimmo.png
+  source_url: https://www.partnerimmo.fr/_img/gWs1tDEwQgz9qJF-gzhMr9W-dr0=/fit-in/180_x_180/filters:upscale():fill(transparent):format(png):strip_exif()/reboot/media/753d5f52-ce9e-11f0-a8f3-e6fe014dd4c8/d44f8dc4-ceb9-11f0-8379-e6fe014dd4c8/0-0-nouveau-projet-1.svg
+  fetched_on: "2026-08-29"
+sources:
+  - { url: https://www.partnerimmo.fr, note: site éditeur }
+  - { url: https://www.partnerimmo.fr/un-logiciel-de-copropriete-pour-la-comptabilite, note: "site éditeur, module copropriété" }
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-26"

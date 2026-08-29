@@ -4,7 +4,7 @@
   "label_fr": "Dossier locataire & garanties",
   "summary_en": "Verify an applicant's file, guarantee the rent, sign the lease.",
   "summary_fr": "Vérifier un dossier, garantir le loyer, signer le bail.",
-  "count": 10,
+  "count": 14,
   "tools": [
     {
       "slug": "apartments-com",
@@ -296,6 +296,300 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "garantme",
+      "name": "Garantme",
+      "editor": "Garantme",
+      "website": "https://garantme.fr/fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "tenant-screening",
+      "positioning": "Certifie le dossier d'un candidat locataire et se porte garant à sa place, avec une console de gestion des dossiers et des garanties pour les agences.",
+      "description": "Garantme is a French rental-guarantee platform aimed at applicants who have no personal guarantor. The tenant uploads their supporting documents, Garantme certifies the file, and the company then stands as guarantor for the landlord for the duration of the lease, renewable each year with it. The guarantee is underwritten by insurance companies. Agencies and landlords get the other half of the product: an application console, called Console Garantme, where they centralize incoming rental files and the insurance products attached to them, plus handling of unpaid-rent procedures. The vendor states it has certified 100,000 tenants across roughly 4,000 partner agencies in 150 French cities.\n",
+      "real_estate_use": "A candidate with a solid income but no French guarantor keeps losing flats to files that have one. They assemble their documents in Garantme before starting their search, get certified, and present a file that already carries a guarantee — which is what puts it at the top of the pile at the viewing. On the other side, a letting agent receiving thirty applications for one flat uses the console to see which files are certified and which insurance product covers each, instead of re-reading payslips; when an incumbent tenant stops paying, the unpaid-rent procedure is run by Garantme rather than by the agency. Payment is only due when the lease is signed, so the applicant carries no cost during the search.\n",
+      "features": [
+        "Certification d'un dossier locatif sous 24 h",
+        "Caution solidaire et indivisible, y compris en colocation",
+        "Console Garantme pour centraliser dossiers et produits d'assurance en agence",
+        "Gestion des procédures d'impayé pour le compte du bailleur",
+        "Calculateur de coût de la garantie en ligne",
+        "Renouvellement annuel de la garantie avec le bail"
+      ],
+      "use_cases": [
+        {
+          "persona": "tenant-occupier",
+          "job": "Obtenir un garant et faire certifier son dossier avant de commencer les visites"
+        },
+        {
+          "persona": "agent-broker",
+          "job": "Trier des candidatures sur des dossiers déjà certifiés plutôt que sur des pièces à vérifier une par une"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "Couvrir le loyer et déléguer la procédure d'impayé sans coût pour le bailleur"
+        }
+      ],
+      "personas": [
+        "tenant-occupier",
+        "agent-broker",
+        "landlord-owner",
+        "property-manager"
+      ],
+      "segments": [
+        "residential",
+        "coliving-student"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://garantme.fr/fr"
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "French",
+          "English",
+          "Chinese"
+        ]
+      },
+      "alternatives": [
+        "zelok",
+        "smartloc"
+      ],
+      "reviews": [],
+      "signals": {
+        "site_languages": [
+          "en",
+          "fr",
+          "zh"
+        ],
+        "checked_on": "2026-08-25"
+      },
+      "logo": {
+        "file": "logos/garantme.png",
+        "source_url": "https://garantme.fr/hubfs/Favicon_whiteBG.png",
+        "fetched_on": "2026-08-29"
+      },
+      "sources": [
+        {
+          "url": "https://garantme.fr/fr",
+          "note": "site éditeur — fonctionnement, chiffres et calculateur de tarif"
+        },
+        {
+          "url": "https://www.frenchproptech.fr/annuaire-startups/",
+          "note": "source de découverte"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "petscreening",
+      "name": "PetScreening",
+      "editor": "Pet Screening Inc.",
+      "website": "https://www.petscreening.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "tenant-screening",
+      "also_in": [
+        "property-management"
+      ],
+      "positioning": "Pet policy management and assistance animal accommodation review for rental housing, HOAs and vacation rentals.",
+      "description": "PetScreening collects a pet or animal profile from every applicant and resident, including households declaring no pet, and centralises it alongside the tenancy file. Its distinct piece is the assistance animal review: an in-house team examines each reasonable accommodation request against HUD and Fair Housing Act guidance and returns a documented recommendation to both the requester and the manager. The vendor also publishes a tool for benchmarking pet-related revenue. It covers long-term, mid-term, vacation, manufactured and student housing.\n",
+      "real_estate_use": "An on-site leasing team is asked to grant an assistance animal accommodation and cannot legally ask most of the questions that would let them judge it — the wrong question is itself a discrimination exposure. PetScreening moves that review off the on-site team to a reviewer working to HUD and FHAct guidance, and returns a written recommendation that documents the decision. The everyday effect is more mundane: pet photos, vaccination records and policy acknowledgements stop being chased by email and arrive with the application, which is where the reported time saving per application comes from.\n",
+      "features": [
+        "Pet and animal profile collected from every applicant, including no-pet declarations",
+        "Assistance animal accommodation review against HUD and FHAct guidance",
+        "Documented recommendation shared with requester and manager",
+        "Centralised vaccination records, photos and policy acknowledgements",
+        "Pet revenue benchmarking tool",
+        "Integrations with residential property management systems"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Handle an assistance animal accommodation request without exposing the on-site team to a discrimination claim"
+        },
+        {
+          "persona": "syndic-manager",
+          "job": "Apply one documented pet policy across an HOA's residents"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "syndic-manager",
+        "landlord-owner"
+      ],
+      "segments": [
+        "residential",
+        "multifamily",
+        "coliving-student",
+        "hospitality"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Residential property management systems"
+      ],
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "reviews": [],
+      "signals": {
+        "privacy": "https://www.petscreening.com/privacy-policy",
+        "status": "https://status.petscreening.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-27"
+      },
+      "logo": {
+        "file": "logos/petscreening.png",
+        "source_url": "https://cdn.prod.website-files.com/627bb6cb0c9f03203e49b1b9/627c32f2535a832b1bc44ab8_ps-webclip.png",
+        "fetched_on": "2026-08-27"
+      },
+      "sources": [
+        {
+          "url": "https://www.petscreening.com/",
+          "note": "site éditeur — accueil"
+        },
+        {
+          "url": "https://www.petscreening.com/assistance-animals",
+          "note": "site éditeur — processus de revue des animaux d'assistance"
+        },
+        {
+          "url": "https://www.appfolio.com/stack/marketplace",
+          "note": "source de découverte — AppFolio Stack"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-27"
+    },
+    {
+      "slug": "qalimo",
+      "name": "Qalimo",
+      "editor": "Qalimo",
+      "website": "https://www.qalimo.fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "property-management",
+      "also_in": [
+        "back-office-accounting",
+        "tenant-screening"
+      ],
+      "positioning": "French rental management for landlords, with bank reconciliation built in and accounting, insurance and legal services sold alongside the software.",
+      "description": "Qalimo is a French rental management application for private landlords, SCI and furnished-rental owners, also sold to letting agencies, property companies and local authorities. The software covers lease drafting, digital condition reports with photographs, automatic generation and dispatch of rent receipts, tenant application screening and bank synchronisation that reconciles incoming rent automatically. Around it the editor sells accounting services for furnished rental, SCI and unfurnished rental income including filed tax returns, plus non-occupying owner insurance, rent guarantee and legal protection. Lease templates cover furnished, unfurnished, student, mobility, shared, commercial, professional and parking tenancies.\n",
+      "real_estate_use": "The hard part of self-managed rental in France is not writing the lease, it is knowing whether the rent actually arrived and what the tax position looks like at year end. Qalimo bolts bank synchronisation onto rental management so unpaid rent surfaces without the landlord reading a bank statement, and then sells the accounting work that follows — a furnished landlord under the real regime owes a balance sheet and a filed tax package, and most do not want to produce it. Lease coverage extends past the residential lot to commercial, professional and parking tenancies, which is what brings small property companies and municipalities to it rather than a pure landlord tool.\n",
+      "features": [
+        "Lease templates for furnished, unfurnished, student, mobility, shared, commercial, professional and parking tenancies",
+        "Digital condition reports with photographs",
+        "Automatic generation and dispatch of rent receipts",
+        "Bank synchronisation with automatic rent reconciliation",
+        "Tenant application collection and comparison",
+        "Accounting services for furnished rental, SCI and rental income, with filed tax returns"
+      ],
+      "use_cases": [
+        {
+          "persona": "landlord-owner",
+          "job": "See unpaid rent the day it is late through bank reconciliation instead of checking statements by hand"
+        },
+        {
+          "persona": "investor-am",
+          "job": "Run a small portfolio held in SCI or under the furnished regime and get the year-end tax package filed from the same tool"
+        }
+      ],
+      "personas": [
+        "landlord-owner",
+        "investor-am",
+        "property-manager"
+      ],
+      "segments": [
+        "residential",
+        "retail",
+        "coliving-student"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://www.qalimo.fr/tarifs"
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "bailfacile",
+        "rentila",
+        "ownily",
+        "smartloc"
+      ],
+      "reviews": [],
+      "signals": {
+        "privacy": "https://www.qalimo.fr/politique-de-confidentialite",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-26"
+      },
+      "logo": {
+        "file": "logos/qalimo.png",
+        "source_url": "https://www.qalimo.fr/wp-content/uploads/2024/05/cropped-Autres-type-de-local-parking-garage-stockage-etc.-Le-Bien-Finance-et-fiscalite-Equipement-Etat-des-lieux-Description-detaillee-du-bien-figurant-dans-le-bail-Description-Date-dachat-du-bien-J-3-300x300.png",
+        "fetched_on": "2026-08-29"
+      },
+      "sources": [
+        {
+          "url": "https://www.qalimo.fr",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-26"
     },
     {
       "slug": "realpage",
@@ -977,6 +1271,106 @@
         {
           "url": "https://www.turbotenant.com",
           "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-25"
+    },
+    {
+      "slug": "zelok",
+      "name": "Zelok",
+      "editor": "Zelok",
+      "website": "https://www.zelok.fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "tenant-screening",
+      "also_in": [
+        "portals-marketplaces"
+      ],
+      "positioning": "Dossier locataire en ligne partagé entre agences, doublé d'une assurance loyers impayés souscrite via le professionnel qui gère le bien.",
+      "description": "Zelok is a French rental platform with two connected halves. Tenants build one online application file, reusable across agencies, and search through an engine that scans listings published by professionals — the vendor cites more than 380,000 listings drawn from over 50 platforms and filtered against the applicant's criteria. Real estate professionals and the landlords they act for get the unpaid-rent side: a Garantie Totale insurance product that pays the rent every month on a fixed date, with compensation from the first euro within 24 hours, and cover for property damage and legal protection. The vendor states more than 37,000 professional partners and one tenant file created every twenty seconds.\n",
+      "real_estate_use": "A letting agent handling a portfolio for private landlords has two recurring problems: incomplete applications and owners who panic at the first missed payment. Zelok solves them in the same place — candidates arrive with a file already assembled and shared, and the agent subscribes the lease to the unpaid-rent guarantee so the owner receives the rent on a fixed date regardless of what the tenant does. For the applicant, the file is built once in a few minutes and reused with every agency contacted, and the search engine surfaces matching listings rather than requiring the applicant to monitor fifty portals. The agent also uses the platform as a way to win management mandates from owners who want the guarantee.\n",
+      "features": [
+        "Dossier locataire en ligne réutilisable, partagé entre plusieurs agences",
+        "Moteur de recherche agrégeant les annonces de professionnels sur plus de 50 plateformes",
+        "Assurance loyers impayés Garantie Totale souscrite via un professionnel",
+        "Indemnisation dès le premier euro, sous 24 heures",
+        "Couverture des dégradations immobilières et protection juridique",
+        "Espace professionnel de suivi des dossiers candidats et des garanties"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Recevoir des candidatures déjà constituées et souscrire la garantie loyers impayés du bail dans le même outil"
+        },
+        {
+          "persona": "tenant-occupier",
+          "job": "Constituer un dossier une seule fois et le présenter à toutes les agences contactées"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "Percevoir le loyer à date fixe malgré un impayé, via le professionnel qui gère le bien"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "tenant-occupier",
+        "landlord-owner",
+        "property-manager"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "French"
+        ]
+      },
+      "alternatives": [
+        "garantme",
+        "dossierfacile",
+        "smartloc"
+      ],
+      "reviews": [],
+      "signals": {
+        "pricing": "https://www.zelok.fr/guide/prix-assurance-loyer-impaye",
+        "privacy": "https://www.zelok.fr/guide/rgpd-cnil-tout-ce-que-doivent-savoir-les-agences-immobilieres",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-25"
+      },
+      "logo": {
+        "file": "logos/zelok.png",
+        "source_url": "https://www.zelok.fr/content/themes/metheme/public/favicon/apple-touch-icon.png",
+        "fetched_on": "2026-08-29"
+      },
+      "sources": [
+        {
+          "url": "https://www.zelok.fr",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://www.frenchproptech.fr/annuaire-startups/",
+          "note": "source de découverte"
         }
       ],
       "verification": {

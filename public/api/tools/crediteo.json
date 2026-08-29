@@ -1,0 +1,89 @@
+{
+  "slug": "crediteo",
+  "name": "Créditéo",
+  "editor": "Créditéo",
+  "website": "https://www.crediteo.co",
+  "hq_country": "FR",
+  "markets": [
+    "FR"
+  ],
+  "category": "lending-mortgage",
+  "positioning": "Cloud software for French credit intermediaries: build a mortgage file and its simulations, follow the lenders, invoice the fee.",
+  "description": "Créditéo is a French publisher of web applications for regulated credit intermediaries, real estate agents and notaries. Its platform centralises prospect and client files, runs configurable financing simulations, and tracks the lenders and parties attached to each case in a single dashboard. It issues fee invoices, bank commission invoices and off-case invoices in line with the French billing rules that took effect in January 2018, and reports production by branch, broker, partner, stage and period. Rights management and configurable case stages let a network reproduce its own process. The editor states more than 20,000 users.\n",
+  "real_estate_use": "A broker's day is a queue of half-complete files, each waiting on a document or a lender's answer. Créditéo is the desk where that queue is ordered: configurable stages say where each case stands, task lists and notifications say who owes what, and the simulator turns an affordability question into a fully-formed loan application in a single sitting. Its invoicing module matters more than it sounds — French intermediary fees can only be billed once the funds are released, so a broker needs the tool to know the difference between a fee earned and a commission owed by the bank. Web calculators and pre-filling contact forms embed on the broker's own site, so an enquiry arrives as a started file instead of an e-mail.\n",
+  "features": [
+    "Centralised prospect and client files with configurable case stages and task lists",
+    "Financing simulator that assembles the loan application from the simulation",
+    "Lender and party dashboard per case",
+    "Fee, bank commission and off-case invoicing with payment tracking",
+    "Production statistics by branch, broker, partner, stage and period",
+    "Embeddable web calculators and pre-filling contact forms for the broker's site"
+  ],
+  "use_cases": [
+    {
+      "persona": "lender-broker",
+      "job": "Assemble a complete mortgage application and its simulations in one sitting, then follow it to release of funds"
+    },
+    {
+      "persona": "brokerage",
+      "job": "Invoice fees and bank commissions from the case file and reconcile what has actually been paid"
+    }
+  ],
+  "personas": [
+    "lender-broker",
+    "agent-broker",
+    "legal-notary"
+  ],
+  "segments": [
+    "residential"
+  ],
+  "company_sizes": [
+    "solo",
+    "smb",
+    "midmarket"
+  ],
+  "pricing": {
+    "model": "subscription",
+    "public_pricing": false
+  },
+  "product": {
+    "api": true,
+    "open_source": false,
+    "mobile": [],
+    "languages": [
+      "fr"
+    ]
+  },
+  "alternatives": [
+    "eloa"
+  ],
+  "reviews": [],
+  "signals": {
+    "privacy": "https://www.crediteo.co/mentions-legales",
+    "site_languages": [
+      "fr"
+    ],
+    "checked_on": "2026-08-26"
+  },
+  "logo": {
+    "file": "logos/crediteo.png",
+    "source_url": "https://www.crediteo.co/wp-content/uploads/2020/05/favicon.png",
+    "fetched_on": "2026-08-29"
+  },
+  "sources": [
+    {
+      "url": "https://www.crediteo.co",
+      "note": "site éditeur"
+    },
+    {
+      "url": "https://www.crediteo.co/produit/",
+      "note": "site éditeur, page fonctionnalités"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-26"
+}

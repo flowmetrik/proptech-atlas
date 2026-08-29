@@ -1,0 +1,110 @@
+{
+  "slug": "vantaca",
+  "name": "Vantaca",
+  "editor": "Vantaca",
+  "website": "https://www.vantaca.com",
+  "hq_country": "US",
+  "markets": [
+    "US"
+  ],
+  "category": "syndic-copro",
+  "also_in": [
+    "back-office-accounting",
+    "ai-assistants"
+  ],
+  "positioning": "Community association management platform organised around coordinated workflows, with AI agents that carry out routine back-office work.",
+  "description": "Vantaca is a US platform for companies that manage homeowner and community associations. It combines a full accounting suite covering receivables, payables, budgeting and financial reporting with integrated banking and transaction matching, a business intelligence layer called Vantaca IQ for portfolio dashboards and benchmarking, and a revenue capture module for billing the services a management company performs. A set of AI agents branded HOAi runs inside the platform on resident support by email, chat, form and phone, on receivables, payables and financial reporting, and on community management work such as board packets, budgets, architectural review and violations.\n",
+  "real_estate_use": "A management company holding a portfolio of associations spends most of its day on work no one bills for: answering the same homeowner questions, chasing an invoice approval, assembling a board packet the week before a meeting. Vantaca is the system where that work is defined as a workflow rather than a habit, so a manager taking on ten more communities does not need ten more people. Its accounting side matters as much as its operations side, because association money is held per community and a discrepancy between the bank and the ledger has to surface before a board meeting, not after it. Firms come to it when their portfolio has outgrown a general property management tool that treats an association like a landlord.\n",
+  "features": [
+    "Accounting suite covering receivables, payables, budgeting and financial reporting",
+    "Integrated banking with transaction matching against the ledger",
+    "Configurable workflows per management company process",
+    "Vantaca IQ portfolio dashboards, performance tracking and industry benchmarking",
+    "Revenue Manager for billing the management company's own services",
+    "HOAi agents for resident support, accounting and community management tasks"
+  ],
+  "use_cases": [
+    {
+      "persona": "syndic-manager",
+      "job": "Run a portfolio of associations on one set of defined workflows instead of per-manager habits"
+    },
+    {
+      "persona": "property-manager",
+      "job": "Close the month on association books that reconcile against the bank"
+    }
+  ],
+  "personas": [
+    "syndic-manager",
+    "property-manager",
+    "landlord-owner"
+  ],
+  "segments": [
+    "residential",
+    "multifamily",
+    "mixed-use"
+  ],
+  "company_sizes": [
+    "smb",
+    "midmarket",
+    "enterprise"
+  ],
+  "pricing": {
+    "model": "quote",
+    "public_pricing": false
+  },
+  "ai": {
+    "capabilities": [
+      "Resident support agents answering email, chat, forms and phone",
+      "Automation of receivables, payables and financial reporting",
+      "Board packet, budget and violation preparation"
+    ]
+  },
+  "product": {
+    "api": false,
+    "open_source": false,
+    "mobile": [],
+    "languages": [
+      "en"
+    ]
+  },
+  "alternatives": [
+    "cinc-systems",
+    "frontsteps",
+    "condo-control",
+    "payhoa"
+  ],
+  "reviews": [],
+  "logo": {
+    "file": "logos/vantaca.png",
+    "source_url": "https://www.vantaca.com/hubfs/VantacaLogo-New-Final_Mark.png",
+    "fetched_on": "2026-08-29"
+  },
+  "signals": {
+    "security": "https://www.vantaca.com/security",
+    "privacy": "https://www.vantaca.com/privacy-policy",
+    "site_languages": [
+      "en"
+    ],
+    "checked_on": "2026-08-29"
+  },
+  "sources": [
+    {
+      "url": "https://www.vantaca.com/",
+      "note": "site éditeur, accueil"
+    },
+    {
+      "url": "https://www.vantaca.com/product",
+      "note": "page produit — modules et capacités"
+    },
+    {
+      "url": "https://www.vantaca.com/hoai",
+      "note": "page HOAi — agents IA"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-29"
+}
