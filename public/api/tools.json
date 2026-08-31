@@ -4,7 +4,7 @@
   "license": "CC-BY-4.0 (data) / MIT (code)",
   "homepage": "https://flowmetrik.github.io/proptech-atlas",
   "repository": "https://github.com/flowmetrik/proptech-atlas",
-  "generated": "2026-08-29",
+  "generated": "2026-08-31",
   "counts": {
     "tools": 188,
     "US": 110,
@@ -13,13 +13,13 @@
     "editors": 171,
     "verified": 0,
     "reviews": 0,
-    "logos": 183,
+    "logos": 185,
     "signals": {
-      "probed": 169,
+      "probed": 174,
       "public_pricing": 46,
       "api_docs": 12,
       "security_page": 24,
-      "privacy_page": 125,
+      "privacy_page": 129,
       "status_page": 50
     }
   },
@@ -1980,7 +1980,7 @@
       "slug": "bob-desk",
       "name": "BOB Desk",
       "editor": "BOB Desk",
-      "website": "https://www.bobdesk.fr",
+      "website": "https://bob-desk.com",
       "hq_country": "FR",
       "markets": [
         "FR"
@@ -2049,9 +2049,17 @@
         "servicechannel"
       ],
       "reviews": [],
+      "signals": {
+        "checked_on": "2026-08-31"
+      },
+      "logo": {
+        "file": "logos/bob-desk.png",
+        "source_url": "https://bob-desk.com/wp-content/uploads/2019/04/cropped-Bob-Desk-logo-favicon-1-1-180x180.jpg",
+        "fetched_on": "2026-08-31"
+      },
       "sources": [
         {
-          "url": "https://www.bobdesk.fr",
+          "url": "https://bob-desk.com",
           "note": "site éditeur"
         }
       ],
@@ -2060,7 +2068,7 @@
         "checked_on": null,
         "checked_by": null
       },
-      "updated": "2026-08-25"
+      "updated": "2026-08-31"
     },
     {
       "slug": "boldtrail",
@@ -7316,7 +7324,7 @@
       "slug": "hektor",
       "name": "Hektor",
       "editor": "La Boîte Immo",
-      "website": "https://www.laboiteimmo.com",
+      "website": "https://www.la-boite-immo.com",
       "hq_country": "FR",
       "markets": [
         "FR"
@@ -7395,9 +7403,16 @@
         "source_url": "https://icons.duckduckgo.com/ip3/laboiteimmo.com.ico",
         "fetched_on": "2026-08-25"
       },
+      "signals": {
+        "privacy": "https://www.la-boite-immo.com/mentions-legales",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-31"
+      },
       "sources": [
         {
-          "url": "https://www.laboiteimmo.com",
+          "url": "https://www.la-boite-immo.com",
           "note": "site éditeur"
         }
       ],
@@ -7406,7 +7421,7 @@
         "checked_on": null,
         "checked_by": null
       },
-      "updated": "2026-08-25"
+      "updated": "2026-08-31"
     },
     {
       "slug": "hemlane",
@@ -12336,7 +12351,7 @@
       "slug": "poliris",
       "name": "Poliris",
       "editor": "Poliris",
-      "website": "https://www.poliris.com",
+      "website": "https://realestate.orisha.com",
       "hq_country": "FR",
       "markets": [
         "FR"
@@ -12347,7 +12362,7 @@
         "agent-marketing"
       ],
       "positioning": "Software, website and distribution from one French vendor, with a long history in portal feed management.",
-      "description": "Poliris supplies French agencies with transaction software, agency websites and listing distribution to portals, historically as one of the main feed operators in the French market.\n",
+      "description": "Poliris supplies French agencies with transaction software, agency websites and listing distribution to portals, historically as one of the main feed operators in the French market. Its own domain no longer resolves and its former address redirects to Orisha Real Estate, where the Poliris name does not appear: whether the product still ships under this brand is unresolved.\n",
       "real_estate_use": "Its practical value to an agency is the same as Ubiflow's — one catalogue, many destinations — with the software and the site included rather than integrated. Agencies that do not want to assemble a stack from three vendors buy the whole chain here and accept the trade-off of less choice at each layer.\n",
       "features": [
         "Multi-portal listing distribution",
@@ -12404,18 +12419,29 @@
         "hektor"
       ],
       "reviews": [],
+      "signals": {
+        "privacy": "https://realestate.orisha.com/politique-gestion-donnees-personnelles",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-31"
+      },
       "sources": [
         {
-          "url": "https://www.poliris.com",
-          "note": "site éditeur"
+          "url": "https://realestate.orisha.com",
+          "note": "site de l'éditeur repreneur"
+        },
+        {
+          "url": "https://www.poliris.fr",
+          "note": "relevé le 2026-08-31 : poliris.com ne résout plus, poliris.fr redirige vers realestate.orisha.com, et le nom Poliris n'apparaît ni sur cet accueil ni dans ses sitemaps"
         }
       ],
       "verification": {
-        "status": "unverified",
-        "checked_on": null,
-        "checked_by": null
+        "status": "disputed",
+        "checked_on": "2026-08-31",
+        "checked_by": "proptech-scout"
       },
-      "updated": "2026-08-25"
+      "updated": "2026-08-31"
     },
     {
       "slug": "powimo",
@@ -14581,7 +14607,7 @@
       "slug": "salvia-developpement",
       "name": "Salvia Développement",
       "editor": "Salvia Software",
-      "website": "https://www.salvia-software.com",
+      "website": "https://www.salviadeveloppement.fr",
       "hq_country": "FR",
       "markets": [
         "FR"
@@ -14648,9 +14674,22 @@
         "kairnial"
       ],
       "reviews": [],
+      "signals": {
+        "privacy": "https://www.salviadeveloppement.fr/mentions-legales",
+        "site_languages": [
+          "en",
+          "fr"
+        ],
+        "checked_on": "2026-08-31"
+      },
+      "logo": {
+        "file": "logos/salvia-developpement.png",
+        "source_url": "https://www.salviadeveloppement.fr/wp-content/uploads/2019/01/favicon.png",
+        "fetched_on": "2026-08-31"
+      },
       "sources": [
         {
-          "url": "https://www.salvia-software.com",
+          "url": "https://www.salviadeveloppement.fr",
           "note": "site éditeur"
         }
       ],
@@ -14659,7 +14698,7 @@
         "checked_on": null,
         "checked_by": null
       },
-      "updated": "2026-08-25"
+      "updated": "2026-08-31"
     },
     {
       "slug": "seloger",
@@ -16865,7 +16904,7 @@
       "slug": "twimm",
       "name": "Twimm",
       "editor": "Twimm",
-      "website": "https://www.twimm.fr",
+      "website": "https://twipi-group.com/solution/twimm-la-gmao-experte-et-mobile-des-prestataires/",
       "hq_country": "FR",
       "markets": [
         "FR"
@@ -16938,9 +16977,18 @@
         "source_url": "https://icons.duckduckgo.com/ip3/twimm.fr.ico",
         "fetched_on": "2026-08-25"
       },
+      "signals": {
+        "privacy": "https://twipi-group.com/politique-de-confidentialite",
+        "site_languages": [
+          "en",
+          "es",
+          "fr"
+        ],
+        "checked_on": "2026-08-31"
+      },
       "sources": [
         {
-          "url": "https://www.twimm.fr",
+          "url": "https://twipi-group.com/solution/twimm-la-gmao-experte-et-mobile-des-prestataires/",
           "note": "site éditeur"
         }
       ],
@@ -16949,7 +16997,7 @@
         "checked_on": null,
         "checked_by": null
       },
-      "updated": "2026-08-25"
+      "updated": "2026-08-31"
     },
     {
       "slug": "ubiflow",

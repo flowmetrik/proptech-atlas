@@ -1371,7 +1371,7 @@
       "slug": "salvia-developpement",
       "name": "Salvia Développement",
       "editor": "Salvia Software",
-      "website": "https://www.salvia-software.com",
+      "website": "https://www.salviadeveloppement.fr",
       "hq_country": "FR",
       "markets": [
         "FR"
@@ -1438,9 +1438,22 @@
         "kairnial"
       ],
       "reviews": [],
+      "signals": {
+        "privacy": "https://www.salviadeveloppement.fr/mentions-legales",
+        "site_languages": [
+          "en",
+          "fr"
+        ],
+        "checked_on": "2026-08-31"
+      },
+      "logo": {
+        "file": "logos/salvia-developpement.png",
+        "source_url": "https://www.salviadeveloppement.fr/wp-content/uploads/2019/01/favicon.png",
+        "fetched_on": "2026-08-31"
+      },
       "sources": [
         {
-          "url": "https://www.salvia-software.com",
+          "url": "https://www.salviadeveloppement.fr",
           "note": "site éditeur"
         }
       ],
@@ -1449,7 +1462,7 @@
         "checked_on": null,
         "checked_by": null
       },
-      "updated": "2026-08-25"
+      "updated": "2026-08-31"
     },
     {
       "slug": "urbanease",

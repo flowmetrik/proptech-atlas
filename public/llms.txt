@@ -51,10 +51,10 @@ fait établi. Actuellement vérifiées : 0 / 188.
 **Les signaux sont machine-vérifiés.** Le bloc `signals` de chaque fiche a été établi en
 allant lire le site de l'éditeur à la date `checked_on`, et chaque signal porte l'URL qui
 l'établit. Un signal absent signifie « pas trouvé à cette date », jamais « n'existe pas ».
-Relevés : 169 outils · tarifs publics 46 · doc d'API 12 · page sécurité 24 · page confidentialité 125 · page d'état 50.
+Relevés : 174 outils · tarifs publics 46 · doc d'API 12 · page sécurité 24 · page confidentialité 129 · page d'état 50.
 
 **Les avis ne sont jamais inventés.** 0 agrégat(s) externe(s) daté(s) au
 catalogue. Une note sans URL de source et sans date de relevé est refusée par le validateur.
 
-**Les logos** viennent du site de l'éditeur (183 / 188), avec leur
+**Les logos** viennent du site de l'éditeur (185 / 188), avec leur
 URL d'origine et la date du relevé. Marques et logos appartiennent à leurs détenteurs.

@@ -1,7 +1,7 @@
 slug: twimm
 name: Twimm
 editor: Twimm
-website: https://www.twimm.fr
+website: https://twipi-group.com/solution/twimm-la-gmao-experte-et-mobile-des-prestataires/
 hq_country: FR
 markets: [FR]
 category: facility-maintenance
@@ -46,6 +46,10 @@ logo:
   file: logos/twimm.png
   source_url: https://icons.duckduckgo.com/ip3/twimm.fr.ico
   fetched_on: "2026-08-25"
-sources: [{ url: https://www.twimm.fr, note: site éditeur }]
+signals:
+  privacy: https://twipi-group.com/politique-de-confidentialite
+  site_languages: [en, es, fr]
+  checked_on: "2026-08-31"
+sources: [{ url: https://twipi-group.com/solution/twimm-la-gmao-experte-et-mobile-des-prestataires/, note: site éditeur }]
 verification: { status: unverified, checked_on: null, checked_by: null }
-updated: "2026-08-25"
+updated: "2026-08-31"

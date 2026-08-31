@@ -210,7 +210,7 @@
       "slug": "poliris",
       "name": "Poliris",
       "editor": "Poliris",
-      "website": "https://www.poliris.com",
+      "website": "https://realestate.orisha.com",
       "hq_country": "FR",
       "markets": [
         "FR"
@@ -221,7 +221,7 @@
         "agent-marketing"
       ],
       "positioning": "Software, website and distribution from one French vendor, with a long history in portal feed management.",
-      "description": "Poliris supplies French agencies with transaction software, agency websites and listing distribution to portals, historically as one of the main feed operators in the French market.\n",
+      "description": "Poliris supplies French agencies with transaction software, agency websites and listing distribution to portals, historically as one of the main feed operators in the French market. Its own domain no longer resolves and its former address redirects to Orisha Real Estate, where the Poliris name does not appear: whether the product still ships under this brand is unresolved.\n",
       "real_estate_use": "Its practical value to an agency is the same as Ubiflow's — one catalogue, many destinations — with the software and the site included rather than integrated. Agencies that do not want to assemble a stack from three vendors buy the whole chain here and accept the trade-off of less choice at each layer.\n",
       "features": [
         "Multi-portal listing distribution",
@@ -278,18 +278,29 @@
         "hektor"
       ],
       "reviews": [],
+      "signals": {
+        "privacy": "https://realestate.orisha.com/politique-gestion-donnees-personnelles",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-31"
+      },
       "sources": [
         {
-          "url": "https://www.poliris.com",
-          "note": "site éditeur"
+          "url": "https://realestate.orisha.com",
+          "note": "site de l'éditeur repreneur"
+        },
+        {
+          "url": "https://www.poliris.fr",
+          "note": "relevé le 2026-08-31 : poliris.com ne résout plus, poliris.fr redirige vers realestate.orisha.com, et le nom Poliris n'apparaît ni sur cet accueil ni dans ses sitemaps"
         }
       ],
       "verification": {
-        "status": "unverified",
-        "checked_on": null,
-        "checked_by": null
+        "status": "disputed",
+        "checked_on": "2026-08-31",
+        "checked_by": "proptech-scout"
       },
-      "updated": "2026-08-25"
+      "updated": "2026-08-31"
     },
     {
       "slug": "previsite",

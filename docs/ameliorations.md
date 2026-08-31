@@ -17,12 +17,17 @@ qu'une chose a été tentée vaut mieux que de la retenter.
   recoupé ». Vérifier veut dire ouvrir les sources, corriger ce qui a bougé,
   dater le contrôle. Commencer par les fiches les plus consultées une fois la
   mesure d'audience en place.
-- **Cinq outils sans logo** — `bob-desk`, `listhub`, `poliris`,
-  `salvia-developpement`, `urbanease`. Leur site résiste aux trois voies de
-  récupération.
-- **19 sites injoignables au sondage des signaux.** Voir s'ils bloquent tout
-  accès automatisé, ou si l'URL enregistrée est morte — le second cas est une
-  fiche à corriger.
+- **Deux outils sans logo** — `listhub` et `urbanease`. Leur site résiste aux
+  trois voies de récupération. Trois autres (`bob-desk`, `poliris`,
+  `salvia-developpement`) n'y résistaient pas : leur URL était morte, corrigée le
+  31/08. `poliris` reste sans logo par choix — voir l'entrée du 31/08.
+- **`logos.mjs` adopte une image décorative sans le dire.** Sur `poliris`, la
+  meilleure candidate du site repreneur était un export de diapositive
+  (`Diapositive1-1-300x300.jpeg`) : un dégradé de triangles, aucun logo. Le
+  fichier a été écarté à la main après l'avoir regardé. Rien dans la sortie ne
+  distinguait ce cas d'une vraie récupération — un contrôle de forme (image
+  quasi carrée, peu de couleurs dominantes, présence du nom en alt) rendrait la
+  passe sûre sans relecture humaine.
 - **Les avis restent à zéro.** G2, Capterra et Trustpilot renvoient `403`. Deux
   issues possibles : une clé d'API payante chez l'un d'eux, ou des contributions
   humaines sourcées. Ne jamais résoudre ce point en inventant.
@@ -81,6 +86,24 @@ qu'une chose a été tentée vaut mieux que de la retenter.
 ---
 
 ## Fait
+
+- **2026-08-31** — Sur les 19 sites qui échouaient au sondage des signaux, la
+  cause n'était pas la même pour tous, et le pipeline ne le disait pas :
+  `body()` renvoie `null` aussi bien sur un 403 que sur un domaine mort.
+  Sondage manuel : **14 répondent 403 ou 429** — Akamai, Cloudflare, CloudFront —
+  et leur URL est juste ; ce sont des portails qui refusent tout accès
+  automatisé, il n'y a rien à corriger. **5 échouaient au niveau réseau, et
+  c'étaient bien cinq fiches fausses** : `bobdesk.fr`, `poliris.com` et
+  `salvia-software.com` ne résolvent plus du tout, `laboiteimmo.com` sert un
+  certificat expiré et `twimm.fr` un certificat qui ne couvre pas son propre nom.
+  Corrigées vers `bob-desk.com`, `la-boite-immo.com`, `salviadeveloppement.fr` et
+  la page produit Twimm de `twipi-group.com`. Les cinq sont désormais sondées, et
+  trois logos manquants sont tombés d'eux-mêmes : la même URL morte causait les
+  deux pannes. `poliris` passe en `disputed` : son domaine ne résout plus, son
+  ancienne adresse redirige vers Orisha Real Estate, et le nom Poliris n'apparaît
+  ni sur cet accueil ni dans les sitemaps — la fiche est conservée, la question
+  posée. À retenir : un compteur d'échecs qui ne distingue pas « refuse les
+  robots » de « n'existe plus » cache des fiches fausses derrière du bruit.
 
 - **2026-08-31** — Le contrôle de fraîcheur des artefacts générés était rouge
   tous les jours, pour rien. `emit.mjs` datait ses sorties à l'horloge
