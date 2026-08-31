@@ -21,13 +21,11 @@ qu'une chose a été tentée vaut mieux que de la retenter.
   trois voies de récupération. Trois autres (`bob-desk`, `poliris`,
   `salvia-developpement`) n'y résistaient pas : leur URL était morte, corrigée le
   31/08. `poliris` reste sans logo par choix — voir l'entrée du 31/08.
-- **`logos.mjs` adopte une image décorative sans le dire.** Sur `poliris`, la
-  meilleure candidate du site repreneur était un export de diapositive
-  (`Diapositive1-1-300x300.jpeg`) : un dégradé de triangles, aucun logo. Le
-  fichier a été écarté à la main après l'avoir regardé. Rien dans la sortie ne
-  distinguait ce cas d'une vraie récupération — un contrôle de forme (image
-  quasi carrée, peu de couleurs dominantes, présence du nom en alt) rendrait la
-  passe sûre sans relecture humaine.
+- **`logos.mjs` ne sait toujours pas reconnaître un logo.** `data/logos-refuses.json`
+  fait maintenant tenir un refus humain d'une passe à l'autre, mais c'est un
+  pansement : il faut avoir vu le faux une fois pour l'écarter. Un contrôle de
+  forme automatique — image quasi carrée, peu de couleurs dominantes, nom du
+  produit dans l'attribut `alt` — écarterait le cas avant qu'un humain le voie.
 - **Les avis restent à zéro.** G2, Capterra et Trustpilot renvoient `403`. Deux
   issues possibles : une clé d'API payante chez l'un d'eux, ou des contributions
   humaines sourcées. Ne jamais résoudre ce point en inventant.
@@ -86,6 +84,16 @@ qu'une chose a été tentée vaut mieux que de la retenter.
 ---
 
 ## Fait
+
+- **2026-08-31** — Un logo écarté par un humain revenait à la passe suivante.
+  `logos.mjs` prend la meilleure image candidate d'un site, et « meilleure » ne
+  veut pas dire « c'est un logo » : sur `poliris`, c'était un export de
+  diapositive du repreneur, un dégradé de triangles. Supprimer le PNG ne servait
+  à rien, la passe d'après le reprenait à l'identique. `data/logos-refuses.json`
+  porte maintenant les refus, avec ce qui avait été récupéré et pourquoi ça
+  n'allait pas ; `--all` ne les contourne pas, parce qu'un jugement n'est pas un
+  cache. Le validateur a fait son travail dans la foulée : il a refusé la fiche
+  dont le bloc `logo` pointait sur un fichier supprimé.
 
 - **2026-08-31** — Sur les 19 sites qui échouaient au sondage des signaux, la
   cause n'était pas la même pour tous, et le pipeline ne le disait pas :

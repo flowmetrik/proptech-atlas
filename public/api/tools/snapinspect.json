@@ -1,0 +1,107 @@
+{
+  "slug": "snapinspect",
+  "name": "SnapInspect",
+  "editor": "SnapInspect",
+  "website": "https://www.snapinspect.com",
+  "hq_country": "NZ",
+  "markets": [
+    "US"
+  ],
+  "category": "diagnostics-compliance",
+  "also_in": [
+    "facility-maintenance"
+  ],
+  "positioning": "Property inspection app and software for property managers, real estate professionals and inspectors, online or offline.",
+  "description": "SnapInspect is a mobile and web application for recording property inspections. Inspectors capture photos and condition data on a phone or tablet, with or without a connection, and the platform assembles them into a report using a customisable template. It covers residential and commercial portfolios, and publishes an API and a set of integrations with property management systems.\n",
+  "real_estate_use": "A property manager running move-in, move-out and periodic inspections across a portfolio replaces a paper checklist and a camera roll with one pass on a phone: each room and item is scored, photographed and annotated on site, and the report leaves before the inspector does. The point of buying it is the report, not the checklist — turnaround between the visit and a document the owner or tenant can act on is what the manual process loses. Teams handling HUD-assisted multifamily use it to score units against the NSPIRE standard, which is the case where the inspection is a regulatory obligation rather than an internal habit.\n",
+  "features": [
+    "Mobile inspection capture with offline mode",
+    "Custom report builder and templates",
+    "Photo and video evidence attached per item",
+    "NSPIRE condition scoring for assisted housing",
+    "Multi-language report output",
+    "Public API and property management integrations"
+  ],
+  "use_cases": [
+    {
+      "persona": "property-manager",
+      "job": "Run move-in and move-out inspections and issue the report the same day"
+    },
+    {
+      "persona": "facility-manager",
+      "job": "Score units against a regulatory inspection standard and keep the evidence"
+    }
+  ],
+  "personas": [
+    "property-manager",
+    "facility-manager",
+    "landlord-owner"
+  ],
+  "segments": [
+    "residential",
+    "multifamily",
+    "office",
+    "coliving-student"
+  ],
+  "company_sizes": [
+    "smb",
+    "midmarket",
+    "enterprise"
+  ],
+  "pricing": {
+    "model": "subscription",
+    "public_pricing": false,
+    "url": "https://www.snapinspect.com/pricing/"
+  },
+  "ai": {
+    "capabilities": [
+      "Assisted inspection reporting"
+    ]
+  },
+  "product": {
+    "api": true,
+    "open_source": false,
+    "mobile": [
+      "ios",
+      "android"
+    ],
+    "languages": [
+      "en"
+    ]
+  },
+  "alternatives": [
+    "happyco",
+    "rentcheck",
+    "property-meld"
+  ],
+  "reviews": [],
+  "logo": {
+    "file": "logos/snapinspect.png",
+    "source_url": "https://d33tutyu1s983o.cloudfront.net/favicon/apple-icon-180x180.png",
+    "fetched_on": "2026-08-31"
+  },
+  "signals": {
+    "api_docs": "https://www.snapinspect.com/api-integration",
+    "privacy": "https://www.snapinspect.com/privacy-policy",
+    "site_languages": [
+      "en"
+    ],
+    "checked_on": "2026-08-31"
+  },
+  "sources": [
+    {
+      "url": "https://www.snapinspect.com",
+      "note": "site éditeur"
+    },
+    {
+      "url": "https://nz.linkedin.com/company/snapinspect",
+      "note": "siège en Nouvelle-Zélande, relevé le 2026-08-31 ; le site de l'éditeur ne publie pas d'adresse"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-31"
+}

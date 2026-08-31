@@ -6,21 +6,21 @@
   "repository": "https://github.com/flowmetrik/proptech-atlas",
   "generated": "2026-08-31",
   "counts": {
-    "tools": 188,
-    "US": 110,
-    "FR": 108,
+    "tools": 195,
+    "US": 114,
+    "FR": 111,
     "categories": 24,
-    "editors": 171,
+    "editors": 178,
     "verified": 0,
     "reviews": 0,
-    "logos": 185,
+    "logos": 192,
     "signals": {
-      "probed": 174,
-      "public_pricing": 46,
-      "api_docs": 12,
-      "security_page": 24,
-      "privacy_page": 129,
-      "status_page": 50
+      "probed": 181,
+      "public_pricing": 48,
+      "api_docs": 14,
+      "security_page": 25,
+      "privacy_page": 133,
+      "status_page": 52
     }
   },
   "tools": [
@@ -8309,6 +8309,101 @@
       "updated": "2026-08-25"
     },
     {
+      "slug": "immosign",
+      "name": "ImmoSign",
+      "editor": "MyLegitech",
+      "website": "https://immo-sign.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "transaction-management",
+      "also_in": [
+        "title-closing-legal"
+      ],
+      "positioning": "Rédaction, signature et envoi des contrats immobiliers pour agences, constructeurs et promoteurs, jusqu'aux mentions manuscrites.",
+      "description": "ImmoSign, published by MyLegitech, digitises the contract chain of a French real estate professional. Documents are assembled from generic or bespoke templates written by the vendor's legal team, signed electronically, sent by registered electronic mail, and recorded in electronic mandate registers. It handles the handwritten mentions that French law attaches to certain contracts, offers a signature tablet for signing in person, and exposes an API. It addresses agencies, home builders and developers rather than agencies alone.\n",
+      "real_estate_use": "The step that usually breaks a remote signature in France is the handwritten mention: a clause the signer must copy out by hand for the contract to hold. A generic e-signature tool does not produce it, so the file goes back to paper for one paragraph. ImmoSign covers that step, which is why builders and developers — whose CCMI and VEFA reservation contracts carry the heaviest mention requirements — appear alongside agencies on the product. The signature tablet exists for the same reason in reverse: some signatures still happen at the desk, and the office wants one archive rather than a scanner and a drive.\n",
+      "features": [
+        "Rédaction assistée à partir de trames juridiques",
+        "Signature électronique des actes et contrats",
+        "Mentions manuscrites électroniques",
+        "Registres électroniques des mandats",
+        "Recommandé électronique",
+        "Tablette de signature et API"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Faire signer un mandat à distance avec ses mentions manuscrites"
+        },
+        {
+          "persona": "developer-builder",
+          "job": "Digitaliser un contrat de réservation VEFA ou un CCMI"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage",
+        "developer-builder"
+      ],
+      "segments": [
+        "residential",
+        "land-development",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "mynotary",
+        "sinimo"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/immosign.png",
+        "source_url": "https://immo-sign.com/wp-content/uploads/2024/04/cropped-favicon-1-180x180.png",
+        "fetched_on": "2026-08-31"
+      },
+      "signals": {
+        "privacy": "https://immo-sign.com/mentions-legales-immosign",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-31"
+      },
+      "sources": [
+        {
+          "url": "https://immo-sign.com",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://immo-sign.com/mentions-legales/",
+          "note": "éditeur MYLEGITECH SAS, relevé le 2026-08-31"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-31"
+    },
+    {
       "slug": "innago",
       "name": "Innago",
       "editor": "Innago",
@@ -10945,6 +11040,99 @@
       "updated": "2026-08-25"
     },
     {
+      "slug": "mynotary",
+      "name": "MyNotary",
+      "editor": "MyNotary",
+      "website": "https://mynotary.fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "transaction-management",
+      "also_in": [
+        "title-closing-legal"
+      ],
+      "positioning": "Plateforme des contrats immobiliers : rédaction assistée, signature électronique et registres, pour l'agent qui n'est pas juriste.",
+      "description": "MyNotary assembles the legal and administrative paperwork of a French agency transaction. It generates contracts from maintained templates, sends them for electronic signature or registered electronic mail, keeps the statutory mandate and transaction registers in digital form, stores the files, and issues fee invoices. Around the software the vendor sells ALUR training and access to legal assistance. Per-user prices are published.\n",
+      "real_estate_use": "French agency work carries a legal burden the agent is not trained for: a mandate has to be numbered in a register, a compromis has to carry the right clauses for the situation, and an ALUR training obligation has to be met every year. The pitch is that the file is complete and error-free regardless of what the negotiator knows about law, because the templates carry the clauses and the register fills itself as contracts are issued. Agencies buy it when they realise their exposure sits in documents typed in a word processor and mandate numbers tracked in a spreadsheet. It connects to the agency software rather than replacing it — the listing and the contact stay upstream.\n",
+      "features": [
+        "Rédaction de contrats à partir de trames maintenues",
+        "Signature électronique et recommandé électronique",
+        "Registres numériques des mandats et des transactions",
+        "Stockage des pièces du dossier et collaboration",
+        "Émission des factures d'honoraires",
+        "Interconnexions avec les logiciels d'agence"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Produire un compromis complet sans compétence juridique"
+        },
+        {
+          "persona": "brokerage",
+          "job": "Tenir le registre des mandats sans saisie séparée"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage",
+        "legal-notary",
+        "developer-builder"
+      ],
+      "segments": [
+        "residential",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "per-seat",
+        "public_pricing": true,
+        "url": "https://mynotary.fr/tarifs"
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "sinimo",
+        "immosign",
+        "netty"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/mynotary.png",
+        "source_url": "https://mynotary.fr/wp-content/uploads/2021/06/cropped-favicon-180x180.png",
+        "fetched_on": "2026-08-31"
+      },
+      "signals": {
+        "pricing": "https://mynotary.fr/tarifs",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-31"
+      },
+      "sources": [
+        {
+          "url": "https://mynotary.fr",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-31"
+    },
+    {
       "slug": "netty",
       "name": "Netty",
       "editor": "Netty",
@@ -11044,6 +11232,109 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "netvendor",
+      "name": "NetVendor",
+      "editor": "NetVendor",
+      "website": "https://www.netvendor.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "facility-maintenance",
+      "also_in": [
+        "back-office-accounting"
+      ],
+      "positioning": "Vendor management for property operators: credentialing, compliance monitoring, contracts, competitive bidding and work execution.",
+      "description": "NetVendor manages the suppliers a property operator works with rather than the properties themselves. It collects and verifies vendor credentials, watches whether insurance and licences stay current, holds the contracts, runs competitive bidding on jobs, and tracks the work through to completion. Vendors hold their own side of the account, which is how the credential file stays current without the property team chasing it.\n",
+      "real_estate_use": "The recurring problem it solves is a maintenance job given to a contractor whose insurance has lapsed — a risk that surfaces only after something goes wrong. Here the credential check happens before the vendor is assignable, and expiry is monitored rather than remembered. Regional operators use the sourcing side when a turn has to start in a market where they have no approved contractor yet, and the bidding side when the same recurring job is being repriced across a portfolio. It sits next to a property management system rather than replacing it: the work order still lives upstream, the question of who is allowed to do the work lives here.\n",
+      "features": [
+        "Vendor credentialing and document verification",
+        "Continuous compliance and insurance expiry monitoring",
+        "Vendor sourcing from an existing network",
+        "Contract management with renewal tracking",
+        "Competitive project bidding",
+        "Maintenance and turn execution tracking"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Refuse a work assignment to any vendor whose credentials have lapsed"
+        },
+        {
+          "persona": "facility-manager",
+          "job": "Put a recurring job out to competitive bid across a portfolio"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "facility-manager",
+        "investor-am"
+      ],
+      "segments": [
+        "multifamily",
+        "residential",
+        "office",
+        "coliving-student"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Entrata"
+      ],
+      "ai": {
+        "capabilities": [
+          "Vendor matching",
+          "Compliance automation",
+          "Bid management"
+        ]
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "property-meld",
+        "servicechannel",
+        "corrigo"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/netvendor.png",
+        "source_url": "https://cdn.prod.website-files.com/6970ad188d024829eb349067/69e0a84d283ef2a8953c6720_NetVendor-webclip.png",
+        "fetched_on": "2026-08-31"
+      },
+      "signals": {
+        "privacy": "https://www.netvendor.com/privacy",
+        "status": "https://status.netvendor.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-31"
+      },
+      "sources": [
+        {
+          "url": "https://www.netvendor.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-31"
     },
     {
       "slug": "nexudus",
@@ -13094,6 +13385,118 @@
       "updated": "2026-08-25"
     },
     {
+      "slug": "property-inspect",
+      "name": "Property Inspect",
+      "editor": "Property Inspect",
+      "website": "https://propertyinspect.com",
+      "hq_country": "GB",
+      "markets": [
+        "US"
+      ],
+      "category": "diagnostics-compliance",
+      "also_in": [
+        "facility-maintenance"
+      ],
+      "positioning": "Inspection, reporting and compliance software that standardises how a portfolio is surveyed and how the evidence is kept.",
+      "description": "Property Inspect is a platform for conducting property inspections and turning them into signed-off reports. It carries a workflow engine, a mobile application, self-assessment forms sent to occupants, and an audit trail that records who inspected what and when. A white-label option and developer documentation let larger operators put it behind their own brand. Pricing is published in six currencies, and the vendor states it operates across more than fifty countries.\n",
+      "real_estate_use": "The situation it addresses is a team that inspects the same building types repeatedly and cannot show, months later, what was seen. Every inspector follows the same flow — property, checklist, evidence, actions, sign-off — so two people inspecting two blocks produce comparable documents rather than two personal formats. Block and facility managers reach for the compliance and audit-trail side: when a safety inspection has to be demonstrated to a third party, the value is the timestamped chain, not the checklist. Self-assessments push part of the work to the occupant, which is how portfolios with more units than inspectors keep a periodic cycle running.\n",
+      "features": [
+        "Standardised inspection workflows across teams",
+        "Mobile application with evidence capture",
+        "Compliance and audit trail per inspection",
+        "Actions and maintenance follow-up from findings",
+        "Self-assessment forms sent to occupants",
+        "White-label deployment and developer API"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Standardise inspections across several teams and portfolios"
+        },
+        {
+          "persona": "facility-manager",
+          "job": "Produce an auditable trail for a safety or compliance inspection"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "facility-manager",
+        "agent-broker",
+        "investor-am"
+      ],
+      "segments": [
+        "residential",
+        "multifamily",
+        "office",
+        "hospitality",
+        "coliving-student"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "per-seat",
+        "public_pricing": true,
+        "url": "https://propertyinspect.com/pricing/"
+      },
+      "ai": {
+        "capabilities": [
+          "Assisted inspection reporting"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "snapinspect",
+        "happyco",
+        "rentcheck"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/property-inspect.png",
+        "source_url": "https://cdn-ilecldf.nitrocdn.com/uJovPgHKSqRdmejdcucyMEITyxmHGLTK/assets/images/optimized/rev-bb65d0c/propertyinspect.com/wp-content/themes/pi-2026/assets/logo/brand-mark-dark.png",
+        "fetched_on": "2026-08-31"
+      },
+      "signals": {
+        "pricing": "https://propertyinspect.com/pricing",
+        "api_docs": "https://propertyinspect.com/developer",
+        "security": "https://propertyinspect.com/security",
+        "privacy": "https://propertyinspect.com/privacy",
+        "status": "https://status.propertyinspect.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-31"
+      },
+      "sources": [
+        {
+          "url": "https://propertyinspect.com",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://www.linkedin.com/company/property-inspect",
+          "note": "siège à Londres, relevé le 2026-08-31 ; le site de l'éditeur ne publie pas d'adresse"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-31"
+    },
+    {
       "slug": "property-meld",
       "name": "Property Meld",
       "editor": "Property Meld",
@@ -14512,6 +14915,108 @@
       "updated": "2026-08-25"
     },
     {
+      "slug": "respage",
+      "name": "Respage",
+      "editor": "Respage",
+      "website": "https://respage.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "agent-marketing",
+      "also_in": [
+        "crm-lead",
+        "ai-assistants"
+      ],
+      "positioning": "Lead generation, AI leasing and marketing operations built only for multifamily, from first search to renewal.",
+      "description": "Respage is a marketing and leasing platform aimed at apartment communities. It builds the property websites, runs the paid and organic acquisition around them — search, maps, social advertising, Google Business Profile — and answers the traffic that arrives with a chatbot and an AI leasing agent. A leasing CRM, review solicitation, reputation management, resident surveys and an events module sit on the same account.\n",
+      "real_estate_use": "A multifamily operator with a dozen communities usually buys a website vendor, an advertising agency, a chatbot and a reputation tool separately, then discovers that none of them share a lead. Respage is the argument for buying that chain from one place: the ad that produced the enquiry, the bot that answered it at ten at night and the CRM that carries it to a signed lease are the same system. The AI leasing piece is the part that decides the purchase for most teams — prospect volume arrives outside office hours and a leasing office of two people cannot answer it. Marketing agencies serving multifamily are the competition, not other software.\n",
+      "features": [
+        "Community websites built and hosted",
+        "AI leasing agent and prospect chatbot",
+        "Leasing CRM for prospect follow-up",
+        "Paid search, social advertising and SEO",
+        "Review solicitation and reputation management",
+        "Resident surveys and community events module"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Answer prospect enquiries outside leasing office hours"
+        },
+        {
+          "persona": "investor-am",
+          "job": "Run acquisition and leasing for several communities on one platform"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "investor-am",
+        "landlord-owner"
+      ],
+      "segments": [
+        "multifamily",
+        "residential",
+        "coliving-student"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Entrata"
+      ],
+      "ai": {
+        "capabilities": [
+          "AI leasing agent",
+          "Prospect chatbot",
+          "Marketing workflow automation"
+        ]
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "knock-crm",
+        "realgeeks",
+        "luxury-presence"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/respage.png",
+        "source_url": "https://arti-files.s3.us-east-1.amazonaws.com/respage/respage/assets/img/respage-site-icon-300x300.png",
+        "fetched_on": "2026-08-31"
+      },
+      "signals": {
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-31"
+      },
+      "sources": [
+        {
+          "url": "https://respage.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-31"
+    },
+    {
       "slug": "resware",
       "name": "ResWare",
       "editor": "Adeptive Software (Qualia)",
@@ -15503,6 +16008,113 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "snapinspect",
+      "name": "SnapInspect",
+      "editor": "SnapInspect",
+      "website": "https://www.snapinspect.com",
+      "hq_country": "NZ",
+      "markets": [
+        "US"
+      ],
+      "category": "diagnostics-compliance",
+      "also_in": [
+        "facility-maintenance"
+      ],
+      "positioning": "Property inspection app and software for property managers, real estate professionals and inspectors, online or offline.",
+      "description": "SnapInspect is a mobile and web application for recording property inspections. Inspectors capture photos and condition data on a phone or tablet, with or without a connection, and the platform assembles them into a report using a customisable template. It covers residential and commercial portfolios, and publishes an API and a set of integrations with property management systems.\n",
+      "real_estate_use": "A property manager running move-in, move-out and periodic inspections across a portfolio replaces a paper checklist and a camera roll with one pass on a phone: each room and item is scored, photographed and annotated on site, and the report leaves before the inspector does. The point of buying it is the report, not the checklist — turnaround between the visit and a document the owner or tenant can act on is what the manual process loses. Teams handling HUD-assisted multifamily use it to score units against the NSPIRE standard, which is the case where the inspection is a regulatory obligation rather than an internal habit.\n",
+      "features": [
+        "Mobile inspection capture with offline mode",
+        "Custom report builder and templates",
+        "Photo and video evidence attached per item",
+        "NSPIRE condition scoring for assisted housing",
+        "Multi-language report output",
+        "Public API and property management integrations"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Run move-in and move-out inspections and issue the report the same day"
+        },
+        {
+          "persona": "facility-manager",
+          "job": "Score units against a regulatory inspection standard and keep the evidence"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "facility-manager",
+        "landlord-owner"
+      ],
+      "segments": [
+        "residential",
+        "multifamily",
+        "office",
+        "coliving-student"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false,
+        "url": "https://www.snapinspect.com/pricing/"
+      },
+      "ai": {
+        "capabilities": [
+          "Assisted inspection reporting"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "happyco",
+        "rentcheck",
+        "property-meld"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/snapinspect.png",
+        "source_url": "https://d33tutyu1s983o.cloudfront.net/favicon/apple-icon-180x180.png",
+        "fetched_on": "2026-08-31"
+      },
+      "signals": {
+        "api_docs": "https://www.snapinspect.com/api-integration",
+        "privacy": "https://www.snapinspect.com/privacy-policy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-31"
+      },
+      "sources": [
+        {
+          "url": "https://www.snapinspect.com",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://nz.linkedin.com/company/snapinspect",
+          "note": "siège en Nouvelle-Zélande, relevé le 2026-08-31 ; le site de l'éditeur ne publie pas d'adresse"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-31"
     },
     {
       "slug": "snappt",
@@ -16989,6 +17601,95 @@
       "sources": [
         {
           "url": "https://twipi-group.com/solution/twimm-la-gmao-experte-et-mobile-des-prestataires/",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-31"
+    },
+    {
+      "slug": "twimmo",
+      "name": "Twimmo",
+      "editor": "Twimmo France",
+      "website": "https://www.twimmo.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "crm-lead",
+      "also_in": [
+        "agent-marketing",
+        "transaction-management"
+      ],
+      "positioning": "Logiciel d'agence, site internet et web marketing chez le même éditeur, avec un marché inter-agences pour partager les mandats.",
+      "description": "Twimmo sells a French agency three things from one account: the transaction software that carries listings, contacts and documents from mandate to signed deed, the agency website that publishes them, and the marketing services around it — referencing, social publishing, campaigns. A separate inter-agency marketplace lets subscribing agencies share mandates with each other. The vendor is a French company and states that support and hosting are in France.\n",
+      "real_estate_use": "An independent agency of two or three negotiators does not have the time to integrate a CRM, a website builder and a syndication tool, and Twimmo is built for exactly that refusal: one subscription, one interface, and the website updates itself from the software rather than from a second data entry. The inter-agency market is the differentiating piece — a small agency with a mandate outside its area can offer it to the network rather than let it expire, which is the informal arrangement that independents already run by telephone. Larger structures with a dedicated marketing function will find the marketing layer redundant with what they already buy.\n",
+      "features": [
+        "Gestion des mandats, biens et contacts",
+        "Génération automatique des documents jusqu'à la signature",
+        "Site internet d'agence alimenté par le logiciel",
+        "Publication des annonces sur les réseaux sociaux",
+        "Référencement et web marketing",
+        "Market inter-agences pour partager les mandats"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Tenir le fichier, le site et les annonces sans double saisie"
+        },
+        {
+          "persona": "brokerage",
+          "job": "Proposer un mandat hors secteur à d'autres agences du réseau"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage"
+      ],
+      "segments": [
+        "residential",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "netty",
+        "hektor",
+        "adapt-immo"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/twimmo.png",
+        "source_url": "https://www.twimmo.com/favicon.ico",
+        "fetched_on": "2026-08-31"
+      },
+      "signals": {
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-31"
+      },
+      "sources": [
+        {
+          "url": "https://www.twimmo.com",
           "note": "site éditeur"
         }
       ],

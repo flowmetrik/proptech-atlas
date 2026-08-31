@@ -1,0 +1,11 @@
+{
+  "_lisez_moi": "Logos écartés APRÈS avoir été regardés par un humain. logos.mjs récupère la meilleure image candidate d'un site ; il ne sait pas distinguer un logo d'un visuel décoratif, et sans cette liste il réadopte le même faux à chaque passe. Une entrée dit le slug, ce qui avait été récupéré, et pourquoi ça n'allait pas. `--all` ne la contourne pas : c'est un jugement, pas un cache.",
+  "refuses": [
+    {
+      "slug": "poliris",
+      "source_url": "https://realestate.orisha.com//app/uploads/2024/02/Diapositive1-1-300x300.jpeg",
+      "why": "export de diapositive du site repreneur — un dégradé de triangles, aucun logo. Le domaine propre de Poliris ne résout plus, il n'y a donc pas de source légitime.",
+      "on": "2026-08-31"
+    }
+  ]
+}

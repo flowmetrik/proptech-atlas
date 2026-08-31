@@ -25,6 +25,18 @@ if (!IM) {
 /** Lance ImageMagick, quelle que soit la génération installée. */
 const im = (kind, args) => run(IM[kind][0], [...IM[kind].slice(1), ...args]);
 const OUT = ensureDir(join(ROOT, 'public', 'logos'));
+
+// Les logos qu'un humain a regardés et refusés. Sans cette liste, la passe
+// suivante réadopte exactement la même image : `grab()` prend la meilleure
+// candidate du site, et « meilleure » ne veut pas dire « c'est un logo ». Sur
+// `poliris`, c'était un export de diapositive du repreneur. Un jugement humain
+// doit survivre à la passe qui l'a motivé — donc `--all` ne le contourne pas.
+const REFUSED = (() => {
+  const f = join(ROOT, 'data', 'logos-refuses.json');
+  if (!existsSync(f)) return new Map();
+  const { refuses = [] } = JSON.parse(readFileSync(f, 'utf8'));
+  return new Map(refuses.map((r) => [r.slug, r]));
+})();
 const args = process.argv.slice(2);
 const ALL = args.includes('--all');
 const ONLY = (args.find((a) => a.startsWith('--only'))?.split('=')[1] ??
@@ -109,6 +121,11 @@ function proxies(website) {
 }
 
 async function grab(tool) {
+  if (REFUSED.has(tool.slug)) {
+    const dest = join(OUT, `${tool.slug}.png`);
+    if (existsSync(dest)) unlinkSync(dest);
+    return { slug: tool.slug, status: 'refusé à la relecture' };
+  }
   const dest = join(OUT, `${tool.slug}.png`);
   // Un PNG présent dont la fiche ne dit rien est un orphelin : le fichier a été
   // récupéré lors d'une passe dont l'écriture du bloc `logo` ne s'est pas faite.

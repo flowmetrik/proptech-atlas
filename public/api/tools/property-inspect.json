@@ -1,0 +1,112 @@
+{
+  "slug": "property-inspect",
+  "name": "Property Inspect",
+  "editor": "Property Inspect",
+  "website": "https://propertyinspect.com",
+  "hq_country": "GB",
+  "markets": [
+    "US"
+  ],
+  "category": "diagnostics-compliance",
+  "also_in": [
+    "facility-maintenance"
+  ],
+  "positioning": "Inspection, reporting and compliance software that standardises how a portfolio is surveyed and how the evidence is kept.",
+  "description": "Property Inspect is a platform for conducting property inspections and turning them into signed-off reports. It carries a workflow engine, a mobile application, self-assessment forms sent to occupants, and an audit trail that records who inspected what and when. A white-label option and developer documentation let larger operators put it behind their own brand. Pricing is published in six currencies, and the vendor states it operates across more than fifty countries.\n",
+  "real_estate_use": "The situation it addresses is a team that inspects the same building types repeatedly and cannot show, months later, what was seen. Every inspector follows the same flow — property, checklist, evidence, actions, sign-off — so two people inspecting two blocks produce comparable documents rather than two personal formats. Block and facility managers reach for the compliance and audit-trail side: when a safety inspection has to be demonstrated to a third party, the value is the timestamped chain, not the checklist. Self-assessments push part of the work to the occupant, which is how portfolios with more units than inspectors keep a periodic cycle running.\n",
+  "features": [
+    "Standardised inspection workflows across teams",
+    "Mobile application with evidence capture",
+    "Compliance and audit trail per inspection",
+    "Actions and maintenance follow-up from findings",
+    "Self-assessment forms sent to occupants",
+    "White-label deployment and developer API"
+  ],
+  "use_cases": [
+    {
+      "persona": "property-manager",
+      "job": "Standardise inspections across several teams and portfolios"
+    },
+    {
+      "persona": "facility-manager",
+      "job": "Produce an auditable trail for a safety or compliance inspection"
+    }
+  ],
+  "personas": [
+    "property-manager",
+    "facility-manager",
+    "agent-broker",
+    "investor-am"
+  ],
+  "segments": [
+    "residential",
+    "multifamily",
+    "office",
+    "hospitality",
+    "coliving-student"
+  ],
+  "company_sizes": [
+    "smb",
+    "midmarket",
+    "enterprise"
+  ],
+  "pricing": {
+    "model": "per-seat",
+    "public_pricing": true,
+    "url": "https://propertyinspect.com/pricing/"
+  },
+  "ai": {
+    "capabilities": [
+      "Assisted inspection reporting"
+    ]
+  },
+  "product": {
+    "api": true,
+    "open_source": false,
+    "mobile": [
+      "ios",
+      "android"
+    ],
+    "languages": [
+      "en"
+    ]
+  },
+  "alternatives": [
+    "snapinspect",
+    "happyco",
+    "rentcheck"
+  ],
+  "reviews": [],
+  "logo": {
+    "file": "logos/property-inspect.png",
+    "source_url": "https://cdn-ilecldf.nitrocdn.com/uJovPgHKSqRdmejdcucyMEITyxmHGLTK/assets/images/optimized/rev-bb65d0c/propertyinspect.com/wp-content/themes/pi-2026/assets/logo/brand-mark-dark.png",
+    "fetched_on": "2026-08-31"
+  },
+  "signals": {
+    "pricing": "https://propertyinspect.com/pricing",
+    "api_docs": "https://propertyinspect.com/developer",
+    "security": "https://propertyinspect.com/security",
+    "privacy": "https://propertyinspect.com/privacy",
+    "status": "https://status.propertyinspect.com",
+    "site_languages": [
+      "en"
+    ],
+    "checked_on": "2026-08-31"
+  },
+  "sources": [
+    {
+      "url": "https://propertyinspect.com",
+      "note": "site éditeur"
+    },
+    {
+      "url": "https://www.linkedin.com/company/property-inspect",
+      "note": "siège à Londres, relevé le 2026-08-31 ; le site de l'éditeur ne publie pas d'adresse"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-31"
+}
