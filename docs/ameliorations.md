@@ -82,6 +82,19 @@ qu'une chose a été tentée vaut mieux que de la retenter.
 
 ## Fait
 
+- **2026-08-31** — Le contrôle de fraîcheur des artefacts générés était rouge
+  tous les jours, pour rien. `emit.mjs` datait ses sorties à l'horloge
+  (`new Date()`) : dès le lendemain d'une fusion, régénérer produisait un diff
+  d'une seule ligne de date sur `CATALOG.md` et les trois JSON de l'API, et la
+  CI, le contrôle de santé quotidien et la règle 4 du garde de fusion criaient
+  « artefacts périmés » sur un catalogue rigoureusement identique. Rouges depuis
+  le 30/08 pour cette unique raison — et le vrai signal de péremption, celui qui
+  compte, s'y noyait. Le tampon est maintenant **dérivé des données** : la plus
+  récente des dates `updated` et `signals.checked_on` des fiches. `emit.mjs` est
+  redevenu une fonction pure de son entrée, et sortie inchangée sur le contenu.
+  Même famille que la panne des images de partage du 28/08 : un artefact généré
+  qui bouge sans que la donnée bouge rend son propre contrôle inutilisable.
+
 - **2026-08-29** — Trois passes du chercheur dormaient dans des pull requests
   empilées, chacune servant de base à la suivante : la première non fusionnée
   bloquait les deux autres, et `main` avançant par ailleurs, aucune ne pouvait

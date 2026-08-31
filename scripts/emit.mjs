@@ -18,7 +18,18 @@ const tools = loadTools().map(({ file, ...t }) => t);
 const label = (kind, id) => tax[kind].find((x) => x.id === id) ?? { id, label_en: id, label_fr: id };
 const write = (p, obj) => writeFileSync(p, JSON.stringify(obj, null, 2) + '\n');
 
-const generated = new Date().toISOString().slice(0, 10);
+// Le tampon de date est DÉRIVÉ DES DONNÉES, jamais de l'horloge. Un artefact
+// généré doit être une fonction pure de son entrée : sinon le contrôle de
+// fraîcheur (CI, contrôle de santé quotidien, garde de fusion) vire au rouge
+// dès le lendemain d'une fusion, sur une seule ligne de date, et le vrai signal
+// de péremption se noie dans le faux. C'est arrivé : rouges depuis le
+// 2026-08-30 pour cette unique raison, corrigé le 2026-08-31.
+const ISO_DAY = /^\d{4}-\d{2}-\d{2}$/;
+const stamps = [
+  ...tools.map((t) => t.updated),
+  ...tools.map((t) => t.signals?.checked_on),
+].filter((d) => typeof d === 'string' && ISO_DAY.test(d));
+const generated = stamps.sort().at(-1) ?? new Date().toISOString().slice(0, 10);
 const meta = {
   name: 'PropTech Atlas',
   description: 'Open Product Knowledge Graph of real estate software — United States & France.',
