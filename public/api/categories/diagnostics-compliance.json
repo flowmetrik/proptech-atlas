@@ -4,7 +4,7 @@
   "label_fr": "Diagnostics & conformité",
   "summary_en": "Mandatory surveys, disclosures and regulatory files attached to a property.",
   "summary_fr": "Diagnostics obligatoires, informations acquéreur et dossiers réglementaires du bien.",
-  "count": 5,
+  "count": 7,
   "tools": [
     {
       "slug": "check-and-visit",
@@ -409,6 +409,225 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "property-inspect",
+      "name": "Property Inspect",
+      "editor": "Property Inspect",
+      "website": "https://propertyinspect.com",
+      "hq_country": "GB",
+      "markets": [
+        "US"
+      ],
+      "category": "diagnostics-compliance",
+      "also_in": [
+        "facility-maintenance"
+      ],
+      "positioning": "Inspection, reporting and compliance software that standardises how a portfolio is surveyed and how the evidence is kept.",
+      "description": "Property Inspect is a platform for conducting property inspections and turning them into signed-off reports. It carries a workflow engine, a mobile application, self-assessment forms sent to occupants, and an audit trail that records who inspected what and when. A white-label option and developer documentation let larger operators put it behind their own brand. Pricing is published in six currencies, and the vendor states it operates across more than fifty countries.\n",
+      "real_estate_use": "The situation it addresses is a team that inspects the same building types repeatedly and cannot show, months later, what was seen. Every inspector follows the same flow — property, checklist, evidence, actions, sign-off — so two people inspecting two blocks produce comparable documents rather than two personal formats. Block and facility managers reach for the compliance and audit-trail side: when a safety inspection has to be demonstrated to a third party, the value is the timestamped chain, not the checklist. Self-assessments push part of the work to the occupant, which is how portfolios with more units than inspectors keep a periodic cycle running.\n",
+      "features": [
+        "Standardised inspection workflows across teams",
+        "Mobile application with evidence capture",
+        "Compliance and audit trail per inspection",
+        "Actions and maintenance follow-up from findings",
+        "Self-assessment forms sent to occupants",
+        "White-label deployment and developer API"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Standardise inspections across several teams and portfolios"
+        },
+        {
+          "persona": "facility-manager",
+          "job": "Produce an auditable trail for a safety or compliance inspection"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "facility-manager",
+        "agent-broker",
+        "investor-am"
+      ],
+      "segments": [
+        "residential",
+        "multifamily",
+        "office",
+        "hospitality",
+        "coliving-student"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "per-seat",
+        "public_pricing": true,
+        "url": "https://propertyinspect.com/pricing/"
+      },
+      "ai": {
+        "capabilities": [
+          "Assisted inspection reporting"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "snapinspect",
+        "happyco",
+        "rentcheck"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/property-inspect.png",
+        "source_url": "https://cdn-ilecldf.nitrocdn.com/uJovPgHKSqRdmejdcucyMEITyxmHGLTK/assets/images/optimized/rev-bb65d0c/propertyinspect.com/wp-content/themes/pi-2026/assets/logo/brand-mark-dark.png",
+        "fetched_on": "2026-08-31"
+      },
+      "signals": {
+        "pricing": "https://propertyinspect.com/pricing",
+        "api_docs": "https://propertyinspect.com/developer",
+        "security": "https://propertyinspect.com/security",
+        "privacy": "https://propertyinspect.com/privacy",
+        "status": "https://status.propertyinspect.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-31"
+      },
+      "sources": [
+        {
+          "url": "https://propertyinspect.com",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://www.linkedin.com/company/property-inspect",
+          "note": "siège à Londres, relevé le 2026-08-31 ; le site de l'éditeur ne publie pas d'adresse"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-31"
+    },
+    {
+      "slug": "snapinspect",
+      "name": "SnapInspect",
+      "editor": "SnapInspect",
+      "website": "https://www.snapinspect.com",
+      "hq_country": "NZ",
+      "markets": [
+        "US"
+      ],
+      "category": "diagnostics-compliance",
+      "also_in": [
+        "facility-maintenance"
+      ],
+      "positioning": "Property inspection app and software for property managers, real estate professionals and inspectors, online or offline.",
+      "description": "SnapInspect is a mobile and web application for recording property inspections. Inspectors capture photos and condition data on a phone or tablet, with or without a connection, and the platform assembles them into a report using a customisable template. It covers residential and commercial portfolios, and publishes an API and a set of integrations with property management systems.\n",
+      "real_estate_use": "A property manager running move-in, move-out and periodic inspections across a portfolio replaces a paper checklist and a camera roll with one pass on a phone: each room and item is scored, photographed and annotated on site, and the report leaves before the inspector does. The point of buying it is the report, not the checklist — turnaround between the visit and a document the owner or tenant can act on is what the manual process loses. Teams handling HUD-assisted multifamily use it to score units against the NSPIRE standard, which is the case where the inspection is a regulatory obligation rather than an internal habit.\n",
+      "features": [
+        "Mobile inspection capture with offline mode",
+        "Custom report builder and templates",
+        "Photo and video evidence attached per item",
+        "NSPIRE condition scoring for assisted housing",
+        "Multi-language report output",
+        "Public API and property management integrations"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Run move-in and move-out inspections and issue the report the same day"
+        },
+        {
+          "persona": "facility-manager",
+          "job": "Score units against a regulatory inspection standard and keep the evidence"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "facility-manager",
+        "landlord-owner"
+      ],
+      "segments": [
+        "residential",
+        "multifamily",
+        "office",
+        "coliving-student"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false,
+        "url": "https://www.snapinspect.com/pricing/"
+      },
+      "ai": {
+        "capabilities": [
+          "Assisted inspection reporting"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "happyco",
+        "rentcheck",
+        "property-meld"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/snapinspect.png",
+        "source_url": "https://d33tutyu1s983o.cloudfront.net/favicon/apple-icon-180x180.png",
+        "fetched_on": "2026-08-31"
+      },
+      "signals": {
+        "api_docs": "https://www.snapinspect.com/api-integration",
+        "privacy": "https://www.snapinspect.com/privacy-policy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-31"
+      },
+      "sources": [
+        {
+          "url": "https://www.snapinspect.com",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://nz.linkedin.com/company/snapinspect",
+          "note": "siège en Nouvelle-Zélande, relevé le 2026-08-31 ; le site de l'éditeur ne publie pas d'adresse"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-31"
     },
     {
       "slug": "startloc",

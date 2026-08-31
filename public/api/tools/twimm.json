@@ -2,7 +2,7 @@
   "slug": "twimm",
   "name": "Twimm",
   "editor": "Twimm",
-  "website": "https://www.twimm.fr",
+  "website": "https://twipi-group.com/solution/twimm-la-gmao-experte-et-mobile-des-prestataires/",
   "hq_country": "FR",
   "markets": [
     "FR"
@@ -75,9 +75,18 @@
     "source_url": "https://icons.duckduckgo.com/ip3/twimm.fr.ico",
     "fetched_on": "2026-08-25"
   },
+  "signals": {
+    "privacy": "https://twipi-group.com/politique-de-confidentialite",
+    "site_languages": [
+      "en",
+      "es",
+      "fr"
+    ],
+    "checked_on": "2026-08-31"
+  },
   "sources": [
     {
-      "url": "https://www.twimm.fr",
+      "url": "https://twipi-group.com/solution/twimm-la-gmao-experte-et-mobile-des-prestataires/",
       "note": "site éditeur"
     }
   ],
@@ -86,5 +95,5 @@
     "checked_on": null,
     "checked_by": null
   },
-  "updated": "2026-08-25"
+  "updated": "2026-08-31"
 }

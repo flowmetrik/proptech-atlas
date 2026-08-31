@@ -17,12 +17,15 @@ qu'une chose a été tentée vaut mieux que de la retenter.
   recoupé ». Vérifier veut dire ouvrir les sources, corriger ce qui a bougé,
   dater le contrôle. Commencer par les fiches les plus consultées une fois la
   mesure d'audience en place.
-- **Cinq outils sans logo** — `bob-desk`, `listhub`, `poliris`,
-  `salvia-developpement`, `urbanease`. Leur site résiste aux trois voies de
-  récupération.
-- **19 sites injoignables au sondage des signaux.** Voir s'ils bloquent tout
-  accès automatisé, ou si l'URL enregistrée est morte — le second cas est une
-  fiche à corriger.
+- **Deux outils sans logo** — `listhub` et `urbanease`. Leur site résiste aux
+  trois voies de récupération. Trois autres (`bob-desk`, `poliris`,
+  `salvia-developpement`) n'y résistaient pas : leur URL était morte, corrigée le
+  31/08. `poliris` reste sans logo par choix — voir l'entrée du 31/08.
+- **`logos.mjs` ne sait toujours pas reconnaître un logo.** `data/logos-refuses.json`
+  fait maintenant tenir un refus humain d'une passe à l'autre, mais c'est un
+  pansement : il faut avoir vu le faux une fois pour l'écarter. Un contrôle de
+  forme automatique — image quasi carrée, peu de couleurs dominantes, nom du
+  produit dans l'attribut `alt` — écarterait le cas avant qu'un humain le voie.
 - **Les avis restent à zéro.** G2, Capterra et Trustpilot renvoient `403`. Deux
   issues possibles : une clé d'API payante chez l'un d'eux, ou des contributions
   humaines sourcées. Ne jamais résoudre ce point en inventant.
@@ -81,6 +84,47 @@ qu'une chose a été tentée vaut mieux que de la retenter.
 ---
 
 ## Fait
+
+- **2026-08-31** — Un logo écarté par un humain revenait à la passe suivante.
+  `logos.mjs` prend la meilleure image candidate d'un site, et « meilleure » ne
+  veut pas dire « c'est un logo » : sur `poliris`, c'était un export de
+  diapositive du repreneur, un dégradé de triangles. Supprimer le PNG ne servait
+  à rien, la passe d'après le reprenait à l'identique. `data/logos-refuses.json`
+  porte maintenant les refus, avec ce qui avait été récupéré et pourquoi ça
+  n'allait pas ; `--all` ne les contourne pas, parce qu'un jugement n'est pas un
+  cache. Le validateur a fait son travail dans la foulée : il a refusé la fiche
+  dont le bloc `logo` pointait sur un fichier supprimé.
+
+- **2026-08-31** — Sur les 19 sites qui échouaient au sondage des signaux, la
+  cause n'était pas la même pour tous, et le pipeline ne le disait pas :
+  `body()` renvoie `null` aussi bien sur un 403 que sur un domaine mort.
+  Sondage manuel : **14 répondent 403 ou 429** — Akamai, Cloudflare, CloudFront —
+  et leur URL est juste ; ce sont des portails qui refusent tout accès
+  automatisé, il n'y a rien à corriger. **5 échouaient au niveau réseau, et
+  c'étaient bien cinq fiches fausses** : `bobdesk.fr`, `poliris.com` et
+  `salvia-software.com` ne résolvent plus du tout, `laboiteimmo.com` sert un
+  certificat expiré et `twimm.fr` un certificat qui ne couvre pas son propre nom.
+  Corrigées vers `bob-desk.com`, `la-boite-immo.com`, `salviadeveloppement.fr` et
+  la page produit Twimm de `twipi-group.com`. Les cinq sont désormais sondées, et
+  trois logos manquants sont tombés d'eux-mêmes : la même URL morte causait les
+  deux pannes. `poliris` passe en `disputed` : son domaine ne résout plus, son
+  ancienne adresse redirige vers Orisha Real Estate, et le nom Poliris n'apparaît
+  ni sur cet accueil ni dans les sitemaps — la fiche est conservée, la question
+  posée. À retenir : un compteur d'échecs qui ne distingue pas « refuse les
+  robots » de « n'existe plus » cache des fiches fausses derrière du bruit.
+
+- **2026-08-31** — Le contrôle de fraîcheur des artefacts générés était rouge
+  tous les jours, pour rien. `emit.mjs` datait ses sorties à l'horloge
+  (`new Date()`) : dès le lendemain d'une fusion, régénérer produisait un diff
+  d'une seule ligne de date sur `CATALOG.md` et les trois JSON de l'API, et la
+  CI, le contrôle de santé quotidien et la règle 4 du garde de fusion criaient
+  « artefacts périmés » sur un catalogue rigoureusement identique. Rouges depuis
+  le 30/08 pour cette unique raison — et le vrai signal de péremption, celui qui
+  compte, s'y noyait. Le tampon est maintenant **dérivé des données** : la plus
+  récente des dates `updated` et `signals.checked_on` des fiches. `emit.mjs` est
+  redevenu une fonction pure de son entrée, et sortie inchangée sur le contenu.
+  Même famille que la panne des images de partage du 28/08 : un artefact généré
+  qui bouge sans que la donnée bouge rend son propre contrôle inutilisable.
 
 - **2026-08-29** — Trois passes du chercheur dormaient dans des pull requests
   empilées, chacune servant de base à la suivante : la première non fusionnée

@@ -1,7 +1,7 @@
 slug: poliris
 name: Poliris
 editor: Poliris
-website: https://www.poliris.com
+website: https://realestate.orisha.com
 hq_country: FR
 markets: [FR]
 category: listing-syndication
@@ -10,7 +10,9 @@ positioning: Software, website and distribution from one French vendor, with a l
 description: >
   Poliris supplies French agencies with transaction software, agency websites and listing
   distribution to portals, historically as one of the main feed operators in the French
-  market.
+  market. Its own domain no longer resolves and its former address redirects to Orisha Real
+  Estate, where the Poliris name does not appear: whether the product still ships under this
+  brand is unresolved.
 real_estate_use: >
   Its practical value to an agency is the same as Ubiflow's — one catalogue, many
   destinations — with the software and the site included rather than integrated. Agencies
@@ -42,6 +44,12 @@ product:
   languages: [fr]
 alternatives: [ubiflow, netty, hektor]
 reviews: []
-sources: [{ url: https://www.poliris.com, note: site éditeur }]
-verification: { status: unverified, checked_on: null, checked_by: null }
-updated: "2026-08-25"
+signals:
+  privacy: https://realestate.orisha.com/politique-gestion-donnees-personnelles
+  site_languages: [fr]
+  checked_on: "2026-08-31"
+sources:
+  - { url: https://realestate.orisha.com, note: site de l'éditeur repreneur }
+  - { url: https://www.poliris.fr, note: "relevé le 2026-08-31 : poliris.com ne résout plus, poliris.fr redirige vers realestate.orisha.com, et le nom Poliris n'apparaît ni sur cet accueil ni dans ses sitemaps" }
+verification: { status: disputed, checked_on: "2026-08-31", checked_by: proptech-scout }
+updated: "2026-08-31"

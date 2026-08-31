@@ -2,7 +2,7 @@
   "slug": "hektor",
   "name": "Hektor",
   "editor": "La Boîte Immo",
-  "website": "https://www.laboiteimmo.com",
+  "website": "https://www.la-boite-immo.com",
   "hq_country": "FR",
   "markets": [
     "FR"
@@ -81,9 +81,16 @@
     "source_url": "https://icons.duckduckgo.com/ip3/laboiteimmo.com.ico",
     "fetched_on": "2026-08-25"
   },
+  "signals": {
+    "privacy": "https://www.la-boite-immo.com/mentions-legales",
+    "site_languages": [
+      "fr"
+    ],
+    "checked_on": "2026-08-31"
+  },
   "sources": [
     {
-      "url": "https://www.laboiteimmo.com",
+      "url": "https://www.la-boite-immo.com",
       "note": "site éditeur"
     }
   ],
@@ -92,5 +99,5 @@
     "checked_on": null,
     "checked_by": null
   },
-  "updated": "2026-08-25"
+  "updated": "2026-08-31"
 }

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-25",
+  "generated": "2026-08-31",
   "candidates": [
     {
       "name": "Coprolib'",
@@ -121,6 +121,39 @@
       "website": "https://arc-copro.fr/recherche?query=Simply%20Syndic",
       "why": "URL de recherche, pas un site produit",
       "round": 0
+    },
+    {
+      "slug": "sinimo",
+      "name": "Sinimo",
+      "why": "déjà au catalogue ou en file"
+    },
+    {
+      "name": "Inspect2GO",
+      "slug": "inspect2go",
+      "editor": "Inspect2GO",
+      "website": "https://inspect2go.com",
+      "category": "diagnostics-compliance",
+      "markets": [
+        "US"
+      ],
+      "why": "hors périmètre : logiciel d'inspection sanitaire et de police du bâtiment vendu aux collectivités locales (hygiène alimentaire, piscines, assainissement), pas un outil de professionnel de l'immobilier",
+      "source_url": "https://inspect2go.com",
+      "found_in": "manuel",
+      "verified_on": "2026-08-31"
+    },
+    {
+      "name": "GoAudits",
+      "slug": "goaudits",
+      "editor": "GoAudits",
+      "website": "https://goaudits.com",
+      "category": "diagnostics-compliance",
+      "markets": [
+        "US"
+      ],
+      "why": "hors périmètre : plateforme d'audit multi-secteurs (hôtellerie, restauration, distribution, santé, industrie, logistique) ; l'inspection immobilière n'y est qu'une verticale sur douze",
+      "source_url": "https://goaudits.com",
+      "found_in": "manuel",
+      "verified_on": "2026-08-31"
     }
   ]
 }

@@ -1,0 +1,95 @@
+{
+  "slug": "immosign",
+  "name": "ImmoSign",
+  "editor": "MyLegitech",
+  "website": "https://immo-sign.com",
+  "hq_country": "FR",
+  "markets": [
+    "FR"
+  ],
+  "category": "transaction-management",
+  "also_in": [
+    "title-closing-legal"
+  ],
+  "positioning": "Rédaction, signature et envoi des contrats immobiliers pour agences, constructeurs et promoteurs, jusqu'aux mentions manuscrites.",
+  "description": "ImmoSign, published by MyLegitech, digitises the contract chain of a French real estate professional. Documents are assembled from generic or bespoke templates written by the vendor's legal team, signed electronically, sent by registered electronic mail, and recorded in electronic mandate registers. It handles the handwritten mentions that French law attaches to certain contracts, offers a signature tablet for signing in person, and exposes an API. It addresses agencies, home builders and developers rather than agencies alone.\n",
+  "real_estate_use": "The step that usually breaks a remote signature in France is the handwritten mention: a clause the signer must copy out by hand for the contract to hold. A generic e-signature tool does not produce it, so the file goes back to paper for one paragraph. ImmoSign covers that step, which is why builders and developers — whose CCMI and VEFA reservation contracts carry the heaviest mention requirements — appear alongside agencies on the product. The signature tablet exists for the same reason in reverse: some signatures still happen at the desk, and the office wants one archive rather than a scanner and a drive.\n",
+  "features": [
+    "Rédaction assistée à partir de trames juridiques",
+    "Signature électronique des actes et contrats",
+    "Mentions manuscrites électroniques",
+    "Registres électroniques des mandats",
+    "Recommandé électronique",
+    "Tablette de signature et API"
+  ],
+  "use_cases": [
+    {
+      "persona": "agent-broker",
+      "job": "Faire signer un mandat à distance avec ses mentions manuscrites"
+    },
+    {
+      "persona": "developer-builder",
+      "job": "Digitaliser un contrat de réservation VEFA ou un CCMI"
+    }
+  ],
+  "personas": [
+    "agent-broker",
+    "brokerage",
+    "developer-builder"
+  ],
+  "segments": [
+    "residential",
+    "land-development",
+    "mixed-use"
+  ],
+  "company_sizes": [
+    "solo",
+    "smb",
+    "midmarket"
+  ],
+  "pricing": {
+    "model": "subscription",
+    "public_pricing": false
+  },
+  "product": {
+    "api": true,
+    "open_source": false,
+    "mobile": [],
+    "languages": [
+      "fr"
+    ]
+  },
+  "alternatives": [
+    "mynotary",
+    "sinimo"
+  ],
+  "reviews": [],
+  "logo": {
+    "file": "logos/immosign.png",
+    "source_url": "https://immo-sign.com/wp-content/uploads/2024/04/cropped-favicon-1-180x180.png",
+    "fetched_on": "2026-08-31"
+  },
+  "signals": {
+    "privacy": "https://immo-sign.com/mentions-legales-immosign",
+    "site_languages": [
+      "en"
+    ],
+    "checked_on": "2026-08-31"
+  },
+  "sources": [
+    {
+      "url": "https://immo-sign.com",
+      "note": "site éditeur"
+    },
+    {
+      "url": "https://immo-sign.com/mentions-legales/",
+      "note": "éditeur MYLEGITECH SAS, relevé le 2026-08-31"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-08-31"
+}

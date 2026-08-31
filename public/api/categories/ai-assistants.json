@@ -4,7 +4,7 @@
   "label_fr": "Agents IA & automatisation",
   "summary_en": "LLM-native assistants that answer, qualify, draft and act on real estate work.",
   "summary_fr": "Assistants LLM qui répondent, qualifient, rédigent et agissent sur le métier.",
-  "count": 10,
+  "count": 11,
   "tools": [
     {
       "slug": "appfolio",
@@ -774,6 +774,108 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "respage",
+      "name": "Respage",
+      "editor": "Respage",
+      "website": "https://respage.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "agent-marketing",
+      "also_in": [
+        "crm-lead",
+        "ai-assistants"
+      ],
+      "positioning": "Lead generation, AI leasing and marketing operations built only for multifamily, from first search to renewal.",
+      "description": "Respage is a marketing and leasing platform aimed at apartment communities. It builds the property websites, runs the paid and organic acquisition around them — search, maps, social advertising, Google Business Profile — and answers the traffic that arrives with a chatbot and an AI leasing agent. A leasing CRM, review solicitation, reputation management, resident surveys and an events module sit on the same account.\n",
+      "real_estate_use": "A multifamily operator with a dozen communities usually buys a website vendor, an advertising agency, a chatbot and a reputation tool separately, then discovers that none of them share a lead. Respage is the argument for buying that chain from one place: the ad that produced the enquiry, the bot that answered it at ten at night and the CRM that carries it to a signed lease are the same system. The AI leasing piece is the part that decides the purchase for most teams — prospect volume arrives outside office hours and a leasing office of two people cannot answer it. Marketing agencies serving multifamily are the competition, not other software.\n",
+      "features": [
+        "Community websites built and hosted",
+        "AI leasing agent and prospect chatbot",
+        "Leasing CRM for prospect follow-up",
+        "Paid search, social advertising and SEO",
+        "Review solicitation and reputation management",
+        "Resident surveys and community events module"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Answer prospect enquiries outside leasing office hours"
+        },
+        {
+          "persona": "investor-am",
+          "job": "Run acquisition and leasing for several communities on one platform"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "investor-am",
+        "landlord-owner"
+      ],
+      "segments": [
+        "multifamily",
+        "residential",
+        "coliving-student"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Entrata"
+      ],
+      "ai": {
+        "capabilities": [
+          "AI leasing agent",
+          "Prospect chatbot",
+          "Marketing workflow automation"
+        ]
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "knock-crm",
+        "realgeeks",
+        "luxury-presence"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/respage.png",
+        "source_url": "https://arti-files.s3.us-east-1.amazonaws.com/respage/respage/assets/img/respage-site-icon-300x300.png",
+        "fetched_on": "2026-08-31"
+      },
+      "signals": {
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-31"
+      },
+      "sources": [
+        {
+          "url": "https://respage.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-31"
     },
     {
       "slug": "structurely",

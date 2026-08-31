@@ -1,7 +1,7 @@
 slug: salvia-developpement
 name: Salvia Développement
 editor: Salvia Software
-website: https://www.salvia-software.com
+website: https://www.salviadeveloppement.fr
 hq_country: FR
 markets: [FR]
 category: construction-development
@@ -43,6 +43,14 @@ product:
   languages: [fr]
 alternatives: [northspyre, kairnial]
 reviews: []
-sources: [{ url: https://www.salvia-software.com, note: site éditeur }]
+signals:
+  privacy: https://www.salviadeveloppement.fr/mentions-legales
+  site_languages: [en, fr]
+  checked_on: "2026-08-31"
+logo:
+  file: logos/salvia-developpement.png
+  source_url: https://www.salviadeveloppement.fr/wp-content/uploads/2019/01/favicon.png
+  fetched_on: "2026-08-31"
+sources: [{ url: https://www.salviadeveloppement.fr, note: site éditeur }]
 verification: { status: unverified, checked_on: null, checked_by: null }
-updated: "2026-08-25"
+updated: "2026-08-31"

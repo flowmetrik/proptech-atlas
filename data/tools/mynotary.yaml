@@ -1,0 +1,64 @@
+slug: mynotary
+name: MyNotary
+editor: MyNotary
+website: https://mynotary.fr
+hq_country: FR
+markets: [FR]
+category: transaction-management
+also_in: [title-closing-legal]
+positioning: "Plateforme des contrats immobiliers : rédaction assistée, signature électronique et registres, pour l'agent qui n'est pas juriste."
+description: >
+  MyNotary assembles the legal and administrative paperwork of a French agency
+  transaction. It generates contracts from maintained templates, sends them for
+  electronic signature or registered electronic mail, keeps the statutory mandate and
+  transaction registers in digital form, stores the files, and issues fee invoices.
+  Around the software the vendor sells ALUR training and access to legal assistance.
+  Per-user prices are published.
+real_estate_use: >
+  French agency work carries a legal burden the agent is not trained for: a mandate
+  has to be numbered in a register, a compromis has to carry the right clauses for the
+  situation, and an ALUR training obligation has to be met every year. The pitch is
+  that the file is complete and error-free regardless of what the negotiator knows
+  about law, because the templates carry the clauses and the register fills itself as
+  contracts are issued. Agencies buy it when they realise their exposure sits in
+  documents typed in a word processor and mandate numbers tracked in a spreadsheet. It
+  connects to the agency software rather than replacing it — the listing and the
+  contact stay upstream.
+features:
+  - Rédaction de contrats à partir de trames maintenues
+  - Signature électronique et recommandé électronique
+  - Registres numériques des mandats et des transactions
+  - Stockage des pièces du dossier et collaboration
+  - Émission des factures d'honoraires
+  - Interconnexions avec les logiciels d'agence
+use_cases:
+  - persona: agent-broker
+    job: Produire un compromis complet sans compétence juridique
+  - persona: brokerage
+    job: Tenir le registre des mandats sans saisie séparée
+personas: [agent-broker, brokerage, legal-notary, developer-builder]
+segments: [residential, mixed-use]
+company_sizes: [solo, smb, midmarket]
+pricing:
+  model: per-seat
+  public_pricing: true
+  url: https://mynotary.fr/tarifs
+product:
+  api: false
+  open_source: false
+  mobile: []
+  languages: [fr]
+alternatives: [sinimo, immosign, netty]
+reviews: []
+logo:
+  file: logos/mynotary.png
+  source_url: https://mynotary.fr/wp-content/uploads/2021/06/cropped-favicon-180x180.png
+  fetched_on: "2026-08-31"
+signals:
+  pricing: https://mynotary.fr/tarifs
+  site_languages: [fr]
+  checked_on: "2026-08-31"
+sources:
+  - { url: https://mynotary.fr, note: site éditeur }
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-31"

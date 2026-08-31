@@ -2,7 +2,7 @@
   "slug": "bob-desk",
   "name": "BOB Desk",
   "editor": "BOB Desk",
-  "website": "https://www.bobdesk.fr",
+  "website": "https://bob-desk.com",
   "hq_country": "FR",
   "markets": [
     "FR"
@@ -71,9 +71,17 @@
     "servicechannel"
   ],
   "reviews": [],
+  "signals": {
+    "checked_on": "2026-08-31"
+  },
+  "logo": {
+    "file": "logos/bob-desk.png",
+    "source_url": "https://bob-desk.com/wp-content/uploads/2019/04/cropped-Bob-Desk-logo-favicon-1-1-180x180.jpg",
+    "fetched_on": "2026-08-31"
+  },
   "sources": [
     {
-      "url": "https://www.bobdesk.fr",
+      "url": "https://bob-desk.com",
       "note": "site éditeur"
     }
   ],
@@ -82,5 +90,5 @@
     "checked_on": null,
     "checked_by": null
   },
-  "updated": "2026-08-25"
+  "updated": "2026-08-31"
 }

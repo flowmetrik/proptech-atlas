@@ -4,23 +4,23 @@
   "license": "CC-BY-4.0 (data) / MIT (code)",
   "homepage": "https://flowmetrik.github.io/proptech-atlas",
   "repository": "https://github.com/flowmetrik/proptech-atlas",
-  "generated": "2026-08-29",
+  "generated": "2026-08-31",
   "counts": {
-    "tools": 188,
-    "US": 110,
-    "FR": 108,
+    "tools": 195,
+    "US": 114,
+    "FR": 111,
     "categories": 24,
-    "editors": 171,
+    "editors": 178,
     "verified": 0,
     "reviews": 0,
-    "logos": 183,
+    "logos": 192,
     "signals": {
-      "probed": 169,
-      "public_pricing": 46,
-      "api_docs": 12,
-      "security_page": 24,
-      "privacy_page": 125,
-      "status_page": 50
+      "probed": 181,
+      "public_pricing": 48,
+      "api_docs": 14,
+      "security_page": 25,
+      "privacy_page": 133,
+      "status_page": 52
     }
   },
   "nodes": [
@@ -430,6 +430,11 @@
       "label": "Immopad"
     },
     {
+      "id": "tool:immosign",
+      "type": "tool",
+      "label": "ImmoSign"
+    },
+    {
       "id": "tool:innago",
       "type": "tool",
       "label": "Innago"
@@ -560,9 +565,19 @@
       "label": "MRI Software"
     },
     {
+      "id": "tool:mynotary",
+      "type": "tool",
+      "label": "MyNotary"
+    },
+    {
       "id": "tool:netty",
       "type": "tool",
       "label": "Netty"
+    },
+    {
+      "id": "tool:netvendor",
+      "type": "tool",
+      "label": "NetVendor"
     },
     {
       "id": "tool:nexudus",
@@ -665,6 +680,11 @@
       "label": "Procore"
     },
     {
+      "id": "tool:property-inspect",
+      "type": "tool",
+      "label": "Property Inspect"
+    },
+    {
       "id": "tool:property-meld",
       "type": "tool",
       "label": "Property Meld"
@@ -735,6 +755,11 @@
       "label": "Reonomy"
     },
     {
+      "id": "tool:respage",
+      "type": "tool",
+      "label": "Respage"
+    },
+    {
       "id": "tool:resware",
       "type": "tool",
       "label": "ResWare"
@@ -783,6 +808,11 @@
       "id": "tool:smily",
       "type": "tool",
       "label": "Smily"
+    },
+    {
+      "id": "tool:snapinspect",
+      "type": "tool",
+      "label": "SnapInspect"
     },
     {
       "id": "tool:snappt",
@@ -858,6 +888,11 @@
       "id": "tool:twimm",
       "type": "tool",
       "label": "Twimm"
+    },
+    {
+      "id": "tool:twimmo",
+      "type": "tool",
+      "label": "Twimmo"
     },
     {
       "id": "tool:ubiflow",
@@ -1585,6 +1620,11 @@
       "label": "Immopad"
     },
     {
+      "id": "editor:MyLegitech",
+      "type": "editor",
+      "label": "MyLegitech"
+    },
+    {
       "id": "editor:Innago",
       "type": "editor",
       "label": "Innago"
@@ -1690,9 +1730,19 @@
       "label": "MRI Software"
     },
     {
+      "id": "editor:MyNotary",
+      "type": "editor",
+      "label": "MyNotary"
+    },
+    {
       "id": "editor:Netty",
       "type": "editor",
       "label": "Netty"
+    },
+    {
+      "id": "editor:NetVendor",
+      "type": "editor",
+      "label": "NetVendor"
     },
     {
       "id": "editor:Nexudus",
@@ -1790,6 +1840,11 @@
       "label": "Procore Technologies"
     },
     {
+      "id": "editor:Property Inspect",
+      "type": "editor",
+      "label": "Property Inspect"
+    },
+    {
       "id": "editor:Property Meld",
       "type": "editor",
       "label": "Property Meld"
@@ -1850,6 +1905,11 @@
       "label": "RentSpree"
     },
     {
+      "id": "editor:Respage",
+      "type": "editor",
+      "label": "Respage"
+    },
+    {
       "id": "editor:Adeptive Software (Qualia)",
       "type": "editor",
       "label": "Adeptive Software (Qualia)"
@@ -1893,6 +1953,11 @@
       "id": "editor:Smily (formerly BookingSync)",
       "type": "editor",
       "label": "Smily (formerly BookingSync)"
+    },
+    {
+      "id": "editor:SnapInspect",
+      "type": "editor",
+      "label": "SnapInspect"
     },
     {
       "id": "editor:Snappt",
@@ -1968,6 +2033,11 @@
       "id": "editor:Twimm",
       "type": "editor",
       "label": "Twimm"
+    },
+    {
+      "id": "editor:Twimmo France",
+      "type": "editor",
+      "label": "Twimmo France"
     },
     {
       "id": "editor:Ubiflow",
@@ -7002,6 +7072,66 @@
       "to": "tool:check-and-visit"
     },
     {
+      "from": "tool:immosign",
+      "rel": "published_by",
+      "to": "editor:MyLegitech"
+    },
+    {
+      "from": "tool:immosign",
+      "rel": "belongs_to",
+      "to": "category:transaction-management"
+    },
+    {
+      "from": "tool:immosign",
+      "rel": "also_serves",
+      "to": "category:title-closing-legal"
+    },
+    {
+      "from": "tool:immosign",
+      "rel": "serves_persona",
+      "to": "persona:agent-broker"
+    },
+    {
+      "from": "tool:immosign",
+      "rel": "serves_persona",
+      "to": "persona:brokerage"
+    },
+    {
+      "from": "tool:immosign",
+      "rel": "serves_persona",
+      "to": "persona:developer-builder"
+    },
+    {
+      "from": "tool:immosign",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:immosign",
+      "rel": "covers_segment",
+      "to": "segment:land-development"
+    },
+    {
+      "from": "tool:immosign",
+      "rel": "covers_segment",
+      "to": "segment:mixed-use"
+    },
+    {
+      "from": "tool:immosign",
+      "rel": "available_in",
+      "to": "market:FR"
+    },
+    {
+      "from": "tool:immosign",
+      "rel": "alternative_to",
+      "to": "tool:mynotary"
+    },
+    {
+      "from": "tool:immosign",
+      "rel": "alternative_to",
+      "to": "tool:sinimo"
+    },
+    {
       "from": "tool:innago",
       "rel": "published_by",
       "to": "editor:Innago"
@@ -8612,6 +8742,71 @@
       "to": "tool:visual-lease"
     },
     {
+      "from": "tool:mynotary",
+      "rel": "published_by",
+      "to": "editor:MyNotary"
+    },
+    {
+      "from": "tool:mynotary",
+      "rel": "belongs_to",
+      "to": "category:transaction-management"
+    },
+    {
+      "from": "tool:mynotary",
+      "rel": "also_serves",
+      "to": "category:title-closing-legal"
+    },
+    {
+      "from": "tool:mynotary",
+      "rel": "serves_persona",
+      "to": "persona:agent-broker"
+    },
+    {
+      "from": "tool:mynotary",
+      "rel": "serves_persona",
+      "to": "persona:brokerage"
+    },
+    {
+      "from": "tool:mynotary",
+      "rel": "serves_persona",
+      "to": "persona:legal-notary"
+    },
+    {
+      "from": "tool:mynotary",
+      "rel": "serves_persona",
+      "to": "persona:developer-builder"
+    },
+    {
+      "from": "tool:mynotary",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:mynotary",
+      "rel": "covers_segment",
+      "to": "segment:mixed-use"
+    },
+    {
+      "from": "tool:mynotary",
+      "rel": "available_in",
+      "to": "market:FR"
+    },
+    {
+      "from": "tool:mynotary",
+      "rel": "alternative_to",
+      "to": "tool:sinimo"
+    },
+    {
+      "from": "tool:mynotary",
+      "rel": "alternative_to",
+      "to": "tool:immosign"
+    },
+    {
+      "from": "tool:mynotary",
+      "rel": "alternative_to",
+      "to": "tool:netty"
+    },
+    {
       "from": "tool:netty",
       "rel": "published_by",
       "to": "editor:Netty"
@@ -8675,6 +8870,76 @@
       "from": "tool:netty",
       "rel": "alternative_to",
       "to": "tool:immofacile"
+    },
+    {
+      "from": "tool:netvendor",
+      "rel": "published_by",
+      "to": "editor:NetVendor"
+    },
+    {
+      "from": "tool:netvendor",
+      "rel": "belongs_to",
+      "to": "category:facility-maintenance"
+    },
+    {
+      "from": "tool:netvendor",
+      "rel": "also_serves",
+      "to": "category:back-office-accounting"
+    },
+    {
+      "from": "tool:netvendor",
+      "rel": "serves_persona",
+      "to": "persona:property-manager"
+    },
+    {
+      "from": "tool:netvendor",
+      "rel": "serves_persona",
+      "to": "persona:facility-manager"
+    },
+    {
+      "from": "tool:netvendor",
+      "rel": "serves_persona",
+      "to": "persona:investor-am"
+    },
+    {
+      "from": "tool:netvendor",
+      "rel": "covers_segment",
+      "to": "segment:multifamily"
+    },
+    {
+      "from": "tool:netvendor",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:netvendor",
+      "rel": "covers_segment",
+      "to": "segment:office"
+    },
+    {
+      "from": "tool:netvendor",
+      "rel": "covers_segment",
+      "to": "segment:coliving-student"
+    },
+    {
+      "from": "tool:netvendor",
+      "rel": "available_in",
+      "to": "market:US"
+    },
+    {
+      "from": "tool:netvendor",
+      "rel": "alternative_to",
+      "to": "tool:property-meld"
+    },
+    {
+      "from": "tool:netvendor",
+      "rel": "alternative_to",
+      "to": "tool:servicechannel"
+    },
+    {
+      "from": "tool:netvendor",
+      "rel": "alternative_to",
+      "to": "tool:corrigo"
     },
     {
       "from": "tool:nexudus",
@@ -9887,6 +10152,86 @@
       "to": "tool:northspyre"
     },
     {
+      "from": "tool:property-inspect",
+      "rel": "published_by",
+      "to": "editor:Property Inspect"
+    },
+    {
+      "from": "tool:property-inspect",
+      "rel": "belongs_to",
+      "to": "category:diagnostics-compliance"
+    },
+    {
+      "from": "tool:property-inspect",
+      "rel": "also_serves",
+      "to": "category:facility-maintenance"
+    },
+    {
+      "from": "tool:property-inspect",
+      "rel": "serves_persona",
+      "to": "persona:property-manager"
+    },
+    {
+      "from": "tool:property-inspect",
+      "rel": "serves_persona",
+      "to": "persona:facility-manager"
+    },
+    {
+      "from": "tool:property-inspect",
+      "rel": "serves_persona",
+      "to": "persona:agent-broker"
+    },
+    {
+      "from": "tool:property-inspect",
+      "rel": "serves_persona",
+      "to": "persona:investor-am"
+    },
+    {
+      "from": "tool:property-inspect",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:property-inspect",
+      "rel": "covers_segment",
+      "to": "segment:multifamily"
+    },
+    {
+      "from": "tool:property-inspect",
+      "rel": "covers_segment",
+      "to": "segment:office"
+    },
+    {
+      "from": "tool:property-inspect",
+      "rel": "covers_segment",
+      "to": "segment:hospitality"
+    },
+    {
+      "from": "tool:property-inspect",
+      "rel": "covers_segment",
+      "to": "segment:coliving-student"
+    },
+    {
+      "from": "tool:property-inspect",
+      "rel": "available_in",
+      "to": "market:US"
+    },
+    {
+      "from": "tool:property-inspect",
+      "rel": "alternative_to",
+      "to": "tool:snapinspect"
+    },
+    {
+      "from": "tool:property-inspect",
+      "rel": "alternative_to",
+      "to": "tool:happyco"
+    },
+    {
+      "from": "tool:property-inspect",
+      "rel": "alternative_to",
+      "to": "tool:rentcheck"
+    },
+    {
       "from": "tool:property-meld",
       "rel": "published_by",
       "to": "editor:Property Meld"
@@ -10737,6 +11082,76 @@
       "to": "tool:crexi"
     },
     {
+      "from": "tool:respage",
+      "rel": "published_by",
+      "to": "editor:Respage"
+    },
+    {
+      "from": "tool:respage",
+      "rel": "belongs_to",
+      "to": "category:agent-marketing"
+    },
+    {
+      "from": "tool:respage",
+      "rel": "also_serves",
+      "to": "category:crm-lead"
+    },
+    {
+      "from": "tool:respage",
+      "rel": "also_serves",
+      "to": "category:ai-assistants"
+    },
+    {
+      "from": "tool:respage",
+      "rel": "serves_persona",
+      "to": "persona:property-manager"
+    },
+    {
+      "from": "tool:respage",
+      "rel": "serves_persona",
+      "to": "persona:investor-am"
+    },
+    {
+      "from": "tool:respage",
+      "rel": "serves_persona",
+      "to": "persona:landlord-owner"
+    },
+    {
+      "from": "tool:respage",
+      "rel": "covers_segment",
+      "to": "segment:multifamily"
+    },
+    {
+      "from": "tool:respage",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:respage",
+      "rel": "covers_segment",
+      "to": "segment:coliving-student"
+    },
+    {
+      "from": "tool:respage",
+      "rel": "available_in",
+      "to": "market:US"
+    },
+    {
+      "from": "tool:respage",
+      "rel": "alternative_to",
+      "to": "tool:knock-crm"
+    },
+    {
+      "from": "tool:respage",
+      "rel": "alternative_to",
+      "to": "tool:realgeeks"
+    },
+    {
+      "from": "tool:respage",
+      "rel": "alternative_to",
+      "to": "tool:luxury-presence"
+    },
+    {
       "from": "tool:resware",
       "rel": "published_by",
       "to": "editor:Adeptive Software (Qualia)"
@@ -11315,6 +11730,76 @@
       "from": "tool:smily",
       "rel": "alternative_to",
       "to": "tool:amenitiz"
+    },
+    {
+      "from": "tool:snapinspect",
+      "rel": "published_by",
+      "to": "editor:SnapInspect"
+    },
+    {
+      "from": "tool:snapinspect",
+      "rel": "belongs_to",
+      "to": "category:diagnostics-compliance"
+    },
+    {
+      "from": "tool:snapinspect",
+      "rel": "also_serves",
+      "to": "category:facility-maintenance"
+    },
+    {
+      "from": "tool:snapinspect",
+      "rel": "serves_persona",
+      "to": "persona:property-manager"
+    },
+    {
+      "from": "tool:snapinspect",
+      "rel": "serves_persona",
+      "to": "persona:facility-manager"
+    },
+    {
+      "from": "tool:snapinspect",
+      "rel": "serves_persona",
+      "to": "persona:landlord-owner"
+    },
+    {
+      "from": "tool:snapinspect",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:snapinspect",
+      "rel": "covers_segment",
+      "to": "segment:multifamily"
+    },
+    {
+      "from": "tool:snapinspect",
+      "rel": "covers_segment",
+      "to": "segment:office"
+    },
+    {
+      "from": "tool:snapinspect",
+      "rel": "covers_segment",
+      "to": "segment:coliving-student"
+    },
+    {
+      "from": "tool:snapinspect",
+      "rel": "available_in",
+      "to": "market:US"
+    },
+    {
+      "from": "tool:snapinspect",
+      "rel": "alternative_to",
+      "to": "tool:happyco"
+    },
+    {
+      "from": "tool:snapinspect",
+      "rel": "alternative_to",
+      "to": "tool:rentcheck"
+    },
+    {
+      "from": "tool:snapinspect",
+      "rel": "alternative_to",
+      "to": "tool:property-meld"
     },
     {
       "from": "tool:snappt",
@@ -12175,6 +12660,66 @@
       "from": "tool:twimm",
       "rel": "alternative_to",
       "to": "tool:corrigo"
+    },
+    {
+      "from": "tool:twimmo",
+      "rel": "published_by",
+      "to": "editor:Twimmo France"
+    },
+    {
+      "from": "tool:twimmo",
+      "rel": "belongs_to",
+      "to": "category:crm-lead"
+    },
+    {
+      "from": "tool:twimmo",
+      "rel": "also_serves",
+      "to": "category:agent-marketing"
+    },
+    {
+      "from": "tool:twimmo",
+      "rel": "also_serves",
+      "to": "category:transaction-management"
+    },
+    {
+      "from": "tool:twimmo",
+      "rel": "serves_persona",
+      "to": "persona:agent-broker"
+    },
+    {
+      "from": "tool:twimmo",
+      "rel": "serves_persona",
+      "to": "persona:brokerage"
+    },
+    {
+      "from": "tool:twimmo",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:twimmo",
+      "rel": "covers_segment",
+      "to": "segment:mixed-use"
+    },
+    {
+      "from": "tool:twimmo",
+      "rel": "available_in",
+      "to": "market:FR"
+    },
+    {
+      "from": "tool:twimmo",
+      "rel": "alternative_to",
+      "to": "tool:netty"
+    },
+    {
+      "from": "tool:twimmo",
+      "rel": "alternative_to",
+      "to": "tool:hektor"
+    },
+    {
+      "from": "tool:twimmo",
+      "rel": "alternative_to",
+      "to": "tool:adapt-immo"
     },
     {
       "from": "tool:ubiflow",

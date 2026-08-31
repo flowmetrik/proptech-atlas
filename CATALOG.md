@@ -2,7 +2,7 @@
 
 <!-- Généré par `npm run data:emit`. Ne pas éditer à la main : éditer `data/tools/*.yaml`. -->
 
-188 produits · 110 🇺🇸 · 108 🇫🇷 · mis à jour le 2026-08-29
+195 produits · 114 🇺🇸 · 111 🇫🇷 · mis à jour le 2026-08-31
 
 Version navigable : https://flowmetrik.github.io/proptech-atlas/explore
 
@@ -27,6 +27,7 @@ _Capter, qualifier et travailler les leads acquéreurs, vendeurs et locataires._
 | [Prospeneo](data/tools/prospeneo.yaml) | Facilogi | 🇫🇷 | A mandataire network has a structural problem an agency does not: several hundred independent agents, each with their own listings and contacts, who must be equipped identically and… |
 | [Sierra Interactive](data/tools/sierra-interactive.yaml) | Sierra Interactive | 🇺🇸 | Teams that treat their website as the lead source, not as a brochure, use Sierra to build hundreds of hyperlocal landing pages, capture registrations behind listing detail, and drop the… |
 | [SweepBright](data/tools/sweepbright.yaml) | SweepBright | 🇫🇷 | The design assumption is that the agent is never at a desk. Capturing the property during the valuation visit — rooms, photos, description — and publishing directly from the phone… |
+| [Twimmo](data/tools/twimmo.yaml) | Twimmo France | 🇫🇷 | An independent agency of two or three negotiators does not have the time to integrate a CRM, a website builder and a syndication tool, and Twimmo is built for exactly that refusal: one… |
 
 ## Gestion de transaction & closing · Transaction & closing management
 
@@ -35,7 +36,9 @@ _Piloter une vente de l'offre à l'acte — pièces, signature, conformité, com
 | Produit | Éditeur | Marchés | Usage en immobilier |
 |---|---|---|---|
 | [dotloop](data/tools/dotloop.yaml) | Zillow Group | 🇺🇸 | From accepted offer to closing, everything a state or association form requires lives in the loop. The agent edits a purchase agreement without leaving the browser, the buyer signs on a… |
+| [ImmoSign](data/tools/immosign.yaml) | MyLegitech | 🇫🇷 | The step that usually breaks a remote signature in France is the handwritten mention: a clause the signer must copy out by hand for the contract to hold. A generic e-signature tool does… |
 | [Lone Wolf Transactions](data/tools/lone-wolf-transactions.yaml) | Lone Wolf Technologies | 🇺🇸 | Because association distribution puts it in front of a very large share of US agents, it is often the default place a purchase agreement is drafted. A brokerage then layers broker review… |
+| [MyNotary](data/tools/mynotary.yaml) | MyNotary | 🇫🇷 | French agency work carries a legal burden the agent is not trained for: a mandate has to be numbered in a register, a compromis has to carry the right clauses for the situation, and an… |
 | [Sinimo](data/tools/sinimo.yaml) | Groupe REALTY | 🇫🇷 | A French agency cannot sell or let anything without a signed mandate, and the paperwork around it is codified: the Hoguet law imposes a numbered mandate register, the SRU law imposes a… |
 | [SkySlope](data/tools/skyslope.yaml) | SkySlope | 🇺🇸 | A brokerage with a legal obligation to retain complete files uses SkySlope to enforce what "complete" means. Each transaction type carries a required-document checklist, files route to a… |
 
@@ -97,6 +100,7 @@ _Sites, recherche IDX, marque et campagnes pour agents et agences._
 | [Luxury Presence](data/tools/luxury-presence.yaml) | Luxury Presence | 🇺🇸 | At the top of the market, a listing presentation is partly a credibility exercise: a seller with a seven-figure property judges the agent by the quality of their digital presence. Luxury… |
 | [Previsite](data/tools/previsite.yaml) | Previsite | 🇫🇷 | An independent agent who has just signed a mandate is expected to be photographer, videographer and community manager on top of the job itself. With Previsite they shoot the property on… |
 | [Real Geeks](data/tools/realgeeks.yaml) | Real Geeks (Fidelity National Financial) | 🇺🇸 | A solo agent or a two-to-five person team replaces a brochure website with a searchable IDX site, runs a small monthly ad budget through Real Geeks' managed campaigns, and lets the CRM… |
+| [Respage](data/tools/respage.yaml) | Respage | 🇺🇸 | A multifamily operator with a dozen communities usually buys a website vendor, an advertising agency, a chatbot and a reputation tool separately, then discovers that none of them share a… |
 
 ## Estimation, pige & valorisation · Valuation, pricing & farming
 
@@ -241,6 +245,7 @@ _Interventions, prestataires, équipements et maintenance préventive._
 | [Corrigo](data/tools/corrigo.yaml) | JLL Technologies | 🇺🇸 🇫🇷 | Its distinguishing feature in daily use is vendor scoring: response and completion performance is measured per provider, so dispatch can route to the contractor who actually shows up… |
 | [HappyCo](data/tools/happyco.yaml) | HappyCo | 🇺🇸 | A regional manager responsible for several thousand apartments cannot personally see the condition of any of them. Their onsite technicians run every inspection — move-in, move-out, life… |
 | [Limble CMMS](data/tools/limble.yaml) | Limble | 🇺🇸 | Most CMMS failures are adoption failures, not feature gaps. Limble competes on the implementation: QR codes on equipment so a technician scans rather than searches, a request portal that… |
+| [NetVendor](data/tools/netvendor.yaml) | NetVendor | 🇺🇸 | The recurring problem it solves is a maintenance job given to a contractor whose insurance has lapsed — a risk that surfaces only after something goes wrong. Here the credential check… |
 | [Property Meld](data/tools/property-meld.yaml) | Property Meld | 🇺🇸 | In residential management, maintenance is the largest source of complaints and the biggest drain on staff time — mostly spent as phone tag between a tenant, a vendor and an owner trying… |
 | [RentCheck](data/tools/rentcheck.yaml) | RentCheck | 🇺🇸 | A property management company adding doors hits a wall on inspections: scheduling visits, chasing tenants for access and driving between properties does not scale, so routine inspections… |
 | [ServiceChannel](data/tools/servicechannel.yaml) | Fortive | 🇺🇸 🇫🇷 | A retailer with four hundred stores has four hundred sets of local contractors and no consistent way to know whether a bill is fair. ServiceChannel standardises the workflow: a store… |
@@ -322,6 +327,8 @@ _Diagnostics obligatoires, informations acquéreur et dossiers réglementaires d
 | [Immopad](data/tools/immopad.yaml) | Immopad | 🇫🇷 | The état des lieux is the document a deposit dispute turns on, and a paper one written in ballpoint rarely survives it. Capturing room by room with dated photographs and an on-the-spot… |
 | [LICIEL](data/tools/liciel.yaml) | LICIEL Environnement | 🇫🇷 | No French property can be sold or let without its diagnostic file, and the DPE in particular now carries legal consequences — a G-rated dwelling cannot be let. The diagnostician's… |
 | [Preventimmo](data/tools/preventimmo.yaml) | Septeo | 🇫🇷 | A notary preparing a deed, or an agent taking a mandate, has to attach an état des risques that is both current and defensible — and the underlying planning and risk data changes at the… |
+| [Property Inspect](data/tools/property-inspect.yaml) | Property Inspect | 🇺🇸 | The situation it addresses is a team that inspects the same building types repeatedly and cannot show, months later, what was seen. Every inspector follows the same flow — property… |
+| [SnapInspect](data/tools/snapinspect.yaml) | SnapInspect | 🇺🇸 | A property manager running move-in, move-out and periodic inspections across a portfolio replaces a paper checklist and a camera roll with one pass on a phone: each room and item is… |
 | [Startloc](data/tools/startloc.yaml) | Startloc | 🇫🇷 | The private landlord doing their own inspection is exactly the person most exposed at exit, because their entry document is usually thin. A guided capture forces completeness — every… |
 
 ## Dossier locataire & garanties · Tenant screening & rent guarantee

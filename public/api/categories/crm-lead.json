@@ -4,7 +4,7 @@
   "label_fr": "CRM & gestion des leads",
   "summary_en": "Capture, qualify and nurture buyer, seller and tenant leads.",
   "summary_fr": "Capter, qualifier et travailler les leads acquéreurs, vendeurs et locataires.",
-  "count": 32,
+  "count": 34,
   "tools": [
     {
       "slug": "actelo",
@@ -933,7 +933,7 @@
       "slug": "hektor",
       "name": "Hektor",
       "editor": "La Boîte Immo",
-      "website": "https://www.laboiteimmo.com",
+      "website": "https://www.la-boite-immo.com",
       "hq_country": "FR",
       "markets": [
         "FR"
@@ -1012,9 +1012,16 @@
         "source_url": "https://icons.duckduckgo.com/ip3/laboiteimmo.com.ico",
         "fetched_on": "2026-08-25"
       },
+      "signals": {
+        "privacy": "https://www.la-boite-immo.com/mentions-legales",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-31"
+      },
       "sources": [
         {
-          "url": "https://www.laboiteimmo.com",
+          "url": "https://www.la-boite-immo.com",
           "note": "site éditeur"
         }
       ],
@@ -1023,7 +1030,7 @@
         "checked_on": null,
         "checked_by": null
       },
-      "updated": "2026-08-25"
+      "updated": "2026-08-31"
     },
     {
       "slug": "immofacile",
@@ -1957,7 +1964,7 @@
       "slug": "poliris",
       "name": "Poliris",
       "editor": "Poliris",
-      "website": "https://www.poliris.com",
+      "website": "https://realestate.orisha.com",
       "hq_country": "FR",
       "markets": [
         "FR"
@@ -1968,7 +1975,7 @@
         "agent-marketing"
       ],
       "positioning": "Software, website and distribution from one French vendor, with a long history in portal feed management.",
-      "description": "Poliris supplies French agencies with transaction software, agency websites and listing distribution to portals, historically as one of the main feed operators in the French market.\n",
+      "description": "Poliris supplies French agencies with transaction software, agency websites and listing distribution to portals, historically as one of the main feed operators in the French market. Its own domain no longer resolves and its former address redirects to Orisha Real Estate, where the Poliris name does not appear: whether the product still ships under this brand is unresolved.\n",
       "real_estate_use": "Its practical value to an agency is the same as Ubiflow's — one catalogue, many destinations — with the software and the site included rather than integrated. Agencies that do not want to assemble a stack from three vendors buy the whole chain here and accept the trade-off of less choice at each layer.\n",
       "features": [
         "Multi-portal listing distribution",
@@ -2025,18 +2032,29 @@
         "hektor"
       ],
       "reviews": [],
+      "signals": {
+        "privacy": "https://realestate.orisha.com/politique-gestion-donnees-personnelles",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-31"
+      },
       "sources": [
         {
-          "url": "https://www.poliris.com",
-          "note": "site éditeur"
+          "url": "https://realestate.orisha.com",
+          "note": "site de l'éditeur repreneur"
+        },
+        {
+          "url": "https://www.poliris.fr",
+          "note": "relevé le 2026-08-31 : poliris.com ne résout plus, poliris.fr redirige vers realestate.orisha.com, et le nom Poliris n'apparaît ni sur cet accueil ni dans ses sitemaps"
         }
       ],
       "verification": {
-        "status": "unverified",
-        "checked_on": null,
-        "checked_by": null
+        "status": "disputed",
+        "checked_on": "2026-08-31",
+        "checked_by": "proptech-scout"
       },
-      "updated": "2026-08-25"
+      "updated": "2026-08-31"
     },
     {
       "slug": "prospeneo",
@@ -2439,6 +2457,108 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "respage",
+      "name": "Respage",
+      "editor": "Respage",
+      "website": "https://respage.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "agent-marketing",
+      "also_in": [
+        "crm-lead",
+        "ai-assistants"
+      ],
+      "positioning": "Lead generation, AI leasing and marketing operations built only for multifamily, from first search to renewal.",
+      "description": "Respage is a marketing and leasing platform aimed at apartment communities. It builds the property websites, runs the paid and organic acquisition around them — search, maps, social advertising, Google Business Profile — and answers the traffic that arrives with a chatbot and an AI leasing agent. A leasing CRM, review solicitation, reputation management, resident surveys and an events module sit on the same account.\n",
+      "real_estate_use": "A multifamily operator with a dozen communities usually buys a website vendor, an advertising agency, a chatbot and a reputation tool separately, then discovers that none of them share a lead. Respage is the argument for buying that chain from one place: the ad that produced the enquiry, the bot that answered it at ten at night and the CRM that carries it to a signed lease are the same system. The AI leasing piece is the part that decides the purchase for most teams — prospect volume arrives outside office hours and a leasing office of two people cannot answer it. Marketing agencies serving multifamily are the competition, not other software.\n",
+      "features": [
+        "Community websites built and hosted",
+        "AI leasing agent and prospect chatbot",
+        "Leasing CRM for prospect follow-up",
+        "Paid search, social advertising and SEO",
+        "Review solicitation and reputation management",
+        "Resident surveys and community events module"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Answer prospect enquiries outside leasing office hours"
+        },
+        {
+          "persona": "investor-am",
+          "job": "Run acquisition and leasing for several communities on one platform"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "investor-am",
+        "landlord-owner"
+      ],
+      "segments": [
+        "multifamily",
+        "residential",
+        "coliving-student"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Entrata"
+      ],
+      "ai": {
+        "capabilities": [
+          "AI leasing agent",
+          "Prospect chatbot",
+          "Marketing workflow automation"
+        ]
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "knock-crm",
+        "realgeeks",
+        "luxury-presence"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/respage.png",
+        "source_url": "https://arti-files.s3.us-east-1.amazonaws.com/respage/respage/assets/img/respage-site-icon-300x300.png",
+        "fetched_on": "2026-08-31"
+      },
+      "signals": {
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-08-31"
+      },
+      "sources": [
+        {
+          "url": "https://respage.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-31"
     },
     {
       "slug": "seloger",
@@ -2957,6 +3077,95 @@
         "checked_by": null
       },
       "updated": "2026-08-26"
+    },
+    {
+      "slug": "twimmo",
+      "name": "Twimmo",
+      "editor": "Twimmo France",
+      "website": "https://www.twimmo.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "crm-lead",
+      "also_in": [
+        "agent-marketing",
+        "transaction-management"
+      ],
+      "positioning": "Logiciel d'agence, site internet et web marketing chez le même éditeur, avec un marché inter-agences pour partager les mandats.",
+      "description": "Twimmo sells a French agency three things from one account: the transaction software that carries listings, contacts and documents from mandate to signed deed, the agency website that publishes them, and the marketing services around it — referencing, social publishing, campaigns. A separate inter-agency marketplace lets subscribing agencies share mandates with each other. The vendor is a French company and states that support and hosting are in France.\n",
+      "real_estate_use": "An independent agency of two or three negotiators does not have the time to integrate a CRM, a website builder and a syndication tool, and Twimmo is built for exactly that refusal: one subscription, one interface, and the website updates itself from the software rather than from a second data entry. The inter-agency market is the differentiating piece — a small agency with a mandate outside its area can offer it to the network rather than let it expire, which is the informal arrangement that independents already run by telephone. Larger structures with a dedicated marketing function will find the marketing layer redundant with what they already buy.\n",
+      "features": [
+        "Gestion des mandats, biens et contacts",
+        "Génération automatique des documents jusqu'à la signature",
+        "Site internet d'agence alimenté par le logiciel",
+        "Publication des annonces sur les réseaux sociaux",
+        "Référencement et web marketing",
+        "Market inter-agences pour partager les mandats"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Tenir le fichier, le site et les annonces sans double saisie"
+        },
+        {
+          "persona": "brokerage",
+          "job": "Proposer un mandat hors secteur à d'autres agences du réseau"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage"
+      ],
+      "segments": [
+        "residential",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "netty",
+        "hektor",
+        "adapt-immo"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/twimmo.png",
+        "source_url": "https://www.twimmo.com/favicon.ico",
+        "fetched_on": "2026-08-31"
+      },
+      "signals": {
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-08-31"
+      },
+      "sources": [
+        {
+          "url": "https://www.twimmo.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-08-31"
     },
     {
       "slug": "urbanease",

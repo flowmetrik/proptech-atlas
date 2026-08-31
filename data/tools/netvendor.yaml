@@ -1,0 +1,66 @@
+slug: netvendor
+name: NetVendor
+editor: NetVendor
+website: https://www.netvendor.com
+hq_country: US
+markets: [US]
+category: facility-maintenance
+also_in: [back-office-accounting]
+positioning: "Vendor management for property operators: credentialing, compliance monitoring, contracts, competitive bidding and work execution."
+description: >
+  NetVendor manages the suppliers a property operator works with rather than the
+  properties themselves. It collects and verifies vendor credentials, watches whether
+  insurance and licences stay current, holds the contracts, runs competitive bidding
+  on jobs, and tracks the work through to completion. Vendors hold their own side of
+  the account, which is how the credential file stays current without the property
+  team chasing it.
+real_estate_use: >
+  The recurring problem it solves is a maintenance job given to a contractor whose
+  insurance has lapsed — a risk that surfaces only after something goes wrong. Here
+  the credential check happens before the vendor is assignable, and expiry is
+  monitored rather than remembered. Regional operators use the sourcing side when a
+  turn has to start in a market where they have no approved contractor yet, and the
+  bidding side when the same recurring job is being repriced across a portfolio. It
+  sits next to a property management system rather than replacing it: the work order
+  still lives upstream, the question of who is allowed to do the work lives here.
+features:
+  - Vendor credentialing and document verification
+  - Continuous compliance and insurance expiry monitoring
+  - Vendor sourcing from an existing network
+  - Contract management with renewal tracking
+  - Competitive project bidding
+  - Maintenance and turn execution tracking
+use_cases:
+  - persona: property-manager
+    job: Refuse a work assignment to any vendor whose credentials have lapsed
+  - persona: facility-manager
+    job: Put a recurring job out to competitive bid across a portfolio
+personas: [property-manager, facility-manager, investor-am]
+segments: [multifamily, residential, office, coliving-student]
+company_sizes: [midmarket, enterprise]
+pricing:
+  model: quote
+  public_pricing: false
+integrations: [Entrata]
+ai:
+  capabilities: [Vendor matching, Compliance automation, Bid management]
+product:
+  api: false
+  open_source: false
+  mobile: []
+  languages: [en]
+alternatives: [property-meld, servicechannel, corrigo]
+reviews: []
+logo:
+  file: logos/netvendor.png
+  source_url: https://cdn.prod.website-files.com/6970ad188d024829eb349067/69e0a84d283ef2a8953c6720_NetVendor-webclip.png
+  fetched_on: "2026-08-31"
+signals:
+  privacy: https://www.netvendor.com/privacy
+  status: https://status.netvendor.com
+  site_languages: [en]
+  checked_on: "2026-08-31"
+sources:
+  - { url: https://www.netvendor.com, note: site éditeur }
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-08-31"
