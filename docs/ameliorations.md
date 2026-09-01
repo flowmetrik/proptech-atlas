@@ -21,11 +21,19 @@ qu'une chose a été tentée vaut mieux que de la retenter.
   trois voies de récupération. Trois autres (`bob-desk`, `poliris`,
   `salvia-developpement`) n'y résistaient pas : leur URL était morte, corrigée le
   31/08. `poliris` reste sans logo par choix — voir l'entrée du 31/08.
-- **`logos.mjs` ne sait toujours pas reconnaître un logo.** `data/logos-refuses.json`
-  fait maintenant tenir un refus humain d'une passe à l'autre, mais c'est un
-  pansement : il faut avoir vu le faux une fois pour l'écarter. Un contrôle de
-  forme automatique — image quasi carrée, peu de couleurs dominantes, nom du
-  produit dans l'attribut `alt` — écarterait le cas avant qu'un humain le voie.
+- **`verify.mjs` ne voit pas un domaine reconverti.** Il contrôle que le site
+  répond et que le nom figure sur l'accueil ; un domaine dont le produit est mort
+  et qui sert maintenant un blog de contenu passe les deux. Vu le 01/09 sur
+  `cowork.io`, présenté par la presse comme un SaaS de gestion de coworking et
+  devenu un blog signé d'un seul auteur, sans trace du produit. Le signal qui
+  l'aurait trahi : aucune page tarif, aucune page fonctionnalités, aucun lien de
+  connexion. À ajouter comme avertissement, pas comme rejet — c'est un jugement.
+- **`logos.mjs` ne sait toujours pas reconnaître un logo.** Deux garde-fous
+  existent désormais : `data/logos-refuses.json` fait tenir un refus humain d'une
+  passe à l'autre, et depuis le 01/09 un aplat d'une seule couleur est rejeté
+  automatiquement. Reste le cas difficile, celui de `poliris` : une image
+  parfaitement valide qui n'est simplement pas le logo. Le nom du produit dans
+  l'attribut `alt` de l'image candidate serait le prochain signal à exploiter.
 - **Les avis restent à zéro.** G2, Capterra et Trustpilot renvoient `403`. Deux
   issues possibles : une clé d'API payante chez l'un d'eux, ou des contributions
   humaines sourcées. Ne jamais résoudre ce point en inventant.
@@ -33,12 +41,33 @@ qu'une chose a été tentée vaut mieux que de la retenter.
 ## Ouvert — couverture
 
 - **Catégories creuses**, à traiter par une source ciblée plutôt que par une
-  ronde généraliste : `listing-syndication` (2 FR, 0 US), `agent-marketing`
-  (0 FR), `lending-mortgage` (0 FR au départ), `transaction-management` (0 FR).
+  ronde généraliste. Relevé au 01/09, en US/FR/total : `flex-coworking` 4/8/8,
+  `lending-mortgage` 3/3/6, `listing-syndication` 3/5/8, `commercial-am` 6/6/7,
+  `visuals-tours` 3/6/6. Par marché, deux trous nets : `ai-assistants` n'a que
+  **2 fiches françaises** contre 10 américaines, et `diagnostics-compliance` que
+  **2 américaines** contre 5 françaises. Les chiffres de ce carnet vieillissent
+  vite : les recompter avant de choisir, pas les lire.
+
+  ```bash
+  node --input-type=module -e "import fs from 'node:fs';import yaml from 'js-yaml';\
+  const t=fs.readdirSync('data/tools').filter(f=>f.endsWith('.yaml')&&!f.startsWith('_'))\
+  .map(f=>yaml.load(fs.readFileSync('data/tools/'+f,'utf8')));\
+  for(const c of yaml.load(fs.readFileSync('data/taxonomy.yaml','utf8')).categories){\
+  const i=t.filter(x=>x.category===c.id||(x.also_in||[]).includes(c.id));\
+  console.log(String(i.length).padStart(3),c.id,'US',i.filter(x=>x.markets.includes('US')).length,\
+  'FR',i.filter(x=>x.markets.includes('FR')).length);}"
+  ```
 - **Le marché français reste le gisement.** Les éditeurs français ne se
   référencent pas en anglais : c'est là que ce catalogue est seul.
 - **Sources jamais balayées** — voir `data/sweeps.json`. Une source sans entrée
   n'a jamais été vue. Dix sources sur 46 ont été vues au moins une fois.
+- **`data/sweeps.json` ne connaît que les passes automatiques.** Il est écrit par
+  `sweep.mjs` ; une passe d'agent qui cherche lui-même, la voie recommandée
+  depuis que la découverte par modèle coûte, n'y laisse aucune trace. Une source
+  réellement travaillée à la main y reste donc « jamais vue » pour toujours, et
+  le rendement mesuré ne parle que de la moitié du travail. Ne pas la remplir à
+  la main pour autant : ce serait mélanger une mesure et une déclaration. Il faut
+  soit un champ distinct pour la passe manuelle, soit une commande qui l'écrive.
 - **Les sources `association` ne rendent plus rien, des deux côtés de
   l'Atlantique.** `unis-partenaires`, `fnaim-partenaires` et
   `laboiteimmo-partenaires` étaient muettes ou en 404 le 26/08 ; le 29/08,
@@ -58,9 +87,6 @@ qu'une chose a été tentée vaut mieux que de la retenter.
 - **Comparaison deux à deux.** Une page « X vs Y » pour les paires réellement
   concurrentes. Fort en référencement, mais **risque de contenu creux** : à ne
   faire que si la page dit ce qui sépare vraiment les deux produits.
-- **Filtre sur les signaux dans l'explorateur** — « seulement ceux qui publient
-  leurs tarifs », « seulement ceux qui ont une API documentée ». La donnée
-  existe déjà, elle n'est pas encore filtrable.
 - **Un flux des nouveautés.** `/api/changes.json` : ce qui a été ajouté ou
   modifié depuis N jours, pour qu'un consommateur de l'API n'ait pas à tout
   retélécharger.
@@ -84,6 +110,36 @@ qu'une chose a été tentée vaut mieux que de la retenter.
 ---
 
 ## Fait
+
+- **2026-09-01** — Deux fiches affichaient un **carré blanc** en guise de logo,
+  et rien ne le disait. `dollydesk` venait d'être récupéré, `pricehubble` datait
+  du 25/08 et servait ce vide depuis. La cause n'est pas dans le catalogue : la
+  source est un SVG, ImageMagick n'a pas son délégué `rsvg-convert` sur cette
+  machine, et **il rend un aplat au lieu d'échouer** — à la bonne taille, au bon
+  poids, donc invisible au contrôle de dimensions comme à celui de poids de
+  fichier (`> 400` octets ; le faux en pesait 419). Même famille que la panne du
+  28/08 : un binaire d'image qui manque et une chaîne qui continue comme si de
+  rien n'était. Le contrôle ajouté rogne le transparent puis compte les couleurs
+  restantes : un aplat en a une, un glyphe monochrome sur fond transparent en a
+  deux. Passé sur les 198 logos du catalogue, il trouve exactement ces deux-là et
+  aucun faux positif. Les deux ont été repris et portent maintenant un vrai logo.
+  À retenir : un rendu d'image qui échoue en produisant quelque chose de valide
+  ne se voit qu'à l'œil — il faut un test qui interroge le **contenu**, pas la
+  forme du fichier.
+
+- **2026-09-01** — Les signaux étaient relevés, datés, prouvés par une URL… et
+  invisibles à qui cherche. L'explorateur ne savait filtrer que sur ce que la
+  fiche **raconte** (catégorie, persona, taille) et pas sur ce que la machine a
+  **constaté**. Cinq cases s'ajoutent sous « Verified signals » : publie ses
+  tarifs (48), API documentée (14), page sécurité (25), page confidentialité
+  (133), page d'état (52). Au passage, les trois drapeaux existants cessent
+  d'être écrits à trois endroits — liste déclarée une fois, transportée jusqu'au
+  script par `data-flags` sur le conteneur : ajouter un drapeau ne demande plus
+  de toucher au JavaScript. Une note sous le titre dit ce qu'une case vide veut
+  dire, parce que « pas trouvé le 27/08 » et « n'existe pas » ne sont pas la
+  même information et que l'interface, seule, laisse lire la seconde. Vérifié au
+  navigateur : compteurs, état porté par l'URL, rechargement, croisement avec
+  les facettes, remise à zéro.
 
 - **2026-08-31** — Un logo écarté par un humain revenait à la passe suivante.
   `logos.mjs` prend la meilleure image candidate d'un site, et « meilleure » ne
