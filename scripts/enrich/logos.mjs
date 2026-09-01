@@ -91,6 +91,24 @@ async function html(website, { viaFirecrawl = false } = {}) {
   return null;
 }
 
+/** Une image dont TOUT le contenu visible est d'une seule couleur ne porte aucune
+ *  forme : c'est un carré plein, pas un logo. Le cas arrive sans un mot dès que
+ *  la source est un SVG et que le délégué `rsvg-convert` manque — ImageMagick
+ *  rend alors un aplat au lieu d'échouer, à la bonne taille et au bon poids, si
+ *  bien que ni le contrôle de dimensions ni celui de taille de fichier ne le
+ *  voient. On rogne le transparent, puis on compte les couleurs restantes : un
+ *  glyphe monochrome sur fond transparent en garde deux, un aplat une seule.
+ *  Mesuré sur les 198 logos du catalogue : deux positifs, tous deux réellement
+ *  blancs, aucun faux. */
+async function isBlank(png) {
+  try {
+    const { stdout } = await im('convert', [png, '-trim', '+repage', '-format', '%k', 'info:']);
+    return parseInt(stdout.trim(), 10) <= 1;
+  } catch {
+    return false;   // rognage impossible : on ne condamne pas sur un doute
+  }
+}
+
 /** Normalise en PNG 256 px, fond transparent conservé, et refuse le minuscule. */
 async function normalise(buf, slug, ext) {
   const tmp = join(OUT, `.tmp-${slug}${ext}`);
@@ -158,6 +176,7 @@ async function grab(tool) {
         : /png/.test(type) ? '.png' : /jpe?g/.test(type) ? '.jpg' : /webp/.test(type) ? '.webp' : '.png';
       const { out } = await normalise(buf, tool.slug, ext);
       if (statSync(out).size < 400) continue;   // une icône vide ne vaut rien
+      if (await isBlank(out)) continue;         // un aplat n'est pas un logo
       return { slug: tool.slug, status: 'récupéré', source: c.url, file: out };
     } catch { /* candidat suivant */ }
   }
