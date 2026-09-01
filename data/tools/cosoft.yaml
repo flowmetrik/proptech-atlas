@@ -1,0 +1,67 @@
+slug: cosoft
+name: Cosoft
+editor: FTEL
+website: https://www.cosoft.fr
+hq_country: FR
+markets: [FR]
+category: flex-coworking
+positioning: "All-in-one management platform for coworking spaces, tiers-lieux and fablabs, covering booking, billing, door access and community."
+description: >
+  Cosoft is a French SaaS platform for running shared workspaces, published by FTEL.
+  It handles desk and meeting-room booking on an interactive calendar, online payment,
+  automatic quotes and invoices with an accounting export, a member community layer,
+  and connections to door-access, wifi and printing systems. It is sold as a free
+  tier, a Premium plan at a published monthly price and a quoted Pro plan that adds
+  multi-site management, a prospecting CRM and API access. The editor counts forty
+  connected partners, fifteen of them online payment providers and seventeen
+  access-control systems.
+real_estate_use: >
+  A coworking or tiers-lieu manager uses Cosoft as the operating system of the site:
+  members book a desk or a meeting room themselves and pay online, the invoice and the
+  accounting export follow without re-keying, and the door opens on a badge or from a
+  phone. Local authorities running a tiers-lieu reach for it for the same reasons plus
+  the occupancy figures they have to report. The community side, directory and posts
+  and chat and paid or free events, is what a manager uses to keep the place alive
+  once the operational part runs itself. Multi-site and the API sit in the top plan,
+  which is where a small network of spaces lands rather than a single site.
+features:
+  - "Interactive booking calendar for desks, private offices and meeting rooms"
+  - Automatic quote and invoice generation with ready-made accounting export
+  - Online payment through fifteen connected payment providers
+  - Door access managed through seventeen connected access-control systems
+  - "Member community layer: directory, posts, chat, email campaigns, events"
+  - Prospecting CRM and API access on the top plan
+use_cases:
+  - persona: facility-manager
+    job: "Run booking, billing and door access for a shared workspace without re-keying anything between tools"
+  - persona: landlord-owner
+    job: Track occupancy and revenue across several shared workspaces from one dashboard
+personas: [facility-manager, landlord-owner, corporate-re]
+segments: [office, mixed-use]
+company_sizes: [smb, midmarket]
+pricing:
+  model: freemium
+  public_pricing: true
+  url: https://www.cosoft.fr/nos-tarifs
+integrations: [Stripe]
+product:
+  api: true
+  open_source: false
+  mobile: []
+  languages: [fr]
+alternatives: [nexudus, cobot, officernd]
+reviews: []
+logo:
+  file: logos/cosoft.png
+  source_url: https://www.cosoft.fr/assets/602630a1315f5607c8ecccf7/2021/05/24/16/08/28/favicon-couleur.min3.png?v=1788163932492
+  fetched_on: "2026-09-01"
+signals:
+  privacy: https://www.cosoft.fr/mentions-legales
+  site_languages: [fr]
+  checked_on: "2026-09-01"
+sources:
+  - { url: https://www.cosoft.fr/solution-gestion-coworking, note: site éditeur — page solution coworking }
+  - { url: https://www.cosoft.fr/nos-fonctionnalites, note: fonctionnalités détaillées }
+  - { url: https://www.cosoft.fr/nos-tarifs, note: tarifs publiés }
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-09-01"

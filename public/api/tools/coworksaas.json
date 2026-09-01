@@ -1,0 +1,93 @@
+{
+  "slug": "coworksaas",
+  "name": "CoworkSaaS",
+  "editor": "CoworkSaaS",
+  "website": "https://coworksaas.com",
+  "hq_country": "FR",
+  "markets": [
+    "FR"
+  ],
+  "category": "flex-coworking",
+  "positioning": "Coworking management software built around its own access control, so a space can stay open around the clock and bill by the hour.",
+  "description": "CoworkSaaS is a French platform for coworking operators that couples subscription and hourly-access management with an access-control system of its own: QR-code readers, turnstiles and door-locking kits rented monthly alongside the software. Members sign up from the operator's own website, receive a personal QR code, and are billed either on a recurring plan or on the time actually spent on site, computed from entry and exit scans. Additional services are billed through the same engine: meeting rooms, printing, lockers, business domiciliation, a connected fridge. A pooled remote video-surveillance service is offered for unstaffed hours. Two plans are published, per space per month.\n",
+  "real_estate_use": "The problem this addresses is opening hours. An operator who wants to sell access outside staffed hours has to know who is in the building and to bill them with nobody at the desk; CoworkSaaS answers both with one QR code, since the scan that opens the turnstile also starts the meter. Hourly billing is the part most competitors do not cover, and it is what lets a space sell to occasional users who would never take a monthly plan. Sign-up and the client area are embedded in the operator's own website, so a prospect never leaves the brand, and a live counter of free seats can be published to members.\n",
+  "features": [
+    "Hourly access billed from entry and exit QR-code scans",
+    "Proprietary access control: QR readers, turnstiles and door-locking kits",
+    "Recurring subscription billing with automatic payment",
+    "Sign-up and client-area modules embedded in the operator's own website",
+    "Additional services engine: meeting rooms, printing, lockers, domiciliation",
+    "Pooled remote video surveillance for unstaffed hours"
+  ],
+  "use_cases": [
+    {
+      "persona": "facility-manager",
+      "job": "Keep a coworking space open around the clock and know at any minute who is inside"
+    },
+    {
+      "persona": "landlord-owner",
+      "job": "Sell hourly access to occasional users and bill it automatically on time spent"
+    }
+  ],
+  "personas": [
+    "facility-manager",
+    "landlord-owner"
+  ],
+  "segments": [
+    "office",
+    "mixed-use"
+  ],
+  "company_sizes": [
+    "smb",
+    "midmarket"
+  ],
+  "pricing": {
+    "model": "subscription",
+    "public_pricing": true,
+    "url": "https://coworksaas.com"
+  },
+  "integrations": [
+    "Zapier",
+    "Sendinblue",
+    "ezeep",
+    "Eagle Eye Networks",
+    "Google Data Studio"
+  ],
+  "product": {
+    "api": false,
+    "open_source": false,
+    "mobile": [],
+    "languages": [
+      "fr"
+    ]
+  },
+  "alternatives": [
+    "nexudus",
+    "cosoft",
+    "tydeck"
+  ],
+  "reviews": [],
+  "logo": {
+    "file": "logos/coworksaas.png",
+    "source_url": "https://cdn.dorik.com/6321ddd34a33d30011918e2f/6321ee8a4a33d30011918e82/images/Logo-CoworkSaaS-Favicon_vimpny0x.jpg",
+    "fetched_on": "2026-09-01"
+  },
+  "signals": {
+    "site_languages": [
+      "fr"
+    ],
+    "checked_on": "2026-09-01"
+  },
+  "sources": [
+    {
+      "url": "https://coworksaas.com",
+      "note": "site éditeur — fonctionnalités, intégrations et tarifs publiés sur une page unique"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-09-01"
+}
