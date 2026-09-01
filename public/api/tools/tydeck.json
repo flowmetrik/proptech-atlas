@@ -1,0 +1,98 @@
+{
+  "slug": "tydeck",
+  "name": "Tydeck",
+  "editor": "Tydeck",
+  "website": "https://www.tydeck.io",
+  "hq_country": "FR",
+  "markets": [
+    "FR"
+  ],
+  "category": "flex-coworking",
+  "positioning": "Management software for coworking spaces, flex offices and coliving, from client onboarding to automated invoicing and door access.",
+  "description": "Tydeck is a French platform for operators of shared workspaces, based in Bordeaux. It centralises members and their contracts, offers self-service booking of desks and meeting rooms through a member portal, shows an interactive floor plan of who sits where, issues invoices automatically with SEPA direct debit and a dunning module, and sends contracts and quotes out for electronic signature. Optional modules add a marketplace where the operator publishes its own offers, a Brevo CRM synchronisation and access control through Welcomr or Salto KS. Plans are published and tiered by number of desks, from thirty to a hundred and eighty, with an initial six-month commitment and no setup fee.\n",
+  "real_estate_use": "An operator running one or several flex sites uses Tydeck to stop being the booking desk. A new corporate client is created in a couple of minutes, gets an onboarding invitation and enrols its own team; nomadic members book their days of presence from their portal; the invoice, the SEPA mandate and the reminders run without anyone chasing. The interactive floor plan is what the manager watches to read occupancy, and what the member looks at before choosing a seat. Contracts and quotes are signed electronically inside the same tool, which removes the last paper step from letting a desk, and the pricing by desk count rather than by member is what makes it predictable for a site that fills and empties.\n",
+  "features": [
+    "Interactive floor plan showing real-time desk and room occupancy",
+    "Self-service booking portal for resident members and drop-ins",
+    "Automatic invoicing with SEPA direct debit and a dunning module",
+    "Client onboarding where the client enrols its own team",
+    "Electronic signature of contracts and quotes as an optional module",
+    "Operator marketplace for publishing additional offers and services"
+  ],
+  "use_cases": [
+    {
+      "persona": "facility-manager",
+      "job": "Onboard a corporate client and let its team book, pay and enter without manual steps"
+    },
+    {
+      "persona": "landlord-owner",
+      "job": "Read occupancy and revenue of a flex site and chase unpaid invoices automatically"
+    }
+  ],
+  "personas": [
+    "facility-manager",
+    "landlord-owner",
+    "corporate-re"
+  ],
+  "segments": [
+    "office",
+    "coliving-student",
+    "mixed-use"
+  ],
+  "company_sizes": [
+    "smb",
+    "midmarket"
+  ],
+  "pricing": {
+    "model": "subscription",
+    "public_pricing": true,
+    "url": "https://www.tydeck.io/fr/tarifs"
+  },
+  "integrations": [
+    "Brevo",
+    "Welcomr",
+    "Salto KS"
+  ],
+  "product": {
+    "api": false,
+    "open_source": false,
+    "mobile": [],
+    "languages": [
+      "fr"
+    ]
+  },
+  "alternatives": [
+    "nexudus",
+    "officernd",
+    "cosoft"
+  ],
+  "reviews": [],
+  "logo": {
+    "file": "logos/tydeck.png",
+    "source_url": "https://www.tydeck.io/hubfs/logo.png",
+    "fetched_on": "2026-09-01"
+  },
+  "signals": {
+    "status": "https://status.tydeck.io",
+    "site_languages": [
+      "fr"
+    ],
+    "checked_on": "2026-09-01"
+  },
+  "sources": [
+    {
+      "url": "https://www.tydeck.io/fr/",
+      "note": "site éditeur — accueil et FAQ"
+    },
+    {
+      "url": "https://www.tydeck.io/fr/tarifs",
+      "note": "tarifs et modules optionnels publiés"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-09-01"
+}

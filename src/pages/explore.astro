@@ -14,7 +14,33 @@ const facets = [
   { key: 'pricing', title: 'Pricing model', items: taxonomy.pricing_models, count: (id: string) => tools.filter((t) => t.pricing?.model === id).length },
 ];
 
-const blob = (t: (typeof tools)[number]) =>
+type Tool = (typeof tools)[number];
+
+// Les drapeaux sont des cases oui/non, par opposition aux facettes qui portent
+// plusieurs valeurs. Ils sont déclarés une fois : la liste sert à compter, à
+// rendre les cases, à poser les attributs des cartes et à relire l'URL.
+const flags: { id: string; label: string; has: (t: Tool) => boolean }[] = [
+  { id: 'ai', label: 'Has AI features', has: (t) => Boolean(t.ai) },
+  { id: 'oss', label: 'Open source', has: (t) => Boolean(t.product?.open_source) },
+  { id: 'api', label: 'Public API', has: (t) => Boolean(t.product?.api) },
+];
+
+// Les signaux sont la partie relevée par la machine : chacun porte l'URL qui
+// l'établit et la date du relevé. Filtrer dessus, c'est filtrer sur du vérifié,
+// pas sur ce que la fiche raconte. Un signal absent veut dire « pas trouvé à
+// cette date », jamais « n'existe pas » : d'où des cases qui n'excluent que
+// dans un sens, cochées.
+const signalFlags: { id: string; label: string; has: (t: Tool) => boolean }[] = [
+  { id: 'sigpricing', label: 'Publishes its pricing', has: (t) => Boolean(t.signals?.pricing) },
+  { id: 'sigapidocs', label: 'Documented API', has: (t) => Boolean(t.signals?.api_docs) },
+  { id: 'sigsecurity', label: 'Security page', has: (t) => Boolean(t.signals?.security) },
+  { id: 'sigprivacy', label: 'Privacy page', has: (t) => Boolean(t.signals?.privacy) },
+  { id: 'sigstatus', label: 'Status page', has: (t) => Boolean(t.signals?.status) },
+];
+
+const allFlags = [...flags, ...signalFlags];
+
+const blob = (t: Tool) =>
   [t.name, t.editor, t.positioning, t.description, t.real_estate_use, ...(t.features ?? []), ...(t.integrations ?? [])]
     .join(' ')
     .toLowerCase();
@@ -57,9 +83,29 @@ const blob = (t: (typeof tools)[number]) =>
         <div class="filter-group">
           <h4>Attributes</h4>
           <div class="filter-list">
-            <label class="opt"><input type="checkbox" data-flag="ai" /><span>Has AI features</span><span class="n">{tools.filter((t) => t.ai).length}</span></label>
-            <label class="opt"><input type="checkbox" data-flag="oss" /><span>Open source</span><span class="n">{tools.filter((t) => t.product?.open_source).length}</span></label>
-            <label class="opt"><input type="checkbox" data-flag="api" /><span>Public API</span><span class="n">{tools.filter((t) => t.product?.api).length}</span></label>
+            {flags.map((f) => (
+              <label class="opt">
+                <input type="checkbox" data-flag={f.id} />
+                <span>{f.label}</span>
+                <span class="n">{tools.filter(f.has).length}</span>
+              </label>
+            ))}
+          </div>
+        </div>
+        <div class="filter-group">
+          <h4>Verified signals</h4>
+          <p class="filter-note">
+            Checked on the vendor site, each with the URL that proves it and the date it was
+            read. A missing signal means not found on that date, not that it does not exist.
+          </p>
+          <div class="filter-list">
+            {signalFlags.map((f) => (
+              <label class="opt">
+                <input type="checkbox" data-flag={f.id} />
+                <span>{f.label}</span>
+                <span class="n">{tools.filter(f.has).length}</span>
+              </label>
+            ))}
           </div>
         </div>
         <button class="btn btn-ghost btn-sm" id="clear" type="button">Clear all filters</button>
@@ -77,7 +123,7 @@ const blob = (t: (typeof tools)[number]) =>
             </select>
           </label>
         </div>
-        <div class="grid grid-3" id="results">
+        <div class="grid grid-3" id="results" data-flags={allFlags.map((f) => f.id).join(' ')}>
           {tools.map((t) => (
             <div
               class="cell"
@@ -87,9 +133,7 @@ const blob = (t: (typeof tools)[number]) =>
               data-segment={t.segments.join(' ')}
               data-size={t.company_sizes.join(' ')}
               data-pricing={t.pricing?.model}
-              data-ai={t.ai ? '1' : '0'}
-              data-oss={t.product?.open_source ? '1' : '0'}
-              data-api={t.product?.api ? '1' : '0'}
+              {...Object.fromEntries(allFlags.map((f) => [`data-${f.id}`, f.has(t) ? '1' : '0']))}
               data-name={t.name}
               data-editor={t.editor}
               data-updated={t.updated}
@@ -111,6 +155,9 @@ const blob = (t: (typeof tools)[number]) =>
 
 <style>
   .cell > a { flex: 1; }
+  /* La note explique ce qu'un signal veut dire ; sans elle, une case vide se lit
+     comme une absence de la chose plutôt que comme une absence de relevé. */
+  .filter-note { font-size: 0.75rem; line-height: 1.45; color: var(--muted); margin: -4px 0 10px; }
 </style>
 
 <script>
@@ -122,6 +169,9 @@ const blob = (t: (typeof tools)[number]) =>
   const results = document.querySelector<HTMLElement>('#results')!;
   const sortEl = document.querySelector<HTMLSelectElement>('#sort')!;
   const FACETS = ['market', 'cat', 'persona', 'segment', 'size', 'pricing'] as const;
+  // La liste vient du serveur : un drapeau ajouté dans le frontmatter est filtrable
+  // sans toucher à ce script.
+  const FLAGS = (results.dataset.flags ?? '').split(' ').filter(Boolean);
 
   /** L'URL porte l'état des filtres : un lien vers une vue filtrée reste partageable. */
   function readUrl() {
@@ -130,7 +180,7 @@ const blob = (t: (typeof tools)[number]) =>
       const vals = (p.get(f) ?? '').split(',').filter(Boolean);
       boxes.filter((b) => b.dataset.facet === f && vals.includes(b.value)).forEach((b) => (b.checked = true));
     }
-    for (const flag of ['ai', 'oss', 'api']) {
+    for (const flag of FLAGS) {
       if (p.get(flag) === '1') {
         const b = boxes.find((x) => x.dataset.flag === flag);
         if (b) b.checked = true;
@@ -152,7 +202,7 @@ const blob = (t: (typeof tools)[number]) =>
     const selected = Object.fromEntries(
       FACETS.map((f) => [f, boxes.filter((b) => b.dataset.facet === f && b.checked).map((b) => b.value)])
     ) as Record<string, string[]>;
-    const flags = ['ai', 'oss', 'api'].filter((f) => boxes.find((b) => b.dataset.flag === f)?.checked);
+    const flags = FLAGS.filter((f) => boxes.find((b) => b.dataset.flag === f)?.checked);
     const needle = q.value.trim().toLowerCase();
 
     let shown = 0;

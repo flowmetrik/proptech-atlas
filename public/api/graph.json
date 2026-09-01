@@ -4,23 +4,23 @@
   "license": "CC-BY-4.0 (data) / MIT (code)",
   "homepage": "https://flowmetrik.github.io/proptech-atlas",
   "repository": "https://github.com/flowmetrik/proptech-atlas",
-  "generated": "2026-08-31",
+  "generated": "2026-09-01",
   "counts": {
-    "tools": 195,
-    "US": 114,
-    "FR": 111,
+    "tools": 201,
+    "US": 115,
+    "FR": 116,
     "categories": 24,
-    "editors": 178,
+    "editors": 184,
     "verified": 0,
     "reviews": 0,
-    "logos": 192,
+    "logos": 198,
     "signals": {
-      "probed": 181,
-      "public_pricing": 48,
+      "probed": 187,
+      "public_pricing": 50,
       "api_docs": 14,
       "security_page": 25,
-      "privacy_page": 133,
-      "status_page": 52
+      "privacy_page": 137,
+      "status_page": 53
     }
   },
   "nodes": [
@@ -220,9 +220,19 @@
       "label": "Corrigo"
     },
     {
+      "id": "tool:cosoft",
+      "type": "tool",
+      "label": "Cosoft"
+    },
+    {
       "id": "tool:costar",
       "type": "tool",
       "label": "CoStar"
+    },
+    {
+      "id": "tool:coworksaas",
+      "type": "tool",
+      "label": "CoworkSaaS"
     },
     {
       "id": "tool:crediteo",
@@ -258,6 +268,11 @@
       "id": "tool:docusign",
       "type": "tool",
       "label": "Docusign"
+    },
+    {
+      "id": "tool:dollydesk",
+      "type": "tool",
+      "label": "DollyDesk"
     },
     {
       "id": "tool:doorloop",
@@ -323,6 +338,11 @@
       "id": "tool:finalcad",
       "type": "tool",
       "label": "Finalcad"
+    },
+    {
+      "id": "tool:flexmls",
+      "type": "tool",
+      "label": "Flexmls"
     },
     {
       "id": "tool:floify",
@@ -640,6 +660,11 @@
       "label": "Pige Online"
     },
     {
+      "id": "tool:pilotim",
+      "type": "tool",
+      "label": "Pilotim"
+    },
+    {
       "id": "tool:placer-ai",
       "type": "tool",
       "label": "Placer.ai"
@@ -893,6 +918,11 @@
       "id": "tool:twimmo",
       "type": "tool",
       "label": "Twimmo"
+    },
+    {
+      "id": "tool:tydeck",
+      "type": "tool",
+      "label": "Tydeck"
     },
     {
       "id": "tool:ubiflow",
@@ -1435,6 +1465,16 @@
       "label": "JLL Technologies"
     },
     {
+      "id": "editor:FTEL",
+      "type": "editor",
+      "label": "FTEL"
+    },
+    {
+      "id": "editor:CoworkSaaS",
+      "type": "editor",
+      "label": "CoworkSaaS"
+    },
+    {
       "id": "editor:Créditéo",
       "type": "editor",
       "label": "Créditéo"
@@ -1468,6 +1508,11 @@
       "id": "editor:Docusign",
       "type": "editor",
       "label": "Docusign"
+    },
+    {
+      "id": "editor:DollyDesk",
+      "type": "editor",
+      "label": "DollyDesk"
     },
     {
       "id": "editor:DoorLoop",
@@ -1533,6 +1578,11 @@
       "id": "editor:Finalcad",
       "type": "editor",
       "label": "Finalcad"
+    },
+    {
+      "id": "editor:FBS",
+      "type": "editor",
+      "label": "FBS"
     },
     {
       "id": "editor:Floify (Porch Group)",
@@ -1805,6 +1855,11 @@
       "label": "Pige Online"
     },
     {
+      "id": "editor:Pilotim",
+      "type": "editor",
+      "label": "Pilotim"
+    },
+    {
       "id": "editor:Placer Labs",
       "type": "editor",
       "label": "Placer Labs"
@@ -2038,6 +2093,11 @@
       "id": "editor:Twimmo France",
       "type": "editor",
       "label": "Twimmo France"
+    },
+    {
+      "id": "editor:Tydeck",
+      "type": "editor",
+      "label": "Tydeck"
     },
     {
       "id": "editor:Ubiflow",
@@ -4507,6 +4567,61 @@
       "to": "tool:limble"
     },
     {
+      "from": "tool:cosoft",
+      "rel": "published_by",
+      "to": "editor:FTEL"
+    },
+    {
+      "from": "tool:cosoft",
+      "rel": "belongs_to",
+      "to": "category:flex-coworking"
+    },
+    {
+      "from": "tool:cosoft",
+      "rel": "serves_persona",
+      "to": "persona:facility-manager"
+    },
+    {
+      "from": "tool:cosoft",
+      "rel": "serves_persona",
+      "to": "persona:landlord-owner"
+    },
+    {
+      "from": "tool:cosoft",
+      "rel": "serves_persona",
+      "to": "persona:corporate-re"
+    },
+    {
+      "from": "tool:cosoft",
+      "rel": "covers_segment",
+      "to": "segment:office"
+    },
+    {
+      "from": "tool:cosoft",
+      "rel": "covers_segment",
+      "to": "segment:mixed-use"
+    },
+    {
+      "from": "tool:cosoft",
+      "rel": "available_in",
+      "to": "market:FR"
+    },
+    {
+      "from": "tool:cosoft",
+      "rel": "alternative_to",
+      "to": "tool:nexudus"
+    },
+    {
+      "from": "tool:cosoft",
+      "rel": "alternative_to",
+      "to": "tool:cobot"
+    },
+    {
+      "from": "tool:cosoft",
+      "rel": "alternative_to",
+      "to": "tool:officernd"
+    },
+    {
       "from": "tool:costar",
       "rel": "published_by",
       "to": "editor:CoStar Group"
@@ -4600,6 +4715,56 @@
       "from": "tool:costar",
       "rel": "alternative_to",
       "to": "tool:yanport"
+    },
+    {
+      "from": "tool:coworksaas",
+      "rel": "published_by",
+      "to": "editor:CoworkSaaS"
+    },
+    {
+      "from": "tool:coworksaas",
+      "rel": "belongs_to",
+      "to": "category:flex-coworking"
+    },
+    {
+      "from": "tool:coworksaas",
+      "rel": "serves_persona",
+      "to": "persona:facility-manager"
+    },
+    {
+      "from": "tool:coworksaas",
+      "rel": "serves_persona",
+      "to": "persona:landlord-owner"
+    },
+    {
+      "from": "tool:coworksaas",
+      "rel": "covers_segment",
+      "to": "segment:office"
+    },
+    {
+      "from": "tool:coworksaas",
+      "rel": "covers_segment",
+      "to": "segment:mixed-use"
+    },
+    {
+      "from": "tool:coworksaas",
+      "rel": "available_in",
+      "to": "market:FR"
+    },
+    {
+      "from": "tool:coworksaas",
+      "rel": "alternative_to",
+      "to": "tool:nexudus"
+    },
+    {
+      "from": "tool:coworksaas",
+      "rel": "alternative_to",
+      "to": "tool:cosoft"
+    },
+    {
+      "from": "tool:coworksaas",
+      "rel": "alternative_to",
+      "to": "tool:tydeck"
     },
     {
       "from": "tool:crediteo",
@@ -5075,6 +5240,56 @@
       "from": "tool:docusign",
       "rel": "alternative_to",
       "to": "tool:yousign"
+    },
+    {
+      "from": "tool:dollydesk",
+      "rel": "published_by",
+      "to": "editor:DollyDesk"
+    },
+    {
+      "from": "tool:dollydesk",
+      "rel": "belongs_to",
+      "to": "category:flex-coworking"
+    },
+    {
+      "from": "tool:dollydesk",
+      "rel": "serves_persona",
+      "to": "persona:facility-manager"
+    },
+    {
+      "from": "tool:dollydesk",
+      "rel": "serves_persona",
+      "to": "persona:landlord-owner"
+    },
+    {
+      "from": "tool:dollydesk",
+      "rel": "covers_segment",
+      "to": "segment:office"
+    },
+    {
+      "from": "tool:dollydesk",
+      "rel": "covers_segment",
+      "to": "segment:mixed-use"
+    },
+    {
+      "from": "tool:dollydesk",
+      "rel": "available_in",
+      "to": "market:FR"
+    },
+    {
+      "from": "tool:dollydesk",
+      "rel": "alternative_to",
+      "to": "tool:cosoft"
+    },
+    {
+      "from": "tool:dollydesk",
+      "rel": "alternative_to",
+      "to": "tool:tydeck"
+    },
+    {
+      "from": "tool:dollydesk",
+      "rel": "alternative_to",
+      "to": "tool:nexudus"
     },
     {
       "from": "tool:doorloop",
@@ -5880,6 +6095,46 @@
       "from": "tool:finalcad",
       "rel": "alternative_to",
       "to": "tool:procore"
+    },
+    {
+      "from": "tool:flexmls",
+      "rel": "published_by",
+      "to": "editor:FBS"
+    },
+    {
+      "from": "tool:flexmls",
+      "rel": "belongs_to",
+      "to": "category:listing-syndication"
+    },
+    {
+      "from": "tool:flexmls",
+      "rel": "also_serves",
+      "to": "category:market-data"
+    },
+    {
+      "from": "tool:flexmls",
+      "rel": "serves_persona",
+      "to": "persona:brokerage"
+    },
+    {
+      "from": "tool:flexmls",
+      "rel": "serves_persona",
+      "to": "persona:agent-broker"
+    },
+    {
+      "from": "tool:flexmls",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:flexmls",
+      "rel": "available_in",
+      "to": "market:US"
+    },
+    {
+      "from": "tool:flexmls",
+      "rel": "alternative_to",
+      "to": "tool:listhub"
     },
     {
       "from": "tool:floify",
@@ -9622,6 +9877,61 @@
       "to": "tool:netty"
     },
     {
+      "from": "tool:pilotim",
+      "rel": "published_by",
+      "to": "editor:Pilotim"
+    },
+    {
+      "from": "tool:pilotim",
+      "rel": "belongs_to",
+      "to": "category:crm-lead"
+    },
+    {
+      "from": "tool:pilotim",
+      "rel": "also_serves",
+      "to": "category:ai-assistants"
+    },
+    {
+      "from": "tool:pilotim",
+      "rel": "also_serves",
+      "to": "category:agent-marketing"
+    },
+    {
+      "from": "tool:pilotim",
+      "rel": "serves_persona",
+      "to": "persona:agent-broker"
+    },
+    {
+      "from": "tool:pilotim",
+      "rel": "serves_persona",
+      "to": "persona:brokerage"
+    },
+    {
+      "from": "tool:pilotim",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:pilotim",
+      "rel": "covers_segment",
+      "to": "segment:office"
+    },
+    {
+      "from": "tool:pilotim",
+      "rel": "available_in",
+      "to": "market:FR"
+    },
+    {
+      "from": "tool:pilotim",
+      "rel": "alternative_to",
+      "to": "tool:apimo"
+    },
+    {
+      "from": "tool:pilotim",
+      "rel": "alternative_to",
+      "to": "tool:sweepbright"
+    },
+    {
       "from": "tool:placer-ai",
       "rel": "published_by",
       "to": "editor:Placer Labs"
@@ -12720,6 +13030,66 @@
       "from": "tool:twimmo",
       "rel": "alternative_to",
       "to": "tool:adapt-immo"
+    },
+    {
+      "from": "tool:tydeck",
+      "rel": "published_by",
+      "to": "editor:Tydeck"
+    },
+    {
+      "from": "tool:tydeck",
+      "rel": "belongs_to",
+      "to": "category:flex-coworking"
+    },
+    {
+      "from": "tool:tydeck",
+      "rel": "serves_persona",
+      "to": "persona:facility-manager"
+    },
+    {
+      "from": "tool:tydeck",
+      "rel": "serves_persona",
+      "to": "persona:landlord-owner"
+    },
+    {
+      "from": "tool:tydeck",
+      "rel": "serves_persona",
+      "to": "persona:corporate-re"
+    },
+    {
+      "from": "tool:tydeck",
+      "rel": "covers_segment",
+      "to": "segment:office"
+    },
+    {
+      "from": "tool:tydeck",
+      "rel": "covers_segment",
+      "to": "segment:coliving-student"
+    },
+    {
+      "from": "tool:tydeck",
+      "rel": "covers_segment",
+      "to": "segment:mixed-use"
+    },
+    {
+      "from": "tool:tydeck",
+      "rel": "available_in",
+      "to": "market:FR"
+    },
+    {
+      "from": "tool:tydeck",
+      "rel": "alternative_to",
+      "to": "tool:nexudus"
+    },
+    {
+      "from": "tool:tydeck",
+      "rel": "alternative_to",
+      "to": "tool:officernd"
+    },
+    {
+      "from": "tool:tydeck",
+      "rel": "alternative_to",
+      "to": "tool:cosoft"
     },
     {
       "from": "tool:ubiflow",

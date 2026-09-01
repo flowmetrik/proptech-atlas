@@ -1,0 +1,109 @@
+{
+  "slug": "pilotim",
+  "name": "Pilotim",
+  "editor": "Pilotim",
+  "website": "https://www.pilotim.com",
+  "hq_country": "FR",
+  "markets": [
+    "FR"
+  ],
+  "category": "crm-lead",
+  "also_in": [
+    "ai-assistants",
+    "agent-marketing"
+  ],
+  "positioning": "Full-web software for French estate agencies, pairing property and client management with an AI assistant built into the daily workflow.",
+  "description": "Pilotim is a French web-based estate agency software covering property and contact management, matching of buyers against listings, communication material, templated emails and activity history. It embeds an AI assistant, marketed as IA Pilotim, which drafts or rewrites listing copy from the property's attributes, turns an agent's notes into a visit report for the owner, writes SEO articles for the agency blog, restyles or virtually furnishes interior photos and returns before-and-after images, answers questions asked in plain language over the agency's own listings, estimates, contacts and statistics, and creates a property from dictation on mobile. The publisher also sells agency websites, paid and organic search work and training; software plans are priced publicly per month.\n",
+  "real_estate_use": "An independent French agency runs its day inside Pilotim: entering a mandate, matching it against the buyer base, publishing it, and keeping the record of what was said and when. The AI is aimed squarely at the two tasks agents postpone, writing the listing text and writing the visit report back to the owner, and the voice capture on mobile exists so a property can be created during the visit rather than back at the desk. The assistant also reads the vendor's own documentation and can open the right form or run the action it just described, which is how a new negotiator gets productive without a training session. Agencies that buy the website and search work from the same publisher get lead capture wired into the same base.\n",
+  "features": [
+    "Property and contact management with buyer-to-listing matching",
+    "AI drafting of listing copy from the property's attributes",
+    "AI visit reports written from the agent's notes for the owner",
+    "Virtual restyling and furnishing of interior photos, delivered as before and after",
+    "Natural-language querying of the agency's listings, estimates, contacts and statistics",
+    "Voice creation of a property from the mobile application"
+  ],
+  "use_cases": [
+    {
+      "persona": "agent-broker",
+      "job": "Create a property by voice during the visit and get the listing text and the owner's report written back"
+    },
+    {
+      "persona": "brokerage",
+      "job": "Run listings, buyer matching and the agency website from a single publisher"
+    }
+  ],
+  "personas": [
+    "agent-broker",
+    "brokerage"
+  ],
+  "segments": [
+    "residential",
+    "office"
+  ],
+  "company_sizes": [
+    "solo",
+    "smb"
+  ],
+  "pricing": {
+    "model": "subscription",
+    "public_pricing": true,
+    "url": "https://www.pilotim.com/contact/tarifs/"
+  },
+  "ai": {
+    "capabilities": [
+      "listing copywriting",
+      "visit report drafting",
+      "SEO article generation",
+      "virtual staging and photo restyling",
+      "natural-language query over agency data",
+      "voice property entry"
+    ]
+  },
+  "product": {
+    "api": false,
+    "open_source": false,
+    "mobile": [],
+    "languages": [
+      "fr"
+    ]
+  },
+  "alternatives": [
+    "apimo",
+    "sweepbright"
+  ],
+  "reviews": [],
+  "logo": {
+    "file": "logos/pilotim.png",
+    "source_url": "https://www.pilotim.com/wp-content/uploads/2023/09/cropped-favicon-180x180.jpg",
+    "fetched_on": "2026-09-01"
+  },
+  "signals": {
+    "pricing": "https://www.pilotim.com/contact/tarifs",
+    "privacy": "https://www.pilotim.com/politique-de-confidentialite",
+    "site_languages": [
+      "fr"
+    ],
+    "checked_on": "2026-09-01"
+  },
+  "sources": [
+    {
+      "url": "https://www.pilotim.com",
+      "note": "site éditeur — accueil et gamme"
+    },
+    {
+      "url": "https://www.pilotim.com/logiciel-immobilier/ia-pilotim-votre-nouvel-assistant-intelligent/",
+      "note": "capacités IA détaillées par l'éditeur"
+    },
+    {
+      "url": "https://www.pilotim.com/contact/tarifs/",
+      "note": "tarifs publiés"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-09-01"
+}

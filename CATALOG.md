@@ -2,7 +2,7 @@
 
 <!-- Généré par `npm run data:emit`. Ne pas éditer à la main : éditer `data/tools/*.yaml`. -->
 
-195 produits · 114 🇺🇸 · 111 🇫🇷 · mis à jour le 2026-08-31
+201 produits · 115 🇺🇸 · 116 🇫🇷 · mis à jour le 2026-09-01
 
 Version navigable : https://flowmetrik.github.io/proptech-atlas/explore
 
@@ -24,6 +24,7 @@ _Capter, qualifier et travailler les leads acquéreurs, vendeurs et locataires._
 | [Lofty](data/tools/lofty.yaml) | Lofty (formerly Chime Technologies) | 🇺🇸 | A team buys traffic through Lofty's ad management, the visitor lands on a Lofty IDX site, their property searches are recorded against their CRM record, and an AI assistant opens the… |
 | [Maline](data/tools/maline.yaml) | Maline Immobilier | 🇫🇷 | French agencies have prospected for decades by pige, that is by working the for-sale-by-owner ads, and the vendor positions itself squarely against the disappearance of that practice.… |
 | [Netty](data/tools/netty.yaml) | Netty | 🇫🇷 | Independent French agencies compete with national networks whose brand carries the online traffic. Netty's positioning answers that: the agency site is built for local search visibility… |
+| [Pilotim](data/tools/pilotim.yaml) | Pilotim | 🇫🇷 | An independent French agency runs its day inside Pilotim: entering a mandate, matching it against the buyer base, publishing it, and keeping the record of what was said and when. The AI… |
 | [Prospeneo](data/tools/prospeneo.yaml) | Facilogi | 🇫🇷 | A mandataire network has a structural problem an agency does not: several hundred independent agents, each with their own listings and contacts, who must be equipped identically and… |
 | [Sierra Interactive](data/tools/sierra-interactive.yaml) | Sierra Interactive | 🇺🇸 | Teams that treat their website as the lead source, not as a brochure, use Sierra to build hundreds of hyperlocal landing pages, capture registrations behind listing detail, and drop the… |
 | [SweepBright](data/tools/sweepbright.yaml) | SweepBright | 🇫🇷 | The design assumption is that the agent is never at a desk. Capturing the property during the valuation visit — rooms, photos, description — and publishing directly from the phone… |
@@ -86,6 +87,7 @@ _Le logiciel qui met en forme et pousse un portefeuille d'annonces vers les port
 
 | Produit | Éditeur | Marchés | Usage en immobilier |
 |---|---|---|---|
+| [Flexmls](data/tools/flexmls.yaml) | FBS | 🇺🇸 | The buyer here is the MLS organisation, not the individual agent: this is the system its subscribers log into to enter and search listings, and the place where the market's own rules are… |
 | [ListHub](data/tools/listhub.yaml) | Move, Inc. | 🇺🇸 | A broker of record who has just signed a listing does not want to re-key it into every portal, and does not want it appearing on sites they never agreed to. They connect their MLS feed… |
 | [Poliris](data/tools/poliris.yaml) | Poliris | 🇫🇷 | Its practical value to an agency is the same as Ubiflow's — one catalogue, many destinations — with the software and the site included rather than integrated. Agencies that do not want… |
 | [Ubiflow](data/tools/ubiflow.yaml) | Ubiflow | 🇫🇷 | France has no MLS, so distribution is a job in itself: each portal has its own format, its own media rules and its own contract. Ubiflow absorbs that. An agency or a promoteur maintains… |
@@ -287,9 +289,13 @@ _Abonnements, réservation de postes, facturation et animation d'espaces flexibl
 | Produit | Éditeur | Marchés | Usage en immobilier |
 |---|---|---|---|
 | [Cobot](data/tools/cobot.yaml) | Cobot | 🇺🇸 🇫🇷 | An independent space with sixty members needs billing that runs itself and a booking calendar members can trust, not revenue management. Cobot's appeal is that it can be set up in a day… |
+| [Cosoft](data/tools/cosoft.yaml) | FTEL | 🇫🇷 | A coworking or tiers-lieu manager uses Cosoft as the operating system of the site: members book a desk or a meeting room themselves and pay online, the invoice and the accounting export… |
+| [CoworkSaaS](data/tools/coworksaas.yaml) | CoworkSaaS | 🇫🇷 | The problem this addresses is opening hours. An operator who wants to sell access outside staffed hours has to know who is in the building and to bill them with nobody at the desk… |
+| [DollyDesk](data/tools/dollydesk.yaml) | DollyDesk | 🇫🇷 | A small coworking space or tiers-lieu reaches for DollyDesk when the manager's day is eaten by two questions, is there a seat free and where is my invoice. Members answer both… |
 | [essensys](data/tools/essensys.yaml) | essensys | 🇺🇸 🇫🇷 | A landlord converting floors to flex has a problem no coworking app solves: every occupier needs its own secure network segment, provisioned in hours rather than weeks, and metered.… |
 | [Nexudus](data/tools/nexudus.yaml) | Nexudus | 🇺🇸 🇫🇷 | Flex operators rarely run the same model twice — credit systems for room hours, tiered plans, franchise structures, mixed private-office and hot-desk inventory. Nexudus is chosen for the… |
 | [OfficeRnD Flex](data/tools/officernd.yaml) | OfficeRnD | 🇺🇸 🇫🇷 | A flex operator's revenue is a mesh of monthly memberships, day passes, room hours and overage charges — billing that breaks any standard property accounting model. OfficeRnD automates… |
+| [Tydeck](data/tools/tydeck.yaml) | Tydeck | 🇫🇷 | An operator running one or several flex sites uses Tydeck to stop being the booking desk. A new corporate client is created in a couple of minutes, gets an onboarding invitation and… |
 
 ## Location courte durée · Short-term rental management
 

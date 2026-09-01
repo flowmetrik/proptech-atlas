@@ -1,0 +1,67 @@
+slug: dollydesk
+name: DollyDesk
+editor: DollyDesk
+website: https://www.dollydesk.com
+hq_country: FR
+markets: [FR]
+category: flex-coworking
+positioning: "Flat-price booking and billing software for a single coworking space of up to fifty desks, with an interactive floor plan."
+description: >
+  DollyDesk is a French coworking management tool sold at one flat price rather than
+  per member, for up to fifty bookable desks and meeting rooms. Members choose a seat
+  on an interactive floor plan that shows photos of each space, then pay by card
+  through Stripe or through PayFiP for publicly run spaces, or by recurring SEPA
+  direct debit. It issues electronic invoices through an approved platform, exports to
+  accounting, syncs bookings to Google, Outlook and Apple calendars over iCal, and
+  opens Nuki or SmartAir smart locks as a paid option. Prepaid packs, for instance ten
+  days, are supported alongside contracts. The product is operated and supported by a
+  single person, who also handles migration from Nexudus, OfficeRnD or Cosoft.
+real_estate_use: >
+  A small coworking space or tiers-lieu reaches for DollyDesk when the manager's day
+  is eaten by two questions, is there a seat free and where is my invoice. Members
+  answer both themselves: they see the plan, book, pay, and get the invoice. Because
+  PayFiP is supported next to Stripe, a space run by a local authority can take
+  payments the way public accounting requires, which most competitors do not cover.
+  The flat price and the fifty-desk ceiling say plainly who this is for: one site with
+  a handful of rooms, not a network, and an operator who would rather pay a fixed line
+  than a per-member one.
+features:
+  - Interactive floor plan with photos for choosing a desk or a room
+  - "Flat single price up to fifty desks, not billed per member"
+  - "Card payment through Stripe or PayFiP, plus recurring SEPA direct debit"
+  - Automated electronic invoicing through an approved platform
+  - "Prepaid booking packs, for example a ten-day pass"
+  - "iCal sync to Google, Outlook and Apple calendars, with optional e-ink room displays"
+use_cases:
+  - persona: facility-manager
+    job: "Let members book and pay for a desk on their own, evenings and weekends included"
+  - persona: landlord-owner
+    job: Run a publicly funded tiers-lieu where payments must go through PayFiP
+personas: [facility-manager, landlord-owner]
+segments: [office, mixed-use]
+company_sizes: [solo, smb]
+pricing:
+  model: subscription
+  public_pricing: true
+  url: https://www.dollydesk.com
+integrations: [Stripe, PayFiP, Nuki, SmartAir, Google Calendar, Outlook]
+product:
+  api: false
+  open_source: false
+  mobile: []
+  languages: [fr]
+alternatives: [cosoft, tydeck, nexudus]
+reviews: []
+logo:
+  file: logos/dollydesk.png
+  source_url: https://www.google.com/s2/favicons?domain=dollydesk.com&sz=256
+  fetched_on: "2026-09-01"
+signals:
+  pricing: https://www.dollydesk.com/tarifs
+  privacy: https://www.dollydesk.com/politique-de-confidentialite
+  site_languages: [fr]
+  checked_on: "2026-09-01"
+sources:
+  - { url: https://www.dollydesk.com, note: "site éditeur — fonctionnalités, tarif unique et options publiés" }
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-09-01"

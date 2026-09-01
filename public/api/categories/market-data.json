@@ -4,7 +4,7 @@
   "label_fr": "Data de marché & intelligence immobilière",
   "summary_en": "Comparables, ownership, transactions, rents, footfall and the datasets other products are built on.",
   "summary_fr": "Comparables, propriétaires, transactions, loyers, fréquentation et les jeux de données sur lesquels d'autres produits sont bâtis.",
-  "count": 23,
+  "count": 24,
   "tools": [
     {
       "slug": "attom-data",
@@ -713,6 +713,95 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "flexmls",
+      "name": "Flexmls",
+      "editor": "FBS",
+      "website": "https://flexmls.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "listing-syndication",
+      "also_in": [
+        "market-data"
+      ],
+      "positioning": "MLS platform for MLS organisations, with market-configurable rules, IDX search for brokers and the Spark API for licensed data feeds.",
+      "description": "Flexmls is the multiple listing service platform published by FBS, an employee-owned American company that works only on MLS technology. An MLS organisation configures its own fields, rules and workflows in it, keeps control of how its data is protected, distributed and licensed, and gives subscribers listing entry, search and portal tools. Around the core sit an IDX product that puts MLS-sourced home search on a broker or agent website and routes incoming leads back into Flexmls portals and contact manager, the Spark API for developers consuming MLS data feeds, and a single sign-on Launch dashboard through which the MLS publishes the third-party applications its subscribers may use and tracks their return. The editor publishes an uptime commitment of 99.9 percent and does not publish prices.\n",
+      "real_estate_use": "The buyer here is the MLS organisation, not the individual agent: this is the system its subscribers log into to enter and search listings, and the place where the market's own rules are enforced at data entry rather than by staff afterwards. The editor cites one MLS that cut prohibited content in public remarks by 77 percent in three years using text constraints at the point of entry, which is the shape of the problem it is bought for. Brokers and agents meet it from the other side, through IDX search embedded on their own site with leads flowing back into the MLS contact manager, and developers through the Spark API when they need a licensed feed. The SSO dashboard is how an MLS decides which third-party tools reach its subscribers.\n",
+      "features": [
+        "Fields, rules and workflows configurable per MLS market",
+        "Text constraints enforcing listing content rules at data entry",
+        "IDX home search embedded on broker and agent sites, with leads routed back",
+        "Spark API for licensed MLS data feeds",
+        "Launch single sign-on dashboard for third-party applications",
+        "MLS-held control over data ownership, distribution and licensing"
+      ],
+      "use_cases": [
+        {
+          "persona": "brokerage",
+          "job": "Run an MLS market with its own rules enforced at listing entry rather than policed afterwards"
+        },
+        {
+          "persona": "agent-broker",
+          "job": "Put MLS-sourced home search on the agency website and get the leads back in the MLS contact manager"
+        }
+      ],
+      "personas": [
+        "brokerage",
+        "agent-broker"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "listhub"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/flexmls.png",
+        "source_url": "https://flexmls.com/discover/wp-content/uploads/2026/02/cropped-2026.02-Flexmls-Favicon-1-180x180.webp",
+        "fetched_on": "2026-09-01"
+      },
+      "signals": {
+        "privacy": "https://wearefbs.com/privacy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-01"
+      },
+      "sources": [
+        {
+          "url": "https://flexmls.com/discover/",
+          "note": "site éditeur — plateforme MLS, IDX, Spark API, dashboard SSO"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-01"
     },
     {
       "slug": "fluximmo",
@@ -1699,8 +1788,8 @@
       "reviews": [],
       "logo": {
         "file": "logos/pricehubble.png",
-        "source_url": "https://framerusercontent.com/images/ZSlsZghJzi1fnqU9kpIh1z1g.svg",
-        "fetched_on": "2026-08-25"
+        "source_url": "https://framerusercontent.com/images/IsgsI2GHeetBs6b3KzxRO0z0.svg",
+        "fetched_on": "2026-09-01"
       },
       "signals": {
         "status": "https://status.pricehubble.com",
