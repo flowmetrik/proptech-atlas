@@ -55,6 +55,17 @@ recherche ou d'annuaire, et ni le slug ni le domaine ne sont déjà connus.
 
 **Ne jamais écrire une fiche pour un candidat qui n'a pas passé cette étape.**
 
+Un `✓` peut porter un `⚠`. Il dit que la navigation de l'accueil ne montre ni
+tarifs, ni fonctionnalités, ni connexion — la forme d'un domaine dont le produit
+est mort et qui sert maintenant un blog. Ce n'est pas un rejet : certains
+produits n'ont réellement rien de tout cela sur leur accueil. C'est l'ordre
+d'aller regarder le site à la main avant d'écrire.
+
+Ce que le vérificateur ne saura jamais dire, et qui reste à toi : **le nom qui
+désigne autre chose**. `siana.ai` répond, affiche « Siana » sur son accueil, et
+c'est un danois de la maintenance industrielle, pas la proptech française du
+même nom. Lire l'accueil est la seule parade.
+
 ### 4. Lire le site, puis écrire
 
 Lire l'accueil, la page tarifs et la page fonctionnalités du produit. Écrire à
