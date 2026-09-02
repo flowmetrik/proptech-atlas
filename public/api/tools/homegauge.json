@@ -1,0 +1,93 @@
+{
+  "slug": "homegauge",
+  "name": "HomeGauge",
+  "editor": "SHGI Corp",
+  "website": "https://www.homegauge.com",
+  "hq_country": "US",
+  "markets": [
+    "US"
+  ],
+  "category": "diagnostics-compliance",
+  "founded": 2001,
+  "positioning": "Desktop report writing for home inspectors, with a field companion app and a repair request list for buyers.",
+  "description": "HomeGauge is home inspection software built around a desktop report writer and a mobile companion application used to collect findings in the field. Reports come in several formats, including narrative and grid layouts, with a level of template customisation that the desktop lineage allows. Its Create Request List tool lets a buyer or their agent turn items from the report into a repair request they can attach to an addendum. The vendor is now part of Spectora, and presents the desktop writer and Spectora's cloud writer as two paths for different working habits.\n",
+  "real_estate_use": "The inspector this is for collects data on site, then finishes and formats the report at a desk, and wants control over how it reads rather than a fixed template. That is the split HomeGauge is built on: the companion app captures, the desktop writer composes. Downstream, the Create Request List matters more than the report format: it is the point where an inspection stops being a document and becomes a negotiation, because the buyer's agent builds the repair addendum from the inspector's own findings instead of retyping them. Scheduling, agreements, card processing and report delivery sit around it, including holding a report until payment clears.\n",
+  "features": [
+    "Desktop report writer with narrative and grid layouts",
+    "Companion mobile application for field capture",
+    "Create Request List for buyer repair requests",
+    "Online scheduling from the inspector's website",
+    "Electronic signature on inspection agreements",
+    "Card processing with report release on payment"
+  ],
+  "use_cases": [
+    {
+      "persona": "appraiser",
+      "job": "Compose a highly customised inspection report after a field visit"
+    },
+    {
+      "persona": "agent-broker",
+      "job": "Build a repair request addendum from the inspection findings"
+    }
+  ],
+  "personas": [
+    "appraiser",
+    "agent-broker"
+  ],
+  "segments": [
+    "residential"
+  ],
+  "company_sizes": [
+    "solo",
+    "smb"
+  ],
+  "pricing": {
+    "model": "subscription",
+    "public_pricing": false
+  },
+  "product": {
+    "api": false,
+    "open_source": false,
+    "mobile": [
+      "ios",
+      "android"
+    ],
+    "languages": [
+      "en"
+    ]
+  },
+  "alternatives": [
+    "spectora",
+    "property-inspect",
+    "snapinspect"
+  ],
+  "reviews": [],
+  "logo": {
+    "file": "logos/homegauge.png",
+    "source_url": "https://images.homegauge.com/wp-content/uploads/2021/03/apple-touch-icon-150x150-1.png",
+    "fetched_on": "2026-09-02"
+  },
+  "signals": {
+    "status": "https://status.homegauge.com",
+    "site_languages": [
+      "en"
+    ],
+    "checked_on": "2026-09-02"
+  },
+  "sources": [
+    {
+      "url": "https://www.homegauge.com",
+      "note": "site éditeur"
+    },
+    {
+      "url": "https://www.homegauge.com/one/home-inspection-software/",
+      "note": "page produit"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-09-02"
+}

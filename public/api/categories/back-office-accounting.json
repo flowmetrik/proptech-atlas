@@ -4,7 +4,7 @@
   "label_fr": "Back-office & comptabilité immobilière",
   "summary_en": "Trust accounting, owner statements, commissions and brokerage back office.",
   "summary_fr": "Comptabilité mandant, reddition de comptes, commissions et back-office d'agence.",
-  "count": 34,
+  "count": 36,
   "tools": [
     {
       "slug": "aareon",
@@ -1037,6 +1037,116 @@
       "updated": "2026-08-25"
     },
     {
+      "slug": "diag-pilote",
+      "name": "Diag Pilote",
+      "editor": "ELANOS",
+      "website": "https://www.diag-pilote.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "diagnostics-compliance",
+      "also_in": [
+        "back-office-accounting"
+      ],
+      "founded": 2020,
+      "positioning": "Regulated property diagnostics on site and the running of the practice at the desk, in one browser tool.",
+      "description": "Diag Pilote is a browser-based tool for French property diagnosticians. It carries thirteen regulated diagnostic modules written against the applicable NF standards, DPE, electrical NF C 16-600, gas NF P45-500, asbestos NF X46-020, lead NF X46-030 and NF X46-035, termites NF P03-201, parasitic condition NF P03-200, Carrez and Boutin measurement, AER, DTG and PPPT, and produces the standard PDF report from them. The DPE module runs a 3CL calculation engine and transmits to the ADEME registry. The same subscription covers the office side: quotes and Factur-X invoices, online payment and a client portal, scheduling with Google Calendar. Field work runs offline from iOS and Android applications.\n",
+      "real_estate_use": "A diagnostician spends the morning in a flat with no network, capturing observations for four or five separate regulated reports, then spends the afternoon turning them into compliant PDFs, invoicing the agency and chasing payment. Diag Pilote exists to remove the re-entry between those two halves: the mobile application works offline in the property, and the same file becomes the report, the invoice and the client notification without being retyped. The regulatory side is what makes it a purchase rather than a preference, because each module has to track a standard that changes, and a report written against a superseded text is worthless. Smaller practices also use only the office half, keeping quotes, invoicing and scheduling there while producing diagnostics elsewhere.\n",
+      "features": [
+        "Thirteen regulated diagnostic modules written against NF standards",
+        "3CL DPE calculation engine with ADEME registry transmission",
+        "Offline iOS and Android field application",
+        "Quotes and Factur-X electronic invoicing",
+        "Online payment and client portal",
+        "Scheduling with Google Calendar synchronisation"
+      ],
+      "use_cases": [
+        {
+          "persona": "appraiser",
+          "job": "Produce several regulated diagnostic reports from one offline site visit"
+        },
+        {
+          "persona": "appraiser",
+          "job": "Run quotes, invoicing and scheduling for a diagnostics practice"
+        }
+      ],
+      "personas": [
+        "appraiser",
+        "agent-broker",
+        "property-manager"
+      ],
+      "segments": [
+        "residential",
+        "office",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://www.diag-pilote.com/tarifs"
+      },
+      "integrations": [
+        "ADEME registry",
+        "Google Calendar",
+        "Stripe"
+      ],
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "liciel",
+        "preventimmo",
+        "check-and-visit"
+      ],
+      "reviews": [],
+      "signals": {
+        "pricing": "https://www.diag-pilote.com/tarifs",
+        "security": "https://www.diag-pilote.com/securite",
+        "privacy": "https://www.diag-pilote.com/politique-de-confidentialite",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-09-02"
+      },
+      "sources": [
+        {
+          "url": "https://www.diag-pilote.com",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://www.diag-pilote.com/fonctionnalites",
+          "note": "modules et normes couvertes"
+        },
+        {
+          "url": "https://www.diag-pilote.com/tarifs",
+          "note": "page tarifs"
+        },
+        {
+          "url": "https://www.diag-pilote.com/mentions-legales",
+          "note": "éditeur ELANOS SAS"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-02"
+    },
+    {
       "slug": "doorloop",
       "name": "DoorLoop",
       "editor": "DoorLoop",
@@ -1752,6 +1862,105 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "leasecake",
+      "name": "Leasecake",
+      "editor": "Leasecake",
+      "website": "https://www.leasecake.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "commercial-am",
+      "also_in": [
+        "back-office-accounting"
+      ],
+      "positioning": "Lease management and lease accounting for multi-location tenants, kept in one system rather than two.",
+      "description": "Leasecake is a lease platform for organisations that occupy many sites. It holds every lease, clause and critical date, keeps the accounting side in step with lease changes so disclosures follow automatically, and covers the stages around the lease itself: deal tracking from first site visit to signature, due diligence before signing or selling, and portfolio-level analysis of leases, costs and locations. The vendor positions the accounting and administration sides as one system rather than two bolted together, and publishes comparisons against the incumbent lease platforms.\n",
+      "real_estate_use": "The buyer here is the tenant, not the landlord: a restaurant group, a retail chain, a franchise operator with fifty to several hundred locations whose leases live in a shared drive and whose renewal dates live in someone's calendar. The cost of that is concrete, a renewal option missed by a week, a rent escalation applied wrongly for a year, a common area charge nobody checked. Leasecake is where those dates and clauses become one tracked list, and where the accounting entries follow the lease instead of being rebuilt each quarter. It also gets pulled into a transaction: before buying or selling a set of locations, the due diligence side is used to surface the obligations buried in the documents.\n",
+      "features": [
+        "Lease, clause and renewal tracking with linked critical dates",
+        "Lease accounting kept in step with lease changes",
+        "Deal management from site selection to signature",
+        "Due diligence review of obligations before a transaction",
+        "Portfolio analysis across leases, costs and locations"
+      ],
+      "use_cases": [
+        {
+          "persona": "tenant-occupier",
+          "job": "Track renewal options and escalations across every leased location"
+        },
+        {
+          "persona": "corporate-re",
+          "job": "Keep lease accounting and disclosures in step with the lease portfolio"
+        }
+      ],
+      "personas": [
+        "tenant-occupier",
+        "corporate-re",
+        "investor-am"
+      ],
+      "segments": [
+        "retail",
+        "office",
+        "industrial",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false,
+        "url": "https://www.leasecake.com/pricing"
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [
+          "ios"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "visual-lease",
+        "mri-software",
+        "vts"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/leasecake.png",
+        "source_url": "https://framerusercontent.com/images/OY7NjjB1yucp02S1FAZRya4CZ6w.png",
+        "fetched_on": "2026-09-02"
+      },
+      "signals": {
+        "privacy": "https://www.leasecake.com/legal/privacy-policy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-02"
+      },
+      "sources": [
+        {
+          "url": "https://www.leasecake.com",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://www.leasecake.com/pricing",
+          "note": "page tarifs, sur demande"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-02"
     },
     {
       "slug": "lone-wolf-back-office",

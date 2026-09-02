@@ -1,0 +1,101 @@
+{
+  "slug": "spectora",
+  "name": "Spectora",
+  "editor": "Spectora",
+  "website": "https://spectora.com",
+  "hq_country": "US",
+  "markets": [
+    "US"
+  ],
+  "category": "diagnostics-compliance",
+  "positioning": "Report writing, scheduling, payments and client communication for home inspectors in one subscription.",
+  "description": "Spectora is a web and mobile platform for home inspectors. It combines the report writer with the surrounding business: online scheduling, inspection agreements with electronic signature, card payments, and the messages sent to buyers and agents. Reports are written on site from the mobile application or at a desk from the browser editor, with no cap on the number produced. The vendor also sells stand-alone inspector websites and a set of office tools for multi-inspector firms, and states it serves over 12,000 inspectors.\n",
+  "real_estate_use": "A home inspector finishes a walkthrough and has to deliver a photographed, structured report the same evening, while the buyer's agent is already asking for it. Spectora is where that report is written on site rather than retyped later, and where the booking, the signed agreement and the payment that preceded it also live. The reason a solo inspector buys it is that the alternative is three tools and a spreadsheet; the reason a multi-inspector firm buys it is that every inspector then produces the same document instead of a personal format. Templates are customisable, so an inspector who works a particular housing stock can carry their own wording from job to job.\n",
+  "features": [
+    "Mobile and browser report writing with unlimited reports",
+    "Online scheduling with automated client and agent messaging",
+    "Inspection agreements with electronic signature",
+    "Card payments, with reports held until settlement",
+    "Customisable report templates",
+    "Inspector websites and SEO sold alongside the software"
+  ],
+  "use_cases": [
+    {
+      "persona": "appraiser",
+      "job": "Write and deliver a photographed inspection report on site"
+    },
+    {
+      "persona": "brokerage",
+      "job": "Run scheduling, agreements and payments for a multi-inspector firm"
+    }
+  ],
+  "personas": [
+    "appraiser",
+    "agent-broker",
+    "brokerage"
+  ],
+  "segments": [
+    "residential"
+  ],
+  "company_sizes": [
+    "solo",
+    "smb"
+  ],
+  "pricing": {
+    "model": "subscription",
+    "public_pricing": true,
+    "url": "https://spectora.com/pricing/"
+  },
+  "ai": {
+    "capabilities": [
+      "report drafting assistance"
+    ]
+  },
+  "product": {
+    "api": false,
+    "open_source": false,
+    "mobile": [
+      "ios",
+      "android"
+    ],
+    "languages": [
+      "en"
+    ]
+  },
+  "alternatives": [
+    "homegauge",
+    "property-inspect",
+    "snapinspect"
+  ],
+  "reviews": [],
+  "logo": {
+    "file": "logos/spectora.png",
+    "source_url": "https://www.spectora.com/hubfs/spectora-software-icon.png",
+    "fetched_on": "2026-09-02"
+  },
+  "signals": {
+    "pricing": "https://www.spectora.com/pricing",
+    "privacy": "https://www.spectora.com/privacy",
+    "status": "https://status.spectora.com",
+    "site_languages": [
+      "en"
+    ],
+    "checked_on": "2026-09-02"
+  },
+  "sources": [
+    {
+      "url": "https://spectora.com",
+      "note": "site éditeur"
+    },
+    {
+      "url": "https://spectora.com/pricing/",
+      "note": "page tarifs"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-09-02"
+}

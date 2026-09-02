@@ -1,0 +1,110 @@
+{
+  "slug": "diag-pilote",
+  "name": "Diag Pilote",
+  "editor": "ELANOS",
+  "website": "https://www.diag-pilote.com",
+  "hq_country": "FR",
+  "markets": [
+    "FR"
+  ],
+  "category": "diagnostics-compliance",
+  "also_in": [
+    "back-office-accounting"
+  ],
+  "founded": 2020,
+  "positioning": "Regulated property diagnostics on site and the running of the practice at the desk, in one browser tool.",
+  "description": "Diag Pilote is a browser-based tool for French property diagnosticians. It carries thirteen regulated diagnostic modules written against the applicable NF standards, DPE, electrical NF C 16-600, gas NF P45-500, asbestos NF X46-020, lead NF X46-030 and NF X46-035, termites NF P03-201, parasitic condition NF P03-200, Carrez and Boutin measurement, AER, DTG and PPPT, and produces the standard PDF report from them. The DPE module runs a 3CL calculation engine and transmits to the ADEME registry. The same subscription covers the office side: quotes and Factur-X invoices, online payment and a client portal, scheduling with Google Calendar. Field work runs offline from iOS and Android applications.\n",
+  "real_estate_use": "A diagnostician spends the morning in a flat with no network, capturing observations for four or five separate regulated reports, then spends the afternoon turning them into compliant PDFs, invoicing the agency and chasing payment. Diag Pilote exists to remove the re-entry between those two halves: the mobile application works offline in the property, and the same file becomes the report, the invoice and the client notification without being retyped. The regulatory side is what makes it a purchase rather than a preference, because each module has to track a standard that changes, and a report written against a superseded text is worthless. Smaller practices also use only the office half, keeping quotes, invoicing and scheduling there while producing diagnostics elsewhere.\n",
+  "features": [
+    "Thirteen regulated diagnostic modules written against NF standards",
+    "3CL DPE calculation engine with ADEME registry transmission",
+    "Offline iOS and Android field application",
+    "Quotes and Factur-X electronic invoicing",
+    "Online payment and client portal",
+    "Scheduling with Google Calendar synchronisation"
+  ],
+  "use_cases": [
+    {
+      "persona": "appraiser",
+      "job": "Produce several regulated diagnostic reports from one offline site visit"
+    },
+    {
+      "persona": "appraiser",
+      "job": "Run quotes, invoicing and scheduling for a diagnostics practice"
+    }
+  ],
+  "personas": [
+    "appraiser",
+    "agent-broker",
+    "property-manager"
+  ],
+  "segments": [
+    "residential",
+    "office",
+    "mixed-use"
+  ],
+  "company_sizes": [
+    "solo",
+    "smb"
+  ],
+  "pricing": {
+    "model": "subscription",
+    "public_pricing": true,
+    "url": "https://www.diag-pilote.com/tarifs"
+  },
+  "integrations": [
+    "ADEME registry",
+    "Google Calendar",
+    "Stripe"
+  ],
+  "product": {
+    "api": false,
+    "open_source": false,
+    "mobile": [
+      "ios",
+      "android"
+    ],
+    "languages": [
+      "fr"
+    ]
+  },
+  "alternatives": [
+    "liciel",
+    "preventimmo",
+    "check-and-visit"
+  ],
+  "reviews": [],
+  "signals": {
+    "pricing": "https://www.diag-pilote.com/tarifs",
+    "security": "https://www.diag-pilote.com/securite",
+    "privacy": "https://www.diag-pilote.com/politique-de-confidentialite",
+    "site_languages": [
+      "fr"
+    ],
+    "checked_on": "2026-09-02"
+  },
+  "sources": [
+    {
+      "url": "https://www.diag-pilote.com",
+      "note": "site éditeur"
+    },
+    {
+      "url": "https://www.diag-pilote.com/fonctionnalites",
+      "note": "modules et normes couvertes"
+    },
+    {
+      "url": "https://www.diag-pilote.com/tarifs",
+      "note": "page tarifs"
+    },
+    {
+      "url": "https://www.diag-pilote.com/mentions-legales",
+      "note": "éditeur ELANOS SAS"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-09-02"
+}

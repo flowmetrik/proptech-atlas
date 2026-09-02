@@ -2,7 +2,7 @@
 
 <!-- Généré par `npm run data:emit`. Ne pas éditer à la main : éditer `data/tools/*.yaml`. -->
 
-201 produits · 115 🇺🇸 · 116 🇫🇷 · mis à jour le 2026-09-01
+207 produits · 119 🇺🇸 · 118 🇫🇷 · mis à jour le 2026-09-02
 
 Version navigable : https://flowmetrik.github.io/proptech-atlas/explore
 
@@ -173,7 +173,9 @@ _Administration institutionnelle des baux, actifs et portefeuilles._
 
 | Produit | Éditeur | Marchés | Usage en immobilier |
 |---|---|---|---|
+| [Leasecake](data/tools/leasecake.yaml) | Leasecake | 🇺🇸 | The buyer here is the tenant, not the landlord: a restaurant group, a retail chain, a franchise operator with fifty to several hundred locations whose leases live in a shared drive and… |
 | [MRI Software](data/tools/mri-software.yaml) | MRI Software | 🇺🇸 🇫🇷 | A European or transatlantic owner often cannot standardise on one vendor — local accounting, local leasing practice and existing systems all resist it. MRI is chosen when the lease and… |
+| [Prophia](data/tools/prophia.yaml) | Prophia | 🇺🇸 | The situation is an acquisition or a portfolio handover where several hundred leases arrive as PDFs and the rent roll has to be trusted before an offer is made. Doing that by hand takes… |
 | [Visual Lease](data/tools/visual-lease.yaml) | Visual Lease (CoStar Group) | 🇺🇸 🇫🇷 | Since IFRS 16 and ASC 842, a company that rents two hundred stores carries those leases on its balance sheet, and the auditor tests the calculation. Visual Lease exists because that… |
 | [VTS](data/tools/vts.yaml) | VTS | 🇺🇸 🇫🇷 | Office leasing runs on a pipeline that traditionally lived in a leasing director's spreadsheet. VTS makes it institutional: every requirement, tour and proposal is tracked, so an asset… |
 | [Yardi Voyager](data/tools/yardi-voyager.yaml) | Yardi Systems | 🇺🇸 🇫🇷 | For an institutional owner, the question is not features but audit chain: the rent invoiced to a tenant, the indexation clause applied, the accrual booked and the figure reported to the… |
@@ -330,11 +332,14 @@ _Diagnostics obligatoires, informations acquéreur et dossiers réglementaires d
 | Produit | Éditeur | Marchés | Usage en immobilier |
 |---|---|---|---|
 | [Check & Visit](data/tools/check-and-visit.yaml) | Check & Visit | 🇫🇷 | For a manager with dispersed properties, the constraint on inspections is travel time, not software. Outsourcing the visit to a local operator while keeping the report in the same… |
+| [Diag Pilote](data/tools/diag-pilote.yaml) | ELANOS | 🇫🇷 | A diagnostician spends the morning in a flat with no network, capturing observations for four or five separate regulated reports, then spends the afternoon turning them into compliant… |
+| [HomeGauge](data/tools/homegauge.yaml) | SHGI Corp | 🇺🇸 | The inspector this is for collects data on site, then finishes and formats the report at a desk, and wants control over how it reads rather than a fixed template. That is the split… |
 | [Immopad](data/tools/immopad.yaml) | Immopad | 🇫🇷 | The état des lieux is the document a deposit dispute turns on, and a paper one written in ballpoint rarely survives it. Capturing room by room with dated photographs and an on-the-spot… |
 | [LICIEL](data/tools/liciel.yaml) | LICIEL Environnement | 🇫🇷 | No French property can be sold or let without its diagnostic file, and the DPE in particular now carries legal consequences — a G-rated dwelling cannot be let. The diagnostician's… |
 | [Preventimmo](data/tools/preventimmo.yaml) | Septeo | 🇫🇷 | A notary preparing a deed, or an agent taking a mandate, has to attach an état des risques that is both current and defensible — and the underlying planning and risk data changes at the… |
 | [Property Inspect](data/tools/property-inspect.yaml) | Property Inspect | 🇺🇸 | The situation it addresses is a team that inspects the same building types repeatedly and cannot show, months later, what was seen. Every inspector follows the same flow — property… |
 | [SnapInspect](data/tools/snapinspect.yaml) | SnapInspect | 🇺🇸 | A property manager running move-in, move-out and periodic inspections across a portfolio replaces a paper checklist and a camera roll with one pass on a phone: each room and item is… |
+| [Spectora](data/tools/spectora.yaml) | Spectora | 🇺🇸 | A home inspector finishes a walkthrough and has to deliver a photographed, structured report the same evening, while the buyer's agent is already asking for it. Spectora is where that… |
 | [Startloc](data/tools/startloc.yaml) | Startloc | 🇫🇷 | The private landlord doing their own inspection is exactly the person most exposed at exit, because their entry document is usually thin. A guided capture forces completeness — every… |
 
 ## Dossier locataire & garanties · Tenant screening & rent guarantee
@@ -371,6 +376,7 @@ _Assistants LLM qui répondent, qualifient, rédigent et agissent sur le métier
 | Produit | Éditeur | Marchés | Usage en immobilier |
 |---|---|---|---|
 | [EliseAI](data/tools/eliseai.yaml) | EliseAI | 🇺🇸 | Leasing enquiries arrive outside office hours and go cold within the hour. EliseAI answers immediately in the channel the prospect used, checks real availability against the property… |
+| [Genius](data/tools/genius-immo.yaml) | Genius | 🇫🇷 | A block manager holding several dozen buildings gets the same question all week, a copropriétaire asking for the last general meeting minutes, a tenant asking who to call about a leak… |
 | [Keyzia](data/tools/keyzia.yaml) | Keyzia | 🇫🇷 | The AI problem inside a French agency or syndic is not that nobody uses it, it is that everyone uses it separately, in a personal account, with client data. Keyzia is positioned against… |
 | [Structurely](data/tools/structurely.yaml) | Structurely | 🇺🇸 | A team buying leads accumulates thousands of contacts nobody has time to nurture. The economics of an AI agent are different from a human inside sales agent: it can pursue a two-year-old… |
 | [Ylopo](data/tools/ylopo.yaml) | Ylopo | 🇺🇸 | Teams that already standardised on a CRM will not move for an ad product. Ylopo's design reflects that: it generates and nurtures, and writes everything back into the CRM of record. Its… |
