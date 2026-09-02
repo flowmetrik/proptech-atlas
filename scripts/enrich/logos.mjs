@@ -11,7 +11,7 @@ import { promisify } from 'node:util';
 import { statSync, unlinkSync } from 'node:fs';
 import {
   ROOT, join, loadTools, pool, fetchWithTimeout, ensureDir, today, imagemagick,
-  readFileSync, writeFileSync, existsSync, upsertBlock, scrapeHtml,
+  readFileSync, writeFileSync, existsSync, upsertBlock, dropBlock, scrapeHtml,
 } from './lib.mjs';
 
 const run = promisify(execFile);
@@ -142,6 +142,10 @@ async function grab(tool) {
   if (REFUSED.has(tool.slug)) {
     const dest = join(OUT, `${tool.slug}.png`);
     if (existsSync(dest)) unlinkSync(dest);
+    // Effacer le PNG sans retirer le bloc `logo` de la fiche laisserait une
+    // référence pendante : le validateur refuse le catalogue entier, et le
+    // refus humain se lit comme une panne. Le geste doit être complet.
+    if (tool.logo?.file) return { slug: tool.slug, status: 'refusé à la relecture', dropLogo: true };
     return { slug: tool.slug, status: 'refusé à la relecture' };
   }
   const dest = join(OUT, `${tool.slug}.png`);
@@ -190,10 +194,17 @@ console.log(`Logos — ${tools.length} outils à examiner`);
 const res = await pool(tools, 6, grab);
 
 // La provenance vit dans la fiche : d'où vient l'image, et quand on l'a prise.
-let written = 0;
+let written = 0, dropped = 0;
 for (const r of res) {
+  const t = tools.find((x) => x.slug === r?.slug);
+  if (r?.dropLogo) {
+    // Le bloc part avec le fichier. `dropBlock` laisse le reste de la fiche
+    // intact, commentaires et ordre des clés compris.
+    writeFileSync(t.file, dropBlock(readFileSync(t.file, 'utf8'), 'logo'));
+    dropped++;
+    continue;
+  }
   if (r?.status !== 'récupéré') continue;
-  const t = tools.find((x) => x.slug === r.slug);
   const text = readFileSync(t.file, 'utf8');
   const block = `logo:\n  file: logos/${r.slug}.png\n  source_url: ${r.source}\n  fetched_on: "${today()}"`;
   writeFileSync(t.file, upsertBlock(text, 'logo', block));
@@ -202,6 +213,6 @@ for (const r of res) {
 
 const by = res.reduce((a, r) => ((a[r?.status ?? 'erreur'] = (a[r?.status ?? 'erreur'] ?? 0) + 1), a), {});
 console.log(Object.entries(by).map(([k, v]) => `  ${v.toString().padStart(4)}  ${k}`).join('\n'));
-console.log(`  ${written} fiche(s) mises à jour`);
+console.log(`  ${written} fiche(s) mises à jour${dropped ? ` · ${dropped} bloc(s) logo retiré(s)` : ''}`);
 const failed = res.filter((r) => r?.status && r.status !== 'récupéré' && r.status !== 'déjà là');
 if (failed.length) console.log('\nSans logo : ' + failed.map((r) => r.slug).join(', '));
