@@ -44,15 +44,21 @@ const results = await pool(input, 8, async (raw) => {
   if (rejected.has(slug)) return { name, slug, ok: false, why: 'déjà écarté lors d\'une passe précédente' };
   if (h && hosts.has(h)) return { name, slug, ok: false, why: `domaine déjà présent (${h})` };
   const v = await verifyCandidate({ ...raw, name });
-  return { ...raw, name, slug, ok: v.ok, why: v.why, website: v.website ?? raw.website };
+  return { ...raw, name, slug, ok: v.ok, why: v.why, warn: v.warn ?? null, website: v.website ?? raw.website };
 });
 
 const ok = results.filter((r) => r.ok);
 const ko = results.filter((r) => !r.ok);
 
-for (const r of ok) console.log(`✓ ${r.name.padEnd(28)} ${r.website}`);
+for (const r of ok) {
+  console.log(`✓ ${r.name.padEnd(28)} ${r.website}`);
+  // Le vérificateur ne juge pas si le produit vit encore ; il dit quand rien
+  // sur l'accueil ne le prouve. La décision reste à celui qui lit le site.
+  if (r.warn) console.log(`  ⚠ ${r.warn}`);
+}
 for (const r of ko) console.log(`✗ ${r.name.padEnd(28)} ${r.why}`);
-console.log(`\n${ok.length} vérifié(s) · ${ko.length} écarté(s)`);
+const warned = ok.filter((r) => r.warn).length;
+console.log(`\n${ok.length} vérifié(s) · ${ko.length} écarté(s)${warned ? ` · ${warned} à regarder de près` : ''}`);
 
 if (mode === 'queue' && ok.length) {
   queue.candidates.push(...ok.map((r) => ({
@@ -60,6 +66,7 @@ if (mode === 'queue' && ok.length) {
     category: r.category ?? null, markets: r.markets ?? [], why: r.why ?? '',
     source_url: r.source_url ?? r.website,
     found_in: r.found_in ?? 'manuel', verified_on: today(),
+    ...(r.warn ? { warn: r.warn } : {}),
   })));
   queue.rejected.push(...ko.map((r) => ({ slug: r.slug, name: r.name, website: r.website, why: r.why })));
   saveQueue(ROOT, queue);

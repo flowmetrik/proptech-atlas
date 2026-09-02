@@ -350,6 +350,68 @@ const normText = (s) =>
   s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]/g, '');
 
 /**
+ * Les trois traces qu'un site de produit laisse dans sa navigation, et qu'un
+ * domaine reconverti n'a plus. Vu le 01/09 sur `cowork.io` : la presse le
+ * présentait comme un SaaS de gestion de coworking, le site répondait, le nom
+ * figurait bien sur l'accueil — et le domaine ne sert plus qu'un blog signé
+ * d'un seul auteur. Les deux contrôles durs disaient oui.
+ *
+ * Ce n'est PAS un rejet. Un produit peut légitimement n'avoir ni tarif public
+ * ni espace client visible ; le tri final reste un jugement humain. C'est un
+ * avertissement, pour que personne n'écrive une fiche sans avoir regardé.
+ */
+const PRODUCT_TRACES = [
+  ['tarifs', /(pricing|tarif|prix|abonnement|nos-offres|plans-and|plans_and)/],
+  ['fonctionnalites', /(feature|fonctionnalite|product|produit|solution|platform|plateforme|module|software|logiciel|how-it-works|comment-ca-marche)/],
+  ['connexion', /(login|log-in|signin|sign-in|connexion|se-connecter|espace-client|mon-compte|my-account|client-area|free-trial|essai-gratuit|demo)|\/\/(app|my|espace|client|secure|portal|login)\./],
+];
+
+/** Les href qui ne sont pas de la navigation : ressources, scripts, plomberie. */
+const ASSET_HREF = /\.(css|js|png|jpe?g|gif|svg|webp|ico|woff2?|ttf|eot|mp4|pdf|xml|json)(\?|$)|\/wp-(content|includes|json)\/|xmlrpc\.php|^(mailto|tel|javascript):|^#/i;
+
+/**
+ * Les href éditoriaux : billets datés, rubriques, étiquettes, flux. On les
+ * retire avant de chercher les traces de produit, parce qu'un titre d'article
+ * contient les mêmes mots que la navigation d'un éditeur. C'est très
+ * exactement ce qui a sauvé `cowork.io` du premier jet de ce contrôle : un
+ * billet nommé « la carte des prix de meilleursagents.com » suffisait à faire
+ * croire à une page tarifs.
+ */
+const EDITORIAL_HREF = /\/(19|20)\d\d\/\d\d\/|\/(category|categorie|rubrique|tag|etiquette|author|auteur|feed|comments|page)\/|\/(19|20)\d\d\/\d\d$/i;
+
+/**
+ * Rend les traces de produit absentes de la navigation de l'accueil, ou `null`
+ * quand la page ne permet pas d'en juger. Ce second cas n'est pas rare et il
+ * compte : une coquille rendue en JavaScript (Zumper : 3 ko, zéro lien) ne dit
+ * rien du tout, et la traiter comme un site vide fabriquerait une alerte sur un
+ * produit parfaitement vivant.
+ *
+ * On lit les `href` — la structure — et le libellé des liens, pas le corps de
+ * la page : un blog parle de « prix » en prose sans avoir de page tarifs.
+ */
+export function missingProductTraces(html) {
+  const s = String(html);
+  const liens = [...s.matchAll(/href=["']([^"']+)["']/gi)]
+    .map((m) => m[1])
+    .filter((h) => !ASSET_HREF.test(h));
+  // Le seuil de richesse se juge AVANT le tri éditorial, sinon un blog fourni
+  // — beaucoup d'articles, peu de menu — deviendrait « indécidable » et
+  // échapperait au contrôle par le nombre même de ses billets.
+  if (liens.length < 5) return null;
+  const hrefs = liens.filter((h) => !EDITORIAL_HREF.test(h));
+  const labels = [...s.matchAll(/<a\b([^>]*)>([\s\S]*?)<\/a>/gi)]
+    .filter((m) => !EDITORIAL_HREF.test(m[1]))
+    .map((m) => m[2].replace(/<[^>]*>/g, ' '));
+  const hay = [...hrefs, ...labels]
+    .join(' ')
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[̀-ͯ]/g, '')
+    .replace(/[^a-z0-9/.:_-]+/g, ' ');
+  return PRODUCT_TRACES.filter(([, re]) => !re.test(hay)).map(([label]) => label);
+}
+
+/**
  * Le contrôle exécutable sans lequel la boucle fabriquerait des produits.
  * Un candidat n'entre dans la file que si son site répond ET que son nom figure
  * sur sa propre page d'accueil. Une URL de recherche ou de fiche d'annuaire est
@@ -368,11 +430,19 @@ export async function verifyCandidate(c) {
     try {
       const r = await fetchWithTimeout(t, { ms: 20000 });
       if (!r.ok) continue;
-      const n = normText((await r.text()).slice(0, 400000));
+      const html = (await r.text()).slice(0, 400000);
+      const n = normText(html);
       const full = normText(c.name);
       const first = normText(String(c.name).split(/[\s·—-]/)[0]);
       if (n.includes(full) || (first.length >= 4 && n.includes(first))) {
-        return { ok: true, website: (r.url || t).replace(/\/$/, '') };
+        const missing = missingProductTraces(html);
+        // Les trois absentes en même temps : c'est la signature du domaine
+        // reconverti. Une seule ou deux ne disent rien de fiable, et `null` dit
+        // que la page ne permet pas d'en juger — on se tait plutôt que d'alerter.
+        const warn = missing && missing.length === PRODUCT_TRACES.length
+          ? "ni tarifs, ni fonctionnalites, ni connexion sur l'accueil — domaine peut-etre reconverti, a regarder"
+          : null;
+        return { ok: true, website: (r.url || t).replace(/\/$/, ''), warn };
       }
       return { ok: false, why: 'le nom du produit ne figure pas sur la page' };
     } catch { /* variante suivante */ }
