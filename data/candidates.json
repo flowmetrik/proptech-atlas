@@ -154,6 +154,48 @@
       "source_url": "https://goaudits.com",
       "found_in": "manuel",
       "verified_on": "2026-08-31"
+    },
+    {
+      "slug": "siana",
+      "name": "Siana",
+      "website": "https://siana.ai",
+      "why": "homonyme : siana.ai est Siana ApS, maintenance prédictive industrielle par capteurs (Danemark). Rien à voir avec la proptech française SIANA, dont le site n'a pas été trouvé. verify.mjs a dit oui : le site répond et le nom figure sur l'accueil."
+    },
+    {
+      "slug": "tap-inspect",
+      "name": "Tap Inspect",
+      "website": "https://www.tapinspect.com",
+      "why": "site injoignable depuis le vérificateur (répond en navigateur, bloque le fetch) — pas d'ancrage possible"
+    },
+    {
+      "slug": "horizon",
+      "name": "Horizon (Carson Dunlop)",
+      "website": "https://www.carsondunlop.com",
+      "why": "site injoignable depuis le vérificateur"
+    },
+    {
+      "slug": "cressblue",
+      "name": "CRESSblue",
+      "website": "https://cressblue.com",
+      "why": "site injoignable depuis le vérificateur"
+    },
+    {
+      "slug": "courtisia",
+      "name": "Courtisia",
+      "website": "https://www.courtisia.fr",
+      "why": "site injoignable depuis le vérificateur"
+    },
+    {
+      "slug": "cifacil",
+      "name": "Cifacil",
+      "website": "https://www.cifacil.io",
+      "why": "la racine redirige vers /login : aucune page publique à lire, donc aucune fiche ancrée possible"
+    },
+    {
+      "slug": "dtimmo",
+      "name": "DTIMMO",
+      "website": "http://dtimmo.fr",
+      "why": "produit réel mais site figé : la dernière version annoncée est « officielle 2014 ». Impossible de dater l'offre actuelle honnêtement."
     }
   ]
 }

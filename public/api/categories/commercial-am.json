@@ -4,7 +4,7 @@
   "label_fr": "Asset & property management tertiaire",
   "summary_en": "Institutional-grade lease, asset and portfolio administration.",
   "summary_fr": "Administration institutionnelle des baux, actifs et portefeuilles.",
-  "count": 7,
+  "count": 9,
   "tools": [
     {
       "slug": "argus-enterprise",
@@ -325,6 +325,105 @@
       "updated": "2026-08-25"
     },
     {
+      "slug": "leasecake",
+      "name": "Leasecake",
+      "editor": "Leasecake",
+      "website": "https://www.leasecake.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "commercial-am",
+      "also_in": [
+        "back-office-accounting"
+      ],
+      "positioning": "Lease management and lease accounting for multi-location tenants, kept in one system rather than two.",
+      "description": "Leasecake is a lease platform for organisations that occupy many sites. It holds every lease, clause and critical date, keeps the accounting side in step with lease changes so disclosures follow automatically, and covers the stages around the lease itself: deal tracking from first site visit to signature, due diligence before signing or selling, and portfolio-level analysis of leases, costs and locations. The vendor positions the accounting and administration sides as one system rather than two bolted together, and publishes comparisons against the incumbent lease platforms.\n",
+      "real_estate_use": "The buyer here is the tenant, not the landlord: a restaurant group, a retail chain, a franchise operator with fifty to several hundred locations whose leases live in a shared drive and whose renewal dates live in someone's calendar. The cost of that is concrete, a renewal option missed by a week, a rent escalation applied wrongly for a year, a common area charge nobody checked. Leasecake is where those dates and clauses become one tracked list, and where the accounting entries follow the lease instead of being rebuilt each quarter. It also gets pulled into a transaction: before buying or selling a set of locations, the due diligence side is used to surface the obligations buried in the documents.\n",
+      "features": [
+        "Lease, clause and renewal tracking with linked critical dates",
+        "Lease accounting kept in step with lease changes",
+        "Deal management from site selection to signature",
+        "Due diligence review of obligations before a transaction",
+        "Portfolio analysis across leases, costs and locations"
+      ],
+      "use_cases": [
+        {
+          "persona": "tenant-occupier",
+          "job": "Track renewal options and escalations across every leased location"
+        },
+        {
+          "persona": "corporate-re",
+          "job": "Keep lease accounting and disclosures in step with the lease portfolio"
+        }
+      ],
+      "personas": [
+        "tenant-occupier",
+        "corporate-re",
+        "investor-am"
+      ],
+      "segments": [
+        "retail",
+        "office",
+        "industrial",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false,
+        "url": "https://www.leasecake.com/pricing"
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [
+          "ios"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "visual-lease",
+        "mri-software",
+        "vts"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/leasecake.png",
+        "source_url": "https://framerusercontent.com/images/OY7NjjB1yucp02S1FAZRya4CZ6w.png",
+        "fetched_on": "2026-09-02"
+      },
+      "signals": {
+        "privacy": "https://www.leasecake.com/legal/privacy-policy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-02"
+      },
+      "sources": [
+        {
+          "url": "https://www.leasecake.com",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://www.leasecake.com/pricing",
+          "note": "page tarifs, sur demande"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-02"
+    },
+    {
       "slug": "mri-software",
       "name": "MRI Software",
       "editor": "MRI Software",
@@ -436,6 +535,104 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "prophia",
+      "name": "Prophia",
+      "editor": "Prophia",
+      "website": "https://www.prophia.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "commercial-am",
+      "positioning": "Lease abstraction for commercial portfolios, machine extraction checked by people before the data is used.",
+      "description": "Prophia turns commercial lease documents into structured data. A document is uploaded, the platform extracts the terms, specialists audit the extraction, and the customer reviews before the abstract is finalised; each field stays linked back to the passage it came from. On top of that data it offers rent roll automation, a stacking plan that updates itself, encumbrance tracking, portfolio analytics and an AI assistant, and it exposes an MCP integration so the lease data can be queried from outside the product. It is sold in two tiers, Essentials and Portfolio, plus a stand-alone abstraction service.\n",
+      "real_estate_use": "The situation is an acquisition or a portfolio handover where several hundred leases arrive as PDFs and the rent roll has to be trusted before an offer is made. Doing that by hand takes weeks and still leaves errors, which is Prophia's argument: it puts a human audit between the model and the answer, and links every abstracted term to the source text so an analyst can check a number instead of believing it. Once the deal closes the same data serves asset and leasing teams: the stacking plan reflects the current rent roll, critical dates are visible, and the encumbrances that constrain a future lease are on record rather than buried in a document nobody reopens.\n",
+      "features": [
+        "AI lease abstraction with expert audit before delivery",
+        "Every abstracted field linked back to its source passage",
+        "Rent roll automation",
+        "Self-updating stacking plan",
+        "Encumbrance tracking",
+        "MCP integration for querying lease data externally"
+      ],
+      "use_cases": [
+        {
+          "persona": "investor-am",
+          "job": "Verify a rent roll against the leases before closing an acquisition"
+        },
+        {
+          "persona": "corporate-re",
+          "job": "Keep an asset management team working from current, sourced lease terms"
+        }
+      ],
+      "personas": [
+        "investor-am",
+        "corporate-re",
+        "property-manager",
+        "agent-broker"
+      ],
+      "segments": [
+        "office",
+        "retail",
+        "industrial",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "ai": {
+        "capabilities": [
+          "lease abstraction",
+          "document question answering"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "visual-lease",
+        "leasecake",
+        "vts",
+        "argus-enterprise"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/prophia.png",
+        "source_url": "https://www.prophia.com/hubfs/favicon.png",
+        "fetched_on": "2026-09-02"
+      },
+      "signals": {
+        "security": "https://www.prophia.com/security",
+        "privacy": "https://www.prophia.com/privacy-policy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-02"
+      },
+      "sources": [
+        {
+          "url": "https://www.prophia.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-02"
     },
     {
       "slug": "visual-lease",

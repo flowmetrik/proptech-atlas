@@ -21,19 +21,26 @@ qu'une chose a été tentée vaut mieux que de la retenter.
   trois voies de récupération. Trois autres (`bob-desk`, `poliris`,
   `salvia-developpement`) n'y résistaient pas : leur URL était morte, corrigée le
   31/08. `poliris` reste sans logo par choix — voir l'entrée du 31/08.
-- **`verify.mjs` ne voit pas un domaine reconverti.** Il contrôle que le site
-  répond et que le nom figure sur l'accueil ; un domaine dont le produit est mort
-  et qui sert maintenant un blog de contenu passe les deux. Vu le 01/09 sur
-  `cowork.io`, présenté par la presse comme un SaaS de gestion de coworking et
-  devenu un blog signé d'un seul auteur, sans trace du produit. Le signal qui
-  l'aurait trahi : aucune page tarif, aucune page fonctionnalités, aucun lien de
-  connexion. À ajouter comme avertissement, pas comme rejet — c'est un jugement.
 - **`logos.mjs` ne sait toujours pas reconnaître un logo.** Deux garde-fous
   existent désormais : `data/logos-refuses.json` fait tenir un refus humain d'une
   passe à l'autre, et depuis le 01/09 un aplat d'une seule couleur est rejeté
   automatiquement. Reste le cas difficile, celui de `poliris` : une image
   parfaitement valide qui n'est simplement pas le logo. Le nom du produit dans
   l'attribut `alt` de l'image candidate serait le prochain signal à exploiter.
+- **`verify.mjs` ne voit toujours pas un produit homonyme.** Le contrôle de
+  domaine reconverti, posé le 02/09, ne couvre que le cas du domaine mort. Reste
+  celui du **nom qui désigne autre chose** : `siana.ai` a été vérifié « oui » le
+  02/09 pour la SIANA proptech française, alors que ce domaine appartient à Siana
+  ApS, un danois de la maintenance prédictive industrielle. Le site répond, le
+  nom figure sur l'accueil, et le produit n'a rien à voir. Il n'y a pas de
+  contrôle exécutable évident — c'est la catégorie et le marché déclarés du
+  candidat qu'il faudrait confronter au contenu, ce qui coûte un appel de modèle.
+  À défaut, le geste humain reste obligatoire : lire l'accueil avant d'écrire.
+- **Le dépôt n'a pas de harnais de test.** `scripts/enrich/traces.test.mjs`, écrit
+  le 02/09, est le premier fichier de test du projet et se lance à la main. Tant
+  qu'aucun `npm test` ne les rassemble, un test ajouté ne protège que celui qui
+  s'en souvient. Peu coûteux à corriger : un script qui exécute `*.test.mjs`, et
+  une étape dans la CI.
 - **Les avis restent à zéro.** G2, Capterra et Trustpilot renvoient `403`. Deux
   issues possibles : une clé d'API payante chez l'un d'eux, ou des contributions
   humaines sourcées. Ne jamais résoudre ce point en inventant.
@@ -41,12 +48,12 @@ qu'une chose a été tentée vaut mieux que de la retenter.
 ## Ouvert — couverture
 
 - **Catégories creuses**, à traiter par une source ciblée plutôt que par une
-  ronde généraliste. Relevé au 01/09, en US/FR/total : `flex-coworking` 4/8/8,
-  `lending-mortgage` 3/3/6, `listing-syndication` 3/5/8, `commercial-am` 6/6/7,
-  `visuals-tours` 3/6/6. Par marché, deux trous nets : `ai-assistants` n'a que
-  **2 fiches françaises** contre 10 américaines, et `diagnostics-compliance` que
-  **2 américaines** contre 5 françaises. Les chiffres de ce carnet vieillissent
-  vite : les recompter avant de choisir, pas les lire.
+  ronde généraliste. Relevé au 02/09, en US/FR/total : `lending-mortgage` 3/3/6,
+  `visuals-tours` 3/6/6, `listing-syndication` 3/5/8, `flex-coworking` 4/8/8,
+  `short-term-rental` 7/7/8. Les deux trous par marché signalés le 01/09 se sont
+  refermés d'un cran le 02/09 : `ai-assistants` FR passe de 2 à 3 (`genius-immo`)
+  et `diagnostics-compliance` US de 2 à 4 (`spectora`, `homegauge`). Les chiffres
+  de ce carnet vieillissent vite : les recompter avant de choisir, pas les lire.
 
   ```bash
   node --input-type=module -e "import fs from 'node:fs';import yaml from 'js-yaml';\
@@ -110,6 +117,39 @@ qu'une chose a été tentée vaut mieux que de la retenter.
 ---
 
 ## Fait
+
+- **2026-09-02** — `verify.mjs` sait maintenant dire qu'un domaine a peut-être
+  changé de métier. Il ne le refuse pas — un produit peut légitimement n'avoir ni
+  tarif public ni espace client — mais il **avertit** quand la navigation de
+  l'accueil ne porte **aucune** des trois traces qu'un éditeur laisse toujours :
+  tarifs, fonctionnalités, connexion. Deux choses ont coûté plus cher que le
+  contrôle lui-même, et les deux se sont vues à la mesure, pas à la lecture :
+  le premier jet lisait les éléments `<a>…</a>` entiers, ce qui perd tout menu
+  dont un item dépasse 300 caractères — il alertait sur `nexudus` et `essensys`,
+  deux produits vivants, et laissait passer `cowork.io` ; et le mot « prix » dans
+  le **titre d'un billet de blog** suffisait à faire croire à une page tarifs, si
+  bien que le cas pour lequel le contrôle avait été écrit y échappait. D'où deux
+  règles : on lit les `href` et les libellés, jamais le corps de la page ; et les
+  URL éditoriales (billets datés, rubriques, étiquettes) sortent du foin avant la
+  recherche. Troisième précaution, la plus importante : une page qui ne permet
+  pas d'en juger — moins de cinq liens, coquille rendue en JavaScript comme celle
+  de Zumper — rend `null` et **n'alerte pas**. Le seuil de richesse se mesure
+  avant le tri éditorial, sinon un blog fourni échapperait au contrôle par le
+  nombre même de ses billets. Passé sur les 202 sites du catalogue : 4 alertes
+  sur 175 sites jugeables (`apimo`, `bien-ici`, `dvf`, `immopad` — tous des
+  produits réels, dont la navigation tient dans du JavaScript), et `cowork.io`
+  attrapé. `scripts/enrich/traces.test.mjs` fige les trois formes hors ligne.
+
+- **2026-09-02** — Un refus de logo laissait la fiche cassée. `logos.mjs`
+  supprimait bien le PNG d'un slug inscrit dans `data/logos-refuses.json`, mais
+  gardait le bloc `logo:` de la fiche, qui pointait alors sur un fichier absent.
+  Le validateur le voyait — donc le catalogue entier refusait de passer, et un
+  jugement humain parfaitement légitime se lisait comme une panne. Vu en refusant
+  le logo de `diag-pilote`, dont la meilleure image candidate était l'image de
+  partage Open Graph, une bannière avec accroche et capture d'écran. Corrigé par
+  `dropBlock()`, jumeau de `upsertBlock()` : le bloc part avec le fichier, le
+  reste de la fiche est intact. À retenir : un geste de retrait doit être aussi
+  complet que le geste d'ajout qu'il défait.
 
 - **2026-09-01** — Deux fiches affichaient un **carré blanc** en guise de logo,
   et rien ne le disait. `dollydesk` venait d'être récupéré, `pricehubble` datait

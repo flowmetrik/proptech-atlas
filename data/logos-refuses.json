@@ -6,6 +6,12 @@
       "source_url": "https://realestate.orisha.com//app/uploads/2024/02/Diapositive1-1-300x300.jpeg",
       "why": "export de diapositive du site repreneur — un dégradé de triangles, aucun logo. Le domaine propre de Poliris ne résout plus, il n'y a donc pas de source légitime.",
       "on": "2026-08-31"
+    },
+    {
+      "slug": "diag-pilote",
+      "source_url": "https://www.diag-pilote.com/images/og.jpg",
+      "why": "image de partage Open Graph : une bannière avec capture d'écran et accroche « CRM diagnostiqueur + logiciel terrain », pas une marque. Le site n'expose pas de logo isolé dans son <head>.",
+      "on": "2026-09-02"
     }
   ]
 }

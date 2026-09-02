@@ -4,23 +4,23 @@
   "license": "CC-BY-4.0 (data) / MIT (code)",
   "homepage": "https://flowmetrik.github.io/proptech-atlas",
   "repository": "https://github.com/flowmetrik/proptech-atlas",
-  "generated": "2026-09-01",
+  "generated": "2026-09-02",
   "counts": {
-    "tools": 201,
-    "US": 115,
-    "FR": 116,
+    "tools": 207,
+    "US": 119,
+    "FR": 118,
     "categories": 24,
-    "editors": 184,
+    "editors": 190,
     "verified": 0,
     "reviews": 0,
-    "logos": 198,
+    "logos": 203,
     "signals": {
-      "probed": 187,
-      "public_pricing": 50,
+      "probed": 193,
+      "public_pricing": 52,
       "api_docs": 14,
-      "security_page": 25,
-      "privacy_page": 137,
-      "status_page": 53
+      "security_page": 27,
+      "privacy_page": 142,
+      "status_page": 55
     }
   },
   "nodes": [
@@ -265,6 +265,11 @@
       "label": "Deepki"
     },
     {
+      "id": "tool:diag-pilote",
+      "type": "tool",
+      "label": "Diag Pilote"
+    },
+    {
       "id": "tool:docusign",
       "type": "tool",
       "label": "Docusign"
@@ -375,6 +380,11 @@
       "label": "GenApi"
     },
     {
+      "id": "tool:genius-immo",
+      "type": "tool",
+      "label": "Genius"
+    },
+    {
       "id": "tool:gercop",
       "type": "tool",
       "label": "Gercop"
@@ -408,6 +418,11 @@
       "id": "tool:hemlane",
       "type": "tool",
       "label": "Hemlane"
+    },
+    {
+      "id": "tool:homegauge",
+      "type": "tool",
+      "label": "HomeGauge"
     },
     {
       "id": "tool:homes-com",
@@ -493,6 +508,11 @@
       "id": "tool:leadsimple",
       "type": "tool",
       "label": "LeadSimple"
+    },
+    {
+      "id": "tool:leasecake",
+      "type": "tool",
+      "label": "Leasecake"
     },
     {
       "id": "tool:leboncoin-immobilier",
@@ -720,6 +740,11 @@
       "label": "Propertyware"
     },
     {
+      "id": "tool:prophia",
+      "type": "tool",
+      "label": "Prophia"
+    },
+    {
       "id": "tool:prospeneo",
       "type": "tool",
       "label": "Prospeneo"
@@ -848,6 +873,11 @@
       "id": "tool:softpro",
       "type": "tool",
       "label": "SoftPro"
+    },
+    {
+      "id": "tool:spectora",
+      "type": "tool",
+      "label": "Spectora"
     },
     {
       "id": "tool:spinalcom",
@@ -1505,6 +1535,11 @@
       "label": "Deepki"
     },
     {
+      "id": "editor:ELANOS",
+      "type": "editor",
+      "label": "ELANOS"
+    },
+    {
       "id": "editor:Docusign",
       "type": "editor",
       "label": "Docusign"
@@ -1605,6 +1640,11 @@
       "label": "Garantme"
     },
     {
+      "id": "editor:Genius",
+      "type": "editor",
+      "label": "Genius"
+    },
+    {
       "id": "editor:Gererseul",
       "type": "editor",
       "label": "Gererseul"
@@ -1633,6 +1673,11 @@
       "id": "editor:Hemlane",
       "type": "editor",
       "label": "Hemlane"
+    },
+    {
+      "id": "editor:SHGI Corp",
+      "type": "editor",
+      "label": "SHGI Corp"
     },
     {
       "id": "editor:Horiz.io",
@@ -1708,6 +1753,11 @@
       "id": "editor:LeadSimple",
       "type": "editor",
       "label": "LeadSimple"
+    },
+    {
+      "id": "editor:Leasecake",
+      "type": "editor",
+      "label": "Leasecake"
     },
     {
       "id": "editor:Leboncoin (Adevinta)",
@@ -1905,6 +1955,11 @@
       "label": "Property Meld"
     },
     {
+      "id": "editor:Prophia",
+      "type": "editor",
+      "label": "Prophia"
+    },
+    {
       "id": "editor:Facilogi",
       "type": "editor",
       "label": "Facilogi"
@@ -2023,6 +2078,11 @@
       "id": "editor:SoftPro (Fidelity National Financial)",
       "type": "editor",
       "label": "SoftPro (Fidelity National Financial)"
+    },
+    {
+      "id": "editor:Spectora",
+      "type": "editor",
+      "label": "Spectora"
     },
     {
       "id": "editor:SpinalCom",
@@ -5167,6 +5227,71 @@
       "to": "tool:ubigreen"
     },
     {
+      "from": "tool:diag-pilote",
+      "rel": "published_by",
+      "to": "editor:ELANOS"
+    },
+    {
+      "from": "tool:diag-pilote",
+      "rel": "belongs_to",
+      "to": "category:diagnostics-compliance"
+    },
+    {
+      "from": "tool:diag-pilote",
+      "rel": "also_serves",
+      "to": "category:back-office-accounting"
+    },
+    {
+      "from": "tool:diag-pilote",
+      "rel": "serves_persona",
+      "to": "persona:appraiser"
+    },
+    {
+      "from": "tool:diag-pilote",
+      "rel": "serves_persona",
+      "to": "persona:agent-broker"
+    },
+    {
+      "from": "tool:diag-pilote",
+      "rel": "serves_persona",
+      "to": "persona:property-manager"
+    },
+    {
+      "from": "tool:diag-pilote",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:diag-pilote",
+      "rel": "covers_segment",
+      "to": "segment:office"
+    },
+    {
+      "from": "tool:diag-pilote",
+      "rel": "covers_segment",
+      "to": "segment:mixed-use"
+    },
+    {
+      "from": "tool:diag-pilote",
+      "rel": "available_in",
+      "to": "market:FR"
+    },
+    {
+      "from": "tool:diag-pilote",
+      "rel": "alternative_to",
+      "to": "tool:liciel"
+    },
+    {
+      "from": "tool:diag-pilote",
+      "rel": "alternative_to",
+      "to": "tool:preventimmo"
+    },
+    {
+      "from": "tool:diag-pilote",
+      "rel": "alternative_to",
+      "to": "tool:check-and-visit"
+    },
+    {
       "from": "tool:docusign",
       "rel": "published_by",
       "to": "editor:Docusign"
@@ -6467,6 +6592,61 @@
       "to": "tool:inot"
     },
     {
+      "from": "tool:genius-immo",
+      "rel": "published_by",
+      "to": "editor:Genius"
+    },
+    {
+      "from": "tool:genius-immo",
+      "rel": "belongs_to",
+      "to": "category:ai-assistants"
+    },
+    {
+      "from": "tool:genius-immo",
+      "rel": "also_serves",
+      "to": "category:syndic-copro"
+    },
+    {
+      "from": "tool:genius-immo",
+      "rel": "serves_persona",
+      "to": "persona:syndic-manager"
+    },
+    {
+      "from": "tool:genius-immo",
+      "rel": "serves_persona",
+      "to": "persona:property-manager"
+    },
+    {
+      "from": "tool:genius-immo",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:genius-immo",
+      "rel": "covers_segment",
+      "to": "segment:multifamily"
+    },
+    {
+      "from": "tool:genius-immo",
+      "rel": "covers_segment",
+      "to": "segment:mixed-use"
+    },
+    {
+      "from": "tool:genius-immo",
+      "rel": "available_in",
+      "to": "market:FR"
+    },
+    {
+      "from": "tool:genius-immo",
+      "rel": "alternative_to",
+      "to": "tool:pilotim"
+    },
+    {
+      "from": "tool:genius-immo",
+      "rel": "alternative_to",
+      "to": "tool:keyzia"
+    },
+    {
       "from": "tool:gercop",
       "rel": "published_by",
       "to": "editor:Septeo"
@@ -6870,6 +7050,51 @@
       "from": "tool:hemlane",
       "rel": "alternative_to",
       "to": "tool:doorloop"
+    },
+    {
+      "from": "tool:homegauge",
+      "rel": "published_by",
+      "to": "editor:SHGI Corp"
+    },
+    {
+      "from": "tool:homegauge",
+      "rel": "belongs_to",
+      "to": "category:diagnostics-compliance"
+    },
+    {
+      "from": "tool:homegauge",
+      "rel": "serves_persona",
+      "to": "persona:appraiser"
+    },
+    {
+      "from": "tool:homegauge",
+      "rel": "serves_persona",
+      "to": "persona:agent-broker"
+    },
+    {
+      "from": "tool:homegauge",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:homegauge",
+      "rel": "available_in",
+      "to": "market:US"
+    },
+    {
+      "from": "tool:homegauge",
+      "rel": "alternative_to",
+      "to": "tool:spectora"
+    },
+    {
+      "from": "tool:homegauge",
+      "rel": "alternative_to",
+      "to": "tool:property-inspect"
+    },
+    {
+      "from": "tool:homegauge",
+      "rel": "alternative_to",
+      "to": "tool:snapinspect"
     },
     {
       "from": "tool:homes-com",
@@ -7900,6 +8125,76 @@
       "from": "tool:leadsimple",
       "rel": "alternative_to",
       "to": "tool:rentmanager"
+    },
+    {
+      "from": "tool:leasecake",
+      "rel": "published_by",
+      "to": "editor:Leasecake"
+    },
+    {
+      "from": "tool:leasecake",
+      "rel": "belongs_to",
+      "to": "category:commercial-am"
+    },
+    {
+      "from": "tool:leasecake",
+      "rel": "also_serves",
+      "to": "category:back-office-accounting"
+    },
+    {
+      "from": "tool:leasecake",
+      "rel": "serves_persona",
+      "to": "persona:tenant-occupier"
+    },
+    {
+      "from": "tool:leasecake",
+      "rel": "serves_persona",
+      "to": "persona:corporate-re"
+    },
+    {
+      "from": "tool:leasecake",
+      "rel": "serves_persona",
+      "to": "persona:investor-am"
+    },
+    {
+      "from": "tool:leasecake",
+      "rel": "covers_segment",
+      "to": "segment:retail"
+    },
+    {
+      "from": "tool:leasecake",
+      "rel": "covers_segment",
+      "to": "segment:office"
+    },
+    {
+      "from": "tool:leasecake",
+      "rel": "covers_segment",
+      "to": "segment:industrial"
+    },
+    {
+      "from": "tool:leasecake",
+      "rel": "covers_segment",
+      "to": "segment:mixed-use"
+    },
+    {
+      "from": "tool:leasecake",
+      "rel": "available_in",
+      "to": "market:US"
+    },
+    {
+      "from": "tool:leasecake",
+      "rel": "alternative_to",
+      "to": "tool:visual-lease"
+    },
+    {
+      "from": "tool:leasecake",
+      "rel": "alternative_to",
+      "to": "tool:mri-software"
+    },
+    {
+      "from": "tool:leasecake",
+      "rel": "alternative_to",
+      "to": "tool:vts"
     },
     {
       "from": "tool:leboncoin-immobilier",
@@ -10652,6 +10947,81 @@
       "to": "tool:hemlane"
     },
     {
+      "from": "tool:prophia",
+      "rel": "published_by",
+      "to": "editor:Prophia"
+    },
+    {
+      "from": "tool:prophia",
+      "rel": "belongs_to",
+      "to": "category:commercial-am"
+    },
+    {
+      "from": "tool:prophia",
+      "rel": "serves_persona",
+      "to": "persona:investor-am"
+    },
+    {
+      "from": "tool:prophia",
+      "rel": "serves_persona",
+      "to": "persona:corporate-re"
+    },
+    {
+      "from": "tool:prophia",
+      "rel": "serves_persona",
+      "to": "persona:property-manager"
+    },
+    {
+      "from": "tool:prophia",
+      "rel": "serves_persona",
+      "to": "persona:agent-broker"
+    },
+    {
+      "from": "tool:prophia",
+      "rel": "covers_segment",
+      "to": "segment:office"
+    },
+    {
+      "from": "tool:prophia",
+      "rel": "covers_segment",
+      "to": "segment:retail"
+    },
+    {
+      "from": "tool:prophia",
+      "rel": "covers_segment",
+      "to": "segment:industrial"
+    },
+    {
+      "from": "tool:prophia",
+      "rel": "covers_segment",
+      "to": "segment:mixed-use"
+    },
+    {
+      "from": "tool:prophia",
+      "rel": "available_in",
+      "to": "market:US"
+    },
+    {
+      "from": "tool:prophia",
+      "rel": "alternative_to",
+      "to": "tool:visual-lease"
+    },
+    {
+      "from": "tool:prophia",
+      "rel": "alternative_to",
+      "to": "tool:leasecake"
+    },
+    {
+      "from": "tool:prophia",
+      "rel": "alternative_to",
+      "to": "tool:vts"
+    },
+    {
+      "from": "tool:prophia",
+      "rel": "alternative_to",
+      "to": "tool:argus-enterprise"
+    },
+    {
       "from": "tool:prospeneo",
       "rel": "published_by",
       "to": "editor:Facilogi"
@@ -12210,6 +12580,56 @@
       "from": "tool:softpro",
       "rel": "alternative_to",
       "to": "tool:resware"
+    },
+    {
+      "from": "tool:spectora",
+      "rel": "published_by",
+      "to": "editor:Spectora"
+    },
+    {
+      "from": "tool:spectora",
+      "rel": "belongs_to",
+      "to": "category:diagnostics-compliance"
+    },
+    {
+      "from": "tool:spectora",
+      "rel": "serves_persona",
+      "to": "persona:appraiser"
+    },
+    {
+      "from": "tool:spectora",
+      "rel": "serves_persona",
+      "to": "persona:agent-broker"
+    },
+    {
+      "from": "tool:spectora",
+      "rel": "serves_persona",
+      "to": "persona:brokerage"
+    },
+    {
+      "from": "tool:spectora",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:spectora",
+      "rel": "available_in",
+      "to": "market:US"
+    },
+    {
+      "from": "tool:spectora",
+      "rel": "alternative_to",
+      "to": "tool:homegauge"
+    },
+    {
+      "from": "tool:spectora",
+      "rel": "alternative_to",
+      "to": "tool:property-inspect"
+    },
+    {
+      "from": "tool:spectora",
+      "rel": "alternative_to",
+      "to": "tool:snapinspect"
     },
     {
       "from": "tool:spinalcom",

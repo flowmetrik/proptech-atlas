@@ -1,0 +1,101 @@
+{
+  "slug": "genius-immo",
+  "name": "Genius",
+  "editor": "Genius",
+  "website": "https://genius.immo",
+  "hq_country": "FR",
+  "markets": [
+    "FR"
+  ],
+  "category": "ai-assistants",
+  "also_in": [
+    "syndic-copro"
+  ],
+  "founded": 2022,
+  "positioning": "An AI agent for French block and rental managers that answers mail, takes calls and finds the document behind the question.",
+  "description": "Genius is an AI assistant for syndics de copropriété and rental managers. It builds a memory per building and per lot from the material already held there, contracts, general meeting minutes, diagnostics, anonymised mail threads, works orders, then drafts answers to owner and tenant enquiries, answers the phone, and retrieves the document a question refers to. The manager validates before anything leaves. The company is based in Lyon and states it works with over 200 property administration firms.\n",
+  "real_estate_use": "A block manager holding several dozen buildings gets the same question all week, a copropriétaire asking for the last general meeting minutes, a tenant asking who to call about a leak, and each answer costs a search through years of files. Genius is aimed at that queue: it already carries the building's history, so it drafts the reply with the right attachment and the manager only presses send. The second situation is a handover, when a portfolio moves from one syndic to another or a manager leaves. What normally disappears with the person, who the caretaker is, which contractor did the roof, why the last assembly voted the way it did, stays in the building's memory and the successor picks it up in minutes rather than months.\n",
+  "features": [
+    "Per-building and per-lot memory built from contracts, minutes and diagnostics",
+    "Drafted replies to owner and tenant mail, validated before sending",
+    "Telephone answering for routine enquiries",
+    "Document retrieval across the building's history",
+    "Rental management side covering leases, receipts and inventories"
+  ],
+  "use_cases": [
+    {
+      "persona": "syndic-manager",
+      "job": "Clear the daily queue of copropriétaire enquiries without searching the archive"
+    },
+    {
+      "persona": "property-manager",
+      "job": "Take over a portfolio and recover a building's history after a manager leaves"
+    }
+  ],
+  "personas": [
+    "syndic-manager",
+    "property-manager"
+  ],
+  "segments": [
+    "residential",
+    "multifamily",
+    "mixed-use"
+  ],
+  "company_sizes": [
+    "smb",
+    "midmarket"
+  ],
+  "pricing": {
+    "model": "quote",
+    "public_pricing": false
+  },
+  "ai": {
+    "capabilities": [
+      "mail drafting",
+      "voice answering",
+      "document retrieval",
+      "per-building memory"
+    ]
+  },
+  "product": {
+    "api": false,
+    "open_source": false,
+    "mobile": [],
+    "languages": [
+      "fr"
+    ]
+  },
+  "alternatives": [
+    "pilotim",
+    "keyzia"
+  ],
+  "reviews": [],
+  "logo": {
+    "file": "logos/genius-immo.png",
+    "source_url": "https://genius.immo/wp-content/themes/genius-immo/library/img/fav/apple-icon-180x180.png",
+    "fetched_on": "2026-09-02"
+  },
+  "signals": {
+    "privacy": "https://genius.immo/mentions-legales",
+    "site_languages": [
+      "fr"
+    ],
+    "checked_on": "2026-09-02"
+  },
+  "sources": [
+    {
+      "url": "https://genius.immo",
+      "note": "site éditeur"
+    },
+    {
+      "url": "https://genius.immo/qui-est-genius/",
+      "note": "page société, année de création et implantation"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-09-02"
+}

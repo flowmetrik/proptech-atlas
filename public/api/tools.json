@@ -4,23 +4,23 @@
   "license": "CC-BY-4.0 (data) / MIT (code)",
   "homepage": "https://flowmetrik.github.io/proptech-atlas",
   "repository": "https://github.com/flowmetrik/proptech-atlas",
-  "generated": "2026-09-01",
+  "generated": "2026-09-02",
   "counts": {
-    "tools": 201,
-    "US": 115,
-    "FR": 116,
+    "tools": 207,
+    "US": 119,
+    "FR": 118,
     "categories": 24,
-    "editors": 184,
+    "editors": 190,
     "verified": 0,
     "reviews": 0,
-    "logos": 198,
+    "logos": 203,
     "signals": {
-      "probed": 187,
-      "public_pricing": 50,
+      "probed": 193,
+      "public_pricing": 52,
       "api_docs": 14,
-      "security_page": 25,
-      "privacy_page": 137,
-      "status_page": 53
+      "security_page": 27,
+      "privacy_page": 142,
+      "status_page": 55
     }
   },
   "tools": [
@@ -4967,6 +4967,116 @@
       "updated": "2026-08-25"
     },
     {
+      "slug": "diag-pilote",
+      "name": "Diag Pilote",
+      "editor": "ELANOS",
+      "website": "https://www.diag-pilote.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "diagnostics-compliance",
+      "also_in": [
+        "back-office-accounting"
+      ],
+      "founded": 2020,
+      "positioning": "Regulated property diagnostics on site and the running of the practice at the desk, in one browser tool.",
+      "description": "Diag Pilote is a browser-based tool for French property diagnosticians. It carries thirteen regulated diagnostic modules written against the applicable NF standards, DPE, electrical NF C 16-600, gas NF P45-500, asbestos NF X46-020, lead NF X46-030 and NF X46-035, termites NF P03-201, parasitic condition NF P03-200, Carrez and Boutin measurement, AER, DTG and PPPT, and produces the standard PDF report from them. The DPE module runs a 3CL calculation engine and transmits to the ADEME registry. The same subscription covers the office side: quotes and Factur-X invoices, online payment and a client portal, scheduling with Google Calendar. Field work runs offline from iOS and Android applications.\n",
+      "real_estate_use": "A diagnostician spends the morning in a flat with no network, capturing observations for four or five separate regulated reports, then spends the afternoon turning them into compliant PDFs, invoicing the agency and chasing payment. Diag Pilote exists to remove the re-entry between those two halves: the mobile application works offline in the property, and the same file becomes the report, the invoice and the client notification without being retyped. The regulatory side is what makes it a purchase rather than a preference, because each module has to track a standard that changes, and a report written against a superseded text is worthless. Smaller practices also use only the office half, keeping quotes, invoicing and scheduling there while producing diagnostics elsewhere.\n",
+      "features": [
+        "Thirteen regulated diagnostic modules written against NF standards",
+        "3CL DPE calculation engine with ADEME registry transmission",
+        "Offline iOS and Android field application",
+        "Quotes and Factur-X electronic invoicing",
+        "Online payment and client portal",
+        "Scheduling with Google Calendar synchronisation"
+      ],
+      "use_cases": [
+        {
+          "persona": "appraiser",
+          "job": "Produce several regulated diagnostic reports from one offline site visit"
+        },
+        {
+          "persona": "appraiser",
+          "job": "Run quotes, invoicing and scheduling for a diagnostics practice"
+        }
+      ],
+      "personas": [
+        "appraiser",
+        "agent-broker",
+        "property-manager"
+      ],
+      "segments": [
+        "residential",
+        "office",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://www.diag-pilote.com/tarifs"
+      },
+      "integrations": [
+        "ADEME registry",
+        "Google Calendar",
+        "Stripe"
+      ],
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "liciel",
+        "preventimmo",
+        "check-and-visit"
+      ],
+      "reviews": [],
+      "signals": {
+        "pricing": "https://www.diag-pilote.com/tarifs",
+        "security": "https://www.diag-pilote.com/securite",
+        "privacy": "https://www.diag-pilote.com/politique-de-confidentialite",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-09-02"
+      },
+      "sources": [
+        {
+          "url": "https://www.diag-pilote.com",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://www.diag-pilote.com/fonctionnalites",
+          "note": "modules et normes couvertes"
+        },
+        {
+          "url": "https://www.diag-pilote.com/tarifs",
+          "note": "page tarifs"
+        },
+        {
+          "url": "https://www.diag-pilote.com/mentions-legales",
+          "note": "éditeur ELANOS SAS"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-02"
+    },
+    {
       "slug": "docusign",
       "name": "Docusign",
       "editor": "Docusign",
@@ -7181,6 +7291,107 @@
       "updated": "2026-08-25"
     },
     {
+      "slug": "genius-immo",
+      "name": "Genius",
+      "editor": "Genius",
+      "website": "https://genius.immo",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "ai-assistants",
+      "also_in": [
+        "syndic-copro"
+      ],
+      "founded": 2022,
+      "positioning": "An AI agent for French block and rental managers that answers mail, takes calls and finds the document behind the question.",
+      "description": "Genius is an AI assistant for syndics de copropriété and rental managers. It builds a memory per building and per lot from the material already held there, contracts, general meeting minutes, diagnostics, anonymised mail threads, works orders, then drafts answers to owner and tenant enquiries, answers the phone, and retrieves the document a question refers to. The manager validates before anything leaves. The company is based in Lyon and states it works with over 200 property administration firms.\n",
+      "real_estate_use": "A block manager holding several dozen buildings gets the same question all week, a copropriétaire asking for the last general meeting minutes, a tenant asking who to call about a leak, and each answer costs a search through years of files. Genius is aimed at that queue: it already carries the building's history, so it drafts the reply with the right attachment and the manager only presses send. The second situation is a handover, when a portfolio moves from one syndic to another or a manager leaves. What normally disappears with the person, who the caretaker is, which contractor did the roof, why the last assembly voted the way it did, stays in the building's memory and the successor picks it up in minutes rather than months.\n",
+      "features": [
+        "Per-building and per-lot memory built from contracts, minutes and diagnostics",
+        "Drafted replies to owner and tenant mail, validated before sending",
+        "Telephone answering for routine enquiries",
+        "Document retrieval across the building's history",
+        "Rental management side covering leases, receipts and inventories"
+      ],
+      "use_cases": [
+        {
+          "persona": "syndic-manager",
+          "job": "Clear the daily queue of copropriétaire enquiries without searching the archive"
+        },
+        {
+          "persona": "property-manager",
+          "job": "Take over a portfolio and recover a building's history after a manager leaves"
+        }
+      ],
+      "personas": [
+        "syndic-manager",
+        "property-manager"
+      ],
+      "segments": [
+        "residential",
+        "multifamily",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "ai": {
+        "capabilities": [
+          "mail drafting",
+          "voice answering",
+          "document retrieval",
+          "per-building memory"
+        ]
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "pilotim",
+        "keyzia"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/genius-immo.png",
+        "source_url": "https://genius.immo/wp-content/themes/genius-immo/library/img/fav/apple-icon-180x180.png",
+        "fetched_on": "2026-09-02"
+      },
+      "signals": {
+        "privacy": "https://genius.immo/mentions-legales",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-09-02"
+      },
+      "sources": [
+        {
+          "url": "https://genius.immo",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://genius.immo/qui-est-genius/",
+          "note": "page société, année de création et implantation"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-02"
+    },
+    {
       "slug": "gercop",
       "name": "Gercop",
       "editor": "Septeo",
@@ -7895,6 +8106,99 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "homegauge",
+      "name": "HomeGauge",
+      "editor": "SHGI Corp",
+      "website": "https://www.homegauge.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "diagnostics-compliance",
+      "founded": 2001,
+      "positioning": "Desktop report writing for home inspectors, with a field companion app and a repair request list for buyers.",
+      "description": "HomeGauge is home inspection software built around a desktop report writer and a mobile companion application used to collect findings in the field. Reports come in several formats, including narrative and grid layouts, with a level of template customisation that the desktop lineage allows. Its Create Request List tool lets a buyer or their agent turn items from the report into a repair request they can attach to an addendum. The vendor is now part of Spectora, and presents the desktop writer and Spectora's cloud writer as two paths for different working habits.\n",
+      "real_estate_use": "The inspector this is for collects data on site, then finishes and formats the report at a desk, and wants control over how it reads rather than a fixed template. That is the split HomeGauge is built on: the companion app captures, the desktop writer composes. Downstream, the Create Request List matters more than the report format: it is the point where an inspection stops being a document and becomes a negotiation, because the buyer's agent builds the repair addendum from the inspector's own findings instead of retyping them. Scheduling, agreements, card processing and report delivery sit around it, including holding a report until payment clears.\n",
+      "features": [
+        "Desktop report writer with narrative and grid layouts",
+        "Companion mobile application for field capture",
+        "Create Request List for buyer repair requests",
+        "Online scheduling from the inspector's website",
+        "Electronic signature on inspection agreements",
+        "Card processing with report release on payment"
+      ],
+      "use_cases": [
+        {
+          "persona": "appraiser",
+          "job": "Compose a highly customised inspection report after a field visit"
+        },
+        {
+          "persona": "agent-broker",
+          "job": "Build a repair request addendum from the inspection findings"
+        }
+      ],
+      "personas": [
+        "appraiser",
+        "agent-broker"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "spectora",
+        "property-inspect",
+        "snapinspect"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/homegauge.png",
+        "source_url": "https://images.homegauge.com/wp-content/uploads/2021/03/apple-touch-icon-150x150-1.png",
+        "fetched_on": "2026-09-02"
+      },
+      "signals": {
+        "status": "https://status.homegauge.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-02"
+      },
+      "sources": [
+        {
+          "url": "https://www.homegauge.com",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://www.homegauge.com/one/home-inspection-software/",
+          "note": "page produit"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-02"
     },
     {
       "slug": "homes-com",
@@ -9601,6 +9905,105 @@
         "checked_by": null
       },
       "updated": "2026-08-27"
+    },
+    {
+      "slug": "leasecake",
+      "name": "Leasecake",
+      "editor": "Leasecake",
+      "website": "https://www.leasecake.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "commercial-am",
+      "also_in": [
+        "back-office-accounting"
+      ],
+      "positioning": "Lease management and lease accounting for multi-location tenants, kept in one system rather than two.",
+      "description": "Leasecake is a lease platform for organisations that occupy many sites. It holds every lease, clause and critical date, keeps the accounting side in step with lease changes so disclosures follow automatically, and covers the stages around the lease itself: deal tracking from first site visit to signature, due diligence before signing or selling, and portfolio-level analysis of leases, costs and locations. The vendor positions the accounting and administration sides as one system rather than two bolted together, and publishes comparisons against the incumbent lease platforms.\n",
+      "real_estate_use": "The buyer here is the tenant, not the landlord: a restaurant group, a retail chain, a franchise operator with fifty to several hundred locations whose leases live in a shared drive and whose renewal dates live in someone's calendar. The cost of that is concrete, a renewal option missed by a week, a rent escalation applied wrongly for a year, a common area charge nobody checked. Leasecake is where those dates and clauses become one tracked list, and where the accounting entries follow the lease instead of being rebuilt each quarter. It also gets pulled into a transaction: before buying or selling a set of locations, the due diligence side is used to surface the obligations buried in the documents.\n",
+      "features": [
+        "Lease, clause and renewal tracking with linked critical dates",
+        "Lease accounting kept in step with lease changes",
+        "Deal management from site selection to signature",
+        "Due diligence review of obligations before a transaction",
+        "Portfolio analysis across leases, costs and locations"
+      ],
+      "use_cases": [
+        {
+          "persona": "tenant-occupier",
+          "job": "Track renewal options and escalations across every leased location"
+        },
+        {
+          "persona": "corporate-re",
+          "job": "Keep lease accounting and disclosures in step with the lease portfolio"
+        }
+      ],
+      "personas": [
+        "tenant-occupier",
+        "corporate-re",
+        "investor-am"
+      ],
+      "segments": [
+        "retail",
+        "office",
+        "industrial",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false,
+        "url": "https://www.leasecake.com/pricing"
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [
+          "ios"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "visual-lease",
+        "mri-software",
+        "vts"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/leasecake.png",
+        "source_url": "https://framerusercontent.com/images/OY7NjjB1yucp02S1FAZRya4CZ6w.png",
+        "fetched_on": "2026-09-02"
+      },
+      "signals": {
+        "privacy": "https://www.leasecake.com/legal/privacy-policy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-02"
+      },
+      "sources": [
+        {
+          "url": "https://www.leasecake.com",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://www.leasecake.com/pricing",
+          "note": "page tarifs, sur demande"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-02"
     },
     {
       "slug": "leboncoin-immobilier",
@@ -14191,6 +14594,104 @@
       "updated": "2026-08-25"
     },
     {
+      "slug": "prophia",
+      "name": "Prophia",
+      "editor": "Prophia",
+      "website": "https://www.prophia.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "commercial-am",
+      "positioning": "Lease abstraction for commercial portfolios, machine extraction checked by people before the data is used.",
+      "description": "Prophia turns commercial lease documents into structured data. A document is uploaded, the platform extracts the terms, specialists audit the extraction, and the customer reviews before the abstract is finalised; each field stays linked back to the passage it came from. On top of that data it offers rent roll automation, a stacking plan that updates itself, encumbrance tracking, portfolio analytics and an AI assistant, and it exposes an MCP integration so the lease data can be queried from outside the product. It is sold in two tiers, Essentials and Portfolio, plus a stand-alone abstraction service.\n",
+      "real_estate_use": "The situation is an acquisition or a portfolio handover where several hundred leases arrive as PDFs and the rent roll has to be trusted before an offer is made. Doing that by hand takes weeks and still leaves errors, which is Prophia's argument: it puts a human audit between the model and the answer, and links every abstracted term to the source text so an analyst can check a number instead of believing it. Once the deal closes the same data serves asset and leasing teams: the stacking plan reflects the current rent roll, critical dates are visible, and the encumbrances that constrain a future lease are on record rather than buried in a document nobody reopens.\n",
+      "features": [
+        "AI lease abstraction with expert audit before delivery",
+        "Every abstracted field linked back to its source passage",
+        "Rent roll automation",
+        "Self-updating stacking plan",
+        "Encumbrance tracking",
+        "MCP integration for querying lease data externally"
+      ],
+      "use_cases": [
+        {
+          "persona": "investor-am",
+          "job": "Verify a rent roll against the leases before closing an acquisition"
+        },
+        {
+          "persona": "corporate-re",
+          "job": "Keep an asset management team working from current, sourced lease terms"
+        }
+      ],
+      "personas": [
+        "investor-am",
+        "corporate-re",
+        "property-manager",
+        "agent-broker"
+      ],
+      "segments": [
+        "office",
+        "retail",
+        "industrial",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "ai": {
+        "capabilities": [
+          "lease abstraction",
+          "document question answering"
+        ]
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "visual-lease",
+        "leasecake",
+        "vts",
+        "argus-enterprise"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/prophia.png",
+        "source_url": "https://www.prophia.com/hubfs/favicon.png",
+        "fetched_on": "2026-09-02"
+      },
+      "signals": {
+        "security": "https://www.prophia.com/security",
+        "privacy": "https://www.prophia.com/privacy-policy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-02"
+      },
+      "sources": [
+        {
+          "url": "https://www.prophia.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-02"
+    },
+    {
       "slug": "prospeneo",
       "name": "Prospeneo",
       "editor": "Facilogi",
@@ -16796,6 +17297,107 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "spectora",
+      "name": "Spectora",
+      "editor": "Spectora",
+      "website": "https://spectora.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "diagnostics-compliance",
+      "positioning": "Report writing, scheduling, payments and client communication for home inspectors in one subscription.",
+      "description": "Spectora is a web and mobile platform for home inspectors. It combines the report writer with the surrounding business: online scheduling, inspection agreements with electronic signature, card payments, and the messages sent to buyers and agents. Reports are written on site from the mobile application or at a desk from the browser editor, with no cap on the number produced. The vendor also sells stand-alone inspector websites and a set of office tools for multi-inspector firms, and states it serves over 12,000 inspectors.\n",
+      "real_estate_use": "A home inspector finishes a walkthrough and has to deliver a photographed, structured report the same evening, while the buyer's agent is already asking for it. Spectora is where that report is written on site rather than retyped later, and where the booking, the signed agreement and the payment that preceded it also live. The reason a solo inspector buys it is that the alternative is three tools and a spreadsheet; the reason a multi-inspector firm buys it is that every inspector then produces the same document instead of a personal format. Templates are customisable, so an inspector who works a particular housing stock can carry their own wording from job to job.\n",
+      "features": [
+        "Mobile and browser report writing with unlimited reports",
+        "Online scheduling with automated client and agent messaging",
+        "Inspection agreements with electronic signature",
+        "Card payments, with reports held until settlement",
+        "Customisable report templates",
+        "Inspector websites and SEO sold alongside the software"
+      ],
+      "use_cases": [
+        {
+          "persona": "appraiser",
+          "job": "Write and deliver a photographed inspection report on site"
+        },
+        {
+          "persona": "brokerage",
+          "job": "Run scheduling, agreements and payments for a multi-inspector firm"
+        }
+      ],
+      "personas": [
+        "appraiser",
+        "agent-broker",
+        "brokerage"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://spectora.com/pricing/"
+      },
+      "ai": {
+        "capabilities": [
+          "report drafting assistance"
+        ]
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "homegauge",
+        "property-inspect",
+        "snapinspect"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/spectora.png",
+        "source_url": "https://www.spectora.com/hubfs/spectora-software-icon.png",
+        "fetched_on": "2026-09-02"
+      },
+      "signals": {
+        "pricing": "https://www.spectora.com/pricing",
+        "privacy": "https://www.spectora.com/privacy",
+        "status": "https://status.spectora.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-02"
+      },
+      "sources": [
+        {
+          "url": "https://spectora.com",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://spectora.com/pricing/",
+          "note": "page tarifs"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-02"
     },
     {
       "slug": "spinalcom",
