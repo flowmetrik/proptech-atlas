@@ -1,0 +1,67 @@
+slug: prophia
+name: Prophia
+editor: Prophia
+website: https://www.prophia.com
+hq_country: US
+markets: [US]
+category: commercial-am
+positioning: "Lease abstraction for commercial portfolios, machine extraction checked by people before the data is used."
+description: >
+  Prophia turns commercial lease documents into structured data. A document is
+  uploaded, the platform extracts the terms, specialists audit the extraction, and the
+  customer reviews before the abstract is finalised; each field stays linked back to
+  the passage it came from. On top of that data it offers rent roll automation, a
+  stacking plan that updates itself, encumbrance tracking, portfolio analytics and an
+  AI assistant, and it exposes an MCP integration so the lease data can be queried
+  from outside the product. It is sold in two tiers, Essentials and Portfolio, plus a
+  stand-alone abstraction service.
+real_estate_use: >
+  The situation is an acquisition or a portfolio handover where several hundred leases
+  arrive as PDFs and the rent roll has to be trusted before an offer is made. Doing
+  that by hand takes weeks and still leaves errors, which is Prophia's argument: it
+  puts a human audit between the model and the answer, and links every abstracted term
+  to the source text so an analyst can check a number instead of believing it. Once
+  the deal closes the same data serves asset and leasing teams: the stacking plan
+  reflects the current rent roll, critical dates are visible, and the encumbrances
+  that constrain a future lease are on record rather than buried in a document nobody
+  reopens.
+features:
+  - AI lease abstraction with expert audit before delivery
+  - Every abstracted field linked back to its source passage
+  - Rent roll automation
+  - Self-updating stacking plan
+  - Encumbrance tracking
+  - MCP integration for querying lease data externally
+use_cases:
+  - persona: investor-am
+    job: Verify a rent roll against the leases before closing an acquisition
+  - persona: corporate-re
+    job: "Keep an asset management team working from current, sourced lease terms"
+personas: [investor-am, corporate-re, property-manager, agent-broker]
+segments: [office, retail, industrial, mixed-use]
+company_sizes: [midmarket, enterprise]
+pricing:
+  model: quote
+  public_pricing: false
+ai:
+  capabilities: [lease abstraction, document question answering]
+product:
+  api: true
+  open_source: false
+  mobile: []
+  languages: [en]
+alternatives: [visual-lease, leasecake, vts, argus-enterprise]
+reviews: []
+logo:
+  file: logos/prophia.png
+  source_url: https://www.prophia.com/hubfs/favicon.png
+  fetched_on: "2026-09-02"
+signals:
+  security: https://www.prophia.com/security
+  privacy: https://www.prophia.com/privacy-policy
+  site_languages: [en]
+  checked_on: "2026-09-02"
+sources:
+  - { url: https://www.prophia.com, note: site éditeur }
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-09-02"

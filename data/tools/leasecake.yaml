@@ -1,0 +1,66 @@
+slug: leasecake
+name: Leasecake
+editor: Leasecake
+website: https://www.leasecake.com
+hq_country: US
+markets: [US]
+category: commercial-am
+also_in: [back-office-accounting]
+positioning: "Lease management and lease accounting for multi-location tenants, kept in one system rather than two."
+description: >
+  Leasecake is a lease platform for organisations that occupy many sites. It holds
+  every lease, clause and critical date, keeps the accounting side in step with lease
+  changes so disclosures follow automatically, and covers the stages around the lease
+  itself: deal tracking from first site visit to signature, due diligence before
+  signing or selling, and portfolio-level analysis of leases, costs and locations. The
+  vendor positions the accounting and administration sides as one system rather than
+  two bolted together, and publishes comparisons against the incumbent lease
+  platforms.
+real_estate_use: >
+  The buyer here is the tenant, not the landlord: a restaurant group, a retail chain,
+  a franchise operator with fifty to several hundred locations whose leases live in a
+  shared drive and whose renewal dates live in someone's calendar. The cost of that is
+  concrete, a renewal option missed by a week, a rent escalation applied wrongly for a
+  year, a common area charge nobody checked. Leasecake is where those dates and
+  clauses become one tracked list, and where the accounting entries follow the lease
+  instead of being rebuilt each quarter. It also gets pulled into a transaction:
+  before buying or selling a set of locations, the due diligence side is used to
+  surface the obligations buried in the documents.
+features:
+  - "Lease, clause and renewal tracking with linked critical dates"
+  - Lease accounting kept in step with lease changes
+  - Deal management from site selection to signature
+  - Due diligence review of obligations before a transaction
+  - "Portfolio analysis across leases, costs and locations"
+use_cases:
+  - persona: tenant-occupier
+    job: Track renewal options and escalations across every leased location
+  - persona: corporate-re
+    job: Keep lease accounting and disclosures in step with the lease portfolio
+personas: [tenant-occupier, corporate-re, investor-am]
+segments: [retail, office, industrial, mixed-use]
+company_sizes: [smb, midmarket, enterprise]
+pricing:
+  model: quote
+  public_pricing: false
+  url: https://www.leasecake.com/pricing
+product:
+  api: false
+  open_source: false
+  mobile: [ios]
+  languages: [en]
+alternatives: [visual-lease, mri-software, vts]
+reviews: []
+logo:
+  file: logos/leasecake.png
+  source_url: https://framerusercontent.com/images/OY7NjjB1yucp02S1FAZRya4CZ6w.png
+  fetched_on: "2026-09-02"
+signals:
+  privacy: https://www.leasecake.com/legal/privacy-policy
+  site_languages: [en]
+  checked_on: "2026-09-02"
+sources:
+  - { url: https://www.leasecake.com, note: site éditeur }
+  - { url: https://www.leasecake.com/pricing, note: "page tarifs, sur demande" }
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-09-02"
