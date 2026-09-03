@@ -1,0 +1,91 @@
+{
+  "slug": "cloudpano",
+  "name": "CloudPano",
+  "editor": "CloudPano",
+  "website": "https://www.cloudpano.com",
+  "hq_country": "US",
+  "markets": [
+    "US"
+  ],
+  "category": "visuals-tours",
+  "founded": 2018,
+  "positioning": "360° virtual tour software built for entrepreneurs and agents who want to keep their own brand on the tour.",
+  "description": "CloudPano is a browser-based editor for building and hosting 360° virtual tours from photos, spins or 360° video, with white-label publishing so the tour carries the operator's own brand rather than the software's.\n",
+  "real_estate_use": "A real estate agent, broker or a photographer serving them uploads 360° photos of a listing, arranges them into a walkable tour with hotspots, and embeds the finished tour on the listing page or MLS entry under their own brand rather than CloudPano's — used mainly to make a listing shareable and embeddable without a dedicated VR headset workflow.\n",
+  "features": [
+    "360° photo, spin and video scene types",
+    "Hotspot and embedded media editor",
+    "White-label / private-label publishing",
+    "Website and WordPress embedding",
+    "VR headset viewing mode",
+    "Multi-region hosting"
+  ],
+  "use_cases": [
+    {
+      "persona": "agent-broker",
+      "job": "Turn a set of 360° listing photos into a branded, embeddable virtual tour"
+    }
+  ],
+  "personas": [
+    "agent-broker"
+  ],
+  "segments": [
+    "residential",
+    "retail"
+  ],
+  "company_sizes": [
+    "solo",
+    "smb"
+  ],
+  "pricing": {
+    "model": "subscription",
+    "public_pricing": true,
+    "url": "https://www.cloudpano.com"
+  },
+  "product": {
+    "api": false,
+    "open_source": false,
+    "mobile": [],
+    "languages": [
+      "en"
+    ]
+  },
+  "alternatives": [
+    "kuula",
+    "teliportme"
+  ],
+  "reviews": [],
+  "logo": {
+    "file": "logos/cloudpano.png",
+    "source_url": "https://cdn.prod.website-files.com/5fa975f869ea6623c1de7eba/6481b289a664682e7e9619c8_cloudpanoicon256.png",
+    "fetched_on": "2026-09-03"
+  },
+  "signals": {
+    "status": "https://status.cloudpano.com",
+    "site_languages": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it",
+      "pt",
+      "ru",
+      "tr",
+      "zh"
+    ],
+    "checked_on": "2026-09-03"
+  },
+  "sources": [
+    {
+      "url": "https://www.cloudpano.com",
+      "note": "site éditeur, tarifs sur la page d'accueil"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-09-03"
+}
