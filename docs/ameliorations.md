@@ -36,11 +36,6 @@ qu'une chose a été tentée vaut mieux que de la retenter.
   contrôle exécutable évident — c'est la catégorie et le marché déclarés du
   candidat qu'il faudrait confronter au contenu, ce qui coûte un appel de modèle.
   À défaut, le geste humain reste obligatoire : lire l'accueil avant d'écrire.
-- **Le dépôt n'a pas de harnais de test.** `scripts/enrich/traces.test.mjs`, écrit
-  le 02/09, est le premier fichier de test du projet et se lance à la main. Tant
-  qu'aucun `npm test` ne les rassemble, un test ajouté ne protège que celui qui
-  s'en souvient. Peu coûteux à corriger : un script qui exécute `*.test.mjs`, et
-  une étape dans la CI.
 - **Les avis restent à zéro.** G2, Capterra et Trustpilot renvoient `403`. Deux
   issues possibles : une clé d'API payante chez l'un d'eux, ou des contributions
   humaines sourcées. Ne jamais résoudre ce point en inventant.
@@ -117,6 +112,14 @@ qu'une chose a été tentée vaut mieux que de la retenter.
 ---
 
 ## Fait
+
+- **2026-09-03** — Le dépôt n'avait pas de harnais de test :
+  `scripts/enrich/traces.test.mjs`, écrit le 02/09, était le seul fichier de
+  test du projet et se lançait à la main. `scripts/test.mjs` rassemble
+  maintenant tous les `*.test.mjs` du dépôt, les lance chacun dans un process
+  séparé, et sort en échec si un seul l'est. `npm test` l'appelle ; la CI le
+  lance juste après `data:validate`. Un test ajouté demain protège la CI sans
+  qu'on ait à s'en souvenir.
 
 - **2026-09-02** — `verify.mjs` sait maintenant dire qu'un domaine a peut-être
   changé de métier. Il ne le refuse pas — un produit peut légitimement n'avoir ni

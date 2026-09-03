@@ -18,6 +18,8 @@ jobs:
       - run: npm ci
       - name: Validate every fiche against the schema
         run: npm run data:validate
+      - name: Run the test suite
+        run: npm test
       - name: Regenerate the API and check it is committed
         run: |
           npm run data:emit
