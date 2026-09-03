@@ -1,0 +1,94 @@
+{
+  "slug": "spacebring",
+  "name": "Spacebring",
+  "editor": "Spacebring",
+  "website": "https://www.spacebring.com",
+  "hq_country": "PL",
+  "markets": [
+    "US"
+  ],
+  "category": "flex-coworking",
+  "founded": 2017,
+  "positioning": "Coworking software built for operators who run their space from a phone rather than a back office.",
+  "description": "Spacebring is a coworking management platform combining billing, bookings, access and community into a single member web portal and white-label mobile app. It targets independent and small multi-location operators rather than large enterprise flex brands.\n",
+  "real_estate_use": "A coworking operator uses Spacebring to sign up new members, run recurring billing automatically, let members book desks and rooms from a branded app, and manage day-to-day operations from a phone rather than a dedicated back-office team — useful for operators running one or a handful of locations with a lean staff.\n",
+  "features": [
+    "Member web portal and white-label mobile app",
+    "Automated recurring billing and invoicing",
+    "Desk and meeting room booking",
+    "Interactive floor plans (add-on)",
+    "Access control integrations",
+    "Community and communication tools"
+  ],
+  "use_cases": [
+    {
+      "persona": "property-manager",
+      "job": "Run billing and bookings for an independent coworking space without a dedicated back-office team"
+    }
+  ],
+  "personas": [
+    "property-manager"
+  ],
+  "segments": [
+    "office",
+    "mixed-use"
+  ],
+  "company_sizes": [
+    "solo",
+    "smb"
+  ],
+  "pricing": {
+    "model": "subscription",
+    "public_pricing": true,
+    "url": "https://www.spacebring.com/pricing"
+  },
+  "product": {
+    "api": false,
+    "open_source": false,
+    "mobile": [
+      "ios",
+      "android"
+    ],
+    "languages": [
+      "en"
+    ]
+  },
+  "alternatives": [
+    "nexudus",
+    "officernd",
+    "optix",
+    "archie"
+  ],
+  "reviews": [],
+  "logo": {
+    "file": "logos/spacebring.png",
+    "source_url": "https://www.spacebring.com/apple-icon.png?apple-icon.16_xg38xk116z.png",
+    "fetched_on": "2026-09-03"
+  },
+  "signals": {
+    "pricing": "https://www.spacebring.com/pricing",
+    "api_docs": "https://www.spacebring.com/docs/api",
+    "privacy": "https://www.spacebring.com/privacy",
+    "status": "https://status.spacebring.com",
+    "site_languages": [
+      "en"
+    ],
+    "checked_on": "2026-09-03"
+  },
+  "sources": [
+    {
+      "url": "https://www.spacebring.com",
+      "note": "site éditeur"
+    },
+    {
+      "url": "https://www.spacebring.com/pricing",
+      "note": "page tarifs"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-09-03"
+}
