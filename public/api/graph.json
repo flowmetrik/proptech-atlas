@@ -4,23 +4,23 @@
   "license": "CC-BY-4.0 (data) / MIT (code)",
   "homepage": "https://flowmetrik.github.io/proptech-atlas",
   "repository": "https://github.com/flowmetrik/proptech-atlas",
-  "generated": "2026-09-02",
+  "generated": "2026-09-03",
   "counts": {
-    "tools": 207,
-    "US": 119,
+    "tools": 213,
+    "US": 125,
     "FR": 118,
     "categories": 24,
-    "editors": 190,
+    "editors": 196,
     "verified": 0,
     "reviews": 0,
-    "logos": 203,
+    "logos": 209,
     "signals": {
-      "probed": 193,
-      "public_pricing": 52,
-      "api_docs": 14,
-      "security_page": 27,
-      "privacy_page": 142,
-      "status_page": 55
+      "probed": 199,
+      "public_pricing": 56,
+      "api_docs": 17,
+      "security_page": 28,
+      "privacy_page": 147,
+      "status_page": 59
     }
   },
   "nodes": [
@@ -68,6 +68,11 @@
       "id": "tool:appfolio",
       "type": "tool",
       "label": "AppFolio Property Manager"
+    },
+    {
+      "id": "tool:archie",
+      "type": "tool",
+      "label": "Archie"
     },
     {
       "id": "tool:argus-enterprise",
@@ -203,6 +208,11 @@
       "id": "tool:cloudcma",
       "type": "tool",
       "label": "Cloud CMA"
+    },
+    {
+      "id": "tool:cloudpano",
+      "type": "tool",
+      "label": "CloudPano"
     },
     {
       "id": "tool:cobot",
@@ -505,6 +515,11 @@
       "label": "Knock CRM"
     },
     {
+      "id": "tool:kuula",
+      "type": "tool",
+      "label": "Kuula"
+    },
+    {
       "id": "tool:leadsimple",
       "type": "tool",
       "label": "LeadSimple"
@@ -643,6 +658,11 @@
       "id": "tool:officernd",
       "type": "tool",
       "label": "OfficeRnD Flex"
+    },
+    {
+      "id": "tool:optix",
+      "type": "tool",
+      "label": "Optix"
     },
     {
       "id": "tool:ownerrez",
@@ -875,6 +895,11 @@
       "label": "SoftPro"
     },
     {
+      "id": "tool:spacebring",
+      "type": "tool",
+      "label": "Spacebring"
+    },
+    {
       "id": "tool:spectora",
       "type": "tool",
       "label": "Spectora"
@@ -908,6 +933,11 @@
       "id": "tool:syment",
       "type": "tool",
       "label": "Syment"
+    },
+    {
+      "id": "tool:teliportme",
+      "type": "tool",
+      "label": "TeliportMe"
     },
     {
       "id": "tool:tenant-turner",
@@ -1350,6 +1380,11 @@
       "label": "AppFolio"
     },
     {
+      "id": "editor:Archie",
+      "type": "editor",
+      "label": "Archie"
+    },
+    {
       "id": "editor:Altus Group",
       "type": "editor",
       "label": "Altus Group"
@@ -1478,6 +1513,11 @@
       "id": "editor:Lone Wolf Technologies",
       "type": "editor",
       "label": "Lone Wolf Technologies"
+    },
+    {
+      "id": "editor:CloudPano",
+      "type": "editor",
+      "label": "CloudPano"
     },
     {
       "id": "editor:Cobot",
@@ -1750,6 +1790,11 @@
       "label": "Keyzia"
     },
     {
+      "id": "editor:Kuula",
+      "type": "editor",
+      "label": "Kuula"
+    },
+    {
       "id": "editor:LeadSimple",
       "type": "editor",
       "label": "LeadSimple"
@@ -1868,6 +1913,11 @@
       "id": "editor:OfficeRnD",
       "type": "editor",
       "label": "OfficeRnD"
+    },
+    {
+      "id": "editor:ShareDesk Global",
+      "type": "editor",
+      "label": "ShareDesk Global"
     },
     {
       "id": "editor:OwnerRez",
@@ -2080,6 +2130,11 @@
       "label": "SoftPro (Fidelity National Financial)"
     },
     {
+      "id": "editor:Spacebring",
+      "type": "editor",
+      "label": "Spacebring"
+    },
+    {
       "id": "editor:Spectora",
       "type": "editor",
       "label": "Spectora"
@@ -2113,6 +2168,11 @@
       "id": "editor:Syment",
       "type": "editor",
       "label": "Syment"
+    },
+    {
+      "id": "editor:TeliportMe",
+      "type": "editor",
+      "label": "TeliportMe"
     },
     {
       "id": "editor:Tenant Turner, Inc.",
@@ -2840,6 +2900,56 @@
       "from": "tool:appfolio",
       "rel": "alternative_to",
       "to": "tool:yardi-breeze"
+    },
+    {
+      "from": "tool:archie",
+      "rel": "published_by",
+      "to": "editor:Archie"
+    },
+    {
+      "from": "tool:archie",
+      "rel": "belongs_to",
+      "to": "category:flex-coworking"
+    },
+    {
+      "from": "tool:archie",
+      "rel": "serves_persona",
+      "to": "persona:property-manager"
+    },
+    {
+      "from": "tool:archie",
+      "rel": "serves_persona",
+      "to": "persona:facility-manager"
+    },
+    {
+      "from": "tool:archie",
+      "rel": "covers_segment",
+      "to": "segment:office"
+    },
+    {
+      "from": "tool:archie",
+      "rel": "covers_segment",
+      "to": "segment:mixed-use"
+    },
+    {
+      "from": "tool:archie",
+      "rel": "available_in",
+      "to": "market:US"
+    },
+    {
+      "from": "tool:archie",
+      "rel": "alternative_to",
+      "to": "tool:nexudus"
+    },
+    {
+      "from": "tool:archie",
+      "rel": "alternative_to",
+      "to": "tool:officernd"
+    },
+    {
+      "from": "tool:archie",
+      "rel": "alternative_to",
+      "to": "tool:optix"
     },
     {
       "from": "tool:argus-enterprise",
@@ -4425,6 +4535,46 @@
       "from": "tool:cloudcma",
       "rel": "available_in",
       "to": "market:US"
+    },
+    {
+      "from": "tool:cloudpano",
+      "rel": "published_by",
+      "to": "editor:CloudPano"
+    },
+    {
+      "from": "tool:cloudpano",
+      "rel": "belongs_to",
+      "to": "category:visuals-tours"
+    },
+    {
+      "from": "tool:cloudpano",
+      "rel": "serves_persona",
+      "to": "persona:agent-broker"
+    },
+    {
+      "from": "tool:cloudpano",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:cloudpano",
+      "rel": "covers_segment",
+      "to": "segment:retail"
+    },
+    {
+      "from": "tool:cloudpano",
+      "rel": "available_in",
+      "to": "market:US"
+    },
+    {
+      "from": "tool:cloudpano",
+      "rel": "alternative_to",
+      "to": "tool:kuula"
+    },
+    {
+      "from": "tool:cloudpano",
+      "rel": "alternative_to",
+      "to": "tool:teliportme"
     },
     {
       "from": "tool:cobot",
@@ -8072,6 +8222,41 @@
       "to": "tool:eliseai"
     },
     {
+      "from": "tool:kuula",
+      "rel": "published_by",
+      "to": "editor:Kuula"
+    },
+    {
+      "from": "tool:kuula",
+      "rel": "belongs_to",
+      "to": "category:visuals-tours"
+    },
+    {
+      "from": "tool:kuula",
+      "rel": "serves_persona",
+      "to": "persona:agent-broker"
+    },
+    {
+      "from": "tool:kuula",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:kuula",
+      "rel": "available_in",
+      "to": "market:US"
+    },
+    {
+      "from": "tool:kuula",
+      "rel": "alternative_to",
+      "to": "tool:cloudpano"
+    },
+    {
+      "from": "tool:kuula",
+      "rel": "alternative_to",
+      "to": "tool:teliportme"
+    },
+    {
       "from": "tool:leadsimple",
       "rel": "published_by",
       "to": "editor:LeadSimple"
@@ -9785,6 +9970,61 @@
       "from": "tool:officernd",
       "rel": "alternative_to",
       "to": "tool:essensys"
+    },
+    {
+      "from": "tool:optix",
+      "rel": "published_by",
+      "to": "editor:ShareDesk Global"
+    },
+    {
+      "from": "tool:optix",
+      "rel": "belongs_to",
+      "to": "category:flex-coworking"
+    },
+    {
+      "from": "tool:optix",
+      "rel": "serves_persona",
+      "to": "persona:property-manager"
+    },
+    {
+      "from": "tool:optix",
+      "rel": "serves_persona",
+      "to": "persona:investor-am"
+    },
+    {
+      "from": "tool:optix",
+      "rel": "covers_segment",
+      "to": "segment:office"
+    },
+    {
+      "from": "tool:optix",
+      "rel": "covers_segment",
+      "to": "segment:mixed-use"
+    },
+    {
+      "from": "tool:optix",
+      "rel": "available_in",
+      "to": "market:US"
+    },
+    {
+      "from": "tool:optix",
+      "rel": "alternative_to",
+      "to": "tool:nexudus"
+    },
+    {
+      "from": "tool:optix",
+      "rel": "alternative_to",
+      "to": "tool:officernd"
+    },
+    {
+      "from": "tool:optix",
+      "rel": "alternative_to",
+      "to": "tool:archie"
+    },
+    {
+      "from": "tool:optix",
+      "rel": "alternative_to",
+      "to": "tool:spacebring"
     },
     {
       "from": "tool:ownerrez",
@@ -12582,6 +12822,56 @@
       "to": "tool:resware"
     },
     {
+      "from": "tool:spacebring",
+      "rel": "published_by",
+      "to": "editor:Spacebring"
+    },
+    {
+      "from": "tool:spacebring",
+      "rel": "belongs_to",
+      "to": "category:flex-coworking"
+    },
+    {
+      "from": "tool:spacebring",
+      "rel": "serves_persona",
+      "to": "persona:property-manager"
+    },
+    {
+      "from": "tool:spacebring",
+      "rel": "covers_segment",
+      "to": "segment:office"
+    },
+    {
+      "from": "tool:spacebring",
+      "rel": "covers_segment",
+      "to": "segment:mixed-use"
+    },
+    {
+      "from": "tool:spacebring",
+      "rel": "available_in",
+      "to": "market:US"
+    },
+    {
+      "from": "tool:spacebring",
+      "rel": "alternative_to",
+      "to": "tool:nexudus"
+    },
+    {
+      "from": "tool:spacebring",
+      "rel": "alternative_to",
+      "to": "tool:officernd"
+    },
+    {
+      "from": "tool:spacebring",
+      "rel": "alternative_to",
+      "to": "tool:optix"
+    },
+    {
+      "from": "tool:spacebring",
+      "rel": "alternative_to",
+      "to": "tool:archie"
+    },
+    {
       "from": "tool:spectora",
       "rel": "published_by",
       "to": "editor:Spectora"
@@ -12975,6 +13265,41 @@
       "from": "tool:syment",
       "rel": "alternative_to",
       "to": "tool:gercop"
+    },
+    {
+      "from": "tool:teliportme",
+      "rel": "published_by",
+      "to": "editor:TeliportMe"
+    },
+    {
+      "from": "tool:teliportme",
+      "rel": "belongs_to",
+      "to": "category:visuals-tours"
+    },
+    {
+      "from": "tool:teliportme",
+      "rel": "serves_persona",
+      "to": "persona:agent-broker"
+    },
+    {
+      "from": "tool:teliportme",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:teliportme",
+      "rel": "available_in",
+      "to": "market:US"
+    },
+    {
+      "from": "tool:teliportme",
+      "rel": "alternative_to",
+      "to": "tool:cloudpano"
+    },
+    {
+      "from": "tool:teliportme",
+      "rel": "alternative_to",
+      "to": "tool:kuula"
     },
     {
       "from": "tool:tenant-turner",

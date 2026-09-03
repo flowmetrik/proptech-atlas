@@ -4,8 +4,114 @@
   "label_fr": "Flex office & coworking",
   "summary_en": "Memberships, desk booking, billing and community for flexible workspace.",
   "summary_fr": "Abonnements, réservation de postes, facturation et animation d'espaces flexibles.",
-  "count": 8,
+  "count": 11,
   "tools": [
+    {
+      "slug": "archie",
+      "name": "Archie",
+      "editor": "Archie",
+      "website": "https://archieapp.co",
+      "hq_country": "CA",
+      "markets": [
+        "US"
+      ],
+      "category": "flex-coworking",
+      "founded": 2016,
+      "positioning": "Space management software for hybrid offices and coworking spaces, priced per desk and room rather than per user.",
+      "description": "Archie is a workplace and coworking management platform covering desk booking, meeting room booking, and visitor management, sold as separate modules that can be bought together or on their own. It serves both corporate hybrid-office teams and commercial flex-space operators from the same codebase.\n",
+      "real_estate_use": "A flex-space operator or corporate workplace team uses Archie to manage floor plans, let members or employees reserve a desk or room from a web or mobile app, check visitors in at reception, and see office occupancy across one or several locations. Multi-location operators use it to keep a consistent booking and billing experience across sites without building their own scheduling logic.\n",
+      "features": [
+        "Desk booking with visual floor plans",
+        "Meeting room booking with calendar sync",
+        "Visitor management and check-in",
+        "Membership and recurring billing",
+        "Occupancy analytics",
+        "SSO and SCIM for larger accounts"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Run desk and room booking across a single or multi-location flex space from one admin console"
+        },
+        {
+          "persona": "facility-manager",
+          "job": "Track office occupancy and manage visitor check-in for a hybrid workplace"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "facility-manager"
+      ],
+      "segments": [
+        "office",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://archieapp.co/pricing"
+      },
+      "integrations": [
+        "Slack",
+        "Microsoft Outlook",
+        "Microsoft Teams"
+      ],
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "nexudus",
+        "officernd",
+        "optix"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/archie.png",
+        "source_url": "https://archieapp.co/favicon.png",
+        "fetched_on": "2026-09-03"
+      },
+      "signals": {
+        "pricing": "https://archieapp.co/not-found",
+        "api_docs": "https://archieapp.co/not-found",
+        "security": "https://archieapp.co/security",
+        "privacy": "https://archieapp.co/not-found",
+        "status": "https://archieapp.co/not-found",
+        "site_languages": [
+          "en",
+          "es",
+          "fr"
+        ],
+        "checked_on": "2026-09-03"
+      },
+      "sources": [
+        {
+          "url": "https://archieapp.co",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://archieapp.co/pricing",
+          "note": "page tarifs"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-03"
+    },
     {
       "slug": "cobot",
       "name": "Cobot",
@@ -704,6 +810,198 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "optix",
+      "name": "Optix",
+      "editor": "ShareDesk Global",
+      "website": "https://www.optixapp.com",
+      "hq_country": "CA",
+      "markets": [
+        "US"
+      ],
+      "category": "flex-coworking",
+      "founded": 2016,
+      "positioning": "Automation-first coworking software built to let flex operators scale operations without adding headcount.",
+      "description": "Optix is a coworking and flex-space management platform (formerly ShareDesk) covering bookings, billing, invoicing, member communications and a white-label member app. Its distinguishing feature is a rules-based automation engine that triggers actions such as billing, notifications or access changes without manual admin work.\n",
+      "real_estate_use": "A coworking or flex-space operator uses Optix to run day-to-day operations — desk and room bookings, plan and pass sales, invoicing, visitor management — and to automate recurring admin tasks like billing reminders or check-in notifications through its automation module, so a small on-site team can run more locations without proportionally more staff.\n",
+      "features": [
+        "Desk and meeting room booking",
+        "Rules-based automation engine",
+        "Billing, invoicing and plans/passes",
+        "White-label member web portal and mobile app",
+        "Visitor management",
+        "API access and webhooks (Pro plan and above)"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Automate recurring billing and member notifications across one or more coworking locations"
+        },
+        {
+          "persona": "investor-am",
+          "job": "Standardize booking, billing and reporting for a multi-location flex portfolio"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "investor-am"
+      ],
+      "segments": [
+        "office",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://www.optixapp.com/pricing/"
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "nexudus",
+        "officernd",
+        "archie",
+        "spacebring"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/optix.png",
+        "source_url": "https://www.optixapp.com/wp-content/uploads/2024/03/cropped-android-chrome-512x512-1-2-180x180.png",
+        "fetched_on": "2026-09-03"
+      },
+      "signals": {
+        "pricing": "https://www.optixapp.com/pricing",
+        "privacy": "https://www.optixapp.com/privacy",
+        "status": "https://status.optixapp.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-03"
+      },
+      "sources": [
+        {
+          "url": "https://www.optixapp.com",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://www.optixapp.com/pricing/",
+          "note": "page tarifs"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-03"
+    },
+    {
+      "slug": "spacebring",
+      "name": "Spacebring",
+      "editor": "Spacebring",
+      "website": "https://www.spacebring.com",
+      "hq_country": "PL",
+      "markets": [
+        "US"
+      ],
+      "category": "flex-coworking",
+      "founded": 2017,
+      "positioning": "Coworking software built for operators who run their space from a phone rather than a back office.",
+      "description": "Spacebring is a coworking management platform combining billing, bookings, access and community into a single member web portal and white-label mobile app. It targets independent and small multi-location operators rather than large enterprise flex brands.\n",
+      "real_estate_use": "A coworking operator uses Spacebring to sign up new members, run recurring billing automatically, let members book desks and rooms from a branded app, and manage day-to-day operations from a phone rather than a dedicated back-office team — useful for operators running one or a handful of locations with a lean staff.\n",
+      "features": [
+        "Member web portal and white-label mobile app",
+        "Automated recurring billing and invoicing",
+        "Desk and meeting room booking",
+        "Interactive floor plans (add-on)",
+        "Access control integrations",
+        "Community and communication tools"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Run billing and bookings for an independent coworking space without a dedicated back-office team"
+        }
+      ],
+      "personas": [
+        "property-manager"
+      ],
+      "segments": [
+        "office",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://www.spacebring.com/pricing"
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "nexudus",
+        "officernd",
+        "optix",
+        "archie"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/spacebring.png",
+        "source_url": "https://www.spacebring.com/apple-icon.png?apple-icon.16_xg38xk116z.png",
+        "fetched_on": "2026-09-03"
+      },
+      "signals": {
+        "pricing": "https://www.spacebring.com/pricing",
+        "api_docs": "https://www.spacebring.com/docs/api",
+        "privacy": "https://www.spacebring.com/privacy",
+        "status": "https://status.spacebring.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-03"
+      },
+      "sources": [
+        {
+          "url": "https://www.spacebring.com",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://www.spacebring.com/pricing",
+          "note": "page tarifs"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-03"
     },
     {
       "slug": "tydeck",

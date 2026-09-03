@@ -4,23 +4,23 @@
   "license": "CC-BY-4.0 (data) / MIT (code)",
   "homepage": "https://flowmetrik.github.io/proptech-atlas",
   "repository": "https://github.com/flowmetrik/proptech-atlas",
-  "generated": "2026-09-02",
+  "generated": "2026-09-03",
   "counts": {
-    "tools": 207,
-    "US": 119,
+    "tools": 213,
+    "US": 125,
     "FR": 118,
     "categories": 24,
-    "editors": 190,
+    "editors": 196,
     "verified": 0,
     "reviews": 0,
-    "logos": 203,
+    "logos": 209,
     "signals": {
-      "probed": 193,
-      "public_pricing": 52,
-      "api_docs": 14,
-      "security_page": 27,
-      "privacy_page": 142,
-      "status_page": 55
+      "probed": 199,
+      "public_pricing": 56,
+      "api_docs": 17,
+      "security_page": 28,
+      "privacy_page": 147,
+      "status_page": 59
     }
   },
   "tools": [
@@ -955,6 +955,112 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "archie",
+      "name": "Archie",
+      "editor": "Archie",
+      "website": "https://archieapp.co",
+      "hq_country": "CA",
+      "markets": [
+        "US"
+      ],
+      "category": "flex-coworking",
+      "founded": 2016,
+      "positioning": "Space management software for hybrid offices and coworking spaces, priced per desk and room rather than per user.",
+      "description": "Archie is a workplace and coworking management platform covering desk booking, meeting room booking, and visitor management, sold as separate modules that can be bought together or on their own. It serves both corporate hybrid-office teams and commercial flex-space operators from the same codebase.\n",
+      "real_estate_use": "A flex-space operator or corporate workplace team uses Archie to manage floor plans, let members or employees reserve a desk or room from a web or mobile app, check visitors in at reception, and see office occupancy across one or several locations. Multi-location operators use it to keep a consistent booking and billing experience across sites without building their own scheduling logic.\n",
+      "features": [
+        "Desk booking with visual floor plans",
+        "Meeting room booking with calendar sync",
+        "Visitor management and check-in",
+        "Membership and recurring billing",
+        "Occupancy analytics",
+        "SSO and SCIM for larger accounts"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Run desk and room booking across a single or multi-location flex space from one admin console"
+        },
+        {
+          "persona": "facility-manager",
+          "job": "Track office occupancy and manage visitor check-in for a hybrid workplace"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "facility-manager"
+      ],
+      "segments": [
+        "office",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://archieapp.co/pricing"
+      },
+      "integrations": [
+        "Slack",
+        "Microsoft Outlook",
+        "Microsoft Teams"
+      ],
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "nexudus",
+        "officernd",
+        "optix"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/archie.png",
+        "source_url": "https://archieapp.co/favicon.png",
+        "fetched_on": "2026-09-03"
+      },
+      "signals": {
+        "pricing": "https://archieapp.co/not-found",
+        "api_docs": "https://archieapp.co/not-found",
+        "security": "https://archieapp.co/security",
+        "privacy": "https://archieapp.co/not-found",
+        "status": "https://archieapp.co/not-found",
+        "site_languages": [
+          "en",
+          "es",
+          "fr"
+        ],
+        "checked_on": "2026-09-03"
+      },
+      "sources": [
+        {
+          "url": "https://archieapp.co",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://archieapp.co/pricing",
+          "note": "page tarifs"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-03"
     },
     {
       "slug": "argus-enterprise",
@@ -3708,6 +3814,97 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "cloudpano",
+      "name": "CloudPano",
+      "editor": "CloudPano",
+      "website": "https://www.cloudpano.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "visuals-tours",
+      "founded": 2018,
+      "positioning": "360° virtual tour software built for entrepreneurs and agents who want to keep their own brand on the tour.",
+      "description": "CloudPano is a browser-based editor for building and hosting 360° virtual tours from photos, spins or 360° video, with white-label publishing so the tour carries the operator's own brand rather than the software's.\n",
+      "real_estate_use": "A real estate agent, broker or a photographer serving them uploads 360° photos of a listing, arranges them into a walkable tour with hotspots, and embeds the finished tour on the listing page or MLS entry under their own brand rather than CloudPano's — used mainly to make a listing shareable and embeddable without a dedicated VR headset workflow.\n",
+      "features": [
+        "360° photo, spin and video scene types",
+        "Hotspot and embedded media editor",
+        "White-label / private-label publishing",
+        "Website and WordPress embedding",
+        "VR headset viewing mode",
+        "Multi-region hosting"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Turn a set of 360° listing photos into a branded, embeddable virtual tour"
+        }
+      ],
+      "personas": [
+        "agent-broker"
+      ],
+      "segments": [
+        "residential",
+        "retail"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://www.cloudpano.com"
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "kuula",
+        "teliportme"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/cloudpano.png",
+        "source_url": "https://cdn.prod.website-files.com/5fa975f869ea6623c1de7eba/6481b289a664682e7e9619c8_cloudpanoicon256.png",
+        "fetched_on": "2026-09-03"
+      },
+      "signals": {
+        "status": "https://status.cloudpano.com",
+        "site_languages": [
+          "de",
+          "en",
+          "es",
+          "fr",
+          "hi",
+          "it",
+          "pt",
+          "ru",
+          "tr",
+          "zh"
+        ],
+        "checked_on": "2026-09-03"
+      },
+      "sources": [
+        {
+          "url": "https://www.cloudpano.com",
+          "note": "site éditeur, tarifs sur la page d'accueil"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-03"
     },
     {
       "slug": "cobot",
@@ -9790,6 +9987,94 @@
       "updated": "2026-08-25"
     },
     {
+      "slug": "kuula",
+      "name": "Kuula",
+      "editor": "Kuula",
+      "website": "https://kuula.co",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "visuals-tours",
+      "founded": 2016,
+      "positioning": "A virtual tour publishing platform built around a large public community of 360° content, with a chromeless mode built for MLS compliance.",
+      "description": "Kuula is a platform for uploading 360° panoramas and arranging them into virtual tours, with a public sharing community alongside paid tiers for custom branding, private/unlisted tours and a chromeless player with no Kuula branding or links.\n",
+      "real_estate_use": "An agent or a photographer serving agents uploads 360° property photos, builds a connected tour with hotspots and floor plans, and shares it in a chromeless player with no visible branding or outbound links — a mode built specifically to meet MLS rules that forbid third-party branding on a listing tour.\n",
+      "features": [
+        "360° panorama tour editor",
+        "Custom branding and white-labeling (Pro)",
+        "Chromeless player for MLS compliance",
+        "Unlisted and private tours",
+        "Floor plans and Google Maps integration",
+        "Embed and iframe sharing"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Publish an MLS-compliant virtual tour with no third-party branding or outbound links"
+        }
+      ],
+      "personas": [
+        "agent-broker"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://kuula.co/page/pro"
+      },
+      "integrations": [
+        "Google Maps"
+      ],
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "cloudpano",
+        "teliportme"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/kuula.png",
+        "source_url": "https://static.kuula.io/prod/assets/webapp/kuula192.png",
+        "fetched_on": "2026-09-03"
+      },
+      "signals": {
+        "privacy": "https://www.kuula.co/legal/privacy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-03"
+      },
+      "sources": [
+        {
+          "url": "https://kuula.co",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://kuula.co/page/pro",
+          "note": "page fonctionnalités Pro"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-03"
+    },
+    {
       "slug": "leadsimple",
       "name": "LeadSimple",
       "editor": "LeadSimple",
@@ -12636,6 +12921,104 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "optix",
+      "name": "Optix",
+      "editor": "ShareDesk Global",
+      "website": "https://www.optixapp.com",
+      "hq_country": "CA",
+      "markets": [
+        "US"
+      ],
+      "category": "flex-coworking",
+      "founded": 2016,
+      "positioning": "Automation-first coworking software built to let flex operators scale operations without adding headcount.",
+      "description": "Optix is a coworking and flex-space management platform (formerly ShareDesk) covering bookings, billing, invoicing, member communications and a white-label member app. Its distinguishing feature is a rules-based automation engine that triggers actions such as billing, notifications or access changes without manual admin work.\n",
+      "real_estate_use": "A coworking or flex-space operator uses Optix to run day-to-day operations — desk and room bookings, plan and pass sales, invoicing, visitor management — and to automate recurring admin tasks like billing reminders or check-in notifications through its automation module, so a small on-site team can run more locations without proportionally more staff.\n",
+      "features": [
+        "Desk and meeting room booking",
+        "Rules-based automation engine",
+        "Billing, invoicing and plans/passes",
+        "White-label member web portal and mobile app",
+        "Visitor management",
+        "API access and webhooks (Pro plan and above)"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Automate recurring billing and member notifications across one or more coworking locations"
+        },
+        {
+          "persona": "investor-am",
+          "job": "Standardize booking, billing and reporting for a multi-location flex portfolio"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "investor-am"
+      ],
+      "segments": [
+        "office",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://www.optixapp.com/pricing/"
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "nexudus",
+        "officernd",
+        "archie",
+        "spacebring"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/optix.png",
+        "source_url": "https://www.optixapp.com/wp-content/uploads/2024/03/cropped-android-chrome-512x512-1-2-180x180.png",
+        "fetched_on": "2026-09-03"
+      },
+      "signals": {
+        "pricing": "https://www.optixapp.com/pricing",
+        "privacy": "https://www.optixapp.com/privacy",
+        "status": "https://status.optixapp.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-03"
+      },
+      "sources": [
+        {
+          "url": "https://www.optixapp.com",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://www.optixapp.com/pricing/",
+          "note": "page tarifs"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-03"
     },
     {
       "slug": "ownerrez",
@@ -17299,6 +17682,100 @@
       "updated": "2026-08-25"
     },
     {
+      "slug": "spacebring",
+      "name": "Spacebring",
+      "editor": "Spacebring",
+      "website": "https://www.spacebring.com",
+      "hq_country": "PL",
+      "markets": [
+        "US"
+      ],
+      "category": "flex-coworking",
+      "founded": 2017,
+      "positioning": "Coworking software built for operators who run their space from a phone rather than a back office.",
+      "description": "Spacebring is a coworking management platform combining billing, bookings, access and community into a single member web portal and white-label mobile app. It targets independent and small multi-location operators rather than large enterprise flex brands.\n",
+      "real_estate_use": "A coworking operator uses Spacebring to sign up new members, run recurring billing automatically, let members book desks and rooms from a branded app, and manage day-to-day operations from a phone rather than a dedicated back-office team — useful for operators running one or a handful of locations with a lean staff.\n",
+      "features": [
+        "Member web portal and white-label mobile app",
+        "Automated recurring billing and invoicing",
+        "Desk and meeting room booking",
+        "Interactive floor plans (add-on)",
+        "Access control integrations",
+        "Community and communication tools"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Run billing and bookings for an independent coworking space without a dedicated back-office team"
+        }
+      ],
+      "personas": [
+        "property-manager"
+      ],
+      "segments": [
+        "office",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://www.spacebring.com/pricing"
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "nexudus",
+        "officernd",
+        "optix",
+        "archie"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/spacebring.png",
+        "source_url": "https://www.spacebring.com/apple-icon.png?apple-icon.16_xg38xk116z.png",
+        "fetched_on": "2026-09-03"
+      },
+      "signals": {
+        "pricing": "https://www.spacebring.com/pricing",
+        "api_docs": "https://www.spacebring.com/docs/api",
+        "privacy": "https://www.spacebring.com/privacy",
+        "status": "https://status.spacebring.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-03"
+      },
+      "sources": [
+        {
+          "url": "https://www.spacebring.com",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://www.spacebring.com/pricing",
+          "note": "page tarifs"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-03"
+    },
+    {
       "slug": "spectora",
       "name": "Spectora",
       "editor": "Spectora",
@@ -17998,6 +18475,94 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "teliportme",
+      "name": "TeliportMe",
+      "editor": "TeliportMe",
+      "website": "https://teliportme.com",
+      "hq_country": "IN",
+      "markets": [
+        "US"
+      ],
+      "category": "visuals-tours",
+      "founded": 2011,
+      "positioning": "Browser-based 3D virtual tour editor built to distribute tours across every listing platform, not just its own player.",
+      "description": "TeliportMe is a browser-based editor for creating 360° virtual tours — hotspots, nadir/zenith patches, background audio, interactive cards and floor plans — without installing software, and for distributing the finished tour by link, iframe embed, or directly onto third-party listing sites.\n",
+      "real_estate_use": "An agent, broker or photography vendor captures 360° panoramas of a property, edits them into a guided tour in the browser, and embeds or links the tour directly on the listing across sites such as Zillow, Realtor.com or Compass — used specifically because the tour is meant to travel with the listing across platforms rather than live only on one branded page.\n",
+      "features": [
+        "Browser-based tour editor with GPU rendering",
+        "Custom hotspots, nadir/zenith patching",
+        "Interactive floor plans",
+        "Background audio and interactive cards",
+        "Embed on third-party listing platforms (Zillow, Realtor.com, Compass)",
+        "Street View-ready publishing"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Publish a 360° tour that embeds directly on major listing portals rather than a standalone branded page"
+        }
+      ],
+      "personas": [
+        "agent-broker"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://teliportme.com"
+      },
+      "integrations": [
+        "Zillow",
+        "Realtor.com",
+        "Compass"
+      ],
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "cloudpano",
+        "kuula"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/teliportme.png",
+        "source_url": "https://teliportme.com/apple-touch-icon.png",
+        "fetched_on": "2026-09-03"
+      },
+      "signals": {
+        "pricing": "https://teliportme.com/pricing",
+        "api_docs": "https://teliportme.com/api",
+        "privacy": "https://teliportme.com/privacy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-03"
+      },
+      "sources": [
+        {
+          "url": "https://teliportme.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-03"
     },
     {
       "slug": "tenant-turner",
