@@ -11,7 +11,8 @@
     "preview": "astro preview",
     "data:validate": "node scripts/validate.mjs",
     "data:emit": "node scripts/emit.mjs",
-    "check": "npm run data:validate"
+    "check": "npm run data:validate",
+    "test": "node scripts/test.mjs"
   },
   "dependencies": {
     "@astrojs/rss": "^4.0.19",

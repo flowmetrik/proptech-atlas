@@ -4,7 +4,7 @@
   "label_fr": "Visuels, visite 3D & home staging",
   "summary_en": "Photography, floor plans, virtual tours and virtual staging.",
   "summary_fr": "Photo, plans, visites virtuelles et home staging virtuel.",
-  "count": 6,
+  "count": 9,
   "tools": [
     {
       "slug": "boxbrownie",
@@ -217,6 +217,97 @@
       "updated": "2026-08-25"
     },
     {
+      "slug": "cloudpano",
+      "name": "CloudPano",
+      "editor": "CloudPano",
+      "website": "https://www.cloudpano.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "visuals-tours",
+      "founded": 2018,
+      "positioning": "360° virtual tour software built for entrepreneurs and agents who want to keep their own brand on the tour.",
+      "description": "CloudPano is a browser-based editor for building and hosting 360° virtual tours from photos, spins or 360° video, with white-label publishing so the tour carries the operator's own brand rather than the software's.\n",
+      "real_estate_use": "A real estate agent, broker or a photographer serving them uploads 360° photos of a listing, arranges them into a walkable tour with hotspots, and embeds the finished tour on the listing page or MLS entry under their own brand rather than CloudPano's — used mainly to make a listing shareable and embeddable without a dedicated VR headset workflow.\n",
+      "features": [
+        "360° photo, spin and video scene types",
+        "Hotspot and embedded media editor",
+        "White-label / private-label publishing",
+        "Website and WordPress embedding",
+        "VR headset viewing mode",
+        "Multi-region hosting"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Turn a set of 360° listing photos into a branded, embeddable virtual tour"
+        }
+      ],
+      "personas": [
+        "agent-broker"
+      ],
+      "segments": [
+        "residential",
+        "retail"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://www.cloudpano.com"
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "kuula",
+        "teliportme"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/cloudpano.png",
+        "source_url": "https://cdn.prod.website-files.com/5fa975f869ea6623c1de7eba/6481b289a664682e7e9619c8_cloudpanoicon256.png",
+        "fetched_on": "2026-09-03"
+      },
+      "signals": {
+        "status": "https://status.cloudpano.com",
+        "site_languages": [
+          "de",
+          "en",
+          "es",
+          "fr",
+          "hi",
+          "it",
+          "pt",
+          "ru",
+          "tr",
+          "zh"
+        ],
+        "checked_on": "2026-09-03"
+      },
+      "sources": [
+        {
+          "url": "https://www.cloudpano.com",
+          "note": "site éditeur, tarifs sur la page d'accueil"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-03"
+    },
+    {
       "slug": "cubicasa",
       "name": "CubiCasa",
       "editor": "CubiCasa",
@@ -321,6 +412,94 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "kuula",
+      "name": "Kuula",
+      "editor": "Kuula",
+      "website": "https://kuula.co",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "visuals-tours",
+      "founded": 2016,
+      "positioning": "A virtual tour publishing platform built around a large public community of 360° content, with a chromeless mode built for MLS compliance.",
+      "description": "Kuula is a platform for uploading 360° panoramas and arranging them into virtual tours, with a public sharing community alongside paid tiers for custom branding, private/unlisted tours and a chromeless player with no Kuula branding or links.\n",
+      "real_estate_use": "An agent or a photographer serving agents uploads 360° property photos, builds a connected tour with hotspots and floor plans, and shares it in a chromeless player with no visible branding or outbound links — a mode built specifically to meet MLS rules that forbid third-party branding on a listing tour.\n",
+      "features": [
+        "360° panorama tour editor",
+        "Custom branding and white-labeling (Pro)",
+        "Chromeless player for MLS compliance",
+        "Unlisted and private tours",
+        "Floor plans and Google Maps integration",
+        "Embed and iframe sharing"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Publish an MLS-compliant virtual tour with no third-party branding or outbound links"
+        }
+      ],
+      "personas": [
+        "agent-broker"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://kuula.co/page/pro"
+      },
+      "integrations": [
+        "Google Maps"
+      ],
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "cloudpano",
+        "teliportme"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/kuula.png",
+        "source_url": "https://static.kuula.io/prod/assets/webapp/kuula192.png",
+        "fetched_on": "2026-09-03"
+      },
+      "signals": {
+        "privacy": "https://www.kuula.co/legal/privacy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-03"
+      },
+      "sources": [
+        {
+          "url": "https://kuula.co",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://kuula.co/page/pro",
+          "note": "page fonctionnalités Pro"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-03"
     },
     {
       "slug": "matterport",
@@ -668,6 +847,94 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "teliportme",
+      "name": "TeliportMe",
+      "editor": "TeliportMe",
+      "website": "https://teliportme.com",
+      "hq_country": "IN",
+      "markets": [
+        "US"
+      ],
+      "category": "visuals-tours",
+      "founded": 2011,
+      "positioning": "Browser-based 3D virtual tour editor built to distribute tours across every listing platform, not just its own player.",
+      "description": "TeliportMe is a browser-based editor for creating 360° virtual tours — hotspots, nadir/zenith patches, background audio, interactive cards and floor plans — without installing software, and for distributing the finished tour by link, iframe embed, or directly onto third-party listing sites.\n",
+      "real_estate_use": "An agent, broker or photography vendor captures 360° panoramas of a property, edits them into a guided tour in the browser, and embeds or links the tour directly on the listing across sites such as Zillow, Realtor.com or Compass — used specifically because the tour is meant to travel with the listing across platforms rather than live only on one branded page.\n",
+      "features": [
+        "Browser-based tour editor with GPU rendering",
+        "Custom hotspots, nadir/zenith patching",
+        "Interactive floor plans",
+        "Background audio and interactive cards",
+        "Embed on third-party listing platforms (Zillow, Realtor.com, Compass)",
+        "Street View-ready publishing"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Publish a 360° tour that embeds directly on major listing portals rather than a standalone branded page"
+        }
+      ],
+      "personas": [
+        "agent-broker"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://teliportme.com"
+      },
+      "integrations": [
+        "Zillow",
+        "Realtor.com",
+        "Compass"
+      ],
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "cloudpano",
+        "kuula"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/teliportme.png",
+        "source_url": "https://teliportme.com/apple-touch-icon.png",
+        "fetched_on": "2026-09-03"
+      },
+      "signals": {
+        "pricing": "https://teliportme.com/pricing",
+        "api_docs": "https://teliportme.com/api",
+        "privacy": "https://teliportme.com/privacy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-03"
+      },
+      "sources": [
+        {
+          "url": "https://teliportme.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-03"
     }
   ]
 }

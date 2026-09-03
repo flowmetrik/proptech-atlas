@@ -1,0 +1,106 @@
+{
+  "slug": "archie",
+  "name": "Archie",
+  "editor": "Archie",
+  "website": "https://archieapp.co",
+  "hq_country": "CA",
+  "markets": [
+    "US"
+  ],
+  "category": "flex-coworking",
+  "founded": 2016,
+  "positioning": "Space management software for hybrid offices and coworking spaces, priced per desk and room rather than per user.",
+  "description": "Archie is a workplace and coworking management platform covering desk booking, meeting room booking, and visitor management, sold as separate modules that can be bought together or on their own. It serves both corporate hybrid-office teams and commercial flex-space operators from the same codebase.\n",
+  "real_estate_use": "A flex-space operator or corporate workplace team uses Archie to manage floor plans, let members or employees reserve a desk or room from a web or mobile app, check visitors in at reception, and see office occupancy across one or several locations. Multi-location operators use it to keep a consistent booking and billing experience across sites without building their own scheduling logic.\n",
+  "features": [
+    "Desk booking with visual floor plans",
+    "Meeting room booking with calendar sync",
+    "Visitor management and check-in",
+    "Membership and recurring billing",
+    "Occupancy analytics",
+    "SSO and SCIM for larger accounts"
+  ],
+  "use_cases": [
+    {
+      "persona": "property-manager",
+      "job": "Run desk and room booking across a single or multi-location flex space from one admin console"
+    },
+    {
+      "persona": "facility-manager",
+      "job": "Track office occupancy and manage visitor check-in for a hybrid workplace"
+    }
+  ],
+  "personas": [
+    "property-manager",
+    "facility-manager"
+  ],
+  "segments": [
+    "office",
+    "mixed-use"
+  ],
+  "company_sizes": [
+    "smb",
+    "midmarket"
+  ],
+  "pricing": {
+    "model": "subscription",
+    "public_pricing": true,
+    "url": "https://archieapp.co/pricing"
+  },
+  "integrations": [
+    "Slack",
+    "Microsoft Outlook",
+    "Microsoft Teams"
+  ],
+  "product": {
+    "api": false,
+    "open_source": false,
+    "mobile": [
+      "ios",
+      "android"
+    ],
+    "languages": [
+      "en"
+    ]
+  },
+  "alternatives": [
+    "nexudus",
+    "officernd",
+    "optix"
+  ],
+  "reviews": [],
+  "logo": {
+    "file": "logos/archie.png",
+    "source_url": "https://archieapp.co/favicon.png",
+    "fetched_on": "2026-09-03"
+  },
+  "signals": {
+    "pricing": "https://archieapp.co/not-found",
+    "api_docs": "https://archieapp.co/not-found",
+    "security": "https://archieapp.co/security",
+    "privacy": "https://archieapp.co/not-found",
+    "status": "https://archieapp.co/not-found",
+    "site_languages": [
+      "en",
+      "es",
+      "fr"
+    ],
+    "checked_on": "2026-09-03"
+  },
+  "sources": [
+    {
+      "url": "https://archieapp.co",
+      "note": "site éditeur"
+    },
+    {
+      "url": "https://archieapp.co/pricing",
+      "note": "page tarifs"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-09-03"
+}

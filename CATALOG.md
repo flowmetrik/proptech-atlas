@@ -2,7 +2,7 @@
 
 <!-- Généré par `npm run data:emit`. Ne pas éditer à la main : éditer `data/tools/*.yaml`. -->
 
-207 produits · 119 🇺🇸 · 118 🇫🇷 · mis à jour le 2026-09-02
+213 produits · 125 🇺🇸 · 118 🇫🇷 · mis à jour le 2026-09-03
 
 Version navigable : https://flowmetrik.github.io/proptech-atlas/explore
 
@@ -290,6 +290,7 @@ _Abonnements, réservation de postes, facturation et animation d'espaces flexibl
 
 | Produit | Éditeur | Marchés | Usage en immobilier |
 |---|---|---|---|
+| [Archie](data/tools/archie.yaml) | Archie | 🇺🇸 | A flex-space operator or corporate workplace team uses Archie to manage floor plans, let members or employees reserve a desk or room from a web or mobile app, check visitors in at… |
 | [Cobot](data/tools/cobot.yaml) | Cobot | 🇺🇸 🇫🇷 | An independent space with sixty members needs billing that runs itself and a booking calendar members can trust, not revenue management. Cobot's appeal is that it can be set up in a day… |
 | [Cosoft](data/tools/cosoft.yaml) | FTEL | 🇫🇷 | A coworking or tiers-lieu manager uses Cosoft as the operating system of the site: members book a desk or a meeting room themselves and pay online, the invoice and the accounting export… |
 | [CoworkSaaS](data/tools/coworksaas.yaml) | CoworkSaaS | 🇫🇷 | The problem this addresses is opening hours. An operator who wants to sell access outside staffed hours has to know who is in the building and to bill them with nobody at the desk… |
@@ -297,6 +298,8 @@ _Abonnements, réservation de postes, facturation et animation d'espaces flexibl
 | [essensys](data/tools/essensys.yaml) | essensys | 🇺🇸 🇫🇷 | A landlord converting floors to flex has a problem no coworking app solves: every occupier needs its own secure network segment, provisioned in hours rather than weeks, and metered.… |
 | [Nexudus](data/tools/nexudus.yaml) | Nexudus | 🇺🇸 🇫🇷 | Flex operators rarely run the same model twice — credit systems for room hours, tiered plans, franchise structures, mixed private-office and hot-desk inventory. Nexudus is chosen for the… |
 | [OfficeRnD Flex](data/tools/officernd.yaml) | OfficeRnD | 🇺🇸 🇫🇷 | A flex operator's revenue is a mesh of monthly memberships, day passes, room hours and overage charges — billing that breaks any standard property accounting model. OfficeRnD automates… |
+| [Optix](data/tools/optix.yaml) | ShareDesk Global | 🇺🇸 | A coworking or flex-space operator uses Optix to run day-to-day operations — desk and room bookings, plan and pass sales, invoicing, visitor management — and to automate recurring admin… |
+| [Spacebring](data/tools/spacebring.yaml) | Spacebring | 🇺🇸 | A coworking operator uses Spacebring to sign up new members, run recurring billing automatically, let members book desks and rooms from a branded app, and manage day-to-day operations… |
 | [Tydeck](data/tools/tydeck.yaml) | Tydeck | 🇫🇷 | An operator running one or several flex sites uses Tydeck to stop being the booking desk. A new corporate client is created in a couple of minutes, gets an onboarding invitation and… |
 
 ## Location courte durée · Short-term rental management
@@ -321,9 +324,12 @@ _Photo, plans, visites virtuelles et home staging virtuel._
 | Produit | Éditeur | Marchés | Usage en immobilier |
 |---|---|---|---|
 | [BoxBrownie](data/tools/boxbrownie.yaml) | BoxBrownie.com | 🇺🇸 🇫🇷 | An empty apartment photographs badly and a cluttered one photographs worse. Virtual staging costs a fraction of physical staging and can be ordered the evening before a listing goes… |
+| [CloudPano](data/tools/cloudpano.yaml) | CloudPano | 🇺🇸 | A real estate agent, broker or a photographer serving them uploads 360° photos of a listing, arranges them into a walkable tour with hotspots, and embeds the finished tour on the listing… |
 | [CubiCasa](data/tools/cubicasa.yaml) | CubiCasa | 🇺🇸 🇫🇷 | Floor plans measurably improve listing engagement but traditionally required a professional visit. Because CubiCasa needs only a phone, an agent produces one during the listing… |
+| [Kuula](data/tools/kuula.yaml) | Kuula | 🇺🇸 | An agent or a photographer serving agents uploads 360° property photos, builds a connected tour with hotspots and floor plans, and shares it in a chromeless player with no visible… |
 | [Matterport](data/tools/matterport.yaml) | Matterport (CoStar Group) | 🇺🇸 🇫🇷 | In marketing, a scan lets a remote buyer or tenant walk the space before travelling. In operations it does something less obvious and often more valuable: it is a dated, measurable… |
 | [Nodalview](data/tools/nodalview.yaml) | Nodalview | 🇫🇷 | Hiring a photographer for every mandate is neither affordable nor fast enough in the mid-market, and phone photographs taken by an agent are usually poor. Nodalview's guided capture and… |
+| [TeliportMe](data/tools/teliportme.yaml) | TeliportMe | 🇺🇸 | An agent, broker or photography vendor captures 360° panoramas of a property, edits them into a guided tour in the browser, and embeds or links the tour directly on the listing across… |
 
 ## Diagnostics & conformité · Diagnostics & compliance
 

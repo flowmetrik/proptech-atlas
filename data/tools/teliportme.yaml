@@ -1,0 +1,59 @@
+slug: teliportme
+name: TeliportMe
+editor: TeliportMe
+website: https://teliportme.com
+hq_country: IN
+markets: [US]
+category: visuals-tours
+founded: 2011
+positioning: "Browser-based 3D virtual tour editor built to distribute tours across every listing platform, not just its own player."
+description: >
+  TeliportMe is a browser-based editor for creating 360° virtual tours — hotspots,
+  nadir/zenith patches, background audio, interactive cards and floor plans — without
+  installing software, and for distributing the finished tour by link, iframe embed,
+  or directly onto third-party listing sites.
+real_estate_use: >
+  An agent, broker or photography vendor captures 360° panoramas of a property, edits
+  them into a guided tour in the browser, and embeds or links the tour directly on the
+  listing across sites such as Zillow, Realtor.com or Compass — used specifically
+  because the tour is meant to travel with the listing across platforms rather than
+  live only on one branded page.
+features:
+  - Browser-based tour editor with GPU rendering
+  - "Custom hotspots, nadir/zenith patching"
+  - Interactive floor plans
+  - Background audio and interactive cards
+  - "Embed on third-party listing platforms (Zillow, Realtor.com, Compass)"
+  - Street View-ready publishing
+use_cases:
+  - persona: agent-broker
+    job: Publish a 360° tour that embeds directly on major listing portals rather than a standalone branded page
+personas: [agent-broker]
+segments: [residential]
+company_sizes: [solo, smb]
+pricing:
+  model: subscription
+  public_pricing: true
+  url: https://teliportme.com
+integrations: [Zillow, Realtor.com, Compass]
+product:
+  api: false
+  open_source: false
+  mobile: []
+  languages: [en]
+alternatives: [cloudpano, kuula]
+reviews: []
+logo:
+  file: logos/teliportme.png
+  source_url: https://teliportme.com/apple-touch-icon.png
+  fetched_on: "2026-09-03"
+signals:
+  pricing: https://teliportme.com/pricing
+  api_docs: https://teliportme.com/api
+  privacy: https://teliportme.com/privacy
+  site_languages: [en]
+  checked_on: "2026-09-03"
+sources:
+  - { url: https://teliportme.com, note: site éditeur }
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-09-03"
