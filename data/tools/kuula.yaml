@@ -1,0 +1,56 @@
+slug: kuula
+name: Kuula
+editor: Kuula
+website: https://kuula.co
+hq_country: US
+markets: [US]
+category: visuals-tours
+founded: 2016
+positioning: "A virtual tour publishing platform built around a large public community of 360° content, with a chromeless mode built for MLS compliance."
+description: >
+  Kuula is a platform for uploading 360° panoramas and arranging them into virtual
+  tours, with a public sharing community alongside paid tiers for custom branding,
+  private/unlisted tours and a chromeless player with no Kuula branding or links.
+real_estate_use: >
+  An agent or a photographer serving agents uploads 360° property photos, builds a
+  connected tour with hotspots and floor plans, and shares it in a chromeless player
+  with no visible branding or outbound links — a mode built specifically to meet MLS
+  rules that forbid third-party branding on a listing tour.
+features:
+  - 360° panorama tour editor
+  - Custom branding and white-labeling (Pro)
+  - Chromeless player for MLS compliance
+  - Unlisted and private tours
+  - Floor plans and Google Maps integration
+  - Embed and iframe sharing
+use_cases:
+  - persona: agent-broker
+    job: Publish an MLS-compliant virtual tour with no third-party branding or outbound links
+personas: [agent-broker]
+segments: [residential]
+company_sizes: [solo, smb]
+pricing:
+  model: subscription
+  public_pricing: true
+  url: https://kuula.co/page/pro
+integrations: [Google Maps]
+product:
+  api: false
+  open_source: false
+  mobile: []
+  languages: [en]
+alternatives: [cloudpano, teliportme]
+reviews: []
+logo:
+  file: logos/kuula.png
+  source_url: https://static.kuula.io/prod/assets/webapp/kuula192.png
+  fetched_on: "2026-09-03"
+signals:
+  privacy: https://www.kuula.co/legal/privacy
+  site_languages: [en]
+  checked_on: "2026-09-03"
+sources:
+  - { url: https://kuula.co, note: site éditeur }
+  - { url: https://kuula.co/page/pro, note: page fonctionnalités Pro }
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-09-03"
