@@ -1,0 +1,98 @@
+{
+  "slug": "optix",
+  "name": "Optix",
+  "editor": "ShareDesk Global",
+  "website": "https://www.optixapp.com",
+  "hq_country": "CA",
+  "markets": [
+    "US"
+  ],
+  "category": "flex-coworking",
+  "founded": 2016,
+  "positioning": "Automation-first coworking software built to let flex operators scale operations without adding headcount.",
+  "description": "Optix is a coworking and flex-space management platform (formerly ShareDesk) covering bookings, billing, invoicing, member communications and a white-label member app. Its distinguishing feature is a rules-based automation engine that triggers actions such as billing, notifications or access changes without manual admin work.\n",
+  "real_estate_use": "A coworking or flex-space operator uses Optix to run day-to-day operations — desk and room bookings, plan and pass sales, invoicing, visitor management — and to automate recurring admin tasks like billing reminders or check-in notifications through its automation module, so a small on-site team can run more locations without proportionally more staff.\n",
+  "features": [
+    "Desk and meeting room booking",
+    "Rules-based automation engine",
+    "Billing, invoicing and plans/passes",
+    "White-label member web portal and mobile app",
+    "Visitor management",
+    "API access and webhooks (Pro plan and above)"
+  ],
+  "use_cases": [
+    {
+      "persona": "property-manager",
+      "job": "Automate recurring billing and member notifications across one or more coworking locations"
+    },
+    {
+      "persona": "investor-am",
+      "job": "Standardize booking, billing and reporting for a multi-location flex portfolio"
+    }
+  ],
+  "personas": [
+    "property-manager",
+    "investor-am"
+  ],
+  "segments": [
+    "office",
+    "mixed-use"
+  ],
+  "company_sizes": [
+    "smb",
+    "midmarket"
+  ],
+  "pricing": {
+    "model": "subscription",
+    "public_pricing": true,
+    "url": "https://www.optixapp.com/pricing/"
+  },
+  "product": {
+    "api": true,
+    "open_source": false,
+    "mobile": [
+      "ios",
+      "android"
+    ],
+    "languages": [
+      "en"
+    ]
+  },
+  "alternatives": [
+    "nexudus",
+    "officernd",
+    "archie",
+    "spacebring"
+  ],
+  "reviews": [],
+  "logo": {
+    "file": "logos/optix.png",
+    "source_url": "https://www.optixapp.com/wp-content/uploads/2024/03/cropped-android-chrome-512x512-1-2-180x180.png",
+    "fetched_on": "2026-09-03"
+  },
+  "signals": {
+    "pricing": "https://www.optixapp.com/pricing",
+    "privacy": "https://www.optixapp.com/privacy",
+    "status": "https://status.optixapp.com",
+    "site_languages": [
+      "en"
+    ],
+    "checked_on": "2026-09-03"
+  },
+  "sources": [
+    {
+      "url": "https://www.optixapp.com",
+      "note": "site éditeur"
+    },
+    {
+      "url": "https://www.optixapp.com/pricing/",
+      "note": "page tarifs"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-09-03"
+}
