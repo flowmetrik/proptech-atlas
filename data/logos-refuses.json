@@ -12,6 +12,24 @@
       "source_url": "https://www.diag-pilote.com/images/og.jpg",
       "why": "image de partage Open Graph : une bannière avec capture d'écran et accroche « CRM diagnostiqueur + logiciel terrain », pas une marque. Le site n'expose pas de logo isolé dans son <head>.",
       "on": "2026-09-02"
+    },
+    {
+      "slug": "engrain",
+      "source_url": "https://cdn.prod.website-files.com/6512f5b8371ba79cd9aa688a/6512f5b8371ba79cd9aa6b1e_Engrain-favicon-256x256.png",
+      "why": "icône de menu hamburger (trois barres), pas un logo — le favicon du site n'est pas une marque.",
+      "on": "2026-09-04"
+    },
+    {
+      "slug": "clickpay",
+      "source_url": "https://site.clickpay.com/wp-content/uploads/2017/06/new-home-banner.jpg",
+      "why": "bannière décorative de la page d'accueil (ordinateur portable, carte bancaire), pas un logo.",
+      "on": "2026-09-04"
+    },
+    {
+      "slug": "vendorpm",
+      "source_url": "https://cdn.prod.website-files.com/61ae81de929387df07374012/6781795412eeccb7d2196011_webclip.svg",
+      "why": "le SVG webclip se rend en image quasi blanche, illisible — rien d'exploitable comme logo.",
+      "on": "2026-09-04"
     }
   ]
 }
