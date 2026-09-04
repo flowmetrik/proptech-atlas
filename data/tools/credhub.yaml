@@ -1,0 +1,55 @@
+slug: credhub
+name: CredHub
+editor: CredHub
+website: https://credhub.com
+hq_country: US
+markets: [US]
+category: tenant-experience
+positioning: "Reports resident rent payments to the major credit bureaus every month, on-time and late alike."
+description: >
+  CredHub is a rent payment credit reporting service for property managers and
+  landlords. It reports both on-time and missed rent payments to Equifax, Experian,
+  TransUnion and Innovis each month, integrates with property management systems, and
+  bundles identity protection for residents through a partnership with Allstate.
+real_estate_use: >
+  A property manager with at least 50 units offers CredHub as a resident benefit so
+  on-time rent starts building credit automatically, without either party filing
+  anything each month. The manager also gets a delinquency lever: because late
+  payments are reported too, residents have a direct credit incentive to pay on time,
+  which CredHub's own figures link to roughly half the rent delinquency of comparable
+  properties.
+features:
+  - Monthly rent payment reporting to four credit bureaus
+  - Reports both on-time and late/missed payments
+  - Property management system integrations
+  - Dedicated U.S.-based account management
+  - Bundled resident identity protection (Allstate)
+use_cases:
+  - persona: property-manager
+    job: Offer rent-reporting as a resident benefit that also discourages late payment
+  - persona: tenant-occupier
+    job: Build credit history automatically by paying rent on time
+personas: [property-manager, tenant-occupier]
+segments: [multifamily, residential]
+company_sizes: [smb, midmarket]
+pricing:
+  model: quote
+  public_pricing: false
+product:
+  api: false
+  open_source: false
+  mobile: []
+  languages: [en]
+reviews: []
+logo:
+  file: logos/credhub.png
+  source_url: https://credhub.com/wp-content/uploads/2023/02/cropped-2-3-180x180.png
+  fetched_on: "2026-09-04"
+signals:
+  privacy: https://credhub.com/privacy-policy
+  site_languages: [en]
+  checked_on: "2026-09-04"
+sources:
+  - { url: https://credhub.com, note: site éditeur }
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-09-04"
