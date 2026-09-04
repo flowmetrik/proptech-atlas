@@ -68,5 +68,33 @@
     "found": 3,
     "kept": 1,
     "last_error": "Le site ne publie pas d annuaire de partenaires : seuls trois liens sortants exploitables sur toute la navigation (amanda.immo, clameur.fr, bienici.com). Faible rendement structurel, pas une erreur de balayage."
+  },
+  "mri-partner-connect": {
+    "last_swept_manual": "2026-09-04",
+    "manual_runs": 1,
+    "manual_found": 84,
+    "manual_kept": 8,
+    "last_manual_note": "page /partners/ lue en entier, 8 produits inedits verifies"
+  },
+  "journal-agence": {
+    "last_swept_manual": "2026-09-04",
+    "manual_runs": 1,
+    "manual_found": 3,
+    "manual_kept": 0,
+    "last_manual_note": "Facilogi doublon de prospeneo (deja catalogue) ; La Loupe Immo rendu JS, verify.mjs ne voit pas le nom (produit reel, cf note skill 02/09) ; Geo'Prospect site injoignable"
+  },
+  "yardi-marketplace": {
+    "last_swept_manual": "2026-09-04",
+    "manual_runs": 1,
+    "manual_found": 0,
+    "manual_kept": 0,
+    "last_manual_note": "yardi.com renvoie 403 a la lecture directe et n'expose pas de liste de partenaires exploitable en recherche web ; source a retenter avec un autre acces"
+  },
+  "rent-paris": {
+    "last_swept_manual": "2026-09-04",
+    "manual_runs": 1,
+    "manual_found": 3,
+    "manual_kept": 2,
+    "last_manual_note": "page paris.rent.immo/en surtout mediatique ; easyVirtual.tours ecarte (reseau de prestataires locaux, pas un produit SaaS) ; Lycaon Data et Danim retenus"
   }
 }

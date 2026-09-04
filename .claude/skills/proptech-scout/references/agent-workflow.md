@@ -102,6 +102,19 @@ python3 scripts/og/build.py        # images de partage
 npm run data:validate              # le juge
 ```
 
+Puis, pour chaque source réellement balayée à l'étape 2 — même celles qui n'ont
+rien donné — enregistrer la passe :
+
+```bash
+node scripts/enrich/mark-swept.mjs --source rent-paris --found 6 --kept 2
+node scripts/enrich/mark-swept.mjs --source journal-agence --found 0 --kept 0 --note "rien de nouveau"
+```
+
+`data/sweeps.json` n'est écrit que par `sweep.mjs` et ce script : sans lui, une
+source travaillée à la main reste « jamais vue » pour toujours, et la prochaine
+passe automatique ou manuelle la re-choisit en priorité alors qu'elle vient
+d'être regardée. Voir `docs/ameliorations.md` (fait 2026-09-04).
+
 Puis une **pull request**, jamais un push sur `main` :
 
 ```bash
