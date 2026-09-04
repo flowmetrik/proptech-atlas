@@ -63,13 +63,6 @@ qu'une chose a été tentée vaut mieux que de la retenter.
   référencent pas en anglais : c'est là que ce catalogue est seul.
 - **Sources jamais balayées** — voir `data/sweeps.json`. Une source sans entrée
   n'a jamais été vue. Dix sources sur 46 ont été vues au moins une fois.
-- **`data/sweeps.json` ne connaît que les passes automatiques.** Il est écrit par
-  `sweep.mjs` ; une passe d'agent qui cherche lui-même, la voie recommandée
-  depuis que la découverte par modèle coûte, n'y laisse aucune trace. Une source
-  réellement travaillée à la main y reste donc « jamais vue » pour toujours, et
-  le rendement mesuré ne parle que de la moitié du travail. Ne pas la remplir à
-  la main pour autant : ce serait mélanger une mesure et une déclaration. Il faut
-  soit un champ distinct pour la passe manuelle, soit une commande qui l'écrive.
 - **Les sources `association` ne rendent plus rien, des deux côtés de
   l'Atlantique.** `unis-partenaires`, `fnaim-partenaires` et
   `laboiteimmo-partenaires` étaient muettes ou en 404 le 26/08 ; le 29/08,
@@ -112,6 +105,22 @@ qu'une chose a été tentée vaut mieux que de la retenter.
 ---
 
 ## Fait
+
+- **2026-09-04** — `data/sweeps.json` ne connaissait que les passes
+  automatiques : seul `sweep.mjs` y écrivait, donc une source balayée à la main
+  par un agent qui cherche lui-même — la voie recommandée depuis que la
+  découverte par modèle coûte — restait « jamais vue » pour toujours. Deux
+  conséquences fausses : le rendement mesuré ne parlait que de la moitié du
+  travail, et la prochaine passe (automatique ou manuelle) re-choisissait en
+  priorité une source qui venait d'être regardée. Nouveau script
+  `scripts/enrich/mark-swept.mjs` — aucun appel réseau ni LLM, juste une date et
+  un compte — qui écrit des champs distincts (`last_swept_manual`,
+  `manual_runs`, `manual_found`, `manual_kept`), jamais mélangés aux champs
+  automatiques. `sweep.mjs` calcule maintenant `lastSwept()` comme la plus
+  récente des deux dates pour la rotation par cooldown. `references/agent-workflow.md`
+  documente le geste à l'étape 5. Volontairement pas de champ rempli à la main
+  dans `data/sources.yaml` : la mesure reste une mesure, écrite par un script,
+  jamais une déclaration.
 
 - **2026-09-03** — Le dépôt n'avait pas de harnais de test :
   `scripts/enrich/traces.test.mjs`, écrit le 02/09, était le seul fichier de

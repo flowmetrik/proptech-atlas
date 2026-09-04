@@ -37,13 +37,24 @@ const KIND = arg('kind', null);
 
 const daysSince = (d) => (d ? Math.floor((Date.now() - Date.parse(d)) / 86400000) : 9999);
 
+// Une source vue par un agent qui cherche lui-même (mark-swept.mjs) compte
+// autant qu'une source vue par la boucle : les deux voies regardent le même
+// terrain, et ignorer l'une fait resservir une source qui vient d'être
+// balayée à la main. `lastSwept` prend la plus récente des deux dates.
+const lastSwept = (id) => {
+  const st = state[id];
+  if (!st) return null;
+  const dates = [st.last_swept, st.last_swept_manual].filter(Boolean);
+  return dates.length ? dates.sort().at(-1) : null;
+};
+
 let pool_ = reg.sources
   .filter((s) => (!MARKET || s.market === MARKET) && (!KIND || s.kind === KIND))
-  .filter((s) => (ONE ? s.id === ONE : daysSince(state[s.id]?.last_swept) >= (reg.meta.cooldown_days ?? 21)));
+  .filter((s) => (ONE ? s.id === ONE : daysSince(lastSwept(s.id)) >= (reg.meta.cooldown_days ?? 21)));
 
 // Les plus anciennement balayées d'abord ; à égalité, celles qui rapportent le plus.
 pool_.sort((a, b) =>
-  daysSince(state[b.id]?.last_swept) - daysSince(state[a.id]?.last_swept) ||
+  daysSince(lastSwept(b.id)) - daysSince(lastSwept(a.id)) ||
   (state[b.id]?.kept ?? 0) - (state[a.id]?.kept ?? 0));
 
 const picked = ONE ? pool_ : pool_.slice(0, N);

@@ -1,0 +1,46 @@
+slug: dottid
+name: Dottid
+editor: Dottid
+website: https://www.dottid.com
+hq_country: US
+markets: [US]
+category: commercial-am
+positioning: A leasing workflow platform replacing the spreadsheets and email chains commercial asset teams use to track deals.
+description: >
+  Dottid is a commercial real estate leasing and asset management platform, owned by
+  JLL, used to track deal pipelines, capital projects and portfolio performance across
+  office, industrial and retail assets. It integrates with ARGUS MLA and offers
+  stacking plan visualization, team task management and a mobile app.
+real_estate_use: >
+  An asset management team replaces spreadsheets and email threads with Dottid to
+  track every lease from prospect to signature, see a stacking plan of who occupies
+  what floor, and pull real-time portfolio performance figures for an investor update,
+  all synced with ARGUS MLA rather than re-keyed.
+features:
+  - Deal pipeline and leasing workflow tracking
+  - Stacking plan visualization
+  - ARGUS MLA integration
+  - Capital project tracking
+  - Portfolio performance dashboards
+  - Mobile app for stacking plans and files
+use_cases:
+  - persona: investor-am
+    job: Track a lease from prospect to signature and report portfolio performance without spreadsheets
+  - persona: corporate-re
+    job: See a stacking plan of occupancy across a commercial portfolio
+personas: [investor-am, corporate-re]
+segments: [office, industrial, retail]
+company_sizes: [enterprise]
+pricing:
+  model: quote
+  public_pricing: false
+product:
+  api: false
+  open_source: false
+  mobile: []
+  languages: [en]
+reviews: []
+sources:
+  - { url: https://www.dottid.com, note: site éditeur }
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-09-04"

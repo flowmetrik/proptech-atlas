@@ -1,0 +1,48 @@
+slug: engrain
+name: Engrain
+editor: Engrain
+website: https://www.engrain.com
+hq_country: US
+markets: [US]
+category: visuals-tours
+positioning: Interactive maps and virtual tours that show renters real-time pricing and availability across every listing channel.
+description: >
+  Engrain builds leasing and asset visualization software for multifamily, senior
+  living and build-to-rent operators. Its product line covers SightMap, an interactive
+  site and unit map embedded on leasing websites and kiosks; TouchTour, a virtual tour
+  builder for remote leasing; and Asset Intelligence, a data visualization layer for
+  portfolio decisions.
+real_estate_use: >
+  A leasing agent embeds SightMap on the community website so a prospect can click a
+  building, see which units are available and at what price, and start an application
+  without calling the office. During a remote search, the same prospect runs TouchTour
+  to walk a unit virtually before booking an in-person visit. An asset manager
+  separately uses Asset Intelligence to compare pricing and availability trends across
+  a multifamily portfolio.
+features:
+  - Interactive site and unit maps (SightMap)
+  - Virtual leasing tours (TouchTour)
+  - Real-time pricing and availability sync across channels
+  - Portfolio data visualization (Asset Intelligence)
+  - Leasing kiosk and website embeds
+use_cases:
+  - persona: property-manager
+    job: Let a prospect browse real-time unit availability and pricing on an interactive map before touring
+  - persona: investor-am
+    job: Compare pricing and availability trends across a multifamily portfolio
+personas: [property-manager, investor-am]
+segments: [multifamily, healthcare-senior, hospitality]
+company_sizes: [midmarket, enterprise]
+pricing:
+  model: quote
+  public_pricing: false
+product:
+  api: false
+  open_source: false
+  mobile: []
+  languages: [en]
+reviews: []
+sources:
+  - { url: https://www.engrain.com, note: site éditeur }
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-09-04"

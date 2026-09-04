@@ -1,0 +1,47 @@
+slug: vendorpm
+name: VendorPM
+editor: VendorPM
+website: https://vendorpm.com
+hq_country: CA
+markets: [US]
+category: facility-maintenance
+positioning: "A vendor lifecycle marketplace that credentials, sources and manages the contractors a property management firm hires."
+description: >
+  VendorPM is a vendor lifecycle management platform for property management firms,
+  combining a pre-vetted contractor marketplace, automated compliance and insurance
+  credentialing, e-bidding and procurement, and centralized contract management with
+  AI-assisted vendor communication and renewal tracking.
+real_estate_use: >
+  A property management firm sourcing a new landscaping or HVAC contractor posts the
+  job to VendorPM's marketplace instead of cold-calling vendors, gets pre-vetted bids
+  back, and lets the platform verify each contractor's insurance and compliance
+  documents before a work order is issued, so a manual credentialing spreadsheet no
+  longer has to catch expired coverage by hand.
+features:
+  - Pre-vetted vendor marketplace and e-bidding
+  - Automated insurance and compliance credentialing
+  - Contract management with renewal tracking
+  - Vendor onboarding and screening
+  - AI-assisted vendor communication
+  - ERP system integration
+use_cases:
+  - persona: property-manager
+    job: Source and credential maintenance contractors without a manual compliance spreadsheet
+  - persona: facility-manager
+    job: Run competitive e-bidding on a maintenance contract across multiple vendors
+personas: [property-manager, facility-manager]
+segments: [multifamily, office]
+company_sizes: [midmarket, enterprise]
+pricing:
+  model: quote
+  public_pricing: false
+product:
+  api: false
+  open_source: false
+  mobile: []
+  languages: [en]
+reviews: []
+sources:
+  - { url: https://vendorpm.com, note: site éditeur }
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-09-04"

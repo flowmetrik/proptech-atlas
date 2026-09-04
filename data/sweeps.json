@@ -68,5 +68,12 @@
     "found": 3,
     "kept": 1,
     "last_error": "Le site ne publie pas d annuaire de partenaires : seuls trois liens sortants exploitables sur toute la navigation (amanda.immo, clameur.fr, bienici.com). Faible rendement structurel, pas une erreur de balayage."
+  },
+  "mri-partner-connect": {
+    "last_swept_manual": "2026-09-04",
+    "manual_runs": 1,
+    "manual_found": 84,
+    "manual_kept": 8,
+    "last_manual_note": "page /partners/ lue en entier, 8 produits inedits verifies"
   }
 }
