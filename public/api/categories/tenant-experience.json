@@ -4,7 +4,7 @@
   "label_fr": "Expérience occupant & smart building",
   "summary_en": "Occupant apps, access, bookings, services and building IoT.",
   "summary_fr": "Applications occupants, accès, réservations, services et IoT du bâtiment.",
-  "count": 14,
+  "count": 18,
   "tools": [
     {
       "slug": "aareon",
@@ -108,6 +108,175 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "aptexx",
+      "name": "Aptexx",
+      "editor": "Aptexx",
+      "website": "https://aptexx.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "property-management",
+      "also_in": [
+        "tenant-experience"
+      ],
+      "positioning": "A mobile-first resident experience platform bundling rent payments, messaging and maintenance tracking for property managers.",
+      "description": "Aptexx is a resident experience platform for rental property managers, combining online rent payment processing (cards, mobile wallets, ACH, bank transfer, cash), resident messaging and emergency alerts, survey collection, and maintenance and package tracking behind a single admin dashboard.\n",
+      "real_estate_use": "A property manager collects rent online through Aptexx instead of chasing checks, and uses the same portal to send building-wide alerts, run resident satisfaction surveys, and track maintenance requests. Bilingual residents get the app's built-in English-Spanish translation rather than a manager translating messages by hand.\n",
+      "features": [
+        "Online rent payment processing (cards, ACH, mobile wallets, cash)",
+        "Resident messaging and emergency alerts",
+        "Maintenance request tracking",
+        "Package tracking",
+        "Admin dashboard with portfolio reporting",
+        "Built-in English-Spanish translation"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Collect rent online and reconcile payments from a single dashboard"
+        },
+        {
+          "persona": "tenant-occupier",
+          "job": "Pay rent, request maintenance and receive building alerts from a phone"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "tenant-occupier"
+      ],
+      "segments": [
+        "multifamily",
+        "residential"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en",
+          "es"
+        ]
+      },
+      "reviews": [],
+      "logo": {
+        "file": "logos/aptexx.png",
+        "source_url": "https://aptexx.com/wp-content/uploads/2021/12/cropped-favicon-180x180.png",
+        "fetched_on": "2026-09-04"
+      },
+      "signals": {
+        "security": "https://aptexx.com/security",
+        "privacy": "https://aptexx.com/privacy-policy-old-2019",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-04"
+      },
+      "sources": [
+        {
+          "url": "https://aptexx.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-04"
+    },
+    {
+      "slug": "building-engines",
+      "name": "Building Engines",
+      "editor": "Building Engines",
+      "website": "https://www.buildingengines.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "facility-maintenance",
+      "also_in": [
+        "tenant-experience"
+      ],
+      "positioning": "Prism, the building operations platform property teams at JLL, CBRE and Hines use to run work orders and tenant compliance.",
+      "description": "Building Engines, a JLL company, publishes Prism, a building operations platform for commercial real estate covering work orders, bid management, preventive maintenance, tenant insurance compliance, inspections and incident tracking, alongside a tenant-facing module for resource reservations and visitor access.\n",
+      "real_estate_use": "A building engineer dispatches and closes out work orders through Prism instead of a spreadsheet, and the same platform tracks whether every tenant's certificate of insurance is current before a compliance deadline. On the tenant side, an occupant books a shared conference room or registers a visitor through Prism's tenant experience module rather than emailing the front desk.\n",
+      "features": [
+        "Work order and bid management",
+        "Preventive maintenance scheduling",
+        "Tenant insurance compliance tracking",
+        "Inspections and incident tracking",
+        "Tenant resource reservations and visitor access",
+        "Mobile app"
+      ],
+      "use_cases": [
+        {
+          "persona": "facility-manager",
+          "job": "Dispatch and close out work orders and track preventive maintenance across a portfolio"
+        },
+        {
+          "persona": "corporate-re",
+          "job": "Track tenant certificate-of-insurance compliance ahead of deadlines"
+        }
+      ],
+      "personas": [
+        "facility-manager",
+        "corporate-re"
+      ],
+      "segments": [
+        "office",
+        "retail",
+        "industrial"
+      ],
+      "company_sizes": [
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "reviews": [],
+      "logo": {
+        "file": "logos/building-engines.png",
+        "source_url": "https://www.buildingengines.com/wp-content/uploads/2026/07/cropped-buildingengines-favicon-180x180.png",
+        "fetched_on": "2026-09-04"
+      },
+      "signals": {
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-04"
+      },
+      "sources": [
+        {
+          "url": "https://www.buildingengines.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-04"
     },
     {
       "slug": "butterflymx",
@@ -334,6 +503,86 @@
       "updated": "2026-08-29"
     },
     {
+      "slug": "credhub",
+      "name": "CredHub",
+      "editor": "CredHub",
+      "website": "https://credhub.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "tenant-experience",
+      "positioning": "Reports resident rent payments to the major credit bureaus every month, on-time and late alike.",
+      "description": "CredHub is a rent payment credit reporting service for property managers and landlords. It reports both on-time and missed rent payments to Equifax, Experian, TransUnion and Innovis each month, integrates with property management systems, and bundles identity protection for residents through a partnership with Allstate.\n",
+      "real_estate_use": "A property manager with at least 50 units offers CredHub as a resident benefit so on-time rent starts building credit automatically, without either party filing anything each month. The manager also gets a delinquency lever: because late payments are reported too, residents have a direct credit incentive to pay on time, which CredHub's own figures link to roughly half the rent delinquency of comparable properties.\n",
+      "features": [
+        "Monthly rent payment reporting to four credit bureaus",
+        "Reports both on-time and late/missed payments",
+        "Property management system integrations",
+        "Dedicated U.S.-based account management",
+        "Bundled resident identity protection (Allstate)"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Offer rent-reporting as a resident benefit that also discourages late payment"
+        },
+        {
+          "persona": "tenant-occupier",
+          "job": "Build credit history automatically by paying rent on time"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "tenant-occupier"
+      ],
+      "segments": [
+        "multifamily",
+        "residential"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "reviews": [],
+      "logo": {
+        "file": "logos/credhub.png",
+        "source_url": "https://credhub.com/wp-content/uploads/2023/02/cropped-2-3-180x180.png",
+        "fetched_on": "2026-09-04"
+      },
+      "signals": {
+        "privacy": "https://credhub.com/privacy-policy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-04"
+      },
+      "sources": [
+        {
+          "url": "https://credhub.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-04"
+    },
+    {
       "slug": "equiem",
       "name": "Equiem",
       "editor": "Equiem",
@@ -525,6 +774,89 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "esusu",
+      "name": "Esusu",
+      "editor": "Esusu",
+      "website": "https://www.esusurent.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "tenant-experience",
+      "also_in": [
+        "tenant-screening"
+      ],
+      "positioning": "A rent-reporting and financial wellness platform that turns on-time rent into credit history for residents.",
+      "description": "Esusu is a fintech platform for real estate operators built around rent reporting: it reports payments to Experian, Equifax and TransUnion so residents build credit, and layers on flexible payment options, income and identity fraud verification, financial coaching and portfolio analytics for property owners.\n",
+      "real_estate_use": "A multifamily operator rolls out Esusu across a portfolio so residents' on-time rent is reported to the three bureaus without extra paperwork, while the operator's screening team uses the same platform's identity and income verification to catch fraudulent applications before move-in. During renewal season, the operator's analytics dashboard shows which properties are seeing the credit-building benefit move renewal rates.\n",
+      "features": [
+        "Rent reporting to three major credit bureaus",
+        "Identity, income and SSN fraud verification",
+        "Flexible rent payment options (Affirm, split pay)",
+        "Financial coaching and marketplace access",
+        "Portfolio analytics dashboard"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Report resident rent payments to credit bureaus across a portfolio"
+        },
+        {
+          "persona": "tenant-occupier",
+          "job": "Build credit history and access flexible rent payment options"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "tenant-occupier"
+      ],
+      "segments": [
+        "multifamily",
+        "residential"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "usage",
+        "public_pricing": false
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "reviews": [],
+      "logo": {
+        "file": "logos/esusu.png",
+        "source_url": "https://cdn.prod.website-files.com/68e4cb3f80596b64cbfc5505/6908970e96bc63ebf19880ba_Esusu_Webclip.svg",
+        "fetched_on": "2026-09-04"
+      },
+      "signals": {
+        "privacy": "https://www.esusurent.com/privacy-policy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-04"
+      },
+      "sources": [
+        {
+          "url": "https://www.esusurent.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-04"
     },
     {
       "slug": "frontsteps",

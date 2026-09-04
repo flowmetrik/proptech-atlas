@@ -4,7 +4,7 @@
   "label_fr": "Analyse d'investissement & underwriting",
   "summary_en": "Model a deal, run scenarios, produce an investment memo.",
   "summary_fr": "Modéliser une opération, tester des scénarios, produire un mémo d'investissement.",
-  "count": 10,
+  "count": 11,
   "tools": [
     {
       "slug": "argus-enterprise",
@@ -620,6 +620,98 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "lycaon-data",
+      "name": "Lycaon Data",
+      "editor": "Lycaon",
+      "website": "https://lycaon-data.com/en",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "market-data",
+      "also_in": [
+        "investment-underwriting"
+      ],
+      "positioning": "Custom econometric reports and a SaaS dashboard that price a property's value drivers and market trajectory for real estate investors.",
+      "description": "Lycaon Data produces econometric analysis of real estate markets: custom reports built on deduplicated listing and transaction databases, modelling how individual property attributes affect value, and quantifying supply-demand gaps by quarter. It also runs a SaaS dashboard version of the same modelling.\n",
+      "real_estate_use": "An investment fund or developer evaluating a site asks Lycaon Data for a report on how specific attributes (surface, floor, exposure, local supply-demand balance) move price in that submarket, rather than relying on a generalist comparables tool. A bank or agency network uses the recurring dashboard to track the same supply-demand gap over time instead of commissioning a report each quarter.\n",
+      "features": [
+        "Custom econometric valuation reports",
+        "Deduplicated listing and transaction databases",
+        "Property attribute impact modelling",
+        "Quarterly supply-demand gap analysis",
+        "SaaS dashboard version of the models"
+      ],
+      "use_cases": [
+        {
+          "persona": "investor-am",
+          "job": "Get a data-backed read on which property attributes drive value in a specific submarket before underwriting a deal"
+        },
+        {
+          "persona": "developer-builder",
+          "job": "Quantify the local supply-demand gap for a planned development"
+        }
+      ],
+      "personas": [
+        "investor-am",
+        "developer-builder"
+      ],
+      "segments": [
+        "residential",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en",
+          "fr",
+          "pt"
+        ]
+      },
+      "reviews": [],
+      "logo": {
+        "file": "logos/lycaon-data.png",
+        "source_url": "https://lycaon-data.com/favicon.ico?favicon.39t5i50ko5z9-.ico",
+        "fetched_on": "2026-09-04"
+      },
+      "signals": {
+        "pricing": "https://www.lycaon-data.com/fr/tarifs",
+        "privacy": "https://www.lycaon-data.com/fr/politique-de-confidentialite",
+        "site_languages": [
+          "en",
+          "fr",
+          "pt"
+        ],
+        "checked_on": "2026-09-04"
+      },
+      "sources": [
+        {
+          "url": "https://lycaon-data.com/en",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://paris.rent.immo/en",
+          "note": "exposant RENT Paris"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-04"
     },
     {
       "slug": "northspyre",

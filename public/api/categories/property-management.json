@@ -4,7 +4,7 @@
   "label_fr": "Gestion locative résidentielle",
   "summary_en": "Leases, rent, owners, tenants, maintenance and trust accounting.",
   "summary_fr": "Baux, quittances, propriétaires, locataires, travaux et comptabilité mandant.",
-  "count": 46,
+  "count": 48,
   "tools": [
     {
       "slug": "aareon",
@@ -321,6 +321,92 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "aptexx",
+      "name": "Aptexx",
+      "editor": "Aptexx",
+      "website": "https://aptexx.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "property-management",
+      "also_in": [
+        "tenant-experience"
+      ],
+      "positioning": "A mobile-first resident experience platform bundling rent payments, messaging and maintenance tracking for property managers.",
+      "description": "Aptexx is a resident experience platform for rental property managers, combining online rent payment processing (cards, mobile wallets, ACH, bank transfer, cash), resident messaging and emergency alerts, survey collection, and maintenance and package tracking behind a single admin dashboard.\n",
+      "real_estate_use": "A property manager collects rent online through Aptexx instead of chasing checks, and uses the same portal to send building-wide alerts, run resident satisfaction surveys, and track maintenance requests. Bilingual residents get the app's built-in English-Spanish translation rather than a manager translating messages by hand.\n",
+      "features": [
+        "Online rent payment processing (cards, ACH, mobile wallets, cash)",
+        "Resident messaging and emergency alerts",
+        "Maintenance request tracking",
+        "Package tracking",
+        "Admin dashboard with portfolio reporting",
+        "Built-in English-Spanish translation"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Collect rent online and reconcile payments from a single dashboard"
+        },
+        {
+          "persona": "tenant-occupier",
+          "job": "Pay rent, request maintenance and receive building alerts from a phone"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "tenant-occupier"
+      ],
+      "segments": [
+        "multifamily",
+        "residential"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en",
+          "es"
+        ]
+      },
+      "reviews": [],
+      "logo": {
+        "file": "logos/aptexx.png",
+        "source_url": "https://aptexx.com/wp-content/uploads/2021/12/cropped-favicon-180x180.png",
+        "fetched_on": "2026-09-04"
+      },
+      "signals": {
+        "security": "https://aptexx.com/security",
+        "privacy": "https://aptexx.com/privacy-policy-old-2019",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-04"
+      },
+      "sources": [
+        {
+          "url": "https://aptexx.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-04"
     },
     {
       "slug": "avail",
@@ -721,6 +807,82 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "clickpay",
+      "name": "ClickPay",
+      "editor": "ClickPay",
+      "website": "https://www.clickpay.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "back-office-accounting",
+      "also_in": [
+        "property-management",
+        "syndic-copro"
+      ],
+      "positioning": "A receivables platform that consolidates every way a resident or owner pays rent into one automated ledger.",
+      "description": "ClickPay is a payment processing and receivables platform for property and HOA managers. It combines online and mobile payment portals, lockbox and check scanning, walk-in cash payment locations, e-billing, and accounting-system integration to consolidate electronic payments, checks and money orders into a single reconciled feed.\n",
+      "real_estate_use": "A property or association manager stops manually keying in checks and money orders by routing every payment channel (online portal, mailed check, walk-in cash) through ClickPay, which reconciles them against the accounting system automatically. A resident who prefers to pay in person uses one of the walk-in cash network locations instead of mailing a check.\n",
+      "features": [
+        "Online and mobile payment portal (ACH, credit, debit)",
+        "Lockbox and check scanning",
+        "Walk-in cash payment network",
+        "E-billing and print bill delivery",
+        "Accounting software integration",
+        "Transaction and bank deposit reporting"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Consolidate checks, cash and online payments into one reconciled feed"
+        },
+        {
+          "persona": "syndic-manager",
+          "job": "Collect HOA dues through a single payment platform instead of chasing checks"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "syndic-manager"
+      ],
+      "segments": [
+        "multifamily",
+        "residential"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "reviews": [],
+      "signals": {
+        "checked_on": "2026-09-04"
+      },
+      "sources": [
+        {
+          "url": "https://www.clickpay.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-04"
     },
     {
       "slug": "crypto-septeo",

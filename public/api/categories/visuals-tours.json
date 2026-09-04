@@ -4,7 +4,7 @@
   "label_fr": "Visuels, visite 3D & home staging",
   "summary_en": "Photography, floor plans, virtual tours and virtual staging.",
   "summary_fr": "Photo, plans, visites virtuelles et home staging virtuel.",
-  "count": 9,
+  "count": 11,
   "tools": [
     {
       "slug": "boxbrownie",
@@ -412,6 +412,170 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "danim",
+      "name": "Danim",
+      "editor": "Danim",
+      "website": "https://www.danim.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "visuals-tours",
+      "also_in": [
+        "agent-marketing"
+      ],
+      "positioning": "Template-based video and AI photo editing so a French real estate agent can produce listing marketing content without a videographer.",
+      "description": "Danim is a French SaaS platform that turns a listing's photos into marketing video using templates, and edits the photos themselves with AI tools (virtual staging, object removal, wall or floor renovation, weather correction). It also schedules and publishes the resulting content to social media with automatically generated captions.\n",
+      "real_estate_use": "An independent agent or mandataire drops a listing's photos into Danim, picks one of the ready-made templates, and gets a branded video ready to post within minutes instead of booking a videographer. The same agent uses the AI photo tools to stage an empty room or fix a dated wall before the video is made, then schedules the post to social media from the same platform.\n",
+      "features": [
+        "Template-based real estate video generation",
+        "AI virtual staging and object removal",
+        "AI wall and floor renovation preview",
+        "Multi-format social media publishing with AI captions",
+        "Publication calendar",
+        "Brand-compliant templates for agency networks"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Turn listing photos into a branded marketing video without hiring a videographer"
+        },
+        {
+          "persona": "brokerage",
+          "job": "Keep every agent's listing videos on-brand across a network"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://www.danim.com"
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "reviews": [],
+      "logo": {
+        "file": "logos/danim.png",
+        "source_url": "https://danim.com/apple-touch-icon.png",
+        "fetched_on": "2026-09-04"
+      },
+      "signals": {
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-09-04"
+      },
+      "sources": [
+        {
+          "url": "https://www.danim.com",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://paris.rent.immo/en",
+          "note": "exposant RENT Paris"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-04"
+    },
+    {
+      "slug": "engrain",
+      "name": "Engrain",
+      "editor": "Engrain",
+      "website": "https://www.engrain.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "visuals-tours",
+      "positioning": "Interactive maps and virtual tours that show renters real-time pricing and availability across every listing channel.",
+      "description": "Engrain builds leasing and asset visualization software for multifamily, senior living and build-to-rent operators. Its product line covers SightMap, an interactive site and unit map embedded on leasing websites and kiosks; TouchTour, a virtual tour builder for remote leasing; and Asset Intelligence, a data visualization layer for portfolio decisions.\n",
+      "real_estate_use": "A leasing agent embeds SightMap on the community website so a prospect can click a building, see which units are available and at what price, and start an application without calling the office. During a remote search, the same prospect runs TouchTour to walk a unit virtually before booking an in-person visit. An asset manager separately uses Asset Intelligence to compare pricing and availability trends across a multifamily portfolio.\n",
+      "features": [
+        "Interactive site and unit maps (SightMap)",
+        "Virtual leasing tours (TouchTour)",
+        "Real-time pricing and availability sync across channels",
+        "Portfolio data visualization (Asset Intelligence)",
+        "Leasing kiosk and website embeds"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Let a prospect browse real-time unit availability and pricing on an interactive map before touring"
+        },
+        {
+          "persona": "investor-am",
+          "job": "Compare pricing and availability trends across a multifamily portfolio"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "investor-am"
+      ],
+      "segments": [
+        "multifamily",
+        "healthcare-senior",
+        "hospitality"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "reviews": [],
+      "signals": {
+        "privacy": "https://www.engrain.com/privacy-policy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-04"
+      },
+      "sources": [
+        {
+          "url": "https://www.engrain.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-04"
     },
     {
       "slug": "kuula",
