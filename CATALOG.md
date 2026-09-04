@@ -2,7 +2,7 @@
 
 <!-- Généré par `npm run data:emit`. Ne pas éditer à la main : éditer `data/tools/*.yaml`. -->
 
-213 produits · 125 🇺🇸 · 118 🇫🇷 · mis à jour le 2026-09-03
+223 produits · 133 🇺🇸 · 120 🇫🇷 · mis à jour le 2026-09-04
 
 Version navigable : https://flowmetrik.github.io/proptech-atlas/explore
 
@@ -75,6 +75,7 @@ _Comparables, propriétaires, transactions, loyers, fréquentation et les jeux d
 | [DVF — Demandes de valeurs foncières](data/tools/dvf.yaml) | DGFiP / Etalab | 🇫🇷 | It is the closest thing France has to public sale comparables. An agent checks what the flat two floors down actually sold for, an investor tests a seller's price claim, an appraiser… |
 | [Fluximmo](data/tools/fluximmo.yaml) | Fluximmo | 🇫🇷 | It is infrastructure rather than an end-user product: a pige tool, a market study or an internal prospecting system uses the feed instead of scraping portals themselves. The… |
 | [Kel Foncier](data/tools/kelfoncier.yaml) | Kel Foncier | 🇫🇷 | A French development starts with a question the PLU answers slowly: on this parcel, what height, what footprint, what constraints. Kel Foncier makes that searchable in reverse — find… |
+| [Lycaon Data](data/tools/lycaon-data.yaml) | Lycaon | 🇫🇷 | An investment fund or developer evaluating a site asks Lycaon Data for a report on how specific attributes (surface, floor, exposure, local supply-demand balance) move price in that… |
 | [Placer.ai](data/tools/placer-ai.yaml) | Placer Labs | 🇺🇸 🇫🇷 | In retail leasing it replaces the argument from intuition. A landlord shows a prospective tenant that the centre draws a measured number of visits from a trade area matching the brand's… |
 | [Reonomy](data/tools/reonomy.yaml) | Altus Group | 🇺🇸 | Its use is prospecting rather than underwriting. A broker looking for listings filters a county for owners who have held an asset more than ten years with a maturing loan, then pulls a… |
 | [Terralyse](data/tools/terralyse.yaml) | Terralyse | 🇫🇷 | The French state publishes almost everything about a plot of land, and publishes it in six different places with six different keys: DVF for prices, the cadastre for parcels, the PLU for… |
@@ -125,6 +126,7 @@ _Baux, quittances, propriétaires, locataires, travaux et comptabilité mandant.
 |---|---|---|---|
 | [Aareon](data/tools/aareon.yaml) | Aareon | 🇫🇷 | French social housing operates under rules no commercial system covers: regulated rents, the allocation commission, the surface and resource ceilings, the supplément de loyer. Aareon's… |
 | [AppFolio Property Manager](data/tools/appfolio.yaml) | AppFolio | 🇺🇸 | A management company running a few thousand units uses it as the system of record for the whole operation. A vacancy is syndicated to the rental portals, an applicant is screened and… |
+| [Aptexx](data/tools/aptexx.yaml) | Aptexx | 🇺🇸 | A property manager collects rent online through Aptexx instead of chasing checks, and uses the same portal to send building-wide alerts, run resident satisfaction surveys, and track… |
 | [Avail](data/tools/avail.yaml) | Realtor.com (Move, Inc.) | 🇺🇸 | The distribution matters: a unit listed in Avail appears on Realtor.com and partner sites, so a landlord with two properties reaches the same audience as a management company. Rent… |
 | [BailFacile](data/tools/bailfacile.yaml) | BailFacile | 🇫🇷 | A French landlord who refuses a management mandate inherits the mandate's obligations anyway: a lease that satisfies the ALUR law, an entry and exit condition report that will hold up if… |
 | [Buildium](data/tools/buildium.yaml) | RealPage | 🇺🇸 | It sits at the tier below AppFolio and Entrata: a company managing a few hundred doors, often mixed between rentals and homeowner associations. The HOA module handles association dues… |
@@ -173,6 +175,7 @@ _Administration institutionnelle des baux, actifs et portefeuilles._
 
 | Produit | Éditeur | Marchés | Usage en immobilier |
 |---|---|---|---|
+| [Dottid](data/tools/dottid.yaml) | Dottid | 🇺🇸 | An asset management team replaces spreadsheets and email threads with Dottid to track every lease from prospect to signature, see a stacking plan of who occupies what floor, and pull… |
 | [Leasecake](data/tools/leasecake.yaml) | Leasecake | 🇺🇸 | The buyer here is the tenant, not the landlord: a restaurant group, a retail chain, a franchise operator with fifty to several hundred locations whose leases live in a shared drive and… |
 | [MRI Software](data/tools/mri-software.yaml) | MRI Software | 🇺🇸 🇫🇷 | A European or transatlantic owner often cannot standardise on one vendor — local accounting, local leasing practice and existing systems all resist it. MRI is chosen when the lease and… |
 | [Prophia](data/tools/prophia.yaml) | Prophia | 🇺🇸 | The situation is an acquisition or a portfolio handover where several hundred leases arrive as PDFs and the rent roll has to be trusted before an offer is made. Doing that by hand takes… |
@@ -246,6 +249,7 @@ _Interventions, prestataires, équipements et maintenance préventive._
 | Produit | Éditeur | Marchés | Usage en immobilier |
 |---|---|---|---|
 | [BOB Desk](data/tools/bob-desk.yaml) | BOB Desk | 🇫🇷 | A chain with two hundred outlets carries a compliance calendar per site — fire safety, electrical inspection, extraction, refrigeration — and no realistic way to track it in a… |
+| [Building Engines](data/tools/building-engines.yaml) | Building Engines | 🇺🇸 | A building engineer dispatches and closes out work orders through Prism instead of a spreadsheet, and the same platform tracks whether every tenant's certificate of insurance is current… |
 | [Corrigo](data/tools/corrigo.yaml) | JLL Technologies | 🇺🇸 🇫🇷 | Its distinguishing feature in daily use is vendor scoring: response and completion performance is measured per provider, so dispatch can route to the contractor who actually shows up… |
 | [HappyCo](data/tools/happyco.yaml) | HappyCo | 🇺🇸 | A regional manager responsible for several thousand apartments cannot personally see the condition of any of them. Their onsite technicians run every inspection — move-in, move-out, life… |
 | [Limble CMMS](data/tools/limble.yaml) | Limble | 🇺🇸 | Most CMMS failures are adoption failures, not feature gaps. Limble competes on the implementation: QR codes on equipment so a technician scans rather than searches, a request portal that… |
@@ -255,6 +259,7 @@ _Interventions, prestataires, équipements et maintenance préventive._
 | [ServiceChannel](data/tools/servicechannel.yaml) | Fortive | 🇺🇸 🇫🇷 | A retailer with four hundred stores has four hundred sets of local contractors and no consistent way to know whether a bill is fair. ServiceChannel standardises the workflow: a store… |
 | [Twimm](data/tools/twimm.yaml) | Twimm | 🇫🇷 | In France the maintenance of a building is usually outsourced under a contract with defined preventive obligations. Twimm holds both sides: the contractual preventive plan and the… |
 | [UpKeep](data/tools/upkeep.yaml) | UpKeep | 🇺🇸 | Maintenance data quality fails at the point of capture — a technician who has to return to a desktop to close a ticket will close five at once from memory on Friday. Building it for the… |
+| [VendorPM](data/tools/vendorpm.yaml) | VendorPM | 🇺🇸 | A property management firm sourcing a new landscaping or HVAC contractor posts the job to VendorPM's marketplace instead of cold-calling vendors, gets pre-vetted bids back, and lets the… |
 | [Yuman](data/tools/yuman.yaml) | Yuman | 🇫🇷 | Its buyers are maintenance companies and technical services teams working across many sites, where the daily constraint is routing technicians efficiently and capturing what they did.… |
 
 ## Énergie, ESG & performance du bâtiment · Energy, ESG & building performance
@@ -277,7 +282,9 @@ _Applications occupants, accès, réservations, services et IoT du bâtiment._
 | Produit | Éditeur | Marchés | Usage en immobilier |
 |---|---|---|---|
 | [ButterflyMX](data/tools/butterflymx.yaml) | ButterflyMX, Inc. | 🇺🇸 | A property manager running a multifamily building without a doorman needs deliveries, contractors and guests to get in without anyone driving to the site with a key. They install… |
+| [CredHub](data/tools/credhub.yaml) | CredHub | 🇺🇸 | A property manager with at least 50 units offers CredHub as a resident benefit so on-time rent starts building credit automatically, without either party filing anything each month. The… |
 | [Equiem](data/tools/equiem.yaml) | Equiem | 🇺🇸 🇫🇷 | Most tenant apps fail from emptiness: nobody at the landlord has time to post anything, so occupants stop opening it. Equiem sells the editorial capacity alongside the platform, which is… |
+| [Esusu](data/tools/esusu.yaml) | Esusu | 🇺🇸 | A multifamily operator rolls out Esusu across a portfolio so residents' on-time rent is reported to the three bureaus without extra paperwork, while the operator's screening team uses… |
 | [HqO](data/tools/hqo.yaml) | HqO | 🇺🇸 🇫🇷 | Since hybrid work, an office landlord's asset value depends on whether tenants renew, and renewal depends on whether employees turn up. HqO gives the landlord a direct channel to… |
 | [SmartRent](data/tools/smartrent.yaml) | SmartRent | 🇺🇸 | Three operational cases drive the purchase. Self-guided tours let a prospect visit a vacant unit without staff. Smart locks remove the key handover and the lock change at turnover. Leak… |
 | [SpinalCom](data/tools/spinalcom.yaml) | SpinalCom | 🇫🇷 | A smart building project usually stalls on the same wall: every subsystem speaks a different protocol and belongs to a different contractor. Placing an operating system between the… |
@@ -326,6 +333,8 @@ _Photo, plans, visites virtuelles et home staging virtuel._
 | [BoxBrownie](data/tools/boxbrownie.yaml) | BoxBrownie.com | 🇺🇸 🇫🇷 | An empty apartment photographs badly and a cluttered one photographs worse. Virtual staging costs a fraction of physical staging and can be ordered the evening before a listing goes… |
 | [CloudPano](data/tools/cloudpano.yaml) | CloudPano | 🇺🇸 | A real estate agent, broker or a photographer serving them uploads 360° photos of a listing, arranges them into a walkable tour with hotspots, and embeds the finished tour on the listing… |
 | [CubiCasa](data/tools/cubicasa.yaml) | CubiCasa | 🇺🇸 🇫🇷 | Floor plans measurably improve listing engagement but traditionally required a professional visit. Because CubiCasa needs only a phone, an agent produces one during the listing… |
+| [Danim](data/tools/danim.yaml) | Danim | 🇫🇷 | An independent agent or mandataire drops a listing's photos into Danim, picks one of the ready-made templates, and gets a branded video ready to post within minutes instead of booking a… |
+| [Engrain](data/tools/engrain.yaml) | Engrain | 🇺🇸 | A leasing agent embeds SightMap on the community website so a prospect can click a building, see which units are available and at what price, and start an application without calling the… |
 | [Kuula](data/tools/kuula.yaml) | Kuula | 🇺🇸 | An agent or a photographer serving agents uploads 360° property photos, builds a connected tour with hotspots and floor plans, and shares it in a chromeless player with no visible… |
 | [Matterport](data/tools/matterport.yaml) | Matterport (CoStar Group) | 🇺🇸 🇫🇷 | In marketing, a scan lets a remote buyer or tenant walk the space before travelling. In operations it does something less obvious and often more valuable: it is a dated, measurable… |
 | [Nodalview](data/tools/nodalview.yaml) | Nodalview | 🇫🇷 | Hiring a photographer for every mandate is neither affordable nor fast enough in the mid-market, and phone photographs taken by an agent are usually poor. Nodalview's guided capture and… |
@@ -371,6 +380,7 @@ _Comptabilité mandant, reddition de comptes, commissions et back-office d'agenc
 |---|---|---|---|
 | [Baselane](data/tools/baselane.yaml) | Baselane | 🇺🇸 | Commingling funds across properties is the classic small-landlord accounting failure, and the usual fix — a bank account per property — is administratively painful. Virtual accounts give… |
 | [BoldTrail BackOffice (Brokermint)](data/tools/brokermint.yaml) | Inside Real Estate | 🇺🇸 | The problem it solves is that commission structures are individually negotiated. A brokerage encodes each agent's split, cap and fee schedule once, and every closing then produces a… |
+| [ClickPay](data/tools/clickpay.yaml) | ClickPay | 🇺🇸 | A property or association manager stops manually keying in checks and money orders by routing every payment channel (online portal, mailed check, walk-in cash) through ClickPay, which… |
 | [Lone Wolf Back Office](data/tools/lone-wolf-back-office.yaml) | Lone Wolf Technologies | 🇺🇸 | Earnest money held on behalf of a client is not brokerage revenue, and a state regulator will test that distinction. Back Office keeps trust accounts reconciled and segregated, ties… |
 | [Ownily](data/tools/ownily.yaml) | Ownily | 🇫🇷 | An SCI subject to corporation tax must keep double-entry accounts, amortise the building, and file a liasse fiscale — obligations most owners discover after buying. Ownily targets that… |
 | [Stessa](data/tools/stessa.yaml) | Roofstock | 🇺🇸 | The individual investor's real problem is Schedule E: proving, a year later, which transaction belonged to which property. Stessa auto-categorises bank activity by property, keeps… |

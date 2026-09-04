@@ -1,0 +1,55 @@
+slug: building-engines
+name: Building Engines
+editor: Building Engines
+website: https://www.buildingengines.com
+hq_country: US
+markets: [US]
+category: facility-maintenance
+also_in: [tenant-experience]
+positioning: "Prism, the building operations platform property teams at JLL, CBRE and Hines use to run work orders and tenant compliance."
+description: >
+  Building Engines, a JLL company, publishes Prism, a building operations platform for
+  commercial real estate covering work orders, bid management, preventive maintenance,
+  tenant insurance compliance, inspections and incident tracking, alongside a
+  tenant-facing module for resource reservations and visitor access.
+real_estate_use: >
+  A building engineer dispatches and closes out work orders through Prism instead of a
+  spreadsheet, and the same platform tracks whether every tenant's certificate of
+  insurance is current before a compliance deadline. On the tenant side, an occupant
+  books a shared conference room or registers a visitor through Prism's tenant
+  experience module rather than emailing the front desk.
+features:
+  - Work order and bid management
+  - Preventive maintenance scheduling
+  - Tenant insurance compliance tracking
+  - Inspections and incident tracking
+  - Tenant resource reservations and visitor access
+  - Mobile app
+use_cases:
+  - persona: facility-manager
+    job: Dispatch and close out work orders and track preventive maintenance across a portfolio
+  - persona: corporate-re
+    job: Track tenant certificate-of-insurance compliance ahead of deadlines
+personas: [facility-manager, corporate-re]
+segments: [office, retail, industrial]
+company_sizes: [enterprise]
+pricing:
+  model: quote
+  public_pricing: false
+product:
+  api: false
+  open_source: false
+  mobile: []
+  languages: [en]
+reviews: []
+logo:
+  file: logos/building-engines.png
+  source_url: https://www.buildingengines.com/wp-content/uploads/2026/07/cropped-buildingengines-favicon-180x180.png
+  fetched_on: "2026-09-04"
+signals:
+  site_languages: [en]
+  checked_on: "2026-09-04"
+sources:
+  - { url: https://www.buildingengines.com, note: site éditeur }
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-09-04"

@@ -4,7 +4,7 @@
   "label_fr": "Facility management & maintenance",
   "summary_en": "Work orders, contractors, assets and preventive maintenance.",
   "summary_fr": "Interventions, prestataires, équipements et maintenance préventive.",
-  "count": 22,
+  "count": 24,
   "tools": [
     {
       "slug": "advizeo",
@@ -327,6 +327,89 @@
         "checked_by": null
       },
       "updated": "2026-08-27"
+    },
+    {
+      "slug": "building-engines",
+      "name": "Building Engines",
+      "editor": "Building Engines",
+      "website": "https://www.buildingengines.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "facility-maintenance",
+      "also_in": [
+        "tenant-experience"
+      ],
+      "positioning": "Prism, the building operations platform property teams at JLL, CBRE and Hines use to run work orders and tenant compliance.",
+      "description": "Building Engines, a JLL company, publishes Prism, a building operations platform for commercial real estate covering work orders, bid management, preventive maintenance, tenant insurance compliance, inspections and incident tracking, alongside a tenant-facing module for resource reservations and visitor access.\n",
+      "real_estate_use": "A building engineer dispatches and closes out work orders through Prism instead of a spreadsheet, and the same platform tracks whether every tenant's certificate of insurance is current before a compliance deadline. On the tenant side, an occupant books a shared conference room or registers a visitor through Prism's tenant experience module rather than emailing the front desk.\n",
+      "features": [
+        "Work order and bid management",
+        "Preventive maintenance scheduling",
+        "Tenant insurance compliance tracking",
+        "Inspections and incident tracking",
+        "Tenant resource reservations and visitor access",
+        "Mobile app"
+      ],
+      "use_cases": [
+        {
+          "persona": "facility-manager",
+          "job": "Dispatch and close out work orders and track preventive maintenance across a portfolio"
+        },
+        {
+          "persona": "corporate-re",
+          "job": "Track tenant certificate-of-insurance compliance ahead of deadlines"
+        }
+      ],
+      "personas": [
+        "facility-manager",
+        "corporate-re"
+      ],
+      "segments": [
+        "office",
+        "retail",
+        "industrial"
+      ],
+      "company_sizes": [
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "reviews": [],
+      "logo": {
+        "file": "logos/building-engines.png",
+        "source_url": "https://www.buildingengines.com/wp-content/uploads/2026/07/cropped-buildingengines-favicon-180x180.png",
+        "fetched_on": "2026-09-04"
+      },
+      "signals": {
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-04"
+      },
+      "sources": [
+        {
+          "url": "https://www.buildingengines.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-04"
     },
     {
       "slug": "condo-control",
@@ -2158,6 +2241,82 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "vendorpm",
+      "name": "VendorPM",
+      "editor": "VendorPM",
+      "website": "https://vendorpm.com",
+      "hq_country": "CA",
+      "markets": [
+        "US"
+      ],
+      "category": "facility-maintenance",
+      "positioning": "A vendor lifecycle marketplace that credentials, sources and manages the contractors a property management firm hires.",
+      "description": "VendorPM is a vendor lifecycle management platform for property management firms, combining a pre-vetted contractor marketplace, automated compliance and insurance credentialing, e-bidding and procurement, and centralized contract management with AI-assisted vendor communication and renewal tracking.\n",
+      "real_estate_use": "A property management firm sourcing a new landscaping or HVAC contractor posts the job to VendorPM's marketplace instead of cold-calling vendors, gets pre-vetted bids back, and lets the platform verify each contractor's insurance and compliance documents before a work order is issued, so a manual credentialing spreadsheet no longer has to catch expired coverage by hand.\n",
+      "features": [
+        "Pre-vetted vendor marketplace and e-bidding",
+        "Automated insurance and compliance credentialing",
+        "Contract management with renewal tracking",
+        "Vendor onboarding and screening",
+        "AI-assisted vendor communication",
+        "ERP system integration"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Source and credential maintenance contractors without a manual compliance spreadsheet"
+        },
+        {
+          "persona": "facility-manager",
+          "job": "Run competitive e-bidding on a maintenance contract across multiple vendors"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "facility-manager"
+      ],
+      "segments": [
+        "multifamily",
+        "office"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "reviews": [],
+      "signals": {
+        "privacy": "https://vendorpm.com/privacy-policy-ca",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-04"
+      },
+      "sources": [
+        {
+          "url": "https://vendorpm.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-04"
     },
     {
       "slug": "wattsense",

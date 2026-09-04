@@ -4,22 +4,22 @@
   "license": "CC-BY-4.0 (data) / MIT (code)",
   "homepage": "https://flowmetrik.github.io/proptech-atlas",
   "repository": "https://github.com/flowmetrik/proptech-atlas",
-  "generated": "2026-09-03",
+  "generated": "2026-09-04",
   "counts": {
-    "tools": 213,
-    "US": 125,
-    "FR": 118,
+    "tools": 223,
+    "US": 133,
+    "FR": 120,
     "categories": 24,
-    "editors": 196,
+    "editors": 206,
     "verified": 0,
     "reviews": 0,
-    "logos": 209,
+    "logos": 216,
     "signals": {
-      "probed": 199,
-      "public_pricing": 56,
+      "probed": 209,
+      "public_pricing": 57,
       "api_docs": 17,
-      "security_page": 28,
-      "privacy_page": 147,
+      "security_page": 30,
+      "privacy_page": 153,
       "status_page": 59
     }
   },
@@ -68,6 +68,11 @@
       "id": "tool:appfolio",
       "type": "tool",
       "label": "AppFolio Property Manager"
+    },
+    {
+      "id": "tool:aptexx",
+      "type": "tool",
+      "label": "Aptexx"
     },
     {
       "id": "tool:archie",
@@ -160,6 +165,11 @@
       "label": "Buildertrend"
     },
     {
+      "id": "tool:building-engines",
+      "type": "tool",
+      "label": "Building Engines"
+    },
+    {
       "id": "tool:buildium",
       "type": "tool",
       "label": "Buildium"
@@ -205,6 +215,11 @@
       "label": "Clear Capital"
     },
     {
+      "id": "tool:clickpay",
+      "type": "tool",
+      "label": "ClickPay"
+    },
+    {
       "id": "tool:cloudcma",
       "type": "tool",
       "label": "Cloud CMA"
@@ -245,6 +260,11 @@
       "label": "CoworkSaaS"
     },
     {
+      "id": "tool:credhub",
+      "type": "tool",
+      "label": "CredHub"
+    },
+    {
       "id": "tool:crediteo",
       "type": "tool",
       "label": "Créditéo"
@@ -263,6 +283,11 @@
       "id": "tool:cubicasa",
       "type": "tool",
       "label": "CubiCasa"
+    },
+    {
+      "id": "tool:danim",
+      "type": "tool",
+      "label": "Danim"
     },
     {
       "id": "tool:dealpath",
@@ -305,6 +330,11 @@
       "label": "dotloop"
     },
     {
+      "id": "tool:dottid",
+      "type": "tool",
+      "label": "Dottid"
+    },
+    {
       "id": "tool:dvf",
       "type": "tool",
       "label": "DVF — Demandes de valeurs foncières"
@@ -330,6 +360,11 @@
       "label": "ENERGY STAR Portfolio Manager"
     },
     {
+      "id": "tool:engrain",
+      "type": "tool",
+      "label": "Engrain"
+    },
+    {
       "id": "tool:entrata",
       "type": "tool",
       "label": "Entrata"
@@ -343,6 +378,11 @@
       "id": "tool:essensys",
       "type": "tool",
       "label": "essensys"
+    },
+    {
+      "id": "tool:esusu",
+      "type": "tool",
+      "label": "Esusu"
     },
     {
       "id": "tool:eudonet-immobilier",
@@ -583,6 +623,11 @@
       "id": "tool:luxury-presence",
       "type": "tool",
       "label": "Luxury Presence"
+    },
+    {
+      "id": "tool:lycaon-data",
+      "type": "tool",
+      "label": "Lycaon Data"
     },
     {
       "id": "tool:maline",
@@ -1010,6 +1055,11 @@
       "label": "Vantaca"
     },
     {
+      "id": "tool:vendorpm",
+      "type": "tool",
+      "label": "VendorPM"
+    },
+    {
       "id": "tool:vertuoza",
       "type": "tool",
       "label": "Vertuoza"
@@ -1380,6 +1430,11 @@
       "label": "AppFolio"
     },
     {
+      "id": "editor:Aptexx",
+      "type": "editor",
+      "label": "Aptexx"
+    },
+    {
       "id": "editor:Archie",
       "type": "editor",
       "label": "Archie"
@@ -1465,6 +1520,11 @@
       "label": "Buildertrend"
     },
     {
+      "id": "editor:Building Engines",
+      "type": "editor",
+      "label": "Building Engines"
+    },
+    {
       "id": "editor:RealPage",
       "type": "editor",
       "label": "RealPage"
@@ -1510,6 +1570,11 @@
       "label": "Clear Capital"
     },
     {
+      "id": "editor:ClickPay",
+      "type": "editor",
+      "label": "ClickPay"
+    },
+    {
       "id": "editor:Lone Wolf Technologies",
       "type": "editor",
       "label": "Lone Wolf Technologies"
@@ -1545,6 +1610,11 @@
       "label": "CoworkSaaS"
     },
     {
+      "id": "editor:CredHub",
+      "type": "editor",
+      "label": "CredHub"
+    },
+    {
       "id": "editor:Créditéo",
       "type": "editor",
       "label": "Créditéo"
@@ -1563,6 +1633,11 @@
       "id": "editor:CubiCasa",
       "type": "editor",
       "label": "CubiCasa"
+    },
+    {
+      "id": "editor:Danim",
+      "type": "editor",
+      "label": "Danim"
     },
     {
       "id": "editor:Dealpath",
@@ -1605,6 +1680,11 @@
       "label": "Zillow Group"
     },
     {
+      "id": "editor:Dottid",
+      "type": "editor",
+      "label": "Dottid"
+    },
+    {
       "id": "editor:DGFiP / Etalab",
       "type": "editor",
       "label": "DGFiP / Etalab"
@@ -1630,6 +1710,11 @@
       "label": "US Environmental Protection Agency"
     },
     {
+      "id": "editor:Engrain",
+      "type": "editor",
+      "label": "Engrain"
+    },
+    {
       "id": "editor:Entrata",
       "type": "editor",
       "label": "Entrata"
@@ -1643,6 +1728,11 @@
       "id": "editor:essensys",
       "type": "editor",
       "label": "essensys"
+    },
+    {
+      "id": "editor:Esusu",
+      "type": "editor",
+      "label": "Esusu"
     },
     {
       "id": "editor:Eudonet (Efficy Group)",
@@ -1843,6 +1933,11 @@
       "id": "editor:Luxury Presence",
       "type": "editor",
       "label": "Luxury Presence"
+    },
+    {
+      "id": "editor:Lycaon",
+      "type": "editor",
+      "label": "Lycaon"
     },
     {
       "id": "editor:Maline Immobilier",
@@ -2243,6 +2338,11 @@
       "id": "editor:Vantaca",
       "type": "editor",
       "label": "Vantaca"
+    },
+    {
+      "id": "editor:VendorPM",
+      "type": "editor",
+      "label": "VendorPM"
     },
     {
       "id": "editor:Vertuoza",
@@ -2900,6 +3000,46 @@
       "from": "tool:appfolio",
       "rel": "alternative_to",
       "to": "tool:yardi-breeze"
+    },
+    {
+      "from": "tool:aptexx",
+      "rel": "published_by",
+      "to": "editor:Aptexx"
+    },
+    {
+      "from": "tool:aptexx",
+      "rel": "belongs_to",
+      "to": "category:property-management"
+    },
+    {
+      "from": "tool:aptexx",
+      "rel": "also_serves",
+      "to": "category:tenant-experience"
+    },
+    {
+      "from": "tool:aptexx",
+      "rel": "serves_persona",
+      "to": "persona:property-manager"
+    },
+    {
+      "from": "tool:aptexx",
+      "rel": "serves_persona",
+      "to": "persona:tenant-occupier"
+    },
+    {
+      "from": "tool:aptexx",
+      "rel": "covers_segment",
+      "to": "segment:multifamily"
+    },
+    {
+      "from": "tool:aptexx",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:aptexx",
+      "rel": "available_in",
+      "to": "market:US"
     },
     {
       "from": "tool:archie",
@@ -3932,6 +4072,51 @@
       "to": "tool:autodesk-construction-cloud"
     },
     {
+      "from": "tool:building-engines",
+      "rel": "published_by",
+      "to": "editor:Building Engines"
+    },
+    {
+      "from": "tool:building-engines",
+      "rel": "belongs_to",
+      "to": "category:facility-maintenance"
+    },
+    {
+      "from": "tool:building-engines",
+      "rel": "also_serves",
+      "to": "category:tenant-experience"
+    },
+    {
+      "from": "tool:building-engines",
+      "rel": "serves_persona",
+      "to": "persona:facility-manager"
+    },
+    {
+      "from": "tool:building-engines",
+      "rel": "serves_persona",
+      "to": "persona:corporate-re"
+    },
+    {
+      "from": "tool:building-engines",
+      "rel": "covers_segment",
+      "to": "segment:office"
+    },
+    {
+      "from": "tool:building-engines",
+      "rel": "covers_segment",
+      "to": "segment:retail"
+    },
+    {
+      "from": "tool:building-engines",
+      "rel": "covers_segment",
+      "to": "segment:industrial"
+    },
+    {
+      "from": "tool:building-engines",
+      "rel": "available_in",
+      "to": "market:US"
+    },
+    {
       "from": "tool:buildium",
       "rel": "published_by",
       "to": "editor:RealPage"
@@ -4502,6 +4687,51 @@
       "to": "tool:attom-data"
     },
     {
+      "from": "tool:clickpay",
+      "rel": "published_by",
+      "to": "editor:ClickPay"
+    },
+    {
+      "from": "tool:clickpay",
+      "rel": "belongs_to",
+      "to": "category:back-office-accounting"
+    },
+    {
+      "from": "tool:clickpay",
+      "rel": "also_serves",
+      "to": "category:property-management"
+    },
+    {
+      "from": "tool:clickpay",
+      "rel": "also_serves",
+      "to": "category:syndic-copro"
+    },
+    {
+      "from": "tool:clickpay",
+      "rel": "serves_persona",
+      "to": "persona:property-manager"
+    },
+    {
+      "from": "tool:clickpay",
+      "rel": "serves_persona",
+      "to": "persona:syndic-manager"
+    },
+    {
+      "from": "tool:clickpay",
+      "rel": "covers_segment",
+      "to": "segment:multifamily"
+    },
+    {
+      "from": "tool:clickpay",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:clickpay",
+      "rel": "available_in",
+      "to": "market:US"
+    },
+    {
       "from": "tool:cloudcma",
       "rel": "published_by",
       "to": "editor:Lone Wolf Technologies"
@@ -4977,6 +5207,41 @@
       "to": "tool:tydeck"
     },
     {
+      "from": "tool:credhub",
+      "rel": "published_by",
+      "to": "editor:CredHub"
+    },
+    {
+      "from": "tool:credhub",
+      "rel": "belongs_to",
+      "to": "category:tenant-experience"
+    },
+    {
+      "from": "tool:credhub",
+      "rel": "serves_persona",
+      "to": "persona:property-manager"
+    },
+    {
+      "from": "tool:credhub",
+      "rel": "serves_persona",
+      "to": "persona:tenant-occupier"
+    },
+    {
+      "from": "tool:credhub",
+      "rel": "covers_segment",
+      "to": "segment:multifamily"
+    },
+    {
+      "from": "tool:credhub",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:credhub",
+      "rel": "available_in",
+      "to": "market:US"
+    },
+    {
       "from": "tool:crediteo",
       "rel": "published_by",
       "to": "editor:Créditéo"
@@ -5225,6 +5490,41 @@
       "from": "tool:cubicasa",
       "rel": "alternative_to",
       "to": "tool:boxbrownie"
+    },
+    {
+      "from": "tool:danim",
+      "rel": "published_by",
+      "to": "editor:Danim"
+    },
+    {
+      "from": "tool:danim",
+      "rel": "belongs_to",
+      "to": "category:visuals-tours"
+    },
+    {
+      "from": "tool:danim",
+      "rel": "also_serves",
+      "to": "category:agent-marketing"
+    },
+    {
+      "from": "tool:danim",
+      "rel": "serves_persona",
+      "to": "persona:agent-broker"
+    },
+    {
+      "from": "tool:danim",
+      "rel": "serves_persona",
+      "to": "persona:brokerage"
+    },
+    {
+      "from": "tool:danim",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:danim",
+      "rel": "available_in",
+      "to": "market:FR"
     },
     {
       "from": "tool:dealpath",
@@ -5737,6 +6037,46 @@
       "to": "tool:brokermint"
     },
     {
+      "from": "tool:dottid",
+      "rel": "published_by",
+      "to": "editor:Dottid"
+    },
+    {
+      "from": "tool:dottid",
+      "rel": "belongs_to",
+      "to": "category:commercial-am"
+    },
+    {
+      "from": "tool:dottid",
+      "rel": "serves_persona",
+      "to": "persona:investor-am"
+    },
+    {
+      "from": "tool:dottid",
+      "rel": "serves_persona",
+      "to": "persona:corporate-re"
+    },
+    {
+      "from": "tool:dottid",
+      "rel": "covers_segment",
+      "to": "segment:office"
+    },
+    {
+      "from": "tool:dottid",
+      "rel": "covers_segment",
+      "to": "segment:industrial"
+    },
+    {
+      "from": "tool:dottid",
+      "rel": "covers_segment",
+      "to": "segment:retail"
+    },
+    {
+      "from": "tool:dottid",
+      "rel": "available_in",
+      "to": "market:US"
+    },
+    {
       "from": "tool:dvf",
       "rel": "published_by",
       "to": "editor:DGFiP / Etalab"
@@ -6042,6 +6382,46 @@
       "to": "tool:watchwire"
     },
     {
+      "from": "tool:engrain",
+      "rel": "published_by",
+      "to": "editor:Engrain"
+    },
+    {
+      "from": "tool:engrain",
+      "rel": "belongs_to",
+      "to": "category:visuals-tours"
+    },
+    {
+      "from": "tool:engrain",
+      "rel": "serves_persona",
+      "to": "persona:property-manager"
+    },
+    {
+      "from": "tool:engrain",
+      "rel": "serves_persona",
+      "to": "persona:investor-am"
+    },
+    {
+      "from": "tool:engrain",
+      "rel": "covers_segment",
+      "to": "segment:multifamily"
+    },
+    {
+      "from": "tool:engrain",
+      "rel": "covers_segment",
+      "to": "segment:healthcare-senior"
+    },
+    {
+      "from": "tool:engrain",
+      "rel": "covers_segment",
+      "to": "segment:hospitality"
+    },
+    {
+      "from": "tool:engrain",
+      "rel": "available_in",
+      "to": "market:US"
+    },
+    {
       "from": "tool:entrata",
       "rel": "published_by",
       "to": "editor:Entrata"
@@ -6230,6 +6610,46 @@
       "from": "tool:essensys",
       "rel": "alternative_to",
       "to": "tool:nexudus"
+    },
+    {
+      "from": "tool:esusu",
+      "rel": "published_by",
+      "to": "editor:Esusu"
+    },
+    {
+      "from": "tool:esusu",
+      "rel": "belongs_to",
+      "to": "category:tenant-experience"
+    },
+    {
+      "from": "tool:esusu",
+      "rel": "also_serves",
+      "to": "category:tenant-screening"
+    },
+    {
+      "from": "tool:esusu",
+      "rel": "serves_persona",
+      "to": "persona:property-manager"
+    },
+    {
+      "from": "tool:esusu",
+      "rel": "serves_persona",
+      "to": "persona:tenant-occupier"
+    },
+    {
+      "from": "tool:esusu",
+      "rel": "covers_segment",
+      "to": "segment:multifamily"
+    },
+    {
+      "from": "tool:esusu",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:esusu",
+      "rel": "available_in",
+      "to": "market:US"
     },
     {
       "from": "tool:eudonet-immobilier",
@@ -9005,6 +9425,46 @@
       "from": "tool:luxury-presence",
       "rel": "alternative_to",
       "to": "tool:sierra-interactive"
+    },
+    {
+      "from": "tool:lycaon-data",
+      "rel": "published_by",
+      "to": "editor:Lycaon"
+    },
+    {
+      "from": "tool:lycaon-data",
+      "rel": "belongs_to",
+      "to": "category:market-data"
+    },
+    {
+      "from": "tool:lycaon-data",
+      "rel": "also_serves",
+      "to": "category:investment-underwriting"
+    },
+    {
+      "from": "tool:lycaon-data",
+      "rel": "serves_persona",
+      "to": "persona:investor-am"
+    },
+    {
+      "from": "tool:lycaon-data",
+      "rel": "serves_persona",
+      "to": "persona:developer-builder"
+    },
+    {
+      "from": "tool:lycaon-data",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:lycaon-data",
+      "rel": "covers_segment",
+      "to": "segment:mixed-use"
+    },
+    {
+      "from": "tool:lycaon-data",
+      "rel": "available_in",
+      "to": "market:FR"
     },
     {
       "from": "tool:maline",
@@ -14170,6 +14630,41 @@
       "from": "tool:vantaca",
       "rel": "alternative_to",
       "to": "tool:payhoa"
+    },
+    {
+      "from": "tool:vendorpm",
+      "rel": "published_by",
+      "to": "editor:VendorPM"
+    },
+    {
+      "from": "tool:vendorpm",
+      "rel": "belongs_to",
+      "to": "category:facility-maintenance"
+    },
+    {
+      "from": "tool:vendorpm",
+      "rel": "serves_persona",
+      "to": "persona:property-manager"
+    },
+    {
+      "from": "tool:vendorpm",
+      "rel": "serves_persona",
+      "to": "persona:facility-manager"
+    },
+    {
+      "from": "tool:vendorpm",
+      "rel": "covers_segment",
+      "to": "segment:multifamily"
+    },
+    {
+      "from": "tool:vendorpm",
+      "rel": "covers_segment",
+      "to": "segment:office"
+    },
+    {
+      "from": "tool:vendorpm",
+      "rel": "available_in",
+      "to": "market:US"
     },
     {
       "from": "tool:vertuoza",

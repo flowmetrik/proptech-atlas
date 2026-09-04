@@ -4,22 +4,22 @@
   "license": "CC-BY-4.0 (data) / MIT (code)",
   "homepage": "https://flowmetrik.github.io/proptech-atlas",
   "repository": "https://github.com/flowmetrik/proptech-atlas",
-  "generated": "2026-09-03",
+  "generated": "2026-09-04",
   "counts": {
-    "tools": 213,
-    "US": 125,
-    "FR": 118,
+    "tools": 223,
+    "US": 133,
+    "FR": 120,
     "categories": 24,
-    "editors": 196,
+    "editors": 206,
     "verified": 0,
     "reviews": 0,
-    "logos": 209,
+    "logos": 216,
     "signals": {
-      "probed": 199,
-      "public_pricing": 56,
+      "probed": 209,
+      "public_pricing": 57,
       "api_docs": 17,
-      "security_page": 28,
-      "privacy_page": 147,
+      "security_page": 30,
+      "privacy_page": 153,
       "status_page": 59
     }
   },
@@ -955,6 +955,92 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "aptexx",
+      "name": "Aptexx",
+      "editor": "Aptexx",
+      "website": "https://aptexx.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "property-management",
+      "also_in": [
+        "tenant-experience"
+      ],
+      "positioning": "A mobile-first resident experience platform bundling rent payments, messaging and maintenance tracking for property managers.",
+      "description": "Aptexx is a resident experience platform for rental property managers, combining online rent payment processing (cards, mobile wallets, ACH, bank transfer, cash), resident messaging and emergency alerts, survey collection, and maintenance and package tracking behind a single admin dashboard.\n",
+      "real_estate_use": "A property manager collects rent online through Aptexx instead of chasing checks, and uses the same portal to send building-wide alerts, run resident satisfaction surveys, and track maintenance requests. Bilingual residents get the app's built-in English-Spanish translation rather than a manager translating messages by hand.\n",
+      "features": [
+        "Online rent payment processing (cards, ACH, mobile wallets, cash)",
+        "Resident messaging and emergency alerts",
+        "Maintenance request tracking",
+        "Package tracking",
+        "Admin dashboard with portfolio reporting",
+        "Built-in English-Spanish translation"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Collect rent online and reconcile payments from a single dashboard"
+        },
+        {
+          "persona": "tenant-occupier",
+          "job": "Pay rent, request maintenance and receive building alerts from a phone"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "tenant-occupier"
+      ],
+      "segments": [
+        "multifamily",
+        "residential"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en",
+          "es"
+        ]
+      },
+      "reviews": [],
+      "logo": {
+        "file": "logos/aptexx.png",
+        "source_url": "https://aptexx.com/wp-content/uploads/2021/12/cropped-favicon-180x180.png",
+        "fetched_on": "2026-09-04"
+      },
+      "signals": {
+        "security": "https://aptexx.com/security",
+        "privacy": "https://aptexx.com/privacy-policy-old-2019",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-04"
+      },
+      "sources": [
+        {
+          "url": "https://aptexx.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-04"
     },
     {
       "slug": "archie",
@@ -2810,6 +2896,89 @@
       "updated": "2026-08-25"
     },
     {
+      "slug": "building-engines",
+      "name": "Building Engines",
+      "editor": "Building Engines",
+      "website": "https://www.buildingengines.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "facility-maintenance",
+      "also_in": [
+        "tenant-experience"
+      ],
+      "positioning": "Prism, the building operations platform property teams at JLL, CBRE and Hines use to run work orders and tenant compliance.",
+      "description": "Building Engines, a JLL company, publishes Prism, a building operations platform for commercial real estate covering work orders, bid management, preventive maintenance, tenant insurance compliance, inspections and incident tracking, alongside a tenant-facing module for resource reservations and visitor access.\n",
+      "real_estate_use": "A building engineer dispatches and closes out work orders through Prism instead of a spreadsheet, and the same platform tracks whether every tenant's certificate of insurance is current before a compliance deadline. On the tenant side, an occupant books a shared conference room or registers a visitor through Prism's tenant experience module rather than emailing the front desk.\n",
+      "features": [
+        "Work order and bid management",
+        "Preventive maintenance scheduling",
+        "Tenant insurance compliance tracking",
+        "Inspections and incident tracking",
+        "Tenant resource reservations and visitor access",
+        "Mobile app"
+      ],
+      "use_cases": [
+        {
+          "persona": "facility-manager",
+          "job": "Dispatch and close out work orders and track preventive maintenance across a portfolio"
+        },
+        {
+          "persona": "corporate-re",
+          "job": "Track tenant certificate-of-insurance compliance ahead of deadlines"
+        }
+      ],
+      "personas": [
+        "facility-manager",
+        "corporate-re"
+      ],
+      "segments": [
+        "office",
+        "retail",
+        "industrial"
+      ],
+      "company_sizes": [
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "reviews": [],
+      "logo": {
+        "file": "logos/building-engines.png",
+        "source_url": "https://www.buildingengines.com/wp-content/uploads/2026/07/cropped-buildingengines-favicon-180x180.png",
+        "fetched_on": "2026-09-04"
+      },
+      "signals": {
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-04"
+      },
+      "sources": [
+        {
+          "url": "https://www.buildingengines.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-04"
+    },
+    {
       "slug": "buildium",
       "name": "Buildium",
       "editor": "RealPage",
@@ -3722,6 +3891,82 @@
       "updated": "2026-08-25"
     },
     {
+      "slug": "clickpay",
+      "name": "ClickPay",
+      "editor": "ClickPay",
+      "website": "https://www.clickpay.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "back-office-accounting",
+      "also_in": [
+        "property-management",
+        "syndic-copro"
+      ],
+      "positioning": "A receivables platform that consolidates every way a resident or owner pays rent into one automated ledger.",
+      "description": "ClickPay is a payment processing and receivables platform for property and HOA managers. It combines online and mobile payment portals, lockbox and check scanning, walk-in cash payment locations, e-billing, and accounting-system integration to consolidate electronic payments, checks and money orders into a single reconciled feed.\n",
+      "real_estate_use": "A property or association manager stops manually keying in checks and money orders by routing every payment channel (online portal, mailed check, walk-in cash) through ClickPay, which reconciles them against the accounting system automatically. A resident who prefers to pay in person uses one of the walk-in cash network locations instead of mailing a check.\n",
+      "features": [
+        "Online and mobile payment portal (ACH, credit, debit)",
+        "Lockbox and check scanning",
+        "Walk-in cash payment network",
+        "E-billing and print bill delivery",
+        "Accounting software integration",
+        "Transaction and bank deposit reporting"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Consolidate checks, cash and online payments into one reconciled feed"
+        },
+        {
+          "persona": "syndic-manager",
+          "job": "Collect HOA dues through a single payment platform instead of chasing checks"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "syndic-manager"
+      ],
+      "segments": [
+        "multifamily",
+        "residential"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "reviews": [],
+      "signals": {
+        "checked_on": "2026-09-04"
+      },
+      "sources": [
+        {
+          "url": "https://www.clickpay.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-04"
+    },
+    {
       "slug": "cloudcma",
       "name": "Cloud CMA",
       "editor": "Lone Wolf Technologies",
@@ -4546,6 +4791,86 @@
       "updated": "2026-09-01"
     },
     {
+      "slug": "credhub",
+      "name": "CredHub",
+      "editor": "CredHub",
+      "website": "https://credhub.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "tenant-experience",
+      "positioning": "Reports resident rent payments to the major credit bureaus every month, on-time and late alike.",
+      "description": "CredHub is a rent payment credit reporting service for property managers and landlords. It reports both on-time and missed rent payments to Equifax, Experian, TransUnion and Innovis each month, integrates with property management systems, and bundles identity protection for residents through a partnership with Allstate.\n",
+      "real_estate_use": "A property manager with at least 50 units offers CredHub as a resident benefit so on-time rent starts building credit automatically, without either party filing anything each month. The manager also gets a delinquency lever: because late payments are reported too, residents have a direct credit incentive to pay on time, which CredHub's own figures link to roughly half the rent delinquency of comparable properties.\n",
+      "features": [
+        "Monthly rent payment reporting to four credit bureaus",
+        "Reports both on-time and late/missed payments",
+        "Property management system integrations",
+        "Dedicated U.S.-based account management",
+        "Bundled resident identity protection (Allstate)"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Offer rent-reporting as a resident benefit that also discourages late payment"
+        },
+        {
+          "persona": "tenant-occupier",
+          "job": "Build credit history automatically by paying rent on time"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "tenant-occupier"
+      ],
+      "segments": [
+        "multifamily",
+        "residential"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "reviews": [],
+      "logo": {
+        "file": "logos/credhub.png",
+        "source_url": "https://credhub.com/wp-content/uploads/2023/02/cropped-2-3-180x180.png",
+        "fetched_on": "2026-09-04"
+      },
+      "signals": {
+        "privacy": "https://credhub.com/privacy-policy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-04"
+      },
+      "sources": [
+        {
+          "url": "https://credhub.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-04"
+    },
+    {
       "slug": "crediteo",
       "name": "Créditéo",
       "editor": "Créditéo",
@@ -4948,6 +5273,94 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "danim",
+      "name": "Danim",
+      "editor": "Danim",
+      "website": "https://www.danim.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "visuals-tours",
+      "also_in": [
+        "agent-marketing"
+      ],
+      "positioning": "Template-based video and AI photo editing so a French real estate agent can produce listing marketing content without a videographer.",
+      "description": "Danim is a French SaaS platform that turns a listing's photos into marketing video using templates, and edits the photos themselves with AI tools (virtual staging, object removal, wall or floor renovation, weather correction). It also schedules and publishes the resulting content to social media with automatically generated captions.\n",
+      "real_estate_use": "An independent agent or mandataire drops a listing's photos into Danim, picks one of the ready-made templates, and gets a branded video ready to post within minutes instead of booking a videographer. The same agent uses the AI photo tools to stage an empty room or fix a dated wall before the video is made, then schedules the post to social media from the same platform.\n",
+      "features": [
+        "Template-based real estate video generation",
+        "AI virtual staging and object removal",
+        "AI wall and floor renovation preview",
+        "Multi-format social media publishing with AI captions",
+        "Publication calendar",
+        "Brand-compliant templates for agency networks"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Turn listing photos into a branded marketing video without hiring a videographer"
+        },
+        {
+          "persona": "brokerage",
+          "job": "Keep every agent's listing videos on-brand across a network"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://www.danim.com"
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "reviews": [],
+      "logo": {
+        "file": "logos/danim.png",
+        "source_url": "https://danim.com/apple-touch-icon.png",
+        "fetched_on": "2026-09-04"
+      },
+      "signals": {
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-09-04"
+      },
+      "sources": [
+        {
+          "url": "https://www.danim.com",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://paris.rent.immo/en",
+          "note": "exposant RENT Paris"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-04"
     },
     {
       "slug": "dealpath",
@@ -5799,6 +6212,87 @@
       "updated": "2026-08-25"
     },
     {
+      "slug": "dottid",
+      "name": "Dottid",
+      "editor": "Dottid",
+      "website": "https://www.dottid.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "commercial-am",
+      "positioning": "A leasing workflow platform replacing the spreadsheets and email chains commercial asset teams use to track deals.",
+      "description": "Dottid is a commercial real estate leasing and asset management platform, owned by JLL, used to track deal pipelines, capital projects and portfolio performance across office, industrial and retail assets. It integrates with ARGUS MLA and offers stacking plan visualization, team task management and a mobile app.\n",
+      "real_estate_use": "An asset management team replaces spreadsheets and email threads with Dottid to track every lease from prospect to signature, see a stacking plan of who occupies what floor, and pull real-time portfolio performance figures for an investor update, all synced with ARGUS MLA rather than re-keyed.\n",
+      "features": [
+        "Deal pipeline and leasing workflow tracking",
+        "Stacking plan visualization",
+        "ARGUS MLA integration",
+        "Capital project tracking",
+        "Portfolio performance dashboards",
+        "Mobile app for stacking plans and files"
+      ],
+      "use_cases": [
+        {
+          "persona": "investor-am",
+          "job": "Track a lease from prospect to signature and report portfolio performance without spreadsheets"
+        },
+        {
+          "persona": "corporate-re",
+          "job": "See a stacking plan of occupancy across a commercial portfolio"
+        }
+      ],
+      "personas": [
+        "investor-am",
+        "corporate-re"
+      ],
+      "segments": [
+        "office",
+        "industrial",
+        "retail"
+      ],
+      "company_sizes": [
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "reviews": [],
+      "logo": {
+        "file": "logos/dottid.png",
+        "source_url": "http://static1.squarespace.com/static/5bc428d5e5f7d17e4e03c929/t/611c231f86d08729832ef748/1736265193369/Dottid.png?format=1500w",
+        "fetched_on": "2026-09-04"
+      },
+      "signals": {
+        "security": "https://www.dottid.com/security",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-04"
+      },
+      "sources": [
+        {
+          "url": "https://www.dottid.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-04"
+    },
+    {
       "slug": "dvf",
       "name": "DVF — Demandes de valeurs foncières",
       "editor": "DGFiP / Etalab",
@@ -6301,6 +6795,82 @@
       "updated": "2026-08-25"
     },
     {
+      "slug": "engrain",
+      "name": "Engrain",
+      "editor": "Engrain",
+      "website": "https://www.engrain.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "visuals-tours",
+      "positioning": "Interactive maps and virtual tours that show renters real-time pricing and availability across every listing channel.",
+      "description": "Engrain builds leasing and asset visualization software for multifamily, senior living and build-to-rent operators. Its product line covers SightMap, an interactive site and unit map embedded on leasing websites and kiosks; TouchTour, a virtual tour builder for remote leasing; and Asset Intelligence, a data visualization layer for portfolio decisions.\n",
+      "real_estate_use": "A leasing agent embeds SightMap on the community website so a prospect can click a building, see which units are available and at what price, and start an application without calling the office. During a remote search, the same prospect runs TouchTour to walk a unit virtually before booking an in-person visit. An asset manager separately uses Asset Intelligence to compare pricing and availability trends across a multifamily portfolio.\n",
+      "features": [
+        "Interactive site and unit maps (SightMap)",
+        "Virtual leasing tours (TouchTour)",
+        "Real-time pricing and availability sync across channels",
+        "Portfolio data visualization (Asset Intelligence)",
+        "Leasing kiosk and website embeds"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Let a prospect browse real-time unit availability and pricing on an interactive map before touring"
+        },
+        {
+          "persona": "investor-am",
+          "job": "Compare pricing and availability trends across a multifamily portfolio"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "investor-am"
+      ],
+      "segments": [
+        "multifamily",
+        "healthcare-senior",
+        "hospitality"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "reviews": [],
+      "signals": {
+        "privacy": "https://www.engrain.com/privacy-policy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-04"
+      },
+      "sources": [
+        {
+          "url": "https://www.engrain.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-04"
+    },
+    {
       "slug": "entrata",
       "name": "Entrata",
       "editor": "Entrata",
@@ -6601,6 +7171,89 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "esusu",
+      "name": "Esusu",
+      "editor": "Esusu",
+      "website": "https://www.esusurent.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "tenant-experience",
+      "also_in": [
+        "tenant-screening"
+      ],
+      "positioning": "A rent-reporting and financial wellness platform that turns on-time rent into credit history for residents.",
+      "description": "Esusu is a fintech platform for real estate operators built around rent reporting: it reports payments to Experian, Equifax and TransUnion so residents build credit, and layers on flexible payment options, income and identity fraud verification, financial coaching and portfolio analytics for property owners.\n",
+      "real_estate_use": "A multifamily operator rolls out Esusu across a portfolio so residents' on-time rent is reported to the three bureaus without extra paperwork, while the operator's screening team uses the same platform's identity and income verification to catch fraudulent applications before move-in. During renewal season, the operator's analytics dashboard shows which properties are seeing the credit-building benefit move renewal rates.\n",
+      "features": [
+        "Rent reporting to three major credit bureaus",
+        "Identity, income and SSN fraud verification",
+        "Flexible rent payment options (Affirm, split pay)",
+        "Financial coaching and marketplace access",
+        "Portfolio analytics dashboard"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Report resident rent payments to credit bureaus across a portfolio"
+        },
+        {
+          "persona": "tenant-occupier",
+          "job": "Build credit history and access flexible rent payment options"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "tenant-occupier"
+      ],
+      "segments": [
+        "multifamily",
+        "residential"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "usage",
+        "public_pricing": false
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "reviews": [],
+      "logo": {
+        "file": "logos/esusu.png",
+        "source_url": "https://cdn.prod.website-files.com/68e4cb3f80596b64cbfc5505/6908970e96bc63ebf19880ba_Esusu_Webclip.svg",
+        "fetched_on": "2026-09-04"
+      },
+      "signals": {
+        "privacy": "https://www.esusurent.com/privacy-policy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-04"
+      },
+      "sources": [
+        {
+          "url": "https://www.esusurent.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-04"
     },
     {
       "slug": "eudonet-immobilier",
@@ -11367,6 +12020,98 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "lycaon-data",
+      "name": "Lycaon Data",
+      "editor": "Lycaon",
+      "website": "https://lycaon-data.com/en",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "market-data",
+      "also_in": [
+        "investment-underwriting"
+      ],
+      "positioning": "Custom econometric reports and a SaaS dashboard that price a property's value drivers and market trajectory for real estate investors.",
+      "description": "Lycaon Data produces econometric analysis of real estate markets: custom reports built on deduplicated listing and transaction databases, modelling how individual property attributes affect value, and quantifying supply-demand gaps by quarter. It also runs a SaaS dashboard version of the same modelling.\n",
+      "real_estate_use": "An investment fund or developer evaluating a site asks Lycaon Data for a report on how specific attributes (surface, floor, exposure, local supply-demand balance) move price in that submarket, rather than relying on a generalist comparables tool. A bank or agency network uses the recurring dashboard to track the same supply-demand gap over time instead of commissioning a report each quarter.\n",
+      "features": [
+        "Custom econometric valuation reports",
+        "Deduplicated listing and transaction databases",
+        "Property attribute impact modelling",
+        "Quarterly supply-demand gap analysis",
+        "SaaS dashboard version of the models"
+      ],
+      "use_cases": [
+        {
+          "persona": "investor-am",
+          "job": "Get a data-backed read on which property attributes drive value in a specific submarket before underwriting a deal"
+        },
+        {
+          "persona": "developer-builder",
+          "job": "Quantify the local supply-demand gap for a planned development"
+        }
+      ],
+      "personas": [
+        "investor-am",
+        "developer-builder"
+      ],
+      "segments": [
+        "residential",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en",
+          "fr",
+          "pt"
+        ]
+      },
+      "reviews": [],
+      "logo": {
+        "file": "logos/lycaon-data.png",
+        "source_url": "https://lycaon-data.com/favicon.ico?favicon.39t5i50ko5z9-.ico",
+        "fetched_on": "2026-09-04"
+      },
+      "signals": {
+        "pricing": "https://www.lycaon-data.com/fr/tarifs",
+        "privacy": "https://www.lycaon-data.com/fr/politique-de-confidentialite",
+        "site_languages": [
+          "en",
+          "fr",
+          "pt"
+        ],
+        "checked_on": "2026-09-04"
+      },
+      "sources": [
+        {
+          "url": "https://lycaon-data.com/en",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://paris.rent.immo/en",
+          "note": "exposant RENT Paris"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-04"
     },
     {
       "slug": "maline",
@@ -19954,6 +20699,82 @@
         "checked_by": null
       },
       "updated": "2026-08-29"
+    },
+    {
+      "slug": "vendorpm",
+      "name": "VendorPM",
+      "editor": "VendorPM",
+      "website": "https://vendorpm.com",
+      "hq_country": "CA",
+      "markets": [
+        "US"
+      ],
+      "category": "facility-maintenance",
+      "positioning": "A vendor lifecycle marketplace that credentials, sources and manages the contractors a property management firm hires.",
+      "description": "VendorPM is a vendor lifecycle management platform for property management firms, combining a pre-vetted contractor marketplace, automated compliance and insurance credentialing, e-bidding and procurement, and centralized contract management with AI-assisted vendor communication and renewal tracking.\n",
+      "real_estate_use": "A property management firm sourcing a new landscaping or HVAC contractor posts the job to VendorPM's marketplace instead of cold-calling vendors, gets pre-vetted bids back, and lets the platform verify each contractor's insurance and compliance documents before a work order is issued, so a manual credentialing spreadsheet no longer has to catch expired coverage by hand.\n",
+      "features": [
+        "Pre-vetted vendor marketplace and e-bidding",
+        "Automated insurance and compliance credentialing",
+        "Contract management with renewal tracking",
+        "Vendor onboarding and screening",
+        "AI-assisted vendor communication",
+        "ERP system integration"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Source and credential maintenance contractors without a manual compliance spreadsheet"
+        },
+        {
+          "persona": "facility-manager",
+          "job": "Run competitive e-bidding on a maintenance contract across multiple vendors"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "facility-manager"
+      ],
+      "segments": [
+        "multifamily",
+        "office"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "reviews": [],
+      "signals": {
+        "privacy": "https://vendorpm.com/privacy-policy-ca",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-04"
+      },
+      "sources": [
+        {
+          "url": "https://vendorpm.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-04"
     },
     {
       "slug": "vertuoza",

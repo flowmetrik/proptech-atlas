@@ -4,7 +4,7 @@
   "label_fr": "Sites d'agence & marketing immobilier",
   "summary_en": "Websites, IDX search, branding and campaigns for agents and brokerages.",
   "summary_fr": "Sites, recherche IDX, marque et campagnes pour agents et agences.",
-  "count": 19,
+  "count": 20,
   "tools": [
     {
       "slug": "adapt-immo",
@@ -511,6 +511,94 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "danim",
+      "name": "Danim",
+      "editor": "Danim",
+      "website": "https://www.danim.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "visuals-tours",
+      "also_in": [
+        "agent-marketing"
+      ],
+      "positioning": "Template-based video and AI photo editing so a French real estate agent can produce listing marketing content without a videographer.",
+      "description": "Danim is a French SaaS platform that turns a listing's photos into marketing video using templates, and edits the photos themselves with AI tools (virtual staging, object removal, wall or floor renovation, weather correction). It also schedules and publishes the resulting content to social media with automatically generated captions.\n",
+      "real_estate_use": "An independent agent or mandataire drops a listing's photos into Danim, picks one of the ready-made templates, and gets a branded video ready to post within minutes instead of booking a videographer. The same agent uses the AI photo tools to stage an empty room or fix a dated wall before the video is made, then schedules the post to social media from the same platform.\n",
+      "features": [
+        "Template-based real estate video generation",
+        "AI virtual staging and object removal",
+        "AI wall and floor renovation preview",
+        "Multi-format social media publishing with AI captions",
+        "Publication calendar",
+        "Brand-compliant templates for agency networks"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Turn listing photos into a branded marketing video without hiring a videographer"
+        },
+        {
+          "persona": "brokerage",
+          "job": "Keep every agent's listing videos on-brand across a network"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://www.danim.com"
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "reviews": [],
+      "logo": {
+        "file": "logos/danim.png",
+        "source_url": "https://danim.com/apple-touch-icon.png",
+        "fetched_on": "2026-09-04"
+      },
+      "signals": {
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-09-04"
+      },
+      "sources": [
+        {
+          "url": "https://www.danim.com",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://paris.rent.immo/en",
+          "note": "exposant RENT Paris"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-04"
     },
     {
       "slug": "hektor",

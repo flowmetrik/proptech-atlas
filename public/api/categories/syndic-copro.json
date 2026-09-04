@@ -4,7 +4,7 @@
   "label_fr": "Syndic & copropriété",
   "summary_en": "Manage co-owned buildings — budgets, assemblies, calls for funds, works.",
   "summary_fr": "Gérer l'immeuble en copropriété — budgets, AG, appels de fonds, travaux.",
-  "count": 16,
+  "count": 17,
   "tools": [
     {
       "slug": "buildium",
@@ -214,6 +214,82 @@
         "checked_by": null
       },
       "updated": "2026-08-29"
+    },
+    {
+      "slug": "clickpay",
+      "name": "ClickPay",
+      "editor": "ClickPay",
+      "website": "https://www.clickpay.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "back-office-accounting",
+      "also_in": [
+        "property-management",
+        "syndic-copro"
+      ],
+      "positioning": "A receivables platform that consolidates every way a resident or owner pays rent into one automated ledger.",
+      "description": "ClickPay is a payment processing and receivables platform for property and HOA managers. It combines online and mobile payment portals, lockbox and check scanning, walk-in cash payment locations, e-billing, and accounting-system integration to consolidate electronic payments, checks and money orders into a single reconciled feed.\n",
+      "real_estate_use": "A property or association manager stops manually keying in checks and money orders by routing every payment channel (online portal, mailed check, walk-in cash) through ClickPay, which reconciles them against the accounting system automatically. A resident who prefers to pay in person uses one of the walk-in cash network locations instead of mailing a check.\n",
+      "features": [
+        "Online and mobile payment portal (ACH, credit, debit)",
+        "Lockbox and check scanning",
+        "Walk-in cash payment network",
+        "E-billing and print bill delivery",
+        "Accounting software integration",
+        "Transaction and bank deposit reporting"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Consolidate checks, cash and online payments into one reconciled feed"
+        },
+        {
+          "persona": "syndic-manager",
+          "job": "Collect HOA dues through a single payment platform instead of chasing checks"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "syndic-manager"
+      ],
+      "segments": [
+        "multifamily",
+        "residential"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "reviews": [],
+      "signals": {
+        "checked_on": "2026-09-04"
+      },
+      "sources": [
+        {
+          "url": "https://www.clickpay.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-04"
     },
     {
       "slug": "condo-control",
