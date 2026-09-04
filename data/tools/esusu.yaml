@@ -1,0 +1,56 @@
+slug: esusu
+name: Esusu
+editor: Esusu
+website: https://www.esusurent.com
+hq_country: US
+markets: [US]
+category: tenant-experience
+also_in: [tenant-screening]
+positioning: A rent-reporting and financial wellness platform that turns on-time rent into credit history for residents.
+description: >
+  Esusu is a fintech platform for real estate operators built around rent reporting:
+  it reports payments to Experian, Equifax and TransUnion so residents build credit,
+  and layers on flexible payment options, income and identity fraud verification,
+  financial coaching and portfolio analytics for property owners.
+real_estate_use: >
+  A multifamily operator rolls out Esusu across a portfolio so residents' on-time rent
+  is reported to the three bureaus without extra paperwork, while the operator's
+  screening team uses the same platform's identity and income verification to catch
+  fraudulent applications before move-in. During renewal season, the operator's
+  analytics dashboard shows which properties are seeing the credit-building benefit
+  move renewal rates.
+features:
+  - Rent reporting to three major credit bureaus
+  - "Identity, income and SSN fraud verification"
+  - "Flexible rent payment options (Affirm, split pay)"
+  - Financial coaching and marketplace access
+  - Portfolio analytics dashboard
+use_cases:
+  - persona: property-manager
+    job: Report resident rent payments to credit bureaus across a portfolio
+  - persona: tenant-occupier
+    job: Build credit history and access flexible rent payment options
+personas: [property-manager, tenant-occupier]
+segments: [multifamily, residential]
+company_sizes: [midmarket, enterprise]
+pricing:
+  model: usage
+  public_pricing: false
+product:
+  api: false
+  open_source: false
+  mobile: []
+  languages: [en]
+reviews: []
+logo:
+  file: logos/esusu.png
+  source_url: https://cdn.prod.website-files.com/68e4cb3f80596b64cbfc5505/6908970e96bc63ebf19880ba_Esusu_Webclip.svg
+  fetched_on: "2026-09-04"
+signals:
+  privacy: https://www.esusurent.com/privacy-policy
+  site_languages: [en]
+  checked_on: "2026-09-04"
+sources:
+  - { url: https://www.esusurent.com, note: site éditeur }
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-09-04"
