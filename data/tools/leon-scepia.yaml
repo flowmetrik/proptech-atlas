@@ -1,0 +1,53 @@
+slug: leon-scepia
+name: LEON
+editor: Scepia
+website: https://www.scepia.fr/leon
+hq_country: FR
+markets: [FR]
+category: investment-underwriting
+also_in: [construction-development]
+positioning: Feasibility and financial-modeling tool that runs a social-housing developer's operations through underwriting and investment-committee approval.
+description: >
+  LEON is a French SaaS tool from Scepia used by social-housing developers to model
+  and steer PLUS, PLAI and social/free accession housing operations. It runs
+  financial-ratio simulations to check an operation's profitability, keeps national
+  parameters and regulatory constraints up to date, and runs the investment-committee
+  (comité d'engagement) process end to end — scheduling, document distribution, remote
+  sessions, e-signed minutes and voting.
+real_estate_use: >
+  A social-housing developer's operations team enters a new PLUS or PLAI project and
+  gets a first financial-ratio result within minutes, checking profitability before
+  committing further work. Ahead of an investment committee, the same team schedules
+  the session and distributes the operation's dossier and simulations through a web
+  portal, and for groups running committees remotely, holds the session online with
+  e-signed minutes and recorded votes.
+features:
+  - Financial-ratio feasibility simulation
+  - Built-in national/regulatory parameters for social housing
+  - Investment-committee scheduling and document distribution
+  - Remote committee sessions with e-signed minutes
+  - Electronic voting
+use_cases:
+  - persona: developer-builder
+    job: Run a financial-ratio feasibility simulation for a new PLUS/PLAI operation before committing further work
+  - persona: developer-builder
+    job: Schedule and hold a remote investment committee with e-signed minutes and recorded votes
+personas: [developer-builder]
+segments: [residential, land-development]
+company_sizes: [midmarket, enterprise]
+pricing:
+  model: quote
+  public_pricing: false
+reviews: []
+logo:
+  file: logos/leon-scepia.png
+  source_url: https://www.scepia.fr/wp-content/uploads/2022/07/favicon_scepia.webp
+  fetched_on: "2026-09-05"
+signals:
+  privacy: https://www.scepia.fr/mentions-legales
+  site_languages: [fr]
+  checked_on: "2026-09-05"
+sources:
+  - { url: https://www.scepia.fr/leon/, note: "site éditeur — page produit, sans navigation tarifs/connexion (modèle sur devis, normal pour ce segment)" }
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-09-05"

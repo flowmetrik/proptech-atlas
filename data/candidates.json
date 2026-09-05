@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-31",
+  "generated": "2026-09-05",
   "candidates": [
     {
       "name": "Coprolib'",
@@ -112,6 +112,92 @@
       "found_in": "syndic-copro/FR",
       "slug": "mon-syndic-b-n-vole",
       "verified_on": "2026-08-25"
+    },
+    {
+      "name": "Scoplan",
+      "slug": "scoplan",
+      "editor": "Scoplan",
+      "website": "https://www.scoplan.com",
+      "category": "construction-development",
+      "markets": [
+        "FR"
+      ],
+      "why": "",
+      "source_url": "https://www.scoplan.com",
+      "found_in": "manuel",
+      "verified_on": "2026-09-05"
+    },
+    {
+      "name": "Décisio Habitat",
+      "slug": "decisio-habitat",
+      "editor": "A5sys",
+      "website": "https://www.decisio-habitat.com",
+      "category": "back-office-accounting",
+      "markets": [
+        "FR"
+      ],
+      "why": "",
+      "source_url": "https://www.decisio-habitat.com",
+      "found_in": "manuel",
+      "verified_on": "2026-09-05"
+    },
+    {
+      "name": "Dematimmo",
+      "slug": "dematimmo",
+      "editor": "Activinnov",
+      "website": "https://www.activinnov.com/dematimmo",
+      "category": "property-management",
+      "markets": [
+        "FR"
+      ],
+      "why": "",
+      "source_url": "https://www.activinnov.com/dematimmo",
+      "found_in": "manuel",
+      "verified_on": "2026-09-05"
+    },
+    {
+      "name": "Léon",
+      "slug": "leon",
+      "editor": "Scepia",
+      "website": "https://www.scepia.fr/leon",
+      "category": "construction-development",
+      "markets": [
+        "FR"
+      ],
+      "why": "",
+      "source_url": "https://www.scepia.fr/leon",
+      "found_in": "manuel",
+      "verified_on": "2026-09-05",
+      "warn": "ni tarifs, ni fonctionnalites, ni connexion sur l'accueil — domaine peut-etre reconverti, a regarder"
+    },
+    {
+      "name": "Rethink CRM",
+      "slug": "rethink-crm",
+      "editor": "Buildout",
+      "website": "https://www.rethinkcrm.com",
+      "category": "crm-lead",
+      "markets": [
+        "US"
+      ],
+      "why": "",
+      "source_url": "https://www.rethinkcrm.com",
+      "found_in": "manuel",
+      "verified_on": "2026-09-05",
+      "warn": "ni tarifs, ni fonctionnalites, ni connexion sur l'accueil — domaine peut-etre reconverti, a regarder"
+    },
+    {
+      "name": "Property Hub",
+      "slug": "property-hub",
+      "editor": "Property Hub",
+      "website": "https://www.property-hub.com",
+      "category": "flex-coworking",
+      "markets": [
+        "US"
+      ],
+      "why": "",
+      "source_url": "https://www.property-hub.com",
+      "found_in": "manuel",
+      "verified_on": "2026-09-05"
     }
   ],
   "rejected": [

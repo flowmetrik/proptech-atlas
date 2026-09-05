@@ -1,0 +1,70 @@
+{
+  "slug": "rethink-by-buildout",
+  "name": "Rethink by Buildout",
+  "editor": "Buildout",
+  "website": "https://www.buildout.com/platform/rethink-by-buildout",
+  "hq_country": "US",
+  "markets": [
+    "US"
+  ],
+  "category": "crm-lead",
+  "positioning": "Purpose-built CRM for commercial real estate brokers, now part of the Buildout deal platform.",
+  "description": "Rethink by Buildout is a commercial real estate CRM — originally launched as REthink CRM and acquired by Buildout — built for CRE brokers, teams and brokerages across investment sales, leasing, tenant rep and capital markets. It centralizes contacts, properties and deal pipelines in one workspace, with LLC-ownership unmasking and market-insight data attached to standard CRM records.\n",
+  "real_estate_use": "A commercial broker logs a new prospect and sees the property's ownership — including behind an LLC — plus related market data, instead of researching it separately. Through a deal's lifecycle, the broker moves it across a shared pipeline-stage view, keeping contact history, requirements and comps attached to the same record rather than scattered across spreadsheets and email.\n",
+  "features": [
+    "Contact, property and deal pipeline in one CRM",
+    "LLC-ownership unmasking",
+    "Market insight data on CRM records",
+    "Deal-stage pipeline tracking",
+    "Team-shared contact and deal history"
+  ],
+  "use_cases": [
+    {
+      "persona": "agent-broker",
+      "job": "Unmask the LLC behind a property owner and attach the finding directly to a CRM contact record"
+    },
+    {
+      "persona": "brokerage",
+      "job": "Track deals across investment sales, leasing and capital markets in one shared pipeline"
+    }
+  ],
+  "personas": [
+    "agent-broker",
+    "brokerage"
+  ],
+  "segments": [
+    "office",
+    "retail",
+    "industrial"
+  ],
+  "company_sizes": [
+    "smb",
+    "midmarket"
+  ],
+  "pricing": {
+    "model": "quote",
+    "public_pricing": false
+  },
+  "reviews": [],
+  "logo": {
+    "file": "logos/rethink-by-buildout.png",
+    "source_url": "https://cdn.prod.website-files.com/641a1c972968413ab4e2fd3b/644bf1445cc66b55fa621bef_WebClip.png",
+    "fetched_on": "2026-09-05"
+  },
+  "signals": {
+    "pricing": "https://www.buildout.com/pricing",
+    "checked_on": "2026-09-05"
+  },
+  "sources": [
+    {
+      "url": "https://www.buildout.com/platform/rethink-by-buildout",
+      "note": "site éditeur — le domaine historique rethinkcrm.com sert désormais du contenu compromis (spam), écarté ; le produit vit chez Buildout"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-09-05"
+}

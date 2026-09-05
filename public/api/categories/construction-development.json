@@ -4,7 +4,7 @@
   "label_fr": "Construction & promotion",
   "summary_en": "Feasibility, project management, site supervision and delivery.",
   "summary_fr": "Faisabilité, pilotage de projet, suivi de chantier et livraison.",
-  "count": 16,
+  "count": 18,
   "tools": [
     {
       "slug": "autodesk-construction-cloud",
@@ -1046,6 +1046,80 @@
       "updated": "2026-08-25"
     },
     {
+      "slug": "leon-scepia",
+      "name": "LEON",
+      "editor": "Scepia",
+      "website": "https://www.scepia.fr/leon",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "investment-underwriting",
+      "also_in": [
+        "construction-development"
+      ],
+      "positioning": "Feasibility and financial-modeling tool that runs a social-housing developer's operations through underwriting and investment-committee approval.",
+      "description": "LEON is a French SaaS tool from Scepia used by social-housing developers to model and steer PLUS, PLAI and social/free accession housing operations. It runs financial-ratio simulations to check an operation's profitability, keeps national parameters and regulatory constraints up to date, and runs the investment-committee (comité d'engagement) process end to end — scheduling, document distribution, remote sessions, e-signed minutes and voting.\n",
+      "real_estate_use": "A social-housing developer's operations team enters a new PLUS or PLAI project and gets a first financial-ratio result within minutes, checking profitability before committing further work. Ahead of an investment committee, the same team schedules the session and distributes the operation's dossier and simulations through a web portal, and for groups running committees remotely, holds the session online with e-signed minutes and recorded votes.\n",
+      "features": [
+        "Financial-ratio feasibility simulation",
+        "Built-in national/regulatory parameters for social housing",
+        "Investment-committee scheduling and document distribution",
+        "Remote committee sessions with e-signed minutes",
+        "Electronic voting"
+      ],
+      "use_cases": [
+        {
+          "persona": "developer-builder",
+          "job": "Run a financial-ratio feasibility simulation for a new PLUS/PLAI operation before committing further work"
+        },
+        {
+          "persona": "developer-builder",
+          "job": "Schedule and hold a remote investment committee with e-signed minutes and recorded votes"
+        }
+      ],
+      "personas": [
+        "developer-builder"
+      ],
+      "segments": [
+        "residential",
+        "land-development"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "reviews": [],
+      "logo": {
+        "file": "logos/leon-scepia.png",
+        "source_url": "https://www.scepia.fr/wp-content/uploads/2022/07/favicon_scepia.webp",
+        "fetched_on": "2026-09-05"
+      },
+      "signals": {
+        "privacy": "https://www.scepia.fr/mentions-legales",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-09-05"
+      },
+      "sources": [
+        {
+          "url": "https://www.scepia.fr/leon/",
+          "note": "site éditeur — page produit, sans navigation tarifs/connexion (modèle sur devis, normal pour ce segment)"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-05"
+    },
+    {
       "slug": "northspyre",
       "name": "Northspyre",
       "editor": "Northspyre",
@@ -1463,6 +1537,76 @@
         "checked_by": null
       },
       "updated": "2026-08-31"
+    },
+    {
+      "slug": "scoplan",
+      "name": "Scoplan",
+      "editor": "Scoplan",
+      "website": "https://www.scoplan.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "construction-development",
+      "also_in": [
+        "crm-lead"
+      ],
+      "positioning": "All-in-one management software for real estate developers selling under VEFA.",
+      "description": "Scoplan is a French SaaS platform for real estate developers, house-building companies (constructeurs de maisons) and renovators. It runs the VEFA sales-to-handover cycle in one tool: prospect and buyer CRM, an extranet for external sales agents, digital reservation with e-signature, batch fund-call generation, works and warranty (SAV/TMA) tracking, and the buyer's digital carnet d'information du logement.\n",
+      "real_estate_use": "A developer's sales team tracks reservations and options as units in a program move from launch to signed VEFA contract, while an outside estate agency acting as a prescriber consults the same program and its brochures through its own extranet login. Once construction starts, the works team logs progress against schedule, generates and batches fund calls to buyers, and issues each buyer's digital carnet du logement at handover. After delivery, the SAV team logs and tracks buyer-reported defects (TMA) against warranty deadlines.\n",
+      "features": [
+        "Buyer and prospect CRM",
+        "External sales-agent extranet",
+        "Digital reservation with e-signature",
+        "Batch fund-call generation",
+        "Works and SAV/TMA tracking",
+        "Digital carnet d'information du logement"
+      ],
+      "use_cases": [
+        {
+          "persona": "developer-builder",
+          "job": "Track VEFA reservations, options and fund calls for a residential program from launch to handover"
+        },
+        {
+          "persona": "agent-broker",
+          "job": "Consult a developer's live program inventory and brochures as an external prescribing agency"
+        }
+      ],
+      "personas": [
+        "developer-builder",
+        "agent-broker"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "per-seat",
+        "public_pricing": true,
+        "url": "https://www.scoplan.com/fr/Promoteur"
+      },
+      "reviews": [],
+      "signals": {
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-09-05"
+      },
+      "sources": [
+        {
+          "url": "https://www.scoplan.com/fr/Promoteur",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-05"
     },
     {
       "slug": "urbanease",

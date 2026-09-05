@@ -96,5 +96,33 @@
     "manual_found": 3,
     "manual_kept": 2,
     "last_manual_note": "page paris.rent.immo/en surtout mediatique ; easyVirtual.tours ecarte (reseau de prestataires locaux, pas un produit SaaS) ; Lycaon Data et Danim retenus"
+  },
+  "procore-marketplace": {
+    "last_swept_manual": "2026-09-05",
+    "manual_runs": 1,
+    "manual_found": 0,
+    "manual_kept": 0,
+    "last_manual_note": "SPA, coquille vide au fetch direct — recherche web de repli sans résultat exploitable pour ce round"
+  },
+  "salesforce-appexchange-re": {
+    "last_swept_manual": "2026-09-05",
+    "manual_runs": 1,
+    "manual_found": 5,
+    "manual_kept": 1,
+    "last_manual_note": "listing propre (Property Hub) ; les autres (Rethink, TrackMe, Real Estate 360, BReal Estate) sont des pages de fiche d'annuaire sans site produit propre confirmé pour ce round"
+  },
+  "ush-fournisseurs": {
+    "last_swept_manual": "2026-09-05",
+    "manual_runs": 1,
+    "manual_found": 5,
+    "manual_kept": 3,
+    "last_manual_note": "page d'accueil 403 à l'automatisé, aucun annuaire fournisseurs lu directement ; recherche web ciblée sur le logement social a trouvé Décisio Habitat, Dematimmo (Activinnov) et LEON (Scepia) — retenus — plus Sigma/Imhoweb et SEIITRA/Powimo (déjà au catalogue), non repris"
+  },
+  "fpi-france": {
+    "last_swept_manual": "2026-09-05",
+    "manual_runs": 1,
+    "manual_found": 2,
+    "manual_kept": 1,
+    "last_manual_note": "page d'accueil sans annuaire fournisseurs exploitable ; recherche web ciblée sur la promotion VEFA a trouvé Scoplan (retenu) et O2 Promotion (écarté, pas de site propre confirmé)"
   }
 }

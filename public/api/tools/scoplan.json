@@ -1,0 +1,70 @@
+{
+  "slug": "scoplan",
+  "name": "Scoplan",
+  "editor": "Scoplan",
+  "website": "https://www.scoplan.com",
+  "hq_country": "FR",
+  "markets": [
+    "FR"
+  ],
+  "category": "construction-development",
+  "also_in": [
+    "crm-lead"
+  ],
+  "positioning": "All-in-one management software for real estate developers selling under VEFA.",
+  "description": "Scoplan is a French SaaS platform for real estate developers, house-building companies (constructeurs de maisons) and renovators. It runs the VEFA sales-to-handover cycle in one tool: prospect and buyer CRM, an extranet for external sales agents, digital reservation with e-signature, batch fund-call generation, works and warranty (SAV/TMA) tracking, and the buyer's digital carnet d'information du logement.\n",
+  "real_estate_use": "A developer's sales team tracks reservations and options as units in a program move from launch to signed VEFA contract, while an outside estate agency acting as a prescriber consults the same program and its brochures through its own extranet login. Once construction starts, the works team logs progress against schedule, generates and batches fund calls to buyers, and issues each buyer's digital carnet du logement at handover. After delivery, the SAV team logs and tracks buyer-reported defects (TMA) against warranty deadlines.\n",
+  "features": [
+    "Buyer and prospect CRM",
+    "External sales-agent extranet",
+    "Digital reservation with e-signature",
+    "Batch fund-call generation",
+    "Works and SAV/TMA tracking",
+    "Digital carnet d'information du logement"
+  ],
+  "use_cases": [
+    {
+      "persona": "developer-builder",
+      "job": "Track VEFA reservations, options and fund calls for a residential program from launch to handover"
+    },
+    {
+      "persona": "agent-broker",
+      "job": "Consult a developer's live program inventory and brochures as an external prescribing agency"
+    }
+  ],
+  "personas": [
+    "developer-builder",
+    "agent-broker"
+  ],
+  "segments": [
+    "residential"
+  ],
+  "company_sizes": [
+    "smb",
+    "midmarket"
+  ],
+  "pricing": {
+    "model": "per-seat",
+    "public_pricing": true,
+    "url": "https://www.scoplan.com/fr/Promoteur"
+  },
+  "reviews": [],
+  "signals": {
+    "site_languages": [
+      "fr"
+    ],
+    "checked_on": "2026-09-05"
+  },
+  "sources": [
+    {
+      "url": "https://www.scoplan.com/fr/Promoteur",
+      "note": "site éditeur"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-09-05"
+}

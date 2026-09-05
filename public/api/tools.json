@@ -4,22 +4,22 @@
   "license": "CC-BY-4.0 (data) / MIT (code)",
   "homepage": "https://flowmetrik.github.io/proptech-atlas",
   "repository": "https://github.com/flowmetrik/proptech-atlas",
-  "generated": "2026-09-04",
+  "generated": "2026-09-05",
   "counts": {
-    "tools": 223,
-    "US": 133,
-    "FR": 120,
+    "tools": 229,
+    "US": 135,
+    "FR": 124,
     "categories": 24,
-    "editors": 206,
+    "editors": 212,
     "verified": 0,
     "reviews": 0,
-    "logos": 216,
+    "logos": 221,
     "signals": {
-      "probed": 209,
-      "public_pricing": 57,
+      "probed": 215,
+      "public_pricing": 59,
       "api_docs": 17,
       "security_page": 30,
-      "privacy_page": 153,
+      "privacy_page": 156,
       "status_page": 59
     }
   },
@@ -5467,6 +5467,85 @@
       "updated": "2026-08-25"
     },
     {
+      "slug": "decisio-habitat",
+      "name": "DÉCISIO Habitat",
+      "editor": "A5sys",
+      "website": "https://www.decisio-habitat.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "back-office-accounting",
+      "also_in": [
+        "property-management"
+      ],
+      "positioning": "Business-intelligence platform that turns a social landlord's scattered systems into one decision-making dashboard.",
+      "description": "DÉCISIO Habitat is a French SaaS business-intelligence layer built for social housing landlords (bailleurs sociaux). It does not replace a landlord's ERP; it centralizes rental, property, financial and technical data pulled from existing systems and turns it into dashboards covering vacancy, rent arrears and recovery, tenant allocation, and property diagnostics.\n",
+      "real_estate_use": "A social-housing director tracks portfolio-wide vacancy and rent-arrears indicators without exporting spreadsheets from separate ERP, CRM and maintenance systems. Finance staff follow arrears ageing and recovery-action progress to prioritize collection, while property teams monitor allocation activity and diagnostic compliance across the stock. Because it plugs into a landlord's existing tools rather than replacing them, deployment runs in under three months.\n",
+      "features": [
+        "Cross-system data centralization (ERP, GED, GMAO, CRM)",
+        "Vacancy and rent-arrears dashboards",
+        "Tenant allocation and diagnostics reporting",
+        "Customizable indicators by objective",
+        "Connectors for HLM-sector ERPs (Aareon, IKOS, Ulis, Salvia)"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Monitor rent arrears, ageing of debt and recovery actions across the housing stock from one dashboard"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "Track portfolio-wide vacancy and diagnostic compliance without manual exports from separate systems"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "landlord-owner"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Aareon",
+        "IKOS",
+        "Ulis",
+        "Salvia"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/decisio-habitat.png",
+        "source_url": "https://www.decisio-habitat.com/wp-content/uploads/2025/03/Logo-vert.png",
+        "fetched_on": "2026-09-05"
+      },
+      "signals": {
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-09-05"
+      },
+      "sources": [
+        {
+          "url": "https://www.decisio-habitat.com/logiciel-bailleur-social/",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-05"
+    },
+    {
       "slug": "deepki",
       "name": "Deepki",
       "editor": "Deepki",
@@ -5575,6 +5654,77 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "dematimmo",
+      "name": "Dematimmo",
+      "editor": "Activinnov",
+      "website": "https://www.activinnov.com/dematimmo",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "property-management",
+      "positioning": "Digital platform that runs a French social landlord's tenant-allocation committee (CALEOL), on-site or fully remote.",
+      "description": "Dematimmo is a French SaaS product from Activinnov that digitizes the CALEOL — the regulated committee French social landlords must hold before allocating a home. It prepares case files pulled from the landlord's ERP, runs the committee session on-screen or fully remotely with e-signed minutes and electronic voting, and pushes the attribution result back into the ERP.\n",
+      "real_estate_use": "A social landlord's allocation team pulls candidate case files automatically from its ERP ahead of a CALEOL session, runs the session either in person with a projection screen or fully online, records votes and e-signs the minutes, then pushes the outcome back into the ERP without re-entering data. Compliance staff use the same platform to generate attribution reports by commune, EPCI or préfecture, with traceability of every vote.\n",
+      "features": [
+        "Automatic case-file preparation from the ERP",
+        "On-site and fully remote CALEOL sessions",
+        "Electronic voting and e-signed minutes",
+        "Attribution reporting by commune/EPCI/préfecture",
+        "Two-way ERP synchronization via connectors"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Run a tenant-allocation committee (CALEOL) session, on-site or remotely, with e-signed minutes"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "Generate auditable attribution reports by commune or préfecture for regulatory compliance"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "landlord-owner"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "reviews": [],
+      "logo": {
+        "file": "logos/dematimmo.png",
+        "source_url": "https://www.activinnov.com/wp-content/themes/activinnov/public/assets/images/favicons/favicon-32x32.png",
+        "fetched_on": "2026-09-05"
+      },
+      "signals": {
+        "privacy": "https://www.activinnov.com/politique-de-confidentialite",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-09-05"
+      },
+      "sources": [
+        {
+          "url": "https://www.activinnov.com/dematimmo/",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-05"
     },
     {
       "slug": "diag-pilote",
@@ -11037,6 +11187,80 @@
       "updated": "2026-08-25"
     },
     {
+      "slug": "leon-scepia",
+      "name": "LEON",
+      "editor": "Scepia",
+      "website": "https://www.scepia.fr/leon",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "investment-underwriting",
+      "also_in": [
+        "construction-development"
+      ],
+      "positioning": "Feasibility and financial-modeling tool that runs a social-housing developer's operations through underwriting and investment-committee approval.",
+      "description": "LEON is a French SaaS tool from Scepia used by social-housing developers to model and steer PLUS, PLAI and social/free accession housing operations. It runs financial-ratio simulations to check an operation's profitability, keeps national parameters and regulatory constraints up to date, and runs the investment-committee (comité d'engagement) process end to end — scheduling, document distribution, remote sessions, e-signed minutes and voting.\n",
+      "real_estate_use": "A social-housing developer's operations team enters a new PLUS or PLAI project and gets a first financial-ratio result within minutes, checking profitability before committing further work. Ahead of an investment committee, the same team schedules the session and distributes the operation's dossier and simulations through a web portal, and for groups running committees remotely, holds the session online with e-signed minutes and recorded votes.\n",
+      "features": [
+        "Financial-ratio feasibility simulation",
+        "Built-in national/regulatory parameters for social housing",
+        "Investment-committee scheduling and document distribution",
+        "Remote committee sessions with e-signed minutes",
+        "Electronic voting"
+      ],
+      "use_cases": [
+        {
+          "persona": "developer-builder",
+          "job": "Run a financial-ratio feasibility simulation for a new PLUS/PLAI operation before committing further work"
+        },
+        {
+          "persona": "developer-builder",
+          "job": "Schedule and hold a remote investment committee with e-signed minutes and recorded votes"
+        }
+      ],
+      "personas": [
+        "developer-builder"
+      ],
+      "segments": [
+        "residential",
+        "land-development"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "reviews": [],
+      "logo": {
+        "file": "logos/leon-scepia.png",
+        "source_url": "https://www.scepia.fr/wp-content/uploads/2022/07/favicon_scepia.webp",
+        "fetched_on": "2026-09-05"
+      },
+      "signals": {
+        "privacy": "https://www.scepia.fr/mentions-legales",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-09-05"
+      },
+      "sources": [
+        {
+          "url": "https://www.scepia.fr/leon/",
+          "note": "site éditeur — page produit, sans navigation tarifs/connexion (modèle sur devis, normal pour ce segment)"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-05"
+    },
+    {
       "slug": "liciel",
       "name": "LICIEL",
       "editor": "LICIEL Environnement",
@@ -15402,6 +15626,82 @@
       "updated": "2026-08-25"
     },
     {
+      "slug": "property-hub",
+      "name": "Property Hub",
+      "editor": "Property Hub",
+      "website": "https://www.property-hub.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "flex-coworking",
+      "positioning": "Salesforce-native CRM built specifically for flexible-workspace operators and the brokers who lease them.",
+      "description": "Property Hub is a CRM built on the Salesforce platform for operators of flexible workspaces and the commercial real estate brokers who lease them. It manages listings, leads, tours and lease renewals in one place, and adds flex-market analytics such as price-per-desk benchmarks on top of standard CRM records.\n",
+      "real_estate_use": "A flex-space operator's leasing team tracks incoming leads and scheduled tours for available desks and suites across its portfolio, and follows upcoming lease renewals from the same pipeline. A CRE broker specializing in flexible offices uses the same platform to match a client's requirement against available flex inventory and to check price-per-desk benchmarks for a given market before making an offer.\n",
+      "features": [
+        "Flexible-workspace listing and lead management",
+        "Tour scheduling",
+        "Lease-renewal tracking",
+        "Flex-market price benchmarking (price per desk)",
+        "Native Salesforce integration with 500+ apps via API"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Track leads, tours and lease renewals for flexible-workspace inventory across a portfolio"
+        },
+        {
+          "persona": "agent-broker",
+          "job": "Match a client's requirement to available flex-office inventory and check price-per-desk benchmarks"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "agent-broker"
+      ],
+      "segments": [
+        "office"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://www.property-hub.com/"
+      },
+      "integrations": [
+        "Salesforce"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/property-hub.png",
+        "source_url": "https://www.google.com/s2/favicons?domain=property-hub.com&sz=256",
+        "fetched_on": "2026-09-05"
+      },
+      "signals": {
+        "pricing": "https://www.property-hub.com/pricing",
+        "privacy": "https://www.property-hub.com/privacy-policy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-05"
+      },
+      "sources": [
+        {
+          "url": "https://www.property-hub.com/",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-05"
+    },
+    {
       "slug": "property-inspect",
       "name": "Property Inspect",
       "editor": "Property Inspect",
@@ -17224,6 +17524,76 @@
       "updated": "2026-08-25"
     },
     {
+      "slug": "rethink-by-buildout",
+      "name": "Rethink by Buildout",
+      "editor": "Buildout",
+      "website": "https://www.buildout.com/platform/rethink-by-buildout",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "crm-lead",
+      "positioning": "Purpose-built CRM for commercial real estate brokers, now part of the Buildout deal platform.",
+      "description": "Rethink by Buildout is a commercial real estate CRM — originally launched as REthink CRM and acquired by Buildout — built for CRE brokers, teams and brokerages across investment sales, leasing, tenant rep and capital markets. It centralizes contacts, properties and deal pipelines in one workspace, with LLC-ownership unmasking and market-insight data attached to standard CRM records.\n",
+      "real_estate_use": "A commercial broker logs a new prospect and sees the property's ownership — including behind an LLC — plus related market data, instead of researching it separately. Through a deal's lifecycle, the broker moves it across a shared pipeline-stage view, keeping contact history, requirements and comps attached to the same record rather than scattered across spreadsheets and email.\n",
+      "features": [
+        "Contact, property and deal pipeline in one CRM",
+        "LLC-ownership unmasking",
+        "Market insight data on CRM records",
+        "Deal-stage pipeline tracking",
+        "Team-shared contact and deal history"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Unmask the LLC behind a property owner and attach the finding directly to a CRM contact record"
+        },
+        {
+          "persona": "brokerage",
+          "job": "Track deals across investment sales, leasing and capital markets in one shared pipeline"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage"
+      ],
+      "segments": [
+        "office",
+        "retail",
+        "industrial"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "reviews": [],
+      "logo": {
+        "file": "logos/rethink-by-buildout.png",
+        "source_url": "https://cdn.prod.website-files.com/641a1c972968413ab4e2fd3b/644bf1445cc66b55fa621bef_WebClip.png",
+        "fetched_on": "2026-09-05"
+      },
+      "signals": {
+        "pricing": "https://www.buildout.com/pricing",
+        "checked_on": "2026-09-05"
+      },
+      "sources": [
+        {
+          "url": "https://www.buildout.com/platform/rethink-by-buildout",
+          "note": "site éditeur — le domaine historique rethinkcrm.com sert désormais du contenu compromis (spam), écarté ; le produit vit chez Buildout"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-05"
+    },
+    {
       "slug": "salvia-developpement",
       "name": "Salvia Développement",
       "editor": "Salvia Software",
@@ -17319,6 +17689,76 @@
         "checked_by": null
       },
       "updated": "2026-08-31"
+    },
+    {
+      "slug": "scoplan",
+      "name": "Scoplan",
+      "editor": "Scoplan",
+      "website": "https://www.scoplan.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "construction-development",
+      "also_in": [
+        "crm-lead"
+      ],
+      "positioning": "All-in-one management software for real estate developers selling under VEFA.",
+      "description": "Scoplan is a French SaaS platform for real estate developers, house-building companies (constructeurs de maisons) and renovators. It runs the VEFA sales-to-handover cycle in one tool: prospect and buyer CRM, an extranet for external sales agents, digital reservation with e-signature, batch fund-call generation, works and warranty (SAV/TMA) tracking, and the buyer's digital carnet d'information du logement.\n",
+      "real_estate_use": "A developer's sales team tracks reservations and options as units in a program move from launch to signed VEFA contract, while an outside estate agency acting as a prescriber consults the same program and its brochures through its own extranet login. Once construction starts, the works team logs progress against schedule, generates and batches fund calls to buyers, and issues each buyer's digital carnet du logement at handover. After delivery, the SAV team logs and tracks buyer-reported defects (TMA) against warranty deadlines.\n",
+      "features": [
+        "Buyer and prospect CRM",
+        "External sales-agent extranet",
+        "Digital reservation with e-signature",
+        "Batch fund-call generation",
+        "Works and SAV/TMA tracking",
+        "Digital carnet d'information du logement"
+      ],
+      "use_cases": [
+        {
+          "persona": "developer-builder",
+          "job": "Track VEFA reservations, options and fund calls for a residential program from launch to handover"
+        },
+        {
+          "persona": "agent-broker",
+          "job": "Consult a developer's live program inventory and brochures as an external prescribing agency"
+        }
+      ],
+      "personas": [
+        "developer-builder",
+        "agent-broker"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "per-seat",
+        "public_pricing": true,
+        "url": "https://www.scoplan.com/fr/Promoteur"
+      },
+      "reviews": [],
+      "signals": {
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-09-05"
+      },
+      "sources": [
+        {
+          "url": "https://www.scoplan.com/fr/Promoteur",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-05"
     },
     {
       "slug": "seloger",

@@ -72,6 +72,9 @@ function toYaml(f) {
   L.push('pricing:');
   L.push(`  model: ${f.pricing.model}`);
   L.push(`  public_pricing: ${f.pricing.public_pricing}`);
+  if (f.pricing.from !== undefined && f.pricing.from !== null) L.push(`  from: ${f.pricing.from}`);
+  if (f.pricing.currency) L.push(`  currency: ${f.pricing.currency}`);
+  if (f.pricing.unit) L.push(`  unit: ${q(f.pricing.unit)}`);
   if (f.pricing.url) L.push(`  url: ${f.pricing.url}`);
   if (f.integrations?.length) L.push(`integrations: ${inline(f.integrations)}`);
   if (f.ai?.capabilities?.length) { L.push('ai:'); L.push(`  capabilities: ${inline(f.ai.capabilities)}`); }

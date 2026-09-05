@@ -77,16 +77,6 @@ qu'une chose a été tentée vaut mieux que de la retenter.
   catégorie existe et la taxonomie convient : c'est le trou le plus large du
   catalogue. Même remarque, en plus petit, pour `ai-assistants` côté français.
 
-- **`fiche.mjs --from` accepte `pricing.from/currency/unit` mais `toYaml()` ne les
-  écrit jamais.** `data/SCHEMA.md` documente ces trois clés comme valides ; le
-  rendu YAML de `scripts/enrich/fiche.mjs` (fonction `toYaml`, bloc `pricing:`)
-  ne pousse que `model`, `public_pricing` et `url`. Rencontré le 2026-09-04 en
-  écrivant la fiche `danim`, dont le site publie un vrai tarif public — les
-  trois champs ont dû être retirés du JSON d'entrée, silencieusement sans
-  erreur ni avertissement. Aucune fiche du dépôt n'utilise `from:` aujourd'hui,
-  donc le manque est invisible tant que personne ne cherche à afficher un prix
-  de départ. À corriger dans `toYaml()`.
-
 ## Ouvert — site et données
 
 - **Comparaison deux à deux.** Une page « X vs Y » pour les paires réellement
@@ -115,6 +105,19 @@ qu'une chose a été tentée vaut mieux que de la retenter.
 ---
 
 ## Fait
+
+- **2026-09-05** — `fiche.mjs --from` acceptait `pricing.from/currency/unit`
+  (documentés dans `data/SCHEMA.md`) mais `toYaml()` ne rendait que `model`,
+  `public_pricing` et `url` : les trois champs disparaissaient du YAML en
+  silence, sans erreur ni avertissement. Rencontré le 04/09 en écrivant la
+  fiche `danim`, dont le site publie un vrai tarif public. Corrigé en trois
+  lignes dans `toYaml()` (bloc `pricing:`), sur le modèle de la condition déjà
+  en place pour `url`. Vérifié par une fiche jetable passée par `--from` avec
+  les trois champs renseignés, YAML relu à l'œil, puis retirée — le dépôt n'a
+  pas de test unitaire pour `toYaml()` (elle vit dans un script à effets de
+  bord, pas dans `lib.mjs`), donc rien ne protège cette fonction d'une
+  régression future ; l'extraire serait le prochain geste si `pricing.from`
+  se remet à servir.
 
 - **2026-09-04** — `data/sweeps.json` ne connaissait que les passes
   automatiques : seul `sweep.mjs` y écrivait, donc une source balayée à la main
