@@ -30,6 +30,12 @@
       "source_url": "https://cdn.prod.website-files.com/61ae81de929387df07374012/6781795412eeccb7d2196011_webclip.svg",
       "why": "le SVG webclip se rend en image quasi blanche, illisible — rien d'exploitable comme logo.",
       "on": "2026-09-04"
+    },
+    {
+      "slug": "scoplan",
+      "source_url": "https://www.scoplan.com/build/company/img/favicon.ico",
+      "why": "favicon flou (icône lune/nuage) sans rapport visible avec la marque Scoplan — rien qui ressemble à un logo, pas de source de repli identifiée.",
+      "on": "2026-09-05"
     }
   ]
 }

@@ -1,0 +1,52 @@
+slug: property-hub
+name: Property Hub
+editor: Property Hub
+website: https://www.property-hub.com
+hq_country: US
+markets: [US]
+category: flex-coworking
+positioning: Salesforce-native CRM built specifically for flexible-workspace operators and the brokers who lease them.
+description: >
+  Property Hub is a CRM built on the Salesforce platform for operators of flexible
+  workspaces and the commercial real estate brokers who lease them. It manages
+  listings, leads, tours and lease renewals in one place, and adds flex-market
+  analytics such as price-per-desk benchmarks on top of standard CRM records.
+real_estate_use: >
+  A flex-space operator's leasing team tracks incoming leads and scheduled tours for
+  available desks and suites across its portfolio, and follows upcoming lease renewals
+  from the same pipeline. A CRE broker specializing in flexible offices uses the same
+  platform to match a client's requirement against available flex inventory and to
+  check price-per-desk benchmarks for a given market before making an offer.
+features:
+  - Flexible-workspace listing and lead management
+  - Tour scheduling
+  - Lease-renewal tracking
+  - Flex-market price benchmarking (price per desk)
+  - Native Salesforce integration with 500+ apps via API
+use_cases:
+  - persona: property-manager
+    job: "Track leads, tours and lease renewals for flexible-workspace inventory across a portfolio"
+  - persona: agent-broker
+    job: Match a client's requirement to available flex-office inventory and check price-per-desk benchmarks
+personas: [property-manager, agent-broker]
+segments: [office]
+company_sizes: [smb, midmarket]
+pricing:
+  model: subscription
+  public_pricing: true
+  url: https://www.property-hub.com/
+integrations: [Salesforce]
+reviews: []
+logo:
+  file: logos/property-hub.png
+  source_url: https://www.google.com/s2/favicons?domain=property-hub.com&sz=256
+  fetched_on: "2026-09-05"
+signals:
+  pricing: https://www.property-hub.com/pricing
+  privacy: https://www.property-hub.com/privacy-policy
+  site_languages: [en]
+  checked_on: "2026-09-05"
+sources:
+  - { url: https://www.property-hub.com/, note: site éditeur }
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-09-05"
