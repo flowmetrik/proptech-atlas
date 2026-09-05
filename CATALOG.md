@@ -2,7 +2,7 @@
 
 <!-- Généré par `npm run data:emit`. Ne pas éditer à la main : éditer `data/tools/*.yaml`. -->
 
-223 produits · 133 🇺🇸 · 120 🇫🇷 · mis à jour le 2026-09-04
+229 produits · 135 🇺🇸 · 124 🇫🇷 · mis à jour le 2026-09-05
 
 Version navigable : https://flowmetrik.github.io/proptech-atlas/explore
 
@@ -26,6 +26,7 @@ _Capter, qualifier et travailler les leads acquéreurs, vendeurs et locataires._
 | [Netty](data/tools/netty.yaml) | Netty | 🇫🇷 | Independent French agencies compete with national networks whose brand carries the online traffic. Netty's positioning answers that: the agency site is built for local search visibility… |
 | [Pilotim](data/tools/pilotim.yaml) | Pilotim | 🇫🇷 | An independent French agency runs its day inside Pilotim: entering a mandate, matching it against the buyer base, publishing it, and keeping the record of what was said and when. The AI… |
 | [Prospeneo](data/tools/prospeneo.yaml) | Facilogi | 🇫🇷 | A mandataire network has a structural problem an agency does not: several hundred independent agents, each with their own listings and contacts, who must be equipped identically and… |
+| [Rethink by Buildout](data/tools/rethink-by-buildout.yaml) | Buildout | 🇺🇸 | A commercial broker logs a new prospect and sees the property's ownership — including behind an LLC — plus related market data, instead of researching it separately. Through a deal's… |
 | [Sierra Interactive](data/tools/sierra-interactive.yaml) | Sierra Interactive | 🇺🇸 | Teams that treat their website as the lead source, not as a brochure, use Sierra to build hundreds of hyperlocal landing pages, capture registrations behind listing detail, and drop the… |
 | [SweepBright](data/tools/sweepbright.yaml) | SweepBright | 🇫🇷 | The design assumption is that the agent is never at a desk. Capturing the property during the valuation visit — rooms, photos, description — and publishing directly from the phone… |
 | [Twimmo](data/tools/twimmo.yaml) | Twimmo France | 🇫🇷 | An independent agency of two or three negotiators does not have the time to integrate a CRM, a website builder and a syndication tool, and Twimmo is built for exactly that refusal: one… |
@@ -130,6 +131,7 @@ _Baux, quittances, propriétaires, locataires, travaux et comptabilité mandant.
 | [Avail](data/tools/avail.yaml) | Realtor.com (Move, Inc.) | 🇺🇸 | The distribution matters: a unit listed in Avail appears on Realtor.com and partner sites, so a landlord with two properties reaches the same audience as a management company. Rent… |
 | [BailFacile](data/tools/bailfacile.yaml) | BailFacile | 🇫🇷 | A French landlord who refuses a management mandate inherits the mandate's obligations anyway: a lease that satisfies the ALUR law, an entry and exit condition report that will hold up if… |
 | [Buildium](data/tools/buildium.yaml) | RealPage | 🇺🇸 | It sits at the tier below AppFolio and Entrata: a company managing a few hundred doors, often mixed between rentals and homeowner associations. The HOA module handles association dues… |
+| [Dematimmo](data/tools/dematimmo.yaml) | Activinnov | 🇫🇷 | A social landlord's allocation team pulls candidate case files automatically from its ERP ahead of a CALEOL session, runs the session either in person with a projection screen or fully… |
 | [DoorLoop](data/tools/doorloop.yaml) | DoorLoop | 🇺🇸 | Its typical buyer is a manager leaving spreadsheets, or one leaving an older system whose interface their staff never mastered. The practical argument is onboarding time: a small team… |
 | [Entrata](data/tools/entrata.yaml) | Entrata | 🇺🇸 | Large apartment operators use it to run a lease-up and a stabilised asset on the same ledger. A prospect finds the community site, is answered by the AI leasing agent at midnight, tours… |
 | [Gererseul](data/tools/gererseul.yaml) | Gererseul | 🇫🇷 | Self-management fails on the events, not on the routine: the annual IRL indexation letter, the charge regularisation, the notice given in the correct form and delay. Gererseul's value is… |
@@ -193,6 +195,7 @@ _Modéliser une opération, tester des scénarios, produire un mémo d'investiss
 | [Dealpath](data/tools/dealpath.yaml) | Dealpath | 🇺🇸 | An acquisitions team screens far more deals than it buys, and the institutional memory of the ones it passed on is usually lost. Dealpath keeps every screened deal with its underwriting… |
 | [Horiz.io](data/tools/horiz.yaml) | Horiz.io | 🇫🇷 | In France the tax regime often decides whether an investment works — the same apartment can be cash-flow negative unfurnished and positive under a furnished regime with amortisation.… |
 | [Juniper Square](data/tools/juniper-square.yaml) | Juniper Square | 🇺🇸 | A sponsor raising from private investors has to track ownership across entities, calculate a promote correctly, and produce K-1 packages and quarterly reports that LPs trust. Getting… |
+| [LEON](data/tools/leon-scepia.yaml) | Scepia | 🇫🇷 | A social-housing developer's operations team enters a new PLUS or PLAI project and gets a first financial-ratio result within minutes, checking profitability before committing further… |
 
 ## Financement, crédit & courtage · Lending, mortgage & brokerage
 
@@ -240,6 +243,7 @@ _Faisabilité, pilotage de projet, suivi de chantier et livraison._
 | [Obat](data/tools/obat.yaml) | Obat | 🇫🇷 | A tradesperson's quote is a legal document: reduced VAT rates depend on the works and the age of the property, the décennale insurance reference must appear, and a renovation aid scheme… |
 | [Procore](data/tools/procore.yaml) | Procore Technologies | 🇺🇸 🇫🇷 | On a development, disputes are usually about which version of a document someone was working from. Procore holds the drawings, RFIs, submittals, daily logs, change orders and photos in… |
 | [Salvia Développement](data/tools/salvia-developpement.yaml) | Salvia Software | 🇫🇷 | A French development operation has a financial structure no generic tool models: the bilan promoteur, VEFA sales where the buyer pays by construction milestone, and a margin that moves… |
+| [Scoplan](data/tools/scoplan.yaml) | Scoplan | 🇫🇷 | A developer's sales team tracks reservations and options as units in a program move from launch to signed VEFA contract, while an outside estate agency acting as a prescriber consults… |
 | [Vertuoza](data/tools/vertuoza.yaml) | Vertuoza | 🇫🇷 | The recurring loss in a small construction firm is untracked labour hours. Vertuoza chains the estimate to the planning and the hours actually clocked on site, so the profitability of a… |
 
 ## Facility management & maintenance · Facility management & maintenance
@@ -306,6 +310,7 @@ _Abonnements, réservation de postes, facturation et animation d'espaces flexibl
 | [Nexudus](data/tools/nexudus.yaml) | Nexudus | 🇺🇸 🇫🇷 | Flex operators rarely run the same model twice — credit systems for room hours, tiered plans, franchise structures, mixed private-office and hot-desk inventory. Nexudus is chosen for the… |
 | [OfficeRnD Flex](data/tools/officernd.yaml) | OfficeRnD | 🇺🇸 🇫🇷 | A flex operator's revenue is a mesh of monthly memberships, day passes, room hours and overage charges — billing that breaks any standard property accounting model. OfficeRnD automates… |
 | [Optix](data/tools/optix.yaml) | ShareDesk Global | 🇺🇸 | A coworking or flex-space operator uses Optix to run day-to-day operations — desk and room bookings, plan and pass sales, invoicing, visitor management — and to automate recurring admin… |
+| [Property Hub](data/tools/property-hub.yaml) | Property Hub | 🇺🇸 | A flex-space operator's leasing team tracks incoming leads and scheduled tours for available desks and suites across its portfolio, and follows upcoming lease renewals from the same… |
 | [Spacebring](data/tools/spacebring.yaml) | Spacebring | 🇺🇸 | A coworking operator uses Spacebring to sign up new members, run recurring billing automatically, let members book desks and rooms from a branded app, and manage day-to-day operations… |
 | [Tydeck](data/tools/tydeck.yaml) | Tydeck | 🇫🇷 | An operator running one or several flex sites uses Tydeck to stop being the booking desk. A new corporate client is created in a couple of minutes, gets an onboarding invitation and… |
 
@@ -381,6 +386,7 @@ _Comptabilité mandant, reddition de comptes, commissions et back-office d'agenc
 | [Baselane](data/tools/baselane.yaml) | Baselane | 🇺🇸 | Commingling funds across properties is the classic small-landlord accounting failure, and the usual fix — a bank account per property — is administratively painful. Virtual accounts give… |
 | [BoldTrail BackOffice (Brokermint)](data/tools/brokermint.yaml) | Inside Real Estate | 🇺🇸 | The problem it solves is that commission structures are individually negotiated. A brokerage encodes each agent's split, cap and fee schedule once, and every closing then produces a… |
 | [ClickPay](data/tools/clickpay.yaml) | ClickPay | 🇺🇸 | A property or association manager stops manually keying in checks and money orders by routing every payment channel (online portal, mailed check, walk-in cash) through ClickPay, which… |
+| [DÉCISIO Habitat](data/tools/decisio-habitat.yaml) | A5sys | 🇫🇷 | A social-housing director tracks portfolio-wide vacancy and rent-arrears indicators without exporting spreadsheets from separate ERP, CRM and maintenance systems. Finance staff follow… |
 | [Lone Wolf Back Office](data/tools/lone-wolf-back-office.yaml) | Lone Wolf Technologies | 🇺🇸 | Earnest money held on behalf of a client is not brokerage revenue, and a state regulator will test that distinction. Back Office keeps trust accounts reconciled and segregated, ties… |
 | [Ownily](data/tools/ownily.yaml) | Ownily | 🇫🇷 | An SCI subject to corporation tax must keep double-entry accounts, amortise the building, and file a liasse fiscale — obligations most owners discover after buying. Ownily targets that… |
 | [Stessa](data/tools/stessa.yaml) | Roofstock | 🇺🇸 | The individual investor's real problem is Schedule E: proving, a year later, which transaction belonged to which property. Stessa auto-categorises bank activity by property, keeps… |

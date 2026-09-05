@@ -4,7 +4,7 @@
   "label_fr": "Gestion locative résidentielle",
   "summary_en": "Leases, rent, owners, tenants, maintenance and trust accounting.",
   "summary_fr": "Baux, quittances, propriétaires, locataires, travaux et comptabilité mandant.",
-  "count": 48,
+  "count": 50,
   "tools": [
     {
       "slug": "aareon",
@@ -987,6 +987,156 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "decisio-habitat",
+      "name": "DÉCISIO Habitat",
+      "editor": "A5sys",
+      "website": "https://www.decisio-habitat.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "back-office-accounting",
+      "also_in": [
+        "property-management"
+      ],
+      "positioning": "Business-intelligence platform that turns a social landlord's scattered systems into one decision-making dashboard.",
+      "description": "DÉCISIO Habitat is a French SaaS business-intelligence layer built for social housing landlords (bailleurs sociaux). It does not replace a landlord's ERP; it centralizes rental, property, financial and technical data pulled from existing systems and turns it into dashboards covering vacancy, rent arrears and recovery, tenant allocation, and property diagnostics.\n",
+      "real_estate_use": "A social-housing director tracks portfolio-wide vacancy and rent-arrears indicators without exporting spreadsheets from separate ERP, CRM and maintenance systems. Finance staff follow arrears ageing and recovery-action progress to prioritize collection, while property teams monitor allocation activity and diagnostic compliance across the stock. Because it plugs into a landlord's existing tools rather than replacing them, deployment runs in under three months.\n",
+      "features": [
+        "Cross-system data centralization (ERP, GED, GMAO, CRM)",
+        "Vacancy and rent-arrears dashboards",
+        "Tenant allocation and diagnostics reporting",
+        "Customizable indicators by objective",
+        "Connectors for HLM-sector ERPs (Aareon, IKOS, Ulis, Salvia)"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Monitor rent arrears, ageing of debt and recovery actions across the housing stock from one dashboard"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "Track portfolio-wide vacancy and diagnostic compliance without manual exports from separate systems"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "landlord-owner"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Aareon",
+        "IKOS",
+        "Ulis",
+        "Salvia"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/decisio-habitat.png",
+        "source_url": "https://www.decisio-habitat.com/wp-content/uploads/2025/03/Logo-vert.png",
+        "fetched_on": "2026-09-05"
+      },
+      "signals": {
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-09-05"
+      },
+      "sources": [
+        {
+          "url": "https://www.decisio-habitat.com/logiciel-bailleur-social/",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-05"
+    },
+    {
+      "slug": "dematimmo",
+      "name": "Dematimmo",
+      "editor": "Activinnov",
+      "website": "https://www.activinnov.com/dematimmo",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "property-management",
+      "positioning": "Digital platform that runs a French social landlord's tenant-allocation committee (CALEOL), on-site or fully remote.",
+      "description": "Dematimmo is a French SaaS product from Activinnov that digitizes the CALEOL — the regulated committee French social landlords must hold before allocating a home. It prepares case files pulled from the landlord's ERP, runs the committee session on-screen or fully remotely with e-signed minutes and electronic voting, and pushes the attribution result back into the ERP.\n",
+      "real_estate_use": "A social landlord's allocation team pulls candidate case files automatically from its ERP ahead of a CALEOL session, runs the session either in person with a projection screen or fully online, records votes and e-signs the minutes, then pushes the outcome back into the ERP without re-entering data. Compliance staff use the same platform to generate attribution reports by commune, EPCI or préfecture, with traceability of every vote.\n",
+      "features": [
+        "Automatic case-file preparation from the ERP",
+        "On-site and fully remote CALEOL sessions",
+        "Electronic voting and e-signed minutes",
+        "Attribution reporting by commune/EPCI/préfecture",
+        "Two-way ERP synchronization via connectors"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Run a tenant-allocation committee (CALEOL) session, on-site or remotely, with e-signed minutes"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "Generate auditable attribution reports by commune or préfecture for regulatory compliance"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "landlord-owner"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "reviews": [],
+      "logo": {
+        "file": "logos/dematimmo.png",
+        "source_url": "https://www.activinnov.com/wp-content/themes/activinnov/public/assets/images/favicons/favicon-32x32.png",
+        "fetched_on": "2026-09-05"
+      },
+      "signals": {
+        "privacy": "https://www.activinnov.com/politique-de-confidentialite",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-09-05"
+      },
+      "sources": [
+        {
+          "url": "https://www.activinnov.com/dematimmo/",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-05"
     },
     {
       "slug": "doorloop",

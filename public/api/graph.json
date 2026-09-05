@@ -4,22 +4,22 @@
   "license": "CC-BY-4.0 (data) / MIT (code)",
   "homepage": "https://flowmetrik.github.io/proptech-atlas",
   "repository": "https://github.com/flowmetrik/proptech-atlas",
-  "generated": "2026-09-04",
+  "generated": "2026-09-05",
   "counts": {
-    "tools": 223,
-    "US": 133,
-    "FR": 120,
+    "tools": 229,
+    "US": 135,
+    "FR": 124,
     "categories": 24,
-    "editors": 206,
+    "editors": 212,
     "verified": 0,
     "reviews": 0,
-    "logos": 216,
+    "logos": 221,
     "signals": {
-      "probed": 209,
-      "public_pricing": 57,
+      "probed": 215,
+      "public_pricing": 59,
       "api_docs": 17,
       "security_page": 30,
-      "privacy_page": 153,
+      "privacy_page": 156,
       "status_page": 59
     }
   },
@@ -295,9 +295,19 @@
       "label": "Dealpath"
     },
     {
+      "id": "tool:decisio-habitat",
+      "type": "tool",
+      "label": "DÉCISIO Habitat"
+    },
+    {
       "id": "tool:deepki",
       "type": "tool",
       "label": "Deepki"
+    },
+    {
+      "id": "tool:dematimmo",
+      "type": "tool",
+      "label": "Dematimmo"
     },
     {
       "id": "tool:diag-pilote",
@@ -575,6 +585,11 @@
       "label": "Leboncoin Immobilier"
     },
     {
+      "id": "tool:leon-scepia",
+      "type": "tool",
+      "label": "LEON"
+    },
+    {
       "id": "tool:liciel",
       "type": "tool",
       "label": "LICIEL"
@@ -790,6 +805,11 @@
       "label": "Procore"
     },
     {
+      "id": "tool:property-hub",
+      "type": "tool",
+      "label": "Property Hub"
+    },
+    {
       "id": "tool:property-inspect",
       "type": "tool",
       "label": "Property Inspect"
@@ -880,9 +900,19 @@
       "label": "ResWare"
     },
     {
+      "id": "tool:rethink-by-buildout",
+      "type": "tool",
+      "label": "Rethink by Buildout"
+    },
+    {
       "id": "tool:salvia-developpement",
       "type": "tool",
       "label": "Salvia Développement"
+    },
+    {
+      "id": "tool:scoplan",
+      "type": "tool",
+      "label": "Scoplan"
     },
     {
       "id": "tool:seloger",
@@ -1645,9 +1675,19 @@
       "label": "Dealpath"
     },
     {
+      "id": "editor:A5sys",
+      "type": "editor",
+      "label": "A5sys"
+    },
+    {
       "id": "editor:Deepki",
       "type": "editor",
       "label": "Deepki"
+    },
+    {
+      "id": "editor:Activinnov",
+      "type": "editor",
+      "label": "Activinnov"
     },
     {
       "id": "editor:ELANOS",
@@ -1900,6 +1940,11 @@
       "label": "Leboncoin (Adevinta)"
     },
     {
+      "id": "editor:Scepia",
+      "type": "editor",
+      "label": "Scepia"
+    },
+    {
       "id": "editor:LICIEL Environnement",
       "type": "editor",
       "label": "LICIEL Environnement"
@@ -2090,6 +2135,11 @@
       "label": "Procore Technologies"
     },
     {
+      "id": "editor:Property Hub",
+      "type": "editor",
+      "label": "Property Hub"
+    },
+    {
       "id": "editor:Property Inspect",
       "type": "editor",
       "label": "Property Inspect"
@@ -2170,9 +2220,19 @@
       "label": "Adeptive Software (Qualia)"
     },
     {
+      "id": "editor:Buildout",
+      "type": "editor",
+      "label": "Buildout"
+    },
+    {
       "id": "editor:Salvia Software",
       "type": "editor",
       "label": "Salvia Software"
+    },
+    {
+      "id": "editor:Scoplan",
+      "type": "editor",
+      "label": "Scoplan"
     },
     {
       "id": "editor:Fortive",
@@ -5592,6 +5652,41 @@
       "to": "tool:juniper-square"
     },
     {
+      "from": "tool:decisio-habitat",
+      "rel": "published_by",
+      "to": "editor:A5sys"
+    },
+    {
+      "from": "tool:decisio-habitat",
+      "rel": "belongs_to",
+      "to": "category:back-office-accounting"
+    },
+    {
+      "from": "tool:decisio-habitat",
+      "rel": "also_serves",
+      "to": "category:property-management"
+    },
+    {
+      "from": "tool:decisio-habitat",
+      "rel": "serves_persona",
+      "to": "persona:property-manager"
+    },
+    {
+      "from": "tool:decisio-habitat",
+      "rel": "serves_persona",
+      "to": "persona:landlord-owner"
+    },
+    {
+      "from": "tool:decisio-habitat",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:decisio-habitat",
+      "rel": "available_in",
+      "to": "market:FR"
+    },
+    {
       "from": "tool:deepki",
       "rel": "published_by",
       "to": "editor:Deepki"
@@ -5675,6 +5770,36 @@
       "from": "tool:deepki",
       "rel": "alternative_to",
       "to": "tool:ubigreen"
+    },
+    {
+      "from": "tool:dematimmo",
+      "rel": "published_by",
+      "to": "editor:Activinnov"
+    },
+    {
+      "from": "tool:dematimmo",
+      "rel": "belongs_to",
+      "to": "category:property-management"
+    },
+    {
+      "from": "tool:dematimmo",
+      "rel": "serves_persona",
+      "to": "persona:property-manager"
+    },
+    {
+      "from": "tool:dematimmo",
+      "rel": "serves_persona",
+      "to": "persona:landlord-owner"
+    },
+    {
+      "from": "tool:dematimmo",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:dematimmo",
+      "rel": "available_in",
+      "to": "market:FR"
     },
     {
       "from": "tool:diag-pilote",
@@ -8862,6 +8987,41 @@
       "to": "tool:pap"
     },
     {
+      "from": "tool:leon-scepia",
+      "rel": "published_by",
+      "to": "editor:Scepia"
+    },
+    {
+      "from": "tool:leon-scepia",
+      "rel": "belongs_to",
+      "to": "category:investment-underwriting"
+    },
+    {
+      "from": "tool:leon-scepia",
+      "rel": "also_serves",
+      "to": "category:construction-development"
+    },
+    {
+      "from": "tool:leon-scepia",
+      "rel": "serves_persona",
+      "to": "persona:developer-builder"
+    },
+    {
+      "from": "tool:leon-scepia",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:leon-scepia",
+      "rel": "covers_segment",
+      "to": "segment:land-development"
+    },
+    {
+      "from": "tool:leon-scepia",
+      "rel": "available_in",
+      "to": "market:FR"
+    },
+    {
       "from": "tool:liciel",
       "rel": "published_by",
       "to": "editor:LICIEL Environnement"
@@ -11457,6 +11617,36 @@
       "to": "tool:northspyre"
     },
     {
+      "from": "tool:property-hub",
+      "rel": "published_by",
+      "to": "editor:Property Hub"
+    },
+    {
+      "from": "tool:property-hub",
+      "rel": "belongs_to",
+      "to": "category:flex-coworking"
+    },
+    {
+      "from": "tool:property-hub",
+      "rel": "serves_persona",
+      "to": "persona:property-manager"
+    },
+    {
+      "from": "tool:property-hub",
+      "rel": "serves_persona",
+      "to": "persona:agent-broker"
+    },
+    {
+      "from": "tool:property-hub",
+      "rel": "covers_segment",
+      "to": "segment:office"
+    },
+    {
+      "from": "tool:property-hub",
+      "rel": "available_in",
+      "to": "market:US"
+    },
+    {
       "from": "tool:property-inspect",
       "rel": "published_by",
       "to": "editor:Property Inspect"
@@ -12577,6 +12767,46 @@
       "to": "tool:softpro"
     },
     {
+      "from": "tool:rethink-by-buildout",
+      "rel": "published_by",
+      "to": "editor:Buildout"
+    },
+    {
+      "from": "tool:rethink-by-buildout",
+      "rel": "belongs_to",
+      "to": "category:crm-lead"
+    },
+    {
+      "from": "tool:rethink-by-buildout",
+      "rel": "serves_persona",
+      "to": "persona:agent-broker"
+    },
+    {
+      "from": "tool:rethink-by-buildout",
+      "rel": "serves_persona",
+      "to": "persona:brokerage"
+    },
+    {
+      "from": "tool:rethink-by-buildout",
+      "rel": "covers_segment",
+      "to": "segment:office"
+    },
+    {
+      "from": "tool:rethink-by-buildout",
+      "rel": "covers_segment",
+      "to": "segment:retail"
+    },
+    {
+      "from": "tool:rethink-by-buildout",
+      "rel": "covers_segment",
+      "to": "segment:industrial"
+    },
+    {
+      "from": "tool:rethink-by-buildout",
+      "rel": "available_in",
+      "to": "market:US"
+    },
+    {
       "from": "tool:salvia-developpement",
       "rel": "published_by",
       "to": "editor:Salvia Software"
@@ -12635,6 +12865,41 @@
       "from": "tool:salvia-developpement",
       "rel": "alternative_to",
       "to": "tool:kairnial"
+    },
+    {
+      "from": "tool:scoplan",
+      "rel": "published_by",
+      "to": "editor:Scoplan"
+    },
+    {
+      "from": "tool:scoplan",
+      "rel": "belongs_to",
+      "to": "category:construction-development"
+    },
+    {
+      "from": "tool:scoplan",
+      "rel": "also_serves",
+      "to": "category:crm-lead"
+    },
+    {
+      "from": "tool:scoplan",
+      "rel": "serves_persona",
+      "to": "persona:developer-builder"
+    },
+    {
+      "from": "tool:scoplan",
+      "rel": "serves_persona",
+      "to": "persona:agent-broker"
+    },
+    {
+      "from": "tool:scoplan",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:scoplan",
+      "rel": "available_in",
+      "to": "market:FR"
     },
     {
       "from": "tool:seloger",
