@@ -1,20 +1,6 @@
 {
-  "generated": "2026-09-05",
+  "generated": "2026-09-07",
   "candidates": [
-    {
-      "name": "Coprolib'",
-      "editor": "Coprolib",
-      "website": "https://www.coprolib.com",
-      "category": "syndic-copro",
-      "markets": [
-        "FR"
-      ],
-      "why": "Solution en ligne dédiée aux syndics bénévoles pour automatiser la comptabilité, les appels de fonds et l'organisation des assemblées générales.",
-      "source_url": "https://www.coprolib.com/logiciel/",
-      "found_in": "syndic-copro/FR",
-      "slug": "coprolib",
-      "verified_on": "2026-08-25"
-    },
     {
       "name": "Copromatic",
       "editor": "Copromatic",
@@ -58,20 +44,6 @@
       "verified_on": "2026-08-25"
     },
     {
-      "name": "Diacamma",
-      "editor": "Diacamma",
-      "website": "https://www.diacamma.org",
-      "category": "syndic-copro",
-      "markets": [
-        "FR"
-      ],
-      "why": "Logiciel libre et gratuit configurable pour tenir la comptabilité d'une copropriété, générer les appels de fonds et répartir les dépenses par tantièmes.",
-      "source_url": "https://www.diacamma.org/",
-      "found_in": "syndic-copro/FR",
-      "slug": "diacamma",
-      "verified_on": "2026-08-25"
-    },
-    {
       "name": "LogicielSyndic",
       "editor": "LogicielSyndic",
       "website": "https://logicielsyndic.fr",
@@ -112,92 +84,6 @@
       "found_in": "syndic-copro/FR",
       "slug": "mon-syndic-b-n-vole",
       "verified_on": "2026-08-25"
-    },
-    {
-      "name": "Scoplan",
-      "slug": "scoplan",
-      "editor": "Scoplan",
-      "website": "https://www.scoplan.com",
-      "category": "construction-development",
-      "markets": [
-        "FR"
-      ],
-      "why": "",
-      "source_url": "https://www.scoplan.com",
-      "found_in": "manuel",
-      "verified_on": "2026-09-05"
-    },
-    {
-      "name": "Décisio Habitat",
-      "slug": "decisio-habitat",
-      "editor": "A5sys",
-      "website": "https://www.decisio-habitat.com",
-      "category": "back-office-accounting",
-      "markets": [
-        "FR"
-      ],
-      "why": "",
-      "source_url": "https://www.decisio-habitat.com",
-      "found_in": "manuel",
-      "verified_on": "2026-09-05"
-    },
-    {
-      "name": "Dematimmo",
-      "slug": "dematimmo",
-      "editor": "Activinnov",
-      "website": "https://www.activinnov.com/dematimmo",
-      "category": "property-management",
-      "markets": [
-        "FR"
-      ],
-      "why": "",
-      "source_url": "https://www.activinnov.com/dematimmo",
-      "found_in": "manuel",
-      "verified_on": "2026-09-05"
-    },
-    {
-      "name": "Léon",
-      "slug": "leon",
-      "editor": "Scepia",
-      "website": "https://www.scepia.fr/leon",
-      "category": "construction-development",
-      "markets": [
-        "FR"
-      ],
-      "why": "",
-      "source_url": "https://www.scepia.fr/leon",
-      "found_in": "manuel",
-      "verified_on": "2026-09-05",
-      "warn": "ni tarifs, ni fonctionnalites, ni connexion sur l'accueil — domaine peut-etre reconverti, a regarder"
-    },
-    {
-      "name": "Rethink CRM",
-      "slug": "rethink-crm",
-      "editor": "Buildout",
-      "website": "https://www.rethinkcrm.com",
-      "category": "crm-lead",
-      "markets": [
-        "US"
-      ],
-      "why": "",
-      "source_url": "https://www.rethinkcrm.com",
-      "found_in": "manuel",
-      "verified_on": "2026-09-05",
-      "warn": "ni tarifs, ni fonctionnalites, ni connexion sur l'accueil — domaine peut-etre reconverti, a regarder"
-    },
-    {
-      "name": "Property Hub",
-      "slug": "property-hub",
-      "editor": "Property Hub",
-      "website": "https://www.property-hub.com",
-      "category": "flex-coworking",
-      "markets": [
-        "US"
-      ],
-      "why": "",
-      "source_url": "https://www.property-hub.com",
-      "found_in": "manuel",
-      "verified_on": "2026-09-05"
     }
   ],
   "rejected": [
@@ -282,6 +168,23 @@
       "name": "DTIMMO",
       "website": "http://dtimmo.fr",
       "why": "produit réel mais site figé : la dernière version annoncée est « officielle 2014 ». Impossible de dater l'offre actuelle honnêtement."
+    },
+    {
+      "slug": "previsite",
+      "name": "Previsite",
+      "why": "déjà au catalogue ou en file"
+    },
+    {
+      "slug": "properstar",
+      "name": "Properstar",
+      "website": "https://www.properstar.com",
+      "why": "site injoignable"
+    },
+    {
+      "slug": "rethink-crm",
+      "name": "Rethink CRM",
+      "website": "https://www.rethinkcrm.com",
+      "why": "domaine reconverti : rethinkcrm.com sert désormais un site de paris en ligne (UFABET) — le produit vit sous buildout.com/platform/rethink-by-buildout, déjà catalogué sous ce nom"
     }
   ]
 }
