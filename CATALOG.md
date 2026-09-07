@@ -2,7 +2,7 @@
 
 <!-- Généré par `npm run data:emit`. Ne pas éditer à la main : éditer `data/tools/*.yaml`. -->
 
-229 produits · 135 🇺🇸 · 124 🇫🇷 · mis à jour le 2026-09-05
+235 produits · 138 🇺🇸 · 127 🇫🇷 · mis à jour le 2026-09-07
 
 Version navigable : https://flowmetrik.github.io/proptech-atlas/explore
 
@@ -41,6 +41,7 @@ _Piloter une vente de l'offre à l'acte — pièces, signature, conformité, com
 | [ImmoSign](data/tools/immosign.yaml) | MyLegitech | 🇫🇷 | The step that usually breaks a remote signature in France is the handwritten mention: a clause the signer must copy out by hand for the contract to hold. A generic e-signature tool does… |
 | [Lone Wolf Transactions](data/tools/lone-wolf-transactions.yaml) | Lone Wolf Technologies | 🇺🇸 | Because association distribution puts it in front of a very large share of US agents, it is often the default place a purchase agreement is drafted. A brokerage then layers broker review… |
 | [MyNotary](data/tools/mynotary.yaml) | MyNotary | 🇫🇷 | French agency work carries a legal burden the agent is not trained for: a mandate has to be numbered in a register, a compromis has to carry the right clauses for the situation, and an… |
+| [SentriLock](data/tools/sentrilock.yaml) | SentriLock, LLC | 🇺🇸 | A listing agent installs a SentriGuard lockbox on a property so that any showing agent can open it from their phone through the SentriKey app, without a physical key handoff. The same… |
 | [Sinimo](data/tools/sinimo.yaml) | Groupe REALTY | 🇫🇷 | A French agency cannot sell or let anything without a signed mandate, and the paperwork around it is codified: the Hoguet law imposes a numbered mandate register, the SRU law imposes a… |
 | [SkySlope](data/tools/skyslope.yaml) | SkySlope | 🇺🇸 | A brokerage with a legal obligation to retain complete files uses SkySlope to enforce what "complete" means. Each transaction type carries a required-document checklist, files route to a… |
 
@@ -159,7 +160,9 @@ _Gérer l'immeuble en copropriété — budgets, AG, appels de fonds, travaux._
 |---|---|---|---|
 | [CINC Systems](data/tools/cinc-systems.yaml) | CINC Systems | 🇺🇸 | Association management is an accounting business wearing an operations coat: the manager who answers a homeowner about a fine also has to know whether that homeowner's account is… |
 | [Condo Control](data/tools/condo-control.yaml) | Condo Control | 🇺🇸 | A condominium tower runs on things a rental building never has to think about: a front desk logging visitors, a party room booked three weeks ahead, a package wall that overflows every… |
+| [Coprolib'](data/tools/coprolib.yaml) | Coprolib' | 🇫🇷 | A volunteer syndic uses Coprolib' to keep the building's books compliant without hiring an accountant: fund calls, expense allocation and financial statements are automated, and every… |
 | [Crypto (Septeo Solutions Immobilier)](data/tools/crypto-septeo.yaml) | Septeo | 🇫🇷 | It is the system of record in many established French administration de biens firms, chosen for accounting depth rather than for interface. Its centre of gravity is the regulated ledger… |
+| [Diacamma](data/tools/diacamma.yaml) | Diacamma | 🇫🇷 | A syndic bénévole installs Diacamma to run the building's accounts without paying for a commercial license: fund calls go out automatically split by tantièmes, each co-owner's balance is… |
 | [FRONTSTEPS](data/tools/frontsteps.yaml) | FRONTSTEPS | 🇺🇸 | A community association manager's day splits between a desk and a gate: assessments to post, a board packet to prepare, and then a visitor list, an amenity, a patrol log. FRONTSTEPS is… |
 | [Gercop](data/tools/gercop.yaml) | Septeo | 🇫🇷 | At the scale of tens of thousands of lots across multiple branches, the operational problem moves from bookkeeping to organisation: who manages which building, which assemblies fall in… |
 | [ICS](data/tools/ics.yaml) | ICS | 🇫🇷 | Property management firms and syndics in France use ICS to run their daily back office: co-ownership accounting, fund calls and general assembly administration through the syndic module… |
@@ -220,6 +223,7 @@ _Recherche de titre, séquestre, actes et chaîne juridique de la mutation._
 | [GenApi](data/tools/genapi.yaml) | Septeo | 🇫🇷 | In France the notaire, not a title company, carries the property transfer: drafting the acte authentique, collecting taxes, and registering with the service de publicité foncière. GenApi… |
 | [iNot](data/tools/inot.yaml) | ADNOV (groupe ADSN) | 🇫🇷 | Its distinguishing characteristic is proximity to the profession's central infrastructure — the registers, the secure exchange network and the electronic authentic deed. For an office… |
 | [Modelo](data/tools/modelo.yaml) | Septeo | 🇫🇷 | French real estate law changes often enough that the biggest documentary risk in an agency is the template someone saved in 2019. Modelo's proposition is that the clause library is… |
+| [Protexa](data/tools/protexa.yaml) | Protexa | 🇫🇷 | An agency's compliance officer or manager reaches for Protexa the moment a new mandate is signed, reserving a mandate number remotely by phone or SMS instead of writing it into a paper… |
 | [Qualia](data/tools/qualia.yaml) | Qualia | 🇺🇸 | A US closing coordinates a title agent, a lender, two brokerages and a buyer, historically through email and fax. Qualia gives them one file: the buyer uploads identity documents and… |
 | [ResWare](data/tools/resware.yaml) | Adeptive Software (Qualia) | 🇺🇸 | A national title operation processes orders from many lenders, each with its own service level and document requirements. ResWare is chosen for the rules engine that routes and automates… |
 | [SoftPro](data/tools/softpro.yaml) | SoftPro (Fidelity National Financial) | 🇺🇸 | Settlement is a jurisdictional exercise: forms, recording requirements and disbursement rules differ by state and often by county. SoftPro's depth in that form and rule library is what… |
@@ -290,6 +294,7 @@ _Applications occupants, accès, réservations, services et IoT du bâtiment._
 | [Equiem](data/tools/equiem.yaml) | Equiem | 🇺🇸 🇫🇷 | Most tenant apps fail from emptiness: nobody at the landlord has time to post anything, so occupants stop opening it. Equiem sells the editorial capacity alongside the platform, which is… |
 | [Esusu](data/tools/esusu.yaml) | Esusu | 🇺🇸 | A multifamily operator rolls out Esusu across a portfolio so residents' on-time rent is reported to the three bureaus without extra paperwork, while the operator's screening team uses… |
 | [HqO](data/tools/hqo.yaml) | HqO | 🇺🇸 🇫🇷 | Since hybrid work, an office landlord's asset value depends on whether tenants renew, and renewal depends on whether employees turn up. HqO gives the landlord a direct channel to… |
+| [Livly](data/tools/livly.yaml) | Livly, Inc. | 🇺🇸 | A property manager hands a new resident the Livly app at move-in so rent payment, maintenance requests and the unit's keyless entry all live in one place instead of three separate… |
 | [SmartRent](data/tools/smartrent.yaml) | SmartRent | 🇺🇸 | Three operational cases drive the purchase. Self-guided tours let a prospect visit a vacant unit without staff. Smart locks remove the key handover and the lock change at turnover. Leak… |
 | [SpinalCom](data/tools/spinalcom.yaml) | SpinalCom | 🇫🇷 | A smart building project usually stalls on the same wall: every subsystem speaks a different protocol and belongs to a different contractor. Placing an operating system between the… |
 | [Wattsense](data/tools/wattsense.yaml) | Wattsense | 🇫🇷 🇺🇸 | Most of a commercial portfolio is not headquarters buildings. Mid-sized assets have some automation, no standardisation, and no budget for a systems integrator per site. Wattsense… |
@@ -369,6 +374,7 @@ _Vérifier un dossier, garantir le loyer, signer le bail._
 | Produit | Éditeur | Marchés | Usage en immobilier |
 |---|---|---|---|
 | [DossierFacile](data/tools/dossierfacile.yaml) | État français — Fabrique numérique du ministère de la Transition écologique | 🇫🇷 | It addresses two failures at once. Candidates submit incomplete files and are rejected without knowing why; landlords receive falsified pay slips and cannot tell. A DossierFacile file… |
+| [Foxen](data/tools/foxen.yaml) | Foxen | 🇺🇸 | A property manager uses Foxen to stop chasing residents for proof of renters insurance: the platform verifies certificates of insurance on upload and monitors them continuously… |
 | [Garantme](data/tools/garantme.yaml) | Garantme | 🇫🇷 | A candidate with a solid income but no French guarantor keeps losing flats to files that have one. They assemble their documents in Garantme before starting their search, get certified… |
 | [PetScreening](data/tools/petscreening.yaml) | Pet Screening Inc. | 🇺🇸 | An on-site leasing team is asked to grant an assistance animal accommodation and cannot legally ask most of the questions that would let them judge it — the wrong question is itself a… |
 | [RentSpree](data/tools/rentspree.yaml) | RentSpree | 🇺🇸 | An agent listing a rental sends one link. The applicant completes the application, pays the screening fee themselves, and authorises the credit, criminal and eviction report — so the… |

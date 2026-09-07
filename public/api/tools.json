@@ -4,23 +4,23 @@
   "license": "CC-BY-4.0 (data) / MIT (code)",
   "homepage": "https://flowmetrik.github.io/proptech-atlas",
   "repository": "https://github.com/flowmetrik/proptech-atlas",
-  "generated": "2026-09-05",
+  "generated": "2026-09-07",
   "counts": {
-    "tools": 229,
-    "US": 135,
-    "FR": 124,
+    "tools": 235,
+    "US": 138,
+    "FR": 127,
     "categories": 24,
-    "editors": 212,
+    "editors": 218,
     "verified": 0,
     "reviews": 0,
-    "logos": 221,
+    "logos": 227,
     "signals": {
-      "probed": 215,
+      "probed": 221,
       "public_pricing": 59,
-      "api_docs": 17,
+      "api_docs": 18,
       "security_page": 30,
-      "privacy_page": 156,
-      "status_page": 59
+      "privacy_page": 161,
+      "status_page": 60
     }
   },
   "tools": [
@@ -4379,6 +4379,89 @@
       "updated": "2026-08-29"
     },
     {
+      "slug": "coprolib",
+      "name": "Coprolib'",
+      "editor": "Coprolib'",
+      "website": "https://www.coprolib.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "syndic-copro",
+      "founded": 2011,
+      "positioning": "Gérer sa copropriété soi-même, avec un accompagnement professionnel en option.",
+      "description": "Coprolib' is an online platform and mobile app for syndics bénévoles — condo owners who manage their building themselves instead of hiring a professional syndic. It automates the accounting required to stay compliant, gives residents a shared, real-time view of the building's finances and documents, and covers general assembly preparation and execution. Optional paid support from Coprolib's own property management experts is available for accounting, administrative tasks or major decisions.\n",
+      "real_estate_use": "A volunteer syndic uses Coprolib' to keep the building's books compliant without hiring an accountant: fund calls, expense allocation and financial statements are automated, and every co-owner can log in and see the same numbers instead of waiting for a paper report. When the volunteer needs help preparing a general assembly or handling an unusual expense, they can add on Coprolib's professional support instead of switching to a full syndic.\n",
+      "features": [
+        "Automated compliance accounting for condo associations",
+        "Shared, real-time view of finances and documents for co-owners",
+        "General assembly preparation and execution tools",
+        "Budget and fund-call tracking",
+        "Optional professional support add-on (accounting, admin, guidance)"
+      ],
+      "use_cases": [
+        {
+          "persona": "syndic-manager",
+          "job": "Tenir la comptabilité d'une copropriété sans faire appel à un syndic professionnel"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "Suivre en temps réel les finances et les décisions de sa copropriété"
+        }
+      ],
+      "personas": [
+        "syndic-manager",
+        "landlord-owner"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr"
+        ]
+      },
+      "reviews": [],
+      "logo": {
+        "file": "logos/coprolib.png",
+        "source_url": "https://www.coprolib.com/wp-content/themes/coprolib/dist/images/favicon/apple-touch-icon_a2b0bc8c.png",
+        "fetched_on": "2026-09-07"
+      },
+      "signals": {
+        "privacy": "https://www.coprolib.com/legal/confidentialite",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-09-07"
+      },
+      "sources": [
+        {
+          "url": "https://www.coprolib.com",
+          "note": "site éditeur — accueil"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-07"
+    },
+    {
       "slug": "corrigo",
       "name": "Corrigo",
       "editor": "JLL Technologies",
@@ -5725,6 +5808,87 @@
         "checked_by": null
       },
       "updated": "2026-09-05"
+    },
+    {
+      "slug": "diacamma",
+      "name": "Diacamma",
+      "editor": "Diacamma",
+      "website": "https://www.diacamma.org",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "syndic-copro",
+      "positioning": "Le logiciel libre et gratuit de comptabilité d'association et de copropriété.",
+      "description": "Diacamma is a free, open-source suite of administrative and financial management software aimed at volunteers running associations and condo syndicates. Its condo module (Diacamma Syndic) handles accounting compliant with French co-ownership rules, tracks each owner's individual financial position, generates and distributes fund-call notices, and allocates expenses automatically by ownership share (tantièmes). The source code is public; users can self-host or pay the partner Sleto for managed hosting.\n",
+      "real_estate_use": "A syndic bénévole installs Diacamma to run the building's accounts without paying for a commercial license: fund calls go out automatically split by tantièmes, each co-owner's balance is tracked individually, and the books stay auditable because the code itself is public. A volunteer with no server to manage picks Sleto's paid hosting instead of self-hosting, without changing software.\n",
+      "features": [
+        "Condo accounting compliant with French co-ownership rules (tantièmes)",
+        "Per-owner financial tracking and fund-call notice generation",
+        "Automatic expense allocation by ownership share",
+        "Association membership and event management module",
+        "Role-based multi-user access",
+        "Publicly auditable open-source code"
+      ],
+      "use_cases": [
+        {
+          "persona": "syndic-manager",
+          "job": "Tenir la comptabilité d'une copropriété gratuitement, avec un code source vérifiable"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "Suivre sa quote-part et les appels de fonds sans payer de licence"
+        }
+      ],
+      "personas": [
+        "syndic-manager",
+        "landlord-owner"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo"
+      ],
+      "pricing": {
+        "model": "free",
+        "public_pricing": true,
+        "url": "https://www.diacamma.org"
+      },
+      "product": {
+        "api": false,
+        "open_source": true,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "reviews": [],
+      "logo": {
+        "file": "logos/diacamma.png",
+        "source_url": "https://www.diacamma.org/assets/img/DiacammaImage.png",
+        "fetched_on": "2026-09-07"
+      },
+      "signals": {
+        "api_docs": "https://www.diacamma.org/api",
+        "privacy": "https://www.diacamma.org/rgpd",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-09-07"
+      },
+      "sources": [
+        {
+          "url": "https://www.diacamma.org",
+          "note": "site éditeur — accueil"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-07"
     },
     {
       "slug": "diag-pilote",
@@ -7999,6 +8163,98 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "foxen",
+      "name": "Foxen",
+      "editor": "Foxen",
+      "website": "https://www.foxen.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "tenant-screening",
+      "positioning": "A multifamily compliance platform for renters insurance, rent reporting and pet policy enforcement.",
+      "description": "Foxen is a compliance platform for multifamily owners and operators, sold as three insurance-compliance tiers (WaiverCore, WaiverCell, WaiverFlex) that verify and monitor renters insurance certificates around the clock, plus two resident-facing modules: Rentistry, which reports rent payments to Experian, Equifax and TransUnion to help residents build credit, and PetClear, which centralizes pet records and screens emotional-support-animal claims. The platform integrates with major property management systems including Yardi, RealPage, Entrata, MRI, Rent Manager and ResMan.\n",
+      "real_estate_use": "A property manager uses Foxen to stop chasing residents for proof of renters insurance: the platform verifies certificates of insurance on upload and monitors them continuously, auto-enrolling a resident in a liability waiver the moment a coverage gap appears instead of leaving the property exposed. The same account can turn on Rentistry so on-time rent gets reported to the credit bureaus as a resident perk, and PetClear to check an emotional-support-animal claim before it is accepted.\n",
+      "features": [
+        "WaiverCore/WaiverCell/WaiverFlex renters insurance compliance tiers",
+        "24/7 certificate-of-insurance monitoring with automatic waiver enrollment on coverage gaps",
+        "Rentistry rent-payment reporting to Experian, Equifax and TransUnion",
+        "PetClear pet record management and ESA claim screening",
+        "Integrations with Yardi, RealPage, Entrata, MRI, Rent Manager and ResMan"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Vérifier et surveiller en continu l'assurance locataire d'un immeuble multifamilial"
+        },
+        {
+          "persona": "tenant-occupier",
+          "job": "Faire reporter son loyer payé à temps aux bureaux de crédit pour construire son historique"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "tenant-occupier"
+      ],
+      "segments": [
+        "multifamily"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Yardi",
+        "RealPage",
+        "Entrata",
+        "MRI",
+        "Rent Manager",
+        "ResMan"
+      ],
+      "ai": {
+        "capabilities": [
+          "Automated compliance-gap detection and waiver auto-enrollment"
+        ]
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "reviews": [],
+      "logo": {
+        "file": "logos/foxen.png",
+        "source_url": "https://cdn.prod.website-files.com/645d65c8b5c35557d464161a/65cbe03dd4f1e25c63d9c51e_MicrosoftTeams-image%20(57).png",
+        "fetched_on": "2026-09-07"
+      },
+      "signals": {
+        "privacy": "https://www.foxen.com/privacy-policy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-07"
+      },
+      "sources": [
+        {
+          "url": "https://www.foxen.com/",
+          "note": "site éditeur — accueil"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-07"
     },
     {
       "slug": "frontsteps",
@@ -11547,6 +11803,95 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "livly",
+      "name": "Livly",
+      "editor": "Livly, Inc.",
+      "website": "https://www.livly.io",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "tenant-experience",
+      "positioning": "The unified resident app and property-management dashboard for multifamily.",
+      "description": "Livly is a resident-experience app for multifamily apartment communities, paired with a property-manager dashboard called the Property Hub. Residents pay rent, submit maintenance tickets, get package alerts, book amenities, use phone-based keyless entry, and browse a marketplace of on-demand services from the same app; property teams handle onboarding, move-in checklists, event coordination and communications from the Hub, with an AI-driven module that forecasts lease renewals.\n",
+      "real_estate_use": "A property manager hands a new resident the Livly app at move-in so rent payment, maintenance requests and the unit's keyless entry all live in one place instead of three separate systems. When a package arrives, the resident gets an alert instead of a call to the front desk, and when a maintenance ticket is filed, staff see it and can message the resident directly from the same thread. Leasing teams use the renewal-prediction module to flag residents likely to move out with enough lead time to intervene.\n",
+      "features": [
+        "Resident mobile app: rent payment, maintenance requests, package alerts",
+        "Phone-based keyless entry (Livly Key) to units and common areas",
+        "Amenity booking and community event RSVPs",
+        "Community feed for resident-to-resident and resident-to-staff messaging",
+        "AI-driven lease renewal prediction for property teams",
+        "Property Hub dashboard unifying onboarding, maintenance and communications"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Centraliser paiement du loyer, maintenance et communication résident dans une seule application"
+        },
+        {
+          "persona": "tenant-occupier",
+          "job": "Payer son loyer, réserver une prestation ou ouvrir sa porte depuis son téléphone"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "tenant-occupier"
+      ],
+      "segments": [
+        "multifamily"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "ai": {
+        "capabilities": [
+          "Lease renewal prediction for leasing teams"
+        ]
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "reviews": [],
+      "logo": {
+        "file": "logos/livly.png",
+        "source_url": "https://cdn.prod.website-files.com/5ba15fdf8a3c123138de7c3b/5bab926f068609c87bb2d1a0_Livly_webclip-2.png",
+        "fetched_on": "2026-09-07"
+      },
+      "signals": {
+        "privacy": "https://www.livly.io/privacy-policy",
+        "checked_on": "2026-09-07"
+      },
+      "sources": [
+        {
+          "url": "https://www.livly.io/",
+          "note": "site éditeur — accueil"
+        },
+        {
+          "url": "https://www.livly.io/for-residents",
+          "note": "page fonctionnalités résident"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-07"
     },
     {
       "slug": "lockimmo",
@@ -16228,6 +16573,93 @@
       "updated": "2026-08-29"
     },
     {
+      "slug": "protexa",
+      "name": "Protexa",
+      "editor": "Protexa",
+      "website": "https://www.protexa.fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "title-closing-legal",
+      "positioning": "Vos registres de l'immobilier dématérialisés, conformes à la loi Hoguet.",
+      "description": "Protexa is a cloud platform that digitizes the registers a French real estate agency is legally required to keep under the Hoguet law: the transaction mandate register, the anti-money-laundering (Tracfin) register, and the property management register, plus an optional directory register for escrow receipts. It also bundles a library of pre-filled contract templates produced with SOCAF and an electronic signature module.\n",
+      "real_estate_use": "An agency's compliance officer or manager reaches for Protexa the moment a new mandate is signed, reserving a mandate number remotely by phone or SMS instead of writing it into a paper register that must be produced intact at audit. The same account tracks Tracfin anti-money-laundering declarations and risk mapping, and gives a per-negotiator activity dashboard so an owner can check who holds which mandate without opening a filing cabinet.\n",
+      "features": [
+        "Digital transaction mandate register with remote number reservation by phone or SMS",
+        "Tracfin (AML) register with risk mapping and suspicious-activity declarations",
+        "Property management register for syndic and gérance activity",
+        "Directory register for escrow deposits and commission receipts",
+        "Pre-filled contract template library produced with SOCAF",
+        "Electronic signature for up to 20 signatories"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Enregistrer un mandat de transaction et rester en conformité loi Hoguet sans registre papier"
+        },
+        {
+          "persona": "legal-notary",
+          "job": "Suivre les déclarations Tracfin et la cartographie des risques de l'agence"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "legal-notary"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "from": 8,
+        "currency": "EUR",
+        "unit": "par mois et par registre, dégressif",
+        "url": "https://www.protexa.fr/tarifs"
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "reviews": [],
+      "logo": {
+        "file": "logos/protexa.png",
+        "source_url": "https://cdn.prod.website-files.com/65b7d8a662547200aa0f8a04/65d460f77d5a3c4ac9eee41a_android-chrome-256x256.png",
+        "fetched_on": "2026-09-07"
+      },
+      "signals": {
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-09-07"
+      },
+      "sources": [
+        {
+          "url": "https://www.protexa.fr/",
+          "note": "site éditeur — accueil"
+        },
+        {
+          "url": "https://www.protexa.fr/tarifs",
+          "note": "page tarifs"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-07"
+    },
+    {
       "slug": "qalimo",
       "name": "Qalimo",
       "editor": "Qalimo",
@@ -17857,6 +18289,94 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "sentrilock",
+      "name": "SentriLock",
+      "editor": "SentriLock, LLC",
+      "website": "https://www.sentrilock.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "transaction-management",
+      "positioning": "The electronic lockbox and showing platform owned by the National Association of REALTORS.",
+      "description": "SentriLock makes the SentriGuard electronic lockbox and the SentriKey Real Estate mobile app that opens it. Agents use the app and a network of Bluetooth- and NFC-enabled lockboxes to grant property access, and the bundled SentriKey Showing Service schedules showings, verifies listings against the local MLS, and collects buyer feedback after each visit. SentriConnect extends temporary access to third parties such as contractors and inspectors. The company is wholly owned by the National Association of REALTORS.\n",
+      "real_estate_use": "A listing agent installs a SentriGuard lockbox on a property so that any showing agent can open it from their phone through the SentriKey app, without a physical key handoff. The same app shows the day's full showing itinerary, syncs against the MLS to confirm the listing is still active, and prompts the visiting agent for feedback right after the showing, which the listing agent later reviews. A solo-tour safety alert notifies an emergency contact if the agent misses a scheduled check-in.\n",
+      "features": [
+        "SentriGuard electronic lockbox with Bluetooth and NFC Touch-N-Show access",
+        "SentriKey Real Estate mobile app for opening lockboxes and generating temporary FlexCodes",
+        "SentriKey Showing Service for scheduling, MLS verification and feedback collection",
+        "SentriConnect for temporary third-party access (contractors, inspectors)",
+        "Solo-showing safety check-in alerts"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Ouvrir une boîte à clés électronique et planifier les visites d'un bien sans remise de clé physique"
+        },
+        {
+          "persona": "brokerage",
+          "job": "Donner un accès temporaire et traçable à un bien pour un prestataire ou un inspecteur"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "reviews": [],
+      "logo": {
+        "file": "logos/sentrilock.png",
+        "source_url": "https://cdn.prod.website-files.com/6a5686c76901c4cf418132b5/6a593048ca566892046c07f2_SentriLock_Icon%20for%20Website_256x256.png",
+        "fetched_on": "2026-09-07"
+      },
+      "signals": {
+        "privacy": "https://www.sentrilock.com/privacy",
+        "status": "https://status.sentrilock.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-07"
+      },
+      "sources": [
+        {
+          "url": "https://www.sentrilock.com/real-estate-electronic-lockbox/",
+          "note": "site éditeur — produit"
+        },
+        {
+          "url": "https://www.sentrilock.com/sentrikey-real-estate-app-software",
+          "note": "page fonctionnalités app"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-07"
     },
     {
       "slug": "servicechannel",

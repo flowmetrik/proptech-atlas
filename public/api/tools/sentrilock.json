@@ -1,0 +1,88 @@
+{
+  "slug": "sentrilock",
+  "name": "SentriLock",
+  "editor": "SentriLock, LLC",
+  "website": "https://www.sentrilock.com",
+  "hq_country": "US",
+  "markets": [
+    "US"
+  ],
+  "category": "transaction-management",
+  "positioning": "The electronic lockbox and showing platform owned by the National Association of REALTORS.",
+  "description": "SentriLock makes the SentriGuard electronic lockbox and the SentriKey Real Estate mobile app that opens it. Agents use the app and a network of Bluetooth- and NFC-enabled lockboxes to grant property access, and the bundled SentriKey Showing Service schedules showings, verifies listings against the local MLS, and collects buyer feedback after each visit. SentriConnect extends temporary access to third parties such as contractors and inspectors. The company is wholly owned by the National Association of REALTORS.\n",
+  "real_estate_use": "A listing agent installs a SentriGuard lockbox on a property so that any showing agent can open it from their phone through the SentriKey app, without a physical key handoff. The same app shows the day's full showing itinerary, syncs against the MLS to confirm the listing is still active, and prompts the visiting agent for feedback right after the showing, which the listing agent later reviews. A solo-tour safety alert notifies an emergency contact if the agent misses a scheduled check-in.\n",
+  "features": [
+    "SentriGuard electronic lockbox with Bluetooth and NFC Touch-N-Show access",
+    "SentriKey Real Estate mobile app for opening lockboxes and generating temporary FlexCodes",
+    "SentriKey Showing Service for scheduling, MLS verification and feedback collection",
+    "SentriConnect for temporary third-party access (contractors, inspectors)",
+    "Solo-showing safety check-in alerts"
+  ],
+  "use_cases": [
+    {
+      "persona": "agent-broker",
+      "job": "Ouvrir une boîte à clés électronique et planifier les visites d'un bien sans remise de clé physique"
+    },
+    {
+      "persona": "brokerage",
+      "job": "Donner un accès temporaire et traçable à un bien pour un prestataire ou un inspecteur"
+    }
+  ],
+  "personas": [
+    "agent-broker",
+    "brokerage"
+  ],
+  "segments": [
+    "residential"
+  ],
+  "company_sizes": [
+    "solo",
+    "smb",
+    "midmarket"
+  ],
+  "pricing": {
+    "model": "quote",
+    "public_pricing": false
+  },
+  "product": {
+    "api": false,
+    "open_source": false,
+    "mobile": [
+      "ios",
+      "android"
+    ],
+    "languages": [
+      "en"
+    ]
+  },
+  "reviews": [],
+  "logo": {
+    "file": "logos/sentrilock.png",
+    "source_url": "https://cdn.prod.website-files.com/6a5686c76901c4cf418132b5/6a593048ca566892046c07f2_SentriLock_Icon%20for%20Website_256x256.png",
+    "fetched_on": "2026-09-07"
+  },
+  "signals": {
+    "privacy": "https://www.sentrilock.com/privacy",
+    "status": "https://status.sentrilock.com",
+    "site_languages": [
+      "en"
+    ],
+    "checked_on": "2026-09-07"
+  },
+  "sources": [
+    {
+      "url": "https://www.sentrilock.com/real-estate-electronic-lockbox/",
+      "note": "site éditeur — produit"
+    },
+    {
+      "url": "https://www.sentrilock.com/sentrikey-real-estate-app-software",
+      "note": "page fonctionnalités app"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-09-07"
+}

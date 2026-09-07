@@ -1,0 +1,62 @@
+slug: protexa
+name: Protexa
+editor: Protexa
+website: https://www.protexa.fr
+hq_country: FR
+markets: [FR]
+category: title-closing-legal
+positioning: "Vos registres de l'immobilier dématérialisés, conformes à la loi Hoguet."
+description: >
+  Protexa is a cloud platform that digitizes the registers a French real estate agency
+  is legally required to keep under the Hoguet law: the transaction mandate register,
+  the anti-money-laundering (Tracfin) register, and the property management register,
+  plus an optional directory register for escrow receipts. It also bundles a library
+  of pre-filled contract templates produced with SOCAF and an electronic signature
+  module.
+real_estate_use: >
+  An agency's compliance officer or manager reaches for Protexa the moment a new
+  mandate is signed, reserving a mandate number remotely by phone or SMS instead of
+  writing it into a paper register that must be produced intact at audit. The same
+  account tracks Tracfin anti-money-laundering declarations and risk mapping, and
+  gives a per-negotiator activity dashboard so an owner can check who holds which
+  mandate without opening a filing cabinet.
+features:
+  - Digital transaction mandate register with remote number reservation by phone or SMS
+  - Tracfin (AML) register with risk mapping and suspicious-activity declarations
+  - Property management register for syndic and gérance activity
+  - Directory register for escrow deposits and commission receipts
+  - Pre-filled contract template library produced with SOCAF
+  - Electronic signature for up to 20 signatories
+use_cases:
+  - persona: agent-broker
+    job: Enregistrer un mandat de transaction et rester en conformité loi Hoguet sans registre papier
+  - persona: legal-notary
+    job: Suivre les déclarations Tracfin et la cartographie des risques de l'agence
+personas: [agent-broker, legal-notary]
+segments: [residential]
+company_sizes: [solo, smb]
+pricing:
+  model: subscription
+  public_pricing: true
+  from: 8
+  currency: EUR
+  unit: "par mois et par registre, dégressif"
+  url: https://www.protexa.fr/tarifs
+product:
+  api: false
+  open_source: false
+  mobile: []
+  languages: [fr]
+reviews: []
+logo:
+  file: logos/protexa.png
+  source_url: https://cdn.prod.website-files.com/65b7d8a662547200aa0f8a04/65d460f77d5a3c4ac9eee41a_android-chrome-256x256.png
+  fetched_on: "2026-09-07"
+signals:
+  site_languages: [fr]
+  checked_on: "2026-09-07"
+sources:
+  - { url: https://www.protexa.fr/, note: site éditeur — accueil }
+  - { url: https://www.protexa.fr/tarifs, note: page tarifs }
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-09-07"
