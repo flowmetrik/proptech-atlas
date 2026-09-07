@@ -243,7 +243,7 @@ sources:
     finds: Résidentiel américain, couverture produit dense.
   - id: housingwire-tech
     label: HousingWire — Tech
-    url: https://www.housingwire.com/tech/
+    url: https://www.housingwire.com/technology/
     market: US
     kind: press
     finds: Crédit, titre et closing — le segment le moins documenté ailleurs.

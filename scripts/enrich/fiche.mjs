@@ -13,7 +13,7 @@ import { execFileSync } from 'node:child_process';
 import {
   MODELS,
   ROOT, TOOLS, join, loadTools, loadTaxonomy, ask, scrape, siteText, pool, today,
-  readFileSync, writeFileSync, existsSync,
+  readFileSync, writeFileSync, existsSync, hostOf,
 } from './lib.mjs';
 
 const MODEL = MODELS.smart;
@@ -25,6 +25,32 @@ const FROM = arg('from', null);
 
 const tax = loadTaxonomy();
 const ids = (k) => tax[k].map((x) => x.id);
+
+// ── Purge de la file contre le catalogue réel ─────────────────────────────────
+//
+// Un candidat vérifié un jour peut recevoir sa fiche un autre jour, sous un
+// autre slug (le rédacteur choisit le nom qui lui semble juste — cf. la
+// consigne « choisir la meilleure catégorie même si elle diffère »). La file
+// n'était alors jamais nettoyée : ni `--from` (qui n'y touchait pas du tout)
+// ni le mode file (qui ne retire que les slugs qu'il vient lui-même de
+// traiter) ne voyaient qu'un produit déjà catalogué sous un autre nom y
+// dormait encore — cas réel du 07/09 : `leon` (slug jamais consommé) est le
+// même produit que `leon-scepia`, même URL exacte, écrit via `--from` un
+// autre jour. Une prochaine passe aurait pu le rédiger une seconde fois.
+// On purge donc systématiquement, par slug ET par domaine, à chaque
+// invocation — écriture comprise.
+function pruneQueueAgainstCatalog() {
+  if (!existsSync(QUEUE)) return 0;
+  const q = JSON.parse(readFileSync(QUEUE, 'utf8'));
+  const tools = loadTools();
+  const slugs = new Set(tools.map((t) => t.slug));
+  const hosts = new Set(tools.map((t) => hostOf(t.website)).filter(Boolean));
+  const before = q.candidates.length;
+  q.candidates = q.candidates.filter((c) => !slugs.has(c.slug) && !hosts.has(hostOf(c.website)));
+  const removed = before - q.candidates.length;
+  if (removed > 0) writeFileSync(QUEUE, JSON.stringify(q, null, 2) + '\n');
+  return removed;
+}
 
 // ── Rendu YAML maison ─────────────────────────────────────────────────────────
 // On n'utilise pas `yaml.dump` : il réordonne, requote et détruit le style des
@@ -196,11 +222,15 @@ if (FROM) {
     console.error('\n✗ Le validateur refuse. Les fiches restent sur le disque : corriger, puis relancer.');
     process.exit(1);
   }
+  const removed = pruneQueueAgainstCatalog();
+  if (removed > 0) console.log(`  ${removed} candidat(s) retiré(s) de la file : déjà catalogués sous un autre nom`);
   process.exit(0);
 }
 
 // ── Traitement ────────────────────────────────────────────────────────────────
 
+const prunedBefore = pruneQueueAgainstCatalog();
+if (prunedBefore > 0) console.log(`  ${prunedBefore} candidat(s) retiré(s) de la file : déjà catalogués sous un autre nom`);
 const queue = existsSync(QUEUE) ? JSON.parse(readFileSync(QUEUE, 'utf8')) : { candidates: [], rejected: [] };
 const existing = new Set(loadTools().map((t) => t.slug));
 const pending = queue.candidates.filter((c) => !existing.has(c.slug)).slice(0, LIMIT);

@@ -1,0 +1,61 @@
+slug: foxen
+name: Foxen
+editor: Foxen
+website: https://www.foxen.com
+hq_country: US
+markets: [US]
+category: tenant-screening
+positioning: "A multifamily compliance platform for renters insurance, rent reporting and pet policy enforcement."
+description: >
+  Foxen is a compliance platform for multifamily owners and operators, sold as three
+  insurance-compliance tiers (WaiverCore, WaiverCell, WaiverFlex) that verify and
+  monitor renters insurance certificates around the clock, plus two resident-facing
+  modules: Rentistry, which reports rent payments to Experian, Equifax and TransUnion
+  to help residents build credit, and PetClear, which centralizes pet records and
+  screens emotional-support-animal claims. The platform integrates with major property
+  management systems including Yardi, RealPage, Entrata, MRI, Rent Manager and ResMan.
+real_estate_use: >
+  A property manager uses Foxen to stop chasing residents for proof of renters
+  insurance: the platform verifies certificates of insurance on upload and monitors
+  them continuously, auto-enrolling a resident in a liability waiver the moment a
+  coverage gap appears instead of leaving the property exposed. The same account can
+  turn on Rentistry so on-time rent gets reported to the credit bureaus as a resident
+  perk, and PetClear to check an emotional-support-animal claim before it is accepted.
+features:
+  - WaiverCore/WaiverCell/WaiverFlex renters insurance compliance tiers
+  - 24/7 certificate-of-insurance monitoring with automatic waiver enrollment on coverage gaps
+  - "Rentistry rent-payment reporting to Experian, Equifax and TransUnion"
+  - PetClear pet record management and ESA claim screening
+  - "Integrations with Yardi, RealPage, Entrata, MRI, Rent Manager and ResMan"
+use_cases:
+  - persona: property-manager
+    job: Vérifier et surveiller en continu l'assurance locataire d'un immeuble multifamilial
+  - persona: tenant-occupier
+    job: Faire reporter son loyer payé à temps aux bureaux de crédit pour construire son historique
+personas: [property-manager, tenant-occupier]
+segments: [multifamily]
+company_sizes: [midmarket, enterprise]
+pricing:
+  model: quote
+  public_pricing: false
+integrations: [Yardi, RealPage, Entrata, MRI, Rent Manager, ResMan]
+ai:
+  capabilities: [Automated compliance-gap detection and waiver auto-enrollment]
+product:
+  api: false
+  open_source: false
+  mobile: []
+  languages: [en]
+reviews: []
+logo:
+  file: logos/foxen.png
+  source_url: https://cdn.prod.website-files.com/645d65c8b5c35557d464161a/65cbe03dd4f1e25c63d9c51e_MicrosoftTeams-image%20(57).png
+  fetched_on: "2026-09-07"
+signals:
+  privacy: https://www.foxen.com/privacy-policy
+  site_languages: [en]
+  checked_on: "2026-09-07"
+sources:
+  - { url: https://www.foxen.com/, note: site éditeur — accueil }
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-09-07"

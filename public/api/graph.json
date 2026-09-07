@@ -4,23 +4,23 @@
   "license": "CC-BY-4.0 (data) / MIT (code)",
   "homepage": "https://flowmetrik.github.io/proptech-atlas",
   "repository": "https://github.com/flowmetrik/proptech-atlas",
-  "generated": "2026-09-05",
+  "generated": "2026-09-07",
   "counts": {
-    "tools": 229,
-    "US": 135,
-    "FR": 124,
+    "tools": 235,
+    "US": 138,
+    "FR": 127,
     "categories": 24,
-    "editors": 212,
+    "editors": 218,
     "verified": 0,
     "reviews": 0,
-    "logos": 221,
+    "logos": 227,
     "signals": {
-      "probed": 215,
+      "probed": 221,
       "public_pricing": 59,
-      "api_docs": 17,
+      "api_docs": 18,
       "security_page": 30,
-      "privacy_page": 156,
-      "status_page": 59
+      "privacy_page": 161,
+      "status_page": 60
     }
   },
   "nodes": [
@@ -240,6 +240,11 @@
       "label": "Condo Control"
     },
     {
+      "id": "tool:coprolib",
+      "type": "tool",
+      "label": "Coprolib'"
+    },
+    {
       "id": "tool:corrigo",
       "type": "tool",
       "label": "Corrigo"
@@ -308,6 +313,11 @@
       "id": "tool:dematimmo",
       "type": "tool",
       "label": "Dematimmo"
+    },
+    {
+      "id": "tool:diacamma",
+      "type": "tool",
+      "label": "Diacamma"
     },
     {
       "id": "tool:diag-pilote",
@@ -423,6 +433,11 @@
       "id": "tool:follow-up-boss",
       "type": "tool",
       "label": "Follow Up Boss"
+    },
+    {
+      "id": "tool:foxen",
+      "type": "tool",
+      "label": "Foxen"
     },
     {
       "id": "tool:frontsteps",
@@ -603,6 +618,11 @@
       "id": "tool:listhub",
       "type": "tool",
       "label": "ListHub"
+    },
+    {
+      "id": "tool:livly",
+      "type": "tool",
+      "label": "Livly"
     },
     {
       "id": "tool:lockimmo",
@@ -835,6 +855,11 @@
       "label": "Prospeneo"
     },
     {
+      "id": "tool:protexa",
+      "type": "tool",
+      "label": "Protexa"
+    },
+    {
       "id": "tool:qalimo",
       "type": "tool",
       "label": "Qalimo"
@@ -918,6 +943,11 @@
       "id": "tool:seloger",
       "type": "tool",
       "label": "SeLoger"
+    },
+    {
+      "id": "tool:sentrilock",
+      "type": "tool",
+      "label": "SentriLock"
     },
     {
       "id": "tool:servicechannel",
@@ -1625,6 +1655,11 @@
       "label": "Condo Control"
     },
     {
+      "id": "editor:Coprolib'",
+      "type": "editor",
+      "label": "Coprolib'"
+    },
+    {
       "id": "editor:JLL Technologies",
       "type": "editor",
       "label": "JLL Technologies"
@@ -1688,6 +1723,11 @@
       "id": "editor:Activinnov",
       "type": "editor",
       "label": "Activinnov"
+    },
+    {
+      "id": "editor:Diacamma",
+      "type": "editor",
+      "label": "Diacamma"
     },
     {
       "id": "editor:ELANOS",
@@ -1798,6 +1838,11 @@
       "id": "editor:Fluximmo",
       "type": "editor",
       "label": "Fluximmo"
+    },
+    {
+      "id": "editor:Foxen",
+      "type": "editor",
+      "label": "Foxen"
     },
     {
       "id": "editor:FRONTSTEPS",
@@ -1958,6 +2003,11 @@
       "id": "editor:Move, Inc.",
       "type": "editor",
       "label": "Move, Inc."
+    },
+    {
+      "id": "editor:Livly, Inc.",
+      "type": "editor",
+      "label": "Livly, Inc."
     },
     {
       "id": "editor:LockImmo",
@@ -2160,6 +2210,11 @@
       "label": "Facilogi"
     },
     {
+      "id": "editor:Protexa",
+      "type": "editor",
+      "label": "Protexa"
+    },
+    {
       "id": "editor:Qalimo",
       "type": "editor",
       "label": "Qalimo"
@@ -2233,6 +2288,11 @@
       "id": "editor:Scoplan",
       "type": "editor",
       "label": "Scoplan"
+    },
+    {
+      "id": "editor:SentriLock, LLC",
+      "type": "editor",
+      "label": "SentriLock, LLC"
     },
     {
       "id": "editor:Fortive",
@@ -4997,6 +5057,36 @@
       "to": "tool:cinc-systems"
     },
     {
+      "from": "tool:coprolib",
+      "rel": "published_by",
+      "to": "editor:Coprolib'"
+    },
+    {
+      "from": "tool:coprolib",
+      "rel": "belongs_to",
+      "to": "category:syndic-copro"
+    },
+    {
+      "from": "tool:coprolib",
+      "rel": "serves_persona",
+      "to": "persona:syndic-manager"
+    },
+    {
+      "from": "tool:coprolib",
+      "rel": "serves_persona",
+      "to": "persona:landlord-owner"
+    },
+    {
+      "from": "tool:coprolib",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:coprolib",
+      "rel": "available_in",
+      "to": "market:FR"
+    },
+    {
       "from": "tool:corrigo",
       "rel": "published_by",
       "to": "editor:JLL Technologies"
@@ -5798,6 +5888,36 @@
     },
     {
       "from": "tool:dematimmo",
+      "rel": "available_in",
+      "to": "market:FR"
+    },
+    {
+      "from": "tool:diacamma",
+      "rel": "published_by",
+      "to": "editor:Diacamma"
+    },
+    {
+      "from": "tool:diacamma",
+      "rel": "belongs_to",
+      "to": "category:syndic-copro"
+    },
+    {
+      "from": "tool:diacamma",
+      "rel": "serves_persona",
+      "to": "persona:syndic-manager"
+    },
+    {
+      "from": "tool:diacamma",
+      "rel": "serves_persona",
+      "to": "persona:landlord-owner"
+    },
+    {
+      "from": "tool:diacamma",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:diacamma",
       "rel": "available_in",
       "to": "market:FR"
     },
@@ -7115,6 +7235,36 @@
       "from": "tool:follow-up-boss",
       "rel": "alternative_to",
       "to": "tool:boomtown"
+    },
+    {
+      "from": "tool:foxen",
+      "rel": "published_by",
+      "to": "editor:Foxen"
+    },
+    {
+      "from": "tool:foxen",
+      "rel": "belongs_to",
+      "to": "category:tenant-screening"
+    },
+    {
+      "from": "tool:foxen",
+      "rel": "serves_persona",
+      "to": "persona:property-manager"
+    },
+    {
+      "from": "tool:foxen",
+      "rel": "serves_persona",
+      "to": "persona:tenant-occupier"
+    },
+    {
+      "from": "tool:foxen",
+      "rel": "covers_segment",
+      "to": "segment:multifamily"
+    },
+    {
+      "from": "tool:foxen",
+      "rel": "available_in",
+      "to": "market:US"
     },
     {
       "from": "tool:frontsteps",
@@ -9178,6 +9328,36 @@
     },
     {
       "from": "tool:listhub",
+      "rel": "available_in",
+      "to": "market:US"
+    },
+    {
+      "from": "tool:livly",
+      "rel": "published_by",
+      "to": "editor:Livly, Inc."
+    },
+    {
+      "from": "tool:livly",
+      "rel": "belongs_to",
+      "to": "category:tenant-experience"
+    },
+    {
+      "from": "tool:livly",
+      "rel": "serves_persona",
+      "to": "persona:property-manager"
+    },
+    {
+      "from": "tool:livly",
+      "rel": "serves_persona",
+      "to": "persona:tenant-occupier"
+    },
+    {
+      "from": "tool:livly",
+      "rel": "covers_segment",
+      "to": "segment:multifamily"
+    },
+    {
+      "from": "tool:livly",
       "rel": "available_in",
       "to": "market:US"
     },
@@ -11972,6 +12152,36 @@
       "to": "tool:adapt-immo"
     },
     {
+      "from": "tool:protexa",
+      "rel": "published_by",
+      "to": "editor:Protexa"
+    },
+    {
+      "from": "tool:protexa",
+      "rel": "belongs_to",
+      "to": "category:title-closing-legal"
+    },
+    {
+      "from": "tool:protexa",
+      "rel": "serves_persona",
+      "to": "persona:agent-broker"
+    },
+    {
+      "from": "tool:protexa",
+      "rel": "serves_persona",
+      "to": "persona:legal-notary"
+    },
+    {
+      "from": "tool:protexa",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:protexa",
+      "rel": "available_in",
+      "to": "market:FR"
+    },
+    {
       "from": "tool:qalimo",
       "rel": "published_by",
       "to": "editor:Qalimo"
@@ -12970,6 +13180,36 @@
       "from": "tool:seloger",
       "rel": "alternative_to",
       "to": "tool:pap"
+    },
+    {
+      "from": "tool:sentrilock",
+      "rel": "published_by",
+      "to": "editor:SentriLock, LLC"
+    },
+    {
+      "from": "tool:sentrilock",
+      "rel": "belongs_to",
+      "to": "category:transaction-management"
+    },
+    {
+      "from": "tool:sentrilock",
+      "rel": "serves_persona",
+      "to": "persona:agent-broker"
+    },
+    {
+      "from": "tool:sentrilock",
+      "rel": "serves_persona",
+      "to": "persona:brokerage"
+    },
+    {
+      "from": "tool:sentrilock",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:sentrilock",
+      "rel": "available_in",
+      "to": "market:US"
     },
     {
       "from": "tool:servicechannel",

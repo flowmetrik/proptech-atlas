@@ -4,7 +4,7 @@
   "label_fr": "Syndic & copropriété",
   "summary_en": "Manage co-owned buildings — budgets, assemblies, calls for funds, works.",
   "summary_fr": "Gérer l'immeuble en copropriété — budgets, AG, appels de fonds, travaux.",
-  "count": 17,
+  "count": 19,
   "tools": [
     {
       "slug": "buildium",
@@ -409,6 +409,89 @@
       "updated": "2026-08-29"
     },
     {
+      "slug": "coprolib",
+      "name": "Coprolib'",
+      "editor": "Coprolib'",
+      "website": "https://www.coprolib.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "syndic-copro",
+      "founded": 2011,
+      "positioning": "Gérer sa copropriété soi-même, avec un accompagnement professionnel en option.",
+      "description": "Coprolib' is an online platform and mobile app for syndics bénévoles — condo owners who manage their building themselves instead of hiring a professional syndic. It automates the accounting required to stay compliant, gives residents a shared, real-time view of the building's finances and documents, and covers general assembly preparation and execution. Optional paid support from Coprolib's own property management experts is available for accounting, administrative tasks or major decisions.\n",
+      "real_estate_use": "A volunteer syndic uses Coprolib' to keep the building's books compliant without hiring an accountant: fund calls, expense allocation and financial statements are automated, and every co-owner can log in and see the same numbers instead of waiting for a paper report. When the volunteer needs help preparing a general assembly or handling an unusual expense, they can add on Coprolib's professional support instead of switching to a full syndic.\n",
+      "features": [
+        "Automated compliance accounting for condo associations",
+        "Shared, real-time view of finances and documents for co-owners",
+        "General assembly preparation and execution tools",
+        "Budget and fund-call tracking",
+        "Optional professional support add-on (accounting, admin, guidance)"
+      ],
+      "use_cases": [
+        {
+          "persona": "syndic-manager",
+          "job": "Tenir la comptabilité d'une copropriété sans faire appel à un syndic professionnel"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "Suivre en temps réel les finances et les décisions de sa copropriété"
+        }
+      ],
+      "personas": [
+        "syndic-manager",
+        "landlord-owner"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr"
+        ]
+      },
+      "reviews": [],
+      "logo": {
+        "file": "logos/coprolib.png",
+        "source_url": "https://www.coprolib.com/wp-content/themes/coprolib/dist/images/favicon/apple-touch-icon_a2b0bc8c.png",
+        "fetched_on": "2026-09-07"
+      },
+      "signals": {
+        "privacy": "https://www.coprolib.com/legal/confidentialite",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-09-07"
+      },
+      "sources": [
+        {
+          "url": "https://www.coprolib.com",
+          "note": "site éditeur — accueil"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-07"
+    },
+    {
       "slug": "crypto-septeo",
       "name": "Crypto (Septeo Solutions Immobilier)",
       "editor": "Septeo",
@@ -511,6 +594,87 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "diacamma",
+      "name": "Diacamma",
+      "editor": "Diacamma",
+      "website": "https://www.diacamma.org",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "syndic-copro",
+      "positioning": "Le logiciel libre et gratuit de comptabilité d'association et de copropriété.",
+      "description": "Diacamma is a free, open-source suite of administrative and financial management software aimed at volunteers running associations and condo syndicates. Its condo module (Diacamma Syndic) handles accounting compliant with French co-ownership rules, tracks each owner's individual financial position, generates and distributes fund-call notices, and allocates expenses automatically by ownership share (tantièmes). The source code is public; users can self-host or pay the partner Sleto for managed hosting.\n",
+      "real_estate_use": "A syndic bénévole installs Diacamma to run the building's accounts without paying for a commercial license: fund calls go out automatically split by tantièmes, each co-owner's balance is tracked individually, and the books stay auditable because the code itself is public. A volunteer with no server to manage picks Sleto's paid hosting instead of self-hosting, without changing software.\n",
+      "features": [
+        "Condo accounting compliant with French co-ownership rules (tantièmes)",
+        "Per-owner financial tracking and fund-call notice generation",
+        "Automatic expense allocation by ownership share",
+        "Association membership and event management module",
+        "Role-based multi-user access",
+        "Publicly auditable open-source code"
+      ],
+      "use_cases": [
+        {
+          "persona": "syndic-manager",
+          "job": "Tenir la comptabilité d'une copropriété gratuitement, avec un code source vérifiable"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "Suivre sa quote-part et les appels de fonds sans payer de licence"
+        }
+      ],
+      "personas": [
+        "syndic-manager",
+        "landlord-owner"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo"
+      ],
+      "pricing": {
+        "model": "free",
+        "public_pricing": true,
+        "url": "https://www.diacamma.org"
+      },
+      "product": {
+        "api": false,
+        "open_source": true,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "reviews": [],
+      "logo": {
+        "file": "logos/diacamma.png",
+        "source_url": "https://www.diacamma.org/assets/img/DiacammaImage.png",
+        "fetched_on": "2026-09-07"
+      },
+      "signals": {
+        "api_docs": "https://www.diacamma.org/api",
+        "privacy": "https://www.diacamma.org/rgpd",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-09-07"
+      },
+      "sources": [
+        {
+          "url": "https://www.diacamma.org",
+          "note": "site éditeur — accueil"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-07"
     },
     {
       "slug": "frontsteps",

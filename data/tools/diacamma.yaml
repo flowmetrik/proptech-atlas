@@ -1,0 +1,60 @@
+slug: diacamma
+name: Diacamma
+editor: Diacamma
+website: https://www.diacamma.org
+hq_country: FR
+markets: [FR]
+category: syndic-copro
+positioning: Le logiciel libre et gratuit de comptabilité d'association et de copropriété.
+description: >
+  Diacamma is a free, open-source suite of administrative and financial management
+  software aimed at volunteers running associations and condo syndicates. Its condo
+  module (Diacamma Syndic) handles accounting compliant with French co-ownership
+  rules, tracks each owner's individual financial position, generates and distributes
+  fund-call notices, and allocates expenses automatically by ownership share
+  (tantièmes). The source code is public; users can self-host or pay the partner Sleto
+  for managed hosting.
+real_estate_use: >
+  A syndic bénévole installs Diacamma to run the building's accounts without paying
+  for a commercial license: fund calls go out automatically split by tantièmes, each
+  co-owner's balance is tracked individually, and the books stay auditable because the
+  code itself is public. A volunteer with no server to manage picks Sleto's paid
+  hosting instead of self-hosting, without changing software.
+features:
+  - Condo accounting compliant with French co-ownership rules (tantièmes)
+  - Per-owner financial tracking and fund-call notice generation
+  - Automatic expense allocation by ownership share
+  - Association membership and event management module
+  - Role-based multi-user access
+  - Publicly auditable open-source code
+use_cases:
+  - persona: syndic-manager
+    job: "Tenir la comptabilité d'une copropriété gratuitement, avec un code source vérifiable"
+  - persona: landlord-owner
+    job: Suivre sa quote-part et les appels de fonds sans payer de licence
+personas: [syndic-manager, landlord-owner]
+segments: [residential]
+company_sizes: [solo]
+pricing:
+  model: free
+  public_pricing: true
+  url: https://www.diacamma.org
+product:
+  api: false
+  open_source: true
+  mobile: []
+  languages: [fr]
+reviews: []
+logo:
+  file: logos/diacamma.png
+  source_url: https://www.diacamma.org/assets/img/DiacammaImage.png
+  fetched_on: "2026-09-07"
+signals:
+  api_docs: https://www.diacamma.org/api
+  privacy: https://www.diacamma.org/rgpd
+  site_languages: [fr]
+  checked_on: "2026-09-07"
+sources:
+  - { url: https://www.diacamma.org, note: site éditeur — accueil }
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-09-07"

@@ -39,7 +39,12 @@
     "runs": 1,
     "found": 0,
     "kept": 0,
-    "last_error": "URL du registre morte (certificat expiré sur laboiteimmo.com, /partenaires en 404 sur la-boite-immo.com) — URL corrigée, aucun annuaire de partenaires publié"
+    "last_error": "URL du registre morte (certificat expiré sur laboiteimmo.com, /partenaires en 404 sur la-boite-immo.com) — URL corrigée, aucun annuaire de partenaires publié",
+    "last_swept_manual": "2026-09-07",
+    "manual_runs": 1,
+    "manual_found": 9,
+    "manual_kept": 1,
+    "last_manual_note": "Protexa retenu (registre des mandats, protexa.fr) ; ImmoSign déjà catalogué, Deep Flow Realty absorbé dans Hektor (deep-flow-realty.com ne résout plus), Interkab Connect n'a pas de site propre hors Hektor, Properstar injoignable au vérificateur, le reste hors périmètre ou générique"
   },
   "narpm-affiliates": {
     "last_swept": "2026-08-29",
@@ -124,5 +129,54 @@
     "manual_found": 2,
     "manual_kept": 1,
     "last_manual_note": "page d'accueil sans annuaire fournisseurs exploitable ; recherche web ciblée sur la promotion VEFA a trouvé Scoplan (retenu) et O2 Promotion (écarté, pas de site propre confirmé)"
+  },
+  "entrata-marketplace": {
+    "last_swept_manual": "2026-09-07",
+    "manual_runs": 1,
+    "manual_found": 17,
+    "manual_kept": 2,
+    "last_manual_note": "Livly et Foxen retenus (multifamily, tenant-experience/tenant-screening) ; reste hors périmètre (Airbnb, Experian, matériel) ou déjà catalogué"
+  },
+  "housingwire-tech": {
+    "last_swept_manual": "2026-09-07",
+    "manual_runs": 1,
+    "manual_found": 0,
+    "manual_kept": 0,
+    "last_manual_note": "URL corrigée le 07/09 (/tech/ rendait 404, remplacée par /technology/) ; répond 200 en direct mais bloque la lecture automatisée (403) — contenu non lu cette passe"
+  },
+  "zapier-real-estate": {
+    "last_swept_manual": "2026-09-07",
+    "manual_runs": 1,
+    "manual_found": 0,
+    "manual_kept": 0,
+    "last_manual_note": "URL en 404 depuis la refonte du site Zapier ; plus de page catégorie 'real-estate' dédiée dans l'annuaire d'apps, aucune URL de remplacement équivalente trouvée — source à requalifier ou retirer"
+  },
+  "snpi-partenaires": {
+    "last_swept_manual": "2026-09-07",
+    "manual_runs": 1,
+    "manual_found": 1,
+    "manual_kept": 0,
+    "last_manual_note": "Page réduite à un 'SNPI Tech Kit' générique (marque blanche, pas un produit propre) et des partenariats déjà catalogués (SeLoger) ; pas d'annuaire de partenaires logiciels distinct"
+  },
+  "plurience": {
+    "last_swept_manual": "2026-09-07",
+    "manual_runs": 1,
+    "manual_found": 0,
+    "manual_kept": 0,
+    "last_manual_note": "Domaine injoignable (timeout DNS sur plurience.com) — à revérifier"
+  },
+  "nar-partners": {
+    "last_swept_manual": "2026-09-07",
+    "manual_runs": 1,
+    "manual_found": 10,
+    "manual_kept": 1,
+    "last_manual_note": "SentriLock retenu (lockbox et showing management) ; le reste est du matériel (Dell, HP, Lenovo), des services non logiciels, ou déjà catalogué (RentRedi, Docusign, Realtor.com)"
+  },
+  "irem-boma": {
+    "last_swept_manual": "2026-09-07",
+    "manual_runs": 1,
+    "manual_found": 0,
+    "manual_kept": 0,
+    "last_manual_note": "403 à la lecture automatisée, comme les autres portails de fédération déjà rencontrés"
   }
 }

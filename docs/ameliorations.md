@@ -17,10 +17,12 @@ qu'une chose a été tentée vaut mieux que de la retenter.
   recoupé ». Vérifier veut dire ouvrir les sources, corriger ce qui a bougé,
   dater le contrôle. Commencer par les fiches les plus consultées une fois la
   mesure d'audience en place.
-- **Deux outils sans logo** — `listhub` et `urbanease`. Leur site résiste aux
-  trois voies de récupération. Trois autres (`bob-desk`, `poliris`,
-  `salvia-developpement`) n'y résistaient pas : leur URL était morte, corrigée le
-  31/08. `poliris` reste sans logo par choix — voir l'entrée du 31/08.
+- **Huit outils sans logo**, pas deux — le compte du 25/08 a vieilli sans être
+  recompté. Relevé au 07/09 : `clickpay`, `diag-pilote`, `engrain`, `listhub`,
+  `poliris`, `scoplan`, `urbanease`, `vendorpm`. `poliris` est un choix délibéré
+  (voir l'entrée du 31/08) ; les sept autres résistent aux trois voies de
+  récupération de `logos.mjs` ou n'ont simplement jamais été retentés depuis leur
+  ajout. `scoplan`, ajouté le 05/09, n'a par exemple jamais eu de logo écrit.
 - **`logos.mjs` ne sait toujours pas reconnaître un logo.** Deux garde-fous
   existent désormais : `data/logos-refuses.json` fait tenir un refus humain d'une
   passe à l'autre, et depuis le 01/09 un aplat d'une seule couleur est rejeté
@@ -43,12 +45,12 @@ qu'une chose a été tentée vaut mieux que de la retenter.
 ## Ouvert — couverture
 
 - **Catégories creuses**, à traiter par une source ciblée plutôt que par une
-  ronde généraliste. Relevé au 02/09, en US/FR/total : `lending-mortgage` 3/3/6,
-  `visuals-tours` 3/6/6, `listing-syndication` 3/5/8, `flex-coworking` 4/8/8,
-  `short-term-rental` 7/7/8. Les deux trous par marché signalés le 01/09 se sont
-  refermés d'un cran le 02/09 : `ai-assistants` FR passe de 2 à 3 (`genius-immo`)
-  et `diagnostics-compliance` US de 2 à 4 (`spectora`, `homegauge`). Les chiffres
-  de ce carnet vieillissent vite : les recompter avant de choisir, pas les lire.
+  ronde généraliste. Relevé au 07/09, en US/FR/total : `lending-mortgage`
+  3/3/6, `listing-syndication` 3/5/8, `short-term-rental` 7/7/8,
+  `visuals-tours` 7/7/11, `flex-coworking` 8/8/12. `ai-assistants` FR reste la
+  plus fine du catalogue avec seulement 3 fiches françaises pour 10
+  américaines. Les chiffres de ce carnet vieillissent vite : les recompter
+  avant de choisir, pas les lire.
 
   ```bash
   node --input-type=module -e "import fs from 'node:fs';import yaml from 'js-yaml';\
@@ -62,20 +64,27 @@ qu'une chose a été tentée vaut mieux que de la retenter.
 - **Le marché français reste le gisement.** Les éditeurs français ne se
   référencent pas en anglais : c'est là que ce catalogue est seul.
 - **Sources jamais balayées** — voir `data/sweeps.json`. Une source sans entrée
-  n'a jamais été vue. Dix sources sur 46 ont été vues au moins une fois.
-- **Les sources `association` ne rendent plus rien, des deux côtés de
-  l'Atlantique.** `unis-partenaires`, `fnaim-partenaires` et
-  `laboiteimmo-partenaires` étaient muettes ou en 404 le 26/08 ; le 29/08,
-  l'annuaire des affiliés de la NARPM s'est révélé sans aucun lien sortant, son
-  contenu vivant derrière `community.narpm.org`, réservé aux membres. Ce n'est
-  pas un faible rendement, c'est un mécanisme : les fédérations ont déplacé leur
-  annuaire fournisseurs derrière une adhésion. Il faut soit retirer ces entrées,
-  soit leur trouver une URL publique qui existe encore. Six autres sources
-  `association` ne sont pas encore vérifiées.
-- **`syndic-copro` n'a aucune fiche américaine** alors que la gestion de
-  copropriété est un segment entier aux États-Unis, sous le nom HOA. La
-  catégorie existe et la taxonomie convient : c'est le trou le plus large du
-  catalogue. Même remarque, en plus petit, pour `ai-assistants` côté français.
+  n'a jamais été vue. 25 sources sur 46 ont été vues au moins une fois au 07/09
+  (`entrata-marketplace`, `zapier-real-estate` et `housingwire-tech` ajoutées
+  ce jour-là) ; 21 restent entièrement vierges, surtout côté `press`, `vc`,
+  `launch` et `public`.
+- **Les sources `association` ne rendent quasiment rien, des deux côtés de
+  l'Atlantique — mais les neuf sont désormais balayées au moins une fois** (la
+  dernière quatrine le 07/09 : `snpi-partenaires`, `plurience`, `nar-partners`,
+  `irem-boma`). Le mécanisme reste celui identifié le 29/08 : les fédérations
+  ont déplacé leur annuaire fournisseurs derrière une adhésion, ou ne publient
+  qu'une page de marque blanche sans lister de tiers. Deux buts atteints quand
+  même : `nar-partners` (la page « REALTOR Benefits ») a rendu `sentrilock`, et
+  `plurience.com` ne résout plus du tout (timeout DNS) — à vérifier de nouveau
+  dans quelques semaines avant de la retirer du registre. Il reste à décider,
+  pour les six sources vraiment muettes, si on les retire ou si on cherche une
+  URL de remplacement.
+- **`syndic-copro` a maintenant une base américaine réelle** (7 fiches :
+  `buildium`, `cinc-systems`, `clickpay`, `condo-control`, `frontsteps`,
+  `payhoa`, `vantaca`) — l'entrée précédente de ce carnet, qui annonçait zéro,
+  datait et n'avait pas été recomptée avant d'être répétée. Le trou véritable
+  qui reste est `ai-assistants` côté français (3 fiches contre 10 côté
+  américain).
 
 ## Ouvert — site et données
 
@@ -84,7 +93,14 @@ qu'une chose a été tentée vaut mieux que de la retenter.
   faire que si la page dit ce qui sépare vraiment les deux produits.
 - **Un flux des nouveautés.** `/api/changes.json` : ce qui a été ajouté ou
   modifié depuis N jours, pour qu'un consommateur de l'API n'ait pas à tout
-  retélécharger.
+  retélécharger. Piège identifié le 07/09 avant de s'y lancer : la source la
+  plus naturelle est l'historique git (`git log --name-status` sur
+  `data/tools/`), mais les trois workflows utilisent `actions/checkout@v4` sans
+  `fetch-depth: 0` — en CI, chaque fichier verrait un historique d'un seul
+  commit et daterait comme « ajouté aujourd'hui ». Un artefact qui se
+  régénère différemment en CI qu'en local casse le contrôle de fraîcheur
+  exactement comme le 30/08 (voir plus bas) : poser `fetch-depth: 0` sur les
+  trois workflows est un préalable, pas un détail, avant d'écrire ce script.
 - **Descriptions françaises.** Le schéma accepte `description_fr` ; rien ne le
   remplit. Une moitié du catalogue est française et se lit en anglais.
 
@@ -106,6 +122,54 @@ qu'une chose a été tentée vaut mieux que de la retenter.
 
 ## Fait
 
+- **2026-09-07** — La file `data/candidates.json` accumulait des candidats déjà
+  catalogués sous un autre nom, sans jamais être nettoyée : `fiche.mjs --from`
+  n'y touchait pas du tout, et le mode file ne retire que les slugs qu'il vient
+  lui-même de traiter. Trouvé en préparant cette passe : `scoplan`,
+  `decisio-habitat`, `dematimmo` et `property-hub` traînaient dans la file avec
+  le slug ET le site EXACTEMENT identiques à une fiche déjà écrite le 05/09 —
+  et `leon` (jamais consommé) pointait vers `https://www.scepia.fr/leon`, la
+  même URL exacte que `leon-scepia.yaml`. Une prochaine passe aurait pu les
+  rédiger une seconde fois, en payant un appel de modèle pour ça. Nouvelle
+  fonction `pruneQueueAgainstCatalog()` dans `fiche.mjs`, appelée à chaque
+  invocation (`--from` compris, juste après l'écriture) : elle retire de la
+  file tout candidat dont le slug OU le domaine correspond déjà à une fiche du
+  catalogue. Cinq entrées purgées dès le premier passage. À l'occasion, un
+  candidat encore plus intéressant est apparu : `rethink-crm`
+  (`rethinkcrm.com`) restait en file depuis avant le contrôle de domaine
+  reconverti du 02/09 — le domaine sert aujourd'hui un site de paris en ligne
+  (UFABET). Il a été déplacé en `rejected` avec le motif exact ; le produit vit
+  bien au catalogue, sous `rethink-by-buildout` et son domaine actuel
+  `buildout.com`. À retenir : la purge par domaine ne remplace pas le contrôle
+  de domaine reconverti — elle referme la file, il referme le web.
+- **2026-09-07** — Six fiches ajoutées par recherche propre (sans OpenRouter) :
+  `protexa` (FR, registres de mandats loi Hoguet), `sentrilock` (US, boîte à
+  clés électronique et gestion des visites, propriété de la NAR), `livly` (US,
+  app résident et hub gestionnaire pour le multifamilial), `foxen` (US,
+  plateforme de conformité assurance-locataire et reporting de loyer),
+  `coprolib'` (FR, comptabilité de copropriété pour syndics bénévoles, avec
+  accompagnement professionnel en option) et `diacamma` (FR, suite libre et
+  gratuite de comptabilité associative et de copropriété — la première fiche
+  du catalogue explicitement `open_source: true` dans cette catégorie). Trouvés
+  via `entrata-marketplace` (Livly, Foxen), `nar-partners` (SentriLock) et
+  `laboiteimmo-partenaires` (Protexa) ; Coprolib' et Diacamma dormaient déjà
+  vérifiés dans la file. Deux candidats de la même chasse écartés : `Interkab
+  Connect` et `Deep Flow Realty` n'ont plus de site propre hors de celui de
+  leur repreneur (La Boîte Immo/Hektor) ; `Previsite` (éditeur de `Smartpix`)
+  et `Properstar` étaient déjà en file ou injoignables au vérificateur.
+- **2026-09-07** — Les neuf sources `association` du registre sont désormais
+  balayées au moins une fois (`snpi-partenaires`, `plurience`, `nar-partners`,
+  `irem-boma` ce jour ; les cinq autres l'étaient déjà). Rendement quasi nul
+  comme prévu, sauf `nar-partners` (SentriLock) — mais la mesure elle-même
+  fait avancer le projet : elle dit que ce type de source est structurellement
+  pauvre plutôt que de laisser planer le doute. `entrata-marketplace` et
+  `zapier-real-estate` balayées pour la première fois : la première a rendu
+  Livly et Foxen, la seconde renvoie un 404 sur l'URL du registre — le site
+  Zapier a retiré ses pages de catégorie d'annuaire, aucune URL de
+  remplacement équivalente trouvée. `housingwire-tech` avait le même problème
+  (`/tech/` en 404) ; corrigée vers `/technology/`, qui répond mais bloque la
+  lecture automatisée (403) — contenu non lu cette passe, à retenter avec un
+  autre outil.
 - **2026-09-05** — `fiche.mjs --from` acceptait `pricing.from/currency/unit`
   (documentés dans `data/SCHEMA.md`) mais `toYaml()` ne rendait que `model`,
   `public_pricing` et `url` : les trois champs disparaissaient du YAML en

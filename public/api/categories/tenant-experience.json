@@ -4,7 +4,7 @@
   "label_fr": "Expérience occupant & smart building",
   "summary_en": "Occupant apps, access, bookings, services and building IoT.",
   "summary_fr": "Applications occupants, accès, réservations, services et IoT du bâtiment.",
-  "count": 18,
+  "count": 19,
   "tools": [
     {
       "slug": "aareon",
@@ -1058,6 +1058,95 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "livly",
+      "name": "Livly",
+      "editor": "Livly, Inc.",
+      "website": "https://www.livly.io",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "tenant-experience",
+      "positioning": "The unified resident app and property-management dashboard for multifamily.",
+      "description": "Livly is a resident-experience app for multifamily apartment communities, paired with a property-manager dashboard called the Property Hub. Residents pay rent, submit maintenance tickets, get package alerts, book amenities, use phone-based keyless entry, and browse a marketplace of on-demand services from the same app; property teams handle onboarding, move-in checklists, event coordination and communications from the Hub, with an AI-driven module that forecasts lease renewals.\n",
+      "real_estate_use": "A property manager hands a new resident the Livly app at move-in so rent payment, maintenance requests and the unit's keyless entry all live in one place instead of three separate systems. When a package arrives, the resident gets an alert instead of a call to the front desk, and when a maintenance ticket is filed, staff see it and can message the resident directly from the same thread. Leasing teams use the renewal-prediction module to flag residents likely to move out with enough lead time to intervene.\n",
+      "features": [
+        "Resident mobile app: rent payment, maintenance requests, package alerts",
+        "Phone-based keyless entry (Livly Key) to units and common areas",
+        "Amenity booking and community event RSVPs",
+        "Community feed for resident-to-resident and resident-to-staff messaging",
+        "AI-driven lease renewal prediction for property teams",
+        "Property Hub dashboard unifying onboarding, maintenance and communications"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Centraliser paiement du loyer, maintenance et communication résident dans une seule application"
+        },
+        {
+          "persona": "tenant-occupier",
+          "job": "Payer son loyer, réserver une prestation ou ouvrir sa porte depuis son téléphone"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "tenant-occupier"
+      ],
+      "segments": [
+        "multifamily"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "ai": {
+        "capabilities": [
+          "Lease renewal prediction for leasing teams"
+        ]
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "reviews": [],
+      "logo": {
+        "file": "logos/livly.png",
+        "source_url": "https://cdn.prod.website-files.com/5ba15fdf8a3c123138de7c3b/5bab926f068609c87bb2d1a0_Livly_webclip-2.png",
+        "fetched_on": "2026-09-07"
+      },
+      "signals": {
+        "privacy": "https://www.livly.io/privacy-policy",
+        "checked_on": "2026-09-07"
+      },
+      "sources": [
+        {
+          "url": "https://www.livly.io/",
+          "note": "site éditeur — accueil"
+        },
+        {
+          "url": "https://www.livly.io/for-residents",
+          "note": "page fonctionnalités résident"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-07"
     },
     {
       "slug": "payhoa",
