@@ -1,0 +1,64 @@
+slug: copriciel
+name: Copriciel
+editor: Copriciel
+website: https://www.copriciel.com
+hq_country: FR
+markets: [FR]
+category: syndic-copro
+positioning: "Condo management software that automates the bookkeeping a spreadsheet can't safely handle, for volunteer and professional syndics."
+description: >
+  Copriciel is a French condo (copropriété) accounting and management software pitched
+  explicitly as a replacement for the spreadsheets many volunteer syndics start with.
+  It automates bank reconciliation from imported PDF statements, generates the general
+  ledger and closing annexes, prepares fund calls detailed by budget and by lot
+  including the mandatory ALUR works fund, handles general-assembly convocations, and
+  gives co-owners a secure document extranet.
+real_estate_use: >
+  A volunteer syndic who has been tracking the building's accounts in Excel switches
+  to Copriciel to automate bank reconciliation and fund calls, cutting the monthly
+  bookkeeping the vendor estimates at 8 hours down to about 2.5, while staying
+  compliant with the loi ALUR works-fund and PCG accounting requirements. The syndic
+  imports bank statement PDFs instead of re-entering each line, and generates the
+  general ledger and closing annexes in one click ahead of the general assembly.
+  Co-owners use the extranet to check balances and download état daté and article 20
+  certificates during a sale.
+features:
+  - Automated bank reconciliation from imported PDF statements
+  - General ledger and closing annexes generated automatically (PCG compliant)
+  - "Fund calls detailed by budget and by lot, including the ALUR works fund"
+  - General assembly convocation and management
+  - Secure co-owner document extranet
+  - État daté and article 20 certificate generation for unit sales
+use_cases:
+  - persona: syndic-manager
+    job: "Replace a spreadsheet with automated bank reconciliation, fund calls and closing annexes for the condo"
+  - persona: landlord-owner
+    job: Check balances and pull the état daté or article 20 certificate needed to sell a unit
+personas: [syndic-manager, landlord-owner]
+segments: [residential]
+company_sizes: [solo, smb]
+pricing:
+  model: subscription
+  public_pricing: true
+  from: 120
+  currency: EUR
+  unit: "per year, TTC, forfait Essentiel"
+  url: https://www.copriciel.com
+product:
+  api: false
+  open_source: false
+  mobile: []
+  languages: [fr]
+reviews: []
+logo:
+  file: logos/copriciel.png
+  source_url: https://www.copriciel.com/wp-content/uploads/2026/03/logo-copriciel-bl-640x100-1.png
+  fetched_on: "2026-09-08"
+signals:
+  privacy: https://www.copriciel.com/mentions-legales
+  site_languages: [fr]
+  checked_on: "2026-09-08"
+sources:
+  - { url: https://www.copriciel.com, note: site éditeur — accueil et tarifs }
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-09-08"

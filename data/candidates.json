@@ -1,48 +1,6 @@
 {
-  "generated": "2026-09-07",
+  "generated": "2026-09-08",
   "candidates": [
-    {
-      "name": "Copromatic",
-      "editor": "Copromatic",
-      "website": "https://www.copromatic.com",
-      "category": "syndic-copro",
-      "markets": [
-        "FR"
-      ],
-      "why": "Logiciel de comptabilité et de gestion administrative pour syndics bénévoles et professionnels afin de suivre budgets, charges et travaux de copropriété.",
-      "source_url": "https://www.copromatic.com/",
-      "found_in": "syndic-copro/FR",
-      "slug": "copromatic",
-      "verified_on": "2026-08-25"
-    },
-    {
-      "name": "Comptacop",
-      "editor": "Comptacop (SAS Cloud Solution)",
-      "website": "https://www.comptacop.fr",
-      "category": "syndic-copro",
-      "markets": [
-        "FR"
-      ],
-      "why": "Logiciel cloud de gestion de copropriété avec extranet copropriétaires, préparation des budgets, appels de fonds et gestion des AG.",
-      "source_url": "https://www.comptacop.fr/",
-      "found_in": "syndic-copro/FR",
-      "slug": "comptacop",
-      "verified_on": "2026-08-25"
-    },
-    {
-      "name": "Copriciel",
-      "editor": "Copriciel",
-      "website": "https://www.copriciel.com",
-      "category": "syndic-copro",
-      "markets": [
-        "FR"
-      ],
-      "why": "Plateforme SaaS française conçue pour les syndics bénévoles afin de gérer comptabilité, appels de fonds et assemblées générales en conformité avec la réglementation copropriété.",
-      "source_url": "https://www.copriciel.com/",
-      "found_in": "syndic-copro/FR",
-      "slug": "copriciel",
-      "verified_on": "2026-08-25"
-    },
     {
       "name": "LogicielSyndic",
       "editor": "LogicielSyndic",
@@ -185,6 +143,12 @@
       "name": "Rethink CRM",
       "website": "https://www.rethinkcrm.com",
       "why": "domaine reconverti : rethinkcrm.com sert désormais un site de paris en ligne (UFABET) — le produit vit sous buildout.com/platform/rethink-by-buildout, déjà catalogué sous ce nom"
+    },
+    {
+      "slug": "condo",
+      "name": "Condo",
+      "website": "https://github.com/open-condo-software/open-condo-platform",
+      "why": "hors périmètre de marché : Condo/open-condo-platform est édité par Doma.ai, basé à Iekaterinbourg (Russie) et opéré pour le marché russe — le catalogue ne couvre que US/FR (verify.mjs ne le voit pas : il contrôle le site, pas le marché servi)."
     }
   ]
 }

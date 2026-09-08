@@ -1,0 +1,78 @@
+{
+  "slug": "copromatic",
+  "name": "Copromatic",
+  "editor": "Copromatic",
+  "website": "https://www.copromatic.com",
+  "hq_country": "FR",
+  "markets": [
+    "FR"
+  ],
+  "category": "syndic-copro",
+  "positioning": "An affordable, easy-to-use accounting and administrative software for volunteer and professional condo syndics.",
+  "description": "Copromatic is a French condo (copropriété) management software covering both accounting and administrative operations, aimed at syndics bénévoles as well as small professional syndics. It runs in the browser with no local install, and bundles a co-owner extranet, general-assembly preparation and minutes, fund calls, expense allocation, and maintenance-log tracking, staying aligned with French co-ownership law (loi ALUR).\n",
+  "real_estate_use": "A volunteer syndic elected by the co-owners' assembly uses Copromatic to prepare the annual budget, generate fund calls split by tantièmes, and reconcile the bank account without hiring a professional management firm. Ahead of the general assembly, the syndic uses the platform to draft the agenda, run the vote, and generate the minutes, then archives everything for the co-owners to consult through their extranet. A small professional syndic uses the same tool across several buildings, paying per co-owner rather than a flat licence.\n",
+  "features": [
+    "Condo accounting and general ledger (loi ALUR compliant)",
+    "Fund calls and automated expense allocation by tantièmes",
+    "Co-owner extranet for balances and documents",
+    "General assembly agenda, e-voting and minutes generation",
+    "Automated bank reconciliation and meter tracking",
+    "Maintenance log (carnet d'entretien) and supplier management"
+  ],
+  "use_cases": [
+    {
+      "persona": "syndic-manager",
+      "job": "Run condo accounting, fund calls and general assemblies without a professional management firm"
+    },
+    {
+      "persona": "landlord-owner",
+      "job": "Consult account balances, fund calls and building documents through the co-owner extranet"
+    }
+  ],
+  "personas": [
+    "syndic-manager",
+    "landlord-owner"
+  ],
+  "segments": [
+    "residential"
+  ],
+  "company_sizes": [
+    "solo",
+    "smb"
+  ],
+  "pricing": {
+    "model": "subscription",
+    "public_pricing": true,
+    "from": 39,
+    "currency": "EUR",
+    "unit": "per month (non-professional syndic) + €4 per co-owner/month",
+    "url": "https://www.copromatic.com"
+  },
+  "product": {
+    "api": false,
+    "open_source": false,
+    "mobile": [],
+    "languages": [
+      "fr"
+    ]
+  },
+  "reviews": [],
+  "signals": {
+    "site_languages": [
+      "en"
+    ],
+    "checked_on": "2026-09-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.copromatic.com",
+      "note": "site éditeur — accueil et tarifs"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-09-08"
+}

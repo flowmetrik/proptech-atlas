@@ -178,5 +178,25 @@
     "manual_found": 0,
     "manual_kept": 0,
     "last_manual_note": "403 à la lecture automatisée, comme les autres portails de fédération déjà rencontrés"
+  },
+  "mysweetimmo": {
+    "last_swept_manual": "2026-09-08",
+    "manual_runs": 1,
+    "manual_found": 2,
+    "manual_kept": 1
+  },
+  "propmodo": {
+    "last_swept_manual": "2026-09-08",
+    "manual_runs": 1,
+    "manual_found": 1,
+    "manual_kept": 0,
+    "last_manual_note": "candidats trouvés hors périmètre ou déjà connus"
+  },
+  "github-proptech": {
+    "last_swept_manual": "2026-09-08",
+    "manual_runs": 1,
+    "manual_found": 1,
+    "manual_kept": 0,
+    "last_manual_note": "seul candidat solide (Condo/Doma.ai) hors marché US/FR"
   }
 }
