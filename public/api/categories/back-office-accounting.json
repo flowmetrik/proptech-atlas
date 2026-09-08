@@ -995,6 +995,11 @@
       "signals": {
         "checked_on": "2026-09-04"
       },
+      "logo": {
+        "file": "logos/clickpay.png",
+        "source_url": "https://www.clickpay.com/App_Themes/NPTheme/images/home/logo-2019.png",
+        "fetched_on": "2026-09-08"
+      },
       "sources": [
         {
           "url": "https://www.clickpay.com",

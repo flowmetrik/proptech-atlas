@@ -1595,6 +1595,11 @@
         ],
         "checked_on": "2026-09-05"
       },
+      "logo": {
+        "file": "logos/scoplan.png",
+        "source_url": "https://www.scoplan.com/build/company/img/logo.png",
+        "fetched_on": "2026-09-08"
+      },
       "sources": [
         {
           "url": "https://www.scoplan.com/fr/Promoteur",
