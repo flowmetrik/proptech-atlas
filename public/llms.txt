@@ -56,5 +56,5 @@ Relevés : 221 outils · tarifs publics 59 · doc d'API 18 · page sécurité 30
 **Les avis ne sont jamais inventés.** 0 agrégat(s) externe(s) daté(s) au
 catalogue. Une note sans URL de source et sans date de relevé est refusée par le validateur.
 
-**Les logos** viennent du site de l'éditeur (227 / 235), avec leur
+**Les logos** viennent du site de l'éditeur (230 / 235), avec leur
 URL d'origine et la date du relevé. Marques et logos appartiennent à leurs détenteurs.

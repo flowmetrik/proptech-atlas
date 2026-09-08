@@ -13,7 +13,7 @@
     "editors": 218,
     "verified": 0,
     "reviews": 0,
-    "logos": 227,
+    "logos": 230,
     "signals": {
       "probed": 221,
       "public_pricing": 59,
@@ -3952,6 +3952,11 @@
       "reviews": [],
       "signals": {
         "checked_on": "2026-09-04"
+      },
+      "logo": {
+        "file": "logos/clickpay.png",
+        "source_url": "https://www.clickpay.com/App_Themes/NPTheme/images/home/logo-2019.png",
+        "fetched_on": "2026-09-08"
       },
       "sources": [
         {
@@ -18179,6 +18184,11 @@
         ],
         "checked_on": "2026-09-05"
       },
+      "logo": {
+        "file": "logos/scoplan.png",
+        "source_url": "https://www.scoplan.com/build/company/img/logo.png",
+        "fetched_on": "2026-09-08"
+      },
       "sources": [
         {
           "url": "https://www.scoplan.com/fr/Promoteur",
@@ -21722,6 +21732,11 @@
           "en"
         ],
         "checked_on": "2026-09-04"
+      },
+      "logo": {
+        "file": "logos/vendorpm.png",
+        "source_url": "https://cdn.prod.website-files.com/61ae81de929387df07374012/6310d73a84e35b83e057ff8e_VendorPM%20Logo%20(Default%20black).webp",
+        "fetched_on": "2026-09-08"
       },
       "sources": [
         {

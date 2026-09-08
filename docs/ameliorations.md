@@ -17,18 +17,16 @@ qu'une chose a été tentée vaut mieux que de la retenter.
   recoupé ». Vérifier veut dire ouvrir les sources, corriger ce qui a bougé,
   dater le contrôle. Commencer par les fiches les plus consultées une fois la
   mesure d'audience en place.
-- **Huit outils sans logo**, pas deux — le compte du 25/08 a vieilli sans être
-  recompté. Relevé au 07/09 : `clickpay`, `diag-pilote`, `engrain`, `listhub`,
-  `poliris`, `scoplan`, `urbanease`, `vendorpm`. `poliris` est un choix délibéré
-  (voir l'entrée du 31/08) ; les sept autres résistent aux trois voies de
-  récupération de `logos.mjs` ou n'ont simplement jamais été retentés depuis leur
-  ajout. `scoplan`, ajouté le 05/09, n'a par exemple jamais eu de logo écrit.
-- **`logos.mjs` ne sait toujours pas reconnaître un logo.** Deux garde-fous
-  existent désormais : `data/logos-refuses.json` fait tenir un refus humain d'une
-  passe à l'autre, et depuis le 01/09 un aplat d'une seule couleur est rejeté
-  automatiquement. Reste le cas difficile, celui de `poliris` : une image
-  parfaitement valide qui n'est simplement pas le logo. Le nom du produit dans
-  l'attribut `alt` de l'image candidate serait le prochain signal à exploiter.
+- **Cinq outils sans logo** au 08/09 (contre huit la veille) : `diag-pilote`,
+  `engrain`, `listhub`, `poliris`, `urbanease`. `listhub` et `urbanease` sont
+  des SPA sans balisage lisible côté serveur — hors de portée de `logos.mjs`
+  sans navigateur headless. Les trois autres sont des refus humains motivés
+  dans `data/logos-refuses.json` (voir l'entrée « fait » du 08/09 : deux
+  pièges différents, un rendu cassé et un logo blanc pour fond sombre).
+- **`logos.mjs` sait maintenant lire l'attribut `alt` et la classe d'un
+  `<img>`** (fait le 08/09) — voir l'entrée « fait » ci-dessous. Le cas
+  `poliris` reste entier : son domaine propre ne résout plus, il n'y a pas
+  d'`<img>` à lire nulle part.
 - **`verify.mjs` ne voit toujours pas un produit homonyme.** Le contrôle de
   domaine reconverti, posé le 02/09, ne couvre que le cas du domaine mort. Reste
   celui du **nom qui désigne autre chose** : `siana.ai` a été vérifié « oui » le

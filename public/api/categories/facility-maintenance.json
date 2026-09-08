@@ -2305,6 +2305,11 @@
         ],
         "checked_on": "2026-09-04"
       },
+      "logo": {
+        "file": "logos/vendorpm.png",
+        "source_url": "https://cdn.prod.website-files.com/61ae81de929387df07374012/6310d73a84e35b83e057ff8e_VendorPM%20Logo%20(Default%20black).webp",
+        "fetched_on": "2026-09-08"
+      },
       "sources": [
         {
           "url": "https://vendorpm.com",
