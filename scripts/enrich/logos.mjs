@@ -24,6 +24,9 @@ if (!IM) {
 }
 /** Lance ImageMagick, quelle que soit la génération installée. */
 const im = (kind, args) => run(IM[kind][0], [...IM[kind].slice(1), ...args]);
+// Optionnel : présent sur `cowork-linux` depuis le 08/09, absent ailleurs.
+// Voir `normalise()` pour ce qu'il corrige.
+const RSVG = await run('rsvg-convert', ['--version']).then(() => true).catch(() => false);
 const OUT = ensureDir(join(ROOT, 'public', 'logos'));
 
 // Les logos qu'un humain a regardés et refusés. Sans cette liste, la passe
@@ -43,10 +46,42 @@ const ONLY = (args.find((a) => a.startsWith('--only'))?.split('=')[1] ??
   (args.includes('--only') ? args[args.indexOf('--only') + 1] : '') ?? '')
   .split(',').filter(Boolean);
 
-/** Les candidats d'un <head>, du meilleur au pire. */
-function candidates(html, base) {
+/** Un `<img>` du header dont l'`alt` nomme le produit, ou dont la classe dit
+ *  « logo », est le signal le plus direct qu'on puisse lire dans un `<head>` —
+ *  plus fiable qu'un favicon ou qu'un og:image, qui ne portent aucun nom.
+ *  Ajouté le 08/09 : `poliris` avait adopté un export de diapositive faute de
+ *  mieux, alors que le site portait `<img alt="Poliris" class="logo">` juste à
+ *  côté. Rang au-dessus de l'apple-touch-icon quand les deux signaux
+ *  concordent (alt ET classe), sinon juste en dessous. */
+function imgLogoCandidates(html, base, name) {
   const abs = (u) => { try { return new URL(u, base).href; } catch { return null; } };
+  const norm = (s) => (s ?? '').toLowerCase().replace(/[^a-z0-9]+/g, '');
+  const wanted = norm(name);
+  if (!wanted) return [];
   const found = [];
+  const imgs = html.match(/<img\b[^>]*>/gi) ?? [];
+  for (const tag of imgs.slice(0, 400)) {
+    const src = tag.match(/\bsrc=["']([^"']+)["']/i)?.[1];
+    if (!src || /\.(mp4|webm)($|\?)/i.test(src)) continue;
+    const alt = tag.match(/\balt=["']([^"']*)["']/i)?.[1] ?? '';
+    const cls = tag.match(/\bclass=["']([^"']*)["']/i)?.[1] ?? '';
+    const altMatch = wanted.length >= 3 && norm(alt).includes(wanted);
+    const classMatch = /\blogo\b/i.test(cls) || /logo/i.test(src);
+    if (!altMatch && !classMatch) continue;
+    const u = abs(src);
+    // Au-dessus de l'apple-touch-icon (1000 + sa taille déclarée, rarement
+    // > 180) : un alt ou une classe qui nomme la marque vaut plus qu'une icône
+    // sans nom. Vu sur `engrain` : un apple-touch-icon sans `sizes` valait
+    // 1000 pile et battait le candidat nommé à 999 d'un cheveu.
+    if (u) found.push({ url: u, rank: altMatch && classMatch ? 2000 : altMatch ? 1500 : 1200 });
+  }
+  return found;
+}
+
+/** Les candidats d'un <head>, du meilleur au pire. */
+function candidates(html, base, name) {
+  const abs = (u) => { try { return new URL(u, base).href; } catch { return null; } };
+  const found = [...imgLogoCandidates(html, base, name)];
   const links = html.match(/<link\b[^>]*>/gi) ?? [];
   for (const tag of links) {
     const rel = (tag.match(/rel=["']([^"']+)["']/i)?.[1] ?? '').toLowerCase();
@@ -112,11 +147,27 @@ async function isBlank(png) {
 /** Normalise en PNG 256 px, fond transparent conservé, et refuse le minuscule. */
 async function normalise(buf, slug, ext) {
   const tmp = join(OUT, `.tmp-${slug}${ext}`);
+  const pre = join(OUT, `.tmp-${slug}-rsvg.png`);
   const out = join(OUT, `${slug}.png`);
   writeFileSync(tmp, buf);
   try {
+    let src = `${ext === '.ico' ? 'ico:' : ''}${tmp}${ext === '.ico' ? '[0]' : ''}`;
+    // Le coder MSVG intégré à ImageMagick 6 (build `--without-rsvg` des dépôts
+    // Ubuntu) échoue en silence sur des SVG pourtant valides — vu sur le logo
+    // Engrain, 5 Ko, un seul niveau de <g> imbriqués : il rend un aplat d'une
+    // couleur au lieu d'une erreur, exactement comme la panne du 01/09 sur les
+    // délégués manquants. `rsvg-convert`, quand il est sur le PATH, prérend le
+    // SVG en PNG net avant qu'ImageMagick ne le redimensionne ; absent, on
+    // retombe sur MSVG comme avant — aucune régression sur les machines qui ne
+    // l'ont pas.
+    if (ext === '.svg' && RSVG) {
+      try {
+        await run('rsvg-convert', [tmp, '-o', pre, '-w', '512', '-h', '512', '--keep-aspect-ratio']);
+        src = pre;
+      } catch { /* ce SVG précis fait échouer rsvg-convert : repli sur MSVG */ }
+    }
     await im('convert', [
-      `${ext === '.ico' ? 'ico:' : ''}${tmp}${ext === '.ico' ? '[0]' : ''}`,
+      src,
       '-background', 'none', '-alpha', 'on',
       '-resize', '256x256>', '-gravity', 'center', '-extent', '256x256',
       '-strip', `PNG32:${out}`,
@@ -125,6 +176,7 @@ async function normalise(buf, slug, ext) {
     return { out, dims: stdout.trim() };
   } finally {
     try { unlinkSync(tmp); } catch {}
+    try { unlinkSync(pre); } catch {}
   }
 }
 
@@ -159,12 +211,12 @@ async function grab(tool) {
   }
 
   let page = await html(tool.website);
-  let list = page ? candidates(page.text, page.base) : [];
+  let list = page ? candidates(page.text, page.base, tool.name) : [];
   if (!list.length) {
     // Le site refuse un fetch direct : on repasse par Firecrawl, qui se
     // présente comme un navigateur.
     page = await html(tool.website, { viaFirecrawl: true });
-    list = page ? candidates(page.text, page.base) : [];
+    list = page ? candidates(page.text, page.base, tool.name) : [];
   }
   list = [...list, ...proxies(tool.website)];
 
