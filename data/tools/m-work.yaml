@@ -1,0 +1,66 @@
+slug: m-work
+name: m-work
+editor: m-work
+website: https://www.m-work.co
+hq_country: FR
+markets: [FR]
+category: flex-coworking
+positioning: "Smart workforce management and hybrid work software that decides who works where and when, and builds the schedule to match."
+description: >
+  m-work is a French software suite for planning flex offices and hybrid teams. Its
+  m-work Flex product manages hot desking, meeting-room and resource booking, and
+  remote-work declarations, syncing with Outlook and Google Calendar so a workplace or
+  HR team can see who is in which office on a given day. A second product, m-work
+  Planner, forecasts activity volume and builds shift schedules for customer-facing
+  teams. The company was acquired by French HR software group Asys in 2026 and
+  continues to operate as a distinct product line.
+real_estate_use: >
+  A corporate real estate or workplace team uses m-work Flex to monitor office
+  occupancy in real time and reorganize desks, meeting rooms and parking as hybrid
+  attendance shifts, instead of guessing capacity from badge data alone. An HR team
+  relies on the same tool to track remote-work declarations against company policy and
+  to generate a work-from-home allowance from actual attendance. A facilities manager
+  configures smart rules so hot-desk bookings stay fair across teams as office
+  footprint is reduced.
+features:
+  - "Hot desking and resource booking (desks, meeting rooms, parking)"
+  - Hybrid work schedule and remote-work declaration tracking
+  - Real-time office occupancy monitoring and dashboards
+  - "Outlook and Google Calendar sync, SSO"
+  - "m-work Planner: activity forecasting and shift scheduling for frontline teams"
+  - Remote-work policy and WFH allowance calculators
+use_cases:
+  - persona: corporate-re
+    job: Track real-time office occupancy and resize flex-office capacity as hybrid attendance changes
+  - persona: facility-manager
+    job: "Manage hot-desk, meeting-room and parking bookings fairly across teams sharing the same space"
+personas: [corporate-re, facility-manager]
+segments: [office]
+company_sizes: [smb, midmarket, enterprise]
+pricing:
+  model: per-seat
+  public_pricing: true
+  from: 4
+  currency: USD
+  unit: per user / month
+  url: https://www.m-work.co/en/pricing
+product:
+  api: false
+  open_source: false
+  mobile: []
+  languages: [fr, en]
+reviews: []
+logo:
+  file: logos/m-work.png
+  source_url: https://cdn.prod.website-files.com/66f50626db9976ff6157dc58/672321907d31c5116cc5d1dc_Type%3DLogo%2C%20Theme%3DDefault.svg
+  fetched_on: "2026-09-08"
+signals:
+  pricing: https://www.m-work.co/fr/pricing
+  privacy: https://www.m-work.co/fr/legal/politique-de-confidentialite
+  site_languages: [en, fr]
+  checked_on: "2026-09-08"
+sources:
+  - { url: https://www.m-work.co/en, note: site éditeur — accueil }
+  - { url: https://www.m-work.co/en/pricing, note: site éditeur — tarifs }
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-09-08"

@@ -1,0 +1,62 @@
+slug: comptacop
+name: Comptacop
+editor: Comptacop
+website: https://www.comptacop.fr
+hq_country: FR
+markets: [FR]
+category: syndic-copro
+positioning: "A full web-based condo management software for professional and volunteer syndics, from accounting to general assemblies."
+description: >
+  Comptacop is a French web-based ("100% Internet Full Web") software for managing
+  condo syndicates, in operation for over ten years. It covers accounting (budgets,
+  journal, general ledger, trial balance, charge allocation, year-end closing
+  annexes), meter readings, bank reconciliation with Excel export, and a co-owner
+  extranet with an agenda and general-assembly tools, sold as a single all-inclusive
+  plan for either professional or volunteer syndics.
+real_estate_use: >
+  A syndic — professional or volunteer — logs into Comptacop to prepare the
+  provisional budget, record works, subsidies and loans, and produce the year-end
+  closing annexes required by French co-ownership regulation, without switching tools
+  between accounting and administration. Co-owners consult the extranet to see their
+  balances and shared documents outside of general assemblies. Because the plan is
+  unlimited on the number of condos managed, a small syndic firm can run its whole
+  portfolio on one subscription.
+features:
+  - "Condo accounting: budgets, general ledger, trial balance, year-end annexes"
+  - Automated charge allocation and fund calls
+  - Meter reading tracking
+  - Bank reconciliation with Excel export
+  - Co-owner extranet with agenda and general-assembly tools
+  - Unlimited number of managed condos on a single subscription
+use_cases:
+  - persona: syndic-manager
+    job: "Run accounting, charge allocation and general assemblies for an unlimited number of condos on one subscription"
+  - persona: landlord-owner
+    job: Consult balances and building documents through the co-owner extranet
+personas: [syndic-manager, landlord-owner]
+segments: [residential]
+company_sizes: [solo, smb]
+pricing:
+  model: subscription
+  public_pricing: true
+  from: 99
+  currency: EUR
+  unit: "per year, TTC, unlimited condos"
+  url: https://www.comptacop.fr
+product:
+  api: false
+  open_source: false
+  mobile: []
+  languages: [fr]
+reviews: []
+logo:
+  file: logos/comptacop.png
+  source_url: https://www.comptacop.fr/image_og.jpg
+  fetched_on: "2026-09-08"
+signals:
+  site_languages: [fr]
+  checked_on: "2026-09-08"
+sources:
+  - { url: https://www.comptacop.fr, note: site éditeur — accueil et tarifs }
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-09-08"

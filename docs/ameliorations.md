@@ -17,18 +17,16 @@ qu'une chose a été tentée vaut mieux que de la retenter.
   recoupé ». Vérifier veut dire ouvrir les sources, corriger ce qui a bougé,
   dater le contrôle. Commencer par les fiches les plus consultées une fois la
   mesure d'audience en place.
-- **Huit outils sans logo**, pas deux — le compte du 25/08 a vieilli sans être
-  recompté. Relevé au 07/09 : `clickpay`, `diag-pilote`, `engrain`, `listhub`,
-  `poliris`, `scoplan`, `urbanease`, `vendorpm`. `poliris` est un choix délibéré
-  (voir l'entrée du 31/08) ; les sept autres résistent aux trois voies de
-  récupération de `logos.mjs` ou n'ont simplement jamais été retentés depuis leur
-  ajout. `scoplan`, ajouté le 05/09, n'a par exemple jamais eu de logo écrit.
-- **`logos.mjs` ne sait toujours pas reconnaître un logo.** Deux garde-fous
-  existent désormais : `data/logos-refuses.json` fait tenir un refus humain d'une
-  passe à l'autre, et depuis le 01/09 un aplat d'une seule couleur est rejeté
-  automatiquement. Reste le cas difficile, celui de `poliris` : une image
-  parfaitement valide qui n'est simplement pas le logo. Le nom du produit dans
-  l'attribut `alt` de l'image candidate serait le prochain signal à exploiter.
+- **Cinq outils sans logo** au 08/09 (contre huit la veille) : `diag-pilote`,
+  `engrain`, `listhub`, `poliris`, `urbanease`. `listhub` et `urbanease` sont
+  des SPA sans balisage lisible côté serveur — hors de portée de `logos.mjs`
+  sans navigateur headless. Les trois autres sont des refus humains motivés
+  dans `data/logos-refuses.json` (voir l'entrée « fait » du 08/09 : deux
+  pièges différents, un rendu cassé et un logo blanc pour fond sombre).
+- **`logos.mjs` sait maintenant lire l'attribut `alt` et la classe d'un
+  `<img>`** (fait le 08/09) — voir l'entrée « fait » ci-dessous. Le cas
+  `poliris` reste entier : son domaine propre ne résout plus, il n'y a pas
+  d'`<img>` à lire nulle part.
 - **`verify.mjs` ne voit toujours pas un produit homonyme.** Le contrôle de
   domaine reconverti, posé le 02/09, ne couvre que le cas du domaine mort. Reste
   celui du **nom qui désigne autre chose** : `siana.ai` a été vérifié « oui » le
@@ -45,12 +43,13 @@ qu'une chose a été tentée vaut mieux que de la retenter.
 ## Ouvert — couverture
 
 - **Catégories creuses**, à traiter par une source ciblée plutôt que par une
-  ronde généraliste. Relevé au 07/09, en US/FR/total : `lending-mortgage`
+  ronde généraliste. Relevé au 08/09, en US/FR/total : `lending-mortgage`
   3/3/6, `listing-syndication` 3/5/8, `short-term-rental` 7/7/8,
-  `visuals-tours` 7/7/11, `flex-coworking` 8/8/12. `ai-assistants` FR reste la
-  plus fine du catalogue avec seulement 3 fiches françaises pour 10
-  américaines. Les chiffres de ce carnet vieillissent vite : les recompter
-  avant de choisir, pas les lire.
+  `visuals-tours` 7/7/11. `ai-assistants` FR est passé de 3 à 4 fiches
+  françaises (10 côté américain) avec l'ajout de `zefir` ; `flex-coworking`
+  FR de 8 à 9 avec `m-work`. Les deux restent les trous les plus nets. Les
+  chiffres de ce carnet vieillissent vite : les recompter avant de choisir,
+  pas les lire.
 
   ```bash
   node --input-type=module -e "import fs from 'node:fs';import yaml from 'js-yaml';\
@@ -64,10 +63,9 @@ qu'une chose a été tentée vaut mieux que de la retenter.
 - **Le marché français reste le gisement.** Les éditeurs français ne se
   référencent pas en anglais : c'est là que ce catalogue est seul.
 - **Sources jamais balayées** — voir `data/sweeps.json`. Une source sans entrée
-  n'a jamais été vue. 25 sources sur 46 ont été vues au moins une fois au 07/09
-  (`entrata-marketplace`, `zapier-real-estate` et `housingwire-tech` ajoutées
-  ce jour-là) ; 21 restent entièrement vierges, surtout côté `press`, `vc`,
-  `launch` et `public`.
+  n'a jamais été vue. 28 sources sur 46 ont été vues au moins une fois au 08/09
+  (`mysweetimmo`, `propmodo` et `github-proptech` ajoutées ce jour-là) ; 18
+  restent entièrement vierges, surtout côté `vc`, `launch` et `public`.
 - **Les sources `association` ne rendent quasiment rien, des deux côtés de
   l'Atlantique — mais les neuf sont désormais balayées au moins une fois** (la
   dernière quatrine le 07/09 : `snpi-partenaires`, `plurience`, `nar-partners`,
@@ -121,6 +119,61 @@ qu'une chose a été tentée vaut mieux que de la retenter.
 ---
 
 ## Fait
+
+- **2026-09-08** — Cinq fiches ajoutées par recherche propre (sans OpenRouter) :
+  `zefir` (FR, plateforme de vente collective avec ZIA, un assistant IA
+  conversationnel — comble un point de la catégorie `ai-assistants` FR,
+  la plus fine du catalogue), `m-work` (FR, gestion du flex-office et du
+  travail hybride — `flex-coworking` FR), `copromatic`, `comptacop` et
+  `copriciel` (FR, trois logiciels de comptabilité de copropriété pour
+  syndics bénévoles, dormaient déjà vérifiés dans `data/candidates.json`
+  depuis le 25/08). Trouvés via `mysweetimmo` (Zefir) et une recherche ciblée
+  sur `flex-coworking` FR (m-work) ; les trois syndic-copro venaient de la
+  file. Un candidat écarté après lecture, pas au vérificateur : **`Condo`**
+  (`open-condo-platform` sur GitHub, trouvé via `github-proptech`) passe
+  `verify.mjs` sans réserve — le site répond, le nom figure dessus — mais
+  son éditeur, Doma.ai, est basé à Iekaterinbourg et sert le marché russe :
+  hors du périmètre US/FR de ce catalogue. Déplacé en `rejected` avec le
+  motif exact plutôt que laissé à traîner. `propmodo` balayée sans
+  trouvaille retenue (produits déjà connus ou hors périmètre — agences,
+  levées de fonds).
+
+- **2026-09-08** — Suite du signal suggéré le 07/09 : `candidates()` de
+  `logos.mjs` lit maintenant les `<img>` du HTML, pas seulement les `<link
+  rel=icon>` et l'`og:image`. Un `alt` qui contient le nom du produit ou une
+  `class`/`src` qui contient « logo » passe devant l'apple-touch-icon. Testé
+  sur les six logos jusque-là refusés à la relecture (`clickpay`, `diag-pilote`,
+  `engrain`, `poliris`, `scoplan`, `vendorpm`) : trois vrais logos récupérés et
+  vérifiés à l'œil (`clickpay`, `scoplan`, `vendorpm` — 227 → 230), et deux
+  pièges distincts trouvés en chemin, tous deux relus avant d'écrire quoi que
+  ce soit :
+  - **Un rendu cassé, pas un aplat.** Le SVG `<img class="nav_logo"
+    alt="Engrain">` d'Engrain se rendait en un seul rectangle uni via le coder
+    MSVG intégré à l'ImageMagick 6 des dépôts Ubuntu (build `--without-rsvg`) —
+    passait sous le seuil de taille et sous le contrôle `isBlank()` du 01/09.
+    `rsvg-convert` installé sur cette VM (`sudo apt-get install
+    librsvg2-bin` — absent malgré `librsvg2-common` déjà présent, ce sont deux
+    paquets différents) : `normalise()` le préfère maintenant pour tout SVG
+    quand il est sur le PATH, avec repli silencieux sur MSVG s'il est absent
+    ou échoue. **Mais le SVG d'Engrain se rend correctement une fois passé par
+    `rsvg-convert` — et c'est là qu'il devient visible qu'il est blanc :**
+    chaque tracé porte `fill="white"`, la version pour barre de navigation
+    sombre. 248 couleurs après rognage, donc indétectable par `isBlank()` ;
+    invisible seulement à l'œil, sur fond blanc. Repassé en refusé avec ce
+    motif exact — voir les instructions globales de Mehdi sur ce piège précis,
+    déjà rencontré une fois sur un logo client.
+  - **`diag-pilote/images/picto.svg`** (candidat par `class`, pas par `alt`) se
+    rend en un simple rond jaune plein : le SVG a d'autres tracés, mais MSVG ne
+    les rend pas, et `rsvg-convert` ne change rien pour ce fichier précis — le
+    problème est dans le SVG lui-même (peut-être un usage de `<use>` ou de
+    dégradés que ni l'un ni l'autre ne résout), pas dans le moteur de rendu.
+    Resté refusé.
+  Fichier changé : `scripts/enrich/logos.mjs` (candidats `<img>`, préférence
+  `rsvg-convert`) et `data/logos-refuses.json` (motifs à jour, `engrain`
+  déplacé du silence vers un refus documenté). À retenir : un candidat qui
+  passe tous les contrôles automatiques — ni vide, ni minuscule, ni un aplat —
+  peut quand même être le mauvais logo. La relecture à l'œil de chaque image
+  récupérée reste obligatoire, pas seulement recommandée.
 
 - **2026-09-07** — La file `data/candidates.json` accumulait des candidats déjà
   catalogués sous un autre nom, sans jamais être nettoyée : `fiche.mjs --from`

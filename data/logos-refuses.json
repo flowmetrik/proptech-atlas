@@ -9,33 +9,27 @@
     },
     {
       "slug": "diag-pilote",
-      "source_url": "https://www.diag-pilote.com/images/og.jpg",
-      "why": "image de partage Open Graph : une bannière avec capture d'écran et accroche « CRM diagnostiqueur + logiciel terrain », pas une marque. Le site n'expose pas de logo isolé dans son <head>.",
-      "on": "2026-09-02"
+      "source_url": "https://www.diag-pilote.com/images/picto.svg",
+      "why": "un rond jaune plein — le SVG source a d'autres tracés, mais le délégué SVG d'ImageMagick sur cette machine ne les rend pas (même famille que la panne du 01/09). L'og:image refusé le 02/09 restait de toute façon une bannière, pas une marque : le site n'a pas de logo isolé exploitable ici.",
+      "on": "2026-09-08"
+    },
+    {
+      "slug": "zefir",
+      "source_url": "https://cdn.prod.website-files.com/67680514dd1cde0729a43abb/678f719f4b07aea89b46f65e_accueil%20-%20image%203.avif",
+      "why": "une capture d'écran décorative de l'accueil (widgets vues/contacts/clics d'un tableau de bord), pas un logo — le site n'expose pas d'icône de marque isolée que `candidates()` sache trouver.",
+      "on": "2026-09-08"
+    },
+    {
+      "slug": "copromatic",
+      "source_url": "https://cdn.copromatic.com/bundles/front/img/icone-copromatic.svg",
+      "why": "même piège qu'Engrain le même jour : le SVG se rend correctement (rsvg-convert), mais chaque tracé porte `fill=\"#FFFFFF\"` — un pictogramme blanc pour fond sombre, invisible sur fond clair ou transparent.",
+      "on": "2026-09-08"
     },
     {
       "slug": "engrain",
-      "source_url": "https://cdn.prod.website-files.com/6512f5b8371ba79cd9aa688a/6512f5b8371ba79cd9aa6b1e_Engrain-favicon-256x256.png",
-      "why": "icône de menu hamburger (trois barres), pas un logo — le favicon du site n'est pas une marque.",
-      "on": "2026-09-04"
-    },
-    {
-      "slug": "clickpay",
-      "source_url": "https://site.clickpay.com/wp-content/uploads/2017/06/new-home-banner.jpg",
-      "why": "bannière décorative de la page d'accueil (ordinateur portable, carte bancaire), pas un logo.",
-      "on": "2026-09-04"
-    },
-    {
-      "slug": "vendorpm",
-      "source_url": "https://cdn.prod.website-files.com/61ae81de929387df07374012/6781795412eeccb7d2196011_webclip.svg",
-      "why": "le SVG webclip se rend en image quasi blanche, illisible — rien d'exploitable comme logo.",
-      "on": "2026-09-04"
-    },
-    {
-      "slug": "scoplan",
-      "source_url": "https://www.scoplan.com/build/company/img/favicon.ico",
-      "why": "favicon flou (icône lune/nuage) sans rapport visible avec la marque Scoplan — rien qui ressemble à un logo, pas de source de repli identifiée.",
-      "on": "2026-09-05"
+      "source_url": "https://cdn.prod.website-files.com/6512f5b8371ba79cd9aa688a/6512f5b8371ba79cd9aa6914_engrain-logo.svg",
+      "why": "le SVG `nav_logo`, `alt=\"Engrain\"`, se rend bien (248 couleurs après rognage, donc pas détecté par le contrôle d'aplat) mais chaque tracé porte `fill=\"white\"` — c'est la version pour barre de navigation sombre, invisible sur fond blanc ou transparent. Piège identique à celui déjà noté dans les instructions globales : un logo pour fond sombre passe tous les contrôles automatiques et ne se voit qu'à l'œil. Le favicon (trois barres, refusé le 04/09) reste la seule image du site sans texte blanc, et ce n'est pas un logo non plus.",
+      "on": "2026-09-08"
     }
   ]
 }

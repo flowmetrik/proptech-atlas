@@ -2,7 +2,7 @@
 
 <!-- Généré par `npm run data:emit`. Ne pas éditer à la main : éditer `data/tools/*.yaml`. -->
 
-235 produits · 138 🇺🇸 · 127 🇫🇷 · mis à jour le 2026-09-07
+240 produits · 138 🇺🇸 · 132 🇫🇷 · mis à jour le 2026-09-08
 
 Version navigable : https://flowmetrik.github.io/proptech-atlas/explore
 
@@ -159,8 +159,11 @@ _Gérer l'immeuble en copropriété — budgets, AG, appels de fonds, travaux._
 | Produit | Éditeur | Marchés | Usage en immobilier |
 |---|---|---|---|
 | [CINC Systems](data/tools/cinc-systems.yaml) | CINC Systems | 🇺🇸 | Association management is an accounting business wearing an operations coat: the manager who answers a homeowner about a fine also has to know whether that homeowner's account is… |
+| [Comptacop](data/tools/comptacop.yaml) | Comptacop | 🇫🇷 | A syndic — professional or volunteer — logs into Comptacop to prepare the provisional budget, record works, subsidies and loans, and produce the year-end closing annexes required by… |
 | [Condo Control](data/tools/condo-control.yaml) | Condo Control | 🇺🇸 | A condominium tower runs on things a rental building never has to think about: a front desk logging visitors, a party room booked three weeks ahead, a package wall that overflows every… |
+| [Copriciel](data/tools/copriciel.yaml) | Copriciel | 🇫🇷 | A volunteer syndic who has been tracking the building's accounts in Excel switches to Copriciel to automate bank reconciliation and fund calls, cutting the monthly bookkeeping the vendor… |
 | [Coprolib'](data/tools/coprolib.yaml) | Coprolib' | 🇫🇷 | A volunteer syndic uses Coprolib' to keep the building's books compliant without hiring an accountant: fund calls, expense allocation and financial statements are automated, and every… |
+| [Copromatic](data/tools/copromatic.yaml) | Copromatic | 🇫🇷 | A volunteer syndic elected by the co-owners' assembly uses Copromatic to prepare the annual budget, generate fund calls split by tantièmes, and reconcile the bank account without hiring… |
 | [Crypto (Septeo Solutions Immobilier)](data/tools/crypto-septeo.yaml) | Septeo | 🇫🇷 | It is the system of record in many established French administration de biens firms, chosen for accounting depth rather than for interface. Its centre of gravity is the regulated ledger… |
 | [Diacamma](data/tools/diacamma.yaml) | Diacamma | 🇫🇷 | A syndic bénévole installs Diacamma to run the building's accounts without paying for a commercial license: fund calls go out automatically split by tantièmes, each co-owner's balance is… |
 | [FRONTSTEPS](data/tools/frontsteps.yaml) | FRONTSTEPS | 🇺🇸 | A community association manager's day splits between a desk and a gate: assessments to post, a board packet to prepare, and then a visitor list, an amenity, a patrol log. FRONTSTEPS is… |
@@ -312,6 +315,7 @@ _Abonnements, réservation de postes, facturation et animation d'espaces flexibl
 | [CoworkSaaS](data/tools/coworksaas.yaml) | CoworkSaaS | 🇫🇷 | The problem this addresses is opening hours. An operator who wants to sell access outside staffed hours has to know who is in the building and to bill them with nobody at the desk… |
 | [DollyDesk](data/tools/dollydesk.yaml) | DollyDesk | 🇫🇷 | A small coworking space or tiers-lieu reaches for DollyDesk when the manager's day is eaten by two questions, is there a seat free and where is my invoice. Members answer both… |
 | [essensys](data/tools/essensys.yaml) | essensys | 🇺🇸 🇫🇷 | A landlord converting floors to flex has a problem no coworking app solves: every occupier needs its own secure network segment, provisioned in hours rather than weeks, and metered.… |
+| [m-work](data/tools/m-work.yaml) | m-work | 🇫🇷 | A corporate real estate or workplace team uses m-work Flex to monitor office occupancy in real time and reorganize desks, meeting rooms and parking as hybrid attendance shifts, instead… |
 | [Nexudus](data/tools/nexudus.yaml) | Nexudus | 🇺🇸 🇫🇷 | Flex operators rarely run the same model twice — credit systems for room hours, tiered plans, franchise structures, mixed private-office and hot-desk inventory. Nexudus is chosen for the… |
 | [OfficeRnD Flex](data/tools/officernd.yaml) | OfficeRnD | 🇺🇸 🇫🇷 | A flex operator's revenue is a mesh of monthly memberships, day passes, room hours and overage charges — billing that breaks any standard property accounting model. OfficeRnD automates… |
 | [Optix](data/tools/optix.yaml) | ShareDesk Global | 🇺🇸 | A coworking or flex-space operator uses Optix to run day-to-day operations — desk and room bookings, plan and pass sales, invoicing, visitor management — and to automate recurring admin… |
@@ -408,3 +412,4 @@ _Assistants LLM qui répondent, qualifient, rédigent et agissent sur le métier
 | [Keyzia](data/tools/keyzia.yaml) | Keyzia | 🇫🇷 | The AI problem inside a French agency or syndic is not that nobody uses it, it is that everyone uses it separately, in a personal account, with client data. Keyzia is positioned against… |
 | [Structurely](data/tools/structurely.yaml) | Structurely | 🇺🇸 | A team buying leads accumulates thousands of contacts nobody has time to nurture. The economics of an AI agent are different from a human inside sales agent: it can pursue a two-year-old… |
 | [Ylopo](data/tools/ylopo.yaml) | Ylopo | 🇺🇸 | Teams that already standardised on a CRM will not move for an ad product. Ylopo's design reflects that: it generates and nurtures, and writes everything back into the CRM of record. Its… |
+| [Zefir](data/tools/zefir.yaml) | Zefir | 🇫🇷 | A homeowner requests a valuation on Zefir and the listing is opened to every partner agent covering that neighborhood, who compete and collaborate to bring buyers under a shared… |

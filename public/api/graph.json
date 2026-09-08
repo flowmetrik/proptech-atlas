@@ -4,22 +4,22 @@
   "license": "CC-BY-4.0 (data) / MIT (code)",
   "homepage": "https://flowmetrik.github.io/proptech-atlas",
   "repository": "https://github.com/flowmetrik/proptech-atlas",
-  "generated": "2026-09-07",
+  "generated": "2026-09-08",
   "counts": {
-    "tools": 235,
+    "tools": 240,
     "US": 138,
-    "FR": 127,
+    "FR": 132,
     "categories": 24,
-    "editors": 218,
+    "editors": 223,
     "verified": 0,
     "reviews": 0,
-    "logos": 227,
+    "logos": 233,
     "signals": {
-      "probed": 221,
-      "public_pricing": 59,
+      "probed": 226,
+      "public_pricing": 60,
       "api_docs": 18,
       "security_page": 30,
-      "privacy_page": 161,
+      "privacy_page": 163,
       "status_page": 60
     }
   },
@@ -235,14 +235,29 @@
       "label": "Cobot"
     },
     {
+      "id": "tool:comptacop",
+      "type": "tool",
+      "label": "Comptacop"
+    },
+    {
       "id": "tool:condo-control",
       "type": "tool",
       "label": "Condo Control"
     },
     {
+      "id": "tool:copriciel",
+      "type": "tool",
+      "label": "Copriciel"
+    },
+    {
       "id": "tool:coprolib",
       "type": "tool",
       "label": "Coprolib'"
+    },
+    {
+      "id": "tool:copromatic",
+      "type": "tool",
+      "label": "Copromatic"
     },
     {
       "id": "tool:corrigo",
@@ -663,6 +678,11 @@
       "id": "tool:lycaon-data",
       "type": "tool",
       "label": "Lycaon Data"
+    },
+    {
+      "id": "tool:m-work",
+      "type": "tool",
+      "label": "m-work"
     },
     {
       "id": "tool:maline",
@@ -1185,6 +1205,11 @@
       "label": "Yuman"
     },
     {
+      "id": "tool:zefir",
+      "type": "tool",
+      "label": "Zefir"
+    },
+    {
       "id": "tool:zelok",
       "type": "tool",
       "label": "Zelok"
@@ -1650,14 +1675,29 @@
       "label": "Cobot"
     },
     {
+      "id": "editor:Comptacop",
+      "type": "editor",
+      "label": "Comptacop"
+    },
+    {
       "id": "editor:Condo Control",
       "type": "editor",
       "label": "Condo Control"
     },
     {
+      "id": "editor:Copriciel",
+      "type": "editor",
+      "label": "Copriciel"
+    },
+    {
       "id": "editor:Coprolib'",
       "type": "editor",
       "label": "Coprolib'"
+    },
+    {
+      "id": "editor:Copromatic",
+      "type": "editor",
+      "label": "Copromatic"
     },
     {
       "id": "editor:JLL Technologies",
@@ -2033,6 +2073,11 @@
       "id": "editor:Lycaon",
       "type": "editor",
       "label": "Lycaon"
+    },
+    {
+      "id": "editor:m-work",
+      "type": "editor",
+      "label": "m-work"
     },
     {
       "id": "editor:Maline Immobilier",
@@ -2523,6 +2568,11 @@
       "id": "editor:Yuman",
       "type": "editor",
       "label": "Yuman"
+    },
+    {
+      "id": "editor:Zefir",
+      "type": "editor",
+      "label": "Zefir"
     },
     {
       "id": "editor:Zelok",
@@ -4977,6 +5027,36 @@
       "to": "tool:nexudus"
     },
     {
+      "from": "tool:comptacop",
+      "rel": "published_by",
+      "to": "editor:Comptacop"
+    },
+    {
+      "from": "tool:comptacop",
+      "rel": "belongs_to",
+      "to": "category:syndic-copro"
+    },
+    {
+      "from": "tool:comptacop",
+      "rel": "serves_persona",
+      "to": "persona:syndic-manager"
+    },
+    {
+      "from": "tool:comptacop",
+      "rel": "serves_persona",
+      "to": "persona:landlord-owner"
+    },
+    {
+      "from": "tool:comptacop",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:comptacop",
+      "rel": "available_in",
+      "to": "market:FR"
+    },
+    {
       "from": "tool:condo-control",
       "rel": "published_by",
       "to": "editor:Condo Control"
@@ -5057,6 +5137,36 @@
       "to": "tool:cinc-systems"
     },
     {
+      "from": "tool:copriciel",
+      "rel": "published_by",
+      "to": "editor:Copriciel"
+    },
+    {
+      "from": "tool:copriciel",
+      "rel": "belongs_to",
+      "to": "category:syndic-copro"
+    },
+    {
+      "from": "tool:copriciel",
+      "rel": "serves_persona",
+      "to": "persona:syndic-manager"
+    },
+    {
+      "from": "tool:copriciel",
+      "rel": "serves_persona",
+      "to": "persona:landlord-owner"
+    },
+    {
+      "from": "tool:copriciel",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:copriciel",
+      "rel": "available_in",
+      "to": "market:FR"
+    },
+    {
       "from": "tool:coprolib",
       "rel": "published_by",
       "to": "editor:Coprolib'"
@@ -5083,6 +5193,36 @@
     },
     {
       "from": "tool:coprolib",
+      "rel": "available_in",
+      "to": "market:FR"
+    },
+    {
+      "from": "tool:copromatic",
+      "rel": "published_by",
+      "to": "editor:Copromatic"
+    },
+    {
+      "from": "tool:copromatic",
+      "rel": "belongs_to",
+      "to": "category:syndic-copro"
+    },
+    {
+      "from": "tool:copromatic",
+      "rel": "serves_persona",
+      "to": "persona:syndic-manager"
+    },
+    {
+      "from": "tool:copromatic",
+      "rel": "serves_persona",
+      "to": "persona:landlord-owner"
+    },
+    {
+      "from": "tool:copromatic",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:copromatic",
       "rel": "available_in",
       "to": "market:FR"
     },
@@ -9803,6 +9943,36 @@
     },
     {
       "from": "tool:lycaon-data",
+      "rel": "available_in",
+      "to": "market:FR"
+    },
+    {
+      "from": "tool:m-work",
+      "rel": "published_by",
+      "to": "editor:m-work"
+    },
+    {
+      "from": "tool:m-work",
+      "rel": "belongs_to",
+      "to": "category:flex-coworking"
+    },
+    {
+      "from": "tool:m-work",
+      "rel": "serves_persona",
+      "to": "persona:corporate-re"
+    },
+    {
+      "from": "tool:m-work",
+      "rel": "serves_persona",
+      "to": "persona:facility-manager"
+    },
+    {
+      "from": "tool:m-work",
+      "rel": "covers_segment",
+      "to": "segment:office"
+    },
+    {
+      "from": "tool:m-work",
       "rel": "available_in",
       "to": "market:FR"
     },
@@ -16085,6 +16255,36 @@
       "from": "tool:yuman",
       "rel": "alternative_to",
       "to": "tool:limble"
+    },
+    {
+      "from": "tool:zefir",
+      "rel": "published_by",
+      "to": "editor:Zefir"
+    },
+    {
+      "from": "tool:zefir",
+      "rel": "belongs_to",
+      "to": "category:ai-assistants"
+    },
+    {
+      "from": "tool:zefir",
+      "rel": "serves_persona",
+      "to": "persona:landlord-owner"
+    },
+    {
+      "from": "tool:zefir",
+      "rel": "serves_persona",
+      "to": "persona:agent-broker"
+    },
+    {
+      "from": "tool:zefir",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:zefir",
+      "rel": "available_in",
+      "to": "market:FR"
     },
     {
       "from": "tool:zelok",

@@ -4,22 +4,22 @@
   "license": "CC-BY-4.0 (data) / MIT (code)",
   "homepage": "https://flowmetrik.github.io/proptech-atlas",
   "repository": "https://github.com/flowmetrik/proptech-atlas",
-  "generated": "2026-09-07",
+  "generated": "2026-09-08",
   "counts": {
-    "tools": 235,
+    "tools": 240,
     "US": 138,
-    "FR": 127,
+    "FR": 132,
     "categories": 24,
-    "editors": 218,
+    "editors": 223,
     "verified": 0,
     "reviews": 0,
-    "logos": 227,
+    "logos": 233,
     "signals": {
-      "probed": 221,
-      "public_pricing": 59,
+      "probed": 226,
+      "public_pricing": 60,
       "api_docs": 18,
       "security_page": 30,
-      "privacy_page": 161,
+      "privacy_page": 163,
       "status_page": 60
     }
   },
@@ -3953,6 +3953,11 @@
       "signals": {
         "checked_on": "2026-09-04"
       },
+      "logo": {
+        "file": "logos/clickpay.png",
+        "source_url": "https://www.clickpay.com/App_Themes/NPTheme/images/home/logo-2019.png",
+        "fetched_on": "2026-09-08"
+      },
       "sources": [
         {
           "url": "https://www.clickpay.com",
@@ -4262,6 +4267,89 @@
       "updated": "2026-08-25"
     },
     {
+      "slug": "comptacop",
+      "name": "Comptacop",
+      "editor": "Comptacop",
+      "website": "https://www.comptacop.fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "syndic-copro",
+      "positioning": "A full web-based condo management software for professional and volunteer syndics, from accounting to general assemblies.",
+      "description": "Comptacop is a French web-based (\"100% Internet Full Web\") software for managing condo syndicates, in operation for over ten years. It covers accounting (budgets, journal, general ledger, trial balance, charge allocation, year-end closing annexes), meter readings, bank reconciliation with Excel export, and a co-owner extranet with an agenda and general-assembly tools, sold as a single all-inclusive plan for either professional or volunteer syndics.\n",
+      "real_estate_use": "A syndic — professional or volunteer — logs into Comptacop to prepare the provisional budget, record works, subsidies and loans, and produce the year-end closing annexes required by French co-ownership regulation, without switching tools between accounting and administration. Co-owners consult the extranet to see their balances and shared documents outside of general assemblies. Because the plan is unlimited on the number of condos managed, a small syndic firm can run its whole portfolio on one subscription.\n",
+      "features": [
+        "Condo accounting: budgets, general ledger, trial balance, year-end annexes",
+        "Automated charge allocation and fund calls",
+        "Meter reading tracking",
+        "Bank reconciliation with Excel export",
+        "Co-owner extranet with agenda and general-assembly tools",
+        "Unlimited number of managed condos on a single subscription"
+      ],
+      "use_cases": [
+        {
+          "persona": "syndic-manager",
+          "job": "Run accounting, charge allocation and general assemblies for an unlimited number of condos on one subscription"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "Consult balances and building documents through the co-owner extranet"
+        }
+      ],
+      "personas": [
+        "syndic-manager",
+        "landlord-owner"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "from": 99,
+        "currency": "EUR",
+        "unit": "per year, TTC, unlimited condos",
+        "url": "https://www.comptacop.fr"
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "reviews": [],
+      "logo": {
+        "file": "logos/comptacop.png",
+        "source_url": "https://www.comptacop.fr/image_og.jpg",
+        "fetched_on": "2026-09-08"
+      },
+      "signals": {
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-09-08"
+      },
+      "sources": [
+        {
+          "url": "https://www.comptacop.fr",
+          "note": "site éditeur — accueil et tarifs"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-08"
+    },
+    {
       "slug": "condo-control",
       "name": "Condo Control",
       "editor": "Condo Control",
@@ -4379,6 +4467,90 @@
       "updated": "2026-08-29"
     },
     {
+      "slug": "copriciel",
+      "name": "Copriciel",
+      "editor": "Copriciel",
+      "website": "https://www.copriciel.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "syndic-copro",
+      "positioning": "Condo management software that automates the bookkeeping a spreadsheet can't safely handle, for volunteer and professional syndics.",
+      "description": "Copriciel is a French condo (copropriété) accounting and management software pitched explicitly as a replacement for the spreadsheets many volunteer syndics start with. It automates bank reconciliation from imported PDF statements, generates the general ledger and closing annexes, prepares fund calls detailed by budget and by lot including the mandatory ALUR works fund, handles general-assembly convocations, and gives co-owners a secure document extranet.\n",
+      "real_estate_use": "A volunteer syndic who has been tracking the building's accounts in Excel switches to Copriciel to automate bank reconciliation and fund calls, cutting the monthly bookkeeping the vendor estimates at 8 hours down to about 2.5, while staying compliant with the loi ALUR works-fund and PCG accounting requirements. The syndic imports bank statement PDFs instead of re-entering each line, and generates the general ledger and closing annexes in one click ahead of the general assembly. Co-owners use the extranet to check balances and download état daté and article 20 certificates during a sale.\n",
+      "features": [
+        "Automated bank reconciliation from imported PDF statements",
+        "General ledger and closing annexes generated automatically (PCG compliant)",
+        "Fund calls detailed by budget and by lot, including the ALUR works fund",
+        "General assembly convocation and management",
+        "Secure co-owner document extranet",
+        "État daté and article 20 certificate generation for unit sales"
+      ],
+      "use_cases": [
+        {
+          "persona": "syndic-manager",
+          "job": "Replace a spreadsheet with automated bank reconciliation, fund calls and closing annexes for the condo"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "Check balances and pull the état daté or article 20 certificate needed to sell a unit"
+        }
+      ],
+      "personas": [
+        "syndic-manager",
+        "landlord-owner"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "from": 120,
+        "currency": "EUR",
+        "unit": "per year, TTC, forfait Essentiel",
+        "url": "https://www.copriciel.com"
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "reviews": [],
+      "logo": {
+        "file": "logos/copriciel.png",
+        "source_url": "https://www.copriciel.com/wp-content/uploads/2026/03/logo-copriciel-bl-640x100-1.png",
+        "fetched_on": "2026-09-08"
+      },
+      "signals": {
+        "privacy": "https://www.copriciel.com/mentions-legales",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-09-08"
+      },
+      "sources": [
+        {
+          "url": "https://www.copriciel.com",
+          "note": "site éditeur — accueil et tarifs"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-08"
+    },
+    {
       "slug": "coprolib",
       "name": "Coprolib'",
       "editor": "Coprolib'",
@@ -4460,6 +4632,84 @@
         "checked_by": null
       },
       "updated": "2026-09-07"
+    },
+    {
+      "slug": "copromatic",
+      "name": "Copromatic",
+      "editor": "Copromatic",
+      "website": "https://www.copromatic.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "syndic-copro",
+      "positioning": "An affordable, easy-to-use accounting and administrative software for volunteer and professional condo syndics.",
+      "description": "Copromatic is a French condo (copropriété) management software covering both accounting and administrative operations, aimed at syndics bénévoles as well as small professional syndics. It runs in the browser with no local install, and bundles a co-owner extranet, general-assembly preparation and minutes, fund calls, expense allocation, and maintenance-log tracking, staying aligned with French co-ownership law (loi ALUR).\n",
+      "real_estate_use": "A volunteer syndic elected by the co-owners' assembly uses Copromatic to prepare the annual budget, generate fund calls split by tantièmes, and reconcile the bank account without hiring a professional management firm. Ahead of the general assembly, the syndic uses the platform to draft the agenda, run the vote, and generate the minutes, then archives everything for the co-owners to consult through their extranet. A small professional syndic uses the same tool across several buildings, paying per co-owner rather than a flat licence.\n",
+      "features": [
+        "Condo accounting and general ledger (loi ALUR compliant)",
+        "Fund calls and automated expense allocation by tantièmes",
+        "Co-owner extranet for balances and documents",
+        "General assembly agenda, e-voting and minutes generation",
+        "Automated bank reconciliation and meter tracking",
+        "Maintenance log (carnet d'entretien) and supplier management"
+      ],
+      "use_cases": [
+        {
+          "persona": "syndic-manager",
+          "job": "Run condo accounting, fund calls and general assemblies without a professional management firm"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "Consult account balances, fund calls and building documents through the co-owner extranet"
+        }
+      ],
+      "personas": [
+        "syndic-manager",
+        "landlord-owner"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "from": 39,
+        "currency": "EUR",
+        "unit": "per month (non-professional syndic) + €4 per co-owner/month",
+        "url": "https://www.copromatic.com"
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "reviews": [],
+      "signals": {
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-08"
+      },
+      "sources": [
+        {
+          "url": "https://www.copromatic.com",
+          "note": "site éditeur — accueil et tarifs"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-08"
     },
     {
       "slug": "corrigo",
@@ -12683,6 +12933,98 @@
       "updated": "2026-09-04"
     },
     {
+      "slug": "m-work",
+      "name": "m-work",
+      "editor": "m-work",
+      "website": "https://www.m-work.co",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "flex-coworking",
+      "positioning": "Smart workforce management and hybrid work software that decides who works where and when, and builds the schedule to match.",
+      "description": "m-work is a French software suite for planning flex offices and hybrid teams. Its m-work Flex product manages hot desking, meeting-room and resource booking, and remote-work declarations, syncing with Outlook and Google Calendar so a workplace or HR team can see who is in which office on a given day. A second product, m-work Planner, forecasts activity volume and builds shift schedules for customer-facing teams. The company was acquired by French HR software group Asys in 2026 and continues to operate as a distinct product line.\n",
+      "real_estate_use": "A corporate real estate or workplace team uses m-work Flex to monitor office occupancy in real time and reorganize desks, meeting rooms and parking as hybrid attendance shifts, instead of guessing capacity from badge data alone. An HR team relies on the same tool to track remote-work declarations against company policy and to generate a work-from-home allowance from actual attendance. A facilities manager configures smart rules so hot-desk bookings stay fair across teams as office footprint is reduced.\n",
+      "features": [
+        "Hot desking and resource booking (desks, meeting rooms, parking)",
+        "Hybrid work schedule and remote-work declaration tracking",
+        "Real-time office occupancy monitoring and dashboards",
+        "Outlook and Google Calendar sync, SSO",
+        "m-work Planner: activity forecasting and shift scheduling for frontline teams",
+        "Remote-work policy and WFH allowance calculators"
+      ],
+      "use_cases": [
+        {
+          "persona": "corporate-re",
+          "job": "Track real-time office occupancy and resize flex-office capacity as hybrid attendance changes"
+        },
+        {
+          "persona": "facility-manager",
+          "job": "Manage hot-desk, meeting-room and parking bookings fairly across teams sharing the same space"
+        }
+      ],
+      "personas": [
+        "corporate-re",
+        "facility-manager"
+      ],
+      "segments": [
+        "office"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "per-seat",
+        "public_pricing": true,
+        "from": 4,
+        "currency": "USD",
+        "unit": "per user / month",
+        "url": "https://www.m-work.co/en/pricing"
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr",
+          "en"
+        ]
+      },
+      "reviews": [],
+      "logo": {
+        "file": "logos/m-work.png",
+        "source_url": "https://cdn.prod.website-files.com/66f50626db9976ff6157dc58/672321907d31c5116cc5d1dc_Type%3DLogo%2C%20Theme%3DDefault.svg",
+        "fetched_on": "2026-09-08"
+      },
+      "signals": {
+        "pricing": "https://www.m-work.co/fr/pricing",
+        "privacy": "https://www.m-work.co/fr/legal/politique-de-confidentialite",
+        "site_languages": [
+          "en",
+          "fr"
+        ],
+        "checked_on": "2026-09-08"
+      },
+      "sources": [
+        {
+          "url": "https://www.m-work.co/en",
+          "note": "site éditeur — accueil"
+        },
+        {
+          "url": "https://www.m-work.co/en/pricing",
+          "note": "site éditeur — tarifs"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-08"
+    },
+    {
       "slug": "maline",
       "name": "Maline",
       "editor": "Maline Immobilier",
@@ -18179,6 +18521,11 @@
         ],
         "checked_on": "2026-09-05"
       },
+      "logo": {
+        "file": "logos/scoplan.png",
+        "source_url": "https://www.scoplan.com/build/company/img/logo.png",
+        "fetched_on": "2026-09-08"
+      },
       "sources": [
         {
           "url": "https://www.scoplan.com/fr/Promoteur",
@@ -21723,6 +22070,11 @@
         ],
         "checked_on": "2026-09-04"
       },
+      "logo": {
+        "file": "logos/vendorpm.png",
+        "source_url": "https://cdn.prod.website-files.com/61ae81de929387df07374012/6310d73a84e35b83e057ff8e_VendorPM%20Logo%20(Default%20black).webp",
+        "fetched_on": "2026-09-08"
+      },
       "sources": [
         {
           "url": "https://vendorpm.com",
@@ -23078,6 +23430,80 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "zefir",
+      "name": "Zefir",
+      "editor": "Zefir",
+      "website": "https://www.zefir.fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "ai-assistants",
+      "positioning": "France's first collective-sale real estate platform, pairing a neighborhood network of agents with an AI assistant to sell homes faster.",
+      "description": "Zefir is a French home-selling platform built around what it calls \"Vente Collective\": rather than assigning a listing to a single agent, Zefir routes it to every partner agent active in the seller's neighborhood, who work the same mandate together to reach more buyers through a shared dashboard. Zefir Search is a conversational AI assistant (branded ZIA) that lets buyers describe the property they want in natural language instead of setting portal filters, and Zefir Connect is the free channel through which partner agents receive matched buyers and new mandates.\n",
+      "real_estate_use": "A homeowner requests a valuation on Zefir and the listing is opened to every partner agent covering that neighborhood, who compete and collaborate to bring buyers under a shared timeline, with the seller tracking offers and buyer feedback from a dashboard. A buyer runs a conversational search with ZIA instead of scrolling filtered portal results, describing what they want as they would to an agent, and receives listings ranked for relevance. A local agent joins Zefir Connect at no upfront cost to receive pre-qualified buyer leads and new mandates generated by the platform.\n",
+      "features": [
+        "Vente Collective — shared listing exposure across a network of local partner agents",
+        "ZIA, a conversational AI assistant for buyer search",
+        "Zefir Search, natural-language property search",
+        "Zefir Connect, free lead and mandate routing for partner agents",
+        "Seller dashboard with real-time sale progress and buyer feedback",
+        "Automated online property valuation"
+      ],
+      "use_cases": [
+        {
+          "persona": "landlord-owner",
+          "job": "Get an automated valuation and let a network of local agents jointly market the property to sell faster"
+        },
+        {
+          "persona": "agent-broker",
+          "job": "Receive matched buyer leads and new mandates through Zefir Connect at no upfront cost"
+        }
+      ],
+      "personas": [
+        "landlord-owner",
+        "agent-broker"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "commission",
+        "public_pricing": false
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "reviews": [],
+      "signals": {
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-08"
+      },
+      "sources": [
+        {
+          "url": "https://www.zefir.fr",
+          "note": "site éditeur — accueil"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-08"
     },
     {
       "slug": "zelok",
