@@ -2,7 +2,7 @@
 
 <!-- Généré par `npm run data:emit`. Ne pas éditer à la main : éditer `data/tools/*.yaml`. -->
 
-240 produits · 138 🇺🇸 · 132 🇫🇷 · mis à jour le 2026-09-08
+245 produits · 139 🇺🇸 · 136 🇫🇷 · mis à jour le 2026-09-09
 
 Version navigable : https://flowmetrik.github.io/proptech-atlas/explore
 
@@ -90,6 +90,7 @@ _Le logiciel qui met en forme et pousse un portefeuille d'annonces vers les port
 
 | Produit | Éditeur | Marchés | Usage en immobilier |
 |---|---|---|---|
+| [Diffuze](data/tools/diffuze.yaml) | Diffuze | 🇫🇷 | An agent or agency uses Diffuze to publish a listing once and have it distributed across dozens of portals within about 24 hours, generate an AI-written description from the property's… |
 | [Flexmls](data/tools/flexmls.yaml) | FBS | 🇺🇸 | The buyer here is the MLS organisation, not the individual agent: this is the system its subscribers log into to enter and search listings, and the place where the market's own rules are… |
 | [ListHub](data/tools/listhub.yaml) | Move, Inc. | 🇺🇸 | A broker of record who has just signed a listing does not want to re-key it into every portal, and does not want it appearing on sites they never agreed to. They connect their MLS feed… |
 | [Poliris](data/tools/poliris.yaml) | Poliris | 🇫🇷 | Its practical value to an agency is the same as Ubiflow's — one catalogue, many destinations — with the software and the site included rather than integrated. Agencies that do not want… |
@@ -212,9 +213,12 @@ _Monter, tarifer et gérer le crédit immobilier._
 | [Actelo](data/tools/actelo.yaml) | Actelo | 🇫🇷 | A mortgage broker takes in a buyer whose offer has just been accepted and has to turn a project into a bankable file within days. Actelo runs the calculation side: it works out which… |
 | [Blend](data/tools/blend.yaml) | Blend Labs | 🇺🇸 | The failure point in mortgage is the borrower experience: a form that asks for two years of bank statements as PDFs loses applicants to a competitor. Blend replaces that with direct… |
 | [Créditéo](data/tools/crediteo.yaml) | Créditéo | 🇫🇷 | A broker's day is a queue of half-complete files, each waiting on a document or a lender's answer. Créditéo is the desk where that queue is ordered: configurable stages say where each… |
+| [ELIOB.fr](data/tools/eliob.yaml) | ELIOB | 🇫🇷 | A broker or brokerage firm uses ELIOB.fr to keep one structured file per client — contacts, supporting documents, partner banks and history — and to follow a loan project continuously… |
 | [Eloa](data/tools/eloa.yaml) | Eloa | 🇫🇷 | A French mortgage broker is an IOBSP: the file it assembles has to satisfy both the borrower and a bank whose rate grid, document list and commission terms differ from every other… |
 | [Encompass](data/tools/encompass.yaml) | ICE Mortgage Technology | 🇺🇸 | A residential mortgage is a regulated manufacturing process — disclosure timing, fee tolerance, appraisal ordering, TRID compliance — where a missed deadline is a legal defect, not an… |
 | [Floify](data/tools/floify.yaml) | Floify (Porch Group) | 🇺🇸 | Most of a loan officer's day is chasing paperwork and telling agents where the file stands. Floify automates both — it requests missing documents until they arrive, and notifies the… |
+| [Kiilt Pro](data/tools/kiilt-pro.yaml) | Kiilt | 🇫🇷 | A credit broker uses Kiilt Pro to build a borrower's file from scanned documents, with OCR auto-filling the dossier, then runs financial analysis and simulators (interest-free loan… |
+| [LendingPad](data/tools/lendingpad.yaml) | LendingPad | 🇺🇸 | A loan officer or operations team uses LendingPad to capture and manage borrower details — identity, employment, assets, liabilities, owned properties — in one shared record, send… |
 
 ## Notariat, titre & juridique · Title, escrow & legal
 
@@ -362,6 +366,7 @@ _Diagnostics obligatoires, informations acquéreur et dossiers réglementaires d
 |---|---|---|---|
 | [Check & Visit](data/tools/check-and-visit.yaml) | Check & Visit | 🇫🇷 | For a manager with dispersed properties, the constraint on inspections is travel time, not software. Outsourcing the visit to a local operator while keeping the report in the same… |
 | [Diag Pilote](data/tools/diag-pilote.yaml) | ELANOS | 🇫🇷 | A diagnostician spends the morning in a flat with no network, capturing observations for four or five separate regulated reports, then spends the afternoon turning them into compliant… |
+| [Gestion Diag](data/tools/gestion-diag.yaml) | Gestiondiag | 🇫🇷 | A diagnostician or diagnostic firm uses Gestion Diag to book site visits, generate quotes and invoices automatically, and track dossiers opened by referring real estate agencies or… |
 | [HomeGauge](data/tools/homegauge.yaml) | SHGI Corp | 🇺🇸 | The inspector this is for collects data on site, then finishes and formats the report at a desk, and wants control over how it reads rather than a fixed template. That is the split… |
 | [Immopad](data/tools/immopad.yaml) | Immopad | 🇫🇷 | The état des lieux is the document a deposit dispute turns on, and a paper one written in ballpoint rarely survives it. Capturing room by room with dated photographs and an on-the-spot… |
 | [LICIEL](data/tools/liciel.yaml) | LICIEL Environnement | 🇫🇷 | No French property can be sold or let without its diagnostic file, and the DPE in particular now carries legal consequences — a G-rated dwelling cannot be let. The diagnostician's… |

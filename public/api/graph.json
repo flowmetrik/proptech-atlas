@@ -4,22 +4,22 @@
   "license": "CC-BY-4.0 (data) / MIT (code)",
   "homepage": "https://flowmetrik.github.io/proptech-atlas",
   "repository": "https://github.com/flowmetrik/proptech-atlas",
-  "generated": "2026-09-08",
+  "generated": "2026-09-09",
   "counts": {
-    "tools": 240,
-    "US": 138,
-    "FR": 132,
+    "tools": 245,
+    "US": 139,
+    "FR": 136,
     "categories": 24,
-    "editors": 223,
+    "editors": 228,
     "verified": 0,
     "reviews": 0,
-    "logos": 233,
+    "logos": 236,
     "signals": {
-      "probed": 226,
-      "public_pricing": 60,
+      "probed": 231,
+      "public_pricing": 62,
       "api_docs": 18,
       "security_page": 30,
-      "privacy_page": 163,
+      "privacy_page": 168,
       "status_page": 60
     }
   },
@@ -340,6 +340,11 @@
       "label": "Diag Pilote"
     },
     {
+      "id": "tool:diffuze",
+      "type": "tool",
+      "label": "Diffuze"
+    },
+    {
       "id": "tool:docusign",
       "type": "tool",
       "label": "Docusign"
@@ -373,6 +378,11 @@
       "id": "tool:dvf",
       "type": "tool",
       "label": "DVF — Demandes de valeurs foncières"
+    },
+    {
+      "id": "tool:eliob",
+      "type": "tool",
+      "label": "ELIOB.fr"
     },
     {
       "id": "tool:eliseai",
@@ -485,6 +495,11 @@
       "label": "Gererseul"
     },
     {
+      "id": "tool:gestion-diag",
+      "type": "tool",
+      "label": "Gestion Diag"
+    },
+    {
       "id": "tool:graneet",
       "type": "tool",
       "label": "Graneet"
@@ -590,6 +605,11 @@
       "label": "Keyzia"
     },
     {
+      "id": "tool:kiilt-pro",
+      "type": "tool",
+      "label": "Kiilt Pro"
+    },
+    {
       "id": "tool:knock-crm",
       "type": "tool",
       "label": "Knock CRM"
@@ -613,6 +633,11 @@
       "id": "tool:leboncoin-immobilier",
       "type": "tool",
       "label": "Leboncoin Immobilier"
+    },
+    {
+      "id": "tool:lendingpad",
+      "type": "tool",
+      "label": "LendingPad"
     },
     {
       "id": "tool:leon-scepia",
@@ -1775,6 +1800,11 @@
       "label": "ELANOS"
     },
     {
+      "id": "editor:Diffuze",
+      "type": "editor",
+      "label": "Diffuze"
+    },
+    {
       "id": "editor:Docusign",
       "type": "editor",
       "label": "Docusign"
@@ -1808,6 +1838,11 @@
       "id": "editor:DGFiP / Etalab",
       "type": "editor",
       "label": "DGFiP / Etalab"
+    },
+    {
+      "id": "editor:ELIOB",
+      "type": "editor",
+      "label": "ELIOB"
     },
     {
       "id": "editor:EliseAI",
@@ -1903,6 +1938,11 @@
       "id": "editor:Gererseul",
       "type": "editor",
       "label": "Gererseul"
+    },
+    {
+      "id": "editor:Gestiondiag",
+      "type": "editor",
+      "label": "Gestiondiag"
     },
     {
       "id": "editor:Graneet",
@@ -2005,6 +2045,11 @@
       "label": "Keyzia"
     },
     {
+      "id": "editor:Kiilt",
+      "type": "editor",
+      "label": "Kiilt"
+    },
+    {
       "id": "editor:Kuula",
       "type": "editor",
       "label": "Kuula"
@@ -2023,6 +2068,11 @@
       "id": "editor:Leboncoin (Adevinta)",
       "type": "editor",
       "label": "Leboncoin (Adevinta)"
+    },
+    {
+      "id": "editor:LendingPad",
+      "type": "editor",
+      "label": "LendingPad"
     },
     {
       "id": "editor:Scepia",
@@ -6127,6 +6177,36 @@
       "to": "tool:check-and-visit"
     },
     {
+      "from": "tool:diffuze",
+      "rel": "published_by",
+      "to": "editor:Diffuze"
+    },
+    {
+      "from": "tool:diffuze",
+      "rel": "belongs_to",
+      "to": "category:listing-syndication"
+    },
+    {
+      "from": "tool:diffuze",
+      "rel": "serves_persona",
+      "to": "persona:agent-broker"
+    },
+    {
+      "from": "tool:diffuze",
+      "rel": "serves_persona",
+      "to": "persona:brokerage"
+    },
+    {
+      "from": "tool:diffuze",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:diffuze",
+      "rel": "available_in",
+      "to": "market:FR"
+    },
+    {
       "from": "tool:docusign",
       "rel": "published_by",
       "to": "editor:Docusign"
@@ -6540,6 +6620,31 @@
       "from": "tool:dvf",
       "rel": "alternative_to",
       "to": "tool:pricehubble"
+    },
+    {
+      "from": "tool:eliob",
+      "rel": "published_by",
+      "to": "editor:ELIOB"
+    },
+    {
+      "from": "tool:eliob",
+      "rel": "belongs_to",
+      "to": "category:lending-mortgage"
+    },
+    {
+      "from": "tool:eliob",
+      "rel": "serves_persona",
+      "to": "persona:lender-broker"
+    },
+    {
+      "from": "tool:eliob",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:eliob",
+      "rel": "available_in",
+      "to": "market:FR"
     },
     {
       "from": "tool:eliseai",
@@ -7740,6 +7845,31 @@
       "from": "tool:gererseul",
       "rel": "alternative_to",
       "to": "tool:ownily"
+    },
+    {
+      "from": "tool:gestion-diag",
+      "rel": "published_by",
+      "to": "editor:Gestiondiag"
+    },
+    {
+      "from": "tool:gestion-diag",
+      "rel": "belongs_to",
+      "to": "category:diagnostics-compliance"
+    },
+    {
+      "from": "tool:gestion-diag",
+      "rel": "serves_persona",
+      "to": "persona:appraiser"
+    },
+    {
+      "from": "tool:gestion-diag",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:gestion-diag",
+      "rel": "available_in",
+      "to": "market:FR"
     },
     {
       "from": "tool:graneet",
@@ -8987,6 +9117,31 @@
       "to": "tool:yanport"
     },
     {
+      "from": "tool:kiilt-pro",
+      "rel": "published_by",
+      "to": "editor:Kiilt"
+    },
+    {
+      "from": "tool:kiilt-pro",
+      "rel": "belongs_to",
+      "to": "category:lending-mortgage"
+    },
+    {
+      "from": "tool:kiilt-pro",
+      "rel": "serves_persona",
+      "to": "persona:lender-broker"
+    },
+    {
+      "from": "tool:kiilt-pro",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:kiilt-pro",
+      "rel": "available_in",
+      "to": "market:FR"
+    },
+    {
       "from": "tool:knock-crm",
       "rel": "published_by",
       "to": "editor:RealPage"
@@ -9275,6 +9430,31 @@
       "from": "tool:leboncoin-immobilier",
       "rel": "alternative_to",
       "to": "tool:pap"
+    },
+    {
+      "from": "tool:lendingpad",
+      "rel": "published_by",
+      "to": "editor:LendingPad"
+    },
+    {
+      "from": "tool:lendingpad",
+      "rel": "belongs_to",
+      "to": "category:lending-mortgage"
+    },
+    {
+      "from": "tool:lendingpad",
+      "rel": "serves_persona",
+      "to": "persona:lender-broker"
+    },
+    {
+      "from": "tool:lendingpad",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:lendingpad",
+      "rel": "available_in",
+      "to": "market:US"
     },
     {
       "from": "tool:leon-scepia",

@@ -1,0 +1,52 @@
+slug: kiilt-pro
+name: Kiilt Pro
+editor: Kiilt
+website: https://kiilt.com
+hq_country: FR
+markets: [FR]
+category: lending-mortgage
+positioning: "All-in-one credit brokerage software with OCR and AI to build, analyse and present a loan file."
+description: >
+  Kiilt Pro is a French SaaS platform for mortgage and credit brokers (courtiers en
+  crédit, IOBSP). It combines document OCR, AI-assisted file analysis, document
+  management with e-signature, and configurable workflows around a single client loan
+  file, covering mortgages, debt consolidation and professional loans.
+real_estate_use: >
+  A credit broker uses Kiilt Pro to build a borrower's file from scanned documents,
+  with OCR auto-filling the dossier, then runs financial analysis and simulators
+  (interest-free loan eligibility, borrowing capacity, insurance), generates a
+  bank-ready presentation and amortization tables, and manages the file through
+  e-signature and partner tracking in place of spreadsheets and separate tools.
+features:
+  - OCR document capture and auto-filled dossier
+  - AI-assisted financial analysis and loan simulators
+  - AI-generated bank presentation and amortization tables
+  - Document management (GED) with e-signature
+  - Configurable workflows and partner management
+  - API integration
+use_cases:
+  - persona: lender-broker
+    job: Build and analyse a client's mortgage or credit file from scanned documents
+  - persona: lender-broker
+    job: Produce a bank-ready presentation and track a file through signature and financing
+personas: [lender-broker]
+segments: [residential]
+company_sizes: [solo, smb]
+pricing:
+  model: per-seat
+  public_pricing: true
+  from: 46.75
+  currency: EUR
+  unit: per user per month
+  url: https://kiilt.com/tarifs/
+reviews: []
+signals:
+  pricing: https://kiilt.com/tarifs
+  privacy: https://kiilt.com/politique-de-confidentialite
+  site_languages: [fr]
+  checked_on: "2026-09-09"
+sources:
+  - { url: https://kiilt.com, note: site éditeur }
+  - { url: https://kiilt.com/tarifs/, note: page tarifs }
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-09-09"

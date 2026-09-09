@@ -1,0 +1,73 @@
+{
+  "slug": "diffuze",
+  "name": "Diffuze",
+  "editor": "Diffuze",
+  "website": "https://www.diffuze.fr",
+  "hq_country": "FR",
+  "markets": [
+    "FR"
+  ],
+  "category": "listing-syndication",
+  "positioning": "One-click listing syndication to 50+ French real estate portals, billed per use, with AI-assisted content.",
+  "description": "Diffuze is a French listing syndication tool that pushes real estate listings (sale, rental, viager) from a single interface to more than 50 portals including SeLoger, Logic-Immo and Le Figaro Immobilier. It is billed per use rather than by subscription, and includes AI features for description writing and photo retouching.\n",
+  "real_estate_use": "An agent or agency uses Diffuze to publish a listing once and have it distributed across dozens of portals within about 24 hours, generate an AI-written description from the property's characteristics, and apply automatic photo retouching or virtual staging, without committing to a monthly subscription for portal access.\n",
+  "features": [
+    "Syndication to 50+ portals (SeLoger, Logic-Immo, Le Figaro Immobilier, Belles Demeures)",
+    "Pay-per-use pricing, no subscription",
+    "AI-generated listing descriptions",
+    "AI photo retouching and virtual staging",
+    "Listing visibility boosts",
+    "Support for sale, rental and viager mandates"
+  ],
+  "use_cases": [
+    {
+      "persona": "agent-broker",
+      "job": "Publish a listing once and distribute it across the main French portals without a portal-by-portal subscription"
+    },
+    {
+      "persona": "brokerage",
+      "job": "Generate AI listing descriptions and retouched photos before syndicating a portfolio of mandates"
+    }
+  ],
+  "personas": [
+    "agent-broker",
+    "brokerage"
+  ],
+  "segments": [
+    "residential"
+  ],
+  "company_sizes": [
+    "solo",
+    "smb"
+  ],
+  "pricing": {
+    "model": "usage",
+    "public_pricing": true,
+    "url": "https://www.diffuze.fr/packs-mensuels"
+  },
+  "reviews": [],
+  "logo": {
+    "file": "logos/diffuze.png",
+    "source_url": "https://www.diffuze.fr/favicons/diffuze/apple-touch-icon-180x180.png",
+    "fetched_on": "2026-09-09"
+  },
+  "signals": {
+    "privacy": "https://www.diffuze.fr/mentions-legales",
+    "site_languages": [
+      "fr"
+    ],
+    "checked_on": "2026-09-09"
+  },
+  "sources": [
+    {
+      "url": "https://www.diffuze.fr",
+      "note": "site éditeur"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-09-09"
+}
