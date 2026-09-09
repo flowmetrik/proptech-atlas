@@ -4,22 +4,22 @@
   "license": "CC-BY-4.0 (data) / MIT (code)",
   "homepage": "https://flowmetrik.github.io/proptech-atlas",
   "repository": "https://github.com/flowmetrik/proptech-atlas",
-  "generated": "2026-09-08",
+  "generated": "2026-09-09",
   "counts": {
-    "tools": 240,
-    "US": 138,
-    "FR": 132,
+    "tools": 245,
+    "US": 139,
+    "FR": 136,
     "categories": 24,
-    "editors": 223,
+    "editors": 228,
     "verified": 0,
     "reviews": 0,
-    "logos": 233,
+    "logos": 236,
     "signals": {
-      "probed": 226,
-      "public_pricing": 60,
+      "probed": 231,
+      "public_pricing": 62,
       "api_docs": 18,
       "security_page": 30,
-      "privacy_page": 163,
+      "privacy_page": 168,
       "status_page": 60
     }
   },
@@ -6251,6 +6251,79 @@
       "updated": "2026-09-02"
     },
     {
+      "slug": "diffuze",
+      "name": "Diffuze",
+      "editor": "Diffuze",
+      "website": "https://www.diffuze.fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "listing-syndication",
+      "positioning": "One-click listing syndication to 50+ French real estate portals, billed per use, with AI-assisted content.",
+      "description": "Diffuze is a French listing syndication tool that pushes real estate listings (sale, rental, viager) from a single interface to more than 50 portals including SeLoger, Logic-Immo and Le Figaro Immobilier. It is billed per use rather than by subscription, and includes AI features for description writing and photo retouching.\n",
+      "real_estate_use": "An agent or agency uses Diffuze to publish a listing once and have it distributed across dozens of portals within about 24 hours, generate an AI-written description from the property's characteristics, and apply automatic photo retouching or virtual staging, without committing to a monthly subscription for portal access.\n",
+      "features": [
+        "Syndication to 50+ portals (SeLoger, Logic-Immo, Le Figaro Immobilier, Belles Demeures)",
+        "Pay-per-use pricing, no subscription",
+        "AI-generated listing descriptions",
+        "AI photo retouching and virtual staging",
+        "Listing visibility boosts",
+        "Support for sale, rental and viager mandates"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Publish a listing once and distribute it across the main French portals without a portal-by-portal subscription"
+        },
+        {
+          "persona": "brokerage",
+          "job": "Generate AI listing descriptions and retouched photos before syndicating a portfolio of mandates"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "usage",
+        "public_pricing": true,
+        "url": "https://www.diffuze.fr/packs-mensuels"
+      },
+      "reviews": [],
+      "logo": {
+        "file": "logos/diffuze.png",
+        "source_url": "https://www.diffuze.fr/favicons/diffuze/apple-touch-icon-180x180.png",
+        "fetched_on": "2026-09-09"
+      },
+      "signals": {
+        "privacy": "https://www.diffuze.fr/mentions-legales",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-09-09"
+      },
+      "sources": [
+        {
+          "url": "https://www.diffuze.fr",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-09"
+    },
+    {
       "slug": "docusign",
       "name": "Docusign",
       "editor": "Docusign",
@@ -6952,6 +7025,71 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "eliob",
+      "name": "ELIOB.fr",
+      "editor": "ELIOB",
+      "website": "https://www.eliob.fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "lending-mortgage",
+      "positioning": "A CRM built for credit brokers to run their firm without losing track of a file.",
+      "description": "ELIOB.fr is a French SaaS CRM for credit brokerage firms. It brings together client files, partners, documents, invoicing and activity tracking in one workspace built around a single, structured borrower dossier.\n",
+      "real_estate_use": "A broker or brokerage firm uses ELIOB.fr to keep one structured file per client — contacts, supporting documents, partner banks and history — and to follow a loan project continuously from the first contact through financing and invoicing, instead of scattering that information across email and spreadsheets.\n",
+      "features": [
+        "Single structured client dossier",
+        "Continuous project tracking from first contact to financing",
+        "Partner and document management",
+        "Invoicing and activity tracking"
+      ],
+      "use_cases": [
+        {
+          "persona": "lender-broker",
+          "job": "Track a borrower's loan file and partner communications from first contact to closing"
+        },
+        {
+          "persona": "lender-broker",
+          "job": "Centralize a brokerage firm's clients, documents and invoicing in one workspace"
+        }
+      ],
+      "personas": [
+        "lender-broker"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "reviews": [],
+      "signals": {
+        "pricing": "https://www.eliob.fr/tarifs",
+        "privacy": "https://www.eliob.fr/politique-de-confidentialite",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-09-09"
+      },
+      "sources": [
+        {
+          "url": "https://www.eliob.fr",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-09"
     },
     {
       "slug": "eliseai",
@@ -9087,6 +9225,77 @@
       "updated": "2026-08-25"
     },
     {
+      "slug": "gestion-diag",
+      "name": "Gestion Diag",
+      "editor": "Gestiondiag",
+      "website": "https://gestiondiag.fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "diagnostics-compliance",
+      "positioning": "The CRM built for real estate diagnosticians to run their business, not just their reports.",
+      "description": "Gestion Diag is a cloud CRM and back-office platform for French property diagnosticians (diagnostiqueurs immobiliers). It centralizes appointment booking, quoting, invoicing and client/referrer relationship management around each regulatory diagnostic assignment (DPE, asbestos, lead, energy audit, ERP).\n",
+      "real_estate_use": "A diagnostician or diagnostic firm uses Gestion Diag to book site visits, generate quotes and invoices automatically, and track dossiers opened by referring real estate agencies or notaries. Referrers get their own portal to order an ERP report or book a slot without calling the office, and to see which files are stuck waiting on missing documents or payment.\n",
+      "features": [
+        "Online booking synced with Google Calendar",
+        "Automated quoting, invoicing and e-signature",
+        "CRM for clients, referrers and prospects",
+        "Email and SMS campaigns, Google review requests",
+        "Referrer portal for ERP orders and appointment booking",
+        "Gateways to diagnostic report software (Liciel, OBBC, Analyse Immo, Windiag, Distotablette)"
+      ],
+      "use_cases": [
+        {
+          "persona": "appraiser",
+          "job": "Book, quote and invoice a diagnostic assignment (DPE, asbestos, lead, ERP) for a client"
+        },
+        {
+          "persona": "appraiser",
+          "job": "Give a partner agency or notary a portal to order reports and track files without calling the office"
+        }
+      ],
+      "personas": [
+        "appraiser"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "reviews": [],
+      "logo": {
+        "file": "logos/gestion-diag.png",
+        "source_url": "https://gestiondiag.fr/wp-content/uploads/2022/02/Copy-of-Copy-of-Unnamed-Design-2.png",
+        "fetched_on": "2026-09-09"
+      },
+      "signals": {
+        "privacy": "https://gestiondiag.fr/politique-de-confidentialite",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-09-09"
+      },
+      "sources": [
+        {
+          "url": "https://gestiondiag.fr",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-09"
+    },
+    {
       "slug": "graneet",
       "name": "Graneet",
       "editor": "Graneet",
@@ -11191,6 +11400,81 @@
       "updated": "2026-08-29"
     },
     {
+      "slug": "kiilt-pro",
+      "name": "Kiilt Pro",
+      "editor": "Kiilt",
+      "website": "https://kiilt.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "lending-mortgage",
+      "positioning": "All-in-one credit brokerage software with OCR and AI to build, analyse and present a loan file.",
+      "description": "Kiilt Pro is a French SaaS platform for mortgage and credit brokers (courtiers en crédit, IOBSP). It combines document OCR, AI-assisted file analysis, document management with e-signature, and configurable workflows around a single client loan file, covering mortgages, debt consolidation and professional loans.\n",
+      "real_estate_use": "A credit broker uses Kiilt Pro to build a borrower's file from scanned documents, with OCR auto-filling the dossier, then runs financial analysis and simulators (interest-free loan eligibility, borrowing capacity, insurance), generates a bank-ready presentation and amortization tables, and manages the file through e-signature and partner tracking in place of spreadsheets and separate tools.\n",
+      "features": [
+        "OCR document capture and auto-filled dossier",
+        "AI-assisted financial analysis and loan simulators",
+        "AI-generated bank presentation and amortization tables",
+        "Document management (GED) with e-signature",
+        "Configurable workflows and partner management",
+        "API integration"
+      ],
+      "use_cases": [
+        {
+          "persona": "lender-broker",
+          "job": "Build and analyse a client's mortgage or credit file from scanned documents"
+        },
+        {
+          "persona": "lender-broker",
+          "job": "Produce a bank-ready presentation and track a file through signature and financing"
+        }
+      ],
+      "personas": [
+        "lender-broker"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "per-seat",
+        "public_pricing": true,
+        "from": 46.75,
+        "currency": "EUR",
+        "unit": "per user per month",
+        "url": "https://kiilt.com/tarifs/"
+      },
+      "reviews": [],
+      "signals": {
+        "pricing": "https://kiilt.com/tarifs",
+        "privacy": "https://kiilt.com/politique-de-confidentialite",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-09-09"
+      },
+      "sources": [
+        {
+          "url": "https://kiilt.com",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://kiilt.com/tarifs/",
+          "note": "page tarifs"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-09"
+    },
+    {
       "slug": "knock-crm",
       "name": "Knock CRM",
       "editor": "RealPage",
@@ -11691,6 +11975,77 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "lendingpad",
+      "name": "LendingPad",
+      "editor": "LendingPad",
+      "website": "https://www.lendingpad.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "lending-mortgage",
+      "positioning": "The modern, web-based, end-to-end loan origination system for residential mortgage lending.",
+      "description": "LendingPad is a cloud-based loan origination system (LOS) used by mortgage lenders, brokers, banks and credit unions to run the residential mortgage process end to end, from application through closing, on a single centralized platform.\n",
+      "real_estate_use": "A loan officer or operations team uses LendingPad to capture and manage borrower details — identity, employment, assets, liabilities, owned properties — in one shared record, send requests such as title, verification of employment and hazard insurance directly from the platform, and balance the closing disclosure and fees before closing.\n",
+      "features": [
+        "Centralized borrower record shared across the team",
+        "Title, VOE and hazard insurance requests sent from the platform",
+        "Closing disclosure balancing and fee calculation",
+        "Web-based access, no local install",
+        "Workflow built for lenders, brokers, banks and credit unions"
+      ],
+      "use_cases": [
+        {
+          "persona": "lender-broker",
+          "job": "Originate and process a residential mortgage loan from application to closing on one shared system"
+        },
+        {
+          "persona": "lender-broker",
+          "job": "Send and track third-party requests (title, VOE, hazard insurance) without leaving the loan file"
+        }
+      ],
+      "personas": [
+        "lender-broker"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "reviews": [],
+      "logo": {
+        "file": "logos/lendingpad.png",
+        "source_url": "https://lendingpad.com/hs-fs/hubfs/Assets2023/LendingPad%20Logo.png?width=2445&amp;height=570&amp;name=LendingPad%20Logo.png",
+        "fetched_on": "2026-09-09"
+      },
+      "signals": {
+        "privacy": "https://lendingpad.com/privacy-policy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-09"
+      },
+      "sources": [
+        {
+          "url": "https://www.lendingpad.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-09"
     },
     {
       "slug": "leon-scepia",

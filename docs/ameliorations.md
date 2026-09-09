@@ -120,6 +120,46 @@ qu'une chose a été tentée vaut mieux que de la retenter.
 
 ## Fait
 
+- **2026-09-09** — Cinq fiches ajoutées par recherche propre (sans OpenRouter),
+  ciblées sur les catégories les plus creuses (`lending-mortgage`, thinnest du
+  catalogue à 6 fiches, et `listing-syndication`, `diagnostics-compliance`) :
+  `gestion-diag` (FR, CRM et facturation pour diagnostiqueurs immobiliers),
+  `kiilt-pro` et `eliob` (FR, deux CRM de courtage en crédit — Kiilt publie un
+  tarif à 46,75 €/mois/utilisateur, ELIOB non), `lendingpad` (US, LOS —
+  système d'origination de prêt hypothécaire — pour prêteurs, courtiers et
+  banques) et `diffuze` (FR, multidiffusion d'annonces à l'usage, sans
+  abonnement, sur 50+ portails). Aucun salon du registre n'avait son édition
+  qui vient de se tenir (Blueprint Vegas : 22–24/09/2026 ; SIMI : 8–10/12/2026 ;
+  MIPIM : passé en mars) : recherche ciblée par catégorie creuse à la place,
+  en français pour les quatre candidats FR. `capterra-fr`, `g2-categories` et
+  `getapp-softwareadvice` — jamais balayées — confirment le blocage `403`
+  déjà documenté pour ce type de source et sont marquées vues (`mark-swept.mjs`)
+  pour ne plus revenir en tête de rotation. `dtimmo` (déjà écarté le 04/09,
+  site figé depuis 2014) et `ipret.fr` (domaine qui ne résout plus — la
+  faute est dans le résultat de recherche, pas dans le produit) écartés sans
+  écrire de fiche.
+
+  **Trois nouveaux logos récupérés par `logos.mjs` étaient faux, tous trois
+  relus à l'œil avant commit** — aucun n'était vide ni un aplat, donc aucun
+  contrôle automatique ne les aurait attrapés :
+  - `kiilt-pro` avait adopté le badge du label partenaire **France FinTech**
+    affiché sur la page d'accueil — un logo bien formé, juste celui du mauvais
+    éditeur.
+  - `eliob` avait adopté une variante SVG « pour fond sombre » dont le rendu
+    local coupe le mot « ELIOB » et ne laisse que le pictogramme et le
+    suffixe « .fr » — même famille que le piège `fill="white"` déjà rencontré
+    le 08/09, mais ici la perte vient du cadrage, pas de la couleur.
+  - `gestion-diag` avait adopté une tête de renard — un picto/mascotte carré,
+    pas le logo du site. Le vrai logo d'en-tête (`alt="gestion diag logo
+    noir"`) a été récupéré et posé à la main, normalisé au même gabarit
+    256×256 que `normalise()`.
+  Les trois faux sont dans `data/logos-refuses.json` avec leur URL et le motif
+  exact. **À retenir, troisième variante du même piège en deux jours** : un
+  candidat qui passe la forme (ni vide, ni minuscule, ni un aplat uni) peut
+  quand même être le logo de quelqu'un d'autre, une version tronquée, ou une
+  mascotte plutôt que la marque — `candidates()` ne sait toujours pas
+  distinguer ces cas, seule la relecture humaine les attrape.
+
 - **2026-09-08** — Cinq fiches ajoutées par recherche propre (sans OpenRouter) :
   `zefir` (FR, plateforme de vente collective avec ZIA, un assistant IA
   conversationnel — comble un point de la catégorie `ai-assistants` FR,

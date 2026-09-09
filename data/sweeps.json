@@ -198,5 +198,26 @@
     "manual_found": 1,
     "manual_kept": 0,
     "last_manual_note": "seul candidat solide (Condo/Doma.ai) hors marché US/FR"
+  },
+  "capterra-fr": {
+    "last_swept_manual": "2026-09-09",
+    "manual_runs": 1,
+    "manual_found": 0,
+    "manual_kept": 0,
+    "last_manual_note": "403 à tout accès automatisé, confirmé (déjà connu)"
+  },
+  "g2-categories": {
+    "last_swept_manual": "2026-09-09",
+    "manual_runs": 1,
+    "manual_found": 0,
+    "manual_kept": 0,
+    "last_manual_note": "403 à tout accès automatisé, confirmé (déjà connu)"
+  },
+  "getapp-softwareadvice": {
+    "last_swept_manual": "2026-09-09",
+    "manual_runs": 1,
+    "manual_found": 0,
+    "manual_kept": 0,
+    "last_manual_note": "403 à tout accès automatisé, confirmé (déjà connu)"
   }
 }

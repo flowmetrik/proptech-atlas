@@ -4,7 +4,7 @@
   "label_fr": "Diagnostics & conformité",
   "summary_en": "Mandatory surveys, disclosures and regulatory files attached to a property.",
   "summary_fr": "Diagnostics obligatoires, informations acquéreur et dossiers réglementaires du bien.",
-  "count": 10,
+  "count": 11,
   "tools": [
     {
       "slug": "check-and-visit",
@@ -215,6 +215,77 @@
         "checked_by": null
       },
       "updated": "2026-09-02"
+    },
+    {
+      "slug": "gestion-diag",
+      "name": "Gestion Diag",
+      "editor": "Gestiondiag",
+      "website": "https://gestiondiag.fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "diagnostics-compliance",
+      "positioning": "The CRM built for real estate diagnosticians to run their business, not just their reports.",
+      "description": "Gestion Diag is a cloud CRM and back-office platform for French property diagnosticians (diagnostiqueurs immobiliers). It centralizes appointment booking, quoting, invoicing and client/referrer relationship management around each regulatory diagnostic assignment (DPE, asbestos, lead, energy audit, ERP).\n",
+      "real_estate_use": "A diagnostician or diagnostic firm uses Gestion Diag to book site visits, generate quotes and invoices automatically, and track dossiers opened by referring real estate agencies or notaries. Referrers get their own portal to order an ERP report or book a slot without calling the office, and to see which files are stuck waiting on missing documents or payment.\n",
+      "features": [
+        "Online booking synced with Google Calendar",
+        "Automated quoting, invoicing and e-signature",
+        "CRM for clients, referrers and prospects",
+        "Email and SMS campaigns, Google review requests",
+        "Referrer portal for ERP orders and appointment booking",
+        "Gateways to diagnostic report software (Liciel, OBBC, Analyse Immo, Windiag, Distotablette)"
+      ],
+      "use_cases": [
+        {
+          "persona": "appraiser",
+          "job": "Book, quote and invoice a diagnostic assignment (DPE, asbestos, lead, ERP) for a client"
+        },
+        {
+          "persona": "appraiser",
+          "job": "Give a partner agency or notary a portal to order reports and track files without calling the office"
+        }
+      ],
+      "personas": [
+        "appraiser"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "reviews": [],
+      "logo": {
+        "file": "logos/gestion-diag.png",
+        "source_url": "https://gestiondiag.fr/wp-content/uploads/2022/02/Copy-of-Copy-of-Unnamed-Design-2.png",
+        "fetched_on": "2026-09-09"
+      },
+      "signals": {
+        "privacy": "https://gestiondiag.fr/politique-de-confidentialite",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-09-09"
+      },
+      "sources": [
+        {
+          "url": "https://gestiondiag.fr",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-09"
     },
     {
       "slug": "homegauge",

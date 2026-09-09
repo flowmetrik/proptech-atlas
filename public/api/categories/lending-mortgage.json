@@ -4,7 +4,7 @@
   "label_fr": "Financement, crédit & courtage",
   "summary_en": "Originate, price and service real estate debt.",
   "summary_fr": "Monter, tarifer et gérer le crédit immobilier.",
-  "count": 6,
+  "count": 9,
   "tools": [
     {
       "slug": "actelo",
@@ -282,6 +282,71 @@
         "checked_by": null
       },
       "updated": "2026-08-26"
+    },
+    {
+      "slug": "eliob",
+      "name": "ELIOB.fr",
+      "editor": "ELIOB",
+      "website": "https://www.eliob.fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "lending-mortgage",
+      "positioning": "A CRM built for credit brokers to run their firm without losing track of a file.",
+      "description": "ELIOB.fr is a French SaaS CRM for credit brokerage firms. It brings together client files, partners, documents, invoicing and activity tracking in one workspace built around a single, structured borrower dossier.\n",
+      "real_estate_use": "A broker or brokerage firm uses ELIOB.fr to keep one structured file per client — contacts, supporting documents, partner banks and history — and to follow a loan project continuously from the first contact through financing and invoicing, instead of scattering that information across email and spreadsheets.\n",
+      "features": [
+        "Single structured client dossier",
+        "Continuous project tracking from first contact to financing",
+        "Partner and document management",
+        "Invoicing and activity tracking"
+      ],
+      "use_cases": [
+        {
+          "persona": "lender-broker",
+          "job": "Track a borrower's loan file and partner communications from first contact to closing"
+        },
+        {
+          "persona": "lender-broker",
+          "job": "Centralize a brokerage firm's clients, documents and invoicing in one workspace"
+        }
+      ],
+      "personas": [
+        "lender-broker"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "reviews": [],
+      "signals": {
+        "pricing": "https://www.eliob.fr/tarifs",
+        "privacy": "https://www.eliob.fr/politique-de-confidentialite",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-09-09"
+      },
+      "sources": [
+        {
+          "url": "https://www.eliob.fr",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-09"
     },
     {
       "slug": "eloa",
@@ -578,6 +643,152 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "kiilt-pro",
+      "name": "Kiilt Pro",
+      "editor": "Kiilt",
+      "website": "https://kiilt.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "lending-mortgage",
+      "positioning": "All-in-one credit brokerage software with OCR and AI to build, analyse and present a loan file.",
+      "description": "Kiilt Pro is a French SaaS platform for mortgage and credit brokers (courtiers en crédit, IOBSP). It combines document OCR, AI-assisted file analysis, document management with e-signature, and configurable workflows around a single client loan file, covering mortgages, debt consolidation and professional loans.\n",
+      "real_estate_use": "A credit broker uses Kiilt Pro to build a borrower's file from scanned documents, with OCR auto-filling the dossier, then runs financial analysis and simulators (interest-free loan eligibility, borrowing capacity, insurance), generates a bank-ready presentation and amortization tables, and manages the file through e-signature and partner tracking in place of spreadsheets and separate tools.\n",
+      "features": [
+        "OCR document capture and auto-filled dossier",
+        "AI-assisted financial analysis and loan simulators",
+        "AI-generated bank presentation and amortization tables",
+        "Document management (GED) with e-signature",
+        "Configurable workflows and partner management",
+        "API integration"
+      ],
+      "use_cases": [
+        {
+          "persona": "lender-broker",
+          "job": "Build and analyse a client's mortgage or credit file from scanned documents"
+        },
+        {
+          "persona": "lender-broker",
+          "job": "Produce a bank-ready presentation and track a file through signature and financing"
+        }
+      ],
+      "personas": [
+        "lender-broker"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "per-seat",
+        "public_pricing": true,
+        "from": 46.75,
+        "currency": "EUR",
+        "unit": "per user per month",
+        "url": "https://kiilt.com/tarifs/"
+      },
+      "reviews": [],
+      "signals": {
+        "pricing": "https://kiilt.com/tarifs",
+        "privacy": "https://kiilt.com/politique-de-confidentialite",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-09-09"
+      },
+      "sources": [
+        {
+          "url": "https://kiilt.com",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://kiilt.com/tarifs/",
+          "note": "page tarifs"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-09"
+    },
+    {
+      "slug": "lendingpad",
+      "name": "LendingPad",
+      "editor": "LendingPad",
+      "website": "https://www.lendingpad.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "lending-mortgage",
+      "positioning": "The modern, web-based, end-to-end loan origination system for residential mortgage lending.",
+      "description": "LendingPad is a cloud-based loan origination system (LOS) used by mortgage lenders, brokers, banks and credit unions to run the residential mortgage process end to end, from application through closing, on a single centralized platform.\n",
+      "real_estate_use": "A loan officer or operations team uses LendingPad to capture and manage borrower details — identity, employment, assets, liabilities, owned properties — in one shared record, send requests such as title, verification of employment and hazard insurance directly from the platform, and balance the closing disclosure and fees before closing.\n",
+      "features": [
+        "Centralized borrower record shared across the team",
+        "Title, VOE and hazard insurance requests sent from the platform",
+        "Closing disclosure balancing and fee calculation",
+        "Web-based access, no local install",
+        "Workflow built for lenders, brokers, banks and credit unions"
+      ],
+      "use_cases": [
+        {
+          "persona": "lender-broker",
+          "job": "Originate and process a residential mortgage loan from application to closing on one shared system"
+        },
+        {
+          "persona": "lender-broker",
+          "job": "Send and track third-party requests (title, VOE, hazard insurance) without leaving the loan file"
+        }
+      ],
+      "personas": [
+        "lender-broker"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "reviews": [],
+      "logo": {
+        "file": "logos/lendingpad.png",
+        "source_url": "https://lendingpad.com/hs-fs/hubfs/Assets2023/LendingPad%20Logo.png?width=2445&amp;height=570&amp;name=LendingPad%20Logo.png",
+        "fetched_on": "2026-09-09"
+      },
+      "signals": {
+        "privacy": "https://lendingpad.com/privacy-policy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-09"
+      },
+      "sources": [
+        {
+          "url": "https://www.lendingpad.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-09"
     }
   ]
 }

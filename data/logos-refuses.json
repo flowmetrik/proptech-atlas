@@ -30,6 +30,24 @@
       "source_url": "https://cdn.prod.website-files.com/6512f5b8371ba79cd9aa688a/6512f5b8371ba79cd9aa6914_engrain-logo.svg",
       "why": "le SVG `nav_logo`, `alt=\"Engrain\"`, se rend bien (248 couleurs après rognage, donc pas détecté par le contrôle d'aplat) mais chaque tracé porte `fill=\"white\"` — c'est la version pour barre de navigation sombre, invisible sur fond blanc ou transparent. Piège identique à celui déjà noté dans les instructions globales : un logo pour fond sombre passe tous les contrôles automatiques et ne se voit qu'à l'œil. Le favicon (trois barres, refusé le 04/09) reste la seule image du site sans texte blanc, et ce n'est pas un logo non plus.",
       "on": "2026-09-08"
+    },
+    {
+      "slug": "kiilt-pro",
+      "source_url": "https://kiilt.com/wp-content/uploads/2023/12/FranceFintech_logo.webp",
+      "why": "ce n'est pas le logo de Kiilt : c'est le badge du label partenaire « France FinTech » repris sur la page d'accueil. candidates() l'a pris pour la meilleure image disponible.",
+      "on": "2026-09-09"
+    },
+    {
+      "slug": "eliob",
+      "source_url": "https://www.eliob.fr/assets/brand/eliob-fr-white.svg",
+      "why": "rendu tronqué : seul le pictogramme et le suffixe « .fr » apparaissent, le nom « ELIOB » est absent du rendu — variante pour fond sombre mal cadrée par le délégué SVG local, même famille que le piège fill=white déjà rencontré.",
+      "on": "2026-09-09"
+    },
+    {
+      "slug": "gestion-diag",
+      "source_url": "https://gestiondiag.fr/wp-content/uploads/2022/02/Untitled-design-2022-07-13T102010.193-300x300.png",
+      "why": "tête de renard : une icône décorative/mascotte, pas le logo du site. Le vrai logo d'en-tête est Copy-of-Copy-of-Unnamed-Design-2.png (alt=« gestion diag logo noir »), que candidates() n'a pas retenu.",
+      "on": "2026-09-09"
     }
   ]
 }
