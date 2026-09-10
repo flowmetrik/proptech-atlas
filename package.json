@@ -7,10 +7,11 @@
   "description": "Open Product Knowledge Graph of real estate software — United States & France.",
   "scripts": {
     "dev": "astro dev",
-    "build": "npm run data:validate && npm run data:emit && astro build",
+    "build": "npm run data:validate && npm run data:emit && npm run data:changes && astro build",
     "preview": "astro preview",
     "data:validate": "node scripts/validate.mjs",
     "data:emit": "node scripts/emit.mjs",
+    "data:changes": "node scripts/changes.mjs",
     "check": "npm run data:validate",
     "test": "node scripts/test.mjs"
   },

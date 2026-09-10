@@ -34,11 +34,26 @@ const OUT = ensureDir(join(ROOT, 'public', 'logos'));
 // candidate du site, et « meilleure » ne veut pas dire « c'est un logo ». Sur
 // `poliris`, c'était un export de diapositive du repreneur. Un jugement humain
 // doit survivre à la passe qui l'a motivé — donc `--all` ne le contourne pas.
+//
+// Piège trouvé et corrigé le 2026-09-10 : la clé était le SLUG seul. Une fois
+// `gestion-diag` refusé pour une image (une mascotte), TOUT logo de ce slug —
+// y compris le bon, posé à la main le lendemain avec un `source_url` différent
+// — repartait à chaque passe suivante, `dropLogo` compris. Un refus par slug
+// protège contre la ré-adoption du MÊME fichier, pas contre l'existence d'un
+// logo différent. La clé porte maintenant la liste des `source_url` refusées
+// pour ce slug ; seul un logo dont le `source_url` figure encore dans cette
+// liste est retiré. Un logo corrigé à la main, avec une autre provenance,
+// n'est plus jamais touché par ce script.
 const REFUSED = (() => {
   const f = join(ROOT, 'data', 'logos-refuses.json');
   if (!existsSync(f)) return new Map();
   const { refuses = [] } = JSON.parse(readFileSync(f, 'utf8'));
-  return new Map(refuses.map((r) => [r.slug, r]));
+  const m = new Map();
+  for (const r of refuses) {
+    if (!m.has(r.slug)) m.set(r.slug, []);
+    m.get(r.slug).push(r);
+  }
+  return m;
 })();
 const args = process.argv.slice(2);
 const ALL = args.includes('--all');
@@ -191,14 +206,22 @@ function proxies(website) {
 }
 
 async function grab(tool) {
-  if (REFUSED.has(tool.slug)) {
-    const dest = join(OUT, `${tool.slug}.png`);
-    if (existsSync(dest)) unlinkSync(dest);
-    // Effacer le PNG sans retirer le bloc `logo` de la fiche laisserait une
-    // référence pendante : le validateur refuse le catalogue entier, et le
-    // refus humain se lit comme une panne. Le geste doit être complet.
-    if (tool.logo?.file) return { slug: tool.slug, status: 'refusé à la relecture', dropLogo: true };
-    return { slug: tool.slug, status: 'refusé à la relecture' };
+  const refusals = REFUSED.get(tool.slug);
+  if (refusals) {
+    const currentIsRefused = refusals.some((r) => r.source_url === tool.logo?.source_url);
+    if (!tool.logo?.file || currentIsRefused) {
+      const dest = join(OUT, `${tool.slug}.png`);
+      if (existsSync(dest)) unlinkSync(dest);
+      // Effacer le PNG sans retirer le bloc `logo` de la fiche laisserait une
+      // référence pendante : le validateur refuse le catalogue entier, et le
+      // refus humain se lit comme une panne. Le geste doit être complet.
+      if (currentIsRefused) return { slug: tool.slug, status: 'refusé à la relecture', dropLogo: true };
+      return { slug: tool.slug, status: 'refusé à la relecture' };
+    }
+    // Le logo présent n'est PAS celui refusé : un humain en a posé un autre
+    // depuis, avec une autre provenance. Territoire humain — on n'y touche
+    // pas, mais on ne le détruit pas non plus.
+    return { slug: tool.slug, status: 'déjà là (corrigé à la main depuis le refus)' };
   }
   const dest = join(OUT, `${tool.slug}.png`);
   // Un PNG présent dont la fiche ne dit rien est un orphelin : le fichier a été
@@ -266,5 +289,6 @@ for (const r of res) {
 const by = res.reduce((a, r) => ((a[r?.status ?? 'erreur'] = (a[r?.status ?? 'erreur'] ?? 0) + 1), a), {});
 console.log(Object.entries(by).map(([k, v]) => `  ${v.toString().padStart(4)}  ${k}`).join('\n'));
 console.log(`  ${written} fiche(s) mises à jour${dropped ? ` · ${dropped} bloc(s) logo retiré(s)` : ''}`);
-const failed = res.filter((r) => r?.status && r.status !== 'récupéré' && r.status !== 'déjà là');
+const HAS_LOGO = new Set(['récupéré', 'déjà là', 'déjà là (corrigé à la main depuis le refus)']);
+const failed = res.filter((r) => r?.status && !HAS_LOGO.has(r.status));
 if (failed.length) console.log('\nSans logo : ' + failed.map((r) => r.slug).join(', '));

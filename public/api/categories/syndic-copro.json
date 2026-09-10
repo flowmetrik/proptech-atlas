@@ -4,8 +4,84 @@
   "label_fr": "Syndic & copropriété",
   "summary_en": "Manage co-owned buildings — budgets, assemblies, calls for funds, works.",
   "summary_fr": "Gérer l'immeuble en copropriété — budgets, AG, appels de fonds, travaux.",
-  "count": 22,
+  "count": 23,
   "tools": [
+    {
+      "slug": "bellman",
+      "name": "Bellman",
+      "editor": "Bellman",
+      "website": "https://bellman.immo",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "syndic-copro",
+      "positioning": "Le logiciel de syndic et gérance qui redonne du temps aux équipes.",
+      "description": "Bellman est un logiciel de gestion pour cabinets de syndic et de gérance, né d'une ex-startup de syndic en ligne reconvertie en éditeur de logiciel en 2022. Il centralise le travail des gestionnaires, comptables et assistants autour d'une messagerie intégrée, d'un extranet pour les copropriétaires et le conseil syndical, et d'outils d'automatisation documentaire pour les assemblées générales.\n",
+      "real_estate_use": "Un cabinet de syndic reçoit chaque jour des dizaines de factures et de demandes par email : Bellman les rattache automatiquement aux bons dossiers et permet de traiter les devis et les documents de copropriété directement depuis la messagerie, sans ressaisie. Le gestionnaire prépare l'ordre du jour d'une assemblée générale tout au long de l'année plutôt qu'en urgence, suit les envois de convocations en temps réel et enregistre les votes par correspondance. Le conseil syndical et les copropriétaires suivent l'avancement de leurs dossiers et le recouvrement des charges depuis un extranet dédié, ce qui réduit les appels et emails de suivi au cabinet.\n",
+      "features": [
+        "Extranet copropriétaires et conseil syndical",
+        "Intégration messagerie pour le traitement des factures et devis",
+        "Préparation et suivi des assemblées générales",
+        "Vote par correspondance (VPC)",
+        "Automatisation documentaire (procès-verbaux, états datés)"
+      ],
+      "use_cases": [
+        {
+          "persona": "syndic-manager",
+          "job": "Traiter les factures et devis reçus par email sans ressaisie dans le dossier de copropriété"
+        },
+        {
+          "persona": "syndic-manager",
+          "job": "Préparer et suivre l'envoi des convocations et le vote par correspondance d'une assemblée générale"
+        }
+      ],
+      "personas": [
+        "syndic-manager"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "messagerie email"
+      ],
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "reviews": [],
+      "signals": {
+        "checked_on": "2026-09-10"
+      },
+      "sources": [
+        {
+          "url": "https://bellman.immo/",
+          "note": "site éditeur, accueil"
+        },
+        {
+          "url": "https://bellman.immo/fonctionnalites-logiciel-syndic-et-gerance",
+          "note": "page fonctionnalités"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-10"
+    },
     {
       "slug": "buildium",
       "name": "Buildium",

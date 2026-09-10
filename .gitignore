@@ -15,3 +15,10 @@ data/spend.json
 
 # Écrit par le workflow de déploiement depuis la variable CUSTOM_DOMAIN.
 public/CNAME
+
+# Exception à la ligne 8 : changes.json est une fenêtre GLISSANTE (30/60/90
+# jours), donc son contenu bouge chaque jour même quand le catalogue ne bouge
+# pas — le committer ferait exactement le bruit que le tampon dérivé de
+# emit.mjs a été corrigé pour éviter le 2026-08-31 (voir docs/ameliorations.md).
+# Généré à chaque build par `scripts/changes.mjs`, jamais figé dans le dépôt.
+public/api/changes.json

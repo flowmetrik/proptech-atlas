@@ -33,6 +33,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          # Historique complet : scripts/changes.mjs (appelé par `npm run build`)
+          # lit l'historique git de data/tools/ pour dater chaque fiche. Un clone
+          # superficiel ferait dater chaque fichier comme « ajouté aujourd'hui ».
+          fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
           node-version: 22

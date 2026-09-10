@@ -2,7 +2,7 @@
 
 <!-- Généré par `npm run data:emit`. Ne pas éditer à la main : éditer `data/tools/*.yaml`. -->
 
-245 produits · 139 🇺🇸 · 136 🇫🇷 · mis à jour le 2026-09-09
+249 produits · 142 🇺🇸 · 137 🇫🇷 · mis à jour le 2026-09-10
 
 Version navigable : https://flowmetrik.github.io/proptech-atlas/explore
 
@@ -79,6 +79,7 @@ _Comparables, propriétaires, transactions, loyers, fréquentation et les jeux d
 | [Kel Foncier](data/tools/kelfoncier.yaml) | Kel Foncier | 🇫🇷 | A French development starts with a question the PLU answers slowly: on this parcel, what height, what footprint, what constraints. Kel Foncier makes that searchable in reverse — find… |
 | [Lycaon Data](data/tools/lycaon-data.yaml) | Lycaon | 🇫🇷 | An investment fund or developer evaluating a site asks Lycaon Data for a report on how specific attributes (surface, floor, exposure, local supply-demand balance) move price in that… |
 | [Placer.ai](data/tools/placer-ai.yaml) | Placer Labs | 🇺🇸 🇫🇷 | In retail leasing it replaces the argument from intuition. A landlord shows a prospective tenant that the centre draws a measured number of visits from a trade area matching the brand's… |
+| [RealReports](data/tools/realreports.yaml) | BHR Labs | 🇺🇸 | Un agent préparant une offre veut savoir rapidement si un bien est en zone inondable, ce que révèlent les documents de divulgation du vendeur, et comment le positionner face au marché… |
 | [Reonomy](data/tools/reonomy.yaml) | Altus Group | 🇺🇸 | Its use is prospecting rather than underwriting. A broker looking for listings filters a county for owners who have held an asset more than ten years with a maturing loan, then pulls a… |
 | [Terralyse](data/tools/terralyse.yaml) | Terralyse | 🇫🇷 | The French state publishes almost everything about a plot of land, and publishes it in six different places with six different keys: DVF for prices, the cadastre for parcels, the PLU for… |
 | [Urbanease](data/tools/urbanease.yaml) | Urbanease | 🇫🇷 | Finding the parcel is half the job; the other half is a disciplined approach to an owner who was not thinking of selling. Urbanease keeps the qualification and the contact history on the… |
@@ -103,6 +104,7 @@ _Sites, recherche IDX, marque et campagnes pour agents et agences._
 | Produit | Éditeur | Marchés | Usage en immobilier |
 |---|---|---|---|
 | [AgentFire](data/tools/agentfire.yaml) | AgentFire | 🇺🇸 | Competing for "homes for sale in Austin" is hopeless against the portals; competing for a specific neighbourhood is not. AgentFire's content structures exist for that strategy — an agent… |
+| [Humaniz](data/tools/humaniz.yaml) | Humaniz | 🇺🇸 | Une équipe qui recrute en continu perd du temps à publier des annonces sur des dizaines de jobboards et à trier des candidatures non qualifiées : Humaniz diffuse l'offre automatiquement… |
 | [Luxury Presence](data/tools/luxury-presence.yaml) | Luxury Presence | 🇺🇸 | At the top of the market, a listing presentation is partly a credibility exercise: a seller with a seven-figure property judges the agent by the quality of their digital presence. Luxury… |
 | [Previsite](data/tools/previsite.yaml) | Previsite | 🇫🇷 | An independent agent who has just signed a mandate is expected to be photographer, videographer and community manager on top of the job itself. With Previsite they shoot the property on… |
 | [Real Geeks](data/tools/realgeeks.yaml) | Real Geeks (Fidelity National Financial) | 🇺🇸 | A solo agent or a two-to-five person team replaces a brochure website with a searchable IDX site, runs a small monthly ad budget through Real Geeks' managed campaigns, and lets the CRM… |
@@ -132,6 +134,7 @@ _Baux, quittances, propriétaires, locataires, travaux et comptabilité mandant.
 | [Aptexx](data/tools/aptexx.yaml) | Aptexx | 🇺🇸 | A property manager collects rent online through Aptexx instead of chasing checks, and uses the same portal to send building-wide alerts, run resident satisfaction surveys, and track… |
 | [Avail](data/tools/avail.yaml) | Realtor.com (Move, Inc.) | 🇺🇸 | The distribution matters: a unit listed in Avail appears on Realtor.com and partner sites, so a landlord with two properties reaches the same audience as a management company. Rent… |
 | [BailFacile](data/tools/bailfacile.yaml) | BailFacile | 🇫🇷 | A French landlord who refuses a management mandate inherits the mandate's obligations anyway: a lease that satisfies the ALUR law, an entry and exit condition report that will hold up if… |
+| [Brickwise AI](data/tools/brickwise-ai.yaml) | Brickwise | 🇺🇸 | Un gestionnaire reçoit un signalement de panne par SMS : Alice diagnostique le problème avec le locataire, envoie un prestataire agréé et suit le dossier jusqu'à la clôture, sans que le… |
 | [Buildium](data/tools/buildium.yaml) | RealPage | 🇺🇸 | It sits at the tier below AppFolio and Entrata: a company managing a few hundred doors, often mixed between rentals and homeowner associations. The HOA module handles association dues… |
 | [Dematimmo](data/tools/dematimmo.yaml) | Activinnov | 🇫🇷 | A social landlord's allocation team pulls candidate case files automatically from its ERP ahead of a CALEOL session, runs the session either in person with a projection screen or fully… |
 | [DoorLoop](data/tools/doorloop.yaml) | DoorLoop | 🇺🇸 | Its typical buyer is a manager leaving spreadsheets, or one leaving an older system whose interface their staff never mastered. The practical argument is onboarding time: a small team… |
@@ -159,6 +162,7 @@ _Gérer l'immeuble en copropriété — budgets, AG, appels de fonds, travaux._
 
 | Produit | Éditeur | Marchés | Usage en immobilier |
 |---|---|---|---|
+| [Bellman](data/tools/bellman.yaml) | Bellman | 🇫🇷 | Un cabinet de syndic reçoit chaque jour des dizaines de factures et de demandes par email : Bellman les rattache automatiquement aux bons dossiers et permet de traiter les devis et les… |
 | [CINC Systems](data/tools/cinc-systems.yaml) | CINC Systems | 🇺🇸 | Association management is an accounting business wearing an operations coat: the manager who answers a homeowner about a fine also has to know whether that homeowner's account is… |
 | [Comptacop](data/tools/comptacop.yaml) | Comptacop | 🇫🇷 | A syndic — professional or volunteer — logs into Comptacop to prepare the provisional budget, record works, subsidies and loans, and produce the year-end closing annexes required by… |
 | [Condo Control](data/tools/condo-control.yaml) | Condo Control | 🇺🇸 | A condominium tower runs on things a rental building never has to think about: a front desk logging visitors, a party room booked three weeks ahead, a package wall that overflows every… |

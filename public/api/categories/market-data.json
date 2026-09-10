@@ -4,7 +4,7 @@
   "label_fr": "Data de marché & intelligence immobilière",
   "summary_en": "Comparables, ownership, transactions, rents, footfall and the datasets other products are built on.",
   "summary_fr": "Comparables, propriétaires, transactions, loyers, fréquentation et les jeux de données sur lesquels d'autres produits sont bâtis.",
-  "count": 25,
+  "count": 26,
   "tools": [
     {
       "slug": "attom-data",
@@ -2016,6 +2016,102 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "realreports",
+      "name": "RealReports",
+      "editor": "BHR Labs",
+      "website": "https://www.realreports.ai",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "market-data",
+      "also_in": [
+        "ai-assistants"
+      ],
+      "positioning": "The AI-powered property report for real estate agents.",
+      "description": "RealReports est une plateforme de renseignement immobilier qui compile des données provenant d'une quinzaine de sources pour produire, à la demande, des rapports sur un bien : zones inondables, historique, analyse de divulgations. Aiden, la couche d'intelligence du produit, répond aux questions sur un bien et alimente RealCMA, un outil d'analyse comparative de marché. Le produit se distribue en partie via des accords avec des MLS américaines, qui en ouvrent l'accès à leurs agents membres.\n",
+      "real_estate_use": "Un agent préparant une offre veut savoir rapidement si un bien est en zone inondable, ce que révèlent les documents de divulgation du vendeur, et comment le positionner face au marché local : il génère un RealReport et interroge Aiden en langage naturel plutôt que de croiser lui-même plusieurs bases de données. Pour construire une analyse comparative de marché à présenter à un client, l'agent utilise RealCMA, qui produit un document au format de présentation habituel de l'agence en quelques secondes plutôt qu'en heures de recherche manuelle.\n",
+      "features": [
+        "Rapport de renseignement sur un bien (RealReports)",
+        "Assistant IA sur les données du bien (Aiden)",
+        "Analyse comparative de marché (RealCMA)",
+        "Vérification de zone inondable et analyse de divulgations",
+        "Compilation de données issues de multiples fournisseurs"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Vérifier le risque d'inondation et l'historique d'un bien avant de préparer une offre"
+        },
+        {
+          "persona": "agent-broker",
+          "job": "Construire une analyse comparative de marché personnalisée pour un client en quelques secondes"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "MLS (accords de distribution, ex. California Regional MLS)"
+      ],
+      "ai": {
+        "capabilities": [
+          "assistant conversationnel sur les données du bien (Aiden)",
+          "génération automatique de CMA"
+        ]
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "reviews": [],
+      "logo": {
+        "file": "logos/realreports.png",
+        "source_url": "https://www.realreports.ai/images/realReports_logo.svg",
+        "fetched_on": "2026-09-10"
+      },
+      "signals": {
+        "privacy": "https://www.realreports.ai/legal/privacy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-10"
+      },
+      "sources": [
+        {
+          "url": "https://www.realreports.ai/",
+          "note": "site éditeur, accueil"
+        },
+        {
+          "url": "https://www.inman.com/2026/03/12/nations-2nd-largest-mls-expands-no-cost-access-to-ai-property-intelligence-platform/",
+          "note": "Inman — accord de distribution MLS"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-10"
     },
     {
       "slug": "reonomy",

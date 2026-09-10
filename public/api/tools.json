@@ -4,22 +4,22 @@
   "license": "CC-BY-4.0 (data) / MIT (code)",
   "homepage": "https://flowmetrik.github.io/proptech-atlas",
   "repository": "https://github.com/flowmetrik/proptech-atlas",
-  "generated": "2026-09-09",
+  "generated": "2026-09-10",
   "counts": {
-    "tools": 245,
-    "US": 139,
-    "FR": 136,
+    "tools": 249,
+    "US": 142,
+    "FR": 137,
     "categories": 24,
-    "editors": 228,
+    "editors": 232,
     "verified": 0,
     "reviews": 0,
-    "logos": 236,
+    "logos": 237,
     "signals": {
-      "probed": 231,
+      "probed": 235,
       "public_pricing": 62,
       "api_docs": 18,
       "security_page": 30,
-      "privacy_page": 168,
+      "privacy_page": 171,
       "status_page": 60
     }
   },
@@ -1857,6 +1857,82 @@
       "updated": "2026-08-25"
     },
     {
+      "slug": "bellman",
+      "name": "Bellman",
+      "editor": "Bellman",
+      "website": "https://bellman.immo",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "syndic-copro",
+      "positioning": "Le logiciel de syndic et gérance qui redonne du temps aux équipes.",
+      "description": "Bellman est un logiciel de gestion pour cabinets de syndic et de gérance, né d'une ex-startup de syndic en ligne reconvertie en éditeur de logiciel en 2022. Il centralise le travail des gestionnaires, comptables et assistants autour d'une messagerie intégrée, d'un extranet pour les copropriétaires et le conseil syndical, et d'outils d'automatisation documentaire pour les assemblées générales.\n",
+      "real_estate_use": "Un cabinet de syndic reçoit chaque jour des dizaines de factures et de demandes par email : Bellman les rattache automatiquement aux bons dossiers et permet de traiter les devis et les documents de copropriété directement depuis la messagerie, sans ressaisie. Le gestionnaire prépare l'ordre du jour d'une assemblée générale tout au long de l'année plutôt qu'en urgence, suit les envois de convocations en temps réel et enregistre les votes par correspondance. Le conseil syndical et les copropriétaires suivent l'avancement de leurs dossiers et le recouvrement des charges depuis un extranet dédié, ce qui réduit les appels et emails de suivi au cabinet.\n",
+      "features": [
+        "Extranet copropriétaires et conseil syndical",
+        "Intégration messagerie pour le traitement des factures et devis",
+        "Préparation et suivi des assemblées générales",
+        "Vote par correspondance (VPC)",
+        "Automatisation documentaire (procès-verbaux, états datés)"
+      ],
+      "use_cases": [
+        {
+          "persona": "syndic-manager",
+          "job": "Traiter les factures et devis reçus par email sans ressaisie dans le dossier de copropriété"
+        },
+        {
+          "persona": "syndic-manager",
+          "job": "Préparer et suivre l'envoi des convocations et le vote par correspondance d'une assemblée générale"
+        }
+      ],
+      "personas": [
+        "syndic-manager"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "messagerie email"
+      ],
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "reviews": [],
+      "signals": {
+        "checked_on": "2026-09-10"
+      },
+      "sources": [
+        {
+          "url": "https://bellman.immo/",
+          "note": "site éditeur, accueil"
+        },
+        {
+          "url": "https://bellman.immo/fonctionnalites-logiciel-syndic-et-gerance",
+          "note": "page fonctionnalités"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-10"
+    },
+    {
       "slug": "bien-ici",
       "name": "Bien'ici",
       "editor": "Bien'ici",
@@ -2704,6 +2780,97 @@
         "checked_by": null
       },
       "updated": "2026-08-27"
+    },
+    {
+      "slug": "brickwise-ai",
+      "name": "Brickwise AI",
+      "editor": "Brickwise",
+      "website": "https://www.brickwiseai.com",
+      "hq_country": "GB",
+      "markets": [
+        "US"
+      ],
+      "category": "property-management",
+      "also_in": [
+        "ai-assistants"
+      ],
+      "positioning": "Your properties leased and maintained. 24/7.",
+      "description": "Brickwise AI est un logiciel de gestion locative dont l'agent conversationnel, Alice, répond aux appels, SMS, WhatsApp et emails de locataires pour trianger les demandes de maintenance, faire suivre les dossiers de candidature à la location, suivre les échéances de conformité et relancer les loyers impayés. Issu du batch Y Combinator Fall 2025, l'éditeur, basé à Londres, cible des propriétaires bailleurs et des agences de gestion locative aux États-Unis, avec des pages produit dédiées à New York.\n",
+      "real_estate_use": "Un gestionnaire reçoit un signalement de panne par SMS : Alice diagnostique le problème avec le locataire, envoie un prestataire agréé et suit le dossier jusqu'à la clôture, sans que le gestionnaire n'ait à coordonner chaque étape. Pour un bien mis en location, l'agent répond aux candidats, les accompagne de la visite à la remise des clés en passant par les documents à fournir. Le gestionnaire reçoit des rapports construits à partir des données en temps réel plutôt que de les compiler lui-même, et Alice relance les échéances de conformité avant qu'elles n'expirent.\n",
+      "features": [
+        "Triage et dispatch de la maintenance vers des prestataires agréés",
+        "Suivi des candidatures locatives de la visite à la remise des clés",
+        "Communication locataire multicanal (appel, SMS, WhatsApp, email)",
+        "Suivi des échéances de conformité et renouvellements",
+        "Relance des loyers impayés et rapprochement comptable"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Faire diagnostiquer une panne signalée par un locataire et dépêcher un prestataire sans coordination manuelle"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "Recevoir un rapport de gestion construit automatiquement à partir des données en temps réel du portefeuille"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "landlord-owner"
+      ],
+      "segments": [
+        "residential",
+        "multifamily"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "WhatsApp"
+      ],
+      "ai": {
+        "capabilities": [
+          "agent conversationnel multicanal (Alice)",
+          "triage automatique des demandes de maintenance"
+        ]
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "reviews": [],
+      "signals": {
+        "privacy": "https://www.brickwiseai.com/privacy-policy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-10"
+      },
+      "sources": [
+        {
+          "url": "https://www.brickwiseai.com/",
+          "note": "site éditeur, accueil"
+        },
+        {
+          "url": "https://www.brickwiseai.com/features",
+          "note": "page fonctionnalités"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-10"
     },
     {
       "slug": "brokermint",
@@ -10411,6 +10578,93 @@
       "updated": "2026-08-25"
     },
     {
+      "slug": "humaniz",
+      "name": "Humaniz",
+      "editor": "Humaniz",
+      "website": "https://humaniz.io",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "agent-marketing",
+      "also_in": [
+        "ai-assistants"
+      ],
+      "positioning": "The real estate industry's AI-powered recruiting and team management software.",
+      "description": "Humaniz est un logiciel de recrutement et de gestion d'équipe pour les courtages et grandes équipes d'agents immobiliers. Il diffuse les offres sur plus de cent plateformes, source et organise automatiquement le pipeline de candidats, et automatise la paperasse d'intégration d'un nouvel agent. Le produit a été construit par des opérateurs qui ont fait grandir leur propre équipe de 2 à plus de 200 agents avant de commercialiser les outils internes qu'ils avaient développés pour cela.\n",
+      "real_estate_use": "Une équipe qui recrute en continu perd du temps à publier des annonces sur des dizaines de jobboards et à trier des candidatures non qualifiées : Humaniz diffuse l'offre automatiquement et organise le pipeline pour que le recruteur ne traite que les candidats déjà triés, avec des entretiens planifiés automatiquement. Une fois l'agent recruté, le logiciel suit sa progression dans l'onboarding et standardise les étapes, pour qu'un manager de grande équipe (250 agents et plus) n'ait pas à reconstruire le suivi à la main pour chaque nouvelle recrue.\n",
+      "features": [
+        "Diffusion d'offres sur 100+ plateformes",
+        "Sourcing et organisation automatique du pipeline de candidats",
+        "Planification automatisée des entretiens",
+        "Automatisation de la paperasse d'intégration",
+        "Suivi de performance et outils d'évaluation par IA"
+      ],
+      "use_cases": [
+        {
+          "persona": "brokerage",
+          "job": "Diffuser une offre de recrutement d'agent sur une centaine de plateformes sans le faire manuellement"
+        },
+        {
+          "persona": "brokerage",
+          "job": "Suivre la progression d'un nouvel agent dans un parcours d'intégration standardisé"
+        }
+      ],
+      "personas": [
+        "brokerage",
+        "agent-broker"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "ai": {
+        "capabilities": [
+          "sourcing automatique de candidats",
+          "évaluation de réunions par IA"
+        ]
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "reviews": [],
+      "signals": {
+        "privacy": "https://humaniz.io/privacy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-10"
+      },
+      "sources": [
+        {
+          "url": "https://humaniz.io/",
+          "note": "site éditeur, accueil"
+        },
+        {
+          "url": "https://www.inman.com/2026/01/22/humaniz-to-launch-ai-driven-real-estate-agent-recruiting-platform/",
+          "note": "Inman — lancement AgentIntelligence"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-10"
+    },
+    {
       "slug": "ics",
       "name": "ICS",
       "editor": "ICS",
@@ -17759,6 +18013,102 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "realreports",
+      "name": "RealReports",
+      "editor": "BHR Labs",
+      "website": "https://www.realreports.ai",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "market-data",
+      "also_in": [
+        "ai-assistants"
+      ],
+      "positioning": "The AI-powered property report for real estate agents.",
+      "description": "RealReports est une plateforme de renseignement immobilier qui compile des données provenant d'une quinzaine de sources pour produire, à la demande, des rapports sur un bien : zones inondables, historique, analyse de divulgations. Aiden, la couche d'intelligence du produit, répond aux questions sur un bien et alimente RealCMA, un outil d'analyse comparative de marché. Le produit se distribue en partie via des accords avec des MLS américaines, qui en ouvrent l'accès à leurs agents membres.\n",
+      "real_estate_use": "Un agent préparant une offre veut savoir rapidement si un bien est en zone inondable, ce que révèlent les documents de divulgation du vendeur, et comment le positionner face au marché local : il génère un RealReport et interroge Aiden en langage naturel plutôt que de croiser lui-même plusieurs bases de données. Pour construire une analyse comparative de marché à présenter à un client, l'agent utilise RealCMA, qui produit un document au format de présentation habituel de l'agence en quelques secondes plutôt qu'en heures de recherche manuelle.\n",
+      "features": [
+        "Rapport de renseignement sur un bien (RealReports)",
+        "Assistant IA sur les données du bien (Aiden)",
+        "Analyse comparative de marché (RealCMA)",
+        "Vérification de zone inondable et analyse de divulgations",
+        "Compilation de données issues de multiples fournisseurs"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Vérifier le risque d'inondation et l'historique d'un bien avant de préparer une offre"
+        },
+        {
+          "persona": "agent-broker",
+          "job": "Construire une analyse comparative de marché personnalisée pour un client en quelques secondes"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "MLS (accords de distribution, ex. California Regional MLS)"
+      ],
+      "ai": {
+        "capabilities": [
+          "assistant conversationnel sur les données du bien (Aiden)",
+          "génération automatique de CMA"
+        ]
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "reviews": [],
+      "logo": {
+        "file": "logos/realreports.png",
+        "source_url": "https://www.realreports.ai/images/realReports_logo.svg",
+        "fetched_on": "2026-09-10"
+      },
+      "signals": {
+        "privacy": "https://www.realreports.ai/legal/privacy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-10"
+      },
+      "sources": [
+        {
+          "url": "https://www.realreports.ai/",
+          "note": "site éditeur, accueil"
+        },
+        {
+          "url": "https://www.inman.com/2026/03/12/nations-2nd-largest-mls-expands-no-cost-access-to-ai-property-intelligence-platform/",
+          "note": "Inman — accord de distribution MLS"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-10"
     },
     {
       "slug": "realtor-com",

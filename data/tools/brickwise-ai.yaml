@@ -1,0 +1,60 @@
+slug: brickwise-ai
+name: Brickwise AI
+editor: Brickwise
+website: https://www.brickwiseai.com
+hq_country: GB
+markets: [US]
+category: property-management
+also_in: [ai-assistants]
+positioning: Your properties leased and maintained. 24/7.
+description: >
+  Brickwise AI est un logiciel de gestion locative dont l'agent conversationnel,
+  Alice, répond aux appels, SMS, WhatsApp et emails de locataires pour trianger les
+  demandes de maintenance, faire suivre les dossiers de candidature à la location,
+  suivre les échéances de conformité et relancer les loyers impayés. Issu du batch Y
+  Combinator Fall 2025, l'éditeur, basé à Londres, cible des propriétaires bailleurs
+  et des agences de gestion locative aux États-Unis, avec des pages produit dédiées à
+  New York.
+real_estate_use: >
+  Un gestionnaire reçoit un signalement de panne par SMS : Alice diagnostique le
+  problème avec le locataire, envoie un prestataire agréé et suit le dossier jusqu'à
+  la clôture, sans que le gestionnaire n'ait à coordonner chaque étape. Pour un bien
+  mis en location, l'agent répond aux candidats, les accompagne de la visite à la
+  remise des clés en passant par les documents à fournir. Le gestionnaire reçoit des
+  rapports construits à partir des données en temps réel plutôt que de les compiler
+  lui-même, et Alice relance les échéances de conformité avant qu'elles n'expirent.
+features:
+  - Triage et dispatch de la maintenance vers des prestataires agréés
+  - Suivi des candidatures locatives de la visite à la remise des clés
+  - "Communication locataire multicanal (appel, SMS, WhatsApp, email)"
+  - Suivi des échéances de conformité et renouvellements
+  - Relance des loyers impayés et rapprochement comptable
+use_cases:
+  - persona: property-manager
+    job: Faire diagnostiquer une panne signalée par un locataire et dépêcher un prestataire sans coordination manuelle
+  - persona: landlord-owner
+    job: Recevoir un rapport de gestion construit automatiquement à partir des données en temps réel du portefeuille
+personas: [property-manager, landlord-owner]
+segments: [residential, multifamily]
+company_sizes: [solo, smb]
+pricing:
+  model: quote
+  public_pricing: false
+integrations: [WhatsApp]
+ai:
+  capabilities: [agent conversationnel multicanal (Alice), triage automatique des demandes de maintenance]
+product:
+  api: false
+  open_source: false
+  mobile: []
+  languages: [en]
+reviews: []
+signals:
+  privacy: https://www.brickwiseai.com/privacy-policy
+  site_languages: [en]
+  checked_on: "2026-09-10"
+sources:
+  - { url: https://www.brickwiseai.com/, note: "site éditeur, accueil" }
+  - { url: https://www.brickwiseai.com/features, note: page fonctionnalités }
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-09-10"
