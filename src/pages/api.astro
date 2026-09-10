@@ -27,6 +27,7 @@ const abs = (p: string) => `${origin}${url(p)}`;
         <tr><td><span class="mono">/api/categories/&#123;id&#125;.json</span></td><td>One category with its products</td></tr>
         <tr><td><a class="mono" href={url('api/taxonomy.json')}>/api/taxonomy.json</a></td><td>Categories, personas, segments, sizes, markets, pricing models</td></tr>
         <tr><td><a class="mono" href={url('api/graph.json')}>/api/graph.json</a></td><td>The knowledge graph — nodes and typed edges</td></tr>
+        <tr><td><a class="mono" href={url('api/changes.json')}>/api/changes.json</a></td><td>What was added or updated in the last 90 days — so a consumer does not have to refetch the whole catalogue to know what moved</td></tr>
         <tr><td><a class="mono" href={url('llms.txt')}>/llms.txt</a></td><td>Plain-text index for agents</td></tr>
       </tbody>
     </table>
@@ -62,6 +63,15 @@ alternative_to   tool  → tool`}</code></pre>
 
     <p>Straight from the repository, no site involved:</p>
     <pre><code>{`curl -s https://raw.githubusercontent.com/flowmetrik/proptech-atlas/main/data/tools/appfolio.yaml`}</code></pre>
+
+    <p>
+      What changed recently, without refetching <span class="mono">tools.json</span>. The window is
+      derived from git history, not written by hand — <span class="mono">added</span> means the fiche's
+      first commit falls in the window, <span class="mono">updated</span> means a later commit touched
+      it. Regenerated on every build; not committed to the repository, since a rolling window moves
+      even when the catalogue does not.
+    </p>
+    <pre><code>{`curl -s ${abs('api/changes.json')} | jq '.changes[] | select(.action == "added")'`}</code></pre>
 
     <h2>Verified signals</h2>
     <p>

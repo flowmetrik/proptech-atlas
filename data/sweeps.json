@@ -219,5 +219,26 @@
     "manual_found": 0,
     "manual_kept": 0,
     "last_manual_note": "403 à tout accès automatisé, confirmé (déjà connu)"
+  },
+  "business-immo": {
+    "last_swept_manual": "2026-09-10",
+    "manual_runs": 1,
+    "manual_found": 1,
+    "manual_kept": 1,
+    "last_manual_note": "businessimmo.com bloque le fetch direct (403) ; Bellman trouvé via recherche générale (mysweetimmo, immo2.pro), pas via une page businessimmo.com lue"
+  },
+  "boamp-logiciels": {
+    "last_swept_manual": "2026-09-10",
+    "manual_runs": 1,
+    "manual_found": 0,
+    "manual_kept": 0,
+    "last_manual_note": "recherche généraliste sur les marchés publics de logiciels HLM : aucun éditeur nommé remonté distinctement d'une page produit propre"
+  },
+  "inman-news": {
+    "last_swept_manual": "2026-09-10",
+    "manual_runs": 1,
+    "manual_found": 4,
+    "manual_kept": 2,
+    "last_manual_note": "RealReports et Humaniz retenus (produits) ; Realty ONE Group ZONE Pro et Compass Home Platform écartés : fonctionnalité interne d'un courtage, pas un produit vendu à des tiers"
   }
 }

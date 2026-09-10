@@ -4,22 +4,22 @@
   "license": "CC-BY-4.0 (data) / MIT (code)",
   "homepage": "https://flowmetrik.github.io/proptech-atlas",
   "repository": "https://github.com/flowmetrik/proptech-atlas",
-  "generated": "2026-09-09",
+  "generated": "2026-09-10",
   "counts": {
-    "tools": 245,
-    "US": 139,
-    "FR": 136,
+    "tools": 249,
+    "US": 142,
+    "FR": 137,
     "categories": 24,
-    "editors": 228,
+    "editors": 232,
     "verified": 0,
     "reviews": 0,
-    "logos": 236,
+    "logos": 237,
     "signals": {
-      "probed": 231,
+      "probed": 235,
       "public_pricing": 62,
       "api_docs": 18,
       "security_page": 30,
-      "privacy_page": 168,
+      "privacy_page": 171,
       "status_page": 60
     }
   },
@@ -115,6 +115,11 @@
       "label": "Batappli"
     },
     {
+      "id": "tool:bellman",
+      "type": "tool",
+      "label": "Bellman"
+    },
+    {
       "id": "tool:bien-ici",
       "type": "tool",
       "label": "Bien'ici"
@@ -153,6 +158,11 @@
       "id": "tool:breezeway",
       "type": "tool",
       "label": "Breezeway"
+    },
+    {
+      "id": "tool:brickwise-ai",
+      "type": "tool",
+      "label": "Brickwise AI"
     },
     {
       "id": "tool:brokermint",
@@ -555,6 +565,11 @@
       "label": "HqO"
     },
     {
+      "id": "tool:humaniz",
+      "type": "tool",
+      "label": "Humaniz"
+    },
+    {
       "id": "tool:ics",
       "type": "tool",
       "label": "ICS"
@@ -923,6 +938,11 @@
       "id": "tool:realpage",
       "type": "tool",
       "label": "RealPage"
+    },
+    {
+      "id": "tool:realreports",
+      "type": "tool",
+      "label": "RealReports"
     },
     {
       "id": "tool:realtor-com",
@@ -1585,6 +1605,11 @@
       "label": "Batappli"
     },
     {
+      "id": "editor:Bellman",
+      "type": "editor",
+      "label": "Bellman"
+    },
+    {
       "id": "editor:Bien'ici",
       "type": "editor",
       "label": "Bien'ici"
@@ -1623,6 +1648,11 @@
       "id": "editor:Breezeway",
       "type": "editor",
       "label": "Breezeway"
+    },
+    {
+      "id": "editor:Brickwise",
+      "type": "editor",
+      "label": "Brickwise"
     },
     {
       "id": "editor:Buildertrend",
@@ -1995,6 +2025,11 @@
       "label": "HqO"
     },
     {
+      "id": "editor:Humaniz",
+      "type": "editor",
+      "label": "Humaniz"
+    },
+    {
       "id": "editor:ICS",
       "type": "editor",
       "label": "ICS"
@@ -2328,6 +2363,11 @@
       "id": "editor:RealPage (Thoma Bravo)",
       "type": "editor",
       "label": "RealPage (Thoma Bravo)"
+    },
+    {
+      "id": "editor:BHR Labs",
+      "type": "editor",
+      "label": "BHR Labs"
     },
     {
       "id": "editor:Move, Inc. (News Corp)",
@@ -3737,6 +3777,31 @@
       "to": "tool:vertuoza"
     },
     {
+      "from": "tool:bellman",
+      "rel": "published_by",
+      "to": "editor:Bellman"
+    },
+    {
+      "from": "tool:bellman",
+      "rel": "belongs_to",
+      "to": "category:syndic-copro"
+    },
+    {
+      "from": "tool:bellman",
+      "rel": "serves_persona",
+      "to": "persona:syndic-manager"
+    },
+    {
+      "from": "tool:bellman",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:bellman",
+      "rel": "available_in",
+      "to": "market:FR"
+    },
+    {
       "from": "tool:bien-ici",
       "rel": "published_by",
       "to": "editor:Bien'ici"
@@ -4200,6 +4265,46 @@
       "from": "tool:breezeway",
       "rel": "alternative_to",
       "to": "tool:hostaway"
+    },
+    {
+      "from": "tool:brickwise-ai",
+      "rel": "published_by",
+      "to": "editor:Brickwise"
+    },
+    {
+      "from": "tool:brickwise-ai",
+      "rel": "belongs_to",
+      "to": "category:property-management"
+    },
+    {
+      "from": "tool:brickwise-ai",
+      "rel": "also_serves",
+      "to": "category:ai-assistants"
+    },
+    {
+      "from": "tool:brickwise-ai",
+      "rel": "serves_persona",
+      "to": "persona:property-manager"
+    },
+    {
+      "from": "tool:brickwise-ai",
+      "rel": "serves_persona",
+      "to": "persona:landlord-owner"
+    },
+    {
+      "from": "tool:brickwise-ai",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:brickwise-ai",
+      "rel": "covers_segment",
+      "to": "segment:multifamily"
+    },
+    {
+      "from": "tool:brickwise-ai",
+      "rel": "available_in",
+      "to": "market:US"
     },
     {
       "from": "tool:brokermint",
@@ -8475,6 +8580,41 @@
       "from": "tool:hqo",
       "rel": "alternative_to",
       "to": "tool:vts"
+    },
+    {
+      "from": "tool:humaniz",
+      "rel": "published_by",
+      "to": "editor:Humaniz"
+    },
+    {
+      "from": "tool:humaniz",
+      "rel": "belongs_to",
+      "to": "category:agent-marketing"
+    },
+    {
+      "from": "tool:humaniz",
+      "rel": "also_serves",
+      "to": "category:ai-assistants"
+    },
+    {
+      "from": "tool:humaniz",
+      "rel": "serves_persona",
+      "to": "persona:brokerage"
+    },
+    {
+      "from": "tool:humaniz",
+      "rel": "serves_persona",
+      "to": "persona:agent-broker"
+    },
+    {
+      "from": "tool:humaniz",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:humaniz",
+      "rel": "available_in",
+      "to": "market:US"
     },
     {
       "from": "tool:ics",
@@ -12785,6 +12925,41 @@
       "from": "tool:realpage",
       "rel": "alternative_to",
       "to": "tool:appfolio"
+    },
+    {
+      "from": "tool:realreports",
+      "rel": "published_by",
+      "to": "editor:BHR Labs"
+    },
+    {
+      "from": "tool:realreports",
+      "rel": "belongs_to",
+      "to": "category:market-data"
+    },
+    {
+      "from": "tool:realreports",
+      "rel": "also_serves",
+      "to": "category:ai-assistants"
+    },
+    {
+      "from": "tool:realreports",
+      "rel": "serves_persona",
+      "to": "persona:agent-broker"
+    },
+    {
+      "from": "tool:realreports",
+      "rel": "serves_persona",
+      "to": "persona:brokerage"
+    },
+    {
+      "from": "tool:realreports",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:realreports",
+      "rel": "available_in",
+      "to": "market:US"
     },
     {
       "from": "tool:realtor-com",

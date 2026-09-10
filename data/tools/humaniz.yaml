@@ -1,0 +1,58 @@
+slug: humaniz
+name: Humaniz
+editor: Humaniz
+website: https://humaniz.io
+hq_country: US
+markets: [US]
+category: agent-marketing
+also_in: [ai-assistants]
+positioning: The real estate industry's AI-powered recruiting and team management software.
+description: >
+  Humaniz est un logiciel de recrutement et de gestion d'équipe pour les courtages et
+  grandes équipes d'agents immobiliers. Il diffuse les offres sur plus de cent
+  plateformes, source et organise automatiquement le pipeline de candidats, et
+  automatise la paperasse d'intégration d'un nouvel agent. Le produit a été construit
+  par des opérateurs qui ont fait grandir leur propre équipe de 2 à plus de 200 agents
+  avant de commercialiser les outils internes qu'ils avaient développés pour cela.
+real_estate_use: >
+  Une équipe qui recrute en continu perd du temps à publier des annonces sur des
+  dizaines de jobboards et à trier des candidatures non qualifiées : Humaniz diffuse
+  l'offre automatiquement et organise le pipeline pour que le recruteur ne traite que
+  les candidats déjà triés, avec des entretiens planifiés automatiquement. Une fois
+  l'agent recruté, le logiciel suit sa progression dans l'onboarding et standardise
+  les étapes, pour qu'un manager de grande équipe (250 agents et plus) n'ait pas à
+  reconstruire le suivi à la main pour chaque nouvelle recrue.
+features:
+  - Diffusion d'offres sur 100+ plateformes
+  - Sourcing et organisation automatique du pipeline de candidats
+  - Planification automatisée des entretiens
+  - Automatisation de la paperasse d'intégration
+  - Suivi de performance et outils d'évaluation par IA
+use_cases:
+  - persona: brokerage
+    job: Diffuser une offre de recrutement d'agent sur une centaine de plateformes sans le faire manuellement
+  - persona: brokerage
+    job: Suivre la progression d'un nouvel agent dans un parcours d'intégration standardisé
+personas: [brokerage, agent-broker]
+segments: [residential]
+company_sizes: [midmarket, enterprise]
+pricing:
+  model: quote
+  public_pricing: false
+ai:
+  capabilities: [sourcing automatique de candidats, évaluation de réunions par IA]
+product:
+  api: false
+  open_source: false
+  mobile: []
+  languages: [en]
+reviews: []
+signals:
+  privacy: https://humaniz.io/privacy
+  site_languages: [en]
+  checked_on: "2026-09-10"
+sources:
+  - { url: https://humaniz.io/, note: "site éditeur, accueil" }
+  - { url: https://www.inman.com/2026/01/22/humaniz-to-launch-ai-driven-real-estate-agent-recruiting-platform/, note: Inman — lancement AgentIntelligence }
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-09-10"

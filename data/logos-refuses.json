@@ -48,6 +48,24 @@
       "source_url": "https://gestiondiag.fr/wp-content/uploads/2022/02/Untitled-design-2022-07-13T102010.193-300x300.png",
       "why": "tête de renard : une icône décorative/mascotte, pas le logo du site. Le vrai logo d'en-tête est Copy-of-Copy-of-Unnamed-Design-2.png (alt=« gestion diag logo noir »), que candidates() n'a pas retenu.",
       "on": "2026-09-09"
+    },
+    {
+      "slug": "bellman",
+      "source_url": "https://cdn.prod.website-files.com/5d4065aa03c3fe4ae52a8aa7/66ec2b0a804f43b52d52e32d_cdbece3c84c895d2cce079d3fdd04a35_inch-logo.svg",
+      "why": "l'image récupérée affiche « lobby by SEPTEO » — le logo d'un tout autre produit, probablement un badge partenaire ou une ancienne icône de marque (« Inch » est le nom antérieur de Bellman) réutilisée sous une URL au nom trompeur. Aucun rapport visuel avec Bellman.",
+      "on": "2026-09-10"
+    },
+    {
+      "slug": "brickwise-ai",
+      "source_url": "https://www.brickwiseai.com/apple-touch-icon.png",
+      "why": "un simple « B » générique sur fond blanc, sans couleur ni forme de marque — l'icône par défaut d'un générateur de site (Framer/Webflow), pas un logo. Aucune autre image candidate trouvée sur le site.",
+      "on": "2026-09-10"
+    },
+    {
+      "slug": "humaniz",
+      "source_url": "https://humaniz.io/wp-content/uploads/2024/11/regal-logo-hollow.webp",
+      "why": "« Regal Realtors » — un logo client affiché dans une section témoignages/logos-clients de l'accueil, pas le logo de Humaniz. candidates() l'a pris pour la meilleure image disponible.",
+      "on": "2026-09-10"
     }
   ]
 }

@@ -89,16 +89,6 @@ qu'une chose a été tentée vaut mieux que de la retenter.
 - **Comparaison deux à deux.** Une page « X vs Y » pour les paires réellement
   concurrentes. Fort en référencement, mais **risque de contenu creux** : à ne
   faire que si la page dit ce qui sépare vraiment les deux produits.
-- **Un flux des nouveautés.** `/api/changes.json` : ce qui a été ajouté ou
-  modifié depuis N jours, pour qu'un consommateur de l'API n'ait pas à tout
-  retélécharger. Piège identifié le 07/09 avant de s'y lancer : la source la
-  plus naturelle est l'historique git (`git log --name-status` sur
-  `data/tools/`), mais les trois workflows utilisent `actions/checkout@v4` sans
-  `fetch-depth: 0` — en CI, chaque fichier verrait un historique d'un seul
-  commit et daterait comme « ajouté aujourd'hui ». Un artefact qui se
-  régénère différemment en CI qu'en local casse le contrôle de fraîcheur
-  exactement comme le 30/08 (voir plus bas) : poser `fetch-depth: 0` sur les
-  trois workflows est un préalable, pas un détail, avant d'écrire ce script.
 - **Descriptions françaises.** Le schéma accepte `description_fr` ; rien ne le
   remplit. Une moitié du catalogue est française et se lit en anglais.
 
@@ -119,6 +109,58 @@ qu'une chose a été tentée vaut mieux que de la retenter.
 ---
 
 ## Fait
+
+- **2026-09-10** — `logos.mjs` détruisait un logo corrigé à la main dès la
+  passe suivante. Le refus d'un logo était indexé par **slug seul** dans
+  `data/logos-refuses.json` : une fois `gestion-diag` refusé pour une image
+  (une tête de renard), `grab()` traitait le slug entier comme définitivement
+  hors circuit, et retirait à chaque passe **tout** bloc `logo` présent —
+  y compris le bon, posé à la main le lendemain avec un `source_url`
+  totalement différent. Découvert en relançant `logos.mjs` sur l'ensemble du
+  catalogue après une passe de fiches : le logo correct de `gestion-diag`,
+  fixé le 09/09, a été supprimé silencieusement puis restauré (`git
+  checkout`) avant que le vrai correctif ne parte. La clé porte maintenant la
+  liste des `source_url` refusées par slug ; un logo n'est retiré que si son
+  `source_url` actuel figure encore dans cette liste — un logo différent,
+  posé depuis, n'est plus jamais touché. Testé sur cinq slugs refusés, dont
+  `gestion-diag` (préservé) et `vendorpm` (logo correct, laissé intact).
+
+- **2026-09-10** — Deux logos récupérés automatiquement pour de nouvelles
+  fiches étaient faux, ni vides ni des aplats — même famille que les cas déjà
+  documentés, trouvés en relisant les PNG à l'œil avant de committer :
+  - `bellman` avait adopté une image affichant **« lobby by SEPTEO »**, un
+    tout autre produit, récupérée sous une URL nommée `inch-logo.svg` (« Inch »
+    est l'ancien nom de Bellman) — le nom de fichier trompait sur le contenu
+    réel de l'asset.
+  - `humaniz` avait adopté **« Regal Realtors »**, un logo client affiché dans
+    une section témoignages de l'accueil, pas le logo de l'éditeur.
+  Les deux sont dans `data/logos-refuses.json`. Un troisième cas,
+  `brickwise-ai`, a récupéré un simple « B » générique (icône par défaut d'un
+  générateur de site) : refusé aussi, faute de mieux sur ce site. Les trois
+  fiches restent sans logo plutôt qu'avec un faux — voir la règle du
+  02/09 : « ni vide, ni minuscule, ni un aplat » ne suffit pas à garantir
+  qu'une image récupérée EST le logo du bon produit.
+
+- **2026-09-10** — **Un flux des nouveautés**, `/api/changes.json` : ce qui a
+  été ajouté ou modifié dans `data/tools/` sur une fenêtre glissante (90 jours
+  par défaut), pour qu'un consommateur de l'API n'ait pas à retélécharger tout
+  `tools.json` pour savoir ce qui a bougé. Préalable posé d'abord, comme prévu
+  par l'entrée du 07/09 : `fetch-depth: 0` sur le checkout des trois workflows
+  (`ci.yml`, `deploy.yml`, `daily-health.yml`) — sans ça, chaque fiche aurait
+  daté comme « ajoutée aujourd'hui » en CI. Nouveau script
+  `scripts/changes.mjs` : un seul appel `git log --name-status` sur tout
+  l'historique de `data/tools/` (pas un par fichier — 245 fiches), avec un
+  garde explicite qui échoue si `.git/shallow` existe plutôt que de produire
+  des dates silencieusement fausses. Piège évité en écrivant le script, pas
+  seulement en le lisant après coup : une fenêtre glissante bouge de jour en
+  jour même quand le catalogue ne bouge pas — le committer aurait recréé
+  exactement le bruit corrigé le 31/08 pour `emit.mjs` (diff d'une ligne de
+  date sans changement réel). `public/api/changes.json` est donc **exclu du
+  git** malgré la règle générale « `public/api/` est versionné » (exception
+  documentée dans `.gitignore`), régénéré à chaque build par `npm run build`
+  (nouvelle étape `data:changes`) et vérifié — sans être diffé contre un
+  commit — par la CI et le contrôle de santé quotidien. Documenté sur la page
+  `/api`.
 
 - **2026-09-09** — Cinq fiches ajoutées par recherche propre (sans OpenRouter),
   ciblées sur les catégories les plus creuses (`lending-mortgage`, thinnest du

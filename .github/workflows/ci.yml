@@ -11,6 +11,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          # Historique complet, pas seulement le dernier commit : scripts/changes.mjs
+          # lit l'historique git de data/tools/ pour dater chaque fiche. Un clone
+          # superficiel ferait dater chaque fichier comme « ajouté aujourd'hui ».
+          fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
           node-version: 22
@@ -28,5 +33,7 @@ jobs:
             git diff --stat -- public/api CATALOG.md public/llms.txt
             exit 1
           fi
+      - name: Générer le flux des nouveautés (non versionné, juste vérifié ici)
+        run: npm run data:changes
       - name: Build the site
         run: npx astro build
