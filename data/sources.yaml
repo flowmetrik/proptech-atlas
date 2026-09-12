@@ -113,7 +113,7 @@ sources:
   # ── Syndicats et fédérations ────────────────────────────────────────────────
   - id: fnaim-partenaires
     label: FNAIM — partenaires et services
-    url: https://www.fnaim.fr
+    url: https://www.fnaim.fr/espace-adhesion/3565-nos-partenaires.htm
     market: FR
     kind: association
     finds: Les outils réellement en usage dans les agences adhérentes.
@@ -125,13 +125,13 @@ sources:
     finds: Côté syndic et gérance, là où la FNAIM couvre surtout la transaction.
   - id: snpi-partenaires
     label: SNPI — partenaires
-    url: https://www.snpi.fr
+    url: https://www.snpi.fr/partenaires
     market: FR
     kind: association
     finds: Réseau des mandataires indépendants, outils à petit prix.
   - id: plurience
     label: Plurience — réseaux et enseignes
-    url: https://www.plurience.com
+    url: https://www.plurience.fr
     market: FR
     kind: association
     finds: Les choix logiciels des grands réseaux français.

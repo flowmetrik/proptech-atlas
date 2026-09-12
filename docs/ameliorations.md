@@ -73,10 +73,16 @@ qu'une chose a été tentée vaut mieux que de la retenter.
   ont déplacé leur annuaire fournisseurs derrière une adhésion, ou ne publient
   qu'une page de marque blanche sans lister de tiers. Deux buts atteints quand
   même : `nar-partners` (la page « REALTOR Benefits ») a rendu `sentrilock`, et
-  `plurience.com` ne résout plus du tout (timeout DNS) — à vérifier de nouveau
-  dans quelques semaines avant de la retirer du registre. Il reste à décider,
-  pour les six sources vraiment muettes, si on les retire ou si on cherche une
-  URL de remplacement.
+  `plurience.com` ne résolvait plus du tout (timeout DNS) — corrigé le 12/09,
+  voir l'entrée « fait » du jour.
+  **Suite au 12/09** : `narpm-affiliates` (annuaire derrière
+  `community.narpm.org`, réservé aux membres) et `irem-boma` (403 à la lecture
+  automatisée sur `irem.org` comme sur sa page `/about-irem/industry-partners`)
+  n'ont pas de remplacement public trouvé — les annuaires chapitre par chapitre
+  (ex. `iremphx.org`) existent mais sont locaux, pas nationaux, et n'apportent
+  pas un rendement structurellement différent. Laissés en l'état plutôt que
+  retirés : la question reste ouverte, mais sans solution mieux qu'une
+  suppression sans remplacement.
 - **`syndic-copro` a maintenant une base américaine réelle** (7 fiches :
   `buildium`, `cinc-systems`, `clickpay`, `condo-control`, `frontsteps`,
   `payhoa`, `vantaca`) — l'entrée précédente de ce carnet, qui annonçait zéro,
@@ -109,6 +115,35 @@ qu'une chose a été tentée vaut mieux que de la retenter.
 ---
 
 ## Fait
+
+- **2026-09-12** — Repris l'entrée ouverte sur les sources `association`
+  muettes. Deux URL corrigées dans `data/sources.yaml` : `fnaim-partenaires`
+  pointait sur la racine du site (aucun annuaire, deux liens de partenaires en
+  404) — remplacée par `/espace-adhesion/3565-nos-partenaires.htm`, la page
+  qui liste réellement Septeo, La Boîte Immo, Opinion System et une dizaine
+  d'autres partenaires. `plurience` pointait sur `plurience.com`, un domaine
+  qui ne résout plus depuis longtemps — le vrai site est `plurience.fr` (site
+  qui reste sans annuaire fournisseurs exploitable : c'est un think tank
+  d'organisations professionnelles, pas une place de marché, conforme à ce que
+  l'entrée disait déjà). `snpi-partenaires` précisée vers `/partenaires`, la
+  page effectivement listée. `narpm-affiliates` et `irem-boma` confirmés sans
+  remplacement trouvé (voir l'entrée ouverte mise à jour). Quatre fiches
+  ajoutées en lisant ces deux pages de partenaires : `clap-tech` et
+  `opinion-system` via FNAIM, `expertval` via SNPI (par ricochet — ExpertVal
+  n'est pas listée par le SNPI, trouvée en cherchant le sigle « Expert
+  immobilier » mentionné dans un lien croisé du site). `kazaki` ajoutée par
+  recherche ciblée sur `ai-assistants` FR, la catégorie la plus fine du
+  catalogue. Un candidat trouvé sur la page SNPI, `siana.app`, confirmé par la
+  presse comme le vrai site de la proptech française SIANA (cherchée sans
+  succès depuis le 02/09, voir `data/candidates.json`) mais dont le domaine ne
+  résout plus à aucun résolveur testé — pas de fiche possible, noté pour une
+  prochaine passe. `mytroopers.com`, trouvé sur la page SNPI, écarté après
+  lecture : transporteur à la demande en Île-de-France, hors périmètre
+  (logistique, pas immobilier). `depozen.com` écarté après lecture de sa page
+  « qui sommes-nous » : plateforme d'infrastructure assurantielle pour des
+  assureurs et courtiers multi-secteurs, dont l'immobilier n'est qu'un exemple
+  d'usage cité en titre — pas un outil que des professionnels de l'immobilier
+  achètent eux-mêmes.
 
 - **2026-09-10** — `logos.mjs` détruisait un logo corrigé à la main dès la
   passe suivante. Le refus d'un logo était indexé par **slug seul** dans

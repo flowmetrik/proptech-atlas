@@ -1,0 +1,73 @@
+{
+  "slug": "expertval",
+  "name": "ExpertVAL",
+  "editor": "SpicyCode",
+  "website": "https://www.expertval.fr",
+  "hq_country": "FR",
+  "markets": [
+    "FR"
+  ],
+  "category": "estimation-pricing",
+  "positioning": "Le logiciel d'expertise et d'évaluation immobilière pour maison, appartement et terrain.",
+  "description": "ExpertVAL est une webapp française d'évaluation immobilière destinée aux experts. Elle intègre des bases de données publiques (DVF, INSEE, DPE, carte des loyers), un module cartographique avec parcelles cadastrales, et génère des rapports d'expertise en Word conformes à la charte de l'expertise et aux normes européennes EVS de TEGoVA.\n",
+  "real_estate_use": "Un expert immobilier ou un conseiller en gestion de patrimoine ouvre un dossier d'expertise amiable, importe les références de comparaison depuis DVF ou Patrim, prend les photos et saisit les données pendant la visite sur tablette, applique la méthode par comparaison ou le DCF, puis génère le rapport final en Word à partir d'un modèle conforme EVS.\n",
+  "features": [
+    "Bases de données intégrées DVF, INSEE, DPE et carte des loyers",
+    "Module cartographique avec parcelles cadastrales",
+    "Génération de rapports Word conformes EVS et TEGoVA",
+    "Méthode d'évaluation par comparaison et Discounted Cash Flow",
+    "Saisie terrain sur tablette ou smartphone",
+    "Gestion commerciale intégrée (devis, factures, missions)"
+  ],
+  "use_cases": [
+    {
+      "persona": "appraiser",
+      "job": "Produire un rapport d'expertise immobilière conforme à la charte de l'expertise"
+    }
+  ],
+  "personas": [
+    "appraiser"
+  ],
+  "segments": [
+    "residential"
+  ],
+  "company_sizes": [
+    "smb"
+  ],
+  "pricing": {
+    "model": "subscription",
+    "public_pricing": true,
+    "url": "https://www.expertval.fr/tarif.php"
+  },
+  "product": {
+    "api": false,
+    "open_source": false,
+    "mobile": [],
+    "languages": [
+      "fr"
+    ]
+  },
+  "reviews": [],
+  "signals": {
+    "site_languages": [
+      "fr"
+    ],
+    "checked_on": "2026-09-12"
+  },
+  "sources": [
+    {
+      "url": "https://www.expertval.fr",
+      "note": "accueil"
+    },
+    {
+      "url": "https://www.expertval.fr/tarif.php",
+      "note": "tarifs"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-09-12"
+}

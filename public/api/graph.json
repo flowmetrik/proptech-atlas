@@ -4,22 +4,22 @@
   "license": "CC-BY-4.0 (data) / MIT (code)",
   "homepage": "https://flowmetrik.github.io/proptech-atlas",
   "repository": "https://github.com/flowmetrik/proptech-atlas",
-  "generated": "2026-09-10",
+  "generated": "2026-09-12",
   "counts": {
-    "tools": 249,
+    "tools": 253,
     "US": 142,
-    "FR": 137,
+    "FR": 141,
     "categories": 24,
-    "editors": 232,
+    "editors": 236,
     "verified": 0,
     "reviews": 0,
-    "logos": 237,
+    "logos": 240,
     "signals": {
-      "probed": 235,
+      "probed": 239,
       "public_pricing": 62,
       "api_docs": 18,
       "security_page": 30,
-      "privacy_page": 171,
+      "privacy_page": 174,
       "status_page": 60
     }
   },
@@ -218,6 +218,11 @@
       "id": "tool:clameur",
       "type": "tool",
       "label": "CLAMEUR"
+    },
+    {
+      "id": "tool:clap-tech",
+      "type": "tool",
+      "label": "Clap.tech"
     },
     {
       "id": "tool:clear-capital",
@@ -445,6 +450,11 @@
       "label": "Eudonet Immobilier"
     },
     {
+      "id": "tool:expertval",
+      "type": "tool",
+      "label": "ExpertVAL"
+    },
+    {
       "id": "tool:finalcad",
       "type": "tool",
       "label": "Finalcad"
@@ -608,6 +618,11 @@
       "id": "tool:kairnial",
       "type": "tool",
       "label": "Kairnial"
+    },
+    {
+      "id": "tool:kazaki",
+      "type": "tool",
+      "label": "Kazaki"
     },
     {
       "id": "tool:kelfoncier",
@@ -798,6 +813,11 @@
       "id": "tool:officernd",
       "type": "tool",
       "label": "OfficeRnD Flex"
+    },
+    {
+      "id": "tool:opinion-system",
+      "type": "tool",
+      "label": "Opinion System"
     },
     {
       "id": "tool:optix",
@@ -1705,6 +1725,11 @@
       "label": "Association Clameur"
     },
     {
+      "id": "editor:Clap.tech",
+      "type": "editor",
+      "label": "Clap.tech"
+    },
+    {
       "id": "editor:Clear Capital",
       "type": "editor",
       "label": "Clear Capital"
@@ -1925,6 +1950,11 @@
       "label": "Eudonet (Efficy Group)"
     },
     {
+      "id": "editor:SpicyCode",
+      "type": "editor",
+      "label": "SpicyCode"
+    },
+    {
       "id": "editor:Finalcad",
       "type": "editor",
       "label": "Finalcad"
@@ -2068,6 +2098,11 @@
       "id": "editor:Thinkproject",
       "type": "editor",
       "label": "Thinkproject"
+    },
+    {
+      "id": "editor:Kazaki SAS",
+      "type": "editor",
+      "label": "Kazaki SAS"
     },
     {
       "id": "editor:Kel Foncier",
@@ -2233,6 +2268,11 @@
       "id": "editor:OfficeRnD",
       "type": "editor",
       "label": "OfficeRnD"
+    },
+    {
+      "id": "editor:Opinion System",
+      "type": "editor",
+      "label": "Opinion System"
     },
     {
       "id": "editor:ShareDesk Global",
@@ -4967,6 +5007,41 @@
       "to": "tool:pricehubble"
     },
     {
+      "from": "tool:clap-tech",
+      "rel": "published_by",
+      "to": "editor:Clap.tech"
+    },
+    {
+      "from": "tool:clap-tech",
+      "rel": "belongs_to",
+      "to": "category:agent-marketing"
+    },
+    {
+      "from": "tool:clap-tech",
+      "rel": "also_serves",
+      "to": "category:transaction-management"
+    },
+    {
+      "from": "tool:clap-tech",
+      "rel": "serves_persona",
+      "to": "persona:agent-broker"
+    },
+    {
+      "from": "tool:clap-tech",
+      "rel": "serves_persona",
+      "to": "persona:brokerage"
+    },
+    {
+      "from": "tool:clap-tech",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:clap-tech",
+      "rel": "available_in",
+      "to": "market:FR"
+    },
+    {
       "from": "tool:clear-capital",
       "rel": "published_by",
       "to": "editor:Clear Capital"
@@ -7322,6 +7397,31 @@
       "to": "tool:hektor"
     },
     {
+      "from": "tool:expertval",
+      "rel": "published_by",
+      "to": "editor:SpicyCode"
+    },
+    {
+      "from": "tool:expertval",
+      "rel": "belongs_to",
+      "to": "category:estimation-pricing"
+    },
+    {
+      "from": "tool:expertval",
+      "rel": "serves_persona",
+      "to": "persona:appraiser"
+    },
+    {
+      "from": "tool:expertval",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:expertval",
+      "rel": "available_in",
+      "to": "market:FR"
+    },
+    {
       "from": "tool:finalcad",
       "rel": "published_by",
       "to": "editor:Finalcad"
@@ -9105,6 +9205,41 @@
       "from": "tool:kairnial",
       "rel": "alternative_to",
       "to": "tool:autodesk-construction-cloud"
+    },
+    {
+      "from": "tool:kazaki",
+      "rel": "published_by",
+      "to": "editor:Kazaki SAS"
+    },
+    {
+      "from": "tool:kazaki",
+      "rel": "belongs_to",
+      "to": "category:portals-marketplaces"
+    },
+    {
+      "from": "tool:kazaki",
+      "rel": "also_serves",
+      "to": "category:ai-assistants"
+    },
+    {
+      "from": "tool:kazaki",
+      "rel": "serves_persona",
+      "to": "persona:agent-broker"
+    },
+    {
+      "from": "tool:kazaki",
+      "rel": "serves_persona",
+      "to": "persona:brokerage"
+    },
+    {
+      "from": "tool:kazaki",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:kazaki",
+      "rel": "available_in",
+      "to": "market:FR"
     },
     {
       "from": "tool:kelfoncier",
@@ -11260,6 +11395,36 @@
       "from": "tool:officernd",
       "rel": "alternative_to",
       "to": "tool:essensys"
+    },
+    {
+      "from": "tool:opinion-system",
+      "rel": "published_by",
+      "to": "editor:Opinion System"
+    },
+    {
+      "from": "tool:opinion-system",
+      "rel": "belongs_to",
+      "to": "category:agent-marketing"
+    },
+    {
+      "from": "tool:opinion-system",
+      "rel": "serves_persona",
+      "to": "persona:agent-broker"
+    },
+    {
+      "from": "tool:opinion-system",
+      "rel": "serves_persona",
+      "to": "persona:brokerage"
+    },
+    {
+      "from": "tool:opinion-system",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:opinion-system",
+      "rel": "available_in",
+      "to": "market:FR"
     },
     {
       "from": "tool:optix",

@@ -66,6 +66,18 @@
       "source_url": "https://humaniz.io/wp-content/uploads/2024/11/regal-logo-hollow.webp",
       "why": "« Regal Realtors » — un logo client affiché dans une section témoignages/logos-clients de l'accueil, pas le logo de Humaniz. candidates() l'a pris pour la meilleure image disponible.",
       "on": "2026-09-10"
+    },
+    {
+      "slug": "clap-tech",
+      "source_url": "https://cdn.prod.website-files.com/642fc79ef0c0b97524bad149/65003c661537895e8ef6845c_Vectors-Wrapper.svg",
+      "why": "le SVG rend proprement mais affiche « clap.legal » — le logo d'un des quatre modules du produit, repris en boucle dans le carrousel de la page d'accueil, pas la marque « Clap.tech » elle-même. Corrigé à la main avec l'apple-touch-icon du site (clap.tech-square.png, un flamant rose), seule image explicitement nommée d'après le domaine racine plutôt qu'un module.",
+      "on": "2026-09-12"
+    },
+    {
+      "slug": "expertval",
+      "source_url": "https://www.expertval.fr/img/logos/logo-inner.png",
+      "why": "l'image source (téléchargée et relue à l'œil) est un vrai logo ExpertVAL, mais entièrement tracé en blanc/transparent — la variante pour barre de navigation sombre, même famille que le piège `fill=\"white\"` déjà documenté sur Engrain et Copromatic (08/09), ici en PNG plutôt qu'en SVG. Invisible sur le fond blanc du catalogue. Aucune autre image candidate trouvée sur le site : fiche laissée sans logo plutôt qu'avec un faux.",
+      "on": "2026-09-12"
     }
   ]
 }

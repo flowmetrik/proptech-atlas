@@ -1,0 +1,81 @@
+{
+  "slug": "opinion-system",
+  "name": "Opinion System",
+  "editor": "Opinion System",
+  "website": "https://www.opinionsystem.fr",
+  "hq_country": "FR",
+  "markets": [
+    "FR"
+  ],
+  "category": "agent-marketing",
+  "positioning": "Le tiers de confiance qui certifie la réputation des professionnels, avec une méthode d'avis contrôlés triple certifiée AFNOR.",
+  "description": "Opinion System est un institut de sondage français qui collecte et contrôle des avis clients pour plusieurs professions réglementées, dont l'immobilier. Sa méthode de collecte est certifiée AFNOR (ISO 9001, ISO 20252, NF Service 522, NF ISO 20488) : les avis sont vérifiés avant publication par un processus audité chaque année.\n",
+  "real_estate_use": "Une agence immobilière ou un courtier en crédit s'inscrit auprès d'Opinion System pour faire certifier ses avis clients : la plateforme sollicite les clients après une transaction, contrôle l'authenticité des avis avant publication, et l'agence affiche le badge de réputation certifiée sur son site pour rassurer de nouveaux prospects.\n",
+  "features": [
+    "Collecte d'avis clients certifiée AFNOR",
+    "Contrôle des avis avant publication",
+    "Page réputation dédiée par professionnel",
+    "Déclinaison sectorielle pour l'immobilier et le courtage en crédit"
+  ],
+  "use_cases": [
+    {
+      "persona": "agent-broker",
+      "job": "Certifier sa réputation client pour rassurer de nouveaux prospects"
+    }
+  ],
+  "personas": [
+    "agent-broker",
+    "brokerage"
+  ],
+  "segments": [
+    "residential"
+  ],
+  "company_sizes": [
+    "smb"
+  ],
+  "pricing": {
+    "model": "subscription",
+    "public_pricing": false
+  },
+  "product": {
+    "api": false,
+    "open_source": false,
+    "mobile": [],
+    "languages": [
+      "fr"
+    ]
+  },
+  "reviews": [],
+  "logo": {
+    "file": "logos/opinion-system.png",
+    "source_url": "https://www.opinionsystem.fr/wp-content/uploads/2026/06/LOGO_OPINIONSYSTEM_fullok_2026.svg",
+    "fetched_on": "2026-09-12"
+  },
+  "signals": {
+    "privacy": "https://www.opinionsystem.fr/politique-de-confidentialite",
+    "site_languages": [
+      "fr"
+    ],
+    "checked_on": "2026-09-12"
+  },
+  "sources": [
+    {
+      "url": "https://www.opinionsystem.fr",
+      "note": "accueil"
+    },
+    {
+      "url": "https://www.opinionsystem.fr/avis-clients-agences-immobilieres/",
+      "note": "page secteur immobilier"
+    },
+    {
+      "url": "https://www.opinionsystem.fr/methode-avis-controles/",
+      "note": "méthode certifiée"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-09-12"
+}
