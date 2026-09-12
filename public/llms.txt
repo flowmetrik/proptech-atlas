@@ -1,6 +1,6 @@
 # PropTech Atlas
 
-> Open Product Knowledge Graph of real estate software — United States & France. 249 produits documentés, 142 disponibles aux États-Unis, 137 en France.
+> Open Product Knowledge Graph of real estate software — United States & France. 253 produits documentés, 142 disponibles aux États-Unis, 141 en France.
 
 Les données sont statiques, versionnées et publiques. Aucun compte, aucune clé.
 Chaque fiche décrit un produit ET son usage métier en immobilier, avec ses sources.
@@ -18,11 +18,11 @@ Chaque fiche décrit un produit ET son usage métier en immobilier, avec ses sou
 
 - [CRM & lead management](https://flowmetrik.github.io/proptech-atlas/categories/crm-lead) — Capture, qualify and nurture buyer, seller and tenant leads. (18)
 - [Transaction & closing management](https://flowmetrik.github.io/proptech-atlas/categories/transaction-management) — Run a deal from offer to closing — forms, e-signature, compliance, commissions. (7)
-- [Portals & marketplaces](https://flowmetrik.github.io/proptech-atlas/categories/portals-marketplaces) — Where supply meets demand in public — consumer portals, listing networks and transactional marketplaces. (11)
+- [Portals & marketplaces](https://flowmetrik.github.io/proptech-atlas/categories/portals-marketplaces) — Where supply meets demand in public — consumer portals, listing networks and transactional marketplaces. (12)
 - [Market data & property intelligence](https://flowmetrik.github.io/proptech-atlas/categories/market-data) — Comparables, ownership, transactions, rents, footfall and the datasets other products are built on. (15)
 - [Listing publishing & syndication](https://flowmetrik.github.io/proptech-atlas/categories/listing-syndication) — Software that formats and pushes a portfolio of listings out to portals and partner networks. (5)
-- [Agent websites & marketing](https://flowmetrik.github.io/proptech-atlas/categories/agent-marketing) — Websites, IDX search, branding and campaigns for agents and brokerages. (6)
-- [Valuation, pricing & farming](https://flowmetrik.github.io/proptech-atlas/categories/estimation-pricing) — Automated valuation, comparables, owner farming and pricing intelligence. (6)
+- [Agent websites & marketing](https://flowmetrik.github.io/proptech-atlas/categories/agent-marketing) — Websites, IDX search, branding and campaigns for agents and brokerages. (8)
+- [Valuation, pricing & farming](https://flowmetrik.github.io/proptech-atlas/categories/estimation-pricing) — Automated valuation, comparables, owner farming and pricing intelligence. (7)
 - [Residential property management](https://flowmetrik.github.io/proptech-atlas/categories/property-management) — Leases, rent, owners, tenants, maintenance and trust accounting. (26)
 - [HOA & condominium management](https://flowmetrik.github.io/proptech-atlas/categories/syndic-copro) — Manage co-owned buildings — budgets, assemblies, calls for funds, works. (19)
 - [Commercial asset & property management](https://flowmetrik.github.io/proptech-atlas/categories/commercial-am) — Institutional-grade lease, asset and portfolio administration. (7)
@@ -46,15 +46,15 @@ Chaque fiche décrit un produit ET son usage métier en immobilier, avec ses sou
 **La prose est rédigée, non recoupée.** `description`, `real_estate_use`, `features` et
 `use_cases` sont écrits à partir du contenu public de l'éditeur. Chaque fiche porte
 `verification.status` ; tant qu'il vaut `unverified`, ne pas présenter son contenu comme un
-fait établi. Actuellement vérifiées : 0 / 249.
+fait établi. Actuellement vérifiées : 0 / 253.
 
 **Les signaux sont machine-vérifiés.** Le bloc `signals` de chaque fiche a été établi en
 allant lire le site de l'éditeur à la date `checked_on`, et chaque signal porte l'URL qui
 l'établit. Un signal absent signifie « pas trouvé à cette date », jamais « n'existe pas ».
-Relevés : 235 outils · tarifs publics 62 · doc d'API 18 · page sécurité 30 · page confidentialité 171 · page d'état 60.
+Relevés : 239 outils · tarifs publics 62 · doc d'API 18 · page sécurité 30 · page confidentialité 174 · page d'état 60.
 
 **Les avis ne sont jamais inventés.** 0 agrégat(s) externe(s) daté(s) au
 catalogue. Une note sans URL de source et sans date de relevé est refusée par le validateur.
 
-**Les logos** viennent du site de l'éditeur (237 / 249), avec leur
+**Les logos** viennent du site de l'éditeur (240 / 253), avec leur
 URL d'origine et la date du relevé. Marques et logos appartiennent à leurs détenteurs.

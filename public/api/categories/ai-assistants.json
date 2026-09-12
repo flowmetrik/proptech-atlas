@@ -4,7 +4,7 @@
   "label_fr": "Agents IA & automatisation",
   "summary_en": "LLM-native assistants that answer, qualify, draft and act on real estate work.",
   "summary_fr": "Assistants LLM qui répondent, qualifient, rédigent et agissent sur le métier.",
-  "count": 17,
+  "count": 18,
   "tools": [
     {
       "slug": "appfolio",
@@ -728,6 +728,94 @@
         "checked_by": null
       },
       "updated": "2026-09-10"
+    },
+    {
+      "slug": "kazaki",
+      "name": "Kazaki",
+      "editor": "Kazaki SAS",
+      "website": "https://www.kazaki.fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "portals-marketplaces",
+      "also_in": [
+        "ai-assistants"
+      ],
+      "positioning": "L'intelligence immobilière : décrivez votre projet, l'IA traduit ça en critères de recherche et vous recommande les biens qui vous correspondent.",
+      "description": "Kazaki est un portail français de recherche immobilière pour particuliers, fondé par Kazaki SAS (Reims). Plutôt qu'un moteur à filtres, il propose une recherche conversationnelle : l'acheteur décrit son projet en langage naturel, et l'IA parcourt les annonces des agences partenaires pour recommander des biens, enrichis d'une estimation de prix, d'un simulateur de crédit et du DPE. Applications mobiles iOS et Android.\n",
+      "real_estate_use": "Une agence (L'Atelier Immo, ERA, Les Clefs Immo et Redouté sont citées comme partenaires) voit ses annonces reprises et enrichies sur Kazaki, qui les expose à des acheteurs déjà qualifiés par leur conversation avec l'IA plutôt que par des filtres classiques — un canal d'acquisition de leads supplémentaire, sur le même principe qu'un portail grand public.\n",
+      "features": [
+        "Recherche conversationnelle par IA plutôt que par filtres",
+        "Agrégation des annonces d'agences partenaires",
+        "Estimation de prix et simulateur de crédit intégrés",
+        "Affichage du diagnostic de performance énergétique par bien",
+        "Applications mobiles iOS et Android"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Faire recommander ses annonces à des acheteurs qualifiés par une recherche conversationnelle"
+        },
+        {
+          "persona": "brokerage",
+          "job": "Gagner un canal d'acquisition de leads acheteurs complémentaire aux portails classiques"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "smb"
+      ],
+      "pricing": {
+        "model": "usage",
+        "public_pricing": false
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr"
+        ]
+      },
+      "reviews": [],
+      "logo": {
+        "file": "logos/kazaki.png",
+        "source_url": "https://www.kazaki.fr/apple-icon?4ce4f97377a60b1a",
+        "fetched_on": "2026-09-12"
+      },
+      "signals": {
+        "privacy": "https://www.kazaki.fr/confidentialite",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-09-12"
+      },
+      "sources": [
+        {
+          "url": "https://www.kazaki.fr",
+          "note": "accueil"
+        },
+        {
+          "url": "https://www.kazaki.fr/mentions-legales",
+          "note": "mentions légales — société et siège"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-12"
     },
     {
       "slug": "keyzia",

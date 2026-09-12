@@ -4,7 +4,7 @@
   "label_fr": "Gestion de transaction & closing",
   "summary_en": "Run a deal from offer to closing — forms, e-signature, compliance, commissions.",
   "summary_fr": "Piloter une vente de l'offre à l'acte — pièces, signature, conformité, commissions.",
-  "count": 22,
+  "count": 23,
   "tools": [
     {
       "slug": "adapt-immo",
@@ -319,6 +319,102 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "clap-tech",
+      "name": "Clap.tech",
+      "editor": "Clap.tech",
+      "website": "https://www.clap.tech",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "agent-marketing",
+      "also_in": [
+        "transaction-management"
+      ],
+      "positioning": "La technologie au service de l'immobilier : quatre outils pour signer, afficher, filmer et prospecter.",
+      "description": "Clap.tech est un éditeur français qui propose une suite de quatre modules vendus séparément pour les agences immobilières : clap.legal (édition et signature électronique de documents juridiques), clap.show (vitrines connectées pour les agences), clap.video (habillage vidéo automatique des annonces) et clap.expert (intelligence de marché pour cibler des mandats). Revendique plus de 6 000 professionnels de l'immobilier clients.\n",
+      "real_estate_use": "Une agence équipe ses vitrines de rue avec clap.show pour afficher ses annonces sans mise à jour manuelle, transforme ses annonces en vidéos courtes pour les réseaux sociaux avec clap.video, fait signer électroniquement mandats et compromis avec clap.legal, et utilise clap.expert pour repérer les biens à fort potentiel de mandat sur son secteur.\n",
+      "features": [
+        "Génération et signature électronique de documents juridiques",
+        "Vitrines connectées pilotées à distance",
+        "Habillage vidéo automatique d'annonces immobilières",
+        "Intelligence de marché pour cibler des mandats"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Afficher ses annonces sur une vitrine connectée sans repasser par l'agence"
+        },
+        {
+          "persona": "brokerage",
+          "job": "Faire signer un mandat ou un compromis à distance"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "smb"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "reviews": [],
+      "logo": {
+        "file": "logos/clap-tech.png",
+        "source_url": "https://cdn.prod.website-files.com/654910b21715489220bf7dd3/654910b21715489220bf7e61_clap.tech-square.png",
+        "fetched_on": "2026-09-12"
+      },
+      "signals": {
+        "privacy": "https://www.clap.tech/mentions-legales",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-12"
+      },
+      "sources": [
+        {
+          "url": "https://www.clap.tech",
+          "note": "accueil"
+        },
+        {
+          "url": "https://www.clap.tech/legal",
+          "note": "module clap.legal"
+        },
+        {
+          "url": "https://www.clap.tech/show",
+          "note": "module clap.show"
+        },
+        {
+          "url": "https://www.clap.tech/video",
+          "note": "module clap.video"
+        },
+        {
+          "url": "https://www.clap.tech/expert",
+          "note": "module clap.expert"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-12"
     },
     {
       "slug": "crexi",

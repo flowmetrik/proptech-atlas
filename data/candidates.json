@@ -89,7 +89,7 @@
       "slug": "siana",
       "name": "Siana",
       "website": "https://siana.ai",
-      "why": "homonyme : siana.ai est Siana ApS, maintenance prédictive industrielle par capteurs (Danemark). Rien à voir avec la proptech française SIANA, dont le site n'a pas été trouvé. verify.mjs a dit oui : le site répond et le nom figure sur l'accueil."
+      "why": "homonyme : siana.ai est Siana ApS, maintenance prédictive industrielle par capteurs (Danemark). Rien à voir avec la proptech française SIANA, dont le site n'a pas été trouvé. verify.mjs a dit oui : le site répond et le nom figure sur l'accueil. Mise à jour 2026-09-12 : le vrai site de la proptech française est siana.app (assistant IA pour agents immobiliers, trophée d'innovation SNPI, repéré via la page partenaires du SNPI et confirmé par la presse — Immo Matin, Immobilier 2.0). Mais siana.app ne résout à aucun résolveur DNS testé (local, 8.8.8.8, 1.1.1.1) à cette date malgré des pages indexées récemment — domaine probablement expiré ou suspendu. Toujours pas de fiche possible : à revérifier avant d'écrire quoi que ce soit."
     },
     {
       "slug": "tap-inspect",

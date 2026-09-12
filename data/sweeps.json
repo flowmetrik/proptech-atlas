@@ -25,7 +25,12 @@
     "runs": 1,
     "found": 1,
     "kept": 0,
-    "last_error": "Aucun annuaire de partenaires publie : /partenaires et /1050-nos-partenaires.htm en 404, et le seul lien sortant du site est une ecole de formation (groupe-esi.fr), hors perimetre. Source a requalifier ou a retirer."
+    "last_error": "Aucun annuaire de partenaires publie : /partenaires et /1050-nos-partenaires.htm en 404, et le seul lien sortant du site est une ecole de formation (groupe-esi.fr), hors perimetre. Source a requalifier ou a retirer.",
+    "last_swept_manual": "2026-09-12",
+    "manual_runs": 1,
+    "manual_found": 17,
+    "manual_kept": 1,
+    "last_manual_note": "URL corrigée vers la page /espace-adhesion/3565-nos-partenaires.htm ; Opinion System retenu, le reste est déjà catalogué (Septeo, La Boîte Immo, Bien'ici) ou hors périmètre logiciel (assurance, banque, énergie, imprimerie)"
   },
   "french-proptech": {
     "last_swept": "2026-08-25",
@@ -152,18 +157,18 @@
     "last_manual_note": "URL en 404 depuis la refonte du site Zapier ; plus de page catégorie 'real-estate' dédiée dans l'annuaire d'apps, aucune URL de remplacement équivalente trouvée — source à requalifier ou retirer"
   },
   "snpi-partenaires": {
-    "last_swept_manual": "2026-09-07",
-    "manual_runs": 1,
-    "manual_found": 1,
-    "manual_kept": 0,
-    "last_manual_note": "Page réduite à un 'SNPI Tech Kit' générique (marque blanche, pas un produit propre) et des partenariats déjà catalogués (SeLoger) ; pas d'annuaire de partenaires logiciels distinct"
+    "last_swept_manual": "2026-09-12",
+    "manual_runs": 2,
+    "manual_found": 21,
+    "manual_kept": 2,
+    "last_manual_note": "URL précisée vers /partenaires ; Clap.tech et ExpertVal retenus, Depozen et MyTroopers écartés après lecture (hors périmètre), Siana confirmée comme le vrai site français mais domaine siana.app injoignable (DNS)"
   },
   "plurience": {
-    "last_swept_manual": "2026-09-07",
-    "manual_runs": 1,
+    "last_swept_manual": "2026-09-12",
+    "manual_runs": 2,
     "manual_found": 0,
     "manual_kept": 0,
-    "last_manual_note": "Domaine injoignable (timeout DNS sur plurience.com) — à revérifier"
+    "last_manual_note": "domaine corrigé .com vers .fr (résout maintenant) ; confirmé think tank d'organisations professionnelles, aucun annuaire fournisseurs"
   },
   "nar-partners": {
     "last_swept_manual": "2026-09-07",

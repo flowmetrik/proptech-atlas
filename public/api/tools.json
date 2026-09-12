@@ -4,22 +4,22 @@
   "license": "CC-BY-4.0 (data) / MIT (code)",
   "homepage": "https://flowmetrik.github.io/proptech-atlas",
   "repository": "https://github.com/flowmetrik/proptech-atlas",
-  "generated": "2026-09-10",
+  "generated": "2026-09-12",
   "counts": {
-    "tools": 249,
+    "tools": 253,
     "US": 142,
-    "FR": 137,
+    "FR": 141,
     "categories": 24,
-    "editors": 232,
+    "editors": 236,
     "verified": 0,
     "reviews": 0,
-    "logos": 237,
+    "logos": 240,
     "signals": {
-      "probed": 235,
+      "probed": 239,
       "public_pricing": 62,
       "api_docs": 18,
       "security_page": 30,
-      "privacy_page": 171,
+      "privacy_page": 174,
       "status_page": 60
     }
   },
@@ -3961,6 +3961,102 @@
         "checked_by": null
       },
       "updated": "2026-08-26"
+    },
+    {
+      "slug": "clap-tech",
+      "name": "Clap.tech",
+      "editor": "Clap.tech",
+      "website": "https://www.clap.tech",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "agent-marketing",
+      "also_in": [
+        "transaction-management"
+      ],
+      "positioning": "La technologie au service de l'immobilier : quatre outils pour signer, afficher, filmer et prospecter.",
+      "description": "Clap.tech est un éditeur français qui propose une suite de quatre modules vendus séparément pour les agences immobilières : clap.legal (édition et signature électronique de documents juridiques), clap.show (vitrines connectées pour les agences), clap.video (habillage vidéo automatique des annonces) et clap.expert (intelligence de marché pour cibler des mandats). Revendique plus de 6 000 professionnels de l'immobilier clients.\n",
+      "real_estate_use": "Une agence équipe ses vitrines de rue avec clap.show pour afficher ses annonces sans mise à jour manuelle, transforme ses annonces en vidéos courtes pour les réseaux sociaux avec clap.video, fait signer électroniquement mandats et compromis avec clap.legal, et utilise clap.expert pour repérer les biens à fort potentiel de mandat sur son secteur.\n",
+      "features": [
+        "Génération et signature électronique de documents juridiques",
+        "Vitrines connectées pilotées à distance",
+        "Habillage vidéo automatique d'annonces immobilières",
+        "Intelligence de marché pour cibler des mandats"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Afficher ses annonces sur une vitrine connectée sans repasser par l'agence"
+        },
+        {
+          "persona": "brokerage",
+          "job": "Faire signer un mandat ou un compromis à distance"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "smb"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "reviews": [],
+      "logo": {
+        "file": "logos/clap-tech.png",
+        "source_url": "https://cdn.prod.website-files.com/654910b21715489220bf7dd3/654910b21715489220bf7e61_clap.tech-square.png",
+        "fetched_on": "2026-09-12"
+      },
+      "signals": {
+        "privacy": "https://www.clap.tech/mentions-legales",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-12"
+      },
+      "sources": [
+        {
+          "url": "https://www.clap.tech",
+          "note": "accueil"
+        },
+        {
+          "url": "https://www.clap.tech/legal",
+          "note": "module clap.legal"
+        },
+        {
+          "url": "https://www.clap.tech/show",
+          "note": "module clap.show"
+        },
+        {
+          "url": "https://www.clap.tech/video",
+          "note": "module clap.video"
+        },
+        {
+          "url": "https://www.clap.tech/expert",
+          "note": "module clap.expert"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-12"
     },
     {
       "slug": "clear-capital",
@@ -8225,6 +8321,79 @@
       "updated": "2026-08-25"
     },
     {
+      "slug": "expertval",
+      "name": "ExpertVAL",
+      "editor": "SpicyCode",
+      "website": "https://www.expertval.fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "estimation-pricing",
+      "positioning": "Le logiciel d'expertise et d'évaluation immobilière pour maison, appartement et terrain.",
+      "description": "ExpertVAL est une webapp française d'évaluation immobilière destinée aux experts. Elle intègre des bases de données publiques (DVF, INSEE, DPE, carte des loyers), un module cartographique avec parcelles cadastrales, et génère des rapports d'expertise en Word conformes à la charte de l'expertise et aux normes européennes EVS de TEGoVA.\n",
+      "real_estate_use": "Un expert immobilier ou un conseiller en gestion de patrimoine ouvre un dossier d'expertise amiable, importe les références de comparaison depuis DVF ou Patrim, prend les photos et saisit les données pendant la visite sur tablette, applique la méthode par comparaison ou le DCF, puis génère le rapport final en Word à partir d'un modèle conforme EVS.\n",
+      "features": [
+        "Bases de données intégrées DVF, INSEE, DPE et carte des loyers",
+        "Module cartographique avec parcelles cadastrales",
+        "Génération de rapports Word conformes EVS et TEGoVA",
+        "Méthode d'évaluation par comparaison et Discounted Cash Flow",
+        "Saisie terrain sur tablette ou smartphone",
+        "Gestion commerciale intégrée (devis, factures, missions)"
+      ],
+      "use_cases": [
+        {
+          "persona": "appraiser",
+          "job": "Produire un rapport d'expertise immobilière conforme à la charte de l'expertise"
+        }
+      ],
+      "personas": [
+        "appraiser"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "smb"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://www.expertval.fr/tarif.php"
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "reviews": [],
+      "signals": {
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-09-12"
+      },
+      "sources": [
+        {
+          "url": "https://www.expertval.fr",
+          "note": "accueil"
+        },
+        {
+          "url": "https://www.expertval.fr/tarif.php",
+          "note": "tarifs"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-12"
+    },
+    {
       "slug": "finalcad",
       "name": "Finalcad",
       "editor": "Finalcad",
@@ -11441,6 +11610,94 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "kazaki",
+      "name": "Kazaki",
+      "editor": "Kazaki SAS",
+      "website": "https://www.kazaki.fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "portals-marketplaces",
+      "also_in": [
+        "ai-assistants"
+      ],
+      "positioning": "L'intelligence immobilière : décrivez votre projet, l'IA traduit ça en critères de recherche et vous recommande les biens qui vous correspondent.",
+      "description": "Kazaki est un portail français de recherche immobilière pour particuliers, fondé par Kazaki SAS (Reims). Plutôt qu'un moteur à filtres, il propose une recherche conversationnelle : l'acheteur décrit son projet en langage naturel, et l'IA parcourt les annonces des agences partenaires pour recommander des biens, enrichis d'une estimation de prix, d'un simulateur de crédit et du DPE. Applications mobiles iOS et Android.\n",
+      "real_estate_use": "Une agence (L'Atelier Immo, ERA, Les Clefs Immo et Redouté sont citées comme partenaires) voit ses annonces reprises et enrichies sur Kazaki, qui les expose à des acheteurs déjà qualifiés par leur conversation avec l'IA plutôt que par des filtres classiques — un canal d'acquisition de leads supplémentaire, sur le même principe qu'un portail grand public.\n",
+      "features": [
+        "Recherche conversationnelle par IA plutôt que par filtres",
+        "Agrégation des annonces d'agences partenaires",
+        "Estimation de prix et simulateur de crédit intégrés",
+        "Affichage du diagnostic de performance énergétique par bien",
+        "Applications mobiles iOS et Android"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Faire recommander ses annonces à des acheteurs qualifiés par une recherche conversationnelle"
+        },
+        {
+          "persona": "brokerage",
+          "job": "Gagner un canal d'acquisition de leads acheteurs complémentaire aux portails classiques"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "smb"
+      ],
+      "pricing": {
+        "model": "usage",
+        "public_pricing": false
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr"
+        ]
+      },
+      "reviews": [],
+      "logo": {
+        "file": "logos/kazaki.png",
+        "source_url": "https://www.kazaki.fr/apple-icon?4ce4f97377a60b1a",
+        "fetched_on": "2026-09-12"
+      },
+      "signals": {
+        "privacy": "https://www.kazaki.fr/confidentialite",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-09-12"
+      },
+      "sources": [
+        {
+          "url": "https://www.kazaki.fr",
+          "note": "accueil"
+        },
+        {
+          "url": "https://www.kazaki.fr/mentions-legales",
+          "note": "mentions légales — société et siège"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-12"
     },
     {
       "slug": "kelfoncier",
@@ -15186,6 +15443,87 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "opinion-system",
+      "name": "Opinion System",
+      "editor": "Opinion System",
+      "website": "https://www.opinionsystem.fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "agent-marketing",
+      "positioning": "Le tiers de confiance qui certifie la réputation des professionnels, avec une méthode d'avis contrôlés triple certifiée AFNOR.",
+      "description": "Opinion System est un institut de sondage français qui collecte et contrôle des avis clients pour plusieurs professions réglementées, dont l'immobilier. Sa méthode de collecte est certifiée AFNOR (ISO 9001, ISO 20252, NF Service 522, NF ISO 20488) : les avis sont vérifiés avant publication par un processus audité chaque année.\n",
+      "real_estate_use": "Une agence immobilière ou un courtier en crédit s'inscrit auprès d'Opinion System pour faire certifier ses avis clients : la plateforme sollicite les clients après une transaction, contrôle l'authenticité des avis avant publication, et l'agence affiche le badge de réputation certifiée sur son site pour rassurer de nouveaux prospects.\n",
+      "features": [
+        "Collecte d'avis clients certifiée AFNOR",
+        "Contrôle des avis avant publication",
+        "Page réputation dédiée par professionnel",
+        "Déclinaison sectorielle pour l'immobilier et le courtage en crédit"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Certifier sa réputation client pour rassurer de nouveaux prospects"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "smb"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "reviews": [],
+      "logo": {
+        "file": "logos/opinion-system.png",
+        "source_url": "https://www.opinionsystem.fr/wp-content/uploads/2026/06/LOGO_OPINIONSYSTEM_fullok_2026.svg",
+        "fetched_on": "2026-09-12"
+      },
+      "signals": {
+        "privacy": "https://www.opinionsystem.fr/politique-de-confidentialite",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-09-12"
+      },
+      "sources": [
+        {
+          "url": "https://www.opinionsystem.fr",
+          "note": "accueil"
+        },
+        {
+          "url": "https://www.opinionsystem.fr/avis-clients-agences-immobilieres/",
+          "note": "page secteur immobilier"
+        },
+        {
+          "url": "https://www.opinionsystem.fr/methode-avis-controles/",
+          "note": "méthode certifiée"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-12"
     },
     {
       "slug": "optix",

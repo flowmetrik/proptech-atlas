@@ -2,7 +2,7 @@
 
 <!-- Généré par `npm run data:emit`. Ne pas éditer à la main : éditer `data/tools/*.yaml`. -->
 
-249 produits · 142 🇺🇸 · 137 🇫🇷 · mis à jour le 2026-09-10
+253 produits · 142 🇺🇸 · 141 🇫🇷 · mis à jour le 2026-09-12
 
 Version navigable : https://flowmetrik.github.io/proptech-atlas/explore
 
@@ -55,6 +55,7 @@ _Là où l'offre rencontre la demande en public — portails grand public, rése
 | [Bien'ici](data/tools/bien-ici.yaml) | Bien'ici | 🇫🇷 | It exists because French professionals wanted a portal they partly control, as a counterweight to portal pricing power. For an agency, the practical calculation is the same as anywhere —… |
 | [Crexi](data/tools/crexi.yaml) | Commercial Real Estate Exchange, Inc. | 🇺🇸 | A broker lists an asset, receives structured offers or runs a timed auction, and shares due-diligence documents through a permissioned data room instead of a shared drive link. Buyers… |
 | [Homes.com](data/tools/homes-com.yaml) | CoStar Group | 🇺🇸 | The pitch to listing agents is defensive: winning a listing is easier when the seller knows their own agent will appear on the portal page rather than three buyers' agents who paid for… |
+| [Kazaki](data/tools/kazaki.yaml) | Kazaki SAS | 🇫🇷 | Une agence (L'Atelier Immo, ERA, Les Clefs Immo et Redouté sont citées comme partenaires) voit ses annonces reprises et enrichies sur Kazaki, qui les expose à des acheteurs déjà… |
 | [Leboncoin Immobilier](data/tools/leboncoin-immobilier.yaml) | Leboncoin (Adevinta) | 🇫🇷 | Its dual nature defines its role. Agencies advertise here for volume at a lower cost per listing than the professional portals. At the same time it is the main source for the pige — the… |
 | [LoopNet](data/tools/loopnet.yaml) | CoStar Group | 🇺🇸 | A broker marketing a warehouse or a strip centre buys a listing tier to reach principals and out-of-market buyers that a local network would miss. Investors use it as a screening tool… |
 | [PAP (De Particulier à Particulier)](data/tools/pap.yaml) | PAP | 🇫🇷 | Two opposite uses. For an owner it is the reference channel for selling or letting without paying agency fees, with the legal templates that decision requires. For an agency it is a pure… |
@@ -104,8 +105,10 @@ _Sites, recherche IDX, marque et campagnes pour agents et agences._
 | Produit | Éditeur | Marchés | Usage en immobilier |
 |---|---|---|---|
 | [AgentFire](data/tools/agentfire.yaml) | AgentFire | 🇺🇸 | Competing for "homes for sale in Austin" is hopeless against the portals; competing for a specific neighbourhood is not. AgentFire's content structures exist for that strategy — an agent… |
+| [Clap.tech](data/tools/clap-tech.yaml) | Clap.tech | 🇫🇷 | Une agence équipe ses vitrines de rue avec clap.show pour afficher ses annonces sans mise à jour manuelle, transforme ses annonces en vidéos courtes pour les réseaux sociaux avec… |
 | [Humaniz](data/tools/humaniz.yaml) | Humaniz | 🇺🇸 | Une équipe qui recrute en continu perd du temps à publier des annonces sur des dizaines de jobboards et à trier des candidatures non qualifiées : Humaniz diffuse l'offre automatiquement… |
 | [Luxury Presence](data/tools/luxury-presence.yaml) | Luxury Presence | 🇺🇸 | At the top of the market, a listing presentation is partly a credibility exercise: a seller with a seven-figure property judges the agent by the quality of their digital presence. Luxury… |
+| [Opinion System](data/tools/opinion-system.yaml) | Opinion System | 🇫🇷 | Une agence immobilière ou un courtier en crédit s'inscrit auprès d'Opinion System pour faire certifier ses avis clients : la plateforme sollicite les clients après une transaction… |
 | [Previsite](data/tools/previsite.yaml) | Previsite | 🇫🇷 | An independent agent who has just signed a mandate is expected to be photographer, videographer and community manager on top of the job itself. With Previsite they shoot the property on… |
 | [Real Geeks](data/tools/realgeeks.yaml) | Real Geeks (Fidelity National Financial) | 🇺🇸 | A solo agent or a two-to-five person team replaces a brochure website with a searchable IDX site, runs a small monthly ad budget through Real Geeks' managed campaigns, and lets the CRM… |
 | [Respage](data/tools/respage.yaml) | Respage | 🇺🇸 | A multifamily operator with a dozen communities usually buys a website vendor, an advertising agency, a chatbot and a reputation tool separately, then discovers that none of them share a… |
@@ -118,6 +121,7 @@ _Estimation automatisée, comparables, pige propriétaires et pricing._
 |---|---|---|---|
 | [Clear Capital](data/tools/clear-capital.yaml) | Clear Capital | 🇺🇸 | Loan servicing and origination require a valuation whose rigour matches the risk. A home equity line may justify an AVM; a default review needs a broker price opinion; a purchase needs a… |
 | [Cloud CMA](data/tools/cloudcma.yaml) | Lone Wolf Technologies | 🇺🇸 | Winning a listing is a persuasion problem, and the CMA is the artefact that does the persuading. The agent pulls comparables from the MLS, adjusts them, and produces a branded document… |
+| [ExpertVAL](data/tools/expertval.yaml) | SpicyCode | 🇫🇷 | Un expert immobilier ou un conseiller en gestion de patrimoine ouvre un dossier d'expertise amiable, importe les références de comparaison depuis DVF ou Patrim, prend les photos et… |
 | [HouseCanary](data/tools/housecanary.yaml) | HouseCanary | 🇺🇸 | An iBuyer or a single-family rental fund cannot send an appraiser to every candidate house. It prices thousands of addresses a week through an AVM, and the confidence interval decides… |
 | [MeilleursAgents](data/tools/meilleursagents.yaml) | Aviv Group (Axel Springer) | 🇫🇷 | It changed the French listing appointment. An owner arrives having already read a neighbourhood price per square metre, so the agent's pricing conversation starts from a public reference… |
 | [Pige Online](data/tools/pige-online.yaml) | Pige Online | 🇫🇷 | In a market without an MLS, agency growth depends on converting private sellers into mandates, and the same property appears on four portals under three different prices. The software's… |
