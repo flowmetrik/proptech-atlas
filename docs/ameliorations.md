@@ -36,6 +36,15 @@ qu'une chose a été tentée vaut mieux que de la retenter.
   contrôle exécutable évident — c'est la catégorie et le marché déclarés du
   candidat qu'il faudrait confronter au contenu, ce qui coûte un appel de modèle.
   À défaut, le geste humain reste obligatoire : lire l'accueil avant d'écrire.
+- **La file `rejected` de `verify.mjs` ne se corrige pas toute seule.** `courtisia`
+  avait été écarté le 25/08 avec le motif « site injoignable » — vrai pour l'URL
+  essayée alors (`courtisia.fr`, morte), faux pour le produit : le vrai domaine
+  est `courtisia.com`. Le contrôle bloque par **slug**, sans jamais retester avec
+  une URL différente : tant que l'entrée reste dans `data/candidates.json`, une
+  correction de domaine ne suffit pas à repasser le candidat, il faut retirer
+  l'entrée à la main (fait le 13/09). Même famille que le bug corrigé le 10/09 sur
+  `logos-refuses.json` (refus indexé par slug plutôt que par ce qui a été refusé) —
+  mais côté rejet de candidat, personne ne l'a encore corrigé.
 - **Les avis restent à zéro.** G2, Capterra et Trustpilot renvoient `403`. Deux
   issues possibles : une clé d'API payante chez l'un d'eux, ou des contributions
   humaines sourcées. Ne jamais résoudre ce point en inventant.
