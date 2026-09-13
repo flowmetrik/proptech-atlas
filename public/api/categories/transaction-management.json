@@ -124,6 +124,7 @@
       ],
       "positioning": "The French transaction system built for agencies that sell across borders — multilingual, multi-currency, open API.",
       "description": "Apimo is a real estate CRM and transaction platform used by French and international agencies: listings and contacts, mandates, matching, multilingual publishing to portals in several countries, websites, and a documented open API.\n",
+      "description_fr": "Apimo est un CRM et une plateforme de transaction immobilière utilisés par des agences françaises et internationales : biens et contacts, mandats, rapprochement, diffusion multilingue vers des portails de plusieurs pays, sites web, et une API ouverte documentée.\n",
       "real_estate_use": "Agencies on the Côte d'Azur, in the Alps or in border regions sell to buyers who do not read French, through portals in several countries. Apimo handles a listing in multiple languages and currencies from one record, which removes the duplicate-catalogue problem that breaks most domestic tools as soon as a second market appears.\n",
       "features": [
         "Multilingual and multi-currency listing management",

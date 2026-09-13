@@ -10,6 +10,7 @@
   "category": "market-data",
   "positioning": "Everything around an address, scored — noise, pollution, transport, schools, risks, amenities — in one page.",
   "description": "Cityscan aggregates public and private data about the environment of a French address — transport, education, amenities, noise, air quality, natural and technological risks, planning projects — into scores and reports embeddable into professional products.\n",
+  "description_fr": "Cityscan agrège des données publiques et privées sur l'environnement d'une adresse française — transports, éducation, commerces, bruit, qualité de l'air, risques naturels et technologiques, projets d'urbanisme — en scores et rapports intégrables à des produits professionnels.\n",
   "real_estate_use": "Location quality is the argument every French listing makes and none evidences. Cityscan turns it into a scored report an agency can attach to a listing or a valuation, and that a developer or an investor can use to compare two sites. It also surfaces what a seller would rather not mention: a planned road, a flood risk, a nearby industrial site.\n",
   "features": [
     "Environmental and amenity scoring per address",

@@ -1,0 +1,88 @@
+{
+  "slug": "monga",
+  "name": "Monga",
+  "editor": "Monga",
+  "website": "https://monga.io",
+  "hq_country": "FR",
+  "markets": [
+    "FR"
+  ],
+  "category": "facility-maintenance",
+  "also_in": [
+    "property-management"
+  ],
+  "positioning": "SaaS technical management platform for French property managers and syndics: planning maintenance interventions, tracking contractors, and communicating with occupants.",
+  "description": "Monga is a French SaaS platform for the technical management of real estate assets. It centralises the planning of maintenance interventions across buildings, tracks stock and suppliers, and provides communication channels between property managers, service providers and occupants.\n",
+  "real_estate_use": "A property manager or syndic running technical maintenance across several buildings needs to schedule interventions, keep providers informed, and answer occupant requests without losing track of any of it. Monga puts that workflow in one platform: interventions are planned and dispatched, providers get a shared channel for updates, and occupants can report issues, book shared rooms or check information about their unit directly, instead of a chain of calls and emails.\n",
+  "features": [
+    "Planning and dispatch of technical maintenance interventions",
+    "Stock and supplier tracking",
+    "Provider communication channel for interventions",
+    "Occupant portal for maintenance requests and shared-room bookings",
+    "Real-time updates between managers, occupants and providers"
+  ],
+  "use_cases": [
+    {
+      "persona": "property-manager",
+      "job": "Plan and dispatch technical interventions across a portfolio of buildings and keep providers and occupants informed"
+    },
+    {
+      "persona": "syndic-manager",
+      "job": "Centralise maintenance requests from occupants and track resolution"
+    }
+  ],
+  "personas": [
+    "property-manager",
+    "facility-manager",
+    "syndic-manager"
+  ],
+  "segments": [
+    "residential",
+    "multifamily"
+  ],
+  "company_sizes": [
+    "smb",
+    "midmarket"
+  ],
+  "pricing": {
+    "model": "subscription",
+    "public_pricing": false
+  },
+  "product": {
+    "api": false,
+    "open_source": false,
+    "mobile": [],
+    "languages": [
+      "fr"
+    ]
+  },
+  "reviews": [],
+  "logo": {
+    "file": "logos/monga.png",
+    "source_url": "https://monga.io/wp-content/uploads/2022/08/Logo-Monga.svg",
+    "fetched_on": "2026-09-13"
+  },
+  "signals": {
+    "privacy": "https://monga.io/pages-legales/politique-de-confidentialite",
+    "site_languages": [
+      "fr"
+    ],
+    "checked_on": "2026-09-13"
+  },
+  "sources": [
+    {
+      "url": "https://monga.io/",
+      "note": "site éditeur, accueil"
+    },
+    {
+      "url": "https://monga.io/nos-solutions/gestion-technique-immobiliere/",
+      "note": "site éditeur, page solution"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-09-13"
+}

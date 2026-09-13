@@ -2,7 +2,7 @@
 
 <!-- Généré par `npm run data:emit`. Ne pas éditer à la main : éditer `data/tools/*.yaml`. -->
 
-253 produits · 142 🇺🇸 · 141 🇫🇷 · mis à jour le 2026-09-12
+258 produits · 142 🇺🇸 · 146 🇫🇷 · mis à jour le 2026-09-13
 
 Version navigable : https://flowmetrik.github.io/proptech-atlas/explore
 
@@ -220,6 +220,7 @@ _Monter, tarifer et gérer le crédit immobilier._
 |---|---|---|---|
 | [Actelo](data/tools/actelo.yaml) | Actelo | 🇫🇷 | A mortgage broker takes in a buyer whose offer has just been accepted and has to turn a project into a bankable file within days. Actelo runs the calculation side: it works out which… |
 | [Blend](data/tools/blend.yaml) | Blend Labs | 🇺🇸 | The failure point in mortgage is the borrower experience: a form that asks for two years of bank statements as PDFs loses applicants to a competitor. Blend replaces that with direct… |
+| [Courtisia](data/tools/courtisia.yaml) | Fletesia | 🇫🇷 | A mortgage broker assembling a loan file needs to run an affordability simulation, produce the regulatory paperwork, get it signed, route it to the right lenders, and eventually invoice… |
 | [Créditéo](data/tools/crediteo.yaml) | Créditéo | 🇫🇷 | A broker's day is a queue of half-complete files, each waiting on a document or a lender's answer. Créditéo is the desk where that queue is ordered: configurable stages say where each… |
 | [ELIOB.fr](data/tools/eliob.yaml) | ELIOB | 🇫🇷 | A broker or brokerage firm uses ELIOB.fr to keep one structured file per client — contacts, supporting documents, partner banks and history — and to follow a loan project continuously… |
 | [Eloa](data/tools/eloa.yaml) | Eloa | 🇫🇷 | A French mortgage broker is an IOBSP: the file it assembles has to satisfy both the borrower and a bank whose rate grid, document list and commission terms differ from every other… |
@@ -276,6 +277,7 @@ _Interventions, prestataires, équipements et maintenance préventive._
 | [Corrigo](data/tools/corrigo.yaml) | JLL Technologies | 🇺🇸 🇫🇷 | Its distinguishing feature in daily use is vendor scoring: response and completion performance is measured per provider, so dispatch can route to the contractor who actually shows up… |
 | [HappyCo](data/tools/happyco.yaml) | HappyCo | 🇺🇸 | A regional manager responsible for several thousand apartments cannot personally see the condition of any of them. Their onsite technicians run every inspection — move-in, move-out, life… |
 | [Limble CMMS](data/tools/limble.yaml) | Limble | 🇺🇸 | Most CMMS failures are adoption failures, not feature gaps. Limble competes on the implementation: QR codes on equipment so a technician scans rather than searches, a request portal that… |
+| [Monga](data/tools/monga.yaml) | Monga | 🇫🇷 | A property manager or syndic running technical maintenance across several buildings needs to schedule interventions, keep providers informed, and answer occupant requests without losing… |
 | [NetVendor](data/tools/netvendor.yaml) | NetVendor | 🇺🇸 | The recurring problem it solves is a maintenance job given to a contractor whose insurance has lapsed — a risk that surfaces only after something goes wrong. Here the credential check… |
 | [Property Meld](data/tools/property-meld.yaml) | Property Meld | 🇺🇸 | In residential management, maintenance is the largest source of complaints and the biggest drain on staff time — mostly spent as phone tag between a tenant, a vendor and an owner trying… |
 | [RentCheck](data/tools/rentcheck.yaml) | RentCheck | 🇺🇸 | A property management company adding doors hits a wall on inspections: scheduling visits, chasing tenants for access and driving between properties does not scale, so routine inspections… |
@@ -345,10 +347,12 @@ _Channel manager, pricing, relation voyageur et ménage pour la courte durée._
 | [Breezeway](data/tools/breezeway.yaml) | Breezeway | 🇺🇸 🇫🇷 | A vacation rental manager with a scattered portfolio and a mix of employed and subcontracted cleaners has the same problem every turnover day: knowing that each property was actually… |
 | [Guesty](data/tools/guesty.yaml) | Guesty | 🇺🇸 🇫🇷 | A manager running two hundred apartments across four booking platforms faces a double-booking risk on every listing and a message volume no team can answer manually. Guesty synchronises… |
 | [Hostaway](data/tools/hostaway.yaml) | Hostaway | 🇺🇸 🇫🇷 | Its typical buyer is a manager scaling from twenty to two hundred units who wants to keep their existing pricing and cleaning tools. The open integration approach means the operator… |
+| [Icnea](data/tools/icnea.yaml) | Icnea | 🇫🇷 | A vacation-rental management agency running a portfolio of properties across many booking channels needs bookings, pricing and owner reporting to stay consistent everywhere at once.… |
 | [Lodgify](data/tools/lodgify.yaml) | Lodgify | 🇺🇸 🇫🇷 | For an owner with two or three holiday properties, the practical question is whether to pay fifteen percent commission forever. Lodgify's proposition is a bookable site they own, with… |
 | [OwnerRez](data/tools/ownerrez.yaml) | OwnerRez | 🇺🇸 | Its distinguishing depth is legal and financial rather than marketing. Renter agreements are signed per booking, damage protection is attached, and lodging tax is calculated by… |
 | [PriceLabs](data/tools/pricelabs.yaml) | PriceLabs | 🇺🇸 🇫🇷 | Nightly pricing is the single biggest lever on STR revenue and the one humans handle worst — most hosts set a rate and forget it. PriceLabs adjusts every listing daily against local… |
 | [Smily](data/tools/smily.yaml) | Smily (formerly BookingSync) | 🇫🇷 🇺🇸 | European managers face commission rates that make direct booking the difference between a viable business and a marginal one. Smily's emphasis on the owned website and its own booking… |
+| [SuperHote](data/tools/superhote.yaml) | SuperHote | 🇫🇷 | A host or conciergerie managing several short-term rental properties juggles messages across multiple booking platforms, access codes, contracts and upsells for every stay. SuperHote… |
 
 ## Visuels, visite 3D & home staging · Visuals, 3D tours & staging
 
@@ -422,6 +426,7 @@ _Assistants LLM qui répondent, qualifient, rédigent et agissent sur le métier
 |---|---|---|---|
 | [EliseAI](data/tools/eliseai.yaml) | EliseAI | 🇺🇸 | Leasing enquiries arrive outside office hours and go cold within the hour. EliseAI answers immediately in the channel the prospect used, checks real availability against the property… |
 | [Genius](data/tools/genius-immo.yaml) | Genius | 🇫🇷 | A block manager holding several dozen buildings gets the same question all week, a copropriétaire asking for the last general meeting minutes, a tenant asking who to call about a leak… |
+| [Joe AI](data/tools/joe-ai.yaml) | Joe AI | 🇫🇷 | An agency or syndic receiving a high volume of routine calls — visit requests, general questions, recurring tenant demands — needs those calls answered and pre-qualified around the clock… |
 | [Keyzia](data/tools/keyzia.yaml) | Keyzia | 🇫🇷 | The AI problem inside a French agency or syndic is not that nobody uses it, it is that everyone uses it separately, in a personal account, with client data. Keyzia is positioned against… |
 | [Structurely](data/tools/structurely.yaml) | Structurely | 🇺🇸 | A team buying leads accumulates thousands of contacts nobody has time to nurture. The economics of an AI agent are different from a human inside sales agent: it can pursue a two-year-old… |
 | [Ylopo](data/tools/ylopo.yaml) | Ylopo | 🇺🇸 | Teams that already standardised on a CRM will not move for an ad product. Ylopo's design reflects that: it generates and nurtures, and writes everything back into the CRM of record. Its… |

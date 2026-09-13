@@ -4,22 +4,22 @@
   "license": "CC-BY-4.0 (data) / MIT (code)",
   "homepage": "https://flowmetrik.github.io/proptech-atlas",
   "repository": "https://github.com/flowmetrik/proptech-atlas",
-  "generated": "2026-09-12",
+  "generated": "2026-09-13",
   "counts": {
-    "tools": 253,
+    "tools": 258,
     "US": 142,
-    "FR": 141,
+    "FR": 146,
     "categories": 24,
-    "editors": 236,
+    "editors": 241,
     "verified": 0,
     "reviews": 0,
-    "logos": 240,
+    "logos": 245,
     "signals": {
-      "probed": 239,
-      "public_pricing": 62,
+      "probed": 244,
+      "public_pricing": 63,
       "api_docs": 18,
       "security_page": 30,
-      "privacy_page": 174,
+      "privacy_page": 179,
       "status_page": 60
     }
   },
@@ -288,6 +288,11 @@
       "id": "tool:costar",
       "type": "tool",
       "label": "CoStar"
+    },
+    {
+      "id": "tool:courtisia",
+      "type": "tool",
+      "label": "Courtisia"
     },
     {
       "id": "tool:coworksaas",
@@ -580,6 +585,11 @@
       "label": "Humaniz"
     },
     {
+      "id": "tool:icnea",
+      "type": "tool",
+      "label": "Icnea"
+    },
+    {
       "id": "tool:ics",
       "type": "tool",
       "label": "ICS"
@@ -608,6 +618,11 @@
       "id": "tool:inot",
       "type": "tool",
       "label": "iNot"
+    },
+    {
+      "id": "tool:joe-ai",
+      "type": "tool",
+      "label": "Joe AI"
     },
     {
       "id": "tool:juniper-square",
@@ -768,6 +783,11 @@
       "id": "tool:modelo",
       "type": "tool",
       "label": "Modelo"
+    },
+    {
+      "id": "tool:monga",
+      "type": "tool",
+      "label": "Monga"
     },
     {
       "id": "tool:mri-software",
@@ -1113,6 +1133,11 @@
       "id": "tool:structurely",
       "type": "tool",
       "label": "Structurely"
+    },
+    {
+      "id": "tool:superhote",
+      "type": "tool",
+      "label": "SuperHote"
     },
     {
       "id": "tool:sweepbright",
@@ -1790,6 +1815,11 @@
       "label": "FTEL"
     },
     {
+      "id": "editor:Fletesia",
+      "type": "editor",
+      "label": "Fletesia"
+    },
+    {
       "id": "editor:CoworkSaaS",
       "type": "editor",
       "label": "CoworkSaaS"
@@ -2060,6 +2090,11 @@
       "label": "Humaniz"
     },
     {
+      "id": "editor:Icnea",
+      "type": "editor",
+      "label": "Icnea"
+    },
+    {
       "id": "editor:ICS",
       "type": "editor",
       "label": "ICS"
@@ -2088,6 +2123,11 @@
       "id": "editor:ADNOV (groupe ADSN)",
       "type": "editor",
       "label": "ADNOV (groupe ADSN)"
+    },
+    {
+      "id": "editor:Joe AI",
+      "type": "editor",
+      "label": "Joe AI"
     },
     {
       "id": "editor:Juniper Square",
@@ -2223,6 +2263,11 @@
       "id": "editor:Aviv Group (Axel Springer)",
       "type": "editor",
       "label": "Aviv Group (Axel Springer)"
+    },
+    {
+      "id": "editor:Monga",
+      "type": "editor",
+      "label": "Monga"
     },
     {
       "id": "editor:MRI Software",
@@ -2548,6 +2593,11 @@
       "id": "editor:Structurely",
       "type": "editor",
       "label": "Structurely"
+    },
+    {
+      "id": "editor:SuperHote",
+      "type": "editor",
+      "label": "SuperHote"
     },
     {
       "id": "editor:SweepBright",
@@ -5677,6 +5727,56 @@
       "to": "tool:yanport"
     },
     {
+      "from": "tool:courtisia",
+      "rel": "published_by",
+      "to": "editor:Fletesia"
+    },
+    {
+      "from": "tool:courtisia",
+      "rel": "belongs_to",
+      "to": "category:lending-mortgage"
+    },
+    {
+      "from": "tool:courtisia",
+      "rel": "serves_persona",
+      "to": "persona:lender-broker"
+    },
+    {
+      "from": "tool:courtisia",
+      "rel": "serves_persona",
+      "to": "persona:agent-broker"
+    },
+    {
+      "from": "tool:courtisia",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:courtisia",
+      "rel": "available_in",
+      "to": "market:FR"
+    },
+    {
+      "from": "tool:courtisia",
+      "rel": "alternative_to",
+      "to": "tool:crediteo"
+    },
+    {
+      "from": "tool:courtisia",
+      "rel": "alternative_to",
+      "to": "tool:eloa"
+    },
+    {
+      "from": "tool:courtisia",
+      "rel": "alternative_to",
+      "to": "tool:kiilt-pro"
+    },
+    {
+      "from": "tool:courtisia",
+      "rel": "alternative_to",
+      "to": "tool:actelo"
+    },
+    {
       "from": "tool:coworksaas",
       "rel": "published_by",
       "to": "editor:CoworkSaaS"
@@ -8717,6 +8817,41 @@
       "to": "market:US"
     },
     {
+      "from": "tool:icnea",
+      "rel": "published_by",
+      "to": "editor:Icnea"
+    },
+    {
+      "from": "tool:icnea",
+      "rel": "belongs_to",
+      "to": "category:short-term-rental"
+    },
+    {
+      "from": "tool:icnea",
+      "rel": "serves_persona",
+      "to": "persona:property-manager"
+    },
+    {
+      "from": "tool:icnea",
+      "rel": "serves_persona",
+      "to": "persona:landlord-owner"
+    },
+    {
+      "from": "tool:icnea",
+      "rel": "covers_segment",
+      "to": "segment:hospitality"
+    },
+    {
+      "from": "tool:icnea",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:icnea",
+      "rel": "available_in",
+      "to": "market:FR"
+    },
+    {
       "from": "tool:ics",
       "rel": "published_by",
       "to": "editor:ICS"
@@ -9065,6 +9200,46 @@
       "from": "tool:inot",
       "rel": "alternative_to",
       "to": "tool:genapi"
+    },
+    {
+      "from": "tool:joe-ai",
+      "rel": "published_by",
+      "to": "editor:Joe AI"
+    },
+    {
+      "from": "tool:joe-ai",
+      "rel": "belongs_to",
+      "to": "category:ai-assistants"
+    },
+    {
+      "from": "tool:joe-ai",
+      "rel": "also_serves",
+      "to": "category:crm-lead"
+    },
+    {
+      "from": "tool:joe-ai",
+      "rel": "serves_persona",
+      "to": "persona:agent-broker"
+    },
+    {
+      "from": "tool:joe-ai",
+      "rel": "serves_persona",
+      "to": "persona:syndic-manager"
+    },
+    {
+      "from": "tool:joe-ai",
+      "rel": "serves_persona",
+      "to": "persona:brokerage"
+    },
+    {
+      "from": "tool:joe-ai",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:joe-ai",
+      "rel": "available_in",
+      "to": "market:FR"
     },
     {
       "from": "tool:juniper-square",
@@ -10810,6 +10985,51 @@
       "from": "tool:modelo",
       "rel": "alternative_to",
       "to": "tool:crypto-septeo"
+    },
+    {
+      "from": "tool:monga",
+      "rel": "published_by",
+      "to": "editor:Monga"
+    },
+    {
+      "from": "tool:monga",
+      "rel": "belongs_to",
+      "to": "category:facility-maintenance"
+    },
+    {
+      "from": "tool:monga",
+      "rel": "also_serves",
+      "to": "category:property-management"
+    },
+    {
+      "from": "tool:monga",
+      "rel": "serves_persona",
+      "to": "persona:property-manager"
+    },
+    {
+      "from": "tool:monga",
+      "rel": "serves_persona",
+      "to": "persona:facility-manager"
+    },
+    {
+      "from": "tool:monga",
+      "rel": "serves_persona",
+      "to": "persona:syndic-manager"
+    },
+    {
+      "from": "tool:monga",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:monga",
+      "rel": "covers_segment",
+      "to": "segment:multifamily"
+    },
+    {
+      "from": "tool:monga",
+      "rel": "available_in",
+      "to": "market:FR"
     },
     {
       "from": "tool:mri-software",
@@ -14805,6 +15025,41 @@
       "from": "tool:structurely",
       "rel": "alternative_to",
       "to": "tool:follow-up-boss"
+    },
+    {
+      "from": "tool:superhote",
+      "rel": "published_by",
+      "to": "editor:SuperHote"
+    },
+    {
+      "from": "tool:superhote",
+      "rel": "belongs_to",
+      "to": "category:short-term-rental"
+    },
+    {
+      "from": "tool:superhote",
+      "rel": "serves_persona",
+      "to": "persona:property-manager"
+    },
+    {
+      "from": "tool:superhote",
+      "rel": "serves_persona",
+      "to": "persona:landlord-owner"
+    },
+    {
+      "from": "tool:superhote",
+      "rel": "covers_segment",
+      "to": "segment:hospitality"
+    },
+    {
+      "from": "tool:superhote",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:superhote",
+      "rel": "available_in",
+      "to": "market:FR"
     },
     {
       "from": "tool:sweepbright",

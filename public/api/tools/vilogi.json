@@ -13,6 +13,7 @@
   ],
   "positioning": "Condominium management software built for the French 1965 law, from the annual assembly to the works fund.",
   "description": "Vilogi is a SaaS platform for French syndics and rental managers: per-building accounting, budgets and calls for funds, general assembly preparation and electronic voting, works and contract tracking, and extranet portals for co-owners and council members.\n",
+  "description_fr": "Vilogi est une plateforme SaaS pour les syndics et gestionnaires locatifs français : comptabilité par immeuble, budgets et appels de fonds, préparation d'assemblée générale et vote électronique, suivi des travaux et des contrats, et extranets pour les copropriétaires et les membres du conseil syndical.\n",
   "real_estate_use": "A French copropriété is a legal entity with its own accounts, its own budget voted in assembly, and a mandatory extranet for co-owners. Vilogi encodes that cycle: the provisional budget is voted, quarterly calls for funds are issued against it, expenses are posted per building, and the annual accounts are presented back to the assembly. The extranet obligation is met by the same system.\n",
   "features": [
     "Per-building accounting with tantième-based expense allocation",
