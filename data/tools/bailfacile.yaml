@@ -16,6 +16,16 @@ description: >
   report, sends registered letters from the account, and tracks one-off and recurring
   income and expenses to prepare the tax return. A tenant portal carries documents and
   exchanges. The editor states more than 100,000 landlords use it.
+description_fr: >
+  BailFacile est une application web française pour les propriétaires bailleurs qui gèrent
+  eux-mêmes leur location. Elle génère plus de cinquante documents juridiques pré-remplis
+  couvrant l'entrée du locataire, le bail, les travaux, les litiges et le départ, et les tient
+  à jour du droit locatif français. Elle automatise les obligations récurrentes comme les
+  quittances de loyer et la révision annuelle, propose une signature électronique illimitée et
+  un état des lieux sur smartphone, envoie des courriers recommandés depuis le compte, et suit
+  les revenus et dépenses ponctuels et récurrents pour préparer la déclaration fiscale. Un
+  espace locataire porte les documents et les échanges. L'éditeur annonce plus de 100 000
+  propriétaires utilisateurs.
 real_estate_use: >
   A French landlord who refuses a management mandate inherits the mandate's
   obligations anyway: a lease that satisfies the ALUR law, an entry and exit condition

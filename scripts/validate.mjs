@@ -38,6 +38,7 @@ for (const t of tools) {
   if (t.hq_country && !/^[A-Z]{2}$/.test(t.hq_country)) at('hq_country doit être ISO alpha-2');
   if (t.positioning && t.positioning.length > 200) at(`positioning trop long (${t.positioning.length} > 200)`);
   if (t.updated && !/^\d{4}-\d{2}-\d{2}$/.test(t.updated)) at('updated doit être YYYY-MM-DD');
+  if (t.description_fr && t.description_fr === t.description) at('description_fr identique à description — traduire, pas recopier');
 
   const inSet = (key, set, label) => {
     const v = t[key];

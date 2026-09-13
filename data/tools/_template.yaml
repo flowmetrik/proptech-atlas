@@ -19,6 +19,10 @@ description: >
   Ce que le produit EST, factuellement. Pas la promesse marketing — celle-ci vit
   dans `positioning`. Deux à quatre phrases.
 
+# description_fr: >
+#   Optionnel. Traduction fidèle de `description`, pour un produit du marché FR.
+#   Jamais une paraphrase, jamais un contenu différent de la version anglaise.
+
 real_estate_use: >
   LE champ qui justifie ce projet : l'usage métier en immobilier. Une situation
   concrète, un flux de travail réel, la raison pour laquelle quelqu'un l'achète.

@@ -20,6 +20,7 @@ seul gardien : il n'y a pas de base de données, pas d'admin, pas de login.
 | `also_in` | non | ids de catégories | usages secondaires |
 | `positioning` | oui | ≤ 200 car., une phrase | ce que le produit revendique |
 | `description` | oui | paragraphe | ce que le produit est, factuellement |
+| `description_fr` | non | paragraphe | traduction fidèle de `description` — pour un produit du marché FR, jamais une paraphrase ou un contenu différent |
 | `real_estate_use` | oui | paragraphe | **l'usage métier en immobilier** — le champ qui justifie ce projet |
 | `features` | oui | ≥ 3 items | fonctionnalités nommées, pas des adjectifs |
 | `use_cases` | oui | ≥ 1 `{persona, job}` | `persona` ∈ taxonomie, `job` = tâche réelle |
