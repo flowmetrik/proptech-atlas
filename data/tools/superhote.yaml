@@ -1,0 +1,60 @@
+slug: superhote
+name: SuperHote
+editor: SuperHote
+website: https://www.superhote.com
+hq_country: FR
+markets: [FR]
+category: short-term-rental
+positioning: "All-in-one autopilot platform for French short-term rental hosts and conciergeries: unified inbox, AI assistants, guest self-service portal and 1000+ integrations."
+description: >
+  SuperHote is a French all-in-one platform for short-term rental hosts and
+  conciergerie companies. It unifies guest messaging across Airbnb, Booking, email,
+  SMS and WhatsApp with AI-assisted replies and automatic translation into six
+  languages, gives each guest a self-service portal, and connects to pricing,
+  smart-lock and payment tools plus 1000+ third-party apps through Make and Zapier.
+real_estate_use: >
+  A host or conciergerie managing several short-term rental properties juggles
+  messages across multiple booking platforms, access codes, contracts and upsells for
+  every stay. SuperHote consolidates that into one inbox with AI-assisted,
+  auto-translated replies, hands the guest a self-service page for check-in codes,
+  contract signature, ID collection and extras, and keeps pricing and smart locks in
+  sync — replacing a stack of spreadsheets and separate apps with one operating system
+  for the rental.
+features:
+  - "Unified multi-channel inbox (Airbnb, Booking, email, SMS, WhatsApp) with AI-assisted replies and auto-translation in six languages"
+  - "Guest self-service portal: booking, check-in/out, house guide, extras, payment and contract signature"
+  - Automatic identity document collection and electronic contract signature
+  - Dynamic pricing sync via PriceLabs
+  - "Smart-lock integrations (Igloohome, Nuki)"
+  - 1000+ third-party app connections via Make and Zapier
+use_cases:
+  - persona: property-manager
+    job: "Run guest messaging, check-in, contracts and upsells for a multi-property short-term rental portfolio from one inbox"
+  - persona: landlord-owner
+    job: Automate guest communication and administrative tasks for a self-managed short-term rental
+personas: [property-manager, landlord-owner]
+segments: [hospitality, residential]
+company_sizes: [solo, smb, midmarket]
+pricing:
+  model: subscription
+  public_pricing: false
+ai:
+  capabilities: ["Automates guest messaging, pricing adjustments and administrative tasks through five branded AI assistants"]
+product:
+  api: false
+  open_source: false
+  mobile: []
+  languages: [fr]
+reviews: []
+logo:
+  file: logos/superhote.png
+  source_url: https://www.superhote.com/icon.svg
+  fetched_on: "2026-09-13"
+signals:
+  privacy: https://www.superhote.com/legal/privacy
+  site_languages: [fr]
+  checked_on: "2026-09-13"
+sources:
+  - { url: https://www.superhote.com/, note: "site éditeur, accueil" }
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-09-13"

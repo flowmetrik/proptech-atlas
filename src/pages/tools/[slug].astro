@@ -87,6 +87,7 @@ const jsonld = {
       <div class="prose">
         <h2 style="margin-top:0">What it is</h2>
         <p>{tool.description}</p>
+        {tool.description_fr && <p class="muted" lang="fr"><em>{tool.description_fr}</em></p>}
 
         <h2>How it is used in real estate</h2>
         <p>{tool.real_estate_use}</p>

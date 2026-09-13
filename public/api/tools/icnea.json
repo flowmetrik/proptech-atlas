@@ -1,0 +1,86 @@
+{
+  "slug": "icnea",
+  "name": "Icnea",
+  "editor": "Icnea",
+  "website": "https://www.icnea.com",
+  "hq_country": "ES",
+  "markets": [
+    "FR"
+  ],
+  "category": "short-term-rental",
+  "founded": 2001,
+  "positioning": "All-in-one PMS and channel manager for vacation rental agencies, expanded from Spain into France, Italy, Portugal and beyond.",
+  "description": "Icnea is a Spanish (Barcelona) publisher of an all-in-one property management system and channel manager for vacation rental agencies, founded in 2001. It covers bookings, properties, owners and administration in one dashboard, connects to more than 150 booking channels, and includes revenue management, an owner extranet and newsletter/marketing tools. It states having expanded its market to Spain, Portugal, Italy, France, Mexico and Dubai.\n",
+  "real_estate_use": "A vacation-rental management agency running a portfolio of properties across many booking channels needs bookings, pricing and owner reporting to stay consistent everywhere at once. Icnea centralises reservations, property and owner records, and channel synchronisation in one PMS, with statistics segmented by property, region, owner or channel so an agency can report back to each property owner without manual reconciliation.\n",
+  "features": [
+    "All-in-one dashboard for bookings, properties, owners and administration",
+    "Channel manager connecting to 150+ booking channels",
+    "Revenue and pricing management",
+    "Owner extranet with statistics by property, region, owner and channel",
+    "Newsletter and marketing campaign tools",
+    "Vacation-rental website builder"
+  ],
+  "use_cases": [
+    {
+      "persona": "property-manager",
+      "job": "Centralise bookings, pricing and owner reporting for a portfolio of vacation rental properties across many channels"
+    }
+  ],
+  "personas": [
+    "property-manager",
+    "landlord-owner"
+  ],
+  "segments": [
+    "hospitality",
+    "residential"
+  ],
+  "company_sizes": [
+    "smb",
+    "midmarket",
+    "enterprise"
+  ],
+  "pricing": {
+    "model": "subscription",
+    "public_pricing": true,
+    "url": "https://www.icnea.com/prices"
+  },
+  "reviews": [],
+  "logo": {
+    "file": "logos/icnea.png",
+    "source_url": "https://www.icnea.com/assets/img/logo.png",
+    "fetched_on": "2026-09-13"
+  },
+  "signals": {
+    "pricing": "https://www.icnea.com/prix",
+    "privacy": "https://www.icnea.com/privacy-policy",
+    "site_languages": [
+      "br",
+      "ca",
+      "co",
+      "en",
+      "es",
+      "fr",
+      "it",
+      "mx",
+      "pt",
+      "us"
+    ],
+    "checked_on": "2026-09-13"
+  },
+  "sources": [
+    {
+      "url": "https://www.icnea.com/about-us",
+      "note": "site éditeur, page à propos"
+    },
+    {
+      "url": "https://www.icnea.com/property-management-system",
+      "note": "site éditeur, page produit"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-09-13"
+}

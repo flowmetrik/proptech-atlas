@@ -16,7 +16,7 @@ export interface Tool {
   hq_country: string; markets: string[];
   category: string; also_in?: string[];
   founded?: number;
-  positioning: string; description: string; real_estate_use: string;
+  positioning: string; description: string; description_fr?: string; real_estate_use: string;
   features: string[];
   use_cases: { persona: string; job: string }[];
   personas: string[]; segments: string[]; company_sizes: string[];

@@ -4,7 +4,7 @@
   "label_fr": "Agents IA & automatisation",
   "summary_en": "LLM-native assistants that answer, qualify, draft and act on real estate work.",
   "summary_fr": "Assistants LLM qui répondent, qualifient, rédigent et agissent sur le métier.",
-  "count": 18,
+  "count": 19,
   "tools": [
     {
       "slug": "appfolio",
@@ -728,6 +728,97 @@
         "checked_by": null
       },
       "updated": "2026-09-10"
+    },
+    {
+      "slug": "joe-ai",
+      "name": "Joe AI",
+      "editor": "Joe AI",
+      "website": "https://www.getjoe-ai.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "ai-assistants",
+      "also_in": [
+        "crm-lead"
+      ],
+      "positioning": "AI conversational agent that answers, qualifies and follows up with callers for real estate agencies, networks, syndics and developers, 24/7.",
+      "description": "Joe AI is a French AI conversational agent for real estate professionals. It answers, qualifies and follows up with clients across calls, SMS, email and WhatsApp, with a customisable human-sounding voice, for agencies, networks, syndics and developers. The editor states more than 500 clients and hosts the service in France and the EU under GDPR, with no data shared between clients and no training of its models on client conversations.\n",
+      "real_estate_use": "An agency or syndic receiving a high volume of routine calls — visit requests, general questions, recurring tenant demands — needs those calls answered and pre-qualified around the clock without adding reception staff. Joe AI takes the first contact across phone, SMS, email and WhatsApp, qualifies and routes it, and leaves human teams the advisory, signing and follow-up work.\n",
+      "features": [
+        "24/7 AI call answering and qualification",
+        "Multi-channel support: calls, SMS, email, WhatsApp",
+        "Customisable human-sounding voice",
+        "Integration with existing agency tools",
+        "France/EU hosting, GDPR-compliant, no cross-client data sharing"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Answer and pre-qualify incoming calls and messages 24/7 before handing qualified leads to an agent"
+        },
+        {
+          "persona": "syndic-manager",
+          "job": "Handle recurring occupant calls automatically and route what needs a human"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "syndic-manager",
+        "brokerage"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "ai": {
+        "capabilities": [
+          "AI voice and conversational agent that answers, qualifies and follows up with real estate callers across calls, SMS, email and WhatsApp"
+        ]
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr",
+          "en"
+        ]
+      },
+      "reviews": [],
+      "logo": {
+        "file": "logos/joe-ai.png",
+        "source_url": "https://www.getjoe-ai.com/assets/joe-logo-color-light.webp",
+        "fetched_on": "2026-09-13"
+      },
+      "signals": {
+        "privacy": "https://www.getjoe-ai.com/privacy",
+        "site_languages": [
+          "en",
+          "fr"
+        ],
+        "checked_on": "2026-09-13"
+      },
+      "sources": [
+        {
+          "url": "https://www.getjoe-ai.com/en/",
+          "note": "site éditeur, accueil"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-13"
     },
     {
       "slug": "kazaki",

@@ -4,22 +4,22 @@
   "license": "CC-BY-4.0 (data) / MIT (code)",
   "homepage": "https://flowmetrik.github.io/proptech-atlas",
   "repository": "https://github.com/flowmetrik/proptech-atlas",
-  "generated": "2026-09-12",
+  "generated": "2026-09-13",
   "counts": {
-    "tools": 253,
+    "tools": 258,
     "US": 142,
-    "FR": 141,
+    "FR": 146,
     "categories": 24,
-    "editors": 236,
+    "editors": 241,
     "verified": 0,
     "reviews": 0,
-    "logos": 240,
+    "logos": 245,
     "signals": {
-      "probed": 239,
-      "public_pricing": 62,
+      "probed": 244,
+      "public_pricing": 63,
       "api_docs": 18,
       "security_page": 30,
-      "privacy_page": 174,
+      "privacy_page": 179,
       "status_page": 60
     }
   },
@@ -743,6 +743,7 @@
       ],
       "positioning": "The French transaction system built for agencies that sell across borders — multilingual, multi-currency, open API.",
       "description": "Apimo is a real estate CRM and transaction platform used by French and international agencies: listings and contacts, mandates, matching, multilingual publishing to portals in several countries, websites, and a documented open API.\n",
+      "description_fr": "Apimo est un CRM et une plateforme de transaction immobilière utilisés par des agences françaises et internationales : biens et contacts, mandats, rapprochement, diffusion multilingue vers des portails de plusieurs pays, sites web, et une API ouverte documentée.\n",
       "real_estate_use": "Agencies on the Côte d'Azur, in the Alps or in border regions sell to buyers who do not read French, through portals in several countries. Apimo handles a listing in multiple languages and currencies from one record, which removes the duplicate-catalogue problem that breaks most domestic tools as soon as a second market appears.\n",
       "features": [
         "Multilingual and multi-currency listing management",
@@ -1581,6 +1582,7 @@
       ],
       "positioning": "Rental management for French landlords who manage their own lots: compliant documents, automated rent receipts and indexation, e-signature, income and expense tracking.",
       "description": "BailFacile is a French web application for private landlords managing their own rentals. It generates more than fifty pre-filled legal documents covering tenant arrival, tenancy, works, disputes and departure, and keeps them current with French rental law. It automates recurring obligations such as rent receipts and annual rent indexation, provides unlimited electronic signature and a smartphone condition report, sends registered letters from the account, and tracks one-off and recurring income and expenses to prepare the tax return. A tenant portal carries documents and exchanges. The editor states more than 100,000 landlords use it.\n",
+      "description_fr": "BailFacile est une application web française pour les propriétaires bailleurs qui gèrent eux-mêmes leur location. Elle génère plus de cinquante documents juridiques pré-remplis couvrant l'entrée du locataire, le bail, les travaux, les litiges et le départ, et les tient à jour du droit locatif français. Elle automatise les obligations récurrentes comme les quittances de loyer et la révision annuelle, propose une signature électronique illimitée et un état des lieux sur smartphone, envoie des courriers recommandés depuis le compte, et suit les revenus et dépenses ponctuels et récurrents pour préparer la déclaration fiscale. Un espace locataire porte les documents et les échanges. L'éditeur annonce plus de 100 000 propriétaires utilisateurs.\n",
       "real_estate_use": "A French landlord who refuses a management mandate inherits the mandate's obligations anyway: a lease that satisfies the ALUR law, an entry and exit condition report that will hold up if the deposit is contested, a rent receipt every month, an indexation that has to be claimed within a year or is lost. BailFacile is what replaces the spreadsheet and the downloaded Word template for that person. The value sits in the calendar as much as the documents — the tool knows which action is due and issues it. Small letting agencies and SCI owners use it the same way, and the income and expense ledger is aimed squarely at the moment the landlord fills in the rental income section of their return.\n",
       "features": [
         "Over fifty pre-filled legal documents kept current with French rental law",
@@ -1945,6 +1947,7 @@
       "founded": 2016,
       "positioning": "The portal founded by the French networks themselves, built around a 3D map search rather than a list of results.",
       "description": "Bien'ici is a French property portal created by a consortium of real estate networks and professional groups. Its distinguishing feature is a 3D cartographic search showing a property in its actual urban context, with commute-time filtering and neighbourhood information.\n",
+      "description_fr": "Bien'ici est un portail immobilier français créé par un consortium de réseaux immobiliers et de groupements professionnels. Sa particularité est une recherche cartographique en 3D qui montre le bien dans son contexte urbain réel, avec un filtre par temps de trajet et des informations de quartier.\n",
       "real_estate_use": "It exists because French professionals wanted a portal they partly control, as a counterweight to portal pricing power. For an agency, the practical calculation is the same as anywhere — leads against subscription cost — with the added argument that the map-based search attracts buyers doing serious location research rather than casual browsing.\n",
       "features": [
         "3D map-based property search in urban context",
@@ -3776,6 +3779,7 @@
       "category": "market-data",
       "positioning": "Everything around an address, scored — noise, pollution, transport, schools, risks, amenities — in one page.",
       "description": "Cityscan aggregates public and private data about the environment of a French address — transport, education, amenities, noise, air quality, natural and technological risks, planning projects — into scores and reports embeddable into professional products.\n",
+      "description_fr": "Cityscan agrège des données publiques et privées sur l'environnement d'une adresse française — transports, éducation, commerces, bruit, qualité de l'air, risques naturels et technologiques, projets d'urbanisme — en scores et rapports intégrables à des produits professionnels.\n",
       "real_estate_use": "Location quality is the argument every French listing makes and none evidences. Cityscan turns it into a scored report an agency can attach to a listing or a valuation, and that a developer or an investor can use to compare two sites. It also surfaces what a seller would rather not mention: a planned road, a flood risk, a nearby industrial site.\n",
       "features": [
         "Environmental and amenity scoring per address",
@@ -3877,6 +3881,7 @@
       ],
       "positioning": "French private-rental rent observatory built from signed leases collected at source, with a mapping application for members and free published trends.",
       "description": "CLAMEUR is an association that produces an observatory of rents in the French private rental sector. It collects signed leases through partnerships with professional unions, federations, networks and managers rather than from advertisements, and states it holds more than a million references per year. Free national, regional, departmental and metropolitan trend pages publish rents excluding charges and their four-year evolution by property type. Members and contributors additionally get a web application with mapped navigation, indicators, charts, an advanced geolocated search and access to the underlying lease references down to municipality and IRIS zone level. Bespoke studies can be commissioned.\n",
+      "description_fr": "CLAMEUR est une association qui produit un observatoire des loyers du parc locatif privé français. Elle collecte des baux signés via des partenariats avec des syndicats professionnels, des fédérations, des réseaux et des gestionnaires plutôt qu'à partir d'annonces, et déclare détenir plus d'un million de références par an. Des pages de tendances gratuites, nationales, régionales, départementales et métropolitaines publient les loyers hors charges et leur évolution sur quatre ans par type de bien. Les adhérents et contributeurs bénéficient en plus d'une application web avec navigation cartographiée, indicateurs, graphiques, une recherche géolocalisée avancée et l'accès aux références de baux sous-jacentes jusqu'à l'échelle de la commune et de la zone IRIS. Des études sur mesure peuvent être commandées.\n",
       "real_estate_use": "Rent evidence in France is scarce outside the regulated observatories, and portal asking prices are not the same thing as signed rents. CLAMEUR is the counter-evidence: it is built from executed leases handed over by managers, so a letting agent pricing a lot, a landlord arguing an indexation, or an investor testing a yield assumption can cite an actual market rent for the commune rather than an advertised one. The granularity down to IRIS zone is what makes it usable in cities where two neighbourhoods a kilometre apart do not rent alike. Local authorities and rent-control policy work use it for the same reason — it is one of the few sources covering medium-sized towns and rural areas.\n",
       "features": [
         "Rent observatory built from signed leases collected through professional partners",
@@ -5292,6 +5297,93 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "courtisia",
+      "name": "Courtisia",
+      "editor": "Fletesia",
+      "website": "https://www.fletesia.com/logiciel-iobsp-de-courtage-en-credit-immobilier/",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "lending-mortgage",
+      "positioning": "French software for regulated mortgage and business-credit brokers, published since 2013: file assembly, financing simulation, regulatory documents and automated invoicing.",
+      "description": "Courtisia, published by Fletesia, is a French web and mobile software for IOBSP-regulated credit intermediaries, covering mortgage credit, professional financing and wealth-management brokerage in one tool since 2013. It assembles loan files, runs financing simulations and borrowing-capacity calculations, generates regulatory documents with electronic signature, connects to lenders, and automates fee and commission invoicing with reporting.\n",
+      "real_estate_use": "A mortgage broker assembling a loan file needs to run an affordability simulation, produce the regulatory paperwork, get it signed, route it to the right lenders, and eventually invoice the fee and reconcile the bank's commission. Courtisia covers that sequence in one tool, with dashboards to track where every case stands and automated invoicing tied to case status — useful because French intermediary fees can only be billed once funds are released.\n",
+      "features": [
+        "Full loan file assembly",
+        "Financing simulation and borrowing-capacity calculation",
+        "Automatic generation of regulatory documents",
+        "Electronic signature of documents",
+        "Bank connectors for submitting files",
+        "Automated fee and commission invoicing"
+      ],
+      "use_cases": [
+        {
+          "persona": "lender-broker",
+          "job": "Assemble a mortgage or professional-credit file, run the simulation and route it to lenders"
+        },
+        {
+          "persona": "brokerage",
+          "job": "Invoice fees and bank commissions once funds are released and reconcile what has been paid"
+        }
+      ],
+      "personas": [
+        "lender-broker",
+        "agent-broker"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "crediteo",
+        "eloa",
+        "kiilt-pro",
+        "actelo"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/courtisia.png",
+        "source_url": "https://www.fletesia.com/wp-content/uploads/2022/10/logo-courtisia.jpg",
+        "fetched_on": "2026-09-13"
+      },
+      "signals": {
+        "privacy": "https://www.fletesia.com/mentions-legales",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-09-13"
+      },
+      "sources": [
+        {
+          "url": "https://www.fletesia.com/logiciel-iobsp-de-courtage-en-credit-immobilier/",
+          "note": "site éditeur, page produit Courtisia"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-13"
     },
     {
       "slug": "coworksaas",
@@ -10834,6 +10926,92 @@
       "updated": "2026-09-10"
     },
     {
+      "slug": "icnea",
+      "name": "Icnea",
+      "editor": "Icnea",
+      "website": "https://www.icnea.com",
+      "hq_country": "ES",
+      "markets": [
+        "FR"
+      ],
+      "category": "short-term-rental",
+      "founded": 2001,
+      "positioning": "All-in-one PMS and channel manager for vacation rental agencies, expanded from Spain into France, Italy, Portugal and beyond.",
+      "description": "Icnea is a Spanish (Barcelona) publisher of an all-in-one property management system and channel manager for vacation rental agencies, founded in 2001. It covers bookings, properties, owners and administration in one dashboard, connects to more than 150 booking channels, and includes revenue management, an owner extranet and newsletter/marketing tools. It states having expanded its market to Spain, Portugal, Italy, France, Mexico and Dubai.\n",
+      "real_estate_use": "A vacation-rental management agency running a portfolio of properties across many booking channels needs bookings, pricing and owner reporting to stay consistent everywhere at once. Icnea centralises reservations, property and owner records, and channel synchronisation in one PMS, with statistics segmented by property, region, owner or channel so an agency can report back to each property owner without manual reconciliation.\n",
+      "features": [
+        "All-in-one dashboard for bookings, properties, owners and administration",
+        "Channel manager connecting to 150+ booking channels",
+        "Revenue and pricing management",
+        "Owner extranet with statistics by property, region, owner and channel",
+        "Newsletter and marketing campaign tools",
+        "Vacation-rental website builder"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Centralise bookings, pricing and owner reporting for a portfolio of vacation rental properties across many channels"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "landlord-owner"
+      ],
+      "segments": [
+        "hospitality",
+        "residential"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://www.icnea.com/prices"
+      },
+      "reviews": [],
+      "logo": {
+        "file": "logos/icnea.png",
+        "source_url": "https://www.icnea.com/assets/img/logo.png",
+        "fetched_on": "2026-09-13"
+      },
+      "signals": {
+        "pricing": "https://www.icnea.com/prix",
+        "privacy": "https://www.icnea.com/privacy-policy",
+        "site_languages": [
+          "br",
+          "ca",
+          "co",
+          "en",
+          "es",
+          "fr",
+          "it",
+          "mx",
+          "pt",
+          "us"
+        ],
+        "checked_on": "2026-09-13"
+      },
+      "sources": [
+        {
+          "url": "https://www.icnea.com/about-us",
+          "note": "site éditeur, page à propos"
+        },
+        {
+          "url": "https://www.icnea.com/property-management-system",
+          "note": "site éditeur, page produit"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-13"
+    },
+    {
       "slug": "ics",
       "name": "ICS",
       "editor": "ICS",
@@ -11407,6 +11585,97 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "joe-ai",
+      "name": "Joe AI",
+      "editor": "Joe AI",
+      "website": "https://www.getjoe-ai.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "ai-assistants",
+      "also_in": [
+        "crm-lead"
+      ],
+      "positioning": "AI conversational agent that answers, qualifies and follows up with callers for real estate agencies, networks, syndics and developers, 24/7.",
+      "description": "Joe AI is a French AI conversational agent for real estate professionals. It answers, qualifies and follows up with clients across calls, SMS, email and WhatsApp, with a customisable human-sounding voice, for agencies, networks, syndics and developers. The editor states more than 500 clients and hosts the service in France and the EU under GDPR, with no data shared between clients and no training of its models on client conversations.\n",
+      "real_estate_use": "An agency or syndic receiving a high volume of routine calls — visit requests, general questions, recurring tenant demands — needs those calls answered and pre-qualified around the clock without adding reception staff. Joe AI takes the first contact across phone, SMS, email and WhatsApp, qualifies and routes it, and leaves human teams the advisory, signing and follow-up work.\n",
+      "features": [
+        "24/7 AI call answering and qualification",
+        "Multi-channel support: calls, SMS, email, WhatsApp",
+        "Customisable human-sounding voice",
+        "Integration with existing agency tools",
+        "France/EU hosting, GDPR-compliant, no cross-client data sharing"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Answer and pre-qualify incoming calls and messages 24/7 before handing qualified leads to an agent"
+        },
+        {
+          "persona": "syndic-manager",
+          "job": "Handle recurring occupant calls automatically and route what needs a human"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "syndic-manager",
+        "brokerage"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "ai": {
+        "capabilities": [
+          "AI voice and conversational agent that answers, qualifies and follows up with real estate callers across calls, SMS, email and WhatsApp"
+        ]
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr",
+          "en"
+        ]
+      },
+      "reviews": [],
+      "logo": {
+        "file": "logos/joe-ai.png",
+        "source_url": "https://www.getjoe-ai.com/assets/joe-logo-color-light.webp",
+        "fetched_on": "2026-09-13"
+      },
+      "signals": {
+        "privacy": "https://www.getjoe-ai.com/privacy",
+        "site_languages": [
+          "en",
+          "fr"
+        ],
+        "checked_on": "2026-09-13"
+      },
+      "sources": [
+        {
+          "url": "https://www.getjoe-ai.com/en/",
+          "note": "site éditeur, accueil"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-13"
     },
     {
       "slug": "juniper-square",
@@ -14512,6 +14781,94 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "monga",
+      "name": "Monga",
+      "editor": "Monga",
+      "website": "https://monga.io",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "facility-maintenance",
+      "also_in": [
+        "property-management"
+      ],
+      "positioning": "SaaS technical management platform for French property managers and syndics: planning maintenance interventions, tracking contractors, and communicating with occupants.",
+      "description": "Monga is a French SaaS platform for the technical management of real estate assets. It centralises the planning of maintenance interventions across buildings, tracks stock and suppliers, and provides communication channels between property managers, service providers and occupants.\n",
+      "real_estate_use": "A property manager or syndic running technical maintenance across several buildings needs to schedule interventions, keep providers informed, and answer occupant requests without losing track of any of it. Monga puts that workflow in one platform: interventions are planned and dispatched, providers get a shared channel for updates, and occupants can report issues, book shared rooms or check information about their unit directly, instead of a chain of calls and emails.\n",
+      "features": [
+        "Planning and dispatch of technical maintenance interventions",
+        "Stock and supplier tracking",
+        "Provider communication channel for interventions",
+        "Occupant portal for maintenance requests and shared-room bookings",
+        "Real-time updates between managers, occupants and providers"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Plan and dispatch technical interventions across a portfolio of buildings and keep providers and occupants informed"
+        },
+        {
+          "persona": "syndic-manager",
+          "job": "Centralise maintenance requests from occupants and track resolution"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "facility-manager",
+        "syndic-manager"
+      ],
+      "segments": [
+        "residential",
+        "multifamily"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "reviews": [],
+      "logo": {
+        "file": "logos/monga.png",
+        "source_url": "https://monga.io/wp-content/uploads/2022/08/Logo-Monga.svg",
+        "fetched_on": "2026-09-13"
+      },
+      "signals": {
+        "privacy": "https://monga.io/pages-legales/politique-de-confidentialite",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-09-13"
+      },
+      "sources": [
+        {
+          "url": "https://monga.io/",
+          "note": "site éditeur, accueil"
+        },
+        {
+          "url": "https://monga.io/nos-solutions/gestion-technique-immobiliere/",
+          "note": "site éditeur, page solution"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-13"
     },
     {
       "slug": "mri-software",
@@ -21376,6 +21733,93 @@
       "updated": "2026-08-25"
     },
     {
+      "slug": "superhote",
+      "name": "SuperHote",
+      "editor": "SuperHote",
+      "website": "https://www.superhote.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "short-term-rental",
+      "positioning": "All-in-one autopilot platform for French short-term rental hosts and conciergeries: unified inbox, AI assistants, guest self-service portal and 1000+ integrations.",
+      "description": "SuperHote is a French all-in-one platform for short-term rental hosts and conciergerie companies. It unifies guest messaging across Airbnb, Booking, email, SMS and WhatsApp with AI-assisted replies and automatic translation into six languages, gives each guest a self-service portal, and connects to pricing, smart-lock and payment tools plus 1000+ third-party apps through Make and Zapier.\n",
+      "real_estate_use": "A host or conciergerie managing several short-term rental properties juggles messages across multiple booking platforms, access codes, contracts and upsells for every stay. SuperHote consolidates that into one inbox with AI-assisted, auto-translated replies, hands the guest a self-service page for check-in codes, contract signature, ID collection and extras, and keeps pricing and smart locks in sync — replacing a stack of spreadsheets and separate apps with one operating system for the rental.\n",
+      "features": [
+        "Unified multi-channel inbox (Airbnb, Booking, email, SMS, WhatsApp) with AI-assisted replies and auto-translation in six languages",
+        "Guest self-service portal: booking, check-in/out, house guide, extras, payment and contract signature",
+        "Automatic identity document collection and electronic contract signature",
+        "Dynamic pricing sync via PriceLabs",
+        "Smart-lock integrations (Igloohome, Nuki)",
+        "1000+ third-party app connections via Make and Zapier"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Run guest messaging, check-in, contracts and upsells for a multi-property short-term rental portfolio from one inbox"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "Automate guest communication and administrative tasks for a self-managed short-term rental"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "landlord-owner"
+      ],
+      "segments": [
+        "hospitality",
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "ai": {
+        "capabilities": [
+          "Automates guest messaging, pricing adjustments and administrative tasks through five branded AI assistants"
+        ]
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "reviews": [],
+      "logo": {
+        "file": "logos/superhote.png",
+        "source_url": "https://www.superhote.com/icon.svg",
+        "fetched_on": "2026-09-13"
+      },
+      "signals": {
+        "privacy": "https://www.superhote.com/legal/privacy",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-09-13"
+      },
+      "sources": [
+        {
+          "url": "https://www.superhote.com/",
+          "note": "site éditeur, accueil"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-13"
+    },
+    {
       "slug": "sweepbright",
       "name": "SweepBright",
       "editor": "SweepBright",
@@ -23245,6 +23689,7 @@
       ],
       "positioning": "Condominium management software built for the French 1965 law, from the annual assembly to the works fund.",
       "description": "Vilogi is a SaaS platform for French syndics and rental managers: per-building accounting, budgets and calls for funds, general assembly preparation and electronic voting, works and contract tracking, and extranet portals for co-owners and council members.\n",
+      "description_fr": "Vilogi est une plateforme SaaS pour les syndics et gestionnaires locatifs français : comptabilité par immeuble, budgets et appels de fonds, préparation d'assemblée générale et vote électronique, suivi des travaux et des contrats, et extranets pour les copropriétaires et les membres du conseil syndical.\n",
       "real_estate_use": "A French copropriété is a legal entity with its own accounts, its own budget voted in assembly, and a mandatory extranet for co-owners. Vilogi encodes that cycle: the provisional budget is voted, quarterly calls for funds are issued against it, expenses are posted per building, and the annual accounts are presented back to the assembly. The extranet obligation is met by the same system.\n",
       "features": [
         "Per-building accounting with tantième-based expense allocation",

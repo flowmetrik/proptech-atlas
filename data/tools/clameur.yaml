@@ -17,6 +17,17 @@ description: >
   contributors additionally get a web application with mapped navigation, indicators,
   charts, an advanced geolocated search and access to the underlying lease references
   down to municipality and IRIS zone level. Bespoke studies can be commissioned.
+description_fr: >
+  CLAMEUR est une association qui produit un observatoire des loyers du parc locatif privé
+  français. Elle collecte des baux signés via des partenariats avec des syndicats
+  professionnels, des fédérations, des réseaux et des gestionnaires plutôt qu'à partir
+  d'annonces, et déclare détenir plus d'un million de références par an. Des pages de
+  tendances gratuites, nationales, régionales, départementales et métropolitaines publient les
+  loyers hors charges et leur évolution sur quatre ans par type de bien. Les adhérents et
+  contributeurs bénéficient en plus d'une application web avec navigation cartographiée,
+  indicateurs, graphiques, une recherche géolocalisée avancée et l'accès aux références de
+  baux sous-jacentes jusqu'à l'échelle de la commune et de la zone IRIS. Des études sur mesure
+  peuvent être commandées.
 real_estate_use: >
   Rent evidence in France is scarce outside the regulated observatories, and portal
   asking prices are not the same thing as signed rents. CLAMEUR is the

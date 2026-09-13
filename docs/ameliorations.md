@@ -95,8 +95,11 @@ qu'une chose a été tentée vaut mieux que de la retenter.
 - **Comparaison deux à deux.** Une page « X vs Y » pour les paires réellement
   concurrentes. Fort en référencement, mais **risque de contenu creux** : à ne
   faire que si la page dit ce qui sépare vraiment les deux produits.
-- **Descriptions françaises.** Le schéma accepte `description_fr` ; rien ne le
-  remplit. Une moitié du catalogue est française et se lit en anglais.
+- **Descriptions françaises.** 6 fiches sur 108 à siège français ont une
+  `description_fr` (voir l'entrée « fait » du 13/09) ; les 102 autres se lisent
+  encore en anglais. C'est un travail de traduction fidèle, fiche par fiche —
+  pas de raccourci automatique sans relecture, sur un champ qui est lu par un
+  visiteur humain.
 
 ## Ouvert — exploitation
 
@@ -115,6 +118,19 @@ qu'une chose a été tentée vaut mieux que de la retenter.
 ---
 
 ## Fait
+
+- **2026-09-13** — L'entrée « Descriptions françaises » disait que le schéma
+  acceptait déjà `description_fr` — faux : le champ n'existait nulle part
+  (`data/SCHEMA.md`, `scripts/validate.mjs`, `src/lib/catalog.ts`, le site).
+  Ajouté pour de vrai : documenté dans `data/SCHEMA.md` et
+  `data/tools/_template.yaml` (commenté, optionnel), typé dans l'interface
+  `Tool`, un garde dans `validate.mjs` qui refuse une `description_fr`
+  identique à `description` (copier-coller sans traduire), rendu sur la fiche
+  produit juste sous la description anglaise (`<p lang="fr">`, en retrait). Six
+  fiches à siège français traduites pour vérifier le rendu de bout en bout :
+  `bien-ici`, `apimo`, `bailfacile`, `vilogi`, `clameur`, `cityscan`. `emit.mjs`
+  n'a rien demandé : il diffuse déjà l'objet fiche entier vers l'API JSON. Reste
+  102 fiches françaises sans traduction — voir l'entrée ouverte mise à jour.
 
 - **2026-09-12** — Repris l'entrée ouverte sur les sources `association`
   muettes. Deux URL corrigées dans `data/sources.yaml` : `fnaim-partenaires`

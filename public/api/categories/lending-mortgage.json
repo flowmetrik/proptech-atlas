@@ -4,7 +4,7 @@
   "label_fr": "Financement, crédit & courtage",
   "summary_en": "Originate, price and service real estate debt.",
   "summary_fr": "Monter, tarifer et gérer le crédit immobilier.",
-  "count": 9,
+  "count": 10,
   "tools": [
     {
       "slug": "actelo",
@@ -193,6 +193,93 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "courtisia",
+      "name": "Courtisia",
+      "editor": "Fletesia",
+      "website": "https://www.fletesia.com/logiciel-iobsp-de-courtage-en-credit-immobilier/",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "lending-mortgage",
+      "positioning": "French software for regulated mortgage and business-credit brokers, published since 2013: file assembly, financing simulation, regulatory documents and automated invoicing.",
+      "description": "Courtisia, published by Fletesia, is a French web and mobile software for IOBSP-regulated credit intermediaries, covering mortgage credit, professional financing and wealth-management brokerage in one tool since 2013. It assembles loan files, runs financing simulations and borrowing-capacity calculations, generates regulatory documents with electronic signature, connects to lenders, and automates fee and commission invoicing with reporting.\n",
+      "real_estate_use": "A mortgage broker assembling a loan file needs to run an affordability simulation, produce the regulatory paperwork, get it signed, route it to the right lenders, and eventually invoice the fee and reconcile the bank's commission. Courtisia covers that sequence in one tool, with dashboards to track where every case stands and automated invoicing tied to case status — useful because French intermediary fees can only be billed once funds are released.\n",
+      "features": [
+        "Full loan file assembly",
+        "Financing simulation and borrowing-capacity calculation",
+        "Automatic generation of regulatory documents",
+        "Electronic signature of documents",
+        "Bank connectors for submitting files",
+        "Automated fee and commission invoicing"
+      ],
+      "use_cases": [
+        {
+          "persona": "lender-broker",
+          "job": "Assemble a mortgage or professional-credit file, run the simulation and route it to lenders"
+        },
+        {
+          "persona": "brokerage",
+          "job": "Invoice fees and bank commissions once funds are released and reconcile what has been paid"
+        }
+      ],
+      "personas": [
+        "lender-broker",
+        "agent-broker"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "crediteo",
+        "eloa",
+        "kiilt-pro",
+        "actelo"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/courtisia.png",
+        "source_url": "https://www.fletesia.com/wp-content/uploads/2022/10/logo-courtisia.jpg",
+        "fetched_on": "2026-09-13"
+      },
+      "signals": {
+        "privacy": "https://www.fletesia.com/mentions-legales",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-09-13"
+      },
+      "sources": [
+        {
+          "url": "https://www.fletesia.com/logiciel-iobsp-de-courtage-en-credit-immobilier/",
+          "note": "site éditeur, page produit Courtisia"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-13"
     },
     {
       "slug": "crediteo",
