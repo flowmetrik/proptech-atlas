@@ -245,5 +245,33 @@
     "manual_found": 4,
     "manual_kept": 2,
     "last_manual_note": "RealReports et Humaniz retenus (produits) ; Realty ONE Group ZONE Pro et Compass Home Platform écartés : fonctionnalité interne d'un courtage, pas un produit vendu à des tiers"
+  },
+  "axeleo-proptech": {
+    "last_swept_manual": "2026-09-13",
+    "manual_runs": 1,
+    "manual_found": 6,
+    "manual_kept": 1,
+    "last_manual_note": "portefeuille Axeleo Capital via WebSearch (ctx_fetch_and_index bloqué sur le site, contenu générique) : Monga retenu (SaaS gestion technique immobilière) ; BRXS (NL), Propster (AT) hors marché US/FR ; Beanstock et Prello écartés — sociétés de service d'investissement locatif clé en main, pas des éditeurs de logiciel ; Bright Spaces (Roumanie) écarté, marché FR/US non démontré"
+  },
+  "station-f-frenchtech": {
+    "last_swept_manual": "2026-09-13",
+    "manual_runs": 1,
+    "manual_found": 0,
+    "manual_kept": 0,
+    "last_manual_note": "annuaire.lafrenchtech.com ne résout plus (DNS) ; pas d'URL de remplacement trouvée par recherche"
+  },
+  "producthunt-realestate": {
+    "last_swept_manual": "2026-09-13",
+    "manual_runs": 1,
+    "manual_found": 0,
+    "manual_kept": 0,
+    "last_manual_note": "403 à la lecture automatisée ; recherche ciblée par catégorie creuse faite à la place (voir yc-real-estate)"
+  },
+  "yc-real-estate": {
+    "last_swept_manual": "2026-09-13",
+    "manual_runs": 1,
+    "manual_found": 0,
+    "manual_kept": 0,
+    "last_manual_note": "page SPA sans contenu server-rendered, injoignable au fetch ; recherche ciblée par catégorie creuse faite à la place (short-term-rental, lending-mortgage, ai-assistants FR) : Superhote, Icnea, Courtisia, Joe AI trouvés et retenus par cette voie"
   }
 }
