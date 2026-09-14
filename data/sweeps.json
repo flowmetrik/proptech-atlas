@@ -273,5 +273,26 @@
     "manual_found": 0,
     "manual_kept": 0,
     "last_manual_note": "page SPA sans contenu server-rendered, injoignable au fetch ; recherche ciblée par catégorie creuse faite à la place (short-term-rental, lending-mortgage, ai-assistants FR) : Superhote, Icnea, Courtisia, Joe AI trouvés et retenus par cette voie"
+  },
+  "data-gouv-logement": {
+    "last_swept_manual": "2026-09-14",
+    "manual_runs": 1,
+    "manual_found": 5,
+    "manual_kept": 2,
+    "last_manual_note": "API URBA (Sogefi) et UrbanSIMUL (Cerema) retenus ; Cartographie des réglementations locales d'urbanisme écartée après lecture (cabinet d'expertise immobilière, DataMap = outil d'appel commercial, pas un produit autonome) ; DVF déjà catalogué ; TerraVisu (Makina Corpus) écarté, trop générique (SIG territorial multi-thèmes, le logement n'est qu'un des usages démontrés)"
+  },
+  "fifth-wall": {
+    "last_swept_manual": "2026-09-14",
+    "manual_runs": 1,
+    "manual_found": 16,
+    "manual_kept": 3,
+    "last_manual_note": "Built, Document Crunch et Breezy retenus ; Blueprint Power exited (racheté par BP, site redirige vers bp.com, plus de produit autonome) ; Aurora Solar écarté (logiciel de vente/design pour installateurs solaires, pas pour des professionnels de l'immobilier) ; Clikalia et Belong écartés (opérateurs qui transigent/gèrent pour compte propre, pas des éditeurs) ; ButterflyMX déjà catalogué"
+  },
+  "ret-camber": {
+    "last_swept_manual": "2026-09-14",
+    "manual_runs": 1,
+    "manual_found": 36,
+    "manual_kept": 2,
+    "last_manual_note": "Parity et Fyxt retenus ; Engrain, Measurabl, SmartRent et TurboTenant déjà catalogués ; Kasa écarté (opérateur d'hébergement à revenu partagé, pas un éditeur vendu à des tiers) ; le reste du portefeuille hors périmètre logiciel ou pas assez d'ancrage produit pour ce round"
   }
 }

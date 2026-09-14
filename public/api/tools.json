@@ -4,23 +4,23 @@
   "license": "CC-BY-4.0 (data) / MIT (code)",
   "homepage": "https://flowmetrik.github.io/proptech-atlas",
   "repository": "https://github.com/flowmetrik/proptech-atlas",
-  "generated": "2026-09-13",
+  "generated": "2026-09-14",
   "counts": {
-    "tools": 258,
-    "US": 142,
-    "FR": 146,
+    "tools": 265,
+    "US": 147,
+    "FR": 148,
     "categories": 24,
-    "editors": 241,
+    "editors": 248,
     "verified": 0,
     "reviews": 0,
-    "logos": 245,
+    "logos": 250,
     "signals": {
-      "probed": 244,
+      "probed": 251,
       "public_pricing": 63,
       "api_docs": 18,
-      "security_page": 30,
-      "privacy_page": 179,
-      "status_page": 60
+      "security_page": 31,
+      "privacy_page": 184,
+      "status_page": 62
     }
   },
   "tools": [
@@ -2785,6 +2785,96 @@
       "updated": "2026-08-27"
     },
     {
+      "slug": "breezy",
+      "name": "Breezy",
+      "editor": "Breezy",
+      "website": "https://www.breezy.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "ai-assistants",
+      "also_in": [
+        "agent-marketing"
+      ],
+      "positioning": "A mobile AI workspace built by a working agent, for agents — comps, notes and pipeline in one place.",
+      "description": "Breezy is a mobile AI workspace for residential real estate agents and small brokerages. It generates client-ready comparable market analyses, takes automated notes during in-person conversations, updates a transaction pipeline from those notes, and surfaces nearby development potential through its UnderBuilt Radar module.\n",
+      "real_estate_use": "An agent leaving a listing appointment used to type up notes from memory and build a comp sheet from scratch that evening; Breezy's assistant listens during the meeting, turns the conversation into structured notes, and produces a polished comparable-property analysis in seconds so the follow-up email can go out before the agent is back in the car. A brokerage admin gets the same activity rolled up across the team instead of chasing individual agents for pipeline updates.\n",
+      "features": [
+        "AI-generated comparative market analyses (comps)",
+        "Automated meeting note-taking and structuring",
+        "Pipeline stage updates from captured notes",
+        "UnderBuilt Radar for nearby development potential",
+        "Team and brokerage-level activity dashboard"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Produce a client-ready comp sheet and follow-up notes right after a listing appointment"
+        },
+        {
+          "persona": "brokerage",
+          "job": "See team-wide agent activity and pipeline without manual reporting"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "structurely",
+        "ylopo"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/breezy.png",
+        "source_url": "https://framerusercontent.com/images/HY7jmpexXutBea8aqjaDj4HU9yE.png",
+        "fetched_on": "2026-09-14"
+      },
+      "signals": {
+        "privacy": "https://app.breezy.com/privacy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-14"
+      },
+      "sources": [
+        {
+          "url": "https://www.breezy.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-14"
+    },
+    {
       "slug": "brickwise-ai",
       "name": "Brickwise AI",
       "editor": "Brickwise",
@@ -3253,6 +3343,91 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "built",
+      "name": "Built",
+      "editor": "Built Technologies",
+      "website": "https://getbuilt.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "lending-mortgage",
+      "also_in": [
+        "construction-development"
+      ],
+      "positioning": "One AI-powered platform to fund, develop, build and manage construction real estate — for lenders, developers and general contractors alike.",
+      "description": "Built is a cloud platform for construction lending and construction finance administration. Banks, credit unions and private lenders use it to manage construction loan pipelines, underwriting, draw and budget management, disbursement inspections and portfolio reporting; developers, owners and general contractors use companion modules for budgets, capital calls, invoicing, lien waivers and compliance tracking.\n",
+      "real_estate_use": "A construction lender juggling dozens of active loans needs to know, on any given day, which draws are pending, which inspections are overdue, and where a budget is drifting — work that used to live across spreadsheets and email threads with the borrower. Built centralizes the draw request, the inspection, the lien waiver and the compliance check for each loan, and its AI Draw Agent pre-processes incoming draw packages so a loan officer reviews an exception rather than re-keying a request.\n",
+      "features": [
+        "Construction loan origination pipeline management",
+        "AI-assisted extraction from information memorandums",
+        "Draw and budget management with disbursement inspections",
+        "AI Draw Agent for automated draw request processing",
+        "Lien waiver and compliance tracking",
+        "Portfolio and risk reporting for lenders"
+      ],
+      "use_cases": [
+        {
+          "persona": "lender-broker",
+          "job": "Track draws, inspections and compliance across a portfolio of active construction loans"
+        },
+        {
+          "persona": "developer-builder",
+          "job": "Manage budgets, capital calls and lien waivers on a construction project financed by a Built-connected lender"
+        }
+      ],
+      "personas": [
+        "lender-broker",
+        "developer-builder",
+        "corporate-re"
+      ],
+      "segments": [
+        "land-development",
+        "residential",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "lendingpad"
+      ],
+      "reviews": [],
+      "signals": {
+        "privacy": "https://getbuilt.com/privacy-policy",
+        "status": "https://status.getbuilt.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-14"
+      },
+      "sources": [
+        {
+          "url": "https://getbuilt.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-14"
     },
     {
       "slug": "bulldozair",
@@ -6679,6 +6854,86 @@
       "updated": "2026-09-09"
     },
     {
+      "slug": "document-crunch",
+      "name": "Document Crunch",
+      "editor": "Document Crunch",
+      "website": "https://www.documentcrunch.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "construction-development",
+      "also_in": [
+        "ai-assistants"
+      ],
+      "positioning": "Read every construction contract clause the way a claims attorney would, before you sign it.",
+      "description": "Document Crunch is an AI contract-intelligence platform built specifically for commercial construction contracts. Its model, CrunchAI, is trained to recognize construction-specific clauses — flow-down risk, indemnification, change-order and notice provisions — and cites the exact source clause behind each finding, across the pursuit, pre-bid and execution stages of a project.\n",
+      "real_estate_use": "A general contractor's project executive is handed a fifty-page subcontract the week before a bid deadline and has neither the time nor, in many firms, in-house counsel to read it clause by clause. Document Crunch's CrunchAI redlines the document against known risk patterns in construction contracts — a flow-down clause that shifts liability, a notice deadline buried in a schedule exhibit — and cites the exact clause behind each flag, so a non-lawyer can triage what actually needs a lawyer's attention.\n",
+      "features": [
+        "AI contract review trained on construction-specific clauses (CrunchAI)",
+        "Auto-redlining and version comparison during pursuit",
+        "Spec review before bid day",
+        "Real-time contractual risk tracking during construction execution",
+        "Clause-level citation for every flagged risk"
+      ],
+      "use_cases": [
+        {
+          "persona": "developer-builder",
+          "job": "Triage a subcontract for risky clauses before a bid deadline, without in-house counsel"
+        },
+        {
+          "persona": "corporate-re",
+          "job": "Track contractual risk across an active construction project as change orders and notices accumulate"
+        }
+      ],
+      "personas": [
+        "developer-builder",
+        "corporate-re"
+      ],
+      "segments": [
+        "land-development",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "reviews": [],
+      "signals": {
+        "security": "https://www.documentcrunch.com/security",
+        "privacy": "https://www.documentcrunch.com/privacy-notice",
+        "status": "https://status.documentcrunch.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-14"
+      },
+      "sources": [
+        {
+          "url": "https://www.documentcrunch.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-14"
+    },
+    {
       "slug": "docusign",
       "name": "Docusign",
       "editor": "Docusign",
@@ -9171,6 +9426,98 @@
         "checked_by": null
       },
       "updated": "2026-08-29"
+    },
+    {
+      "slug": "fyxt",
+      "name": "Fyxt",
+      "editor": "Fyxt",
+      "website": "https://fyxt.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "commercial-am",
+      "also_in": [
+        "facility-maintenance"
+      ],
+      "founded": 2017,
+      "positioning": "An AI operating system for commercial real estate operations, from lease abstraction to tenant billing.",
+      "description": "Fyxt is a cloud platform for commercial real estate operations, combining AI-driven modules for portfolio information retrieval, task automation, multichannel communication, tenant experience, financial workflows (AP/AR), lease abstraction and insurance-certificate compliance. It targets commercial property managers, REITs, owner-operators and their tenants across office, industrial, retail, data-center and mixed commercial portfolios.\n",
+      "real_estate_use": "A commercial property manager running a mixed portfolio of office and industrial buildings otherwise keeps lease terms, tenant insurance certificates and maintenance requests in separate systems that nobody fully trusts; Fyxt centralizes the lease abstraction, chases the missing certificate of insurance automatically, and lets a manager ask its AI chat for a portfolio answer instead of opening three spreadsheets to compile one.\n",
+      "features": [
+        "AI chat access to centralized portfolio information",
+        "Task automation via AI agents",
+        "Multichannel communication sync (email, SMS, Slack)",
+        "Tenant experience portal",
+        "AP/AR financial workflow integration",
+        "AI-assisted lease abstraction and insurance compliance tracking"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Track lease terms, tenant insurance compliance and maintenance across a mixed commercial portfolio from one system"
+        },
+        {
+          "persona": "corporate-re",
+          "job": "Ask a portfolio question in natural language instead of compiling data from separate spreadsheets"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "corporate-re",
+        "investor-am"
+      ],
+      "segments": [
+        "office",
+        "industrial",
+        "retail",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "freemium",
+        "public_pricing": false
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "vts",
+        "visual-lease"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/fyxt.png",
+        "source_url": "https://fyxt.com/wp-content/themes/fyxt/assets/img/logo.svg",
+        "fetched_on": "2026-09-14"
+      },
+      "signals": {
+        "privacy": "https://fyxt.com/privacy-policy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-14"
+      },
+      "sources": [
+        {
+          "url": "https://fyxt.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-14"
     },
     {
       "slug": "garantme",
@@ -16255,6 +16602,93 @@
       "updated": "2026-08-25"
     },
     {
+      "slug": "parity",
+      "name": "Parity",
+      "editor": "Parity",
+      "website": "https://www.paritygo.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "energy-esg",
+      "also_in": [
+        "facility-maintenance"
+      ],
+      "positioning": "Remote HVAC optimization for multifamily and hotels, with utility savings guaranteed or refunded.",
+      "description": "Parity remotely monitors and adjusts HVAC systems in multifamily buildings and hotels, using machine learning to reset setpoints and equipment behavior in real time without on-site staff intervention. It sells the outcome as a guaranteed savings service rather than a self-serve dashboard: it commits to a percentage reduction in utility costs and refunds the difference if it misses.\n",
+      "real_estate_use": "A multifamily owner with an aging HVAC fleet across several buildings does not have the engineering staff to retune each system building by building; Parity ingests operational data from the equipment, streams optimized control adjustments back to it continuously, and reports the realized savings against its guarantee — turning an energy-efficiency retrofit that would otherwise require capital and a contractor into a subscription with the risk on Parity's side.\n",
+      "features": [
+        "Remote real-time HVAC control and optimization",
+        "Machine-learning-driven setpoint and equipment adjustment",
+        "Guaranteed utility cost savings with refund if missed",
+        "Demand-response program participation",
+        "System alerting and monitoring"
+      ],
+      "use_cases": [
+        {
+          "persona": "facility-manager",
+          "job": "Cut HVAC utility costs across a multifamily portfolio without an in-house retuning project"
+        },
+        {
+          "persona": "investor-am",
+          "job": "Add a guaranteed-savings energy program to an asset without capital spend"
+        }
+      ],
+      "personas": [
+        "facility-manager",
+        "investor-am",
+        "landlord-owner"
+      ],
+      "segments": [
+        "multifamily",
+        "hospitality"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "wattsense"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/parity.png",
+        "source_url": "https://www.paritygo.com/wp-content/uploads/2024/01/Parity-Logo-Color-Light-1-1-1.png",
+        "fetched_on": "2026-09-14"
+      },
+      "signals": {
+        "privacy": "https://www.paritygo.com/privacy-policy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-14"
+      },
+      "sources": [
+        {
+          "url": "https://www.paritygo.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-14"
+    },
+    {
       "slug": "partnerimmo",
       "name": "Partnerimmo",
       "editor": "Partnerimmo",
@@ -21134,6 +21568,100 @@
       "updated": "2026-08-25"
     },
     {
+      "slug": "sogefi-geoservices",
+      "name": "Sogefi GéoServices",
+      "editor": "Sogefi",
+      "website": "https://geoservices.sogefi-sig.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "market-data",
+      "also_in": [
+        "construction-development"
+      ],
+      "positioning": "Fifteen French geolocation APIs — zoning, permits, cadastre, transactions — for the software editors who build on top of them.",
+      "description": "Sogefi GéoServices is an API platform publishing structured French property and land data: urban planning zoning documents (API URBA), building and demolition permits (API ADS), cadastral parcels, condominium registries, transaction prices and natural-hazard zoning. It sells to software editors, local authorities and private-sector integrators rather than to end consumers.\n",
+      "real_estate_use": "A proptech editor adding a parcel-lookup or a permit-tracking feature does not want to become a data-pipeline company: it calls Sogefi's API URBA or API ADS and gets the current zoning or permit history for a given parcel, kept current by Sogefi instead of scraped and maintained in-house. A local authority builds its own planning portal on the same infrastructure without operating GIS servers of its own.\n",
+      "features": [
+        "Urban planning zoning and PLU documents by parcel (API URBA)",
+        "Building, demolition and development permit records (API ADS)",
+        "Cadastral parcel and condominium registry data",
+        "Property transaction prices (DVF+)",
+        "Natural and technological hazard zoning (API RISQUES)",
+        "Vector map tiles covering French territory"
+      ],
+      "use_cases": [
+        {
+          "persona": "developer-builder",
+          "job": "Check zoning constraints and permit history on a parcel before committing to a project"
+        },
+        {
+          "persona": "corporate-re",
+          "job": "Feed parcel-level planning and hazard data into an internal tool without building GIS infrastructure"
+        }
+      ],
+      "personas": [
+        "developer-builder",
+        "corporate-re",
+        "investor-am"
+      ],
+      "segments": [
+        "land-development",
+        "residential",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "usage",
+        "public_pricing": false
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "urbanease",
+        "kelfoncier"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/sogefi-geoservices.png",
+        "source_url": "https://geoservices.sogefi-sig.com/img/logo_sogefi_horiz_rvb.svg",
+        "fetched_on": "2026-09-14"
+      },
+      "signals": {
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-09-14"
+      },
+      "sources": [
+        {
+          "url": "https://geoservices.sogefi-sig.com",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://geoservices.sogefi-sig.com/documentation.php?doc=api_audrso_v2",
+          "note": "documentation API URBA/AUDRSO"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-14"
+    },
+    {
       "slug": "spacebring",
       "name": "Spacebring",
       "editor": "Spacebring",
@@ -23383,6 +23911,93 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "urbansimul",
+      "name": "UrbanSIMUL",
+      "editor": "Cerema",
+      "website": "https://urbansimul.cerema.fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "market-data",
+      "also_in": [
+        "construction-development"
+      ],
+      "positioning": "A free, collaborative tool from Cerema to help French local authorities find buildable land without further urban sprawl.",
+      "description": "UrbanSIMUL is a web application published by Cerema, the French public technical agency for ecological transition and territorial cohesion, that visualizes and simulates land occupation at the parcel scale so local authorities can identify vacant or under-used buildable land as part of \"sobriété foncière\" (land-use restraint) policy. Access is free after registration.\n",
+      "real_estate_use": "A planning officer at a municipality or intercommunality opens UrbanSIMUL to screen a commune for parcels that could absorb new housing without converting more farmland or forest, then exports a shortlist to brief an elected official or a developer being approached for a project. The observatoire mode lets several public actors share the same parcel inventory and canvassing notes over time instead of each rebuilding it from scratch.\n",
+      "features": [
+        "Parcel-level land occupation visualization and characterization",
+        "Buildable land potential assessment",
+        "Vacant and under-used parcel prospecting",
+        "Urbanization scenario modeling",
+        "Shared land and housing observatories",
+        "Tabular and cartographic data export"
+      ],
+      "use_cases": [
+        {
+          "persona": "developer-builder",
+          "job": "Screen a commune for buildable parcels before approaching an owner or a local authority"
+        },
+        {
+          "persona": "corporate-re",
+          "job": "Assess land potential on a site ahead of an acquisition or a public consultation"
+        }
+      ],
+      "personas": [
+        "developer-builder",
+        "corporate-re"
+      ],
+      "segments": [
+        "land-development",
+        "residential"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "free",
+        "public_pricing": true
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "urbanease"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/urbansimul.png",
+        "source_url": "https://urbansimul.cerema.fr/sites/urbansimul/files/Logos-RF-Cerema-UrbanSIMUL.png",
+        "fetched_on": "2026-09-14"
+      },
+      "signals": {
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-09-14"
+      },
+      "sources": [
+        {
+          "url": "https://urbansimul.cerema.fr",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-14"
     },
     {
       "slug": "vantaca",

@@ -1,0 +1,80 @@
+{
+  "slug": "document-crunch",
+  "name": "Document Crunch",
+  "editor": "Document Crunch",
+  "website": "https://www.documentcrunch.com",
+  "hq_country": "US",
+  "markets": [
+    "US"
+  ],
+  "category": "construction-development",
+  "also_in": [
+    "ai-assistants"
+  ],
+  "positioning": "Read every construction contract clause the way a claims attorney would, before you sign it.",
+  "description": "Document Crunch is an AI contract-intelligence platform built specifically for commercial construction contracts. Its model, CrunchAI, is trained to recognize construction-specific clauses — flow-down risk, indemnification, change-order and notice provisions — and cites the exact source clause behind each finding, across the pursuit, pre-bid and execution stages of a project.\n",
+  "real_estate_use": "A general contractor's project executive is handed a fifty-page subcontract the week before a bid deadline and has neither the time nor, in many firms, in-house counsel to read it clause by clause. Document Crunch's CrunchAI redlines the document against known risk patterns in construction contracts — a flow-down clause that shifts liability, a notice deadline buried in a schedule exhibit — and cites the exact clause behind each flag, so a non-lawyer can triage what actually needs a lawyer's attention.\n",
+  "features": [
+    "AI contract review trained on construction-specific clauses (CrunchAI)",
+    "Auto-redlining and version comparison during pursuit",
+    "Spec review before bid day",
+    "Real-time contractual risk tracking during construction execution",
+    "Clause-level citation for every flagged risk"
+  ],
+  "use_cases": [
+    {
+      "persona": "developer-builder",
+      "job": "Triage a subcontract for risky clauses before a bid deadline, without in-house counsel"
+    },
+    {
+      "persona": "corporate-re",
+      "job": "Track contractual risk across an active construction project as change orders and notices accumulate"
+    }
+  ],
+  "personas": [
+    "developer-builder",
+    "corporate-re"
+  ],
+  "segments": [
+    "land-development",
+    "mixed-use"
+  ],
+  "company_sizes": [
+    "midmarket",
+    "enterprise"
+  ],
+  "pricing": {
+    "model": "quote",
+    "public_pricing": false
+  },
+  "product": {
+    "api": false,
+    "open_source": false,
+    "mobile": [],
+    "languages": [
+      "en"
+    ]
+  },
+  "reviews": [],
+  "signals": {
+    "security": "https://www.documentcrunch.com/security",
+    "privacy": "https://www.documentcrunch.com/privacy-notice",
+    "status": "https://status.documentcrunch.com",
+    "site_languages": [
+      "en"
+    ],
+    "checked_on": "2026-09-14"
+  },
+  "sources": [
+    {
+      "url": "https://www.documentcrunch.com",
+      "note": "site éditeur"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-09-14"
+}

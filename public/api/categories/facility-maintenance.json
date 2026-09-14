@@ -4,7 +4,7 @@
   "label_fr": "Facility management & maintenance",
   "summary_en": "Work orders, contractors, assets and preventive maintenance.",
   "summary_fr": "Interventions, prestataires, équipements et maintenance préventive.",
-  "count": 25,
+  "count": 27,
   "tools": [
     {
       "slug": "advizeo",
@@ -638,6 +638,98 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "fyxt",
+      "name": "Fyxt",
+      "editor": "Fyxt",
+      "website": "https://fyxt.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "commercial-am",
+      "also_in": [
+        "facility-maintenance"
+      ],
+      "founded": 2017,
+      "positioning": "An AI operating system for commercial real estate operations, from lease abstraction to tenant billing.",
+      "description": "Fyxt is a cloud platform for commercial real estate operations, combining AI-driven modules for portfolio information retrieval, task automation, multichannel communication, tenant experience, financial workflows (AP/AR), lease abstraction and insurance-certificate compliance. It targets commercial property managers, REITs, owner-operators and their tenants across office, industrial, retail, data-center and mixed commercial portfolios.\n",
+      "real_estate_use": "A commercial property manager running a mixed portfolio of office and industrial buildings otherwise keeps lease terms, tenant insurance certificates and maintenance requests in separate systems that nobody fully trusts; Fyxt centralizes the lease abstraction, chases the missing certificate of insurance automatically, and lets a manager ask its AI chat for a portfolio answer instead of opening three spreadsheets to compile one.\n",
+      "features": [
+        "AI chat access to centralized portfolio information",
+        "Task automation via AI agents",
+        "Multichannel communication sync (email, SMS, Slack)",
+        "Tenant experience portal",
+        "AP/AR financial workflow integration",
+        "AI-assisted lease abstraction and insurance compliance tracking"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Track lease terms, tenant insurance compliance and maintenance across a mixed commercial portfolio from one system"
+        },
+        {
+          "persona": "corporate-re",
+          "job": "Ask a portfolio question in natural language instead of compiling data from separate spreadsheets"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "corporate-re",
+        "investor-am"
+      ],
+      "segments": [
+        "office",
+        "industrial",
+        "retail",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "freemium",
+        "public_pricing": false
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "vts",
+        "visual-lease"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/fyxt.png",
+        "source_url": "https://fyxt.com/wp-content/themes/fyxt/assets/img/logo.svg",
+        "fetched_on": "2026-09-14"
+      },
+      "signals": {
+        "privacy": "https://fyxt.com/privacy-policy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-14"
+      },
+      "sources": [
+        {
+          "url": "https://fyxt.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-14"
     },
     {
       "slug": "happyco",
@@ -1381,6 +1473,93 @@
         "checked_by": null
       },
       "updated": "2026-08-31"
+    },
+    {
+      "slug": "parity",
+      "name": "Parity",
+      "editor": "Parity",
+      "website": "https://www.paritygo.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "energy-esg",
+      "also_in": [
+        "facility-maintenance"
+      ],
+      "positioning": "Remote HVAC optimization for multifamily and hotels, with utility savings guaranteed or refunded.",
+      "description": "Parity remotely monitors and adjusts HVAC systems in multifamily buildings and hotels, using machine learning to reset setpoints and equipment behavior in real time without on-site staff intervention. It sells the outcome as a guaranteed savings service rather than a self-serve dashboard: it commits to a percentage reduction in utility costs and refunds the difference if it misses.\n",
+      "real_estate_use": "A multifamily owner with an aging HVAC fleet across several buildings does not have the engineering staff to retune each system building by building; Parity ingests operational data from the equipment, streams optimized control adjustments back to it continuously, and reports the realized savings against its guarantee — turning an energy-efficiency retrofit that would otherwise require capital and a contractor into a subscription with the risk on Parity's side.\n",
+      "features": [
+        "Remote real-time HVAC control and optimization",
+        "Machine-learning-driven setpoint and equipment adjustment",
+        "Guaranteed utility cost savings with refund if missed",
+        "Demand-response program participation",
+        "System alerting and monitoring"
+      ],
+      "use_cases": [
+        {
+          "persona": "facility-manager",
+          "job": "Cut HVAC utility costs across a multifamily portfolio without an in-house retuning project"
+        },
+        {
+          "persona": "investor-am",
+          "job": "Add a guaranteed-savings energy program to an asset without capital spend"
+        }
+      ],
+      "personas": [
+        "facility-manager",
+        "investor-am",
+        "landlord-owner"
+      ],
+      "segments": [
+        "multifamily",
+        "hospitality"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "wattsense"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/parity.png",
+        "source_url": "https://www.paritygo.com/wp-content/uploads/2024/01/Parity-Logo-Color-Light-1-1-1.png",
+        "fetched_on": "2026-09-14"
+      },
+      "signals": {
+        "privacy": "https://www.paritygo.com/privacy-policy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-14"
+      },
+      "sources": [
+        {
+          "url": "https://www.paritygo.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-14"
     },
     {
       "slug": "property-inspect",

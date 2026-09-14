@@ -2,6 +2,18 @@
   "_lisez_moi": "Logos écartés APRÈS avoir été regardés par un humain. logos.mjs récupère la meilleure image candidate d'un site ; il ne sait pas distinguer un logo d'un visuel décoratif, et sans cette liste il réadopte le même faux à chaque passe. Une entrée dit le slug, ce qui avait été récupéré, et pourquoi ça n'allait pas. `--all` ne la contourne pas : c'est un jugement, pas un cache.",
   "refuses": [
     {
+      "slug": "built",
+      "source_url": "https://getbuilt.com/wp-content/uploads/2025/07/ameris-bank-greyout-logo-256x52.png",
+      "why": "le logo « Ameris Bank » — un client cité dans une section logos-partenaires de l'accueil, pas l'éditeur. Aucune autre image candidate exploitable trouvée sur cette page.",
+      "on": "2026-09-14"
+    },
+    {
+      "slug": "document-crunch",
+      "source_url": "https://www.documentcrunch.com/wp-content/uploads/2026/05/2026-04-Document-Crunch-Trimble-Interim-Logo-White-1.png",
+      "why": "variante « pour fond sombre » : traits blancs sur fond transparent, invisible une fois posé sur du papier — même famille que le piège déjà rencontré (engrain, 08/09).",
+      "on": "2026-09-14"
+    },
+    {
       "slug": "courtisia",
       "source_url": "https://courtisia.fletesia.fr/img/logo_fletesia_v2.jpg",
       "why": "le logo « Fletesia. » — l'éditeur, pas le produit. La page produit porte sa propre image, logo-courtisia.jpg, adoptée à la main.",

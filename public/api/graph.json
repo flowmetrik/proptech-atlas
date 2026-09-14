@@ -4,23 +4,23 @@
   "license": "CC-BY-4.0 (data) / MIT (code)",
   "homepage": "https://flowmetrik.github.io/proptech-atlas",
   "repository": "https://github.com/flowmetrik/proptech-atlas",
-  "generated": "2026-09-13",
+  "generated": "2026-09-14",
   "counts": {
-    "tools": 258,
-    "US": 142,
-    "FR": 146,
+    "tools": 265,
+    "US": 147,
+    "FR": 148,
     "categories": 24,
-    "editors": 241,
+    "editors": 248,
     "verified": 0,
     "reviews": 0,
-    "logos": 245,
+    "logos": 250,
     "signals": {
-      "probed": 244,
+      "probed": 251,
       "public_pricing": 63,
       "api_docs": 18,
-      "security_page": 30,
-      "privacy_page": 179,
-      "status_page": 60
+      "security_page": 31,
+      "privacy_page": 184,
+      "status_page": 62
     }
   },
   "nodes": [
@@ -160,6 +160,11 @@
       "label": "Breezeway"
     },
     {
+      "id": "tool:breezy",
+      "type": "tool",
+      "label": "Breezy"
+    },
+    {
       "id": "tool:brickwise-ai",
       "type": "tool",
       "label": "Brickwise AI"
@@ -183,6 +188,11 @@
       "id": "tool:buildium",
       "type": "tool",
       "label": "Buildium"
+    },
+    {
+      "id": "tool:built",
+      "type": "tool",
+      "label": "Built"
     },
     {
       "id": "tool:bulldozair",
@@ -365,6 +375,11 @@
       "label": "Diffuze"
     },
     {
+      "id": "tool:document-crunch",
+      "type": "tool",
+      "label": "Document Crunch"
+    },
+    {
       "id": "tool:docusign",
       "type": "tool",
       "label": "Docusign"
@@ -493,6 +508,11 @@
       "id": "tool:frontsteps",
       "type": "tool",
       "label": "FRONTSTEPS"
+    },
+    {
+      "id": "tool:fyxt",
+      "type": "tool",
+      "label": "Fyxt"
     },
     {
       "id": "tool:garantme",
@@ -860,6 +880,11 @@
       "label": "PAP (De Particulier à Particulier)"
     },
     {
+      "id": "tool:parity",
+      "type": "tool",
+      "label": "Parity"
+    },
+    {
       "id": "tool:partnerimmo",
       "type": "tool",
       "label": "Partnerimmo"
@@ -1105,6 +1130,11 @@
       "label": "SoftPro"
     },
     {
+      "id": "tool:sogefi-geoservices",
+      "type": "tool",
+      "label": "Sogefi GéoServices"
+    },
+    {
       "id": "tool:spacebring",
       "type": "tool",
       "label": "Spacebring"
@@ -1218,6 +1248,11 @@
       "id": "tool:urbanease",
       "type": "tool",
       "label": "Urbanease"
+    },
+    {
+      "id": "tool:urbansimul",
+      "type": "tool",
+      "label": "UrbanSIMUL"
     },
     {
       "id": "tool:vantaca",
@@ -1695,6 +1730,11 @@
       "label": "Breezeway"
     },
     {
+      "id": "editor:Breezy",
+      "type": "editor",
+      "label": "Breezy"
+    },
+    {
       "id": "editor:Brickwise",
       "type": "editor",
       "label": "Brickwise"
@@ -1713,6 +1753,11 @@
       "id": "editor:RealPage",
       "type": "editor",
       "label": "RealPage"
+    },
+    {
+      "id": "editor:Built Technologies",
+      "type": "editor",
+      "label": "Built Technologies"
     },
     {
       "id": "editor:BulldozAIR",
@@ -1890,6 +1935,11 @@
       "label": "Diffuze"
     },
     {
+      "id": "editor:Document Crunch",
+      "type": "editor",
+      "label": "Document Crunch"
+    },
+    {
       "id": "editor:Docusign",
       "type": "editor",
       "label": "Docusign"
@@ -2013,6 +2063,11 @@
       "id": "editor:FRONTSTEPS",
       "type": "editor",
       "label": "FRONTSTEPS"
+    },
+    {
+      "id": "editor:Fyxt",
+      "type": "editor",
+      "label": "Fyxt"
     },
     {
       "id": "editor:Garantme",
@@ -2340,6 +2395,11 @@
       "label": "PAP"
     },
     {
+      "id": "editor:Parity",
+      "type": "editor",
+      "label": "Parity"
+    },
+    {
       "id": "editor:Partnerimmo",
       "type": "editor",
       "label": "Partnerimmo"
@@ -2565,6 +2625,11 @@
       "label": "SoftPro (Fidelity National Financial)"
     },
     {
+      "id": "editor:Sogefi",
+      "type": "editor",
+      "label": "Sogefi"
+    },
+    {
       "id": "editor:Spacebring",
       "type": "editor",
       "label": "Spacebring"
@@ -2678,6 +2743,11 @@
       "id": "editor:Urbanease",
       "type": "editor",
       "label": "Urbanease"
+    },
+    {
+      "id": "editor:Cerema",
+      "type": "editor",
+      "label": "Cerema"
     },
     {
       "id": "editor:Vantaca",
@@ -4357,6 +4427,51 @@
       "to": "tool:hostaway"
     },
     {
+      "from": "tool:breezy",
+      "rel": "published_by",
+      "to": "editor:Breezy"
+    },
+    {
+      "from": "tool:breezy",
+      "rel": "belongs_to",
+      "to": "category:ai-assistants"
+    },
+    {
+      "from": "tool:breezy",
+      "rel": "also_serves",
+      "to": "category:agent-marketing"
+    },
+    {
+      "from": "tool:breezy",
+      "rel": "serves_persona",
+      "to": "persona:agent-broker"
+    },
+    {
+      "from": "tool:breezy",
+      "rel": "serves_persona",
+      "to": "persona:brokerage"
+    },
+    {
+      "from": "tool:breezy",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:breezy",
+      "rel": "available_in",
+      "to": "market:US"
+    },
+    {
+      "from": "tool:breezy",
+      "rel": "alternative_to",
+      "to": "tool:structurely"
+    },
+    {
+      "from": "tool:breezy",
+      "rel": "alternative_to",
+      "to": "tool:ylopo"
+    },
+    {
       "from": "tool:brickwise-ai",
       "rel": "published_by",
       "to": "editor:Brickwise"
@@ -4600,6 +4715,61 @@
       "from": "tool:buildium",
       "rel": "alternative_to",
       "to": "tool:propertyware"
+    },
+    {
+      "from": "tool:built",
+      "rel": "published_by",
+      "to": "editor:Built Technologies"
+    },
+    {
+      "from": "tool:built",
+      "rel": "belongs_to",
+      "to": "category:lending-mortgage"
+    },
+    {
+      "from": "tool:built",
+      "rel": "also_serves",
+      "to": "category:construction-development"
+    },
+    {
+      "from": "tool:built",
+      "rel": "serves_persona",
+      "to": "persona:lender-broker"
+    },
+    {
+      "from": "tool:built",
+      "rel": "serves_persona",
+      "to": "persona:developer-builder"
+    },
+    {
+      "from": "tool:built",
+      "rel": "serves_persona",
+      "to": "persona:corporate-re"
+    },
+    {
+      "from": "tool:built",
+      "rel": "covers_segment",
+      "to": "segment:land-development"
+    },
+    {
+      "from": "tool:built",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:built",
+      "rel": "covers_segment",
+      "to": "segment:mixed-use"
+    },
+    {
+      "from": "tool:built",
+      "rel": "available_in",
+      "to": "market:US"
+    },
+    {
+      "from": "tool:built",
+      "rel": "alternative_to",
+      "to": "tool:lendingpad"
     },
     {
       "from": "tool:bulldozair",
@@ -6487,6 +6657,46 @@
       "to": "market:FR"
     },
     {
+      "from": "tool:document-crunch",
+      "rel": "published_by",
+      "to": "editor:Document Crunch"
+    },
+    {
+      "from": "tool:document-crunch",
+      "rel": "belongs_to",
+      "to": "category:construction-development"
+    },
+    {
+      "from": "tool:document-crunch",
+      "rel": "also_serves",
+      "to": "category:ai-assistants"
+    },
+    {
+      "from": "tool:document-crunch",
+      "rel": "serves_persona",
+      "to": "persona:developer-builder"
+    },
+    {
+      "from": "tool:document-crunch",
+      "rel": "serves_persona",
+      "to": "persona:corporate-re"
+    },
+    {
+      "from": "tool:document-crunch",
+      "rel": "covers_segment",
+      "to": "segment:land-development"
+    },
+    {
+      "from": "tool:document-crunch",
+      "rel": "covers_segment",
+      "to": "segment:mixed-use"
+    },
+    {
+      "from": "tool:document-crunch",
+      "rel": "available_in",
+      "to": "market:US"
+    },
+    {
       "from": "tool:docusign",
       "rel": "published_by",
       "to": "editor:Docusign"
@@ -7885,6 +8095,71 @@
       "from": "tool:frontsteps",
       "rel": "alternative_to",
       "to": "tool:payhoa"
+    },
+    {
+      "from": "tool:fyxt",
+      "rel": "published_by",
+      "to": "editor:Fyxt"
+    },
+    {
+      "from": "tool:fyxt",
+      "rel": "belongs_to",
+      "to": "category:commercial-am"
+    },
+    {
+      "from": "tool:fyxt",
+      "rel": "also_serves",
+      "to": "category:facility-maintenance"
+    },
+    {
+      "from": "tool:fyxt",
+      "rel": "serves_persona",
+      "to": "persona:property-manager"
+    },
+    {
+      "from": "tool:fyxt",
+      "rel": "serves_persona",
+      "to": "persona:corporate-re"
+    },
+    {
+      "from": "tool:fyxt",
+      "rel": "serves_persona",
+      "to": "persona:investor-am"
+    },
+    {
+      "from": "tool:fyxt",
+      "rel": "covers_segment",
+      "to": "segment:office"
+    },
+    {
+      "from": "tool:fyxt",
+      "rel": "covers_segment",
+      "to": "segment:industrial"
+    },
+    {
+      "from": "tool:fyxt",
+      "rel": "covers_segment",
+      "to": "segment:retail"
+    },
+    {
+      "from": "tool:fyxt",
+      "rel": "covers_segment",
+      "to": "segment:mixed-use"
+    },
+    {
+      "from": "tool:fyxt",
+      "rel": "available_in",
+      "to": "market:US"
+    },
+    {
+      "from": "tool:fyxt",
+      "rel": "alternative_to",
+      "to": "tool:vts"
+    },
+    {
+      "from": "tool:fyxt",
+      "rel": "alternative_to",
+      "to": "tool:visual-lease"
     },
     {
       "from": "tool:garantme",
@@ -11847,6 +12122,56 @@
       "to": "tool:bien-ici"
     },
     {
+      "from": "tool:parity",
+      "rel": "published_by",
+      "to": "editor:Parity"
+    },
+    {
+      "from": "tool:parity",
+      "rel": "belongs_to",
+      "to": "category:energy-esg"
+    },
+    {
+      "from": "tool:parity",
+      "rel": "also_serves",
+      "to": "category:facility-maintenance"
+    },
+    {
+      "from": "tool:parity",
+      "rel": "serves_persona",
+      "to": "persona:facility-manager"
+    },
+    {
+      "from": "tool:parity",
+      "rel": "serves_persona",
+      "to": "persona:investor-am"
+    },
+    {
+      "from": "tool:parity",
+      "rel": "serves_persona",
+      "to": "persona:landlord-owner"
+    },
+    {
+      "from": "tool:parity",
+      "rel": "covers_segment",
+      "to": "segment:multifamily"
+    },
+    {
+      "from": "tool:parity",
+      "rel": "covers_segment",
+      "to": "segment:hospitality"
+    },
+    {
+      "from": "tool:parity",
+      "rel": "available_in",
+      "to": "market:US"
+    },
+    {
+      "from": "tool:parity",
+      "rel": "alternative_to",
+      "to": "tool:wattsense"
+    },
+    {
       "from": "tool:partnerimmo",
       "rel": "published_by",
       "to": "editor:Partnerimmo"
@@ -14697,6 +15022,66 @@
       "to": "tool:resware"
     },
     {
+      "from": "tool:sogefi-geoservices",
+      "rel": "published_by",
+      "to": "editor:Sogefi"
+    },
+    {
+      "from": "tool:sogefi-geoservices",
+      "rel": "belongs_to",
+      "to": "category:market-data"
+    },
+    {
+      "from": "tool:sogefi-geoservices",
+      "rel": "also_serves",
+      "to": "category:construction-development"
+    },
+    {
+      "from": "tool:sogefi-geoservices",
+      "rel": "serves_persona",
+      "to": "persona:developer-builder"
+    },
+    {
+      "from": "tool:sogefi-geoservices",
+      "rel": "serves_persona",
+      "to": "persona:corporate-re"
+    },
+    {
+      "from": "tool:sogefi-geoservices",
+      "rel": "serves_persona",
+      "to": "persona:investor-am"
+    },
+    {
+      "from": "tool:sogefi-geoservices",
+      "rel": "covers_segment",
+      "to": "segment:land-development"
+    },
+    {
+      "from": "tool:sogefi-geoservices",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:sogefi-geoservices",
+      "rel": "covers_segment",
+      "to": "segment:mixed-use"
+    },
+    {
+      "from": "tool:sogefi-geoservices",
+      "rel": "available_in",
+      "to": "market:FR"
+    },
+    {
+      "from": "tool:sogefi-geoservices",
+      "rel": "alternative_to",
+      "to": "tool:urbanease"
+    },
+    {
+      "from": "tool:sogefi-geoservices",
+      "rel": "alternative_to",
+      "to": "tool:kelfoncier"
+    },
+    {
       "from": "tool:spacebring",
       "rel": "published_by",
       "to": "editor:Spacebring"
@@ -16005,6 +16390,51 @@
       "from": "tool:urbanease",
       "rel": "alternative_to",
       "to": "tool:cityscan"
+    },
+    {
+      "from": "tool:urbansimul",
+      "rel": "published_by",
+      "to": "editor:Cerema"
+    },
+    {
+      "from": "tool:urbansimul",
+      "rel": "belongs_to",
+      "to": "category:market-data"
+    },
+    {
+      "from": "tool:urbansimul",
+      "rel": "also_serves",
+      "to": "category:construction-development"
+    },
+    {
+      "from": "tool:urbansimul",
+      "rel": "serves_persona",
+      "to": "persona:developer-builder"
+    },
+    {
+      "from": "tool:urbansimul",
+      "rel": "serves_persona",
+      "to": "persona:corporate-re"
+    },
+    {
+      "from": "tool:urbansimul",
+      "rel": "covers_segment",
+      "to": "segment:land-development"
+    },
+    {
+      "from": "tool:urbansimul",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:urbansimul",
+      "rel": "available_in",
+      "to": "market:FR"
+    },
+    {
+      "from": "tool:urbansimul",
+      "rel": "alternative_to",
+      "to": "tool:urbanease"
     },
     {
       "from": "tool:vantaca",
