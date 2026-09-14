@@ -11,7 +11,7 @@
 //   node scripts/enrich/verify.mjs --queue candidats.json    # vérifie ET met en file
 import {
   ROOT, loadTools, pool, today, readFileSync,
-  slugify, hostOf, cleanName, verifyCandidate, loadQueue, saveQueue,
+  slugify, hostOf, cleanName, verifyCandidate, loadQueue, saveQueue, isStillRejected,
 } from './lib.mjs';
 
 const args = process.argv.slice(2);
@@ -34,14 +34,15 @@ const tools = loadTools();
 const queue = loadQueue(ROOT);
 const known = new Set([...tools.map((t) => t.slug), ...queue.candidates.map((c) => c.slug)]);
 const hosts = new Set([...tools.map((t) => hostOf(t.website)), ...queue.candidates.map((c) => hostOf(c.website))].filter(Boolean));
-const rejected = new Set(queue.rejected.map((r) => r.slug));
 
 const results = await pool(input, 8, async (raw) => {
   const name = cleanName(raw.name);
   const slug = slugify(name);
   const h = hostOf(raw.website);
   if (known.has(slug)) return { name, slug, ok: false, why: 'déjà au catalogue ou en file' };
-  if (rejected.has(slug)) return { name, slug, ok: false, why: 'déjà écarté lors d\'une passe précédente' };
+  if (isStillRejected(queue.rejected, slug, raw.website)) {
+    return { name, slug, ok: false, why: 'déjà écarté lors d\'une passe précédente sur ce domaine' };
+  }
   if (h && hosts.has(h)) return { name, slug, ok: false, why: `domaine déjà présent (${h})` };
   const v = await verifyCandidate({ ...raw, name });
   return { ...raw, name, slug, ok: v.ok, why: v.why, warn: v.warn ?? null, website: v.website ?? raw.website };

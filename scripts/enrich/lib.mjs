@@ -450,6 +450,22 @@ export async function verifyCandidate(c) {
   return { ok: false, why: 'site injoignable' };
 }
 
+/**
+ * Un candidat déjà écarté ne redevient éligible que sur une preuve nouvelle :
+ * un domaine qu'on n'a encore jamais essayé pour ce même nom. `courtisia` a
+ * été écarté le 25/08 pour `courtisia.fr` (mort) alors que le produit vit à
+ * `courtisia.com` — bloquer par slug seul aurait interdit cette seconde chance
+ * pour toujours. Un refus sans domaine enregistré (« déjà au catalogue »,
+ * homonyme jugé sur le nom) n'offre rien à comparer : il bloque quel que soit
+ * le site proposé.
+ */
+export function isStillRejected(rejectedList, slug, website) {
+  const hosts = rejectedList.filter((r) => r.slug === slug).map((r) => hostOf(r.website));
+  if (hosts.length === 0) return false;
+  const newHost = hostOf(website);
+  return hosts.some((h) => h === null || h === newHost);
+}
+
 /** La file des candidats — un seul endroit, partagé par découverte et balayage. */
 export function loadQueue(root) {
   const p = join(root, 'data', 'candidates.json');

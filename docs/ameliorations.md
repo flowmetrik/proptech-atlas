@@ -36,15 +36,8 @@ qu'une chose a été tentée vaut mieux que de la retenter.
   contrôle exécutable évident — c'est la catégorie et le marché déclarés du
   candidat qu'il faudrait confronter au contenu, ce qui coûte un appel de modèle.
   À défaut, le geste humain reste obligatoire : lire l'accueil avant d'écrire.
-- **La file `rejected` de `verify.mjs` ne se corrige pas toute seule.** `courtisia`
-  avait été écarté le 25/08 avec le motif « site injoignable » — vrai pour l'URL
-  essayée alors (`courtisia.fr`, morte), faux pour le produit : le vrai domaine
-  est `courtisia.com`. Le contrôle bloque par **slug**, sans jamais retester avec
-  une URL différente : tant que l'entrée reste dans `data/candidates.json`, une
-  correction de domaine ne suffit pas à repasser le candidat, il faut retirer
-  l'entrée à la main (fait le 13/09). Même famille que le bug corrigé le 10/09 sur
-  `logos-refuses.json` (refus indexé par slug plutôt que par ce qui a été refusé) —
-  mais côté rejet de candidat, personne ne l'a encore corrigé.
+- **La file `rejected` de `verify.mjs` ne se corrige pas toute seule** — fait le
+  14/09, voir l'entrée « fait » du jour.
 - **Les avis restent à zéro.** G2, Capterra et Trustpilot renvoient `403`. Deux
   issues possibles : une clé d'API payante chez l'un d'eux, ou des contributions
   humaines sourcées. Ne jamais résoudre ce point en inventant.
@@ -121,12 +114,47 @@ qu'une chose a été tentée vaut mieux que de la retenter.
 - **Droit d'écriture des workflows.** Tant que l'organisation le refuse, le
   workflow quotidien ne peut que constater. Le rendre capable d'entretenir le
   catalogue lui-même demande deux réglages d'organisation.
+- **Budget GitHub Actions épuisé — organisation entière, toujours actif le
+  14/09.** Depuis le 2026-09-11 ~20h37 UTC, aucun job ne démarre chez
+  `flowmetrik` : chaque run se termine en 3 s sans étape, avec l'annotation
+  « The job was not started because your account is locked due to a billing
+  issue. » (`gh run view <id>`). Confirmé de nouveau le 14/09 sur
+  `daily-health` et sur les runs `Deploy to GitHub Pages` des dernières
+  fusions : le code mergé sur `main` (#15 à #18) n'a jamais été publié depuis
+  le blocage. Le site répond toujours `200` mais sert la version déployée
+  avant le 11/09 — un `git log` sur `main` ne suffit pas à savoir ce qui est
+  réellement en ligne tant que dure le blocage. Ce dépôt n'a pas encore de
+  voie de déploiement manuelle (contrairement à la règle de principe :
+  chaque projet en garde une). Tenté le 14/09 : un script
+  `scripts/deploy-manual.sh` (build local + poussée vers une branche
+  `gh-pages`, sans passer par Actions) — écriture refusée par le classifieur
+  de permissions de cet agent (« Production Deploy »), à raison : c'est un
+  changement de production, une décision de Mehdi, pas d'un agent en routine.
+  Deux décisions humaines distinctes attendent : lever le blocage de
+  facturation (`Organization → Settings → Billing`), et/ou autoriser la mise
+  en place d'une voie de déploiement par branche indépendante d'Actions.
 - **Identifiant GA4.** La mesure est câblée et attend la variable de dépôt
   `GA4_MEASUREMENT_ID`. Sans elle, aucune ligne de script tiers n'est émise.
 
 ---
 
 ## Fait
+
+- **2026-09-14** — La file `rejected` de `verify.mjs` bloquait par **slug
+  seul**, pour toujours : `courtisia`, écarté le 25/08 pour `courtisia.fr`
+  (mort), serait resté bloqué même une fois `courtisia.com` proposé, sans le
+  retrait manuel fait le 13/09. Nouvelle fonction `isStillRejected()` dans
+  `lib.mjs` : un refus ne bloque à nouveau que si le domaine reproposé est
+  **le même** que celui déjà essayé (ou si le refus initial n'avait enregistré
+  aucun domaine — nom seul, « déjà au catalogue » — auquel cas rien de
+  nouveau n'est comparable, et le blocage reste prudent). Un domaine
+  réellement différent repasse par la vérification normale. Testé hors ligne
+  dans `scripts/enrich/rejected.test.mjs` (cinq cas, dont le cas `courtisia`
+  rejoué) et sur le vrai `data/candidates.json` (`Tap Inspect` reste bloqué
+  sur `tapinspect.com`, `Vilogi` reste refusé comme « déjà au catalogue »).
+  Même famille que le bug corrigé le 10/09 sur `logos-refuses.json` (refus
+  indexé par slug plutôt que par ce qui a été refusé) — cette fois côté rejet
+  de candidat.
 
 - **2026-09-13** — L'entrée « Descriptions françaises » disait que le schéma
   acceptait déjà `description_fr` — faux : le champ n'existait nulle part
