@@ -4,7 +4,7 @@
   "label_fr": "Énergie, ESG & performance du bâtiment",
   "summary_en": "Meter data, carbon trajectory, regulatory reporting and retrofit planning.",
   "summary_fr": "Données compteurs, trajectoire carbone, reporting réglementaire et plan de travaux.",
-  "count": 9,
+  "count": 10,
   "tools": [
     {
       "slug": "advizeo",
@@ -535,6 +535,93 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "parity",
+      "name": "Parity",
+      "editor": "Parity",
+      "website": "https://www.paritygo.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "energy-esg",
+      "also_in": [
+        "facility-maintenance"
+      ],
+      "positioning": "Remote HVAC optimization for multifamily and hotels, with utility savings guaranteed or refunded.",
+      "description": "Parity remotely monitors and adjusts HVAC systems in multifamily buildings and hotels, using machine learning to reset setpoints and equipment behavior in real time without on-site staff intervention. It sells the outcome as a guaranteed savings service rather than a self-serve dashboard: it commits to a percentage reduction in utility costs and refunds the difference if it misses.\n",
+      "real_estate_use": "A multifamily owner with an aging HVAC fleet across several buildings does not have the engineering staff to retune each system building by building; Parity ingests operational data from the equipment, streams optimized control adjustments back to it continuously, and reports the realized savings against its guarantee — turning an energy-efficiency retrofit that would otherwise require capital and a contractor into a subscription with the risk on Parity's side.\n",
+      "features": [
+        "Remote real-time HVAC control and optimization",
+        "Machine-learning-driven setpoint and equipment adjustment",
+        "Guaranteed utility cost savings with refund if missed",
+        "Demand-response program participation",
+        "System alerting and monitoring"
+      ],
+      "use_cases": [
+        {
+          "persona": "facility-manager",
+          "job": "Cut HVAC utility costs across a multifamily portfolio without an in-house retuning project"
+        },
+        {
+          "persona": "investor-am",
+          "job": "Add a guaranteed-savings energy program to an asset without capital spend"
+        }
+      ],
+      "personas": [
+        "facility-manager",
+        "investor-am",
+        "landlord-owner"
+      ],
+      "segments": [
+        "multifamily",
+        "hospitality"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "wattsense"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/parity.png",
+        "source_url": "https://www.paritygo.com/wp-content/uploads/2024/01/Parity-Logo-Color-Light-1-1-1.png",
+        "fetched_on": "2026-09-14"
+      },
+      "signals": {
+        "privacy": "https://www.paritygo.com/privacy-policy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-14"
+      },
+      "sources": [
+        {
+          "url": "https://www.paritygo.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-14"
     },
     {
       "slug": "spinalcom",

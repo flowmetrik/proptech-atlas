@@ -2,7 +2,7 @@
 
 <!-- Généré par `npm run data:emit`. Ne pas éditer à la main : éditer `data/tools/*.yaml`. -->
 
-258 produits · 142 🇺🇸 · 146 🇫🇷 · mis à jour le 2026-09-13
+265 produits · 147 🇺🇸 · 148 🇫🇷 · mis à jour le 2026-09-14
 
 Version navigable : https://flowmetrik.github.io/proptech-atlas/explore
 
@@ -82,8 +82,10 @@ _Comparables, propriétaires, transactions, loyers, fréquentation et les jeux d
 | [Placer.ai](data/tools/placer-ai.yaml) | Placer Labs | 🇺🇸 🇫🇷 | In retail leasing it replaces the argument from intuition. A landlord shows a prospective tenant that the centre draws a measured number of visits from a trade area matching the brand's… |
 | [RealReports](data/tools/realreports.yaml) | BHR Labs | 🇺🇸 | Un agent préparant une offre veut savoir rapidement si un bien est en zone inondable, ce que révèlent les documents de divulgation du vendeur, et comment le positionner face au marché… |
 | [Reonomy](data/tools/reonomy.yaml) | Altus Group | 🇺🇸 | Its use is prospecting rather than underwriting. A broker looking for listings filters a county for owners who have held an asset more than ten years with a maturing loan, then pulls a… |
+| [Sogefi GéoServices](data/tools/sogefi-geoservices.yaml) | Sogefi | 🇫🇷 | A proptech editor adding a parcel-lookup or a permit-tracking feature does not want to become a data-pipeline company: it calls Sogefi's API URBA or API ADS and gets the current zoning… |
 | [Terralyse](data/tools/terralyse.yaml) | Terralyse | 🇫🇷 | The French state publishes almost everything about a plot of land, and publishes it in six different places with six different keys: DVF for prices, the cadastre for parcels, the PLU for… |
 | [Urbanease](data/tools/urbanease.yaml) | Urbanease | 🇫🇷 | Finding the parcel is half the job; the other half is a disciplined approach to an owner who was not thinking of selling. Urbanease keeps the qualification and the contact history on the… |
+| [UrbanSIMUL](data/tools/urbansimul.yaml) | Cerema | 🇫🇷 | A planning officer at a municipality or intercommunality opens UrbanSIMUL to screen a commune for parcels that could absorb new housing without converting more farmland or forest, then… |
 | [Yanport](data/tools/yanport.yaml) | Yanport | 🇫🇷 | France has no MLS, so the history of what was actually asked and what actually sold is fragmented across portals and public records. Yanport reconstructs it: an appraiser or a developer… |
 
 ## Publication & diffusion d'annonces · Listing publishing & syndication
@@ -193,6 +195,7 @@ _Administration institutionnelle des baux, actifs et portefeuilles._
 | Produit | Éditeur | Marchés | Usage en immobilier |
 |---|---|---|---|
 | [Dottid](data/tools/dottid.yaml) | Dottid | 🇺🇸 | An asset management team replaces spreadsheets and email threads with Dottid to track every lease from prospect to signature, see a stacking plan of who occupies what floor, and pull… |
+| [Fyxt](data/tools/fyxt.yaml) | Fyxt | 🇺🇸 | A commercial property manager running a mixed portfolio of office and industrial buildings otherwise keeps lease terms, tenant insurance certificates and maintenance requests in separate… |
 | [Leasecake](data/tools/leasecake.yaml) | Leasecake | 🇺🇸 | The buyer here is the tenant, not the landlord: a restaurant group, a retail chain, a franchise operator with fifty to several hundred locations whose leases live in a shared drive and… |
 | [MRI Software](data/tools/mri-software.yaml) | MRI Software | 🇺🇸 🇫🇷 | A European or transatlantic owner often cannot standardise on one vendor — local accounting, local leasing practice and existing systems all resist it. MRI is chosen when the lease and… |
 | [Prophia](data/tools/prophia.yaml) | Prophia | 🇺🇸 | The situation is an acquisition or a portfolio handover where several hundred leases arrive as PDFs and the rent roll has to be trusted before an offer is made. Doing that by hand takes… |
@@ -220,6 +223,7 @@ _Monter, tarifer et gérer le crédit immobilier._
 |---|---|---|---|
 | [Actelo](data/tools/actelo.yaml) | Actelo | 🇫🇷 | A mortgage broker takes in a buyer whose offer has just been accepted and has to turn a project into a bankable file within days. Actelo runs the calculation side: it works out which… |
 | [Blend](data/tools/blend.yaml) | Blend Labs | 🇺🇸 | The failure point in mortgage is the borrower experience: a form that asks for two years of bank statements as PDFs loses applicants to a competitor. Blend replaces that with direct… |
+| [Built](data/tools/built.yaml) | Built Technologies | 🇺🇸 | A construction lender juggling dozens of active loans needs to know, on any given day, which draws are pending, which inspections are overdue, and where a budget is drifting — work that… |
 | [Courtisia](data/tools/courtisia.yaml) | Fletesia | 🇫🇷 | A mortgage broker assembling a loan file needs to run an affordability simulation, produce the regulatory paperwork, get it signed, route it to the right lenders, and eventually invoice… |
 | [Créditéo](data/tools/crediteo.yaml) | Créditéo | 🇫🇷 | A broker's day is a queue of half-complete files, each waiting on a document or a lender's answer. Créditéo is the desk where that queue is ordered: configurable stages say where each… |
 | [ELIOB.fr](data/tools/eliob.yaml) | ELIOB | 🇫🇷 | A broker or brokerage firm uses ELIOB.fr to keep one structured file per client — contacts, supporting documents, partner banks and history — and to follow a loan project continuously… |
@@ -256,6 +260,7 @@ _Faisabilité, pilotage de projet, suivi de chantier et livraison._
 | [Bluebeam Revu](data/tools/bluebeam.yaml) | Bluebeam (Nemetschek Group) | 🇺🇸 🇫🇷 | Drawing review remains a PDF workflow on most projects, whatever the model contains. Bluebeam is where an estimator does takeoff, where a design review is marked up by six people at once… |
 | [Buildertrend](data/tools/buildertrend.yaml) | Buildertrend | 🇺🇸 | Custom home building and renovation differ from commercial construction in one respect that dominates everything: the client lives with the outcome and changes their mind. The selections… |
 | [BulldozAIR](data/tools/bulldozair.yaml) | BulldozAIR | 🇫🇷 | A site visit produces dozens of observations that traditionally become an evening of report writing and a week of chasing. Pinning each one to a plan coordinate, assigning it on the spot… |
+| [Document Crunch](data/tools/document-crunch.yaml) | Document Crunch | 🇺🇸 | A general contractor's project executive is handed a fifty-page subcontract the week before a bid deadline and has neither the time nor, in many firms, in-house counsel to read it clause… |
 | [Finalcad](data/tools/finalcad.yaml) | Finalcad | 🇫🇷 | Field adoption is the whole battle: a tool a subcontractor's foreman will not open produces no data, whatever it can do. Finalcad's design choice is to strip the field experience down to… |
 | [Graneet](data/tools/graneet.yaml) | Graneet | 🇫🇷 | Construction firms in France bill by situation de travaux — a periodic statement of work completed — and their margin is decided by the gap between the estimate and the actual site cost.… |
 | [Kairnial](data/tools/kairnial.yaml) | Thinkproject | 🇫🇷 | On a large French project the governing risk is documentary: which version of a plan was approved, who validated it, and what evidence exists that a reserve was lifted. Kairnial… |
@@ -297,6 +302,7 @@ _Données compteurs, trajectoire carbone, reporting réglementaire et plan de tr
 | [Deepki](data/tools/deepki.yaml) | Deepki | 🇫🇷 🇺🇸 | European regulation makes this operational rather than reputational: the décret tertiaire requires measured consumption reductions on French tertiary buildings, and the EU taxonomy and… |
 | [ENERGY STAR Portfolio Manager](data/tools/energystar-portfolio-manager.yaml) | US Environmental Protection Agency | 🇺🇸 | When a city ordinance requires annual energy disclosure, it almost always means uploading to Portfolio Manager. Owners therefore use it whether or not they have a commercial energy… |
 | [Measurabl](data/tools/measurabl.yaml) | Measurabl | 🇺🇸 🇫🇷 | A fund's ESG reporting cycle used to mean chasing utility bills across dozens of assets every spring. Measurabl automates the collection, standardises the metrics across countries and… |
+| [Parity](data/tools/parity.yaml) | Parity | 🇺🇸 | A multifamily owner with an aging HVAC fleet across several buildings does not have the engineering staff to retune each system building by building; Parity ingests operational data from… |
 | [Ubigreen](data/tools/ubigreen.yaml) | Ubigreen | 🇫🇷 | Since hybrid work, the two questions arrived together: how much energy does this building use, and how much of it is actually occupied. Measuring both allows the decision that follows —… |
 | [WatchWire](data/tools/watchwire.yaml) | WatchWire | 🇺🇸 | Large portfolios lose money to billing errors and to demand charges nobody notices. WatchWire validates invoices against tariffs and consumption, flags anomalies, and produces the… |
 
@@ -424,6 +430,7 @@ _Assistants LLM qui répondent, qualifient, rédigent et agissent sur le métier
 
 | Produit | Éditeur | Marchés | Usage en immobilier |
 |---|---|---|---|
+| [Breezy](data/tools/breezy.yaml) | Breezy | 🇺🇸 | An agent leaving a listing appointment used to type up notes from memory and build a comp sheet from scratch that evening; Breezy's assistant listens during the meeting, turns the… |
 | [EliseAI](data/tools/eliseai.yaml) | EliseAI | 🇺🇸 | Leasing enquiries arrive outside office hours and go cold within the hour. EliseAI answers immediately in the channel the prospect used, checks real availability against the property… |
 | [Genius](data/tools/genius-immo.yaml) | Genius | 🇫🇷 | A block manager holding several dozen buildings gets the same question all week, a copropriétaire asking for the last general meeting minutes, a tenant asking who to call about a leak… |
 | [Joe AI](data/tools/joe-ai.yaml) | Joe AI | 🇫🇷 | An agency or syndic receiving a high volume of routine calls — visit requests, general questions, recurring tenant demands — needs those calls answered and pre-qualified around the clock… |

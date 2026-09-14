@@ -1,0 +1,58 @@
+slug: breezy
+name: Breezy
+editor: Breezy
+website: https://www.breezy.com
+hq_country: US
+markets: [US]
+category: ai-assistants
+also_in: [agent-marketing]
+positioning: "A mobile AI workspace built by a working agent, for agents — comps, notes and pipeline in one place."
+description: >
+  Breezy is a mobile AI workspace for residential real estate agents and small
+  brokerages. It generates client-ready comparable market analyses, takes automated
+  notes during in-person conversations, updates a transaction pipeline from those
+  notes, and surfaces nearby development potential through its UnderBuilt Radar
+  module.
+real_estate_use: >
+  An agent leaving a listing appointment used to type up notes from memory and build a
+  comp sheet from scratch that evening; Breezy's assistant listens during the meeting,
+  turns the conversation into structured notes, and produces a polished
+  comparable-property analysis in seconds so the follow-up email can go out before the
+  agent is back in the car. A brokerage admin gets the same activity rolled up across
+  the team instead of chasing individual agents for pipeline updates.
+features:
+  - AI-generated comparative market analyses (comps)
+  - Automated meeting note-taking and structuring
+  - Pipeline stage updates from captured notes
+  - UnderBuilt Radar for nearby development potential
+  - Team and brokerage-level activity dashboard
+use_cases:
+  - persona: agent-broker
+    job: Produce a client-ready comp sheet and follow-up notes right after a listing appointment
+  - persona: brokerage
+    job: See team-wide agent activity and pipeline without manual reporting
+personas: [agent-broker, brokerage]
+segments: [residential]
+company_sizes: [solo, smb, midmarket]
+pricing:
+  model: subscription
+  public_pricing: false
+product:
+  api: false
+  open_source: false
+  mobile: [ios, android]
+  languages: [en]
+alternatives: [structurely, ylopo]
+reviews: []
+logo:
+  file: logos/breezy.png
+  source_url: https://framerusercontent.com/images/HY7jmpexXutBea8aqjaDj4HU9yE.png
+  fetched_on: "2026-09-14"
+signals:
+  privacy: https://app.breezy.com/privacy
+  site_languages: [en]
+  checked_on: "2026-09-14"
+sources:
+  - { url: https://www.breezy.com, note: site éditeur }
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-09-14"

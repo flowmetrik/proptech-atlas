@@ -1,0 +1,58 @@
+slug: sogefi-geoservices
+name: Sogefi GéoServices
+editor: Sogefi
+website: https://geoservices.sogefi-sig.com
+hq_country: FR
+markets: [FR]
+category: market-data
+also_in: [construction-development]
+positioning: "Fifteen French geolocation APIs — zoning, permits, cadastre, transactions — for the software editors who build on top of them."
+description: >
+  Sogefi GéoServices is an API platform publishing structured French property and land
+  data: urban planning zoning documents (API URBA), building and demolition permits
+  (API ADS), cadastral parcels, condominium registries, transaction prices and
+  natural-hazard zoning. It sells to software editors, local authorities and
+  private-sector integrators rather than to end consumers.
+real_estate_use: >
+  A proptech editor adding a parcel-lookup or a permit-tracking feature does not want
+  to become a data-pipeline company: it calls Sogefi's API URBA or API ADS and gets
+  the current zoning or permit history for a given parcel, kept current by Sogefi
+  instead of scraped and maintained in-house. A local authority builds its own
+  planning portal on the same infrastructure without operating GIS servers of its own.
+features:
+  - Urban planning zoning and PLU documents by parcel (API URBA)
+  - "Building, demolition and development permit records (API ADS)"
+  - Cadastral parcel and condominium registry data
+  - Property transaction prices (DVF+)
+  - Natural and technological hazard zoning (API RISQUES)
+  - Vector map tiles covering French territory
+use_cases:
+  - persona: developer-builder
+    job: Check zoning constraints and permit history on a parcel before committing to a project
+  - persona: corporate-re
+    job: Feed parcel-level planning and hazard data into an internal tool without building GIS infrastructure
+personas: [developer-builder, corporate-re, investor-am]
+segments: [land-development, residential, mixed-use]
+company_sizes: [smb, midmarket, enterprise]
+pricing:
+  model: usage
+  public_pricing: false
+product:
+  api: true
+  open_source: false
+  mobile: []
+  languages: [fr]
+alternatives: [urbanease, kelfoncier]
+reviews: []
+logo:
+  file: logos/sogefi-geoservices.png
+  source_url: https://geoservices.sogefi-sig.com/img/logo_sogefi_horiz_rvb.svg
+  fetched_on: "2026-09-14"
+signals:
+  site_languages: [fr]
+  checked_on: "2026-09-14"
+sources:
+  - { url: https://geoservices.sogefi-sig.com, note: site éditeur }
+  - { url: https://geoservices.sogefi-sig.com/documentation.php?doc=api_audrso_v2, note: documentation API URBA/AUDRSO }
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-09-14"

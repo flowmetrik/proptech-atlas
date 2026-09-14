@@ -4,7 +4,7 @@
   "label_fr": "Agents IA & automatisation",
   "summary_en": "LLM-native assistants that answer, qualify, draft and act on real estate work.",
   "summary_fr": "Assistants LLM qui répondent, qualifient, rédigent et agissent sur le métier.",
-  "count": 19,
+  "count": 21,
   "tools": [
     {
       "slug": "appfolio",
@@ -123,6 +123,96 @@
       "updated": "2026-08-25"
     },
     {
+      "slug": "breezy",
+      "name": "Breezy",
+      "editor": "Breezy",
+      "website": "https://www.breezy.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "ai-assistants",
+      "also_in": [
+        "agent-marketing"
+      ],
+      "positioning": "A mobile AI workspace built by a working agent, for agents — comps, notes and pipeline in one place.",
+      "description": "Breezy is a mobile AI workspace for residential real estate agents and small brokerages. It generates client-ready comparable market analyses, takes automated notes during in-person conversations, updates a transaction pipeline from those notes, and surfaces nearby development potential through its UnderBuilt Radar module.\n",
+      "real_estate_use": "An agent leaving a listing appointment used to type up notes from memory and build a comp sheet from scratch that evening; Breezy's assistant listens during the meeting, turns the conversation into structured notes, and produces a polished comparable-property analysis in seconds so the follow-up email can go out before the agent is back in the car. A brokerage admin gets the same activity rolled up across the team instead of chasing individual agents for pipeline updates.\n",
+      "features": [
+        "AI-generated comparative market analyses (comps)",
+        "Automated meeting note-taking and structuring",
+        "Pipeline stage updates from captured notes",
+        "UnderBuilt Radar for nearby development potential",
+        "Team and brokerage-level activity dashboard"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Produce a client-ready comp sheet and follow-up notes right after a listing appointment"
+        },
+        {
+          "persona": "brokerage",
+          "job": "See team-wide agent activity and pipeline without manual reporting"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "structurely",
+        "ylopo"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/breezy.png",
+        "source_url": "https://framerusercontent.com/images/HY7jmpexXutBea8aqjaDj4HU9yE.png",
+        "fetched_on": "2026-09-14"
+      },
+      "signals": {
+        "privacy": "https://app.breezy.com/privacy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-14"
+      },
+      "sources": [
+        {
+          "url": "https://www.breezy.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-14"
+    },
+    {
       "slug": "brickwise-ai",
       "name": "Brickwise AI",
       "editor": "Brickwise",
@@ -212,6 +302,86 @@
         "checked_by": null
       },
       "updated": "2026-09-10"
+    },
+    {
+      "slug": "document-crunch",
+      "name": "Document Crunch",
+      "editor": "Document Crunch",
+      "website": "https://www.documentcrunch.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "construction-development",
+      "also_in": [
+        "ai-assistants"
+      ],
+      "positioning": "Read every construction contract clause the way a claims attorney would, before you sign it.",
+      "description": "Document Crunch is an AI contract-intelligence platform built specifically for commercial construction contracts. Its model, CrunchAI, is trained to recognize construction-specific clauses — flow-down risk, indemnification, change-order and notice provisions — and cites the exact source clause behind each finding, across the pursuit, pre-bid and execution stages of a project.\n",
+      "real_estate_use": "A general contractor's project executive is handed a fifty-page subcontract the week before a bid deadline and has neither the time nor, in many firms, in-house counsel to read it clause by clause. Document Crunch's CrunchAI redlines the document against known risk patterns in construction contracts — a flow-down clause that shifts liability, a notice deadline buried in a schedule exhibit — and cites the exact clause behind each flag, so a non-lawyer can triage what actually needs a lawyer's attention.\n",
+      "features": [
+        "AI contract review trained on construction-specific clauses (CrunchAI)",
+        "Auto-redlining and version comparison during pursuit",
+        "Spec review before bid day",
+        "Real-time contractual risk tracking during construction execution",
+        "Clause-level citation for every flagged risk"
+      ],
+      "use_cases": [
+        {
+          "persona": "developer-builder",
+          "job": "Triage a subcontract for risky clauses before a bid deadline, without in-house counsel"
+        },
+        {
+          "persona": "corporate-re",
+          "job": "Track contractual risk across an active construction project as change orders and notices accumulate"
+        }
+      ],
+      "personas": [
+        "developer-builder",
+        "corporate-re"
+      ],
+      "segments": [
+        "land-development",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "reviews": [],
+      "signals": {
+        "security": "https://www.documentcrunch.com/security",
+        "privacy": "https://www.documentcrunch.com/privacy-notice",
+        "status": "https://status.documentcrunch.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-14"
+      },
+      "sources": [
+        {
+          "url": "https://www.documentcrunch.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-14"
     },
     {
       "slug": "eliseai",

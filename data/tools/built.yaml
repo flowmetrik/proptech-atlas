@@ -1,0 +1,58 @@
+slug: built
+name: Built
+editor: Built Technologies
+website: https://getbuilt.com
+hq_country: US
+markets: [US]
+category: lending-mortgage
+also_in: [construction-development]
+positioning: "One AI-powered platform to fund, develop, build and manage construction real estate — for lenders, developers and general contractors alike."
+description: >
+  Built is a cloud platform for construction lending and construction finance
+  administration. Banks, credit unions and private lenders use it to manage
+  construction loan pipelines, underwriting, draw and budget management, disbursement
+  inspections and portfolio reporting; developers, owners and general contractors use
+  companion modules for budgets, capital calls, invoicing, lien waivers and compliance
+  tracking.
+real_estate_use: >
+  A construction lender juggling dozens of active loans needs to know, on any given
+  day, which draws are pending, which inspections are overdue, and where a budget is
+  drifting — work that used to live across spreadsheets and email threads with the
+  borrower. Built centralizes the draw request, the inspection, the lien waiver and
+  the compliance check for each loan, and its AI Draw Agent pre-processes incoming
+  draw packages so a loan officer reviews an exception rather than re-keying a
+  request.
+features:
+  - Construction loan origination pipeline management
+  - AI-assisted extraction from information memorandums
+  - Draw and budget management with disbursement inspections
+  - AI Draw Agent for automated draw request processing
+  - Lien waiver and compliance tracking
+  - Portfolio and risk reporting for lenders
+use_cases:
+  - persona: lender-broker
+    job: "Track draws, inspections and compliance across a portfolio of active construction loans"
+  - persona: developer-builder
+    job: "Manage budgets, capital calls and lien waivers on a construction project financed by a Built-connected lender"
+personas: [lender-broker, developer-builder, corporate-re]
+segments: [land-development, residential, mixed-use]
+company_sizes: [midmarket, enterprise]
+pricing:
+  model: quote
+  public_pricing: false
+product:
+  api: false
+  open_source: false
+  mobile: []
+  languages: [en]
+alternatives: [lendingpad]
+reviews: []
+signals:
+  privacy: https://getbuilt.com/privacy-policy
+  status: https://status.getbuilt.com
+  site_languages: [en]
+  checked_on: "2026-09-14"
+sources:
+  - { url: https://getbuilt.com, note: site éditeur }
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-09-14"

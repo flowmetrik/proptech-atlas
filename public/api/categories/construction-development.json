@@ -4,7 +4,7 @@
   "label_fr": "Construction & promotion",
   "summary_en": "Feasibility, project management, site supervision and delivery.",
   "summary_fr": "Faisabilité, pilotage de projet, suivi de chantier et livraison.",
-  "count": 18,
+  "count": 22,
   "tools": [
     {
       "slug": "autodesk-construction-cloud",
@@ -433,6 +433,91 @@
       "updated": "2026-08-25"
     },
     {
+      "slug": "built",
+      "name": "Built",
+      "editor": "Built Technologies",
+      "website": "https://getbuilt.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "lending-mortgage",
+      "also_in": [
+        "construction-development"
+      ],
+      "positioning": "One AI-powered platform to fund, develop, build and manage construction real estate — for lenders, developers and general contractors alike.",
+      "description": "Built is a cloud platform for construction lending and construction finance administration. Banks, credit unions and private lenders use it to manage construction loan pipelines, underwriting, draw and budget management, disbursement inspections and portfolio reporting; developers, owners and general contractors use companion modules for budgets, capital calls, invoicing, lien waivers and compliance tracking.\n",
+      "real_estate_use": "A construction lender juggling dozens of active loans needs to know, on any given day, which draws are pending, which inspections are overdue, and where a budget is drifting — work that used to live across spreadsheets and email threads with the borrower. Built centralizes the draw request, the inspection, the lien waiver and the compliance check for each loan, and its AI Draw Agent pre-processes incoming draw packages so a loan officer reviews an exception rather than re-keying a request.\n",
+      "features": [
+        "Construction loan origination pipeline management",
+        "AI-assisted extraction from information memorandums",
+        "Draw and budget management with disbursement inspections",
+        "AI Draw Agent for automated draw request processing",
+        "Lien waiver and compliance tracking",
+        "Portfolio and risk reporting for lenders"
+      ],
+      "use_cases": [
+        {
+          "persona": "lender-broker",
+          "job": "Track draws, inspections and compliance across a portfolio of active construction loans"
+        },
+        {
+          "persona": "developer-builder",
+          "job": "Manage budgets, capital calls and lien waivers on a construction project financed by a Built-connected lender"
+        }
+      ],
+      "personas": [
+        "lender-broker",
+        "developer-builder",
+        "corporate-re"
+      ],
+      "segments": [
+        "land-development",
+        "residential",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "lendingpad"
+      ],
+      "reviews": [],
+      "signals": {
+        "privacy": "https://getbuilt.com/privacy-policy",
+        "status": "https://status.getbuilt.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-14"
+      },
+      "sources": [
+        {
+          "url": "https://getbuilt.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-14"
+    },
+    {
       "slug": "bulldozair",
       "name": "BulldozAIR",
       "editor": "BulldozAIR",
@@ -532,6 +617,86 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "document-crunch",
+      "name": "Document Crunch",
+      "editor": "Document Crunch",
+      "website": "https://www.documentcrunch.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "construction-development",
+      "also_in": [
+        "ai-assistants"
+      ],
+      "positioning": "Read every construction contract clause the way a claims attorney would, before you sign it.",
+      "description": "Document Crunch is an AI contract-intelligence platform built specifically for commercial construction contracts. Its model, CrunchAI, is trained to recognize construction-specific clauses — flow-down risk, indemnification, change-order and notice provisions — and cites the exact source clause behind each finding, across the pursuit, pre-bid and execution stages of a project.\n",
+      "real_estate_use": "A general contractor's project executive is handed a fifty-page subcontract the week before a bid deadline and has neither the time nor, in many firms, in-house counsel to read it clause by clause. Document Crunch's CrunchAI redlines the document against known risk patterns in construction contracts — a flow-down clause that shifts liability, a notice deadline buried in a schedule exhibit — and cites the exact clause behind each flag, so a non-lawyer can triage what actually needs a lawyer's attention.\n",
+      "features": [
+        "AI contract review trained on construction-specific clauses (CrunchAI)",
+        "Auto-redlining and version comparison during pursuit",
+        "Spec review before bid day",
+        "Real-time contractual risk tracking during construction execution",
+        "Clause-level citation for every flagged risk"
+      ],
+      "use_cases": [
+        {
+          "persona": "developer-builder",
+          "job": "Triage a subcontract for risky clauses before a bid deadline, without in-house counsel"
+        },
+        {
+          "persona": "corporate-re",
+          "job": "Track contractual risk across an active construction project as change orders and notices accumulate"
+        }
+      ],
+      "personas": [
+        "developer-builder",
+        "corporate-re"
+      ],
+      "segments": [
+        "land-development",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "reviews": [],
+      "signals": {
+        "security": "https://www.documentcrunch.com/security",
+        "privacy": "https://www.documentcrunch.com/privacy-notice",
+        "status": "https://status.documentcrunch.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-14"
+      },
+      "sources": [
+        {
+          "url": "https://www.documentcrunch.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-14"
     },
     {
       "slug": "finalcad",
@@ -1614,6 +1779,100 @@
       "updated": "2026-09-05"
     },
     {
+      "slug": "sogefi-geoservices",
+      "name": "Sogefi GéoServices",
+      "editor": "Sogefi",
+      "website": "https://geoservices.sogefi-sig.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "market-data",
+      "also_in": [
+        "construction-development"
+      ],
+      "positioning": "Fifteen French geolocation APIs — zoning, permits, cadastre, transactions — for the software editors who build on top of them.",
+      "description": "Sogefi GéoServices is an API platform publishing structured French property and land data: urban planning zoning documents (API URBA), building and demolition permits (API ADS), cadastral parcels, condominium registries, transaction prices and natural-hazard zoning. It sells to software editors, local authorities and private-sector integrators rather than to end consumers.\n",
+      "real_estate_use": "A proptech editor adding a parcel-lookup or a permit-tracking feature does not want to become a data-pipeline company: it calls Sogefi's API URBA or API ADS and gets the current zoning or permit history for a given parcel, kept current by Sogefi instead of scraped and maintained in-house. A local authority builds its own planning portal on the same infrastructure without operating GIS servers of its own.\n",
+      "features": [
+        "Urban planning zoning and PLU documents by parcel (API URBA)",
+        "Building, demolition and development permit records (API ADS)",
+        "Cadastral parcel and condominium registry data",
+        "Property transaction prices (DVF+)",
+        "Natural and technological hazard zoning (API RISQUES)",
+        "Vector map tiles covering French territory"
+      ],
+      "use_cases": [
+        {
+          "persona": "developer-builder",
+          "job": "Check zoning constraints and permit history on a parcel before committing to a project"
+        },
+        {
+          "persona": "corporate-re",
+          "job": "Feed parcel-level planning and hazard data into an internal tool without building GIS infrastructure"
+        }
+      ],
+      "personas": [
+        "developer-builder",
+        "corporate-re",
+        "investor-am"
+      ],
+      "segments": [
+        "land-development",
+        "residential",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "usage",
+        "public_pricing": false
+      },
+      "product": {
+        "api": true,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "urbanease",
+        "kelfoncier"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/sogefi-geoservices.png",
+        "source_url": "https://geoservices.sogefi-sig.com/img/logo_sogefi_horiz_rvb.svg",
+        "fetched_on": "2026-09-14"
+      },
+      "signals": {
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-09-14"
+      },
+      "sources": [
+        {
+          "url": "https://geoservices.sogefi-sig.com",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://geoservices.sogefi-sig.com/documentation.php?doc=api_audrso_v2",
+          "note": "documentation API URBA/AUDRSO"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-14"
+    },
+    {
       "slug": "urbanease",
       "name": "Urbanease",
       "editor": "Urbanease",
@@ -1703,6 +1962,93 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "urbansimul",
+      "name": "UrbanSIMUL",
+      "editor": "Cerema",
+      "website": "https://urbansimul.cerema.fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "market-data",
+      "also_in": [
+        "construction-development"
+      ],
+      "positioning": "A free, collaborative tool from Cerema to help French local authorities find buildable land without further urban sprawl.",
+      "description": "UrbanSIMUL is a web application published by Cerema, the French public technical agency for ecological transition and territorial cohesion, that visualizes and simulates land occupation at the parcel scale so local authorities can identify vacant or under-used buildable land as part of \"sobriété foncière\" (land-use restraint) policy. Access is free after registration.\n",
+      "real_estate_use": "A planning officer at a municipality or intercommunality opens UrbanSIMUL to screen a commune for parcels that could absorb new housing without converting more farmland or forest, then exports a shortlist to brief an elected official or a developer being approached for a project. The observatoire mode lets several public actors share the same parcel inventory and canvassing notes over time instead of each rebuilding it from scratch.\n",
+      "features": [
+        "Parcel-level land occupation visualization and characterization",
+        "Buildable land potential assessment",
+        "Vacant and under-used parcel prospecting",
+        "Urbanization scenario modeling",
+        "Shared land and housing observatories",
+        "Tabular and cartographic data export"
+      ],
+      "use_cases": [
+        {
+          "persona": "developer-builder",
+          "job": "Screen a commune for buildable parcels before approaching an owner or a local authority"
+        },
+        {
+          "persona": "corporate-re",
+          "job": "Assess land potential on a site ahead of an acquisition or a public consultation"
+        }
+      ],
+      "personas": [
+        "developer-builder",
+        "corporate-re"
+      ],
+      "segments": [
+        "land-development",
+        "residential"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "free",
+        "public_pricing": true
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "urbanease"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/urbansimul.png",
+        "source_url": "https://urbansimul.cerema.fr/sites/urbansimul/files/Logos-RF-Cerema-UrbanSIMUL.png",
+        "fetched_on": "2026-09-14"
+      },
+      "signals": {
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-09-14"
+      },
+      "sources": [
+        {
+          "url": "https://urbansimul.cerema.fr",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-14"
     },
     {
       "slug": "vertuoza",
