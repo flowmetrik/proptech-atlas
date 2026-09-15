@@ -4,23 +4,23 @@
   "license": "CC-BY-4.0 (data) / MIT (code)",
   "homepage": "https://flowmetrik.github.io/proptech-atlas",
   "repository": "https://github.com/flowmetrik/proptech-atlas",
-  "generated": "2026-09-14",
+  "generated": "2026-09-15",
   "counts": {
-    "tools": 265,
-    "US": 147,
+    "tools": 272,
+    "US": 154,
     "FR": 148,
     "categories": 24,
-    "editors": 248,
+    "editors": 255,
     "verified": 0,
     "reviews": 0,
-    "logos": 250,
+    "logos": 254,
     "signals": {
-      "probed": 251,
-      "public_pricing": 63,
+      "probed": 258,
+      "public_pricing": 65,
       "api_docs": 18,
       "security_page": 31,
-      "privacy_page": 184,
-      "status_page": 62
+      "privacy_page": 190,
+      "status_page": 63
     }
   },
   "nodes": [
@@ -850,6 +850,11 @@
       "label": "Obat"
     },
     {
+      "id": "tool:obligo",
+      "type": "tool",
+      "label": "Obligo"
+    },
+    {
       "id": "tool:officernd",
       "type": "tool",
       "label": "OfficeRnD Flex"
@@ -913,6 +918,11 @@
       "id": "tool:placer-ai",
       "type": "tool",
       "label": "Placer.ai"
+    },
+    {
+      "id": "tool:pointcentral",
+      "type": "tool",
+      "label": "PointCentral"
     },
     {
       "id": "tool:poliris",
@@ -1025,6 +1035,11 @@
       "label": "Rentila"
     },
     {
+      "id": "tool:rently",
+      "type": "tool",
+      "label": "Rently"
+    },
+    {
       "id": "tool:rentmanager",
       "type": "tool",
       "label": "Rent Manager"
@@ -1038,6 +1053,11 @@
       "id": "tool:rentspree",
       "type": "tool",
       "label": "RentSpree"
+    },
+    {
+      "id": "tool:rentvision",
+      "type": "tool",
+      "label": "RentVision"
     },
     {
       "id": "tool:reonomy",
@@ -1058,6 +1078,11 @@
       "id": "tool:rethink-by-buildout",
       "type": "tool",
       "label": "Rethink by Buildout"
+    },
+    {
+      "id": "tool:saferent-solutions",
+      "type": "tool",
+      "label": "SafeRent Solutions"
     },
     {
       "id": "tool:salvia-developpement",
@@ -1083,6 +1108,11 @@
       "id": "tool:servicechannel",
       "type": "tool",
       "label": "ServiceChannel"
+    },
+    {
+      "id": "tool:showmojo",
+      "type": "tool",
+      "label": "ShowMojo"
     },
     {
       "id": "tool:sierra-interactive",
@@ -1343,6 +1373,11 @@
       "id": "tool:zillow",
       "type": "tool",
       "label": "Zillow"
+    },
+    {
+      "id": "tool:zinspector",
+      "type": "tool",
+      "label": "zInspector"
     },
     {
       "id": "tool:zumper",
@@ -2365,6 +2400,11 @@
       "label": "Obat"
     },
     {
+      "id": "editor:Obligo",
+      "type": "editor",
+      "label": "Obligo"
+    },
+    {
       "id": "editor:OfficeRnD",
       "type": "editor",
       "label": "OfficeRnD"
@@ -2428,6 +2468,11 @@
       "id": "editor:Placer Labs",
       "type": "editor",
       "label": "Placer Labs"
+    },
+    {
+      "id": "editor:Alarm.com",
+      "type": "editor",
+      "label": "Alarm.com"
     },
     {
       "id": "editor:Poliris",
@@ -2530,6 +2575,11 @@
       "label": "Rentila"
     },
     {
+      "id": "editor:Rently",
+      "type": "editor",
+      "label": "Rently"
+    },
+    {
       "id": "editor:London Computer Systems",
       "type": "editor",
       "label": "London Computer Systems"
@@ -2545,6 +2595,11 @@
       "label": "RentSpree"
     },
     {
+      "id": "editor:RentVision",
+      "type": "editor",
+      "label": "RentVision"
+    },
+    {
       "id": "editor:Respage",
       "type": "editor",
       "label": "Respage"
@@ -2558,6 +2613,11 @@
       "id": "editor:Buildout",
       "type": "editor",
       "label": "Buildout"
+    },
+    {
+      "id": "editor:SafeRent Solutions, LLC",
+      "type": "editor",
+      "label": "SafeRent Solutions, LLC"
     },
     {
       "id": "editor:Salvia Software",
@@ -2578,6 +2638,11 @@
       "id": "editor:Fortive",
       "type": "editor",
       "label": "Fortive"
+    },
+    {
+      "id": "editor:ShowMojo",
+      "type": "editor",
+      "label": "ShowMojo"
     },
     {
       "id": "editor:Sierra Interactive",
@@ -2828,6 +2893,11 @@
       "id": "editor:Zelok",
       "type": "editor",
       "label": "Zelok"
+    },
+    {
+      "id": "editor:zInspector",
+      "type": "editor",
+      "label": "zInspector"
     },
     {
       "id": "editor:Zumper",
@@ -11832,6 +11902,46 @@
       "to": "tool:vertuoza"
     },
     {
+      "from": "tool:obligo",
+      "rel": "published_by",
+      "to": "editor:Obligo"
+    },
+    {
+      "from": "tool:obligo",
+      "rel": "belongs_to",
+      "to": "category:tenant-screening"
+    },
+    {
+      "from": "tool:obligo",
+      "rel": "serves_persona",
+      "to": "persona:property-manager"
+    },
+    {
+      "from": "tool:obligo",
+      "rel": "serves_persona",
+      "to": "persona:landlord-owner"
+    },
+    {
+      "from": "tool:obligo",
+      "rel": "serves_persona",
+      "to": "persona:tenant-occupier"
+    },
+    {
+      "from": "tool:obligo",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:obligo",
+      "rel": "covers_segment",
+      "to": "segment:multifamily"
+    },
+    {
+      "from": "tool:obligo",
+      "rel": "available_in",
+      "to": "market:US"
+    },
+    {
       "from": "tool:officernd",
       "rel": "published_by",
       "to": "editor:OfficeRnD"
@@ -12535,6 +12645,51 @@
       "from": "tool:placer-ai",
       "rel": "alternative_to",
       "to": "tool:cityscan"
+    },
+    {
+      "from": "tool:pointcentral",
+      "rel": "published_by",
+      "to": "editor:Alarm.com"
+    },
+    {
+      "from": "tool:pointcentral",
+      "rel": "belongs_to",
+      "to": "category:tenant-experience"
+    },
+    {
+      "from": "tool:pointcentral",
+      "rel": "also_serves",
+      "to": "category:property-management"
+    },
+    {
+      "from": "tool:pointcentral",
+      "rel": "serves_persona",
+      "to": "persona:property-manager"
+    },
+    {
+      "from": "tool:pointcentral",
+      "rel": "serves_persona",
+      "to": "persona:facility-manager"
+    },
+    {
+      "from": "tool:pointcentral",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:pointcentral",
+      "rel": "covers_segment",
+      "to": "segment:multifamily"
+    },
+    {
+      "from": "tool:pointcentral",
+      "rel": "covers_segment",
+      "to": "segment:hospitality"
+    },
+    {
+      "from": "tool:pointcentral",
+      "rel": "available_in",
+      "to": "market:US"
     },
     {
       "from": "tool:poliris",
@@ -13822,6 +13977,51 @@
       "to": "tool:ownily"
     },
     {
+      "from": "tool:rently",
+      "rel": "published_by",
+      "to": "editor:Rently"
+    },
+    {
+      "from": "tool:rently",
+      "rel": "belongs_to",
+      "to": "category:tenant-experience"
+    },
+    {
+      "from": "tool:rently",
+      "rel": "also_serves",
+      "to": "category:property-management"
+    },
+    {
+      "from": "tool:rently",
+      "rel": "serves_persona",
+      "to": "persona:property-manager"
+    },
+    {
+      "from": "tool:rently",
+      "rel": "serves_persona",
+      "to": "persona:landlord-owner"
+    },
+    {
+      "from": "tool:rently",
+      "rel": "serves_persona",
+      "to": "persona:tenant-occupier"
+    },
+    {
+      "from": "tool:rently",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:rently",
+      "rel": "covers_segment",
+      "to": "segment:multifamily"
+    },
+    {
+      "from": "tool:rently",
+      "rel": "available_in",
+      "to": "market:US"
+    },
+    {
       "from": "tool:rentmanager",
       "rel": "published_by",
       "to": "editor:London Computer Systems"
@@ -14020,6 +14220,41 @@
       "from": "tool:rentspree",
       "rel": "alternative_to",
       "to": "tool:avail"
+    },
+    {
+      "from": "tool:rentvision",
+      "rel": "published_by",
+      "to": "editor:RentVision"
+    },
+    {
+      "from": "tool:rentvision",
+      "rel": "belongs_to",
+      "to": "category:agent-marketing"
+    },
+    {
+      "from": "tool:rentvision",
+      "rel": "also_serves",
+      "to": "category:property-management"
+    },
+    {
+      "from": "tool:rentvision",
+      "rel": "serves_persona",
+      "to": "persona:property-manager"
+    },
+    {
+      "from": "tool:rentvision",
+      "rel": "serves_persona",
+      "to": "persona:investor-am"
+    },
+    {
+      "from": "tool:rentvision",
+      "rel": "covers_segment",
+      "to": "segment:multifamily"
+    },
+    {
+      "from": "tool:rentvision",
+      "rel": "available_in",
+      "to": "market:US"
     },
     {
       "from": "tool:reonomy",
@@ -14248,6 +14483,46 @@
     },
     {
       "from": "tool:rethink-by-buildout",
+      "rel": "available_in",
+      "to": "market:US"
+    },
+    {
+      "from": "tool:saferent-solutions",
+      "rel": "published_by",
+      "to": "editor:SafeRent Solutions, LLC"
+    },
+    {
+      "from": "tool:saferent-solutions",
+      "rel": "belongs_to",
+      "to": "category:tenant-screening"
+    },
+    {
+      "from": "tool:saferent-solutions",
+      "rel": "serves_persona",
+      "to": "persona:property-manager"
+    },
+    {
+      "from": "tool:saferent-solutions",
+      "rel": "serves_persona",
+      "to": "persona:landlord-owner"
+    },
+    {
+      "from": "tool:saferent-solutions",
+      "rel": "serves_persona",
+      "to": "persona:tenant-occupier"
+    },
+    {
+      "from": "tool:saferent-solutions",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:saferent-solutions",
+      "rel": "covers_segment",
+      "to": "segment:multifamily"
+    },
+    {
+      "from": "tool:saferent-solutions",
       "rel": "available_in",
       "to": "market:US"
     },
@@ -14520,6 +14795,46 @@
       "from": "tool:servicechannel",
       "rel": "alternative_to",
       "to": "tool:limble"
+    },
+    {
+      "from": "tool:showmojo",
+      "rel": "published_by",
+      "to": "editor:ShowMojo"
+    },
+    {
+      "from": "tool:showmojo",
+      "rel": "belongs_to",
+      "to": "category:property-management"
+    },
+    {
+      "from": "tool:showmojo",
+      "rel": "also_serves",
+      "to": "category:tenant-screening"
+    },
+    {
+      "from": "tool:showmojo",
+      "rel": "serves_persona",
+      "to": "persona:property-manager"
+    },
+    {
+      "from": "tool:showmojo",
+      "rel": "serves_persona",
+      "to": "persona:landlord-owner"
+    },
+    {
+      "from": "tool:showmojo",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:showmojo",
+      "rel": "covers_segment",
+      "to": "segment:multifamily"
+    },
+    {
+      "from": "tool:showmojo",
+      "rel": "available_in",
+      "to": "market:US"
     },
     {
       "from": "tool:sierra-interactive",
@@ -17620,6 +17935,51 @@
       "from": "tool:zillow",
       "rel": "alternative_to",
       "to": "tool:apartments-com"
+    },
+    {
+      "from": "tool:zinspector",
+      "rel": "published_by",
+      "to": "editor:zInspector"
+    },
+    {
+      "from": "tool:zinspector",
+      "rel": "belongs_to",
+      "to": "category:property-management"
+    },
+    {
+      "from": "tool:zinspector",
+      "rel": "also_serves",
+      "to": "category:facility-maintenance"
+    },
+    {
+      "from": "tool:zinspector",
+      "rel": "serves_persona",
+      "to": "persona:property-manager"
+    },
+    {
+      "from": "tool:zinspector",
+      "rel": "serves_persona",
+      "to": "persona:facility-manager"
+    },
+    {
+      "from": "tool:zinspector",
+      "rel": "serves_persona",
+      "to": "persona:tenant-occupier"
+    },
+    {
+      "from": "tool:zinspector",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:zinspector",
+      "rel": "covers_segment",
+      "to": "segment:multifamily"
+    },
+    {
+      "from": "tool:zinspector",
+      "rel": "available_in",
+      "to": "market:US"
     },
     {
       "from": "tool:zumper",

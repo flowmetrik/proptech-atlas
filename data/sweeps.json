@@ -4,7 +4,12 @@
     "runs": 1,
     "found": 5,
     "kept": 3,
-    "last_error": null
+    "last_error": null,
+    "last_swept_manual": "2026-09-15",
+    "manual_runs": 1,
+    "manual_found": 58,
+    "manual_kept": 6,
+    "last_manual_note": "58 partenaires listés dans /partners/; 6 nouveaux produits distincts du catalogue existant (SafeRent Solutions, ShowMojo, RentVision, PointCentral, zInspector, Rently) — le reste était déjà catalogué ou hors périmètre (Amazon, Home Depot Pro, Lowe's : fournisseurs de gros, pas des logiciels)"
   },
   "appvizer": {
     "last_swept": "2026-08-26",
@@ -18,7 +23,12 @@
     "runs": 1,
     "found": 17,
     "kept": 1,
-    "last_error": null
+    "last_error": null,
+    "last_swept_manual": "2026-09-15",
+    "manual_runs": 1,
+    "manual_found": 2,
+    "manual_kept": 1,
+    "last_manual_note": "page bloquée par Cloudflare (403) à la lecture directe; recherche web ciblée sur 'Buildium Marketplace partners' a donné Obligo (retenu) et Ryse — Ryse écarté après lecture: tryryse.com est une société belge de lead generation sans rapport, homonyme du Ryse (avances de loyer) cité par la recherche"
   },
   "fnaim-partenaires": {
     "last_swept": "2026-08-26",
@@ -70,7 +80,12 @@
     "runs": 1,
     "found": 3,
     "kept": 1,
-    "last_error": null
+    "last_error": null,
+    "last_swept_manual": "2026-09-15",
+    "manual_runs": 1,
+    "manual_found": 0,
+    "manual_kept": 0,
+    "last_manual_note": "page d'accueil et sous-page /fr/metier/professionnel-de-limmobilier lues : structurées par « besoin » (rendu JS), aucune marque produit nommée dans le HTML statique récupéré (crypto-septeo est déjà au catalogue, trouvé ailleurs) ; les pages /fr/besoins/* n'affichent qu'un menu sans contenu propre à la lecture directe — probable rendu client-side."
   },
   "unis-partenaires": {
     "last_swept": "2026-08-26",

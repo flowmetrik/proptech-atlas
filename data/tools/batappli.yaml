@@ -11,6 +11,11 @@ description: >
   Batappli is management software for French construction and trade businesses: quotes and
   invoices with work libraries, progress billing, purchase and stock, site follow-up,
   customer records and integrated accounting, available on desktop and cloud.
+description_fr: >
+  Batappli est un logiciel de gestion pour les entreprises du bâtiment et de
+  l'artisanat françaises : devis et factures avec bibliothèques d'ouvrages,
+  facturation de situation, achats et stocks, suivi de chantier, fichier client et
+  comptabilité intégrée, disponible en version bureau et en cloud.
 real_estate_use: >
   Its buyer is the established trade business that wants one supplier for commercial
   documents and books rather than a modern SaaS plus an accountant's package. The integrated

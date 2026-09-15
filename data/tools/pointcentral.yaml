@@ -1,0 +1,48 @@
+slug: pointcentral
+name: PointCentral
+editor: Alarm.com
+website: https://www.pointcentral.com
+hq_country: US
+markets: [US]
+category: tenant-experience
+also_in: [property-management]
+positioning: "One trusted, cloud-based smart property platform for access, energy, water and video management at scale."
+description: >
+  PointCentral, an Alarm.com company, is a cloud-based smart-property platform for
+  property managers. It covers access management (smart locks), energy and water
+  management, video surveillance and noise monitoring, and self-guided tours, managed
+  from a single dashboard across a portfolio of units.
+real_estate_use: >
+  A property manager automates move-in and move-out access on a portfolio of smart
+  rental units through PointCentral instead of rekeying locks or coordinating
+  in-person handoffs, and sets smart thermostats and water valves to reduce
+  vacant-unit utility costs and leak damage. For a self-guided tour, the platform
+  grants a verified prospect temporary digital access to a specific unit and logs the
+  visit, and the same dashboard raises alerts from video and noise monitoring if an
+  issue occurs after hours.
+features:
+  - Smart lock access management
+  - Energy and water management
+  - Video surveillance and noise monitoring
+  - Self-guided tour access
+  - Single portfolio-wide dashboard
+use_cases:
+  - persona: property-manager
+    job: Automate move-in and move-out access across a portfolio of smart rental units
+  - persona: facility-manager
+    job: Reduce vacant-unit utility costs and leak damage with remote thermostat and water-valve control
+personas: [property-manager, facility-manager]
+segments: [residential, multifamily, hospitality]
+company_sizes: [midmarket, enterprise]
+pricing:
+  model: quote
+  public_pricing: false
+reviews: []
+signals:
+  privacy: https://www.pointcentral.com/pointcentral-privacy-policy
+  site_languages: [en]
+  checked_on: "2026-09-15"
+sources:
+  - { url: https://www.pointcentral.com, note: site éditeur }
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-09-15"

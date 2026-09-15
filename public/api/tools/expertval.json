@@ -9,8 +9,9 @@
   ],
   "category": "estimation-pricing",
   "positioning": "Le logiciel d'expertise et d'évaluation immobilière pour maison, appartement et terrain.",
-  "description": "ExpertVAL est une webapp française d'évaluation immobilière destinée aux experts. Elle intègre des bases de données publiques (DVF, INSEE, DPE, carte des loyers), un module cartographique avec parcelles cadastrales, et génère des rapports d'expertise en Word conformes à la charte de l'expertise et aux normes européennes EVS de TEGoVA.\n",
-  "real_estate_use": "Un expert immobilier ou un conseiller en gestion de patrimoine ouvre un dossier d'expertise amiable, importe les références de comparaison depuis DVF ou Patrim, prend les photos et saisit les données pendant la visite sur tablette, applique la méthode par comparaison ou le DCF, puis génère le rapport final en Word à partir d'un modèle conforme EVS.\n",
+  "description": "ExpertVAL is a French web app for property valuation aimed at professional appraisers. It integrates public databases (DVF, INSEE, DPE energy ratings, rent maps), a mapping module with cadastral parcels, and generates appraisal reports in Word format compliant with the appraisal charter and TEGoVA's European EVS standards.\n",
+  "description_fr": "ExpertVAL est une webapp française d'évaluation immobilière destinée aux experts. Elle intègre des bases de données publiques (DVF, INSEE, DPE, carte des loyers), un module cartographique avec parcelles cadastrales, et génère des rapports d'expertise en Word conformes à la charte de l'expertise et aux normes européennes EVS de TEGoVA.\n",
+  "real_estate_use": "A property appraiser or wealth-management advisor opens an amicable appraisal file, imports comparison references from DVF or Patrim, takes photos and enters data during the site visit on a tablet, applies the comparison method or discounted cash flow, then generates the final report in Word from an EVS-compliant template.\n",
   "features": [
     "Bases de données intégrées DVF, INSEE, DPE et carte des loyers",
     "Module cartographique avec parcelles cadastrales",

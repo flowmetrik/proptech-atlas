@@ -4,23 +4,23 @@
   "license": "CC-BY-4.0 (data) / MIT (code)",
   "homepage": "https://flowmetrik.github.io/proptech-atlas",
   "repository": "https://github.com/flowmetrik/proptech-atlas",
-  "generated": "2026-09-14",
+  "generated": "2026-09-15",
   "counts": {
-    "tools": 265,
-    "US": 147,
+    "tools": 272,
+    "US": 154,
     "FR": 148,
     "categories": 24,
-    "editors": 248,
+    "editors": 255,
     "verified": 0,
     "reviews": 0,
-    "logos": 250,
+    "logos": 254,
     "signals": {
-      "probed": 251,
-      "public_pricing": 63,
+      "probed": 258,
+      "public_pricing": 65,
       "api_docs": 18,
       "security_page": 31,
-      "privacy_page": 184,
-      "status_page": 62
+      "privacy_page": 190,
+      "status_page": 63
     }
   },
   "tools": [
@@ -142,6 +142,7 @@
       ],
       "positioning": "Financing software for French IOBSP credit brokers, covering the calculation, document and invoicing side of a mortgage file.",
       "description": "Actelo is a French SaaS platform for IOBSP credit brokers. It covers the financing side of a mortgage file end to end: eligibility and amortisation calculations, borrower insurance quoting, generation of the regulatory financing documents, a document management space, a borrower portal, invoicing of the parties involved and activity statistics. It is sold per user with a published monthly price and no commitment.\n",
+      "description_fr": "Actelo est une plateforme SaaS française pour les courtiers en crédit IOBSP. Elle couvre de bout en bout le volet financement d'un dossier de crédit immobilier : calculs d'éligibilité et d'amortissement, tarification de l'assurance emprunteur, génération des documents réglementaires de financement, un espace de gestion documentaire, un portail emprunteur, la facturation des parties prenantes et des statistiques d'activité. Elle est vendue par utilisateur, avec un tarif mensuel publié et sans engagement.\n",
       "real_estate_use": "A mortgage broker takes in a buyer whose offer has just been accepted and has to turn a project into a bankable file within days. Actelo runs the calculation side: it works out which loan structures the project is eligible for, prices the borrower insurance, lists the supporting documents to collect, and produces the financing proposal and the regulatory paperwork. The borrower drops the documents in their own space instead of emailing them, and the broker follows the file stage by stage until the invoicing of the commission. Independent brokers and franchise networks use it as their whole back office rather than as an add-on to a CRM.\n",
       "features": [
         "Automated financing calculations and loan structuring",
@@ -237,6 +238,7 @@
       ],
       "positioning": "A long-established French agency suite covering transaction, rental management and the agency website.",
       "description": "Adapt Immo provides French agencies with transaction software, rental management, websites and portal publishing, sold as an integrated suite with training and support aimed at independent agencies and small networks.\n",
+      "description_fr": "Adapt Immo fournit aux agences françaises un logiciel de transaction, de gestion locative, de création de sites web et de diffusion sur les portails, vendu en suite intégrée avec formation et support, à destination des agences indépendantes et des petits réseaux.\n",
       "real_estate_use": "Many French agencies run transaction and gérance side by side under the same carte professionnelle. Keeping both in one suite avoids the duplicate owner and property records that appear when an agency buys a sales tool and a separate rental tool — a recurring source of error at the point where a managed property goes up for sale.\n",
       "features": [
         "Transaction management with mandates and matching",
@@ -338,6 +340,7 @@
       ],
       "positioning": "Energy management that ends in a works order — engineering-led rather than reporting-led.",
       "description": "Advizeo, part of the Setec engineering group, provides energy monitoring and management for French buildings: meter and building management system data collection, consumption analysis and alerting, décret tertiaire declaration support, and an action plan followed through to implementation.\n",
+      "description_fr": "Advizeo, filiale du groupe d'ingénierie Setec, propose le suivi et le pilotage énergétique des bâtiments français : collecte des données de compteurs et de GTB, analyse de consommation et alertes, accompagnement à la déclaration décret tertiaire, et un plan d'action suivi jusqu'à sa mise en œuvre.\n",
       "real_estate_use": "Its difference from a pure reporting platform is the engineering behind it. Detecting that a building's heating runs at weekends is only useful if someone changes the schedule. Advizeo pairs the monitoring with technical recommendations and follow-up, which suits owners who do not have an in-house energy engineer.\n",
       "features": [
         "Meter, submeter and building management system data collection",
@@ -1774,6 +1777,7 @@
       ],
       "positioning": "A long-standing French building trades package covering quote, invoice and accounting in one product.",
       "description": "Batappli is management software for French construction and trade businesses: quotes and invoices with work libraries, progress billing, purchase and stock, site follow-up, customer records and integrated accounting, available on desktop and cloud.\n",
+      "description_fr": "Batappli est un logiciel de gestion pour les entreprises du bâtiment et de l'artisanat françaises : devis et factures avec bibliothèques d'ouvrages, facturation de situation, achats et stocks, suivi de chantier, fichier client et comptabilité intégrée, disponible en version bureau et en cloud.\n",
       "real_estate_use": "Its buyer is the established trade business that wants one supplier for commercial documents and books rather than a modern SaaS plus an accountant's package. The integrated accounting is the differentiator: the invoice posts directly, so the year-end handover to the expert-comptable is a file rather than a reconstruction.\n",
       "features": [
         "Quotes and invoices with trade work libraries",
@@ -1869,8 +1873,9 @@
       ],
       "category": "syndic-copro",
       "positioning": "Le logiciel de syndic et gérance qui redonne du temps aux équipes.",
-      "description": "Bellman est un logiciel de gestion pour cabinets de syndic et de gérance, né d'une ex-startup de syndic en ligne reconvertie en éditeur de logiciel en 2022. Il centralise le travail des gestionnaires, comptables et assistants autour d'une messagerie intégrée, d'un extranet pour les copropriétaires et le conseil syndical, et d'outils d'automatisation documentaire pour les assemblées générales.\n",
-      "real_estate_use": "Un cabinet de syndic reçoit chaque jour des dizaines de factures et de demandes par email : Bellman les rattache automatiquement aux bons dossiers et permet de traiter les devis et les documents de copropriété directement depuis la messagerie, sans ressaisie. Le gestionnaire prépare l'ordre du jour d'une assemblée générale tout au long de l'année plutôt qu'en urgence, suit les envois de convocations en temps réel et enregistre les votes par correspondance. Le conseil syndical et les copropriétaires suivent l'avancement de leurs dossiers et le recouvrement des charges depuis un extranet dédié, ce qui réduit les appels et emails de suivi au cabinet.\n",
+      "description": "Bellman is management software for syndic and property-management firms, born from a former online-syndic startup that pivoted to a software publisher in 2022. It centralises the work of managers, accountants and assistants around an integrated messaging inbox, an extranet for co-owners and the trustee board, and document-automation tools for general assemblies.\n",
+      "description_fr": "Bellman est un logiciel de gestion pour cabinets de syndic et de gérance, né d'une ex-startup de syndic en ligne reconvertie en éditeur de logiciel en 2022. Il centralise le travail des gestionnaires, comptables et assistants autour d'une messagerie intégrée, d'un extranet pour les copropriétaires et le conseil syndical, et d'outils d'automatisation documentaire pour les assemblées générales.\n",
+      "real_estate_use": "A syndic firm receives dozens of invoices and email requests every day: Bellman automatically attaches them to the right file and lets staff process quotes and condominium documents directly from the inbox, without re-keying. The manager prepares the agenda for a general assembly over the course of the year rather than in a rush, tracks convocation mailings in real time, and records postal votes. The trustee board and co-owners follow the progress of their cases and charge collection from a dedicated extranet, which cuts down on follow-up calls and emails to the firm.\n",
       "features": [
         "Extranet copropriétaires et conseil syndical",
         "Intégration messagerie pour le traitement des factures et devis",
@@ -2259,6 +2264,7 @@
       "category": "facility-maintenance",
       "positioning": "Maintenance and compliance tracking for multi-site French operators — retail chains, restaurants, agencies.",
       "description": "BOB Desk is a French SaaS for maintenance and regulatory compliance management across multiple sites: intervention requests, provider dispatch, preventive planning, quote and invoice control, equipment records and regulatory inspection tracking.\n",
+      "description_fr": "BOB Desk est un SaaS français pour la gestion de la maintenance et de la conformité réglementaire multi-sites : demandes d'intervention, dispatch des prestataires, planification préventive, contrôle des devis et factures, fiches équipement et suivi des contrôles réglementaires.\n",
       "real_estate_use": "A chain with two hundred outlets carries a compliance calendar per site — fire safety, electrical inspection, extraction, refrigeration — and no realistic way to track it in a spreadsheet. BOB Desk holds the obligations per site with their due dates, and routes the corrective work to the contracted provider, keeping the evidence in one place for an inspection.\n",
       "features": [
         "Multi-site intervention request and dispatch",
@@ -2888,8 +2894,8 @@
         "ai-assistants"
       ],
       "positioning": "Your properties leased and maintained. 24/7.",
-      "description": "Brickwise AI est un logiciel de gestion locative dont l'agent conversationnel, Alice, répond aux appels, SMS, WhatsApp et emails de locataires pour trianger les demandes de maintenance, faire suivre les dossiers de candidature à la location, suivre les échéances de conformité et relancer les loyers impayés. Issu du batch Y Combinator Fall 2025, l'éditeur, basé à Londres, cible des propriétaires bailleurs et des agences de gestion locative aux États-Unis, avec des pages produit dédiées à New York.\n",
-      "real_estate_use": "Un gestionnaire reçoit un signalement de panne par SMS : Alice diagnostique le problème avec le locataire, envoie un prestataire agréé et suit le dossier jusqu'à la clôture, sans que le gestionnaire n'ait à coordonner chaque étape. Pour un bien mis en location, l'agent répond aux candidats, les accompagne de la visite à la remise des clés en passant par les documents à fournir. Le gestionnaire reçoit des rapports construits à partir des données en temps réel plutôt que de les compiler lui-même, et Alice relance les échéances de conformité avant qu'elles n'expirent.\n",
+      "description": "Brickwise AI is property-management software whose conversational agent, Alice, answers tenant calls, texts, WhatsApp messages and emails to triage maintenance requests, route rental applications, track compliance deadlines and chase unpaid rent. Out of the Y Combinator Fall 2025 batch, the London-based publisher targets landlords and property-management agencies in the United States, with product pages dedicated to New York.\n",
+      "real_estate_use": "A property manager receives a maintenance report by text: Alice diagnoses the problem with the tenant, dispatches an approved contractor, and tracks the case through to closing without the manager having to coordinate each step. For a unit being leased, the agent answers applicants and guides them from the viewing to key handover, including the documents to provide. The manager receives reports built from real-time data rather than compiling them by hand, and Alice chases compliance deadlines before they lapse.\n",
       "features": [
         "Triage et dispatch de la maintenance vers des prestataires agréés",
         "Suivi des candidatures locatives de la visite à la remise des clés",
@@ -3441,6 +3447,7 @@
       "category": "construction-development",
       "positioning": "Site observations pinned to the plan, captured on a tablet and turned into a report before leaving the site.",
       "description": "BulldozAIR is a French field collaboration application for construction: annotate plans, create positioned observations with photos, assign them to a company with a deadline, track their resolution, and generate site reports and reserve lists automatically.\n",
+      "description_fr": "BulldozAIR est une application française de collaboration terrain pour le BTP : annoter les plans, créer des observations géolocalisées avec photos, les assigner à une entreprise avec une échéance, suivre leur résolution, et générer automatiquement des comptes rendus de chantier et des listes de réserves.\n",
       "real_estate_use": "A site visit produces dozens of observations that traditionally become an evening of report writing and a week of chasing. Pinning each one to a plan coordinate, assigning it on the spot and generating the report before leaving compresses that cycle to the visit itself — and gives each contractor an unambiguous location rather than a paragraph of description.\n",
       "features": [
         "Plan annotation with positioned observations",
@@ -3653,6 +3660,7 @@
       ],
       "positioning": "Inspection software combined with a field network — the report can be produced by their operator rather than by your staff.",
       "description": "Check & Visit provides digital état des lieux and property visit software for French professionals, together with a network of field operators who can carry out the inspection on the manager's behalf, and 3D capture options attached to the same record.\n",
+      "description_fr": "Check & Visit fournit aux professionnels français un logiciel d'états des lieux et de visites numériques, avec un réseau de prestataires terrain pouvant réaliser l'inspection pour le compte du gestionnaire, et des options de capture 3D rattachées au même dossier.\n",
       "real_estate_use": "For a manager with dispersed properties, the constraint on inspections is travel time, not software. Outsourcing the visit to a local operator while keeping the report in the same digital format lets a lettings team scale without hiring inspectors — and the attached 3D capture doubles as a marketing asset for the next letting.\n",
       "features": [
         "Digital état des lieux with photographic evidence",
@@ -4156,8 +4164,9 @@
         "transaction-management"
       ],
       "positioning": "La technologie au service de l'immobilier : quatre outils pour signer, afficher, filmer et prospecter.",
-      "description": "Clap.tech est un éditeur français qui propose une suite de quatre modules vendus séparément pour les agences immobilières : clap.legal (édition et signature électronique de documents juridiques), clap.show (vitrines connectées pour les agences), clap.video (habillage vidéo automatique des annonces) et clap.expert (intelligence de marché pour cibler des mandats). Revendique plus de 6 000 professionnels de l'immobilier clients.\n",
-      "real_estate_use": "Une agence équipe ses vitrines de rue avec clap.show pour afficher ses annonces sans mise à jour manuelle, transforme ses annonces en vidéos courtes pour les réseaux sociaux avec clap.video, fait signer électroniquement mandats et compromis avec clap.legal, et utilise clap.expert pour repérer les biens à fort potentiel de mandat sur son secteur.\n",
+      "description": "Clap.tech is a French publisher offering a suite of four modules sold separately for real estate agencies: clap.legal (drafting and electronic signature of legal documents), clap.show (connected window displays for agencies), clap.video (automatic video dressing for listings), and clap.expert (market intelligence to target new mandates). The editor claims more than 6,000 real estate professionals as customers.\n",
+      "description_fr": "Clap.tech est un éditeur français qui propose une suite de quatre modules vendus séparément pour les agences immobilières : clap.legal (édition et signature électronique de documents juridiques), clap.show (vitrines connectées pour les agences), clap.video (habillage vidéo automatique des annonces) et clap.expert (intelligence de marché pour cibler des mandats). Revendique plus de 6 000 professionnels de l'immobilier clients.\n",
+      "real_estate_use": "An agency equips its street-facing window displays with clap.show to show its listings without manual updates, turns its listings into short videos for social media with clap.video, has mandates and sale agreements signed electronically with clap.legal, and uses clap.expert to spot high-potential mandate opportunities in its area.\n",
       "features": [
         "Génération et signature électronique de documents juridiques",
         "Vitrines connectées pilotées à distance",
@@ -4721,6 +4730,7 @@
       "category": "syndic-copro",
       "positioning": "A full web-based condo management software for professional and volunteer syndics, from accounting to general assemblies.",
       "description": "Comptacop is a French web-based (\"100% Internet Full Web\") software for managing condo syndicates, in operation for over ten years. It covers accounting (budgets, journal, general ledger, trial balance, charge allocation, year-end closing annexes), meter readings, bank reconciliation with Excel export, and a co-owner extranet with an agenda and general-assembly tools, sold as a single all-inclusive plan for either professional or volunteer syndics.\n",
+      "description_fr": "Comptacop est un logiciel français « 100 % Internet Full Web » de gestion de syndicats de copropriété, en activité depuis plus de dix ans. Il couvre la comptabilité (budgets, journal, grand livre, balance, répartition des charges, annexes de clôture), les relevés de compteurs, le rapprochement bancaire avec export Excel, et un extranet copropriétaire avec agenda et outils d'assemblée générale, vendu en une seule offre tout compris pour les syndics professionnels comme bénévoles.\n",
       "real_estate_use": "A syndic — professional or volunteer — logs into Comptacop to prepare the provisional budget, record works, subsidies and loans, and produce the year-end closing annexes required by French co-ownership regulation, without switching tools between accounting and administration. Co-owners consult the extranet to see their balances and shared documents outside of general assemblies. Because the plan is unlimited on the number of condos managed, a small syndic firm can run its whole portfolio on one subscription.\n",
       "features": [
         "Condo accounting: budgets, general ledger, trial balance, year-end annexes",
@@ -4921,6 +4931,7 @@
       "category": "syndic-copro",
       "positioning": "Condo management software that automates the bookkeeping a spreadsheet can't safely handle, for volunteer and professional syndics.",
       "description": "Copriciel is a French condo (copropriété) accounting and management software pitched explicitly as a replacement for the spreadsheets many volunteer syndics start with. It automates bank reconciliation from imported PDF statements, generates the general ledger and closing annexes, prepares fund calls detailed by budget and by lot including the mandatory ALUR works fund, handles general-assembly convocations, and gives co-owners a secure document extranet.\n",
+      "description_fr": "Copriciel est un logiciel français de comptabilité et de gestion de copropriété, positionné explicitement comme un remplaçant des tableurs par lesquels commencent beaucoup de syndics bénévoles. Il automatise le rapprochement bancaire à partir de relevés PDF importés, génère le grand livre et les annexes de clôture, prépare les appels de fonds détaillés par budget et par lot, y compris le fonds travaux ALUR obligatoire, gère les convocations d'assemblée générale, et donne aux copropriétaires un extranet documentaire sécurisé.\n",
       "real_estate_use": "A volunteer syndic who has been tracking the building's accounts in Excel switches to Copriciel to automate bank reconciliation and fund calls, cutting the monthly bookkeeping the vendor estimates at 8 hours down to about 2.5, while staying compliant with the loi ALUR works-fund and PCG accounting requirements. The syndic imports bank statement PDFs instead of re-entering each line, and generates the general ledger and closing annexes in one click ahead of the general assembly. Co-owners use the extranet to check balances and download état daté and article 20 certificates during a sale.\n",
       "features": [
         "Automated bank reconciliation from imported PDF statements",
@@ -5006,6 +5017,7 @@
       "founded": 2011,
       "positioning": "Gérer sa copropriété soi-même, avec un accompagnement professionnel en option.",
       "description": "Coprolib' is an online platform and mobile app for syndics bénévoles — condo owners who manage their building themselves instead of hiring a professional syndic. It automates the accounting required to stay compliant, gives residents a shared, real-time view of the building's finances and documents, and covers general assembly preparation and execution. Optional paid support from Coprolib's own property management experts is available for accounting, administrative tasks or major decisions.\n",
+      "description_fr": "Coprolib' est une plateforme en ligne et une application mobile pour les syndics bénévoles — des copropriétaires qui gèrent eux-mêmes leur immeuble plutôt que de recourir à un syndic professionnel. Elle automatise la comptabilité nécessaire pour rester en conformité, donne aux résidents une vue partagée et en temps réel des finances et des documents de l'immeuble, et couvre la préparation et le déroulement des assemblées générales. Un accompagnement payant optionnel par les propres experts en gestion immobilière de Coprolib' est disponible pour la comptabilité, les tâches administratives ou les décisions importantes.\n",
       "real_estate_use": "A volunteer syndic uses Coprolib' to keep the building's books compliant without hiring an accountant: fund calls, expense allocation and financial statements are automated, and every co-owner can log in and see the same numbers instead of waiting for a paper report. When the volunteer needs help preparing a general assembly or handling an unusual expense, they can add on Coprolib's professional support instead of switching to a full syndic.\n",
       "features": [
         "Automated compliance accounting for condo associations",
@@ -5088,6 +5100,7 @@
       "category": "syndic-copro",
       "positioning": "An affordable, easy-to-use accounting and administrative software for volunteer and professional condo syndics.",
       "description": "Copromatic is a French condo (copropriété) management software covering both accounting and administrative operations, aimed at syndics bénévoles as well as small professional syndics. It runs in the browser with no local install, and bundles a co-owner extranet, general-assembly preparation and minutes, fund calls, expense allocation, and maintenance-log tracking, staying aligned with French co-ownership law (loi ALUR).\n",
+      "description_fr": "Copromatic est un logiciel français de gestion de copropriété couvrant à la fois la comptabilité et les opérations administratives, destiné aux syndics bénévoles comme aux petits syndics professionnels. Il fonctionne dans le navigateur sans installation locale, et regroupe un extranet copropriétaire, la préparation et les procès-verbaux d'assemblée générale, les appels de fonds, la répartition des charges et le suivi du carnet d'entretien, en restant conforme à la loi ALUR.\n",
       "real_estate_use": "A volunteer syndic elected by the co-owners' assembly uses Copromatic to prepare the annual budget, generate fund calls split by tantièmes, and reconcile the bank account without hiring a professional management firm. Ahead of the general assembly, the syndic uses the platform to draft the agenda, run the vote, and generate the minutes, then archives everything for the co-owners to consult through their extranet. A small professional syndic uses the same tool across several buildings, paying per co-owner rather than a flat licence.\n",
       "features": [
         "Condo accounting and general ledger (loi ALUR compliant)",
@@ -5277,6 +5290,7 @@
       "category": "flex-coworking",
       "positioning": "All-in-one management platform for coworking spaces, tiers-lieux and fablabs, covering booking, billing, door access and community.",
       "description": "Cosoft is a French SaaS platform for running shared workspaces, published by FTEL. It handles desk and meeting-room booking on an interactive calendar, online payment, automatic quotes and invoices with an accounting export, a member community layer, and connections to door-access, wifi and printing systems. It is sold as a free tier, a Premium plan at a published monthly price and a quoted Pro plan that adds multi-site management, a prospecting CRM and API access. The editor counts forty connected partners, fifteen of them online payment providers and seventeen access-control systems.\n",
+      "description_fr": "Cosoft est une plateforme SaaS française pour l'exploitation d'espaces de travail partagés, publiée par FTEL. Elle gère la réservation de postes et de salles de réunion sur un calendrier interactif, le paiement en ligne, les devis et factures automatiques avec export comptable, une couche communauté pour les membres, et des connexions aux systèmes de contrôle d'accès, wifi et impression. Elle est vendue en une offre gratuite, une offre Premium à un tarif mensuel publié et une offre Pro sur devis qui ajoute la gestion multi-site, un CRM de prospection et l'accès API. L'éditeur revendique quarante partenaires connectés, dont quinze prestataires de paiement en ligne et dix-sept systèmes de contrôle d'accès.\n",
       "real_estate_use": "A coworking or tiers-lieu manager uses Cosoft as the operating system of the site: members book a desk or a meeting room themselves and pay online, the invoice and the accounting export follow without re-keying, and the door opens on a badge or from a phone. Local authorities running a tiers-lieu reach for it for the same reasons plus the occupancy figures they have to report. The community side, directory and posts and chat and paid or free events, is what a manager uses to keep the place alive once the operational part runs itself. Multi-site and the API sit in the top plan, which is where a small network of spaces lands rather than a single site.\n",
       "features": [
         "Interactive booking calendar for desks, private offices and meeting rooms",
@@ -8678,8 +8692,9 @@
       ],
       "category": "estimation-pricing",
       "positioning": "Le logiciel d'expertise et d'évaluation immobilière pour maison, appartement et terrain.",
-      "description": "ExpertVAL est une webapp française d'évaluation immobilière destinée aux experts. Elle intègre des bases de données publiques (DVF, INSEE, DPE, carte des loyers), un module cartographique avec parcelles cadastrales, et génère des rapports d'expertise en Word conformes à la charte de l'expertise et aux normes européennes EVS de TEGoVA.\n",
-      "real_estate_use": "Un expert immobilier ou un conseiller en gestion de patrimoine ouvre un dossier d'expertise amiable, importe les références de comparaison depuis DVF ou Patrim, prend les photos et saisit les données pendant la visite sur tablette, applique la méthode par comparaison ou le DCF, puis génère le rapport final en Word à partir d'un modèle conforme EVS.\n",
+      "description": "ExpertVAL is a French web app for property valuation aimed at professional appraisers. It integrates public databases (DVF, INSEE, DPE energy ratings, rent maps), a mapping module with cadastral parcels, and generates appraisal reports in Word format compliant with the appraisal charter and TEGoVA's European EVS standards.\n",
+      "description_fr": "ExpertVAL est une webapp française d'évaluation immobilière destinée aux experts. Elle intègre des bases de données publiques (DVF, INSEE, DPE, carte des loyers), un module cartographique avec parcelles cadastrales, et génère des rapports d'expertise en Word conformes à la charte de l'expertise et aux normes européennes EVS de TEGoVA.\n",
+      "real_estate_use": "A property appraiser or wealth-management advisor opens an amicable appraisal file, imports comparison references from DVF or Patrim, takes photos and enters data during the site visit on a tablet, applies the comparison method or discounted cash flow, then generates the final report in Word from an EVS-compliant template.\n",
       "features": [
         "Bases de données intégrées DVF, INSEE, DPE et carte des loyers",
         "Module cartographique avec parcelles cadastrales",
@@ -12241,8 +12256,9 @@
         "ai-assistants"
       ],
       "positioning": "L'intelligence immobilière : décrivez votre projet, l'IA traduit ça en critères de recherche et vous recommande les biens qui vous correspondent.",
-      "description": "Kazaki est un portail français de recherche immobilière pour particuliers, fondé par Kazaki SAS (Reims). Plutôt qu'un moteur à filtres, il propose une recherche conversationnelle : l'acheteur décrit son projet en langage naturel, et l'IA parcourt les annonces des agences partenaires pour recommander des biens, enrichis d'une estimation de prix, d'un simulateur de crédit et du DPE. Applications mobiles iOS et Android.\n",
-      "real_estate_use": "Une agence (L'Atelier Immo, ERA, Les Clefs Immo et Redouté sont citées comme partenaires) voit ses annonces reprises et enrichies sur Kazaki, qui les expose à des acheteurs déjà qualifiés par leur conversation avec l'IA plutôt que par des filtres classiques — un canal d'acquisition de leads supplémentaire, sur le même principe qu'un portail grand public.\n",
+      "description": "Kazaki is a French property-search portal for individuals, founded by Kazaki SAS (Reims). Rather than a filter-based search engine, it offers conversational search: the buyer describes their project in natural language, and the AI scans partner agencies' listings to recommend properties, enriched with a price estimate, a mortgage simulator and the DPE energy rating. iOS and Android mobile apps.\n",
+      "description_fr": "Kazaki est un portail français de recherche immobilière pour particuliers, fondé par Kazaki SAS (Reims). Plutôt qu'un moteur à filtres, il propose une recherche conversationnelle : l'acheteur décrit son projet en langage naturel, et l'IA parcourt les annonces des agences partenaires pour recommander des biens, enrichis d'une estimation de prix, d'un simulateur de crédit et du DPE. Applications mobiles iOS et Android.\n",
+      "real_estate_use": "An agency (L'Atelier Immo, ERA, Les Clefs Immo and Redouté are cited as partners) has its listings picked up and enriched on Kazaki, which exposes them to buyers already qualified through their conversation with the AI rather than through classic filters — an additional lead-acquisition channel, on the same principle as a mainstream portal.\n",
       "features": [
         "Recherche conversationnelle par IA plutôt que par filtres",
         "Agrégation des annonces d'agences partenaires",
@@ -16051,6 +16067,74 @@
       "updated": "2026-08-25"
     },
     {
+      "slug": "obligo",
+      "name": "Obligo",
+      "editor": "Obligo",
+      "website": "https://www.obligo.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "tenant-screening",
+      "positioning": "The new standard for security deposits — flexible options for renters, simplified operations for properties.",
+      "description": "Obligo is a security-deposit alternative platform. It verifies a renter's eligibility and presents deposit options — no deposit, reduced deposit, installments, or a full deposit that earns interest — backed by a payment method on file instead of cash held by the property. At move-out, Obligo handles any charges and refunds digitally rather than by paper check.\n",
+      "real_estate_use": "A property replaces its cash security-deposit requirement with Obligo: at lease signing, the renter connects a payment method and Obligo verifies their eligibility for a reduced or no-deposit option instead of the property collecting and holding a deposit itself. At move-out, if damage or unpaid charges apply, Obligo processes the charge against the renter's connected payment method and returns any remaining balance electronically, without the property having to manage a held deposit and its refund.\n",
+      "features": [
+        "Deposit eligibility verification",
+        "No-deposit and reduced-deposit options",
+        "Installment deposit plans",
+        "Digital move-out charge and refund processing"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Offer applicants a no-deposit or reduced-deposit option instead of collecting a cash deposit"
+        },
+        {
+          "persona": "tenant-occupier",
+          "job": "Move out with charges and refunds settled digitally against a connected payment method instead of a paper check"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "landlord-owner",
+        "tenant-occupier"
+      ],
+      "segments": [
+        "residential",
+        "multifamily"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "reviews": [],
+      "signals": {
+        "privacy": "https://www.obligo.com/privacy-policy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-15"
+      },
+      "sources": [
+        {
+          "url": "https://www.obligo.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-15"
+    },
+    {
       "slug": "officernd",
       "name": "OfficeRnD Flex",
       "editor": "OfficeRnD",
@@ -16159,8 +16243,9 @@
       ],
       "category": "agent-marketing",
       "positioning": "Le tiers de confiance qui certifie la réputation des professionnels, avec une méthode d'avis contrôlés triple certifiée AFNOR.",
-      "description": "Opinion System est un institut de sondage français qui collecte et contrôle des avis clients pour plusieurs professions réglementées, dont l'immobilier. Sa méthode de collecte est certifiée AFNOR (ISO 9001, ISO 20252, NF Service 522, NF ISO 20488) : les avis sont vérifiés avant publication par un processus audité chaque année.\n",
-      "real_estate_use": "Une agence immobilière ou un courtier en crédit s'inscrit auprès d'Opinion System pour faire certifier ses avis clients : la plateforme sollicite les clients après une transaction, contrôle l'authenticité des avis avant publication, et l'agence affiche le badge de réputation certifiée sur son site pour rassurer de nouveaux prospects.\n",
+      "description": "Opinion System is a French polling institute that collects and controls customer reviews for several regulated professions, including real estate. Its collection method is AFNOR-certified (ISO 9001, ISO 20252, NF Service 522, NF ISO 20488): reviews are verified before publication through a process audited every year.\n",
+      "description_fr": "Opinion System est un institut de sondage français qui collecte et contrôle des avis clients pour plusieurs professions réglementées, dont l'immobilier. Sa méthode de collecte est certifiée AFNOR (ISO 9001, ISO 20252, NF Service 522, NF ISO 20488) : les avis sont vérifiés avant publication par un processus audité chaque année.\n",
+      "real_estate_use": "A real estate agency or credit broker signs up with Opinion System to get its customer reviews certified: the platform solicits clients after a transaction, checks review authenticity before publication, and the agency displays the certified-reputation badge on its site to reassure new prospects.\n",
       "features": [
         "Collecte d'avis clients certifiée AFNOR",
         "Contrôle des avis avant publication",
@@ -17303,6 +17388,77 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "pointcentral",
+      "name": "PointCentral",
+      "editor": "Alarm.com",
+      "website": "https://www.pointcentral.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "tenant-experience",
+      "also_in": [
+        "property-management"
+      ],
+      "positioning": "One trusted, cloud-based smart property platform for access, energy, water and video management at scale.",
+      "description": "PointCentral, an Alarm.com company, is a cloud-based smart-property platform for property managers. It covers access management (smart locks), energy and water management, video surveillance and noise monitoring, and self-guided tours, managed from a single dashboard across a portfolio of units.\n",
+      "real_estate_use": "A property manager automates move-in and move-out access on a portfolio of smart rental units through PointCentral instead of rekeying locks or coordinating in-person handoffs, and sets smart thermostats and water valves to reduce vacant-unit utility costs and leak damage. For a self-guided tour, the platform grants a verified prospect temporary digital access to a specific unit and logs the visit, and the same dashboard raises alerts from video and noise monitoring if an issue occurs after hours.\n",
+      "features": [
+        "Smart lock access management",
+        "Energy and water management",
+        "Video surveillance and noise monitoring",
+        "Self-guided tour access",
+        "Single portfolio-wide dashboard"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Automate move-in and move-out access across a portfolio of smart rental units"
+        },
+        {
+          "persona": "facility-manager",
+          "job": "Reduce vacant-unit utility costs and leak damage with remote thermostat and water-valve control"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "facility-manager"
+      ],
+      "segments": [
+        "residential",
+        "multifamily",
+        "hospitality"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "reviews": [],
+      "signals": {
+        "privacy": "https://www.pointcentral.com/pointcentral-privacy-policy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-15"
+      },
+      "sources": [
+        {
+          "url": "https://www.pointcentral.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-15"
     },
     {
       "slug": "poliris",
@@ -19157,8 +19313,8 @@
         "ai-assistants"
       ],
       "positioning": "The AI-powered property report for real estate agents.",
-      "description": "RealReports est une plateforme de renseignement immobilier qui compile des données provenant d'une quinzaine de sources pour produire, à la demande, des rapports sur un bien : zones inondables, historique, analyse de divulgations. Aiden, la couche d'intelligence du produit, répond aux questions sur un bien et alimente RealCMA, un outil d'analyse comparative de marché. Le produit se distribue en partie via des accords avec des MLS américaines, qui en ouvrent l'accès à leurs agents membres.\n",
-      "real_estate_use": "Un agent préparant une offre veut savoir rapidement si un bien est en zone inondable, ce que révèlent les documents de divulgation du vendeur, et comment le positionner face au marché local : il génère un RealReport et interroge Aiden en langage naturel plutôt que de croiser lui-même plusieurs bases de données. Pour construire une analyse comparative de marché à présenter à un client, l'agent utilise RealCMA, qui produit un document au format de présentation habituel de l'agence en quelques secondes plutôt qu'en heures de recherche manuelle.\n",
+      "description": "RealReports is a property-intelligence platform that compiles data from around fifteen sources to produce on-demand reports about a property: flood zones, history, disclosure analysis. Aiden, the product's intelligence layer, answers questions about a property and feeds RealCMA, a comparative market analysis tool. The product is distributed in part through agreements with US MLSs, which open access to it for their member agents.\n",
+      "real_estate_use": "An agent preparing an offer wants to quickly know whether a property sits in a flood zone, what the seller's disclosure documents reveal, and how to position it against the local market: they generate a RealReport and query Aiden in natural language rather than cross-referencing several databases themselves. To build a comparative market analysis to present to a client, the agent uses RealCMA, which produces a document in the agency's usual presentation format in seconds rather than hours of manual research.\n",
       "features": [
         "Rapport de renseignement sur un bien (RealReports)",
         "Assistant IA sur les données du bien (Aiden)",
@@ -19529,6 +19685,85 @@
       "updated": "2026-08-25"
     },
     {
+      "slug": "rently",
+      "name": "Rently",
+      "editor": "Rently",
+      "website": "https://use.rently.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "tenant-experience",
+      "also_in": [
+        "property-management"
+      ],
+      "positioning": "Self-touring, smart home and access control for every stage of the resident lifecycle.",
+      "description": "Rently is a resident lifecycle management platform covering self-guided property tours, smart home devices, access control, security cameras, an AI leasing agent, and listing syndication to ILS portals. It serves single-family, multifamily, build-to-rent and student housing operators.\n",
+      "real_estate_use": "A leasing agent lets a prospect self-tour a vacant unit outside office hours using Rently's smart-lock access control, without a staff member present for every showing. Once the prospect applies and moves in, the same smart-home infrastructure carries over to the resident's daily access, and Rently's AI leasing agent handles routine prospect questions and scheduling in between, freeing the leasing team to focus on applications that need a human.\n",
+      "features": [
+        "Self-guided tours",
+        "Smart home devices",
+        "Access control",
+        "Security cameras",
+        "AI leasing agent",
+        "ILS listing syndication"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Let prospects self-tour vacant units outside office hours without staff on site"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "Carry smart-home access from the self-tour stage through to resident move-in on the same platform"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "landlord-owner",
+        "tenant-occupier"
+      ],
+      "segments": [
+        "residential",
+        "multifamily"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "reviews": [],
+      "logo": {
+        "file": "logos/rently.png",
+        "source_url": "https://use.rently.com/wp-content/uploads/2023/03/logo.svg",
+        "fetched_on": "2026-09-15"
+      },
+      "signals": {
+        "pricing": "https://use.rently.com/pricing",
+        "privacy": "https://use.rently.com/privacy-policy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-15"
+      },
+      "sources": [
+        {
+          "url": "https://use.rently.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-15"
+    },
+    {
       "slug": "rentmanager",
       "name": "Rent Manager",
       "editor": "London Computer Systems",
@@ -19836,6 +20071,76 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "rentvision",
+      "name": "RentVision",
+      "editor": "RentVision",
+      "website": "https://www.rentvision.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "agent-marketing",
+      "also_in": [
+        "property-management"
+      ],
+      "positioning": "The vacancy prevention platform for multifamily — marketing and pricing that gets ahead of tomorrow's vacancy.",
+      "description": "RentVision is a marketing and revenue-management platform for multifamily communities. It covers predictive advertising, community websites, virtual tours, revenue and pricing management, and analytics and advising, aimed at getting ahead of upcoming vacancy exposure rather than reacting to it after the fact.\n",
+      "real_estate_use": "A multifamily operator facing rising vacancy on a specific floorplan uses RentVision's predictive advertising to redirect ad spend and traffic toward the at-risk unit type before it sits empty, while the community website automatically channels visitors to that floorplan's page. Revenue management then adjusts pricing on the affected units, and the operator reviews the effect through RentVision's analytics rather than waiting for the next leasing report to notice the trend.\n",
+      "features": [
+        "Predictive advertising",
+        "Community websites",
+        "Virtual tours",
+        "Revenue and pricing management",
+        "Analytics and advising"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Redirect marketing spend toward floorplans with rising vacancy risk before units sit empty"
+        },
+        {
+          "persona": "investor-am",
+          "job": "Adjust unit pricing ahead of a predicted vacancy spike rather than after occupancy drops"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "investor-am"
+      ],
+      "segments": [
+        "multifamily"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "reviews": [],
+      "signals": {
+        "privacy": "https://www.rentvision.com/privacy-policy",
+        "status": "https://status.rentvision.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-15"
+      },
+      "sources": [
+        {
+          "url": "https://www.rentvision.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-15"
     },
     {
       "slug": "reonomy",
@@ -20200,6 +20505,79 @@
         "checked_by": null
       },
       "updated": "2026-09-05"
+    },
+    {
+      "slug": "saferent-solutions",
+      "name": "SafeRent Solutions",
+      "editor": "SafeRent Solutions, LLC",
+      "website": "https://saferentsolutions.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "tenant-screening",
+      "positioning": "Compliance-first resident screening, fraud prevention and income verification for rental housing.",
+      "description": "SafeRent Solutions is a rental screening platform for property managers, landlords and real estate agents. Its services cover resident screening (credit, criminal and eviction history), fraud prevention, and income and employment verification, with separate support lines for the property managers who buy the service and for the consumer applicants being screened.\n",
+      "real_estate_use": "A property manager screening a rental applicant runs a SafeRent Solutions resident screening report to check credit, criminal and eviction history before approving a lease, while a fraud-prevention check flags falsified pay stubs or IDs submitted with the application. The applicant themselves can reach SafeRent's consumer support line directly to dispute or understand an item on their report, separate from the property manager's own account.\n",
+      "features": [
+        "Resident screening (credit, criminal, eviction history)",
+        "Fraud prevention",
+        "Income and employment verification",
+        "Separate client and consumer support lines"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Screen a rental applicant's credit, criminal and eviction history before approving a lease"
+        },
+        {
+          "persona": "tenant-occupier",
+          "job": "Dispute or get an explanation of an item on a screening report through consumer support"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "landlord-owner",
+        "tenant-occupier"
+      ],
+      "segments": [
+        "residential",
+        "multifamily"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "reviews": [],
+      "logo": {
+        "file": "logos/saferent-solutions.png",
+        "source_url": "https://saferentsolutions.com/wp-content/uploads/2025/05/SRS-Registered-Logo.png",
+        "fetched_on": "2026-09-15"
+      },
+      "signals": {
+        "privacy": "https://saferentsolutions.com/privacy-policy-2",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-15"
+      },
+      "sources": [
+        {
+          "url": "https://saferentsolutions.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-15"
     },
     {
       "slug": "salvia-developpement",
@@ -20664,6 +21042,92 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "showmojo",
+      "name": "ShowMojo",
+      "editor": "ShowMojo",
+      "website": "https://hello.showmojo.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "property-management",
+      "also_in": [
+        "tenant-screening"
+      ],
+      "positioning": "Market-leading leasing automation, now with AI — fill vacancies at scale without adding headcount.",
+      "description": "ShowMojo is an automated leasing platform for property managers. It publishes listings to more than 50 rental sites, responds to and follows up with leads automatically, coordinates in-person and self-guided showings, runs credit, background and ID checks on prospects, and reports on leasing-funnel performance to owners.\n",
+      "real_estate_use": "A property manager with vacant units lets ShowMojo publish and keep listings updated across rental sites, then hands off lead response and showing scheduling to the platform instead of coordinating each tour by phone or email. A prospect touring a self-guided unit unlocks it with ShowMojo's access control after being verified, and once they apply, the same platform runs the tenant screening before the manager reviews the file and signs a lease.\n",
+      "features": [
+        "Automated listing syndication to 50+ rental sites",
+        "Lead response and follow-up automation",
+        "In-person and self-guided showing scheduling",
+        "Smart-lock access control for self-guided tours",
+        "Tenant screening (credit, background, ID)",
+        "Owner reporting on the leasing funnel"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Automate showing scheduling and lead follow-up for a portfolio of vacant units"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "Track leasing-funnel performance across a portfolio from real-time owner reports"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "landlord-owner"
+      ],
+      "segments": [
+        "residential",
+        "multifamily"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "per-unit",
+        "public_pricing": true,
+        "from": 1.3,
+        "currency": "USD",
+        "unit": "per unit / year, annual Pro plan",
+        "url": "https://hello.showmojo.com/pricing/"
+      },
+      "reviews": [],
+      "logo": {
+        "file": "logos/showmojo.png",
+        "source_url": "https://hello.showmojo.com/wp-content/uploads/2026/03/logo.png",
+        "fetched_on": "2026-09-15"
+      },
+      "signals": {
+        "pricing": "https://hello.showmojo.com/pricing",
+        "privacy": "https://hello.showmojo.com/privacy-policy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-15"
+      },
+      "sources": [
+        {
+          "url": "https://hello.showmojo.com",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://hello.showmojo.com/pricing/",
+          "note": "page tarifs"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-15"
     },
     {
       "slug": "sierra-interactive",
@@ -25816,6 +26280,88 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "zinspector",
+      "name": "zInspector",
+      "editor": "zInspector",
+      "website": "https://www.zinspector.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "property-management",
+      "also_in": [
+        "facility-maintenance"
+      ],
+      "positioning": "The most powerful inspection solution for property managers — AI-assisted, tenant self-service, fully connected.",
+      "description": "zInspector is property inspection software for property managers. It covers move-in, move-out and periodic unit inspections, with an AI feature (zAssistant) that builds a report from a spoken walkthrough, a tenant self-inspection option residents complete on their own phone, and an on-demand network of professional inspectors (OnSight PROS) for managers who want a report done for them.\n",
+      "real_estate_use": "A property manager doing a move-in inspection walks the unit narrating what they see, and zAssistant turns that into a report with photos, conditions and comments rather than the manager typing it up afterward. For a portfolio too large to walk every unit personally, the manager instead invites residents to complete a guided self-inspection with photos and a digital signature on their own phone, or books a professional inspector through OnSight PROS when an independent, legally defensible report is needed.\n",
+      "features": [
+        "AI-assisted inspection reports (zAssistant)",
+        "Tenant self-inspections",
+        "On-demand professional inspector network (OnSight PROS)",
+        "Move-in, move-out and periodic inspections",
+        "Digital signatures and photo documentation"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Turn a spoken unit walkthrough into a documented inspection report without manual write-up"
+        },
+        {
+          "persona": "tenant-occupier",
+          "job": "Complete a guided move-in inspection with photos and a signature from a phone"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "facility-manager",
+        "tenant-occupier"
+      ],
+      "segments": [
+        "residential",
+        "multifamily"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://www.zinspector.com/pricing"
+      },
+      "reviews": [],
+      "logo": {
+        "file": "logos/zinspector.png",
+        "source_url": "https://cdn.prod.website-files.com/69caa158cb120977bdc62804/69caa158cb120977bdc629ec_Website-Logo3%201.png",
+        "fetched_on": "2026-09-15"
+      },
+      "signals": {
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-15"
+      },
+      "sources": [
+        {
+          "url": "https://www.zinspector.com",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://www.zinspector.com/pricing",
+          "note": "page tarifs"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-15"
     },
     {
       "slug": "zumper",

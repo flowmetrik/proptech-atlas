@@ -21,6 +21,7 @@
       ],
       "positioning": "Financing software for French IOBSP credit brokers, covering the calculation, document and invoicing side of a mortgage file.",
       "description": "Actelo is a French SaaS platform for IOBSP credit brokers. It covers the financing side of a mortgage file end to end: eligibility and amortisation calculations, borrower insurance quoting, generation of the regulatory financing documents, a document management space, a borrower portal, invoicing of the parties involved and activity statistics. It is sold per user with a published monthly price and no commitment.\n",
+      "description_fr": "Actelo est une plateforme SaaS française pour les courtiers en crédit IOBSP. Elle couvre de bout en bout le volet financement d'un dossier de crédit immobilier : calculs d'éligibilité et d'amortissement, tarification de l'assurance emprunteur, génération des documents réglementaires de financement, un espace de gestion documentaire, un portail emprunteur, la facturation des parties prenantes et des statistiques d'activité. Elle est vendue par utilisateur, avec un tarif mensuel publié et sans engagement.\n",
       "real_estate_use": "A mortgage broker takes in a buyer whose offer has just been accepted and has to turn a project into a bankable file within days. Actelo runs the calculation side: it works out which loan structures the project is eligible for, prices the borrower insurance, lists the supporting documents to collect, and produces the financing proposal and the regulatory paperwork. The borrower drops the documents in their own space instead of emailing them, and the broker follows the file stage by stage until the invoicing of the commission. Independent brokers and franchise networks use it as their whole back office rather than as an add-on to a CRM.\n",
       "features": [
         "Automated financing calculations and loan structuring",
@@ -116,6 +117,7 @@
       ],
       "positioning": "A long-established French agency suite covering transaction, rental management and the agency website.",
       "description": "Adapt Immo provides French agencies with transaction software, rental management, websites and portal publishing, sold as an integrated suite with training and support aimed at independent agencies and small networks.\n",
+      "description_fr": "Adapt Immo fournit aux agences françaises un logiciel de transaction, de gestion locative, de création de sites web et de diffusion sur les portails, vendu en suite intégrée avec formation et support, à destination des agences indépendantes et des petits réseaux.\n",
       "real_estate_use": "Many French agencies run transaction and gérance side by side under the same carte professionnelle. Keeping both in one suite avoids the duplicate owner and property records that appear when an agency buys a sales tool and a separate rental tool — a recurring source of error at the point where a managed property goes up for sale.\n",
       "features": [
         "Transaction management with mandates and matching",

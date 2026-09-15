@@ -13,6 +13,14 @@ description: >
   ledger and closing annexes, prepares fund calls detailed by budget and by lot
   including the mandatory ALUR works fund, handles general-assembly convocations, and
   gives co-owners a secure document extranet.
+description_fr: >
+  Copriciel est un logiciel français de comptabilité et de gestion de copropriété,
+  positionné explicitement comme un remplaçant des tableurs par lesquels
+  commencent beaucoup de syndics bénévoles. Il automatise le rapprochement
+  bancaire à partir de relevés PDF importés, génère le grand livre et les annexes
+  de clôture, prépare les appels de fonds détaillés par budget et par lot, y
+  compris le fonds travaux ALUR obligatoire, gère les convocations d'assemblée
+  générale, et donne aux copropriétaires un extranet documentaire sécurisé.
 real_estate_use: >
   A volunteer syndic who has been tracking the building's accounts in Excel switches
   to Copriciel to automate bank reconciliation and fund calls, cutting the monthly

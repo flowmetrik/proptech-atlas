@@ -10,6 +10,7 @@
   "category": "construction-development",
   "positioning": "Site observations pinned to the plan, captured on a tablet and turned into a report before leaving the site.",
   "description": "BulldozAIR is a French field collaboration application for construction: annotate plans, create positioned observations with photos, assign them to a company with a deadline, track their resolution, and generate site reports and reserve lists automatically.\n",
+  "description_fr": "BulldozAIR est une application française de collaboration terrain pour le BTP : annoter les plans, créer des observations géolocalisées avec photos, les assigner à une entreprise avec une échéance, suivre leur résolution, et générer automatiquement des comptes rendus de chantier et des listes de réserves.\n",
   "real_estate_use": "A site visit produces dozens of observations that traditionally become an evening of report writing and a week of chasing. Pinning each one to a plan coordinate, assigning it on the spot and generating the report before leaving compresses that cycle to the visit itself — and gives each contractor an unambiguous location rather than a paragraph of description.\n",
   "features": [
     "Plan annotation with positioned observations",
