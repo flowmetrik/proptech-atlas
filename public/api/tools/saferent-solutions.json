@@ -1,0 +1,73 @@
+{
+  "slug": "saferent-solutions",
+  "name": "SafeRent Solutions",
+  "editor": "SafeRent Solutions, LLC",
+  "website": "https://saferentsolutions.com",
+  "hq_country": "US",
+  "markets": [
+    "US"
+  ],
+  "category": "tenant-screening",
+  "positioning": "Compliance-first resident screening, fraud prevention and income verification for rental housing.",
+  "description": "SafeRent Solutions is a rental screening platform for property managers, landlords and real estate agents. Its services cover resident screening (credit, criminal and eviction history), fraud prevention, and income and employment verification, with separate support lines for the property managers who buy the service and for the consumer applicants being screened.\n",
+  "real_estate_use": "A property manager screening a rental applicant runs a SafeRent Solutions resident screening report to check credit, criminal and eviction history before approving a lease, while a fraud-prevention check flags falsified pay stubs or IDs submitted with the application. The applicant themselves can reach SafeRent's consumer support line directly to dispute or understand an item on their report, separate from the property manager's own account.\n",
+  "features": [
+    "Resident screening (credit, criminal, eviction history)",
+    "Fraud prevention",
+    "Income and employment verification",
+    "Separate client and consumer support lines"
+  ],
+  "use_cases": [
+    {
+      "persona": "property-manager",
+      "job": "Screen a rental applicant's credit, criminal and eviction history before approving a lease"
+    },
+    {
+      "persona": "tenant-occupier",
+      "job": "Dispute or get an explanation of an item on a screening report through consumer support"
+    }
+  ],
+  "personas": [
+    "property-manager",
+    "landlord-owner",
+    "tenant-occupier"
+  ],
+  "segments": [
+    "residential",
+    "multifamily"
+  ],
+  "company_sizes": [
+    "smb",
+    "midmarket",
+    "enterprise"
+  ],
+  "pricing": {
+    "model": "quote",
+    "public_pricing": false
+  },
+  "reviews": [],
+  "logo": {
+    "file": "logos/saferent-solutions.png",
+    "source_url": "https://saferentsolutions.com/wp-content/uploads/2025/05/SRS-Registered-Logo.png",
+    "fetched_on": "2026-09-15"
+  },
+  "signals": {
+    "privacy": "https://saferentsolutions.com/privacy-policy-2",
+    "site_languages": [
+      "en"
+    ],
+    "checked_on": "2026-09-15"
+  },
+  "sources": [
+    {
+      "url": "https://saferentsolutions.com",
+      "note": "site éditeur"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-09-15"
+}

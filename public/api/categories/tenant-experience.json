@@ -4,7 +4,7 @@
   "label_fr": "Expérience occupant & smart building",
   "summary_en": "Occupant apps, access, bookings, services and building IoT.",
   "summary_fr": "Applications occupants, accès, réservations, services et IoT du bâtiment.",
-  "count": 19,
+  "count": 21,
   "tools": [
     {
       "slug": "aareon",
@@ -1250,6 +1250,156 @@
         "checked_by": null
       },
       "updated": "2026-08-29"
+    },
+    {
+      "slug": "pointcentral",
+      "name": "PointCentral",
+      "editor": "Alarm.com",
+      "website": "https://www.pointcentral.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "tenant-experience",
+      "also_in": [
+        "property-management"
+      ],
+      "positioning": "One trusted, cloud-based smart property platform for access, energy, water and video management at scale.",
+      "description": "PointCentral, an Alarm.com company, is a cloud-based smart-property platform for property managers. It covers access management (smart locks), energy and water management, video surveillance and noise monitoring, and self-guided tours, managed from a single dashboard across a portfolio of units.\n",
+      "real_estate_use": "A property manager automates move-in and move-out access on a portfolio of smart rental units through PointCentral instead of rekeying locks or coordinating in-person handoffs, and sets smart thermostats and water valves to reduce vacant-unit utility costs and leak damage. For a self-guided tour, the platform grants a verified prospect temporary digital access to a specific unit and logs the visit, and the same dashboard raises alerts from video and noise monitoring if an issue occurs after hours.\n",
+      "features": [
+        "Smart lock access management",
+        "Energy and water management",
+        "Video surveillance and noise monitoring",
+        "Self-guided tour access",
+        "Single portfolio-wide dashboard"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Automate move-in and move-out access across a portfolio of smart rental units"
+        },
+        {
+          "persona": "facility-manager",
+          "job": "Reduce vacant-unit utility costs and leak damage with remote thermostat and water-valve control"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "facility-manager"
+      ],
+      "segments": [
+        "residential",
+        "multifamily",
+        "hospitality"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "reviews": [],
+      "signals": {
+        "privacy": "https://www.pointcentral.com/pointcentral-privacy-policy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-15"
+      },
+      "sources": [
+        {
+          "url": "https://www.pointcentral.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-15"
+    },
+    {
+      "slug": "rently",
+      "name": "Rently",
+      "editor": "Rently",
+      "website": "https://use.rently.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "tenant-experience",
+      "also_in": [
+        "property-management"
+      ],
+      "positioning": "Self-touring, smart home and access control for every stage of the resident lifecycle.",
+      "description": "Rently is a resident lifecycle management platform covering self-guided property tours, smart home devices, access control, security cameras, an AI leasing agent, and listing syndication to ILS portals. It serves single-family, multifamily, build-to-rent and student housing operators.\n",
+      "real_estate_use": "A leasing agent lets a prospect self-tour a vacant unit outside office hours using Rently's smart-lock access control, without a staff member present for every showing. Once the prospect applies and moves in, the same smart-home infrastructure carries over to the resident's daily access, and Rently's AI leasing agent handles routine prospect questions and scheduling in between, freeing the leasing team to focus on applications that need a human.\n",
+      "features": [
+        "Self-guided tours",
+        "Smart home devices",
+        "Access control",
+        "Security cameras",
+        "AI leasing agent",
+        "ILS listing syndication"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Let prospects self-tour vacant units outside office hours without staff on site"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "Carry smart-home access from the self-tour stage through to resident move-in on the same platform"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "landlord-owner",
+        "tenant-occupier"
+      ],
+      "segments": [
+        "residential",
+        "multifamily"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "reviews": [],
+      "logo": {
+        "file": "logos/rently.png",
+        "source_url": "https://use.rently.com/wp-content/uploads/2023/03/logo.svg",
+        "fetched_on": "2026-09-15"
+      },
+      "signals": {
+        "pricing": "https://use.rently.com/pricing",
+        "privacy": "https://use.rently.com/privacy-policy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-15"
+      },
+      "sources": [
+        {
+          "url": "https://use.rently.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-15"
     },
     {
       "slug": "smartrent",

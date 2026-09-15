@@ -4,7 +4,7 @@
   "label_fr": "Facility management & maintenance",
   "summary_en": "Work orders, contractors, assets and preventive maintenance.",
   "summary_fr": "Interventions, prestataires, équipements et maintenance préventive.",
-  "count": 27,
+  "count": 28,
   "tools": [
     {
       "slug": "advizeo",
@@ -21,6 +21,7 @@
       ],
       "positioning": "Energy management that ends in a works order — engineering-led rather than reporting-led.",
       "description": "Advizeo, part of the Setec engineering group, provides energy monitoring and management for French buildings: meter and building management system data collection, consumption analysis and alerting, décret tertiaire declaration support, and an action plan followed through to implementation.\n",
+      "description_fr": "Advizeo, filiale du groupe d'ingénierie Setec, propose le suivi et le pilotage énergétique des bâtiments français : collecte des données de compteurs et de GTB, analyse de consommation et alertes, accompagnement à la déclaration décret tertiaire, et un plan d'action suivi jusqu'à sa mise en œuvre.\n",
       "real_estate_use": "Its difference from a pure reporting platform is the engineering behind it. Detecting that a building's heating runs at weekends is only useful if someone changes the schedule. Advizeo pairs the monitoring with technical recommendations and follow-up, which suits owners who do not have an in-house energy engineer.\n",
       "features": [
         "Meter, submeter and building management system data collection",
@@ -124,6 +125,7 @@
       "category": "facility-maintenance",
       "positioning": "Maintenance and compliance tracking for multi-site French operators — retail chains, restaurants, agencies.",
       "description": "BOB Desk is a French SaaS for maintenance and regulatory compliance management across multiple sites: intervention requests, provider dispatch, preventive planning, quote and invoice control, equipment records and regulatory inspection tracking.\n",
+      "description_fr": "BOB Desk est un SaaS français pour la gestion de la maintenance et de la conformité réglementaire multi-sites : demandes d'intervention, dispatch des prestataires, planification préventive, contrôle des devis et factures, fiches équipement et suivi des contrôles réglementaires.\n",
       "real_estate_use": "A chain with two hundred outlets carries a compliance calendar per site — fire safety, electrical inspection, extraction, refrigeration — and no realistic way to track it in a spreadsheet. BOB Desk holds the obligations per site with their due dates, and routes the corrective work to the contracted provider, keeping the evidence in one place for an inspection.\n",
       "features": [
         "Multi-site intervention request and dispatch",
@@ -2801,6 +2803,88 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "zinspector",
+      "name": "zInspector",
+      "editor": "zInspector",
+      "website": "https://www.zinspector.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "property-management",
+      "also_in": [
+        "facility-maintenance"
+      ],
+      "positioning": "The most powerful inspection solution for property managers — AI-assisted, tenant self-service, fully connected.",
+      "description": "zInspector is property inspection software for property managers. It covers move-in, move-out and periodic unit inspections, with an AI feature (zAssistant) that builds a report from a spoken walkthrough, a tenant self-inspection option residents complete on their own phone, and an on-demand network of professional inspectors (OnSight PROS) for managers who want a report done for them.\n",
+      "real_estate_use": "A property manager doing a move-in inspection walks the unit narrating what they see, and zAssistant turns that into a report with photos, conditions and comments rather than the manager typing it up afterward. For a portfolio too large to walk every unit personally, the manager instead invites residents to complete a guided self-inspection with photos and a digital signature on their own phone, or books a professional inspector through OnSight PROS when an independent, legally defensible report is needed.\n",
+      "features": [
+        "AI-assisted inspection reports (zAssistant)",
+        "Tenant self-inspections",
+        "On-demand professional inspector network (OnSight PROS)",
+        "Move-in, move-out and periodic inspections",
+        "Digital signatures and photo documentation"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Turn a spoken unit walkthrough into a documented inspection report without manual write-up"
+        },
+        {
+          "persona": "tenant-occupier",
+          "job": "Complete a guided move-in inspection with photos and a signature from a phone"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "facility-manager",
+        "tenant-occupier"
+      ],
+      "segments": [
+        "residential",
+        "multifamily"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://www.zinspector.com/pricing"
+      },
+      "reviews": [],
+      "logo": {
+        "file": "logos/zinspector.png",
+        "source_url": "https://cdn.prod.website-files.com/69caa158cb120977bdc62804/69caa158cb120977bdc629ec_Website-Logo3%201.png",
+        "fetched_on": "2026-09-15"
+      },
+      "signals": {
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-15"
+      },
+      "sources": [
+        {
+          "url": "https://www.zinspector.com",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://www.zinspector.com/pricing",
+          "note": "page tarifs"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-15"
     }
   ]
 }

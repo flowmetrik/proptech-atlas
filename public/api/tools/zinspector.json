@@ -1,0 +1,82 @@
+{
+  "slug": "zinspector",
+  "name": "zInspector",
+  "editor": "zInspector",
+  "website": "https://www.zinspector.com",
+  "hq_country": "US",
+  "markets": [
+    "US"
+  ],
+  "category": "property-management",
+  "also_in": [
+    "facility-maintenance"
+  ],
+  "positioning": "The most powerful inspection solution for property managers — AI-assisted, tenant self-service, fully connected.",
+  "description": "zInspector is property inspection software for property managers. It covers move-in, move-out and periodic unit inspections, with an AI feature (zAssistant) that builds a report from a spoken walkthrough, a tenant self-inspection option residents complete on their own phone, and an on-demand network of professional inspectors (OnSight PROS) for managers who want a report done for them.\n",
+  "real_estate_use": "A property manager doing a move-in inspection walks the unit narrating what they see, and zAssistant turns that into a report with photos, conditions and comments rather than the manager typing it up afterward. For a portfolio too large to walk every unit personally, the manager instead invites residents to complete a guided self-inspection with photos and a digital signature on their own phone, or books a professional inspector through OnSight PROS when an independent, legally defensible report is needed.\n",
+  "features": [
+    "AI-assisted inspection reports (zAssistant)",
+    "Tenant self-inspections",
+    "On-demand professional inspector network (OnSight PROS)",
+    "Move-in, move-out and periodic inspections",
+    "Digital signatures and photo documentation"
+  ],
+  "use_cases": [
+    {
+      "persona": "property-manager",
+      "job": "Turn a spoken unit walkthrough into a documented inspection report without manual write-up"
+    },
+    {
+      "persona": "tenant-occupier",
+      "job": "Complete a guided move-in inspection with photos and a signature from a phone"
+    }
+  ],
+  "personas": [
+    "property-manager",
+    "facility-manager",
+    "tenant-occupier"
+  ],
+  "segments": [
+    "residential",
+    "multifamily"
+  ],
+  "company_sizes": [
+    "solo",
+    "smb",
+    "midmarket",
+    "enterprise"
+  ],
+  "pricing": {
+    "model": "subscription",
+    "public_pricing": true,
+    "url": "https://www.zinspector.com/pricing"
+  },
+  "reviews": [],
+  "logo": {
+    "file": "logos/zinspector.png",
+    "source_url": "https://cdn.prod.website-files.com/69caa158cb120977bdc62804/69caa158cb120977bdc629ec_Website-Logo3%201.png",
+    "fetched_on": "2026-09-15"
+  },
+  "signals": {
+    "site_languages": [
+      "en"
+    ],
+    "checked_on": "2026-09-15"
+  },
+  "sources": [
+    {
+      "url": "https://www.zinspector.com",
+      "note": "site éditeur"
+    },
+    {
+      "url": "https://www.zinspector.com/pricing",
+      "note": "page tarifs"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-09-15"
+}

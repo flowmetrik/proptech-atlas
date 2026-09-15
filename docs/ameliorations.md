@@ -97,11 +97,19 @@ qu'une chose a été tentée vaut mieux que de la retenter.
 - **Comparaison deux à deux.** Une page « X vs Y » pour les paires réellement
   concurrentes. Fort en référencement, mais **risque de contenu creux** : à ne
   faire que si la page dit ce qui sépare vraiment les deux produits.
-- **Descriptions françaises.** 6 fiches sur 108 à siège français ont une
-  `description_fr` (voir l'entrée « fait » du 13/09) ; les 102 autres se lisent
-  encore en anglais. C'est un travail de traduction fidèle, fiche par fiche —
-  pas de raccourci automatique sans relecture, sur un champ qui est lu par un
-  visiteur humain.
+- **Descriptions françaises.** 23 fiches sur 114 à siège français ont une
+  `description_fr` au 15/09 (voir l'entrée « fait » du jour) ; 91 restent en
+  anglais seul. C'est un travail de traduction fidèle, fiche par fiche — pas de
+  raccourci automatique sans relecture, sur un champ qui est lu par un visiteur
+  humain.
+- **Sept fiches avaient `description` et `real_estate_use` rédigés en français
+  au lieu d'anglais** — corrigé le 15/09 (voir l'entrée « fait » du jour) pour
+  ces deux champs seulement. Reste ouvert sur les mêmes sept fiches
+  (`bellman`, `brickwise-ai`, `clap-tech`, `expertval`, `kazaki`,
+  `opinion-system`, `realreports`) : `features`, `use_cases[].job` et, pour
+  `brickwise-ai`, `ai.capabilities` sont encore en français. Rien dans
+  `validate.mjs` ne détecte la langue d'un champ — c'est une relecture
+  humaine, comme celle qui a trouvé ces sept, qui les attrape.
 
 ## Ouvert — exploitation
 
@@ -133,12 +141,36 @@ qu'une chose a été tentée vaut mieux que de la retenter.
   Deux décisions humaines distinctes attendent : lever le blocage de
   facturation (`Organization → Settings → Billing`), et/ou autoriser la mise
   en place d'une voie de déploiement par branche indépendante d'Actions.
+  **Toujours actif le 15/09** — même annotation sur `daily-health` du 14/09
+  18h38 UTC. Pas de nouvelle tentative de contournement : la décision reste
+  celle de Mehdi.
 - **Identifiant GA4.** La mesure est câblée et attend la variable de dépôt
   `GA4_MEASUREMENT_ID`. Sans elle, aucune ligne de script tiers n'est émise.
 
 ---
 
 ## Fait
+
+- **2026-09-15** — Sept fiches avaient `description` et `real_estate_use`
+  rédigés en français au lieu d'anglais, en violation de la règle « anglais
+  pour les fiches » : `bellman`, `clap-tech`, `expertval`, `kazaki`,
+  `opinion-system` (les cinq à siège FR) et `brickwise-ai`, `realreports`
+  (siège GB/US, marché US — aucun rapport avec le français, la fiche entière
+  était pourtant en français). Trouvées en cherchant, pour l'entrée ouverte
+  « Descriptions françaises », les fiches sans `description_fr` — un balayage
+  par mots-clés anglais/français sur `description` a isolé les sept cas
+  plutôt qu'une relecture fiche par fiche des 265. Les deux champs corrigés en
+  anglais ; pour les cinq fiches FR, le texte français d'origine devient
+  `description_fr` (traduction fidèle par construction, puisque c'est le texte
+  de départ). `features`, `use_cases[].job` et `ai.capabilities` restent en
+  français sur ces mêmes sept fiches — voir l'entrée ouverte mise à jour.
+  Par ailleurs, 12 fiches supplémentaires à siège français ont reçu une
+  `description_fr` traduite depuis leur `description` anglaise :
+  `actelo`, `adapt-immo`, `advizeo`, `batappli`, `bob-desk`, `bulldozair`,
+  `check-and-visit`, `comptacop`, `copriciel`, `coprolib`, `copromatic`,
+  `cosoft`. 23/114 fiches françaises ont maintenant une `description_fr`,
+  contre 6 avant cette passe. `npm run data:validate` reste vert (265
+  fiches).
 
 - **2026-09-14** — La file `rejected` de `verify.mjs` bloquait par **slug
   seul**, pour toujours : `courtisia`, écarté le 25/08 pour `courtisia.fr`

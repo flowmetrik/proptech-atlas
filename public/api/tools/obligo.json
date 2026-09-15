@@ -1,0 +1,68 @@
+{
+  "slug": "obligo",
+  "name": "Obligo",
+  "editor": "Obligo",
+  "website": "https://www.obligo.com",
+  "hq_country": "US",
+  "markets": [
+    "US"
+  ],
+  "category": "tenant-screening",
+  "positioning": "The new standard for security deposits — flexible options for renters, simplified operations for properties.",
+  "description": "Obligo is a security-deposit alternative platform. It verifies a renter's eligibility and presents deposit options — no deposit, reduced deposit, installments, or a full deposit that earns interest — backed by a payment method on file instead of cash held by the property. At move-out, Obligo handles any charges and refunds digitally rather than by paper check.\n",
+  "real_estate_use": "A property replaces its cash security-deposit requirement with Obligo: at lease signing, the renter connects a payment method and Obligo verifies their eligibility for a reduced or no-deposit option instead of the property collecting and holding a deposit itself. At move-out, if damage or unpaid charges apply, Obligo processes the charge against the renter's connected payment method and returns any remaining balance electronically, without the property having to manage a held deposit and its refund.\n",
+  "features": [
+    "Deposit eligibility verification",
+    "No-deposit and reduced-deposit options",
+    "Installment deposit plans",
+    "Digital move-out charge and refund processing"
+  ],
+  "use_cases": [
+    {
+      "persona": "property-manager",
+      "job": "Offer applicants a no-deposit or reduced-deposit option instead of collecting a cash deposit"
+    },
+    {
+      "persona": "tenant-occupier",
+      "job": "Move out with charges and refunds settled digitally against a connected payment method instead of a paper check"
+    }
+  ],
+  "personas": [
+    "property-manager",
+    "landlord-owner",
+    "tenant-occupier"
+  ],
+  "segments": [
+    "residential",
+    "multifamily"
+  ],
+  "company_sizes": [
+    "smb",
+    "midmarket",
+    "enterprise"
+  ],
+  "pricing": {
+    "model": "quote",
+    "public_pricing": false
+  },
+  "reviews": [],
+  "signals": {
+    "privacy": "https://www.obligo.com/privacy-policy",
+    "site_languages": [
+      "en"
+    ],
+    "checked_on": "2026-09-15"
+  },
+  "sources": [
+    {
+      "url": "https://www.obligo.com",
+      "note": "site éditeur"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-09-15"
+}

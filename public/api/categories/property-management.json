@@ -4,7 +4,7 @@
   "label_fr": "Gestion locative résidentielle",
   "summary_en": "Leases, rent, owners, tenants, maintenance and trust accounting.",
   "summary_fr": "Baux, quittances, propriétaires, locataires, travaux et comptabilité mandant.",
-  "count": 52,
+  "count": 57,
   "tools": [
     {
       "slug": "aareon",
@@ -617,8 +617,8 @@
         "ai-assistants"
       ],
       "positioning": "Your properties leased and maintained. 24/7.",
-      "description": "Brickwise AI est un logiciel de gestion locative dont l'agent conversationnel, Alice, répond aux appels, SMS, WhatsApp et emails de locataires pour trianger les demandes de maintenance, faire suivre les dossiers de candidature à la location, suivre les échéances de conformité et relancer les loyers impayés. Issu du batch Y Combinator Fall 2025, l'éditeur, basé à Londres, cible des propriétaires bailleurs et des agences de gestion locative aux États-Unis, avec des pages produit dédiées à New York.\n",
-      "real_estate_use": "Un gestionnaire reçoit un signalement de panne par SMS : Alice diagnostique le problème avec le locataire, envoie un prestataire agréé et suit le dossier jusqu'à la clôture, sans que le gestionnaire n'ait à coordonner chaque étape. Pour un bien mis en location, l'agent répond aux candidats, les accompagne de la visite à la remise des clés en passant par les documents à fournir. Le gestionnaire reçoit des rapports construits à partir des données en temps réel plutôt que de les compiler lui-même, et Alice relance les échéances de conformité avant qu'elles n'expirent.\n",
+      "description": "Brickwise AI is property-management software whose conversational agent, Alice, answers tenant calls, texts, WhatsApp messages and emails to triage maintenance requests, route rental applications, track compliance deadlines and chase unpaid rent. Out of the Y Combinator Fall 2025 batch, the London-based publisher targets landlords and property-management agencies in the United States, with product pages dedicated to New York.\n",
+      "real_estate_use": "A property manager receives a maintenance report by text: Alice diagnoses the problem with the tenant, dispatches an approved contractor, and tracks the case through to closing without the manager having to coordinate each step. For a unit being leased, the agent answers applicants and guides them from the viewing to key handover, including the documents to provide. The manager receives reports built from real-time data rather than compiling them by hand, and Alice chases compliance deadlines before they lapse.\n",
       "features": [
         "Triage et dispatch de la maintenance vers des prestataires agréés",
         "Suivi des candidatures locatives de la visite à la remise des clés",
@@ -816,6 +816,7 @@
       ],
       "positioning": "Inspection software combined with a field network — the report can be produced by their operator rather than by your staff.",
       "description": "Check & Visit provides digital état des lieux and property visit software for French professionals, together with a network of field operators who can carry out the inspection on the manager's behalf, and 3D capture options attached to the same record.\n",
+      "description_fr": "Check & Visit fournit aux professionnels français un logiciel d'états des lieux et de visites numériques, avec un réseau de prestataires terrain pouvant réaliser l'inspection pour le compte du gestionnaire, et des options de capture 3D rattachées au même dossier.\n",
       "real_estate_use": "For a manager with dispersed properties, the constraint on inspections is travel time, not software. Outsourcing the visit to a local operator while keeping the report in the same digital format lets a lettings team scale without hiring inspectors — and the attached 3D capture doubles as a marketing asset for the next letting.\n",
       "features": [
         "Digital état des lieux with photographic evidence",
@@ -3275,6 +3276,77 @@
       "updated": "2026-08-27"
     },
     {
+      "slug": "pointcentral",
+      "name": "PointCentral",
+      "editor": "Alarm.com",
+      "website": "https://www.pointcentral.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "tenant-experience",
+      "also_in": [
+        "property-management"
+      ],
+      "positioning": "One trusted, cloud-based smart property platform for access, energy, water and video management at scale.",
+      "description": "PointCentral, an Alarm.com company, is a cloud-based smart-property platform for property managers. It covers access management (smart locks), energy and water management, video surveillance and noise monitoring, and self-guided tours, managed from a single dashboard across a portfolio of units.\n",
+      "real_estate_use": "A property manager automates move-in and move-out access on a portfolio of smart rental units through PointCentral instead of rekeying locks or coordinating in-person handoffs, and sets smart thermostats and water valves to reduce vacant-unit utility costs and leak damage. For a self-guided tour, the platform grants a verified prospect temporary digital access to a specific unit and logs the visit, and the same dashboard raises alerts from video and noise monitoring if an issue occurs after hours.\n",
+      "features": [
+        "Smart lock access management",
+        "Energy and water management",
+        "Video surveillance and noise monitoring",
+        "Self-guided tour access",
+        "Single portfolio-wide dashboard"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Automate move-in and move-out access across a portfolio of smart rental units"
+        },
+        {
+          "persona": "facility-manager",
+          "job": "Reduce vacant-unit utility costs and leak damage with remote thermostat and water-valve control"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "facility-manager"
+      ],
+      "segments": [
+        "residential",
+        "multifamily",
+        "hospitality"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "reviews": [],
+      "signals": {
+        "privacy": "https://www.pointcentral.com/pointcentral-privacy-policy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-15"
+      },
+      "sources": [
+        {
+          "url": "https://www.pointcentral.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-15"
+    },
+    {
       "slug": "powimo",
       "name": "Powimo",
       "editor": "Seiitra",
@@ -3976,6 +4048,85 @@
       "updated": "2026-08-25"
     },
     {
+      "slug": "rently",
+      "name": "Rently",
+      "editor": "Rently",
+      "website": "https://use.rently.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "tenant-experience",
+      "also_in": [
+        "property-management"
+      ],
+      "positioning": "Self-touring, smart home and access control for every stage of the resident lifecycle.",
+      "description": "Rently is a resident lifecycle management platform covering self-guided property tours, smart home devices, access control, security cameras, an AI leasing agent, and listing syndication to ILS portals. It serves single-family, multifamily, build-to-rent and student housing operators.\n",
+      "real_estate_use": "A leasing agent lets a prospect self-tour a vacant unit outside office hours using Rently's smart-lock access control, without a staff member present for every showing. Once the prospect applies and moves in, the same smart-home infrastructure carries over to the resident's daily access, and Rently's AI leasing agent handles routine prospect questions and scheduling in between, freeing the leasing team to focus on applications that need a human.\n",
+      "features": [
+        "Self-guided tours",
+        "Smart home devices",
+        "Access control",
+        "Security cameras",
+        "AI leasing agent",
+        "ILS listing syndication"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Let prospects self-tour vacant units outside office hours without staff on site"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "Carry smart-home access from the self-tour stage through to resident move-in on the same platform"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "landlord-owner",
+        "tenant-occupier"
+      ],
+      "segments": [
+        "residential",
+        "multifamily"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "reviews": [],
+      "logo": {
+        "file": "logos/rently.png",
+        "source_url": "https://use.rently.com/wp-content/uploads/2023/03/logo.svg",
+        "fetched_on": "2026-09-15"
+      },
+      "signals": {
+        "pricing": "https://use.rently.com/pricing",
+        "privacy": "https://use.rently.com/privacy-policy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-15"
+      },
+      "sources": [
+        {
+          "url": "https://use.rently.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-15"
+    },
+    {
       "slug": "rentmanager",
       "name": "Rent Manager",
       "editor": "London Computer Systems",
@@ -4283,6 +4434,162 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "rentvision",
+      "name": "RentVision",
+      "editor": "RentVision",
+      "website": "https://www.rentvision.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "agent-marketing",
+      "also_in": [
+        "property-management"
+      ],
+      "positioning": "The vacancy prevention platform for multifamily — marketing and pricing that gets ahead of tomorrow's vacancy.",
+      "description": "RentVision is a marketing and revenue-management platform for multifamily communities. It covers predictive advertising, community websites, virtual tours, revenue and pricing management, and analytics and advising, aimed at getting ahead of upcoming vacancy exposure rather than reacting to it after the fact.\n",
+      "real_estate_use": "A multifamily operator facing rising vacancy on a specific floorplan uses RentVision's predictive advertising to redirect ad spend and traffic toward the at-risk unit type before it sits empty, while the community website automatically channels visitors to that floorplan's page. Revenue management then adjusts pricing on the affected units, and the operator reviews the effect through RentVision's analytics rather than waiting for the next leasing report to notice the trend.\n",
+      "features": [
+        "Predictive advertising",
+        "Community websites",
+        "Virtual tours",
+        "Revenue and pricing management",
+        "Analytics and advising"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Redirect marketing spend toward floorplans with rising vacancy risk before units sit empty"
+        },
+        {
+          "persona": "investor-am",
+          "job": "Adjust unit pricing ahead of a predicted vacancy spike rather than after occupancy drops"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "investor-am"
+      ],
+      "segments": [
+        "multifamily"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "reviews": [],
+      "signals": {
+        "privacy": "https://www.rentvision.com/privacy-policy",
+        "status": "https://status.rentvision.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-15"
+      },
+      "sources": [
+        {
+          "url": "https://www.rentvision.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-15"
+    },
+    {
+      "slug": "showmojo",
+      "name": "ShowMojo",
+      "editor": "ShowMojo",
+      "website": "https://hello.showmojo.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "property-management",
+      "also_in": [
+        "tenant-screening"
+      ],
+      "positioning": "Market-leading leasing automation, now with AI — fill vacancies at scale without adding headcount.",
+      "description": "ShowMojo is an automated leasing platform for property managers. It publishes listings to more than 50 rental sites, responds to and follows up with leads automatically, coordinates in-person and self-guided showings, runs credit, background and ID checks on prospects, and reports on leasing-funnel performance to owners.\n",
+      "real_estate_use": "A property manager with vacant units lets ShowMojo publish and keep listings updated across rental sites, then hands off lead response and showing scheduling to the platform instead of coordinating each tour by phone or email. A prospect touring a self-guided unit unlocks it with ShowMojo's access control after being verified, and once they apply, the same platform runs the tenant screening before the manager reviews the file and signs a lease.\n",
+      "features": [
+        "Automated listing syndication to 50+ rental sites",
+        "Lead response and follow-up automation",
+        "In-person and self-guided showing scheduling",
+        "Smart-lock access control for self-guided tours",
+        "Tenant screening (credit, background, ID)",
+        "Owner reporting on the leasing funnel"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Automate showing scheduling and lead follow-up for a portfolio of vacant units"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "Track leasing-funnel performance across a portfolio from real-time owner reports"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "landlord-owner"
+      ],
+      "segments": [
+        "residential",
+        "multifamily"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "per-unit",
+        "public_pricing": true,
+        "from": 1.3,
+        "currency": "USD",
+        "unit": "per unit / year, annual Pro plan",
+        "url": "https://hello.showmojo.com/pricing/"
+      },
+      "reviews": [],
+      "logo": {
+        "file": "logos/showmojo.png",
+        "source_url": "https://hello.showmojo.com/wp-content/uploads/2026/03/logo.png",
+        "fetched_on": "2026-09-15"
+      },
+      "signals": {
+        "pricing": "https://hello.showmojo.com/pricing",
+        "privacy": "https://hello.showmojo.com/privacy-policy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-15"
+      },
+      "sources": [
+        {
+          "url": "https://hello.showmojo.com",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://hello.showmojo.com/pricing/",
+          "note": "page tarifs"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-15"
     },
     {
       "slug": "smartloc",
@@ -5190,6 +5497,88 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "zinspector",
+      "name": "zInspector",
+      "editor": "zInspector",
+      "website": "https://www.zinspector.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "property-management",
+      "also_in": [
+        "facility-maintenance"
+      ],
+      "positioning": "The most powerful inspection solution for property managers — AI-assisted, tenant self-service, fully connected.",
+      "description": "zInspector is property inspection software for property managers. It covers move-in, move-out and periodic unit inspections, with an AI feature (zAssistant) that builds a report from a spoken walkthrough, a tenant self-inspection option residents complete on their own phone, and an on-demand network of professional inspectors (OnSight PROS) for managers who want a report done for them.\n",
+      "real_estate_use": "A property manager doing a move-in inspection walks the unit narrating what they see, and zAssistant turns that into a report with photos, conditions and comments rather than the manager typing it up afterward. For a portfolio too large to walk every unit personally, the manager instead invites residents to complete a guided self-inspection with photos and a digital signature on their own phone, or books a professional inspector through OnSight PROS when an independent, legally defensible report is needed.\n",
+      "features": [
+        "AI-assisted inspection reports (zAssistant)",
+        "Tenant self-inspections",
+        "On-demand professional inspector network (OnSight PROS)",
+        "Move-in, move-out and periodic inspections",
+        "Digital signatures and photo documentation"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Turn a spoken unit walkthrough into a documented inspection report without manual write-up"
+        },
+        {
+          "persona": "tenant-occupier",
+          "job": "Complete a guided move-in inspection with photos and a signature from a phone"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "facility-manager",
+        "tenant-occupier"
+      ],
+      "segments": [
+        "residential",
+        "multifamily"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://www.zinspector.com/pricing"
+      },
+      "reviews": [],
+      "logo": {
+        "file": "logos/zinspector.png",
+        "source_url": "https://cdn.prod.website-files.com/69caa158cb120977bdc62804/69caa158cb120977bdc629ec_Website-Logo3%201.png",
+        "fetched_on": "2026-09-15"
+      },
+      "signals": {
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-15"
+      },
+      "sources": [
+        {
+          "url": "https://www.zinspector.com",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://www.zinspector.com/pricing",
+          "note": "page tarifs"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-15"
     }
   ]
 }

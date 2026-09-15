@@ -132,6 +132,7 @@
       ],
       "positioning": "Inspection software combined with a field network — the report can be produced by their operator rather than by your staff.",
       "description": "Check & Visit provides digital état des lieux and property visit software for French professionals, together with a network of field operators who can carry out the inspection on the manager's behalf, and 3D capture options attached to the same record.\n",
+      "description_fr": "Check & Visit fournit aux professionnels français un logiciel d'états des lieux et de visites numériques, avec un réseau de prestataires terrain pouvant réaliser l'inspection pour le compte du gestionnaire, et des options de capture 3D rattachées au même dossier.\n",
       "real_estate_use": "For a manager with dispersed properties, the constraint on inspections is travel time, not software. Outsourcing the visit to a local operator while keeping the report in the same digital format lets a lettings team scale without hiring inspectors — and the attached 3D capture doubles as a marketing asset for the next letting.\n",
       "features": [
         "Digital état des lieux with photographic evidence",

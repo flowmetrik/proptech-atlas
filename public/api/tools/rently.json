@@ -1,0 +1,79 @@
+{
+  "slug": "rently",
+  "name": "Rently",
+  "editor": "Rently",
+  "website": "https://use.rently.com",
+  "hq_country": "US",
+  "markets": [
+    "US"
+  ],
+  "category": "tenant-experience",
+  "also_in": [
+    "property-management"
+  ],
+  "positioning": "Self-touring, smart home and access control for every stage of the resident lifecycle.",
+  "description": "Rently is a resident lifecycle management platform covering self-guided property tours, smart home devices, access control, security cameras, an AI leasing agent, and listing syndication to ILS portals. It serves single-family, multifamily, build-to-rent and student housing operators.\n",
+  "real_estate_use": "A leasing agent lets a prospect self-tour a vacant unit outside office hours using Rently's smart-lock access control, without a staff member present for every showing. Once the prospect applies and moves in, the same smart-home infrastructure carries over to the resident's daily access, and Rently's AI leasing agent handles routine prospect questions and scheduling in between, freeing the leasing team to focus on applications that need a human.\n",
+  "features": [
+    "Self-guided tours",
+    "Smart home devices",
+    "Access control",
+    "Security cameras",
+    "AI leasing agent",
+    "ILS listing syndication"
+  ],
+  "use_cases": [
+    {
+      "persona": "property-manager",
+      "job": "Let prospects self-tour vacant units outside office hours without staff on site"
+    },
+    {
+      "persona": "landlord-owner",
+      "job": "Carry smart-home access from the self-tour stage through to resident move-in on the same platform"
+    }
+  ],
+  "personas": [
+    "property-manager",
+    "landlord-owner",
+    "tenant-occupier"
+  ],
+  "segments": [
+    "residential",
+    "multifamily"
+  ],
+  "company_sizes": [
+    "smb",
+    "midmarket",
+    "enterprise"
+  ],
+  "pricing": {
+    "model": "quote",
+    "public_pricing": false
+  },
+  "reviews": [],
+  "logo": {
+    "file": "logos/rently.png",
+    "source_url": "https://use.rently.com/wp-content/uploads/2023/03/logo.svg",
+    "fetched_on": "2026-09-15"
+  },
+  "signals": {
+    "pricing": "https://use.rently.com/pricing",
+    "privacy": "https://use.rently.com/privacy-policy",
+    "site_languages": [
+      "en"
+    ],
+    "checked_on": "2026-09-15"
+  },
+  "sources": [
+    {
+      "url": "https://use.rently.com",
+      "note": "site éditeur"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-09-15"
+}

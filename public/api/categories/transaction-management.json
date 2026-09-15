@@ -22,6 +22,7 @@
       ],
       "positioning": "A long-established French agency suite covering transaction, rental management and the agency website.",
       "description": "Adapt Immo provides French agencies with transaction software, rental management, websites and portal publishing, sold as an integrated suite with training and support aimed at independent agencies and small networks.\n",
+      "description_fr": "Adapt Immo fournit aux agences françaises un logiciel de transaction, de gestion locative, de création de sites web et de diffusion sur les portails, vendu en suite intégrée avec formation et support, à destination des agences indépendantes et des petits réseaux.\n",
       "real_estate_use": "Many French agencies run transaction and gérance side by side under the same carte professionnelle. Keeping both in one suite avoids the duplicate owner and property records that appear when an agency buys a sales tool and a separate rental tool — a recurring source of error at the point where a managed property goes up for sale.\n",
       "features": [
         "Transaction management with mandates and matching",
@@ -335,8 +336,9 @@
         "transaction-management"
       ],
       "positioning": "La technologie au service de l'immobilier : quatre outils pour signer, afficher, filmer et prospecter.",
-      "description": "Clap.tech est un éditeur français qui propose une suite de quatre modules vendus séparément pour les agences immobilières : clap.legal (édition et signature électronique de documents juridiques), clap.show (vitrines connectées pour les agences), clap.video (habillage vidéo automatique des annonces) et clap.expert (intelligence de marché pour cibler des mandats). Revendique plus de 6 000 professionnels de l'immobilier clients.\n",
-      "real_estate_use": "Une agence équipe ses vitrines de rue avec clap.show pour afficher ses annonces sans mise à jour manuelle, transforme ses annonces en vidéos courtes pour les réseaux sociaux avec clap.video, fait signer électroniquement mandats et compromis avec clap.legal, et utilise clap.expert pour repérer les biens à fort potentiel de mandat sur son secteur.\n",
+      "description": "Clap.tech is a French publisher offering a suite of four modules sold separately for real estate agencies: clap.legal (drafting and electronic signature of legal documents), clap.show (connected window displays for agencies), clap.video (automatic video dressing for listings), and clap.expert (market intelligence to target new mandates). The editor claims more than 6,000 real estate professionals as customers.\n",
+      "description_fr": "Clap.tech est un éditeur français qui propose une suite de quatre modules vendus séparément pour les agences immobilières : clap.legal (édition et signature électronique de documents juridiques), clap.show (vitrines connectées pour les agences), clap.video (habillage vidéo automatique des annonces) et clap.expert (intelligence de marché pour cibler des mandats). Revendique plus de 6 000 professionnels de l'immobilier clients.\n",
+      "real_estate_use": "An agency equips its street-facing window displays with clap.show to show its listings without manual updates, turns its listings into short videos for social media with clap.video, has mandates and sale agreements signed electronically with clap.legal, and uses clap.expert to spot high-potential mandate opportunities in its area.\n",
       "features": [
         "Génération et signature électronique de documents juridiques",
         "Vitrines connectées pilotées à distance",

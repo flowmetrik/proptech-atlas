@@ -10,6 +10,11 @@ description: >
   BOB Desk is a French SaaS for maintenance and regulatory compliance management across
   multiple sites: intervention requests, provider dispatch, preventive planning, quote and
   invoice control, equipment records and regulatory inspection tracking.
+description_fr: >
+  BOB Desk est un SaaS français pour la gestion de la maintenance et de la
+  conformité réglementaire multi-sites : demandes d'intervention, dispatch des
+  prestataires, planification préventive, contrôle des devis et factures, fiches
+  équipement et suivi des contrôles réglementaires.
 real_estate_use: >
   A chain with two hundred outlets carries a compliance calendar per site — fire safety,
   electrical inspection, extraction, refrigeration — and no realistic way to track it in a

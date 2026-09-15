@@ -8,20 +8,20 @@ category: market-data
 also_in: [ai-assistants]
 positioning: The AI-powered property report for real estate agents.
 description: >
-  RealReports est une plateforme de renseignement immobilier qui compile des données
-  provenant d'une quinzaine de sources pour produire, à la demande, des rapports sur
-  un bien : zones inondables, historique, analyse de divulgations. Aiden, la couche
-  d'intelligence du produit, répond aux questions sur un bien et alimente RealCMA, un
-  outil d'analyse comparative de marché. Le produit se distribue en partie via des
-  accords avec des MLS américaines, qui en ouvrent l'accès à leurs agents membres.
+  RealReports is a property-intelligence platform that compiles data from around
+  fifteen sources to produce on-demand reports about a property: flood zones,
+  history, disclosure analysis. Aiden, the product's intelligence layer, answers
+  questions about a property and feeds RealCMA, a comparative market analysis tool.
+  The product is distributed in part through agreements with US MLSs, which open
+  access to it for their member agents.
 real_estate_use: >
-  Un agent préparant une offre veut savoir rapidement si un bien est en zone
-  inondable, ce que révèlent les documents de divulgation du vendeur, et comment le
-  positionner face au marché local : il génère un RealReport et interroge Aiden en
-  langage naturel plutôt que de croiser lui-même plusieurs bases de données. Pour
-  construire une analyse comparative de marché à présenter à un client, l'agent
-  utilise RealCMA, qui produit un document au format de présentation habituel de
-  l'agence en quelques secondes plutôt qu'en heures de recherche manuelle.
+  An agent preparing an offer wants to quickly know whether a property sits in a
+  flood zone, what the seller's disclosure documents reveal, and how to position it
+  against the local market: they generate a RealReport and query Aiden in natural
+  language rather than cross-referencing several databases themselves. To build a
+  comparative market analysis to present to a client, the agent uses RealCMA, which
+  produces a document in the agency's usual presentation format in seconds rather
+  than hours of manual research.
 features:
   - Rapport de renseignement sur un bien (RealReports)
   - Assistant IA sur les données du bien (Aiden)

@@ -4,7 +4,7 @@
   "label_fr": "Dossier locataire & garanties",
   "summary_en": "Verify an applicant's file, guarantee the rent, sign the lease.",
   "summary_fr": "Vérifier un dossier, garantir le loyer, signer le bail.",
-  "count": 16,
+  "count": 19,
   "tools": [
     {
       "slug": "apartments-com",
@@ -573,6 +573,74 @@
       "updated": "2026-08-25"
     },
     {
+      "slug": "obligo",
+      "name": "Obligo",
+      "editor": "Obligo",
+      "website": "https://www.obligo.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "tenant-screening",
+      "positioning": "The new standard for security deposits — flexible options for renters, simplified operations for properties.",
+      "description": "Obligo is a security-deposit alternative platform. It verifies a renter's eligibility and presents deposit options — no deposit, reduced deposit, installments, or a full deposit that earns interest — backed by a payment method on file instead of cash held by the property. At move-out, Obligo handles any charges and refunds digitally rather than by paper check.\n",
+      "real_estate_use": "A property replaces its cash security-deposit requirement with Obligo: at lease signing, the renter connects a payment method and Obligo verifies their eligibility for a reduced or no-deposit option instead of the property collecting and holding a deposit itself. At move-out, if damage or unpaid charges apply, Obligo processes the charge against the renter's connected payment method and returns any remaining balance electronically, without the property having to manage a held deposit and its refund.\n",
+      "features": [
+        "Deposit eligibility verification",
+        "No-deposit and reduced-deposit options",
+        "Installment deposit plans",
+        "Digital move-out charge and refund processing"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Offer applicants a no-deposit or reduced-deposit option instead of collecting a cash deposit"
+        },
+        {
+          "persona": "tenant-occupier",
+          "job": "Move out with charges and refunds settled digitally against a connected payment method instead of a paper check"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "landlord-owner",
+        "tenant-occupier"
+      ],
+      "segments": [
+        "residential",
+        "multifamily"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "reviews": [],
+      "signals": {
+        "privacy": "https://www.obligo.com/privacy-policy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-15"
+      },
+      "sources": [
+        {
+          "url": "https://www.obligo.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-15"
+    },
+    {
       "slug": "petscreening",
       "name": "PetScreening",
       "editor": "Pet Screening Inc.",
@@ -978,6 +1046,165 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "saferent-solutions",
+      "name": "SafeRent Solutions",
+      "editor": "SafeRent Solutions, LLC",
+      "website": "https://saferentsolutions.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "tenant-screening",
+      "positioning": "Compliance-first resident screening, fraud prevention and income verification for rental housing.",
+      "description": "SafeRent Solutions is a rental screening platform for property managers, landlords and real estate agents. Its services cover resident screening (credit, criminal and eviction history), fraud prevention, and income and employment verification, with separate support lines for the property managers who buy the service and for the consumer applicants being screened.\n",
+      "real_estate_use": "A property manager screening a rental applicant runs a SafeRent Solutions resident screening report to check credit, criminal and eviction history before approving a lease, while a fraud-prevention check flags falsified pay stubs or IDs submitted with the application. The applicant themselves can reach SafeRent's consumer support line directly to dispute or understand an item on their report, separate from the property manager's own account.\n",
+      "features": [
+        "Resident screening (credit, criminal, eviction history)",
+        "Fraud prevention",
+        "Income and employment verification",
+        "Separate client and consumer support lines"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Screen a rental applicant's credit, criminal and eviction history before approving a lease"
+        },
+        {
+          "persona": "tenant-occupier",
+          "job": "Dispute or get an explanation of an item on a screening report through consumer support"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "landlord-owner",
+        "tenant-occupier"
+      ],
+      "segments": [
+        "residential",
+        "multifamily"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "reviews": [],
+      "logo": {
+        "file": "logos/saferent-solutions.png",
+        "source_url": "https://saferentsolutions.com/wp-content/uploads/2025/05/SRS-Registered-Logo.png",
+        "fetched_on": "2026-09-15"
+      },
+      "signals": {
+        "privacy": "https://saferentsolutions.com/privacy-policy-2",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-15"
+      },
+      "sources": [
+        {
+          "url": "https://saferentsolutions.com",
+          "note": "site éditeur"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-15"
+    },
+    {
+      "slug": "showmojo",
+      "name": "ShowMojo",
+      "editor": "ShowMojo",
+      "website": "https://hello.showmojo.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "property-management",
+      "also_in": [
+        "tenant-screening"
+      ],
+      "positioning": "Market-leading leasing automation, now with AI — fill vacancies at scale without adding headcount.",
+      "description": "ShowMojo is an automated leasing platform for property managers. It publishes listings to more than 50 rental sites, responds to and follows up with leads automatically, coordinates in-person and self-guided showings, runs credit, background and ID checks on prospects, and reports on leasing-funnel performance to owners.\n",
+      "real_estate_use": "A property manager with vacant units lets ShowMojo publish and keep listings updated across rental sites, then hands off lead response and showing scheduling to the platform instead of coordinating each tour by phone or email. A prospect touring a self-guided unit unlocks it with ShowMojo's access control after being verified, and once they apply, the same platform runs the tenant screening before the manager reviews the file and signs a lease.\n",
+      "features": [
+        "Automated listing syndication to 50+ rental sites",
+        "Lead response and follow-up automation",
+        "In-person and self-guided showing scheduling",
+        "Smart-lock access control for self-guided tours",
+        "Tenant screening (credit, background, ID)",
+        "Owner reporting on the leasing funnel"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Automate showing scheduling and lead follow-up for a portfolio of vacant units"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "Track leasing-funnel performance across a portfolio from real-time owner reports"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "landlord-owner"
+      ],
+      "segments": [
+        "residential",
+        "multifamily"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "per-unit",
+        "public_pricing": true,
+        "from": 1.3,
+        "currency": "USD",
+        "unit": "per unit / year, annual Pro plan",
+        "url": "https://hello.showmojo.com/pricing/"
+      },
+      "reviews": [],
+      "logo": {
+        "file": "logos/showmojo.png",
+        "source_url": "https://hello.showmojo.com/wp-content/uploads/2026/03/logo.png",
+        "fetched_on": "2026-09-15"
+      },
+      "signals": {
+        "pricing": "https://hello.showmojo.com/pricing",
+        "privacy": "https://hello.showmojo.com/privacy-policy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-15"
+      },
+      "sources": [
+        {
+          "url": "https://hello.showmojo.com",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://hello.showmojo.com/pricing/",
+          "note": "page tarifs"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-15"
     },
     {
       "slug": "smartloc",

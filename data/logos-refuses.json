@@ -2,6 +2,24 @@
   "_lisez_moi": "Logos écartés APRÈS avoir été regardés par un humain. logos.mjs récupère la meilleure image candidate d'un site ; il ne sait pas distinguer un logo d'un visuel décoratif, et sans cette liste il réadopte le même faux à chaque passe. Une entrée dit le slug, ce qui avait été récupéré, et pourquoi ça n'allait pas. `--all` ne la contourne pas : c'est un jugement, pas un cache.",
   "refuses": [
     {
+      "slug": "rentvision",
+      "source_url": "https://www.rentvision.com/hubfs/assets/images/2020%20Design/homev2/RentVision-Apartment-Analytics-and-Advising.jpg",
+      "why": "un collage marketing de la page d'accueil (photo de piscine, statistiques de bail, capture vidéo) — pas un logo, aucune marque lisible dessus.",
+      "on": "2026-09-15"
+    },
+    {
+      "slug": "pointcentral",
+      "source_url": "https://www.pointcentral.com/wp-content/uploads/2026/02/Safety-Button-Blog-Image-scaled.png?w=800",
+      "why": "l'image d'un billet de blog sur la fonctionnalité « Safety Button » — pas un logo.",
+      "on": "2026-09-15"
+    },
+    {
+      "slug": "obligo",
+      "source_url": "https://cdn.prod.website-files.com/67e469fb812a990a0462d444/6a9093ddba589cca732d6f86_RLPG_LOGO_BLK%404x.png",
+      "why": "le logo « Realpage. » — un partenaire/bailleur de fonds cité sur le site, pas l'éditeur Obligo. Même famille que le piège `built`/Ameris Bank du 14/09 : un logo tiers dans une section partenaires ramassé comme meilleur candidat.",
+      "on": "2026-09-15"
+    },
+    {
       "slug": "built",
       "source_url": "https://getbuilt.com/wp-content/uploads/2025/07/ameris-bank-greyout-logo-256x52.png",
       "why": "le logo « Ameris Bank » — un client cité dans une section logos-partenaires de l'accueil, pas l'éditeur. Aucune autre image candidate exploitable trouvée sur cette page.",

@@ -12,6 +12,11 @@ description: >
   French buildings: meter and building management system data collection, consumption
   analysis and alerting, décret tertiaire declaration support, and an action plan followed
   through to implementation.
+description_fr: >
+  Advizeo, filiale du groupe d'ingénierie Setec, propose le suivi et le pilotage
+  énergétique des bâtiments français : collecte des données de compteurs et de GTB,
+  analyse de consommation et alertes, accompagnement à la déclaration décret
+  tertiaire, et un plan d'action suivi jusqu'à sa mise en œuvre.
 real_estate_use: >
   Its difference from a pure reporting platform is the engineering behind it. Detecting that
   a building's heating runs at weekends is only useful if someone changes the schedule.

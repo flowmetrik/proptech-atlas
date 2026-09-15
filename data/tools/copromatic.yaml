@@ -13,6 +13,14 @@ description: >
   bundles a co-owner extranet, general-assembly preparation and minutes, fund calls,
   expense allocation, and maintenance-log tracking, staying aligned with French
   co-ownership law (loi ALUR).
+description_fr: >
+  Copromatic est un logiciel français de gestion de copropriété couvrant à la fois
+  la comptabilité et les opérations administratives, destiné aux syndics
+  bénévoles comme aux petits syndics professionnels. Il fonctionne dans le
+  navigateur sans installation locale, et regroupe un extranet copropriétaire, la
+  préparation et les procès-verbaux d'assemblée générale, les appels de fonds, la
+  répartition des charges et le suivi du carnet d'entretien, en restant conforme à
+  la loi ALUR.
 real_estate_use: >
   A volunteer syndic elected by the co-owners' assembly uses Copromatic to prepare the
   annual budget, generate fund calls split by tantièmes, and reconcile the bank

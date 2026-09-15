@@ -1,0 +1,48 @@
+slug: rentvision
+name: RentVision
+editor: RentVision
+website: https://www.rentvision.com
+hq_country: US
+markets: [US]
+category: agent-marketing
+also_in: [property-management]
+positioning: The vacancy prevention platform for multifamily — marketing and pricing that gets ahead of tomorrow's vacancy.
+description: >
+  RentVision is a marketing and revenue-management platform for multifamily
+  communities. It covers predictive advertising, community websites, virtual tours,
+  revenue and pricing management, and analytics and advising, aimed at getting ahead
+  of upcoming vacancy exposure rather than reacting to it after the fact.
+real_estate_use: >
+  A multifamily operator facing rising vacancy on a specific floorplan uses
+  RentVision's predictive advertising to redirect ad spend and traffic toward the
+  at-risk unit type before it sits empty, while the community website automatically
+  channels visitors to that floorplan's page. Revenue management then adjusts pricing
+  on the affected units, and the operator reviews the effect through RentVision's
+  analytics rather than waiting for the next leasing report to notice the trend.
+features:
+  - Predictive advertising
+  - Community websites
+  - Virtual tours
+  - Revenue and pricing management
+  - Analytics and advising
+use_cases:
+  - persona: property-manager
+    job: Redirect marketing spend toward floorplans with rising vacancy risk before units sit empty
+  - persona: investor-am
+    job: Adjust unit pricing ahead of a predicted vacancy spike rather than after occupancy drops
+personas: [property-manager, investor-am]
+segments: [multifamily]
+company_sizes: [midmarket, enterprise]
+pricing:
+  model: quote
+  public_pricing: false
+reviews: []
+signals:
+  privacy: https://www.rentvision.com/privacy-policy
+  status: https://status.rentvision.com
+  site_languages: [en]
+  checked_on: "2026-09-15"
+sources:
+  - { url: https://www.rentvision.com, note: site éditeur }
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-09-15"

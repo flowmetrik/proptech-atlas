@@ -10,6 +10,7 @@
   "category": "facility-maintenance",
   "positioning": "Maintenance and compliance tracking for multi-site French operators — retail chains, restaurants, agencies.",
   "description": "BOB Desk is a French SaaS for maintenance and regulatory compliance management across multiple sites: intervention requests, provider dispatch, preventive planning, quote and invoice control, equipment records and regulatory inspection tracking.\n",
+  "description_fr": "BOB Desk est un SaaS français pour la gestion de la maintenance et de la conformité réglementaire multi-sites : demandes d'intervention, dispatch des prestataires, planification préventive, contrôle des devis et factures, fiches équipement et suivi des contrôles réglementaires.\n",
   "real_estate_use": "A chain with two hundred outlets carries a compliance calendar per site — fire safety, electrical inspection, extraction, refrigeration — and no realistic way to track it in a spreadsheet. BOB Desk holds the obligations per site with their due dates, and routes the corrective work to the contracted provider, keeping the evidence in one place for an inspection.\n",
   "features": [
     "Multi-site intervention request and dispatch",

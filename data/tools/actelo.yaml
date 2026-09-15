@@ -14,6 +14,14 @@ description: >
   document management space, a borrower portal, invoicing of the parties involved and
   activity statistics. It is sold per user with a published monthly price and no
   commitment.
+description_fr: >
+  Actelo est une plateforme SaaS française pour les courtiers en crédit IOBSP. Elle
+  couvre de bout en bout le volet financement d'un dossier de crédit immobilier :
+  calculs d'éligibilité et d'amortissement, tarification de l'assurance emprunteur,
+  génération des documents réglementaires de financement, un espace de gestion
+  documentaire, un portail emprunteur, la facturation des parties prenantes et des
+  statistiques d'activité. Elle est vendue par utilisateur, avec un tarif mensuel
+  publié et sans engagement.
 real_estate_use: >
   A mortgage broker takes in a buyer whose offer has just been accepted and has to
   turn a project into a bankable file within days. Actelo runs the calculation side:

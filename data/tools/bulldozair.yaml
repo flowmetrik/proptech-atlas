@@ -10,6 +10,11 @@ description: >
   BulldozAIR is a French field collaboration application for construction: annotate plans,
   create positioned observations with photos, assign them to a company with a deadline,
   track their resolution, and generate site reports and reserve lists automatically.
+description_fr: >
+  BulldozAIR est une application française de collaboration terrain pour le BTP :
+  annoter les plans, créer des observations géolocalisées avec photos, les assigner
+  à une entreprise avec une échéance, suivre leur résolution, et générer
+  automatiquement des comptes rendus de chantier et des listes de réserves.
 real_estate_use: >
   A site visit produces dozens of observations that traditionally become an evening of report
   writing and a week of chasing. Pinning each one to a plan coordinate, assigning it on the
