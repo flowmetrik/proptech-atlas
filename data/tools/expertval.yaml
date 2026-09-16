@@ -25,15 +25,15 @@ real_estate_use: >
   discounted cash flow, then generates the final report in Word from an
   EVS-compliant template.
 features:
-  - "Bases de données intégrées DVF, INSEE, DPE et carte des loyers"
-  - Module cartographique avec parcelles cadastrales
-  - Génération de rapports Word conformes EVS et TEGoVA
-  - Méthode d'évaluation par comparaison et Discounted Cash Flow
-  - Saisie terrain sur tablette ou smartphone
-  - "Gestion commerciale intégrée (devis, factures, missions)"
+  - "Integrated DVF, INSEE, DPE and rent-map databases"
+  - Mapping module with cadastral parcels
+  - EVS- and TEGoVA-compliant Word report generation
+  - Comparison method and Discounted Cash Flow valuation
+  - On-site data entry on tablet or smartphone
+  - "Integrated business management (quotes, invoices, assignments)"
 use_cases:
   - persona: appraiser
-    job: Produire un rapport d'expertise immobilière conforme à la charte de l'expertise
+    job: Produce a property appraisal report compliant with the appraisal charter
 personas: [appraiser]
 segments: [residential]
 company_sizes: [smb]
@@ -54,4 +54,4 @@ sources:
   - { url: https://www.expertval.fr, note: accueil }
   - { url: https://www.expertval.fr/tarif.php, note: tarifs }
 verification: { status: unverified, checked_on: null, checked_by: null }
-updated: "2026-09-12"
+updated: "2026-09-16"

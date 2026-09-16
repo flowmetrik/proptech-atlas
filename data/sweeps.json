@@ -16,7 +16,12 @@
     "runs": 1,
     "found": 6,
     "kept": 2,
-    "last_error": null
+    "last_error": null,
+    "last_swept_manual": "2026-09-16",
+    "manual_runs": 1,
+    "manual_found": 0,
+    "manual_kept": 0,
+    "last_manual_note": "l'URL du registre (/immobilier) renvoie 404 ; la bonne page est /construction/biens-immobiliers, mais la liste des 62 logiciels est rendue côté client (SPA), aucun nom exploitable dans le HTML statique — source à corriger ou à retirer"
   },
   "buildium-marketplace": {
     "last_swept": "2026-08-26",
@@ -47,7 +52,12 @@
     "runs": 1,
     "found": 6,
     "kept": 3,
-    "last_error": null
+    "last_error": null,
+    "last_swept_manual": "2026-09-16",
+    "manual_runs": 1,
+    "manual_found": 12,
+    "manual_kept": 4,
+    "last_manual_note": "annuaire de 250+ startups, majorité hors périmètre (agences, opérateurs, incubateurs) ou déjà cataloguées ; mondeviscopro, lokimo, squarefeet et soneka retenus après lecture, Léa-Syndic écarté (syndic professionnel, pas un éditeur), Veliko écarté (site vitrine, produit non lancé), Syndiceasy/Syndic en un clic/VerifBail écartés faute de site propre identifiable avec certitude"
   },
   "laboiteimmo-partenaires": {
     "last_swept": "2026-08-25",
@@ -92,7 +102,12 @@
     "runs": 1,
     "found": 3,
     "kept": 1,
-    "last_error": "Le site ne publie pas d annuaire de partenaires : seuls trois liens sortants exploitables sur toute la navigation (amanda.immo, clameur.fr, bienici.com). Faible rendement structurel, pas une erreur de balayage."
+    "last_error": "Le site ne publie pas d annuaire de partenaires : seuls trois liens sortants exploitables sur toute la navigation (amanda.immo, clameur.fr, bienici.com). Faible rendement structurel, pas une erreur de balayage.",
+    "last_swept_manual": "2026-09-16",
+    "manual_runs": 1,
+    "manual_found": 0,
+    "manual_kept": 0,
+    "last_manual_note": "annuaire partenaires classé par métier (eau, énergie, assurance, diagnostic...) sans rubrique logiciel/digital distincte ; pas de nouveau produit trouvé cette passe"
   },
   "mri-partner-connect": {
     "last_swept_manual": "2026-09-04",

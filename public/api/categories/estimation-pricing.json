@@ -311,17 +311,17 @@
       "description_fr": "ExpertVAL est une webapp française d'évaluation immobilière destinée aux experts. Elle intègre des bases de données publiques (DVF, INSEE, DPE, carte des loyers), un module cartographique avec parcelles cadastrales, et génère des rapports d'expertise en Word conformes à la charte de l'expertise et aux normes européennes EVS de TEGoVA.\n",
       "real_estate_use": "A property appraiser or wealth-management advisor opens an amicable appraisal file, imports comparison references from DVF or Patrim, takes photos and enters data during the site visit on a tablet, applies the comparison method or discounted cash flow, then generates the final report in Word from an EVS-compliant template.\n",
       "features": [
-        "Bases de données intégrées DVF, INSEE, DPE et carte des loyers",
-        "Module cartographique avec parcelles cadastrales",
-        "Génération de rapports Word conformes EVS et TEGoVA",
-        "Méthode d'évaluation par comparaison et Discounted Cash Flow",
-        "Saisie terrain sur tablette ou smartphone",
-        "Gestion commerciale intégrée (devis, factures, missions)"
+        "Integrated DVF, INSEE, DPE and rent-map databases",
+        "Mapping module with cadastral parcels",
+        "EVS- and TEGoVA-compliant Word report generation",
+        "Comparison method and Discounted Cash Flow valuation",
+        "On-site data entry on tablet or smartphone",
+        "Integrated business management (quotes, invoices, assignments)"
       ],
       "use_cases": [
         {
           "persona": "appraiser",
-          "job": "Produire un rapport d'expertise immobilière conforme à la charte de l'expertise"
+          "job": "Produce a property appraisal report compliant with the appraisal charter"
         }
       ],
       "personas": [
@@ -368,7 +368,7 @@
         "checked_on": null,
         "checked_by": null
       },
-      "updated": "2026-09-12"
+      "updated": "2026-09-16"
     },
     {
       "slug": "housecanary",

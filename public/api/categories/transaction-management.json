@@ -340,19 +340,19 @@
       "description_fr": "Clap.tech est un éditeur français qui propose une suite de quatre modules vendus séparément pour les agences immobilières : clap.legal (édition et signature électronique de documents juridiques), clap.show (vitrines connectées pour les agences), clap.video (habillage vidéo automatique des annonces) et clap.expert (intelligence de marché pour cibler des mandats). Revendique plus de 6 000 professionnels de l'immobilier clients.\n",
       "real_estate_use": "An agency equips its street-facing window displays with clap.show to show its listings without manual updates, turns its listings into short videos for social media with clap.video, has mandates and sale agreements signed electronically with clap.legal, and uses clap.expert to spot high-potential mandate opportunities in its area.\n",
       "features": [
-        "Génération et signature électronique de documents juridiques",
-        "Vitrines connectées pilotées à distance",
-        "Habillage vidéo automatique d'annonces immobilières",
-        "Intelligence de marché pour cibler des mandats"
+        "Legal document drafting and electronic signature",
+        "Remotely managed connected window displays",
+        "Automatic video dressing of real estate listings",
+        "Market intelligence to target mandates"
       ],
       "use_cases": [
         {
           "persona": "agent-broker",
-          "job": "Afficher ses annonces sur une vitrine connectée sans repasser par l'agence"
+          "job": "Display listings on a connected window without going through the agency"
         },
         {
           "persona": "brokerage",
-          "job": "Faire signer un mandat ou un compromis à distance"
+          "job": "Have a mandate or sale agreement signed remotely"
         }
       ],
       "personas": [
@@ -417,7 +417,7 @@
         "checked_on": null,
         "checked_by": null
       },
-      "updated": "2026-09-12"
+      "updated": "2026-09-16"
     },
     {
       "slug": "crexi",

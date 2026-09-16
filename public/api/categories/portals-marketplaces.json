@@ -4,7 +4,7 @@
   "label_fr": "Portails & places de marché",
   "summary_en": "Where supply meets demand in public — consumer portals, listing networks and transactional marketplaces.",
   "summary_fr": "Là où l'offre rencontre la demande en public — portails grand public, réseaux d'annonces et places de marché transactionnelles.",
-  "count": 13,
+  "count": 14,
   "tools": [
     {
       "slug": "apartments-com",
@@ -416,20 +416,20 @@
       "description_fr": "Kazaki est un portail français de recherche immobilière pour particuliers, fondé par Kazaki SAS (Reims). Plutôt qu'un moteur à filtres, il propose une recherche conversationnelle : l'acheteur décrit son projet en langage naturel, et l'IA parcourt les annonces des agences partenaires pour recommander des biens, enrichis d'une estimation de prix, d'un simulateur de crédit et du DPE. Applications mobiles iOS et Android.\n",
       "real_estate_use": "An agency (L'Atelier Immo, ERA, Les Clefs Immo and Redouté are cited as partners) has its listings picked up and enriched on Kazaki, which exposes them to buyers already qualified through their conversation with the AI rather than through classic filters — an additional lead-acquisition channel, on the same principle as a mainstream portal.\n",
       "features": [
-        "Recherche conversationnelle par IA plutôt que par filtres",
-        "Agrégation des annonces d'agences partenaires",
-        "Estimation de prix et simulateur de crédit intégrés",
-        "Affichage du diagnostic de performance énergétique par bien",
-        "Applications mobiles iOS et Android"
+        "AI conversational search instead of filters",
+        "Aggregation of partner agency listings",
+        "Integrated price estimate and mortgage simulator",
+        "Energy performance rating (DPE) display per property",
+        "iOS and Android mobile apps"
       ],
       "use_cases": [
         {
           "persona": "agent-broker",
-          "job": "Faire recommander ses annonces à des acheteurs qualifiés par une recherche conversationnelle"
+          "job": "Have listings recommended to buyers qualified through conversational search"
         },
         {
           "persona": "brokerage",
-          "job": "Gagner un canal d'acquisition de leads acheteurs complémentaire aux portails classiques"
+          "job": "Gain a buyer lead-acquisition channel complementary to mainstream portals"
         }
       ],
       "personas": [
@@ -485,7 +485,7 @@
         "checked_on": null,
         "checked_by": null
       },
-      "updated": "2026-09-12"
+      "updated": "2026-09-16"
     },
     {
       "slug": "leboncoin-immobilier",
@@ -671,6 +671,87 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "mondeviscopro",
+      "name": "mondeviscopro.fr",
+      "editor": "AMOA SAS",
+      "website": "https://mondeviscopro.fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "portals-marketplaces",
+      "also_in": [
+        "energy-esg"
+      ],
+      "positioning": "Vos appels d'offres copropriétés en 5 minutes, gratuitement.",
+      "description": "mondeviscopro.fr is a free French marketplace that lets condominium managers request competing quotes from a network of vetted contractors for regulatory diagnostics, energy-renovation work and related studies. It was launched by AMOA SAS, previously an energy-renovation project-management-assistance (AMO) firm for condominiums.\n",
+      "real_estate_use": "A condominium manager facing a mandatory energy diagnostic or renovation vote fills a short form describing the building and the service needed, and the platform automatically solicits up to three vetted contractors on their behalf. Quotes arrive by email and are compared on one screen instead of the manager chasing each contractor individually. Once the general assembly has voted, the platform follows up automatically to record the decision and let the selected contractor start.\n",
+      "features": [
+        "5-minute quote-request form for condominium services",
+        "Automatic matching with up to three vetted contractors",
+        "Centralized quote comparison interface",
+        "General assembly vote outcome tracking",
+        "Coverage of DPE, PPPT, DTG, asbestos and lead diagnostics, and energy-renovation works"
+      ],
+      "use_cases": [
+        {
+          "persona": "syndic-manager",
+          "job": "Launch a call for tenders for a regulatory diagnostic or energy-renovation work without contacting contractors one by one"
+        }
+      ],
+      "personas": [
+        "syndic-manager"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "free",
+        "public_pricing": true,
+        "url": "https://mondeviscopro.fr/"
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "reviews": [],
+      "signals": {
+        "privacy": "https://mondeviscopro.fr/mentions-legales",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-09-16"
+      },
+      "sources": [
+        {
+          "url": "https://mondeviscopro.fr/",
+          "note": "accueil"
+        },
+        {
+          "url": "https://mondeviscopro.fr/amoa/",
+          "note": "notre histoire — éditeur AMOA SAS"
+        },
+        {
+          "url": "https://mondeviscopro.fr/mentions-legales/",
+          "note": "mentions légales — société et siège"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-16"
     },
     {
       "slug": "pap",

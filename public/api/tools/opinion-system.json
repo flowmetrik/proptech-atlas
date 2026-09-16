@@ -13,15 +13,15 @@
   "description_fr": "Opinion System est un institut de sondage français qui collecte et contrôle des avis clients pour plusieurs professions réglementées, dont l'immobilier. Sa méthode de collecte est certifiée AFNOR (ISO 9001, ISO 20252, NF Service 522, NF ISO 20488) : les avis sont vérifiés avant publication par un processus audité chaque année.\n",
   "real_estate_use": "A real estate agency or credit broker signs up with Opinion System to get its customer reviews certified: the platform solicits clients after a transaction, checks review authenticity before publication, and the agency displays the certified-reputation badge on its site to reassure new prospects.\n",
   "features": [
-    "Collecte d'avis clients certifiée AFNOR",
-    "Contrôle des avis avant publication",
-    "Page réputation dédiée par professionnel",
-    "Déclinaison sectorielle pour l'immobilier et le courtage en crédit"
+    "AFNOR-certified customer review collection",
+    "Review verification before publication",
+    "Dedicated reputation page per professional",
+    "Sector-specific version for real estate and credit brokerage"
   ],
   "use_cases": [
     {
       "persona": "agent-broker",
-      "job": "Certifier sa réputation client pour rassurer de nouveaux prospects"
+      "job": "Certify customer reputation to reassure new prospects"
     }
   ],
   "personas": [
@@ -78,5 +78,5 @@
     "checked_on": null,
     "checked_by": null
   },
-  "updated": "2026-09-12"
+  "updated": "2026-09-16"
 }

@@ -23,16 +23,16 @@ real_estate_use: >
   from real-time data rather than compiling them by hand, and Alice chases
   compliance deadlines before they lapse.
 features:
-  - Triage et dispatch de la maintenance vers des prestataires agréés
-  - Suivi des candidatures locatives de la visite à la remise des clés
-  - "Communication locataire multicanal (appel, SMS, WhatsApp, email)"
-  - Suivi des échéances de conformité et renouvellements
-  - Relance des loyers impayés et rapprochement comptable
+  - Maintenance triage and dispatch to approved contractors
+  - Rental application tracking from viewing to key handover
+  - "Multichannel tenant communication (call, text, WhatsApp, email)"
+  - Compliance deadline and renewal tracking
+  - Unpaid rent follow-up and accounting reconciliation
 use_cases:
   - persona: property-manager
-    job: Faire diagnostiquer une panne signalée par un locataire et dépêcher un prestataire sans coordination manuelle
+    job: Have a tenant-reported issue diagnosed and a contractor dispatched without manual coordination
   - persona: landlord-owner
-    job: Recevoir un rapport de gestion construit automatiquement à partir des données en temps réel du portefeuille
+    job: Receive a management report built automatically from real-time portfolio data
 personas: [property-manager, landlord-owner]
 segments: [residential, multifamily]
 company_sizes: [solo, smb]
@@ -41,7 +41,7 @@ pricing:
   public_pricing: false
 integrations: [WhatsApp]
 ai:
-  capabilities: [agent conversationnel multicanal (Alice), triage automatique des demandes de maintenance]
+  capabilities: [multichannel conversational agent (Alice), automatic triage of maintenance requests]
 product:
   api: false
   open_source: false
@@ -56,4 +56,4 @@ sources:
   - { url: https://www.brickwiseai.com/, note: "site éditeur, accueil" }
   - { url: https://www.brickwiseai.com/features, note: page fonctionnalités }
 verification: { status: unverified, checked_on: null, checked_by: null }
-updated: "2026-09-10"
+updated: "2026-09-16"

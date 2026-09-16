@@ -23,16 +23,16 @@ real_estate_use: >
   produces a document in the agency's usual presentation format in seconds rather
   than hours of manual research.
 features:
-  - Rapport de renseignement sur un bien (RealReports)
-  - Assistant IA sur les données du bien (Aiden)
-  - Analyse comparative de marché (RealCMA)
-  - Vérification de zone inondable et analyse de divulgations
-  - Compilation de données issues de multiples fournisseurs
+  - Property intelligence report (RealReports)
+  - AI assistant on property data (Aiden)
+  - Comparative market analysis (RealCMA)
+  - Flood zone check and disclosure analysis
+  - Data compilation from multiple providers
 use_cases:
   - persona: agent-broker
-    job: Vérifier le risque d'inondation et l'historique d'un bien avant de préparer une offre
+    job: Check a property's flood risk and history before preparing an offer
   - persona: agent-broker
-    job: Construire une analyse comparative de marché personnalisée pour un client en quelques secondes
+    job: Build a customized comparative market analysis for a client in seconds
 personas: [agent-broker, brokerage]
 segments: [residential]
 company_sizes: [solo, smb, midmarket]
@@ -41,7 +41,7 @@ pricing:
   public_pricing: false
 integrations: ["MLS (accords de distribution, ex. California Regional MLS)"]
 ai:
-  capabilities: [assistant conversationnel sur les données du bien (Aiden), génération automatique de CMA]
+  capabilities: [conversational assistant on property data (Aiden), automatic CMA generation]
 product:
   api: false
   open_source: false
@@ -60,4 +60,4 @@ sources:
   - { url: https://www.realreports.ai/, note: "site éditeur, accueil" }
   - { url: https://www.inman.com/2026/03/12/nations-2nd-largest-mls-expands-no-cost-access-to-ai-property-intelligence-platform/, note: Inman — accord de distribution MLS }
 verification: { status: unverified, checked_on: null, checked_by: null }
-updated: "2026-09-10"
+updated: "2026-09-16"

@@ -4,22 +4,22 @@
   "license": "CC-BY-4.0 (data) / MIT (code)",
   "homepage": "https://flowmetrik.github.io/proptech-atlas",
   "repository": "https://github.com/flowmetrik/proptech-atlas",
-  "generated": "2026-09-15",
+  "generated": "2026-09-16",
   "counts": {
-    "tools": 272,
+    "tools": 276,
     "US": 154,
-    "FR": 148,
+    "FR": 152,
     "categories": 24,
-    "editors": 255,
+    "editors": 259,
     "verified": 0,
     "reviews": 0,
-    "logos": 254,
+    "logos": 256,
     "signals": {
-      "probed": 258,
+      "probed": 262,
       "public_pricing": 65,
       "api_docs": 18,
       "security_page": 31,
-      "privacy_page": 190,
+      "privacy_page": 193,
       "status_page": 63
     }
   },
@@ -1877,20 +1877,20 @@
       "description_fr": "Bellman est un logiciel de gestion pour cabinets de syndic et de gérance, né d'une ex-startup de syndic en ligne reconvertie en éditeur de logiciel en 2022. Il centralise le travail des gestionnaires, comptables et assistants autour d'une messagerie intégrée, d'un extranet pour les copropriétaires et le conseil syndical, et d'outils d'automatisation documentaire pour les assemblées générales.\n",
       "real_estate_use": "A syndic firm receives dozens of invoices and email requests every day: Bellman automatically attaches them to the right file and lets staff process quotes and condominium documents directly from the inbox, without re-keying. The manager prepares the agenda for a general assembly over the course of the year rather than in a rush, tracks convocation mailings in real time, and records postal votes. The trustee board and co-owners follow the progress of their cases and charge collection from a dedicated extranet, which cuts down on follow-up calls and emails to the firm.\n",
       "features": [
-        "Extranet copropriétaires et conseil syndical",
-        "Intégration messagerie pour le traitement des factures et devis",
-        "Préparation et suivi des assemblées générales",
-        "Vote par correspondance (VPC)",
-        "Automatisation documentaire (procès-verbaux, états datés)"
+        "Co-owner and trustee board extranet",
+        "Inbox integration for processing invoices and quotes",
+        "General assembly preparation and tracking",
+        "Postal voting (VPC)",
+        "Document automation (minutes, pre-sale statements)"
       ],
       "use_cases": [
         {
           "persona": "syndic-manager",
-          "job": "Traiter les factures et devis reçus par email sans ressaisie dans le dossier de copropriété"
+          "job": "Process invoices and quotes received by email without re-keying them into the condominium file"
         },
         {
           "persona": "syndic-manager",
-          "job": "Préparer et suivre l'envoi des convocations et le vote par correspondance d'une assemblée générale"
+          "job": "Prepare and track convocation mailings and postal voting for a general assembly"
         }
       ],
       "personas": [
@@ -1937,7 +1937,7 @@
         "checked_on": null,
         "checked_by": null
       },
-      "updated": "2026-09-10"
+      "updated": "2026-09-16"
     },
     {
       "slug": "bien-ici",
@@ -2897,20 +2897,20 @@
       "description": "Brickwise AI is property-management software whose conversational agent, Alice, answers tenant calls, texts, WhatsApp messages and emails to triage maintenance requests, route rental applications, track compliance deadlines and chase unpaid rent. Out of the Y Combinator Fall 2025 batch, the London-based publisher targets landlords and property-management agencies in the United States, with product pages dedicated to New York.\n",
       "real_estate_use": "A property manager receives a maintenance report by text: Alice diagnoses the problem with the tenant, dispatches an approved contractor, and tracks the case through to closing without the manager having to coordinate each step. For a unit being leased, the agent answers applicants and guides them from the viewing to key handover, including the documents to provide. The manager receives reports built from real-time data rather than compiling them by hand, and Alice chases compliance deadlines before they lapse.\n",
       "features": [
-        "Triage et dispatch de la maintenance vers des prestataires agréés",
-        "Suivi des candidatures locatives de la visite à la remise des clés",
-        "Communication locataire multicanal (appel, SMS, WhatsApp, email)",
-        "Suivi des échéances de conformité et renouvellements",
-        "Relance des loyers impayés et rapprochement comptable"
+        "Maintenance triage and dispatch to approved contractors",
+        "Rental application tracking from viewing to key handover",
+        "Multichannel tenant communication (call, text, WhatsApp, email)",
+        "Compliance deadline and renewal tracking",
+        "Unpaid rent follow-up and accounting reconciliation"
       ],
       "use_cases": [
         {
           "persona": "property-manager",
-          "job": "Faire diagnostiquer une panne signalée par un locataire et dépêcher un prestataire sans coordination manuelle"
+          "job": "Have a tenant-reported issue diagnosed and a contractor dispatched without manual coordination"
         },
         {
           "persona": "landlord-owner",
-          "job": "Recevoir un rapport de gestion construit automatiquement à partir des données en temps réel du portefeuille"
+          "job": "Receive a management report built automatically from real-time portfolio data"
         }
       ],
       "personas": [
@@ -2934,8 +2934,8 @@
       ],
       "ai": {
         "capabilities": [
-          "agent conversationnel multicanal (Alice)",
-          "triage automatique des demandes de maintenance"
+          "multichannel conversational agent (Alice)",
+          "automatic triage of maintenance requests"
         ]
       },
       "product": {
@@ -2969,7 +2969,7 @@
         "checked_on": null,
         "checked_by": null
       },
-      "updated": "2026-09-10"
+      "updated": "2026-09-16"
     },
     {
       "slug": "brokermint",
@@ -4168,19 +4168,19 @@
       "description_fr": "Clap.tech est un éditeur français qui propose une suite de quatre modules vendus séparément pour les agences immobilières : clap.legal (édition et signature électronique de documents juridiques), clap.show (vitrines connectées pour les agences), clap.video (habillage vidéo automatique des annonces) et clap.expert (intelligence de marché pour cibler des mandats). Revendique plus de 6 000 professionnels de l'immobilier clients.\n",
       "real_estate_use": "An agency equips its street-facing window displays with clap.show to show its listings without manual updates, turns its listings into short videos for social media with clap.video, has mandates and sale agreements signed electronically with clap.legal, and uses clap.expert to spot high-potential mandate opportunities in its area.\n",
       "features": [
-        "Génération et signature électronique de documents juridiques",
-        "Vitrines connectées pilotées à distance",
-        "Habillage vidéo automatique d'annonces immobilières",
-        "Intelligence de marché pour cibler des mandats"
+        "Legal document drafting and electronic signature",
+        "Remotely managed connected window displays",
+        "Automatic video dressing of real estate listings",
+        "Market intelligence to target mandates"
       ],
       "use_cases": [
         {
           "persona": "agent-broker",
-          "job": "Afficher ses annonces sur une vitrine connectée sans repasser par l'agence"
+          "job": "Display listings on a connected window without going through the agency"
         },
         {
           "persona": "brokerage",
-          "job": "Faire signer un mandat ou un compromis à distance"
+          "job": "Have a mandate or sale agreement signed remotely"
         }
       ],
       "personas": [
@@ -4245,7 +4245,7 @@
         "checked_on": null,
         "checked_by": null
       },
-      "updated": "2026-09-12"
+      "updated": "2026-09-16"
     },
     {
       "slug": "clear-capital",
@@ -8696,17 +8696,17 @@
       "description_fr": "ExpertVAL est une webapp française d'évaluation immobilière destinée aux experts. Elle intègre des bases de données publiques (DVF, INSEE, DPE, carte des loyers), un module cartographique avec parcelles cadastrales, et génère des rapports d'expertise en Word conformes à la charte de l'expertise et aux normes européennes EVS de TEGoVA.\n",
       "real_estate_use": "A property appraiser or wealth-management advisor opens an amicable appraisal file, imports comparison references from DVF or Patrim, takes photos and enters data during the site visit on a tablet, applies the comparison method or discounted cash flow, then generates the final report in Word from an EVS-compliant template.\n",
       "features": [
-        "Bases de données intégrées DVF, INSEE, DPE et carte des loyers",
-        "Module cartographique avec parcelles cadastrales",
-        "Génération de rapports Word conformes EVS et TEGoVA",
-        "Méthode d'évaluation par comparaison et Discounted Cash Flow",
-        "Saisie terrain sur tablette ou smartphone",
-        "Gestion commerciale intégrée (devis, factures, missions)"
+        "Integrated DVF, INSEE, DPE and rent-map databases",
+        "Mapping module with cadastral parcels",
+        "EVS- and TEGoVA-compliant Word report generation",
+        "Comparison method and Discounted Cash Flow valuation",
+        "On-site data entry on tablet or smartphone",
+        "Integrated business management (quotes, invoices, assignments)"
       ],
       "use_cases": [
         {
           "persona": "appraiser",
-          "job": "Produire un rapport d'expertise immobilière conforme à la charte de l'expertise"
+          "job": "Produce a property appraisal report compliant with the appraisal charter"
         }
       ],
       "personas": [
@@ -8753,7 +8753,7 @@
         "checked_on": null,
         "checked_by": null
       },
-      "updated": "2026-09-12"
+      "updated": "2026-09-16"
     },
     {
       "slug": "finalcad",
@@ -12260,20 +12260,20 @@
       "description_fr": "Kazaki est un portail français de recherche immobilière pour particuliers, fondé par Kazaki SAS (Reims). Plutôt qu'un moteur à filtres, il propose une recherche conversationnelle : l'acheteur décrit son projet en langage naturel, et l'IA parcourt les annonces des agences partenaires pour recommander des biens, enrichis d'une estimation de prix, d'un simulateur de crédit et du DPE. Applications mobiles iOS et Android.\n",
       "real_estate_use": "An agency (L'Atelier Immo, ERA, Les Clefs Immo and Redouté are cited as partners) has its listings picked up and enriched on Kazaki, which exposes them to buyers already qualified through their conversation with the AI rather than through classic filters — an additional lead-acquisition channel, on the same principle as a mainstream portal.\n",
       "features": [
-        "Recherche conversationnelle par IA plutôt que par filtres",
-        "Agrégation des annonces d'agences partenaires",
-        "Estimation de prix et simulateur de crédit intégrés",
-        "Affichage du diagnostic de performance énergétique par bien",
-        "Applications mobiles iOS et Android"
+        "AI conversational search instead of filters",
+        "Aggregation of partner agency listings",
+        "Integrated price estimate and mortgage simulator",
+        "Energy performance rating (DPE) display per property",
+        "iOS and Android mobile apps"
       ],
       "use_cases": [
         {
           "persona": "agent-broker",
-          "job": "Faire recommander ses annonces à des acheteurs qualifiés par une recherche conversationnelle"
+          "job": "Have listings recommended to buyers qualified through conversational search"
         },
         {
           "persona": "brokerage",
-          "job": "Gagner un canal d'acquisition de leads acheteurs complémentaire aux portails classiques"
+          "job": "Gain a buyer lead-acquisition channel complementary to mainstream portals"
         }
       ],
       "personas": [
@@ -12329,7 +12329,7 @@
         "checked_on": null,
         "checked_by": null
       },
-      "updated": "2026-09-12"
+      "updated": "2026-09-16"
     },
     {
       "slug": "kelfoncier",
@@ -13958,6 +13958,91 @@
       "updated": "2026-08-25"
     },
     {
+      "slug": "lokimo",
+      "name": "Lokimo",
+      "editor": "Lokimo AI SAS",
+      "website": "https://lokimo.ai",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "market-data",
+      "positioning": "La puissance des données au service des professionnels de l'immobilier.",
+      "description": "Lokimo is a French property-intelligence platform for real estate professionals that aggregates roughly 130 public and proprietary data sources — transactions, listings, press, INSEE, Etalab — around a chosen address, parcel or zone. It scores the area on attractiveness, risk (flooding, pollution, noise) and demographic trends, and generates ready-to-present analysis reports.\n",
+      "real_estate_use": "An asset manager or developer scouting a parcel selects the zone on Lokimo instead of manually cross-referencing transaction, demographic and risk databases, and gets an area score covering economic activity, gentrification trends and flood, pollution or noise risk. Before a project committee, they filter parcels by criteria and export a formatted report in two clicks rather than compiling one by hand, cutting the time spent qualifying a site before deciding whether to pursue it.\n",
+      "features": [
+        "Aggregation of about 130 real estate and public data sources",
+        "Zone scoring on attractiveness, risk and demographic trend",
+        "Parcel filtering by commercial potential criteria",
+        "One-click exportable analysis reports",
+        "Multi-scale analysis from parcel to municipality"
+      ],
+      "use_cases": [
+        {
+          "persona": "investor-am",
+          "job": "Qualify a zone's attractiveness and risk profile before committing to a project"
+        },
+        {
+          "persona": "developer-builder",
+          "job": "Filter parcels by potential and export a report for a project committee"
+        }
+      ],
+      "personas": [
+        "investor-am",
+        "developer-builder"
+      ],
+      "segments": [
+        "land-development",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "reviews": [],
+      "logo": {
+        "file": "logos/lokimo.png",
+        "source_url": "https://lokimo.ai/logo-blue.svg",
+        "fetched_on": "2026-09-16"
+      },
+      "signals": {
+        "privacy": "https://lokimo.ai/mentions-legales",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-09-16"
+      },
+      "sources": [
+        {
+          "url": "https://lokimo.ai/",
+          "note": "accueil"
+        },
+        {
+          "url": "https://lokimo.ai/mentions-legales",
+          "note": "mentions légales — société et siège"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-16"
+    },
+    {
       "slug": "lone-wolf-back-office",
       "name": "Lone Wolf Back Office",
       "editor": "Lone Wolf Technologies",
@@ -15146,6 +15231,87 @@
       "updated": "2026-08-25"
     },
     {
+      "slug": "mondeviscopro",
+      "name": "mondeviscopro.fr",
+      "editor": "AMOA SAS",
+      "website": "https://mondeviscopro.fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "portals-marketplaces",
+      "also_in": [
+        "energy-esg"
+      ],
+      "positioning": "Vos appels d'offres copropriétés en 5 minutes, gratuitement.",
+      "description": "mondeviscopro.fr is a free French marketplace that lets condominium managers request competing quotes from a network of vetted contractors for regulatory diagnostics, energy-renovation work and related studies. It was launched by AMOA SAS, previously an energy-renovation project-management-assistance (AMO) firm for condominiums.\n",
+      "real_estate_use": "A condominium manager facing a mandatory energy diagnostic or renovation vote fills a short form describing the building and the service needed, and the platform automatically solicits up to three vetted contractors on their behalf. Quotes arrive by email and are compared on one screen instead of the manager chasing each contractor individually. Once the general assembly has voted, the platform follows up automatically to record the decision and let the selected contractor start.\n",
+      "features": [
+        "5-minute quote-request form for condominium services",
+        "Automatic matching with up to three vetted contractors",
+        "Centralized quote comparison interface",
+        "General assembly vote outcome tracking",
+        "Coverage of DPE, PPPT, DTG, asbestos and lead diagnostics, and energy-renovation works"
+      ],
+      "use_cases": [
+        {
+          "persona": "syndic-manager",
+          "job": "Launch a call for tenders for a regulatory diagnostic or energy-renovation work without contacting contractors one by one"
+        }
+      ],
+      "personas": [
+        "syndic-manager"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "free",
+        "public_pricing": true,
+        "url": "https://mondeviscopro.fr/"
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "reviews": [],
+      "signals": {
+        "privacy": "https://mondeviscopro.fr/mentions-legales",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-09-16"
+      },
+      "sources": [
+        {
+          "url": "https://mondeviscopro.fr/",
+          "note": "accueil"
+        },
+        {
+          "url": "https://mondeviscopro.fr/amoa/",
+          "note": "notre histoire — éditeur AMOA SAS"
+        },
+        {
+          "url": "https://mondeviscopro.fr/mentions-legales/",
+          "note": "mentions légales — société et siège"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-16"
+    },
+    {
       "slug": "monga",
       "name": "Monga",
       "editor": "Monga",
@@ -16247,15 +16413,15 @@
       "description_fr": "Opinion System est un institut de sondage français qui collecte et contrôle des avis clients pour plusieurs professions réglementées, dont l'immobilier. Sa méthode de collecte est certifiée AFNOR (ISO 9001, ISO 20252, NF Service 522, NF ISO 20488) : les avis sont vérifiés avant publication par un processus audité chaque année.\n",
       "real_estate_use": "A real estate agency or credit broker signs up with Opinion System to get its customer reviews certified: the platform solicits clients after a transaction, checks review authenticity before publication, and the agency displays the certified-reputation badge on its site to reassure new prospects.\n",
       "features": [
-        "Collecte d'avis clients certifiée AFNOR",
-        "Contrôle des avis avant publication",
-        "Page réputation dédiée par professionnel",
-        "Déclinaison sectorielle pour l'immobilier et le courtage en crédit"
+        "AFNOR-certified customer review collection",
+        "Review verification before publication",
+        "Dedicated reputation page per professional",
+        "Sector-specific version for real estate and credit brokerage"
       ],
       "use_cases": [
         {
           "persona": "agent-broker",
-          "job": "Certifier sa réputation client pour rassurer de nouveaux prospects"
+          "job": "Certify customer reputation to reassure new prospects"
         }
       ],
       "personas": [
@@ -16312,7 +16478,7 @@
         "checked_on": null,
         "checked_by": null
       },
-      "updated": "2026-09-12"
+      "updated": "2026-09-16"
     },
     {
       "slug": "optix",
@@ -19316,20 +19482,20 @@
       "description": "RealReports is a property-intelligence platform that compiles data from around fifteen sources to produce on-demand reports about a property: flood zones, history, disclosure analysis. Aiden, the product's intelligence layer, answers questions about a property and feeds RealCMA, a comparative market analysis tool. The product is distributed in part through agreements with US MLSs, which open access to it for their member agents.\n",
       "real_estate_use": "An agent preparing an offer wants to quickly know whether a property sits in a flood zone, what the seller's disclosure documents reveal, and how to position it against the local market: they generate a RealReport and query Aiden in natural language rather than cross-referencing several databases themselves. To build a comparative market analysis to present to a client, the agent uses RealCMA, which produces a document in the agency's usual presentation format in seconds rather than hours of manual research.\n",
       "features": [
-        "Rapport de renseignement sur un bien (RealReports)",
-        "Assistant IA sur les données du bien (Aiden)",
-        "Analyse comparative de marché (RealCMA)",
-        "Vérification de zone inondable et analyse de divulgations",
-        "Compilation de données issues de multiples fournisseurs"
+        "Property intelligence report (RealReports)",
+        "AI assistant on property data (Aiden)",
+        "Comparative market analysis (RealCMA)",
+        "Flood zone check and disclosure analysis",
+        "Data compilation from multiple providers"
       ],
       "use_cases": [
         {
           "persona": "agent-broker",
-          "job": "Vérifier le risque d'inondation et l'historique d'un bien avant de préparer une offre"
+          "job": "Check a property's flood risk and history before preparing an offer"
         },
         {
           "persona": "agent-broker",
-          "job": "Construire une analyse comparative de marché personnalisée pour un client en quelques secondes"
+          "job": "Build a customized comparative market analysis for a client in seconds"
         }
       ],
       "personas": [
@@ -19353,8 +19519,8 @@
       ],
       "ai": {
         "capabilities": [
-          "assistant conversationnel sur les données du bien (Aiden)",
-          "génération automatique de CMA"
+          "conversational assistant on property data (Aiden)",
+          "automatic CMA generation"
         ]
       },
       "product": {
@@ -19393,7 +19559,7 @@
         "checked_on": null,
         "checked_by": null
       },
-      "updated": "2026-09-10"
+      "updated": "2026-09-16"
     },
     {
       "slug": "realtor-com",
@@ -22126,6 +22292,105 @@
       "updated": "2026-09-14"
     },
     {
+      "slug": "soneka",
+      "name": "SONEKA",
+      "editor": "Soneka",
+      "website": "https://www.soneka.cloud/en",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "investment-underwriting",
+      "also_in": [
+        "commercial-am"
+      ],
+      "founded": 2017,
+      "positioning": "The integrated solution for Real Estate Asset Management — value, analyze, pilot.",
+      "description": "SONEKA is a French SaaS platform for real estate asset management that centralizes portfolio, lease, works and disposal data from property-management and accounting systems, then runs a financial calculation engine to produce cash-flow forecasts, KPIs and covenant monitoring at the lease, property, portfolio or fund/SPV level. Founded in 2017, it serves institutional investors, asset managers and SCPIs in France, Germany, Spain and the UK, and was acquired by Orisha Real Estate in June 2026.\n",
+      "real_estate_use": "An asset manager preparing a quarterly report pulls building, lease and CAPEX data that would otherwise sit in separate property-management and accounting systems, and SONEKA's calculation engine produces prospective cash flows and covenant checks at the fund level automatically. When updating a business plan after an acquisition or disposal, the team edits it directly in SONEKA rather than rebuilding a spreadsheet model, and exports the result to Power BI or Office for the investment committee.\n",
+      "features": [
+        "Centralization of building, lease, portfolio and CAPEX data",
+        "Integration with property-management and accounting systems",
+        "Cash-flow forecasting at lease, property, portfolio and fund/SPV level",
+        "Covenant monitoring",
+        "Business plan and snapshot creation, versioning and archiving",
+        "Data export to Power BI, Office and data lakes"
+      ],
+      "use_cases": [
+        {
+          "persona": "investor-am",
+          "job": "Consolidate fragmented property, lease and accounting data into one automated reporting view"
+        },
+        {
+          "persona": "investor-am",
+          "job": "Update a fund's business plan after an acquisition or disposal without rebuilding a spreadsheet model"
+        }
+      ],
+      "personas": [
+        "investor-am"
+      ],
+      "segments": [
+        "office",
+        "retail",
+        "industrial",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en",
+          "fr",
+          "de",
+          "es"
+        ]
+      },
+      "reviews": [],
+      "logo": {
+        "file": "logos/soneka.png",
+        "source_url": "https://cdn.prod.website-files.com/5f8ee1a43c74625ce715d669/60070e184b076a0810b12072_soneka%20logo%20blue.svg",
+        "fetched_on": "2026-09-16"
+      },
+      "signals": {
+        "site_languages": [
+          "de",
+          "en",
+          "es",
+          "fr"
+        ],
+        "checked_on": "2026-09-16"
+      },
+      "sources": [
+        {
+          "url": "https://www.soneka.cloud/en",
+          "note": "accueil"
+        },
+        {
+          "url": "https://www.soneka.cloud/en/use-cases",
+          "note": "cas d'usage clients"
+        },
+        {
+          "url": "https://immo2.pro/actualite-immobilier/orisha-real-estate-acquiert-soneka-pour-renforcer-son-expertise-en-immobilier/",
+          "note": "presse — acquisition par Orisha Real Estate, fondation 2017"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-16"
+    },
+    {
       "slug": "spacebring",
       "name": "Spacebring",
       "editor": "Spacebring",
@@ -22422,6 +22687,96 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "squarefeet",
+      "name": "Squarefeet",
+      "editor": "Squarefeet",
+      "website": "https://www.squarefeet.cloud",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "commercial-am",
+      "positioning": "The",
+      "description": "Squarefeet is a Paris-based leasing operating system for retail center owners and operators. It combines a retail-specific CRM, an end-to-end leasing workflow module, a specialty-leasing module for short-term and pop-up deals, interactive 2D/3D leasing plans, and a tenant portal, integrating with property-management systems and ERPs such as Yardi.\n",
+      "real_estate_use": "A leasing manager at a shopping-center owner tracks a prospective retailer from first contact through lease signature in one CRM instead of spreading it across spreadsheets and email, using interactive leasing plans to see which units are available and automated document generation to produce proposals and contracts. For short-term or pop-up space, the specialty-leasing module manages the deal from lead to payment through a booking portal that lets brands request and confirm a space directly.\n",
+      "features": [
+        "Retail-specific CRM with brand-level tenant tracking",
+        "End-to-end leasing workflow from lead to contract execution",
+        "Specialty leasing module for short-term and pop-up deals",
+        "Interactive 2D/3D leasing plans",
+        "Automated proposal, LOI and contract generation",
+        "Tenant portal and booking portal for space requests"
+      ],
+      "use_cases": [
+        {
+          "persona": "investor-am",
+          "job": "Track a retail leasing deal from prospect to signed contract in one platform"
+        },
+        {
+          "persona": "investor-am",
+          "job": "Turn vacant space into short-term or pop-up revenue through a booking portal"
+        }
+      ],
+      "personas": [
+        "investor-am",
+        "facility-manager"
+      ],
+      "segments": [
+        "retail"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Yardi"
+      ],
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en",
+          "fr",
+          "de"
+        ]
+      },
+      "reviews": [],
+      "signals": {
+        "privacy": "https://www.squarefeet.cloud/privacy-policy",
+        "site_languages": [
+          "de",
+          "en",
+          "fr"
+        ],
+        "checked_on": "2026-09-16"
+      },
+      "sources": [
+        {
+          "url": "https://www.squarefeet.cloud/",
+          "note": "accueil"
+        },
+        {
+          "url": "https://www.squarefeet.cloud/leasing/",
+          "note": "module leasing"
+        },
+        {
+          "url": "https://www.squarefeet.cloud/how-squarefeet-supports-reits-in-optimizing-their-leasing-operations/",
+          "note": "blog — fonctionnalités détaillées pour les REITs"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-16"
     },
     {
       "slug": "startloc",

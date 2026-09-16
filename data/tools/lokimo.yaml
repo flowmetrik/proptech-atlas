@@ -1,0 +1,57 @@
+slug: lokimo
+name: Lokimo
+editor: Lokimo AI SAS
+website: https://lokimo.ai
+hq_country: FR
+markets: [FR]
+category: market-data
+positioning: La puissance des données au service des professionnels de l'immobilier.
+description: >
+  Lokimo is a French property-intelligence platform for real estate professionals that
+  aggregates roughly 130 public and proprietary data sources — transactions, listings,
+  press, INSEE, Etalab — around a chosen address, parcel or zone. It scores the area
+  on attractiveness, risk (flooding, pollution, noise) and demographic trends, and
+  generates ready-to-present analysis reports.
+real_estate_use: >
+  An asset manager or developer scouting a parcel selects the zone on Lokimo instead
+  of manually cross-referencing transaction, demographic and risk databases, and gets
+  an area score covering economic activity, gentrification trends and flood, pollution
+  or noise risk. Before a project committee, they filter parcels by criteria and
+  export a formatted report in two clicks rather than compiling one by hand, cutting
+  the time spent qualifying a site before deciding whether to pursue it.
+features:
+  - Aggregation of about 130 real estate and public data sources
+  - "Zone scoring on attractiveness, risk and demographic trend"
+  - Parcel filtering by commercial potential criteria
+  - One-click exportable analysis reports
+  - Multi-scale analysis from parcel to municipality
+use_cases:
+  - persona: investor-am
+    job: Qualify a zone's attractiveness and risk profile before committing to a project
+  - persona: developer-builder
+    job: Filter parcels by potential and export a report for a project committee
+personas: [investor-am, developer-builder]
+segments: [land-development, mixed-use]
+company_sizes: [smb, midmarket, enterprise]
+pricing:
+  model: quote
+  public_pricing: false
+product:
+  api: false
+  open_source: false
+  mobile: []
+  languages: [fr]
+reviews: []
+logo:
+  file: logos/lokimo.png
+  source_url: https://lokimo.ai/logo-blue.svg
+  fetched_on: "2026-09-16"
+signals:
+  privacy: https://lokimo.ai/mentions-legales
+  site_languages: [fr]
+  checked_on: "2026-09-16"
+sources:
+  - { url: https://lokimo.ai/, note: accueil }
+  - { url: https://lokimo.ai/mentions-legales, note: mentions légales — société et siège }
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-09-16"

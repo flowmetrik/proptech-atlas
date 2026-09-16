@@ -620,20 +620,20 @@
       "description": "Brickwise AI is property-management software whose conversational agent, Alice, answers tenant calls, texts, WhatsApp messages and emails to triage maintenance requests, route rental applications, track compliance deadlines and chase unpaid rent. Out of the Y Combinator Fall 2025 batch, the London-based publisher targets landlords and property-management agencies in the United States, with product pages dedicated to New York.\n",
       "real_estate_use": "A property manager receives a maintenance report by text: Alice diagnoses the problem with the tenant, dispatches an approved contractor, and tracks the case through to closing without the manager having to coordinate each step. For a unit being leased, the agent answers applicants and guides them from the viewing to key handover, including the documents to provide. The manager receives reports built from real-time data rather than compiling them by hand, and Alice chases compliance deadlines before they lapse.\n",
       "features": [
-        "Triage et dispatch de la maintenance vers des prestataires agréés",
-        "Suivi des candidatures locatives de la visite à la remise des clés",
-        "Communication locataire multicanal (appel, SMS, WhatsApp, email)",
-        "Suivi des échéances de conformité et renouvellements",
-        "Relance des loyers impayés et rapprochement comptable"
+        "Maintenance triage and dispatch to approved contractors",
+        "Rental application tracking from viewing to key handover",
+        "Multichannel tenant communication (call, text, WhatsApp, email)",
+        "Compliance deadline and renewal tracking",
+        "Unpaid rent follow-up and accounting reconciliation"
       ],
       "use_cases": [
         {
           "persona": "property-manager",
-          "job": "Faire diagnostiquer une panne signalée par un locataire et dépêcher un prestataire sans coordination manuelle"
+          "job": "Have a tenant-reported issue diagnosed and a contractor dispatched without manual coordination"
         },
         {
           "persona": "landlord-owner",
-          "job": "Recevoir un rapport de gestion construit automatiquement à partir des données en temps réel du portefeuille"
+          "job": "Receive a management report built automatically from real-time portfolio data"
         }
       ],
       "personas": [
@@ -657,8 +657,8 @@
       ],
       "ai": {
         "capabilities": [
-          "agent conversationnel multicanal (Alice)",
-          "triage automatique des demandes de maintenance"
+          "multichannel conversational agent (Alice)",
+          "automatic triage of maintenance requests"
         ]
       },
       "product": {
@@ -692,7 +692,7 @@
         "checked_on": null,
         "checked_by": null
       },
-      "updated": "2026-09-10"
+      "updated": "2026-09-16"
     },
     {
       "slug": "buildium",

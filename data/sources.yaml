@@ -289,7 +289,7 @@ sources:
     finds: Un des rares annuaires français structurés par catégorie.
   - id: appvizer
     label: Appvizer — immobilier
-    url: https://www.appvizer.fr/immobilier
+    url: https://www.appvizer.fr/construction/biens-immobiliers
     market: FR
     kind: review
     finds: Annuaire français à la couverture inégale mais avec des éditeurs uniques.

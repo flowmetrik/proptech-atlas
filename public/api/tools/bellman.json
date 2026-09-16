@@ -13,20 +13,20 @@
   "description_fr": "Bellman est un logiciel de gestion pour cabinets de syndic et de gérance, né d'une ex-startup de syndic en ligne reconvertie en éditeur de logiciel en 2022. Il centralise le travail des gestionnaires, comptables et assistants autour d'une messagerie intégrée, d'un extranet pour les copropriétaires et le conseil syndical, et d'outils d'automatisation documentaire pour les assemblées générales.\n",
   "real_estate_use": "A syndic firm receives dozens of invoices and email requests every day: Bellman automatically attaches them to the right file and lets staff process quotes and condominium documents directly from the inbox, without re-keying. The manager prepares the agenda for a general assembly over the course of the year rather than in a rush, tracks convocation mailings in real time, and records postal votes. The trustee board and co-owners follow the progress of their cases and charge collection from a dedicated extranet, which cuts down on follow-up calls and emails to the firm.\n",
   "features": [
-    "Extranet copropriétaires et conseil syndical",
-    "Intégration messagerie pour le traitement des factures et devis",
-    "Préparation et suivi des assemblées générales",
-    "Vote par correspondance (VPC)",
-    "Automatisation documentaire (procès-verbaux, états datés)"
+    "Co-owner and trustee board extranet",
+    "Inbox integration for processing invoices and quotes",
+    "General assembly preparation and tracking",
+    "Postal voting (VPC)",
+    "Document automation (minutes, pre-sale statements)"
   ],
   "use_cases": [
     {
       "persona": "syndic-manager",
-      "job": "Traiter les factures et devis reçus par email sans ressaisie dans le dossier de copropriété"
+      "job": "Process invoices and quotes received by email without re-keying them into the condominium file"
     },
     {
       "persona": "syndic-manager",
-      "job": "Préparer et suivre l'envoi des convocations et le vote par correspondance d'une assemblée générale"
+      "job": "Prepare and track convocation mailings and postal voting for a general assembly"
     }
   ],
   "personas": [
@@ -73,5 +73,5 @@
     "checked_on": null,
     "checked_by": null
   },
-  "updated": "2026-09-10"
+  "updated": "2026-09-16"
 }

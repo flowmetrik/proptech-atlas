@@ -1,0 +1,90 @@
+{
+  "slug": "squarefeet",
+  "name": "Squarefeet",
+  "editor": "Squarefeet",
+  "website": "https://www.squarefeet.cloud",
+  "hq_country": "FR",
+  "markets": [
+    "FR"
+  ],
+  "category": "commercial-am",
+  "positioning": "The",
+  "description": "Squarefeet is a Paris-based leasing operating system for retail center owners and operators. It combines a retail-specific CRM, an end-to-end leasing workflow module, a specialty-leasing module for short-term and pop-up deals, interactive 2D/3D leasing plans, and a tenant portal, integrating with property-management systems and ERPs such as Yardi.\n",
+  "real_estate_use": "A leasing manager at a shopping-center owner tracks a prospective retailer from first contact through lease signature in one CRM instead of spreading it across spreadsheets and email, using interactive leasing plans to see which units are available and automated document generation to produce proposals and contracts. For short-term or pop-up space, the specialty-leasing module manages the deal from lead to payment through a booking portal that lets brands request and confirm a space directly.\n",
+  "features": [
+    "Retail-specific CRM with brand-level tenant tracking",
+    "End-to-end leasing workflow from lead to contract execution",
+    "Specialty leasing module for short-term and pop-up deals",
+    "Interactive 2D/3D leasing plans",
+    "Automated proposal, LOI and contract generation",
+    "Tenant portal and booking portal for space requests"
+  ],
+  "use_cases": [
+    {
+      "persona": "investor-am",
+      "job": "Track a retail leasing deal from prospect to signed contract in one platform"
+    },
+    {
+      "persona": "investor-am",
+      "job": "Turn vacant space into short-term or pop-up revenue through a booking portal"
+    }
+  ],
+  "personas": [
+    "investor-am",
+    "facility-manager"
+  ],
+  "segments": [
+    "retail"
+  ],
+  "company_sizes": [
+    "midmarket",
+    "enterprise"
+  ],
+  "pricing": {
+    "model": "quote",
+    "public_pricing": false
+  },
+  "integrations": [
+    "Yardi"
+  ],
+  "product": {
+    "api": false,
+    "open_source": false,
+    "mobile": [],
+    "languages": [
+      "en",
+      "fr",
+      "de"
+    ]
+  },
+  "reviews": [],
+  "signals": {
+    "privacy": "https://www.squarefeet.cloud/privacy-policy",
+    "site_languages": [
+      "de",
+      "en",
+      "fr"
+    ],
+    "checked_on": "2026-09-16"
+  },
+  "sources": [
+    {
+      "url": "https://www.squarefeet.cloud/",
+      "note": "accueil"
+    },
+    {
+      "url": "https://www.squarefeet.cloud/leasing/",
+      "note": "module leasing"
+    },
+    {
+      "url": "https://www.squarefeet.cloud/how-squarefeet-supports-reits-in-optimizing-their-leasing-operations/",
+      "note": "blog — fonctionnalités détaillées pour les REITs"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-09-16"
+}
