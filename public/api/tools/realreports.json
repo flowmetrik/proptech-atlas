@@ -15,20 +15,20 @@
   "description": "RealReports is a property-intelligence platform that compiles data from around fifteen sources to produce on-demand reports about a property: flood zones, history, disclosure analysis. Aiden, the product's intelligence layer, answers questions about a property and feeds RealCMA, a comparative market analysis tool. The product is distributed in part through agreements with US MLSs, which open access to it for their member agents.\n",
   "real_estate_use": "An agent preparing an offer wants to quickly know whether a property sits in a flood zone, what the seller's disclosure documents reveal, and how to position it against the local market: they generate a RealReport and query Aiden in natural language rather than cross-referencing several databases themselves. To build a comparative market analysis to present to a client, the agent uses RealCMA, which produces a document in the agency's usual presentation format in seconds rather than hours of manual research.\n",
   "features": [
-    "Rapport de renseignement sur un bien (RealReports)",
-    "Assistant IA sur les données du bien (Aiden)",
-    "Analyse comparative de marché (RealCMA)",
-    "Vérification de zone inondable et analyse de divulgations",
-    "Compilation de données issues de multiples fournisseurs"
+    "Property intelligence report (RealReports)",
+    "AI assistant on property data (Aiden)",
+    "Comparative market analysis (RealCMA)",
+    "Flood zone check and disclosure analysis",
+    "Data compilation from multiple providers"
   ],
   "use_cases": [
     {
       "persona": "agent-broker",
-      "job": "Vérifier le risque d'inondation et l'historique d'un bien avant de préparer une offre"
+      "job": "Check a property's flood risk and history before preparing an offer"
     },
     {
       "persona": "agent-broker",
-      "job": "Construire une analyse comparative de marché personnalisée pour un client en quelques secondes"
+      "job": "Build a customized comparative market analysis for a client in seconds"
     }
   ],
   "personas": [
@@ -52,8 +52,8 @@
   ],
   "ai": {
     "capabilities": [
-      "assistant conversationnel sur les données du bien (Aiden)",
-      "génération automatique de CMA"
+      "conversational assistant on property data (Aiden)",
+      "automatic CMA generation"
     ]
   },
   "product": {
@@ -92,5 +92,5 @@
     "checked_on": null,
     "checked_by": null
   },
-  "updated": "2026-09-10"
+  "updated": "2026-09-16"
 }

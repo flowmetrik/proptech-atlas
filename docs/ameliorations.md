@@ -41,6 +41,15 @@ qu'une chose a été tentée vaut mieux que de la retenter.
 - **Les avis restent à zéro.** G2, Capterra et Trustpilot renvoient `403`. Deux
   issues possibles : une clé d'API payante chez l'un d'eux, ou des contributions
   humaines sourcées. Ne jamais résoudre ce point en inventant.
+- **`appvizer` pointait sur une URL 404** (`/immobilier`) — corrigée le 16/09
+  vers `/construction/biens-immobiliers`, la page réelle des « 62 meilleurs
+  logiciels de gestion de biens immobiliers ». Mais cette page rend sa liste
+  **côté client** : aucun nom de logiciel n'apparaît dans le HTML statique,
+  contrairement à `capterra-fr` et `getapp-softwareadvice` qui bloquent en
+  403 pour la même raison de fond (lecture automatisée impossible). Un
+  navigateur headless réglerait les trois d'un coup ; sans ça, cette source
+  reste un dead-end pour la lecture automatisée — seule une recherche ciblée
+  par nom de produit déjà connu la contourne.
 
 ## Ouvert — couverture
 
@@ -103,13 +112,12 @@ qu'une chose a été tentée vaut mieux que de la retenter.
   raccourci automatique sans relecture, sur un champ qui est lu par un visiteur
   humain.
 - **Sept fiches avaient `description` et `real_estate_use` rédigés en français
-  au lieu d'anglais** — corrigé le 15/09 (voir l'entrée « fait » du jour) pour
-  ces deux champs seulement. Reste ouvert sur les mêmes sept fiches
-  (`bellman`, `brickwise-ai`, `clap-tech`, `expertval`, `kazaki`,
-  `opinion-system`, `realreports`) : `features`, `use_cases[].job` et, pour
-  `brickwise-ai`, `ai.capabilities` sont encore en français. Rien dans
-  `validate.mjs` ne détecte la langue d'un champ — c'est une relecture
-  humaine, comme celle qui a trouvé ces sept, qui les attrape.
+  au lieu d'anglais** — corrigé le 15/09 pour ces deux champs. `features`,
+  `use_cases[].job` et, pour `brickwise-ai` et `realreports`,
+  `ai.capabilities` traduits à leur tour le 16/09 (voir l'entrée « fait » du
+  jour) : les sept fiches sont désormais entièrement en anglais. Rien dans
+  `validate.mjs` ne détecte la langue d'un champ — une relecture humaine reste
+  le seul filet pour une régression future du même genre.
 
 ## Ouvert — exploitation
 
@@ -150,6 +158,16 @@ qu'une chose a été tentée vaut mieux que de la retenter.
 ---
 
 ## Fait
+
+- **2026-09-16** — Suite de la passe du 15/09 : sur les sept fiches déjà
+  corrigées pour `description`/`real_estate_use`, les champs restés en
+  français sont traduits — `features` et `use_cases[].job` sur les sept
+  (`bellman`, `brickwise-ai`, `clap-tech`, `expertval`, `kazaki`,
+  `opinion-system`, `realreports`), et `ai.capabilities` sur les deux qui en
+  portaient un (`brickwise-ai`, `realreports`). Traduction fidèle, pas de
+  reformulation : mêmes faits, même granularité, juste la langue. `npm run
+  data:validate` reste vert (272 fiches). L'entrée ouverte correspondante est
+  close — les sept fiches sont maintenant entièrement en anglais.
 
 - **2026-09-15** — Sept fiches avaient `description` et `real_estate_use`
   rédigés en français au lieu d'anglais, en violation de la règle « anglais

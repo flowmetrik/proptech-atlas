@@ -28,15 +28,15 @@ real_estate_use: >
   clap.legal, and uses clap.expert to spot high-potential mandate opportunities in
   its area.
 features:
-  - Génération et signature électronique de documents juridiques
-  - Vitrines connectées pilotées à distance
-  - Habillage vidéo automatique d'annonces immobilières
-  - Intelligence de marché pour cibler des mandats
+  - Legal document drafting and electronic signature
+  - Remotely managed connected window displays
+  - Automatic video dressing of real estate listings
+  - Market intelligence to target mandates
 use_cases:
   - persona: agent-broker
-    job: Afficher ses annonces sur une vitrine connectée sans repasser par l'agence
+    job: Display listings on a connected window without going through the agency
   - persona: brokerage
-    job: Faire signer un mandat ou un compromis à distance
+    job: Have a mandate or sale agreement signed remotely
 personas: [agent-broker, brokerage]
 segments: [residential]
 company_sizes: [smb]
@@ -64,4 +64,4 @@ sources:
   - { url: https://www.clap.tech/video, note: module clap.video }
   - { url: https://www.clap.tech/expert, note: module clap.expert }
 verification: { status: unverified, checked_on: null, checked_by: null }
-updated: "2026-09-12"
+updated: "2026-09-16"

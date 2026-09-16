@@ -4,7 +4,7 @@
   "label_fr": "Data de marché & intelligence immobilière",
   "summary_en": "Comparables, ownership, transactions, rents, footfall and the datasets other products are built on.",
   "summary_fr": "Comparables, propriétaires, transactions, loyers, fréquentation et les jeux de données sur lesquels d'autres produits sont bâtis.",
-  "count": 28,
+  "count": 29,
   "tools": [
     {
       "slug": "attom-data",
@@ -1303,6 +1303,91 @@
       "updated": "2026-08-25"
     },
     {
+      "slug": "lokimo",
+      "name": "Lokimo",
+      "editor": "Lokimo AI SAS",
+      "website": "https://lokimo.ai",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "market-data",
+      "positioning": "La puissance des données au service des professionnels de l'immobilier.",
+      "description": "Lokimo is a French property-intelligence platform for real estate professionals that aggregates roughly 130 public and proprietary data sources — transactions, listings, press, INSEE, Etalab — around a chosen address, parcel or zone. It scores the area on attractiveness, risk (flooding, pollution, noise) and demographic trends, and generates ready-to-present analysis reports.\n",
+      "real_estate_use": "An asset manager or developer scouting a parcel selects the zone on Lokimo instead of manually cross-referencing transaction, demographic and risk databases, and gets an area score covering economic activity, gentrification trends and flood, pollution or noise risk. Before a project committee, they filter parcels by criteria and export a formatted report in two clicks rather than compiling one by hand, cutting the time spent qualifying a site before deciding whether to pursue it.\n",
+      "features": [
+        "Aggregation of about 130 real estate and public data sources",
+        "Zone scoring on attractiveness, risk and demographic trend",
+        "Parcel filtering by commercial potential criteria",
+        "One-click exportable analysis reports",
+        "Multi-scale analysis from parcel to municipality"
+      ],
+      "use_cases": [
+        {
+          "persona": "investor-am",
+          "job": "Qualify a zone's attractiveness and risk profile before committing to a project"
+        },
+        {
+          "persona": "developer-builder",
+          "job": "Filter parcels by potential and export a report for a project committee"
+        }
+      ],
+      "personas": [
+        "investor-am",
+        "developer-builder"
+      ],
+      "segments": [
+        "land-development",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "reviews": [],
+      "logo": {
+        "file": "logos/lokimo.png",
+        "source_url": "https://lokimo.ai/logo-blue.svg",
+        "fetched_on": "2026-09-16"
+      },
+      "signals": {
+        "privacy": "https://lokimo.ai/mentions-legales",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-09-16"
+      },
+      "sources": [
+        {
+          "url": "https://lokimo.ai/",
+          "note": "accueil"
+        },
+        {
+          "url": "https://lokimo.ai/mentions-legales",
+          "note": "mentions légales — société et siège"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-16"
+    },
+    {
       "slug": "lycaon-data",
       "name": "Lycaon Data",
       "editor": "Lycaon",
@@ -2036,20 +2121,20 @@
       "description": "RealReports is a property-intelligence platform that compiles data from around fifteen sources to produce on-demand reports about a property: flood zones, history, disclosure analysis. Aiden, the product's intelligence layer, answers questions about a property and feeds RealCMA, a comparative market analysis tool. The product is distributed in part through agreements with US MLSs, which open access to it for their member agents.\n",
       "real_estate_use": "An agent preparing an offer wants to quickly know whether a property sits in a flood zone, what the seller's disclosure documents reveal, and how to position it against the local market: they generate a RealReport and query Aiden in natural language rather than cross-referencing several databases themselves. To build a comparative market analysis to present to a client, the agent uses RealCMA, which produces a document in the agency's usual presentation format in seconds rather than hours of manual research.\n",
       "features": [
-        "Rapport de renseignement sur un bien (RealReports)",
-        "Assistant IA sur les données du bien (Aiden)",
-        "Analyse comparative de marché (RealCMA)",
-        "Vérification de zone inondable et analyse de divulgations",
-        "Compilation de données issues de multiples fournisseurs"
+        "Property intelligence report (RealReports)",
+        "AI assistant on property data (Aiden)",
+        "Comparative market analysis (RealCMA)",
+        "Flood zone check and disclosure analysis",
+        "Data compilation from multiple providers"
       ],
       "use_cases": [
         {
           "persona": "agent-broker",
-          "job": "Vérifier le risque d'inondation et l'historique d'un bien avant de préparer une offre"
+          "job": "Check a property's flood risk and history before preparing an offer"
         },
         {
           "persona": "agent-broker",
-          "job": "Construire une analyse comparative de marché personnalisée pour un client en quelques secondes"
+          "job": "Build a customized comparative market analysis for a client in seconds"
         }
       ],
       "personas": [
@@ -2073,8 +2158,8 @@
       ],
       "ai": {
         "capabilities": [
-          "assistant conversationnel sur les données du bien (Aiden)",
-          "génération automatique de CMA"
+          "conversational assistant on property data (Aiden)",
+          "automatic CMA generation"
         ]
       },
       "product": {
@@ -2113,7 +2198,7 @@
         "checked_on": null,
         "checked_by": null
       },
-      "updated": "2026-09-10"
+      "updated": "2026-09-16"
     },
     {
       "slug": "reonomy",

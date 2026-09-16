@@ -22,13 +22,13 @@ real_estate_use: >
   checks review authenticity before publication, and the agency displays the
   certified-reputation badge on its site to reassure new prospects.
 features:
-  - Collecte d'avis clients certifiée AFNOR
-  - Contrôle des avis avant publication
-  - Page réputation dédiée par professionnel
-  - Déclinaison sectorielle pour l'immobilier et le courtage en crédit
+  - AFNOR-certified customer review collection
+  - Review verification before publication
+  - Dedicated reputation page per professional
+  - Sector-specific version for real estate and credit brokerage
 use_cases:
   - persona: agent-broker
-    job: Certifier sa réputation client pour rassurer de nouveaux prospects
+    job: Certify customer reputation to reassure new prospects
 personas: [agent-broker, brokerage]
 segments: [residential]
 company_sizes: [smb]
@@ -54,4 +54,4 @@ sources:
   - { url: https://www.opinionsystem.fr/avis-clients-agences-immobilieres/, note: page secteur immobilier }
   - { url: https://www.opinionsystem.fr/methode-avis-controles/, note: méthode certifiée }
 verification: { status: unverified, checked_on: null, checked_by: null }
-updated: "2026-09-12"
+updated: "2026-09-16"

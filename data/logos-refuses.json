@@ -2,6 +2,18 @@
   "_lisez_moi": "Logos écartés APRÈS avoir été regardés par un humain. logos.mjs récupère la meilleure image candidate d'un site ; il ne sait pas distinguer un logo d'un visuel décoratif, et sans cette liste il réadopte le même faux à chaque passe. Une entrée dit le slug, ce qui avait été récupéré, et pourquoi ça n'allait pas. `--all` ne la contourne pas : c'est un jugement, pas un cache.",
   "refuses": [
     {
+      "slug": "mondeviscopro",
+      "source_url": "https://cdn.amoa.fr//certifications/ademe.svg",
+      "why": "le logo de l'ADEME (Agence de la transition écologique), un badge de certification affiché sur le site — pas le logo de mondeviscopro.fr.",
+      "on": "2026-09-16"
+    },
+    {
+      "slug": "squarefeet",
+      "source_url": "https://www.squarefeet.cloud/wp-content/uploads/2024/09/Revenues-768x432.jpg",
+      "why": "une photo de stock (une femme travaillant sur un ordinateur portable) illustrant un article — pas un logo.",
+      "on": "2026-09-16"
+    },
+    {
       "slug": "rentvision",
       "source_url": "https://www.rentvision.com/hubfs/assets/images/2020%20Design/homev2/RentVision-Apartment-Analytics-and-Advising.jpg",
       "why": "un collage marketing de la page d'accueil (photo de piscine, statistiques de bail, capture vidéo) — pas un logo, aucune marque lisible dessus.",

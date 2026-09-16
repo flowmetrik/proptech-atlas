@@ -16,20 +16,20 @@
   "description_fr": "Kazaki est un portail français de recherche immobilière pour particuliers, fondé par Kazaki SAS (Reims). Plutôt qu'un moteur à filtres, il propose une recherche conversationnelle : l'acheteur décrit son projet en langage naturel, et l'IA parcourt les annonces des agences partenaires pour recommander des biens, enrichis d'une estimation de prix, d'un simulateur de crédit et du DPE. Applications mobiles iOS et Android.\n",
   "real_estate_use": "An agency (L'Atelier Immo, ERA, Les Clefs Immo and Redouté are cited as partners) has its listings picked up and enriched on Kazaki, which exposes them to buyers already qualified through their conversation with the AI rather than through classic filters — an additional lead-acquisition channel, on the same principle as a mainstream portal.\n",
   "features": [
-    "Recherche conversationnelle par IA plutôt que par filtres",
-    "Agrégation des annonces d'agences partenaires",
-    "Estimation de prix et simulateur de crédit intégrés",
-    "Affichage du diagnostic de performance énergétique par bien",
-    "Applications mobiles iOS et Android"
+    "AI conversational search instead of filters",
+    "Aggregation of partner agency listings",
+    "Integrated price estimate and mortgage simulator",
+    "Energy performance rating (DPE) display per property",
+    "iOS and Android mobile apps"
   ],
   "use_cases": [
     {
       "persona": "agent-broker",
-      "job": "Faire recommander ses annonces à des acheteurs qualifiés par une recherche conversationnelle"
+      "job": "Have listings recommended to buyers qualified through conversational search"
     },
     {
       "persona": "brokerage",
-      "job": "Gagner un canal d'acquisition de leads acheteurs complémentaire aux portails classiques"
+      "job": "Gain a buyer lead-acquisition channel complementary to mainstream portals"
     }
   ],
   "personas": [
@@ -85,5 +85,5 @@
     "checked_on": null,
     "checked_by": null
   },
-  "updated": "2026-09-12"
+  "updated": "2026-09-16"
 }

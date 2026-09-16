@@ -1,0 +1,62 @@
+slug: soneka
+name: SONEKA
+editor: Soneka
+website: https://www.soneka.cloud/en
+hq_country: FR
+markets: [FR]
+category: investment-underwriting
+also_in: [commercial-am]
+founded: 2017
+positioning: "The integrated solution for Real Estate Asset Management — value, analyze, pilot."
+description: >
+  SONEKA is a French SaaS platform for real estate asset management that centralizes
+  portfolio, lease, works and disposal data from property-management and accounting
+  systems, then runs a financial calculation engine to produce cash-flow forecasts,
+  KPIs and covenant monitoring at the lease, property, portfolio or fund/SPV level.
+  Founded in 2017, it serves institutional investors, asset managers and SCPIs in
+  France, Germany, Spain and the UK, and was acquired by Orisha Real Estate in June
+  2026.
+real_estate_use: >
+  An asset manager preparing a quarterly report pulls building, lease and CAPEX data
+  that would otherwise sit in separate property-management and accounting systems, and
+  SONEKA's calculation engine produces prospective cash flows and covenant checks at
+  the fund level automatically. When updating a business plan after an acquisition or
+  disposal, the team edits it directly in SONEKA rather than rebuilding a spreadsheet
+  model, and exports the result to Power BI or Office for the investment committee.
+features:
+  - "Centralization of building, lease, portfolio and CAPEX data"
+  - Integration with property-management and accounting systems
+  - "Cash-flow forecasting at lease, property, portfolio and fund/SPV level"
+  - Covenant monitoring
+  - "Business plan and snapshot creation, versioning and archiving"
+  - "Data export to Power BI, Office and data lakes"
+use_cases:
+  - persona: investor-am
+    job: "Consolidate fragmented property, lease and accounting data into one automated reporting view"
+  - persona: investor-am
+    job: Update a fund's business plan after an acquisition or disposal without rebuilding a spreadsheet model
+personas: [investor-am]
+segments: [office, retail, industrial, mixed-use]
+company_sizes: [midmarket, enterprise]
+pricing:
+  model: quote
+  public_pricing: false
+product:
+  api: false
+  open_source: false
+  mobile: []
+  languages: [en, fr, de, es]
+reviews: []
+logo:
+  file: logos/soneka.png
+  source_url: https://cdn.prod.website-files.com/5f8ee1a43c74625ce715d669/60070e184b076a0810b12072_soneka%20logo%20blue.svg
+  fetched_on: "2026-09-16"
+signals:
+  site_languages: [de, en, es, fr]
+  checked_on: "2026-09-16"
+sources:
+  - { url: https://www.soneka.cloud/en, note: accueil }
+  - { url: https://www.soneka.cloud/en/use-cases, note: cas d'usage clients }
+  - { url: https://immo2.pro/actualite-immobilier/orisha-real-estate-acquiert-soneka-pour-renforcer-son-expertise-en-immobilier/, note: "presse — acquisition par Orisha Real Estate, fondation 2017" }
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-09-16"

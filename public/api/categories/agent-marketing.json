@@ -527,19 +527,19 @@
       "description_fr": "Clap.tech est un éditeur français qui propose une suite de quatre modules vendus séparément pour les agences immobilières : clap.legal (édition et signature électronique de documents juridiques), clap.show (vitrines connectées pour les agences), clap.video (habillage vidéo automatique des annonces) et clap.expert (intelligence de marché pour cibler des mandats). Revendique plus de 6 000 professionnels de l'immobilier clients.\n",
       "real_estate_use": "An agency equips its street-facing window displays with clap.show to show its listings without manual updates, turns its listings into short videos for social media with clap.video, has mandates and sale agreements signed electronically with clap.legal, and uses clap.expert to spot high-potential mandate opportunities in its area.\n",
       "features": [
-        "Génération et signature électronique de documents juridiques",
-        "Vitrines connectées pilotées à distance",
-        "Habillage vidéo automatique d'annonces immobilières",
-        "Intelligence de marché pour cibler des mandats"
+        "Legal document drafting and electronic signature",
+        "Remotely managed connected window displays",
+        "Automatic video dressing of real estate listings",
+        "Market intelligence to target mandates"
       ],
       "use_cases": [
         {
           "persona": "agent-broker",
-          "job": "Afficher ses annonces sur une vitrine connectée sans repasser par l'agence"
+          "job": "Display listings on a connected window without going through the agency"
         },
         {
           "persona": "brokerage",
-          "job": "Faire signer un mandat ou un compromis à distance"
+          "job": "Have a mandate or sale agreement signed remotely"
         }
       ],
       "personas": [
@@ -604,7 +604,7 @@
         "checked_on": null,
         "checked_by": null
       },
-      "updated": "2026-09-12"
+      "updated": "2026-09-16"
     },
     {
       "slug": "cloudcma",
@@ -1404,15 +1404,15 @@
       "description_fr": "Opinion System est un institut de sondage français qui collecte et contrôle des avis clients pour plusieurs professions réglementées, dont l'immobilier. Sa méthode de collecte est certifiée AFNOR (ISO 9001, ISO 20252, NF Service 522, NF ISO 20488) : les avis sont vérifiés avant publication par un processus audité chaque année.\n",
       "real_estate_use": "A real estate agency or credit broker signs up with Opinion System to get its customer reviews certified: the platform solicits clients after a transaction, checks review authenticity before publication, and the agency displays the certified-reputation badge on its site to reassure new prospects.\n",
       "features": [
-        "Collecte d'avis clients certifiée AFNOR",
-        "Contrôle des avis avant publication",
-        "Page réputation dédiée par professionnel",
-        "Déclinaison sectorielle pour l'immobilier et le courtage en crédit"
+        "AFNOR-certified customer review collection",
+        "Review verification before publication",
+        "Dedicated reputation page per professional",
+        "Sector-specific version for real estate and credit brokerage"
       ],
       "use_cases": [
         {
           "persona": "agent-broker",
-          "job": "Certifier sa réputation client pour rassurer de nouveaux prospects"
+          "job": "Certify customer reputation to reassure new prospects"
         }
       ],
       "personas": [
@@ -1469,7 +1469,7 @@
         "checked_on": null,
         "checked_by": null
       },
-      "updated": "2026-09-12"
+      "updated": "2026-09-16"
     },
     {
       "slug": "pilotim",

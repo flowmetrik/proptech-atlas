@@ -28,16 +28,16 @@ real_estate_use: >
   classic filters — an additional lead-acquisition channel, on the same principle
   as a mainstream portal.
 features:
-  - Recherche conversationnelle par IA plutôt que par filtres
-  - Agrégation des annonces d'agences partenaires
-  - Estimation de prix et simulateur de crédit intégrés
-  - Affichage du diagnostic de performance énergétique par bien
-  - Applications mobiles iOS et Android
+  - AI conversational search instead of filters
+  - Aggregation of partner agency listings
+  - Integrated price estimate and mortgage simulator
+  - Energy performance rating (DPE) display per property
+  - iOS and Android mobile apps
 use_cases:
   - persona: agent-broker
-    job: Faire recommander ses annonces à des acheteurs qualifiés par une recherche conversationnelle
+    job: Have listings recommended to buyers qualified through conversational search
   - persona: brokerage
-    job: Gagner un canal d'acquisition de leads acheteurs complémentaire aux portails classiques
+    job: Gain a buyer lead-acquisition channel complementary to mainstream portals
 personas: [agent-broker, brokerage]
 segments: [residential]
 company_sizes: [smb]
@@ -62,4 +62,4 @@ sources:
   - { url: https://www.kazaki.fr, note: accueil }
   - { url: https://www.kazaki.fr/mentions-legales, note: mentions légales — société et siège }
 verification: { status: unverified, checked_on: null, checked_by: null }
-updated: "2026-09-12"
+updated: "2026-09-16"

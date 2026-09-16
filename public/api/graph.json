@@ -4,22 +4,22 @@
   "license": "CC-BY-4.0 (data) / MIT (code)",
   "homepage": "https://flowmetrik.github.io/proptech-atlas",
   "repository": "https://github.com/flowmetrik/proptech-atlas",
-  "generated": "2026-09-15",
+  "generated": "2026-09-16",
   "counts": {
-    "tools": 272,
+    "tools": 276,
     "US": 154,
-    "FR": 148,
+    "FR": 152,
     "categories": 24,
-    "editors": 255,
+    "editors": 259,
     "verified": 0,
     "reviews": 0,
-    "logos": 254,
+    "logos": 256,
     "signals": {
-      "probed": 258,
+      "probed": 262,
       "public_pricing": 65,
       "api_docs": 18,
       "security_page": 31,
-      "privacy_page": 190,
+      "privacy_page": 193,
       "status_page": 63
     }
   },
@@ -745,6 +745,11 @@
       "label": "Lofty"
     },
     {
+      "id": "tool:lokimo",
+      "type": "tool",
+      "label": "Lokimo"
+    },
+    {
       "id": "tool:lone-wolf-back-office",
       "type": "tool",
       "label": "Lone Wolf Back Office"
@@ -803,6 +808,11 @@
       "id": "tool:modelo",
       "type": "tool",
       "label": "Modelo"
+    },
+    {
+      "id": "tool:mondeviscopro",
+      "type": "tool",
+      "label": "mondeviscopro.fr"
     },
     {
       "id": "tool:monga",
@@ -1165,6 +1175,11 @@
       "label": "Sogefi GéoServices"
     },
     {
+      "id": "tool:soneka",
+      "type": "tool",
+      "label": "SONEKA"
+    },
+    {
       "id": "tool:spacebring",
       "type": "tool",
       "label": "Spacebring"
@@ -1178,6 +1193,11 @@
       "id": "tool:spinalcom",
       "type": "tool",
       "label": "SpinalCom"
+    },
+    {
+      "id": "tool:squarefeet",
+      "type": "tool",
+      "label": "Squarefeet"
     },
     {
       "id": "tool:startloc",
@@ -2315,6 +2335,11 @@
       "label": "Lofty (formerly Chime Technologies)"
     },
     {
+      "id": "editor:Lokimo AI SAS",
+      "type": "editor",
+      "label": "Lokimo AI SAS"
+    },
+    {
       "id": "editor:Luxury Presence",
       "type": "editor",
       "label": "Luxury Presence"
@@ -2353,6 +2378,11 @@
       "id": "editor:Aviv Group (Axel Springer)",
       "type": "editor",
       "label": "Aviv Group (Axel Springer)"
+    },
+    {
+      "id": "editor:AMOA SAS",
+      "type": "editor",
+      "label": "AMOA SAS"
     },
     {
       "id": "editor:Monga",
@@ -2695,6 +2725,11 @@
       "label": "Sogefi"
     },
     {
+      "id": "editor:Soneka",
+      "type": "editor",
+      "label": "Soneka"
+    },
+    {
       "id": "editor:Spacebring",
       "type": "editor",
       "label": "Spacebring"
@@ -2708,6 +2743,11 @@
       "id": "editor:SpinalCom",
       "type": "editor",
       "label": "SpinalCom"
+    },
+    {
+      "id": "editor:Squarefeet",
+      "type": "editor",
+      "label": "Squarefeet"
     },
     {
       "id": "editor:Startloc",
@@ -10677,6 +10717,41 @@
       "to": "tool:follow-up-boss"
     },
     {
+      "from": "tool:lokimo",
+      "rel": "published_by",
+      "to": "editor:Lokimo AI SAS"
+    },
+    {
+      "from": "tool:lokimo",
+      "rel": "belongs_to",
+      "to": "category:market-data"
+    },
+    {
+      "from": "tool:lokimo",
+      "rel": "serves_persona",
+      "to": "persona:investor-am"
+    },
+    {
+      "from": "tool:lokimo",
+      "rel": "serves_persona",
+      "to": "persona:developer-builder"
+    },
+    {
+      "from": "tool:lokimo",
+      "rel": "covers_segment",
+      "to": "segment:land-development"
+    },
+    {
+      "from": "tool:lokimo",
+      "rel": "covers_segment",
+      "to": "segment:mixed-use"
+    },
+    {
+      "from": "tool:lokimo",
+      "rel": "available_in",
+      "to": "market:FR"
+    },
+    {
       "from": "tool:lone-wolf-back-office",
       "rel": "published_by",
       "to": "editor:Lone Wolf Technologies"
@@ -11330,6 +11405,36 @@
       "from": "tool:modelo",
       "rel": "alternative_to",
       "to": "tool:crypto-septeo"
+    },
+    {
+      "from": "tool:mondeviscopro",
+      "rel": "published_by",
+      "to": "editor:AMOA SAS"
+    },
+    {
+      "from": "tool:mondeviscopro",
+      "rel": "belongs_to",
+      "to": "category:portals-marketplaces"
+    },
+    {
+      "from": "tool:mondeviscopro",
+      "rel": "also_serves",
+      "to": "category:energy-esg"
+    },
+    {
+      "from": "tool:mondeviscopro",
+      "rel": "serves_persona",
+      "to": "persona:syndic-manager"
+    },
+    {
+      "from": "tool:mondeviscopro",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:mondeviscopro",
+      "rel": "available_in",
+      "to": "market:FR"
     },
     {
       "from": "tool:monga",
@@ -15397,6 +15502,51 @@
       "to": "tool:kelfoncier"
     },
     {
+      "from": "tool:soneka",
+      "rel": "published_by",
+      "to": "editor:Soneka"
+    },
+    {
+      "from": "tool:soneka",
+      "rel": "belongs_to",
+      "to": "category:investment-underwriting"
+    },
+    {
+      "from": "tool:soneka",
+      "rel": "also_serves",
+      "to": "category:commercial-am"
+    },
+    {
+      "from": "tool:soneka",
+      "rel": "serves_persona",
+      "to": "persona:investor-am"
+    },
+    {
+      "from": "tool:soneka",
+      "rel": "covers_segment",
+      "to": "segment:office"
+    },
+    {
+      "from": "tool:soneka",
+      "rel": "covers_segment",
+      "to": "segment:retail"
+    },
+    {
+      "from": "tool:soneka",
+      "rel": "covers_segment",
+      "to": "segment:industrial"
+    },
+    {
+      "from": "tool:soneka",
+      "rel": "covers_segment",
+      "to": "segment:mixed-use"
+    },
+    {
+      "from": "tool:soneka",
+      "rel": "available_in",
+      "to": "market:FR"
+    },
+    {
       "from": "tool:spacebring",
       "rel": "published_by",
       "to": "editor:Spacebring"
@@ -15570,6 +15720,36 @@
       "from": "tool:spinalcom",
       "rel": "alternative_to",
       "to": "tool:witco"
+    },
+    {
+      "from": "tool:squarefeet",
+      "rel": "published_by",
+      "to": "editor:Squarefeet"
+    },
+    {
+      "from": "tool:squarefeet",
+      "rel": "belongs_to",
+      "to": "category:commercial-am"
+    },
+    {
+      "from": "tool:squarefeet",
+      "rel": "serves_persona",
+      "to": "persona:investor-am"
+    },
+    {
+      "from": "tool:squarefeet",
+      "rel": "serves_persona",
+      "to": "persona:facility-manager"
+    },
+    {
+      "from": "tool:squarefeet",
+      "rel": "covers_segment",
+      "to": "segment:retail"
+    },
+    {
+      "from": "tool:squarefeet",
+      "rel": "available_in",
+      "to": "market:FR"
     },
     {
       "from": "tool:startloc",

@@ -2,7 +2,7 @@
 
 <!-- Généré par `npm run data:emit`. Ne pas éditer à la main : éditer `data/tools/*.yaml`. -->
 
-272 produits · 154 🇺🇸 · 148 🇫🇷 · mis à jour le 2026-09-15
+276 produits · 154 🇺🇸 · 152 🇫🇷 · mis à jour le 2026-09-16
 
 Version navigable : https://flowmetrik.github.io/proptech-atlas/explore
 
@@ -58,6 +58,7 @@ _Là où l'offre rencontre la demande en public — portails grand public, rése
 | [Kazaki](data/tools/kazaki.yaml) | Kazaki SAS | 🇫🇷 | An agency (L'Atelier Immo, ERA, Les Clefs Immo and Redouté are cited as partners) has its listings picked up and enriched on Kazaki, which exposes them to buyers already qualified… |
 | [Leboncoin Immobilier](data/tools/leboncoin-immobilier.yaml) | Leboncoin (Adevinta) | 🇫🇷 | Its dual nature defines its role. Agencies advertise here for volume at a lower cost per listing than the professional portals. At the same time it is the main source for the pige — the… |
 | [LoopNet](data/tools/loopnet.yaml) | CoStar Group | 🇺🇸 | A broker marketing a warehouse or a strip centre buys a listing tier to reach principals and out-of-market buyers that a local network would miss. Investors use it as a screening tool… |
+| [mondeviscopro.fr](data/tools/mondeviscopro.yaml) | AMOA SAS | 🇫🇷 | A condominium manager facing a mandatory energy diagnostic or renovation vote fills a short form describing the building and the service needed, and the platform automatically solicits… |
 | [PAP (De Particulier à Particulier)](data/tools/pap.yaml) | PAP | 🇫🇷 | Two opposite uses. For an owner it is the reference channel for selling or letting without paying agency fees, with the legal templates that decision requires. For an agency it is a pure… |
 | [Realtor.com](data/tools/realtor-com.yaml) | Move, Inc. (News Corp) | 🇺🇸 | Agents buy exclusive or shared buyer leads by ZIP code and use the platform's listing presence as a seller-pitch argument. Because the feed comes from the MLS, status changes propagate… |
 | [SeLoger](data/tools/seloger.yaml) | Aviv Group (Axel Springer) | 🇫🇷 | For a French agency the SeLoger subscription is usually the largest single marketing line, and its renewal is an annual argument: the agency compares the leads it produced against… |
@@ -78,6 +79,7 @@ _Comparables, propriétaires, transactions, loyers, fréquentation et les jeux d
 | [DVF — Demandes de valeurs foncières](data/tools/dvf.yaml) | DGFiP / Etalab | 🇫🇷 | It is the closest thing France has to public sale comparables. An agent checks what the flat two floors down actually sold for, an investor tests a seller's price claim, an appraiser… |
 | [Fluximmo](data/tools/fluximmo.yaml) | Fluximmo | 🇫🇷 | It is infrastructure rather than an end-user product: a pige tool, a market study or an internal prospecting system uses the feed instead of scraping portals themselves. The… |
 | [Kel Foncier](data/tools/kelfoncier.yaml) | Kel Foncier | 🇫🇷 | A French development starts with a question the PLU answers slowly: on this parcel, what height, what footprint, what constraints. Kel Foncier makes that searchable in reverse — find… |
+| [Lokimo](data/tools/lokimo.yaml) | Lokimo AI SAS | 🇫🇷 | An asset manager or developer scouting a parcel selects the zone on Lokimo instead of manually cross-referencing transaction, demographic and risk databases, and gets an area score… |
 | [Lycaon Data](data/tools/lycaon-data.yaml) | Lycaon | 🇫🇷 | An investment fund or developer evaluating a site asks Lycaon Data for a report on how specific attributes (surface, floor, exposure, local supply-demand balance) move price in that… |
 | [Placer.ai](data/tools/placer-ai.yaml) | Placer Labs | 🇺🇸 🇫🇷 | In retail leasing it replaces the argument from intuition. A landlord shows a prospective tenant that the centre draws a measured number of visits from a trade area matching the brand's… |
 | [RealReports](data/tools/realreports.yaml) | BHR Labs | 🇺🇸 | An agent preparing an offer wants to quickly know whether a property sits in a flood zone, what the seller's disclosure documents reveal, and how to position it against the local market… |
@@ -202,6 +204,7 @@ _Administration institutionnelle des baux, actifs et portefeuilles._
 | [Leasecake](data/tools/leasecake.yaml) | Leasecake | 🇺🇸 | The buyer here is the tenant, not the landlord: a restaurant group, a retail chain, a franchise operator with fifty to several hundred locations whose leases live in a shared drive and… |
 | [MRI Software](data/tools/mri-software.yaml) | MRI Software | 🇺🇸 🇫🇷 | A European or transatlantic owner often cannot standardise on one vendor — local accounting, local leasing practice and existing systems all resist it. MRI is chosen when the lease and… |
 | [Prophia](data/tools/prophia.yaml) | Prophia | 🇺🇸 | The situation is an acquisition or a portfolio handover where several hundred leases arrive as PDFs and the rent roll has to be trusted before an offer is made. Doing that by hand takes… |
+| [Squarefeet](data/tools/squarefeet.yaml) | Squarefeet | 🇫🇷 | A leasing manager at a shopping-center owner tracks a prospective retailer from first contact through lease signature in one CRM instead of spreading it across spreadsheets and email… |
 | [Visual Lease](data/tools/visual-lease.yaml) | Visual Lease (CoStar Group) | 🇺🇸 🇫🇷 | Since IFRS 16 and ASC 842, a company that rents two hundred stores carries those leases on its balance sheet, and the auditor tests the calculation. Visual Lease exists because that… |
 | [VTS](data/tools/vts.yaml) | VTS | 🇺🇸 🇫🇷 | Office leasing runs on a pipeline that traditionally lived in a leasing director's spreadsheet. VTS makes it institutional: every requirement, tour and proposal is tracked, so an asset… |
 | [Yardi Voyager](data/tools/yardi-voyager.yaml) | Yardi Systems | 🇺🇸 🇫🇷 | For an institutional owner, the question is not features but audit chain: the rent invoiced to a tenant, the indexation clause applied, the accrual booked and the figure reported to the… |
@@ -217,6 +220,7 @@ _Modéliser une opération, tester des scénarios, produire un mémo d'investiss
 | [Horiz.io](data/tools/horiz.yaml) | Horiz.io | 🇫🇷 | In France the tax regime often decides whether an investment works — the same apartment can be cash-flow negative unfurnished and positive under a furnished regime with amortisation.… |
 | [Juniper Square](data/tools/juniper-square.yaml) | Juniper Square | 🇺🇸 | A sponsor raising from private investors has to track ownership across entities, calculate a promote correctly, and produce K-1 packages and quarterly reports that LPs trust. Getting… |
 | [LEON](data/tools/leon-scepia.yaml) | Scepia | 🇫🇷 | A social-housing developer's operations team enters a new PLUS or PLAI project and gets a first financial-ratio result within minutes, checking profitability before committing further… |
+| [SONEKA](data/tools/soneka.yaml) | Soneka | 🇫🇷 | An asset manager preparing a quarterly report pulls building, lease and CAPEX data that would otherwise sit in separate property-management and accounting systems, and SONEKA's… |
 
 ## Financement, crédit & courtage · Lending, mortgage & brokerage
 

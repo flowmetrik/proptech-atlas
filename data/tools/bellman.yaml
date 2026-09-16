@@ -28,16 +28,16 @@ real_estate_use: >
   collection from a dedicated extranet, which cuts down on follow-up calls and
   emails to the firm.
 features:
-  - Extranet copropriétaires et conseil syndical
-  - Intégration messagerie pour le traitement des factures et devis
-  - Préparation et suivi des assemblées générales
-  - Vote par correspondance (VPC)
-  - "Automatisation documentaire (procès-verbaux, états datés)"
+  - Co-owner and trustee board extranet
+  - Inbox integration for processing invoices and quotes
+  - General assembly preparation and tracking
+  - Postal voting (VPC)
+  - "Document automation (minutes, pre-sale statements)"
 use_cases:
   - persona: syndic-manager
-    job: Traiter les factures et devis reçus par email sans ressaisie dans le dossier de copropriété
+    job: Process invoices and quotes received by email without re-keying them into the condominium file
   - persona: syndic-manager
-    job: Préparer et suivre l'envoi des convocations et le vote par correspondance d'une assemblée générale
+    job: Prepare and track convocation mailings and postal voting for a general assembly
 personas: [syndic-manager]
 segments: [residential]
 company_sizes: [smb, midmarket]
@@ -57,4 +57,4 @@ sources:
   - { url: https://bellman.immo/, note: "site éditeur, accueil" }
   - { url: https://bellman.immo/fonctionnalites-logiciel-syndic-et-gerance, note: page fonctionnalités }
 verification: { status: unverified, checked_on: null, checked_by: null }
-updated: "2026-09-10"
+updated: "2026-09-16"
