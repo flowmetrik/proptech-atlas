@@ -152,6 +152,10 @@ qu'une chose a été tentée vaut mieux que de la retenter.
   **Toujours actif le 15/09** — même annotation sur `daily-health` du 14/09
   18h38 UTC. Pas de nouvelle tentative de contournement : la décision reste
   celle de Mehdi.
+  **Toujours actif le 16/09** — sixième jour consécutif. La fusion de la PR
+  #21 (quatre fiches, traductions) confirme la même annotation ; le site
+  public sert toujours la version d'avant le 11/09 malgré quatre fusions
+  successives sur `main` (#18 à #21) depuis le début du blocage.
 - **Identifiant GA4.** La mesure est câblée et attend la variable de dépôt
   `GA4_MEASUREMENT_ID`. Sans elle, aucune ligne de script tiers n'est émise.
 
