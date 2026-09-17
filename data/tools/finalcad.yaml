@@ -11,6 +11,10 @@ description: >
   Finalcad provides mobile applications for construction site monitoring: observations and
   snagging on plans, quality and safety checklists, progress tracking, task assignment and
   automatic reporting, with a deliberately minimal field interface.
+description_fr: >
+  Finalcad fournit des applications mobiles pour le suivi de chantier : observations et levée de
+  réserves sur plans, checklists qualité et sécurité, suivi d'avancement, affectation de tâches et
+  reporting automatique, avec une interface terrain volontairement minimale.
 real_estate_use: >
   Field adoption is the whole battle: a tool a subcontractor's foreman will not open produces
   no data, whatever it can do. Finalcad's design choice is to strip the field experience down

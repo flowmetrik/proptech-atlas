@@ -632,6 +632,7 @@
       "founded": 2019,
       "positioning": "Every French property transaction of the last five years, published as open data by the tax administration — free, and the base layer under most French valuation products.",
       "description": "DVF publishes the property transactions registered by the French tax administration: address, date, price, surface, property type and land parcel, covering most of the country and updated twice a year. It is available as bulk open data, through a public API and through a free map application.\n",
+      "description_fr": "DVF publie les transactions immobilières enregistrées par l'administration fiscale française : adresse, date, prix, surface, type de bien et parcelle cadastrale, couvrant la majeure partie du pays et mis à jour deux fois par an. Disponible en open data en masse, via une API publique et via une application cartographique gratuite.\n",
       "real_estate_use": "It is the closest thing France has to public sale comparables. An agent checks what the flat two floors down actually sold for, an investor tests a seller's price claim, an appraiser builds a comparables table with a verifiable public source. Its limits matter as much: Alsace-Moselle and Mayotte are excluded, sales are registered several months late, and the price is the recorded transfer price, not the negotiated market story behind it.\n",
       "features": [
         "Registered transaction price, date, surface and property type",
@@ -820,6 +821,7 @@
       ],
       "positioning": "French property listings as an API — the raw feed behind pige tools and market products.",
       "description": "Fluximmo collects real estate listings published across French portals and classified sites, deduplicates them, distinguishes private from professional sellers, and delivers the result as a structured API with history and change tracking.\n",
+      "description_fr": "Fluximmo collecte les annonces immobilières publiées sur les portails et sites de petites annonces français, les dédoublonne, distingue les vendeurs particuliers des professionnels, et livre le résultat sous forme d'API structurée avec historique et suivi des changements.\n",
       "real_estate_use": "It is infrastructure rather than an end-user product: a pige tool, a market study or an internal prospecting system uses the feed instead of scraping portals themselves. The deduplication and private-versus-professional classification are the hard parts, since the same property appears repeatedly under different descriptions and prices.\n",
       "features": [
         "Aggregated listing feed across French portals and classified sites",

@@ -4,23 +4,23 @@
   "license": "CC-BY-4.0 (data) / MIT (code)",
   "homepage": "https://flowmetrik.github.io/proptech-atlas",
   "repository": "https://github.com/flowmetrik/proptech-atlas",
-  "generated": "2026-09-16",
+  "generated": "2026-09-17",
   "counts": {
-    "tools": 276,
-    "US": 154,
-    "FR": 152,
+    "tools": 282,
+    "US": 157,
+    "FR": 155,
     "categories": 24,
-    "editors": 259,
+    "editors": 265,
     "verified": 0,
     "reviews": 0,
-    "logos": 256,
+    "logos": 261,
     "signals": {
-      "probed": 262,
-      "public_pricing": 65,
+      "probed": 268,
+      "public_pricing": 68,
       "api_docs": 18,
-      "security_page": 31,
-      "privacy_page": 193,
-      "status_page": 63
+      "security_page": 33,
+      "privacy_page": 199,
+      "status_page": 65
     }
   },
   "nodes": [
@@ -28,6 +28,11 @@
       "id": "tool:aareon",
       "type": "tool",
       "label": "Aareon"
+    },
+    {
+      "id": "tool:access-com",
+      "type": "tool",
+      "label": "ACCESS.com"
     },
     {
       "id": "tool:actelo",
@@ -83,6 +88,11 @@
       "id": "tool:argus-enterprise",
       "type": "tool",
       "label": "ARGUS Enterprise"
+    },
+    {
+      "id": "tool:arkiane",
+      "type": "tool",
+      "label": "Arkiane"
     },
     {
       "id": "tool:attom-data",
@@ -570,6 +580,16 @@
       "label": "Hemlane"
     },
     {
+      "id": "tool:higharc",
+      "type": "tool",
+      "label": "Higharc"
+    },
+    {
+      "id": "tool:homeflow",
+      "type": "tool",
+      "label": "HomeFlow"
+    },
+    {
       "id": "tool:homegauge",
       "type": "tool",
       "label": "HomeGauge"
@@ -715,6 +735,11 @@
       "label": "LICIEL"
     },
     {
+      "id": "tool:lighttable",
+      "type": "tool",
+      "label": "LightTable"
+    },
+    {
       "id": "tool:limble",
       "type": "tool",
       "label": "Limble CMMS"
@@ -738,6 +763,11 @@
       "id": "tool:lodgify",
       "type": "tool",
       "label": "Lodgify"
+    },
+    {
+      "id": "tool:loftely",
+      "type": "tool",
+      "label": "Loftely"
     },
     {
       "id": "tool:lofty",
@@ -1655,6 +1685,11 @@
       "label": "Aareon"
     },
     {
+      "id": "editor:ACCESS",
+      "type": "editor",
+      "label": "ACCESS"
+    },
+    {
       "id": "editor:Actelo",
       "type": "editor",
       "label": "Actelo"
@@ -1708,6 +1743,11 @@
       "id": "editor:Altus Group",
       "type": "editor",
       "label": "Altus Group"
+    },
+    {
+      "id": "editor:Arkiane (groupe Octrolis)",
+      "type": "editor",
+      "label": "Arkiane (groupe Octrolis)"
     },
     {
       "id": "editor:ATTOM",
@@ -2170,6 +2210,16 @@
       "label": "Hemlane"
     },
     {
+      "id": "editor:Higharc",
+      "type": "editor",
+      "label": "Higharc"
+    },
+    {
+      "id": "editor:HomeFlow",
+      "type": "editor",
+      "label": "HomeFlow"
+    },
+    {
       "id": "editor:SHGI Corp",
       "type": "editor",
       "label": "SHGI Corp"
@@ -2305,6 +2355,11 @@
       "label": "LICIEL Environnement"
     },
     {
+      "id": "editor:LightTable",
+      "type": "editor",
+      "label": "LightTable"
+    },
+    {
       "id": "editor:Limble",
       "type": "editor",
       "label": "Limble"
@@ -2328,6 +2383,11 @@
       "id": "editor:Lodgify",
       "type": "editor",
       "label": "Lodgify"
+    },
+    {
+      "id": "editor:Loftely",
+      "type": "editor",
+      "label": "Loftely"
     },
     {
       "id": "editor:Lofty (formerly Chime Technologies)",
@@ -3017,6 +3077,36 @@
       "to": "tool:mri-software"
     },
     {
+      "from": "tool:access-com",
+      "rel": "published_by",
+      "to": "editor:ACCESS"
+    },
+    {
+      "from": "tool:access-com",
+      "rel": "belongs_to",
+      "to": "category:agent-marketing"
+    },
+    {
+      "from": "tool:access-com",
+      "rel": "serves_persona",
+      "to": "persona:agent-broker"
+    },
+    {
+      "from": "tool:access-com",
+      "rel": "serves_persona",
+      "to": "persona:brokerage"
+    },
+    {
+      "from": "tool:access-com",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:access-com",
+      "rel": "available_in",
+      "to": "market:US"
+    },
+    {
       "from": "tool:actelo",
       "rel": "published_by",
       "to": "editor:Actelo"
@@ -3700,6 +3790,51 @@
       "from": "tool:argus-enterprise",
       "rel": "alternative_to",
       "to": "tool:mri-software"
+    },
+    {
+      "from": "tool:arkiane",
+      "rel": "published_by",
+      "to": "editor:Arkiane (groupe Octrolis)"
+    },
+    {
+      "from": "tool:arkiane",
+      "rel": "belongs_to",
+      "to": "category:short-term-rental"
+    },
+    {
+      "from": "tool:arkiane",
+      "rel": "serves_persona",
+      "to": "persona:agent-broker"
+    },
+    {
+      "from": "tool:arkiane",
+      "rel": "serves_persona",
+      "to": "persona:property-manager"
+    },
+    {
+      "from": "tool:arkiane",
+      "rel": "covers_segment",
+      "to": "segment:hospitality"
+    },
+    {
+      "from": "tool:arkiane",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:arkiane",
+      "rel": "available_in",
+      "to": "market:FR"
+    },
+    {
+      "from": "tool:arkiane",
+      "rel": "alternative_to",
+      "to": "tool:homeflow"
+    },
+    {
+      "from": "tool:arkiane",
+      "rel": "alternative_to",
+      "to": "tool:loftely"
     },
     {
       "from": "tool:attom-data",
@@ -8857,6 +8992,81 @@
       "to": "tool:doorloop"
     },
     {
+      "from": "tool:higharc",
+      "rel": "published_by",
+      "to": "editor:Higharc"
+    },
+    {
+      "from": "tool:higharc",
+      "rel": "belongs_to",
+      "to": "category:construction-development"
+    },
+    {
+      "from": "tool:higharc",
+      "rel": "serves_persona",
+      "to": "persona:developer-builder"
+    },
+    {
+      "from": "tool:higharc",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:higharc",
+      "rel": "covers_segment",
+      "to": "segment:land-development"
+    },
+    {
+      "from": "tool:higharc",
+      "rel": "available_in",
+      "to": "market:US"
+    },
+    {
+      "from": "tool:homeflow",
+      "rel": "published_by",
+      "to": "editor:HomeFlow"
+    },
+    {
+      "from": "tool:homeflow",
+      "rel": "belongs_to",
+      "to": "category:short-term-rental"
+    },
+    {
+      "from": "tool:homeflow",
+      "rel": "serves_persona",
+      "to": "persona:property-manager"
+    },
+    {
+      "from": "tool:homeflow",
+      "rel": "serves_persona",
+      "to": "persona:landlord-owner"
+    },
+    {
+      "from": "tool:homeflow",
+      "rel": "covers_segment",
+      "to": "segment:hospitality"
+    },
+    {
+      "from": "tool:homeflow",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:homeflow",
+      "rel": "available_in",
+      "to": "market:FR"
+    },
+    {
+      "from": "tool:homeflow",
+      "rel": "alternative_to",
+      "to": "tool:loftely"
+    },
+    {
+      "from": "tool:homeflow",
+      "rel": "alternative_to",
+      "to": "tool:arkiane"
+    },
+    {
       "from": "tool:homegauge",
       "rel": "published_by",
       "to": "editor:SHGI Corp"
@@ -10387,6 +10597,41 @@
       "to": "tool:immopad"
     },
     {
+      "from": "tool:lighttable",
+      "rel": "published_by",
+      "to": "editor:LightTable"
+    },
+    {
+      "from": "tool:lighttable",
+      "rel": "belongs_to",
+      "to": "category:construction-development"
+    },
+    {
+      "from": "tool:lighttable",
+      "rel": "serves_persona",
+      "to": "persona:developer-builder"
+    },
+    {
+      "from": "tool:lighttable",
+      "rel": "covers_segment",
+      "to": "segment:multifamily"
+    },
+    {
+      "from": "tool:lighttable",
+      "rel": "covers_segment",
+      "to": "segment:office"
+    },
+    {
+      "from": "tool:lighttable",
+      "rel": "covers_segment",
+      "to": "segment:mixed-use"
+    },
+    {
+      "from": "tool:lighttable",
+      "rel": "available_in",
+      "to": "market:US"
+    },
+    {
       "from": "tool:limble",
       "rel": "published_by",
       "to": "editor:Limble"
@@ -10655,6 +10900,51 @@
       "from": "tool:lodgify",
       "rel": "alternative_to",
       "to": "tool:ownerrez"
+    },
+    {
+      "from": "tool:loftely",
+      "rel": "published_by",
+      "to": "editor:Loftely"
+    },
+    {
+      "from": "tool:loftely",
+      "rel": "belongs_to",
+      "to": "category:short-term-rental"
+    },
+    {
+      "from": "tool:loftely",
+      "rel": "serves_persona",
+      "to": "persona:property-manager"
+    },
+    {
+      "from": "tool:loftely",
+      "rel": "serves_persona",
+      "to": "persona:landlord-owner"
+    },
+    {
+      "from": "tool:loftely",
+      "rel": "covers_segment",
+      "to": "segment:hospitality"
+    },
+    {
+      "from": "tool:loftely",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:loftely",
+      "rel": "available_in",
+      "to": "market:FR"
+    },
+    {
+      "from": "tool:loftely",
+      "rel": "alternative_to",
+      "to": "tool:homeflow"
+    },
+    {
+      "from": "tool:loftely",
+      "rel": "alternative_to",
+      "to": "tool:arkiane"
     },
     {
       "from": "tool:lofty",

@@ -10,6 +10,7 @@
   "category": "lending-mortgage",
   "positioning": "A CRM built for credit brokers to run their firm without losing track of a file.",
   "description": "ELIOB.fr is a French SaaS CRM for credit brokerage firms. It brings together client files, partners, documents, invoicing and activity tracking in one workspace built around a single, structured borrower dossier.\n",
+  "description_fr": "ELIOB.fr est un CRM SaaS français pour les cabinets de courtage en crédit. Il rassemble dans un même espace de travail les dossiers clients, les partenaires, les documents, la facturation et le suivi d'activité, construit autour d'un dossier emprunteur unique et structuré.\n",
   "real_estate_use": "A broker or brokerage firm uses ELIOB.fr to keep one structured file per client — contacts, supporting documents, partner banks and history — and to follow a loan project continuously from the first contact through financing and invoicing, instead of scattering that information across email and spreadsheets.\n",
   "features": [
     "Single structured client dossier",

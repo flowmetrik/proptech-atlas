@@ -838,6 +838,7 @@
       ],
       "positioning": "The incumbent French property administration suite — installed across a large share of professional syndic and gérance portfolios.",
       "description": "Crypto, part of Septeo's real estate division, covers syndic, gérance and transaction for French property administrators: per-building and mandant accounting, calls for funds, assemblies, lease and receipt management, and extranets for co-owners, owners and tenants.\n",
+      "description_fr": "Crypto, la division immobilière de Septeo, couvre le syndic, la gérance et la transaction pour les administrateurs de biens français : comptabilité par immeuble et par mandant, appels de fonds, assemblées, gestion des baux et des quittances, et extranets pour les copropriétaires, propriétaires et locataires.\n",
       "real_estate_use": "It is the system of record in many established French administration de biens firms, chosen for accounting depth rather than for interface. Its centre of gravity is the regulated ledger: separate accounts per copropriété, mandant funds kept distinct from the firm's own money, and the reporting a comptable and an auditor expect.\n",
       "features": [
         "Syndic accounting per building with regulatory account structures",
@@ -938,6 +939,7 @@
       "category": "syndic-copro",
       "positioning": "Le logiciel libre et gratuit de comptabilité d'association et de copropriété.",
       "description": "Diacamma is a free, open-source suite of administrative and financial management software aimed at volunteers running associations and condo syndicates. Its condo module (Diacamma Syndic) handles accounting compliant with French co-ownership rules, tracks each owner's individual financial position, generates and distributes fund-call notices, and allocates expenses automatically by ownership share (tantièmes). The source code is public; users can self-host or pay the partner Sleto for managed hosting.\n",
+      "description_fr": "Diacamma est une suite libre et gratuite de logiciels de gestion administrative et financière destinée aux bénévoles qui gèrent des associations et des copropriétés. Son module copropriété (Diacamma Syndic) gère une comptabilité conforme aux règles françaises de copropriété, suit la situation financière individuelle de chaque copropriétaire, génère et diffuse les avis d'appel de fonds, et répartit automatiquement les charges au tantième. Le code source est public ; les utilisateurs peuvent s'auto-héberger ou payer le partenaire Sleto pour un hébergement géré.\n",
       "real_estate_use": "A syndic bénévole installs Diacamma to run the building's accounts without paying for a commercial license: fund calls go out automatically split by tantièmes, each co-owner's balance is tracked individually, and the books stay auditable because the code itself is public. A volunteer with no server to manage picks Sleto's paid hosting instead of self-hosting, without changing software.\n",
       "features": [
         "Condo accounting compliant with French co-ownership rules (tantièmes)",

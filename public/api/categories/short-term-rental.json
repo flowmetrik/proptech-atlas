@@ -4,7 +4,7 @@
   "label_fr": "Location courte durée",
   "summary_en": "Channel management, pricing, guest comms and cleaning for STR portfolios.",
   "summary_fr": "Channel manager, pricing, relation voyageur et ménage pour la courte durée.",
-  "count": 10,
+  "count": 13,
   "tools": [
     {
       "slug": "amenitiz",
@@ -111,6 +111,96 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "arkiane",
+      "name": "Arkiane",
+      "editor": "Arkiane (groupe Octrolis)",
+      "website": "https://www.arkiane.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "short-term-rental",
+      "founded": 1993,
+      "positioning": "Logiciel Windows de gestion de location saisonnière et transaction pour agences immobilières, avec comptabilité mandante intégrée depuis Grenoble.",
+      "description": "Arkiane Power Locations Vacances is a French Windows-based management software for real estate agencies specialized in seasonal rentals, covering booking and pricing management, integrated trust accounting validated by the Galian and Socaf guarantee funds, digital check-in/check-out inventories, multi-channel distribution and multi-site, multi-accountant setups for networks of offices. The company also publishes a real estate transaction module and merged with fellow French vendor Enova into the Octrolis group in 2021.\n",
+      "description_fr": "Arkiane Power Locations Vacances est un logiciel français sous Windows de gestion de la location saisonnière et de la transaction pour les agences immobilières, couvrant la gestion des réservations et des tarifs, une comptabilité mandante intégrée validée par les caisses de garantie Galian et Socaf, les états des lieux numériques, la multidiffusion des annonces et une gestion multi-site et multi-comptable pour les réseaux d'agences. L'éditeur publie aussi un module de transaction immobilière, et a fusionné avec le français Enova au sein du groupe Octrolis en 2021.\n",
+      "real_estate_use": "A seasonal-rental agency running several offices needs its bookings, pricing by tour-operator rate and trust accounting to stay consistent across sites and accountants, and its guarantee-fund auditors (Galian, Socaf) to be able to check that accounting directly. Arkiane runs the booking calendar, generates digital inventories and contracts, and keeps the mandant accounting in a form the guarantee funds already validate.\n",
+      "features": [
+        "Seasonal booking and nightly-rate management by tour operator",
+        "Trust (mandante) accounting validated by Galian and Socaf guarantee funds",
+        "Digital check-in and check-out inventories",
+        "Multi-channel booking distribution",
+        "Multi-site, multi-accountant management for agency networks"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Run seasonal-rental bookings and tour-operator pricing across several agency offices"
+        },
+        {
+          "persona": "property-manager",
+          "job": "Keep mandant accounting in a form the Galian/Socaf guarantee funds can audit directly"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "property-manager"
+      ],
+      "segments": [
+        "hospitality",
+        "residential"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "homeflow",
+        "loftely"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/arkiane.png",
+        "source_url": "https://www.arkiane.com/wp-content/uploads/2021/11/logo-Arkiane-baseline@4x.png",
+        "fetched_on": "2026-09-17"
+      },
+      "signals": {
+        "privacy": "https://www.arkiane.com/mentions-legales",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-09-17"
+      },
+      "sources": [
+        {
+          "url": "https://www.arkiane.com/logiciel/",
+          "note": "page logiciel"
+        },
+        {
+          "url": "https://www.arkiane.com/entreprise/",
+          "note": "page entreprise"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-17"
     },
     {
       "slug": "breezeway",
@@ -346,6 +436,115 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "homeflow",
+      "name": "HomeFlow",
+      "editor": "HomeFlow",
+      "website": "https://myhomeflow.fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "short-term-rental",
+      "positioning": "Plateforme tout-en-un pour conciergeries : channel manager, planning de ménage, paiements et messagerie IA, sans commission sur les réservations.",
+      "description": "HomeFlow is a French all-in-one management platform for short-term rental concierge operators, combining a multi-platform channel manager, a booking and cleaning-task planner, guest and owner payments through Stripe, a digital guidebook and a unified team/guest messaging inbox with AI-generated replies and translation, priced per property per month with no commission on bookings.\n",
+      "description_fr": "HomeFlow est une plateforme française tout-en-un pour les conciergeries de location courte durée. Elle réunit un channel manager multi-plateforme, un planificateur de réservations et de ménages, les paiements voyageurs et propriétaires via Stripe, un livret d'accueil numérique et une messagerie unifiée équipe/voyageurs avec réponses générées par IA et traduction, facturée par bien et par mois, sans commission sur les réservations.\n",
+      "real_estate_use": "A concierge company running dozens of listings across Airbnb, Booking.com and other OTAs needs one calendar that prevents double-bookings, one place to assign and track cleaning after each checkout, and one inbox for guest messages instead of switching between ten separate tools and platform apps. HomeFlow synchronizes the channels, auto-generates cleaning tasks from bookings, and lets the team and the property owner each see their own view of the same operation.\n",
+      "features": [
+        "Multi-platform channel manager with real-time sync across 40+ OTAs",
+        "Visual multi-property booking and pricing planner",
+        "Automated cleaning and maintenance task scheduling with checklists",
+        "Stripe-based guest payments and pre-authorized deposits",
+        "Unified team and guest messaging with AI auto-replies and translation",
+        "Owner and field-team mobile apps"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Run bookings, pricing and cleaning across dozens of short-term rental listings from one calendar"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "See their own properties' planning and revenue from a dedicated owner app"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "landlord-owner"
+      ],
+      "segments": [
+        "hospitality",
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "per-unit",
+        "public_pricing": true,
+        "from": 14,
+        "currency": "EUR",
+        "unit": "par bien par mois",
+        "url": "https://myhomeflow.fr/tarifs"
+      },
+      "integrations": [
+        "Airbnb",
+        "Booking.com",
+        "Stripe"
+      ],
+      "ai": {
+        "capabilities": [
+          "Réponses automatiques et traduction dans la messagerie unifiée équipe/voyageurs"
+        ]
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "loftely",
+        "arkiane"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/homeflow.png",
+        "source_url": "https://myhomeflow.fr/_next/image?url=%2Fimages%2FLogoFooter.png&amp;w=2048&amp;q=75",
+        "fetched_on": "2026-09-17"
+      },
+      "signals": {
+        "pricing": "https://myhomeflow.fr/tarifs",
+        "security": "https://myhomeflow.fr/securite",
+        "privacy": "https://myhomeflow.fr/politique-de-confidentialite",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-09-17"
+      },
+      "sources": [
+        {
+          "url": "https://myhomeflow.fr",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://myhomeflow.fr/tarifs",
+          "note": "page tarifs"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-17"
     },
     {
       "slug": "hostaway",
@@ -640,6 +839,112 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "loftely",
+      "name": "Loftely",
+      "editor": "Loftely",
+      "website": "https://www.loftely.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "short-term-rental",
+      "positioning": "Logiciel français de gestion de conciergerie et location courte durée : réservations, ménages, facturation propriétaire, hébergé en France.",
+      "description": "Loftely is a French management platform for short-term rental concierge companies, centralizing bookings synced across platforms via iCal, automated cleaning and maintenance task scheduling triggered by each reservation, owner invoicing and a dedicated owner portal, and multilingual digital guidebooks, priced per active property per month with the first property free.\n",
+      "description_fr": "Loftely est une plateforme française de gestion pour les conciergeries de location courte durée, qui centralise les réservations synchronisées entre plateformes via iCal, la planification automatique des tâches de ménage et d'entretien déclenchées par chaque réservation, la facturation propriétaire avec un espace dédié, et des livrets d'accueil multilingues, facturée par logement actif et par mois avec le premier logement gratuit.\n",
+      "real_estate_use": "A concierge company managing a portfolio of seasonal rentals needs bookings from Airbnb, Booking.com and other channels to land in one calendar, each new reservation to automatically create its cleaning and check-in tasks for the field team, and the resulting activity to flow into the property owner's monthly invoice and portal — instead of reconciling separate booking, task and billing tools by hand.\n",
+      "features": [
+        "Two-way iCal synchronization across booking platforms into one calendar",
+        "Automated task creation for cleaning, check-in and check-out per booking",
+        "Owner invoicing and a self-service owner portal",
+        "Multilingual digital guidebooks for guests",
+        "Mobile app for field agents"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Turn each new booking into scheduled cleaning and check-in tasks automatically"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "Track their own properties' bookings and invoices from a dedicated owner space"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "landlord-owner"
+      ],
+      "segments": [
+        "hospitality",
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "per-unit",
+        "public_pricing": true,
+        "from": 5,
+        "currency": "EUR",
+        "unit": "par logement actif par mois, HT",
+        "url": "https://www.loftely.com/tarifs"
+      },
+      "integrations": [
+        "Airbnb",
+        "Booking.com",
+        "Abritel",
+        "SuperHote",
+        "Lodgify"
+      ],
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "homeflow",
+        "arkiane"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/loftely.png",
+        "source_url": "https://www.loftely.com/img/logos/logo-loftely-square-black.jpg",
+        "fetched_on": "2026-09-17"
+      },
+      "signals": {
+        "pricing": "https://www.loftely.com/tarifs",
+        "security": "https://www.loftely.com/securite",
+        "privacy": "https://www.loftely.com/confidentialite",
+        "status": "https://status.loftely.com",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-09-17"
+      },
+      "sources": [
+        {
+          "url": "https://www.loftely.com",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://www.loftely.com/tarifs",
+          "note": "page tarifs"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-17"
     },
     {
       "slug": "ownerrez",

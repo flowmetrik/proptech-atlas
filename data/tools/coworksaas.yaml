@@ -16,6 +16,16 @@ description: >
   meeting rooms, printing, lockers, business domiciliation, a connected fridge. A
   pooled remote video-surveillance service is offered for unstaffed hours. Two plans
   are published, per space per month.
+description_fr: >
+  CoworkSaaS est une plateforme française pour les opérateurs de coworking qui associe la gestion
+  des abonnements et des accès à l'heure à son propre système de contrôle d'accès : lecteurs QR
+  code, tourniquets et kits de verrouillage de porte loués au mois en complément du logiciel. Les
+  membres s'inscrivent depuis le site de l'opérateur, reçoivent un QR code personnel, et sont
+  facturés soit sur un forfait récurrent, soit sur le temps réellement passé sur place, calculé à
+  partir des scans d'entrée et de sortie. Les services additionnels sont facturés via le même
+  moteur : salles de réunion, impression, casiers, domiciliation d'entreprise, réfrigérateur
+  connecté. Un service mutualisé de vidéosurveillance à distance est proposé pour les heures sans
+  personnel. Deux forfaits sont publiés, par espace et par mois.
 real_estate_use: >
   The problem this addresses is opening hours. An operator who wants to sell access
   outside staffed hours has to know who is in the building and to bill them with

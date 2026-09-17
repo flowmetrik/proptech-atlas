@@ -11,6 +11,11 @@ description: >
   rental, viager) from a single interface to more than 50 portals including SeLoger,
   Logic-Immo and Le Figaro Immobilier. It is billed per use rather than by
   subscription, and includes AI features for description writing and photo retouching.
+description_fr: >
+  Diffuze est un outil français de multidiffusion d'annonces immobilières qui pousse les annonces
+  (vente, location, viager) depuis une seule interface vers plus de 50 portails dont SeLoger,
+  Logic-Immo et Le Figaro Immobilier. Il est facturé à l'usage plutôt que par abonnement, et
+  inclut des fonctions IA de rédaction de description et de retouche photo.
 real_estate_use: >
   An agent or agency uses Diffuze to publish a listing once and have it distributed
   across dozens of portals within about 24 hours, generate an AI-written description

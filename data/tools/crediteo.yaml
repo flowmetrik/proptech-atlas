@@ -15,6 +15,16 @@ description: >
   that took effect in January 2018, and reports production by branch, broker, partner,
   stage and period. Rights management and configurable case stages let a network
   reproduce its own process. The editor states more than 20,000 users.
+description_fr: >
+  Créditéo est un éditeur français d'applications web pour les intermédiaires en crédit
+  réglementés, les agents immobiliers et les notaires. Sa plateforme centralise les dossiers
+  prospects et clients, exécute des simulations de financement paramétrables, et suit les prêteurs
+  et parties prenantes de chaque dossier dans un tableau de bord unique. Elle émet les factures
+  d'honoraires, les factures de commissions bancaires et les factures hors dossier conformément
+  aux règles de facturation françaises entrées en vigueur en janvier 2018, et fait remonter la
+  production par agence, courtier, partenaire, étape et période. La gestion des droits et des
+  étapes de dossier paramétrables permet à un réseau de reproduire son propre process. L'éditeur
+  revendique plus de 20 000 utilisateurs.
 real_estate_use: >
   A broker's day is a queue of half-complete files, each waiting on a document or a
   lender's answer. Créditéo is the desk where that queue is ordered: configurable

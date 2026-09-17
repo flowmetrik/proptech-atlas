@@ -13,6 +13,7 @@
   ],
   "positioning": "French property listings as an API — the raw feed behind pige tools and market products.",
   "description": "Fluximmo collects real estate listings published across French portals and classified sites, deduplicates them, distinguishes private from professional sellers, and delivers the result as a structured API with history and change tracking.\n",
+  "description_fr": "Fluximmo collecte les annonces immobilières publiées sur les portails et sites de petites annonces français, les dédoublonne, distingue les vendeurs particuliers des professionnels, et livre le résultat sous forme d'API structurée avec historique et suivi des changements.\n",
   "real_estate_use": "It is infrastructure rather than an end-user product: a pige tool, a market study or an internal prospecting system uses the feed instead of scraping portals themselves. The deduplication and private-versus-professional classification are the hard parts, since the same property appears repeatedly under different descriptions and prices.\n",
   "features": [
     "Aggregated listing feed across French portals and classified sites",

@@ -1,0 +1,87 @@
+{
+  "slug": "access-com",
+  "name": "ACCESS.com",
+  "editor": "ACCESS",
+  "website": "https://access.com",
+  "hq_country": "US",
+  "markets": [
+    "US"
+  ],
+  "category": "agent-marketing",
+  "founded": 2020,
+  "positioning": "AI website builder and interactive listing-presentation platform for real estate agents, with IDX and CRM integration.",
+  "description": "ACCESS.com is a website and marketing platform for individual real estate agents and teams. It provides a drag-and-drop website builder with professionally designed themes, an interactive digital listing-presentation and open-house builder, and a matching print and digital marketing-materials suite, with IDX and CRM integration and an AI assistant layered across the products.\n",
+  "real_estate_use": "An agent or small team needs a branded website and a listing presentation ready before a listing appointment, without hiring a designer or waiting on a web agency. They pick a theme, connect their IDX feed and CRM, and generate an interactive digital presentation or open-house page for a specific property from the same platform.\n",
+  "features": [
+    "Drag-and-drop real estate website builder with designed themes",
+    "Interactive digital listing-presentation and open-house builder",
+    "Digital and print marketing-materials suite",
+    "IDX and CRM integration",
+    "AI assistant for site and content customization"
+  ],
+  "use_cases": [
+    {
+      "persona": "agent-broker",
+      "job": "Launch a branded agent website without a designer or developer"
+    },
+    {
+      "persona": "agent-broker",
+      "job": "Build an interactive digital listing presentation for a specific property or open house"
+    }
+  ],
+  "personas": [
+    "agent-broker",
+    "brokerage"
+  ],
+  "segments": [
+    "residential"
+  ],
+  "company_sizes": [
+    "solo",
+    "smb"
+  ],
+  "pricing": {
+    "model": "subscription",
+    "public_pricing": true,
+    "url": "https://access.com/pricing"
+  },
+  "ai": {
+    "capabilities": [
+      "AI assistant for website and content customization",
+      "AI-powered lead hub and smart chat assistant for site visitors"
+    ]
+  },
+  "product": {
+    "api": false,
+    "open_source": false,
+    "mobile": [],
+    "languages": [
+      "en"
+    ]
+  },
+  "reviews": [],
+  "signals": {
+    "pricing": "https://access.com/pricing",
+    "privacy": "https://access.com/privacy-policy",
+    "site_languages": [
+      "en"
+    ],
+    "checked_on": "2026-09-17"
+  },
+  "sources": [
+    {
+      "url": "https://access.com",
+      "note": "site éditeur"
+    },
+    {
+      "url": "https://access.com/pricing",
+      "note": "page tarifs"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-09-17"
+}

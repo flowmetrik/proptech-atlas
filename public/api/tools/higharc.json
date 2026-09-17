@@ -1,0 +1,92 @@
+{
+  "slug": "higharc",
+  "name": "Higharc",
+  "editor": "Higharc",
+  "website": "https://www.higharc.com",
+  "hq_country": "US",
+  "markets": [
+    "US"
+  ],
+  "category": "construction-development",
+  "founded": 2018,
+  "positioning": "Generative home-design software that turns a base plan into buildable construction documents, live estimating and a 3D buyer configurator.",
+  "description": "Higharc is a cloud homebuilding platform for production and semi-custom builders that combines generative home design, plan configuration and estimating in one connected system. A base plan is design-automated into permit-ready construction documents and photoreal 3D visuals, with material estimates generated directly from the same model rather than redrawn by hand each time an option changes.\n",
+  "real_estate_use": "A production homebuilder standardizes a set of house plans and needs every buyer-facing option — elevation, garage orientation, a structural change — to update construction drawings and material estimates automatically, instead of sending each change back to an architect. The design team builds and configures the plan library once in Higharc Studio, then sales and estimating pull consistent, always-current documents and pricing from it for every home sold.\n",
+  "features": [
+    "Generative plan design and configuration",
+    "Automatic generation of permit-ready construction documents",
+    "Photoreal 3D visuals for buyer-facing configurators",
+    "AI-based estimating and material takeoffs",
+    "Centralized plan library across a builder's product line"
+  ],
+  "use_cases": [
+    {
+      "persona": "developer-builder",
+      "job": "Configure a market-proven home plan and get updated construction documents and estimates without re-drawing"
+    },
+    {
+      "persona": "developer-builder",
+      "job": "Give buyers a 3D, shoppable configurator for options and elevations tied to real pricing"
+    }
+  ],
+  "personas": [
+    "developer-builder"
+  ],
+  "segments": [
+    "residential",
+    "land-development"
+  ],
+  "company_sizes": [
+    "smb",
+    "midmarket",
+    "enterprise"
+  ],
+  "pricing": {
+    "model": "quote",
+    "public_pricing": false
+  },
+  "ai": {
+    "capabilities": [
+      "Generative plan design from a base home plan",
+      "AI-based material takeoff and estimating from plan data"
+    ]
+  },
+  "product": {
+    "api": false,
+    "open_source": false,
+    "mobile": [],
+    "languages": [
+      "en"
+    ]
+  },
+  "reviews": [],
+  "logo": {
+    "file": "logos/higharc.png",
+    "source_url": "https://cdn.prod.website-files.com/65880fe1a6298c932c229007/6a0b919546192259bc149a37_Higharc%20Mark%20-%20Black.png",
+    "fetched_on": "2026-09-17"
+  },
+  "signals": {
+    "privacy": "https://www.higharc.com/legal/privacy",
+    "status": "https://status.higharc.com",
+    "site_languages": [
+      "en"
+    ],
+    "checked_on": "2026-09-17"
+  },
+  "sources": [
+    {
+      "url": "https://www.higharc.com",
+      "note": "site éditeur"
+    },
+    {
+      "url": "https://www.higharc.com/company/about",
+      "note": "page à propos"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-09-17"
+}

@@ -998,6 +998,7 @@
       ],
       "positioning": "The incumbent French property administration suite — installed across a large share of professional syndic and gérance portfolios.",
       "description": "Crypto, part of Septeo's real estate division, covers syndic, gérance and transaction for French property administrators: per-building and mandant accounting, calls for funds, assemblies, lease and receipt management, and extranets for co-owners, owners and tenants.\n",
+      "description_fr": "Crypto, la division immobilière de Septeo, couvre le syndic, la gérance et la transaction pour les administrateurs de biens français : comptabilité par immeuble et par mandant, appels de fonds, assemblées, gestion des baux et des quittances, et extranets pour les copropriétaires, propriétaires et locataires.\n",
       "real_estate_use": "It is the system of record in many established French administration de biens firms, chosen for accounting depth rather than for interface. Its centre of gravity is the regulated ledger: separate accounts per copropriété, mandant funds kept distinct from the firm's own money, and the reporting a comptable and an auditor expect.\n",
       "features": [
         "Syndic accounting per building with regulatory account structures",
@@ -1101,6 +1102,7 @@
       ],
       "positioning": "Business-intelligence platform that turns a social landlord's scattered systems into one decision-making dashboard.",
       "description": "DÉCISIO Habitat is a French SaaS business-intelligence layer built for social housing landlords (bailleurs sociaux). It does not replace a landlord's ERP; it centralizes rental, property, financial and technical data pulled from existing systems and turns it into dashboards covering vacancy, rent arrears and recovery, tenant allocation, and property diagnostics.\n",
+      "description_fr": "DÉCISIO Habitat est une couche française de business intelligence en SaaS conçue pour les bailleurs sociaux. Elle ne remplace pas l'ERP du bailleur ; elle centralise les données locatives, patrimoniales, financières et techniques issues des systèmes existants et les transforme en tableaux de bord couvrant la vacance, les impayés et le recouvrement, l'attribution des logements, et les diagnostics du patrimoine.\n",
       "real_estate_use": "A social-housing director tracks portfolio-wide vacancy and rent-arrears indicators without exporting spreadsheets from separate ERP, CRM and maintenance systems. Finance staff follow arrears ageing and recovery-action progress to prioritize collection, while property teams monitor allocation activity and diagnostic compliance across the stock. Because it plugs into a landlord's existing tools rather than replacing them, deployment runs in under three months.\n",
       "features": [
         "Cross-system data centralization (ERP, GED, GMAO, CRM)",
@@ -1177,6 +1179,7 @@
       "category": "property-management",
       "positioning": "Digital platform that runs a French social landlord's tenant-allocation committee (CALEOL), on-site or fully remote.",
       "description": "Dematimmo is a French SaaS product from Activinnov that digitizes the CALEOL — the regulated committee French social landlords must hold before allocating a home. It prepares case files pulled from the landlord's ERP, runs the committee session on-screen or fully remotely with e-signed minutes and electronic voting, and pushes the attribution result back into the ERP.\n",
+      "description_fr": "Dematimmo est un produit SaaS français d'Activinnov qui dématérialise la CALEOL — la commission réglementée que les bailleurs sociaux français doivent tenir avant d'attribuer un logement. Il prépare les dossiers de passage extraits de l'ERP du bailleur, fait tourner la séance de commission à l'écran ou entièrement à distance avec un procès-verbal et un vote électroniques, et repousse le résultat de l'attribution dans l'ERP.\n",
       "real_estate_use": "A social landlord's allocation team pulls candidate case files automatically from its ERP ahead of a CALEOL session, runs the session either in person with a projection screen or fully online, records votes and e-signs the minutes, then pushes the outcome back into the ERP without re-entering data. Compliance staff use the same platform to generate attribution reports by commune, EPCI or préfecture, with traceability of every vote.\n",
       "features": [
         "Automatic case-file preparation from the ERP",

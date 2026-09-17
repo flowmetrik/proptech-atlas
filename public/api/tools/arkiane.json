@@ -1,0 +1,90 @@
+{
+  "slug": "arkiane",
+  "name": "Arkiane",
+  "editor": "Arkiane (groupe Octrolis)",
+  "website": "https://www.arkiane.com",
+  "hq_country": "FR",
+  "markets": [
+    "FR"
+  ],
+  "category": "short-term-rental",
+  "founded": 1993,
+  "positioning": "Logiciel Windows de gestion de location saisonnière et transaction pour agences immobilières, avec comptabilité mandante intégrée depuis Grenoble.",
+  "description": "Arkiane Power Locations Vacances is a French Windows-based management software for real estate agencies specialized in seasonal rentals, covering booking and pricing management, integrated trust accounting validated by the Galian and Socaf guarantee funds, digital check-in/check-out inventories, multi-channel distribution and multi-site, multi-accountant setups for networks of offices. The company also publishes a real estate transaction module and merged with fellow French vendor Enova into the Octrolis group in 2021.\n",
+  "description_fr": "Arkiane Power Locations Vacances est un logiciel français sous Windows de gestion de la location saisonnière et de la transaction pour les agences immobilières, couvrant la gestion des réservations et des tarifs, une comptabilité mandante intégrée validée par les caisses de garantie Galian et Socaf, les états des lieux numériques, la multidiffusion des annonces et une gestion multi-site et multi-comptable pour les réseaux d'agences. L'éditeur publie aussi un module de transaction immobilière, et a fusionné avec le français Enova au sein du groupe Octrolis en 2021.\n",
+  "real_estate_use": "A seasonal-rental agency running several offices needs its bookings, pricing by tour-operator rate and trust accounting to stay consistent across sites and accountants, and its guarantee-fund auditors (Galian, Socaf) to be able to check that accounting directly. Arkiane runs the booking calendar, generates digital inventories and contracts, and keeps the mandant accounting in a form the guarantee funds already validate.\n",
+  "features": [
+    "Seasonal booking and nightly-rate management by tour operator",
+    "Trust (mandante) accounting validated by Galian and Socaf guarantee funds",
+    "Digital check-in and check-out inventories",
+    "Multi-channel booking distribution",
+    "Multi-site, multi-accountant management for agency networks"
+  ],
+  "use_cases": [
+    {
+      "persona": "agent-broker",
+      "job": "Run seasonal-rental bookings and tour-operator pricing across several agency offices"
+    },
+    {
+      "persona": "property-manager",
+      "job": "Keep mandant accounting in a form the Galian/Socaf guarantee funds can audit directly"
+    }
+  ],
+  "personas": [
+    "agent-broker",
+    "property-manager"
+  ],
+  "segments": [
+    "hospitality",
+    "residential"
+  ],
+  "company_sizes": [
+    "smb",
+    "midmarket"
+  ],
+  "pricing": {
+    "model": "quote",
+    "public_pricing": false
+  },
+  "product": {
+    "api": false,
+    "open_source": false,
+    "mobile": [],
+    "languages": [
+      "fr"
+    ]
+  },
+  "alternatives": [
+    "homeflow",
+    "loftely"
+  ],
+  "reviews": [],
+  "logo": {
+    "file": "logos/arkiane.png",
+    "source_url": "https://www.arkiane.com/wp-content/uploads/2021/11/logo-Arkiane-baseline@4x.png",
+    "fetched_on": "2026-09-17"
+  },
+  "signals": {
+    "privacy": "https://www.arkiane.com/mentions-legales",
+    "site_languages": [
+      "fr"
+    ],
+    "checked_on": "2026-09-17"
+  },
+  "sources": [
+    {
+      "url": "https://www.arkiane.com/logiciel/",
+      "note": "page logiciel"
+    },
+    {
+      "url": "https://www.arkiane.com/entreprise/",
+      "note": "page entreprise"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-09-17"
+}

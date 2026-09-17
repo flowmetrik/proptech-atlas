@@ -1,0 +1,109 @@
+{
+  "slug": "homeflow",
+  "name": "HomeFlow",
+  "editor": "HomeFlow",
+  "website": "https://myhomeflow.fr",
+  "hq_country": "FR",
+  "markets": [
+    "FR"
+  ],
+  "category": "short-term-rental",
+  "positioning": "Plateforme tout-en-un pour conciergeries : channel manager, planning de ménage, paiements et messagerie IA, sans commission sur les réservations.",
+  "description": "HomeFlow is a French all-in-one management platform for short-term rental concierge operators, combining a multi-platform channel manager, a booking and cleaning-task planner, guest and owner payments through Stripe, a digital guidebook and a unified team/guest messaging inbox with AI-generated replies and translation, priced per property per month with no commission on bookings.\n",
+  "description_fr": "HomeFlow est une plateforme française tout-en-un pour les conciergeries de location courte durée. Elle réunit un channel manager multi-plateforme, un planificateur de réservations et de ménages, les paiements voyageurs et propriétaires via Stripe, un livret d'accueil numérique et une messagerie unifiée équipe/voyageurs avec réponses générées par IA et traduction, facturée par bien et par mois, sans commission sur les réservations.\n",
+  "real_estate_use": "A concierge company running dozens of listings across Airbnb, Booking.com and other OTAs needs one calendar that prevents double-bookings, one place to assign and track cleaning after each checkout, and one inbox for guest messages instead of switching between ten separate tools and platform apps. HomeFlow synchronizes the channels, auto-generates cleaning tasks from bookings, and lets the team and the property owner each see their own view of the same operation.\n",
+  "features": [
+    "Multi-platform channel manager with real-time sync across 40+ OTAs",
+    "Visual multi-property booking and pricing planner",
+    "Automated cleaning and maintenance task scheduling with checklists",
+    "Stripe-based guest payments and pre-authorized deposits",
+    "Unified team and guest messaging with AI auto-replies and translation",
+    "Owner and field-team mobile apps"
+  ],
+  "use_cases": [
+    {
+      "persona": "property-manager",
+      "job": "Run bookings, pricing and cleaning across dozens of short-term rental listings from one calendar"
+    },
+    {
+      "persona": "landlord-owner",
+      "job": "See their own properties' planning and revenue from a dedicated owner app"
+    }
+  ],
+  "personas": [
+    "property-manager",
+    "landlord-owner"
+  ],
+  "segments": [
+    "hospitality",
+    "residential"
+  ],
+  "company_sizes": [
+    "solo",
+    "smb"
+  ],
+  "pricing": {
+    "model": "per-unit",
+    "public_pricing": true,
+    "from": 14,
+    "currency": "EUR",
+    "unit": "par bien par mois",
+    "url": "https://myhomeflow.fr/tarifs"
+  },
+  "integrations": [
+    "Airbnb",
+    "Booking.com",
+    "Stripe"
+  ],
+  "ai": {
+    "capabilities": [
+      "Réponses automatiques et traduction dans la messagerie unifiée équipe/voyageurs"
+    ]
+  },
+  "product": {
+    "api": false,
+    "open_source": false,
+    "mobile": [
+      "ios",
+      "android"
+    ],
+    "languages": [
+      "fr"
+    ]
+  },
+  "alternatives": [
+    "loftely",
+    "arkiane"
+  ],
+  "reviews": [],
+  "logo": {
+    "file": "logos/homeflow.png",
+    "source_url": "https://myhomeflow.fr/_next/image?url=%2Fimages%2FLogoFooter.png&amp;w=2048&amp;q=75",
+    "fetched_on": "2026-09-17"
+  },
+  "signals": {
+    "pricing": "https://myhomeflow.fr/tarifs",
+    "security": "https://myhomeflow.fr/securite",
+    "privacy": "https://myhomeflow.fr/politique-de-confidentialite",
+    "site_languages": [
+      "fr"
+    ],
+    "checked_on": "2026-09-17"
+  },
+  "sources": [
+    {
+      "url": "https://myhomeflow.fr",
+      "note": "site éditeur"
+    },
+    {
+      "url": "https://myhomeflow.fr/tarifs",
+      "note": "page tarifs"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-09-17"
+}

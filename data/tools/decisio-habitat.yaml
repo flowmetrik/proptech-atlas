@@ -13,6 +13,12 @@ description: >
   centralizes rental, property, financial and technical data pulled from existing
   systems and turns it into dashboards covering vacancy, rent arrears and recovery,
   tenant allocation, and property diagnostics.
+description_fr: >
+  DÉCISIO Habitat est une couche française de business intelligence en SaaS conçue pour les
+  bailleurs sociaux. Elle ne remplace pas l'ERP du bailleur ; elle centralise les données
+  locatives, patrimoniales, financières et techniques issues des systèmes existants et les
+  transforme en tableaux de bord couvrant la vacance, les impayés et le recouvrement,
+  l'attribution des logements, et les diagnostics du patrimoine.
 real_estate_use: >
   A social-housing director tracks portfolio-wide vacancy and rent-arrears indicators
   without exporting spreadsheets from separate ERP, CRM and maintenance systems.

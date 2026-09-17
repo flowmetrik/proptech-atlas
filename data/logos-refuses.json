@@ -2,6 +2,30 @@
   "_lisez_moi": "Logos écartés APRÈS avoir été regardés par un humain. logos.mjs récupère la meilleure image candidate d'un site ; il ne sait pas distinguer un logo d'un visuel décoratif, et sans cette liste il réadopte le même faux à chaque passe. Une entrée dit le slug, ce qui avait été récupéré, et pourquoi ça n'allait pas. `--all` ne la contourne pas : c'est un jugement, pas un cache.",
   "refuses": [
     {
+      "slug": "access-com",
+      "source_url": "https://access.com/app/themes/access-landing-page/assets/images/redesign/base/access-logo-accent.png",
+      "why": "un accent décoratif du hero, pas le logo — rendu entièrement invisible une fois aplati sur blanc (une seule couleur après flatten). L'autre candidat, header__logo (access-logo-com.png), rend le même résultat : blanc invisible sur blanc. Aucune image de marque exploitable trouvée ; fiche laissée sans logo.",
+      "on": "2026-09-17"
+    },
+    {
+      "slug": "higharc",
+      "source_url": "https://cdn.prod.website-files.com/65880fe1a6298c932c229007/6a41bea090561d0559754a1d_signature-homes-logo-black.svg",
+      "why": "le logo « Signature Homes », un client cité dans le carrousel d'études de cas de l'accueil (class=case-study-tab-logo) — pas l'éditeur Higharc. Ce candidat vaut 1200 dans le classement de candidates(), au-dessus de l'apple-touch-icon (1180) faute d'un alt qui nomme la marque : un piège de rang, pas seulement de contenu. Le favicon clair (Higharc Mark - Black.png) posé à la main à la place.",
+      "on": "2026-09-17"
+    },
+    {
+      "slug": "lighttable",
+      "source_url": "https://www.lighttable.ai/build-smarter.png",
+      "why": "une image marketing du hero (« no surprises, smarter builds ») — pas un logo. Le site n'a aucun <img> avec alt ou classe nommant la marque ; l'apple-touch-icon (une grille de points verts sur fond noir) posé à la main à la place.",
+      "on": "2026-09-17"
+    },
+    {
+      "slug": "loftely",
+      "source_url": "https://www.loftely.com/_ipx/q_78/img/screenshots/welcome-book-mockup.webp",
+      "why": "une capture d'écran du livret d'accueil (mockups de mobile) — pas un logo. Le vrai logo (alt=« Loftely », /img/logos/logo-loftely-square-black.jpg) existe sur le site et devrait normalement ranker plus haut (1500) que cette image (5) ; l'URL du candidat passée par l'agent HTML porte probablement des entités &amp; non décodées dans le proxy _ipx, ce qui a fait échouer sa récupération et retomber sur l'image suivante. Le vrai logo, récupéré en direct hors proxy, posé à la main.",
+      "on": "2026-09-17"
+    },
+    {
       "slug": "mondeviscopro",
       "source_url": "https://cdn.amoa.fr//certifications/ademe.svg",
       "why": "le logo de l'ADEME (Agence de la transition écologique), un badge de certification affiché sur le site — pas le logo de mondeviscopro.fr.",
