@@ -16,6 +16,15 @@ description: >
   incoming rental files and the insurance products attached to them, plus handling of
   unpaid-rent procedures. The vendor states it has certified 100,000 tenants across
   roughly 4,000 partner agencies in 150 French cities.
+description_fr: >
+  Garantme est une plateforme française de garantie locative destinée aux candidats locataires
+  sans garant personnel. Le locataire téléverse ses justificatifs, Garantme certifie le dossier,
+  puis l'entreprise se porte garante auprès du bailleur pour la durée du bail, renouvelable chaque
+  année avec lui. La garantie est portée par des compagnies d'assurance. Les agences et bailleurs
+  disposent de l'autre moitié du produit : une console de gestion, la Console Garantme, où ils
+  centralisent les dossiers de location entrants et les produits d'assurance qui y sont attachés,
+  plus le traitement des procédures d'impayés. L'éditeur indique avoir certifié 100 000 locataires
+  auprès d'environ 4 000 agences partenaires dans 150 villes françaises.
 real_estate_use: >
   A candidate with a solid income but no French guarantor keeps losing flats to files
   that have one. They assemble their documents in Garantme before starting their

@@ -13,6 +13,12 @@ description: >
   object removal, wall or floor renovation, weather correction). It also schedules and
   publishes the resulting content to social media with automatically generated
   captions.
+description_fr: >
+  Danim est une plateforme SaaS française qui transforme les photos d'une annonce en vidéo
+  marketing à partir de modèles, et retouche les photos elles-mêmes avec des outils IA (home
+  staging virtuel, suppression d'objets, rénovation de murs ou de sols, correction météo). Elle
+  planifie aussi la publication du contenu résultant sur les réseaux sociaux avec des légendes
+  générées automatiquement.
 real_estate_use: >
   An independent agent or mandataire drops a listing's photos into Danim, picks one of
   the ready-made templates, and gets a branded video ready to post within minutes

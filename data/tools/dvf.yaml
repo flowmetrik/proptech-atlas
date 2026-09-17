@@ -12,6 +12,11 @@ description: >
   address, date, price, surface, property type and land parcel, covering most of the country
   and updated twice a year. It is available as bulk open data, through a public API and
   through a free map application.
+description_fr: >
+  DVF publie les transactions immobilières enregistrées par l'administration fiscale française :
+  adresse, date, prix, surface, type de bien et parcelle cadastrale, couvrant la majeure partie du
+  pays et mis à jour deux fois par an. Disponible en open data en masse, via une API publique et
+  via une application cartographique gratuite.
 real_estate_use: >
   It is the closest thing France has to public sale comparables. An agent checks what the flat
   two floors down actually sold for, an investor tests a seller's price claim, an appraiser

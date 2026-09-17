@@ -14,6 +14,7 @@
   ],
   "positioning": "The incumbent French property administration suite — installed across a large share of professional syndic and gérance portfolios.",
   "description": "Crypto, part of Septeo's real estate division, covers syndic, gérance and transaction for French property administrators: per-building and mandant accounting, calls for funds, assemblies, lease and receipt management, and extranets for co-owners, owners and tenants.\n",
+  "description_fr": "Crypto, la division immobilière de Septeo, couvre le syndic, la gérance et la transaction pour les administrateurs de biens français : comptabilité par immeuble et par mandant, appels de fonds, assemblées, gestion des baux et des quittances, et extranets pour les copropriétaires, propriétaires et locataires.\n",
   "real_estate_use": "It is the system of record in many established French administration de biens firms, chosen for accounting depth rather than for interface. Its centre of gravity is the regulated ledger: separate accounts per copropriété, mandant funds kept distinct from the firm's own money, and the reporting a comptable and an auditor expect.\n",
   "features": [
     "Syndic accounting per building with regulatory account structures",

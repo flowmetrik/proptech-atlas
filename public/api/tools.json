@@ -4,23 +4,23 @@
   "license": "CC-BY-4.0 (data) / MIT (code)",
   "homepage": "https://flowmetrik.github.io/proptech-atlas",
   "repository": "https://github.com/flowmetrik/proptech-atlas",
-  "generated": "2026-09-16",
+  "generated": "2026-09-17",
   "counts": {
-    "tools": 276,
-    "US": 154,
-    "FR": 152,
+    "tools": 282,
+    "US": 157,
+    "FR": 155,
     "categories": 24,
-    "editors": 259,
+    "editors": 265,
     "verified": 0,
     "reviews": 0,
-    "logos": 256,
+    "logos": 261,
     "signals": {
-      "probed": 262,
-      "public_pricing": 65,
+      "probed": 268,
+      "public_pricing": 68,
       "api_docs": 18,
-      "security_page": 31,
-      "privacy_page": 193,
-      "status_page": 63
+      "security_page": 33,
+      "privacy_page": 199,
+      "status_page": 65
     }
   },
   "tools": [
@@ -126,6 +126,93 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "access-com",
+      "name": "ACCESS.com",
+      "editor": "ACCESS",
+      "website": "https://access.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "agent-marketing",
+      "founded": 2020,
+      "positioning": "AI website builder and interactive listing-presentation platform for real estate agents, with IDX and CRM integration.",
+      "description": "ACCESS.com is a website and marketing platform for individual real estate agents and teams. It provides a drag-and-drop website builder with professionally designed themes, an interactive digital listing-presentation and open-house builder, and a matching print and digital marketing-materials suite, with IDX and CRM integration and an AI assistant layered across the products.\n",
+      "real_estate_use": "An agent or small team needs a branded website and a listing presentation ready before a listing appointment, without hiring a designer or waiting on a web agency. They pick a theme, connect their IDX feed and CRM, and generate an interactive digital presentation or open-house page for a specific property from the same platform.\n",
+      "features": [
+        "Drag-and-drop real estate website builder with designed themes",
+        "Interactive digital listing-presentation and open-house builder",
+        "Digital and print marketing-materials suite",
+        "IDX and CRM integration",
+        "AI assistant for site and content customization"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Launch a branded agent website without a designer or developer"
+        },
+        {
+          "persona": "agent-broker",
+          "job": "Build an interactive digital listing presentation for a specific property or open house"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": true,
+        "url": "https://access.com/pricing"
+      },
+      "ai": {
+        "capabilities": [
+          "AI assistant for website and content customization",
+          "AI-powered lead hub and smart chat assistant for site visitors"
+        ]
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "reviews": [],
+      "signals": {
+        "pricing": "https://access.com/pricing",
+        "privacy": "https://access.com/privacy-policy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-17"
+      },
+      "sources": [
+        {
+          "url": "https://access.com",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://access.com/pricing",
+          "note": "page tarifs"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-17"
     },
     {
       "slug": "actelo",
@@ -1257,6 +1344,96 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "arkiane",
+      "name": "Arkiane",
+      "editor": "Arkiane (groupe Octrolis)",
+      "website": "https://www.arkiane.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "short-term-rental",
+      "founded": 1993,
+      "positioning": "Logiciel Windows de gestion de location saisonnière et transaction pour agences immobilières, avec comptabilité mandante intégrée depuis Grenoble.",
+      "description": "Arkiane Power Locations Vacances is a French Windows-based management software for real estate agencies specialized in seasonal rentals, covering booking and pricing management, integrated trust accounting validated by the Galian and Socaf guarantee funds, digital check-in/check-out inventories, multi-channel distribution and multi-site, multi-accountant setups for networks of offices. The company also publishes a real estate transaction module and merged with fellow French vendor Enova into the Octrolis group in 2021.\n",
+      "description_fr": "Arkiane Power Locations Vacances est un logiciel français sous Windows de gestion de la location saisonnière et de la transaction pour les agences immobilières, couvrant la gestion des réservations et des tarifs, une comptabilité mandante intégrée validée par les caisses de garantie Galian et Socaf, les états des lieux numériques, la multidiffusion des annonces et une gestion multi-site et multi-comptable pour les réseaux d'agences. L'éditeur publie aussi un module de transaction immobilière, et a fusionné avec le français Enova au sein du groupe Octrolis en 2021.\n",
+      "real_estate_use": "A seasonal-rental agency running several offices needs its bookings, pricing by tour-operator rate and trust accounting to stay consistent across sites and accountants, and its guarantee-fund auditors (Galian, Socaf) to be able to check that accounting directly. Arkiane runs the booking calendar, generates digital inventories and contracts, and keeps the mandant accounting in a form the guarantee funds already validate.\n",
+      "features": [
+        "Seasonal booking and nightly-rate management by tour operator",
+        "Trust (mandante) accounting validated by Galian and Socaf guarantee funds",
+        "Digital check-in and check-out inventories",
+        "Multi-channel booking distribution",
+        "Multi-site, multi-accountant management for agency networks"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Run seasonal-rental bookings and tour-operator pricing across several agency offices"
+        },
+        {
+          "persona": "property-manager",
+          "job": "Keep mandant accounting in a form the Galian/Socaf guarantee funds can audit directly"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "property-manager"
+      ],
+      "segments": [
+        "hospitality",
+        "residential"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "homeflow",
+        "loftely"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/arkiane.png",
+        "source_url": "https://www.arkiane.com/wp-content/uploads/2021/11/logo-Arkiane-baseline@4x.png",
+        "fetched_on": "2026-09-17"
+      },
+      "signals": {
+        "privacy": "https://www.arkiane.com/mentions-legales",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-09-17"
+      },
+      "sources": [
+        {
+          "url": "https://www.arkiane.com/logiciel/",
+          "note": "page logiciel"
+        },
+        {
+          "url": "https://www.arkiane.com/entreprise/",
+          "note": "page entreprise"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-17"
     },
     {
       "slug": "attom-data",
@@ -5499,6 +5676,7 @@
       "category": "lending-mortgage",
       "positioning": "French software for regulated mortgage and business-credit brokers, published since 2013: file assembly, financing simulation, regulatory documents and automated invoicing.",
       "description": "Courtisia, published by Fletesia, is a French web and mobile software for IOBSP-regulated credit intermediaries, covering mortgage credit, professional financing and wealth-management brokerage in one tool since 2013. It assembles loan files, runs financing simulations and borrowing-capacity calculations, generates regulatory documents with electronic signature, connects to lenders, and automates fee and commission invoicing with reporting.\n",
+      "description_fr": "Courtisia, publié par Fletesia, est un logiciel web et mobile français pour les intermédiaires en crédit réglementés IOBSP, couvrant le crédit immobilier, le financement professionnel et le courtage en gestion de patrimoine dans un seul outil depuis 2013. Il assemble les dossiers de prêt, exécute des simulations de financement et des calculs de capacité d'emprunt, génère les documents réglementaires avec signature électronique, se connecte aux prêteurs, et automatise la facturation des honoraires et des commissions avec du reporting.\n",
       "real_estate_use": "A mortgage broker assembling a loan file needs to run an affordability simulation, produce the regulatory paperwork, get it signed, route it to the right lenders, and eventually invoice the fee and reconcile the bank's commission. Courtisia covers that sequence in one tool, with dashboards to track where every case stands and automated invoicing tied to case status — useful because French intermediary fees can only be billed once funds are released.\n",
       "features": [
         "Full loan file assembly",
@@ -5586,6 +5764,7 @@
       "category": "flex-coworking",
       "positioning": "Coworking management software built around its own access control, so a space can stay open around the clock and bill by the hour.",
       "description": "CoworkSaaS is a French platform for coworking operators that couples subscription and hourly-access management with an access-control system of its own: QR-code readers, turnstiles and door-locking kits rented monthly alongside the software. Members sign up from the operator's own website, receive a personal QR code, and are billed either on a recurring plan or on the time actually spent on site, computed from entry and exit scans. Additional services are billed through the same engine: meeting rooms, printing, lockers, business domiciliation, a connected fridge. A pooled remote video-surveillance service is offered for unstaffed hours. Two plans are published, per space per month.\n",
+      "description_fr": "CoworkSaaS est une plateforme française pour les opérateurs de coworking qui associe la gestion des abonnements et des accès à l'heure à son propre système de contrôle d'accès : lecteurs QR code, tourniquets et kits de verrouillage de porte loués au mois en complément du logiciel. Les membres s'inscrivent depuis le site de l'opérateur, reçoivent un QR code personnel, et sont facturés soit sur un forfait récurrent, soit sur le temps réellement passé sur place, calculé à partir des scans d'entrée et de sortie. Les services additionnels sont facturés via le même moteur : salles de réunion, impression, casiers, domiciliation d'entreprise, réfrigérateur connecté. Un service mutualisé de vidéosurveillance à distance est proposé pour les heures sans personnel. Deux forfaits sont publiés, par espace et par mois.\n",
       "real_estate_use": "The problem this addresses is opening hours. An operator who wants to sell access outside staffed hours has to know who is in the building and to bill them with nobody at the desk; CoworkSaaS answers both with one QR code, since the scan that opens the turnstile also starts the meter. Hourly billing is the part most competitors do not cover, and it is what lets a space sell to occasional users who would never take a monthly plan. Sign-up and the client area are embedded in the operator's own website, so a prospect never leaves the brand, and a live counter of free seats can be published to members.\n",
       "features": [
         "Hourly access billed from entry and exit QR-code scans",
@@ -5759,6 +5938,7 @@
       "category": "lending-mortgage",
       "positioning": "Cloud software for French credit intermediaries: build a mortgage file and its simulations, follow the lenders, invoice the fee.",
       "description": "Créditéo is a French publisher of web applications for regulated credit intermediaries, real estate agents and notaries. Its platform centralises prospect and client files, runs configurable financing simulations, and tracks the lenders and parties attached to each case in a single dashboard. It issues fee invoices, bank commission invoices and off-case invoices in line with the French billing rules that took effect in January 2018, and reports production by branch, broker, partner, stage and period. Rights management and configurable case stages let a network reproduce its own process. The editor states more than 20,000 users.\n",
+      "description_fr": "Créditéo est un éditeur français d'applications web pour les intermédiaires en crédit réglementés, les agents immobiliers et les notaires. Sa plateforme centralise les dossiers prospects et clients, exécute des simulations de financement paramétrables, et suit les prêteurs et parties prenantes de chaque dossier dans un tableau de bord unique. Elle émet les factures d'honoraires, les factures de commissions bancaires et les factures hors dossier conformément aux règles de facturation françaises entrées en vigueur en janvier 2018, et fait remonter la production par agence, courtier, partenaire, étape et période. La gestion des droits et des étapes de dossier paramétrables permet à un réseau de reproduire son propre process. L'éditeur revendique plus de 20 000 utilisateurs.\n",
       "real_estate_use": "A broker's day is a queue of half-complete files, each waiting on a document or a lender's answer. Créditéo is the desk where that queue is ordered: configurable stages say where each case stands, task lists and notifications say who owes what, and the simulator turns an affordability question into a fully-formed loan application in a single sitting. Its invoicing module matters more than it sounds — French intermediary fees can only be billed once the funds are released, so a broker needs the tool to know the difference between a fee earned and a commission owed by the bank. Web calculators and pre-filling contact forms embed on the broker's own site, so an enquiry arrives as a started file instead of an e-mail.\n",
       "features": [
         "Centralised prospect and client files with configurable case stages and task lists",
@@ -5957,6 +6137,7 @@
       ],
       "positioning": "The incumbent French property administration suite — installed across a large share of professional syndic and gérance portfolios.",
       "description": "Crypto, part of Septeo's real estate division, covers syndic, gérance and transaction for French property administrators: per-building and mandant accounting, calls for funds, assemblies, lease and receipt management, and extranets for co-owners, owners and tenants.\n",
+      "description_fr": "Crypto, la division immobilière de Septeo, couvre le syndic, la gérance et la transaction pour les administrateurs de biens français : comptabilité par immeuble et par mandant, appels de fonds, assemblées, gestion des baux et des quittances, et extranets pour les copropriétaires, propriétaires et locataires.\n",
       "real_estate_use": "It is the system of record in many established French administration de biens firms, chosen for accounting depth rather than for interface. Its centre of gravity is the regulated ledger: separate accounts per copropriété, mandant funds kept distinct from the firm's own money, and the reporting a comptable and an auditor expect.\n",
       "features": [
         "Syndic accounting per building with regulatory account structures",
@@ -6166,6 +6347,7 @@
       ],
       "positioning": "Template-based video and AI photo editing so a French real estate agent can produce listing marketing content without a videographer.",
       "description": "Danim is a French SaaS platform that turns a listing's photos into marketing video using templates, and edits the photos themselves with AI tools (virtual staging, object removal, wall or floor renovation, weather correction). It also schedules and publishes the resulting content to social media with automatically generated captions.\n",
+      "description_fr": "Danim est une plateforme SaaS française qui transforme les photos d'une annonce en vidéo marketing à partir de modèles, et retouche les photos elles-mêmes avec des outils IA (home staging virtuel, suppression d'objets, rénovation de murs ou de sols, correction météo). Elle planifie aussi la publication du contenu résultant sur les réseaux sociaux avec des légendes générées automatiquement.\n",
       "real_estate_use": "An independent agent or mandataire drops a listing's photos into Danim, picks one of the ready-made templates, and gets a branded video ready to post within minutes instead of booking a videographer. The same agent uses the AI photo tools to stage an empty room or fix a dated wall before the video is made, then schedules the post to social media from the same platform.\n",
       "features": [
         "Template-based real estate video generation",
@@ -6358,6 +6540,7 @@
       ],
       "positioning": "Business-intelligence platform that turns a social landlord's scattered systems into one decision-making dashboard.",
       "description": "DÉCISIO Habitat is a French SaaS business-intelligence layer built for social housing landlords (bailleurs sociaux). It does not replace a landlord's ERP; it centralizes rental, property, financial and technical data pulled from existing systems and turns it into dashboards covering vacancy, rent arrears and recovery, tenant allocation, and property diagnostics.\n",
+      "description_fr": "DÉCISIO Habitat est une couche française de business intelligence en SaaS conçue pour les bailleurs sociaux. Elle ne remplace pas l'ERP du bailleur ; elle centralise les données locatives, patrimoniales, financières et techniques issues des systèmes existants et les transforme en tableaux de bord couvrant la vacance, les impayés et le recouvrement, l'attribution des logements, et les diagnostics du patrimoine.\n",
       "real_estate_use": "A social-housing director tracks portfolio-wide vacancy and rent-arrears indicators without exporting spreadsheets from separate ERP, CRM and maintenance systems. Finance staff follow arrears ageing and recovery-action progress to prioritize collection, while property teams monitor allocation activity and diagnostic compliance across the stock. Because it plugs into a landlord's existing tools rather than replacing them, deployment runs in under three months.\n",
       "features": [
         "Cross-system data centralization (ERP, GED, GMAO, CRM)",
@@ -6436,6 +6619,7 @@
       "founded": 2014,
       "positioning": "ESG for real estate portfolios, from data collection to the CRREM trajectory an investor is judged against.",
       "description": "Deepki collects and enriches building energy and asset data across a portfolio, benchmarks performance, produces regulatory and investor ESG reporting, and models decarbonisation pathways with the capital expenditure required to reach them.\n",
+      "description_fr": "Deepki collecte et enrichit les données énergétiques et patrimoniales des bâtiments à l'échelle d'un portefeuille, évalue la performance par comparaison, produit le reporting ESG réglementaire et destiné aux investisseurs, et modélise des trajectoires de décarbonation avec le capital nécessaire pour les atteindre.\n",
       "real_estate_use": "European regulation makes this operational rather than reputational: the décret tertiaire requires measured consumption reductions on French tertiary buildings, and the EU taxonomy and SFDR shape what a fund must disclose. Deepki assembles the data across countries and landlord-tenant boundaries — the hardest part, since the landlord often does not hold the tenant's meter data — and turns it into the trajectory and the works plan.\n",
       "features": [
         "Automated collection of energy, water and asset data across a portfolio",
@@ -6544,6 +6728,7 @@
       "category": "property-management",
       "positioning": "Digital platform that runs a French social landlord's tenant-allocation committee (CALEOL), on-site or fully remote.",
       "description": "Dematimmo is a French SaaS product from Activinnov that digitizes the CALEOL — the regulated committee French social landlords must hold before allocating a home. It prepares case files pulled from the landlord's ERP, runs the committee session on-screen or fully remotely with e-signed minutes and electronic voting, and pushes the attribution result back into the ERP.\n",
+      "description_fr": "Dematimmo est un produit SaaS français d'Activinnov qui dématérialise la CALEOL — la commission réglementée que les bailleurs sociaux français doivent tenir avant d'attribuer un logement. Il prépare les dossiers de passage extraits de l'ERP du bailleur, fait tourner la séance de commission à l'écran ou entièrement à distance avec un procès-verbal et un vote électroniques, et repousse le résultat de l'attribution dans l'ERP.\n",
       "real_estate_use": "A social landlord's allocation team pulls candidate case files automatically from its ERP ahead of a CALEOL session, runs the session either in person with a projection screen or fully online, records votes and e-signs the minutes, then pushes the outcome back into the ERP without re-entering data. Compliance staff use the same platform to generate attribution reports by commune, EPCI or préfecture, with traceability of every vote.\n",
       "features": [
         "Automatic case-file preparation from the ERP",
@@ -6615,6 +6800,7 @@
       "category": "syndic-copro",
       "positioning": "Le logiciel libre et gratuit de comptabilité d'association et de copropriété.",
       "description": "Diacamma is a free, open-source suite of administrative and financial management software aimed at volunteers running associations and condo syndicates. Its condo module (Diacamma Syndic) handles accounting compliant with French co-ownership rules, tracks each owner's individual financial position, generates and distributes fund-call notices, and allocates expenses automatically by ownership share (tantièmes). The source code is public; users can self-host or pay the partner Sleto for managed hosting.\n",
+      "description_fr": "Diacamma est une suite libre et gratuite de logiciels de gestion administrative et financière destinée aux bénévoles qui gèrent des associations et des copropriétés. Son module copropriété (Diacamma Syndic) gère une comptabilité conforme aux règles françaises de copropriété, suit la situation financière individuelle de chaque copropriétaire, génère et diffuse les avis d'appel de fonds, et répartit automatiquement les charges au tantième. Le code source est public ; les utilisateurs peuvent s'auto-héberger ou payer le partenaire Sleto pour un hébergement géré.\n",
       "real_estate_use": "A syndic bénévole installs Diacamma to run the building's accounts without paying for a commercial license: fund calls go out automatically split by tantièmes, each co-owner's balance is tracked individually, and the books stay auditable because the code itself is public. A volunteer with no server to manage picks Sleto's paid hosting instead of self-hosting, without changing software.\n",
       "features": [
         "Condo accounting compliant with French co-ownership rules (tantièmes)",
@@ -6700,6 +6886,7 @@
       "founded": 2020,
       "positioning": "Regulated property diagnostics on site and the running of the practice at the desk, in one browser tool.",
       "description": "Diag Pilote is a browser-based tool for French property diagnosticians. It carries thirteen regulated diagnostic modules written against the applicable NF standards, DPE, electrical NF C 16-600, gas NF P45-500, asbestos NF X46-020, lead NF X46-030 and NF X46-035, termites NF P03-201, parasitic condition NF P03-200, Carrez and Boutin measurement, AER, DTG and PPPT, and produces the standard PDF report from them. The DPE module runs a 3CL calculation engine and transmits to the ADEME registry. The same subscription covers the office side: quotes and Factur-X invoices, online payment and a client portal, scheduling with Google Calendar. Field work runs offline from iOS and Android applications.\n",
+      "description_fr": "Diag Pilote est un outil en ligne pour les diagnostiqueurs immobiliers français. Il porte treize modules de diagnostic réglementaires écrits selon les normes NF applicables : DPE, électricité NF C 16-600, gaz NF P45-500, amiante NF X46-020, plomb NF X46-030 et NF X46-035, termites NF P03-201, état parasitaire NF P03-200, métrage Carrez et Boutin, AER, DTG et PPPT, et en tire le rapport PDF standard. Le module DPE fait tourner un moteur de calcul 3CL et transmet au registre de l'ADEME. Le même abonnement couvre la partie bureau : devis et factures Factur-X, paiement en ligne et portail client, planification avec Google Calendar. Le travail sur le terrain tourne hors ligne depuis des applications iOS et Android.\n",
       "real_estate_use": "A diagnostician spends the morning in a flat with no network, capturing observations for four or five separate regulated reports, then spends the afternoon turning them into compliant PDFs, invoicing the agency and chasing payment. Diag Pilote exists to remove the re-entry between those two halves: the mobile application works offline in the property, and the same file becomes the report, the invoice and the client notification without being retyped. The regulatory side is what makes it a purchase rather than a preference, because each module has to track a standard that changes, and a report written against a superseded text is worthless. Smaller practices also use only the office half, keeping quotes, invoicing and scheduling there while producing diagnostics elsewhere.\n",
       "features": [
         "Thirteen regulated diagnostic modules written against NF standards",
@@ -6806,6 +6993,7 @@
       "category": "listing-syndication",
       "positioning": "One-click listing syndication to 50+ French real estate portals, billed per use, with AI-assisted content.",
       "description": "Diffuze is a French listing syndication tool that pushes real estate listings (sale, rental, viager) from a single interface to more than 50 portals including SeLoger, Logic-Immo and Le Figaro Immobilier. It is billed per use rather than by subscription, and includes AI features for description writing and photo retouching.\n",
+      "description_fr": "Diffuze est un outil français de multidiffusion d'annonces immobilières qui pousse les annonces (vente, location, viager) depuis une seule interface vers plus de 50 portails dont SeLoger, Logic-Immo et Le Figaro Immobilier. Il est facturé à l'usage plutôt que par abonnement, et inclut des fonctions IA de rédaction de description et de retouche photo.\n",
       "real_estate_use": "An agent or agency uses Diffuze to publish a listing once and have it distributed across dozens of portals within about 24 hours, generate an AI-written description from the property's characteristics, and apply automatic photo retouching or virtual staging, without committing to a monthly subscription for portal access.\n",
       "features": [
         "Syndication to 50+ portals (SeLoger, Logic-Immo, Le Figaro Immobilier, Belles Demeures)",
@@ -7085,6 +7273,7 @@
       "category": "flex-coworking",
       "positioning": "Flat-price booking and billing software for a single coworking space of up to fifty desks, with an interactive floor plan.",
       "description": "DollyDesk is a French coworking management tool sold at one flat price rather than per member, for up to fifty bookable desks and meeting rooms. Members choose a seat on an interactive floor plan that shows photos of each space, then pay by card through Stripe or through PayFiP for publicly run spaces, or by recurring SEPA direct debit. It issues electronic invoices through an approved platform, exports to accounting, syncs bookings to Google, Outlook and Apple calendars over iCal, and opens Nuki or SmartAir smart locks as a paid option. Prepaid packs, for instance ten days, are supported alongside contracts. The product is operated and supported by a single person, who also handles migration from Nexudus, OfficeRnD or Cosoft.\n",
+      "description_fr": "DollyDesk est un outil français de gestion du coworking vendu à un tarif fixe plutôt qu'au membre, jusqu'à cinquante bureaux et salles de réunion réservables. Les membres choisissent une place sur un plan interactif qui montre des photos de chaque espace, puis paient par carte via Stripe ou via PayFiP pour les espaces publics, ou par prélèvement SEPA récurrent. L'outil émet des factures électroniques via une plateforme agréée, exporte vers la comptabilité, synchronise les réservations avec Google, Outlook et Apple Calendar via iCal, et ouvre les serrures connectées Nuki ou SmartAir en option payante. Des forfaits prépayés, par exemple dix jours, sont pris en charge en plus des contrats. Le produit est exploité et supporté par une seule personne, qui prend aussi en charge la migration depuis Nexudus, OfficeRnD ou Cosoft.\n",
       "real_estate_use": "A small coworking space or tiers-lieu reaches for DollyDesk when the manager's day is eaten by two questions, is there a seat free and where is my invoice. Members answer both themselves: they see the plan, book, pay, and get the invoice. Because PayFiP is supported next to Stripe, a space run by a local authority can take payments the way public accounting requires, which most competitors do not cover. The flat price and the fifty-desk ceiling say plainly who this is for: one site with a handful of rooms, not a network, and an operator who would rather pay a fixed line than a per-member one.\n",
       "features": [
         "Interactive floor plan with photos for choosing a desk or a room",
@@ -7293,6 +7482,7 @@
       "founded": 2019,
       "positioning": "A public service that produces a certified, watermarked tenant file — free, open source, and designed to make forgery pointless.",
       "description": "DossierFacile is a French public digital service that helps a rental candidate assemble their application file, checks it against the list of documents a landlord may legally request, and issues a verified PDF whose pages are watermarked and whose authenticity can be confirmed online. The code is published as open source.\n",
+      "description_fr": "DossierFacile est un service public numérique français qui aide un candidat locataire à constituer son dossier de location, le vérifie par rapport à la liste des pièces qu'un bailleur a le droit de demander légalement, et délivre un PDF vérifié dont les pages sont filigranées et dont l'authenticité peut être confirmée en ligne. Le code est publié en open source.\n",
       "real_estate_use": "It addresses two failures at once. Candidates submit incomplete files and are rejected without knowing why; landlords receive falsified pay slips and cannot tell. A DossierFacile file arrives complete, in the legal scope, and verifiable — and because the service is free and public, it is increasingly accepted as the standard format by agencies and guarantee schemes.\n",
       "features": [
         "Guided assembly of a complete rental application file",
@@ -7566,6 +7756,7 @@
       "founded": 2019,
       "positioning": "Every French property transaction of the last five years, published as open data by the tax administration — free, and the base layer under most French valuation products.",
       "description": "DVF publishes the property transactions registered by the French tax administration: address, date, price, surface, property type and land parcel, covering most of the country and updated twice a year. It is available as bulk open data, through a public API and through a free map application.\n",
+      "description_fr": "DVF publie les transactions immobilières enregistrées par l'administration fiscale française : adresse, date, prix, surface, type de bien et parcelle cadastrale, couvrant la majeure partie du pays et mis à jour deux fois par an. Disponible en open data en masse, via une API publique et via une application cartographique gratuite.\n",
       "real_estate_use": "It is the closest thing France has to public sale comparables. An agent checks what the flat two floors down actually sold for, an investor tests a seller's price claim, an appraiser builds a comparables table with a verifiable public source. Its limits matter as much: Alsace-Moselle and Mayotte are excluded, sales are registered several months late, and the price is the recorded transfer price, not the negotiated market story behind it.\n",
       "features": [
         "Registered transaction price, date, surface and property type",
@@ -7662,6 +7853,7 @@
       "category": "lending-mortgage",
       "positioning": "A CRM built for credit brokers to run their firm without losing track of a file.",
       "description": "ELIOB.fr is a French SaaS CRM for credit brokerage firms. It brings together client files, partners, documents, invoicing and activity tracking in one workspace built around a single, structured borrower dossier.\n",
+      "description_fr": "ELIOB.fr est un CRM SaaS français pour les cabinets de courtage en crédit. Il rassemble dans un même espace de travail les dossiers clients, les partenaires, les documents, la facturation et le suivi d'activité, construit autour d'un dossier emprunteur unique et structuré.\n",
       "real_estate_use": "A broker or brokerage firm uses ELIOB.fr to keep one structured file per client — contacts, supporting documents, partner banks and history — and to follow a loan project continuously from the first contact through financing and invoicing, instead of scattering that information across email and spreadsheets.\n",
       "features": [
         "Single structured client dossier",
@@ -7837,6 +8029,7 @@
       ],
       "positioning": "French origination platform for credit intermediaries: simulate a mortgage, assemble the borrower file, apply each bank convention, invoice the commission.",
       "description": "Eloa publishes eCredits, a configurable platform for regulated credit intermediaries in France, alongside eImmo for rental and renovation financing and eMobilite for vehicle dealers. eCredits covers mortgage, consumer, professional and debt consolidation lending. Its calculation engine produces amortising, zero-interest, interest-only, bridge, stepped and smoothed loan scenarios, and applies the rate grids and document requirements the broker has configured for each partner bank. It also handles commission, invoicing and activity reporting, and offers a broker website module. The editor states more than 20,000 professionals use it.\n",
+      "description_fr": "Eloa publie eCredits, une plateforme paramétrable pour les intermédiaires en crédit réglementés en France, ainsi qu'eImmo pour le financement locatif et travaux et eMobilite pour les concessionnaires automobiles. eCredits couvre le crédit immobilier, à la consommation, professionnel et le rachat de crédits. Son moteur de calcul produit des scénarios de prêt amortissables, à taux zéro, in fine, relais, à paliers et lissés, et applique les grilles de taux et les pièces exigées que le courtier a paramétrées pour chaque banque partenaire. Il gère aussi la commission, la facturation et le reporting d'activité, et propose un module de site web courtier. L'éditeur revendique plus de 20 000 professionnels utilisateurs.\n",
       "real_estate_use": "A French mortgage broker is an IOBSP: the file it assembles has to satisfy both the borrower and a bank whose rate grid, document list and commission terms differ from every other bank's. Eloa is where that file lives from the first simulation to the accepted offer. The broker qualifies affordability with the simulators, which create the case and carry the data forward instead of being re-keyed, then compares scenarios across the banks configured in its own conventions. Because commissioning and invoicing sit in the same tool, a network can see per-branch and per-broker production without exporting anything. Agencies and developers meet it from the other side, as the financing partner's system that tells them whether a buyer is financeable.\n",
       "features": [
         "Mortgage simulators covering amortising, zero-interest, interest-only, bridge, stepped and smoothed loans",
@@ -8596,6 +8789,7 @@
       ],
       "positioning": "A configurable French CRM with a real estate vertical — for organisations whose process does not fit an agency package.",
       "description": "Eudonet is a French CRM platform sold in vertical editions, including one for real estate professionals: contact and asset relationship management, prospect and mandate pipelines, campaign management, and configurable objects and workflows, hosted in France.\n",
+      "description_fr": "Eudonet est une plateforme CRM française vendue en éditions verticales, dont une pour les professionnels de l'immobilier : gestion de la relation contacts et biens, pipelines de prospects et de mandats, gestion de campagnes, et objets et workflows paramétrables, hébergés en France.\n",
       "real_estate_use": "It is chosen by organisations that are not classic agencies — institutional owners, developers, public bodies, networks — whose relationship processes do not match a transaction package. The configurability is the point: an object model for buildings, tenants, prospects and operations can be shaped to the organisation rather than the reverse, with French hosting satisfying public procurement requirements.\n",
       "features": [
         "Configurable object model for assets, contacts and operations",
@@ -8768,6 +8962,7 @@
       "founded": 2011,
       "positioning": "Digital site follow-up designed to be adopted by people who do not want software — foremen and subcontractors.",
       "description": "Finalcad provides mobile applications for construction site monitoring: observations and snagging on plans, quality and safety checklists, progress tracking, task assignment and automatic reporting, with a deliberately minimal field interface.\n",
+      "description_fr": "Finalcad fournit des applications mobiles pour le suivi de chantier : observations et levée de réserves sur plans, checklists qualité et sécurité, suivi d'avancement, affectation de tâches et reporting automatique, avec une interface terrain volontairement minimale.\n",
       "real_estate_use": "Field adoption is the whole battle: a tool a subcontractor's foreman will not open produces no data, whatever it can do. Finalcad's design choice is to strip the field experience down to capture and assignment, keeping the analysis for the office — which is why it appears on sites where previous attempts at digitalisation failed.\n",
       "features": [
         "Observation and snagging capture on plans",
@@ -9058,6 +9253,7 @@
       ],
       "positioning": "French property listings as an API — the raw feed behind pige tools and market products.",
       "description": "Fluximmo collects real estate listings published across French portals and classified sites, deduplicates them, distinguishes private from professional sellers, and delivers the result as a structured API with history and change tracking.\n",
+      "description_fr": "Fluximmo collecte les annonces immobilières publiées sur les portails et sites de petites annonces français, les dédoublonne, distingue les vendeurs particuliers des professionnels, et livre le résultat sous forme d'API structurée avec historique et suivi des changements.\n",
       "real_estate_use": "It is infrastructure rather than an end-user product: a pige tool, a market study or an internal prospecting system uses the feed instead of scraping portals themselves. The deduplication and private-versus-professional classification are the hard parts, since the same property appears repeatedly under different descriptions and prices.\n",
       "features": [
         "Aggregated listing feed across French portals and classified sites",
@@ -9546,6 +9742,7 @@
       "category": "tenant-screening",
       "positioning": "Certifie le dossier d'un candidat locataire et se porte garant à sa place, avec une console de gestion des dossiers et des garanties pour les agences.",
       "description": "Garantme is a French rental-guarantee platform aimed at applicants who have no personal guarantor. The tenant uploads their supporting documents, Garantme certifies the file, and the company then stands as guarantor for the landlord for the duration of the lease, renewable each year with it. The guarantee is underwritten by insurance companies. Agencies and landlords get the other half of the product: an application console, called Console Garantme, where they centralize incoming rental files and the insurance products attached to them, plus handling of unpaid-rent procedures. The vendor states it has certified 100,000 tenants across roughly 4,000 partner agencies in 150 French cities.\n",
+      "description_fr": "Garantme est une plateforme française de garantie locative destinée aux candidats locataires sans garant personnel. Le locataire téléverse ses justificatifs, Garantme certifie le dossier, puis l'entreprise se porte garante auprès du bailleur pour la durée du bail, renouvelable chaque année avec lui. La garantie est portée par des compagnies d'assurance. Les agences et bailleurs disposent de l'autre moitié du produit : une console de gestion, la Console Garantme, où ils centralisent les dossiers de location entrants et les produits d'assurance qui y sont attachés, plus le traitement des procédures d'impayés. L'éditeur indique avoir certifié 100 000 locataires auprès d'environ 4 000 agences partenaires dans 150 villes françaises.\n",
       "real_estate_use": "A candidate with a solid income but no French guarantor keeps losing flats to files that have one. They assemble their documents in Garantme before starting their search, get certified, and present a file that already carries a guarantee — which is what puts it at the top of the pile at the viewing. On the other side, a letting agent receiving thirty applications for one flat uses the console to see which files are certified and which insurance product covers each, instead of re-reading payslips; when an incumbent tenant stops paying, the unpaid-rent procedure is run by Garantme rather than by the agency. Payment is only due when the lease is signed, so the applicant carries no cost during the search.\n",
       "features": [
         "Certification d'un dossier locatif sous 24 h",
@@ -10611,6 +10808,207 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "higharc",
+      "name": "Higharc",
+      "editor": "Higharc",
+      "website": "https://www.higharc.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "construction-development",
+      "founded": 2018,
+      "positioning": "Generative home-design software that turns a base plan into buildable construction documents, live estimating and a 3D buyer configurator.",
+      "description": "Higharc is a cloud homebuilding platform for production and semi-custom builders that combines generative home design, plan configuration and estimating in one connected system. A base plan is design-automated into permit-ready construction documents and photoreal 3D visuals, with material estimates generated directly from the same model rather than redrawn by hand each time an option changes.\n",
+      "real_estate_use": "A production homebuilder standardizes a set of house plans and needs every buyer-facing option — elevation, garage orientation, a structural change — to update construction drawings and material estimates automatically, instead of sending each change back to an architect. The design team builds and configures the plan library once in Higharc Studio, then sales and estimating pull consistent, always-current documents and pricing from it for every home sold.\n",
+      "features": [
+        "Generative plan design and configuration",
+        "Automatic generation of permit-ready construction documents",
+        "Photoreal 3D visuals for buyer-facing configurators",
+        "AI-based estimating and material takeoffs",
+        "Centralized plan library across a builder's product line"
+      ],
+      "use_cases": [
+        {
+          "persona": "developer-builder",
+          "job": "Configure a market-proven home plan and get updated construction documents and estimates without re-drawing"
+        },
+        {
+          "persona": "developer-builder",
+          "job": "Give buyers a 3D, shoppable configurator for options and elevations tied to real pricing"
+        }
+      ],
+      "personas": [
+        "developer-builder"
+      ],
+      "segments": [
+        "residential",
+        "land-development"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "ai": {
+        "capabilities": [
+          "Generative plan design from a base home plan",
+          "AI-based material takeoff and estimating from plan data"
+        ]
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "reviews": [],
+      "logo": {
+        "file": "logos/higharc.png",
+        "source_url": "https://cdn.prod.website-files.com/65880fe1a6298c932c229007/6a0b919546192259bc149a37_Higharc%20Mark%20-%20Black.png",
+        "fetched_on": "2026-09-17"
+      },
+      "signals": {
+        "privacy": "https://www.higharc.com/legal/privacy",
+        "status": "https://status.higharc.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-17"
+      },
+      "sources": [
+        {
+          "url": "https://www.higharc.com",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://www.higharc.com/company/about",
+          "note": "page à propos"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-17"
+    },
+    {
+      "slug": "homeflow",
+      "name": "HomeFlow",
+      "editor": "HomeFlow",
+      "website": "https://myhomeflow.fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "short-term-rental",
+      "positioning": "Plateforme tout-en-un pour conciergeries : channel manager, planning de ménage, paiements et messagerie IA, sans commission sur les réservations.",
+      "description": "HomeFlow is a French all-in-one management platform for short-term rental concierge operators, combining a multi-platform channel manager, a booking and cleaning-task planner, guest and owner payments through Stripe, a digital guidebook and a unified team/guest messaging inbox with AI-generated replies and translation, priced per property per month with no commission on bookings.\n",
+      "description_fr": "HomeFlow est une plateforme française tout-en-un pour les conciergeries de location courte durée. Elle réunit un channel manager multi-plateforme, un planificateur de réservations et de ménages, les paiements voyageurs et propriétaires via Stripe, un livret d'accueil numérique et une messagerie unifiée équipe/voyageurs avec réponses générées par IA et traduction, facturée par bien et par mois, sans commission sur les réservations.\n",
+      "real_estate_use": "A concierge company running dozens of listings across Airbnb, Booking.com and other OTAs needs one calendar that prevents double-bookings, one place to assign and track cleaning after each checkout, and one inbox for guest messages instead of switching between ten separate tools and platform apps. HomeFlow synchronizes the channels, auto-generates cleaning tasks from bookings, and lets the team and the property owner each see their own view of the same operation.\n",
+      "features": [
+        "Multi-platform channel manager with real-time sync across 40+ OTAs",
+        "Visual multi-property booking and pricing planner",
+        "Automated cleaning and maintenance task scheduling with checklists",
+        "Stripe-based guest payments and pre-authorized deposits",
+        "Unified team and guest messaging with AI auto-replies and translation",
+        "Owner and field-team mobile apps"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Run bookings, pricing and cleaning across dozens of short-term rental listings from one calendar"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "See their own properties' planning and revenue from a dedicated owner app"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "landlord-owner"
+      ],
+      "segments": [
+        "hospitality",
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "per-unit",
+        "public_pricing": true,
+        "from": 14,
+        "currency": "EUR",
+        "unit": "par bien par mois",
+        "url": "https://myhomeflow.fr/tarifs"
+      },
+      "integrations": [
+        "Airbnb",
+        "Booking.com",
+        "Stripe"
+      ],
+      "ai": {
+        "capabilities": [
+          "Réponses automatiques et traduction dans la messagerie unifiée équipe/voyageurs"
+        ]
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "loftely",
+        "arkiane"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/homeflow.png",
+        "source_url": "https://myhomeflow.fr/_next/image?url=%2Fimages%2FLogoFooter.png&amp;w=2048&amp;q=75",
+        "fetched_on": "2026-09-17"
+      },
+      "signals": {
+        "pricing": "https://myhomeflow.fr/tarifs",
+        "security": "https://myhomeflow.fr/securite",
+        "privacy": "https://myhomeflow.fr/politique-de-confidentialite",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-09-17"
+      },
+      "sources": [
+        {
+          "url": "https://myhomeflow.fr",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://myhomeflow.fr/tarifs",
+          "note": "page tarifs"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-17"
     },
     {
       "slug": "homegauge",
@@ -13362,6 +13760,97 @@
       "updated": "2026-08-25"
     },
     {
+      "slug": "lighttable",
+      "name": "LightTable",
+      "editor": "LightTable",
+      "website": "https://www.lighttable.ai",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "construction-development",
+      "founded": 2024,
+      "positioning": "AI review of construction drawings and specs that surfaces coordination and constructability issues before a project breaks ground.",
+      "description": "LightTable is an AI-powered quality-control platform for developers and general contractors. Uploaded drawings, specs and checklists are reviewed to flag coordination and constructability issues across architectural, structural, MEP and civil disciplines, with expert human validation layered on top of the automated findings before an issue reaches a project team.\n",
+      "real_estate_use": "A developer or general contractor uploads a full pre-construction drawing set before breaking ground, instead of relying only on a multi-week manual peer review, and gets AI-flagged conflicts — a wall that doesn't align between the architectural and structural sets, a missing dimension — ranked by cost impact, with issue ownership and resolution tracked through to sign-off.\n",
+      "features": [
+        "AI-based coordination and constructability issue detection",
+        "Cross-discipline review across architectural, structural, MEP and civil sets",
+        "Cost-impact prioritization of flagged issues",
+        "Expert human validation layer on top of AI findings",
+        "Issue ownership and resolution tracking (ball-in-court)"
+      ],
+      "use_cases": [
+        {
+          "persona": "developer-builder",
+          "job": "Review a full drawing set for coordination issues before construction starts"
+        },
+        {
+          "persona": "developer-builder",
+          "job": "Prioritize which design conflicts to fix first by their cost impact"
+        }
+      ],
+      "personas": [
+        "developer-builder"
+      ],
+      "segments": [
+        "multifamily",
+        "office",
+        "mixed-use"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "ai": {
+        "capabilities": [
+          "AI-based review of construction drawings and specs for coordination and constructability issues",
+          "Cost-impact prioritization of flagged issues"
+        ]
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "reviews": [],
+      "logo": {
+        "file": "logos/lighttable.png",
+        "source_url": "https://www.lighttable.ai/apple-touch-icon.png",
+        "fetched_on": "2026-09-17"
+      },
+      "signals": {
+        "privacy": "https://www.lighttable.ai/privacy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-17"
+      },
+      "sources": [
+        {
+          "url": "https://www.lighttable.ai",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://www.lighttable.ai/solutions",
+          "note": "page solutions"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-17"
+    },
+    {
       "slug": "limble",
       "name": "Limble CMMS",
       "editor": "Limble",
@@ -13845,6 +14334,112 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "loftely",
+      "name": "Loftely",
+      "editor": "Loftely",
+      "website": "https://www.loftely.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "short-term-rental",
+      "positioning": "Logiciel français de gestion de conciergerie et location courte durée : réservations, ménages, facturation propriétaire, hébergé en France.",
+      "description": "Loftely is a French management platform for short-term rental concierge companies, centralizing bookings synced across platforms via iCal, automated cleaning and maintenance task scheduling triggered by each reservation, owner invoicing and a dedicated owner portal, and multilingual digital guidebooks, priced per active property per month with the first property free.\n",
+      "description_fr": "Loftely est une plateforme française de gestion pour les conciergeries de location courte durée, qui centralise les réservations synchronisées entre plateformes via iCal, la planification automatique des tâches de ménage et d'entretien déclenchées par chaque réservation, la facturation propriétaire avec un espace dédié, et des livrets d'accueil multilingues, facturée par logement actif et par mois avec le premier logement gratuit.\n",
+      "real_estate_use": "A concierge company managing a portfolio of seasonal rentals needs bookings from Airbnb, Booking.com and other channels to land in one calendar, each new reservation to automatically create its cleaning and check-in tasks for the field team, and the resulting activity to flow into the property owner's monthly invoice and portal — instead of reconciling separate booking, task and billing tools by hand.\n",
+      "features": [
+        "Two-way iCal synchronization across booking platforms into one calendar",
+        "Automated task creation for cleaning, check-in and check-out per booking",
+        "Owner invoicing and a self-service owner portal",
+        "Multilingual digital guidebooks for guests",
+        "Mobile app for field agents"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Turn each new booking into scheduled cleaning and check-in tasks automatically"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "Track their own properties' bookings and invoices from a dedicated owner space"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "landlord-owner"
+      ],
+      "segments": [
+        "hospitality",
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "per-unit",
+        "public_pricing": true,
+        "from": 5,
+        "currency": "EUR",
+        "unit": "par logement actif par mois, HT",
+        "url": "https://www.loftely.com/tarifs"
+      },
+      "integrations": [
+        "Airbnb",
+        "Booking.com",
+        "Abritel",
+        "SuperHote",
+        "Lodgify"
+      ],
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [
+          "ios",
+          "android"
+        ],
+        "languages": [
+          "fr"
+        ]
+      },
+      "alternatives": [
+        "homeflow",
+        "arkiane"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/loftely.png",
+        "source_url": "https://www.loftely.com/img/logos/logo-loftely-square-black.jpg",
+        "fetched_on": "2026-09-17"
+      },
+      "signals": {
+        "pricing": "https://www.loftely.com/tarifs",
+        "security": "https://www.loftely.com/securite",
+        "privacy": "https://www.loftely.com/confidentialite",
+        "status": "https://status.loftely.com",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-09-17"
+      },
+      "sources": [
+        {
+          "url": "https://www.loftely.com",
+          "note": "site éditeur"
+        },
+        {
+          "url": "https://www.loftely.com/tarifs",
+          "note": "page tarifs"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-17"
     },
     {
       "slug": "lofty",

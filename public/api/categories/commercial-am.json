@@ -208,6 +208,7 @@
       ],
       "positioning": "A configurable French CRM with a real estate vertical — for organisations whose process does not fit an agency package.",
       "description": "Eudonet is a French CRM platform sold in vertical editions, including one for real estate professionals: contact and asset relationship management, prospect and mandate pipelines, campaign management, and configurable objects and workflows, hosted in France.\n",
+      "description_fr": "Eudonet est une plateforme CRM française vendue en éditions verticales, dont une pour les professionnels de l'immobilier : gestion de la relation contacts et biens, pipelines de prospects et de mandats, gestion de campagnes, et objets et workflows paramétrables, hébergés en France.\n",
       "real_estate_use": "It is chosen by organisations that are not classic agencies — institutional owners, developers, public bodies, networks — whose relationship processes do not match a transaction package. The configurability is the point: an object model for buildings, tenants, prospects and operations can be shaped to the organisation rather than the reverse, with French hosting satisfying public procurement requirements.\n",
       "features": [
         "Configurable object model for assets, contacts and operations",

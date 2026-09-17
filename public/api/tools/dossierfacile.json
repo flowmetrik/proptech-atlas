@@ -11,6 +11,7 @@
   "founded": 2019,
   "positioning": "A public service that produces a certified, watermarked tenant file — free, open source, and designed to make forgery pointless.",
   "description": "DossierFacile is a French public digital service that helps a rental candidate assemble their application file, checks it against the list of documents a landlord may legally request, and issues a verified PDF whose pages are watermarked and whose authenticity can be confirmed online. The code is published as open source.\n",
+  "description_fr": "DossierFacile est un service public numérique français qui aide un candidat locataire à constituer son dossier de location, le vérifie par rapport à la liste des pièces qu'un bailleur a le droit de demander légalement, et délivre un PDF vérifié dont les pages sont filigranées et dont l'authenticité peut être confirmée en ligne. Le code est publié en open source.\n",
   "real_estate_use": "It addresses two failures at once. Candidates submit incomplete files and are rejected without knowing why; landlords receive falsified pay slips and cannot tell. A DossierFacile file arrives complete, in the legal scope, and verifiable — and because the service is free and public, it is increasingly accepted as the standard format by agencies and guarantee schemes.\n",
   "features": [
     "Guided assembly of a complete rental application file",

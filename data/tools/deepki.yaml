@@ -11,6 +11,11 @@ description: >
   Deepki collects and enriches building energy and asset data across a portfolio, benchmarks
   performance, produces regulatory and investor ESG reporting, and models decarbonisation
   pathways with the capital expenditure required to reach them.
+description_fr: >
+  Deepki collecte et enrichit les données énergétiques et patrimoniales des bâtiments à l'échelle
+  d'un portefeuille, évalue la performance par comparaison, produit le reporting ESG réglementaire
+  et destiné aux investisseurs, et modélise des trajectoires de décarbonation avec le capital
+  nécessaire pour les atteindre.
 real_estate_use: >
   European regulation makes this operational rather than reputational: the décret tertiaire
   requires measured consumption reductions on French tertiary buildings, and the EU taxonomy

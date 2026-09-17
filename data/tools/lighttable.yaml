@@ -1,0 +1,59 @@
+slug: lighttable
+name: LightTable
+editor: LightTable
+website: https://www.lighttable.ai
+hq_country: US
+markets: [US]
+category: construction-development
+founded: 2024
+positioning: AI review of construction drawings and specs that surfaces coordination and constructability issues before a project breaks ground.
+description: >
+  LightTable is an AI-powered quality-control platform for developers and general
+  contractors. Uploaded drawings, specs and checklists are reviewed to flag
+  coordination and constructability issues across architectural, structural, MEP and
+  civil disciplines, with expert human validation layered on top of the automated
+  findings before an issue reaches a project team.
+real_estate_use: >
+  A developer or general contractor uploads a full pre-construction drawing set before
+  breaking ground, instead of relying only on a multi-week manual peer review, and
+  gets AI-flagged conflicts — a wall that doesn't align between the architectural and
+  structural sets, a missing dimension — ranked by cost impact, with issue ownership
+  and resolution tracked through to sign-off.
+features:
+  - AI-based coordination and constructability issue detection
+  - "Cross-discipline review across architectural, structural, MEP and civil sets"
+  - Cost-impact prioritization of flagged issues
+  - Expert human validation layer on top of AI findings
+  - Issue ownership and resolution tracking (ball-in-court)
+use_cases:
+  - persona: developer-builder
+    job: Review a full drawing set for coordination issues before construction starts
+  - persona: developer-builder
+    job: Prioritize which design conflicts to fix first by their cost impact
+personas: [developer-builder]
+segments: [multifamily, office, mixed-use]
+company_sizes: [midmarket, enterprise]
+pricing:
+  model: quote
+  public_pricing: false
+ai:
+  capabilities: [AI-based review of construction drawings and specs for coordination and constructability issues, Cost-impact prioritization of flagged issues]
+product:
+  api: false
+  open_source: false
+  mobile: []
+  languages: [en]
+reviews: []
+logo:
+  file: logos/lighttable.png
+  source_url: https://www.lighttable.ai/apple-touch-icon.png
+  fetched_on: "2026-09-17"
+signals:
+  privacy: https://www.lighttable.ai/privacy
+  site_languages: [en]
+  checked_on: "2026-09-17"
+sources:
+  - { url: https://www.lighttable.ai, note: site éditeur }
+  - { url: https://www.lighttable.ai/solutions, note: page solutions }
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-09-17"

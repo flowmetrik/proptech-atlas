@@ -16,6 +16,15 @@ description: >
   grids and document requirements the broker has configured for each partner bank. It
   also handles commission, invoicing and activity reporting, and offers a broker
   website module. The editor states more than 20,000 professionals use it.
+description_fr: >
+  Eloa publie eCredits, une plateforme paramétrable pour les intermédiaires en crédit réglementés
+  en France, ainsi qu'eImmo pour le financement locatif et travaux et eMobilite pour les
+  concessionnaires automobiles. eCredits couvre le crédit immobilier, à la consommation,
+  professionnel et le rachat de crédits. Son moteur de calcul produit des scénarios de prêt
+  amortissables, à taux zéro, in fine, relais, à paliers et lissés, et applique les grilles de
+  taux et les pièces exigées que le courtier a paramétrées pour chaque banque partenaire. Il gère
+  aussi la commission, la facturation et le reporting d'activité, et propose un module de site web
+  courtier. L'éditeur revendique plus de 20 000 professionnels utilisateurs.
 real_estate_use: >
   A French mortgage broker is an IOBSP: the file it assembles has to satisfy both the
   borrower and a bank whose rate grid, document list and commission terms differ from

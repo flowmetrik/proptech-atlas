@@ -132,6 +132,7 @@
       "category": "listing-syndication",
       "positioning": "One-click listing syndication to 50+ French real estate portals, billed per use, with AI-assisted content.",
       "description": "Diffuze is a French listing syndication tool that pushes real estate listings (sale, rental, viager) from a single interface to more than 50 portals including SeLoger, Logic-Immo and Le Figaro Immobilier. It is billed per use rather than by subscription, and includes AI features for description writing and photo retouching.\n",
+      "description_fr": "Diffuze est un outil français de multidiffusion d'annonces immobilières qui pousse les annonces (vente, location, viager) depuis une seule interface vers plus de 50 portails dont SeLoger, Logic-Immo et Le Figaro Immobilier. Il est facturé à l'usage plutôt que par abonnement, et inclut des fonctions IA de rédaction de description et de retouche photo.\n",
       "real_estate_use": "An agent or agency uses Diffuze to publish a listing once and have it distributed across dozens of portals within about 24 hours, generate an AI-written description from the property's characteristics, and apply automatic photo retouching or virtual staging, without committing to a monthly subscription for portal access.\n",
       "features": [
         "Syndication to 50+ portals (SeLoger, Logic-Immo, Le Figaro Immobilier, Belles Demeures)",

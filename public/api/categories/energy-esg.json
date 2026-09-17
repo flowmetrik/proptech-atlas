@@ -127,6 +127,7 @@
       "founded": 2014,
       "positioning": "ESG for real estate portfolios, from data collection to the CRREM trajectory an investor is judged against.",
       "description": "Deepki collects and enriches building energy and asset data across a portfolio, benchmarks performance, produces regulatory and investor ESG reporting, and models decarbonisation pathways with the capital expenditure required to reach them.\n",
+      "description_fr": "Deepki collecte et enrichit les données énergétiques et patrimoniales des bâtiments à l'échelle d'un portefeuille, évalue la performance par comparaison, produit le reporting ESG réglementaire et destiné aux investisseurs, et modélise des trajectoires de décarbonation avec le capital nécessaire pour les atteindre.\n",
       "real_estate_use": "European regulation makes this operational rather than reputational: the décret tertiaire requires measured consumption reductions on French tertiary buildings, and the EU taxonomy and SFDR shape what a fund must disclose. Deepki assembles the data across countries and landlord-tenant boundaries — the hardest part, since the landlord often does not hold the tenant's meter data — and turns it into the trajectory and the works plan.\n",
       "features": [
         "Automated collection of energy, water and asset data across a portfolio",

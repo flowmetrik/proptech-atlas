@@ -12,6 +12,12 @@ description: >
   prepares case files pulled from the landlord's ERP, runs the committee session
   on-screen or fully remotely with e-signed minutes and electronic voting, and pushes
   the attribution result back into the ERP.
+description_fr: >
+  Dematimmo est un produit SaaS français d'Activinnov qui dématérialise la CALEOL — la commission
+  réglementée que les bailleurs sociaux français doivent tenir avant d'attribuer un logement. Il
+  prépare les dossiers de passage extraits de l'ERP du bailleur, fait tourner la séance de
+  commission à l'écran ou entièrement à distance avec un procès-verbal et un vote électroniques,
+  et repousse le résultat de l'attribution dans l'ERP.
 real_estate_use: >
   A social landlord's allocation team pulls candidate case files automatically from
   its ERP ahead of a CALEOL session, runs the session either in person with a

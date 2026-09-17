@@ -2,7 +2,7 @@
 
 <!-- Généré par `npm run data:emit`. Ne pas éditer à la main : éditer `data/tools/*.yaml`. -->
 
-276 produits · 154 🇺🇸 · 152 🇫🇷 · mis à jour le 2026-09-16
+282 produits · 157 🇺🇸 · 155 🇫🇷 · mis à jour le 2026-09-17
 
 Version navigable : https://flowmetrik.github.io/proptech-atlas/explore
 
@@ -108,6 +108,7 @@ _Sites, recherche IDX, marque et campagnes pour agents et agences._
 
 | Produit | Éditeur | Marchés | Usage en immobilier |
 |---|---|---|---|
+| [ACCESS.com](data/tools/access-com.yaml) | ACCESS | 🇺🇸 | An agent or small team needs a branded website and a listing presentation ready before a listing appointment, without hiring a designer or waiting on a web agency. They pick a theme… |
 | [AgentFire](data/tools/agentfire.yaml) | AgentFire | 🇺🇸 | Competing for "homes for sale in Austin" is hopeless against the portals; competing for a specific neighbourhood is not. AgentFire's content structures exist for that strategy — an agent… |
 | [Clap.tech](data/tools/clap-tech.yaml) | Clap.tech | 🇫🇷 | An agency equips its street-facing window displays with clap.show to show its listings without manual updates, turns its listings into short videos for social media with clap.video, has… |
 | [Humaniz](data/tools/humaniz.yaml) | Humaniz | 🇺🇸 | Une équipe qui recrute en continu perd du temps à publier des annonces sur des dizaines de jobboards et à trier des candidatures non qualifiées : Humaniz diffuse l'offre automatiquement… |
@@ -270,7 +271,9 @@ _Faisabilité, pilotage de projet, suivi de chantier et livraison._
 | [Document Crunch](data/tools/document-crunch.yaml) | Document Crunch | 🇺🇸 | A general contractor's project executive is handed a fifty-page subcontract the week before a bid deadline and has neither the time nor, in many firms, in-house counsel to read it clause… |
 | [Finalcad](data/tools/finalcad.yaml) | Finalcad | 🇫🇷 | Field adoption is the whole battle: a tool a subcontractor's foreman will not open produces no data, whatever it can do. Finalcad's design choice is to strip the field experience down to… |
 | [Graneet](data/tools/graneet.yaml) | Graneet | 🇫🇷 | Construction firms in France bill by situation de travaux — a periodic statement of work completed — and their margin is decided by the gap between the estimate and the actual site cost.… |
+| [Higharc](data/tools/higharc.yaml) | Higharc | 🇺🇸 | A production homebuilder standardizes a set of house plans and needs every buyer-facing option — elevation, garage orientation, a structural change — to update construction drawings and… |
 | [Kairnial](data/tools/kairnial.yaml) | Thinkproject | 🇫🇷 | On a large French project the governing risk is documentary: which version of a plan was approved, who validated it, and what evidence exists that a reserve was lifted. Kairnial… |
+| [LightTable](data/tools/lighttable.yaml) | LightTable | 🇺🇸 | A developer or general contractor uploads a full pre-construction drawing set before breaking ground, instead of relying only on a multi-week manual peer review, and gets AI-flagged… |
 | [Northspyre](data/tools/northspyre.yaml) | Northspyre | 🇺🇸 | A developer's exposure is the gap between the budget presented to investors and the anticipated final cost. That gap usually surfaces late because invoices and change orders are… |
 | [Obat](data/tools/obat.yaml) | Obat | 🇫🇷 | A tradesperson's quote is a legal document: reduced VAT rates depend on the works and the age of the property, the décennale insurance reference must appear, and a renovation aid scheme… |
 | [Procore](data/tools/procore.yaml) | Procore Technologies | 🇺🇸 🇫🇷 | On a development, disputes are usually about which version of a document someone was working from. Procore holds the drawings, RFIs, submittals, daily logs, change orders and photos in… |
@@ -359,11 +362,14 @@ _Channel manager, pricing, relation voyageur et ménage pour la courte durée._
 | Produit | Éditeur | Marchés | Usage en immobilier |
 |---|---|---|---|
 | [Amenitiz](data/tools/amenitiz.yaml) | Amenitiz | 🇫🇷 | The independent French hospitality operator — a guesthouse, a small hotel, a set of gîtes — typically has no website of its own and depends entirely on commissioned platforms. Amenitiz… |
+| [Arkiane](data/tools/arkiane.yaml) | Arkiane (groupe Octrolis) | 🇫🇷 | A seasonal-rental agency running several offices needs its bookings, pricing by tour-operator rate and trust accounting to stay consistent across sites and accountants, and its… |
 | [Breezeway](data/tools/breezeway.yaml) | Breezeway | 🇺🇸 🇫🇷 | A vacation rental manager with a scattered portfolio and a mix of employed and subcontracted cleaners has the same problem every turnover day: knowing that each property was actually… |
 | [Guesty](data/tools/guesty.yaml) | Guesty | 🇺🇸 🇫🇷 | A manager running two hundred apartments across four booking platforms faces a double-booking risk on every listing and a message volume no team can answer manually. Guesty synchronises… |
+| [HomeFlow](data/tools/homeflow.yaml) | HomeFlow | 🇫🇷 | A concierge company running dozens of listings across Airbnb, Booking.com and other OTAs needs one calendar that prevents double-bookings, one place to assign and track cleaning after… |
 | [Hostaway](data/tools/hostaway.yaml) | Hostaway | 🇺🇸 🇫🇷 | Its typical buyer is a manager scaling from twenty to two hundred units who wants to keep their existing pricing and cleaning tools. The open integration approach means the operator… |
 | [Icnea](data/tools/icnea.yaml) | Icnea | 🇫🇷 | A vacation-rental management agency running a portfolio of properties across many booking channels needs bookings, pricing and owner reporting to stay consistent everywhere at once.… |
 | [Lodgify](data/tools/lodgify.yaml) | Lodgify | 🇺🇸 🇫🇷 | For an owner with two or three holiday properties, the practical question is whether to pay fifteen percent commission forever. Lodgify's proposition is a bookable site they own, with… |
+| [Loftely](data/tools/loftely.yaml) | Loftely | 🇫🇷 | A concierge company managing a portfolio of seasonal rentals needs bookings from Airbnb, Booking.com and other channels to land in one calendar, each new reservation to automatically… |
 | [OwnerRez](data/tools/ownerrez.yaml) | OwnerRez | 🇺🇸 | Its distinguishing depth is legal and financial rather than marketing. Renter agreements are signed per booking, damage protection is attached, and lodging tax is calculated by… |
 | [PriceLabs](data/tools/pricelabs.yaml) | PriceLabs | 🇺🇸 🇫🇷 | Nightly pricing is the single biggest lever on STR revenue and the one humans handle worst — most hosts set a rate and forget it. PriceLabs adjusts every listing daily against local… |
 | [Smily](data/tools/smily.yaml) | Smily (formerly BookingSync) | 🇫🇷 🇺🇸 | European managers face commission rates that make direct booking the difference between a viable business and a marginal one. Smily's emphasis on the owned website and its own booking… |

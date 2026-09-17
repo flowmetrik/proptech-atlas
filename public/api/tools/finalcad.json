@@ -11,6 +11,7 @@
   "founded": 2011,
   "positioning": "Digital site follow-up designed to be adopted by people who do not want software — foremen and subcontractors.",
   "description": "Finalcad provides mobile applications for construction site monitoring: observations and snagging on plans, quality and safety checklists, progress tracking, task assignment and automatic reporting, with a deliberately minimal field interface.\n",
+  "description_fr": "Finalcad fournit des applications mobiles pour le suivi de chantier : observations et levée de réserves sur plans, checklists qualité et sécurité, suivi d'avancement, affectation de tâches et reporting automatique, avec une interface terrain volontairement minimale.\n",
   "real_estate_use": "Field adoption is the whole battle: a tool a subcontractor's foreman will not open produces no data, whatever it can do. Finalcad's design choice is to strip the field experience down to capture and assignment, keeping the analysis for the office — which is why it appears on sites where previous attempts at digitalisation failed.\n",
   "features": [
     "Observation and snagging capture on plans",

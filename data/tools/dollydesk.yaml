@@ -16,6 +16,16 @@ description: >
   opens Nuki or SmartAir smart locks as a paid option. Prepaid packs, for instance ten
   days, are supported alongside contracts. The product is operated and supported by a
   single person, who also handles migration from Nexudus, OfficeRnD or Cosoft.
+description_fr: >
+  DollyDesk est un outil français de gestion du coworking vendu à un tarif fixe plutôt qu'au
+  membre, jusqu'à cinquante bureaux et salles de réunion réservables. Les membres choisissent une
+  place sur un plan interactif qui montre des photos de chaque espace, puis paient par carte via
+  Stripe ou via PayFiP pour les espaces publics, ou par prélèvement SEPA récurrent. L'outil émet
+  des factures électroniques via une plateforme agréée, exporte vers la comptabilité, synchronise
+  les réservations avec Google, Outlook et Apple Calendar via iCal, et ouvre les serrures
+  connectées Nuki ou SmartAir en option payante. Des forfaits prépayés, par exemple dix jours,
+  sont pris en charge en plus des contrats. Le produit est exploité et supporté par une seule
+  personne, qui prend aussi en charge la migration depuis Nexudus, OfficeRnD ou Cosoft.
 real_estate_use: >
   A small coworking space or tiers-lieu reaches for DollyDesk when the manager's day
   is eaten by two questions, is there a seat free and where is my invoice. Members

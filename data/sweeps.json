@@ -83,7 +83,12 @@
     "runs": 1,
     "found": 1,
     "kept": 0,
-    "last_error": null
+    "last_error": null,
+    "last_swept_manual": "2026-09-17",
+    "manual_runs": 1,
+    "manual_found": 0,
+    "manual_kept": 0,
+    "last_manual_note": "page SPA : compteurs 'exposants/participants' à 0 dans le HTML statique, aucun nom listé ; l'édition 2026 est le 4-5/11, pas encore peuplée. Rien d'exploitable à la lecture automatisée avant l'événement."
   },
   "septeo-partenaires": {
     "last_swept": "2026-08-25",
@@ -324,5 +329,26 @@
     "manual_found": 36,
     "manual_kept": 2,
     "last_manual_note": "Parity et Fyxt retenus ; Engrain, Measurabl, SmartRent et TurboTenant déjà catalogués ; Kasa écarté (opérateur d'hébergement à revenu partagé, pas un éditeur vendu à des tiers) ; le reste du portefeuille hors périmètre logiciel ou pas assez d'ancrage produit pour ce round"
+  },
+  "metaprop": {
+    "last_swept_manual": "2026-09-17",
+    "manual_runs": 1,
+    "manual_found": 2,
+    "manual_kept": 2,
+    "last_manual_note": "page portfolio rendue côté client (aucune donnée de grille dans le HTML statique) ; les deux investissements 2026 de MetaProp trouvés par recherche web ciblée à la place — Higharc (design homebuilding IA) et LightTable (QA/QC IA pré-construction), tous deux retenus."
+  },
+  "inman-connect": {
+    "last_swept_manual": "2026-09-17",
+    "manual_runs": 1,
+    "manual_found": 2,
+    "manual_kept": 1,
+    "last_manual_note": "page événements bloquée (403, challenge JS) ; exposants d'Inman Connect NY/San Diego 2026 trouvés par recherche web — ACCESS.com retenu (plateforme de site web agent), Agent Image écarté (403 à la vérification, site injoignable)."
+  },
+  "mipim-proptech": {
+    "last_swept_manual": "2026-09-17",
+    "manual_runs": 1,
+    "manual_found": 0,
+    "manual_kept": 0,
+    "last_manual_note": "page d'accueil générale, aucune liste d'exposants proptech exploitable sans compte visiteur ; rien retenu cette passe."
   }
 }

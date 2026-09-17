@@ -18,6 +18,15 @@ description: >
   registry. The same subscription covers the office side: quotes and Factur-X
   invoices, online payment and a client portal, scheduling with Google Calendar. Field
   work runs offline from iOS and Android applications.
+description_fr: >
+  Diag Pilote est un outil en ligne pour les diagnostiqueurs immobiliers français. Il porte treize
+  modules de diagnostic réglementaires écrits selon les normes NF applicables : DPE, électricité
+  NF C 16-600, gaz NF P45-500, amiante NF X46-020, plomb NF X46-030 et NF X46-035, termites NF
+  P03-201, état parasitaire NF P03-200, métrage Carrez et Boutin, AER, DTG et PPPT, et en tire le
+  rapport PDF standard. Le module DPE fait tourner un moteur de calcul 3CL et transmet au registre
+  de l'ADEME. Le même abonnement couvre la partie bureau : devis et factures Factur-X, paiement en
+  ligne et portail client, planification avec Google Calendar. Le travail sur le terrain tourne
+  hors ligne depuis des applications iOS et Android.
 real_estate_use: >
   A diagnostician spends the morning in a flat with no network, capturing observations
   for four or five separate regulated reports, then spends the afternoon turning them

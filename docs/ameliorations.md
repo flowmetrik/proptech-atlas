@@ -12,6 +12,29 @@ qu'une chose a été tentée vaut mieux que de la retenter.
 
 ## Ouvert — qualité de la donnée
 
+- **`imgLogoCandidates()` classe une classe générique au-dessus d'un alt vide,
+  et bat parfois le vrai logo.** Rencontré le 17/09 sur trois fiches neuves :
+  `higharc` a adopté le logo client « Signature Homes », affiché dans un
+  carrousel d'études de cas (`class="case-study-tab-logo"`, `alt=""`) — ce
+  candidat vaut 1200 dans le classement (`classMatch` vrai, `altMatch` faux),
+  au-dessus de l'apple-touch-icon réel (1000 + sa taille, ≤ 1180 en pratique).
+  Un logo tiers dans un bloc « témoignages/études de cas » porte presque
+  toujours une classe contenant « logo » sans jamais nommer la marque dans
+  `alt` — c'est exactement l'inverse de ce que `classMatch && altMatch → 2000`
+  cherche à récompenser, et rien ne pénalise le cas où seule la classe
+  correspond. `lighttable` et `loftely` montrent un second piège, plus fin :
+  le vrai logo de `loftely` (`alt="Loftely"`, donc `altMatch` vrai, rang 1500)
+  existe bien dans le HTML mais n'a **pas** été retenu — l'URL passe par un
+  proxy Nuxt `_ipx/...` dont la requête contient des entités HTML (`&amp;`)
+  jamais décodées avant la récupération, qui a donc dû échouer silencieusement
+  et retomber sur l'image suivante (une capture d'écran marketing, rang 5).
+  Les trois corrigés à la main le 17/09 (voir `data/logos-refuses.json`) ;
+  aucun correctif de code encore tenté. Piste pour la prochaine passe :
+  décoder les entités HTML des `src`/`srcset` avant `abs()`, et réserver le
+  rang ≥ 1200 aux candidats dont `alt` nomme la marque, pas à ceux qui n'ont
+  qu'une classe « logo ».
+
+
 - **Passer des fiches en `verified`.** 158 fiches, **zéro vérifiée**. C'est le
   manque le plus important du projet : tout le catalogue est en « rédigé, non
   recoupé ». Vérifier veut dire ouvrir les sources, corriger ce qui a bougé,
@@ -106,11 +129,12 @@ qu'une chose a été tentée vaut mieux que de la retenter.
 - **Comparaison deux à deux.** Une page « X vs Y » pour les paires réellement
   concurrentes. Fort en référencement, mais **risque de contenu creux** : à ne
   faire que si la page dit ce qui sépare vraiment les deux produits.
-- **Descriptions françaises.** 23 fiches sur 114 à siège français ont une
-  `description_fr` au 15/09 (voir l'entrée « fait » du jour) ; 91 restent en
-  anglais seul. C'est un travail de traduction fidèle, fiche par fiche — pas de
-  raccourci automatique sans relecture, sur un champ qui est lu par un visiteur
-  humain.
+- **Descriptions françaises.** 43 fiches sur 118 à siège français (`hq_country:
+  FR` — pas `markets: [FR]`, qui inclut aussi des éditeurs étrangers comme
+  Aareon ou Docusign) ont une `description_fr` au 17/09 (voir l'entrée « fait »
+  du jour) ; 75 restent en anglais seul. C'est un travail de traduction
+  fidèle, fiche par fiche — pas de raccourci automatique sans relecture, sur un
+  champ qui est lu par un visiteur humain.
 - **Sept fiches avaient `description` et `real_estate_use` rédigés en français
   au lieu d'anglais** — corrigé le 15/09 pour ces deux champs. `features`,
   `use_cases[].job` et, pour `brickwise-ai` et `realreports`,
@@ -162,6 +186,19 @@ qu'une chose a été tentée vaut mieux que de la retenter.
 ---
 
 ## Fait
+
+- **2026-09-17** — Suite de la traduction `description_fr` : 20 fiches supplémentaires à
+  siège français (sur les 95 qui en manquaient encore) traduites depuis leur `description`
+  anglaise — `courtisia`, `coworksaas`, `crediteo`, `crypto-septeo`, `danim`,
+  `decisio-habitat`, `deepki`, `dematimmo`, `diacamma`, `diag-pilote`, `diffuze`,
+  `dollydesk`, `dossierfacile`, `dvf`, `eliob`, `eloa`, `eudonet-immobilier`, `finalcad`,
+  `fluximmo`, `garantme`. Traduction fidèle, pas de reformulation. 43/118 fiches à siège
+  français ont maintenant une `description_fr` (contre 23 le 16/09) ; 75 restent. `npm run
+  data:validate` reste vert (276 fiches). Repéré en chemin : le comptage précédent de ce
+  carnet (« 23/114 ») confondait le marché FR (`markets: [FR]`, 152 fiches, dont beaucoup
+  d'éditeurs étrangers comme Aareon ou Docusign) avec le siège FR (`hq_country: FR`, 118
+  fiches) — seul ce second ensemble a vocation à recevoir une traduction. Le dénominateur
+  correct pour cette entrée est donc 118, pas 152.
 
 - **2026-09-16** — Suite de la passe du 15/09 : sur les sept fiches déjà
   corrigées pour `description`/`real_estate_use`, les champs restés en

@@ -1,0 +1,71 @@
+slug: loftely
+name: Loftely
+editor: Loftely
+website: https://www.loftely.com
+hq_country: FR
+markets: [FR]
+category: short-term-rental
+positioning: "Logiciel français de gestion de conciergerie et location courte durée : réservations, ménages, facturation propriétaire, hébergé en France."
+description: >
+  Loftely is a French management platform for short-term rental concierge companies,
+  centralizing bookings synced across platforms via iCal, automated cleaning and
+  maintenance task scheduling triggered by each reservation, owner invoicing and a
+  dedicated owner portal, and multilingual digital guidebooks, priced per active
+  property per month with the first property free.
+description_fr: >
+  Loftely est une plateforme française de gestion pour les conciergeries de location courte durée,
+  qui centralise les réservations synchronisées entre plateformes via iCal, la planification
+  automatique des tâches de ménage et d'entretien déclenchées par chaque réservation, la
+  facturation propriétaire avec un espace dédié, et des livrets d'accueil multilingues, facturée
+  par logement actif et par mois avec le premier logement gratuit.
+real_estate_use: >
+  A concierge company managing a portfolio of seasonal rentals needs bookings from
+  Airbnb, Booking.com and other channels to land in one calendar, each new reservation
+  to automatically create its cleaning and check-in tasks for the field team, and the
+  resulting activity to flow into the property owner's monthly invoice and portal —
+  instead of reconciling separate booking, task and billing tools by hand.
+features:
+  - Two-way iCal synchronization across booking platforms into one calendar
+  - "Automated task creation for cleaning, check-in and check-out per booking"
+  - Owner invoicing and a self-service owner portal
+  - Multilingual digital guidebooks for guests
+  - Mobile app for field agents
+use_cases:
+  - persona: property-manager
+    job: Turn each new booking into scheduled cleaning and check-in tasks automatically
+  - persona: landlord-owner
+    job: Track their own properties' bookings and invoices from a dedicated owner space
+personas: [property-manager, landlord-owner]
+segments: [hospitality, residential]
+company_sizes: [solo, smb]
+pricing:
+  model: per-unit
+  public_pricing: true
+  from: 5
+  currency: EUR
+  unit: "par logement actif par mois, HT"
+  url: https://www.loftely.com/tarifs
+integrations: [Airbnb, Booking.com, Abritel, SuperHote, Lodgify]
+product:
+  api: false
+  open_source: false
+  mobile: [ios, android]
+  languages: [fr]
+alternatives: [homeflow, arkiane]
+reviews: []
+logo:
+  file: logos/loftely.png
+  source_url: https://www.loftely.com/img/logos/logo-loftely-square-black.jpg
+  fetched_on: "2026-09-17"
+signals:
+  pricing: https://www.loftely.com/tarifs
+  security: https://www.loftely.com/securite
+  privacy: https://www.loftely.com/confidentialite
+  status: https://status.loftely.com
+  site_languages: [fr]
+  checked_on: "2026-09-17"
+sources:
+  - { url: https://www.loftely.com, note: site éditeur }
+  - { url: https://www.loftely.com/tarifs, note: page tarifs }
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-09-17"
