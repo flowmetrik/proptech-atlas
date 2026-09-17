@@ -180,6 +180,12 @@ qu'une chose a été tentée vaut mieux que de la retenter.
   #21 (quatre fiches, traductions) confirme la même annotation ; le site
   public sert toujours la version d'avant le 11/09 malgré quatre fusions
   successives sur `main` (#18 à #21) depuis le début du blocage.
+  **Toujours actif le 17/09** — septième jour. La fusion de la PR #23 (six
+  fiches, traductions, correctif logos) confirme la même annotation sur
+  `daily-health` (run 35090351838) et sur les deux runs déclenchés par la
+  fusion (`CI` et `Deploy to GitHub Pages`, 35194365410/385, 4 s, 0 étape).
+  Cinq fusions sans déploiement depuis le 11/09 (#18 à #23, moins le numéro
+  #22 qui documentait déjà ce blocage sans ajouter de fiche).
 - **Identifiant GA4.** La mesure est câblée et attend la variable de dépôt
   `GA4_MEASUREMENT_ID`. Sans elle, aucune ligne de script tiers n'est émise.
 
