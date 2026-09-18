@@ -1,0 +1,62 @@
+slug: fixflo
+name: Fixflo
+editor: Fixflo
+website: https://www.fixflo.com
+hq_country: GB
+markets: [US]
+category: facility-maintenance
+positioning: "Smart repairs and maintenance software that streamlines reporting, workflow and compliance for property managers."
+description: >
+  Fixflo is a repairs and maintenance management platform for residential and
+  commercial property managers. Tenants and residents report issues through an online
+  form, and the platform routes the report through a configurable workflow to
+  contractors, tracking the job from first report to final invoice. It covers
+  lettings, block management, commercial (CAFM), build to rent, and student
+  accommodation, and ships with a contractor marketplace and an AI module (Aidenn) for
+  triaging repair reports and reading fire risk assessments.
+real_estate_use: >
+  A letting agent or block manager receives a stream of repair reports from tenants
+  and leaseholders and needs each one routed to the right contractor, tracked to
+  completion, and logged for compliance — planned preventative maintenance in
+  particular leaves no room for a missed inspection. Fixflo replaces the
+  phone-and-spreadsheet routine with a workflow that timestamps every step from report
+  to invoice, and its Aidenn AI module pre-triages incoming reports and can process
+  fire risk assessment documents automatically.
+features:
+  - Reactive repair reporting via online form
+  - Configurable maintenance workflow engine
+  - Planned preventative maintenance scheduling
+  - Contractor marketplace
+  - Aidenn AI repair triage and compliance document reading
+  - Customisable operational dashboards
+use_cases:
+  - persona: property-manager
+    job: Route tenant-reported repairs to contractors and track each job to invoice
+  - persona: facility-manager
+    job: Schedule and log planned preventative maintenance for compliance
+personas: [property-manager, facility-manager, landlord-owner]
+segments: [residential, multifamily, office, coliving-student]
+company_sizes: [smb, midmarket, enterprise]
+pricing:
+  model: quote
+  public_pricing: false
+product:
+  api: false
+  open_source: false
+  mobile: []
+  languages: [en]
+reviews: []
+logo:
+  file: logos/fixflo.png
+  source_url: https://www.fixflo.com/hs-fs/hubfs/Artboard%2013%20copy%208.png?width=237&height=120&name=Artboard%2013%20copy%208.png
+  fetched_on: "2026-09-18"
+signals:
+  pricing: https://www.fixflo.com/pricing/lettings
+  privacy: https://www.fixflo.com/privacy-policy
+  status: https://status.fixflo.com
+  site_languages: [en]
+  checked_on: "2026-09-18"
+sources:
+  - { url: https://www.fixflo.com, note: site éditeur — accueil }
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-09-18"

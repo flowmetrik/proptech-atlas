@@ -4,23 +4,23 @@
   "license": "CC-BY-4.0 (data) / MIT (code)",
   "homepage": "https://flowmetrik.github.io/proptech-atlas",
   "repository": "https://github.com/flowmetrik/proptech-atlas",
-  "generated": "2026-09-17",
+  "generated": "2026-09-18",
   "counts": {
-    "tools": 282,
-    "US": 157,
-    "FR": 155,
+    "tools": 288,
+    "US": 162,
+    "FR": 156,
     "categories": 24,
-    "editors": 265,
+    "editors": 271,
     "verified": 0,
     "reviews": 0,
-    "logos": 261,
+    "logos": 267,
     "signals": {
-      "probed": 268,
-      "public_pricing": 68,
+      "probed": 274,
+      "public_pricing": 69,
       "api_docs": 18,
       "security_page": 33,
-      "privacy_page": 199,
-      "status_page": 65
+      "privacy_page": 204,
+      "status_page": 66
     }
   },
   "nodes": [
@@ -178,6 +178,11 @@
       "id": "tool:brickwise-ai",
       "type": "tool",
       "label": "Brickwise AI"
+    },
+    {
+      "id": "tool:briefyourmarket",
+      "type": "tool",
+      "label": "BriefYourMarket"
     },
     {
       "id": "tool:brokermint",
@@ -490,6 +495,11 @@
       "label": "Finalcad"
     },
     {
+      "id": "tool:fixflo",
+      "type": "tool",
+      "label": "Fixflo"
+    },
+    {
       "id": "tool:flexmls",
       "type": "tool",
       "label": "Flexmls"
@@ -635,6 +645,11 @@
       "label": "ICS"
     },
     {
+      "id": "tool:immo-ia",
+      "type": "tool",
+      "label": "Immo IA"
+    },
+    {
       "id": "tool:immofacile",
       "type": "tool",
       "label": "Immofacile"
@@ -710,9 +725,19 @@
       "label": "LeadSimple"
     },
     {
+      "id": "tool:leap",
+      "type": "tool",
+      "label": "Leap"
+    },
+    {
       "id": "tool:leasecake",
       "type": "tool",
       "label": "Leasecake"
+    },
+    {
+      "id": "tool:leasesurance",
+      "type": "tool",
+      "label": "LeaseSurance"
     },
     {
       "id": "tool:leboncoin-immobilier",
@@ -728,6 +753,11 @@
       "id": "tool:leon-scepia",
       "type": "tool",
       "label": "LEON"
+    },
+    {
+      "id": "tool:leonardo247",
+      "type": "tool",
+      "label": "Leonardo247"
     },
     {
       "id": "tool:liciel",
@@ -1835,6 +1865,11 @@
       "label": "Brickwise"
     },
     {
+      "id": "editor:BriefYourMarket",
+      "type": "editor",
+      "label": "BriefYourMarket"
+    },
+    {
       "id": "editor:Buildertrend",
       "type": "editor",
       "label": "Buildertrend"
@@ -2135,6 +2170,11 @@
       "label": "Finalcad"
     },
     {
+      "id": "editor:Fixflo",
+      "type": "editor",
+      "label": "Fixflo"
+    },
+    {
       "id": "editor:FBS",
       "type": "editor",
       "label": "FBS"
@@ -2260,6 +2300,11 @@
       "label": "ICS"
     },
     {
+      "id": "editor:Immo IA",
+      "type": "editor",
+      "label": "Immo IA"
+    },
+    {
       "id": "editor:Immofacile",
       "type": "editor",
       "label": "Immofacile"
@@ -2330,9 +2375,19 @@
       "label": "LeadSimple"
     },
     {
+      "id": "editor:Leap",
+      "type": "editor",
+      "label": "Leap"
+    },
+    {
       "id": "editor:Leasecake",
       "type": "editor",
       "label": "Leasecake"
+    },
+    {
+      "id": "editor:LeaseSurance",
+      "type": "editor",
+      "label": "LeaseSurance"
     },
     {
       "id": "editor:Leboncoin (Adevinta)",
@@ -2348,6 +2403,11 @@
       "id": "editor:Scepia",
       "type": "editor",
       "label": "Scepia"
+    },
+    {
+      "id": "editor:Leonardo247",
+      "type": "editor",
+      "label": "Leonardo247"
     },
     {
       "id": "editor:LICIEL Environnement",
@@ -4753,6 +4813,36 @@
     },
     {
       "from": "tool:brickwise-ai",
+      "rel": "available_in",
+      "to": "market:US"
+    },
+    {
+      "from": "tool:briefyourmarket",
+      "rel": "published_by",
+      "to": "editor:BriefYourMarket"
+    },
+    {
+      "from": "tool:briefyourmarket",
+      "rel": "belongs_to",
+      "to": "category:agent-marketing"
+    },
+    {
+      "from": "tool:briefyourmarket",
+      "rel": "serves_persona",
+      "to": "persona:agent-broker"
+    },
+    {
+      "from": "tool:briefyourmarket",
+      "rel": "serves_persona",
+      "to": "persona:brokerage"
+    },
+    {
+      "from": "tool:briefyourmarket",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:briefyourmarket",
       "rel": "available_in",
       "to": "market:US"
     },
@@ -8042,6 +8132,56 @@
       "to": "tool:procore"
     },
     {
+      "from": "tool:fixflo",
+      "rel": "published_by",
+      "to": "editor:Fixflo"
+    },
+    {
+      "from": "tool:fixflo",
+      "rel": "belongs_to",
+      "to": "category:facility-maintenance"
+    },
+    {
+      "from": "tool:fixflo",
+      "rel": "serves_persona",
+      "to": "persona:property-manager"
+    },
+    {
+      "from": "tool:fixflo",
+      "rel": "serves_persona",
+      "to": "persona:facility-manager"
+    },
+    {
+      "from": "tool:fixflo",
+      "rel": "serves_persona",
+      "to": "persona:landlord-owner"
+    },
+    {
+      "from": "tool:fixflo",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:fixflo",
+      "rel": "covers_segment",
+      "to": "segment:multifamily"
+    },
+    {
+      "from": "tool:fixflo",
+      "rel": "covers_segment",
+      "to": "segment:office"
+    },
+    {
+      "from": "tool:fixflo",
+      "rel": "covers_segment",
+      "to": "segment:coliving-student"
+    },
+    {
+      "from": "tool:fixflo",
+      "rel": "available_in",
+      "to": "market:US"
+    },
+    {
       "from": "tool:flexmls",
       "rel": "published_by",
       "to": "editor:FBS"
@@ -9492,6 +9632,46 @@
       "to": "market:FR"
     },
     {
+      "from": "tool:immo-ia",
+      "rel": "published_by",
+      "to": "editor:Immo IA"
+    },
+    {
+      "from": "tool:immo-ia",
+      "rel": "belongs_to",
+      "to": "category:estimation-pricing"
+    },
+    {
+      "from": "tool:immo-ia",
+      "rel": "also_serves",
+      "to": "category:portals-marketplaces"
+    },
+    {
+      "from": "tool:immo-ia",
+      "rel": "serves_persona",
+      "to": "persona:agent-broker"
+    },
+    {
+      "from": "tool:immo-ia",
+      "rel": "serves_persona",
+      "to": "persona:lender-broker"
+    },
+    {
+      "from": "tool:immo-ia",
+      "rel": "serves_persona",
+      "to": "persona:appraiser"
+    },
+    {
+      "from": "tool:immo-ia",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:immo-ia",
+      "rel": "available_in",
+      "to": "market:FR"
+    },
+    {
       "from": "tool:immofacile",
       "rel": "published_by",
       "to": "editor:Immofacile"
@@ -10347,6 +10527,51 @@
       "to": "tool:rentmanager"
     },
     {
+      "from": "tool:leap",
+      "rel": "published_by",
+      "to": "editor:Leap"
+    },
+    {
+      "from": "tool:leap",
+      "rel": "belongs_to",
+      "to": "category:tenant-screening"
+    },
+    {
+      "from": "tool:leap",
+      "rel": "serves_persona",
+      "to": "persona:property-manager"
+    },
+    {
+      "from": "tool:leap",
+      "rel": "serves_persona",
+      "to": "persona:landlord-owner"
+    },
+    {
+      "from": "tool:leap",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:leap",
+      "rel": "covers_segment",
+      "to": "segment:multifamily"
+    },
+    {
+      "from": "tool:leap",
+      "rel": "covers_segment",
+      "to": "segment:coliving-student"
+    },
+    {
+      "from": "tool:leap",
+      "rel": "available_in",
+      "to": "market:US"
+    },
+    {
+      "from": "tool:leap",
+      "rel": "alternative_to",
+      "to": "tool:leasesurance"
+    },
+    {
       "from": "tool:leasecake",
       "rel": "published_by",
       "to": "editor:Leasecake"
@@ -10415,6 +10640,56 @@
       "from": "tool:leasecake",
       "rel": "alternative_to",
       "to": "tool:vts"
+    },
+    {
+      "from": "tool:leasesurance",
+      "rel": "published_by",
+      "to": "editor:LeaseSurance"
+    },
+    {
+      "from": "tool:leasesurance",
+      "rel": "belongs_to",
+      "to": "category:tenant-screening"
+    },
+    {
+      "from": "tool:leasesurance",
+      "rel": "serves_persona",
+      "to": "persona:landlord-owner"
+    },
+    {
+      "from": "tool:leasesurance",
+      "rel": "serves_persona",
+      "to": "persona:investor-am"
+    },
+    {
+      "from": "tool:leasesurance",
+      "rel": "serves_persona",
+      "to": "persona:property-manager"
+    },
+    {
+      "from": "tool:leasesurance",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:leasesurance",
+      "rel": "covers_segment",
+      "to": "segment:multifamily"
+    },
+    {
+      "from": "tool:leasesurance",
+      "rel": "covers_segment",
+      "to": "segment:office"
+    },
+    {
+      "from": "tool:leasesurance",
+      "rel": "available_in",
+      "to": "market:US"
+    },
+    {
+      "from": "tool:leasesurance",
+      "rel": "alternative_to",
+      "to": "tool:leap"
     },
     {
       "from": "tool:leboncoin-immobilier",
@@ -10535,6 +10810,51 @@
       "from": "tool:leon-scepia",
       "rel": "available_in",
       "to": "market:FR"
+    },
+    {
+      "from": "tool:leonardo247",
+      "rel": "published_by",
+      "to": "editor:Leonardo247"
+    },
+    {
+      "from": "tool:leonardo247",
+      "rel": "belongs_to",
+      "to": "category:facility-maintenance"
+    },
+    {
+      "from": "tool:leonardo247",
+      "rel": "also_serves",
+      "to": "category:investment-underwriting"
+    },
+    {
+      "from": "tool:leonardo247",
+      "rel": "serves_persona",
+      "to": "persona:investor-am"
+    },
+    {
+      "from": "tool:leonardo247",
+      "rel": "serves_persona",
+      "to": "persona:facility-manager"
+    },
+    {
+      "from": "tool:leonardo247",
+      "rel": "serves_persona",
+      "to": "persona:property-manager"
+    },
+    {
+      "from": "tool:leonardo247",
+      "rel": "covers_segment",
+      "to": "segment:multifamily"
+    },
+    {
+      "from": "tool:leonardo247",
+      "rel": "covers_segment",
+      "to": "segment:coliving-student"
+    },
+    {
+      "from": "tool:leonardo247",
+      "rel": "available_in",
+      "to": "market:US"
     },
     {
       "from": "tool:liciel",

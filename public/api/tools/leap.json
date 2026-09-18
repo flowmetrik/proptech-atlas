@@ -1,0 +1,87 @@
+{
+  "slug": "leap",
+  "name": "Leap",
+  "editor": "Leap",
+  "website": "https://leapeasy.com",
+  "hq_country": "US",
+  "markets": [
+    "US"
+  ],
+  "category": "tenant-screening",
+  "positioning": "Rent guaranty and deposit-replacement coverage that lets renters who fail standard screening still qualify for a lease.",
+  "description": "Leap sells two products to rental operators: Rent Guaranty, which acts as an institutional co-signer for renters who don't meet standard leasing criteria, and a deposit-replacement product that substitutes a monthly fee for the upfront cash deposit. The operator is the policy beneficiary and is reimbursed if the renter misses rent; the renter still owes the missed payments to Leap. It serves multifamily, single-family and student housing operators.\n",
+  "real_estate_use": "A leasing agent has an applicant who doesn't clear standard income or credit screening — a first-time renter, a self-employed applicant, a recent graduate. Instead of rejecting the application, the agent offers Leap coverage: the applicant buys a guaranty policy, the operator is protected against missed rent, and the applicant qualifies for the unit without a co-signer or a large deposit.\n",
+  "features": [
+    "Rent Guaranty institutional co-signer coverage",
+    "Deposit-replacement monthly-fee product",
+    "Applicant qualification workflow for leasing teams",
+    "Bad-debt and skip/no-show recovery for operators"
+  ],
+  "use_cases": [
+    {
+      "persona": "property-manager",
+      "job": "Qualify an applicant who fails standard screening without requiring a co-signer"
+    },
+    {
+      "persona": "landlord-owner",
+      "job": "Reduce bad debt from missed rent and skips across a rental portfolio"
+    }
+  ],
+  "personas": [
+    "property-manager",
+    "landlord-owner"
+  ],
+  "segments": [
+    "residential",
+    "multifamily",
+    "coliving-student"
+  ],
+  "company_sizes": [
+    "smb",
+    "midmarket",
+    "enterprise"
+  ],
+  "pricing": {
+    "model": "quote",
+    "public_pricing": false
+  },
+  "integrations": [
+    "Rent Manager"
+  ],
+  "product": {
+    "api": false,
+    "open_source": false,
+    "mobile": [],
+    "languages": [
+      "en"
+    ]
+  },
+  "alternatives": [
+    "leasesurance"
+  ],
+  "reviews": [],
+  "logo": {
+    "file": "logos/leap.png",
+    "source_url": "https://leapeasy.com/wp-content/uploads/2026/05/leap-logo.webp",
+    "fetched_on": "2026-09-18"
+  },
+  "signals": {
+    "privacy": "https://leapeasy.com/privacy-policy",
+    "site_languages": [
+      "en"
+    ],
+    "checked_on": "2026-09-18"
+  },
+  "sources": [
+    {
+      "url": "https://leapeasy.com",
+      "note": "site éditeur — accueil"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-09-18"
+}

@@ -2,7 +2,7 @@
 
 <!-- Généré par `npm run data:emit`. Ne pas éditer à la main : éditer `data/tools/*.yaml`. -->
 
-282 produits · 157 🇺🇸 · 155 🇫🇷 · mis à jour le 2026-09-17
+288 produits · 162 🇺🇸 · 156 🇫🇷 · mis à jour le 2026-09-18
 
 Version navigable : https://flowmetrik.github.io/proptech-atlas/explore
 
@@ -110,6 +110,7 @@ _Sites, recherche IDX, marque et campagnes pour agents et agences._
 |---|---|---|---|
 | [ACCESS.com](data/tools/access-com.yaml) | ACCESS | 🇺🇸 | An agent or small team needs a branded website and a listing presentation ready before a listing appointment, without hiring a designer or waiting on a web agency. They pick a theme… |
 | [AgentFire](data/tools/agentfire.yaml) | AgentFire | 🇺🇸 | Competing for "homes for sale in Austin" is hopeless against the portals; competing for a specific neighbourhood is not. AgentFire's content structures exist for that strategy — an agent… |
+| [BriefYourMarket](data/tools/briefyourmarket.yaml) | BriefYourMarket | 🇺🇸 | An estate agency has years of past-client data sitting unused in its CRM and wants to turn it back into instructions without a broad, untargeted newsletter. A marketing lead uses… |
 | [Clap.tech](data/tools/clap-tech.yaml) | Clap.tech | 🇫🇷 | An agency equips its street-facing window displays with clap.show to show its listings without manual updates, turns its listings into short videos for social media with clap.video, has… |
 | [Humaniz](data/tools/humaniz.yaml) | Humaniz | 🇺🇸 | Une équipe qui recrute en continu perd du temps à publier des annonces sur des dizaines de jobboards et à trier des candidatures non qualifiées : Humaniz diffuse l'offre automatiquement… |
 | [Luxury Presence](data/tools/luxury-presence.yaml) | Luxury Presence | 🇺🇸 | At the top of the market, a listing presentation is partly a credibility exercise: a seller with a seven-figure property judges the agent by the quality of their digital presence. Luxury… |
@@ -129,6 +130,7 @@ _Estimation automatisée, comparables, pige propriétaires et pricing._
 | [Cloud CMA](data/tools/cloudcma.yaml) | Lone Wolf Technologies | 🇺🇸 | Winning a listing is a persuasion problem, and the CMA is the artefact that does the persuading. The agent pulls comparables from the MLS, adjusts them, and produces a branded document… |
 | [ExpertVAL](data/tools/expertval.yaml) | SpicyCode | 🇫🇷 | A property appraiser or wealth-management advisor opens an amicable appraisal file, imports comparison references from DVF or Patrim, takes photos and enters data during the site visit… |
 | [HouseCanary](data/tools/housecanary.yaml) | HouseCanary | 🇺🇸 | An iBuyer or a single-family rental fund cannot send an appraiser to every candidate house. It prices thousands of addresses a week through an AVM, and the confidence interval decides… |
+| [Immo IA](data/tools/immo-ia.yaml) | Immo IA | 🇫🇷 | Une agence immobilière, un diagnostiqueur ou un courtier en crédit cherche des contacts qualifiés de particuliers en projet de vente, d'achat ou de financement, sans acheter un flux… |
 | [MeilleursAgents](data/tools/meilleursagents.yaml) | Aviv Group (Axel Springer) | 🇫🇷 | It changed the French listing appointment. An owner arrives having already read a neighbourhood price per square metre, so the agent's pricing conversation starts from a public reference… |
 | [Pige Online](data/tools/pige-online.yaml) | Pige Online | 🇫🇷 | In a market without an MLS, agency growth depends on converting private sellers into mandates, and the same property appears on four portals under three different prices. The software's… |
 | [PriceHubble](data/tools/pricehubble.yaml) | PriceHubble | 🇫🇷 | A French bank assessing collateral, an agency offering an instant valuation on its own site, or a portfolio holder revaluing quarterly all need the same computation without building it.… |
@@ -290,7 +292,9 @@ _Interventions, prestataires, équipements et maintenance préventive._
 | [BOB Desk](data/tools/bob-desk.yaml) | BOB Desk | 🇫🇷 | A chain with two hundred outlets carries a compliance calendar per site — fire safety, electrical inspection, extraction, refrigeration — and no realistic way to track it in a… |
 | [Building Engines](data/tools/building-engines.yaml) | Building Engines | 🇺🇸 | A building engineer dispatches and closes out work orders through Prism instead of a spreadsheet, and the same platform tracks whether every tenant's certificate of insurance is current… |
 | [Corrigo](data/tools/corrigo.yaml) | JLL Technologies | 🇺🇸 🇫🇷 | Its distinguishing feature in daily use is vendor scoring: response and completion performance is measured per provider, so dispatch can route to the contractor who actually shows up… |
+| [Fixflo](data/tools/fixflo.yaml) | Fixflo | 🇺🇸 | A letting agent or block manager receives a stream of repair reports from tenants and leaseholders and needs each one routed to the right contractor, tracked to completion, and logged… |
 | [HappyCo](data/tools/happyco.yaml) | HappyCo | 🇺🇸 | A regional manager responsible for several thousand apartments cannot personally see the condition of any of them. Their onsite technicians run every inspection — move-in, move-out, life… |
+| [Leonardo247](data/tools/leonardo247.yaml) | Leonardo247 | 🇺🇸 | An operations manager overseeing a multifamily portfolio needs a single system to run acquisition due diligence, then keep every property compliant on preventative maintenance and… |
 | [Limble CMMS](data/tools/limble.yaml) | Limble | 🇺🇸 | Most CMMS failures are adoption failures, not feature gaps. Limble competes on the implementation: QR codes on equipment so a technician scans rather than searches, a request portal that… |
 | [Monga](data/tools/monga.yaml) | Monga | 🇫🇷 | A property manager or syndic running technical maintenance across several buildings needs to schedule interventions, keep providers informed, and answer occupant requests without losing… |
 | [NetVendor](data/tools/netvendor.yaml) | NetVendor | 🇺🇸 | The recurring problem it solves is a maintenance job given to a contractor whose insurance has lapsed — a risk that surfaces only after something goes wrong. Here the credential check… |
@@ -418,6 +422,8 @@ _Vérifier un dossier, garantir le loyer, signer le bail._
 | [DossierFacile](data/tools/dossierfacile.yaml) | État français — Fabrique numérique du ministère de la Transition écologique | 🇫🇷 | It addresses two failures at once. Candidates submit incomplete files and are rejected without knowing why; landlords receive falsified pay slips and cannot tell. A DossierFacile file… |
 | [Foxen](data/tools/foxen.yaml) | Foxen | 🇺🇸 | A property manager uses Foxen to stop chasing residents for proof of renters insurance: the platform verifies certificates of insurance on upload and monitors them continuously… |
 | [Garantme](data/tools/garantme.yaml) | Garantme | 🇫🇷 | A candidate with a solid income but no French guarantor keeps losing flats to files that have one. They assemble their documents in Garantme before starting their search, get certified… |
+| [Leap](data/tools/leap.yaml) | Leap | 🇺🇸 | A leasing agent has an applicant who doesn't clear standard income or credit screening — a first-time renter, a self-employed applicant, a recent graduate. Instead of rejecting the… |
+| [LeaseSurance](data/tools/leasesurance.yaml) | LeaseSurance | 🇺🇸 | An institutional landlord or portfolio manager wants to remove the cash deposit as a barrier to move-in without giving up loss protection. Instead of holding a locked trust-account… |
 | [Obligo](data/tools/obligo.yaml) | Obligo | 🇺🇸 | A property replaces its cash security-deposit requirement with Obligo: at lease signing, the renter connects a payment method and Obligo verifies their eligibility for a reduced or… |
 | [PetScreening](data/tools/petscreening.yaml) | Pet Screening Inc. | 🇺🇸 | An on-site leasing team is asked to grant an assistance animal accommodation and cannot legally ask most of the questions that would let them judge it — the wrong question is itself a… |
 | [RentSpree](data/tools/rentspree.yaml) | RentSpree | 🇺🇸 | An agent listing a rental sends one link. The applicant completes the application, pays the screening fee themselves, and authorises the credit, criminal and eviction report — so the… |

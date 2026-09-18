@@ -115,11 +115,11 @@
     "last_manual_note": "annuaire partenaires classé par métier (eau, énergie, assurance, diagnostic...) sans rubrique logiciel/digital distincte ; pas de nouveau produit trouvé cette passe"
   },
   "mri-partner-connect": {
-    "last_swept_manual": "2026-09-04",
-    "manual_runs": 1,
-    "manual_found": 84,
-    "manual_kept": 8,
-    "last_manual_note": "page /partners/ lue en entier, 8 produits inedits verifies"
+    "last_swept_manual": "2026-09-18",
+    "manual_runs": 2,
+    "manual_found": 92,
+    "manual_kept": 13,
+    "last_manual_note": "annuaire /partners/ balayé par recherche ciblée (Smart/AI/leasing/payments/insurance) faute d'accès direct (403) ; 5 produits neufs retenus : Fixflo, LeaseSurance, Leap, Leonardo247, BriefYourMarket ; credhub, petscreening, knock déjà catalogués ; Accenture/Bottomline/Paymentus/Progressive/Access Paysuite écartés (sociétés de paiement/conseil généralistes, pas des produits immobilier spécifiques)"
   },
   "journal-agence": {
     "last_swept_manual": "2026-09-04",
@@ -129,11 +129,11 @@
     "last_manual_note": "Facilogi doublon de prospeneo (deja catalogue) ; La Loupe Immo rendu JS, verify.mjs ne voit pas le nom (produit reel, cf note skill 02/09) ; Geo'Prospect site injoignable"
   },
   "yardi-marketplace": {
-    "last_swept_manual": "2026-09-04",
-    "manual_runs": 1,
+    "last_swept_manual": "2026-09-18",
+    "manual_runs": 2,
     "manual_found": 0,
     "manual_kept": 0,
-    "last_manual_note": "yardi.com renvoie 403 a la lecture directe et n'expose pas de liste de partenaires exploitable en recherche web ; source a retenter avec un autre acces"
+    "last_manual_note": "page et 'find-an-interface-partner' bloquées en 403 (Cloudflare), y compris via le fetch indexé ; aucune liste exploitable trouvée par recherche web ciblée"
   },
   "rent-paris": {
     "last_swept_manual": "2026-09-04",
@@ -350,5 +350,19 @@
     "manual_found": 0,
     "manual_kept": 0,
     "last_manual_note": "page d'accueil générale, aucune liste d'exposants proptech exploitable sans compte visiteur ; rien retenu cette passe."
+  },
+  "simi": {
+    "last_swept_manual": "2026-09-18",
+    "manual_runs": 1,
+    "manual_found": 0,
+    "manual_kept": 0,
+    "last_manual_note": "recherche-exposants rend sa liste côté client (plugin wppl-flux-salons-api-leni), aucun nom dans le HTML statique ; prochaine édition 8-10 décembre 2026, pas encore tenue"
+  },
+  "blueprint-cretech": {
+    "last_swept_manual": "2026-09-18",
+    "manual_runs": 1,
+    "manual_found": 0,
+    "manual_kept": 0,
+    "last_manual_note": "blueprintvegas.com bloqué en 403 ; Blueprint Vegas 2026 (22-24 sept) et CREtech NY 2026 (oct) pas encore tenus, aucune liste d'exposants publique trouvée par recherche web"
   }
 }

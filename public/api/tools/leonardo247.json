@@ -1,0 +1,85 @@
+{
+  "slug": "leonardo247",
+  "name": "Leonardo247",
+  "editor": "Leonardo247",
+  "website": "https://leonardo247.com",
+  "hq_country": "US",
+  "markets": [
+    "US"
+  ],
+  "category": "facility-maintenance",
+  "also_in": [
+    "investment-underwriting"
+  ],
+  "positioning": "Portfolio-wide operations and risk platform for property owners, covering due diligence, maintenance and student housing turns.",
+  "description": "Leonardo247 is a suite of modules for multifamily and student housing operators: Acquire247 runs unit-by-unit due diligence inspections before acquisition, Perform247 manages day-to-day maintenance workflows, inspections and code compliance, Protect247 runs preventative-maintenance risk workflows, Connect247 covers remote maintenance dispatch, and Student247 manages student-housing turn logistics such as key returns and vendor scheduling.\n",
+  "real_estate_use": "An operations manager overseeing a multifamily portfolio needs a single system to run acquisition due diligence, then keep every property compliant on preventative maintenance and inspections once it's owned — a missed fire-code inspection or a botched student-housing turn creates both risk and cost. Leonardo247 gives the team one platform across the acquisition-to-operations lifecycle instead of separate spreadsheets per phase.\n",
+  "features": [
+    "Acquire247 acquisition due-diligence inspections",
+    "Perform247 maintenance and work-order workflows",
+    "Protect247 preventative-maintenance risk management",
+    "Connect247 remote maintenance dispatch",
+    "Student247 student-housing turn management",
+    "Portfolio-wide reporting and dashboards"
+  ],
+  "use_cases": [
+    {
+      "persona": "investor-am",
+      "job": "Run unit-by-unit due diligence inspections ahead of a multifamily acquisition"
+    },
+    {
+      "persona": "facility-manager",
+      "job": "Track preventative maintenance and code-compliance inspections across a portfolio"
+    }
+  ],
+  "personas": [
+    "investor-am",
+    "facility-manager",
+    "property-manager"
+  ],
+  "segments": [
+    "multifamily",
+    "coliving-student"
+  ],
+  "company_sizes": [
+    "midmarket",
+    "enterprise"
+  ],
+  "pricing": {
+    "model": "quote",
+    "public_pricing": false
+  },
+  "product": {
+    "api": false,
+    "open_source": false,
+    "mobile": [],
+    "languages": [
+      "en"
+    ]
+  },
+  "reviews": [],
+  "logo": {
+    "file": "logos/leonardo247.png",
+    "source_url": "https://leonardo247.com/wp-content/uploads/Leonardo247-white-logo-no-tag.svg",
+    "fetched_on": "2026-09-18"
+  },
+  "signals": {
+    "privacy": "https://leonardo247.com/privacy-policy",
+    "site_languages": [
+      "en"
+    ],
+    "checked_on": "2026-09-18"
+  },
+  "sources": [
+    {
+      "url": "https://leonardo247.com",
+      "note": "site éditeur — accueil"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-09-18"
+}

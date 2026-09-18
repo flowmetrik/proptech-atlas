@@ -466,6 +466,84 @@ export function isStillRejected(rejectedList, slug, website) {
   return hosts.some((h) => h === null || h === newHost);
 }
 
+// Un `src`/`href` extrait d'un attribut HTML porte ses entités telles quelles
+// (`&amp;` pour `&`). `new URL()` ne les décode pas : sur une URL de proxy
+// d'image (`/_ipx/...?url=...&w=...`), l'`&amp;` non décodé reste dans le
+// second segment de la query et casse la requête en silence — le logo échoue
+// à se récupérer et la passe retombe sur le candidat suivant. Vu sur
+// `loftely` le 17/09 : le vrai `<img alt="Loftely">` existait et était classé
+// premier, mais son URL `_ipx/...&amp;...` ne se récupérait jamais.
+export const decodeEntities = (s) => s
+  .replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&#39;|&apos;/g, "'")
+  .replace(/&lt;/g, '<').replace(/&gt;/g, '>');
+
+/** Un `<img>` du header dont l'`alt` nomme le produit, ou dont la classe dit
+ *  « logo », est le signal le plus direct qu'on puisse lire dans un `<head>` —
+ *  plus fiable qu'un favicon ou qu'un og:image, qui ne portent aucun nom.
+ *  Ajouté le 08/09 : `poliris` avait adopté un export de diapositive faute de
+ *  mieux, alors que le site portait `<img alt="Poliris" class="logo">` juste à
+ *  côté. Rang au-dessus de l'apple-touch-icon quand les deux signaux
+ *  concordent (alt ET classe) ; une classe seule, sans que l'`alt` nomme la
+ *  marque, ne suffit pas à ce rang — corrigé le 18/09 après `higharc` : un
+ *  logo client tiers affiché dans un carrousel de témoignages porte presque
+ *  toujours une classe contenant « logo » avec un `alt` vide, et ce candidat
+ *  battait alors le véritable apple-touch-icon. Une classe seule reste donc
+ *  sous l'apple-touch-icon plutôt qu'au-dessus. */
+export function imgLogoCandidates(html, base, name) {
+  const abs = (u) => { try { return new URL(decodeEntities(u), base).href; } catch { return null; } };
+  const norm = (s) => (s ?? '').toLowerCase().replace(/[^a-z0-9]+/g, '');
+  const wanted = norm(name);
+  if (!wanted) return [];
+  const found = [];
+  const imgs = html.match(/<img\b[^>]*>/gi) ?? [];
+  for (const tag of imgs.slice(0, 400)) {
+    const src = tag.match(/\bsrc=["']([^"']+)["']/i)?.[1];
+    if (!src || /\.(mp4|webm)($|\?)/i.test(src)) continue;
+    const alt = tag.match(/\balt=["']([^"']*)["']/i)?.[1] ?? '';
+    const cls = tag.match(/\bclass=["']([^"']*)["']/i)?.[1] ?? '';
+    const altMatch = wanted.length >= 3 && norm(alt).includes(wanted);
+    const classMatch = /\blogo\b/i.test(cls) || /logo/i.test(src);
+    if (!altMatch && !classMatch) continue;
+    const u = abs(src);
+    // Au-dessus de l'apple-touch-icon (1000 + sa taille déclarée, rarement
+    // > 180) seulement quand l'alt nomme la marque. Vu sur `engrain` : un
+    // apple-touch-icon sans `sizes` valait 1000 pile et battait le candidat
+    // nommé à 999 d'un cheveu. Une classe seule (sans alt) reste sous 1000 :
+    // c'est un signal trop faible pour dépasser une icône déclarée par le site.
+    if (u) found.push({ url: u, rank: altMatch && classMatch ? 2000 : altMatch ? 1500 : 800 });
+  }
+  return found;
+}
+
+/** Les candidats d'un <head>, du meilleur au pire. */
+export function candidates(html, base, name) {
+  const abs = (u) => { try { return new URL(decodeEntities(u), base).href; } catch { return null; } };
+  const found = [...imgLogoCandidates(html, base, name)];
+  const links = html.match(/<link\b[^>]*>/gi) ?? [];
+  for (const tag of links) {
+    const rel = (tag.match(/rel=["']([^"']+)["']/i)?.[1] ?? '').toLowerCase();
+    const href = tag.match(/href=["']([^"']+)["']/i)?.[1];
+    if (!href || !/icon/.test(rel)) continue;
+    const size = parseInt(tag.match(/sizes=["'](\d+)/i)?.[1] ?? '0', 10);
+    // Un apple-touch-icon est presque toujours le logo propre en 180 px.
+    const rank = rel.includes('apple-touch') ? 1000 + size
+      : /\.svg($|\?)/i.test(href) ? 900
+      : size || (/\.ico($|\?)/i.test(href) ? 1 : 40);
+    const u = abs(href);
+    if (u) found.push({ url: u, rank });
+  }
+  const og = html.match(/<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)["']/i)?.[1]
+    ?? html.match(/<meta[^>]+content=["']([^"']+)["'][^>]+property=["']og:image["']/i)?.[1];
+  // og:image est souvent une bannière, pas une marque : dernier recours.
+  if (og && abs(og)) found.push({ url: abs(og), rank: 5 });
+  found.push({ url: abs('/favicon.ico'), rank: 1 });
+  const seen = new Set();
+  return found
+    .filter((c) => c.url && !seen.has(c.url) && seen.add(c.url))
+    .sort((a, b) => b.rank - a.rank)
+    .slice(0, 6);
+}
+
 /** La file des candidats — un seul endroit, partagé par découverte et balayage. */
 export function loadQueue(root) {
   const p = join(root, 'data', 'candidates.json');

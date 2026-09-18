@@ -4,23 +4,23 @@
   "license": "CC-BY-4.0 (data) / MIT (code)",
   "homepage": "https://flowmetrik.github.io/proptech-atlas",
   "repository": "https://github.com/flowmetrik/proptech-atlas",
-  "generated": "2026-09-17",
+  "generated": "2026-09-18",
   "counts": {
-    "tools": 282,
-    "US": 157,
-    "FR": 155,
+    "tools": 288,
+    "US": 162,
+    "FR": 156,
     "categories": 24,
-    "editors": 265,
+    "editors": 271,
     "verified": 0,
     "reviews": 0,
-    "logos": 261,
+    "logos": 267,
     "signals": {
-      "probed": 268,
-      "public_pricing": 68,
+      "probed": 274,
+      "public_pricing": 69,
       "api_docs": 18,
       "security_page": 33,
-      "privacy_page": 199,
-      "status_page": 65
+      "privacy_page": 204,
+      "status_page": 66
     }
   },
   "tools": [
@@ -3147,6 +3147,85 @@
         "checked_by": null
       },
       "updated": "2026-09-16"
+    },
+    {
+      "slug": "briefyourmarket",
+      "name": "BriefYourMarket",
+      "editor": "BriefYourMarket",
+      "website": "https://www.briefyourmarket.com",
+      "hq_country": "GB",
+      "markets": [
+        "US"
+      ],
+      "category": "agent-marketing",
+      "positioning": "Email marketing platform that turns an estate agent's historic client data into targeted, localised lead-generation campaigns.",
+      "description": "BriefYourMarket is an email marketing platform built for estate and letting agents. It mines an agency's historic contact and transaction data to re-engage past clients and surface valuation opportunities, and runs localised, community-targeted email campaigns from that data, with reporting on the leads and instructions the campaigns generate.\n",
+      "real_estate_use": "An estate agency has years of past-client data sitting unused in its CRM and wants to turn it back into instructions without a broad, untargeted newsletter. A marketing lead uses BriefYourMarket to segment that historic database and run localised campaigns — a past seller in a specific postcode who might be ready to move again, for example — and tracks which campaigns actually convert into valuation requests.\n",
+      "features": [
+        "Localised, community-targeted email campaigns",
+        "Historic client data re-engagement",
+        "Valuation-opportunity surfacing from past-client data",
+        "Campaign lead and revenue reporting"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Re-engage past clients from historic data to generate new valuation instructions"
+        },
+        {
+          "persona": "brokerage",
+          "job": "Run localised email campaigns targeted at a specific farming area"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "reviews": [],
+      "logo": {
+        "file": "logos/briefyourmarket.png",
+        "source_url": "https://www.briefyourmarket.com/wp-content/uploads/2023/10/brief-your-market-logo.svg",
+        "fetched_on": "2026-09-18"
+      },
+      "signals": {
+        "privacy": "https://www.briefyourmarket.com/privacy-policy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-18"
+      },
+      "sources": [
+        {
+          "url": "https://www.briefyourmarket.com",
+          "note": "site éditeur — accueil"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-18"
     },
     {
       "slug": "brokermint",
@@ -9053,6 +9132,93 @@
       "updated": "2026-08-25"
     },
     {
+      "slug": "fixflo",
+      "name": "Fixflo",
+      "editor": "Fixflo",
+      "website": "https://www.fixflo.com",
+      "hq_country": "GB",
+      "markets": [
+        "US"
+      ],
+      "category": "facility-maintenance",
+      "positioning": "Smart repairs and maintenance software that streamlines reporting, workflow and compliance for property managers.",
+      "description": "Fixflo is a repairs and maintenance management platform for residential and commercial property managers. Tenants and residents report issues through an online form, and the platform routes the report through a configurable workflow to contractors, tracking the job from first report to final invoice. It covers lettings, block management, commercial (CAFM), build to rent, and student accommodation, and ships with a contractor marketplace and an AI module (Aidenn) for triaging repair reports and reading fire risk assessments.\n",
+      "real_estate_use": "A letting agent or block manager receives a stream of repair reports from tenants and leaseholders and needs each one routed to the right contractor, tracked to completion, and logged for compliance — planned preventative maintenance in particular leaves no room for a missed inspection. Fixflo replaces the phone-and-spreadsheet routine with a workflow that timestamps every step from report to invoice, and its Aidenn AI module pre-triages incoming reports and can process fire risk assessment documents automatically.\n",
+      "features": [
+        "Reactive repair reporting via online form",
+        "Configurable maintenance workflow engine",
+        "Planned preventative maintenance scheduling",
+        "Contractor marketplace",
+        "Aidenn AI repair triage and compliance document reading",
+        "Customisable operational dashboards"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Route tenant-reported repairs to contractors and track each job to invoice"
+        },
+        {
+          "persona": "facility-manager",
+          "job": "Schedule and log planned preventative maintenance for compliance"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "facility-manager",
+        "landlord-owner"
+      ],
+      "segments": [
+        "residential",
+        "multifamily",
+        "office",
+        "coliving-student"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "reviews": [],
+      "logo": {
+        "file": "logos/fixflo.png",
+        "source_url": "https://www.fixflo.com/hs-fs/hubfs/Artboard%2013%20copy%208.png?width=237&height=120&name=Artboard%2013%20copy%208.png",
+        "fetched_on": "2026-09-18"
+      },
+      "signals": {
+        "pricing": "https://www.fixflo.com/pricing/lettings",
+        "privacy": "https://www.fixflo.com/privacy-policy",
+        "status": "https://status.fixflo.com",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-18"
+      },
+      "sources": [
+        {
+          "url": "https://www.fixflo.com",
+          "note": "site éditeur — accueil"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-18"
+    },
+    {
       "slug": "flexmls",
       "name": "Flexmls",
       "editor": "FBS",
@@ -11862,6 +12028,98 @@
       "updated": "2026-08-25"
     },
     {
+      "slug": "immo-ia",
+      "name": "Immo IA",
+      "editor": "Immo IA",
+      "website": "https://www.immoia.fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "estimation-pricing",
+      "also_in": [
+        "portals-marketplaces"
+      ],
+      "positioning": "Estimation immobilière gratuite pour particuliers, financée par la mise en relation avec des professionnels partenaires.",
+      "description": "Immo IA est un service gratuit d'estimation immobilière pour particuliers : l'utilisateur décrit un bien et obtient une valeur estimée avec une fourchette, calculée à partir des transactions DVF de la DGFiP et d'une vingtaine d'autres sources publiques, sur les 34 856 communes de France métropolitaine. Le service se finance en mettant en relation, avec l'accord explicite de l'utilisateur, les particuliers avec des professionnels partenaires — agences immobilières, diagnostiqueurs, courtiers en crédit, notaires — qui paient pour recevoir ces contacts qualifiés.\n",
+      "real_estate_use": "Une agence immobilière, un diagnostiqueur ou un courtier en crédit cherche des contacts qualifiés de particuliers en projet de vente, d'achat ou de financement, sans acheter un flux générique. Le professionnel devient partenaire Immo IA et reçoit les demandes de particuliers ayant déjà obtenu une estimation et accepté explicitement d'être mis en relation — un lead pré-qualifié par l'usage du service, pas une adresse achetée à l'aveugle.\n",
+      "features": [
+        "Estimation automatisée à partir des données DVF et d'une vingtaine de sources publiques",
+        "Carte des prix au m² par commune",
+        "Calculateurs frais de notaire, capacité d'emprunt, plus-value, rendement locatif",
+        "Annuaire de professionnels vérifiés par métier",
+        "Mise en relation payante avec accord explicite du particulier"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Recevoir des contacts de particuliers ayant déjà obtenu une estimation de leur bien"
+        },
+        {
+          "persona": "lender-broker",
+          "job": "Recevoir des demandes de financement qualifiées issues de la plateforme particuliers"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "lender-broker",
+        "appraiser"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "freemium",
+        "public_pricing": false
+      },
+      "ai": {
+        "capabilities": [
+          "Modèle d'estimation entraîné sur les transactions DVF et données publiques complémentaires"
+        ]
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "reviews": [],
+      "logo": {
+        "file": "logos/immo-ia.png",
+        "source_url": "https://immoia.fr/apple-icon.png?apple-icon.b0221899.png",
+        "fetched_on": "2026-09-18"
+      },
+      "signals": {
+        "privacy": "https://immoia.fr/confidentialite",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-09-18"
+      },
+      "sources": [
+        {
+          "url": "https://www.immoia.fr",
+          "note": "site éditeur — accueil"
+        },
+        {
+          "url": "https://www.immoia.fr/professionnels",
+          "note": "site éditeur — annuaire et offre professionnels"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-18"
+    },
+    {
       "slug": "immofacile",
       "name": "Immofacile",
       "editor": "Immofacile",
@@ -13326,6 +13584,93 @@
       "updated": "2026-08-27"
     },
     {
+      "slug": "leap",
+      "name": "Leap",
+      "editor": "Leap",
+      "website": "https://leapeasy.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "tenant-screening",
+      "positioning": "Rent guaranty and deposit-replacement coverage that lets renters who fail standard screening still qualify for a lease.",
+      "description": "Leap sells two products to rental operators: Rent Guaranty, which acts as an institutional co-signer for renters who don't meet standard leasing criteria, and a deposit-replacement product that substitutes a monthly fee for the upfront cash deposit. The operator is the policy beneficiary and is reimbursed if the renter misses rent; the renter still owes the missed payments to Leap. It serves multifamily, single-family and student housing operators.\n",
+      "real_estate_use": "A leasing agent has an applicant who doesn't clear standard income or credit screening — a first-time renter, a self-employed applicant, a recent graduate. Instead of rejecting the application, the agent offers Leap coverage: the applicant buys a guaranty policy, the operator is protected against missed rent, and the applicant qualifies for the unit without a co-signer or a large deposit.\n",
+      "features": [
+        "Rent Guaranty institutional co-signer coverage",
+        "Deposit-replacement monthly-fee product",
+        "Applicant qualification workflow for leasing teams",
+        "Bad-debt and skip/no-show recovery for operators"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Qualify an applicant who fails standard screening without requiring a co-signer"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "Reduce bad debt from missed rent and skips across a rental portfolio"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "landlord-owner"
+      ],
+      "segments": [
+        "residential",
+        "multifamily",
+        "coliving-student"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Rent Manager"
+      ],
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "leasesurance"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/leap.png",
+        "source_url": "https://leapeasy.com/wp-content/uploads/2026/05/leap-logo.webp",
+        "fetched_on": "2026-09-18"
+      },
+      "signals": {
+        "privacy": "https://leapeasy.com/privacy-policy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-18"
+      },
+      "sources": [
+        {
+          "url": "https://leapeasy.com",
+          "note": "site éditeur — accueil"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-18"
+    },
+    {
       "slug": "leasecake",
       "name": "Leasecake",
       "editor": "Leasecake",
@@ -13423,6 +13768,90 @@
         "checked_by": null
       },
       "updated": "2026-09-02"
+    },
+    {
+      "slug": "leasesurance",
+      "name": "LeaseSurance",
+      "editor": "LeaseSurance",
+      "website": "https://www.leasesurance.co",
+      "hq_country": "ZA",
+      "markets": [
+        "US"
+      ],
+      "category": "tenant-screening",
+      "positioning": "Deposit-free lease insurance that replaces the cash security deposit for institutional residential and commercial landlords.",
+      "description": "LeaseSurance provides insurance-backed cover that substitutes for a cash security deposit. Its Zero Deposit product covers residential portfolios and Zero Capital covers commercial ones, both underwritten by a licensed insurer; tenants pay a small monthly fee instead of a lump sum, and landlords hold cover set at a multiple of monthly rent instead of a single month's deposit. LeaseHub is the digital platform that gives landlords portfolio-level visibility and claim administration, and ZD Rewards is a residential program that reduces cover cost for tenants with a good payment record.\n",
+      "real_estate_use": "An institutional landlord or portfolio manager wants to remove the cash deposit as a barrier to move-in without giving up loss protection. Instead of holding a locked trust-account deposit and administering set-offs and disputes at move-out, the landlord holds an insurance policy sized at several months' rent, and a licensed claims administrator settles losses in days rather than negotiating a refund with the outgoing tenant.\n",
+      "features": [
+        "Zero Deposit residential lease insurance",
+        "Zero Capital commercial deposit and guarantee replacement",
+        "LeaseHub portfolio administration platform",
+        "ZD Rewards tenant payment-behaviour program",
+        "Claims administration by a licensed insurer"
+      ],
+      "use_cases": [
+        {
+          "persona": "landlord-owner",
+          "job": "Replace the cash security deposit with insurance-backed cover across a residential portfolio"
+        },
+        {
+          "persona": "investor-am",
+          "job": "Standardise deposit-free leasing terms across an institutional multifamily or commercial portfolio"
+        }
+      ],
+      "personas": [
+        "landlord-owner",
+        "investor-am",
+        "property-manager"
+      ],
+      "segments": [
+        "residential",
+        "multifamily",
+        "office"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "leap"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/leasesurance.png",
+        "source_url": "https://www.leasesurance.co/apple-touch-icon.png",
+        "fetched_on": "2026-09-18"
+      },
+      "signals": {
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-18"
+      },
+      "sources": [
+        {
+          "url": "https://www.leasesurance.co",
+          "note": "site éditeur — accueil"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-18"
     },
     {
       "slug": "leboncoin-immobilier",
@@ -13661,6 +14090,91 @@
         "checked_by": null
       },
       "updated": "2026-09-05"
+    },
+    {
+      "slug": "leonardo247",
+      "name": "Leonardo247",
+      "editor": "Leonardo247",
+      "website": "https://leonardo247.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "facility-maintenance",
+      "also_in": [
+        "investment-underwriting"
+      ],
+      "positioning": "Portfolio-wide operations and risk platform for property owners, covering due diligence, maintenance and student housing turns.",
+      "description": "Leonardo247 is a suite of modules for multifamily and student housing operators: Acquire247 runs unit-by-unit due diligence inspections before acquisition, Perform247 manages day-to-day maintenance workflows, inspections and code compliance, Protect247 runs preventative-maintenance risk workflows, Connect247 covers remote maintenance dispatch, and Student247 manages student-housing turn logistics such as key returns and vendor scheduling.\n",
+      "real_estate_use": "An operations manager overseeing a multifamily portfolio needs a single system to run acquisition due diligence, then keep every property compliant on preventative maintenance and inspections once it's owned — a missed fire-code inspection or a botched student-housing turn creates both risk and cost. Leonardo247 gives the team one platform across the acquisition-to-operations lifecycle instead of separate spreadsheets per phase.\n",
+      "features": [
+        "Acquire247 acquisition due-diligence inspections",
+        "Perform247 maintenance and work-order workflows",
+        "Protect247 preventative-maintenance risk management",
+        "Connect247 remote maintenance dispatch",
+        "Student247 student-housing turn management",
+        "Portfolio-wide reporting and dashboards"
+      ],
+      "use_cases": [
+        {
+          "persona": "investor-am",
+          "job": "Run unit-by-unit due diligence inspections ahead of a multifamily acquisition"
+        },
+        {
+          "persona": "facility-manager",
+          "job": "Track preventative maintenance and code-compliance inspections across a portfolio"
+        }
+      ],
+      "personas": [
+        "investor-am",
+        "facility-manager",
+        "property-manager"
+      ],
+      "segments": [
+        "multifamily",
+        "coliving-student"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "reviews": [],
+      "logo": {
+        "file": "logos/leonardo247.png",
+        "source_url": "https://leonardo247.com/wp-content/uploads/Leonardo247-white-logo-no-tag.svg",
+        "fetched_on": "2026-09-18"
+      },
+      "signals": {
+        "privacy": "https://leonardo247.com/privacy-policy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-18"
+      },
+      "sources": [
+        {
+          "url": "https://leonardo247.com",
+          "note": "site éditeur — accueil"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-18"
     },
     {
       "slug": "liciel",
