@@ -4,7 +4,7 @@
   "label_fr": "Dossier locataire & garanties",
   "summary_en": "Verify an applicant's file, guarantee the rent, sign the lease.",
   "summary_fr": "Vérifier un dossier, garantir le loyer, signer le bail.",
-  "count": 19,
+  "count": 21,
   "tools": [
     {
       "slug": "apartments-com",
@@ -573,6 +573,177 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "leap",
+      "name": "Leap",
+      "editor": "Leap",
+      "website": "https://leapeasy.com",
+      "hq_country": "US",
+      "markets": [
+        "US"
+      ],
+      "category": "tenant-screening",
+      "positioning": "Rent guaranty and deposit-replacement coverage that lets renters who fail standard screening still qualify for a lease.",
+      "description": "Leap sells two products to rental operators: Rent Guaranty, which acts as an institutional co-signer for renters who don't meet standard leasing criteria, and a deposit-replacement product that substitutes a monthly fee for the upfront cash deposit. The operator is the policy beneficiary and is reimbursed if the renter misses rent; the renter still owes the missed payments to Leap. It serves multifamily, single-family and student housing operators.\n",
+      "real_estate_use": "A leasing agent has an applicant who doesn't clear standard income or credit screening — a first-time renter, a self-employed applicant, a recent graduate. Instead of rejecting the application, the agent offers Leap coverage: the applicant buys a guaranty policy, the operator is protected against missed rent, and the applicant qualifies for the unit without a co-signer or a large deposit.\n",
+      "features": [
+        "Rent Guaranty institutional co-signer coverage",
+        "Deposit-replacement monthly-fee product",
+        "Applicant qualification workflow for leasing teams",
+        "Bad-debt and skip/no-show recovery for operators"
+      ],
+      "use_cases": [
+        {
+          "persona": "property-manager",
+          "job": "Qualify an applicant who fails standard screening without requiring a co-signer"
+        },
+        {
+          "persona": "landlord-owner",
+          "job": "Reduce bad debt from missed rent and skips across a rental portfolio"
+        }
+      ],
+      "personas": [
+        "property-manager",
+        "landlord-owner"
+      ],
+      "segments": [
+        "residential",
+        "multifamily",
+        "coliving-student"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "integrations": [
+        "Rent Manager"
+      ],
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "leasesurance"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/leap.png",
+        "source_url": "https://leapeasy.com/wp-content/uploads/2026/05/leap-logo.webp",
+        "fetched_on": "2026-09-18"
+      },
+      "signals": {
+        "privacy": "https://leapeasy.com/privacy-policy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-18"
+      },
+      "sources": [
+        {
+          "url": "https://leapeasy.com",
+          "note": "site éditeur — accueil"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-18"
+    },
+    {
+      "slug": "leasesurance",
+      "name": "LeaseSurance",
+      "editor": "LeaseSurance",
+      "website": "https://www.leasesurance.co",
+      "hq_country": "ZA",
+      "markets": [
+        "US"
+      ],
+      "category": "tenant-screening",
+      "positioning": "Deposit-free lease insurance that replaces the cash security deposit for institutional residential and commercial landlords.",
+      "description": "LeaseSurance provides insurance-backed cover that substitutes for a cash security deposit. Its Zero Deposit product covers residential portfolios and Zero Capital covers commercial ones, both underwritten by a licensed insurer; tenants pay a small monthly fee instead of a lump sum, and landlords hold cover set at a multiple of monthly rent instead of a single month's deposit. LeaseHub is the digital platform that gives landlords portfolio-level visibility and claim administration, and ZD Rewards is a residential program that reduces cover cost for tenants with a good payment record.\n",
+      "real_estate_use": "An institutional landlord or portfolio manager wants to remove the cash deposit as a barrier to move-in without giving up loss protection. Instead of holding a locked trust-account deposit and administering set-offs and disputes at move-out, the landlord holds an insurance policy sized at several months' rent, and a licensed claims administrator settles losses in days rather than negotiating a refund with the outgoing tenant.\n",
+      "features": [
+        "Zero Deposit residential lease insurance",
+        "Zero Capital commercial deposit and guarantee replacement",
+        "LeaseHub portfolio administration platform",
+        "ZD Rewards tenant payment-behaviour program",
+        "Claims administration by a licensed insurer"
+      ],
+      "use_cases": [
+        {
+          "persona": "landlord-owner",
+          "job": "Replace the cash security deposit with insurance-backed cover across a residential portfolio"
+        },
+        {
+          "persona": "investor-am",
+          "job": "Standardise deposit-free leasing terms across an institutional multifamily or commercial portfolio"
+        }
+      ],
+      "personas": [
+        "landlord-owner",
+        "investor-am",
+        "property-manager"
+      ],
+      "segments": [
+        "residential",
+        "multifamily",
+        "office"
+      ],
+      "company_sizes": [
+        "midmarket",
+        "enterprise"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "alternatives": [
+        "leap"
+      ],
+      "reviews": [],
+      "logo": {
+        "file": "logos/leasesurance.png",
+        "source_url": "https://www.leasesurance.co/apple-touch-icon.png",
+        "fetched_on": "2026-09-18"
+      },
+      "signals": {
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-18"
+      },
+      "sources": [
+        {
+          "url": "https://www.leasesurance.co",
+          "note": "site éditeur — accueil"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-18"
     },
     {
       "slug": "obligo",

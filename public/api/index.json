@@ -4,23 +4,23 @@
   "license": "CC-BY-4.0 (data) / MIT (code)",
   "homepage": "https://flowmetrik.github.io/proptech-atlas",
   "repository": "https://github.com/flowmetrik/proptech-atlas",
-  "generated": "2026-09-17",
+  "generated": "2026-09-18",
   "counts": {
-    "tools": 282,
-    "US": 157,
-    "FR": 155,
+    "tools": 288,
+    "US": 162,
+    "FR": 156,
     "categories": 24,
-    "editors": 265,
+    "editors": 271,
     "verified": 0,
     "reviews": 0,
-    "logos": 261,
+    "logos": 267,
     "signals": {
-      "probed": 268,
-      "public_pricing": 68,
+      "probed": 274,
+      "public_pricing": 69,
       "api_docs": 18,
       "security_page": 33,
-      "privacy_page": 199,
-      "status_page": 65
+      "privacy_page": 204,
+      "status_page": 66
     }
   },
   "endpoints": {

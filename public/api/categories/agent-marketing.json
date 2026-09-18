@@ -4,7 +4,7 @@
   "label_fr": "Sites d'agence & marketing immobilier",
   "summary_en": "Websites, IDX search, branding and campaigns for agents and brokerages.",
   "summary_fr": "Sites, recherche IDX, marque et campagnes pour agents et agences.",
-  "count": 26,
+  "count": 27,
   "tools": [
     {
       "slug": "access-com",
@@ -595,6 +595,85 @@
         "checked_by": null
       },
       "updated": "2026-09-14"
+    },
+    {
+      "slug": "briefyourmarket",
+      "name": "BriefYourMarket",
+      "editor": "BriefYourMarket",
+      "website": "https://www.briefyourmarket.com",
+      "hq_country": "GB",
+      "markets": [
+        "US"
+      ],
+      "category": "agent-marketing",
+      "positioning": "Email marketing platform that turns an estate agent's historic client data into targeted, localised lead-generation campaigns.",
+      "description": "BriefYourMarket is an email marketing platform built for estate and letting agents. It mines an agency's historic contact and transaction data to re-engage past clients and surface valuation opportunities, and runs localised, community-targeted email campaigns from that data, with reporting on the leads and instructions the campaigns generate.\n",
+      "real_estate_use": "An estate agency has years of past-client data sitting unused in its CRM and wants to turn it back into instructions without a broad, untargeted newsletter. A marketing lead uses BriefYourMarket to segment that historic database and run localised campaigns — a past seller in a specific postcode who might be ready to move again, for example — and tracks which campaigns actually convert into valuation requests.\n",
+      "features": [
+        "Localised, community-targeted email campaigns",
+        "Historic client data re-engagement",
+        "Valuation-opportunity surfacing from past-client data",
+        "Campaign lead and revenue reporting"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Re-engage past clients from historic data to generate new valuation instructions"
+        },
+        {
+          "persona": "brokerage",
+          "job": "Run localised email campaigns targeted at a specific farming area"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "brokerage"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "en"
+        ]
+      },
+      "reviews": [],
+      "logo": {
+        "file": "logos/briefyourmarket.png",
+        "source_url": "https://www.briefyourmarket.com/wp-content/uploads/2023/10/brief-your-market-logo.svg",
+        "fetched_on": "2026-09-18"
+      },
+      "signals": {
+        "privacy": "https://www.briefyourmarket.com/privacy-policy",
+        "site_languages": [
+          "en"
+        ],
+        "checked_on": "2026-09-18"
+      },
+      "sources": [
+        {
+          "url": "https://www.briefyourmarket.com",
+          "note": "site éditeur — accueil"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-18"
     },
     {
       "slug": "clap-tech",

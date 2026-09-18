@@ -12,6 +12,7 @@ import { statSync, unlinkSync } from 'node:fs';
 import {
   ROOT, join, loadTools, pool, fetchWithTimeout, ensureDir, today, imagemagick,
   readFileSync, writeFileSync, existsSync, upsertBlock, dropBlock, scrapeHtml,
+  candidates,
 } from './lib.mjs';
 
 const run = promisify(execFile);
@@ -60,67 +61,6 @@ const ALL = args.includes('--all');
 const ONLY = (args.find((a) => a.startsWith('--only'))?.split('=')[1] ??
   (args.includes('--only') ? args[args.indexOf('--only') + 1] : '') ?? '')
   .split(',').filter(Boolean);
-
-/** Un `<img>` du header dont l'`alt` nomme le produit, ou dont la classe dit
- *  « logo », est le signal le plus direct qu'on puisse lire dans un `<head>` —
- *  plus fiable qu'un favicon ou qu'un og:image, qui ne portent aucun nom.
- *  Ajouté le 08/09 : `poliris` avait adopté un export de diapositive faute de
- *  mieux, alors que le site portait `<img alt="Poliris" class="logo">` juste à
- *  côté. Rang au-dessus de l'apple-touch-icon quand les deux signaux
- *  concordent (alt ET classe), sinon juste en dessous. */
-function imgLogoCandidates(html, base, name) {
-  const abs = (u) => { try { return new URL(u, base).href; } catch { return null; } };
-  const norm = (s) => (s ?? '').toLowerCase().replace(/[^a-z0-9]+/g, '');
-  const wanted = norm(name);
-  if (!wanted) return [];
-  const found = [];
-  const imgs = html.match(/<img\b[^>]*>/gi) ?? [];
-  for (const tag of imgs.slice(0, 400)) {
-    const src = tag.match(/\bsrc=["']([^"']+)["']/i)?.[1];
-    if (!src || /\.(mp4|webm)($|\?)/i.test(src)) continue;
-    const alt = tag.match(/\balt=["']([^"']*)["']/i)?.[1] ?? '';
-    const cls = tag.match(/\bclass=["']([^"']*)["']/i)?.[1] ?? '';
-    const altMatch = wanted.length >= 3 && norm(alt).includes(wanted);
-    const classMatch = /\blogo\b/i.test(cls) || /logo/i.test(src);
-    if (!altMatch && !classMatch) continue;
-    const u = abs(src);
-    // Au-dessus de l'apple-touch-icon (1000 + sa taille déclarée, rarement
-    // > 180) : un alt ou une classe qui nomme la marque vaut plus qu'une icône
-    // sans nom. Vu sur `engrain` : un apple-touch-icon sans `sizes` valait
-    // 1000 pile et battait le candidat nommé à 999 d'un cheveu.
-    if (u) found.push({ url: u, rank: altMatch && classMatch ? 2000 : altMatch ? 1500 : 1200 });
-  }
-  return found;
-}
-
-/** Les candidats d'un <head>, du meilleur au pire. */
-function candidates(html, base, name) {
-  const abs = (u) => { try { return new URL(u, base).href; } catch { return null; } };
-  const found = [...imgLogoCandidates(html, base, name)];
-  const links = html.match(/<link\b[^>]*>/gi) ?? [];
-  for (const tag of links) {
-    const rel = (tag.match(/rel=["']([^"']+)["']/i)?.[1] ?? '').toLowerCase();
-    const href = tag.match(/href=["']([^"']+)["']/i)?.[1];
-    if (!href || !/icon/.test(rel)) continue;
-    const size = parseInt(tag.match(/sizes=["'](\d+)/i)?.[1] ?? '0', 10);
-    // Un apple-touch-icon est presque toujours le logo propre en 180 px.
-    const rank = rel.includes('apple-touch') ? 1000 + size
-      : /\.svg($|\?)/i.test(href) ? 900
-      : size || (/\.ico($|\?)/i.test(href) ? 1 : 40);
-    const u = abs(href);
-    if (u) found.push({ url: u, rank });
-  }
-  const og = html.match(/<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)["']/i)?.[1]
-    ?? html.match(/<meta[^>]+content=["']([^"']+)["'][^>]+property=["']og:image["']/i)?.[1];
-  // og:image est souvent une bannière, pas une marque : dernier recours.
-  if (og && abs(og)) found.push({ url: abs(og), rank: 5 });
-  found.push({ url: abs('/favicon.ico'), rank: 1 });
-  const seen = new Set();
-  return found
-    .filter((c) => c.url && !seen.has(c.url) && seen.add(c.url))
-    .sort((a, b) => b.rank - a.rank)
-    .slice(0, 6);
-}
 
 async function html(website, { viaFirecrawl = false } = {}) {
   if (viaFirecrawl) {

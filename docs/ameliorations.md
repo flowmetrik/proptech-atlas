@@ -12,28 +12,6 @@ qu'une chose a été tentée vaut mieux que de la retenter.
 
 ## Ouvert — qualité de la donnée
 
-- **`imgLogoCandidates()` classe une classe générique au-dessus d'un alt vide,
-  et bat parfois le vrai logo.** Rencontré le 17/09 sur trois fiches neuves :
-  `higharc` a adopté le logo client « Signature Homes », affiché dans un
-  carrousel d'études de cas (`class="case-study-tab-logo"`, `alt=""`) — ce
-  candidat vaut 1200 dans le classement (`classMatch` vrai, `altMatch` faux),
-  au-dessus de l'apple-touch-icon réel (1000 + sa taille, ≤ 1180 en pratique).
-  Un logo tiers dans un bloc « témoignages/études de cas » porte presque
-  toujours une classe contenant « logo » sans jamais nommer la marque dans
-  `alt` — c'est exactement l'inverse de ce que `classMatch && altMatch → 2000`
-  cherche à récompenser, et rien ne pénalise le cas où seule la classe
-  correspond. `lighttable` et `loftely` montrent un second piège, plus fin :
-  le vrai logo de `loftely` (`alt="Loftely"`, donc `altMatch` vrai, rang 1500)
-  existe bien dans le HTML mais n'a **pas** été retenu — l'URL passe par un
-  proxy Nuxt `_ipx/...` dont la requête contient des entités HTML (`&amp;`)
-  jamais décodées avant la récupération, qui a donc dû échouer silencieusement
-  et retomber sur l'image suivante (une capture d'écran marketing, rang 5).
-  Les trois corrigés à la main le 17/09 (voir `data/logos-refuses.json`) ;
-  aucun correctif de code encore tenté. Piste pour la prochaine passe :
-  décoder les entités HTML des `src`/`srcset` avant `abs()`, et réserver le
-  rang ≥ 1200 aux candidats dont `alt` nomme la marque, pas à ceux qui n'ont
-  qu'une classe « logo ».
-
 
 - **Passer des fiches en `verified`.** 158 fiches, **zéro vérifiée**. C'est le
   manque le plus important du projet : tout le catalogue est en « rédigé, non
@@ -192,6 +170,25 @@ qu'une chose a été tentée vaut mieux que de la retenter.
 ---
 
 ## Fait
+
+- **2026-09-18** — `imgLogoCandidates()` classait une classe générique au-dessus d'un alt
+  vide, et batait parfois le vrai logo. Rencontré le 17/09 sur trois fiches neuves :
+  `higharc` avait adopté le logo client « Signature Homes », affiché dans un carrousel
+  d'études de cas (`class="case-study-tab-logo"`, `alt=""`) — ce candidat valait 1200
+  (`classMatch` vrai, `altMatch` faux), au-dessus de l'apple-touch-icon réel (1000 + sa
+  taille, ≤ 1180 en pratique). `lighttable` et `loftely` montraient un second piège, plus
+  fin : le vrai logo de `loftely` (`alt="Loftely"`, `altMatch` vrai, rang 1500) existait
+  bien dans le HTML mais n'était **pas** retenu — l'URL passait par un proxy Nuxt
+  `_ipx/...` dont la requête contenait des entités HTML (`&amp;`) jamais décodées avant la
+  récupération, qui échouait donc silencieusement et retombait sur l'image suivante.
+  Corrigé : les candidats dont seule la classe correspond (sans `alt` nommant la marque)
+  passent à un rang de 800, sous l'apple-touch-icon ; `src`/`href` sont décodés de leurs
+  entités HTML avant `new URL()`. `imgLogoCandidates()` et `candidates()` déplacées de
+  `logos.mjs` vers `lib.mjs` (pures, sans effet de bord à l'import) pour être testables ;
+  nouveau `scripts/enrich/logos.test.mjs`, trois cas figeant higharc, loftely et le cas
+  poliris (alt + classe concordants, toujours prioritaires). Les trois fiches déjà
+  corrigées à la main le 17/09 restent protégées par `data/logos-refuses.json` — non
+  retouchées, comme prévu par le mécanisme.
 
 - **2026-09-17** — Suite de la traduction `description_fr` : 20 fiches supplémentaires à
   siège français (sur les 95 qui en manquaient encore) traduites depuis leur `description`

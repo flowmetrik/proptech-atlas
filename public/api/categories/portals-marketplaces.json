@@ -4,7 +4,7 @@
   "label_fr": "Portails & places de marché",
   "summary_en": "Where supply meets demand in public — consumer portals, listing networks and transactional marketplaces.",
   "summary_fr": "Là où l'offre rencontre la demande en public — portails grand public, réseaux d'annonces et places de marché transactionnelles.",
-  "count": 14,
+  "count": 15,
   "tools": [
     {
       "slug": "apartments-com",
@@ -397,6 +397,98 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "immo-ia",
+      "name": "Immo IA",
+      "editor": "Immo IA",
+      "website": "https://www.immoia.fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "estimation-pricing",
+      "also_in": [
+        "portals-marketplaces"
+      ],
+      "positioning": "Estimation immobilière gratuite pour particuliers, financée par la mise en relation avec des professionnels partenaires.",
+      "description": "Immo IA est un service gratuit d'estimation immobilière pour particuliers : l'utilisateur décrit un bien et obtient une valeur estimée avec une fourchette, calculée à partir des transactions DVF de la DGFiP et d'une vingtaine d'autres sources publiques, sur les 34 856 communes de France métropolitaine. Le service se finance en mettant en relation, avec l'accord explicite de l'utilisateur, les particuliers avec des professionnels partenaires — agences immobilières, diagnostiqueurs, courtiers en crédit, notaires — qui paient pour recevoir ces contacts qualifiés.\n",
+      "real_estate_use": "Une agence immobilière, un diagnostiqueur ou un courtier en crédit cherche des contacts qualifiés de particuliers en projet de vente, d'achat ou de financement, sans acheter un flux générique. Le professionnel devient partenaire Immo IA et reçoit les demandes de particuliers ayant déjà obtenu une estimation et accepté explicitement d'être mis en relation — un lead pré-qualifié par l'usage du service, pas une adresse achetée à l'aveugle.\n",
+      "features": [
+        "Estimation automatisée à partir des données DVF et d'une vingtaine de sources publiques",
+        "Carte des prix au m² par commune",
+        "Calculateurs frais de notaire, capacité d'emprunt, plus-value, rendement locatif",
+        "Annuaire de professionnels vérifiés par métier",
+        "Mise en relation payante avec accord explicite du particulier"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Recevoir des contacts de particuliers ayant déjà obtenu une estimation de leur bien"
+        },
+        {
+          "persona": "lender-broker",
+          "job": "Recevoir des demandes de financement qualifiées issues de la plateforme particuliers"
+        }
+      ],
+      "personas": [
+        "agent-broker",
+        "lender-broker",
+        "appraiser"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "freemium",
+        "public_pricing": false
+      },
+      "ai": {
+        "capabilities": [
+          "Modèle d'estimation entraîné sur les transactions DVF et données publiques complémentaires"
+        ]
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "reviews": [],
+      "logo": {
+        "file": "logos/immo-ia.png",
+        "source_url": "https://immoia.fr/apple-icon.png?apple-icon.b0221899.png",
+        "fetched_on": "2026-09-18"
+      },
+      "signals": {
+        "privacy": "https://immoia.fr/confidentialite",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-09-18"
+      },
+      "sources": [
+        {
+          "url": "https://www.immoia.fr",
+          "note": "site éditeur — accueil"
+        },
+        {
+          "url": "https://www.immoia.fr/professionnels",
+          "note": "site éditeur — annuaire et offre professionnels"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-18"
     },
     {
       "slug": "kazaki",
