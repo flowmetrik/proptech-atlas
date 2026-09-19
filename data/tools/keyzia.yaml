@@ -19,6 +19,19 @@ description: >
   notifications when something changes. An interactive map layer adds address-level
   data for spotting projects on a territory. The vendor states data is hosted in
   Europe.
+description_fr: >
+  Keyzia est une application française qui permet à une entreprise de l'immobilier ou
+  du bâtiment de tester, déployer et centraliser ses cas d'usage IA en un seul endroit
+  plutôt que de les laisser dispersés dans des comptes individuels. Elle est vendue aux
+  agents immobiliers, administrateurs de biens et syndics, artisans et rénovateurs,
+  banques et assureurs, et acteurs de l'énergie, chacun avec son propre jeu d'usages
+  préparés : préparer un mandat de vente complet, analyser des devis et factures,
+  diagnostic énergétique, évaluation du risque et de la valeur verte. Un module appelé
+  KeyPark conserve un portefeuille d'adresses avec l'historique attaché à chaque bien,
+  couvrant les transactions passées, travaux et diagnostics, avec des notifications en
+  cas de changement. Une couche cartographique interactive ajoute des données à
+  l'échelle de l'adresse pour repérer des projets sur un territoire. L'éditeur déclare
+  des données hébergées en Europe.
 real_estate_use: >
   The AI problem inside a French agency or syndic is not that nobody uses it, it is
   that everyone uses it separately, in a personal account, with client data. Keyzia is

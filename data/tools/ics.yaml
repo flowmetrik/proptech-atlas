@@ -13,6 +13,12 @@ description: >
   condominium syndic management, property management, rental management and sales
   transactions. It is delivered as cloud applications accessible from a standard web
   browser, with servers hosted in a Class IV datacenter.
+description_fr: >
+  ICS est une suite logicielle française conçue pour les administrateurs de biens,
+  couvrant la gestion syndic de copropriété, la gérance, la gestion locative et les
+  transactions. Elle est livrée sous forme d'applications en cloud accessibles depuis
+  un navigateur web standard, avec des serveurs hébergés dans un datacenter de classe
+  IV.
 real_estate_use: >
   Property management firms and syndics in France use ICS to run their daily back
   office: co-ownership accounting, fund calls and general assembly administration

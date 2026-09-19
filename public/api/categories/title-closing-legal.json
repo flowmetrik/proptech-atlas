@@ -144,6 +144,7 @@
       "category": "title-closing-legal",
       "positioning": "Practice management for French notaries — where the deed, the file and the office accounting are one system.",
       "description": "GenApi, part of Septeo, publishes software for French notarial offices: file and deed production, clause and act libraries, client and party records, notarial accounting, electronic filing with the profession's infrastructure and secure exchange with administrations.\n",
+      "description_fr": "GenApi, qui fait partie de Septeo, édite un logiciel pour les études notariales françaises : production de dossiers et d'actes, bibliothèques de clauses et de modèles d'actes, fiches clients et parties, comptabilité notariale, télétransmission avec l'infrastructure de la profession et échanges sécurisés avec les administrations.\n",
       "real_estate_use": "In France the notaire, not a title company, carries the property transfer: drafting the acte authentique, collecting taxes, and registering with the service de publicité foncière. GenApi is one of the systems that production runs in, which makes it a structural dependency of every French property sale even though no agent ever logs into it.\n",
       "features": [
         "Notarial file and deed production with maintained act libraries",
@@ -237,6 +238,7 @@
       ],
       "positioning": "Rédaction, signature et envoi des contrats immobiliers pour agences, constructeurs et promoteurs, jusqu'aux mentions manuscrites.",
       "description": "ImmoSign, published by MyLegitech, digitises the contract chain of a French real estate professional. Documents are assembled from generic or bespoke templates written by the vendor's legal team, signed electronically, sent by registered electronic mail, and recorded in electronic mandate registers. It handles the handwritten mentions that French law attaches to certain contracts, offers a signature tablet for signing in person, and exposes an API. It addresses agencies, home builders and developers rather than agencies alone.\n",
+      "description_fr": "ImmoSign, édité par MyLegitech, numérise la chaîne contractuelle d'un professionnel de l'immobilier français. Les documents sont assemblés à partir de modèles génériques ou sur mesure rédigés par l'équipe juridique de l'éditeur, signés électroniquement, envoyés par lettre recommandée électronique, et enregistrés dans des registres de mandats électroniques. L'outil gère les mentions manuscrites que la loi française impose sur certains contrats, propose une tablette de signature pour signer en présentiel, et expose une API. Il s'adresse aux agences, constructeurs de maisons individuelles et promoteurs, pas seulement aux agences.\n",
       "real_estate_use": "The step that usually breaks a remote signature in France is the handwritten mention: a clause the signer must copy out by hand for the contract to hold. A generic e-signature tool does not produce it, so the file goes back to paper for one paragraph. ImmoSign covers that step, which is why builders and developers — whose CCMI and VEFA reservation contracts carry the heaviest mention requirements — appear alongside agencies on the product. The signature tablet exists for the same reason in reverse: some signatures still happen at the desk, and the office wants one archive rather than a scanner and a drive.\n",
       "features": [
         "Rédaction assistée à partir de trames juridiques",
@@ -329,6 +331,7 @@
       "category": "title-closing-legal",
       "positioning": "The notarial software published from inside the profession's own technical body.",
       "description": "iNot is a suite for French notarial offices published by ADNOV, the technology subsidiary of the notariat's own infrastructure group: deed and file production, office management, accounting, and connection to the profession's shared services and registers.\n",
+      "description_fr": "iNot est une suite pour les études notariales françaises éditée par ADNOV, la filiale technologique du groupe d'infrastructure propre au notariat : production d'actes et de dossiers, gestion de l'étude, comptabilité, et connexion aux services mutualisés et registres de la profession.\n",
       "real_estate_use": "Its distinguishing characteristic is proximity to the profession's central infrastructure — the registers, the secure exchange network and the electronic authentic deed. For an office, that means the chain from drafting to registration stays within one technical ecosystem rather than crossing vendor boundaries at each step.\n",
       "features": [
         "Notarial deed and file production",

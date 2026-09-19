@@ -1647,6 +1647,7 @@
       ],
       "positioning": "Property administration software for larger French firms, where volume and multi-site organisation are the constraint.",
       "description": "Gercop, also part of Septeo, provides syndic, gérance and transaction management for French administration de biens: accounting, assemblies, calls for funds, lease management, extranets and business reporting, aimed at structures managing large portfolios.\n",
+      "description_fr": "Gercop, également au sein de Septeo, propose la gestion syndic, gérance et transaction pour les administrateurs de biens français : comptabilité, assemblées, appels de fonds, gestion locative, extranets et reporting d'activité, destinée aux structures qui gèrent de grands portefeuilles.\n",
       "real_estate_use": "At the scale of tens of thousands of lots across multiple branches, the operational problem moves from bookkeeping to organisation: who manages which building, which assemblies fall in which month, where arrears are concentrating. Gercop is bought for that management layer over the same regulated accounting base.\n",
       "features": [
         "Syndic and gérance accounting at portfolio scale",
@@ -1746,6 +1747,7 @@
       ],
       "positioning": "Management software for French construction firms, built around the progress statement rather than the invoice.",
       "description": "Graneet is a French SaaS for building and public works companies: quotes and bills of quantities, progress-based billing, purchase and subcontract tracking, site cost monitoring, cash flow forecasting and profitability analysis per site.\n",
+      "description_fr": "Graneet est un SaaS français pour les entreprises du bâtiment et des travaux publics : devis et métrés, facturation à l'avancement, suivi des achats et de la sous-traitance, suivi des coûts de chantier, prévision de trésorerie et analyse de rentabilité par chantier.\n",
       "real_estate_use": "Construction firms in France bill by situation de travaux — a periodic statement of work completed — and their margin is decided by the gap between the estimate and the actual site cost. Graneet keeps both in one place, so a site foreman's committed purchases are visible against the quoted budget before the loss is realised at closing.\n",
       "features": [
         "Quotes and bills of quantities with libraries",
@@ -1849,6 +1851,7 @@
       ],
       "positioning": "Rental investment analysis for the French private investor — yield, tax regime and cash flow before the offer is made.",
       "description": "Horiz.io provides French rental investors with property analysis and simulation: gross and net yield calculation, comparison of tax regimes for furnished and unfurnished letting, financing and cash flow projection, plus portfolio tracking after acquisition.\n",
+      "description_fr": "Horiz.io propose aux investisseurs locatifs français l'analyse et la simulation de biens : calcul de rendement brut et net, comparaison des régimes fiscaux en location nue et meublée, projection de financement et de trésorerie, ainsi que le suivi du patrimoine après acquisition.\n",
       "real_estate_use": "In France the tax regime often decides whether an investment works — the same apartment can be cash-flow negative unfurnished and positive under a furnished regime with amortisation. Comparing those scenarios by hand is where private investors get it wrong. Horiz models them side by side before the offer, and then tracks the actual result afterwards.\n",
       "features": [
         "Gross, net and net-of-tax yield calculation",

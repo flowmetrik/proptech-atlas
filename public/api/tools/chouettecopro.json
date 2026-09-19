@@ -1,0 +1,83 @@
+{
+  "slug": "chouettecopro",
+  "name": "ChouetteCopro",
+  "editor": "ChouetteCopro",
+  "website": "https://www.chouettecopro.com",
+  "hq_country": "FR",
+  "markets": [
+    "FR"
+  ],
+  "category": "syndic-copro",
+  "positioning": "The simplest, most complete software on the market for running a syndic's daily relationship with occupants and providers.",
+  "description": "ChouetteCopro is a French SaaS platform that connects occupants, syndic property managers and technical service providers around a co-owned building. Occupants report common-area incidents from their phone, the syndic tracks service orders and quote requests with providers, digitizes claims declarations with insurers and other parties, and runs general meetings and board meetings by video. It is a communication and incident-tracking layer rather than a syndic accounting system, and it interconnects with most of the market's syndic back-office software.\n",
+  "real_estate_use": "A syndic manager drowning in emails about a broken elevator or a leaking roof gives occupants a direct channel to report the incident with photos, instead of a phone call or an email thread. The tool tracks the provider's quote and intervention and closes the loop with the occupant once the work is done, cutting the manual follow-up that eats a manager's week and giving occupants visibility into where their request stands.\n",
+  "features": [
+    "Occupant incident reporting from phone or tablet",
+    "Service order and quote-request tracking with providers",
+    "Digital, collaborative insurance claim declarations",
+    "Video general meetings and board meetings",
+    "Building visit reports generated on-site",
+    "Interconnection with major syndic back-office software"
+  ],
+  "use_cases": [
+    {
+      "persona": "syndic-manager",
+      "job": "Give occupants a direct channel to report common-area incidents instead of emails and calls"
+    },
+    {
+      "persona": "syndic-manager",
+      "job": "Track a service provider's quote and intervention from request to completion"
+    }
+  ],
+  "personas": [
+    "syndic-manager"
+  ],
+  "segments": [
+    "residential"
+  ],
+  "company_sizes": [
+    "smb",
+    "midmarket"
+  ],
+  "pricing": {
+    "model": "quote",
+    "public_pricing": false
+  },
+  "product": {
+    "api": false,
+    "open_source": false,
+    "mobile": [],
+    "languages": [
+      "fr"
+    ]
+  },
+  "reviews": [],
+  "logo": {
+    "file": "logos/chouettecopro.png",
+    "source_url": "https://www.chouettecopro.com/wp-content/themes/wp-starter/images/logo-contact.png",
+    "fetched_on": "2026-09-19"
+  },
+  "signals": {
+    "privacy": "https://www.chouettecopro.com/politique-de-confidentialite",
+    "site_languages": [
+      "fr"
+    ],
+    "checked_on": "2026-09-19"
+  },
+  "sources": [
+    {
+      "url": "https://www.chouettecopro.com/syndic-de-coproprietes/",
+      "note": "site éditeur — page syndic de copropriété"
+    },
+    {
+      "url": "https://www.chouettecopro.com/",
+      "note": "site éditeur — accueil"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-09-19"
+}

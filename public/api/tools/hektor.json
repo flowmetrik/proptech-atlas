@@ -15,6 +15,7 @@
   "founded": 2006,
   "positioning": "One of the reference transaction systems for French agencies — mandate, matching, portal publishing and website in a single subscription.",
   "description": "Hektor is La Boîte Immo's real estate software for French agencies and networks: property and contact records, mandate management, automated buyer matching, portal publishing, electronic signature, and an agency website generated from the same catalogue.\n",
+  "description_fr": "Hektor est le logiciel immobilier de La Boîte Immo pour les agences et réseaux français : fiches biens et contacts, gestion des mandats, rapprochement acquéreur automatisé, diffusion sur les portails, signature électronique, et un site d'agence généré depuis le même catalogue.\n",
   "real_estate_use": "A French agency's daily cycle runs on the mandate. Hektor holds the signed mandate and its legal mentions, matches each new listing against registered buyer criteria and sends the alert, publishes to the portals the agency subscribes to, and feeds the agency site. The reason it is bought as a suite is that in France the website and the portal feed are the same catalogue.\n",
   "features": [
     "Property and mandate management with French legal mentions",

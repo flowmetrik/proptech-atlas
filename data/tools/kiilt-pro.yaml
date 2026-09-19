@@ -11,6 +11,12 @@ description: >
   crédit, IOBSP). It combines document OCR, AI-assisted file analysis, document
   management with e-signature, and configurable workflows around a single client loan
   file, covering mortgages, debt consolidation and professional loans.
+description_fr: >
+  Kiilt Pro est une plateforme SaaS française pour les courtiers en crédit (IOBSP).
+  Elle combine OCR de documents, analyse de dossier assistée par IA, gestion
+  documentaire avec signature électronique, et des workflows configurables autour d'un
+  dossier de prêt client unique, couvrant les crédits immobiliers, le rachat de
+  crédits et les prêts professionnels.
 real_estate_use: >
   A credit broker uses Kiilt Pro to build a borrower's file from scanned documents,
   with OCR auto-filling the dossier, then runs financial analysis and simulators

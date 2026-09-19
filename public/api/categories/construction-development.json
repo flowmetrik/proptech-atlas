@@ -818,6 +818,7 @@
       ],
       "positioning": "Management software for French construction firms, built around the progress statement rather than the invoice.",
       "description": "Graneet is a French SaaS for building and public works companies: quotes and bills of quantities, progress-based billing, purchase and subcontract tracking, site cost monitoring, cash flow forecasting and profitability analysis per site.\n",
+      "description_fr": "Graneet est un SaaS français pour les entreprises du bâtiment et des travaux publics : devis et métrés, facturation à l'avancement, suivi des achats et de la sous-traitance, suivi des coûts de chantier, prévision de trésorerie et analyse de rentabilité par chantier.\n",
       "real_estate_use": "Construction firms in France bill by situation de travaux — a periodic statement of work completed — and their margin is decided by the gap between the estimate and the actual site cost. Graneet keeps both in one place, so a site foreman's committed purchases are visible against the quoted budget before the loss is realised at closing.\n",
       "features": [
         "Quotes and bills of quantities with libraries",
@@ -1015,6 +1016,7 @@
       "founded": 2012,
       "positioning": "Digital property inspections on tablet — état des lieux, delivery snagging and periodic visits in one app.",
       "description": "Immopad is a French application for property inspections: entry and exit état des lieux, new-build delivery snagging, periodic visits and works acceptance, captured on tablet or phone with photos, signed on the spot and produced as a report.\n",
+      "description_fr": "Immopad est une application française pour les états des lieux : entrée et sortie de location, réserves de livraison de biens neufs, visites périodiques et réception de travaux, saisis sur tablette ou téléphone avec photos, signés sur place et restitués sous forme de rapport.\n",
       "real_estate_use": "The état des lieux is the document a deposit dispute turns on, and a paper one written in ballpoint rarely survives it. Capturing room by room with dated photographs and an on-the-spot signature changes the evidentiary position entirely. The same capture engine is used by developers for delivery snagging, where the list of reserves has the same contentious quality.\n",
       "features": [
         "Entry and exit état des lieux with photo evidence",
@@ -1114,6 +1116,7 @@
       "category": "construction-development",
       "positioning": "Construction document control and site quality for large French projects, with the traceability an owner needs at handover.",
       "description": "Kairnial is a collaborative platform for construction and asset lifecycle: controlled document management with versioning and approval circuits, site quality and snagging, safety and compliance records, BIM model consultation, and structured handover packages.\n",
+      "description_fr": "Kairnial est une plateforme collaborative pour la construction et le cycle de vie des actifs : gestion documentaire maîtrisée avec versioning et circuits de validation, qualité de chantier et levée de réserves, registres sécurité et conformité, consultation de maquettes BIM, et dossiers de remise structurés.\n",
       "real_estate_use": "On a large French project the governing risk is documentary: which version of a plan was approved, who validated it, and what evidence exists that a reserve was lifted. Kairnial organises that chain — the visa circuit, the dated observation, the signed lift — so the handover file is defensible and the operator inherits usable data rather than a hard drive.\n",
       "features": [
         "Controlled document management with visa and approval circuits",
@@ -1218,6 +1221,7 @@
       ],
       "positioning": "Land prospecting for French developers — which parcels can be built on, how much, and who owns them.",
       "description": "Kel Foncier combines cadastral parcels, local urban planning rules, building rights, ownership data, building permits and transactions into a mapping and search tool for property developers and land prospectors.\n",
+      "description_fr": "Kel Foncier combine parcelles cadastrales, règles d'urbanisme locales, droits à construire, données de propriété, permis de construire et transactions dans un outil de cartographie et de recherche pour les promoteurs et prospecteurs fonciers.\n",
       "real_estate_use": "A French development starts with a question the PLU answers slowly: on this parcel, what height, what footprint, what constraints. Kel Foncier makes that searchable in reverse — find every parcel in a commune with unused building rights above a threshold, filter out the protected ones, and get the owner. It compresses weeks of town-hall work into a query.\n",
       "features": [
         "Cadastral parcels with local planning rules applied",

@@ -10,6 +10,7 @@
   "category": "lending-mortgage",
   "positioning": "All-in-one credit brokerage software with OCR and AI to build, analyse and present a loan file.",
   "description": "Kiilt Pro is a French SaaS platform for mortgage and credit brokers (courtiers en crédit, IOBSP). It combines document OCR, AI-assisted file analysis, document management with e-signature, and configurable workflows around a single client loan file, covering mortgages, debt consolidation and professional loans.\n",
+  "description_fr": "Kiilt Pro est une plateforme SaaS française pour les courtiers en crédit (IOBSP). Elle combine OCR de documents, analyse de dossier assistée par IA, gestion documentaire avec signature électronique, et des workflows configurables autour d'un dossier de prêt client unique, couvrant les crédits immobiliers, le rachat de crédits et les prêts professionnels.\n",
   "real_estate_use": "A credit broker uses Kiilt Pro to build a borrower's file from scanned documents, with OCR auto-filling the dossier, then runs financial analysis and simulators (interest-free loan eligibility, borrowing capacity, insurance), generates a bank-ready presentation and amortization tables, and manages the file through e-signature and partner tracking in place of spreadsheets and separate tools.\n",
   "features": [
     "OCR document capture and auto-filled dossier",

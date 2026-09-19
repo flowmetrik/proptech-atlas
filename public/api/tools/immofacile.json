@@ -14,6 +14,7 @@
   ],
   "positioning": "A French agency package sold module by module, so a small agency buys only the trade it practises.",
   "description": "Immofacile provides French real estate professionals with transaction software, rental management and syndic modules, portal publishing, agency websites and document management, packaged so an agency subscribes only to the activities it holds.\n",
+  "description_fr": "Immofacile propose aux professionnels de l'immobilier français un logiciel de transaction, des modules de gestion locative et syndic, la diffusion sur les portails, des sites d'agence et la gestion documentaire, packagés pour qu'une agence ne souscrive qu'aux activités qu'elle exerce.\n",
   "real_estate_use": "Small French agencies rarely practise all three regulated activities, and paying for a full administration suite to run transaction alone is a common source of overspend. Modular pricing is the practical argument here, with the option to add gérance later without migrating the client and property records.\n",
   "features": [
     "Modular transaction, rental and syndic activities",

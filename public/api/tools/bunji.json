@@ -1,0 +1,70 @@
+{
+  "slug": "bunji",
+  "name": "Bunji",
+  "editor": "Bunji",
+  "website": "https://www.bunji.fr",
+  "hq_country": "FR",
+  "markets": [
+    "FR"
+  ],
+  "category": "crm-lead",
+  "positioning": "The all-in-one real estate CRM built to help agents sign more listing mandates.",
+  "description": "Bunji is a French all-in-one CRM for real estate agents focused on winning more listing mandates. It consolidates prospecting channels — a deduplicated feed of listings pulled from 55+ portals, geolocated door-to-door prospecting (pige), an online valuation estimator, and an interactive map for spotting ownership and sale signals — into a single pipeline with kanban tracking and automated reminders.\n",
+  "real_estate_use": "An agent spends hours a day checking dozens of portals for new listings and copying leads into a spreadsheet by hand. Bunji pulls every new private and professional listing into one deduplicated feed and feeds a kanban pipeline with automated follow-up reminders, so the agent's time goes into calling owners rather than searching for them.\n",
+  "features": [
+    "Deduplicated listing feed from 55+ real estate portals",
+    "Geolocated door-to-door prospecting (pige)",
+    "Online valuation estimator with multiple pricing methods",
+    "Interactive map for identifying owners and sale signals",
+    "Kanban pipeline with automated follow-up reminders"
+  ],
+  "use_cases": [
+    {
+      "persona": "agent-broker",
+      "job": "Consolidate new private and professional listings from dozens of portals into one deduplicated feed"
+    },
+    {
+      "persona": "agent-broker",
+      "job": "Track prospects through a kanban pipeline with automated reminders instead of a spreadsheet"
+    }
+  ],
+  "personas": [
+    "agent-broker"
+  ],
+  "segments": [
+    "residential"
+  ],
+  "company_sizes": [
+    "solo",
+    "smb"
+  ],
+  "pricing": {
+    "model": "subscription",
+    "public_pricing": false
+  },
+  "product": {
+    "api": false,
+    "open_source": false,
+    "mobile": [],
+    "languages": [
+      "fr"
+    ]
+  },
+  "reviews": [],
+  "signals": {
+    "privacy": "https://www.bunji.fr/privacy",
+    "checked_on": "2026-09-19"
+  },
+  "sources": [
+    {
+      "url": "https://www.bunji.fr/",
+      "note": "site éditeur — accueil"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-09-19"
+}

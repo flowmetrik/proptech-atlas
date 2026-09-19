@@ -169,7 +169,7 @@ sources:
   # ── Salons ─────────────────────────────────────────────────────────────────
   - id: rent-paris
     label: RENT — Real Estate & New Technologies, Paris
-    url: https://www.rentevent.immo
+    url: https://paris.rent.immo/en/content/exposants
     market: FR
     kind: event
     finds: LA liste d'exposants de la proptech française. À balayer après chaque édition.

@@ -11,6 +11,11 @@ description: >
   diagnosticians (diagnostiqueurs immobiliers). It centralizes appointment booking,
   quoting, invoicing and client/referrer relationship management around each
   regulatory diagnostic assignment (DPE, asbestos, lead, energy audit, ERP).
+description_fr: >
+  Gestion Diag est un CRM et back-office en cloud pour les diagnostiqueurs immobiliers
+  français. Il centralise la prise de rendez-vous, les devis, la facturation et la
+  gestion de la relation client et apporteur autour de chaque mission de diagnostic
+  réglementaire (DPE, amiante, plomb, audit énergétique, ERP).
 real_estate_use: >
   A diagnostician or diagnostic firm uses Gestion Diag to book site visits, generate
   quotes and invoices automatically, and track dossiers opened by referring real

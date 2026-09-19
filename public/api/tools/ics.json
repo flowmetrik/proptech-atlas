@@ -15,6 +15,7 @@
   "founded": 1978,
   "positioning": "Independent French software suite for property administrators, used daily by more than 18,000 professionals across cloud-based syndic, management, rental and transaction modules.",
   "description": "ICS is a French software suite built for administrateurs de biens, covering condominium syndic management, property management, rental management and sales transactions. It is delivered as cloud applications accessible from a standard web browser, with servers hosted in a Class IV datacenter.\n",
+  "description_fr": "ICS est une suite logicielle française conçue pour les administrateurs de biens, couvrant la gestion syndic de copropriété, la gérance, la gestion locative et les transactions. Elle est livrée sous forme d'applications en cloud accessibles depuis un navigateur web standard, avec des serveurs hébergés dans un datacenter de classe IV.\n",
   "real_estate_use": "Property management firms and syndics in France use ICS to run their daily back office: co-ownership accounting, fund calls and general assembly administration through the syndic module, rental portfolio tracking through the gestion and location modules, and sales file follow-up through the transaction module. Because it runs in the cloud, staff access the same accounting and extra-accounting environment from any browser without maintaining local servers or a VPN.\n",
   "features": [
     "Cloud-based access to accounting and extra-accounting environment via web browser",

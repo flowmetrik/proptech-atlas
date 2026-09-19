@@ -4,8 +4,86 @@
   "label_fr": "Gestion de transaction & closing",
   "summary_en": "Run a deal from offer to closing — forms, e-signature, compliance, commissions.",
   "summary_fr": "Piloter une vente de l'offre à l'acte — pièces, signature, conformité, commissions.",
-  "count": 23,
+  "count": 24,
   "tools": [
+    {
+      "slug": "36-heures-immo",
+      "name": "36 HEURES iMMO",
+      "editor": "Notariat Services",
+      "website": "https://www.36heures.immo",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "portals-marketplaces",
+      "also_in": [
+        "transaction-management"
+      ],
+      "positioning": "France's interactive property sale platform, notary-backed for more than 15 years.",
+      "description": "36 HEURES iMMO is a French interactive property sale platform: a listing goes live at a transparent starting price, buyers submit non-binding offers online over a set window, and the seller freely chooses which offer to accept, with a notary finalizing the sale. Backed by the Notariat Services group for more than 15 years, it charges buyers no acquisition fees and integrates with the notarial profession's own listing software.\n",
+      "real_estate_use": "A seller worried about underpricing a property, or a notarial office wanting price discovery without a drawn-out negotiation, lists through 36 HEURES iMMO instead of a fixed-price listing: buyers compete openly on price within a short window, and the seller reviews every offer before choosing one. For an agency or notarial office already using Immonot Pro Premium, the listing syncs automatically instead of requiring double entry.\n",
+      "features": [
+        "Transparent starting price with online, non-binding buyer offers",
+        "Time-boxed competitive offer window per listing",
+        "Free choice of accepted offer by the seller",
+        "No acquisition fees charged to buyers",
+        "Notary-finalized transactions",
+        "Integration with Immonot Pro Premium notarial software"
+      ],
+      "use_cases": [
+        {
+          "persona": "legal-notary",
+          "job": "Run price discovery on a listing through competing online offers instead of a single negotiation"
+        },
+        {
+          "persona": "agent-broker",
+          "job": "List a property through a partner interactive sale process without double-entering it in a separate tool"
+        }
+      ],
+      "personas": [
+        "legal-notary",
+        "agent-broker"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "reviews": [],
+      "signals": {
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-09-19"
+      },
+      "sources": [
+        {
+          "url": "https://www.36heures.immo",
+          "note": "site éditeur — accueil"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-19"
+    },
     {
       "slug": "adapt-immo",
       "name": "Adapt Immo",
@@ -763,6 +841,7 @@
       "founded": 2006,
       "positioning": "One of the reference transaction systems for French agencies — mandate, matching, portal publishing and website in a single subscription.",
       "description": "Hektor is La Boîte Immo's real estate software for French agencies and networks: property and contact records, mandate management, automated buyer matching, portal publishing, electronic signature, and an agency website generated from the same catalogue.\n",
+      "description_fr": "Hektor est le logiciel immobilier de La Boîte Immo pour les agences et réseaux français : fiches biens et contacts, gestion des mandats, rapprochement acquéreur automatisé, diffusion sur les portails, signature électronique, et un site d'agence généré depuis le même catalogue.\n",
       "real_estate_use": "A French agency's daily cycle runs on the mandate. Hektor holds the signed mandate and its legal mentions, matches each new listing against registered buyer criteria and sends the alert, publishes to the portals the agency subscribes to, and feeds the agency site. The reason it is bought as a suite is that in France the website and the portal feed are the same catalogue.\n",
       "features": [
         "Property and mandate management with French legal mentions",
@@ -866,6 +945,7 @@
       "founded": 1978,
       "positioning": "Independent French software suite for property administrators, used daily by more than 18,000 professionals across cloud-based syndic, management, rental and transaction modules.",
       "description": "ICS is a French software suite built for administrateurs de biens, covering condominium syndic management, property management, rental management and sales transactions. It is delivered as cloud applications accessible from a standard web browser, with servers hosted in a Class IV datacenter.\n",
+      "description_fr": "ICS est une suite logicielle française conçue pour les administrateurs de biens, couvrant la gestion syndic de copropriété, la gérance, la gestion locative et les transactions. Elle est livrée sous forme d'applications en cloud accessibles depuis un navigateur web standard, avec des serveurs hébergés dans un datacenter de classe IV.\n",
       "real_estate_use": "Property management firms and syndics in France use ICS to run their daily back office: co-ownership accounting, fund calls and general assembly administration through the syndic module, rental portfolio tracking through the gestion and location modules, and sales file follow-up through the transaction module. Because it runs in the cloud, staff access the same accounting and extra-accounting environment from any browser without maintaining local servers or a VPN.\n",
       "features": [
         "Cloud-based access to accounting and extra-accounting environment via web browser",
@@ -955,6 +1035,7 @@
       ],
       "positioning": "A French agency package sold module by module, so a small agency buys only the trade it practises.",
       "description": "Immofacile provides French real estate professionals with transaction software, rental management and syndic modules, portal publishing, agency websites and document management, packaged so an agency subscribes only to the activities it holds.\n",
+      "description_fr": "Immofacile propose aux professionnels de l'immobilier français un logiciel de transaction, des modules de gestion locative et syndic, la diffusion sur les portails, des sites d'agence et la gestion documentaire, packagés pour qu'une agence ne souscrive qu'aux activités qu'elle exerce.\n",
       "real_estate_use": "Small French agencies rarely practise all three regulated activities, and paying for a full administration suite to run transaction alone is a common source of overspend. Modular pricing is the practical argument here, with the option to add gérance later without migrating the client and property records.\n",
       "features": [
         "Modular transaction, rental and syndic activities",
@@ -1054,6 +1135,7 @@
       ],
       "positioning": "Rédaction, signature et envoi des contrats immobiliers pour agences, constructeurs et promoteurs, jusqu'aux mentions manuscrites.",
       "description": "ImmoSign, published by MyLegitech, digitises the contract chain of a French real estate professional. Documents are assembled from generic or bespoke templates written by the vendor's legal team, signed electronically, sent by registered electronic mail, and recorded in electronic mandate registers. It handles the handwritten mentions that French law attaches to certain contracts, offers a signature tablet for signing in person, and exposes an API. It addresses agencies, home builders and developers rather than agencies alone.\n",
+      "description_fr": "ImmoSign, édité par MyLegitech, numérise la chaîne contractuelle d'un professionnel de l'immobilier français. Les documents sont assemblés à partir de modèles génériques ou sur mesure rédigés par l'équipe juridique de l'éditeur, signés électroniquement, envoyés par lettre recommandée électronique, et enregistrés dans des registres de mandats électroniques. L'outil gère les mentions manuscrites que la loi française impose sur certains contrats, propose une tablette de signature pour signer en présentiel, et expose une API. Il s'adresse aux agences, constructeurs de maisons individuelles et promoteurs, pas seulement aux agences.\n",
       "real_estate_use": "The step that usually breaks a remote signature in France is the handwritten mention: a clause the signer must copy out by hand for the contract to hold. A generic e-signature tool does not produce it, so the file goes back to paper for one paragraph. ImmoSign covers that step, which is why builders and developers — whose CCMI and VEFA reservation contracts carry the heaviest mention requirements — appear alongside agencies on the product. The signature tablet exists for the same reason in reverse: some signatures still happen at the desk, and the office wants one archive rather than a scanner and a drive.\n",
       "features": [
         "Rédaction assistée à partir de trames juridiques",

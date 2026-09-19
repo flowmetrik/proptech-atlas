@@ -107,10 +107,10 @@ qu'une chose a été tentée vaut mieux que de la retenter.
 - **Comparaison deux à deux.** Une page « X vs Y » pour les paires réellement
   concurrentes. Fort en référencement, mais **risque de contenu creux** : à ne
   faire que si la page dit ce qui sépare vraiment les deux produits.
-- **Descriptions françaises.** 43 fiches sur 118 à siège français (`hq_country:
+- **Descriptions françaises.** 66 fiches sur 127 à siège français (`hq_country:
   FR` — pas `markets: [FR]`, qui inclut aussi des éditeurs étrangers comme
-  Aareon ou Docusign) ont une `description_fr` au 17/09 (voir l'entrée « fait »
-  du jour) ; 75 restent en anglais seul. C'est un travail de traduction
+  Aareon ou Docusign) ont une `description_fr` au 19/09 (voir l'entrée « fait »
+  du jour) ; 61 restent en anglais seul. C'est un travail de traduction
   fidèle, fiche par fiche — pas de raccourci automatique sans relecture, sur un
   champ qui est lu par un visiteur humain.
 - **Sept fiches avaient `description` et `real_estate_use` rédigés en français
@@ -171,6 +171,41 @@ qu'une chose a été tentée vaut mieux que de la retenter.
 
 ## Fait
 
+- **2026-09-19** — Deux fiches déjà au catalogue violaient la règle « anglais pour les
+  fiches », même famille que le bug corrigé les 15 et 16/09 mais jamais balayée depuis :
+  `immo-ia` (siège FR, ajoutée le 18/09) et `humaniz` (siège US, sans aucun rapport avec
+  le français) avaient `description`, `real_estate_use`, `features`, `use_cases[].job`
+  et `ai.capabilities` rédigés en français. Corrigées en anglais ; pour `immo-ia`, le
+  texte français d'origine devient `description_fr` (traduction fidèle par
+  construction). Un balayage complet du catalogue (recherche de marqueurs français dans
+  `description`) ne trouve plus que ces deux cas — `validate.mjs` ne détecte toujours pas
+  la langue d'un champ, la même relecture manuelle reste le seul filet.
+- **2026-09-19** — Suite de la traduction `description_fr` : 19 fiches supplémentaires à
+  siège français traduites depuis leur `description` anglaise (`genapi`, `genius-immo`,
+  `gercop`, `gererseul`, `gestion-diag`, `graneet`, `hektor`, `horiz`, `ics`,
+  `immofacile`, `immopad`, `immosign`, `inot`, `joe-ai`, `kairnial`, `kelfoncier`,
+  `keyzia`, `kiilt-pro`, `leboncoin-immobilier`). `npm run data:validate` reste vert.
+- **2026-09-19** — Cinq fiches ajoutées par recherche propre (sans OpenRouter), toutes
+  trouvées via la liste des exposants de RENT Paris 2026 (édition du 4-5 novembre, pas
+  encore tenue — la liste des inscrits est déjà publiée) : `chouettecopro` (FR, signalement
+  d'incidents de parties communes pour syndics), `bunji` (FR, CRM de prospection pour
+  agents avec flux d'annonces dédoublonnées de 55+ portails), `club-off-market` (FR,
+  réseau d'adhésion pour transactions hors marché), `36-heures-immo` (FR, vente
+  immobilière interactive adossée au groupe Notariat Services) et `avustaja` (FR,
+  copilote IA pour les visites d'immeubles des syndics, éditée par Cortus Immo). L'URL de
+  la source `rent-paris` dans `data/sources.yaml` était mortifère
+  (`rentevent.immo` ne résout pas) — corrigée vers `paris.rent.immo/en/content/exposants`,
+  la page réelle (286 exposants sur 10 pages, seules les quatre premières lues). Deux
+  logos récupérés automatiquement étaient faux, tous deux relus à l'œil avant commit :
+  `bunji` avait adopté une bannière marketing du module kanban (capture d'écran, pas un
+  logo) ; `36-heures-immo` avait adopté la variante « logo-blanc », invisible une fois
+  aplatie sur fond blanc — même piège que celui documenté le 08/09 sur `engrain`. Les
+  deux fiches restent sans logo plutôt qu'avec un faux, motifs dans
+  `data/logos-refuses.json`. `procore-marketplace` (liste d'apps rendue côté client, un
+  simple `fetch` n'y voit rien), `salesforce-appexchange-re` (HTTP 500) et
+  `ush-fournisseurs` (`union-habitat.org` et son sous-domaine `services-numeriques`
+  renvoient 403) balayées sans trouvaille, marquées vues pour ne pas revenir en tête de
+  rotation avant 21 jours.
 - **2026-09-18** — `imgLogoCandidates()` classait une classe générique au-dessus d'un alt
   vide, et batait parfois le vrai logo. Rencontré le 17/09 sur trois fiches neuves :
   `higharc` avait adopté le logo client « Signature Homes », affiché dans un carrousel

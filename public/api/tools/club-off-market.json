@@ -1,0 +1,80 @@
+{
+  "slug": "club-off-market",
+  "name": "Club Off Market",
+  "editor": "Club Off Market",
+  "website": "https://cluboffmarket.com",
+  "hq_country": "FR",
+  "markets": [
+    "FR"
+  ],
+  "category": "portals-marketplaces",
+  "positioning": "The network that structures France's off-market real estate deal flow.",
+  "description": "Club Off Market is a French membership network for off-market property deals: buyers, sellers and professionals create a profile, are algorithmically qualified, and are matched directly with counterparts on properties that never reach public listing portals. A more restricted, invitation-only 'Elite Member' tier adds dedicated human support for the rarest opportunities.\n",
+  "real_estate_use": "A buyer who only sees what's already listed on the major portals is competing for the same visible inventory as everyone else. Club Off Market qualifies the buyer's file and budget once, then routes matching properties that owners or agents chose not to list publicly — for confidentiality, price testing or a controlled sale process — directly to that buyer instead of broadcasting them.\n",
+  "features": [
+    "Algorithmic qualification of buyer, seller and professional profiles",
+    "Direct matching on properties not listed on public portals",
+    "Invitation-only Elite Member tier with dedicated human support",
+    "Confidentiality-first deal process between matched parties"
+  ],
+  "use_cases": [
+    {
+      "persona": "investor-am",
+      "job": "Get matched directly with off-market properties fitting a qualified budget and criteria"
+    },
+    {
+      "persona": "agent-broker",
+      "job": "Place a seller's property with qualified buyers without listing it publicly"
+    }
+  ],
+  "personas": [
+    "investor-am",
+    "agent-broker",
+    "landlord-owner"
+  ],
+  "segments": [
+    "residential",
+    "mixed-use"
+  ],
+  "company_sizes": [
+    "solo",
+    "smb"
+  ],
+  "pricing": {
+    "model": "quote",
+    "public_pricing": false
+  },
+  "product": {
+    "api": false,
+    "open_source": false,
+    "mobile": [],
+    "languages": [
+      "fr"
+    ]
+  },
+  "reviews": [],
+  "logo": {
+    "file": "logos/club-off-market.png",
+    "source_url": "https://cluboffmarket.com/apple-icon.png?apple-icon.3jsfnctzhzg54.png",
+    "fetched_on": "2026-09-19"
+  },
+  "signals": {
+    "privacy": "https://www.cluboffmarket.com/fr/confidentialite",
+    "site_languages": [
+      "fr"
+    ],
+    "checked_on": "2026-09-19"
+  },
+  "sources": [
+    {
+      "url": "https://cluboffmarket.com/fr",
+      "note": "site éditeur — accueil"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-09-19"
+}

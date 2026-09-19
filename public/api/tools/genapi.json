@@ -10,6 +10,7 @@
   "category": "title-closing-legal",
   "positioning": "Practice management for French notaries — where the deed, the file and the office accounting are one system.",
   "description": "GenApi, part of Septeo, publishes software for French notarial offices: file and deed production, clause and act libraries, client and party records, notarial accounting, electronic filing with the profession's infrastructure and secure exchange with administrations.\n",
+  "description_fr": "GenApi, qui fait partie de Septeo, édite un logiciel pour les études notariales françaises : production de dossiers et d'actes, bibliothèques de clauses et de modèles d'actes, fiches clients et parties, comptabilité notariale, télétransmission avec l'infrastructure de la profession et échanges sécurisés avec les administrations.\n",
   "real_estate_use": "In France the notaire, not a title company, carries the property transfer: drafting the acte authentique, collecting taxes, and registering with the service de publicité foncière. GenApi is one of the systems that production runs in, which makes it a structural dependency of every French property sale even though no agent ever logs into it.\n",
   "features": [
     "Notarial file and deed production with maintained act libraries",

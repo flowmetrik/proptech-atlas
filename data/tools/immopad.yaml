@@ -12,6 +12,11 @@ description: >
   Immopad is a French application for property inspections: entry and exit état des lieux,
   new-build delivery snagging, periodic visits and works acceptance, captured on tablet or
   phone with photos, signed on the spot and produced as a report.
+description_fr: >
+  Immopad est une application française pour les états des lieux : entrée et sortie de
+  location, réserves de livraison de biens neufs, visites périodiques et réception de
+  travaux, saisis sur tablette ou téléphone avec photos, signés sur place et restitués
+  sous forme de rapport.
 real_estate_use: >
   The état des lieux is the document a deposit dispute turns on, and a paper one written in
   ballpoint rarely survives it. Capturing room by room with dated photographs and an
