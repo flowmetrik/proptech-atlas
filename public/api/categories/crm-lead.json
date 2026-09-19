@@ -4,7 +4,7 @@
   "label_fr": "CRM & gestion des leads",
   "summary_en": "Capture, qualify and nurture buyer, seller and tenant leads.",
   "summary_fr": "Capter, qualifier et travailler les leads acquéreurs, vendeurs et locataires.",
-  "count": 38,
+  "count": 39,
   "tools": [
     {
       "slug": "actelo",
@@ -530,6 +530,76 @@
       "updated": "2026-08-25"
     },
     {
+      "slug": "bunji",
+      "name": "Bunji",
+      "editor": "Bunji",
+      "website": "https://www.bunji.fr",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "crm-lead",
+      "positioning": "The all-in-one real estate CRM built to help agents sign more listing mandates.",
+      "description": "Bunji is a French all-in-one CRM for real estate agents focused on winning more listing mandates. It consolidates prospecting channels — a deduplicated feed of listings pulled from 55+ portals, geolocated door-to-door prospecting (pige), an online valuation estimator, and an interactive map for spotting ownership and sale signals — into a single pipeline with kanban tracking and automated reminders.\n",
+      "real_estate_use": "An agent spends hours a day checking dozens of portals for new listings and copying leads into a spreadsheet by hand. Bunji pulls every new private and professional listing into one deduplicated feed and feeds a kanban pipeline with automated follow-up reminders, so the agent's time goes into calling owners rather than searching for them.\n",
+      "features": [
+        "Deduplicated listing feed from 55+ real estate portals",
+        "Geolocated door-to-door prospecting (pige)",
+        "Online valuation estimator with multiple pricing methods",
+        "Interactive map for identifying owners and sale signals",
+        "Kanban pipeline with automated follow-up reminders"
+      ],
+      "use_cases": [
+        {
+          "persona": "agent-broker",
+          "job": "Consolidate new private and professional listings from dozens of portals into one deduplicated feed"
+        },
+        {
+          "persona": "agent-broker",
+          "job": "Track prospects through a kanban pipeline with automated reminders instead of a spreadsheet"
+        }
+      ],
+      "personas": [
+        "agent-broker"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "solo",
+        "smb"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "reviews": [],
+      "signals": {
+        "privacy": "https://www.bunji.fr/privacy",
+        "checked_on": "2026-09-19"
+      },
+      "sources": [
+        {
+          "url": "https://www.bunji.fr/",
+          "note": "site éditeur — accueil"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-19"
+    },
+    {
       "slug": "eloa",
       "name": "Eloa",
       "editor": "Eloa",
@@ -952,6 +1022,7 @@
       "founded": 2006,
       "positioning": "One of the reference transaction systems for French agencies — mandate, matching, portal publishing and website in a single subscription.",
       "description": "Hektor is La Boîte Immo's real estate software for French agencies and networks: property and contact records, mandate management, automated buyer matching, portal publishing, electronic signature, and an agency website generated from the same catalogue.\n",
+      "description_fr": "Hektor est le logiciel immobilier de La Boîte Immo pour les agences et réseaux français : fiches biens et contacts, gestion des mandats, rapprochement acquéreur automatisé, diffusion sur les portails, signature électronique, et un site d'agence généré depuis le même catalogue.\n",
       "real_estate_use": "A French agency's daily cycle runs on the mandate. Hektor holds the signed mandate and its legal mentions, matches each new listing against registered buyer criteria and sends the alert, publishes to the portals the agency subscribes to, and feeds the agency site. The reason it is bought as a suite is that in France the website and the portal feed are the same catalogue.\n",
       "features": [
         "Property and mandate management with French legal mentions",
@@ -1054,6 +1125,7 @@
       ],
       "positioning": "A French agency package sold module by module, so a small agency buys only the trade it practises.",
       "description": "Immofacile provides French real estate professionals with transaction software, rental management and syndic modules, portal publishing, agency websites and document management, packaged so an agency subscribes only to the activities it holds.\n",
+      "description_fr": "Immofacile propose aux professionnels de l'immobilier français un logiciel de transaction, des modules de gestion locative et syndic, la diffusion sur les portails, des sites d'agence et la gestion documentaire, packagés pour qu'une agence ne souscrive qu'aux activités qu'elle exerce.\n",
       "real_estate_use": "Small French agencies rarely practise all three regulated activities, and paying for a full administration suite to run transaction alone is a common source of overspend. Modular pricing is the practical argument here, with the option to add gérance later without migrating the client and property records.\n",
       "features": [
         "Modular transaction, rental and syndic activities",
@@ -1153,6 +1225,7 @@
       ],
       "positioning": "AI conversational agent that answers, qualifies and follows up with callers for real estate agencies, networks, syndics and developers, 24/7.",
       "description": "Joe AI is a French AI conversational agent for real estate professionals. It answers, qualifies and follows up with clients across calls, SMS, email and WhatsApp, with a customisable human-sounding voice, for agencies, networks, syndics and developers. The editor states more than 500 clients and hosts the service in France and the EU under GDPR, with no data shared between clients and no training of its models on client conversations.\n",
+      "description_fr": "Joe AI est un agent conversationnel IA français pour les professionnels de l'immobilier. Il répond, qualifie et relance les clients sur les appels, SMS, email et WhatsApp, avec une voix personnalisable à consonance humaine, pour les agences, réseaux, syndics et promoteurs. L'éditeur déclare plus de 500 clients et héberge le service en France et dans l'UE sous RGPD, sans partage de données entre clients ni entraînement de ses modèles sur les conversations clients.\n",
       "real_estate_use": "An agency or syndic receiving a high volume of routine calls — visit requests, general questions, recurring tenant demands — needs those calls answered and pre-qualified around the clock without adding reception staff. Joe AI takes the first contact across phone, SMS, email and WhatsApp, qualifies and routes it, and leaves human teams the advisory, signing and follow-up work.\n",
       "features": [
         "24/7 AI call answering and qualification",

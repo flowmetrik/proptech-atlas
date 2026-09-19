@@ -11,6 +11,10 @@ description: >
   Kel Foncier combines cadastral parcels, local urban planning rules, building rights,
   ownership data, building permits and transactions into a mapping and search tool for
   property developers and land prospectors.
+description_fr: >
+  Kel Foncier combine parcelles cadastrales, règles d'urbanisme locales, droits à
+  construire, données de propriété, permis de construire et transactions dans un
+  outil de cartographie et de recherche pour les promoteurs et prospecteurs fonciers.
 real_estate_use: >
   A French development starts with a question the PLU answers slowly: on this parcel, what
   height, what footprint, what constraints. Kel Foncier makes that searchable in reverse —

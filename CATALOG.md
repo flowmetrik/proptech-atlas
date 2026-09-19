@@ -2,7 +2,7 @@
 
 <!-- Généré par `npm run data:emit`. Ne pas éditer à la main : éditer `data/tools/*.yaml`. -->
 
-288 produits · 162 🇺🇸 · 156 🇫🇷 · mis à jour le 2026-09-18
+293 produits · 162 🇺🇸 · 161 🇫🇷 · mis à jour le 2026-09-19
 
 Version navigable : https://flowmetrik.github.io/proptech-atlas/explore
 
@@ -16,6 +16,7 @@ _Capter, qualifier et travailler les leads acquéreurs, vendeurs et locataires._
 | [Apimo](data/tools/apimo.yaml) | Apimo | 🇫🇷 | Agencies on the Côte d'Azur, in the Alps or in border regions sell to buyers who do not read French, through portals in several countries. Apimo handles a listing in multiple languages… |
 | [BoldTrail](data/tools/boldtrail.yaml) | Inside Real Estate | 🇺🇸 | A multi-office brokerage standardises its agents on one system: each agent gets a branded IDX site and CRM seat, the brokerage keeps ownership of the lead database, and leadership sees… |
 | [BoomTown](data/tools/boomtown.yaml) | MoxiWorks | 🇺🇸 | Chosen by teams that buy leads at volume and struggle to convert them. The system ranks which contacts deserve a call today, escalates when an agent ignores an assignment, and reports on… |
+| [Bunji](data/tools/bunji.yaml) | Bunji | 🇫🇷 | An agent spends hours a day checking dozens of portals for new listings and copying leads into a spreadsheet by hand. Bunji pulls every new private and professional listing into one… |
 | [Eudonet Immobilier](data/tools/eudonet-immobilier.yaml) | Eudonet (Efficy Group) | 🇫🇷 | It is chosen by organisations that are not classic agencies — institutional owners, developers, public bodies, networks — whose relationship processes do not match a transaction package.… |
 | [Follow Up Boss](data/tools/follow-up-boss.yaml) | Zillow Group | 🇺🇸 | Used by agent teams and brokerages to make sure a portal lead is contacted in minutes rather than hours. Leads arrive from Zillow, Realtor.com and the brokerage site, get assigned by… |
 | [Hektor](data/tools/hektor.yaml) | La Boîte Immo | 🇫🇷 | A French agency's daily cycle runs on the mandate. Hektor holds the signed mandate and its legal mentions, matches each new listing against registered buyer criteria and sends the alert… |
@@ -51,8 +52,10 @@ _Là où l'offre rencontre la demande en public — portails grand public, rése
 
 | Produit | Éditeur | Marchés | Usage en immobilier |
 |---|---|---|---|
+| [36 HEURES iMMO](data/tools/36-heures-immo.yaml) | Notariat Services | 🇫🇷 | A seller worried about underpricing a property, or a notarial office wanting price discovery without a drawn-out negotiation, lists through 36 HEURES iMMO instead of a fixed-price… |
 | [Apartments.com](data/tools/apartments-com.yaml) | CoStar Group | 🇺🇸 | A professional manager buys placement and lead volume for a lease-up. An individual landlord uses the free side as their entire operating system: list the unit, receive applications with… |
 | [Bien'ici](data/tools/bien-ici.yaml) | Bien'ici | 🇫🇷 | It exists because French professionals wanted a portal they partly control, as a counterweight to portal pricing power. For an agency, the practical calculation is the same as anywhere —… |
+| [Club Off Market](data/tools/club-off-market.yaml) | Club Off Market | 🇫🇷 | A buyer who only sees what's already listed on the major portals is competing for the same visible inventory as everyone else. Club Off Market qualifies the buyer's file and budget once… |
 | [Crexi](data/tools/crexi.yaml) | Commercial Real Estate Exchange, Inc. | 🇺🇸 | A broker lists an asset, receives structured offers or runs a timed auction, and shares due-diligence documents through a permissioned data room instead of a shared drive link. Buyers… |
 | [Homes.com](data/tools/homes-com.yaml) | CoStar Group | 🇺🇸 | The pitch to listing agents is defensive: winning a listing is easier when the seller knows their own agent will appear on the portal page rather than three buyers' agents who paid for… |
 | [Kazaki](data/tools/kazaki.yaml) | Kazaki SAS | 🇫🇷 | An agency (L'Atelier Immo, ERA, Les Clefs Immo and Redouté are cited as partners) has its listings picked up and enriched on Kazaki, which exposes them to buyers already qualified… |
@@ -112,7 +115,7 @@ _Sites, recherche IDX, marque et campagnes pour agents et agences._
 | [AgentFire](data/tools/agentfire.yaml) | AgentFire | 🇺🇸 | Competing for "homes for sale in Austin" is hopeless against the portals; competing for a specific neighbourhood is not. AgentFire's content structures exist for that strategy — an agent… |
 | [BriefYourMarket](data/tools/briefyourmarket.yaml) | BriefYourMarket | 🇺🇸 | An estate agency has years of past-client data sitting unused in its CRM and wants to turn it back into instructions without a broad, untargeted newsletter. A marketing lead uses… |
 | [Clap.tech](data/tools/clap-tech.yaml) | Clap.tech | 🇫🇷 | An agency equips its street-facing window displays with clap.show to show its listings without manual updates, turns its listings into short videos for social media with clap.video, has… |
-| [Humaniz](data/tools/humaniz.yaml) | Humaniz | 🇺🇸 | Une équipe qui recrute en continu perd du temps à publier des annonces sur des dizaines de jobboards et à trier des candidatures non qualifiées : Humaniz diffuse l'offre automatiquement… |
+| [Humaniz](data/tools/humaniz.yaml) | Humaniz | 🇺🇸 | A team that recruits continuously loses time posting listings across dozens of job boards and sorting through unqualified applications: Humaniz distributes the posting automatically and… |
 | [Luxury Presence](data/tools/luxury-presence.yaml) | Luxury Presence | 🇺🇸 | At the top of the market, a listing presentation is partly a credibility exercise: a seller with a seven-figure property judges the agent by the quality of their digital presence. Luxury… |
 | [Opinion System](data/tools/opinion-system.yaml) | Opinion System | 🇫🇷 | A real estate agency or credit broker signs up with Opinion System to get its customer reviews certified: the platform solicits clients after a transaction, checks review authenticity… |
 | [Previsite](data/tools/previsite.yaml) | Previsite | 🇫🇷 | An independent agent who has just signed a mandate is expected to be photographer, videographer and community manager on top of the job itself. With Previsite they shoot the property on… |
@@ -130,7 +133,7 @@ _Estimation automatisée, comparables, pige propriétaires et pricing._
 | [Cloud CMA](data/tools/cloudcma.yaml) | Lone Wolf Technologies | 🇺🇸 | Winning a listing is a persuasion problem, and the CMA is the artefact that does the persuading. The agent pulls comparables from the MLS, adjusts them, and produces a branded document… |
 | [ExpertVAL](data/tools/expertval.yaml) | SpicyCode | 🇫🇷 | A property appraiser or wealth-management advisor opens an amicable appraisal file, imports comparison references from DVF or Patrim, takes photos and enters data during the site visit… |
 | [HouseCanary](data/tools/housecanary.yaml) | HouseCanary | 🇺🇸 | An iBuyer or a single-family rental fund cannot send an appraiser to every candidate house. It prices thousands of addresses a week through an AVM, and the confidence interval decides… |
-| [Immo IA](data/tools/immo-ia.yaml) | Immo IA | 🇫🇷 | Une agence immobilière, un diagnostiqueur ou un courtier en crédit cherche des contacts qualifiés de particuliers en projet de vente, d'achat ou de financement, sans acheter un flux… |
+| [Immo IA](data/tools/immo-ia.yaml) | Immo IA | 🇫🇷 | An estate agency, a diagnostician or a mortgage broker looks for qualified contacts of individuals planning a sale, purchase or financing project, without buying a generic lead flow. The… |
 | [MeilleursAgents](data/tools/meilleursagents.yaml) | Aviv Group (Axel Springer) | 🇫🇷 | It changed the French listing appointment. An owner arrives having already read a neighbourhood price per square metre, so the agent's pricing conversation starts from a public reference… |
 | [Pige Online](data/tools/pige-online.yaml) | Pige Online | 🇫🇷 | In a market without an MLS, agency growth depends on converting private sellers into mandates, and the same property appears on four portals under three different prices. The software's… |
 | [PriceHubble](data/tools/pricehubble.yaml) | PriceHubble | 🇫🇷 | A French bank assessing collateral, an agency offering an instant valuation on its own site, or a portfolio holder revaluing quarterly all need the same computation without building it.… |
@@ -176,7 +179,9 @@ _Gérer l'immeuble en copropriété — budgets, AG, appels de fonds, travaux._
 
 | Produit | Éditeur | Marchés | Usage en immobilier |
 |---|---|---|---|
+| [Avustaja](data/tools/avustaja.yaml) | Cortus Immo | 🇫🇷 | A syndic manager who visits dozens of buildings a month loses hours writing up each visit afterward from scattered phone photos and notes. Avustaja lets the manager capture the visit… |
 | [Bellman](data/tools/bellman.yaml) | Bellman | 🇫🇷 | A syndic firm receives dozens of invoices and email requests every day: Bellman automatically attaches them to the right file and lets staff process quotes and condominium documents… |
+| [ChouetteCopro](data/tools/chouettecopro.yaml) | ChouetteCopro | 🇫🇷 | A syndic manager drowning in emails about a broken elevator or a leaking roof gives occupants a direct channel to report the incident with photos, instead of a phone call or an email… |
 | [CINC Systems](data/tools/cinc-systems.yaml) | CINC Systems | 🇺🇸 | Association management is an accounting business wearing an operations coat: the manager who answers a homeowner about a fine also has to know whether that homeowner's account is… |
 | [Comptacop](data/tools/comptacop.yaml) | Comptacop | 🇫🇷 | A syndic — professional or volunteer — logs into Comptacop to prepare the provisional budget, record works, subsidies and loans, and produce the year-end closing annexes required by… |
 | [Condo Control](data/tools/condo-control.yaml) | Condo Control | 🇺🇸 | A condominium tower runs on things a rental building never has to think about: a front desk logging visitors, a party room booked three weeks ahead, a package wall that overflows every… |

@@ -136,32 +136,32 @@
     "last_manual_note": "page et 'find-an-interface-partner' bloquées en 403 (Cloudflare), y compris via le fetch indexé ; aucune liste exploitable trouvée par recherche web ciblée"
   },
   "rent-paris": {
-    "last_swept_manual": "2026-09-04",
-    "manual_runs": 1,
-    "manual_found": 3,
-    "manual_kept": 2,
-    "last_manual_note": "page paris.rent.immo/en surtout mediatique ; easyVirtual.tours ecarte (reseau de prestataires locaux, pas un produit SaaS) ; Lycaon Data et Danim retenus"
+    "last_swept_manual": "2026-09-19",
+    "manual_runs": 2,
+    "manual_found": 11,
+    "manual_kept": 7,
+    "last_manual_note": "exposants 2026 (édition à venir, 4/10 pages lues) : chouettecopro, bunji, club-off-market, 36-heures-immo, avustaja"
   },
   "procore-marketplace": {
-    "last_swept_manual": "2026-09-05",
-    "manual_runs": 1,
+    "last_swept_manual": "2026-09-19",
+    "manual_runs": 2,
     "manual_found": 0,
     "manual_kept": 0,
-    "last_manual_note": "SPA, coquille vide au fetch direct — recherche web de repli sans résultat exploitable pour ce round"
+    "last_manual_note": "liste d'apps rendue côté client (SPA) — fetch direct ne voit rien"
   },
   "salesforce-appexchange-re": {
-    "last_swept_manual": "2026-09-05",
-    "manual_runs": 1,
+    "last_swept_manual": "2026-09-19",
+    "manual_runs": 2,
     "manual_found": 5,
     "manual_kept": 1,
-    "last_manual_note": "listing propre (Property Hub) ; les autres (Rethink, TrackMe, Real Estate 360, BReal Estate) sont des pages de fiche d'annuaire sans site produit propre confirmé pour ce round"
+    "last_manual_note": "HTTP 500 à la lecture automatisée"
   },
   "ush-fournisseurs": {
-    "last_swept_manual": "2026-09-05",
-    "manual_runs": 1,
+    "last_swept_manual": "2026-09-19",
+    "manual_runs": 2,
     "manual_found": 5,
     "manual_kept": 3,
-    "last_manual_note": "page d'accueil 403 à l'automatisé, aucun annuaire fournisseurs lu directement ; recherche web ciblée sur le logement social a trouvé Décisio Habitat, Dematimmo (Activinnov) et LEON (Scepia) — retenus — plus Sigma/Imhoweb et SEIITRA/Powimo (déjà au catalogue), non repris"
+    "last_manual_note": "union-habitat.org et son sous-domaine services-numeriques renvoient 403"
   },
   "fpi-france": {
     "last_swept_manual": "2026-09-05",

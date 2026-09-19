@@ -4,8 +4,93 @@
   "label_fr": "Syndic & copropriété",
   "summary_en": "Manage co-owned buildings — budgets, assemblies, calls for funds, works.",
   "summary_fr": "Gérer l'immeuble en copropriété — budgets, AG, appels de fonds, travaux.",
-  "count": 23,
+  "count": 25,
   "tools": [
+    {
+      "slug": "avustaja",
+      "name": "Avustaja",
+      "editor": "Cortus Immo",
+      "website": "https://www.avustaja.space",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "syndic-copro",
+      "also_in": [
+        "diagnostics-compliance"
+      ],
+      "positioning": "The AI copilot for a property manager's building visits, from note-taking to the final report.",
+      "description": "Avustaja, published by Cortus Immo, is an AI copilot for property managers' on-site building visits. A manager captures a visit freely — photos, typed notes, or dictated audio transcription — with no imposed template, then the AI structures the findings into categories and generates a formatted, shareable visit report in minutes. It covers contractual visits, works follow-up and delivery inspections, and site-damage assessments.\n",
+      "real_estate_use": "A syndic manager who visits dozens of buildings a month loses hours writing up each visit afterward from scattered phone photos and notes. Avustaja lets the manager capture the visit on-site in any order, then has the AI turn that raw capture into a structured, categorized report ready to send to co-owners and providers the same day rather than the following week.\n",
+      "features": [
+        "Untemplated on-site capture — photos, notes, dictated audio transcription",
+        "AI-generated structured visit report by category",
+        "Editable report before final validation",
+        "Covers contractual visits, works follow-up and delivery inspections, and damage assessments",
+        "Centralized dashboard of all visits performed"
+      ],
+      "use_cases": [
+        {
+          "persona": "syndic-manager",
+          "job": "Turn a freeform on-site building visit into a structured, shareable report the same day"
+        },
+        {
+          "persona": "syndic-manager",
+          "job": "Track works follow-up and delivery inspections across a portfolio of buildings"
+        }
+      ],
+      "personas": [
+        "syndic-manager"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "subscription",
+        "public_pricing": false
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "reviews": [],
+      "logo": {
+        "file": "logos/avustaja.png",
+        "source_url": "https://www.avustaja.space/web/image/website/1/favicon?unique=cd10819",
+        "fetched_on": "2026-09-19"
+      },
+      "signals": {
+        "privacy": "https://www.avustaja.space/privacy",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-09-19"
+      },
+      "sources": [
+        {
+          "url": "https://www.avustaja.space/notresolution",
+          "note": "site éditeur — page solution"
+        },
+        {
+          "url": "https://www.avustaja.space/",
+          "note": "site éditeur — accueil"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-19"
+    },
     {
       "slug": "bellman",
       "name": "Bellman",
@@ -188,6 +273,89 @@
         "checked_by": null
       },
       "updated": "2026-08-25"
+    },
+    {
+      "slug": "chouettecopro",
+      "name": "ChouetteCopro",
+      "editor": "ChouetteCopro",
+      "website": "https://www.chouettecopro.com",
+      "hq_country": "FR",
+      "markets": [
+        "FR"
+      ],
+      "category": "syndic-copro",
+      "positioning": "The simplest, most complete software on the market for running a syndic's daily relationship with occupants and providers.",
+      "description": "ChouetteCopro is a French SaaS platform that connects occupants, syndic property managers and technical service providers around a co-owned building. Occupants report common-area incidents from their phone, the syndic tracks service orders and quote requests with providers, digitizes claims declarations with insurers and other parties, and runs general meetings and board meetings by video. It is a communication and incident-tracking layer rather than a syndic accounting system, and it interconnects with most of the market's syndic back-office software.\n",
+      "real_estate_use": "A syndic manager drowning in emails about a broken elevator or a leaking roof gives occupants a direct channel to report the incident with photos, instead of a phone call or an email thread. The tool tracks the provider's quote and intervention and closes the loop with the occupant once the work is done, cutting the manual follow-up that eats a manager's week and giving occupants visibility into where their request stands.\n",
+      "features": [
+        "Occupant incident reporting from phone or tablet",
+        "Service order and quote-request tracking with providers",
+        "Digital, collaborative insurance claim declarations",
+        "Video general meetings and board meetings",
+        "Building visit reports generated on-site",
+        "Interconnection with major syndic back-office software"
+      ],
+      "use_cases": [
+        {
+          "persona": "syndic-manager",
+          "job": "Give occupants a direct channel to report common-area incidents instead of emails and calls"
+        },
+        {
+          "persona": "syndic-manager",
+          "job": "Track a service provider's quote and intervention from request to completion"
+        }
+      ],
+      "personas": [
+        "syndic-manager"
+      ],
+      "segments": [
+        "residential"
+      ],
+      "company_sizes": [
+        "smb",
+        "midmarket"
+      ],
+      "pricing": {
+        "model": "quote",
+        "public_pricing": false
+      },
+      "product": {
+        "api": false,
+        "open_source": false,
+        "mobile": [],
+        "languages": [
+          "fr"
+        ]
+      },
+      "reviews": [],
+      "logo": {
+        "file": "logos/chouettecopro.png",
+        "source_url": "https://www.chouettecopro.com/wp-content/themes/wp-starter/images/logo-contact.png",
+        "fetched_on": "2026-09-19"
+      },
+      "signals": {
+        "privacy": "https://www.chouettecopro.com/politique-de-confidentialite",
+        "site_languages": [
+          "fr"
+        ],
+        "checked_on": "2026-09-19"
+      },
+      "sources": [
+        {
+          "url": "https://www.chouettecopro.com/syndic-de-coproprietes/",
+          "note": "site éditeur — page syndic de copropriété"
+        },
+        {
+          "url": "https://www.chouettecopro.com/",
+          "note": "site éditeur — accueil"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "checked_on": null,
+        "checked_by": null
+      },
+      "updated": "2026-09-19"
     },
     {
       "slug": "cinc-systems",
@@ -1125,6 +1293,7 @@
       "founded": 2022,
       "positioning": "An AI agent for French block and rental managers that answers mail, takes calls and finds the document behind the question.",
       "description": "Genius is an AI assistant for syndics de copropriété and rental managers. It builds a memory per building and per lot from the material already held there, contracts, general meeting minutes, diagnostics, anonymised mail threads, works orders, then drafts answers to owner and tenant enquiries, answers the phone, and retrieves the document a question refers to. The manager validates before anything leaves. The company is based in Lyon and states it works with over 200 property administration firms.\n",
+      "description_fr": "Genius est un assistant IA pour les syndics de copropriété et les gestionnaires locatifs. Il constitue une mémoire par immeuble et par lot à partir des documents déjà détenus — contrats, procès-verbaux d'assemblée générale, diagnostics, fils de mails anonymisés, ordres de travaux — puis rédige des réponses aux demandes des propriétaires et locataires, répond au téléphone, et retrouve le document auquel une question fait référence. Le gestionnaire valide avant tout envoi. La société est basée à Lyon et déclare travailler avec plus de 200 cabinets d'administration de biens.\n",
       "real_estate_use": "A block manager holding several dozen buildings gets the same question all week, a copropriétaire asking for the last general meeting minutes, a tenant asking who to call about a leak, and each answer costs a search through years of files. Genius is aimed at that queue: it already carries the building's history, so it drafts the reply with the right attachment and the manager only presses send. The second situation is a handover, when a portfolio moves from one syndic to another or a manager leaves. What normally disappears with the person, who the caretaker is, which contractor did the roof, why the last assembly voted the way it did, stays in the building's memory and the successor picks it up in minutes rather than months.\n",
       "features": [
         "Per-building and per-lot memory built from contracts, minutes and diagnostics",
@@ -1226,6 +1395,7 @@
       ],
       "positioning": "Property administration software for larger French firms, where volume and multi-site organisation are the constraint.",
       "description": "Gercop, also part of Septeo, provides syndic, gérance and transaction management for French administration de biens: accounting, assemblies, calls for funds, lease management, extranets and business reporting, aimed at structures managing large portfolios.\n",
+      "description_fr": "Gercop, également au sein de Septeo, propose la gestion syndic, gérance et transaction pour les administrateurs de biens français : comptabilité, assemblées, appels de fonds, gestion locative, extranets et reporting d'activité, destinée aux structures qui gèrent de grands portefeuilles.\n",
       "real_estate_use": "At the scale of tens of thousands of lots across multiple branches, the operational problem moves from bookkeeping to organisation: who manages which building, which assemblies fall in which month, where arrears are concentrating. Gercop is bought for that management layer over the same regulated accounting base.\n",
       "features": [
         "Syndic and gérance accounting at portfolio scale",
@@ -1327,6 +1497,7 @@
       "founded": 1978,
       "positioning": "Independent French software suite for property administrators, used daily by more than 18,000 professionals across cloud-based syndic, management, rental and transaction modules.",
       "description": "ICS is a French software suite built for administrateurs de biens, covering condominium syndic management, property management, rental management and sales transactions. It is delivered as cloud applications accessible from a standard web browser, with servers hosted in a Class IV datacenter.\n",
+      "description_fr": "ICS est une suite logicielle française conçue pour les administrateurs de biens, couvrant la gestion syndic de copropriété, la gérance, la gestion locative et les transactions. Elle est livrée sous forme d'applications en cloud accessibles depuis un navigateur web standard, avec des serveurs hébergés dans un datacenter de classe IV.\n",
       "real_estate_use": "Property management firms and syndics in France use ICS to run their daily back office: co-ownership accounting, fund calls and general assembly administration through the syndic module, rental portfolio tracking through the gestion and location modules, and sales file follow-up through the transaction module. Because it runs in the cloud, staff access the same accounting and extra-accounting environment from any browser without maintaining local servers or a VPN.\n",
       "features": [
         "Cloud-based access to accounting and extra-accounting environment via web browser",

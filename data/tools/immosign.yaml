@@ -15,6 +15,15 @@ description: >
   handwritten mentions that French law attaches to certain contracts, offers a
   signature tablet for signing in person, and exposes an API. It addresses agencies,
   home builders and developers rather than agencies alone.
+description_fr: >
+  ImmoSign, édité par MyLegitech, numérise la chaîne contractuelle d'un professionnel
+  de l'immobilier français. Les documents sont assemblés à partir de modèles génériques
+  ou sur mesure rédigés par l'équipe juridique de l'éditeur, signés électroniquement,
+  envoyés par lettre recommandée électronique, et enregistrés dans des registres de
+  mandats électroniques. L'outil gère les mentions manuscrites que la loi française
+  impose sur certains contrats, propose une tablette de signature pour signer en
+  présentiel, et expose une API. Il s'adresse aux agences, constructeurs de maisons
+  individuelles et promoteurs, pas seulement aux agences.
 real_estate_use: >
   The step that usually breaks a remote signature in France is the handwritten
   mention: a clause the signer must copy out by hand for the contract to hold. A

@@ -727,6 +727,7 @@
       "founded": 2022,
       "positioning": "An AI agent for French block and rental managers that answers mail, takes calls and finds the document behind the question.",
       "description": "Genius is an AI assistant for syndics de copropriété and rental managers. It builds a memory per building and per lot from the material already held there, contracts, general meeting minutes, diagnostics, anonymised mail threads, works orders, then drafts answers to owner and tenant enquiries, answers the phone, and retrieves the document a question refers to. The manager validates before anything leaves. The company is based in Lyon and states it works with over 200 property administration firms.\n",
+      "description_fr": "Genius est un assistant IA pour les syndics de copropriété et les gestionnaires locatifs. Il constitue une mémoire par immeuble et par lot à partir des documents déjà détenus — contrats, procès-verbaux d'assemblée générale, diagnostics, fils de mails anonymisés, ordres de travaux — puis rédige des réponses aux demandes des propriétaires et locataires, répond au téléphone, et retrouve le document auquel une question fait référence. Le gestionnaire valide avant tout envoi. La société est basée à Lyon et déclare travailler avec plus de 200 cabinets d'administration de biens.\n",
       "real_estate_use": "A block manager holding several dozen buildings gets the same question all week, a copropriétaire asking for the last general meeting minutes, a tenant asking who to call about a leak, and each answer costs a search through years of files. Genius is aimed at that queue: it already carries the building's history, so it drafts the reply with the right attachment and the manager only presses send. The second situation is a handover, when a portfolio moves from one syndic to another or a manager leaves. What normally disappears with the person, who the caretaker is, which contractor did the roof, why the last assembly voted the way it did, stays in the building's memory and the successor picks it up in minutes rather than months.\n",
       "features": [
         "Per-building and per-lot memory built from contracts, minutes and diagnostics",
@@ -826,23 +827,23 @@
         "ai-assistants"
       ],
       "positioning": "The real estate industry's AI-powered recruiting and team management software.",
-      "description": "Humaniz est un logiciel de recrutement et de gestion d'équipe pour les courtages et grandes équipes d'agents immobiliers. Il diffuse les offres sur plus de cent plateformes, source et organise automatiquement le pipeline de candidats, et automatise la paperasse d'intégration d'un nouvel agent. Le produit a été construit par des opérateurs qui ont fait grandir leur propre équipe de 2 à plus de 200 agents avant de commercialiser les outils internes qu'ils avaient développés pour cela.\n",
-      "real_estate_use": "Une équipe qui recrute en continu perd du temps à publier des annonces sur des dizaines de jobboards et à trier des candidatures non qualifiées : Humaniz diffuse l'offre automatiquement et organise le pipeline pour que le recruteur ne traite que les candidats déjà triés, avec des entretiens planifiés automatiquement. Une fois l'agent recruté, le logiciel suit sa progression dans l'onboarding et standardise les étapes, pour qu'un manager de grande équipe (250 agents et plus) n'ait pas à reconstruire le suivi à la main pour chaque nouvelle recrue.\n",
+      "description": "Humaniz is recruiting and team management software for real estate brokerages and large agent teams. It distributes job postings across 100+ platforms, automatically sources and organizes the candidate pipeline, and automates the onboarding paperwork for a new agent. The product was built by operators who grew their own team from 2 to more than 200 agents before commercializing the internal tools they had developed for that purpose.\n",
+      "real_estate_use": "A team that recruits continuously loses time posting listings across dozens of job boards and sorting through unqualified applications: Humaniz distributes the posting automatically and organizes the pipeline so the recruiter only handles candidates already sorted, with interviews scheduled automatically. Once an agent is hired, the software tracks their progress through onboarding and standardizes the steps, so a large-team manager (250+ agents) doesn't have to rebuild the tracking by hand for every new hire.\n",
       "features": [
-        "Diffusion d'offres sur 100+ plateformes",
-        "Sourcing et organisation automatique du pipeline de candidats",
-        "Planification automatisée des entretiens",
-        "Automatisation de la paperasse d'intégration",
-        "Suivi de performance et outils d'évaluation par IA"
+        "Job posting distribution across 100+ platforms",
+        "Automatic candidate sourcing and pipeline organization",
+        "Automated interview scheduling",
+        "Onboarding paperwork automation",
+        "AI-powered performance tracking and evaluation tools"
       ],
       "use_cases": [
         {
           "persona": "brokerage",
-          "job": "Diffuser une offre de recrutement d'agent sur une centaine de plateformes sans le faire manuellement"
+          "job": "Distribute an agent recruiting posting across a hundred platforms without doing it manually"
         },
         {
           "persona": "brokerage",
-          "job": "Suivre la progression d'un nouvel agent dans un parcours d'intégration standardisé"
+          "job": "Track a new agent's progress through a standardized onboarding journey"
         }
       ],
       "personas": [
@@ -862,8 +863,8 @@
       },
       "ai": {
         "capabilities": [
-          "sourcing automatique de candidats",
-          "évaluation de réunions par IA"
+          "automatic candidate sourcing",
+          "AI-powered meeting evaluation"
         ]
       },
       "product": {
@@ -914,6 +915,7 @@
       ],
       "positioning": "AI conversational agent that answers, qualifies and follows up with callers for real estate agencies, networks, syndics and developers, 24/7.",
       "description": "Joe AI is a French AI conversational agent for real estate professionals. It answers, qualifies and follows up with clients across calls, SMS, email and WhatsApp, with a customisable human-sounding voice, for agencies, networks, syndics and developers. The editor states more than 500 clients and hosts the service in France and the EU under GDPR, with no data shared between clients and no training of its models on client conversations.\n",
+      "description_fr": "Joe AI est un agent conversationnel IA français pour les professionnels de l'immobilier. Il répond, qualifie et relance les clients sur les appels, SMS, email et WhatsApp, avec une voix personnalisable à consonance humaine, pour les agences, réseaux, syndics et promoteurs. L'éditeur déclare plus de 500 clients et héberge le service en France et dans l'UE sous RGPD, sans partage de données entre clients ni entraînement de ses modèles sur les conversations clients.\n",
       "real_estate_use": "An agency or syndic receiving a high volume of routine calls — visit requests, general questions, recurring tenant demands — needs those calls answered and pre-qualified around the clock without adding reception staff. Joe AI takes the first contact across phone, SMS, email and WhatsApp, qualifies and routes it, and leaves human teams the advisory, signing and follow-up work.\n",
       "features": [
         "24/7 AI call answering and qualification",
@@ -1095,6 +1097,7 @@
       ],
       "positioning": "A French platform for deploying AI use cases across a real estate or construction company, with European hosting and a per-address data layer.",
       "description": "Keyzia is a French application that lets a real estate or construction company test, deploy and centralise its AI use cases in one place rather than leaving them scattered across individual accounts. It is sold to estate agents, property administrators and syndics, tradespeople and renovators, banks and insurers, and energy actors, each with its own set of prepared uses: preparing a full listing mandate, analysing quotes and invoices, energy diagnosis, risk and green-value assessment. A module called KeyPark holds a portfolio of addresses with the history attached to each property, covering past transactions, works and diagnostics, with notifications when something changes. An interactive map layer adds address-level data for spotting projects on a territory. The vendor states data is hosted in Europe.\n",
+      "description_fr": "Keyzia est une application française qui permet à une entreprise de l'immobilier ou du bâtiment de tester, déployer et centraliser ses cas d'usage IA en un seul endroit plutôt que de les laisser dispersés dans des comptes individuels. Elle est vendue aux agents immobiliers, administrateurs de biens et syndics, artisans et rénovateurs, banques et assureurs, et acteurs de l'énergie, chacun avec son propre jeu d'usages préparés : préparer un mandat de vente complet, analyser des devis et factures, diagnostic énergétique, évaluation du risque et de la valeur verte. Un module appelé KeyPark conserve un portefeuille d'adresses avec l'historique attaché à chaque bien, couvrant les transactions passées, travaux et diagnostics, avec des notifications en cas de changement. Une couche cartographique interactive ajoute des données à l'échelle de l'adresse pour repérer des projets sur un territoire. L'éditeur déclare des données hébergées en Europe.\n",
       "real_estate_use": "The AI problem inside a French agency or syndic is not that nobody uses it, it is that everyone uses it separately, in a personal account, with client data. Keyzia is positioned against exactly that: it puts the prepared use cases in one company tool, integrated where the teams already work, so the practice becomes shared rather than hidden. For an agent, the working moment is preparing a mandate: the property's transaction history, its diagnostics, its past works and its surroundings pulled together in minutes instead of an afternoon of portal-hopping. For a property administrator, it is watching a stock of buildings and anticipating which ones will need renovation work. European hosting is a purchase criterion in this market, not a detail.\n",
       "features": [
         "Centralised catalogue of AI use cases deployable across a company",

@@ -16,6 +16,15 @@ description: >
   document a question refers to. The manager validates before anything leaves. The
   company is based in Lyon and states it works with over 200 property administration
   firms.
+description_fr: >
+  Genius est un assistant IA pour les syndics de copropriété et les gestionnaires
+  locatifs. Il constitue une mémoire par immeuble et par lot à partir des documents
+  déjà détenus — contrats, procès-verbaux d'assemblée générale, diagnostics, fils de
+  mails anonymisés, ordres de travaux — puis rédige des réponses aux demandes des
+  propriétaires et locataires, répond au téléphone, et retrouve le document auquel une
+  question fait référence. Le gestionnaire valide avant tout envoi. La société est
+  basée à Lyon et déclare travailler avec plus de 200 cabinets d'administration de
+  biens.
 real_estate_use: >
   A block manager holding several dozen buildings gets the same question all week, a
   copropriétaire asking for the last general meeting minutes, a tenant asking who to

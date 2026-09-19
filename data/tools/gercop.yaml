@@ -11,6 +11,11 @@ description: >
   Gercop, also part of Septeo, provides syndic, gérance and transaction management for French
   administration de biens: accounting, assemblies, calls for funds, lease management,
   extranets and business reporting, aimed at structures managing large portfolios.
+description_fr: >
+  Gercop, également au sein de Septeo, propose la gestion syndic, gérance et
+  transaction pour les administrateurs de biens français : comptabilité, assemblées,
+  appels de fonds, gestion locative, extranets et reporting d'activité, destinée aux
+  structures qui gèrent de grands portefeuilles.
 real_estate_use: >
   At the scale of tens of thousands of lots across multiple branches, the operational problem
   moves from bookkeeping to organisation: who manages which building, which assemblies fall

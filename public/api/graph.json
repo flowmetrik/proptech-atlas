@@ -4,26 +4,31 @@
   "license": "CC-BY-4.0 (data) / MIT (code)",
   "homepage": "https://flowmetrik.github.io/proptech-atlas",
   "repository": "https://github.com/flowmetrik/proptech-atlas",
-  "generated": "2026-09-18",
+  "generated": "2026-09-19",
   "counts": {
-    "tools": 288,
+    "tools": 293,
     "US": 162,
-    "FR": 156,
+    "FR": 161,
     "categories": 24,
-    "editors": 271,
+    "editors": 276,
     "verified": 0,
     "reviews": 0,
-    "logos": 267,
+    "logos": 270,
     "signals": {
-      "probed": 274,
+      "probed": 279,
       "public_pricing": 69,
       "api_docs": 18,
       "security_page": 33,
-      "privacy_page": 204,
+      "privacy_page": 208,
       "status_page": 66
     }
   },
   "nodes": [
+    {
+      "id": "tool:36-heures-immo",
+      "type": "tool",
+      "label": "36 HEURES iMMO"
+    },
     {
       "id": "tool:aareon",
       "type": "tool",
@@ -108,6 +113,11 @@
       "id": "tool:avail",
       "type": "tool",
       "label": "Avail"
+    },
+    {
+      "id": "tool:avustaja",
+      "type": "tool",
+      "label": "Avustaja"
     },
     {
       "id": "tool:bailfacile",
@@ -215,6 +225,11 @@
       "label": "BulldozAIR"
     },
     {
+      "id": "tool:bunji",
+      "type": "tool",
+      "label": "Bunji"
+    },
+    {
       "id": "tool:butterflymx",
       "type": "tool",
       "label": "ButterflyMX"
@@ -228,6 +243,11 @@
       "id": "tool:cherre",
       "type": "tool",
       "label": "Cherre"
+    },
+    {
+      "id": "tool:chouettecopro",
+      "type": "tool",
+      "label": "ChouetteCopro"
     },
     {
       "id": "tool:cinc-systems",
@@ -268,6 +288,11 @@
       "id": "tool:cloudpano",
       "type": "tool",
       "label": "CloudPano"
+    },
+    {
+      "id": "tool:club-off-market",
+      "type": "tool",
+      "label": "Club Off Market"
     },
     {
       "id": "tool:cobot",
@@ -1710,6 +1735,11 @@
       "label": "France"
     },
     {
+      "id": "editor:Notariat Services",
+      "type": "editor",
+      "label": "Notariat Services"
+    },
+    {
       "id": "editor:Aareon",
       "type": "editor",
       "label": "Aareon"
@@ -1793,6 +1823,11 @@
       "id": "editor:Realtor.com (Move, Inc.)",
       "type": "editor",
       "label": "Realtor.com (Move, Inc.)"
+    },
+    {
+      "id": "editor:Cortus Immo",
+      "type": "editor",
+      "label": "Cortus Immo"
     },
     {
       "id": "editor:BailFacile",
@@ -1895,6 +1930,11 @@
       "label": "BulldozAIR"
     },
     {
+      "id": "editor:Bunji",
+      "type": "editor",
+      "label": "Bunji"
+    },
+    {
       "id": "editor:ButterflyMX, Inc.",
       "type": "editor",
       "label": "ButterflyMX, Inc."
@@ -1908,6 +1948,11 @@
       "id": "editor:Cherre",
       "type": "editor",
       "label": "Cherre"
+    },
+    {
+      "id": "editor:ChouetteCopro",
+      "type": "editor",
+      "label": "ChouetteCopro"
     },
     {
       "id": "editor:CINC Systems",
@@ -1948,6 +1993,11 @@
       "id": "editor:CloudPano",
       "type": "editor",
       "label": "CloudPano"
+    },
+    {
+      "id": "editor:Club Off Market",
+      "type": "editor",
+      "label": "Club Off Market"
     },
     {
       "id": "editor:Cobot",
@@ -3067,6 +3117,41 @@
   ],
   "edges": [
     {
+      "from": "tool:36-heures-immo",
+      "rel": "published_by",
+      "to": "editor:Notariat Services"
+    },
+    {
+      "from": "tool:36-heures-immo",
+      "rel": "belongs_to",
+      "to": "category:portals-marketplaces"
+    },
+    {
+      "from": "tool:36-heures-immo",
+      "rel": "also_serves",
+      "to": "category:transaction-management"
+    },
+    {
+      "from": "tool:36-heures-immo",
+      "rel": "serves_persona",
+      "to": "persona:legal-notary"
+    },
+    {
+      "from": "tool:36-heures-immo",
+      "rel": "serves_persona",
+      "to": "persona:agent-broker"
+    },
+    {
+      "from": "tool:36-heures-immo",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:36-heures-immo",
+      "rel": "available_in",
+      "to": "market:FR"
+    },
+    {
       "from": "tool:aareon",
       "rel": "published_by",
       "to": "editor:Aareon"
@@ -4085,6 +4170,36 @@
       "from": "tool:avail",
       "rel": "alternative_to",
       "to": "tool:rentredi"
+    },
+    {
+      "from": "tool:avustaja",
+      "rel": "published_by",
+      "to": "editor:Cortus Immo"
+    },
+    {
+      "from": "tool:avustaja",
+      "rel": "belongs_to",
+      "to": "category:syndic-copro"
+    },
+    {
+      "from": "tool:avustaja",
+      "rel": "also_serves",
+      "to": "category:diagnostics-compliance"
+    },
+    {
+      "from": "tool:avustaja",
+      "rel": "serves_persona",
+      "to": "persona:syndic-manager"
+    },
+    {
+      "from": "tool:avustaja",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:avustaja",
+      "rel": "available_in",
+      "to": "market:FR"
     },
     {
       "from": "tool:bailfacile",
@@ -5177,6 +5292,31 @@
       "to": "tool:immopad"
     },
     {
+      "from": "tool:bunji",
+      "rel": "published_by",
+      "to": "editor:Bunji"
+    },
+    {
+      "from": "tool:bunji",
+      "rel": "belongs_to",
+      "to": "category:crm-lead"
+    },
+    {
+      "from": "tool:bunji",
+      "rel": "serves_persona",
+      "to": "persona:agent-broker"
+    },
+    {
+      "from": "tool:bunji",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:bunji",
+      "rel": "available_in",
+      "to": "market:FR"
+    },
+    {
       "from": "tool:butterflymx",
       "rel": "published_by",
       "to": "editor:ButterflyMX, Inc."
@@ -5360,6 +5500,31 @@
       "from": "tool:cherre",
       "rel": "alternative_to",
       "to": "tool:costar"
+    },
+    {
+      "from": "tool:chouettecopro",
+      "rel": "published_by",
+      "to": "editor:ChouetteCopro"
+    },
+    {
+      "from": "tool:chouettecopro",
+      "rel": "belongs_to",
+      "to": "category:syndic-copro"
+    },
+    {
+      "from": "tool:chouettecopro",
+      "rel": "serves_persona",
+      "to": "persona:syndic-manager"
+    },
+    {
+      "from": "tool:chouettecopro",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:chouettecopro",
+      "rel": "available_in",
+      "to": "market:FR"
     },
     {
       "from": "tool:cinc-systems",
@@ -5760,6 +5925,46 @@
       "from": "tool:cloudpano",
       "rel": "alternative_to",
       "to": "tool:teliportme"
+    },
+    {
+      "from": "tool:club-off-market",
+      "rel": "published_by",
+      "to": "editor:Club Off Market"
+    },
+    {
+      "from": "tool:club-off-market",
+      "rel": "belongs_to",
+      "to": "category:portals-marketplaces"
+    },
+    {
+      "from": "tool:club-off-market",
+      "rel": "serves_persona",
+      "to": "persona:investor-am"
+    },
+    {
+      "from": "tool:club-off-market",
+      "rel": "serves_persona",
+      "to": "persona:agent-broker"
+    },
+    {
+      "from": "tool:club-off-market",
+      "rel": "serves_persona",
+      "to": "persona:landlord-owner"
+    },
+    {
+      "from": "tool:club-off-market",
+      "rel": "covers_segment",
+      "to": "segment:residential"
+    },
+    {
+      "from": "tool:club-off-market",
+      "rel": "covers_segment",
+      "to": "segment:mixed-use"
+    },
+    {
+      "from": "tool:club-off-market",
+      "rel": "available_in",
+      "to": "market:FR"
     },
     {
       "from": "tool:cobot",

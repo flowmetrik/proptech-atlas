@@ -488,23 +488,24 @@
         "portals-marketplaces"
       ],
       "positioning": "Estimation immobilière gratuite pour particuliers, financée par la mise en relation avec des professionnels partenaires.",
-      "description": "Immo IA est un service gratuit d'estimation immobilière pour particuliers : l'utilisateur décrit un bien et obtient une valeur estimée avec une fourchette, calculée à partir des transactions DVF de la DGFiP et d'une vingtaine d'autres sources publiques, sur les 34 856 communes de France métropolitaine. Le service se finance en mettant en relation, avec l'accord explicite de l'utilisateur, les particuliers avec des professionnels partenaires — agences immobilières, diagnostiqueurs, courtiers en crédit, notaires — qui paient pour recevoir ces contacts qualifiés.\n",
-      "real_estate_use": "Une agence immobilière, un diagnostiqueur ou un courtier en crédit cherche des contacts qualifiés de particuliers en projet de vente, d'achat ou de financement, sans acheter un flux générique. Le professionnel devient partenaire Immo IA et reçoit les demandes de particuliers ayant déjà obtenu une estimation et accepté explicitement d'être mis en relation — un lead pré-qualifié par l'usage du service, pas une adresse achetée à l'aveugle.\n",
+      "description": "Immo IA is a free real estate valuation service for individuals: the user describes a property and gets an estimated value with a range, calculated from DGFiP DVF transactions and about twenty other public sources, across France's 34,856 mainland communes. The service is funded by connecting, with the individual's explicit consent, private sellers and buyers with partner professionals — estate agencies, diagnosticians, mortgage brokers, notaries — who pay to receive these qualified contacts.\n",
+      "description_fr": "Immo IA est un service gratuit d'estimation immobilière pour particuliers : l'utilisateur décrit un bien et obtient une valeur estimée avec une fourchette, calculée à partir des transactions DVF de la DGFiP et d'une vingtaine d'autres sources publiques, sur les 34 856 communes de France métropolitaine. Le service se finance en mettant en relation, avec l'accord explicite de l'utilisateur, les particuliers avec des professionnels partenaires — agences immobilières, diagnostiqueurs, courtiers en crédit, notaires — qui paient pour recevoir ces contacts qualifiés.\n",
+      "real_estate_use": "An estate agency, a diagnostician or a mortgage broker looks for qualified contacts of individuals planning a sale, purchase or financing project, without buying a generic lead flow. The professional becomes an Immo IA partner and receives requests from individuals who have already obtained a valuation and explicitly agreed to be put in touch — a lead pre-qualified by the service's own use, not an address bought blind.\n",
       "features": [
-        "Estimation automatisée à partir des données DVF et d'une vingtaine de sources publiques",
-        "Carte des prix au m² par commune",
-        "Calculateurs frais de notaire, capacité d'emprunt, plus-value, rendement locatif",
-        "Annuaire de professionnels vérifiés par métier",
-        "Mise en relation payante avec accord explicite du particulier"
+        "Automated valuation from DVF data and about twenty public sources",
+        "Price-per-square-meter map by commune",
+        "Notary fee, borrowing capacity, capital gain and rental yield calculators",
+        "Directory of professionals verified by trade",
+        "Paid introduction with the individual's explicit consent"
       ],
       "use_cases": [
         {
           "persona": "agent-broker",
-          "job": "Recevoir des contacts de particuliers ayant déjà obtenu une estimation de leur bien"
+          "job": "Receive contacts from individuals who have already obtained a valuation of their property"
         },
         {
           "persona": "lender-broker",
-          "job": "Recevoir des demandes de financement qualifiées issues de la plateforme particuliers"
+          "job": "Receive qualified financing requests from the consumer-facing platform"
         }
       ],
       "personas": [
@@ -525,7 +526,7 @@
       },
       "ai": {
         "capabilities": [
-          "Modèle d'estimation entraîné sur les transactions DVF et données publiques complémentaires"
+          "Valuation model trained on DVF transactions and complementary public data"
         ]
       },
       "product": {

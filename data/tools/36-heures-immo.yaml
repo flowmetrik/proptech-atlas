@@ -1,0 +1,54 @@
+slug: 36-heures-immo
+name: 36 HEURES iMMO
+editor: Notariat Services
+website: https://www.36heures.immo
+hq_country: FR
+markets: [FR]
+category: portals-marketplaces
+also_in: [transaction-management]
+positioning: "France's interactive property sale platform, notary-backed for more than 15 years."
+description: >
+  36 HEURES iMMO is a French interactive property sale platform: a listing goes live
+  at a transparent starting price, buyers submit non-binding offers online over a set
+  window, and the seller freely chooses which offer to accept, with a notary
+  finalizing the sale. Backed by the Notariat Services group for more than 15 years,
+  it charges buyers no acquisition fees and integrates with the notarial profession's
+  own listing software.
+real_estate_use: >
+  A seller worried about underpricing a property, or a notarial office wanting price
+  discovery without a drawn-out negotiation, lists through 36 HEURES iMMO instead of a
+  fixed-price listing: buyers compete openly on price within a short window, and the
+  seller reviews every offer before choosing one. For an agency or notarial office
+  already using Immonot Pro Premium, the listing syncs automatically instead of
+  requiring double entry.
+features:
+  - "Transparent starting price with online, non-binding buyer offers"
+  - Time-boxed competitive offer window per listing
+  - Free choice of accepted offer by the seller
+  - No acquisition fees charged to buyers
+  - Notary-finalized transactions
+  - Integration with Immonot Pro Premium notarial software
+use_cases:
+  - persona: legal-notary
+    job: Run price discovery on a listing through competing online offers instead of a single negotiation
+  - persona: agent-broker
+    job: List a property through a partner interactive sale process without double-entering it in a separate tool
+personas: [legal-notary, agent-broker]
+segments: [residential]
+company_sizes: [solo, smb, midmarket]
+pricing:
+  model: quote
+  public_pricing: false
+product:
+  api: false
+  open_source: false
+  mobile: []
+  languages: [fr]
+reviews: []
+signals:
+  site_languages: [fr]
+  checked_on: "2026-09-19"
+sources:
+  - { url: https://www.36heures.immo, note: site éditeur — accueil }
+verification: { status: unverified, checked_on: null, checked_by: null }
+updated: "2026-09-19"

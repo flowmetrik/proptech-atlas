@@ -1,0 +1,85 @@
+{
+  "slug": "avustaja",
+  "name": "Avustaja",
+  "editor": "Cortus Immo",
+  "website": "https://www.avustaja.space",
+  "hq_country": "FR",
+  "markets": [
+    "FR"
+  ],
+  "category": "syndic-copro",
+  "also_in": [
+    "diagnostics-compliance"
+  ],
+  "positioning": "The AI copilot for a property manager's building visits, from note-taking to the final report.",
+  "description": "Avustaja, published by Cortus Immo, is an AI copilot for property managers' on-site building visits. A manager captures a visit freely — photos, typed notes, or dictated audio transcription — with no imposed template, then the AI structures the findings into categories and generates a formatted, shareable visit report in minutes. It covers contractual visits, works follow-up and delivery inspections, and site-damage assessments.\n",
+  "real_estate_use": "A syndic manager who visits dozens of buildings a month loses hours writing up each visit afterward from scattered phone photos and notes. Avustaja lets the manager capture the visit on-site in any order, then has the AI turn that raw capture into a structured, categorized report ready to send to co-owners and providers the same day rather than the following week.\n",
+  "features": [
+    "Untemplated on-site capture — photos, notes, dictated audio transcription",
+    "AI-generated structured visit report by category",
+    "Editable report before final validation",
+    "Covers contractual visits, works follow-up and delivery inspections, and damage assessments",
+    "Centralized dashboard of all visits performed"
+  ],
+  "use_cases": [
+    {
+      "persona": "syndic-manager",
+      "job": "Turn a freeform on-site building visit into a structured, shareable report the same day"
+    },
+    {
+      "persona": "syndic-manager",
+      "job": "Track works follow-up and delivery inspections across a portfolio of buildings"
+    }
+  ],
+  "personas": [
+    "syndic-manager"
+  ],
+  "segments": [
+    "residential"
+  ],
+  "company_sizes": [
+    "smb",
+    "midmarket"
+  ],
+  "pricing": {
+    "model": "subscription",
+    "public_pricing": false
+  },
+  "product": {
+    "api": false,
+    "open_source": false,
+    "mobile": [],
+    "languages": [
+      "fr"
+    ]
+  },
+  "reviews": [],
+  "logo": {
+    "file": "logos/avustaja.png",
+    "source_url": "https://www.avustaja.space/web/image/website/1/favicon?unique=cd10819",
+    "fetched_on": "2026-09-19"
+  },
+  "signals": {
+    "privacy": "https://www.avustaja.space/privacy",
+    "site_languages": [
+      "fr"
+    ],
+    "checked_on": "2026-09-19"
+  },
+  "sources": [
+    {
+      "url": "https://www.avustaja.space/notresolution",
+      "note": "site éditeur — page solution"
+    },
+    {
+      "url": "https://www.avustaja.space/",
+      "note": "site éditeur — accueil"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "checked_on": null,
+    "checked_by": null
+  },
+  "updated": "2026-09-19"
+}

@@ -14,6 +14,13 @@ description: >
   and developers. The editor states more than 500 clients and hosts the service in
   France and the EU under GDPR, with no data shared between clients and no training of
   its models on client conversations.
+description_fr: >
+  Joe AI est un agent conversationnel IA français pour les professionnels de
+  l'immobilier. Il répond, qualifie et relance les clients sur les appels, SMS, email
+  et WhatsApp, avec une voix personnalisable à consonance humaine, pour les agences,
+  réseaux, syndics et promoteurs. L'éditeur déclare plus de 500 clients et héberge le
+  service en France et dans l'UE sous RGPD, sans partage de données entre clients ni
+  entraînement de ses modèles sur les conversations clients.
 real_estate_use: >
   An agency or syndic receiving a high volume of routine calls — visit requests,
   general questions, recurring tenant demands — needs those calls answered and

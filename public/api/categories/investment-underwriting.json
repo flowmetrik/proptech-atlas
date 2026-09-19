@@ -442,6 +442,7 @@
       ],
       "positioning": "Rental investment analysis for the French private investor — yield, tax regime and cash flow before the offer is made.",
       "description": "Horiz.io provides French rental investors with property analysis and simulation: gross and net yield calculation, comparison of tax regimes for furnished and unfurnished letting, financing and cash flow projection, plus portfolio tracking after acquisition.\n",
+      "description_fr": "Horiz.io propose aux investisseurs locatifs français l'analyse et la simulation de biens : calcul de rendement brut et net, comparaison des régimes fiscaux en location nue et meublée, projection de financement et de trésorerie, ainsi que le suivi du patrimoine après acquisition.\n",
       "real_estate_use": "In France the tax regime often decides whether an investment works — the same apartment can be cash-flow negative unfurnished and positive under a furnished regime with amortisation. Comparing those scenarios by hand is where private investors get it wrong. Horiz models them side by side before the offer, and then tracks the actual result afterwards.\n",
       "features": [
         "Gross, net and net-of-tax yield calculation",

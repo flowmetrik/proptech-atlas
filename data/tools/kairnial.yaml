@@ -10,6 +10,11 @@ description: >
   Kairnial is a collaborative platform for construction and asset lifecycle: controlled
   document management with versioning and approval circuits, site quality and snagging,
   safety and compliance records, BIM model consultation, and structured handover packages.
+description_fr: >
+  Kairnial est une plateforme collaborative pour la construction et le cycle de vie
+  des actifs : gestion documentaire maîtrisée avec versioning et circuits de
+  validation, qualité de chantier et levée de réserves, registres sécurité et
+  conformité, consultation de maquettes BIM, et dossiers de remise structurés.
 real_estate_use: >
   On a large French project the governing risk is documentary: which version of a plan was
   approved, who validated it, and what evidence exists that a reserve was lifted. Kairnial

@@ -15,6 +15,7 @@
   "founded": 2012,
   "positioning": "Digital property inspections on tablet — état des lieux, delivery snagging and periodic visits in one app.",
   "description": "Immopad is a French application for property inspections: entry and exit état des lieux, new-build delivery snagging, periodic visits and works acceptance, captured on tablet or phone with photos, signed on the spot and produced as a report.\n",
+  "description_fr": "Immopad est une application française pour les états des lieux : entrée et sortie de location, réserves de livraison de biens neufs, visites périodiques et réception de travaux, saisis sur tablette ou téléphone avec photos, signés sur place et restitués sous forme de rapport.\n",
   "real_estate_use": "The état des lieux is the document a deposit dispute turns on, and a paper one written in ballpoint rarely survives it. Capturing room by room with dated photographs and an on-the-spot signature changes the evidentiary position entirely. The same capture engine is used by developers for delivery snagging, where the list of reserves has the same contentious quality.\n",
   "features": [
     "Entry and exit état des lieux with photo evidence",

@@ -11,6 +11,11 @@ description: >
   Graneet is a French SaaS for building and public works companies: quotes and bills of
   quantities, progress-based billing, purchase and subcontract tracking, site cost
   monitoring, cash flow forecasting and profitability analysis per site.
+description_fr: >
+  Graneet est un SaaS français pour les entreprises du bâtiment et des travaux publics :
+  devis et métrés, facturation à l'avancement, suivi des achats et de la
+  sous-traitance, suivi des coûts de chantier, prévision de trésorerie et analyse de
+  rentabilité par chantier.
 real_estate_use: >
   Construction firms in France bill by situation de travaux — a periodic statement of work
   completed — and their margin is decided by the gap between the estimate and the actual site

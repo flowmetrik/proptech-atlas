@@ -2,6 +2,18 @@
   "_lisez_moi": "Logos écartés APRÈS avoir été regardés par un humain. logos.mjs récupère la meilleure image candidate d'un site ; il ne sait pas distinguer un logo d'un visuel décoratif, et sans cette liste il réadopte le même faux à chaque passe. Une entrée dit le slug, ce qui avait été récupéré, et pourquoi ça n'allait pas. `--all` ne la contourne pas : c'est un jugement, pas un cache.",
   "refuses": [
     {
+      "slug": "bunji",
+      "source_url": "https://cdn.prod.website-files.com/63cf9bb3a2891b47ad7ed0f1/63ea4b160882683fc30bc1d0_bunji-kanban-banner.png",
+      "why": "une bannière marketing montrant une capture d'écran du pipeline kanban — pas un logo. Aucun autre candidat exploitable trouvé sur l'accueil ; fiche laissée sans logo.",
+      "on": "2026-09-19"
+    },
+    {
+      "slug": "36-heures-immo",
+      "source_url": "https://cdn.prod.website-files.com/6889d4eedcf21dfe7f91026f/688a0f8b53f3505e646efc97_36heures_logo-blanc.png",
+      "why": "la variante « pour fond sombre » du logo, en blanc — rendu entièrement invisible une fois aplati sur le fond blanc du gabarit. Même piège que celui documenté le 08/09 sur engrain. Aucun autre candidat exploitable trouvé ; fiche laissée sans logo.",
+      "on": "2026-09-19"
+    },
+    {
       "slug": "access-com",
       "source_url": "https://access.com/app/themes/access-landing-page/assets/images/redesign/base/access-logo-accent.png",
       "why": "un accent décoratif du hero, pas le logo — rendu entièrement invisible une fois aplati sur blanc (une seule couleur après flatten). L'autre candidat, header__logo (access-logo-com.png), rend le même résultat : blanc invisible sur blanc. Aucune image de marque exploitable trouvée ; fiche laissée sans logo.",

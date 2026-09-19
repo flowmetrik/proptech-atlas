@@ -10,6 +10,7 @@
   "category": "diagnostics-compliance",
   "positioning": "The CRM built for real estate diagnosticians to run their business, not just their reports.",
   "description": "Gestion Diag is a cloud CRM and back-office platform for French property diagnosticians (diagnostiqueurs immobiliers). It centralizes appointment booking, quoting, invoicing and client/referrer relationship management around each regulatory diagnostic assignment (DPE, asbestos, lead, energy audit, ERP).\n",
+  "description_fr": "Gestion Diag est un CRM et back-office en cloud pour les diagnostiqueurs immobiliers français. Il centralise la prise de rendez-vous, les devis, la facturation et la gestion de la relation client et apporteur autour de chaque mission de diagnostic réglementaire (DPE, amiante, plomb, audit énergétique, ERP).\n",
   "real_estate_use": "A diagnostician or diagnostic firm uses Gestion Diag to book site visits, generate quotes and invoices automatically, and track dossiers opened by referring real estate agencies or notaries. Referrers get their own portal to order an ERP report or book a slot without calling the office, and to see which files are stuck waiting on missing documents or payment.\n",
   "features": [
     "Online booking synced with Google Calendar",

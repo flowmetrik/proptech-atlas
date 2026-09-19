@@ -10,6 +10,7 @@
   "category": "construction-development",
   "positioning": "Construction document control and site quality for large French projects, with the traceability an owner needs at handover.",
   "description": "Kairnial is a collaborative platform for construction and asset lifecycle: controlled document management with versioning and approval circuits, site quality and snagging, safety and compliance records, BIM model consultation, and structured handover packages.\n",
+  "description_fr": "Kairnial est une plateforme collaborative pour la construction et le cycle de vie des actifs : gestion documentaire maîtrisée avec versioning et circuits de validation, qualité de chantier et levée de réserves, registres sécurité et conformité, consultation de maquettes BIM, et dossiers de remise structurés.\n",
   "real_estate_use": "On a large French project the governing risk is documentary: which version of a plan was approved, who validated it, and what evidence exists that a reserve was lifted. Kairnial organises that chain — the visa circuit, the dated observation, the signed lift — so the handover file is defensible and the operator inherits usable data rather than a hard drive.\n",
   "features": [
     "Controlled document management with visa and approval circuits",

@@ -10,6 +10,11 @@ description: >
   Gererseul provides French private landlords with lease creation, rent call and receipt
   generation, payment and arrears tracking, charge regularisation, indexation, and document
   templates for the standard events of a tenancy.
+description_fr: >
+  Gererseul propose aux bailleurs privés français la création du bail, la génération
+  des appels et quittances de loyer, le suivi des paiements et des impayés, la
+  régularisation des charges, l'indexation, et des modèles de documents pour les
+  événements courants d'une location.
 real_estate_use: >
   Self-management fails on the events, not on the routine: the annual IRL indexation letter,
   the charge regularisation, the notice given in the correct form and delay. Gererseul's

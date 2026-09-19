@@ -10,6 +10,7 @@
   "category": "property-management",
   "positioning": "Software for the landlord who has decided not to hire an agency — and needs the paperwork to be right anyway.",
   "description": "Gererseul provides French private landlords with lease creation, rent call and receipt generation, payment and arrears tracking, charge regularisation, indexation, and document templates for the standard events of a tenancy.\n",
+  "description_fr": "Gererseul propose aux bailleurs privés français la création du bail, la génération des appels et quittances de loyer, le suivi des paiements et des impayés, la régularisation des charges, l'indexation, et des modèles de documents pour les événements courants d'une location.\n",
   "real_estate_use": "Self-management fails on the events, not on the routine: the annual IRL indexation letter, the charge regularisation, the notice given in the correct form and delay. Gererseul's value is the template and the calendar around those moments, so a landlord does not discover a procedural defect at the tribunal.\n",
   "features": [
     "Lease creation with the applicable French regime",

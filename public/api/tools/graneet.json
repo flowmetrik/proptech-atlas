@@ -13,6 +13,7 @@
   ],
   "positioning": "Management software for French construction firms, built around the progress statement rather than the invoice.",
   "description": "Graneet is a French SaaS for building and public works companies: quotes and bills of quantities, progress-based billing, purchase and subcontract tracking, site cost monitoring, cash flow forecasting and profitability analysis per site.\n",
+  "description_fr": "Graneet est un SaaS français pour les entreprises du bâtiment et des travaux publics : devis et métrés, facturation à l'avancement, suivi des achats et de la sous-traitance, suivi des coûts de chantier, prévision de trésorerie et analyse de rentabilité par chantier.\n",
   "real_estate_use": "Construction firms in France bill by situation de travaux — a periodic statement of work completed — and their margin is decided by the gap between the estimate and the actual site cost. Graneet keeps both in one place, so a site foreman's committed purchases are visible against the quoted budget before the loss is realised at closing.\n",
   "features": [
     "Quotes and bills of quantities with libraries",

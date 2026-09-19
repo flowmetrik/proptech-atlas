@@ -12,23 +12,23 @@
     "ai-assistants"
   ],
   "positioning": "The real estate industry's AI-powered recruiting and team management software.",
-  "description": "Humaniz est un logiciel de recrutement et de gestion d'équipe pour les courtages et grandes équipes d'agents immobiliers. Il diffuse les offres sur plus de cent plateformes, source et organise automatiquement le pipeline de candidats, et automatise la paperasse d'intégration d'un nouvel agent. Le produit a été construit par des opérateurs qui ont fait grandir leur propre équipe de 2 à plus de 200 agents avant de commercialiser les outils internes qu'ils avaient développés pour cela.\n",
-  "real_estate_use": "Une équipe qui recrute en continu perd du temps à publier des annonces sur des dizaines de jobboards et à trier des candidatures non qualifiées : Humaniz diffuse l'offre automatiquement et organise le pipeline pour que le recruteur ne traite que les candidats déjà triés, avec des entretiens planifiés automatiquement. Une fois l'agent recruté, le logiciel suit sa progression dans l'onboarding et standardise les étapes, pour qu'un manager de grande équipe (250 agents et plus) n'ait pas à reconstruire le suivi à la main pour chaque nouvelle recrue.\n",
+  "description": "Humaniz is recruiting and team management software for real estate brokerages and large agent teams. It distributes job postings across 100+ platforms, automatically sources and organizes the candidate pipeline, and automates the onboarding paperwork for a new agent. The product was built by operators who grew their own team from 2 to more than 200 agents before commercializing the internal tools they had developed for that purpose.\n",
+  "real_estate_use": "A team that recruits continuously loses time posting listings across dozens of job boards and sorting through unqualified applications: Humaniz distributes the posting automatically and organizes the pipeline so the recruiter only handles candidates already sorted, with interviews scheduled automatically. Once an agent is hired, the software tracks their progress through onboarding and standardizes the steps, so a large-team manager (250+ agents) doesn't have to rebuild the tracking by hand for every new hire.\n",
   "features": [
-    "Diffusion d'offres sur 100+ plateformes",
-    "Sourcing et organisation automatique du pipeline de candidats",
-    "Planification automatisée des entretiens",
-    "Automatisation de la paperasse d'intégration",
-    "Suivi de performance et outils d'évaluation par IA"
+    "Job posting distribution across 100+ platforms",
+    "Automatic candidate sourcing and pipeline organization",
+    "Automated interview scheduling",
+    "Onboarding paperwork automation",
+    "AI-powered performance tracking and evaluation tools"
   ],
   "use_cases": [
     {
       "persona": "brokerage",
-      "job": "Diffuser une offre de recrutement d'agent sur une centaine de plateformes sans le faire manuellement"
+      "job": "Distribute an agent recruiting posting across a hundred platforms without doing it manually"
     },
     {
       "persona": "brokerage",
-      "job": "Suivre la progression d'un nouvel agent dans un parcours d'intégration standardisé"
+      "job": "Track a new agent's progress through a standardized onboarding journey"
     }
   ],
   "personas": [
@@ -48,8 +48,8 @@
   },
   "ai": {
     "capabilities": [
-      "sourcing automatique de candidats",
-      "évaluation de réunions par IA"
+      "automatic candidate sourcing",
+      "AI-powered meeting evaluation"
     ]
   },
   "product": {

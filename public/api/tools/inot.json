@@ -10,6 +10,7 @@
   "category": "title-closing-legal",
   "positioning": "The notarial software published from inside the profession's own technical body.",
   "description": "iNot is a suite for French notarial offices published by ADNOV, the technology subsidiary of the notariat's own infrastructure group: deed and file production, office management, accounting, and connection to the profession's shared services and registers.\n",
+  "description_fr": "iNot est une suite pour les études notariales françaises éditée par ADNOV, la filiale technologique du groupe d'infrastructure propre au notariat : production d'actes et de dossiers, gestion de l'étude, comptabilité, et connexion aux services mutualisés et registres de la profession.\n",
   "real_estate_use": "Its distinguishing characteristic is proximity to the profession's central infrastructure — the registers, the secure exchange network and the electronic authentic deed. For an office, that means the chain from drafting to registration stays within one technical ecosystem rather than crossing vendor boundaries at each step.\n",
   "features": [
     "Notarial deed and file production",
